@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-14 02:25+0200\n"
-"PO-Revision-Date: 2020-09-09 02:14+0200\n"
+"POT-Creation-Date: 2020-11-14 02:34+0100\n"
+"PO-Revision-Date: 2020-11-07 16:01+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -16,19 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 20.08.1\n"
 
-#: filemenu.cpp:120 package/contents/ui/JobItem.qml:222
+#: filemenu.cpp:127 package/contents/ui/JobItem.qml:220
 #, kde-format
 msgid "Open Containing Folder"
 msgstr "Mở thư mục chứa"
 
-#: filemenu.cpp:133
+#: filemenu.cpp:140
 #, kde-format
 msgid "&Copy"
 msgstr "&Chép"
 
-#: filemenu.cpp:144
+#: filemenu.cpp:189
 #, kde-format
 msgid "Properties"
 msgstr "Thuộc tính"
@@ -98,68 +98,68 @@ msgstr "Đến thứ Hai"
 
 #: package/contents/ui/FullRepresentation.qml:164
 #, kde-format
-msgid "Until turned off"
-msgstr "Đến khi tắt"
+msgid "Until manually disabled"
+msgstr "Đến khi bị tắt thủ công"
 
-#: package/contents/ui/FullRepresentation.qml:191
+#: package/contents/ui/FullRepresentation.qml:184
 #: package/contents/ui/main.qml:173
 #, kde-format
 msgid "Clear History"
-msgstr "Xoá lịch sử"
+msgstr "Làm trống lịch sử"
 
-#: package/contents/ui/FullRepresentation.qml:216
+#: package/contents/ui/FullRepresentation.qml:209
 #, kde-format
 msgctxt "Do not disturb until date"
 msgid "Until %1"
 msgstr "Đến %1"
 
-#: package/contents/ui/FullRepresentation.qml:229
+#: package/contents/ui/FullRepresentation.qml:222
 #, kde-format
 msgctxt "Do not disturb until app has finished (reason)"
 msgid "While %1 is active (%2)"
 msgstr "Khi %1 còn hoạt động (%2)"
 
-#: package/contents/ui/FullRepresentation.qml:231
+#: package/contents/ui/FullRepresentation.qml:224
 #, kde-format
 msgctxt "Do not disturb until app has finished"
 msgid "While %1 is active"
 msgstr "Khi %1 còn hoạt động"
 
-#: package/contents/ui/FullRepresentation.qml:237
+#: package/contents/ui/FullRepresentation.qml:230
 #, kde-format
 msgctxt "Do not disturb because external mirrored screens connected"
 msgid "Screens are mirrored"
 msgstr "Màn hình đang được phản chiếu"
 
-#: package/contents/ui/FullRepresentation.qml:416
+#: package/contents/ui/FullRepresentation.qml:409
 #, kde-format
 msgid "Close Group"
 msgstr "Đóng nhóm"
 
-#: package/contents/ui/FullRepresentation.qml:547
+#: package/contents/ui/FullRepresentation.qml:540
 #, kde-format
 msgid "Show Fewer"
 msgstr "Hiện ít hơn"
 
-#: package/contents/ui/FullRepresentation.qml:549
+#: package/contents/ui/FullRepresentation.qml:542
 #, kde-format
 msgctxt "Expand to show n more notifications"
 msgid "Show %1 More"
 msgstr "Hiện thêm %1"
 
-#: package/contents/ui/FullRepresentation.qml:574
+#: package/contents/ui/FullRepresentation.qml:567
 #: package/contents/ui/main.qml:88
 #, kde-format
 msgid "No unread notifications"
 msgstr "Không có thông báo nào chưa đọc"
 
-#: package/contents/ui/FullRepresentation.qml:588
+#: package/contents/ui/FullRepresentation.qml:581
 #: package/contents/ui/main.qml:65
 #, kde-format
 msgid "Notification service not available"
 msgstr "Dịch vụ thông báo không khả dụng"
 
-#: package/contents/ui/FullRepresentation.qml:600
+#: package/contents/ui/FullRepresentation.qml:593
 #, kde-format
 msgctxt "Vendor and product name"
 msgid "Notifications are currently provided by '%1 %2'"
@@ -182,7 +182,7 @@ msgstr "%2 trong %1"
 msgctxt "How many files have been copied"
 msgid "%2 of %1 file"
 msgid_plural "%2 of %1 files"
-msgstr[0] "%2 trong %1 tập tin"
+msgstr[0] "%2 trong %1 tệp"
 
 #: package/contents/ui/JobDetails.qml:127
 #, kde-format
@@ -202,7 +202,7 @@ msgstr[0] "%2 trong %1 mục"
 #, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
-msgstr[0] "%1 tập tin"
+msgstr[0] "%1 tệp"
 
 #: package/contents/ui/JobDetails.qml:140
 #, kde-format
@@ -222,45 +222,46 @@ msgctxt "Bytes per second"
 msgid "%1/s"
 msgstr "%1/giây"
 
-#: package/contents/ui/JobItem.qml:144
+#: package/contents/ui/JobItem.qml:142
 #, kde-format
 msgctxt "Pause running job"
 msgid "Pause"
 msgstr "Tạm dừng"
 
-#: package/contents/ui/JobItem.qml:154
+#: package/contents/ui/JobItem.qml:152
 #, kde-format
 msgctxt "Cancel running job"
 msgid "Cancel"
 msgstr "Huỷ"
 
-#: package/contents/ui/JobItem.qml:165
+#: package/contents/ui/JobItem.qml:163
 #, kde-format
 msgctxt "A button tooltip; hides item details"
 msgid "Hide Details"
 msgstr "Ẩn chi tiết"
 
-#: package/contents/ui/JobItem.qml:166
+#: package/contents/ui/JobItem.qml:164
 #, kde-format
 msgctxt "A button tooltip; expands the item to show details"
 msgid "Show Details"
 msgstr "Hiện chi tiết"
 
-#: package/contents/ui/JobItem.qml:207 package/contents/ui/ThumbnailStrip.qml:159
+#: package/contents/ui/JobItem.qml:205
+#: package/contents/ui/ThumbnailStrip.qml:159
 #, kde-format
 msgid "More Options..."
 msgstr "Lựa chọn thêm..."
 
-#: package/contents/ui/JobItem.qml:223
+#: package/contents/ui/JobItem.qml:221
 #, kde-format
 msgid "Open"
 msgstr "Mở"
 
-#: package/contents/ui/JobItem.qml:233
+#: package/contents/ui/JobItem.qml:231
 #, kde-format
 msgctxt "Resume paused job"
 msgid "Resume"
-msgstr "Tiếp tục"
+msgstr "Tiếp tục trở lại"
 
 #: package/contents/ui/main.qml:61
 #, kde-format
@@ -284,97 +285,100 @@ msgstr "Đừng làm phiền đến %1"
 msgid "&Configure Event Notifications and Actions..."
 msgstr "&Cấu hình thông báo và hành động của sự kiện..."
 
-#: package/contents/ui/NotificationHeader.qml:129
+#: package/contents/ui/NotificationHeader.qml:131
 #, kde-format
 msgctxt "Notification was added minutes ago, keep short"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
 msgstr[0] "%1 phút trước"
 
-#: package/contents/ui/NotificationHeader.qml:163
+#: package/contents/ui/NotificationHeader.qml:165
 #, kde-format
 msgctxt "seconds remaining, keep short"
 msgid "%1 s remaining"
 msgid_plural "%1 s remaining"
 msgstr[0] "Còn %1 giây"
 
-#: package/contents/ui/NotificationHeader.qml:167
+#: package/contents/ui/NotificationHeader.qml:169
 #, kde-format
 msgctxt "minutes remaining, keep short"
 msgid "%1 min remaining"
 msgid_plural "%1 min remaining"
 msgstr[0] "Còn %1 phút"
 
-#: package/contents/ui/NotificationHeader.qml:172
+#: package/contents/ui/NotificationHeader.qml:174
 #, kde-format
 msgctxt "hours remaining, keep short"
 msgid "%1 h remaining"
 msgid_plural "%1 h remaining"
 msgstr[0] "Còn %1 giờ"
 
-#: package/contents/ui/NotificationHeader.qml:197
+#: package/contents/ui/NotificationHeader.qml:199
 #, kde-format
 msgid "Configure"
 msgstr "Cấu hình"
 
-#: package/contents/ui/NotificationHeader.qml:209
+#: package/contents/ui/NotificationHeader.qml:211
 #, kde-format
 msgctxt "Opposite of minimize"
 msgid "Restore"
 msgstr "Mở lại"
 
-#: package/contents/ui/NotificationHeader.qml:210
+#: package/contents/ui/NotificationHeader.qml:212
 #, kde-format
 msgid "Minimize"
 msgstr "Thu nhỏ"
 
-#: package/contents/ui/NotificationHeader.qml:222
+#: package/contents/ui/NotificationHeader.qml:224
 #, kde-format
 msgid "Close"
 msgstr "Đóng"
 
-#: package/contents/ui/NotificationItem.qml:186
+#: package/contents/ui/NotificationItem.qml:193
 #, kde-format
 msgctxt "Job name, e.g. Copying is paused"
 msgid "%1 (Paused)"
 msgstr "%1 (tạm dừng)"
 
-#: package/contents/ui/NotificationItem.qml:191
+#: package/contents/ui/NotificationItem.qml:198
 #, kde-format
 msgctxt "Job name, e.g. Copying has failed"
 msgid "%1 (Failed)"
 msgstr "%1 (Thất bại)"
 
-#: package/contents/ui/NotificationItem.qml:193
+#: package/contents/ui/NotificationItem.qml:200
 #, kde-format
 msgid "Job Failed"
 msgstr "Công việc thất bại"
 
-#: package/contents/ui/NotificationItem.qml:197
+#: package/contents/ui/NotificationItem.qml:204
 #, kde-format
 msgctxt "Job name, e.g. Copying has finished"
 msgid "%1 (Finished)"
 msgstr "%1 (Xong)"
 
-#: package/contents/ui/NotificationItem.qml:199
+#: package/contents/ui/NotificationItem.qml:206
 #, kde-format
 msgid "Job Finished"
 msgstr "Công việc xong"
 
-#: package/contents/ui/NotificationItem.qml:357
+#: package/contents/ui/NotificationItem.qml:363
 #, kde-format
 msgctxt "Reply to message"
 msgid "Reply"
 msgstr "Hồi đáp"
 
-#: package/contents/ui/NotificationReplyField.qml:49
+#: package/contents/ui/NotificationReplyField.qml:50
 #, kde-format
 msgctxt "Text field placeholder"
 msgid "Type a reply..."
 msgstr "Viết lời hồi đáp..."
 
-#: package/contents/ui/NotificationReplyField.qml:69
+#: package/contents/ui/NotificationReplyField.qml:70
 #, kde-format
 msgctxt "@action:button"
 msgid "Send"
 msgstr "Gửi"
+
+#~ msgid "Until turned off"
+#~ msgstr "Đến khi tắt"
