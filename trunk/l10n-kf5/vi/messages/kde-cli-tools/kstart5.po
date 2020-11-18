@@ -1,0 +1,210 @@
+# Vietnamese translation for kstart.
+# Copyright © 2007 KDE i18n Project for Vietnamese.
+#
+# Nguyễn Hưng Vũ <Vu.Hung@techviet.com>, 2002.
+# Phan Vĩnh Thịnh <teppi82@gmail.com>, 2006.
+# Lê Hoàng Phương <herophuong93@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-05-31 18:12+0200\n"
+"PO-Revision-Date: 2013-01-07 10:36+0800\n"
+"Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
+"Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lê Hoàng Phương"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "herophuong93@gmail.com"
+
+#: kstart.cpp:319
+#, kde-format
+msgid "KStart"
+msgstr "KStart"
+
+#: kstart.cpp:320
+#, kde-format
+msgid ""
+"Utility to launch applications with special window properties \n"
+"such as iconified, maximized, a certain virtual desktop, a special "
+"decoration\n"
+"and so on."
+msgstr ""
+"Tiện ích để khởi chạy chương trình với các thuộc tính cửa sổ đặc biệt \n"
+"như thu vào biểu tượng, phóng đại, lên màn hình ảo xác định, trang trí đặc "
+"biệt v.v..."
+
+#: kstart.cpp:325
+#, kde-format
+msgid "(C) 1997-2000 Matthias Ettrich (ettrich@kde.org)"
+msgstr "(C) 1997-2000 Matthias Ettrich (ettrich@kde.org)"
+
+#: kstart.cpp:327
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: kstart.cpp:328
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: kstart.cpp:329
+#, kde-format
+msgid "Richard J. Moore"
+msgstr "Richard J. Moore"
+
+#: kstart.cpp:334
+#, kde-format
+msgid "Command to execute"
+msgstr "Lệnh sẽ thực hiện"
+
+#: kstart.cpp:336
+#, fuzzy, kde-format
+#| msgid ""
+#| "Alternative to <command>: desktop file to start. D-Bus service will be "
+#| "printed to stdout"
+msgid ""
+"Alternative to <command>: desktop file path to start. D-Bus service will be "
+"printed to stdout. Deprecated: use --application"
+msgstr ""
+"Thay thế cho <command>: tệp desktop để khởi động. Dịch vụ D-Bus sẽ được hiển "
+"thị ở đầu ra tiêu chuẩn (stdout)"
+
+#: kstart.cpp:337
+#, fuzzy, kde-format
+#| msgid ""
+#| "Alternative to <command>: desktop file to start. D-Bus service will be "
+#| "printed to stdout"
+msgid "Alternative to <command>: desktop file to start."
+msgstr ""
+"Thay thế cho <command>: tệp desktop để khởi động. Dịch vụ D-Bus sẽ được hiển "
+"thị ở đầu ra tiêu chuẩn (stdout)"
+
+#: kstart.cpp:338
+#, kde-format
+msgid "Optional URL to pass <desktopfile>, when using --service"
+msgstr "URL tuỳ chọn để gửi cho <desktopfile>, khi sử dụng --service"
+
+#: kstart.cpp:340
+#, kde-format
+msgid "A regular expression matching the window title"
+msgstr "Một biểu thức chính quy tương ứng với tiêu đề cửa sổ"
+
+#: kstart.cpp:342
+#, kde-format
+msgid ""
+"A string matching the window class (WM_CLASS property)\n"
+"The window class can be found out by running\n"
+"'xprop | grep WM_CLASS' and clicking on a window\n"
+"(use either both parts separated by a space or only the right part).\n"
+"NOTE: If you specify neither window title nor window class,\n"
+"then the very first window to appear will be taken;\n"
+"omitting both options is NOT recommended."
+msgstr ""
+"Một chuỗi tương ứng với dạng cửa sổ (thuộc tính WM_CLASS).\n"
+"Có thể tìm ra dạng cửa sổ bằng cách gõ câu lệnh\n"
+"'xprop | grep WM_CLASS' rồi nhấn vào một cửa sổ\n"
+"(dùng cả hai phần phân cách bởi khoảng trống hoặc chỉ phần bên phải).\n"
+"CHÚ Ý: Nếu không chỉ ra tiêu đề cửa sổ hay dạng cửa sổ, thì\n"
+"cửa sổ đầu tiên xuất hiện sẽ được lấy;\n"
+"KHÔNG nên bỏ qua cả hai tuỳ chọn."
+
+#: kstart.cpp:349
+#, kde-format
+msgid "Desktop on which to make the window appear"
+msgstr "Màn hình mà cửa sổ sẽ xuất hiện"
+
+#: kstart.cpp:350
+#, kde-format
+msgid ""
+"Make the window appear on the desktop that was active\n"
+"when starting the application"
+msgstr ""
+"Làm cho cửa sổ sẽ hiện ra trên màn hình vừa là hiện thời\n"
+"khi chạy chương trình"
+
+#: kstart.cpp:351
+#, kde-format
+msgid "Make the window appear on all desktops"
+msgstr "Làm cho cửa sổ xuất hiện trên mọi cửa sổ"
+
+#: kstart.cpp:352
+#, kde-format
+msgid "Iconify the window"
+msgstr "Thu cửa sổ thành biểu tượng"
+
+#: kstart.cpp:353
+#, kde-format
+msgid "Maximize the window"
+msgstr "Phóng đại cửa sổ"
+
+#: kstart.cpp:354
+#, kde-format
+msgid "Maximize the window vertically"
+msgstr "Phóng đại cửa sổ theo chiều dọc"
+
+#: kstart.cpp:355
+#, kde-format
+msgid "Maximize the window horizontally"
+msgstr "Phóng đại cửa sổ theo chiều ngang"
+
+#: kstart.cpp:356
+#, kde-format
+msgid "Show window fullscreen"
+msgstr "Hiển thị cửa sổ đầy màn hình"
+
+#: kstart.cpp:357
+#, kde-format
+msgid ""
+"The window type: Normal, Desktop, Dock, Toolbar, \n"
+"Menu, Dialog, TopMenu or Override"
+msgstr ""
+"Kiểu cửa sổ : Chuẩn, Màn hình nền, Neo, Công cụ, \n"
+"Trình đơn, Hộp thoại, Trình đơn đầu hoặc Ghi đề"
+
+#: kstart.cpp:359
+#, kde-format
+msgid ""
+"Jump to the window even if it is started on a \n"
+"different virtual desktop"
+msgstr ""
+"Nhảy tới cửa sổ cho dù nếu nó được khởi động\n"
+"từ một màn hình ảo khác "
+
+#: kstart.cpp:361
+#, kde-format
+msgid "Try to keep the window above other windows"
+msgstr "Giữ cửa sổ luôn nằm trên các cửa sổ khác"
+
+#: kstart.cpp:362
+#, kde-format
+msgid "Try to keep the window below other windows"
+msgstr "Giữ cửa sổ luôn nằm dưới các cửa sổ khác"
+
+#: kstart.cpp:363
+#, kde-format
+msgid "The window does not get an entry in the taskbar"
+msgstr "Cửa sổ không có mục nào trên thanh tác vụ"
+
+#: kstart.cpp:364
+#, kde-format
+msgid "The window does not get an entry on the pager"
+msgstr "Cửa sổ không có mục nào trên trình chuyển màn hình"
+
+#: kstart.cpp:378
+#, kde-format
+msgid "No command specified"
+msgstr "Không có lệnh được chỉ ra"
