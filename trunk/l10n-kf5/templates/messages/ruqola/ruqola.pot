@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-20 02:26+0100\n"
+"POT-Creation-Date: 2020-11-21 02:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -132,6 +132,22 @@ msgstr ""
 #: apps/widget/main.cpp:103
 #, kde-format
 msgid "The following accounts are available:"
+msgstr ""
+
+#: core/administrator/adminroom.cpp:107
+#, kde-format
+msgid "Group"
+msgstr ""
+
+#. i18n: ectx: Menu (channel)
+#: core/administrator/adminroom.cpp:109 widgets/ruqolaui.rc:23
+#, kde-format
+msgid "Channel"
+msgstr ""
+
+#: core/administrator/adminroom.cpp:111 widgets/administratordialog/administratorroomsselectroomtypewidget.cpp:28
+#, kde-format
+msgid "Direct"
 msgstr ""
 
 #: core/command.cpp:68
@@ -469,7 +485,7 @@ msgstr ""
 msgid "Default Room"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:60
+#: core/model/adminroomsmodel.cpp:60 core/model/adminroomsmodel.cpp:62
 #, kde-format
 msgid "Type"
 msgstr ""
@@ -646,12 +662,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2379
+#: core/rocketchataccount.cpp:2377
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2380
+#: core/rocketchataccount.cpp:2378
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1299,11 +1315,6 @@ msgctxt "@title:window"
 msgid "Administrator"
 msgstr ""
 
-#: widgets/administratordialog/administratorroomsselectroomtypewidget.cpp:28
-#, kde-format
-msgid "Direct"
-msgstr ""
-
 #: widgets/administratordialog/administratorroomsselectroomtypewidget.cpp:29
 #, kde-format
 msgid "Public"
@@ -1319,7 +1330,7 @@ msgstr ""
 msgid "Discussion"
 msgstr ""
 
-#: widgets/administratordialog/administratorroomswidget.cpp:47
+#: widgets/administratordialog/administratorroomswidget.cpp:46
 #, kde-format
 msgid "Search channel..."
 msgstr ""
@@ -2975,12 +2986,6 @@ msgstr ""
 #: widgets/ruqolamainwindow.cpp:401
 #, kde-format
 msgid "Register New User"
-msgstr ""
-
-#. i18n: ectx: Menu (channel)
-#: widgets/ruqolaui.rc:23
-#, kde-format
-msgid "Channel"
 msgstr ""
 
 #. i18n: ectx: Menu (display)

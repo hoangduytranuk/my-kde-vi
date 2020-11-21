@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-12 02:35+0100\n"
+"POT-Creation-Date: 2020-11-21 02:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: cpu/cpu.cpp:35 disks/disks.cpp:81 disks/disks.cpp:82 power/power.cpp:51
+#: cpu/cpu.cpp:35 disks/disks.cpp:81 disks/disks.cpp:82 gpu/GpuDevice.cpp:20
+#: power/power.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "Name"
@@ -148,7 +149,7 @@ msgstr ""
 msgid "CPUs"
 msgstr ""
 
-#: cpu/freebsdcpuplugin.cpp:128
+#: cpu/freebsdcpuplugin.cpp:127
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1"
@@ -255,184 +256,279 @@ msgctxt "@title, Short for `Percentage Used"
 msgid "Used"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:310
+#: gpu/AllGpus.cpp:14
+#, kde-format
+msgctxt "@title"
+msgid "All GPUs"
+msgstr ""
+
+#: gpu/AllGpus.cpp:16
+#, kde-format
+msgctxt "@title"
+msgid "All GPUs Usage"
+msgstr ""
+
+#: gpu/AllGpus.cpp:17
+#, kde-format
+msgctxt "@title Short for 'All GPUs Usage'"
+msgid "Usage"
+msgstr ""
+
+#: gpu/AllGpus.cpp:25
+#, kde-format
+msgctxt "@title"
+msgid "All GPUs Total Memory"
+msgstr ""
+
+#: gpu/AllGpus.cpp:26
+#, kde-format
+msgctxt "@title Short for 'All GPUs Total Memory'"
+msgid "Total"
+msgstr ""
+
+#: gpu/AllGpus.cpp:30
+#, kde-format
+msgctxt "@title"
+msgid "All GPUs Used Memory"
+msgstr ""
+
+#: gpu/AllGpus.cpp:31
+#, kde-format
+msgctxt "@title Short for 'All GPUs Used Memory'"
+msgid "Used"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:24
+#, kde-format
+msgctxt "@title"
+msgid "Usage"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:30
+#, kde-format
+msgctxt "@title"
+msgid "Total Video Memory"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:32
+#, kde-format
+msgctxt "@title Short for Total Video Memory"
+msgid "Total"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:35
+#, kde-format
+msgctxt "@title"
+msgid "Video Memory Used"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:37
+#, kde-format
+msgctxt "@title Short for Video Memory Used"
+msgid "Used"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:41
+#, kde-format
+msgctxt "@title"
+msgid "Frequency"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:45
+#, kde-format
+msgctxt "@title"
+msgid "Memory Frequency"
+msgstr ""
+
+#: gpu/GpuDevice.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Temperature"
+msgstr ""
+
+#: gpu/GpuPlugin.cpp:31
+#, kde-format
+msgctxt "@title"
+msgid "GPU"
+msgstr ""
+
+#: gpu/LinuxBackend.cpp:49
+#, kde-format
+msgctxt "@title %1 is GPU number"
+msgid "GPU %1"
+msgstr ""
+
+#: memory/backend.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Physical Memory"
+msgstr ""
+
+#: memory/backend.cpp:29
+#, kde-format
+msgctxt "@title"
+msgid "Swap Memory"
+msgstr ""
+
+#: memory/backend.cpp:50
+#, kde-format
+msgctxt "@title"
+msgid "Total Physical Memory"
+msgstr ""
+
+#: memory/backend.cpp:51
+#, kde-format
+msgctxt "@title, Short for 'Total Physical Memory'"
+msgid "Total"
+msgstr ""
+
+#: memory/backend.cpp:55
+#, kde-format
+msgctxt "@title"
+msgid "Used Physical Memory"
+msgstr ""
+
+#: memory/backend.cpp:56
+#, kde-format
+msgctxt "@title, Short for 'Used Physical Memory'"
+msgid "Used"
+msgstr ""
+
+#: memory/backend.cpp:60
+#, kde-format
+msgctxt "@title"
+msgid "Used Physical Memory Percentage"
+msgstr ""
+
+#: memory/backend.cpp:63
+#, kde-format
+msgctxt "@title"
+msgid "Free Physical Memory"
+msgstr ""
+
+#: memory/backend.cpp:64
+#, kde-format
+msgctxt "@title, Short for 'Free Physical Memory'"
+msgid "Free"
+msgstr ""
+
+#: memory/backend.cpp:68
+#, kde-format
+msgctxt "@title"
+msgid "Free Physical Memory Percentage"
+msgstr ""
+
+#: memory/backend.cpp:71
+#, kde-format
+msgctxt "@title"
+msgid "Application Memory"
+msgstr ""
+
+#: memory/backend.cpp:72
+#, kde-format
+msgctxt "@title, Short for 'Application Memory'"
+msgid "Application"
+msgstr ""
+
+#: memory/backend.cpp:76
 #, kde-format
 msgctxt "@title"
 msgid "Application Memory Percentage"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:311
-#, kde-format
-msgctxt "@title Application Memory Percentage"
-msgid "Application"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:313
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of memory taken by applications."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:315
+#: memory/backend.cpp:79
 #, kde-format
 msgctxt "@title"
-msgid "Buffer Memory Percentage"
+msgid "Cache Memory"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:316
+#: memory/backend.cpp:80
 #, kde-format
-msgctxt "@title Buffer Memory Percentage"
-msgid "Buffer"
+msgctxt "@title, Short for 'Cache Memory'"
+msgid "Cache"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:318
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of memory taken by the buffer."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:320
+#: memory/backend.cpp:84
 #, kde-format
 msgctxt "@title"
 msgid "Cache Memory Percentage"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:321
-#, kde-format
-msgctxt "@title Cache Memory Percentage"
-msgid "Cache"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:323
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of memory taken by the cache."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:325
+#: memory/backend.cpp:87
 #, kde-format
 msgctxt "@title"
-msgid "Free Memory Percentage"
+msgid "Buffer Memory"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:326
+#: memory/backend.cpp:88
 #, kde-format
-msgctxt "@title Free Memory Percentage"
-msgid "Free"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:328
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of free memory."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:330
-#, kde-format
-msgctxt "@title"
-msgid "Used Memory Percentage"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:331
-#, kde-format
-msgctxt "@title Used Memory Percentage"
-msgid "Used"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:333
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of used memory."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:335
-#, kde-format
-msgctxt "@title"
-msgid "Available Memory Percentage"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:336
-#, kde-format
-msgctxt "@title Available Memory Percentage"
-msgid "Available"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:338
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of available memory."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:340
-#, kde-format
-msgctxt "@title"
-msgid "Allocated Memory Percentage"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:341
-#, kde-format
-msgctxt "@title Allocated Memory Percentage"
-msgid "Allocated"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:343
-#, kde-format
-msgctxt "@info"
-msgid "Percentage of allocated memory."
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:352
-#, kde-format
-msgctxt "@title Total CPU Usage"
-msgid "Usage"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:353
-#, kde-format
-msgctxt "@title Total Memory Usage"
-msgid "Total Used"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:354
-#, kde-format
-msgctxt "@title Cached Memory Usage"
-msgid "Cached"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:355
-#, kde-format
-msgctxt "@title Free Memory Amount"
-msgid "Free"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:356
-#, kde-format
-msgctxt "@title Available Memory Amount"
-msgid "Available"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:357
-#, kde-format
-msgctxt "@title Application Memory Usage"
-msgid "Application"
-msgstr ""
-
-#: ksgrd/ksgrdiface.cpp:358
-#, kde-format
-msgctxt "@title Buffer Memory Usage"
+msgctxt "@title, Short for 'Buffer Memory'"
 msgid "Buffer"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:359
+#: memory/backend.cpp:89
 #, kde-format
-msgctxt "@title Number of Processors"
-msgid "Processors"
+msgid "Amount of memory used for caching disk blocks"
 msgstr ""
 
-#: ksgrd/ksgrdiface.cpp:360
+#: memory/backend.cpp:93
 #, kde-format
-msgctxt "@title Number of Cores"
-msgid "Cores"
+msgctxt "@title"
+msgid "Buffer Memory Percentage"
+msgstr ""
+
+#: memory/backend.cpp:96
+#, kde-format
+msgctxt "@title"
+msgid "Total Swap Memory"
+msgstr ""
+
+#: memory/backend.cpp:97
+#, kde-format
+msgctxt "@title, Short for 'Total Swap Memory'"
+msgid "Total"
+msgstr ""
+
+#: memory/backend.cpp:101
+#, kde-format
+msgctxt "@title"
+msgid "Used Swap Memory"
+msgstr ""
+
+#: memory/backend.cpp:102
+#, kde-format
+msgctxt "@title, Short for 'Used Swap Memory'"
+msgid "Used"
+msgstr ""
+
+#: memory/backend.cpp:106
+#, kde-format
+msgctxt "@title"
+msgid "Used Swap Memory Percentage"
+msgstr ""
+
+#: memory/backend.cpp:109
+#, kde-format
+msgctxt "@title"
+msgid "Free Swap Memory"
+msgstr ""
+
+#: memory/backend.cpp:110
+#, kde-format
+msgctxt "@title, Short for 'Free Swap Memory'"
+msgid "Free"
+msgstr ""
+
+#: memory/backend.cpp:114
+#, kde-format
+msgctxt "@title"
+msgid "Free Swap Memory Percentage"
+msgstr ""
+
+#: memory/memory.cpp:37
+#, kde-format
+msgctxt "@title"
+msgid "Memory"
 msgstr ""
 
 #: network/AllDevicesObject.cpp:16
@@ -541,114 +637,6 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Network Devices"
-msgstr ""
-
-#: nvidia/nvidia.cpp:58
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1"
-msgstr ""
-
-#: nvidia/nvidia.cpp:63
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Power Usage"
-msgstr ""
-
-#: nvidia/nvidia.cpp:64
-#, kde-format
-msgctxt "@title GPU Power Usage"
-msgid "Power"
-msgstr ""
-
-#: nvidia/nvidia.cpp:69
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Temperature"
-msgstr ""
-
-#: nvidia/nvidia.cpp:70
-#, kde-format
-msgctxt "@title GPU Temperature"
-msgid "Temperature"
-msgstr ""
-
-#: nvidia/nvidia.cpp:75
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Shared Memory Usage"
-msgstr ""
-
-#: nvidia/nvidia.cpp:76
-#, kde-format
-msgctxt "@title GPU Shared Memory Usage"
-msgid "Shared Memory"
-msgstr ""
-
-#: nvidia/nvidia.cpp:81
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Memory Usage"
-msgstr ""
-
-#: nvidia/nvidia.cpp:82
-#, kde-format
-msgctxt "@title GPU Memory Usage"
-msgid "Memory"
-msgstr ""
-
-#: nvidia/nvidia.cpp:87
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Encoder Usage"
-msgstr ""
-
-#: nvidia/nvidia.cpp:88
-#, kde-format
-msgctxt "@title GPU Encoder Usage"
-msgid "Encoder"
-msgstr ""
-
-#: nvidia/nvidia.cpp:93
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Decoder Usage"
-msgstr ""
-
-#: nvidia/nvidia.cpp:94
-#, kde-format
-msgctxt "@title GPU Decoder Usage"
-msgid "Decoder"
-msgstr ""
-
-#: nvidia/nvidia.cpp:99
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Memory Clock"
-msgstr ""
-
-#: nvidia/nvidia.cpp:100
-#, kde-format
-msgctxt "@title GPU Memory Clock"
-msgid "Memory Clock"
-msgstr ""
-
-#: nvidia/nvidia.cpp:105
-#, kde-format
-msgctxt "@title"
-msgid "GPU %1 Processor Clock"
-msgstr ""
-
-#: nvidia/nvidia.cpp:106
-#, kde-format
-msgctxt "@title GPU Processor Clock"
-msgid "Processor Clock"
-msgstr ""
-
-#: nvidia/nvidia.cpp:119
-#, kde-format
-msgctxt "@title NVidia GPU information"
-msgid "NVidia"
 msgstr ""
 
 #: osinfo/osinfo.cpp:110
