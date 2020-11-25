@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-24 02:24+0100\n"
+"POT-Creation-Date: 2020-11-25 02:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,30 +28,30 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:72
-#: imports/NeoChat/Component/ChatTextInput.qml:77
+#: imports/NeoChat/Component/ChatTextInput.qml:76
+#: imports/NeoChat/Component/ChatTextInput.qml:81
 #: imports/NeoChat/Panel/RoomDrawer.qml:59
 #: imports/NeoChat/Panel/RoomDrawer.qml:72
 #, kde-format
 msgid "No name"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:227
+#: imports/NeoChat/Component/ChatTextInput.qml:232
 #, kde-format
 msgid "Write your message..."
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:382
+#: imports/NeoChat/Component/ChatTextInput.qml:397
 #, kde-format
 msgid "Add an Emoji"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:410
+#: imports/NeoChat/Component/ChatTextInput.qml:425
 #, kde-format
 msgid "Attach an image or file"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:432
+#: imports/NeoChat/Component/ChatTextInput.qml:447
 #, kde-format
 msgid "Send message"
 msgstr ""
@@ -100,6 +100,18 @@ msgstr ""
 #, kde-format
 msgctxt "GB as in gigabytes"
 msgid "%1 GB"
+msgstr ""
+
+#: imports/NeoChat/Component/Timeline/MessageDelegate.qml:123
+#, kde-format
+msgid "React"
+msgstr ""
+
+#: imports/NeoChat/Component/Timeline/MessageDelegate.qml:134
+#: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:39
+#: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:87
+#, kde-format
+msgid "Reply"
 msgstr ""
 
 #: imports/NeoChat/Component/Timeline/ReactionDelegate.qml:41
@@ -270,12 +282,6 @@ msgstr ""
 #: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:33
 #, kde-format
 msgid "Save As"
-msgstr ""
-
-#: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:39
-#: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:87
-#, kde-format
-msgid "Reply"
 msgstr ""
 
 #: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:45
@@ -513,22 +519,22 @@ msgstr ""
 msgid "Search in room directory"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:102
+#: imports/NeoChat/Page/RoomListPage.qml:104
 #, kde-format
 msgid "Remove room from favorites"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:102
+#: imports/NeoChat/Page/RoomListPage.qml:104
 #, kde-format
 msgid "Make room favorite"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:114
+#: imports/NeoChat/Page/RoomListPage.qml:116
 #, kde-format
 msgid "Configure room"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:138
+#: imports/NeoChat/Page/RoomListPage.qml:140
 #, kde-format
 msgid "No Name"
 msgstr ""
@@ -543,17 +549,17 @@ msgstr ""
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:340
+#: imports/NeoChat/Page/RoomPage.qml:346
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:340
+#: imports/NeoChat/Page/RoomPage.qml:346
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:355
+#: imports/NeoChat/Page/RoomPage.qml:361
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -561,7 +567,7 @@ msgid_plural "%2 are typing"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Page/RoomPage.qml:385
+#: imports/NeoChat/Page/RoomPage.qml:391
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
@@ -572,22 +578,27 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: imports/NeoChat/Page/SettingsPage.qml:21
+#: imports/NeoChat/Page/SettingsPage.qml:20
 #, kde-format
-msgid "Show Notifications:"
+msgid "Show notifications:"
 msgstr ""
 
-#: imports/NeoChat/Page/SettingsPage.qml:26
+#: imports/NeoChat/Page/SettingsPage.qml:25
+#, kde-format
+msgid "Show leave and join events:"
+msgstr ""
+
+#: imports/NeoChat/Page/SettingsPage.qml:30
 #, kde-format
 msgid "Rooms and private chats:"
 msgstr ""
 
-#: imports/NeoChat/Page/SettingsPage.qml:27
+#: imports/NeoChat/Page/SettingsPage.qml:31
 #, kde-format
 msgid "Separated"
 msgstr ""
 
-#: imports/NeoChat/Page/SettingsPage.qml:32
+#: imports/NeoChat/Page/SettingsPage.qml:36
 #, kde-format
 msgid "Intermixed"
 msgstr ""
@@ -661,59 +672,59 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/controller.cpp:132
+#: src/controller.cpp:131
 #, kde-format
 msgid "Network Error"
 msgstr ""
 
-#: src/controller.cpp:135 src/controller.cpp:268 src/controller.cpp:271
+#: src/controller.cpp:134 src/controller.cpp:267 src/controller.cpp:270
 #, kde-format
 msgid "Login Failed"
 msgstr ""
 
-#: src/controller.cpp:140
+#: src/controller.cpp:139
 #, kde-format
 msgid "%1 is not a matrix server or is unreachable"
 msgstr ""
 
-#: src/controller.cpp:268
+#: src/controller.cpp:267
 #, kde-format
 msgid "Access Token invalid or revoked"
 msgstr ""
 
-#: src/main.cpp:96
-#, kde-format
-msgid "Client for the matrix communication protocol"
-msgstr ""
-
-#: src/main.cpp:98
+#: src/main.cpp:65
 #, kde-format
 msgid "Neochat"
 msgstr ""
 
-#: src/main.cpp:98
+#: src/main.cpp:65
 #, kde-format
 msgid "Matrix client"
 msgstr ""
 
-#: src/main.cpp:98
+#: src/main.cpp:65
 #, kde-format
 msgid "© 2018-2020 Black Hat, 2020 KDE Community"
 msgstr ""
 
-#: src/main.cpp:99
+#: src/main.cpp:66
 #, kde-format
 msgid "Black Hat"
 msgstr ""
 
-#: src/main.cpp:100
+#: src/main.cpp:67
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
-#: src/main.cpp:101
+#: src/main.cpp:68
 #, kde-format
 msgid "Tobias Fella"
+msgstr ""
+
+#: src/main.cpp:112
+#, kde-format
+msgid "Client for the matrix communication protocol"
 msgstr ""
 
 #: src/matriximageprovider.cpp:32
@@ -971,12 +982,7 @@ msgstr ""
 msgid "Deadbeef"
 msgstr ""
 
-#: src/trayicon.cpp:98
+#: src/trayicon.cpp:17
 #, kde-format
 msgid "Show"
-msgstr ""
-
-#: src/trayicon.cpp:99
-#, kde-format
-msgid "Quit"
 msgstr ""
