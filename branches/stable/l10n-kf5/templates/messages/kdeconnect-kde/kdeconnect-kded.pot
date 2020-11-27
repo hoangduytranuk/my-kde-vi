@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-18 02:18+0200\n"
+"POT-Creation-Date: 2020-11-27 08:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,7 +29,9 @@ msgstr ""
 
 #: kdeconnectd.cpp:51
 #, kde-format
-msgid "Pairing request from %1"
+msgid ""
+"Pairing request from %1\n"
+"<br/>Key: %2..."
 msgstr ""
 
 #: kdeconnectd.cpp:52
@@ -47,12 +49,17 @@ msgstr ""
 msgid "Reject"
 msgstr ""
 
-#: kdeconnectd.cpp:131 kdeconnectd.cpp:133
+#: kdeconnectd.cpp:53
+#, kde-format
+msgid "View key"
+msgstr ""
+
+#: kdeconnectd.cpp:134 kdeconnectd.cpp:136
 #, kde-format
 msgid "KDE Connect Daemon"
 msgstr ""
 
-#: kdeconnectd.cpp:144
+#: kdeconnectd.cpp:147
 #, kde-format
 msgid "Replace an existing instance"
 msgstr ""
