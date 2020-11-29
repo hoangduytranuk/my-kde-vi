@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-26 02:18+0100\n"
+"POT-Creation-Date: 2020-11-29 02:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -45,23 +45,23 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr ""
 
-#: core/copyjob.cpp:1226 core/job_error.cpp:516
+#: core/copyjob.cpp:1228 core/job_error.cpp:516
 #, kde-format
 msgid "Folder Already Exists"
 msgstr ""
 
-#: core/copyjob.cpp:1504 core/copyjob.cpp:2026 core/filecopyjob.cpp:338
+#: core/copyjob.cpp:1521 core/copyjob.cpp:2065 core/filecopyjob.cpp:338
 #: core/job_error.cpp:506 widgets/paste.cpp:81
 #, kde-format
 msgid "File Already Exists"
 msgstr ""
 
-#: core/copyjob.cpp:1504 core/copyjob.cpp:2026
+#: core/copyjob.cpp:1521 core/copyjob.cpp:2065
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr ""
 
-#: core/copyjob.cpp:1632 ioslaves/trash/kio_trash.cpp:277
+#: core/copyjob.cpp:1661 ioslaves/trash/kio_trash.cpp:277
 #, kde-format
 msgid "Trash"
 msgstr ""
@@ -2041,7 +2041,7 @@ msgid "Undocumented Error"
 msgstr ""
 
 #: core/kcoredirlister.cpp:374 gui/openurljob.cpp:155 widgets/krun.cpp:407
-#: widgets/paste.cpp:267 widgets/renamedialog.cpp:579
+#: widgets/paste.cpp:267 widgets/renamedialog.cpp:599
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -3107,7 +3107,7 @@ msgid "*|All Folders"
 msgstr ""
 
 #: filewidgets/kfilewidget.cpp:2083 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:503
+#: widgets/kfileitemactions.cpp:364
 #, kde-format
 msgid "&Open"
 msgstr ""
@@ -6888,44 +6888,44 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:302
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Actions"
-msgstr ""
-
-#: widgets/kfileitemactions.cpp:492
+#: widgets/kfileitemactions.cpp:353
 #, kde-format
 msgid "&Open with %1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:524
+#: widgets/kfileitemactions.cpp:385
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:542
+#: widgets/kfileitemactions.cpp:403
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:544 widgets/kfileitemactions.cpp:555
+#: widgets/kfileitemactions.cpp:405 widgets/kfileitemactions.cpp:416
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:671
+#: widgets/kfileitemactions.cpp:532
 #, kde-format
 msgid "Open &with %1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:673
+#: widgets/kfileitemactions.cpp:534
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
+msgstr ""
+
+#: widgets/kfileitemactions.cpp:734
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Actions"
 msgstr ""
 
 #: widgets/kfileitemdelegate.cpp:199
@@ -8207,22 +8207,22 @@ msgstr ""
 msgid "Filename for dropped contents:"
 msgstr ""
 
-#: widgets/renamedialog.cpp:60 widgets/renamedialog.cpp:376
+#: widgets/renamedialog.cpp:62 widgets/renamedialog.cpp:396
 #, kde-format
 msgid "Date: %1"
 msgstr ""
 
-#: widgets/renamedialog.cpp:66 widgets/renamedialog.cpp:394
+#: widgets/renamedialog.cpp:68 widgets/renamedialog.cpp:414
 #, kde-format
 msgid "Size: %1"
 msgstr ""
 
-#: widgets/renamedialog.cpp:229
+#: widgets/renamedialog.cpp:234
 #, kde-format
 msgid "Appl&y to All"
 msgstr ""
 
-#: widgets/renamedialog.cpp:230
+#: widgets/renamedialog.cpp:235
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
@@ -8231,45 +8231,45 @@ msgid ""
 "an existing file in the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:231
+#: widgets/renamedialog.cpp:236
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: widgets/renamedialog.cpp:236
+#: widgets/renamedialog.cpp:241
 #, kde-format
 msgid "&Rename"
 msgstr ""
 
-#: widgets/renamedialog.cpp:238
+#: widgets/renamedialog.cpp:243
 #, kde-format
 msgid "Suggest New &Name"
 msgstr ""
 
-#: widgets/renamedialog.cpp:244
+#: widgets/renamedialog.cpp:249
 #, kde-format
 msgid "&Skip"
 msgstr ""
 
-#: widgets/renamedialog.cpp:245
+#: widgets/renamedialog.cpp:250
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
-#: widgets/renamedialog.cpp:246
+#: widgets/renamedialog.cpp:251
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
-#: widgets/renamedialog.cpp:255
+#: widgets/renamedialog.cpp:262
 #, kde-format
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr ""
 
-#: widgets/renamedialog.cpp:257
+#: widgets/renamedialog.cpp:264
 #, kde-format
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
@@ -8278,91 +8278,104 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:263
+#: widgets/renamedialog.cpp:268
+#, kde-format
+msgctxt "Overwrite files into an existing folder when files are older"
+msgid "&Overwrite older files"
+msgstr ""
+
+#: widgets/renamedialog.cpp:270
+#, kde-format
+msgid ""
+"Destination files which have older modification times will be overwritten by "
+"the source, skipped otherwise."
+msgstr ""
+
+#: widgets/renamedialog.cpp:283
 #, kde-format
 msgid "&Resume"
 msgstr ""
 
-#: widgets/renamedialog.cpp:272
+#: widgets/renamedialog.cpp:292
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
 "Please enter a new file name:"
 msgstr ""
 
-#: widgets/renamedialog.cpp:277
+#: widgets/renamedialog.cpp:297
 #, kde-format
 msgid "C&ontinue"
 msgstr ""
 
-#: widgets/renamedialog.cpp:337
+#: widgets/renamedialog.cpp:357
 #, kde-format
 msgid "This action will overwrite the destination."
 msgstr ""
 
-#: widgets/renamedialog.cpp:343
+#: widgets/renamedialog.cpp:363
 #, kde-format
 msgid "Source"
 msgstr ""
 
-#: widgets/renamedialog.cpp:345
+#: widgets/renamedialog.cpp:365
 #, kde-format
 msgid "Destination"
 msgstr ""
 
-#: widgets/renamedialog.cpp:367
+#: widgets/renamedialog.cpp:387
 #, kde-format
 msgid "Differences"
 msgstr ""
 
-#: widgets/renamedialog.cpp:387
+#: widgets/renamedialog.cpp:407
 #, kde-format
 msgid "The destination is <b>smaller by %1</b>"
 msgstr ""
 
-#: widgets/renamedialog.cpp:390
+#: widgets/renamedialog.cpp:410
 #, kde-format
 msgid "The destination is <b>bigger by %1</b>"
 msgstr ""
 
-#: widgets/renamedialog.cpp:404
+#: widgets/renamedialog.cpp:424
 #, kde-format
 msgid "The files are identical."
 msgstr ""
 
-#: widgets/renamedialog.cpp:405
+#: widgets/renamedialog.cpp:425
 #, kde-format
 msgid "The files seem identical."
 msgstr ""
 
-#: widgets/renamedialog.cpp:406
+#: widgets/renamedialog.cpp:426
 #, kde-format
 msgid "The files are different."
 msgstr ""
 
-#: widgets/renamedialog.cpp:413
+#: widgets/renamedialog.cpp:433
 #, kde-format
 msgid ""
 "The files are likely to be identical: they have the same size and their "
 "contents are the same at the beginning, middle and end."
 msgstr ""
 
-#: widgets/renamedialog.cpp:432
+#: widgets/renamedialog.cpp:452
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr ""
 
-#: widgets/renamedialog.cpp:434
+#: widgets/renamedialog.cpp:454
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr ""
 
-#: widgets/renamedialog.cpp:436
+#: widgets/renamedialog.cpp:456
 #, kde-format
 msgid "A more recent item named '%1' already exists."
 msgstr ""
 
-#: widgets/renamedialog.cpp:449
+#: widgets/renamedialog.cpp:469
 #, kde-format
 msgid "Rename:"
 msgstr ""
