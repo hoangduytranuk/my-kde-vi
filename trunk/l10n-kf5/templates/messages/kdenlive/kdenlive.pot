@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-28 02:24+0100\n"
+"POT-Creation-Date: 2020-12-01 02:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5406,6 +5406,11 @@ msgstr ""
 msgid "DPF plugins"
 msgstr ""
 
+#: data/kdenliveeffectscategory.rc:80 src/effects/effectlist/model/effecttreemodel.cpp:108
+#, kde-format
+msgid "Deprecated"
+msgstr ""
+
 #: data/transitions/affine.xml:4
 #, kde-format
 msgid "Perform an affine transform on for compositing."
@@ -5982,7 +5987,7 @@ msgid "Next keyframe"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:118
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:169
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:168
 #: src/project/clipstabilize.cpp:84
 #, kde-format
 msgid "Presets"
@@ -6627,7 +6632,7 @@ msgstr ""
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:152
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:189
 #: src/ui/clipproperties_ui.ui:131 src/ui/configcapture_ui.ui:639
-#: src/ui/configtimeline_ui.ui:144 src/ui/projectsettings_ui.ui:40
+#: src/ui/configtimeline_ui.ui:99 src/ui/projectsettings_ui.ui:40
 #: src/ui/recmonitor_ui.ui:107 src/ui/renderwidget_ui.ui:232
 #: src/ui/saveprofile_ui.ui:80 src/utils/resourcewidget.cpp:386
 #, kde-format
@@ -6805,7 +6810,7 @@ msgstr ""
 msgid "Cannot apply effects on folders"
 msgstr ""
 
-#: src/bin/bin.cpp:3086 src/effects/effectstack/view/effectstackview.cpp:179
+#: src/bin/bin.cpp:3086 src/effects/effectstack/view/effectstackview.cpp:180
 #: src/mainwindow.cpp:2917
 #, kde-format
 msgid "Cannot add effect to clip"
@@ -7055,32 +7060,32 @@ msgstr ""
 msgid "No guide found at current position"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:256 src/bin/model/subtitlemodel.cpp:439
-#: src/timeline2/view/timelinecontroller.cpp:3812
+#: src/bin/model/subtitlemodel.cpp:263 src/bin/model/subtitlemodel.cpp:446
+#: src/timeline2/view/timelinecontroller.cpp:3817
 #, kde-format
 msgid "Edit subtitle"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:465 src/timeline2/model/timelinefunctions.cpp:181
+#: src/bin/model/subtitlemodel.cpp:472 src/timeline2/model/timelinefunctions.cpp:181
 #: src/timeline2/view/timelinecontroller.cpp:1489
 #, kde-format
 msgid "Cut clip"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:572 src/timeline2/model/timelinemodel.cpp:3153
-#: src/timeline2/view/timelinecontroller.cpp:3832
+#: src/bin/model/subtitlemodel.cpp:579 src/timeline2/model/timelinemodel.cpp:3153
+#: src/timeline2/view/timelinecontroller.cpp:3837
 #, kde-format
 msgid "Resize subtitle"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:736 src/timeline2/model/timelinemodel.cpp:1081
+#: src/bin/model/subtitlemodel.cpp:743 src/timeline2/model/timelinemodel.cpp:1081
 #, kde-format
 msgid "Move subtitle"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:849 src/dialogs/renderwidget.cpp:1198
-#: src/dvdwizard/dvdwizardvob.cpp:735 src/effects/effectstack/view/collapsibleeffectview.cpp:452
-#: src/effects/effectstack/view/effectstackview.cpp:479
+#: src/bin/model/subtitlemodel.cpp:856 src/dialogs/renderwidget.cpp:1198
+#: src/dvdwizard/dvdwizardvob.cpp:735 src/effects/effectstack/view/collapsibleeffectview.cpp:451
+#: src/effects/effectstack/view/effectstackview.cpp:491
 #: src/jobs/filterjob.cpp:101 src/project/clipstabilize.cpp:138
 #: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:956
 #, kde-format
@@ -7190,7 +7195,7 @@ msgstr ""
 msgid "Loading project clips..."
 msgstr ""
 
-#: src/bin/projectsubclip.cpp:56 src/doc/documentvalidator.cpp:1924
+#: src/bin/projectsubclip.cpp:56 src/doc/documentvalidator.cpp:1937
 #, kde-format
 msgid "Zone %1"
 msgstr ""
@@ -7286,7 +7291,7 @@ msgid "Template title clip"
 msgstr ""
 
 #: src/dialogs/clipcreationdialog.cpp:366
-#: src/dvdwizard/dvdwizardvob.cpp:268 src/effects/effectstack/view/collapsibleeffectview.cpp:246
+#: src/dvdwizard/dvdwizardvob.cpp:268 src/effects/effectstack/view/collapsibleeffectview.cpp:245
 #: src/mainwindow.cpp:3541 src/utils/resourcewidget.cpp:386
 #: src/utils/resourcewidget.cpp:389 src/utils/resourcewidget.cpp:391
 #, kde-format
@@ -7796,8 +7801,8 @@ msgstr ""
 #: src/project/dialogs/archivewidget.cpp:921
 #: src/project/dialogs/archivewidget.cpp:933
 #: src/project/dialogs/archivewidget.cpp:939
-#: src/project/projectmanager.cpp:1079 src/timeline2/view/timelinecontroller.cpp:3897
-#: src/timeline2/view/timelinecontroller.cpp:3905
+#: src/project/projectmanager.cpp:1079 src/timeline2/view/timelinecontroller.cpp:3905
+#: src/timeline2/view/timelinecontroller.cpp:3913
 #: src/titler/titlewidget.cpp:2044
 #, kde-format
 msgid "Cannot write to file %1"
@@ -8449,12 +8454,17 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:1578
+#: src/doc/documentvalidator.cpp:1272 src/doc/kdenlivedoc.cpp:182
+#, kde-format
+msgid "Cannot recover this project file"
+msgstr ""
+
+#: src/doc/documentvalidator.cpp:1591
 #, kde-format
 msgid "extra audio"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2025
+#: src/doc/documentvalidator.cpp:2038
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -8463,12 +8473,12 @@ msgid ""
 "This might result in data loss."
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2117
+#: src/doc/documentvalidator.cpp:2130
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2120
+#: src/doc/documentvalidator.cpp:2133
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr ""
@@ -8503,11 +8513,6 @@ msgstr ""
 #: src/doc/kdenlivedoc.cpp:155 src/project/projectmanager.cpp:464
 #, kde-format
 msgid "Recover"
-msgstr ""
-
-#: src/doc/kdenlivedoc.cpp:182
-#, kde-format
-msgid "Cannot recover this project file"
 msgstr ""
 
 #: src/doc/kdenlivedoc.cpp:192
@@ -8976,12 +8981,17 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
-#: src/effects/effectlist/model/effecttreemodel.cpp:238
+#: src/effects/effectlist/model/effecttreemodel.cpp:109
+#, kde-format
+msgid " - deprecated"
+msgstr ""
+
+#: src/effects/effectlist/model/effecttreemodel.cpp:244
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: src/effects/effectlist/model/effecttreemodel.cpp:238
+#: src/effects/effectlist/model/effecttreemodel.cpp:244
 #, kde-format
 msgid ""
 "Effect name %1 already exists.\n"
@@ -9041,68 +9051,68 @@ msgstr ""
 msgid "Move effect %1"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:71
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:70
 #, kde-format
 msgid "Move effect up"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:73
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:72
 #, kde-format
 msgid "Move effect down"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:75
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:74
 #, kde-format
 msgid "Delete effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:88
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:87
 #, kde-format
 msgid "Collapse Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:88
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:87
 #, kde-format
 msgid "Expand Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:113
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:112
 #, kde-format
 msgid "Enable Keyframes"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:117
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:116
 #, kde-format
 msgid "Disable Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:117
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:116
 #, kde-format
 msgid "Enable Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:122
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:121
 #, kde-format
 msgid "Create Group"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:177
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:176
 #, kde-format
 msgid "Save Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:178
-#: src/effects/effectstack/view/effectstackview.cpp:469
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:177
+#: src/effects/effectstack/view/effectstackview.cpp:481
 #, kde-format
 msgid "Save Effect Stack"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:183
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:182
 #, kde-format
 msgid "Create Region"
 msgstr ""
 
-#: src/effects/effectstack/view/effectstackview.cpp:469
+#: src/effects/effectstack/view/effectstackview.cpp:481
 #, kde-format
 msgid "Name for saved stack: "
 msgstr ""
@@ -9489,7 +9499,7 @@ msgstr ""
 
 #. i18n: ectx: Menu (timeline_tracks)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropstracks)
-#: src/kdenliveui.rc:147 src/mainwindow.cpp:1664 src/ui/configtimeline_ui.ui:51
+#: src/kdenliveui.rc:147 src/mainwindow.cpp:1664 src/ui/configtimeline_ui.ui:37
 #, kde-format
 msgid "Tracks"
 msgstr ""
@@ -10035,7 +10045,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropstransitions)
 #: src/mainwindow.cpp:465 src/mainwindow.cpp:1808 src/transitions/transitionlist/model/transitiontreemodel.cpp:46
-#: src/ui/configmisc_ui.ui:74 src/ui/configtimeline_ui.ui:44
+#: src/ui/configmisc_ui.ui:74 src/ui/configtimeline_ui.ui:30
 #, kde-format
 msgid "Transitions"
 msgstr ""
@@ -10077,7 +10087,7 @@ msgid "Normalize Audio Thumbnails"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/mainwindow.cpp:625 src/ui/configtimeline_ui.ui:118
+#: src/mainwindow.cpp:625 src/ui/configtimeline_ui.ui:73
 #, kde-format
 msgid "Thumbnails"
 msgstr ""
@@ -10718,14 +10728,14 @@ msgstr ""
 
 #: src/mainwindow.cpp:1665 src/timeline2/model/timelinemodel.cpp:3356
 #: src/timeline2/view/timelinecontroller.cpp:662
-#: src/timeline2/view/timelinecontroller.cpp:3767
+#: src/timeline2/view/timelinecontroller.cpp:3772
 #, kde-format
 msgid "Insert Track"
 msgid_plural "Insert Tracks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/mainwindow.cpp:1669 src/timeline2/view/timelinecontroller.cpp:3635
+#: src/mainwindow.cpp:1669 src/timeline2/view/timelinecontroller.cpp:3640
 #, kde-format
 msgid "Master effects"
 msgstr ""
@@ -10909,7 +10919,7 @@ msgstr ""
 msgid "Cannot perform operation, target directory already exists: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:2072 src/mainwindow.cpp:4030 src/mainwindow.cpp:4045
+#: src/mainwindow.cpp:2072 src/mainwindow.cpp:4031 src/mainwindow.cpp:4046
 #, kde-format
 msgid "Rendering using low quality track compositing"
 msgstr ""
@@ -11061,71 +11071,71 @@ msgstr ""
 msgid "Files to transcode"
 msgstr ""
 
-#: src/mainwindow.cpp:3680
+#: src/mainwindow.cpp:3681
 #, kde-format
 msgid "Project file could not be saved for archiving."
 msgstr ""
 
-#: src/mainwindow.cpp:3685
+#: src/mainwindow.cpp:3686
 #, kde-format
 msgid "Archiving project"
 msgstr ""
 
-#: src/mainwindow.cpp:3916
+#: src/mainwindow.cpp:3917
 #, kde-format
 msgid "Icon Size"
 msgstr ""
 
-#: src/mainwindow.cpp:3920
+#: src/mainwindow.cpp:3921
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr ""
 
-#: src/mainwindow.cpp:3941 src/mainwindow.cpp:3969
+#: src/mainwindow.cpp:3942 src/mainwindow.cpp:3970
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3943 src/mainwindow.cpp:3971
+#: src/mainwindow.cpp:3944 src/mainwindow.cpp:3972
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3945 src/mainwindow.cpp:3973
+#: src/mainwindow.cpp:3946 src/mainwindow.cpp:3974
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3947 src/mainwindow.cpp:3975
+#: src/mainwindow.cpp:3948 src/mainwindow.cpp:3976
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:4013
+#: src/mainwindow.cpp:4014
 #, kde-format
 msgid "Manage Cache Data"
 msgstr ""
 
-#: src/mainwindow.cpp:4052
+#: src/mainwindow.cpp:4053
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
 msgstr ""
 
-#: src/mainwindow.cpp:4052
+#: src/mainwindow.cpp:4053
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: src/mainwindow.cpp:4067
+#: src/mainwindow.cpp:4068
 #, kde-format
 msgid ""
 "Kdenlive needs to be restarted to apply the icon theme change. Restart now?"
 msgstr ""
 
-#: src/mainwindow.cpp:4253 src/timeline2/view/timelinecontroller.cpp:3887
+#: src/mainwindow.cpp:4254 src/timeline2/view/timelinecontroller.cpp:3895
 #, kde-format
 msgid "No subtitles in current project"
 msgstr ""
@@ -11505,17 +11515,17 @@ msgstr ""
 msgid "Open Analysis Data"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1643
+#: src/monitor/glwidget.cpp:1638
 #, kde-format
 msgid "Select a zone to play"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1679
+#: src/monitor/glwidget.cpp:1674
 #, kde-format
 msgid "Select a clip to play"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1735
+#: src/monitor/glwidget.cpp:1730
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -11661,36 +11671,36 @@ msgid_plural "%1 audio streams"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/monitor/monitor.cpp:1977
+#: src/monitor/monitor.cpp:1966
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:2019 src/monitor/monitor.cpp:2071
+#: src/monitor/monitor.cpp:2008 src/monitor/monitor.cpp:2060
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:2039
+#: src/monitor/monitor.cpp:2028
 #, kde-format
 msgid "Clip has no effects"
 msgstr ""
 
-#: src/monitor/monitor.cpp:2041
+#: src/monitor/monitor.cpp:2030
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr ""
 
-#: src/monitor/monitor.cpp:2078
+#: src/monitor/monitor.cpp:2067
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:2129
+#: src/monitor/monitor.cpp:2118
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""
@@ -11833,7 +11843,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, video_thumbs)
 #: src/monitor/recmanager.cpp:62 src/timeline2/view/dialogs/tracksconfigdialog.cpp:37
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:150
-#: src/ui/clipproperties_ui.ui:86 src/ui/configtimeline_ui.ui:137
+#: src/ui/clipproperties_ui.ui:86 src/ui/configtimeline_ui.ui:92
 #: src/ui/dvdwizardmenu_ui.ui:235 src/ui/projectsettings_ui.ui:154
 #: src/ui/recmonitor_ui.ui:100 src/ui/renderwidget_ui.ui:218
 #: src/ui/saveprofile_ui.ui:27 src/utils/resourcewidget.cpp:391
@@ -13975,7 +13985,7 @@ msgid "Insert Tracks"
 msgstr ""
 
 #: src/timeline2/view/timelinecontroller.cpp:664
-#: src/timeline2/view/timelinecontroller.cpp:3769
+#: src/timeline2/view/timelinecontroller.cpp:3774
 #, kde-format
 msgid "Could not insert track"
 msgstr ""
@@ -14130,47 +14140,47 @@ msgid ""
 "clips after the current position or choose a different track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3593
+#: src/timeline2/view/timelinecontroller.cpp:3598
 #, kde-format
 msgid "Record audio"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3723
+#: src/timeline2/view/timelinecontroller.cpp:3728
 #, kde-format
 msgid "Expand clip"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3726
+#: src/timeline2/view/timelinecontroller.cpp:3731
 #, kde-format
 msgid "Could not expand clip"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3851
+#: src/timeline2/view/timelinecontroller.cpp:3856
 #, kde-format
 msgid "Add text"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3859
+#: src/timeline2/view/timelinecontroller.cpp:3864
 #, kde-format
 msgid "Add subtitle"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3868
+#: src/timeline2/view/timelinecontroller.cpp:3876
 #, kde-format
 msgid "Import Subtitle"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3891
+#: src/timeline2/view/timelinecontroller.cpp:3899
 #, kde-format
 msgid "Export subtitle file"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3891
+#: src/timeline2/view/timelinecontroller.cpp:3899
 #, kde-format
 msgid "Subtitle File (*.srt)"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:3924
+#: src/timeline2/view/timelinecontroller.cpp:3932
 #, kde-format
 msgid "Delete subtitle"
 msgstr ""
@@ -16002,92 +16012,86 @@ msgstr ""
 msgid "Output device"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoscroll)
-#: src/ui/configtimeline_ui.ui:17
-#, kde-format
-msgid "Autoscroll while playing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ffmpegaudiothumbnails)
-#: src/ui/configtimeline_ui.ui:24
-#, kde-format
-msgid "Use FFmpeg for audio thumbnails (faster)"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/ui/configtimeline_ui.ui:31
+#: src/ui/configtimeline_ui.ui:17
 #, kde-format
 msgid "Raise properties pane when selecting in timeline"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropsclips)
-#: src/ui/configtimeline_ui.ui:37
+#: src/ui/configtimeline_ui.ui:23
 #, kde-format
 msgid "Clips"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_automatictransitions)
-#: src/ui/configtimeline_ui.ui:74
-#, kde-format
-msgid "Create new transitions as automatic transitions"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/configtimeline_ui.ui:83
-#, kde-format
-msgid "Track height"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayallchannels)
-#: src/ui/configtimeline_ui.ui:154
+#: src/ui/configtimeline_ui.ui:109
 #, kde-format
 msgid "Separate channels"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_verticalzoom)
-#: src/ui/configtimeline_ui.ui:177
-#, kde-format
-msgid "Zoom using vertical drag in ruler"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: src/ui/configtimeline_ui.ui:184
+#: src/ui/configtimeline_ui.ui:119
 #, kde-format
 msgid "Multi stream audio clips"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_multistream)
-#: src/ui/configtimeline_ui.ui:197
+#: src/ui/configtimeline_ui.ui:132
 #, kde-format
 msgid "All audio streams"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_multistream)
-#: src/ui/configtimeline_ui.ui:202
+#: src/ui/configtimeline_ui.ui:137
 #, kde-format
 msgid "First audio stream"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_multistream)
-#: src/ui/configtimeline_ui.ui:207
+#: src/ui/configtimeline_ui.ui:142
 #, kde-format
 msgid "First 2 audio streams"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/configtimeline_ui.ui:215
+#: src/ui/configtimeline_ui.ui:150
 #, kde-format
 msgid "On import, enable"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_multistream_checktrack)
-#: src/ui/configtimeline_ui.ui:222
+#: src/ui/configtimeline_ui.ui:157
 #, kde-format
 msgid "Check if project contains enough tracks"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ffmpegaudiothumbnails)
+#: src/ui/configtimeline_ui.ui:167
+#, kde-format
+msgid "Use FFmpeg for audio thumbnails (faster)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/ui/configtimeline_ui.ui:176
+#, kde-format
+msgid "Track height"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoscroll)
+#: src/ui/configtimeline_ui.ui:211
+#, kde-format
+msgid "Autoscroll while playing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_verticalzoom)
+#: src/ui/configtimeline_ui.ui:218
+#, kde-format
+msgid "Zoom using vertical drag in ruler"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showmarkers)
-#: src/ui/configtimeline_ui.ui:232
+#: src/ui/configtimeline_ui.ui:225
 #, kde-format
 msgid "Display clip markers comments"
 msgstr ""

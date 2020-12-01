@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-24 02:30+0100\n"
+"POT-Creation-Date: 2020-12-01 02:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1321,44 +1321,44 @@ msgid_plural "Successfully updated %1 packages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:240
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:245
 #, kde-format
 msgctxt "package-name (version)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:242
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:247
 #, kde-format
 msgctxt "comma separating package names"
 msgid ", "
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:280
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:285
 #, kde-format
 msgid "Obsoletes:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:281
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:286
 #, kde-format
 msgid "Release Notes:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:282
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:287
 #, kde-format
 msgid "Update State:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:283
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:288
 #, kde-format
 msgid "Restart:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:286
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:291
 #, kde-format
 msgid "Vendor:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:306
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:311
 #, kde-format
 msgid "%2 (plus %1 dependency)"
 msgid_plural "%2 (plus %1 dependencies)"
@@ -1370,24 +1370,46 @@ msgstr[1] ""
 msgid "Repository URL:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:203
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:75
+#, kde-format
+msgid "System upgrade"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:110
+#, kde-format
+msgid "1 package to upgrade"
+msgid_plural "%1 pacakages to upgrade"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:122
+#, kde-format
+msgid "Present"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:123
+#, kde-format
+msgid "Future"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:316
 #, kde-format
 msgid "Packages to remove"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:203
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:316
 #, kde-format
 msgid ""
 "The following packages will be removed by the update:<ul><li>%1</li></ul><br/"
 ">in order to install:<ul><li>%2</li></ul>"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:219
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:332
 #, kde-format
 msgid "Please restart the computer to finish the update"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:307
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:419
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:279
 #, kde-format
 msgid ""
@@ -1395,13 +1417,13 @@ msgid ""
 "%2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:320
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:432
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:264
 #, kde-format
 msgid "Accept EULA"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:320
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:432
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:264
 #, kde-format
 msgid ""
@@ -1409,13 +1431,13 @@ msgid ""
 " %3"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:414
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:530
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:291
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:415
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:531
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:292
 #, kde-format
 msgid ""
@@ -1496,6 +1518,17 @@ msgstr ""
 msgid "Launch"
 msgstr ""
 
+#: libdiscover/resources/AbstractResource.cpp:242
+#, kde-format
+msgid "Update to version %1"
+msgstr ""
+
+#: libdiscover/resources/AbstractResource.cpp:252
+#, kde-format
+msgctxt "Do not translate or alter \\u009C"
+msgid "%1 → %2%1 → %2%2"
+msgstr ""
+
 #: libdiscover/resources/ResourcesModel.cpp:89
 #, kde-format
 msgctxt "@action Checks the Internet for updates"
@@ -1567,19 +1600,19 @@ msgctxt "@info:status"
 msgid "Cancelled"
 msgstr ""
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:131
+#: libdiscover/UpdateModel/UpdateModel.cpp:128
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Application Updates"
 msgstr ""
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:132
+#: libdiscover/UpdateModel/UpdateModel.cpp:129
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Updates"
 msgstr ""
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:133
+#: libdiscover/UpdateModel/UpdateModel.cpp:130
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"
