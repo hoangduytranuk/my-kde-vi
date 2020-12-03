@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-02 02:31+0100\n"
+"POT-Creation-Date: 2020-12-03 02:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -581,38 +581,38 @@ msgstr ""
 msgid "Mentions"
 msgstr ""
 
-#: core/model/roommodel.cpp:443
+#: core/model/roommodel.cpp:444
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
-#: core/model/roommodel.cpp:449 core/model/roommodel.cpp:454
+#: core/model/roommodel.cpp:450 core/model/roommodel.cpp:455
 #, kde-format
 msgid "Unread Rooms"
 msgstr ""
 
-#: core/model/roommodel.cpp:451
+#: core/model/roommodel.cpp:452
 #, kde-format
 msgid "Unread Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:456
+#: core/model/roommodel.cpp:457
 #, kde-format
 msgid "Unread Private Messages"
 msgstr ""
 
-#: core/model/roommodel.cpp:461 core/model/roommodel.cpp:466
+#: core/model/roommodel.cpp:462 core/model/roommodel.cpp:467
 #: widgets/administratordialog/administratorwidget.cpp:44
 #, kde-format
 msgid "Rooms"
 msgstr ""
 
-#: core/model/roommodel.cpp:463
+#: core/model/roommodel.cpp:464
 #, kde-format
 msgid "Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:468
+#: core/model/roommodel.cpp:469
 #, kde-format
 msgid "Private Messages"
 msgstr ""
@@ -738,6 +738,11 @@ msgstr ""
 msgid "The required '%1' param provided does not match any channel"
 msgstr ""
 
+#: rocketchatrestapi-qt5/channels/channeljoinjob.cpp:132
+#, kde-format
+msgid "The room required a password."
+msgstr ""
+
 #: rocketchatrestapi-qt5/channels/getchannelrolesjob.cpp:104
 #, kde-format
 msgid "Extract Roles"
@@ -751,6 +756,11 @@ msgstr ""
 #: rocketchatrestapi-qt5/chat/getthreadmessagesjob.cpp:114
 #, kde-format
 msgid "Invalid message: '%1'"
+msgstr ""
+
+#: rocketchatrestapi-qt5/chat/postmessagejob.cpp:133
+#, kde-format
+msgid "This room is blocked"
 msgstr ""
 
 #: rocketchatrestapi-qt5/chat/reactonmessagejob.cpp:145
@@ -1705,7 +1715,7 @@ msgctxt "@title:window"
 msgid "Add Password"
 msgstr ""
 
-#: widgets/dialogs/channelpasswordwidget.cpp:34
+#: widgets/dialogs/channelpasswordwidget.cpp:35
 #, kde-format
 msgid "Channel Password:"
 msgstr ""

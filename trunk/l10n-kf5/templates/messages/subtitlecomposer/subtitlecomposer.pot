@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-02 02:28+0100\n"
+"POT-Creation-Date: 2020-12-03 02:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -391,7 +391,7 @@ msgstr ""
 msgid "Toggle mark on selected lines"
 msgstr ""
 
-#: src/application.cpp:685 src/gui/currentlinewidget.cpp:94
+#: src/application.cpp:685 src/gui/currentlinewidget.cpp:150
 #, kde-format
 msgid "Toggle Bold"
 msgstr ""
@@ -401,7 +401,7 @@ msgstr ""
 msgid "Toggle selected lines bold attribute"
 msgstr ""
 
-#: src/application.cpp:694 src/gui/currentlinewidget.cpp:95
+#: src/application.cpp:694 src/gui/currentlinewidget.cpp:154
 #, kde-format
 msgid "Toggle Italic"
 msgstr ""
@@ -411,7 +411,7 @@ msgstr ""
 msgid "Toggle selected lines italic attribute"
 msgstr ""
 
-#: src/application.cpp:703 src/gui/currentlinewidget.cpp:96
+#: src/application.cpp:703 src/gui/currentlinewidget.cpp:158
 #, kde-format
 msgid "Toggle Underline"
 msgstr ""
@@ -421,7 +421,7 @@ msgstr ""
 msgid "Toggle selected lines underline attribute"
 msgstr ""
 
-#: src/application.cpp:712 src/gui/currentlinewidget.cpp:97
+#: src/application.cpp:712 src/gui/currentlinewidget.cpp:162
 #, kde-format
 msgid "Toggle Strike Through"
 msgstr ""
@@ -431,7 +431,7 @@ msgstr ""
 msgid "Toggle selected lines strike through attribute"
 msgstr ""
 
-#: src/application.cpp:721 src/gui/currentlinewidget.cpp:98
+#: src/application.cpp:721 src/gui/currentlinewidget.cpp:166
 #, kde-format
 msgid "Change Text Color"
 msgstr ""
@@ -1479,67 +1479,67 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
 #. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
-#: src/configs/playerconfigwidget.ui:60 src/scconfig.kcfg:172
+#: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:172
 #, kde-format
 msgid "Start playing video when loaded"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPositionTimeEdit)
-#: src/configs/playerconfigwidget.ui:67 src/gui/playerwidget.cpp:457
+#: src/configs/playerconfigwidget.ui:57 src/gui/playerwidget.cpp:457
 #, kde-format
 msgid "Show editable position control"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_StepJumpLength)
-#: src/configs/playerconfigwidget.ui:74
+#: src/configs/playerconfigwidget.ui:64
 #, kde-format
 msgid "Fra&me step amount:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_VolumeAmplification)
-#: src/configs/playerconfigwidget.ui:84
+#: src/configs/playerconfigwidget.ui:74
 #, kde-format
 msgid "Volume amplification:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpSubtitles)
-#: src/configs/playerconfigwidget.ui:119
+#: src/configs/playerconfigwidget.ui:122
 #, kde-format
 msgid "Subtitles"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_OutlineColor)
-#: src/configs/playerconfigwidget.ui:135
+#: src/configs/playerconfigwidget.ui:138
 #, kde-format
 msgid "Outline color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontColor)
-#: src/configs/playerconfigwidget.ui:148
+#: src/configs/playerconfigwidget.ui:151
 #, kde-format
 msgid "Te&xt color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontFamily)
-#: src/configs/playerconfigwidget.ui:161
+#: src/configs/playerconfigwidget.ui:164
 #, kde-format
 msgid "Font family:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_OutlineWidth)
-#: src/configs/playerconfigwidget.ui:174
+#: src/configs/playerconfigwidget.ui:177
 #, kde-format
 msgid "Outline width:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lab_FontSize)
-#: src/configs/playerconfigwidget.ui:184
+#: src/configs/playerconfigwidget.ui:187
 #, kde-format
 msgid "Font si&ze:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpPreview)
-#: src/configs/playerconfigwidget.ui:200
+#: src/configs/playerconfigwidget.ui:203
 #, kde-format
 msgid "Subtitles Preview"
 msgstr ""
@@ -2646,32 +2646,32 @@ msgstr ""
 msgid "Subtitle Image"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:68
+#: src/gui/currentlinewidget.cpp:61
 #, kde-format
 msgid "<b>Show</b>"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:73
+#: src/gui/currentlinewidget.cpp:69
 #, kde-format
 msgid "<b>Hide</b>"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:78
+#: src/gui/currentlinewidget.cpp:77
 #, kde-format
 msgid "<b>Duration</b>"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:243 src/gui/currentlinewidget.cpp:248
+#: src/gui/currentlinewidget.cpp:252 src/gui/currentlinewidget.cpp:256
 #, kde-format
 msgid "No current line"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:376
+#: src/gui/currentlinewidget.cpp:359
 #, kde-format
 msgid "Current line:"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:398
+#: src/gui/currentlinewidget.cpp:381
 #, kde-format
 msgid "1 character"
 msgid_plural "%1 characters"
@@ -3101,7 +3101,7 @@ msgstr ""
 #. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
 #: src/scconfig.kcfg:180
 #, kde-format
-msgid "Jump length on frame step"
+msgid "Amount of frames to skip when stepping"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowPositionTimeEdit), group (VideoPlayer)
@@ -3706,22 +3706,22 @@ msgstr ""
 msgid "Allow Tabulations"
 msgstr ""
 
-#: src/widgets/simplerichtextedit.cpp:541
+#: src/widgets/simplerichtextedit.cpp:460
 #, kde-format
 msgid "Suggestions"
 msgstr ""
 
-#: src/widgets/simplerichtextedit.cpp:542
+#: src/widgets/simplerichtextedit.cpp:461
 #, kde-format
 msgid "Ignore"
 msgstr ""
 
-#: src/widgets/simplerichtextedit.cpp:543
+#: src/widgets/simplerichtextedit.cpp:462
 #, kde-format
 msgid "Add to Dictionary"
 msgstr ""
 
-#: src/widgets/simplerichtextedit.cpp:547
+#: src/widgets/simplerichtextedit.cpp:466
 #, kde-format
 msgid "No suggestions"
 msgstr ""
