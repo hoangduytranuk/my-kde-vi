@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-12-04 02:14+0100\n"
-"PO-Revision-Date: 2020-11-29 10:43+0100\n"
+"PO-Revision-Date: 2020-12-04 18:02+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -4152,12 +4152,12 @@ msgstr "Không phân tách được tệp trợ giúp được yêu cầu:<br />
 #: ioslaves/help/kio_help.cpp:241
 #, kde-format
 msgid "Saving to cache"
-msgstr "Đang lưu vào bộ nhớ đệm"
+msgstr "Đang lưu vào bộ nhớ sẵn"
 
 #: ioslaves/help/kio_help.cpp:258
 #, kde-format
 msgid "Using cached version"
-msgstr "Đang dùng phiên bản lưu ở bộ nhớ đệm"
+msgstr "Đang dùng phiên bản lưu sẵn"
 
 #: ioslaves/help/kio_help.cpp:320
 #, kde-format
@@ -4880,10 +4880,10 @@ msgid ""
 "recently read, it will not be downloaded from the Internet, but rather "
 "retrieved from the cache, which is a lot faster.</p>"
 msgstr ""
-"<h1>Bộ nhớ đệm</h1><p>Khối này cho phép bạn cấu hình các thiết lập bộ nhớ "
-"đệm.</p><p>Bộ nhớ đệm này là một vùng trên đĩa, lưu trữ các trang web đọc "
+"<h1>Bộ nhớ sẵn</h1><p>Khối này cho phép bạn cấu hình các thiết lập bộ nhớ "
+"sẵn.</p><p>Bộ nhớ sẵn này là một vùng trên đĩa, lưu trữ các trang web đọc "
 "gần đây. Nếu bạn muốn lấy lại một trang web mà bạn đọc gần đây, nó sẽ không "
-"phải tài về từ Liên Mạng nữa mà được lấy từ bộ nhớ đệm, làm như vậy nhanh "
+"phải tài về từ Liên Mạng nữa mà được lấy từ bộ nhớ sẵn, làm như vậy nhanh "
 "hơn nhiều.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseCache)
@@ -4904,7 +4904,7 @@ msgstr ""
 #: kcms/kio/cache.ui:20
 #, kde-format
 msgid "&Use cache"
-msgstr "Dùng &bộ nhớ đệm"
+msgstr "Dùng &bộ nhớ sẵn"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
@@ -4920,14 +4920,14 @@ msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
 msgstr ""
-"Xác minh liệu trang web được lưu đệm có hợp lệ trước khi thử lấy về lại "
+"Xác minh liệu trang web được lưu sẵn có hợp lệ trước khi thử lấy về lại "
 "trang web đó."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
 #: kcms/kio/cache.ui:55
 #, kde-format
 msgid "&Keep cache in sync"
-msgstr "&Giữ cho bộ nhớ đệm đồng bộ"
+msgstr "&Giữ cho bộ nhớ sẵn đồng bộ"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:62
@@ -4936,14 +4936,14 @@ msgid ""
 "Always use documents from the cache when available. You can still use the "
 "reload button to synchronize the cache with the remote host."
 msgstr ""
-"Luôn dùng các tài liệu trong bộ nhớ đệm khi nào sẵn có. Bạn vẫn có thể dùng "
-"nút tải lại để đồng bộ hoá bộ nhớ đệm với máy ở xa."
+"Luôn dùng các tài liệu trong bộ nhớ sẵn khi nào hiện có. Bạn vẫn có thể dùng "
+"nút tải lại để đồng bộ hoá bộ nhớ sẵn với máy ở xa."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:65
 #, kde-format
 msgid "Use cache whenever &possible"
-msgstr "Dùng bộ nhớ đệm bất kì khi nào &có thể"
+msgstr "Dùng bộ nhớ sẵn bất kì khi nào &có thể"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:72
@@ -4952,7 +4952,7 @@ msgid ""
 "Do not fetch web pages that are not already stored in the cache. Offline "
 "mode prevents you from viewing pages that you have not previously visited."
 msgstr ""
-"Đừng lấy về các trang web chưa được lưu trong bộ nhớ đệm. Chế độ ngoại tuyến "
+"Đừng lấy về các trang web chưa được lưu trong bộ nhớ sẵn. Chế độ ngoại tuyến "
 "ngăn cản bạn xem các trang mà bạn chưa từng mở."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
@@ -4965,7 +4965,7 @@ msgstr "Chế độ duyệt ng&oại tuyến"
 #: kcms/kio/cache.ui:88
 #, kde-format
 msgid "Disk cache &size:"
-msgstr "&Kích thước bộ nhớ đệm trên đĩa:"
+msgstr "&Kích thước bộ nhớ sẵn trên đĩa:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxCacheSize)
 #: kcms/kio/cache.ui:104
@@ -4977,7 +4977,7 @@ msgstr " KiB"
 #: kcms/kio/cache.ui:114
 #, kde-format
 msgid "C&lear Cache"
-msgstr "Làm t&rống bộ nhớ đệm"
+msgstr "Làm t&rống bộ nhớ sẵn"
 
 #: kcms/kio/kcookiesmain.cpp:39
 #, kde-format
@@ -5576,10 +5576,10 @@ msgid ""
 "p><p><u>Note:</u> Some proxy servers provide both services.</p>"
 msgstr ""
 "<h1>Uỷ nhiệm</h1><p>Một máy chủ uỷ nhiệm là một chương trình trung gian đứng "
-"giữa máy của bạn và Liên Mạng, và cung cấp các dịch vụ như lưu đệm và/hoặc "
-"lọc các trang web.</p><p>Máy chủ uỷ nhiệm lưu đệm cho phép bạn truy cập "
+"giữa máy của bạn và Liên Mạng, và cung cấp các dịch vụ như lưu sẵn và/hoặc "
+"lọc các trang web.</p><p>Máy chủ uỷ nhiệm lưu sẵn cho phép bạn truy cập "
 "nhanh hơn đến các địa điểm mà bạn đã từng mở bằng cách lưu cục bộ hoặc lưu "
-"đệm nội dung các trang đó; máy chủ uỷ nhiệm lọc, mặt khác, cung cấp khả năng "
+"sẵn nội dung các trang đó; máy chủ uỷ nhiệm lọc, mặt khác, cung cấp khả năng "
 "chặn các yêu cầu đến quảng cáo, thư rác, hoặc bất kì thứ gì khác mà bạn muốn "
 "chặn.</p><p><u>Lưu ý:</u> Một số máy chủ uỷ nhiệm cung cấp cả hai dịch vụ.</"
 "p>"
@@ -5607,9 +5607,9 @@ msgstr ""
 "Cài đặt cấu hình uỷ nhiệm.\n"
 "<p>\n"
 "Một máy chủ uỷ nhiệm là một máy trung gian đứng giữa máy của bạn và Liên "
-"Mạng, và cung cấp các dịch vụ như lưu đệm và lọc các trang web. Máy chủ uỷ "
-"nhiệm lưu đệm cho phép bạn truy cập nhanh hơn đến các địa điểm web mà bạn đã "
-"từng mở bằng cách lưu cục bộ hoặc lưu đệm các trang đó; máy chủ uỷ nhiệm lọc "
+"Mạng, và cung cấp các dịch vụ như lưu sẵn và lọc các trang web. Máy chủ uỷ "
+"nhiệm lưu sẵn cho phép bạn truy cập nhanh hơn đến các địa điểm web mà bạn đã "
+"từng mở bằng cách lưu cục bộ hoặc lưu sẵn các trang đó; máy chủ uỷ nhiệm lọc "
 "thường cung cấp khả năng chặn các yêu cầu đến quảng cáo, thư rác, hoặc bất "
 "kì thứ gì khác mà bạn muốn chặn.\n"
 "<p>\n"
@@ -6659,7 +6659,7 @@ msgstr "Coi URL như tệp cục bộ và sau đó xoá chúng"
 #: kioexec/main.cpp:288
 #, kde-format
 msgid "Suggested file name for the downloaded file"
-msgstr "Tên gợi ý cho tệp được tải về"
+msgstr "Tên gợi ý cho tệp đã tải về"
 
 #: kioexec/main.cpp:290
 #, kde-format

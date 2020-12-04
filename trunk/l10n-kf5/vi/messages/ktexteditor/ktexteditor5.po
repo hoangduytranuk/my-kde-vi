@@ -4,20 +4,21 @@
 # Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
 # Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>, 2007, 2008.
 # Lê Hoàng Phương <herophuong93@gmail.com>, 2012.
+# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-22 02:11+0100\n"
-"PO-Revision-Date: 2012-01-09 21:52+0700\n"
-"Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
-"Language-Team: American English <kde-i18n-vi@kde.org>\n"
+"PO-Revision-Date: 2020-12-04 18:20+0100\n"
+"Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 20.08.1\n"
 
 #: completion/katecompletionconfig.cpp:28
 #, kde-format
@@ -324,7 +325,7 @@ msgstr "Bổ sung hoàn chỉnh từ"
 #: data/katepart5ui.rc:119 spellcheck/spellingmenu.cpp:82
 #, kde-format
 msgid "Spelling"
-msgstr ""
+msgstr "Đánh vần"
 
 #. i18n: ectx: Menu (settings)
 #: data/katepart5ui.rc:141
@@ -1326,8 +1327,8 @@ msgstr ""
 #: dialogs/indentationconfigwidget.ui:192
 #, kde-format
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+"css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body>\n"
 "<p>Tab key action (if no selection exists) <a href=\"If you want <b>Tab</b> "
@@ -1410,7 +1411,7 @@ msgstr "Bổ sung hoàn chỉnh từ"
 #: dialogs/katedialogs.cpp:349
 #, kde-format
 msgid "Spellcheck"
-msgstr "Kiểm tra chính tả"
+msgstr "Kiểm tra đánh vần"
 
 #: dialogs/katedialogs.cpp:423
 #, fuzzy, kde-format
@@ -2386,8 +2387,8 @@ msgstr ""
 #| "content. Either reopen the file with the correct encoding chosen or "
 #| "enable the read-write mode again in the menu to be able to edit it."
 msgid ""
-"The file %1 was opened with %2 encoding but contained invalid characters."
-"<br />It is set to read-only mode, as saving might destroy its content.<br /"
+"The file %1 was opened with %2 encoding but contained invalid characters.<br "
+"/>It is set to read-only mode, as saving might destroy its content.<br /"
 ">Either reopen the file with the correct encoding chosen or enable the read-"
 "write mode again in the tools menu to be able to edit it."
 msgstr ""
@@ -2587,8 +2588,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
-"'remove-trailing-spaces modified;', see https://docs.kde.org/?"
-"application=katepart&branch=stable5&path=config-variables.html#variable-"
+"'remove-trailing-spaces modified;', see https://docs.kde.org/"
+"?application=katepart&branch=stable5&path=config-variables.html#variable-"
 "remove-trailing-spaces"
 msgstr ""
 
@@ -2596,8 +2597,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
-"'remove-trailing-spaces all;', see https://docs.kde.org/?"
-"application=katepart&branch=stable5&path=config-variables.html#variable-"
+"'remove-trailing-spaces all;', see https://docs.kde.org/"
+"?application=katepart&branch=stable5&path=config-variables.html#variable-"
 "remove-trailing-spaces"
 msgstr ""
 
@@ -3523,8 +3524,8 @@ msgid ""
 "(selected) lines and replace the line with the return value of the callback."
 "<br>Example (see also <code>ltrim</code>):<br><code>map 'function(line)"
 "{return line.replace(/^\\s+/, \"\");}'</code><br>To save you some typing, "
-"you can also do this to achieve the same:<br><code>map 'line.replace(/^\\s"
-"+/, \"\")'</code>"
+"you can also do this to achieve the same:<br><code>map 'line.replace(/"
+"^\\s+/, \"\")'</code>"
 msgstr ""
 
 #: script/data/commands/utils.js:391
@@ -4125,29 +4126,29 @@ msgid "Text to replace with"
 msgstr ""
 
 #: spellcheck/spellcheckbar.cpp:148
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Spellcheck Selection..."
 msgid "Spell check canceled."
-msgstr "Kiểm tra chính tả phần chọn..."
+msgstr "Đã huỷ kiểm tra đánh vần."
 
 #: spellcheck/spellcheckbar.cpp:246
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Spellcheck Selection..."
 msgctxt "progress label"
 msgid "Spell checking in progress..."
-msgstr "Kiểm tra chính tả phần chọn..."
+msgstr "Đang kiểm tra đánh vần..."
 
 #: spellcheck/spellcheckbar.cpp:247 spellcheck/spellcheckbar.cpp:436
 #, kde-format
 msgctxt "@title:window"
 msgid "Check Spelling"
-msgstr ""
+msgstr "Kiểm tra đánh vần"
 
 #: spellcheck/spellcheckbar.cpp:433 spellcheck/spellcheckbar.cpp:436
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Spellcheck Selection..."
 msgid "Spell check complete."
-msgstr "Kiểm tra chính tả phần chọn..."
+msgstr "Kiểm tra đánh vần xong."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
@@ -4167,20 +4168,31 @@ msgid ""
 "All</b>.</p>\n"
 "</qt>"
 msgstr ""
+"<qt><p>Từ này được xem là \"từ không rõ\" vì nó không khớp với mục nào trong "
+"từ điển đang được dùng. Nó cũng có thể là từ trong một ngoại ngữ.</p>\n"
+"<p>Nếu từ này không bị đánh vần sai, bạn có thể thêm nó vào từ điển bằng "
+"cách bấm nút <b>Thêm vào từ điển</b>. Nếu bạn không muốn thêm từ không rõ "
+"này vào từ điển, mà muốn để nó nguyên như vậy, thì bấm <b>Bỏ qua</b> hoặc "
+"<b>Bỏ qua tất cả</b>.</p>\n"
+"<p>Tuy nhiên, nếu từ này bị đánh vần sai, bạn có thể thử tìm từ đúng trong "
+"danh sách bên dưới. Nếu bạn không thể tìm thấy một từ nào để thay thế, thì "
+"bạn có thể gõ nó vào hộp văn bản bên dưới, và bấm <b>Thay thế</b> hoặc "
+"<b>Thay thế tất cả</b>.</p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: spellcheck/spellcheckbar.ui:33
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unknown Property"
 msgid "Unknown word:"
-msgstr "Thuộc tính không rõ"
+msgstr "Từ không rõ:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
 #: spellcheck/spellcheckbar.ui:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unknown Property"
 msgid "Unknown word"
-msgstr "Thuộc tính không rõ"
+msgstr "Từ không rõ"
 
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
 #: spellcheck/spellcheckbar.ui:49
@@ -4201,6 +4213,14 @@ msgid ""
 "or <b>Ignore All</b> instead.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Từ không rõ đã được phát hiện và được xem là không rõ vì nó không có "
+"trong từ điển.<br>\n"
+"Bấm vào đây nếu bạn cho rằng từ lạ không bị đánh vần sai, và bạn muốn tránh "
+"lại phát hiện nhầm nó trong tương lai. Nếu bạn muốn để nó nguyên như vậy, "
+"nhưng không thêm nó vào từ điển, thì bấm <b>Bỏ qua</b> hoặc <b>Bỏ qua tất "
+"cả</b>.</p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
 #: spellcheck/spellcheckbar.ui:75
@@ -4221,6 +4241,13 @@ msgid ""
 "occurrences.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Nếu từ không rõ này bị đánh vần sai, bạn nên gõ từ đúng cho từ bị đánh "
+"vần sai vào đây, hoặc chọn nó trong danh sách bên dưới.</p>\n"
+"<p>Sau đó bạn có thể bấm <b>Thay thế</b> nếu bạn muốn sửa chỉ lần xuất hiện "
+"này của từ, hoặc <b>Thay thế tất cả</b> nếu bạn muốn sửa tất cả các lần xuất "
+"hiện.</p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: spellcheck/spellcheckbar.ui:92
@@ -4256,6 +4283,12 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Bấm vào đây để giữ nguyên lần xuất hiện này của từ không rõ.</p>\n"
+"<p>Việc này có ích khi từ đó là một cái tên, một từ rút gọn, một từ ngoại ngữ "
+"hoặc bất kì từ không rõ nào khác mà bạn muốn dùng nhưng không muốn thêm vào "
+"từ điển.</p>\n"
+"</qt>"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: ectx: property (whatsThis), widget (Sonnet::DictionaryComboBox, m_language)
@@ -4266,6 +4299,9 @@ msgid ""
 "<p>Select the language of the document you are proofing here.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Chọn ngôn ngữ của tài liệu bạn đang hiệu đính tại đây.</p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: spellcheck/spellcheckbar.ui:159
@@ -4294,6 +4330,12 @@ msgid ""
 "</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Bấm vào đây để giữ nguyên tất cả các lần xuất hiện của từ không rõ.</p>\n"
+"<p>Việc này có ích khi từ đó là một cái tên, một từ rút gọn, một từ ngoại ngữ "
+"hoặc bất kì từ không rõ nào khác mà bạn muốn dùng nhưng không muốn thêm vào "
+"từ điển.</p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_autoCorrect)
 #: spellcheck/spellcheckbar.ui:200
@@ -4328,12 +4370,12 @@ msgstr "&Bỏ qua"
 #: spellcheck/spellcheckdialog.cpp:51
 #, kde-format
 msgid "Spelling (from cursor)..."
-msgstr "Chính tả (từ con chạy)..."
+msgstr "Đánh vần (từ con trỏ)..."
 
 #: spellcheck/spellcheckdialog.cpp:54
 #, kde-format
 msgid "Check the document's spelling from the cursor and forward"
-msgstr "Kiểm tra chính tả của tài liệu từ con chạy và tiếp."
+msgstr "Kiểm tra cách đánh vần trong tài liệu từ vị trí con trỏ trở đi"
 
 #: spellcheck/spellingmenu.cpp:87
 #, fuzzy, kde-format
@@ -5048,7 +5090,7 @@ msgid ""
 msgstr ""
 "Danh sách này hiển thị kiểu mặc định cho giản đồ hiện thời, và cung cấp khả "
 "năng sửa đổi nó. Tên kiểu dáng phản ánh thiết lập kiểu dáng hiện có.<p>Để "
-"sửa đổi màu sắc, nhắp vào hộp màu, hoặc chọn màu cần sửa đổi trong trình đơn "
+"sửa đổi màu sắc, bấm vào hộp màu, hoặc chọn màu cần sửa đổi trong trình đơn "
 "bật lên.<p>Bạn có thể bỏ đặt màu Nền và Nền đã chọn, từ trình đơn bật lên, "
 "khi thích hợp."
 
@@ -5105,7 +5147,7 @@ msgstr ""
 "cấp khả năng sửa đổi chúng. Tên ngữ cảnh phản ánh thiết lập kiểu dáng hiện "
 "có.</p><p>Để sửa đổi bằng bàn phím, hãy bấm <strong>&lt;phím dài&gt;</"
 "strong> rồi chọn một tính chất trong trình đơn bật lên.</p><p>Để sửa đổi màu "
-"sắc, nhắp vào hộp màu, hoặc chọn màu cần sửa đổi trong trình đơn bật lên.</"
+"sắc, bấm vào hộp màu, hoặc chọn màu cần sửa đổi trong trình đơn bật lên.</"
 "p><p>Bạn có thể bỏ đặt màu Nền và Nền đã chọn, từ trình đơn bật lên, khi "
 "thích hợp.</p>"
 
@@ -5392,10 +5434,11 @@ msgstr ""
 #, kde-format
 msgid ""
 "<p>set-remove-trailing-spaces <b>mode</b></p><p>Removes the trailing spaces "
-"in the document depending on the <b>mode</b>.</p><p>Possible values:"
-"<ul><li><b>none</b>: never remove trailing spaces.</li><li><b>modified</b>: "
-"remove trailing spaces only of modified lines.</li><li><b>all</b>: remove "
-"trailing spaces in the entire document.</li></ul></p>"
+"in the document depending on the <b>mode</b>.</p><p>Possible "
+"values:<ul><li><b>none</b>: never remove trailing spaces.</"
+"li><li><b>modified</b>: remove trailing spaces only of modified lines.</"
+"li><li><b>all</b>: remove trailing spaces in the entire document.</li></ul></"
+"p>"
 msgstr ""
 
 #: utils/katecmds.cpp:123
@@ -5580,20 +5623,20 @@ msgid ""
 "tr><tr><td>M</td><td>The month as number without a leading zero (1-12).</"
 "td></tr><tr><td>MM</td><td>The month as number with a leading zero (01-12).</"
 "td></tr><tr><td>MMM</td><td>The abbreviated localized month name (e.g. "
-"'Jan'..'Dec').</td></tr><tr><td>yy</td><td>The year as two digit number "
-"(00-99).</td></tr><tr><td>yyyy</td><td>The year as four digit number "
-"(1752-8000).</td></tr><tr><td>h</td><td>The hour without a leading zero "
-"(0..23 or 1..12 if AM/PM display).</td></tr><tr><td>hh</td><td>The hour with "
-"a leading zero (00..23 or 01..12 if AM/PM display).</td></tr><tr><td>m</"
-"td><td>The minute without a leading zero (0..59).</td></tr><tr><td>mm</"
-"td><td>The minute with a leading zero (00..59).</td></tr><tr><td>s</"
-"td><td>The second without a leading zero (0..59).</td></tr><tr><td>ss</"
-"td><td>The second with a leading zero (00..59).</td></tr><tr><td>z</"
-"td><td>The milliseconds without leading zeroes (0..999).</td></"
-"tr><tr><td>zzz</td><td>The milliseconds with leading zeroes (000..999).</"
-"td></tr><tr><td>AP</td><td>Use AM/PM display. AP will be replaced by either "
-"\"AM\" or \"PM\".</td></tr><tr><td>ap</td><td>Use am/pm display. ap will be "
-"replaced by either \"am\" or \"pm\".</td></tr></table></p>"
+"'Jan'..'Dec').</td></tr><tr><td>yy</td><td>The year as two digit number (00-"
+"99).</td></tr><tr><td>yyyy</td><td>The year as four digit number (1752-8000)."
+"</td></tr><tr><td>h</td><td>The hour without a leading zero (0..23 or 1..12 "
+"if AM/PM display).</td></tr><tr><td>hh</td><td>The hour with a leading zero "
+"(00..23 or 01..12 if AM/PM display).</td></tr><tr><td>m</td><td>The minute "
+"without a leading zero (0..59).</td></tr><tr><td>mm</td><td>The minute with "
+"a leading zero (00..59).</td></tr><tr><td>s</td><td>The second without a "
+"leading zero (0..59).</td></tr><tr><td>ss</td><td>The second with a leading "
+"zero (00..59).</td></tr><tr><td>z</td><td>The milliseconds without leading "
+"zeroes (0..999).</td></tr><tr><td>zzz</td><td>The milliseconds with leading "
+"zeroes (000..999).</td></tr><tr><td>AP</td><td>Use AM/PM display. AP will be "
+"replaced by either \"AM\" or \"PM\".</td></tr><tr><td>ap</td><td>Use am/pm "
+"display. ap will be replaced by either \"am\" or \"pm\".</td></tr></table></"
+"p>"
 msgstr ""
 
 #: utils/kateglobal.cpp:67
@@ -5669,10 +5712,10 @@ msgid "Michel Ludwig"
 msgstr ""
 
 #: utils/kateglobal.cpp:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Spellcheck"
 msgid "On-the-fly spell checking"
-msgstr "Kiểm tra chính tả"
+msgstr "Kiểm tra đánh vần trong khi gõ"
 
 #: utils/kateglobal.cpp:104
 #, kde-format
@@ -6303,7 +6346,7 @@ msgstr ""
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the default dictionary used for spell checking."
-msgstr ""
+msgstr "Đặt từ điển mặc định dùng cho kiểm tra đánh vần."
 
 #: variableeditor/variablelineedit.cpp:171
 #, kde-format
@@ -7372,12 +7415,12 @@ msgstr ""
 #: view/kateview.cpp:838
 #, kde-format
 msgid "Automatic Spell Checking"
-msgstr ""
+msgstr "Kiểm tra đánh vần tự động"
 
 #: view/kateview.cpp:839
 #, kde-format
 msgid "Enable/disable automatic spell checking"
-msgstr ""
+msgstr "Bật/tắt kiểm tra đánh vần tự động"
 
 #: view/kateview.cpp:845
 #, fuzzy, kde-format
@@ -7388,7 +7431,7 @@ msgstr "Chọn bộ sửa..."
 #: view/kateview.cpp:846
 #, kde-format
 msgid "Change the dictionary that is used for spell checking."
-msgstr ""
+msgstr "Thay đổi từ điển dùng cho kiểm tra đánh vần."
 
 #: view/kateview.cpp:850
 #, kde-format
@@ -7745,13 +7788,13 @@ msgstr "Không có lệnh <b>%1</b>"
 #: view/kateviewhelpers.cpp:1121
 #, kde-format
 msgid ""
-"<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
-"[ arguments ]</b></code><br />For a list of available commands, enter "
+"<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command [ "
+"arguments ]</b></code><br />For a list of available commands, enter "
 "<code><b>help list</b></code><br />For help for individual commands, enter "
 "<code><b>help &lt;command&gt;</b></code></p>"
 msgstr ""
-"<p>Đây là <b>dòng lệnh</b> của Katepart.<br/>Cú pháp: <code><b>lệnh "
-"[ các_đối_số ]</b></code><br/>Để xem danh sách các lệnh sẵn sàng, hãy gõ "
+"<p>Đây là <b>dòng lệnh</b> của Katepart.<br/>Cú pháp: <code><b>lệnh [ "
+"các_đối_số ]</b></code><br/>Để xem danh sách các lệnh sẵn sàng, hãy gõ "
 "<code><b>help list</b></code><br/>Còn để xem trợ giúp về lệnh riêng, "
 "gõ<code><b>help &lt;tên_lệnh&gt;</b></code></p>"
 
@@ -7817,13 +7860,13 @@ msgstr ""
 msgid ""
 "<p><b>q/qa/wq/wqa &mdash; [write and] quit</b></p><p>Usage: <tt><b>[w]q[a]</"
 "b></tt></p><p>Quits the application. If <tt>w</tt> is prepended, it also "
-"writes the document(s) to disk. This command can be called in several ways:"
-"<br /> <tt>q</tt> &mdash; closes the current view.<br /> <tt>qa</tt> &mdash; "
-"closes all views, effectively quitting the application.<br /> <tt>wq</tt> "
-"&mdash; writes the current document to disk and closes its view.<br /> "
-"<tt>wqa</tt> &mdash; writes all documents to disk and quits.</p><p>In all "
-"cases, if the view being closed is the last view, the application quits. If "
-"no file name is associated with the document and it should be written to "
+"writes the document(s) to disk. This command can be called in several "
+"ways:<br /> <tt>q</tt> &mdash; closes the current view.<br /> <tt>qa</tt> "
+"&mdash; closes all views, effectively quitting the application.<br /> "
+"<tt>wq</tt> &mdash; writes the current document to disk and closes its view."
+"<br /> <tt>wqa</tt> &mdash; writes all documents to disk and quits.</p><p>In "
+"all cases, if the view being closed is the last view, the application quits. "
+"If no file name is associated with the document and it should be written to "
 "disk, a file dialog will be shown.</p>"
 msgstr ""
 
@@ -7894,18 +7937,18 @@ msgstr ""
 #, kde-format
 msgid ""
 "<p><b>bp,bprev &mdash; previous buffer</b></p><p>Usage: <tt><b>bp[revious] "
-"[N]</b></tt></p><p>Goes to <b>[N]</b>th previous document (\"<b>b</b>uffer"
-"\") in document list. </p><p> <b>[N]</b> defaults to one. </p><p>Wraps "
-"around the start of the document list.</p>"
+"[N]</b></tt></p><p>Goes to <b>[N]</b>th previous document (\"<b>b</"
+"b>uffer\") in document list. </p><p> <b>[N]</b> defaults to one. </"
+"p><p>Wraps around the start of the document list.</p>"
 msgstr ""
 
 #: vimode/appcommands.cpp:518
 #, kde-format
 msgid ""
-"<p><b>bn,bnext &mdash; switch to next document</b></p><p>Usage: "
-"<tt><b>bn[ext] [N]</b></tt></p><p>Goes to <b>[N]</b>th next document "
-"(\"<b>b</b>uffer\") in document list.<b>[N]</b> defaults to one. </"
-"p><p>Wraps around the end of the document list.</p>"
+"<p><b>bn,bnext &mdash; switch to next document</b></p><p>Usage: <tt><b>bn"
+"[ext] [N]</b></tt></p><p>Goes to <b>[N]</b>th next document (\"<b>b</"
+"b>uffer\") in document list.<b>[N]</b> defaults to one. </p><p>Wraps around "
+"the end of the document list.</p>"
 msgstr ""
 
 #: vimode/appcommands.cpp:526
@@ -8077,8 +8120,8 @@ msgstr ""
 #: vimode/config/configwidget.ui:209
 #, kde-format
 msgid ""
-"Read a vimrc file and attempt to import mappings specified with the "
-"\"[n]noremap\" command."
+"Read a vimrc file and attempt to import mappings specified with the \"[n]"
+"noremap\" command."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnImportNormal)
