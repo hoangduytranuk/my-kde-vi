@@ -1065,6 +1065,7 @@ msgstr ""
 #: ./content/announcements/releases/2020-09-apps-update.md:39
 #: ./content/announcements/releases/2020-10-apps-update.md:99
 #: ./content/announcements/releases/2020-11-apps-update.md:62
+#: ./content/announcements/releases/2020-12-apps-update.md:91
 msgid "Incoming"
 msgstr ""
 
@@ -4130,11 +4131,13 @@ msgstr ""
 
 #. type: Title #
 #: ./content/announcements/releases/2020-11-apps-update.md:88
+#: ./content/announcements/releases/2020-12-apps-update.md:103
 msgid "Contributing"
 msgstr ""
 
 #. type: Plain Text
 #: ./content/announcements/releases/2020-11-apps-update.md:90
+#: ./content/announcements/releases/2020-12-apps-update.md:105
 msgid ""
 "If you would like to help, [get "
 "involved](https://community.kde.org/Get_Involved)! We are a friendly and "
@@ -4146,8 +4149,398 @@ msgstr ""
 
 #. type: Plain Text
 #: ./content/announcements/releases/2020-11-apps-update.md:92
+#: ./content/announcements/releases/2020-12-apps-update.md:107
 msgid ""
 "Another way to help KDE is by [donating to "
 "KDE](https://kde.org/community/donations/) and helping the Community keep "
 "things running."
+msgstr ""
+
+#: ./content/announcements/releases/2020-12-apps-update.md:0
+msgid "KDE's December 2020 Apps Update"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:5
+msgid ""
+"KDE apps are always being improved and enhanced. But not only that, KDE "
+"developers are also constantly working on new applications to cover users' "
+"needs. Today's release is no different: the new bundle updates email, "
+"calendar and contact suite, Kontact; adds new travel assistant apps "
+"Itinerary and KPublicTransport to the list of available programs; and, for "
+"the first time, includes Partition Manager, the Konversation chat client, "
+"and KTorrent into our regular release service."
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:7
+msgid "First Itinerary release"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:9
+msgid ""
+"KDE Itinerary is an app that provides you with all the information you need "
+"while on the road. This digital travel assistant supplies you with "
+"timetables and locations for trains, airplanes and long-distance bus "
+"itineraries, as well as information about hotel or event bookings. Using "
+"plugins, KDE Itinerary can import data from several sources, such as your "
+"email client, and update you with real-time delay/disruption information, "
+"the weather forecast at your destination, suggestions for local public "
+"transport to get to the train station or airport on time. It can also "
+"provide you with train and coach station layout maps."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:11
+msgid ""
+"You can read more about KDE Itineray on all its features on [Volker Krause "
+"blog](https://www.volkerkrause.eu/)."
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:13
+msgid "Kontact"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:15
+msgid ""
+"[Kontact](https://kontact.kde.org/) is your all-in-one personal information "
+"manager, allowing you to read your mails, store your contacts, manage your "
+"calendar and so much more. In this release, Kontact saw significant "
+"improvements."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:17
+msgid ""
+"First, the user experience of Google synchronization has been improved and "
+"now doesn't use an embedded browser to log in, but instead opens your "
+"default web browser. You also now get notifications when the Google account "
+"needs to be re-authenticated."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:19
+msgid ""
+"There is also a new plugin that allows you to configure the settings of "
+"multiple mail folders at the same time. This is particularly helpful if you "
+"have dozens of folders and want to change the configuration for just a group"
+" of them."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:21
+msgid ""
+"*Kleopatra*, the certificate manager for Kontact, now supports more types of"
+" smart cards. It previously supported OpenPGP and NetKey cards but now also "
+"covers PIV cards (which are used in governmental and corporate "
+"environments). The user interface has also been simplified and it is now "
+"easier to switch between the main views."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:23
+msgid ""
+"*Akonadi*, the underlying data storage framework for Kontact, also saw some "
+"significant improvements. Akonadi now supports the LZMA compression "
+"algorithm to store the data, thus reducing the disk usage by up to 30%. The "
+"KIMAP library that handles fetching your mails now supports the QRESYNC "
+"extension ([RFC 5162](https://tools.ietf.org/html/rfc5162)). This extension "
+"allows for even faster and more reliable email synchronization with less "
+"bandwidth usage when syncing emails with IMAP servers that support this "
+"extension."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:25
+msgid ""
+"Kontact also now supports a new service: "
+"[EteSync](https://www.etesync.com/). EteSync is a secure, end-to-end "
+"encrypted, and privacy respecting sync service for your contacts, calendars,"
+" tasks and notes. You can read more about EteSync at the [GSoC project "
+"report](https://thejollyblog.netlify.app/posts/KDE/gsoc-part-6-user-guide)."
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:27
+msgid "Dolphin"
+msgstr ""
+
+#. type: shortcode parameter
+#: ./content/announcements/releases/2020-12-apps-update.md:29
+msgid "Dolphin's address bar is now in the toolbar"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:31
+msgid ""
+"[Dolphin](https://apps.kde.org/en/dolphin) is KDE's file and folder manager."
+" Several changes to Dolphin's interface make it easier for you to navigate "
+"your storage and browse your documents, photos, songs, and directories."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:33
+msgid ""
+"Dolphin's address bar is now in the toolbar, for example, and, in *Detail "
+"View* mode, you can set the size to include everything in the folder "
+"including the nested folders inside the parent one."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:35
+msgid ""
+"A change in Frameworks means that the *Places* panel in Dolphin, the file "
+"dialogs, and various other places now include entries for your *Music*, "
+"*Pictures*, and *Videos* folders by default. Related to that, screenshots "
+"taken with [Spectacle](https://apps.kde.org/en/spectacle) now appear in the "
+"list of recent documents in the *Places Panel*. The *Places Panel* is "
+"visible in Dolphin, the file dialogs, and various other pieces of software."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:37
+msgid ""
+"Finally, for those looking to use Dolphin on touchscreens, Dolphin now has "
+"full touch support!"
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:39
+msgid "Konsole"
+msgstr ""
+
+#. type: shortcode parameter
+#: ./content/announcements/releases/2020-12-apps-update.md:41
+msgid ""
+"Konsole now with a toolbar, showing off HTML colour preview, a vertical line"
+" to mark column 80 and it can open URLs and files"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:43
+msgid ""
+"Konsole now has a configurable toolbar (which you can of course hide if you "
+"don’t like it). It shows HTML colour previews as tooltips, can show a "
+"vertical line to mark column 80 or any other column, and it can open URLs "
+"and files. If you're running a command which uses the full terminal such as "
+"```less``` or ```vim``` and wants to peek back at your command line there's "
+"now a setting for a shortcut to do this."
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:45
+msgid "Konversation"
+msgstr ""
+
+#. type: shortcode parameter
+#: ./content/announcements/releases/2020-12-apps-update.md:47
+msgid "Nick icon themes can now be browsed and selected"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:49
+msgid ""
+"IRC chat app [Konversation](https://konversation.kde.org/) joins the regular"
+" release service and adds a bunch of new features:"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:51
+msgid ""
+"Konversation now supports downloading nick icon themes from store.kde.org"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:52
+msgid "The channel history can be deleted for privacy"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:53
+msgid "The available server capabilities get shown on connect"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:55
+msgid "And there's a bunch of technical protocol enhancements:"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:57
+msgid ""
+"The IRCv3 protocol has been improved with added support for capability "
+"negotiation v3.2"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:58
+msgid "Konversation now uses SASL authentication mechanisms in CAP LS"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:59
+msgid ""
+"A date marker gets added to the first line on new date if the date is not in"
+" the timestamp"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:60
+msgid ""
+"Konversation follows the standard for string handling when sending PASS "
+"command"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:61
+msgid "The znc.in/self-message capability has been added"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:62
+msgid "WHO requests for twitch.tv servers have been disabled"
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:64
+msgid "Spectacle"
+msgstr ""
+
+#. type: shortcode parameter
+#: ./content/announcements/releases/2020-12-apps-update.md:66
+msgid "Spectacle with annotations"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:68
+msgid ""
+"KDE's screenshot app, [Spectacle](https://apps.kde.org/en/spectacle), now "
+"has an editor that lets you add arrows, smilies, text and freehand drawing "
+"to your screenshots."
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:70
+msgid "KDE Connect"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:72
+msgid ""
+"[KDE Connect](https://kdeconnect.kde.org/) is an app that lets you "
+"synchronize multiple services across your mobile devices and desktop "
+"computers. The new version released today lets you download conversations "
+"part-by-part to load more efficiently and quickly; adds a thumbnail preview "
+"to the list of conversations when the most-recent message contains an "
+"attachment; and improves the placeholder message when the most-recent "
+"message in a conversation has an attachment but no plain-text body."
+msgstr ""
+
+#. type: Title ##
+#: ./content/announcements/releases/2020-12-apps-update.md:74
+msgid "Other New Features"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:76
+msgid ""
+"There are too many new features to give them all justice. Here's a flavour "
+"of some you might come across in the new app versions out today:"
+msgstr ""
+
+#. type: shortcode parameter
+#: ./content/announcements/releases/2020-12-apps-update.md:78
+msgid "Filelight can save as SVG"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:80
+msgid ""
+"[Elisa](https://elisa.kde.org/), a compact music player, now lets you change"
+" the color scheme of the app independent of the system wide color scheme. It"
+" also now lets you choose which view to display when the app launches"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:81
+msgid ""
+"[Ark](https://apps.kde.org/en/ark), KDE's compression utility, now supports "
+"archives with zstd compression"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:82
+msgid ""
+"[Gwenview](https://apps.kde.org/en/gwenview), an advanced image and video-"
+"clip viewer, now has an option to not auto-play videos in browse mode"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:83
+msgid ""
+"[Kate](https://apps.kde.org/en/kate) is a feature-rich text editor. Kate’s "
+"file browser now has an *Open with* menu item in its context menu"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:84
+msgid ""
+"[Filelight](https://apps.kde.org/en/filelight) shows you visually how much "
+"space each folder and file takes up on your disks. Filelight now comes with "
+"a feature to save the current view as an SVG file"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:85
+msgid ""
+"KDE's Nextcloud and Owncloud wizards now boast overhauled visuals in *System"
+" Settings*' *Online Accounts* page"
+msgstr ""
+
+#. type: List item
+#: ./content/announcements/releases/2020-12-apps-update.md:89
+msgid ""
+"[KAlarm](https://apps.kde.org/en/kalarm), a personal alarm message, "
+"commandand email scheduler, now has the option to use the notification "
+"system to display alarm messages. It also has the option to give alarms "
+"names for easier identification."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:93
+msgid ""
+"Some new apps arrived in *Playground*, which is where we work on them before"
+" they are ready for release."
+msgstr ""
+
+#. type: shortcode parameter
+#: ./content/announcements/releases/2020-12-apps-update.md:95
+msgid "TotalReqall"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:97
+msgid ""
+"Such is the case of **TotalReqall**, a program for memorizing the Bible and "
+"other works that uses the Sword library."
+msgstr ""
+
+#. type: Title #
+#: ./content/announcements/releases/2020-12-apps-update.md:99
+msgid "Releases 20.12.0"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/announcements/releases/2020-12-apps-update.md:101
+msgid ""
+"[20.12 release "
+"notes](https://community.kde.org/Releases/20.12_Release_Notes) &bull; "
+"[Package download wiki "
+"page](https://community.kde.org/Get_KDE_Software_on_Your_Linux_Distro) "
+"&bull; [20.12.0 source info page](https://kde.org/info/releases-20.xx.y) "
+"&bull; [20.12.0 full "
+"changelog](https://kde.org/announcements/fulllog_releases-20.12.0/)"
 msgstr ""
