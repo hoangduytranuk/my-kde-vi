@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-04 08:19+0100\n"
+"POT-Creation-Date: 2020-12-08 08:21+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hieu Duc Hoang <hieu.d.hoang@gmail.com>\n"
 "Language-Team: vietnamese <vi@i18n.kde.org>\n"
@@ -22353,9 +22353,9 @@ msgstr "Nhiễu"
 
 #. i18n: ectx: property (prefix), widget (QStackedWidget, thresholdModeStackedWidget)
 #. i18n: ectx: property (prefix), widget (QStackedWidget, alphaModeStackedWidget)
-#. i18n: ectx: property (prefix), widget (QStackedWidget, colorModeStackedWidget)
+#. i18n: ectx: property (prefix), widget (QStackedWidget, stackedWidgetColorMode)
 #: libs/ui/widgets/KisDitherWidget.ui:74
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:128
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:142
 #: plugins/filters/palettize/palettize.ui:207
 #, fuzzy, kde-format
 #| msgid "Amount:"
@@ -22529,12 +22529,10 @@ msgstr "kết nối"
 #. i18n: ectx: property (text), widget (KisColorButton, btnSlope)
 #. i18n: ectx: property (text), widget (KisColorButton, btnPower)
 #. i18n: ectx: property (text), widget (KisColorButton, btnOffset)
-#. i18n: ectx: property (text), widget (KoColorPopupButton, btnGradientChooser)
 #: libs/ui/widgets/KoFillConfigWidget.ui:361
 #: plugins/filters/asccdl/wdg_asccdl.ui:17
 #: plugins/filters/asccdl/wdg_asccdl.ui:24
 #: plugins/filters/asccdl/wdg_asccdl.ui:45
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:64
 #: plugins/flake/textshape/dialogs/TableOfContentsConfigure.ui:85
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:198
 #, fuzzy, kde-format
@@ -30905,54 +30903,65 @@ msgstr "Làm mờ kiểu &Gauss"
 msgid "Gaussian High Pass"
 msgstr "Áp lực"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapConfigWidget)
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:14
-#: plugins/filters/gradientmap/KisGradientMapFilter.h:55
+#: plugins/filters/gradientmap/KisGradientMapFilter.cpp:31
+#, fuzzy, kde-format
+msgid "&Gradient Map..."
+msgstr "Gradients"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GradientMapFilterConfigWidget)
+#: plugins/filters/gradientmap/KisGradientMapFilter.h:26
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:14
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:201
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:55
 #, fuzzy, kde-format
 msgid "Gradient Map"
 msgstr "Đổ dốc màu"
 
-#. i18n: ectx: property (text), widget (QLabel, gradientLabel)
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:46
+#: plugins/filters/gradientmap/KisGradientMapFilterConfiguration.h:61
+#: plugins/generators/gradient/KisGradientGeneratorConfiguration.h:179
 #, fuzzy, kde-format
-msgid "Gradient:"
-msgstr "Đổ dốc màu"
+#| msgid "Unnamed"
+msgctxt "Default gradient name for the gradient generator"
+msgid "Unnamed"
+msgstr "Không có tên"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabGradientColors)
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:39
+#: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:476
+#, fuzzy, kde-format
+msgid "Gradient Colors"
+msgstr "Gradients"
 
 #. i18n: ectx: property (text), widget (QLabel, colorModeLabel)
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:82
+#. i18n: ectx: attribute (title), widget (QWidget, tabColorMode)
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:90
+#: plugins/filters/palettize/palettize.ui:105
 #, fuzzy, kde-format
-msgid "Color Mode:"
+msgid "Color Mode"
 msgstr "Chọn Màu"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, colorModeComboBox)
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:98
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxColorMode)
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:112
 #, fuzzy, kde-format
 msgid "Blend"
 msgstr "Chế độ chân dung"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, colorModeComboBox)
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:103
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxColorMode)
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:117
 #, fuzzy, kde-format
 msgid "Nearest"
 msgstr "Méo X:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ditherGroupBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, alphaModeComboBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, colorModeComboBox)
-#: plugins/filters/gradientmap/KisGradientMapConfigWidget.ui:108
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxColorMode)
+#: plugins/filters/gradientmap/KisGradientMapFilterConfigWidget.ui:122
 #: plugins/filters/palettize/palettize.ui:76
 #: plugins/filters/palettize/palettize.ui:187
 #, fuzzy, kde-format
 #| msgid "Other"
 msgid "Dither"
 msgstr "Khác"
-
-#: plugins/filters/gradientmap/KisGradientMapFilter.cpp:56
-#, fuzzy, kde-format
-msgid "&Gradient Map..."
-msgstr "Gradients"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:45
@@ -31253,12 +31262,6 @@ msgstr "Thay đổi"
 #| msgid "Named Colors"
 msgid "Nearest Colors"
 msgstr "Màu Có tên"
-
-#. i18n: ectx: property (text), widget (QLabel, colorModeLabel)
-#: plugins/filters/palettize/palettize.ui:105
-#, fuzzy, kde-format
-msgid "Color Mode"
-msgstr "Chọn Màu"
 
 #. i18n: ectx: property (text), widget (QLabel, alphaModeLabel)
 #: plugins/filters/palettize/palettize.ui:166
@@ -33878,13 +33881,6 @@ msgstr "Tuỳ chọn"
 msgid "&Gradient..."
 msgstr "Các đổ &dốc màu"
 
-#: plugins/generators/gradient/KisGradientGeneratorConfiguration.h:179
-#, fuzzy, kde-format
-#| msgid "Unnamed"
-msgctxt "Default gradient name for the gradient generator"
-msgid "Unnamed"
-msgstr "Không có tên"
-
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:38
 #: plugins/tools/basictools/kis_tool_gradient.cc:247
 #, fuzzy, kde-format
@@ -34051,12 +34047,6 @@ msgstr "Trình chọn màu nhỏ"
 #, fuzzy, kde-format
 msgid "Polar Coordinates"
 msgstr "Trình chọn màu nhỏ"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tabGradientColors)
-#: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:476
-#, fuzzy, kde-format
-msgid "Gradient Colors"
-msgstr "Gradients"
 
 #: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:47
 #, fuzzy, kde-format
@@ -45017,6 +45007,14 @@ msgstr "Di chuyển điểm điều khiển"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Gradient:"
+#~ msgstr "Đổ dốc màu"
+
+#, fuzzy
+#~ msgid "Color Mode:"
+#~ msgstr "Chọn Màu"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"

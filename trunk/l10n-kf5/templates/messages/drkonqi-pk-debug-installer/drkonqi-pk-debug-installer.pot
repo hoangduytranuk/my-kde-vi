@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi-pk-debug-installer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-07 02:39+0100\n"
+"POT-Creation-Date: 2020-12-08 02:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -34,31 +34,43 @@ msgid ""
 "Failed to find any suitable debug packages or they are all already installed."
 msgstr ""
 
-#: main.cpp:31 qml/MainPage.qml:11
+#: main.cpp:34 qml/MainPage.qml:11
 #, kde-format
 msgctxt "@title"
 msgid "Debug Symbols Helper"
 msgstr ""
 
-#: main.cpp:33
+#: main.cpp:36
 #, kde-format
 msgid "A debug package installer using PackageKit"
 msgstr ""
 
-#: main.cpp:35
+#: main.cpp:38
 #, kde-format
 msgid "(C) 2010-2020 Harald Sitter"
 msgstr ""
 
-#: main.cpp:37
+#: main.cpp:40
 #, kde-format
 msgid "Harald Sitter"
 msgstr ""
 
-#: main.cpp:43
+#: main.cpp:46
 #, kde-format
 msgctxt "command line description"
 msgid "Files to find debug packages for"
+msgstr ""
+
+#: qml/DebugRepoPage.qml:12
+#, kde-format
+msgctxt "@title"
+msgid "Debug Symbols Sources"
+msgstr ""
+
+#: qml/DebugRepoPage.qml:75
+#, kde-format
+msgctxt "@button"
+msgid "Add Missing Software Sources"
 msgstr ""
 
 #: qml/ErrorPage.qml:12
@@ -121,19 +133,25 @@ msgctxt "@info place holder while waiting for actual data to load"
 msgid "..."
 msgstr ""
 
-#: qml/MainPage.qml:19
+#: qml/main.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Debug Symbols Installer"
+msgstr ""
+
+#: qml/MainPage.qml:21
 #, kde-format
 msgctxt "@action:button all = debug symbols for which packages are available"
 msgid "Install All"
 msgstr ""
 
-#: qml/MainPage.qml:32
+#: qml/MainPage.qml:34
 #, kde-format
 msgctxt "@action:button"
 msgid "Close"
 msgstr ""
 
-#: qml/MainPage.qml:33
+#: qml/MainPage.qml:35
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"

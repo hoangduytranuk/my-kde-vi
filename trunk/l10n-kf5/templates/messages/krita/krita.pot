@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-07 02:21+0100\n"
+"POT-Creation-Date: 2020-12-08 02:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -39989,6 +39989,10 @@ msgstr ""
 msgid "{input} has been exported to {output}."
 msgstr ""
 
+#: plugins/python/plugin_importer/plugin_downloader.py:70
+msgid "Could not determine download link from URL"
+msgstr ""
+
 #. i18n: context: Actions (Scripts), ActionCollection (Scripts)
 #: plugins/python/plugin_importer/plugin_importer.action:4
 #, kde-format
@@ -39996,11 +40000,18 @@ msgctxt "action"
 msgid "Python Plugin Importer"
 msgstr ""
 
-#. i18n: context: Action (plugin_importer), Actions (Scripts), ActionCollection (Scripts)
+#. i18n: context: Action (plugin_importer_file), Actions (Scripts), ActionCollection (Scripts)
 #: plugins/python/plugin_importer/plugin_importer.action:8
 #, kde-format
 msgctxt "action"
-msgid "Import Python Plugin..."
+msgid "Import Python Plugin from File..."
+msgstr ""
+
+#. i18n: context: Action (plugin_importer_web), Actions (Scripts), ActionCollection (Scripts)
+#: plugins/python/plugin_importer/plugin_importer.action:21
+#, kde-format
+msgctxt "action"
+msgid "Import Python Plugin from Web..."
 msgstr ""
 
 #: plugins/python/plugin_importer/plugin_importer.py:142
@@ -40011,45 +40022,57 @@ msgstr ""
 msgid "No plugins found in archive"
 msgstr ""
 
-#: plugins/python/plugin_importer/plugin_importer_extension.py:29
-msgid "Import Python Plugin..."
-msgstr ""
-
-#: plugins/python/plugin_importer/plugin_importer_extension.py:36
-msgid "Overwrite Plugin"
+#: plugins/python/plugin_importer/plugin_importer_extension.py:32
+msgid "Import Python Plugin from File..."
 msgstr ""
 
 #: plugins/python/plugin_importer/plugin_importer_extension.py:37
+msgid "Import Python Plugin from Web..."
+msgstr ""
+
+#: plugins/python/plugin_importer/plugin_importer_extension.py:44
+msgid "Overwrite Plugin"
+msgstr ""
+
+#: plugins/python/plugin_importer/plugin_importer_extension.py:45
 #, python-format
 msgid "The plugin \"%s\" already exists. Overwrite it?"
 msgstr ""
 
-#: plugins/python/plugin_importer/plugin_importer_extension.py:45
+#: plugins/python/plugin_importer/plugin_importer_extension.py:53
 msgid "The following plugins were imported:"
 msgstr ""
 
-#: plugins/python/plugin_importer/plugin_importer_extension.py:55
+#: plugins/python/plugin_importer/plugin_importer_extension.py:63
 msgid "Enable plugins now? (Requires restart)"
 msgstr ""
 
-#: plugins/python/plugin_importer/plugin_importer_extension.py:60
+#: plugins/python/plugin_importer/plugin_importer_extension.py:68
 msgid "Activate Plugins?"
 msgstr ""
 
-#: plugins/python/plugin_importer/plugin_importer_extension.py:79
-msgid "Import Plugin"
-msgstr ""
-
-#: plugins/python/plugin_importer/plugin_importer_extension.py:81
-msgid "Zip Archives"
-msgstr ""
-
-#: plugins/python/plugin_importer/plugin_importer_extension.py:95
+#: plugins/python/plugin_importer/plugin_importer_extension.py:75
 msgid "Error during import:"
 msgstr ""
 
-#: plugins/python/plugin_importer/plugin_importer_extension.py:98
+#: plugins/python/plugin_importer/plugin_importer_extension.py:79
 msgid "Error"
+msgstr ""
+
+#: plugins/python/plugin_importer/plugin_importer_extension.py:95
+msgid ""
+"<p><strong>Enter download URL</strong></p><p>For example:<ul><li>Zip "
+"download link (http://example.com/plugin.zip)</li><li>Github repository "
+"(https://github.com/test/plugin)</li>"
+msgstr ""
+
+#: plugins/python/plugin_importer/plugin_importer_extension.py:103
+#: plugins/python/plugin_importer/plugin_importer_extension.py:117
+msgid "Import Plugin"
+msgstr ""
+
+#: plugins/python/plugin_importer/plugin_importer_extension.py:119
+msgid "Zip Archives"
 msgstr ""
 
 #: plugins/python/quick_settings_docker/quick_settings_docker.py:29
