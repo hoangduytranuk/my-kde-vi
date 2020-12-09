@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-08 02:28+0100\n"
+"POT-Creation-Date: 2020-12-09 02:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5849,7 +5849,7 @@ msgstr ""
 #: src/assets/view/widgets/animationwidget.cpp:107
 #: src/assets/view/widgets/keyframeedit.cpp:53
 #: src/assets/view/widgets/keyframewidget.cpp:71
-#: src/assets/view/widgets/keyframewidget.cpp:307
+#: src/assets/view/widgets/keyframewidget.cpp:315
 #: src/simplekeyframes/simplekeyframewidget.cpp:41
 #: src/simplekeyframes/simplekeyframewidget.cpp:132
 #, kde-format
@@ -5863,68 +5863,85 @@ msgstr ""
 msgid "Change keyframe type"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:155
+#: src/assets/keyframes/model/keyframemodel.cpp:170
 #: src/assets/keyframes/model/keyframemodellist.cpp:151
 #: src/assets/view/widgets/keyframeedit.cpp:55
-#: src/assets/view/widgets/keyframewidget.cpp:304
+#: src/assets/view/widgets/keyframewidget.cpp:312
 #: src/simplekeyframes/simplekeyframewidget.cpp:129
 #, kde-format
 msgid "Delete keyframe"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:243
+#: src/assets/keyframes/model/keyframemodel.cpp:258
 #, kde-format
 msgid "Move keyframes"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:264
-#: src/assets/keyframes/model/keyframemodellist.cpp:175
-#: src/assets/keyframes/model/keyframemodellist.cpp:209
+#: src/assets/keyframes/model/keyframemodel.cpp:279
+#: src/assets/keyframes/model/keyframemodellist.cpp:193
+#: src/assets/keyframes/model/keyframemodellist.cpp:236
+#: src/assets/keyframes/view/keyframeview.cpp:244
+#: src/assets/keyframes/view/keyframeview.cpp:489
 #, kde-format
 msgid "Move keyframe"
-msgstr ""
+msgid_plural "Move keyframes"
+msgstr[0] ""
+msgstr[1] ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:335
-#: src/assets/keyframes/model/keyframemodellist.cpp:243
+#: src/assets/keyframes/model/keyframemodel.cpp:350
+#: src/assets/keyframes/model/keyframemodellist.cpp:270
 #, kde-format
 msgid "Update keyframe"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:646
-#: src/assets/keyframes/model/keyframemodellist.cpp:159
+#: src/assets/keyframes/model/keyframemodel.cpp:661
+#: src/assets/keyframes/model/keyframemodellist.cpp:177
 #, kde-format
 msgid "Delete all keyframes"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:852
+#: src/assets/keyframes/model/keyframemodel.cpp:867
 #, kde-format
 msgid "effect"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:861
+#: src/assets/keyframes/model/keyframemodel.cpp:876
 #, kde-format
 msgid "Reset %1"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodel.cpp:1085
+#: src/assets/keyframes/model/keyframemodel.cpp:1100
 #, kde-format
 msgid "Reset effect"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:167
+#: src/assets/keyframes/model/keyframemodellist.cpp:185
 #, kde-format
 msgid "Delete keyframes"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:504
+#: src/assets/keyframes/model/keyframemodellist.cpp:531
 #, kde-format
 msgid "Missing keyframe detected at %1, automatically re-added"
 msgstr ""
 
-#: src/assets/keyframes/view/keyframeview.cpp:145
+#: src/assets/keyframes/view/keyframeview.cpp:120
+#, kde-format
+msgid "Duplicate keyframe"
+msgstr ""
+
+#: src/assets/keyframes/view/keyframeview.cpp:166
 #, kde-format
 msgid "Cannot remove the last keyframe"
 msgstr ""
+
+#: src/assets/keyframes/view/keyframeview.cpp:178
+#: src/assets/view/widgets/animationwidget.cpp:107
+#, kde-format
+msgid "Remove keyframe"
+msgid_plural "Remove keyframes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/assets/model/assetcommand.cpp:39 src/assets/model/assetcommand.cpp:41
 #: src/assets/model/assetcommand.cpp:86 src/assets/model/assetcommand.cpp:88
@@ -5986,11 +6003,6 @@ msgstr ""
 msgid "Previous keyframe"
 msgstr ""
 
-#: src/assets/view/widgets/animationwidget.cpp:107
-#, kde-format
-msgid "Remove keyframe"
-msgstr ""
-
 #: src/assets/view/widgets/animationwidget.cpp:114
 #, kde-format
 msgid "Next keyframe"
@@ -6004,15 +6016,15 @@ msgid "Presets"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:123
-#: src/assets/view/widgets/keyframewidget.cpp:90
+#: src/assets/view/widgets/keyframewidget.cpp:96
 #, kde-format
 msgid "Keyframe interpolation"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:124
 #: src/assets/view/widgets/animationwidget.cpp:140
-#: src/assets/view/widgets/keyframewidget.cpp:95
-#: src/assets/view/widgets/keyframewidget.cpp:139
+#: src/assets/view/widgets/keyframewidget.cpp:101
+#: src/assets/view/widgets/keyframewidget.cpp:146
 #, kde-format
 msgid "Discrete"
 msgstr ""
@@ -6020,8 +6032,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbLinear)
 #: src/assets/view/widgets/animationwidget.cpp:128
 #: src/assets/view/widgets/animationwidget.cpp:144
-#: src/assets/view/widgets/keyframewidget.cpp:91
-#: src/assets/view/widgets/keyframewidget.cpp:143
+#: src/assets/view/widgets/keyframewidget.cpp:97
+#: src/assets/view/widgets/keyframewidget.cpp:150
 #: src/ui/histogram_ui.ui:108
 #, kde-format
 msgid "Linear"
@@ -6029,8 +6041,8 @@ msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:132
 #: src/assets/view/widgets/animationwidget.cpp:148
-#: src/assets/view/widgets/keyframewidget.cpp:99
-#: src/assets/view/widgets/keyframewidget.cpp:147
+#: src/assets/view/widgets/keyframewidget.cpp:105
+#: src/assets/view/widgets/keyframewidget.cpp:154
 #, kde-format
 msgid "Smooth"
 msgstr ""
@@ -6046,27 +6058,27 @@ msgid "Attach keyframe to end"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:171
-#: src/assets/view/widgets/keyframewidget.cpp:129
+#: src/assets/view/widgets/keyframewidget.cpp:136
 #, kde-format
 msgid "Copy keyframes to clipboard"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:173
 #: src/assets/view/widgets/keyframeimport.cpp:754
-#: src/assets/view/widgets/keyframewidget.cpp:131
+#: src/assets/view/widgets/keyframewidget.cpp:138
 #, kde-format
 msgid "Import keyframes from clipboard"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:176
-#: src/assets/view/widgets/keyframewidget.cpp:134
+#: src/assets/view/widgets/keyframewidget.cpp:141
 #, kde-format
 msgid "Remove all keyframes after cursor"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/assets/view/widgets/animationwidget.cpp:201
-#: src/assets/view/widgets/keyframewidget.cpp:175
+#: src/assets/view/widgets/keyframewidget.cpp:182
 #: src/bin/bin.cpp:1181 src/monitor/monitor.cpp:462 src/ui/clipstabilize_ui.ui:20
 #, kde-format
 msgid "Options"
@@ -6321,12 +6333,17 @@ msgstr ""
 msgid "Move selected keyframe to cursor"
 msgstr ""
 
-#: src/assets/view/widgets/keyframewidget.cpp:122
+#: src/assets/view/widgets/keyframewidget.cpp:93
+#, kde-format
+msgid "Duplicate selected keyframe"
+msgstr ""
+
+#: src/assets/view/widgets/keyframewidget.cpp:129
 #, kde-format
 msgid "Seek to keyframe on select"
 msgstr ""
 
-#: src/assets/view/widgets/keyframewidget.cpp:138
+#: src/assets/view/widgets/keyframewidget.cpp:145
 #, kde-format
 msgid "Default keyframe type"
 msgstr ""
@@ -7139,27 +7156,27 @@ msgid ""
 "This is not correctly supported by our video framework."
 msgstr ""
 
-#: src/bin/projectclip.cpp:1447
+#: src/bin/projectclip.cpp:1459
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1447
+#: src/bin/projectclip.cpp:1459
 #, kde-format
 msgid "Merge"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1448
+#: src/bin/projectclip.cpp:1460
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1760
+#: src/bin/projectclip.cpp:1772
 #, kde-format
 msgid "Add stream effect"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1783
+#: src/bin/projectclip.cpp:1795
 #, kde-format
 msgid "Remove stream effect"
 msgstr ""
@@ -9428,7 +9445,7 @@ msgstr ""
 
 #. i18n: ectx: Menu (subtitles)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: src/kdenliveui.rc:30 src/mainwindow.cpp:265 src/timeline2/view/qml/timeline.qml:753
+#: src/kdenliveui.rc:30 src/mainwindow.cpp:265 src/timeline2/view/qml/timeline.qml:754
 #: src/ui/configmisc_ui.ui:133
 #, kde-format
 msgid "Subtitles"
@@ -13619,7 +13636,7 @@ msgid "Select a clip to apply the mix"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:892
-#: src/timeline2/model/trackmodel.cpp:1650
+#: src/timeline2/model/trackmodel.cpp:1647
 #, kde-format
 msgid "start"
 msgstr ""
@@ -13630,7 +13647,7 @@ msgid "end"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:892
-#: src/timeline2/model/trackmodel.cpp:1650
+#: src/timeline2/model/trackmodel.cpp:1647
 #, kde-format
 msgid "Not enough frames at clip %1 to apply the mix"
 msgstr ""
@@ -13778,14 +13795,14 @@ msgid "Change speed failed"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:5042
-#: src/timeline2/view/qml/timeline.qml:819
+#: src/timeline2/view/qml/timeline.qml:820
 #: src/timeline2/view/qml/TrackHead.qml:458
 #, kde-format
 msgid "Lock track"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:5047
-#: src/timeline2/view/qml/timeline.qml:819
+#: src/timeline2/view/qml/timeline.qml:820
 #: src/timeline2/view/qml/TrackHead.qml:458
 #, kde-format
 msgid "Unlock track"
@@ -13945,19 +13962,19 @@ msgstr ""
 msgid "Show master effects"
 msgstr ""
 
-#: src/timeline2/view/qml/timeline.qml:788
+#: src/timeline2/view/qml/timeline.qml:789
 #: src/timeline2/view/qml/TrackHead.qml:427
 #, kde-format
 msgid "Show"
 msgstr ""
 
-#: src/timeline2/view/qml/timeline.qml:788
+#: src/timeline2/view/qml/timeline.qml:789
 #: src/timeline2/view/qml/TrackHead.qml:427
 #, kde-format
 msgid "Hide"
 msgstr ""
 
-#: src/timeline2/view/qml/timeline.qml:1407
+#: src/timeline2/view/qml/timeline.qml:1408
 #, kde-format
 msgid ""
 "\n"
