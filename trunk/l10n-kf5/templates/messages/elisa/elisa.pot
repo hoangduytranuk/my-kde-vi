@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-09 02:31+0100\n"
+"POT-Creation-Date: 2020-12-10 02:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -304,7 +304,7 @@ msgctxt "explanation for sleep inhibit during play of music"
 msgid "Playing Music"
 msgstr ""
 
-#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:358
+#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:399
 #: qml/NativeTrayMenu.qml:14
 #, kde-format
 msgctxt "open application menu"
@@ -509,18 +509,6 @@ msgstr ""
 msgid "Nothing to display"
 msgstr ""
 
-#: qml/HeaderBar.qml:381
-#, kde-format
-msgid "1 track remaining"
-msgid_plural "%1 tracks remaining"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qml/HeaderBar.qml:384
-#, kde-format
-msgid "No remaining tracks"
-msgstr ""
-
 #: qml/ListBrowserDelegate.qml:87
 #, kde-format
 msgctxt "%1: track number. %2: track title. %3: artist name"
@@ -557,55 +545,79 @@ msgctxt "Clear play list and enqueue current track"
 msgid "Play Now and Replace Play List"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:65
+#: qml/MediaPlayerControl.qml:66
 #, kde-format
 msgctxt "toggle between maximized and minimized ivre"
 msgid "Toggle Maximize"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:73
+#: qml/MediaPlayerControl.qml:74
 #, kde-format
 msgctxt "skip backward in playlists"
 msgid "Skip Backward"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:81
+#: qml/MediaPlayerControl.qml:82
 #, kde-format
 msgctxt "toggle play and pause for the audio player"
 msgid "Toggle Play and Pause"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:89
+#: qml/MediaPlayerControl.qml:90
 #, kde-format
 msgctxt "skip forward in playlists"
 msgid "Skip Forward"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:96
+#: qml/MediaPlayerControl.qml:97
 #, kde-format
 msgctxt "This is used to preserve a fixed width for the duration text."
 msgid "00:00:00"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:238
+#: qml/MediaPlayerControl.qml:239
 #, kde-format
 msgctxt "toggle mute mode for player"
 msgid "Toggle Mute"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:321
+#: qml/MediaPlayerControl.qml:322
 #, kde-format
 msgctxt "toggle shuffle mode for playlist"
 msgid "Toggle Shuffle"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:328
+#: qml/MediaPlayerControl.qml:331
 #, kde-format
-msgctxt "toggle repeat mode for playlist"
-msgid "Toggle Repeat"
+msgid "Don't repeat tracks"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:344 qml/NativeGlobalMenu.qml:64
+#: qml/MediaPlayerControl.qml:332
+#, kde-format
+msgid "Repeat current track"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:333
+#, kde-format
+msgid "Repeat all tracks in playlist"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:360 qml/NativeGlobalMenu.qml:133
+#, kde-format
+msgid "Playlist"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:364 qml/NativeGlobalMenu.qml:137
+#, kde-format
+msgid "One"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:368 qml/NativeGlobalMenu.qml:141
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:385 qml/NativeGlobalMenu.qml:64
 #: qml/NativeTrayMenu.qml:51
 #, kde-format
 msgid "Show Playlist"
@@ -687,10 +699,23 @@ msgid ""
 "browse your music using the views on the left."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:253
+#: qml/MediaPlayListView.qml:249
 #, kde-format
 msgid "%1 track"
 msgid_plural "%1 tracks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/MediaPlayListView.qml:258
+#, kde-format
+msgid "Last track"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:258
+#, kde-format
+msgctxt "Number of remaining tracks in a playlist of songs"
+msgid "%1 remaining"
+msgid_plural "%1 remaining"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -822,12 +847,12 @@ msgstr ""
 msgid "Shuffle"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:111 qml/NativeGlobalMenu.qml:133
+#: qml/NativeGlobalMenu.qml:111
 #, kde-format
 msgid "On"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:117 qml/NativeGlobalMenu.qml:139
+#: qml/NativeGlobalMenu.qml:117
 #, kde-format
 msgid "Off"
 msgstr ""
