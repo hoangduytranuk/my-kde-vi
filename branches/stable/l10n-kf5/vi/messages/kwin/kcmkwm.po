@@ -644,9 +644,6 @@ msgstr "Chính sách &kích hoạt cửa sổ:"
 #. i18n: ectx: property (whatsThis), widget (QComboBox, windowFocusPolicy)
 #: focus.ui:32
 #, kde-format
-#| msgid ""
-#| "Enable this option if you want an animation shown when windows are "
-#| "minimized or restored."
 msgid "With this option you can specify how and when windows will be focused."
 msgstr ""
 "Với lựa chọn này bạn có thể chỉ định cách và thời điểm mà các cửa sổ sẽ được "
@@ -655,7 +652,6 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:36
 #, kde-format
-#| msgid "Click to Focus"
 msgctxt "sassa asas"
 msgid "Click to focus"
 msgstr "Bấm để nhắm"
@@ -669,7 +665,6 @@ msgstr "Bấm để nhắm (ưu tiên chuột)"
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:46
 #, kde-format
-#| msgid "Focus Follows Mouse"
 msgid "Focus follows mouse"
 msgstr "Nhắm đi theo chuột"
 
@@ -682,21 +677,18 @@ msgstr "Nhắm đi theo chuột (ưu tiên chuột)"
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:56
 #, kde-format
-#| msgid "Focus Under Mouse"
 msgid "Focus under mouse"
 msgstr "Nhắm dưới chuột"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:61
 #, kde-format
-#| msgid "Focus Strictly Under Mouse"
 msgid "Focus strictly under mouse"
 msgstr "Nhắm dưới chuột nghiêm ngặt"
 
 #. i18n: ectx: property (text), widget (QLabel, delayFocusOnLabel)
 #: focus.ui:69
 #, kde-format
-#| msgid "Delay focus"
 msgid "&Delay focus by:"
 msgstr "Làm t&rễ nhắm:"
 
@@ -707,37 +699,18 @@ msgid ""
 "This is the delay after which the window the mouse pointer is over will "
 "automatically receive focus."
 msgstr ""
-"Đây là khoảng trễ mà sau đó, cửa sổ ở dưới con trỏ chuột sẽ tự động nhận được "
-"nhắm."
+"Đây là khoảng trễ mà sau đó, cửa sổ ở dưới con trỏ chuột sẽ tự động nhận "
+"được nhắm."
 
 #. i18n: ectx: property (text), widget (QLabel, focusStealingLabel)
 #: focus.ui:101
 #, kde-format
-#| msgid "Focus stealing prevention level:"
 msgid "Focus &stealing prevention:"
 msgstr "Ngăn chặn lấ&y nhắm:"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:114
 #, kde-format
-#| msgid ""
-#| "<p>This option specifies how much KWin will try to prevent unwanted focus "
-#| "stealing caused by unexpected activation of new windows. (Note: This "
-#| "feature does not work with the Focus Under Mouse or Focus Strictly Under "
-#| "Mouse focus policies.)<ul><li><em>None:</em> Prevention is turned off and "
-#| "new windows always become activated.</li><li><em>Low:</em> Prevention is "
-#| "enabled; when some window does not have support for the underlying "
-#| "mechanism and KWin cannot reliably decide whether to activate the window "
-#| "or not, it will be activated. This setting may have both worse and better "
-#| "results than normal level, depending on the applications.</"
-#| "li><li><em>Normal:</em> Prevention is enabled.</li><li><em>High:</em> New "
-#| "windows get activated only if no window is currently active or if they "
-#| "belong to the currently active application. This setting is probably not "
-#| "really usable when not using mouse focus policy.</li><li><em>Extreme:</"
-#| "em> All windows must be explicitly activated by the user.</li></ul></"
-#| "p><p>Windows that are prevented from stealing focus are marked as "
-#| "demanding attention, which by default means their taskbar entry will be "
-#| "highlighted. This can be changed in the Notifications control module.</p>"
 msgid ""
 "<html><head/><body><p>This option specifies how much KWin will try to "
 "prevent unwanted focus stealing caused by unexpected activation of new "
@@ -773,33 +746,33 @@ msgstr ""
 "<html><head/><body><p>Lựa chọn này chỉ định mức độ mà KWin sẽ cố gắng ngăn "
 "chặn sự lấy nhắm không mong muốn gây ra bởi việc kích hoạt bất ngờ của các "
 "cửa sổ mới. (Lưu ý: Tính năng này không hoạt động với các chính sách nhắm "
-"<span style=\"font-style:italic;\">Nhắm dưới chuột</span> hay <span style=\""
-"font-style:italic;\">Nhắm dưới chuột nghiêm ngặt</span>.)</p><ul style=\""
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
-"list-indent:1;\"><li style=\"margin-top:12px; margin-bottom:0px; margin-left:"
-"0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\""
-"font-style:italic;\">Không:</span> Tắt ngăn chặn và các cửa sổ mới luôn được "
-"kích hoạt.</li><li style=\"margin-top:0px; margin-bottom:0px; margin-left:"
-"0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\""
-"font-style:italic;\">Thấp:</span> Bật ngăn chặn; khi cửa sổ nào đó không có "
-"hỗ trợ cho cơ chế bên dưới và KWin không thể quyết định chắc chắn có nên "
-"kích hoạt cửa sổ đó hay không, nó sẽ được kích hoạt. Thiết lập này có thể có "
-"cả kết quả xấu hơn và tốt hơn mức trung bình, tuỳ vào từng ứng dụng.</li><li "
-"style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"><span style=\"font-style:italic;\">"
-"Trung bình:</span> Bật ngăn chặn.</li><li style=\"margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"><span style=\"font-style:italic;\">Cao:</span> Các cửa sổ mới "
-"chỉ được kích hoạt nếu không có cửa sổ nào đang được kích hoạt hoặc nếu chúng "
-"thuộc về ứng dụng đang được kích hoạt. Thiết lập này có thể không thật sự khả "
-"dụng khi không dùng chính sách nhắm chuột.</li><li style=\"margin-top:0px; "
-"margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"><span style=\"font-style:italic;\">Cực độ:</span> Tất cả "
-"các cửa sổ phải được người dùng kích hoạt một cách rõ ràng.</li></ul><p>Các "
-"cửa sổ bị ngăn chặn lấy nhắm sẽ được đánh dấu là đòi sự chú ý, việc đó theo "
-"mặc định có nghĩa là mục của chúng trên thanh tác vụ sẽ được tô sáng. Việc "
-"này có thể được thay đổi trong khối điều khiển \"Thông báo\".</p></body><"
-"/html>"
+"<span style=\"font-style:italic;\">Nhắm dưới chuột</span> hay <span style="
+"\"font-style:italic;\">Nhắm dưới chuột nghiêm ngặt</span>.)</p><ul style="
+"\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"list-indent:1;\"><li style=\"margin-top:12px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\"font-style:italic;\">Không:</span> Tắt ngăn chặn và các cửa sổ mới "
+"luôn được kích hoạt.</li><li style=\"margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><span style=\"font-style:italic;\">Thấp:</span> Bật ngăn chặn; khi cửa sổ "
+"nào đó không có hỗ trợ cho cơ chế bên dưới và KWin không thể quyết định chắc "
+"chắn có nên kích hoạt cửa sổ đó hay không, nó sẽ được kích hoạt. Thiết lập "
+"này có thể có cả kết quả xấu hơn và tốt hơn mức trung bình, tuỳ vào từng ứng "
+"dụng.</li><li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-"
+"style:italic;\">Trung bình:</span> Bật ngăn chặn.</li><li style=\"margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\"font-style:italic;\">Cao:</span> "
+"Các cửa sổ mới chỉ được kích hoạt nếu không có cửa sổ nào đang được kích "
+"hoạt hoặc nếu chúng thuộc về ứng dụng đang được kích hoạt. Thiết lập này có "
+"thể không thật sự khả dụng khi không dùng chính sách nhắm chuột.</li><li "
+"style=\"margin-top:0px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-style:"
+"italic;\">Cực độ:</span> Tất cả các cửa sổ phải được người dùng kích hoạt "
+"một cách rõ ràng.</li></ul><p>Các cửa sổ bị ngăn chặn lấy nhắm sẽ được đánh "
+"dấu là đòi sự chú ý, việc đó theo mặc định có nghĩa là mục của chúng trên "
+"thanh tác vụ sẽ được tô sáng. Việc này có thể được thay đổi trong khối điều "
+"khiển \"Thông báo\".</p></body></html>"
 
 #. i18n: Focus Stealing Prevention Level
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
@@ -808,8 +781,6 @@ msgstr ""
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_CenterSnapZone)
 #: focus.ui:118 moving.ui:53 moving.ui:75 moving.ui:97
 #, kde-format
-#| msgctxt "Focus Stealing Prevention Level"
-#| msgid "None"
 msgid "None"
 msgstr "Không"
 
@@ -817,8 +788,6 @@ msgstr "Không"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:123
 #, kde-format
-#| msgctxt "Focus Stealing Prevention Level"
-#| msgid "Low"
 msgid "Low"
 msgstr "Thấp"
 
@@ -833,8 +802,6 @@ msgstr "Trung bình"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:133
 #, kde-format
-#| msgctxt "Focus Stealing Prevention Level"
-#| msgid "High"
 msgid "High"
 msgstr "Cao"
 
@@ -842,8 +809,6 @@ msgstr "Cao"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:138
 #, kde-format
-#| msgctxt "Focus Stealing Prevention Level"
-#| msgid "Extreme"
 msgid "Extreme"
 msgstr "Cực độ"
 
@@ -1040,13 +1005,6 @@ msgstr ""
 
 #: main.cpp:167
 #, kde-format
-#| msgid ""
-#| "<h1>Window Behavior</h1> Here you can customize the way windows behave "
-#| "when being moved, resized or clicked on. You can also specify a focus "
-#| "policy as well as a placement policy for new windows. <p>Please note that "
-#| "this configuration will not take effect if you do not use KWin as your "
-#| "window manager. If you do use a different window manager, please refer to "
-#| "its documentation for how to customize window behavior."
 msgid ""
 "<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
 "when being moved, resized or clicked on. You can also specify a focus policy "
@@ -1056,12 +1014,12 @@ msgid ""
 "documentation for how to customize window behavior.</p>"
 msgstr ""
 "<p><h1>Ứng xử của cửa sổ</h1>Tại đây bạn có thể tự chọn cách các cửa sổ ứng "
-"xử khi được di chuyển, thay đổi kích cỡ hay bấm vào. Bạn cũng có thể chỉ định "
-"một chính sách nhắm cũng như một chính sách xếp chỗ cho các cửa sổ mới.</p><p>"
-"Vui lòng lưu ý rằng cấu hình này sẽ không có tác dụng nếu bạn không dùng KWin "
-"làm trình quản lí cửa sổ. Nếu bạn dùng một trình quản lí cửa sổ khác, vui "
-"lòng tham khảo tài liệu hướng dẫn của chương trình đó để biết cách tự chọn "
-"ứng xử của cửa sổ."
+"xử khi được di chuyển, thay đổi kích cỡ hay bấm vào. Bạn cũng có thể chỉ "
+"định một chính sách nhắm cũng như một chính sách xếp chỗ cho các cửa sổ mới."
+"</p><p>Vui lòng lưu ý rằng cấu hình này sẽ không có tác dụng nếu bạn không "
+"dùng KWin làm trình quản lí cửa sổ. Nếu bạn dùng một trình quản lí cửa sổ "
+"khác, vui lòng tham khảo tài liệu hướng dẫn của chương trình đó để biết cách "
+"tự chọn ứng xử của cửa sổ."
 
 #: main.cpp:187
 #, kde-format
@@ -1399,7 +1357,8 @@ msgid ""
 "This behavior is common on other operating systems and likely what you want."
 msgstr ""
 "<em>Bấm để nhắm:</em> Một cửa sổ trở nên hoạt động khi bạn bấm vào nó. Cách "
-"ứng xử này phổ biến ở các hệ điều hành khác và nhiều khả năng là cái bạn muốn."
+"ứng xử này phổ biến ở các hệ điều hành khác và nhiều khả năng là cái bạn "
+"muốn."
 
 #: windows.cpp:91
 #, kde-format
@@ -1423,10 +1382,10 @@ msgid ""
 "<em>Focus stealing prevention</em> takes place as usual. Think as <em>Click "
 "to focus</em> just without having to actually click."
 msgstr ""
-"<em>Nhắm đi theo chuột:</em> Việc di chuột vào một cửa sổ sẽ kích hoạt cửa sổ "
-"đó. Các cửa sổ tình cờ xuất hiện dưới chuột sẽ không có được nhắm. <em>Ngăn "
-"chặn lấy nhắm</em> diễn ra như bình thường. Nghĩ về nó như là <em>Bấm để nhắm"
-"</em>, chỉ là không cần phải thật sự bấm."
+"<em>Nhắm đi theo chuột:</em> Việc di chuột vào một cửa sổ sẽ kích hoạt cửa "
+"sổ đó. Các cửa sổ tình cờ xuất hiện dưới chuột sẽ không có được nhắm. "
+"<em>Ngăn chặn lấy nhắm</em> diễn ra như bình thường. Nghĩ về nó như là "
+"<em>Bấm để nhắm</em>, chỉ là không cần phải thật sự bấm."
 
 #: windows.cpp:100
 #, kde-format
@@ -1437,9 +1396,9 @@ msgid ""
 "if you want a hover controlled focus."
 msgstr ""
 "Hầu như là giống với <em>Nhắm đi theo chuột</em>. Nếu hệ thống phải chọn một "
-"cửa sổ hoạt động (vd. vì cửa sổ hoạt động hiện tại bị đóng) thì cửa sổ ở dưới "
-"chuột là lựa chọn được ưu tiên. Chọn cái này nếu bạn muốn nhắm được điều "
-"khiển bằng đảo chuột."
+"cửa sổ hoạt động (vd. vì cửa sổ hoạt động hiện tại bị đóng) thì cửa sổ ở "
+"dưới chuột là lựa chọn được ưu tiên. Chọn cái này nếu bạn muốn nhắm được "
+"điều khiển bằng đảo chuột."
 
 #: windows.cpp:105
 #, kde-format
@@ -1450,11 +1409,11 @@ msgid ""
 "not work. You very likely want to use <em>Focus follows mouse (mouse "
 "precedence)</em> instead!"
 msgstr ""
-"<em>Nhắm dưới chuột:</em> Nhắm luôn nằm ở cửa sổ ở dưới chuột.<br/><strong>"
-"Cảnh báo:</strong> <em>Ngăn chặn lấy nhắm</em> và <em>trình chuyển cửa sổ "
-"('Alt+Tab')</em> mâu thuẫn với chính sách kích hoạt này và sẽ không hoạt "
-"động. Rất nhiều khả năng là bạn muốn dùng <em>Nhắm đi theo chuột (ưu tiên "
-"chuột)</em> chứ không phải cái này!"
+"<em>Nhắm dưới chuột:</em> Nhắm luôn nằm ở cửa sổ ở dưới chuột.<br/"
+"><strong>Cảnh báo:</strong> <em>Ngăn chặn lấy nhắm</em> và <em>trình chuyển "
+"cửa sổ ('Alt+Tab')</em> mâu thuẫn với chính sách kích hoạt này và sẽ không "
+"hoạt động. Rất nhiều khả năng là bạn muốn dùng <em>Nhắm đi theo chuột (ưu "
+"tiên chuột)</em> chứ không phải cái này!"
 
 #: windows.cpp:109
 #, kde-format
@@ -1468,7 +1427,8 @@ msgid ""
 msgstr ""
 "<em>Nhắm dưới chuột nghiêm ngặt:</em> Nhắm luôn nằm ở cửa sổ ở dưới chuột "
 "(còn khi không chắc thì là không ở đâu cả) rất giống với ứng xử nhắm trong "
-"một môi trường X11 đời cũ vô quản lí.<br/><strong>Cảnh báo:</strong> <em>Ngăn "
-"chặn lấy nhắm</em> và <em>trình chuyển cửa sổ ('Alt+Tab')</em> mâu thuẫn với "
-"chính sách kích hoạt này và sẽ không hoạt động. Rất nhiều khả năng là bạn "
-"muốn dùng <em>Nhắm đi theo chuột (ưu tiên chuột)</em> chứ không phải cái này!"
+"một môi trường X11 đời cũ vô quản lí.<br/><strong>Cảnh báo:</strong> "
+"<em>Ngăn chặn lấy nhắm</em> và <em>trình chuyển cửa sổ ('Alt+Tab')</em> mâu "
+"thuẫn với chính sách kích hoạt này và sẽ không hoạt động. Rất nhiều khả năng "
+"là bạn muốn dùng <em>Nhắm đi theo chuột (ưu tiên chuột)</em> chứ không phải "
+"cái này!"
