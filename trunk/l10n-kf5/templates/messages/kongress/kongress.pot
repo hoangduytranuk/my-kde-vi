@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kongress\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-10 02:47+0100\n"
+"POT-Creation-Date: 2020-12-12 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: contents/ui/Conferences.qml:80
+#: contents/ui/Conferences.qml:83
 #, kde-format
 msgid "Select"
 msgstr ""
@@ -75,12 +75,12 @@ msgstr ""
 
 #: contents/ui/FavoritesView.qml:41
 #, kde-format
-msgid "No events found for %1"
+msgid "No favorite talks found for %1"
 msgstr ""
 
 #: contents/ui/FavoritesView.qml:41
 #, kde-format
-msgid "No events found"
+msgid "No favorite talks found"
 msgstr ""
 
 #: contents/ui/FavoritesView.qml:70 contents/ui/ScheduleView.qml:80
@@ -95,70 +95,75 @@ msgid_plural "Overlaps with %1 other talks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/GlobalDrawer.qml:46
+#: contents/ui/GlobalDrawer.qml:47
 #, kde-format
 msgid "Conference"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:51
+#: contents/ui/GlobalDrawer.qml:52
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:55
+#: contents/ui/GlobalDrawer.qml:56
 #, kde-format
 msgid "Checking for schedule updates"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:64
+#: contents/ui/GlobalDrawer.qml:65
 #, kde-format
 msgid "Daily Schedule"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:70
+#: contents/ui/GlobalDrawer.qml:71
 #, kde-format
 msgid "Full Schedule"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:76 contents/ui/Main.qml:70
+#: contents/ui/GlobalDrawer.qml:77 contents/ui/Main.qml:70
 #, kde-format
 msgid "Schedule"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:83
+#: contents/ui/GlobalDrawer.qml:84
 #, kde-format
 msgid "Categories"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:89 contents/ui/MapView.qml:33
+#: contents/ui/GlobalDrawer.qml:90 contents/ui/MapView.qml:33
 #, kde-format
 msgid "Map"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:100 contents/ui/GlobalDrawer.qml:106
+#: contents/ui/GlobalDrawer.qml:101 contents/ui/GlobalDrawer.qml:107
 #: contents/ui/Main.qml:81
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:111
+#: contents/ui/GlobalDrawer.qml:112
 #, kde-format
 msgid "Configure"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:116
+#: contents/ui/GlobalDrawer.qml:117
 #, kde-format
 msgid "Change conference"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:116
+#: contents/ui/GlobalDrawer.qml:117
 #, kde-format
 msgid "Select conference"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:127 contents/ui/SettingsView.qml:29
+#: contents/ui/GlobalDrawer.qml:128 contents/ui/SettingsView.qml:29
 #, kde-format
 msgid "Settings"
+msgstr ""
+
+#: contents/ui/GlobalDrawer.qml:141
+#, kde-format
+msgid "About"
 msgstr ""
 
 #: contents/ui/MapView.qml:48
@@ -216,24 +221,24 @@ msgstr ""
 msgid "Notifications are not supported on your platform"
 msgstr ""
 
-#: eventcontroller.cpp:68
+#: eventcontroller.cpp:77
 #, kde-format
 msgid "Error during event creation"
 msgstr ""
 
-#: eventcontroller.cpp:75
+#: eventcontroller.cpp:84
 #, kde-format
 msgid "Already in favorites"
 msgstr ""
 
-#: eventcontroller.cpp:125
+#: eventcontroller.cpp:134
 #, kde-format
 msgid ""
 "Talk added to favorites, but it overlaps with existing ones:\n"
 "%1"
 msgstr ""
 
-#: eventcontroller.cpp:125
+#: eventcontroller.cpp:134
 #, kde-format
 msgid "Talk added to favorites"
 msgstr ""
@@ -253,7 +258,14 @@ msgstr ""
 msgid "© 2020 KDE Community"
 msgstr ""
 
-#: main.cpp:44
+#: main.cpp:46
 #, kde-format
+msgctxt "@info:credit"
 msgid "Dimitris Kardarakos"
+msgstr ""
+
+#: main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and Developer"
 msgstr ""
