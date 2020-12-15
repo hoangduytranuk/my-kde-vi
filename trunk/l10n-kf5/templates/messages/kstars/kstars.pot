@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-14 02:13+0100\n"
+"POT-Creation-Date: 2020-12-15 02:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -890,7 +890,7 @@ msgstr ""
 #: skycomponents/skymapcomposite.cpp:637 skyglpainter.cpp:302
 #: skymapdrawabstract.cpp:177 skyobjects/ksplanet.cpp:187
 #: skyobjects/ksplanetbase.cpp:281 skyobjects/kssun.cpp:28
-#: skyobjects/satellite.cpp:1234 skyobjects/skyobject.cpp:306
+#: skyobjects/satellite.cpp:1235 skyobjects/skyobject.cpp:306
 #: skyobjects/skypoint.cpp:392 skyqpainter.cpp:422 skyqpainter.cpp:445
 #: tools/conjunctions.cpp:71 tools/conjunctions.cpp:305
 #: tools/jmoontool.cpp:116 tools/modcalcdaylength.ui:109
@@ -1054,7 +1054,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Saturn)
 #: auxiliary/xplanetimageviewer.cpp:222 kstarslite/skyitems/skynodes/planetnode.cpp:41
 #: options/opssolarsystem.ui:56 skycomponents/skymapcomposite.cpp:649
-#: skyglpainter.cpp:311 skymap.cpp:1340 skymapdrawabstract.cpp:189
+#: skyglpainter.cpp:311 skymap.cpp:1360 skymapdrawabstract.cpp:189
 #: skyobjects/ksplanet.cpp:144 skyobjects/ksplanet.cpp:175
 #: skyobjects/ksplanet.cpp:389 skyobjects/ksplanet.cpp:433
 #: skyobjects/ksplanetbase.cpp:158 skyobjects/ksplanetbase.cpp:287
@@ -2449,7 +2449,7 @@ msgid "Check URL"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, DetailButton)
-#: dialogs/detaildialog.cpp:64 skymap.cpp:909 tools/wutdialog.ui:480
+#: dialogs/detaildialog.cpp:64 skymap.cpp:929 tools/wutdialog.ui:480
 #, kde-format
 msgid "Object Details"
 msgstr ""
@@ -17118,7 +17118,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, domePark)
 #: ekos/mount/mount.ui:817 ekos/observatory/observatory.cpp:253
 #: ekos/observatory/observatory.cpp:301 ekos/observatory/observatory.cpp:330
-#: ekos/observatory/observatory.ui:438 kspopupmenu.cpp:675
+#: ekos/observatory/observatory.ui:438 kspopupmenu.cpp:676
 #, kde-format
 msgid "Park"
 msgstr ""
@@ -17126,7 +17126,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, unparkB)
 #. i18n: ectx: property (text), widget (QPushButton, domeUnpark)
 #: ekos/mount/mount.ui:847 ekos/observatory/observatory.ui:480
-#: kspopupmenu.cpp:679
+#: kspopupmenu.cpp:680
 #, kde-format
 msgid "UnPark"
 msgstr ""
@@ -17495,7 +17495,7 @@ msgid "Abort dome motion"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, motionAbortButton)
-#: ekos/observatory/observatory.ui:532 kspopupmenu.cpp:667 skycomponents/satellitescomponent.cpp:154
+#: ekos/observatory/observatory.ui:532 kspopupmenu.cpp:668 skycomponents/satellitescomponent.cpp:154
 #: tools/conjunctions.cpp:363
 #, kde-format
 msgid "Abort"
@@ -23654,24 +23654,24 @@ msgstr ""
 msgid "Transit time: %1"
 msgstr ""
 
-#: kspopupmenu.cpp:144 kspopupmenu.cpp:320 skymapevents.cpp:732
+#: kspopupmenu.cpp:144 kspopupmenu.cpp:321 skymapevents.cpp:732
 #, kde-format
 msgid "Empty sky"
 msgstr ""
 
-#: kspopupmenu.cpp:145 kspopupmenu.cpp:224 kspopupmenu.cpp:513
+#: kspopupmenu.cpp:145 kspopupmenu.cpp:224 kspopupmenu.cpp:514
 #, kde-format
 msgctxt "Sloan Digital Sky Survey"
 msgid "Show SDSS Image"
 msgstr ""
 
-#: kspopupmenu.cpp:146 kspopupmenu.cpp:225 kspopupmenu.cpp:514
+#: kspopupmenu.cpp:146 kspopupmenu.cpp:225 kspopupmenu.cpp:515
 #, kde-format
 msgctxt "Digitized Sky Survey"
 msgid "Show DSS Image"
 msgstr ""
 
-#: kspopupmenu.cpp:216 kspopupmenu.cpp:316 kstarsinit.cpp:856
+#: kspopupmenu.cpp:216 kspopupmenu.cpp:317 kstarsinit.cpp:856
 #: kstarslite/dialogs/detaildialoglite.cpp:79
 #: kstarsliteinit.cpp:78 printing/detailstable.cpp:87
 #: printing/pwizobjectselection.cpp:112 skycomponents/starcomponent.cpp:521
@@ -23710,155 +23710,160 @@ msgstr ""
 msgid "Range: %1 km"
 msgstr ""
 
-#: kspopupmenu.cpp:278 kspopupmenu.cpp:343
+#: kspopupmenu.cpp:278 kspopupmenu.cpp:344
 #, kde-format
 msgid "Center && Track"
 msgstr ""
 
-#: kspopupmenu.cpp:281 kspopupmenu.cpp:353
+#: kspopupmenu.cpp:281 kspopupmenu.cpp:354
 #, kde-format
 msgid "Angular Distance To...            ["
 msgstr ""
 
-#: kspopupmenu.cpp:282 kspopupmenu.cpp:354
+#: kspopupmenu.cpp:282 kspopupmenu.cpp:355
 #, kde-format
 msgid "Starhop from here to...            "
 msgstr ""
 
-#: kspopupmenu.cpp:286 kspopupmenu.cpp:367
+#: kspopupmenu.cpp:283
+#, kde-format
+msgid "Copy TLE to Clipboard"
+msgstr ""
+
+#: kspopupmenu.cpp:287 kspopupmenu.cpp:368
 #, kde-format
 msgid "Remove Label"
 msgstr ""
 
-#: kspopupmenu.cpp:288 kspopupmenu.cpp:371
+#: kspopupmenu.cpp:289 kspopupmenu.cpp:372
 #, kde-format
 msgid "Attach Label"
 msgstr ""
 
-#: kspopupmenu.cpp:306
+#: kspopupmenu.cpp:307
 #, kde-format
 msgid "supernova"
 msgstr ""
 
-#: kspopupmenu.cpp:339
+#: kspopupmenu.cpp:340
 #, kde-format
 msgid "Select this object"
 msgstr ""
 
-#: kspopupmenu.cpp:358 tools/obslistpopupmenu.cpp:60
+#: kspopupmenu.cpp:359 tools/obslistpopupmenu.cpp:60
 #, kde-format
 msgctxt "Show Detailed Information Dialog"
 msgid "Details"
 msgstr ""
 
-#: kspopupmenu.cpp:360
+#: kspopupmenu.cpp:361
 #, kde-format
 msgid "Copy Coordinates"
 msgstr ""
 
-#: kspopupmenu.cpp:378
+#: kspopupmenu.cpp:379
 #, kde-format
 msgid "Remove From Observing WishList"
 msgstr ""
 
-#: kspopupmenu.cpp:380
+#: kspopupmenu.cpp:381
 #, kde-format
 msgid "Add to Observing WishList"
 msgstr ""
 
-#: kspopupmenu.cpp:387
+#: kspopupmenu.cpp:388
 #, kde-format
 msgid "Remove Trail"
 msgstr ""
 
-#: kspopupmenu.cpp:389
+#: kspopupmenu.cpp:390
 #, kde-format
 msgid "Add Trail"
 msgstr ""
 
-#: kspopupmenu.cpp:392
+#: kspopupmenu.cpp:393
 #, kde-format
 msgid "Simulate eyepiece view"
 msgstr ""
 
-#: kspopupmenu.cpp:399
+#: kspopupmenu.cpp:400
 #, kde-format
 msgid "View in XPlanet"
 msgstr ""
 
-#: kspopupmenu.cpp:404
+#: kspopupmenu.cpp:405
 #, kde-format
 msgid "View in What's Interesting"
 msgstr ""
 
-#: kspopupmenu.cpp:418
+#: kspopupmenu.cpp:419
 #, kde-format
 msgid "Add flag..."
 msgstr ""
 
-#: kspopupmenu.cpp:424
+#: kspopupmenu.cpp:425
 #, kde-format
 msgid "Edit flag"
 msgstr ""
 
-#: kspopupmenu.cpp:425
+#: kspopupmenu.cpp:426
 #, kde-format
 msgid "Delete flag"
 msgstr ""
 
-#: kspopupmenu.cpp:433
+#: kspopupmenu.cpp:434
 #, kde-format
 msgid "Edit flag..."
 msgstr ""
 
-#: kspopupmenu.cpp:435
+#: kspopupmenu.cpp:436
 #, kde-format
 msgid "Delete flag..."
 msgstr ""
 
-#: kspopupmenu.cpp:493
+#: kspopupmenu.cpp:494
 #, kde-format
 msgid "Image Resources"
 msgstr ""
 
-#: kspopupmenu.cpp:508
+#: kspopupmenu.cpp:509
 #, kde-format
 msgid "Remove From Local Catalog"
 msgstr ""
 
-#: kspopupmenu.cpp:527
+#: kspopupmenu.cpp:528
 #, kde-format
 msgid "Information Resources"
 msgstr ""
 
-#: kspopupmenu.cpp:605
+#: kspopupmenu.cpp:606
 #, kde-format
 msgid "Slew && Set As Parking Position"
 msgstr ""
 
-#: kspopupmenu.cpp:615
+#: kspopupmenu.cpp:616
 #, kde-format
 msgid "Center Crosshair"
 msgstr ""
 
-#: kspopupmenu.cpp:649
+#: kspopupmenu.cpp:650
 #, kde-format
 msgctxt "Move mount to target"
 msgid "Goto"
 msgstr ""
 
-#: kspopupmenu.cpp:656
+#: kspopupmenu.cpp:657
 #, kde-format
 msgctxt "Synchronize mount to target"
 msgid "Sync"
 msgstr ""
 
-#: kspopupmenu.cpp:689
+#: kspopupmenu.cpp:690
 #, kde-format
 msgid "Goto && Set As Parking Position"
 msgstr ""
 
-#: kspopupmenu.cpp:695
+#: kspopupmenu.cpp:696
 #, kde-format
 msgid "Find Telescope"
 msgstr ""
@@ -23869,7 +23874,7 @@ msgstr ""
 msgid "KStars"
 msgstr ""
 
-#: kstars.cpp:346 kstarsactions.cpp:1454 skymap.cpp:411
+#: kstars.cpp:346 kstarsactions.cpp:1454 skymap.cpp:412
 #, kde-format
 msgid "Stop &Tracking"
 msgstr ""
@@ -90509,7 +90514,7 @@ msgstr ""
 msgid " Welcome to KStars "
 msgstr ""
 
-#: kstarsinit.cpp:853 kstarsliteinit.cpp:75 skymap.cpp:341 skymaplite.cpp:335
+#: kstarsinit.cpp:853 kstarsliteinit.cpp:75 skymap.cpp:342 skymaplite.cpp:335
 #: widgets/infoboxwidget.cpp:124
 #, kde-format
 msgid "nothing"
@@ -98055,41 +98060,41 @@ msgstr ""
 msgid "Error downloading supernova data: %1"
 msgstr ""
 
-#: skymap.cpp:322
+#: skymap.cpp:323
 #, kde-format
 msgid "%1: %2<sup>m</sup>"
 msgstr ""
 
-#: skymap.cpp:385 skymaplite.cpp:366
+#: skymap.cpp:386 skymaplite.cpp:366
 #, kde-format
 msgid "Requested Position Below Horizon"
 msgstr ""
 
-#: skymap.cpp:386 skymaplite.cpp:367
+#: skymap.cpp:387 skymaplite.cpp:367
 #, kde-format
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
 msgstr ""
 
-#: skymap.cpp:387
+#: skymap.cpp:388
 #, kde-format
 msgid "Go Anyway"
 msgstr ""
 
-#: skymap.cpp:388
+#: skymap.cpp:389
 #, kde-format
 msgid "Keep Position"
 msgstr ""
 
-#: skymap.cpp:479
+#: skymap.cpp:480
 #, kde-format
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
 msgstr ""
 
-#: skymap.cpp:513
+#: skymap.cpp:514
 #, kde-format
 msgctxt "Equatorial & Horizontal Coordinates"
 msgid ""
@@ -98098,44 +98103,44 @@ msgid ""
 "AzAlt:\t%5\t%6"
 msgstr ""
 
-#: skymap.cpp:559
+#: skymap.cpp:579
 #, kde-format
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
 "Consortium [free for non-commercial use]."
 msgstr ""
 
-#: skymap.cpp:635
+#: skymap.cpp:655
 #, kde-format
 msgid "Angular distance: %1"
 msgstr ""
 
-#: skymap.cpp:649
+#: skymap.cpp:669
 #, kde-format
 msgid "; Physical distance: %1 pc"
 msgstr ""
 
-#: skymap.cpp:686
+#: skymap.cpp:706
 #, kde-format
 msgid "Star Hopper: Choose a field-of-view"
 msgstr ""
 
-#: skymap.cpp:687
+#: skymap.cpp:707
 #, kde-format
 msgid "FOV to use for star hopping:"
 msgstr ""
 
-#: skymap.cpp:694
+#: skymap.cpp:714
 #, kde-format
 msgid "Star Hopper: Enter field-of-view to use"
 msgstr ""
 
-#: skymap.cpp:695
+#: skymap.cpp:715
 #, kde-format
 msgid "FOV to use for star hopping (in arcminutes):"
 msgstr ""
 
-#: skymap.cpp:909
+#: skymap.cpp:929
 #, kde-format
 msgid "No object selected."
 msgstr ""
@@ -98235,32 +98240,32 @@ msgstr ""
 msgid "unnamed"
 msgstr ""
 
-#: skyobjects/satellite.cpp:1247
+#: skyobjects/satellite.cpp:1248
 #, kde-format
 msgid "Success"
 msgstr ""
 
-#: skyobjects/satellite.cpp:1251
+#: skyobjects/satellite.cpp:1252
 #, kde-format
 msgid "Eccentricity >= 1.0 or < -0.001"
 msgstr ""
 
-#: skyobjects/satellite.cpp:1254
+#: skyobjects/satellite.cpp:1255
 #, kde-format
 msgid "Mean motion less than 0.0"
 msgstr ""
 
-#: skyobjects/satellite.cpp:1257
+#: skyobjects/satellite.cpp:1258
 #, kde-format
 msgid "Semi-latus rectum < 0.0"
 msgstr ""
 
-#: skyobjects/satellite.cpp:1260
+#: skyobjects/satellite.cpp:1261
 #, kde-format
 msgid "Satellite has decayed"
 msgstr ""
 
-#: skyobjects/satellite.cpp:1263
+#: skyobjects/satellite.cpp:1264
 #, kde-format
 msgid "Unknown error"
 msgstr ""
