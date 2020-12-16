@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-15 08:26+0100\n"
+"POT-Creation-Date: 2020-12-16 08:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -7146,14 +7146,27 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr ""
 
-#: krita/main.cc:570 libs/ui/KisApplication.cpp:366
+#: krita/main.cc:466
+#, kde-format
+msgctxt "@title:window"
+msgid "Fatal Error"
+msgstr ""
+
+#: krita/main.cc:466
+#, kde-format
+msgid ""
+"Krita does not support the Wayland platform. Use XWayland to run Krita on "
+"Wayland. Krita will close now."
+msgstr ""
+
+#: krita/main.cc:576 libs/ui/KisApplication.cpp:366
 #: libs/ui/KisApplication.cpp:635
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr ""
 
-#: krita/main.cc:571
+#: krita/main.cc:577
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -7161,12 +7174,12 @@ msgid ""
 "Please update to a supported version of Windows: Windows 7, 8, 8.1 or 10."
 msgstr ""
 
-#: krita/main.cc:593 krita/main.cc:598
+#: krita/main.cc:599 krita/main.cc:604
 #, kde-format
 msgid "Krita Tablet Support"
 msgstr ""
 
-#: krita/main.cc:594
+#: krita/main.cc:600
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -7174,7 +7187,7 @@ msgid ""
 "installed."
 msgstr ""
 
-#: krita/main.cc:599
+#: krita/main.cc:605
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -7705,7 +7718,7 @@ msgstr ""
 msgid "Unknown error writing SVG text element"
 msgstr ""
 
-#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:126
+#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:123
 msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr ""
@@ -19889,12 +19902,12 @@ msgstr ""
 msgid "Get your Krita Supporter Badge here!"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:363
+#: libs/ui/KisWelcomePageWidget.cpp:371
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:377
+#: libs/ui/KisWelcomePageWidget.cpp:385
 #, kde-format
 msgid "New Version Available!"
 msgstr ""
@@ -42296,7 +42309,7 @@ msgstr ""
 msgid "Select path"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:163
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:170
 msgctxt "(qtundo-format)"
 msgid "Select by Bezier Curve"
 msgstr ""
@@ -43882,7 +43895,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowControlPoints)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2185
 #, kde-format
-msgid "Show control points"
+msgid "Show handles"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSymmetricalHandles)

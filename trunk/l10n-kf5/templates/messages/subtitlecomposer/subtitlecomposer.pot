@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-15 02:26+0100\n"
+"POT-Creation-Date: 2020-12-16 02:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1316,14 +1316,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QLabel, lab_MaxDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:92 src/configs/errorsconfigwidget.ui:142
+#: src/configs/errorsconfigwidget.ui:92 src/configs/errorsconfigwidget.ui:174
 #, kde-format
 msgid "Maximum duration:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, lab_MinDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:99 src/configs/errorsconfigwidget.ui:135
+#: src/configs/errorsconfigwidget.ui:99 src/configs/errorsconfigwidget.ui:154
 #, kde-format
 msgid "Minimum duration:"
 msgstr ""
@@ -1336,27 +1336,37 @@ msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDurationPerCharacter)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:115 src/configs/errorsconfigwidget.ui:125
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_IdealDurationPerCharacter)
+#: src/configs/errorsconfigwidget.ui:115 src/configs/errorsconfigwidget.ui:141
+#: src/configs/errorsconfigwidget.ui:188
 #, kde-format
 msgid " ms/char"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, alt_MinDurationPerCharacter)
 #. i18n: ectx: property (suffix), widget (QSpinBox, alt_MaxDurationPerCharacter)
-#: src/configs/errorsconfigwidget.ui:149 src/configs/errorsconfigwidget.ui:159
+#. i18n: ectx: property (suffix), widget (QSpinBox, alt_IdealDurationPerCharacter)
+#: src/configs/errorsconfigwidget.ui:128 src/configs/errorsconfigwidget.ui:161
+#: src/configs/errorsconfigwidget.ui:201
 #, kde-format
 msgid " ch/sec"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lab_IdealDurationPerCharacter)
+#: src/configs/errorsconfigwidget.ui:181
+#, kde-format
+msgid "Ideal duration:"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/configs/errorsconfigwidget.ui:172
+#: src/configs/errorsconfigwidget.ui:217
 #, kde-format
 msgid "Behavior"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoClearFixed)
 #. i18n: ectx: label, entry (AutoClearFixed), group (Error Check)
-#: src/configs/errorsconfigwidget.ui:178 src/scconfig.kcfg:78
+#: src/configs/errorsconfigwidget.ui:223 src/scconfig.kcfg:82
 #, kde-format
 msgid "Automatically clear fixed errors"
 msgstr ""
@@ -1456,7 +1466,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
 #. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
-#: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:172
+#: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:176
 #, kde-format
 msgid "Start playing video when loaded"
 msgstr ""
@@ -2668,25 +2678,25 @@ msgstr ""
 msgid "<b>Playback Rate</b>"
 msgstr ""
 
-#: src/gui/playerwidget.cpp:698
+#: src/gui/playerwidget.cpp:699
 #, kde-format
 msgid "<qt>There was an error opening media file %1.</qt>"
 msgstr ""
 
-#: src/gui/playerwidget.cpp:716 src/gui/playerwidget.cpp:717
-#: src/gui/playerwidget.cpp:718 src/gui/playerwidget.cpp:719
+#: src/gui/playerwidget.cpp:717 src/gui/playerwidget.cpp:718
+#: src/gui/playerwidget.cpp:719 src/gui/playerwidget.cpp:720
 #: src/gui/playerwidget.cpp:785 src/gui/playerwidget.cpp:793
 #: src/gui/playerwidget.cpp:799
 #, kde-format
 msgid "<i>Unknown</i>"
 msgstr ""
 
-#: src/gui/playerwidget.cpp:732 src/gui/playerwidget.cpp:734
+#: src/gui/playerwidget.cpp:733 src/gui/playerwidget.cpp:735
 #, kde-format
 msgid "Unexpected error when playing file."
 msgstr ""
 
-#: src/gui/playerwidget.cpp:732 src/gui/playerwidget.cpp:734
+#: src/gui/playerwidget.cpp:733 src/gui/playerwidget.cpp:735
 #, kde-format
 msgid "Error Playing File"
 msgstr ""
@@ -3000,62 +3010,68 @@ msgstr ""
 msgid "Minimum duration per character"
 msgstr ""
 
-#. i18n: ectx: label, entry (MaxDurationPerCharacter), group (Error Check)
+#. i18n: ectx: label, entry (IdealDurationPerCharacter), group (Error Check)
 #: src/scconfig.kcfg:73
+#, kde-format
+msgid "Ideal duration per character"
+msgstr ""
+
+#. i18n: ectx: label, entry (MaxDurationPerCharacter), group (Error Check)
+#: src/scconfig.kcfg:77
 #, kde-format
 msgid "Maximum duration per character"
 msgstr ""
 
 #. i18n: ectx: label, entry (DefaultLanguage), group (Spelling)
-#: src/scconfig.kcfg:85
+#: src/scconfig.kcfg:89
 #, kde-format
 msgid "Default Language"
 msgstr ""
 
 #. i18n: ectx: label, entry (DefaultClient), group (Spelling)
-#: src/scconfig.kcfg:89
+#: src/scconfig.kcfg:93
 #, kde-format
 msgid "Default client"
 msgstr ""
 
 #. i18n: ectx: label, entry (CheckUppercase), group (Spelling)
-#: src/scconfig.kcfg:93
+#: src/scconfig.kcfg:97
 #, kde-format
 msgid "Check uppercase"
 msgstr ""
 
 #. i18n: ectx: label, entry (SkipRunTogether), group (Spelling)
-#: src/scconfig.kcfg:97
+#: src/scconfig.kcfg:101
 #, kde-format
 msgid "Skip Run Together"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfInnerColor), group (Waveform Widget)
-#: src/scconfig.kcfg:104
+#: src/scconfig.kcfg:108
 #, kde-format
 msgid "Waveform Inner Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfOuterColor), group (Waveform Widget)
-#: src/scconfig.kcfg:108
+#: src/scconfig.kcfg:112
 #, kde-format
 msgid "Waveform Outer Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSmoothScroll), group (Waveform Widget)
-#: src/scconfig.kcfg:112
+#: src/scconfig.kcfg:116
 #, kde-format
 msgid "Waveform Smooth Scrolling"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:116
+#: src/scconfig.kcfg:120
 #, kde-format
 msgid "Autoscroll Padding"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (wfAutoscrollPadding), group (Waveform Widget)
-#: src/scconfig.kcfg:118
+#: src/scconfig.kcfg:122
 #, kde-format
 msgid ""
 "Autoscroll page when play position reaches ScrollPadding distance "
@@ -3063,122 +3079,122 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:121
+#: src/scconfig.kcfg:125
 #, kde-format
 msgid "Waveform Subtitle Background Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:125
+#: src/scconfig.kcfg:129
 #, kde-format
 msgid "Waveform Subtitle Border Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubBorderWidth), group (Waveform Widget)
-#: src/scconfig.kcfg:129
+#: src/scconfig.kcfg:133
 #, kde-format
 msgid "Waveform Subtitle Border Width"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSelBackground), group (Waveform Widget)
-#: src/scconfig.kcfg:133
+#: src/scconfig.kcfg:137
 #, kde-format
 msgid "Waveform Selected Subtitle Background Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSelBorder), group (Waveform Widget)
-#: src/scconfig.kcfg:137
+#: src/scconfig.kcfg:141
 #, kde-format
 msgid "Waveform Selected Subtitle Border Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfFontFamily), group (Waveform Widget)
 #. i18n: ectx: label, entry (FontFamily), group (VideoPlayer)
-#: src/scconfig.kcfg:141 src/scconfig.kcfg:193
+#: src/scconfig.kcfg:145 src/scconfig.kcfg:197
 #, kde-format
 msgid "Font Family"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubNumberFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:145
+#: src/scconfig.kcfg:149
 #, kde-format
 msgid "Subtitle Number Font Size"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubNumberColor), group (Waveform Widget)
-#: src/scconfig.kcfg:149
+#: src/scconfig.kcfg:153
 #, kde-format
 msgid "Subtitle Number Font Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubTextFontSize), group (Waveform Widget)
-#: src/scconfig.kcfg:153
+#: src/scconfig.kcfg:157
 #, kde-format
 msgid "Subtitle Text Font Size"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfSubTextColor), group (Waveform Widget)
-#: src/scconfig.kcfg:157
+#: src/scconfig.kcfg:161
 #, kde-format
 msgid "Subtitle Text Font Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfMouseLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:161
+#: src/scconfig.kcfg:165
 #, kde-format
 msgid "Mouse Location Line Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (wfPlayLocation), group (Waveform Widget)
-#: src/scconfig.kcfg:165
+#: src/scconfig.kcfg:169
 #, kde-format
 msgid "Play Location Line Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (SeekJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:176
+#: src/scconfig.kcfg:180
 #, kde-format
 msgid "Jump length on seek"
 msgstr ""
 
 #. i18n: ectx: label, entry (StepJumpLength), group (VideoPlayer)
-#: src/scconfig.kcfg:180
+#: src/scconfig.kcfg:184
 #, kde-format
 msgid "Amount of frames to skip when stepping"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowPositionTimeEdit), group (VideoPlayer)
-#: src/scconfig.kcfg:184
+#: src/scconfig.kcfg:188
 #, kde-format
 msgid "Show editable time position"
 msgstr ""
 
 #. i18n: ectx: label, entry (VolumeAmplification), group (VideoPlayer)
-#: src/scconfig.kcfg:188
+#: src/scconfig.kcfg:192
 #, kde-format
 msgid "Volume Amplification"
 msgstr ""
 
 #. i18n: ectx: label, entry (FontSize), group (VideoPlayer)
-#: src/scconfig.kcfg:197
+#: src/scconfig.kcfg:201
 #, kde-format
 msgid "Font Size"
 msgstr ""
 
 #. i18n: ectx: label, entry (FontColor), group (VideoPlayer)
-#: src/scconfig.kcfg:201
+#: src/scconfig.kcfg:205
 #, kde-format
 msgid "Font Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (OutlineColor), group (VideoPlayer)
-#: src/scconfig.kcfg:205
+#: src/scconfig.kcfg:209
 #, kde-format
 msgid "Outline Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (OutlineWidth), group (VideoPlayer)
-#: src/scconfig.kcfg:209
+#: src/scconfig.kcfg:213
 #, kde-format
 msgid "Outline Width"
 msgstr ""
