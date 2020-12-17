@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-10-24 02:22+0200\n"
-"PO-Revision-Date: 2020-12-10 16:15+0100\n"
+"PO-Revision-Date: 2020-12-17 20:30+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -88,7 +88,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "This will open a new tab in the background, instead of in the foreground."
-msgstr "Tuỳ chọn này sẽ mở trang mới trong nền, thay vào lên trước."
+msgstr "Lựa chọn này sẽ mở một thẻ mới ở dưới nền, thay vì mở lên trước."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pNewTabsInBackground)
 #: advancedTabOptions.ui:54
@@ -595,26 +595,26 @@ msgid ""
 "another, with family members that are e.g. bold, italic, or any number of "
 "the above.</p>"
 msgstr ""
-"<b>Nhóm phông chữ</b><p>Nhóm phông chữ là nhóm các phông chữ tương tự nhau "
-"với các thành viên như đậm, nghiên, hay tổ hợp của chúng.</p>"
+"<b>Họ phông chữ</b><p>Họ phông chữ là một nhóm các phông chữ tương tự nhau "
+"với các thành viên chẳng hạn như đậm, nghiêng, hay các tổ hợp của chúng.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox7)
 #: css/csscustom.ui:24
 #, kde-format
 msgid "Font Family"
-msgstr "Nhóm phông chữ"
+msgstr "Họ phông chữ"
 
 #. i18n: ectx: property (text), widget (QLabel, txtBaseFontFamily)
 #: css/csscustom.ui:30
-#, fuzzy, kde-format
+#, kde-format
 msgid "Base family:"
-msgstr "&Nhóm cơ bản:"
+msgstr "Họ cơ sở:"
 
 #. i18n: ectx: property (whatsThis), widget (QFontComboBox, fontFamily)
 #: css/csscustom.ui:37
 #, kde-format
 msgid "<p>This is the currently selected font family</p>"
-msgstr "<p>Đây là các nhóm phông chữ đã được chọn gần đây</p>"
+msgstr "<p>Đây là họ phông chữ đang được chọn</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, sameFamily)
 #: css/csscustom.ui:44
@@ -623,14 +623,14 @@ msgid ""
 "<b>Use same family for all text</b><p>Select this option to override custom "
 "fonts everywhere in favor of the base font.</p>"
 msgstr ""
-"<b>Dùng cùng một nhóm cho mọi văn bản</b><p> Chọn tuỳ chọn này sẽ ghi đè lên "
-"những lựa chọn phông chữ khác.</p>"
+"<b>Dùng cùng một họ cho tất cả chữ</b><p>Chọn lựa chọn này để làm mất hiệu "
+"lực các phông chữ tự chọn ở mọi nơi, để chỉ dùng phông chữ cơ sở.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameFamily)
 #: css/csscustom.ui:47
 #, kde-format
 msgid "Use same family for all text"
-msgstr "Dùng cùng một nhóm cho mọi văn bản"
+msgstr "Dùng cùng một họ cho tất cả chữ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #: css/csscustom.ui:57
@@ -834,13 +834,14 @@ msgstr "Dùng chung màu cho mọi văn bản"
 msgid ""
 "<b>Foreground color</b><p>The foreground color is the color that the text is "
 "drawn in.</p>"
-msgstr "<b>Màu chữ</b><p>Màu chữ là màu của văn bản sẽ được hiển thị.</p>"
+msgstr ""
+"<b>Màu tiền cảnh</b><p>Màu tiền cảnh là màu của chữ sẽ được hiển thị.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, txtForeground)
 #: css/csscustom.ui:264
 #, kde-format
 msgid "&Foreground:"
-msgstr "Cảnh &gần:"
+msgstr "Tiền &cảnh:"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox3_2)
 #: css/csscustom.ui:293
@@ -957,7 +958,7 @@ msgstr "&Mới..."
 #: domainlistview.cpp:62
 #, kde-format
 msgid "Chan&ge..."
-msgstr "&Đổi..."
+msgstr "Đổ&i..."
 
 #: domainlistview.cpp:66
 #, kde-format
@@ -1403,7 +1404,7 @@ msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
 msgstr ""
-"Một số trang Mạng yêu cầu việc tải lại hay chuyển tiếp lại tự động sau một "
+"Một số trang web yêu cầu việc tải lại hay chuyển tiếp lại tự động sau một "
 "thời gian riêng. Khi tuỳ chọn này bị tắt, Konqueror sẽ bỏ qua các yêu cầu "
 "này."
 
@@ -1420,7 +1421,7 @@ msgid ""
 "Unchecking this box will disable this accessibility feature. (Konqueror "
 "needs to be restarted for this change to take effect.)"
 msgstr ""
-"Việc bấm phím Ctrl khi xem trang Mạng sẽ kích hoạt Phím Truy Cập của KDE. Bỏ "
+"Việc bấm phím Ctrl khi xem trang web sẽ kích hoạt Phím Truy Cập của KDE. Bỏ "
 "chọn hộp nay để tắt tính năng khả năng truy cập này. (Konqueror cần phải "
 "được khởi chạy lại để thay đổi có tác động.)"
 

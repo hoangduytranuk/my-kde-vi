@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-12-16 02:20+0100\n"
-"PO-Revision-Date: 2020-12-16 21:33+0100\n"
+"PO-Revision-Date: 2020-12-17 22:06+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -1047,7 +1047,7 @@ msgstr ""
 #: dialogs/editconfigwidget.ui:215
 #, kde-format
 msgid "Paste by mouse at cursor position"
-msgstr ""
+msgstr "Dán bằng chuột ở vị trí con trỏ"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFiletype)
 #: dialogs/filetypeconfigwidget.ui:14
@@ -1294,12 +1294,14 @@ msgid ""
 "If this option is selected, pasted code from the clipboard is indented. "
 "Triggering the <b>undo</b>-action removes the indentation."
 msgstr ""
+"Nếu lựa chọn này được chọn, mã được dán từ bảng nháp sẽ được thụt lề. Thực "
+"hiện hành động <b>đảo ngược</b> sẽ xoá bỏ việc thụt lề đó."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIndentPaste)
 #: dialogs/indentationconfigwidget.ui:163
 #, kde-format
 msgid "Adjust indentation of code &pasted from the clipboard"
-msgstr ""
+msgstr "Điều chỉnh việc thụt lề cho mã được dán từ bảng nhá&p"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbKeys)
 #: dialogs/indentationconfigwidget.ui:173
@@ -1521,7 +1523,7 @@ msgstr ""
 #: dialogs/katedialogs.cpp:1106
 #, kde-format
 msgid "Go to line number from clipboard"
-msgstr ""
+msgstr "Đi đến dòng thứ ... trong bảng nháp"
 
 #: dialogs/katedialogs.cpp:1117
 #, kde-format
@@ -1531,7 +1533,7 @@ msgstr ""
 #: dialogs/katedialogs.cpp:1193
 #, kde-format
 msgid "No valid line number found in clipboard"
-msgstr ""
+msgstr "Không tìm thấy số thứ tự dòng hợp lệ trong bảng nháp"
 
 #: dialogs/katedialogs.cpp:1257
 #, fuzzy, kde-format
@@ -2858,12 +2860,12 @@ msgstr "&Dạng thức:"
 #: printing/printconfigwidgets.cpp:157 printing/printconfigwidgets.cpp:203
 #, kde-format
 msgid "Colors:"
-msgstr "Màu sắc:"
+msgstr "Màu:"
 
 #: printing/printconfigwidgets.cpp:164 printing/printconfigwidgets.cpp:210
 #, kde-format
 msgid "Foreground:"
-msgstr "Cận cảnh:"
+msgstr "Tiền cảnh:"
 
 #: printing/printconfigwidgets.cpp:169
 #, kde-format
@@ -5178,7 +5180,7 @@ msgstr ""
 #: syntax/katethemeconfig.cpp:1018
 #, kde-format
 msgid "Colors"
-msgstr "Màu sắc"
+msgstr "Màu"
 
 #: syntax/katethemeconfig.cpp:1022
 #, fuzzy, kde-format
@@ -5394,6 +5396,9 @@ msgid ""
 "p><p>Possible true values: 1 on true<br/>possible false values: 0 off false</"
 "p>"
 msgstr ""
+"<p>set-indent-pasted-text <b>có bật</b></p><p>Nếu bật, việc thụt lề cho chữ "
+"dán từ bảng nháp sẽ được điều chỉnh với bộ thụt lề hiện tại.</p><p>Các giá "
+"trị đúng có thể: 1 on true<br/>các giá trị sai có thể: 0 off false</p>"
 
 #: utils/katecmds.cpp:89
 #, fuzzy, kde-format
@@ -6409,7 +6414,7 @@ msgstr "Th&ụt lề"
 #, kde-format
 msgctxt "short translation please"
 msgid "Adjust indentation of text pasted from the clipboard."
-msgstr ""
+msgstr "Điều chỉnh việc thụt lề cho chữ được dán từ bảng nháp."
 
 #: variableeditor/variablelineedit.cpp:236
 #, kde-format
@@ -6729,36 +6734,35 @@ msgstr ""
 #: view/kateview.cpp:448
 #, kde-format
 msgid "Cut the selected text and move it to the clipboard"
-msgstr "Cắt đoạn chọn vào bảng tạm"
+msgstr "Cắt văn bản được chọn và chuyển vào bảng nháp"
 
 #: view/kateview.cpp:451
 #, kde-format
 msgid "Paste previously copied or cut clipboard contents"
-msgstr "Dán nội dung bảng tạm đã cắt hoặc chép"
+msgstr "Dán nội dung bảng nháp trước đó đã được chép hoặc cắt"
 
 #: view/kateview.cpp:454
 #, kde-format
 msgid ""
 "Use this command to copy the currently selected text to the system clipboard."
-msgstr ""
-"Dùng lệnh này để sao chép đoạn được chọn hiện thời vào bảng tạm của hệ thống."
+msgstr "Dùng lệnh này để chép đoạn được chọn hiện thời vào bảng nháp hệ thống."
 
 #: view/kateview.cpp:456
 #, kde-format
 msgid "Clipboard &History"
-msgstr ""
+msgstr "Lịch sử bảng nhá&p"
 
 #: view/kateview.cpp:461
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Word Completion Plugin"
 msgid "Paste Selection"
-msgstr "Bổ sung hoàn chỉnh từ"
+msgstr "Dán phần chọn"
 
 #: view/kateview.cpp:463
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Paste previously copied or cut clipboard contents"
 msgid "Paste previously mouse selection contents"
-msgstr "Dán nội dung bảng tạm đã cắt hoặc chép"
+msgstr "Dán nội dung phần chọn bằng chuột"
 
 #: view/kateview.cpp:468
 #, kde-format
@@ -7447,8 +7451,8 @@ msgid ""
 "Use this command to copy the currently selected text as HTML to the system "
 "clipboard."
 msgstr ""
-"Dùng lệnh này để sao chép đoạn được chọn hiện thời dạng mã định dạng HTML "
-"vào bảng tạm của hệ thống."
+"Dùng lệnh này để chép đoạn được chọn hiện thời thành dạng HTML vào bảng nháp "
+"hệ thống."
 
 #: view/kateview.cpp:864
 #, fuzzy, kde-format
