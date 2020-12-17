@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-16 02:33+0100\n"
+"POT-Creation-Date: 2020-12-17 02:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -85,32 +85,32 @@ msgstr ""
 msgid "Unknown duration"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:132
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:131
 #, kde-format
 msgctxt "Unknown attachment size"
 msgid "Unknown"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:134
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:133
 #, kde-format
 msgid "%1 byte"
 msgid_plural "%1 bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:137
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:136
 #, kde-format
 msgctxt "KB as in kilobytes"
 msgid "%1 KB"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:140
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:139
 #, kde-format
 msgctxt "MB as in megabytes"
 msgid "%1 MB"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:141
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:140
 #, kde-format
 msgctxt "GB as in gigabytes"
 msgid "%1 GB"
@@ -192,6 +192,7 @@ msgstr ""
 
 #: imports/NeoChat/Dialog/RoomSettingsDialog.qml:89
 #: imports/NeoChat/Page/AccountsPage.qml:117
+#: imports/NeoChat/Page/DevicesPage.qml:95
 #, kde-format
 msgid "Save"
 msgstr ""
@@ -356,6 +357,7 @@ msgid "Edit Account"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:97
+#: imports/NeoChat/Page/DevicesPage.qml:91
 #, kde-format
 msgid "Name:"
 msgstr ""
@@ -378,6 +380,42 @@ msgstr ""
 #: imports/NeoChat/Page/AccountsPage.qml:125
 #, kde-format
 msgid "Passwords do not match"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:16
+#: qml/main.qml:164 qml/main.qml:167
+#, kde-format
+msgid "Devices"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:35
+#, kde-format
+msgid "Edit device name"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:44
+#, kde-format
+msgid "Logout device"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:61
+#, kde-format
+msgid "Remove device"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:66
+#, kde-format
+msgid "Password:"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:70
+#, kde-format
+msgid "Confirm"
+msgstr ""
+
+#: imports/NeoChat/Page/DevicesPage.qml:86
+#, kde-format
+msgid "Edit device"
 msgstr ""
 
 #: imports/NeoChat/Page/ImageEditorPage.qml:40
@@ -590,7 +628,7 @@ msgstr ""
 msgid "Search in room directory"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:138
+#: imports/NeoChat/Page/RoomListPage.qml:139
 #, kde-format
 msgid "No Name"
 msgstr ""
@@ -629,7 +667,7 @@ msgid "Drag items here to share them"
 msgstr ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:16
-#: qml/main.qml:164 qml/main.qml:167
+#: qml/main.qml:170 qml/main.qml:173
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -757,17 +795,17 @@ msgstr ""
 msgid "Muted"
 msgstr ""
 
-#: qml/main.qml:171
+#: qml/main.qml:177
 #, kde-format
 msgid "About Neochat"
 msgstr ""
 
-#: qml/main.qml:174
+#: qml/main.qml:180
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: qml/main.qml:177
+#: qml/main.qml:183
 #, kde-format
 msgid "Quit"
 msgstr ""
@@ -787,37 +825,37 @@ msgstr ""
 msgid "Access Token invalid or revoked"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 #, kde-format
 msgid "Neochat"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 #, kde-format
 msgid "Matrix client"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 #, kde-format
 msgid "© 2018-2020 Black Hat, 2020 KDE Community"
 msgstr ""
 
-#: src/main.cpp:66
+#: src/main.cpp:67
 #, kde-format
 msgid "Black Hat"
 msgstr ""
 
-#: src/main.cpp:67
+#: src/main.cpp:68
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
-#: src/main.cpp:68
+#: src/main.cpp:69
 #, kde-format
 msgid "Tobias Fella"
 msgstr ""
 
-#: src/main.cpp:114
+#: src/main.cpp:116
 #, kde-format
 msgid "Client for the matrix communication protocol"
 msgstr ""
@@ -832,37 +870,37 @@ msgstr ""
 msgid "Image request has been cancelled"
 msgstr ""
 
-#: src/messageeventmodel.cpp:254
+#: src/messageeventmodel.cpp:255
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: src/messageeventmodel.cpp:257
+#: src/messageeventmodel.cpp:258
 #, kde-format
 msgid "Yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:260
+#: src/messageeventmodel.cpp:261
 #, kde-format
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:324
+#: src/messageeventmodel.cpp:325
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:324
+#: src/messageeventmodel.cpp:325
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:386
+#: src/messageeventmodel.cpp:387
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:386
+#: src/messageeventmodel.cpp:387
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""

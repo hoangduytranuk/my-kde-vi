@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totalreqall\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-12 02:47+0100\n"
+"POT-Creation-Date: 2020-12-17 02:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,33 +27,38 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: ChooseReferenceWidget.cpp:40
+#: ChooseReferenceWidget.cpp:32 SavedContentLoader.cpp:31
+#, kde-format
+msgid "Speak"
+msgstr ""
+
+#: ChooseReferenceWidget.cpp:44
 #, kde-format
 msgid "Choose a verse"
 msgstr ""
 
-#: ChooseReferenceWidget.cpp:55
+#: ChooseReferenceWidget.cpp:59
 #, kde-format
 msgid "No modules found"
 msgstr ""
 
-#: ChooseReferenceWidget.cpp:56
+#: ChooseReferenceWidget.cpp:60
 #, kde-format
 msgid "Could not find any Bible modules."
 msgstr ""
 
-#: ChooseReferenceWidget.cpp:157
+#: ChooseReferenceWidget.cpp:161
 #, kde-format
 msgid "Memorize verse"
 msgstr ""
 
-#: ChooseReferenceWidget.cpp:161 CustomContentAdder.cpp:40
+#: ChooseReferenceWidget.cpp:204 CustomContentAdder.cpp:40
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: ChooseReferenceWidget.cpp:164 CustomContentAdder.cpp:36
-#: SavedContentLoader.cpp:33
+#: ChooseReferenceWidget.cpp:207 CustomContentAdder.cpp:36
+#: SavedContentLoader.cpp:54
 #, kde-format
 msgid "Back"
 msgstr ""
@@ -73,17 +78,17 @@ msgstr ""
 msgid "Content:"
 msgstr ""
 
-#: main.cpp:33
+#: main.cpp:32
 #, kde-format
 msgid "TotalReqall"
 msgstr ""
 
-#: main.cpp:37
+#: main.cpp:36
 #, kde-format
 msgid "Copyright (C) 2020 Loren Burkholder"
 msgstr ""
 
-#: main.cpp:39
+#: main.cpp:38
 #, kde-format
 msgid "Creator, maintainer"
 msgstr ""
@@ -138,39 +143,64 @@ msgstr ""
 msgid "Done!"
 msgstr ""
 
-#: MemorizeWidget.cpp:204 MemorizeWidget.cpp:239
+#: MemorizeWidget.cpp:220 MemorizeWidget.cpp:296
 #, kde-format
 msgid "Stop memorizing"
 msgstr ""
 
-#: MemorizeWidget.cpp:230 MemorizeWidget.cpp:254
+#: MemorizeWidget.cpp:249 MemorizeWidget.cpp:268 MemorizeWidget.cpp:287
 #, kde-format
 msgid "Continue"
 msgstr ""
 
-#: SavedContentLoader.cpp:30 SavedContentLoader.cpp:42
+#: SavedContentLoader.cpp:35 SavedContentLoader.cpp:63
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: SavedContentLoader.cpp:32 SavedContentLoader.cpp:41
+#: SavedContentLoader.cpp:53 SavedContentLoader.cpp:62
 #, kde-format
 msgid "Review"
 msgstr ""
 
-#: SavedContentLoader.cpp:72
+#: SavedContentLoader.cpp:124
 #, kde-format
 msgid "Double-click an entry to review it."
 msgstr ""
 
-#: SavedContentLoader.cpp:188
+#: SavedContentLoader.cpp:248
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: SavedContentLoader.cpp:189
+#: SavedContentLoader.cpp:249
 #, kde-format
 msgid "Error: could not find data for "
+msgstr ""
+
+#: SettingsDialog.cpp:25
+#, kde-format
+msgid "Load &last verse"
+msgstr ""
+
+#: SettingsDialog.cpp:26
+#, kde-format
+msgid "Load &random verse"
+msgstr ""
+
+#: SettingsDialog.cpp:27
+#, kde-format
+msgid "Load a &set verse"
+msgstr ""
+
+#: SettingsDialog.cpp:28
+#, kde-format
+msgid "&Choose verse..."
+msgstr ""
+
+#: SettingsDialog.cpp:29
+#, kde-format
+msgid "Save last set window size"
 msgstr ""
 
 #: SettingsDialog.cpp:31
@@ -188,72 +218,57 @@ msgstr ""
 msgid "Load &set version"
 msgstr ""
 
-#: SettingsDialog.cpp:41
-#, kde-format
-msgid "Settings"
-msgstr ""
-
-#: SettingsDialog.cpp:50
+#: SettingsDialog.cpp:38
 #, kde-format
 msgid "&Retype the word"
 msgstr ""
 
-#: SettingsDialog.cpp:51
+#: SettingsDialog.cpp:39
 #, kde-format
 msgid "Mark the word as incorrect and &keep going"
 msgstr ""
 
-#: SettingsDialog.cpp:60
+#: SettingsDialog.cpp:40
 #, kde-format
-msgid "Load &last verse"
+msgid "Split large content into smaller chunks"
 msgstr ""
 
-#: SettingsDialog.cpp:61
+#: SettingsDialog.cpp:42
 #, kde-format
-msgid "Load &random verse"
+msgid "Settings"
 msgstr ""
 
-#: SettingsDialog.cpp:62
-#, kde-format
-msgid "Load a &set verse"
-msgstr ""
-
-#: SettingsDialog.cpp:63
-#, kde-format
-msgid "&Choose verse..."
-msgstr ""
-
-#: SettingsDialog.cpp:73
-#, kde-format
-msgid "Save last set window size"
-msgstr ""
-
-#: SettingsDialog.cpp:104
+#: SettingsDialog.cpp:91
 #, kde-format
 msgid "Set action when the wrong key is typed"
 msgstr ""
 
-#: SettingsDialog.cpp:130
+#: SettingsDialog.cpp:97
+#, kde-format
+msgid "Configure how large content is handled"
+msgstr ""
+
+#: SettingsDialog.cpp:124
 #, kde-format
 msgid "Set what verse to load on startup"
 msgstr ""
 
-#: SettingsDialog.cpp:139
+#: SettingsDialog.cpp:133
 #, kde-format
 msgid "Set what Bible version to load on startup"
 msgstr ""
 
-#: SettingsDialog.cpp:181
+#: SettingsDialog.cpp:175
 #, kde-format
 msgid "&Memorization"
 msgstr ""
 
-#: SettingsDialog.cpp:184
+#: SettingsDialog.cpp:178
 #, kde-format
 msgid "&Display"
 msgstr ""
 
-#: SettingsDialog.cpp:185
+#: SettingsDialog.cpp:179
 #, kde-format
 msgid "&Startup"
 msgstr ""
@@ -298,7 +313,7 @@ msgstr ""
 msgid "Enter some custom content to memorize."
 msgstr ""
 
-#: WelcomePage.cpp:63
+#: WelcomePage.cpp:67
 #, kde-format
 msgid "Choose what to memorize."
 msgstr ""
