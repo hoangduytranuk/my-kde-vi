@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calindori\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-26 02:40+0100\n"
+"POT-Creation-Date: 2020-12-20 02:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26,6 +26,75 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: calendarcontroller.cpp:27
+#, kde-format
+msgid "The url or file given does not contain valid calendar data"
+msgstr ""
+
+#: calendarcontroller.cpp:36
+#, kde-format
+msgid "The url or file given does not contain any event or task"
+msgstr ""
+
+#: calendarcontroller.cpp:40
+#, kde-format
+msgid "1 event"
+msgid_plural "%1 events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendarcontroller.cpp:41
+#, kde-format
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendarcontroller.cpp:43
+#, kde-format
+msgid "will be added"
+msgstr ""
+
+#: calendarcontroller.cpp:51
+#, kde-format
+msgid "and"
+msgstr ""
+
+#: calendarcontroller.cpp:82
+#, kde-format
+msgid "Import completed successfully"
+msgstr ""
+
+#: calendarcontroller.cpp:84
+#, kde-format
+msgid "An error has occurred during import"
+msgstr ""
+
+#: calendarcontroller.cpp:243
+#, kde-format
+msgid "In case of all day events, start date and end date should be equal"
+msgstr ""
+
+#: calendarcontroller.cpp:253
+#, kde-format
+msgid "End date time should be equal to or greater than the start date time"
+msgstr ""
+
+#: calendarcontroller.cpp:265
+#, kde-format
+msgid "Daily events should not span multiple days"
+msgstr ""
+
+#: calendarcontroller.cpp:385
+#, kde-format
+msgid "In case of all day tasks, start date and due date should be equal"
+msgstr ""
+
+#: calendarcontroller.cpp:392
+#, kde-format
+msgid "Due date time should be equal to or greater than the start date time"
 msgstr ""
 
 #: calindoriconfig.cpp:74
@@ -87,7 +156,7 @@ msgid "File:"
 msgstr ""
 
 #: contents/ui/CalendarEditor.qml:105 contents/ui/EventEditor.qml:237
-#: contents/ui/RecurrencePickerSheet.qml:98
+#: contents/ui/Main.qml:84 contents/ui/RecurrencePickerSheet.qml:98
 #: contents/ui/ReminderEditor.qml:95 contents/ui/TimePickerSheet.qml:48
 #: contents/ui/TodoEditor.qml:267
 #, kde-format
@@ -385,6 +454,11 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
+#: contents/ui/Main.qml:75
+#, kde-format
+msgid "Proceed"
+msgstr ""
+
 #: contents/ui/RecurrencePickerSheet.qml:31
 #, kde-format
 msgid "Repeat"
@@ -545,21 +619,6 @@ msgstr ""
 msgid "Next week"
 msgstr ""
 
-#: eventcontroller.cpp:168
-#, kde-format
-msgid "In case of all day events, start date and end date should be equal"
-msgstr ""
-
-#: eventcontroller.cpp:178
-#, kde-format
-msgid "End date time should be equal to or greater than the start date time"
-msgstr ""
-
-#: eventcontroller.cpp:190
-#, kde-format
-msgid "Daily events should not span multiple days"
-msgstr ""
-
 #: incidencealarmsmodel.cpp:157
 #, kde-format
 msgid "days before start"
@@ -650,42 +709,42 @@ msgstr ""
 msgid "The calendar file cannot be saved"
 msgstr ""
 
-#: main.cpp:32
+#: main.cpp:51
 #, kde-format
 msgid "Calindori"
 msgstr ""
 
-#: main.cpp:32
+#: main.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "Calendar application"
 msgstr ""
 
-#: main.cpp:32
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "(c) 2018-2020 The Calindori Team"
 msgstr ""
 
-#: main.cpp:37
+#: main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dimitris Kardarakos"
 msgstr ""
 
-#: main.cpp:37
+#: main.cpp:56
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and Developer"
 msgstr ""
 
-#: main.cpp:39
+#: main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Nicolas Fella"
 msgstr ""
 
-#: main.cpp:39
+#: main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
@@ -755,13 +814,3 @@ msgid "; once"
 msgid_plural "; %1 times"
 msgstr[0] ""
 msgstr[1] ""
-
-#: todocontroller.cpp:128
-#, kde-format
-msgid "In case of all day tasks, start date and due date should be equal"
-msgstr ""
-
-#: todocontroller.cpp:135
-#, kde-format
-msgid "Due date time should be equal to or greater than the start date time"
-msgstr ""
