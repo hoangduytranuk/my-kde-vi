@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: liquidshell\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-02 02:32+0100\n"
+"POT-Creation-Date: 2020-12-21 02:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -355,12 +355,12 @@ msgstr ""
 msgid "Device List"
 msgstr ""
 
-#: DiskUsageApplet.cxx:113
+#: DiskUsageApplet.cxx:140
 #, kde-format
 msgid "%1 free / %2"
 msgstr ""
 
-#: DiskUsageApplet.cxx:146
+#: DiskUsageApplet.cxx:173
 #, kde-format
 msgid "Configure DiskUsage Applet"
 msgstr ""
@@ -416,37 +416,37 @@ msgstr ""
 msgid "Open Folder"
 msgstr ""
 
-#: Network.cxx:80
+#: Network.cxx:84
 #, kde-format
 msgid "No Network Connection"
 msgstr ""
 
-#: Network.cxx:90
+#: Network.cxx:94
 #, kde-format
 msgid "Full Network Connectivity (%1)"
 msgstr ""
 
-#: Network.cxx:92
+#: Network.cxx:96
 #, kde-format
 msgid "Limited Network Connectivity (%1)"
 msgstr ""
 
-#: Network.cxx:101
+#: Network.cxx:105
 #, kde-format
 msgid "IPv4 Address: %1"
 msgstr ""
 
-#: Network.cxx:118
+#: Network.cxx:122
 #, kde-format
 msgid "SSID: %1"
 msgstr ""
 
-#: Network.cxx:120
+#: Network.cxx:124
 #, kde-format
 msgid "Signal Strength: %1"
 msgstr ""
 
-#: Network.cxx:152
+#: Network.cxx:156
 #, kde-format
 msgid "VPN active"
 msgstr ""
@@ -530,7 +530,7 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: PkUpdateList.cxx:217 PkUpdateList.cxx:397
+#: PkUpdateList.cxx:217 PkUpdateList.cxx:416
 #, kde-format
 msgid "Install"
 msgstr ""
@@ -540,132 +540,137 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: PkUpdateList.cxx:392
+#: PkUpdateList.cxx:411
 #, kde-format
 msgid "Install %1 package"
 msgid_plural "Install %1 packages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: PkUpdateList.cxx:495
+#: PkUpdateList.cxx:514
 #, kde-format
 msgid "System Reboot Required"
 msgstr ""
 
-#: PkUpdateList.cxx:496
+#: PkUpdateList.cxx:515
 #, kde-format
 msgid "One of the installed packages requires a system reboot"
 msgstr ""
 
-#: PkUpdateList.cxx:497
+#: PkUpdateList.cxx:516
 #, kde-format
 msgid "Reboot System"
 msgstr ""
 
-#: PkUpdateList.cxx:517
+#: PkUpdateList.cxx:536
 #, kde-format
 msgid "Session Restart Required"
 msgstr ""
 
-#: PkUpdateList.cxx:518
+#: PkUpdateList.cxx:537
 #, kde-format
 msgid "One of the installed packages requires you to logout"
 msgstr ""
 
-#: PkUpdateList.cxx:519
+#: PkUpdateList.cxx:538
 #, kde-format
 msgid "Logout"
 msgstr ""
 
-#: PkUpdateList.cxx:544
+#: PkUpdateList.cxx:563
 #, kde-format
 msgid "Cancel Installation"
 msgstr ""
 
-#: PkUpdateList.cxx:570
+#: PkUpdateList.cxx:595
 #, kde-format
 msgid "Waiting"
 msgstr ""
 
-#: PkUpdateList.cxx:571
+#: PkUpdateList.cxx:596
 #, kde-format
 msgid "Waiting for authentication"
 msgstr ""
 
-#: PkUpdateList.cxx:572
+#: PkUpdateList.cxx:597
 #, kde-format
 msgid "Resolving dependencies"
 msgstr ""
 
-#: PkUpdateList.cxx:573
+#: PkUpdateList.cxx:598
 #, kde-format
 msgid "Updating"
 msgstr ""
 
-#: PkUpdateList.cxx:574
+#: PkUpdateList.cxx:599
 #, kde-format
 msgid "Installing"
 msgstr ""
 
-#: PkUpdateList.cxx:575
+#: PkUpdateList.cxx:600
 #, kde-format
 msgid "Downloading"
 msgstr ""
 
-#: PkUpdateList.cxx:576
+#: PkUpdateList.cxx:601
 #, kde-format
 msgid "Canceling"
 msgstr ""
 
-#: PkUpdateList.cxx:656
+#: PkUpdateList.cxx:681
 #, kde-format
 msgid "Update failed"
 msgstr ""
 
-#: PkUpdates.cxx:88
+#: PkUpdates.cxx:64
+#, kde-format
+msgid "Next check: %1 "
+msgstr ""
+
+#: PkUpdates.cxx:92
 #, kde-format
 msgid "Checking for updates ..."
 msgstr ""
 
-#: PkUpdates.cxx:131
+#: PkUpdates.cxx:135
 #, kde-format
 msgid "Checking for updates ... %1%"
 msgstr ""
 
-#: PkUpdates.cxx:153
+#: PkUpdates.cxx:157
 #, kde-format
 msgid ""
 "Last check: %1\n"
 "Error on checking for updates: %2"
 msgstr ""
 
-#: PkUpdates.cxx:156
+#: PkUpdates.cxx:160
 #, kde-format
 msgid "Software Update Error"
 msgstr ""
 
-#: PkUpdates.cxx:177
+#: PkUpdates.cxx:181
 #, kde-format
 msgid "%1 <b>security</b> update available"
 msgid_plural "%1 <b>security</b> updates available"
 msgstr[0] ""
 msgstr[1] ""
 
-#: PkUpdates.cxx:189
+#: PkUpdates.cxx:193
 #, kde-format
 msgid "%1 <i>important</i> update available"
 msgid_plural "%1 <i>important</i> updates available"
 msgstr[0] ""
 msgstr[1] ""
 
-#: PkUpdates.cxx:201
+#: PkUpdates.cxx:205
 #, kde-format
 msgid "%1 bugfix update available"
 msgid_plural "%1 bugfix updates available"
 msgstr[0] ""
 msgstr[1] ""
 
-#: PkUpdates.cxx:211
+#: PkUpdates.cxx:215
 #, kde-format
 msgid ""
 "Last check: %1\n"
@@ -678,31 +683,31 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: PkUpdates.cxx:217
+#: PkUpdates.cxx:226
 #, kde-format
 msgid ""
 "Last check: %1\n"
-"No important updates available"
+"No updates available"
 msgstr ""
 
-#: PkUpdates.cxx:226
+#: PkUpdates.cxx:235
 #, kde-format
 msgid "<br>%1 other"
 msgid_plural "<br>%1 others"
 msgstr[0] ""
 msgstr[1] ""
 
-#: PkUpdates.cxx:228
+#: PkUpdates.cxx:237
 #, kde-format
 msgid "<html>Last check: %1<br>%2</html>"
 msgstr ""
 
-#: PkUpdates.cxx:244
+#: PkUpdates.cxx:273
 #, kde-format
 msgid "Software Updates Available"
 msgstr ""
 
-#: PkUpdates.cxx:264
+#: PkUpdates.cxx:293
 #, kde-format
 msgid "<li>%1 more ...</li>"
 msgstr ""
