@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebugsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-25 02:40+0100\n"
+"POT-Creation-Date: 2020-12-26 02:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -133,17 +133,37 @@ msgctxt "@title:window"
 msgid "Manage Group"
 msgstr ""
 
-#: src/groupmanagementwidget.cpp:57
+#: src/groupmanagementwidget.cpp:59
+#, kde-format
+msgid "Rename Groups"
+msgstr ""
+
+#: src/groupmanagementwidget.cpp:62 src/groupmanagementwidget.cpp:67
+#, kde-format
+msgid "Rename Group"
+msgstr ""
+
+#: src/groupmanagementwidget.cpp:62
+#, kde-format
+msgid "New Name:"
+msgstr ""
+
+#: src/groupmanagementwidget.cpp:67
+#, kde-format
+msgid "Impossible to rename group as '%1'"
+msgstr ""
+
+#: src/groupmanagementwidget.cpp:76
 #, kde-format
 msgid "Remove Groups"
 msgstr ""
 
-#: src/groupmanagementwidget.cpp:62
+#: src/groupmanagementwidget.cpp:81
 #, kde-format
 msgid "Impossible to remove '%1'"
 msgstr ""
 
-#: src/groupmanagementwidget.cpp:62
+#: src/groupmanagementwidget.cpp:81
 #, kde-format
 msgid "Remove Group"
 msgstr ""
@@ -228,17 +248,22 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/kdebugsettingsdialog.cpp:229
+#: src/kdebugsettingsdialog.cpp:223
+#, kde-format
+msgid "%1 is already used as a group name."
+msgstr ""
+
+#: src/kdebugsettingsdialog.cpp:233
 #, kde-format
 msgid "Save As"
 msgstr ""
 
-#: src/kdebugsettingsdialog.cpp:229 src/kdebugsettingsdialog.cpp:237
+#: src/kdebugsettingsdialog.cpp:233 src/kdebugsettingsdialog.cpp:241
 #, kde-format
 msgid "KDebugSettings File (*.kdebugsettingsrules)"
 msgstr ""
 
-#: src/kdebugsettingsdialog.cpp:237
+#: src/kdebugsettingsdialog.cpp:241
 #, kde-format
 msgid "Load Debug Settings Files"
 msgstr ""
