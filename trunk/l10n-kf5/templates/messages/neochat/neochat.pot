@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-28 02:20+0100\n"
+"POT-Creation-Date: 2020-12-29 02:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,21 +28,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:93
-#: imports/NeoChat/Component/ChatTextInput.qml:98
+#: imports/NeoChat/Component/ChatTextInput.qml:95
+#: imports/NeoChat/Component/ChatTextInput.qml:100
 #: imports/NeoChat/Panel/RoomDrawer.qml:107
 #: imports/NeoChat/Panel/RoomDrawer.qml:121
 #, kde-format
 msgid "No name"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:220
+#: imports/NeoChat/Component/ChatTextInput.qml:222
+#: imports/NeoChat/Component/Timeline/MessageDelegate.qml:138
 #: imports/NeoChat/Page/ImageEditorPage.qml:24
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:230
+#: imports/NeoChat/Component/ChatTextInput.qml:232
 #: imports/NeoChat/Page/ImageEditorPage.qml:112
 #: imports/NeoChat/Page/InvitationPage.qml:23
 #: imports/NeoChat/Page/LoginPage.qml:62
@@ -50,22 +51,27 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:308
+#: imports/NeoChat/Component/ChatTextInput.qml:276
+#, kde-format
+msgid "Edit Message"
+msgstr ""
+
+#: imports/NeoChat/Component/ChatTextInput.qml:323
 #, kde-format
 msgid "Write your message..."
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:475
+#: imports/NeoChat/Component/ChatTextInput.qml:494
 #, kde-format
 msgid "Add an Emoji"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:503
+#: imports/NeoChat/Component/ChatTextInput.qml:522
 #, kde-format
 msgid "Attach an image or file"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:525
+#: imports/NeoChat/Component/ChatTextInput.qml:544
 #, kde-format
 msgid "Send message"
 msgstr ""
@@ -121,7 +127,7 @@ msgstr ""
 msgid "React"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/MessageDelegate.qml:138
+#: imports/NeoChat/Component/Timeline/MessageDelegate.qml:145
 #: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:42
 #: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:100
 #, kde-format
@@ -143,7 +149,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: imports/NeoChat/Dialog/CreateRoomDialog.qml:21
-#: qml/main.qml:149
+#: qml/main.qml:151
 #, kde-format
 msgid "Create a Room"
 msgstr ""
@@ -316,7 +322,7 @@ msgid "Message Source"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:16
-#: qml/main.qml:159 qml/main.qml:162
+#: qml/main.qml:161 qml/main.qml:164
 #, kde-format
 msgid "Accounts"
 msgstr ""
@@ -327,6 +333,7 @@ msgid "Edit this account"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:49
+#: qml/main.qml:186
 #, kde-format
 msgid "Logout"
 msgstr ""
@@ -383,7 +390,7 @@ msgid "Passwords do not match"
 msgstr ""
 
 #: imports/NeoChat/Page/DevicesPage.qml:16
-#: qml/main.qml:165 qml/main.qml:168
+#: qml/main.qml:167 qml/main.qml:170
 #, kde-format
 msgid "Devices"
 msgstr ""
@@ -522,7 +529,7 @@ msgid "Send invitation"
 msgstr ""
 
 #: imports/NeoChat/Page/JoinRoomPage.qml:27
-#: qml/main.qml:139
+#: qml/main.qml:142
 #, kde-format
 msgid "Explore Rooms"
 msgstr ""
@@ -618,7 +625,7 @@ msgid "Join some rooms to get started"
 msgstr ""
 
 #: imports/NeoChat/Page/RoomListPage.qml:62
-#: qml/main.qml:136
+#: qml/main.qml:139
 #, kde-format
 msgid "Explore rooms"
 msgstr ""
@@ -643,17 +650,17 @@ msgstr ""
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:476
+#: imports/NeoChat/Page/RoomPage.qml:478
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:476
+#: imports/NeoChat/Page/RoomPage.qml:478
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:492
+#: imports/NeoChat/Page/RoomPage.qml:494
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -661,13 +668,13 @@ msgid_plural "%2 are typing"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Page/RoomPage.qml:523
+#: imports/NeoChat/Page/RoomPage.qml:525
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:16
-#: qml/main.qml:171 qml/main.qml:174
+#: qml/main.qml:173 qml/main.qml:176
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -713,7 +720,7 @@ msgid "Show User Avatar"
 msgstr ""
 
 #: imports/NeoChat/Page/StartChatPage.qml:22
-#: qml/main.qml:142 qml/main.qml:146 qml/main.qml:156
+#: qml/main.qml:145 qml/main.qml:148 qml/main.qml:158
 #, kde-format
 msgid "Start a Chat"
 msgstr ""
@@ -795,17 +802,17 @@ msgstr ""
 msgid "Muted"
 msgstr ""
 
-#: qml/main.qml:178
+#: qml/main.qml:180
 #, kde-format
 msgid "About Neochat"
 msgstr ""
 
-#: qml/main.qml:181
+#: qml/main.qml:183
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: qml/main.qml:184
+#: qml/main.qml:191
 #, kde-format
 msgid "Quit"
 msgstr ""
