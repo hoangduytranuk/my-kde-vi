@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-28 02:14+0100\n"
+"POT-Creation-Date: 2021-01-02 02:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1787,208 +1787,205 @@ msgstr ""
 msgid "White"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightImages)
-#: part/dlgaccessibilitybase.ui:28
+#: part/dlgaccessibility.cpp:41
 #, kde-format
-msgid "Draw border around &Images"
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Draw border arround links"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightLinks)
-#: part/dlgaccessibilitybase.ui:35
+#: part/dlgaccessibility.cpp:51
 #, kde-format
-msgid "Draw border around &Links"
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Change colors"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChangeColors)
-#: part/dlgaccessibilitybase.ui:45
+#: part/dlgaccessibility.cpp:57
 #, kde-format
-msgid "Change &colors"
+msgctxt "@info Config dialog, accessibility page"
+msgid "<b>Warning:</b> these options can badly affect drawing speed."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, warn)
-#: part/dlgaccessibilitybase.ui:63
+#: part/dlgaccessibility.cpp:63
 #, kde-format
-msgid "Warning: these options can badly affect drawing speed."
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert colors"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: part/dlgaccessibilitybase.ui:78
+#: part/dlgaccessibility.cpp:64
 #, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change paper color"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:65
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change dark & light colors"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:66
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Convert to black & white"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert lightness"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:68
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (sRGB linear)"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:69
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (symmetric)"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:70
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue positive"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:71
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue negative"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:73
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
 msgid "Color mode:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:92
+#: part/dlgaccessibility.cpp:90
 #, kde-format
-msgid "Invert Colors"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:97
-#, kde-format
-msgid "Change Paper Color"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:102
-#, kde-format
-msgid "Change Dark & Light Colors"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:107
-#, kde-format
-msgid "Convert to Black & White"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:112
-#, kde-format
-msgid "Invert Lightness"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:117
-#, kde-format
-msgid "Invert Luma (sRGB Linear)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:122
-#, kde-format
-msgid "Invert Luma (Symmetric)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:127
-#, kde-format
-msgid "Shift Hue Positive"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
-#: part/dlgaccessibilitybase.ui:132
-#, kde-format
-msgid "Shift Hue Negative"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: part/dlgaccessibilitybase.ui:193
-#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
 msgid "Paper color:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: part/dlgaccessibilitybase.ui:246
+#: part/dlgaccessibility.cpp:102
 #, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
 msgid "Dark color:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: part/dlgaccessibilitybase.ui:281
+#: part/dlgaccessibility.cpp:107
 #, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
 msgid "Light color:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: part/dlgaccessibilitybase.ui:325
+#: part/dlgaccessibility.cpp:122
 #, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
 msgid "Threshold:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: part/dlgaccessibilitybase.ui:360
+#: part/dlgaccessibility.cpp:130
 #, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
 msgid "Contrast:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, speechBox)
-#: part/dlgaccessibilitybase.ui:412
+#: part/dlgaccessibility.cpp:161
 #, kde-format
-msgid "Speech"
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech engine:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: part/dlgaccessibilitybase.ui:418
+#: part/dlgannotations.cpp:28
 #, kde-format
-msgid "Engine"
+msgctxt "@label:textbox Config dialog, annotations page"
+msgid "Author:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: part/dlgannotationsbase.ui:31
+#: part/dlgannotations.cpp:32
 #, kde-format
-msgid "Identity"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: part/dlgannotationsbase.ui:55
-#, kde-format
-msgid "Au&thor:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: part/dlgannotationsbase.ui:71
-#, kde-format
+msgctxt "@info Config dialog, annotations page"
 msgid ""
-"<b>Note</b>: the information here is used only for annotations. The "
+"<b>Note:</b> the information here is used only for annotations. The "
 "information is saved in annotated documents, and so will be transmitted "
 "together with the document."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, annotToolsGroup)
-#: part/dlgannotationsbase.ui:87
+#: part/dlgannotations.cpp:42
 #, kde-format
-msgid "Quick annotation tools"
-msgstr ""
-
-#: part/dlgeditor.cpp:28
-#, kde-format
-msgctxt "Text editor"
-msgid "Custom Text Editor"
-msgstr ""
-
-#: part/dlgeditor.cpp:29
-#, kde-format
-msgctxt "Text editor"
-msgid "Kate"
-msgstr ""
-
-#: part/dlgeditor.cpp:30
-#, kde-format
-msgctxt "Text editor"
-msgid "Kile"
+msgctxt ""
+"@label Config dialog, annotations page, heading line for Quick Annotations "
+"tool manager"
+msgid "<h3>Quick Annotation Tools</h3>"
 msgstr ""
 
 #: part/dlgeditor.cpp:31
 #, kde-format
-msgctxt "Text editor"
-msgid "SciTE"
+msgctxt "@info:whatsthis Config dialog, editor page"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
 msgstr ""
 
 #: part/dlgeditor.cpp:32
 #, kde-format
-msgctxt "Text editor"
-msgid "Emacs client"
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Custom Text Editor"
 msgstr ""
 
 #: part/dlgeditor.cpp:33
 #, kde-format
-msgctxt "Text editor"
-msgid "Lyx client"
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kate"
 msgstr ""
 
 #: part/dlgeditor.cpp:34
 #, kde-format
-msgctxt "Text editor"
-msgid "TeXstudio"
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kile"
 msgstr ""
 
 #: part/dlgeditor.cpp:35
 #, kde-format
-msgctxt "Text editor"
-msgid "TeXiFy IDEA"
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "SciTE"
+msgstr ""
+
+#: part/dlgeditor.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Emacs client"
+msgstr ""
+
+#: part/dlgeditor.cpp:37
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Lyx client"
 msgstr ""
 
 #: part/dlgeditor.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXstudio"
+msgstr ""
+
+#: part/dlgeditor.cpp:39
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXiFy IDEA"
+msgstr ""
+
+#: part/dlgeditor.cpp:40
+#, kde-format
+msgctxt "@label:listbox Config dialog, editor page"
+msgid "Editor:"
+msgstr ""
+
+#: part/dlgeditor.cpp:55
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2003,312 +2000,285 @@ msgid ""
 "command."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: part/dlgeditorbase.ui:19 part/preferencesdialog.cpp:52
+#: part/dlgeditor.cpp:66
 #, kde-format
-msgid "Editor"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: part/dlgeditorbase.ui:25
-#, kde-format
-msgid "Editor:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ExternalEditor)
-#: part/dlgeditorbase.ui:38
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose the editor you want to launch when Okular wants to open a source file."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: part/dlgeditorbase.ui:76
-#, kde-format
+msgctxt "@label:textbox Config dialog, editor page"
 msgid "Command:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: part/dlggeneralbase.ui:32 part/dlgpresentationbase.ui:132
-#: part/editannottooldialog.cpp:85
+#: part/dlggeneral.cpp:34
 #, kde-format
-msgid "Appearance"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmoothScrolling)
-#: part/dlggeneralbase.ui:70
-#, kde-format
+msgctxt "@option:check Config dialog, general page"
 msgid "Use smooth scrolling"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowScrollBars)
-#: part/dlggeneralbase.ui:77
+#: part/dlggeneral.cpp:36
 #, kde-format
-msgid "Show scroll&bars"
+msgctxt "@title:group Config dialog, general page"
+msgid "Appearance:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncThumbnailsViewport)
-#: part/dlggeneralbase.ui:87
+#: part/dlggeneral.cpp:40
 #, kde-format
-msgid "Link the &thumbnails with the page"
+msgctxt "@option:check Config dialog, general page"
+msgid "Show scrollbars"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOSD)
-#: part/dlggeneralbase.ui:94
+#: part/dlggeneral.cpp:47
 #, kde-format
-msgid "Show &hints and info messages"
+msgctxt "@option:check Config dialog, general page"
+msgid "Link the thumbnails with the page"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisplayDocumentTitle)
-#: part/dlggeneralbase.ui:101
+#: part/dlggeneral.cpp:54
 #, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show hints and info messages"
+msgstr ""
+
+#: part/dlggeneral.cpp:61
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
 msgid "Display document title in titlebar if available"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: part/dlggeneralbase.ui:108
+#: part/dlggeneral.cpp:67
 #, kde-format
-msgid "When not displaying document title:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioFileName)
-#: part/dlggeneralbase.ui:133
-#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
 msgid "Display file name only"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioFilePath)
-#: part/dlggeneralbase.ui:143
+#: part/dlggeneral.cpp:68
 #, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
 msgid "Display full file path"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCustomBackgroundColor)
-#: part/dlggeneralbase.ui:171
+#: part/dlggeneral.cpp:70
 #, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "When not displaying document title:"
+msgstr ""
+
+#: part/dlggeneral.cpp:75
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
 msgid "Use custom background color"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: part/dlggeneralbase.ui:240
+#: part/dlggeneral.cpp:81
 #, kde-format
-msgid "Program Features"
+msgctxt "@label:listbox Config dialog, general page"
+msgid "Custom background color:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShellOpenFileInTabs)
-#: part/dlggeneralbase.ui:248
+#: part/dlggeneral.cpp:103
 #, kde-format
-msgid "Open new files in &tabs"
+msgctxt "@title:group Config dialog, general page"
+msgid "Program features:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SwitchToTabIfOpen)
-#: part/dlggeneralbase.ui:273
+#: part/dlggeneral.cpp:110
 #, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open new files in tabs"
+msgstr ""
+
+#: part/dlggeneral.cpp:115
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
 msgid "Switch to existing tab if file is already open"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObeyDRM)
-#: part/dlggeneralbase.ui:282
+#: part/dlggeneral.cpp:128
 #, kde-format
-msgid "&Obey DRM limitations"
+msgctxt "@option:check Config dialog, general page"
+msgid "Obey DRM limitations"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WatchFile)
-#: part/dlggeneralbase.ui:289
+#: part/dlggeneral.cpp:137
 #, kde-format
-msgid "&Reload document on file change"
+msgctxt "@option:check Config dialog, general page"
+msgid "Reload document on file change"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChooseGenerators)
-#: part/dlggeneralbase.ui:296
+#: part/dlggeneral.cpp:144
 #, kde-format
+msgctxt "@option:check Config dialog, general page"
 msgid "Show backend selection dialog"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rtlReadingDirection)
-#: part/dlggeneralbase.ui:322
+#: part/dlggeneral.cpp:151
 #, kde-format
+msgctxt "@option:check Config dialog, general page"
 msgid "Right to left reading direction"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: part/dlggeneralbase.ui:347
+#: part/dlggeneral.cpp:168
 #, kde-format
-msgid "View Options"
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Overview columns:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, columnLabel)
-#: part/dlggeneralbase.ui:353
+#: part/dlggeneral.cpp:175
 #, kde-format
-msgid "Overview &columns:"
+msgctxt "Page Up/Down overlap, spinbox suffix"
+msgid "%"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, scrollOverlapLabel)
-#: part/dlggeneralbase.ui:376
+#: part/dlggeneral.cpp:176
 #, kde-format
+msgctxt "@info:tooltip Config dialog, general page"
 msgid ""
 "Defines how much of the current viewing area will still be visible when "
 "pressing the Page Up/Down keys."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, scrollOverlapLabel)
-#: part/dlggeneralbase.ui:379
+#: part/dlggeneral.cpp:178
 #, kde-format
-msgid "&Page Up/Down overlap:"
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Page Up/Down overlap:"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ScrollOverlap)
-#: part/dlggeneralbase.ui:392
-#, no-c-format, kde-format
-msgid "%"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
-#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_ZoomMode)
-#: part/dlggeneralbase.ui:406 part/dlggeneralbase.ui:427
+#: part/dlggeneral.cpp:182
 #, kde-format
-msgid ""
-"Defines the default zoom mode for files which were never opened before.\n"
-"For files which were opened before the previous zoom is applied."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ZoomMode)
-#: part/dlggeneralbase.ui:410 part/dlggeneralbase.ui:431
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Defines the default zoom mode for files which were never opened before.\n"
-"For files which were opened before the previous zoom is applied."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: part/dlggeneralbase.ui:413
-#, kde-format
-msgid "&Default Zoom:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: part/dlggeneralbase.ui:435
-#, no-c-format, kde-format
+msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "100%"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: part/dlggeneralbase.ui:440 part/pageview.cpp:3850 part/part.cpp:2930
+#: part/dlggeneral.cpp:183
 #, kde-format
+msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Fit Width"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: part/dlggeneralbase.ui:445 part/pageview.cpp:3850
+#: part/dlggeneral.cpp:184
 #, kde-format
+msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Fit Page"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
-#: part/dlggeneralbase.ui:450 part/pageview.cpp:3850
+#: part/dlggeneral.cpp:185
 #, kde-format
+msgctxt "item:inlistbox Config dialog, general page, default zoom"
 msgid "Auto Fit"
 msgstr ""
 
-#: part/dlgperformance.cpp:50
+#: part/dlggeneral.cpp:186
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page, default zoom"
+msgid ""
+"Defines the default zoom mode for files which were never opened before. For "
+"files which were opened before the previous zoom is applied."
+msgstr ""
+
+#: part/dlggeneral.cpp:188
+#, kde-format
+msgctxt "label:listbox Config dialog, general page, default zoom"
+msgid "Default zoom:"
+msgstr ""
+
+#: part/dlgperformance.cpp:29
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable transparency effects"
+msgstr ""
+
+#: part/dlgperformance.cpp:31
+#, kde-format
+msgctxt "@label Config dialog, performance page"
+msgid "CPU usage:"
+msgstr ""
+
+#: part/dlgperformance.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Low"
+msgstr ""
+
+#: part/dlgperformance.cpp:39
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Normal (default)"
+msgstr ""
+
+#: part/dlgperformance.cpp:40
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Aggressive"
+msgstr ""
+
+#: part/dlgperformance.cpp:41
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Greedy"
+msgstr ""
+
+#: part/dlgperformance.cpp:43
+#, kde-format
+msgctxt "@label:listbox Config dialog, performance page, memory usage"
+msgid "Memory usage:"
+msgstr ""
+
+#: part/dlgperformance.cpp:57
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text antialias"
+msgstr ""
+
+#: part/dlgperformance.cpp:59
+#, kde-format
+msgctxt "@title:group Config dialog, performance page"
+msgid "Rendering options:"
+msgstr ""
+
+#: part/dlgperformance.cpp:62
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable graphics antialias"
+msgstr ""
+
+#: part/dlgperformance.cpp:67
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text hinting"
+msgstr ""
+
+#: part/dlgperformance.cpp:80
 #, kde-format
 msgid ""
 "Keeps used memory as low as possible. Do not reuse anything. (For systems "
 "with low memory.)"
 msgstr ""
 
-#: part/dlgperformance.cpp:53
+#: part/dlgperformance.cpp:83
 #, kde-format
 msgid ""
 "A good compromise between memory usage and speed gain. Preload next page and "
 "boost searches. (For systems with 2GB of memory, typically.)"
 msgstr ""
 
-#: part/dlgperformance.cpp:56
+#: part/dlgperformance.cpp:86
 #, kde-format
 msgid ""
 "Keeps everything in memory. Preload next pages. Boost searches. (For systems "
 "with more than 4GB of memory.)"
 msgstr ""
 
-#: part/dlgperformance.cpp:60
+#: part/dlgperformance.cpp:90
 #, no-c-format, kde-format
 msgid ""
 "Loads and keeps everything in memory. Preload all pages. (Will use at "
 "maximum 50% of your total memory or your free memory, whatever is bigger.)"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: part/dlgperformancebase.ui:32
+#: part/dlgpresentation.cpp:35
 #, kde-format
-msgid "CPU Usage"
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Advance automatically"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableCompositing)
-#: part/dlgperformancebase.ui:87
-#, kde-format
-msgid "Enable &transparency effects"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupbox)
-#: part/dlgperformancebase.ui:146
-#, kde-format
-msgid "Memory Usage"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, lowRadio)
-#: part/dlgperformancebase.ui:193
-#, kde-format
-msgid "&Low"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, normalRadio)
-#: part/dlgperformancebase.ui:203
-#, kde-format
-msgid "Nor&mal (default)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, aggressiveRadio)
-#: part/dlgperformancebase.ui:213
-#, kde-format
-msgid "Aggr&essive"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, greedyRadio)
-#: part/dlgperformancebase.ui:223
-#, kde-format
-msgid "G&reedy"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: part/dlgperformancebase.ui:302
-#, kde-format
-msgid "Rendering"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextAntialias)
-#: part/dlgperformancebase.ui:308
-#, kde-format
-msgid "Enable Text Antialias"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GraphicsAntialias)
-#: part/dlgperformancebase.ui:315
-#, kde-format
-msgid "Enable Graphics Antialias"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextHinting)
-#: part/dlgperformancebase.ui:322
-#, kde-format
-msgid "Enable Text Hinting"
-msgstr ""
-
-#: part/dlgpresentation.cpp:30
+#: part/dlgpresentation.cpp:40
 #, kde-format
 msgctxt "Advance every %1 seconds"
 msgid " second"
@@ -2316,19 +2286,237 @@ msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: part/dlgpresentation.cpp:44
+#: part/dlgpresentation.cpp:42
+#, kde-format
+msgctxt "@label:spinbox Config dialog, presentation page"
+msgid "Advance every:"
+msgstr ""
+
+#: part/dlgpresentation.cpp:50
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Loop after last page"
+msgstr ""
+
+#: part/dlgpresentation.cpp:56
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap left/right side to go back/forward"
+msgstr ""
+
+#: part/dlgpresentation.cpp:57
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap anywhere to go forward"
+msgstr ""
+
+#: part/dlgpresentation.cpp:58
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Disabled"
+msgstr ""
+
+#: part/dlgpresentation.cpp:60
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, tap navigation"
+msgid "Touch navigation:"
+msgstr ""
+
+#: part/dlgpresentation.cpp:69
+#, kde-format
+msgctxt "@label:chooser Config dialog, presentation page"
+msgid "Background color:"
+msgstr ""
+
+#: part/dlgpresentation.cpp:73
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Hidden after delay"
+msgstr ""
+
+#: part/dlgpresentation.cpp:74
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always visible"
+msgstr ""
+
+#: part/dlgpresentation.cpp:75
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always hidden"
+msgstr ""
+
+#: part/dlgpresentation.cpp:77
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, cursor visibility"
+msgid "Mouse cursor:"
+msgstr ""
+
+#: part/dlgpresentation.cpp:81
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show progress indicator"
+msgstr ""
+
+#: part/dlgpresentation.cpp:87
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show summary page"
+msgstr ""
+
+#: part/dlgpresentation.cpp:97
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page, transitions"
+msgid "Enable transitions"
+msgstr ""
+
+#: part/dlgpresentation.cpp:103
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds vertical"
+msgstr ""
+
+#: part/dlgpresentation.cpp:104
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds horizontal"
+msgstr ""
+
+#: part/dlgpresentation.cpp:105
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box in"
+msgstr ""
+
+#: part/dlgpresentation.cpp:106
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box out"
+msgstr ""
+
+#: part/dlgpresentation.cpp:107
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Dissolve"
+msgstr ""
+
+#: part/dlgpresentation.cpp:108
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Fade"
+msgstr ""
+
+#: part/dlgpresentation.cpp:109
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter down"
+msgstr ""
+
+#: part/dlgpresentation.cpp:110
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right"
+msgstr ""
+
+#: part/dlgpresentation.cpp:111
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right-down"
+msgstr ""
+
+#: part/dlgpresentation.cpp:112
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Random transition"
+msgstr ""
+
+#: part/dlgpresentation.cpp:113
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Replace"
+msgstr ""
+
+#: part/dlgpresentation.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal in"
+msgstr ""
+
+#: part/dlgpresentation.cpp:115
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal out"
+msgstr ""
+
+#: part/dlgpresentation.cpp:116
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical in"
+msgstr ""
+
+#: part/dlgpresentation.cpp:117
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical out"
+msgstr ""
+
+#: part/dlgpresentation.cpp:118
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe down"
+msgstr ""
+
+#: part/dlgpresentation.cpp:119
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe right"
+msgstr ""
+
+#: part/dlgpresentation.cpp:120
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe left"
+msgstr ""
+
+#: part/dlgpresentation.cpp:121
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe up"
+msgstr ""
+
+#: part/dlgpresentation.cpp:123
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, transitions"
+msgid "Default transition:"
+msgstr ""
+
+#: part/dlgpresentation.cpp:134
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, preferred screen"
+msgid "Preferred screen:"
+msgstr ""
+
+#: part/dlgpresentation.cpp:141
+#, kde-format
+msgctxt ""
+"@label Config dialog, presentation page, heading line for drawing tool "
+"manager"
+msgid "<h3>Drawing Tools</h3>"
+msgstr ""
+
+#: part/dlgpresentation.cpp:157
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
 msgid "Current Screen"
 msgstr ""
 
-#: part/dlgpresentation.cpp:45
+#: part/dlgpresentation.cpp:158
 #, kde-format
 msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
 msgid "Default Screen"
 msgstr ""
 
-#: part/dlgpresentation.cpp:51
+#: part/dlgpresentation.cpp:164
 #, kde-format
 msgctxt ""
 "@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
@@ -2337,240 +2525,12 @@ msgctxt ""
 msgid "Screen %1 (%2 %3 %4)"
 msgstr ""
 
-#: part/dlgpresentation.cpp:73
+#: part/dlgpresentation.cpp:186
 #, kde-format
 msgctxt ""
 "@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
 "the screen number (0, 1, ...), hopefully not 0."
 msgid "Screen %1 (disconnected)"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: part/dlgpresentationbase.ui:29
-#, kde-format
-msgid "Navigation"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesAdvance)
-#: part/dlgpresentationbase.ui:67
-#, kde-format
-msgid "Advance every:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesLoop)
-#: part/dlgpresentationbase.ui:86
-#, kde-format
-msgid "Loop after last page"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel)
-#: part/dlgpresentationbase.ui:95
-#, kde-format
-msgid "Touch navigation:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
-#: part/dlgpresentationbase.ui:109
-#, kde-format
-msgid "Tap left/right side to go back/forward"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
-#: part/dlgpresentationbase.ui:114
-#, kde-format
-msgid "Tap anywhere to go forward"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
-#: part/dlgpresentationbase.ui:119
-#, kde-format
-msgid "Disabled"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: part/dlgpresentationbase.ui:140
-#, kde-format
-msgid "Background color:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: part/dlgpresentationbase.ui:156
-#, kde-format
-msgid "Mouse cursor:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
-#: part/dlgpresentationbase.ui:170
-#, kde-format
-msgid "Hidden After Delay"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
-#: part/dlgpresentationbase.ui:175
-#, kde-format
-msgid "Always Visible"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
-#: part/dlgpresentationbase.ui:180
-#, kde-format
-msgid "Always Hidden"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowProgress)
-#: part/dlgpresentationbase.ui:190
-#, kde-format
-msgid "Show &progress indicator"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowSummary)
-#: part/dlgpresentationbase.ui:197
-#, kde-format
-msgid "Show s&ummary page"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SlidesTransitionsEnabled)
-#: part/dlgpresentationbase.ui:207
-#, kde-format
-msgid "Enable transitions"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: part/dlgpresentationbase.ui:219
-#, kde-format
-msgid "Default transition:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:233
-#, kde-format
-msgid "Blinds Vertical"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:238
-#, kde-format
-msgid "Blinds Horizontal"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:243
-#, kde-format
-msgid "Box In"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:248
-#, kde-format
-msgid "Box Out"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:253
-#, kde-format
-msgid "Dissolve"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:258
-#, kde-format
-msgid "Fade"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:263
-#, kde-format
-msgid "Glitter Down"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:268
-#, kde-format
-msgid "Glitter Right"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:273
-#, kde-format
-msgid "Glitter Right-Down"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:278
-#, kde-format
-msgid "Random Transition"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:283
-#, kde-format
-msgid "Replace"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:288
-#, kde-format
-msgid "Split Horizontal In"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:293
-#, kde-format
-msgid "Split Horizontal Out"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:298
-#, kde-format
-msgid "Split Vertical In"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:303
-#, kde-format
-msgid "Split Vertical Out"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:308
-#, kde-format
-msgid "Wipe Down"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:313
-#, kde-format
-msgid "Wipe Right"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:318
-#, kde-format
-msgid "Wipe Left"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
-#: part/dlgpresentationbase.ui:323
-#, kde-format
-msgid "Wipe Up"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: part/dlgpresentationbase.ui:334
-#, kde-format
-msgid "Placement"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: part/dlgpresentationbase.ui:340
-#, kde-format
-msgid "Screen:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, annotationToolsGroupBox)
-#: part/dlgpresentationbase.ui:359
-#, kde-format
-msgid "Drawing Tool Configuration"
 msgstr ""
 
 #: part/drawingtoolactions.cpp:194
@@ -2591,6 +2551,11 @@ msgstr ""
 #: part/editannottooldialog.cpp:72
 #, kde-format
 msgid "&Type:"
+msgstr ""
+
+#: part/editannottooldialog.cpp:85
+#, kde-format
+msgid "Appearance"
 msgstr ""
 
 #: part/editannottooldialog.cpp:91 part/guiutils.cpp:69 part/pageviewannotator.cpp:226
@@ -3249,6 +3214,21 @@ msgstr ""
 #: part/pageview.cpp:2950
 #, kde-format
 msgid "Go to '%1'"
+msgstr ""
+
+#: part/pageview.cpp:3850 part/part.cpp:2930
+#, kde-format
+msgid "Fit Width"
+msgstr ""
+
+#: part/pageview.cpp:3850
+#, kde-format
+msgid "Fit Page"
+msgstr ""
+
+#: part/pageview.cpp:3850
+#, kde-format
+msgid "Auto Fit"
 msgstr ""
 
 #: part/pageview.cpp:4155
@@ -4336,6 +4316,11 @@ msgstr ""
 #: part/preferencesdialog.cpp:51
 #, kde-format
 msgid "Annotation Options"
+msgstr ""
+
+#: part/preferencesdialog.cpp:52
+#, kde-format
+msgid "Editor"
 msgstr ""
 
 #: part/preferencesdialog.cpp:52
