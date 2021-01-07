@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-04 02:19+0100\n"
+"POT-Creation-Date: 2021-01-07 02:30+0100\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -2413,11 +2413,11 @@ msgid "&Help"
 msgstr "Trợ g&iúp"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: core/app/main/digikamui5.rc:187 core/showfoto/main/showfotoui5.rc:141
-#: core/utilities/imageeditor/main/imageeditorui5.rc:143
+#: core/app/main/digikamui5.rc:188 core/showfoto/main/showfotoui5.rc:142
+#: core/utilities/imageeditor/main/imageeditorui5.rc:145
 #: core/utilities/import/main/importui5.rc:92
-#: core/utilities/lighttable/lighttablewindowui5.rc:101
-#: core/utilities/queuemanager/main/queuemgrwindowui5.rc:61
+#: core/utilities/lighttable/lighttablewindowui5.rc:103
+#: core/utilities/queuemanager/main/queuemgrwindowui5.rc:63
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
@@ -2529,7 +2529,7 @@ msgstr "Lưu ảnh"
 msgid "All supported files (%1)"
 msgstr "Đã bỏ qua tệp %1"
 
-#: core/app/utils/digikam_version.cpp:56
+#: core/app/utils/digikam_version.cpp:61
 #, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2538,7 +2538,7 @@ msgid ""
 "Build date: %1 (target: %2)"
 msgstr ""
 
-#: core/app/utils/digikam_version.cpp:64
+#: core/app/utils/digikam_version.cpp:69
 #, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -3850,8 +3850,9 @@ msgid "Filter:"
 msgstr "Lọc:"
 
 #: core/dplugins/bqm/colors/autocorrection/autocorrectionplugin.cpp:54
+#: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:52
 #, fuzzy, kde-format
-msgid "Color Auto-correction"
+msgid "Color Auto-Correction"
 msgstr "Sửa chữa màu tự động"
 
 #: core/dplugins/bqm/colors/autocorrection/autocorrectionplugin.cpp:69
@@ -5862,11 +5863,6 @@ msgstr ""
 "của các giá trị RGB của ảnh, để tính độ phơi nắng và cấp màu đen tối ưu, "
 "dùng các thuộc tính của biểu đồ tần xuất của ảnh.</p>"
 
-#: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:52
-#, fuzzy, kde-format
-msgid "Auto Correction"
-msgstr "Sửa chữa tự động..."
-
 #: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:72
 #, fuzzy, kde-format
 msgid ""
@@ -5875,12 +5871,10 @@ msgstr ""
 "Tuỳ chọn này có thể được dùng để thu/phóng ảnh vào vùng chọn hiện thời."
 
 #: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:88
-#: core/dplugins/editor/enhance/lensautofix/lensautofixtoolplugin.cpp:91
 #, fuzzy, kde-format
-#| msgid "Auto-Correction..."
 msgctxt "@action"
-msgid "Auto-Correction..."
-msgstr "Sửa chữa tự động..."
+msgid "Color Auto-Correction..."
+msgstr "Sửa chữa màu tự động"
 
 #: core/dplugins/editor/colors/bcg/bcgtool.cpp:178
 #, fuzzy, kde-format
@@ -6589,6 +6583,12 @@ msgid ""
 "<p>This Image Editor tool can fix automatically lens artifacts over an image."
 "</p>"
 msgstr ""
+
+#: core/dplugins/editor/enhance/lensautofix/lensautofixtoolplugin.cpp:91
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Lens Auto-Correction..."
+msgstr "Sửa mắt đỏ"
 
 #: core/dplugins/editor/enhance/lensdistortion/lensdistortiontool.cpp:118
 #, fuzzy, kde-format
@@ -12800,6 +12800,7 @@ msgstr "Điều chỉnh:"
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
 #: core/libs/dplugins/webservices/wstooldialog.cpp:118
+#: core/libs/onlineversion/onlineversiondlg.cpp:74
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
 #: core/utilities/imageeditor/editor/editorwindow.cpp:530
 #, fuzzy, kde-format
@@ -12816,6 +12817,7 @@ msgstr "Thông tin máy ảnh"
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
 #: core/libs/dplugins/webservices/wstooldialog.cpp:111
+#: core/libs/onlineversion/onlineversiondlg.cpp:111
 #, fuzzy, kde-format
 msgid "Close"
 msgstr "Đón&g"
@@ -23639,7 +23641,7 @@ msgstr ""
 "vị trí khác.<p><b>%1</b></p></qt>"
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:54
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:295
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:300
 #, fuzzy, kde-format
 msgid "Database Statistics"
 msgstr "Thống kê"
@@ -29562,6 +29564,63 @@ msgstr "Đón&g"
 msgid "Close message"
 msgstr "Bộ sửa ảnh"
 
+#: core/libs/onlineversion/onlineversionchecker.cpp:101
+#, kde-format
+msgid "No data returned from the remote connection."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversionchecker.cpp:116
+#, kde-format
+msgid "Invalid format returned from the remote connection."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:79
+#, fuzzy, kde-format
+msgid "Check for new version available, please wait..."
+msgstr "Đang quét tìm tệp mới. Hãy đời..."
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:100
+#, fuzzy, kde-format
+#| msgid "Open folder"
+msgid "Open in Browser..."
+msgstr "Mở thư mục"
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:105
+#, kde-format
+msgid ""
+"A new version %1 is available.\n"
+"Press \"Open in Browser\" to access to download page..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:115
+#, kde-format
+msgid ""
+"Your Software is up-to-date.\n"
+"%1 %2 is the most recent version available."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:120
+#, kde-format
+msgid ""
+"Error while trying to check for new version:\n"
+"\"%1\""
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:148
+#, fuzzy, kde-format
+msgid "Unsupported Architecture."
+msgstr "Không rõ"
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:214
+#, fuzzy, kde-format
+msgid "Downloaded data is empty."
+msgstr "Cỡ gạch lát:"
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:236
+#, fuzzy, kde-format
+msgid "Cannot open target file."
+msgstr "Gặp lỗi khi lưu tệp"
+
 #: core/libs/progressmanager/dlogoaction.cpp:153
 #, kde-format
 msgid "Visit digiKam project website"
@@ -34074,73 +34133,78 @@ msgstr "Ralf Holzer"
 msgid "Developer (2004)"
 msgstr "Nhà phát triển"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:262
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:263
 #, fuzzy, kde-format
 msgid "Components Information"
 msgstr "Ghi chú :"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:268
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:269
 #, fuzzy, kde-format
 msgid "Supported RAW Cameras"
 msgstr "Máy ảnh được lắp"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:272
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:273
 #, fuzzy, kde-format
 msgid "Donate..."
 msgstr "Tăng tiền..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:276
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
 #, kde-format
 msgid "Recipes Book..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:280
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
 #, kde-format
 msgid "Contribute..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:284
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
+#, fuzzy, kde-format
+msgid "Check for New Version..."
+msgstr "&Lưu dạng..."
+
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:289
 #, fuzzy, kde-format
 #| msgid "Kipi Plugins Handbook"
 msgid "Online Handbook..."
 msgstr "Sổ tay phần bổ sung Kipi"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:323
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:348
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:348
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:353
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:372
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:377
 #, fuzzy, kde-format
 msgid "Show Statusbar"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:426
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:431
 #, fuzzy, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"
@@ -47905,6 +47969,20 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~ msgid "No new version is available."
+#~ msgstr "Không có sẵn tuỳ chọn"
+
+#, fuzzy
+#~ msgid "Auto Correction"
+#~ msgstr "Sửa chữa tự động..."
+
+#, fuzzy
+#~| msgid "Auto-Correction..."
+#~ msgctxt "@action"
+#~ msgid "Auto-Correction..."
+#~ msgstr "Sửa chữa tự động..."
 
 #, fuzzy
 #~ msgid ""

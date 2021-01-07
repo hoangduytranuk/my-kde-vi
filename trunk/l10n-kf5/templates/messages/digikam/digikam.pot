@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-04 02:19+0100\n"
+"POT-Creation-Date: 2021-01-07 02:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2401,11 +2401,11 @@ msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: core/app/main/digikamui5.rc:187 core/showfoto/main/showfotoui5.rc:141
-#: core/utilities/imageeditor/main/imageeditorui5.rc:143
+#: core/app/main/digikamui5.rc:188 core/showfoto/main/showfotoui5.rc:142
+#: core/utilities/imageeditor/main/imageeditorui5.rc:145
 #: core/utilities/import/main/importui5.rc:92
-#: core/utilities/lighttable/lighttablewindowui5.rc:101
-#: core/utilities/queuemanager/main/queuemgrwindowui5.rc:61
+#: core/utilities/lighttable/lighttablewindowui5.rc:103
+#: core/utilities/queuemanager/main/queuemgrwindowui5.rc:63
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -2517,7 +2517,7 @@ msgstr ""
 msgid "All supported files (%1)"
 msgstr ""
 
-#: core/app/utils/digikam_version.cpp:56
+#: core/app/utils/digikam_version.cpp:61
 #, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2526,7 +2526,7 @@ msgid ""
 "Build date: %1 (target: %2)"
 msgstr ""
 
-#: core/app/utils/digikam_version.cpp:64
+#: core/app/utils/digikam_version.cpp:69
 #, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -3819,8 +3819,9 @@ msgid "Filter:"
 msgstr ""
 
 #: core/dplugins/bqm/colors/autocorrection/autocorrectionplugin.cpp:54
+#: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:52
 #, kde-format
-msgid "Color Auto-correction"
+msgid "Color Auto-Correction"
 msgstr ""
 
 #: core/dplugins/bqm/colors/autocorrection/autocorrectionplugin.cpp:69
@@ -5766,11 +5767,6 @@ msgid ""
 "using image histogram properties.</p>"
 msgstr ""
 
-#: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:52
-#, kde-format
-msgid "Auto Correction"
-msgstr ""
-
 #: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:72
 #, kde-format
 msgid ""
@@ -5778,10 +5774,9 @@ msgid ""
 msgstr ""
 
 #: core/dplugins/editor/colors/autocorrection/autocorrectiontoolplugin.cpp:88
-#: core/dplugins/editor/enhance/lensautofix/lensautofixtoolplugin.cpp:91
 #, kde-format
 msgctxt "@action"
-msgid "Auto-Correction..."
+msgid "Color Auto-Correction..."
 msgstr ""
 
 #: core/dplugins/editor/colors/bcg/bcgtool.cpp:178
@@ -6454,6 +6449,12 @@ msgstr ""
 msgid ""
 "<p>This Image Editor tool can fix automatically lens artifacts over an image."
 "</p>"
+msgstr ""
+
+#: core/dplugins/editor/enhance/lensautofix/lensautofixtoolplugin.cpp:91
+#, kde-format
+msgctxt "@action"
+msgid "Lens Auto-Correction..."
 msgstr ""
 
 #: core/dplugins/editor/enhance/lensdistortion/lensdistortiontool.cpp:118
@@ -12428,6 +12429,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
 #: core/libs/dplugins/webservices/wstooldialog.cpp:118
+#: core/libs/onlineversion/onlineversiondlg.cpp:74
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
 #: core/utilities/imageeditor/editor/editorwindow.cpp:530
 #, kde-format
@@ -12444,6 +12446,7 @@ msgstr ""
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
 #: core/libs/dplugins/webservices/wstooldialog.cpp:111
+#: core/libs/onlineversion/onlineversiondlg.cpp:111
 #, kde-format
 msgid "Close"
 msgstr ""
@@ -22881,7 +22884,7 @@ msgid ""
 msgstr ""
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:54
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:295
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:300
 #, kde-format
 msgid "Database Statistics"
 msgstr ""
@@ -28523,6 +28526,62 @@ msgstr ""
 msgid "Close message"
 msgstr ""
 
+#: core/libs/onlineversion/onlineversionchecker.cpp:101
+#, kde-format
+msgid "No data returned from the remote connection."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversionchecker.cpp:116
+#, kde-format
+msgid "Invalid format returned from the remote connection."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:79
+#, kde-format
+msgid "Check for new version available, please wait..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:100
+#, kde-format
+msgid "Open in Browser..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:105
+#, kde-format
+msgid ""
+"A new version %1 is available.\n"
+"Press \"Open in Browser\" to access to download page..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:115
+#, kde-format
+msgid ""
+"Your Software is up-to-date.\n"
+"%1 %2 is the most recent version available."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:120
+#, kde-format
+msgid ""
+"Error while trying to check for new version:\n"
+"\"%1\""
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:148
+#, kde-format
+msgid "Unsupported Architecture."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:214
+#, kde-format
+msgid "Downloaded data is empty."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:236
+#, kde-format
+msgid "Cannot open target file."
+msgstr ""
+
 #: core/libs/progressmanager/dlogoaction.cpp:153
 #, kde-format
 msgid "Visit digiKam project website"
@@ -32962,72 +33021,77 @@ msgstr ""
 msgid "Developer (2004)"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:262
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:263
 #, kde-format
 msgid "Components Information"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:268
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:269
 #, kde-format
 msgid "Supported RAW Cameras"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:272
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:273
 #, kde-format
 msgid "Donate..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:276
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
 #, kde-format
 msgid "Recipes Book..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:280
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
 #, kde-format
 msgid "Contribute..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:284
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
+#, kde-format
+msgid "Check for New Version..."
+msgstr ""
+
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:289
 #, kde-format
 msgid "Online Handbook..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:323
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:348
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:348
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:353
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:372
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:377
 #, kde-format
 msgid "Show Statusbar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:426
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:431
 #, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"
