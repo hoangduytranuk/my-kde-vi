@@ -1,21 +1,22 @@
 # Vietnamese translation for kcmkonq.
 # Copyright © 2007 KDE i18n Project for Vietnamese.
-# Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
 #
+# Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
+# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-14 02:33+0100\n"
-"PO-Revision-Date: 2007-06-23 20:25+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"PO-Revision-Date: 2021-01-07 18:47+0100\n"
+"Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.6.4a2\n"
+"X-Generator: Lokalize 20.08.1\n"
 
 #: globalpaths.cpp:58
 #, kde-format
@@ -26,17 +27,16 @@ msgid ""
 "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
 msgstr ""
 "<h1>Đường dẫn</h1>\n"
-"Khối này cho bạn có khả năng chọn nơi trong hệ thống tệp cần cất giữ các tệp "
-"trên màn hình nền.\n"
-"Hãy sử dụng tính năng « Cái này là gì? » để đạt được trợ giúp về tuỳ chọn "
-"riêng."
+"Khối này cho phép bạn chọn địa điểm trong hệ thống tệp để lưu các tệp trên "
+"bàn làm việc của bạn.\n"
+"Dùng \"Đây là cái gì?\" (Shift+F1) để xem trợ giúp về từng lựa chọn cụ thể."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: globalpaths.ui:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Des&ktop path:"
 msgid "Desktop path:"
-msgstr "Đường &dẫn màn hình nền:"
+msgstr "Đường dẫn \"Bàn làm việc\":"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_desktopLocation)
 #: globalpaths.ui:24
@@ -46,84 +46,84 @@ msgid ""
 "change the location of this folder if you want to, and the contents will "
 "move automatically to the new location as well."
 msgstr ""
-"Thư mục này chứa các tệp mà bạn xem trên màn hình nền. Bạn có thể thay đổi "
-"địa điểm của thư mục này, nếu bạn muốn, và nội dung của nó sẽ cũng di chuyển "
-"tự động sang địa điểm mới."
+"Thư mục này chứa tất cả các tệp bạn thấy trên bàn làm việc. Bạn có thể thay "
+"đổi địa điểm của thư mục này nếu bạn muốn, và nội dung của nó cũng sẽ được "
+"tự động chuyển sang địa điểm mới."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: globalpaths.ui:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents path:"
-msgstr "Đư&ờng dẫn tài liệu :"
+msgstr "Đường dẫn \"Tài liệu\":"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_documentsLocation)
 #: globalpaths.ui:41
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
-msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
+msgstr "Thư mục này mặc định sẽ được dùng để tải hoặc lưu tài liệu."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: globalpaths.ui:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads path:"
-msgstr "Đư&ờng dẫn tài liệu :"
+msgstr "Đường dẫn \"Tải về\":"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_downloadsLocation)
 #: globalpaths.ui:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to save your downloaded items."
-msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
+msgstr "Thư mục này mặc định sẽ được dùng để lưu các thứ mà bạn tải về."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: globalpaths.ui:68
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "D&ocuments path:"
 msgid "Videos path:"
-msgstr "Đư&ờng dẫn tài liệu :"
+msgstr "Đường dẫn \"Phim\":"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_videosLocation)
 #: globalpaths.ui:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save movies from or to."
-msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
+msgstr "Thư mục này mặc định sẽ được dùng để tải hoặc lưu phim."
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: globalpaths.ui:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures path:"
-msgstr "Đư&ờng dẫn tài liệu :"
+msgstr "Đường dẫn \"Ảnh\":"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_picturesLocation)
 #: globalpaths.ui:92
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid ""
 "This folder will be used by default to load or save pictures from or to."
-msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
+msgstr "Thư mục này mặc định sẽ được dùng để tải hoặc lưu ảnh."
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: globalpaths.ui:102
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "D&ocuments path:"
 msgid "Music path:"
-msgstr "Đư&ờng dẫn tài liệu :"
+msgstr "Đường dẫn \"Nhạc\":"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_musicLocation)
 #: globalpaths.ui:109
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save music from or to."
-msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
+msgstr "Thư mục này mặc định sẽ được dùng để tải hoặc lưu nhạc."
 
 #, fuzzy
 #~| msgid "A&utostart path:"
