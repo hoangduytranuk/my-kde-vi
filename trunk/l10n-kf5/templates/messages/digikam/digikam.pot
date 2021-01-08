@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-07 02:30+0100\n"
+"POT-Creation-Date: 2021-01-08 02:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -504,6 +504,7 @@ msgstr ""
 
 #: core/app/items/utils/contextmenuhelper.cpp:270
 #: core/app/main/digikamapp_setup.cpp:334
+#: core/libs/onlineversion/onlineversiondlg.cpp:234
 #, kde-format
 msgid "Open..."
 msgstr ""
@@ -12429,7 +12430,6 @@ msgstr ""
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
 #: core/libs/dplugins/webservices/wstooldialog.cpp:118
-#: core/libs/onlineversion/onlineversiondlg.cpp:74
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
 #: core/utilities/imageeditor/editor/editorwindow.cpp:530
 #, kde-format
@@ -12446,7 +12446,8 @@ msgstr ""
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
 #: core/libs/dplugins/webservices/wstooldialog.cpp:111
-#: core/libs/onlineversion/onlineversiondlg.cpp:111
+#: core/libs/onlineversion/onlineversiondlg.cpp:193
+#: core/libs/onlineversion/onlineversiondlg.cpp:274
 #, kde-format
 msgid "Close"
 msgstr ""
@@ -28526,58 +28527,98 @@ msgstr ""
 msgid "Close message"
 msgstr ""
 
-#: core/libs/onlineversion/onlineversionchecker.cpp:101
+#: core/libs/onlineversion/onlineversionchecker.cpp:118
 #, kde-format
 msgid "No data returned from the remote connection."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversionchecker.cpp:116
+#: core/libs/onlineversion/onlineversionchecker.cpp:133
 #, kde-format
 msgid "Invalid format returned from the remote connection."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:79
+#: core/libs/onlineversion/onlineversiondlg.cpp:88
+#, kde-format
+msgid "Online Version Checker"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:111
 #, kde-format
 msgid "Check for new version available, please wait..."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:100
+#: core/libs/onlineversion/onlineversiondlg.cpp:173
+#: core/utilities/setup/downloader/filesdownloader.cpp:161
 #, kde-format
-msgid "Open in Browser..."
+msgid "Download"
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:105
+#: core/libs/onlineversion/onlineversiondlg.cpp:181
 #, kde-format
 msgid ""
-"A new version %1 is available.\n"
-"Press \"Open in Browser\" to access to download page..."
+"Current %1 version is %2\n"
+"New version %3 is available.\n"
+"Press \"Download\" to get the file..."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:115
+#: core/libs/onlineversion/onlineversiondlg.cpp:198
 #, kde-format
 msgid ""
-"Your Software is up-to-date.\n"
+"Your software is up-to-date.\n"
 "%1 %2 is the most recent version available."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:120
+#: core/libs/onlineversion/onlineversiondlg.cpp:205
 #, kde-format
 msgid ""
-"Error while trying to check for new version:\n"
-"\"%1\""
+"Error while trying to check for new %1 version:\n"
+"\"%2\""
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondwnl.cpp:148
+#: core/libs/onlineversion/onlineversiondlg.cpp:217
+#, kde-format
+msgid "Downloading new %1 version %2 in progress, please wait..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:243
+#, kde-format
+msgid ""
+"The new %1 version %2 have been downloaded at:\n"
+"%3\n"
+"Press \"Open\" to show the bundle in file-manager..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:253
+#, kde-format
+msgid "Install..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:256
+#, kde-format
+msgid ""
+"The new %1 version %2 have been downloaded at:\n"
+"%3\n"
+"Press \"Install\" to close current session and upgrade..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:277
+#, kde-format
+msgid ""
+"Error while trying to download %1 version %2:\n"
+"\"%3\""
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:153
 #, kde-format
 msgid "Unsupported Architecture."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondwnl.cpp:214
+#: core/libs/onlineversion/onlineversiondwnl.cpp:219
 #, kde-format
-msgid "Downloaded data is empty."
+msgid "Downloaded file is empty."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondwnl.cpp:236
+#: core/libs/onlineversion/onlineversiondwnl.cpp:244
 #, kde-format
 msgid "Cannot open target file."
 msgstr ""
@@ -44210,11 +44251,6 @@ msgstr ""
 #: core/utilities/setup/downloader/filesdownloader.cpp:151
 #, kde-format
 msgid "Download required files"
-msgstr ""
-
-#: core/utilities/setup/downloader/filesdownloader.cpp:161
-#, kde-format
-msgid "Download"
 msgstr ""
 
 #: core/utilities/setup/downloader/filesdownloader.cpp:167

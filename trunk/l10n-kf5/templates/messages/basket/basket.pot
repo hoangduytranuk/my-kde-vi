@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: basket\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-22 02:42+0100\n"
+"POT-Creation-Date: 2021-01-08 03:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -124,33 +124,50 @@ msgstr ""
 msgid "BasKet Note Pads"
 msgstr ""
 
-#: src/archive.cpp:47 src/bnpview.cpp:2013
+#: src/archive.cpp:49 src/bnpview.cpp:2013
 #, kde-format
 msgid "Save as Basket Archive"
 msgstr ""
 
-#: src/archive.cpp:48
+#: src/archive.cpp:50
 #, kde-format
 msgid "Saving as basket archive. Please wait..."
 msgstr ""
 
-#: src/archive.cpp:259
+#: src/archive.cpp:254
 #, kde-format
-msgid "This file is not a basket archive."
+msgid "Failed to open a file resource."
 msgstr ""
 
-#: src/archive.cpp:259 src/archive.cpp:290 src/archive.cpp:308
-#: src/archive.cpp:312 src/archive.cpp:321 src/archive.cpp:373
+#: src/archive.cpp:254 src/archive.cpp:257 src/archive.cpp:260
+#: src/archive.cpp:263 src/archive.cpp:270 src/archive.cpp:279
 #, kde-format
 msgid "Basket Archive Error"
 msgstr ""
 
-#: src/archive.cpp:290 src/archive.cpp:321 src/archive.cpp:373
+#: src/archive.cpp:257
+#, kde-format
+msgid "This file is not a basket archive."
+msgstr ""
+
+#: src/archive.cpp:260
 #, kde-format
 msgid "This file is corrupted. It can not be opened."
 msgstr ""
 
-#: src/archive.cpp:303
+#: src/archive.cpp:263
+#, kde-format
+msgid "Extraction path already exists."
+msgstr ""
+
+#: src/archive.cpp:267
+#, kde-format
+msgid ""
+"This file was created with a recent version of %1.Please upgrade to a newer "
+"version to be able to open that file."
+msgstr ""
+
+#: src/archive.cpp:274
 #, kde-format
 msgid ""
 "This file was created with a recent version of %1. It can be opened but not "
@@ -158,13 +175,6 @@ msgid ""
 "missing because they are of a type only available in new versions. When "
 "saving the file back, consider to save it to another file, to preserve the "
 "original one."
-msgstr ""
-
-#: src/archive.cpp:312
-#, kde-format
-msgid ""
-"This file was created with a recent version of %1. Please upgrade to a newer "
-"version to be able to open that file."
 msgstr ""
 
 #: src/backup.cpp:53
