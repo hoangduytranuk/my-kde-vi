@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-17 02:36+0100\n"
+"POT-Creation-Date: 2021-01-13 03:39+0100\n"
 "PO-Revision-Date: 2006-04-15 22:12+0930\n"
 "Last-Translator: Phan Vĩnh Thịnh <teppi82@gmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -68,19 +68,120 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:45
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
+msgstr "&Khởi động lại"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "Chung"
+
 #. i18n: ectx: label, entry (confirmLogout), group (General)
-#: smserversettings.kcfg:9
+#: package/contents/ui/main.qml:52 smserversettings.kcfg:9
 #, fuzzy, kde-format
 #| msgid "Conf&irm logout"
 msgid "Confirm logout"
 msgstr "&Xác nhận khi thoát"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
-#: smserversettings.kcfg:13
+#: package/contents/ui/main.qml:61 smserversettings.kcfg:13
 #, fuzzy, kde-format
 #| msgid "O&ffer shutdown options"
 msgid "Offer shutdown options"
 msgstr "Đề n&ghị tuỳ chọn tắt máy"
+
+#: package/contents/ui/main.qml:78
+#, fuzzy, kde-format
+#| msgid "Default Shutdown Option"
+msgid "Default leave option:"
+msgstr "Tuỳ chọn tắt máy mặc định"
+
+#: package/contents/ui/main.qml:79
+#, fuzzy, kde-format
+#| msgid "&End current session"
+msgid "End current session"
+msgstr "&Kết thúc phiên chạy hiện thời"
+
+#: package/contents/ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart computer"
+msgstr "&Khởi động lại"
+
+#: package/contents/ui/main.qml:99
+#, fuzzy, kde-format
+#| msgid "&Turn off computer"
+msgid "Turn off computer"
+msgstr "&Tắt máy"
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "When logging in:"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore previous saved session"
+msgstr "Phục hồi phiên chạy tự &ghi"
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore manually saved session"
+msgstr "Phục hồi phiên chạy tự &ghi"
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+#| msgid "Start with an empty &session"
+msgid "Start with an empty session"
+msgstr "Chạy phiên chạy &mới"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgid "Don't restore these applications:"
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid ""
+#| "Here you can enter a comma-separated list of applications that should not "
+#| "be saved in sessions, and therefore will not be started when restoring a "
+#| "session. For example 'xterm,xconsole'."
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"Đây là danh sách những ứng dụng sẽ không nhớ vào các phiên chạy, và do đó sẽ "
+"không chạy khi phục hồi phiên chạy này. Chúng được liệt kê cách nhau bởi dấu "
+"phẩy. Ví dụ 'xterm,xconsole'."
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Enter firmware setup screen on next restart"
+msgstr ""
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -102,14 +203,6 @@ msgstr "Khi đăng nhập"
 #| msgid "Applications to be e&xcluded from sessions:"
 msgid "Applications to be excluded from session"
 msgstr "Những ứng dụng sẽ loại &bỏ khỏi phiên chạy:"
-
-#, fuzzy
-#~| msgid "&Restart computer"
-#~ msgid "Restart Now"
-#~ msgstr "&Khởi động lại"
-
-#~ msgid "General"
-#~ msgstr "Chung"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
@@ -136,15 +229,6 @@ msgstr "Những ứng dụng sẽ loại &bỏ khỏi phiên chạy:"
 #~ msgid "Default Leave Option"
 #~ msgstr "Tuỳ chọn tắt máy mặc định"
 
-#~ msgid "&End current session"
-#~ msgstr "&Kết thúc phiên chạy hiện thời"
-
-#~ msgid "&Restart computer"
-#~ msgstr "&Khởi động lại"
-
-#~ msgid "&Turn off computer"
-#~ msgstr "&Tắt máy"
-
 #~ msgid ""
 #~ "<ul>\n"
 #~ "<li><b>Restore previous session:</b> Will save all applications running "
@@ -170,25 +254,5 @@ msgstr "Những ứng dụng sẽ loại &bỏ khỏi phiên chạy:"
 #~ msgid "On Login"
 #~ msgstr "Khi đăng nhập"
 
-#~ msgid "Restore &manually saved session"
-#~ msgstr "Phục hồi phiên chạy tự &ghi"
-
-#~ msgid "Start with an empty &session"
-#~ msgstr "Chạy phiên chạy &mới"
-
 #~ msgid "Applications to be e&xcluded from sessions:"
 #~ msgstr "Những ứng dụng sẽ loại &bỏ khỏi phiên chạy:"
-
-#, fuzzy
-#~| msgid ""
-#~| "Here you can enter a comma-separated list of applications that should "
-#~| "not be saved in sessions, and therefore will not be started when "
-#~| "restoring a session. For example 'xterm,xconsole'."
-#~ msgid ""
-#~ "Here you can enter a colon or comma separated list of applications that "
-#~ "should not be saved in sessions, and therefore will not be started when "
-#~ "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
-#~ msgstr ""
-#~ "Đây là danh sách những ứng dụng sẽ không nhớ vào các phiên chạy, và do đó "
-#~ "sẽ không chạy khi phục hồi phiên chạy này. Chúng được liệt kê cách nhau "
-#~ "bởi dấu phẩy. Ví dụ 'xterm,xconsole'."

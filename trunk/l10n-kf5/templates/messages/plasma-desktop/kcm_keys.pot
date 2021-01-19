@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-17 02:33+0100\n"
+"POT-Creation-Date: 2021-01-19 02:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -45,7 +45,13 @@ msgctxt ""
 msgid "Error while saving shortcut %1: %2"
 msgstr ""
 
-#: globalaccelmodel.cpp:321
+#: globalaccelmodel.cpp:282
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Error while adding %1, it seems it has no actions."
+msgstr ""
+
+#: globalaccelmodel.cpp:325
 #, kde-format
 msgid "Error while communicating with the global shortcuts service"
 msgstr ""

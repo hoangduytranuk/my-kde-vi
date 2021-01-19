@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-08 02:39+0100\n"
+"POT-Creation-Date: 2021-01-19 02:31+0100\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -507,7 +507,7 @@ msgstr "Chọ&n mục mới"
 
 #: core/app/items/utils/contextmenuhelper.cpp:270
 #: core/app/main/digikamapp_setup.cpp:334
-#: core/libs/onlineversion/onlineversiondlg.cpp:234
+#: core/libs/onlineversion/onlineversiondlg.cpp:334
 #, fuzzy, kde-format
 msgid "Open..."
 msgstr "Mở bằng"
@@ -677,9 +677,9 @@ msgstr ""
 
 #: core/app/items/utils/contextmenuhelper.cpp:879
 #: core/app/main/digikamapp_setup.cpp:372
-#: core/libs/settings/applicationsettings_miscs.cpp:406
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:113
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:249
+#: core/libs/settings/applicationsettings_miscs.cpp:426
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:62
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:198
 #: core/utilities/queuemanager/views/workflowlist.cpp:123
 #, kde-format
 msgid "Batch Queue Manager"
@@ -1374,7 +1374,7 @@ msgstr "Phát hiện tự động máy ảnh"
 msgid "Opening Download Dialog..."
 msgstr "Đang mở hộp thoại tải về..."
 
-#: core/app/main/digikamapp_camera.cpp:75 core/utilities/setup/setup.cpp:204
+#: core/app/main/digikamapp_camera.cpp:75 core/utilities/setup/setup.cpp:205
 #, kde-format
 msgid "Cameras"
 msgstr "Máy ảnh"
@@ -1470,6 +1470,7 @@ msgstr "Tới"
 
 #: core/app/main/digikamapp_setup.cpp:169
 #: core/libs/album/treeview/albumselectiontreeview.cpp:222
+#: core/libs/dialogs/solidhardwaredlg.cpp:139
 #, kde-format
 msgid "Refresh"
 msgstr "Cập nhật"
@@ -1525,6 +1526,7 @@ msgstr "Thay tên..."
 #: core/app/main/digikamapp_setup.cpp:277
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:152
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:152
+#: core/libs/dialogs/solidhardwaredlg.cpp:303
 #: core/libs/dplugins/setup/dpluginaboutdlg.cpp:148
 #: core/libs/properties/import/importitempropertiessidebar.cpp:101
 #: core/libs/properties/itempropertiessidebar.cpp:91
@@ -1595,7 +1597,7 @@ msgstr "Xoá"
 msgid "Assign Tag"
 msgstr "Gán thẻ"
 
-#: core/app/main/digikamapp_setup.cpp:296 core/utilities/setup/setup.cpp:157
+#: core/app/main/digikamapp_setup.cpp:296 core/utilities/setup/setup.cpp:158
 #, fuzzy, kde-format
 msgid "Views"
 msgstr "&Xem"
@@ -1648,7 +1650,7 @@ msgstr "Mở mục đã chọn trong bộ sửa ảnh."
 
 #: core/app/main/digikamapp_setup.cpp:346
 #: core/utilities/imageeditor/main/imagewindow.cpp:196
-#: core/utilities/setup/setup.cpp:181
+#: core/utilities/setup/setup.cpp:182
 #, kde-format
 msgid "Image Editor"
 msgstr "Bộ sửa ảnh"
@@ -1659,10 +1661,10 @@ msgid "Open the image editor."
 msgstr "Mở bằng Konqueror"
 
 #: core/app/main/digikamapp_setup.cpp:353
-#: core/libs/settings/applicationsettings_miscs.cpp:403
+#: core/libs/settings/applicationsettings_miscs.cpp:423
 #: core/utilities/lighttable/lighttablewindow.cpp:57
 #: core/utilities/lighttable/lighttablewindow_tools.cpp:42
-#: core/utilities/setup/setup.cpp:193
+#: core/utilities/setup/setup.cpp:194
 #, kde-format
 msgid "Light Table"
 msgstr "Bảng ánh sáng"
@@ -2414,16 +2416,16 @@ msgid "&Help"
 msgstr "Trợ g&iúp"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: core/app/main/digikamui5.rc:188 core/showfoto/main/showfotoui5.rc:142
-#: core/utilities/imageeditor/main/imageeditorui5.rc:145
-#: core/utilities/import/main/importui5.rc:92
-#: core/utilities/lighttable/lighttablewindowui5.rc:103
-#: core/utilities/queuemanager/main/queuemgrwindowui5.rc:63
+#: core/app/main/digikamui5.rc:189 core/showfoto/main/showfotoui5.rc:143
+#: core/utilities/imageeditor/main/imageeditorui5.rc:146
+#: core/utilities/import/main/importui5.rc:94
+#: core/utilities/lighttable/lighttablewindowui5.rc:104
+#: core/utilities/queuemanager/main/queuemgrwindowui5.rc:64
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
 
-#: core/app/main/main.cpp:153 core/app/views/stack/welcomepageview.cpp:255
+#: core/app/main/main.cpp:153 core/app/views/stack/welcomepageview.cpp:259
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:74
@@ -2530,7 +2532,7 @@ msgstr "Lưu ảnh"
 msgid "All supported files (%1)"
 msgstr "Đã bỏ qua tệp %1"
 
-#: core/app/utils/digikam_version.cpp:61
+#: core/app/utils/digikam_version.cpp:67
 #, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2539,7 +2541,7 @@ msgid ""
 "Build date: %1 (target: %2)"
 msgstr ""
 
-#: core/app/utils/digikam_version.cpp:69
+#: core/app/utils/digikam_version.cpp:75
 #, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2803,8 +2805,8 @@ msgid "no item"
 msgstr "Chưa có ngày"
 
 #: core/app/views/sidebar/timelinesidebarwidget.cpp:429
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:495
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:521
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:444
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:470
 #, fuzzy, kde-format
 msgid "1 item"
 msgid_plural "%1 items"
@@ -2932,103 +2934,115 @@ msgstr ""
 msgid "%1/%2 items selected"
 msgstr "%1 mục đã chọn"
 
-#: core/app/views/stack/welcomepageview.cpp:151
+#: core/app/views/stack/welcomepageview.cpp:152
 #, kde-format
-msgid "More than 900 files closed on bugzilla."
+msgid "More than 1300 user-reports closed on bugzilla."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:152
+#: core/app/views/stack/welcomepageview.cpp:153
 #, kde-format
 msgid ""
 "New Neural Network engine based on OpenCV Deep Learning module to detect and "
 "recognize faces."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:153
+#: core/app/views/stack/welcomepageview.cpp:154
 #, fuzzy, kde-format
 msgid "Update Slideshow to plugin with new shuffle mode."
 msgstr "Trình chiếu"
 
-#: core/app/views/stack/welcomepageview.cpp:154
+#: core/app/views/stack/welcomepageview.cpp:155
 #, kde-format
 msgid "Add new theme Html5Responsive for HtmlGallery plugin."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:155
+#: core/app/views/stack/welcomepageview.cpp:156
 #, kde-format
 msgid ""
 "New plugin ImageMosaicWall to create an image based on a bunch of other "
 "photos."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:156
+#: core/app/views/stack/welcomepageview.cpp:157
 #, fuzzy, kde-format
 #| msgid "Color Space"
 msgid "add new batch queue manager tool to fix hot pixels from images."
 msgstr "Miền màu"
 
-#: core/app/views/stack/welcomepageview.cpp:157
+#: core/app/views/stack/welcomepageview.cpp:158
 #, fuzzy, kde-format
 #| msgid "Color Space"
 msgid "add new batch queue manager tool to apply texture over images."
 msgstr "Miền màu"
 
-#: core/app/views/stack/welcomepageview.cpp:158
+#: core/app/views/stack/welcomepageview.cpp:159
 #, kde-format
 msgid ""
 "Face Scan dialog contents is now simplified and embedded into left sidebar."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:159
+#: core/app/views/stack/welcomepageview.cpp:160
 #, kde-format
 msgid "Add support for Gimp XCF files >= 2.10."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:160
+#: core/app/views/stack/welcomepageview.cpp:161
 #, kde-format
 msgid "Add Flatpak bundle support for Linux platforms."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:161
+#: core/app/views/stack/welcomepageview.cpp:162
 #, kde-format
 msgid "Table-view is now able to show digiKam Tag-Paths properties."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:162
+#: core/app/views/stack/welcomepageview.cpp:163
 #, fuzzy, kde-format
 msgid "Add option to write geolocation information in file metadata."
 msgstr ""
 "<p>Bật tuỳ chọn này để lưu đánh giá ảnh vào thẻ ảnh EXIF và thẻ <i>Độ khẩn "
 "cấp</i> IPTC."
 
-#: core/app/views/stack/welcomepageview.cpp:163
+#: core/app/views/stack/welcomepageview.cpp:164
 #, kde-format
 msgid "Add color label support for advanced metadata settings."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:164
+#: core/app/views/stack/welcomepageview.cpp:165
 #, kde-format
 msgid "Add Exif, Iptc, and Xmp read support for HEIF images."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:165
+#: core/app/views/stack/welcomepageview.cpp:166
 #, kde-format
 msgid "Improved support for UNC network paths under Windows."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:166
+#: core/app/views/stack/welcomepageview.cpp:167
 #, kde-format
 msgid "Improved support for Unicode paths under Windows."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:167
+#: core/app/views/stack/welcomepageview.cpp:168
+#, kde-format
+msgid "Apple bundle is now relocatable and compatible with macOS BigSur."
+msgstr ""
+
+#: core/app/views/stack/welcomepageview.cpp:169
 #, kde-format
 msgid ""
-"Update internal RAW engine to last Libraw 0.20.0 release including Canon CR3 "
+"New online version checker and downloader to automatize upgrade under "
+"Windows and macOS."
+msgstr ""
+
+#: core/app/views/stack/welcomepageview.cpp:170
+#, kde-format
+msgid ""
+"Update internal RAW engine to last Libraw 0.20.2 release including Canon CR3 "
 "and Sony A7R4 support."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:168
+#: core/app/views/stack/welcomepageview.cpp:171
 #, kde-format
 msgid ""
 "New camera supported: Canon CR3, PowerShot G5 X Mark II, G7 X Mark III, SX70 "
@@ -3044,44 +3058,44 @@ msgid ""
 "multiple modern smartphones."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:186
+#: core/app/views/stack/welcomepageview.cpp:190
 #, kde-format
 msgid "...and much more."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:192
+#: core/app/views/stack/welcomepageview.cpp:196
 #, kde-format
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: core/app/views/stack/welcomepageview.cpp:195
+#: core/app/views/stack/welcomepageview.cpp:199
 #, fuzzy, kde-format
 msgid "New Features"
 msgstr "Tự nhiên"
 
-#: core/app/views/stack/welcomepageview.cpp:197
+#: core/app/views/stack/welcomepageview.cpp:201
 #, kde-format
 msgid "<h3>%1</h3><ul>%2</ul>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:198
+#: core/app/views/stack/welcomepageview.cpp:202
 #, kde-format
 msgid ""
 "Some of the new features in this release of digiKam include (compared to "
 "digiKam 6.x):"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:206
+#: core/app/views/stack/welcomepageview.cpp:210
 #, fuzzy, kde-format
 msgid "About"
 msgstr "Giới thiệu"
 
-#: core/app/views/stack/welcomepageview.cpp:208
+#: core/app/views/stack/welcomepageview.cpp:212
 #, kde-format
 msgid "<h3>%1</h3><h3>%2</h3><ul>%3</ul>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:209
+#: core/app/views/stack/welcomepageview.cpp:213
 #, kde-format
 msgid ""
 "digiKam is an open source photo management program designed to import, "
@@ -3089,7 +3103,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:210
+#: core/app/views/stack/welcomepageview.cpp:214
 #, kde-format
 msgid ""
 "Currently, you are in the Album view mode of digiKam. Albums are the places "
@@ -3097,12 +3111,12 @@ msgid ""
 "disk."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:211
+#: core/app/views/stack/welcomepageview.cpp:215
 #, fuzzy, kde-format
 msgid "<li>%1</li><li>%2</li>"
 msgstr "<li>%1</li>\n"
 
-#: core/app/views/stack/welcomepageview.cpp:212
+#: core/app/views/stack/welcomepageview.cpp:216
 #, kde-format
 msgid ""
 "digiKam has many powerful features which are described in the <a href="
@@ -3110,20 +3124,20 @@ msgid ""
 "\">documentation</a>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:213
+#: core/app/views/stack/welcomepageview.cpp:217
 #, kde-format
 msgid ""
 "The <a href=\"https://www.digikam.org\">digiKam homepage</a> provides "
 "information about new versions of digiKam."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:261
+#: core/app/views/stack/welcomepageview.cpp:265
 #: core/utilities/firstrun/welcomepage.cpp:43
 #, kde-format
 msgid "Welcome to digiKam %1"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:264
+#: core/app/views/stack/welcomepageview.cpp:268
 #, fuzzy, kde-format
 msgid "Background Image Credits"
 msgstr "Màu &nền:"
@@ -3447,7 +3461,7 @@ msgstr "<b>Độ mở</b>:"
 #: core/libs/properties/itempropertiescolorstab.cpp:696
 #: core/libs/properties/itempropertiessidebar.cpp:285
 #: core/libs/properties/itempropertiessidebardb.cpp:596
-#: core/utilities/setup/setupmisc.cpp:330
+#: core/utilities/setup/setupmisc.cpp:384
 #, kde-format
 msgid "Yes"
 msgstr "Có"
@@ -3469,7 +3483,7 @@ msgstr "Có"
 #: core/libs/properties/itempropertiescolorstab.cpp:696
 #: core/libs/properties/itempropertiessidebar.cpp:285
 #: core/libs/properties/itempropertiessidebardb.cpp:596
-#: core/utilities/setup/setupmisc.cpp:329
+#: core/utilities/setup/setupmisc.cpp:383
 #, kde-format
 msgid "No"
 msgstr "Không"
@@ -12817,8 +12831,8 @@ msgstr "Thông tin máy ảnh"
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
 #: core/libs/dplugins/webservices/wstooldialog.cpp:111
-#: core/libs/onlineversion/onlineversiondlg.cpp:193
-#: core/libs/onlineversion/onlineversiondlg.cpp:274
+#: core/libs/onlineversion/onlineversiondlg.cpp:258
+#: core/libs/onlineversion/onlineversiondlg.cpp:398
 #, fuzzy, kde-format
 msgid "Close"
 msgstr "Đón&g"
@@ -14410,7 +14424,7 @@ msgstr[0] "16 bit"
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:273
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:36
 #: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:39
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:343
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:292
 #, fuzzy, kde-format
 msgid "Stop"
 msgstr "Đá"
@@ -17286,7 +17300,7 @@ msgstr ""
 
 #: core/dplugins/generic/view/slideshow/common/slideshowloader.cpp:129
 #: core/dplugins/generic/view/slideshow/slideshowplugin.cpp:118
-#: core/libs/settings/applicationsettings_miscs.cpp:409
+#: core/libs/settings/applicationsettings_miscs.cpp:429
 #, fuzzy, kde-format
 msgid "Slideshow"
 msgstr "Trình chiếu"
@@ -21680,13 +21694,20 @@ msgstr "Xoá tìm kiếm"
 msgid "Current Duplicates Search"
 msgstr "Xoá tìm kiếm"
 
-#: core/libs/album/engine/albummodificationhelper.cpp:232
+#: core/libs/album/engine/albummodificationhelper.cpp:245
+#, kde-format
+msgid ""
+"<p>The folder you want to delete contains files (%1) which are not displayed "
+"in digiKam.</p><p>Do you want to continue?</p>"
+msgstr ""
+
+#: core/libs/album/engine/albummodificationhelper.cpp:275
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:154
 #, kde-format
 msgid "Rename Album (%1)"
 msgstr "Thay tên tập ảnh (%1)"
 
-#: core/libs/album/engine/albummodificationhelper.cpp:233
+#: core/libs/album/engine/albummodificationhelper.cpp:276
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:155
 #, kde-format
 msgid "Enter new album name:"
@@ -23642,7 +23663,7 @@ msgstr ""
 "vị trí khác.<p><b>%1</b></p></qt>"
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:54
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:300
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:304
 #, fuzzy, kde-format
 msgid "Database Statistics"
 msgstr "Thống kê"
@@ -23987,23 +24008,28 @@ msgstr "Chọ&n mục mới"
 msgid "Select Items"
 msgstr "Chọ&n mục mới"
 
-#: core/libs/dialogs/infodlg.cpp:75 core/libs/dialogs/libsinfodlg.cpp:111
+#: core/libs/dialogs/infodlg.cpp:77 core/libs/dialogs/libsinfodlg.cpp:111
 #, fuzzy, kde-format
 msgid "Shared Libraries and Components Information"
 msgstr "Hiệu chỉnh thuộc tính tập ảnh và thông tin tập hợp."
 
-#: core/libs/dialogs/infodlg.cpp:79
+#: core/libs/dialogs/infodlg.cpp:83
 #: core/libs/progressmanager/dhistoryview.cpp:143
 #, fuzzy, kde-format
 msgid "Copy to Clipboard"
 msgstr "Sao chép siêu dữ liệu vào bảng nháp"
 
-#: core/libs/dialogs/infodlg.cpp:101
+#: core/libs/dialogs/infodlg.cpp:105
 #: core/utilities/facemanagement/widgets/facemanagementhelpdlg.cpp:69
 #, kde-format
 msgid ""
 "<font size=\"5\">%1</font><br/><b>Version %2</b><p>%3</p><p><i>%4</i></p>"
 msgstr ""
+
+#: core/libs/dialogs/infodlg.cpp:126
+#, fuzzy, kde-format
+msgid "Items List"
+msgstr "Bộ sửa ảnh"
 
 #: core/libs/dialogs/libsinfodlg.cpp:117
 #, fuzzy, kde-format
@@ -24045,6 +24071,109 @@ msgstr[0] ""
 msgid "Using LibRaw version %2<br/>1 model on the list (found: %3)"
 msgid_plural "Using LibRaw version %2<br/>%1 models on the list (found: %3)"
 msgstr[0] ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:92
+#, kde-format
+msgid "List of detected hardware"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:95
+#, kde-format
+msgid ""
+"%1 uses Solid framework version %2\n"
+"to detect and manage devices from your computer.\n"
+"Press \"Refresh\" to update list if you plug a removable device."
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:125
+#, kde-format
+msgid "Hotplug Device Events"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:126
+#, fuzzy, kde-format
+msgid "Devices List"
+msgstr "Hạng thiết bị"
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:281
+#: core/libs/dialogs/solidhardwaredlg.cpp:402
+#: core/libs/dialogs/solidhardwaredlg.cpp:430
+#, kde-format
+msgid "Udi"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:281
+#: core/libs/dialogs/solidhardwaredlg.cpp:287
+#: core/libs/dialogs/solidhardwaredlg.cpp:290
+#: core/libs/dialogs/solidhardwaredlg.cpp:293
+#: core/libs/dialogs/solidhardwaredlg.cpp:408
+#: core/libs/dialogs/solidhardwaredlg.cpp:411
+#: core/libs/dialogs/solidhardwaredlg.cpp:414
+#, kde-format
+msgid "empty"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:284
+#: core/libs/dialogs/solidhardwaredlg.cpp:405
+#, fuzzy, kde-format
+#| msgid "Parents"
+msgid "Parent Udi"
+msgstr "Cha"
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:284
+#: core/libs/dialogs/solidhardwaredlg.cpp:296
+#: core/libs/dialogs/solidhardwaredlg.cpp:405
+#: core/libs/dialogs/solidhardwaredlg.cpp:417
+#, fuzzy, kde-format
+msgid "none"
+msgstr "Không có"
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:287
+#: core/libs/dialogs/solidhardwaredlg.cpp:408
+#, kde-format
+msgid "Vendor"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:290
+#: core/libs/dialogs/solidhardwaredlg.cpp:411
+#, kde-format
+msgid "Product"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:293
+#: core/libs/dialogs/solidhardwaredlg.cpp:414
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:163
+#: core/libs/dplugins/setup/dpluginconfview.cpp:145
+#: core/libs/properties/captions/itemdescedittab.cpp:268
+#: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:135
+#: core/libs/widgets/metadata/metadataselector.cpp:102
+#: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:102
+#: core/utilities/advancedrename/parser/options/database/keys/positionkeys.cpp:71
+#: core/utilities/queuemanager/views/workflowlist.cpp:100
+#, kde-format
+msgid "Description"
+msgstr "Mô tả"
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:296
+#: core/libs/dialogs/solidhardwaredlg.cpp:417
+#, fuzzy, kde-format
+msgid "States"
+msgstr "Thống kê"
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:303
+#, kde-format
+msgid "Non-portable info"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:395
+#, kde-format
+msgid "New Device Added"
+msgstr ""
+
+#: core/libs/dialogs/solidhardwaredlg.cpp:427
+#, fuzzy, kde-format
+msgid "Device Removed"
+msgstr "Hạng thiết bị"
 
 #: core/libs/dialogs/webbrowserdlg.cpp:123
 #, kde-format
@@ -25758,7 +25887,7 @@ msgid "Remove Black Frame"
 msgstr "Khung khối..."
 
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:271
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:397
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:346
 #, fuzzy, kde-format
 msgid "Clear List"
 msgstr "Danh sách máy ảnh"
@@ -26412,22 +26541,22 @@ msgstr "Độ mở/Tiêu :"
 msgid "Subject Distance (m):"
 msgstr "Khoảng cách:"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:410
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:424
 #, fuzzy, kde-format
 msgid "(no metadata available)"
 msgstr "Không có sẵn tuỳ chọn"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:415
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:429
 #, fuzzy, kde-format
 msgid "(no match found)"
 msgstr "Không tìm thấy thiết bị ảnh/nhạc"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:420
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:434
 #, fuzzy, kde-format
 msgid "(partial match found)"
 msgstr "Không tìm thấy thiết bị ảnh/nhạc"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:425
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:439
 #, fuzzy, kde-format
 msgid "(exact match found)"
 msgstr "Không tìm thấy thiết bị ảnh/nhạc"
@@ -27631,11 +27760,11 @@ msgstr "&Công cụ"
 #: core/libs/dplugins/core/dpluginaction.cpp:106
 #: core/libs/properties/import/importitempropertiessidebar.cpp:102
 #: core/libs/properties/itempropertiessidebar.cpp:92
-#: core/libs/settings/applicationsettings_miscs.cpp:400
-#: core/showfoto/setup/showfotosetup.cpp:117
+#: core/libs/settings/applicationsettings_miscs.cpp:420
+#: core/showfoto/setup/showfotosetup.cpp:120
 #: core/utilities/queuemanager/manager/batchtool.cpp:218
 #: core/utilities/queuemanager/views/toolslistview.cpp:93
-#: core/utilities/setup/setup.cpp:169
+#: core/utilities/setup/setup.cpp:170
 #, kde-format
 msgid "Metadata"
 msgstr "Siêu dữ liệu"
@@ -27766,18 +27895,6 @@ msgstr "Cỡ gạch lát:"
 #, fuzzy, kde-format
 msgid "File Date"
 msgstr "Tên tệp ảnh mới"
-
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:163
-#: core/libs/dplugins/setup/dpluginconfview.cpp:145
-#: core/libs/properties/captions/itemdescedittab.cpp:268
-#: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:135
-#: core/libs/widgets/metadata/metadataselector.cpp:102
-#: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:102
-#: core/utilities/advancedrename/parser/options/database/keys/positionkeys.cpp:71
-#: core/utilities/queuemanager/views/workflowlist.cpp:100
-#, kde-format
-msgid "Description"
-msgstr "Mô tả"
 
 #: core/libs/dplugins/setup/dpluginaboutdlg.cpp:163
 #, fuzzy, kde-format
@@ -29565,98 +29682,258 @@ msgstr "Đón&g"
 msgid "Close message"
 msgstr "Bộ sửa ảnh"
 
-#: core/libs/onlineversion/onlineversionchecker.cpp:118
+#: core/libs/onlineversion/onlineversionchecker.cpp:121
+#, kde-format
+msgid "never"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversionchecker.cpp:197
 #, kde-format
 msgid "No data returned from the remote connection."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversionchecker.cpp:133
+#: core/libs/onlineversion/onlineversionchecker.cpp:211
+#: core/libs/onlineversion/onlineversiondwnl.cpp:146
+#, fuzzy, kde-format
+msgid "Unsupported Architecture: %1"
+msgstr "Không rõ"
+
+#: core/libs/onlineversion/onlineversionchecker.cpp:238
+#: core/libs/onlineversion/onlineversionchecker.cpp:281
 #, kde-format
 msgid "Invalid format returned from the remote connection."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:88
+#: core/libs/onlineversion/onlineversionchecker.cpp:249
 #, kde-format
-msgid "Online Version Checker"
+msgid "Invalid pre-release date."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:111
+#: core/libs/onlineversion/onlineversiondlg.cpp:131
+#, kde-format
+msgid "Online Version Checker - Pre-Release"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:132
 #, fuzzy, kde-format
-msgid "Check for new version available, please wait..."
+msgid "Check for new pre-release version available, please wait..."
 msgstr "Đang quét tìm tệp mới. Hãy đời..."
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:173
+#: core/libs/onlineversion/onlineversiondlg.cpp:136
+#, kde-format
+msgid "Online Version Checker - Stable Version"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:137
+#, fuzzy, kde-format
+msgid "Check for new stable version available, please wait..."
+msgstr "Đang quét tìm tệp mới. Hãy đời..."
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:187
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgid "Configure..."
+msgstr "Cấu hình"
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:188
+#, kde-format
+msgid "Open setup dialog page to configure updates."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:214
 #: core/utilities/setup/downloader/filesdownloader.cpp:161
 #, fuzzy, kde-format
 msgid "Download"
 msgstr "Tải về"
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:181
+#: core/libs/onlineversion/onlineversiondlg.cpp:228
 #, kde-format
 msgid ""
-"Current %1 version is %2\n"
-"New version %3 is available.\n"
-"Press \"Download\" to get the file..."
+"Current %1 pre-release date is %2.\n"
+"New pre-release built on %3 is available.\n"
+"\n"
+"Press \"Download\" to get the file...\n"
+"\n"
+"Note: from Setup/Misc panel, you can switch to check for stable release "
+"only.\n"
+"Stable versions are safe to use in production.\n"
+"\n"
+"Press \"Configure\" if you want to show update options from setup dialog."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:198
+#: core/libs/onlineversion/onlineversiondlg.cpp:240
+#, kde-format
+msgid ""
+"Current %1 stable version is %2\n"
+"New stable version %3 is available.\n"
+"\n"
+"Press \"Download\" to get the file...\n"
+"\n"
+"Note: from Setup/Misc panel, you can switch to check for weekly pre-"
+"release.\n"
+"Pre-release versions are dedicated to test quickly new features.\n"
+"It's not recommended to use pre-releases in production as bugs can remain,\n"
+"unless you know what you are doing.\n"
+"\n"
+"Press \"Configure\" if you want to show update options from setup dialog."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:265
 #, kde-format
 msgid ""
 "Your software is up-to-date.\n"
-"%1 %2 is the most recent version available."
+"%1 pre-release built on %2 is the most recent version available."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:205
+#: core/libs/onlineversion/onlineversiondlg.cpp:272
+#, kde-format
+msgid ""
+"Your software is up-to-date.\n"
+"%1 stable version %2 is the most recent version available."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:280
 #, kde-format
 msgid ""
 "Error while trying to check for new %1 version:\n"
 "\"%2\""
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:217
+#: core/libs/onlineversion/onlineversiondlg.cpp:294
+#, kde-format
+msgid "built on %1 with debug symbols"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:295
+#, kde-format
+msgid "built on %1"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:297
 #, fuzzy, kde-format
-msgid "Downloading new %1 version %2 in progress, please wait..."
+msgid ""
+"Downloading new %1\n"
+"%2\n"
+"in progress, please wait..."
 msgstr "Đang ngắt kết nối tới máy ảnh, hãy đợi..."
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:243
+#: core/libs/onlineversion/onlineversiondlg.cpp:303
+#, kde-format
+msgid "version %1 with debug symbols"
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:304
+#, fuzzy, kde-format
+msgid "version %1"
+msgstr "<b>Quyền hạn</b>:"
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:306
+#, fuzzy, kde-format
+msgid ""
+"Downloading new %1\n"
+"version %2\n"
+"in progress, please wait..."
+msgstr "Đang ngắt kết nối tới máy ảnh, hãy đợi..."
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:345
 #, kde-format
 msgid ""
-"The new %1 version %2 have been downloaded at:\n"
+"The new %1\n"
+"pre-release built on %2\n"
+"have been downloaded at:\n"
+"\n"
 "%3\n"
+"\n"
 "Press \"Open\" to show the bundle in file-manager..."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:253
+#: core/libs/onlineversion/onlineversiondlg.cpp:354
+#, kde-format
+msgid ""
+"The new %1\n"
+"stable version %2\n"
+"have been downloaded at:\n"
+"\n"
+"%3\n"
+"\n"
+"Press \"Open\" to show the bundle in file-manager..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:365
 #, kde-format
 msgid "Install..."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:256
+#: core/libs/onlineversion/onlineversiondlg.cpp:370
 #, kde-format
 msgid ""
-"The new %1 version %2 have been downloaded at:\n"
+"The new pre-release %1\n"
+"built on %2\n"
+"have been downloaded at:\n"
+"\n"
 "%3\n"
+"\n"
 "Press \"Install\" to close current session and upgrade..."
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondlg.cpp:277
+#: core/libs/onlineversion/onlineversiondlg.cpp:379
 #, kde-format
 msgid ""
-"Error while trying to download %1 version %2:\n"
+"The new %1\n"
+"stable version %2\n"
+"have been downloaded at:\n"
+"\n"
+"%3\n"
+"\n"
+"Press \"Install\" to close current session and upgrade..."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondlg.cpp:403
+#, kde-format
+msgid ""
+"Error while trying to download %1\n"
+"pre-release built on %2:\n"
+"\n"
 "\"%3\""
 msgstr ""
 
-#: core/libs/onlineversion/onlineversiondwnl.cpp:153
-#, fuzzy, kde-format
-msgid "Unsupported Architecture."
-msgstr "Không rõ"
+#: core/libs/onlineversion/onlineversiondlg.cpp:410
+#, kde-format
+msgid ""
+"Error while trying to download %1\n"
+"stable version %2:\n"
+"\n"
+"\"%3\""
+msgstr ""
 
-#: core/libs/onlineversion/onlineversiondwnl.cpp:219
+#: core/libs/onlineversion/onlineversiondlg.cpp:439
+#, fuzzy, kde-format
+msgid ""
+"Cannot start installer:\n"
+"%1"
+msgstr "Gặp lỗi khi lưu tệp"
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:220
+#, fuzzy, kde-format
+msgid "Checksum file is empty."
+msgstr "Cỡ gạch lát:"
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:232
+#, kde-format
+msgid "Checksum is invalid."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:253
 #, fuzzy, kde-format
 msgid "Downloaded file is empty."
 msgstr "Cỡ gạch lát:"
 
-#: core/libs/onlineversion/onlineversiondwnl.cpp:244
+#: core/libs/onlineversion/onlineversiondwnl.cpp:264
+#, kde-format
+msgid "Checksums error."
+msgstr ""
+
+#: core/libs/onlineversion/onlineversiondwnl.cpp:289
 #, fuzzy, kde-format
 msgid "Cannot open target file."
 msgstr "Gặp lỗi khi lưu tệp"
@@ -31233,108 +31510,108 @@ msgstr "Hiện đánh giá ảnh"
 msgid "Canon Digital Camera RAW Image Format version 3.0"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:370
+#: core/libs/settings/applicationsettings_miscs.cpp:390
 #, kde-format
 msgid "Do you want to do this operation on all group items?"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:372
+#: core/libs/settings/applicationsettings_miscs.cpp:392
 #, fuzzy, kde-format
 msgid "Remember choice for this operation"
 msgstr "Thông tin máy ảnh"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:412
+#: core/libs/settings/applicationsettings_miscs.cpp:432
 #, fuzzy, kde-format
 msgid "Renaming"
 msgstr "Tuỳ chọn thay tên tệp"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:415
+#: core/libs/settings/applicationsettings_miscs.cpp:435
 #, fuzzy, kde-format
 msgid "Import/Export tools"
 msgstr "Gỗ thông để trang trí"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:418
+#: core/libs/settings/applicationsettings_miscs.cpp:438
 #, kde-format
 msgid "Tools (editor, panorama, stack blending, calendar, external program)"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:430
+#: core/libs/settings/applicationsettings_miscs.cpp:450
 #, kde-format
 msgid ""
 "Operations related to metadata, labels, ratings, tags, geolocation and "
 "rotation"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:433
+#: core/libs/settings/applicationsettings_miscs.cpp:453
 #, fuzzy, kde-format
 #| msgid "Add to Light Table"
 msgid "Adding items to the Light Table"
 msgstr "Thêm vào Bảng ánh sáng"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:436
+#: core/libs/settings/applicationsettings_miscs.cpp:456
 #, kde-format
 msgid "Adding items to the Batch Queue Manager"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:439
+#: core/libs/settings/applicationsettings_miscs.cpp:459
 #, kde-format
 msgid "Opening items in the Slideshow"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:442
+#: core/libs/settings/applicationsettings_miscs.cpp:462
 #, fuzzy, kde-format
 msgid "Renaming items"
 msgstr "Tuỳ chọn thay tên tệp"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:445
+#: core/libs/settings/applicationsettings_miscs.cpp:465
 #, kde-format
 msgid "Passing items to import/export tools"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:448
+#: core/libs/settings/applicationsettings_miscs.cpp:468
 #, kde-format
 msgid ""
 "Several tools including the editor, panorama, stack blending, calendar, html "
 "gallery and opening with external programs"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_p.cpp:265
+#: core/libs/settings/applicationsettings_p.cpp:269
 #, kde-format
 msgid "Category"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_p.cpp:266
+#: core/libs/settings/applicationsettings_p.cpp:270
 #, kde-format
 msgid "Travel"
 msgstr "Du lịch"
 
-#: core/libs/settings/applicationsettings_p.cpp:267
+#: core/libs/settings/applicationsettings_p.cpp:271
 #, kde-format
 msgid "Holidays"
 msgstr "Ngày nghỉ"
 
-#: core/libs/settings/applicationsettings_p.cpp:268
+#: core/libs/settings/applicationsettings_p.cpp:272
 #, kde-format
 msgid "Friends"
 msgstr "Bạn bè"
 
-#: core/libs/settings/applicationsettings_p.cpp:269
+#: core/libs/settings/applicationsettings_p.cpp:273
 #, kde-format
 msgid "Nature"
 msgstr "Tự nhiên"
 
-#: core/libs/settings/applicationsettings_p.cpp:270
+#: core/libs/settings/applicationsettings_p.cpp:274
 #, kde-format
 msgid "Party"
 msgstr "Tiệc"
 
-#: core/libs/settings/applicationsettings_p.cpp:271
+#: core/libs/settings/applicationsettings_p.cpp:275
 #, kde-format
 msgid "Todo"
 msgstr "Cần làm"
 
-#: core/libs/settings/applicationsettings_p.cpp:272
-#: core/showfoto/setup/showfotosetup.cpp:153 core/utilities/setup/setup.cpp:219
+#: core/libs/settings/applicationsettings_p.cpp:276
+#: core/showfoto/setup/showfotosetup.cpp:156 core/utilities/setup/setup.cpp:220
 #, kde-format
 msgid "Miscellaneous"
 msgstr "Lặt vặt"
@@ -33817,7 +34094,7 @@ msgstr ""
 #: core/libs/widgets/mainview/daboutdata.cpp:204
 #: core/utilities/maintenance/imagequalitysorter.cpp:76
 #: core/utilities/maintenance/maintenancedlg.cpp:344
-#: core/utilities/setup/setup.cpp:199
+#: core/utilities/setup/setup.cpp:200
 #, fuzzy, kde-format
 msgid "Image Quality Sorter"
 msgstr "Bộ sửa ảnh"
@@ -33990,7 +34267,7 @@ msgid "Francisco J. Cruz"
 msgstr "Francisco J. Cruz"
 
 #: core/libs/widgets/mainview/daboutdata.cpp:318
-#: core/showfoto/setup/showfotosetup.cpp:135 core/utilities/setup/setup.cpp:187
+#: core/showfoto/setup/showfotosetup.cpp:138 core/utilities/setup/setup.cpp:188
 #, kde-format
 msgid "Color Management"
 msgstr "Quản lí màu"
@@ -34184,67 +34461,72 @@ msgid "Supported RAW Cameras"
 msgstr "Máy ảnh được lắp"
 
 #: core/libs/widgets/mainview/dxmlguiwindow.cpp:273
+#, kde-format
+msgid "List of Detected Hardware"
+msgstr ""
+
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
 #, fuzzy, kde-format
 msgid "Donate..."
 msgstr "Tăng tiền..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
 #, kde-format
 msgid "Recipes Book..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
 #, kde-format
 msgid "Contribute..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:289
 #, fuzzy, kde-format
 msgid "Check for New Version..."
 msgstr "&Lưu dạng..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:289
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:293
 #, fuzzy, kde-format
 #| msgid "Kipi Plugins Handbook"
 msgid "Online Handbook..."
 msgstr "Sổ tay phần bổ sung Kipi"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:332
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:337
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:342
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:347
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:348
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:352
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:353
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:357
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:377
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:381
 #, fuzzy, kde-format
 msgid "Show Statusbar"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:431
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:435
 #, fuzzy, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"
@@ -36944,85 +37226,85 @@ msgstr "T&rang trí"
 msgid "Effec&ts"
 msgstr "Hiệu ứng che mờ"
 
-#: core/showfoto/setup/showfotosetup.cpp:104 core/utilities/setup/setup.cpp:138
+#: core/showfoto/setup/showfotosetup.cpp:107 core/utilities/setup/setup.cpp:139
 #, kde-format
 msgid "Configure"
 msgstr "Cấu hình"
 
-#: core/showfoto/setup/showfotosetup.cpp:111
+#: core/showfoto/setup/showfotosetup.cpp:114
 #, fuzzy, kde-format
 msgid "Editor Window"
 msgstr "Vừa khít cửa &sổ"
 
-#: core/showfoto/setup/showfotosetup.cpp:112
+#: core/showfoto/setup/showfotosetup.cpp:115
 #, kde-format
 msgid ""
 "<qt>Editor Window Settings<br/><i>Customize editor window behavior</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:118 core/utilities/setup/setup.cpp:170
+#: core/showfoto/setup/showfotosetup.cpp:121 core/utilities/setup/setup.cpp:171
 #, kde-format
 msgid ""
 "<qt>Embedded Image Information Management<br/><i>Setup relations between "
 "images and metadata</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:123
+#: core/showfoto/setup/showfotosetup.cpp:126
 #, kde-format
 msgid "Tool Tip"
 msgstr "Mẹo công cụ"
 
-#: core/showfoto/setup/showfotosetup.cpp:124
+#: core/showfoto/setup/showfotosetup.cpp:127
 #, kde-format
 msgid ""
 "<qt>Thumbbar Items Tool-Tip Settings<br/><i>Customize information in tool-"
 "tips</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:129
+#: core/showfoto/setup/showfotosetup.cpp:132
 #, fuzzy, kde-format
 msgid "RAW Decoding"
 msgstr "Giải mã RAW"
 
-#: core/showfoto/setup/showfotosetup.cpp:130
+#: core/showfoto/setup/showfotosetup.cpp:133
 #, kde-format
 msgid ""
 "<qt>RAW Files Decoding Settings<br/><i>Customize default RAW decoding "
 "settings</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:136
+#: core/showfoto/setup/showfotosetup.cpp:139
 #, kde-format
 msgid ""
 "<qt>Settings for Color Management<br/><i>Customize color management "
 "settings</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:141
+#: core/showfoto/setup/showfotosetup.cpp:144
 #, kde-format
 msgid "Save Images"
 msgstr "Lưu ảnh"
 
-#: core/showfoto/setup/showfotosetup.cpp:142
+#: core/showfoto/setup/showfotosetup.cpp:145
 #, kde-format
 msgid ""
 "<qt>Settings for Saving Image Files<br/><i>Set default configuration used to "
 "save images</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:147 core/utilities/setup/setup.cpp:213
+#: core/showfoto/setup/showfotosetup.cpp:150 core/utilities/setup/setup.cpp:214
 #, fuzzy, kde-format
 msgid "Plugins"
 msgstr "Phần bổ sung Kipi"
 
-#: core/showfoto/setup/showfotosetup.cpp:148
+#: core/showfoto/setup/showfotosetup.cpp:151
 #, kde-format
 msgid ""
 "<qt>Main Interface Plug-in Settings<br/><i>Set which plugins will be "
 "accessible from application</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetup.cpp:154
+#: core/showfoto/setup/showfotosetup.cpp:157
 #, kde-format
 msgid ""
 "<qt>Miscellaneous Settings<br/><i>Customize behavior of the other parts of "
@@ -37110,47 +37392,47 @@ msgstr ""
 msgid "Behavior"
 msgstr "Ứng xử"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:128
+#: core/showfoto/setup/showfotosetupmisc.cpp:139
 #, fuzzy, kde-format
 msgid "Images Sort Order"
 msgstr "Thiết lập ảnh"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:132
+#: core/showfoto/setup/showfotosetupmisc.cpp:143
 #, fuzzy, kde-format
 msgid "Sort images by:"
 msgstr "&Sắp xếp ảnh"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:134
+#: core/showfoto/setup/showfotosetupmisc.cpp:145
 #, fuzzy, kde-format
 msgctxt "sort images by date"
 msgid "Date"
 msgstr "Ngày:"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:135
+#: core/showfoto/setup/showfotosetupmisc.cpp:146
 #, fuzzy, kde-format
 msgctxt "sort images by name"
 msgid "Name"
 msgstr "Tên"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:136
+#: core/showfoto/setup/showfotosetupmisc.cpp:147
 #, fuzzy, kde-format
 msgctxt "sort images by size"
 msgid "File Size"
 msgstr "Cỡ gạch lát:"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:137
+#: core/showfoto/setup/showfotosetupmisc.cpp:148
 #, kde-format
 msgid ""
 "Here, select whether newly-loaded images are sorted by their date, name, or "
 "size on disk."
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:140
+#: core/showfoto/setup/showfotosetupmisc.cpp:151
 #, kde-format
 msgid "Reverse ordering"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:141
+#: core/showfoto/setup/showfotosetupmisc.cpp:152
 #, fuzzy, kde-format
 msgid ""
 "If this option is enabled, newly-loaded images will be sorted in descending "
@@ -37159,185 +37441,259 @@ msgstr ""
 "<p>Bật tuỳ chọn này thì Chiếu ảnh sẽ được khởi chạy với ảnh đang chọn trong "
 "danh sách các ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:150
+#: core/showfoto/setup/showfotosetupmisc.cpp:161
 #, fuzzy, kde-format
 msgid "Thumbnails"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:153
+#: core/showfoto/setup/showfotosetupmisc.cpp:164
 #, fuzzy, kde-format
 msgid "&Show image Format"
 msgstr "Hiện đánh giá ảnh"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:154
+#: core/showfoto/setup/showfotosetupmisc.cpp:165
 #: core/utilities/setup/camera/setupcamera.cpp:490
 #, fuzzy, kde-format
 msgid "Set this option to show image format over image thumbnail."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên tệp bên dưới ảnh mẫu của ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:155
+#: core/showfoto/setup/showfotosetupmisc.cpp:166
 #, fuzzy, kde-format
 msgid "&Show Geolocation Indicator"
 msgstr "Lọc lục"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:156
+#: core/showfoto/setup/showfotosetupmisc.cpp:167
 #: core/utilities/setup/camera/setupcamera.cpp:493
 #, fuzzy, kde-format
 msgid "Set this option to indicate if image has geolocation information."
 msgstr "<p>Bật tuỳ chọn này để hiển thị chú thích về ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:157
-#: core/utilities/setup/setupmisc.cpp:178
+#: core/showfoto/setup/showfotosetupmisc.cpp:168
+#: core/utilities/setup/setupmisc.cpp:190
 #, kde-format
 msgid "Scroll current item to center of thumbbar"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:172
-#: core/utilities/setup/setupmisc.cpp:213
+#: core/showfoto/setup/showfotosetupmisc.cpp:177
+#: core/utilities/setup/setupmisc.cpp:211
+#, fuzzy, kde-format
+msgid "Updates"
+msgstr "Ngày:"
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:181
+#: core/utilities/setup/setupmisc.cpp:215
+#, fuzzy, kde-format
+msgid "Check for new version:"
+msgstr "&Lưu dạng..."
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:183
+#: core/utilities/setup/setupmisc.cpp:217
+#, kde-format
+msgid "Only For Stable Releases"
+msgstr ""
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:184
+#: core/utilities/setup/setupmisc.cpp:218
+#, fuzzy, kde-format
+msgid "Weekly Pre-Releases"
+msgstr "Đang xử lí ảnh mẫu ít"
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:185
+#: core/utilities/setup/setupmisc.cpp:219
+#, kde-format
+msgid ""
+"Set this option to configure which kind of new versions must be check for "
+"updates.\n"
+"\"Stable\" releases are official versions safe to use in production.\n"
+"\"Pre-releases\" are proposed weekly to tests quickly new features\n"
+"and are not recommended to use in production as bugs can remain."
+msgstr ""
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:190
+#: core/utilities/setup/setupmisc.cpp:224
+#, kde-format
+msgid "Use Version With Debug Symbols"
+msgstr ""
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:191
+#: core/utilities/setup/setupmisc.cpp:225
+#, kde-format
+msgid ""
+"If this option is enabled, a version including debug symbols will be used "
+"for updates.\n"
+"This version is more heavy but can help developers to trace dysfunctions in "
+"debugger."
+msgstr ""
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:196
+#: core/utilities/setup/setupmisc.cpp:230
+#, kde-format
+msgid "Last check: %1"
+msgstr ""
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:197
+#: core/utilities/setup/setupmisc.cpp:231
+#, fuzzy, kde-format
+msgid "Check now..."
+msgstr "&Lưu dạng..."
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:225
+#: core/utilities/setup/setupmisc.cpp:267
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgctxt "@title:tab"
 msgid "Behaviour"
 msgstr "Ứng xử"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:179
-#: core/utilities/setup/setupmisc.cpp:220
+#: core/showfoto/setup/showfotosetupmisc.cpp:232
+#: core/utilities/setup/setupmisc.cpp:274
 #, kde-format
 msgid "&Show splash screen at startup"
 msgstr "Hiện màn hình &giật gân khi khởi chạy"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:180
+#: core/showfoto/setup/showfotosetupmisc.cpp:233
 #, fuzzy, kde-format
 msgid "Use native file dialogs from the system"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:183
-#: core/utilities/setup/setupmisc.cpp:225
+#: core/showfoto/setup/showfotosetupmisc.cpp:236
+#: core/utilities/setup/setupmisc.cpp:279
 #, kde-format
 msgid "Sidebar tab title:"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:185
-#: core/utilities/setup/setupmisc.cpp:227
+#: core/showfoto/setup/showfotosetupmisc.cpp:238
+#: core/utilities/setup/setupmisc.cpp:281
 #, kde-format
 msgid "Only For Active Tab"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:186
-#: core/utilities/setup/setupmisc.cpp:228
+#: core/showfoto/setup/showfotosetupmisc.cpp:239
+#: core/utilities/setup/setupmisc.cpp:282
 #, fuzzy, kde-format
 msgid "For All Tabs"
 msgstr "Mọi thẻ"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:187
+#: core/showfoto/setup/showfotosetupmisc.cpp:240
 #, fuzzy, kde-format
 msgid "Set this option to configure how sidebars tab title are visible."
 msgstr "<p>Bật tuỳ chọn này để hiển thị kích cỡ của tệp ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:190
-#: core/utilities/setup/setupmisc.cpp:233
+#: core/showfoto/setup/showfotosetupmisc.cpp:243
+#: core/utilities/setup/setupmisc.cpp:287
 #, kde-format
 msgid "Widget style:"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:192
-#: core/utilities/setup/setupmisc.cpp:235
+#: core/showfoto/setup/showfotosetupmisc.cpp:245
+#: core/utilities/setup/setupmisc.cpp:289
 #, fuzzy, kde-format
 msgid "Set this option to choose the default window decoration and looks."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:212
-#: core/utilities/setup/setupmisc.cpp:255
+#: core/showfoto/setup/showfotosetupmisc.cpp:265
+#: core/utilities/setup/setupmisc.cpp:309
 #, kde-format
 msgid "Icon theme (changes after restart):"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:214
-#: core/utilities/setup/setupmisc.cpp:257
+#: core/showfoto/setup/showfotosetupmisc.cpp:267
+#: core/utilities/setup/setupmisc.cpp:311
 #, fuzzy, kde-format
 msgid "Set this option to choose the default icon theme."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:218
-#: core/utilities/setup/setupmisc.cpp:261
+#: core/showfoto/setup/showfotosetupmisc.cpp:271
+#: core/utilities/setup/setupmisc.cpp:315
 #, kde-format
 msgctxt "icon theme"
 msgid "Adwaita"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:219
-#: core/utilities/setup/setupmisc.cpp:262
+#: core/showfoto/setup/showfotosetupmisc.cpp:272
+#: core/utilities/setup/setupmisc.cpp:316
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:220
-#: core/utilities/setup/setupmisc.cpp:263
+#: core/showfoto/setup/showfotosetupmisc.cpp:273
+#: core/utilities/setup/setupmisc.cpp:317
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze Dark"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:221
-#: core/utilities/setup/setupmisc.cpp:264
+#: core/showfoto/setup/showfotosetupmisc.cpp:274
+#: core/utilities/setup/setupmisc.cpp:318
 #, kde-format
 msgctxt "icon theme"
 msgid "Faenza"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:222
-#: core/utilities/setup/setupmisc.cpp:265
+#: core/showfoto/setup/showfotosetupmisc.cpp:275
+#: core/utilities/setup/setupmisc.cpp:319
 #, fuzzy, kde-format
 msgctxt "icon theme"
 msgid "Ambiance"
 msgstr "Độ trưng:"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:223
-#: core/utilities/setup/setupmisc.cpp:266
+#: core/showfoto/setup/showfotosetupmisc.cpp:276
+#: core/utilities/setup/setupmisc.cpp:320
 #, kde-format
 msgctxt "icon theme"
 msgid "Humanity"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:224
-#: core/utilities/setup/setupmisc.cpp:267
+#: core/showfoto/setup/showfotosetupmisc.cpp:277
+#: core/utilities/setup/setupmisc.cpp:321
 #, kde-format
 msgctxt "icon theme"
 msgid "Oxygen"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:247
-#: core/utilities/setup/setupmisc.cpp:290
+#: core/showfoto/setup/showfotosetupmisc.cpp:300
+#: core/utilities/setup/setupmisc.cpp:344
 #, kde-format
 msgid "Use Icon Theme From System"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:254
-#: core/utilities/setup/setupmisc.cpp:297
+#: core/showfoto/setup/showfotosetupmisc.cpp:307
+#: core/utilities/setup/setupmisc.cpp:351
 #, fuzzy, kde-format
 #| msgid "Selection"
 msgid "Application font:"
 msgstr "Vùng chọn"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:255
-#: core/utilities/setup/setupmisc.cpp:298
+#: core/showfoto/setup/showfotosetupmisc.cpp:308
+#: core/utilities/setup/setupmisc.cpp:352
 #, fuzzy, kde-format
 msgid "Select here the font used to display text in whole application."
 msgstr "<p>Ở đây hãy đặt màu dùng để vẽ nét dẫn cấu tạo."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:269
-#: core/utilities/setup/setupmisc.cpp:313
+#: core/showfoto/setup/showfotosetupmisc.cpp:322
+#: core/utilities/setup/setupmisc.cpp:367
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Appearance"
 msgstr "T&hôi"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:275
-#: core/utilities/setup/setupmisc.cpp:382
+#: core/showfoto/setup/showfotosetupmisc.cpp:328
+#: core/utilities/setup/setupmisc.cpp:436
 #, kde-format
 msgctxt "@title:tab"
 msgid "System"
+msgstr ""
+
+#: core/showfoto/setup/showfotosetupmisc.cpp:350
+#: core/utilities/setup/setupmisc.cpp:459
+#, kde-format
+msgid ""
+"Check for new version option will verify the pre-releases.\n"
+"\"Pre-releases\" are proposed weekly to tests quickly new features.\n"
+"It's not recommended to use pre-release in production as bugs can remain,\n"
+"unless you know what you are doing.\n"
+"Do you want to continue?"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupplugins.cpp:75
@@ -37589,7 +37945,7 @@ msgid "&Abort"
 msgstr "&Huỷ bỏ"
 
 #: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:95
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:957
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:911
 #, fuzzy, kde-format
 msgid "Processing..."
 msgstr "Thuộc tính"
@@ -39236,38 +39592,38 @@ msgstr ""
 msgid "Restrict to:"
 msgstr "Phục hồi lại"
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:186
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:194
 #, fuzzy, kde-format
 msgctxt "@label:listbox"
 msgid "Only selected tab"
 msgstr "Đặt lại biểu tượng thẻ"
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:187
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:195
 #, kde-format
 msgctxt "@label:listbox"
 msgid "One of"
 msgstr ""
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:188
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:196
 #, fuzzy, kde-format
 #| msgid "Both"
 msgctxt "@label:listbox"
 msgid "Both"
 msgstr "Cả hai"
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:189
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:197
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Albums but not tags"
 msgstr ""
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:190
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:198
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Tags but not albums"
 msgstr ""
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:193
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:201
 #, kde-format
 msgid ""
 "Use this option to decide about the relation of the selected albums and tags."
@@ -39279,12 +39635,12 @@ msgid ""
 "tab</i> means that only the selected tab is used."
 msgstr ""
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:208
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:216
 #, fuzzy, kde-format
 msgid "Remove Duplicates"
 msgstr "Gỡ bỏ mục"
 
-#: core/utilities/fuzzysearch/findduplicatesview.cpp:210
+#: core/utilities/fuzzysearch/findduplicatesview.cpp:218
 #, fuzzy, kde-format
 msgid "Use this button to delete all duplicate images."
 msgstr "<p>Bật tuỳ chọn này để hiển thị kiểu của tệp ảnh."
@@ -43291,200 +43647,200 @@ msgstr "Theo tập hợp"
 msgid "Thumbs"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:180
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:129
 #, fuzzy, kde-format
 msgid "Queues"
 msgstr "Quique"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:189
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:138
 #, fuzzy, kde-format
 msgid "Queue Settings"
 msgstr "Thiết lập chung"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:198
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:147
 #, kde-format
 msgid "Control Panel"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:207
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:156
 #, fuzzy, kde-format
 msgid "Assigned Tools"
 msgstr "Thẻ đã gán"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:216
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:165
 #, fuzzy, kde-format
 msgid "Tool Settings"
 msgstr "Thiết lập cục bộ"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:330
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:279
 #, fuzzy, kde-format
 msgid "Run"
 msgstr "Mặt trời"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:337
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:286
 #, kde-format
 msgid "Run all"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:349
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:298
 #, kde-format
 msgid "New Queue"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:353
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:302
 #, fuzzy, kde-format
 msgid "Remove Queue"
 msgstr "Gỡ bỏ mục"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:359
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:308
 #, kde-format
 msgid "Save Workflow"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:363
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:312
 #, fuzzy, kde-format
 msgid "Remove items"
 msgstr "Gỡ bỏ mục"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:369
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:318
 #, fuzzy, kde-format
 msgid "Remove processed items"
 msgstr "Gỡ bỏ mục"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:374
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:323
 #, fuzzy, kde-format
 msgid "Clear Queue"
 msgstr "Chuẩn"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:385
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:334
 #, fuzzy, kde-format
 msgid "Move up"
 msgstr "Chuyển"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:389
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:338
 #, fuzzy, kde-format
 msgid "Move down"
 msgstr "Chuyển"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:393
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:342
 #, fuzzy, kde-format
 msgid "Remove tool"
 msgstr "Gỡ bỏ mục"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:486
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:435
 #, fuzzy, kde-format
 msgid "Current Queue: "
 msgstr "Xoá tìm kiếm"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:491
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:517
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:440
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:466
 #, fuzzy, kde-format
 msgid "No items"
 msgstr "Chưa có ngày"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:504
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:530
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:453
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:479
 #, fuzzy, kde-format
 msgid "No tasks"
 msgstr "16 bit"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:508
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:534
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:457
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:483
 #, fuzzy, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
 msgstr[0] "16 bit"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:512
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:461
 #, fuzzy, kde-format
 msgid "Total: "
 msgstr "%1 (%2)"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:542
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:491
 #, fuzzy, kde-format
 #| msgid "Ready"
 msgctxt "batch queue manager is ready to use"
 msgid "Ready"
 msgstr "Sẵn sàng"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:575
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:529
 #, fuzzy, kde-format
 msgid "Processing under progress"
 msgstr "Đang xử lí ảnh mẫu lớn"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:576
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:530
 #, kde-format
 msgid "Batch Queue Manager is running. Do you want to cancel current job?"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:675
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:629
 #, fuzzy, kde-format
 msgid "There is no queue to be run."
 msgstr "Không có ảnh nào trong thư mục này."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:679
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:633
 #, fuzzy, kde-format
 msgid "There is no item to process in the current queue (%1)."
 msgstr "Không có ảnh nào trong thư mục này."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:685
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:639
 #, kde-format
 msgid "Custom renaming rule is invalid for current queue (%1). Please fix it."
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:690
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:644
 #, kde-format
 msgid ""
 "Assigned batch tools list is empty for current queue (%1). Please assign "
 "tools."
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:722
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:676
 #, fuzzy, kde-format
 msgid "There are no items to process in the queues."
 msgstr "Không có ảnh nào trong thư mục này."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:893
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:903
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:847
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:857
 #, kde-format
 msgid "Processed items album settings"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:894
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:848
 #, kde-format
 msgid ""
 "Album to host processed items from queue \"%1\" is not set. Please select "
 "one from Queue Settings panel."
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:904
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:858
 #, kde-format
 msgid ""
 "Album to host processed items from queue \"%1\" is not available or not "
 "writable. Please set another one from Queue Settings panel."
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:981
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:935
 #, fuzzy, kde-format
 msgid "Failed to process item..."
 msgstr "Lỗi bật/tắt tệp khoá « %1 »."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:994
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:948
 #, fuzzy, kde-format
 msgid "Process Cancelled..."
 msgstr "Thuộc tính"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1014
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:968
 #, kde-format
 msgid "Item \"%1\" from queue \"%2\": %3"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1043
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:997
 #, fuzzy, kde-format
 msgid "Batch queue finished"
 msgstr "Tiến trình liệt kê các thư mục đã chạy xong."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1047
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1001
 #, fuzzy, kde-format
 msgid "All batch queues finished"
 msgstr "Tiến trình liệt kê các thư mục đã chạy xong."
@@ -46906,95 +47262,95 @@ msgstr ""
 msgid "You would rather disable writing metadata to RAW files?"
 msgstr "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/utilities/setup/setup.cpp:145
+#: core/utilities/setup/setup.cpp:146
 #, fuzzy, kde-format
 msgid "Database"
 msgstr "Tạo thư mục ?"
 
-#: core/utilities/setup/setup.cpp:146
+#: core/utilities/setup/setup.cpp:147
 #, kde-format
 msgid "<qt>Database Settings<br/><i>Customize database settings</i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:151
+#: core/utilities/setup/setup.cpp:152
 #, kde-format
 msgid "Collections"
 msgstr "Tập hợp"
 
-#: core/utilities/setup/setup.cpp:152
+#: core/utilities/setup/setup.cpp:153
 #, kde-format
 msgid "<qt>Collections Settings<br/><i>Set root albums locations</i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:158
+#: core/utilities/setup/setup.cpp:159
 #, kde-format
 msgid ""
 "<qt>Application Views Settings<br/><i>Customize the look of the views</i></"
 "qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:163
+#: core/utilities/setup/setup.cpp:164
 #, fuzzy, kde-format
 msgid "Tool-Tip"
 msgstr "Mẹo công cụ"
 
-#: core/utilities/setup/setup.cpp:164
+#: core/utilities/setup/setup.cpp:165
 #, kde-format
 msgid ""
 "<qt>Items Tool-Tip Settings<br/><i>Customize information in item tool-tips</"
 "i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:175
+#: core/utilities/setup/setup.cpp:176
 #, fuzzy, kde-format
 msgid "Templates"
 msgstr "Tương đối"
 
-#: core/utilities/setup/setup.cpp:176
+#: core/utilities/setup/setup.cpp:177
 #, kde-format
 msgid ""
 "<qt>Metadata templates<br/><i>Manage your collection of metadata templates</"
 "i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:182
+#: core/utilities/setup/setup.cpp:183
 #, kde-format
 msgid ""
 "<qt>Image Editor Settings<br/><i>Customize the image editor settings</i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:188
+#: core/utilities/setup/setup.cpp:189
 #, kde-format
 msgid ""
 "<qt>Settings for Color Management<br/><i>Customize the color management "
 "settings</i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:194
+#: core/utilities/setup/setup.cpp:195
 #, kde-format
 msgid ""
 "<qt>Light Table Settings<br/><i>Customize tool used to compare images</i></"
 "qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:200
+#: core/utilities/setup/setup.cpp:201
 #, fuzzy, kde-format
 msgid "<qt>Image Quality Sorter Settings</qt>"
 msgstr "Bộ sửa ảnh"
 
-#: core/utilities/setup/setup.cpp:205
+#: core/utilities/setup/setup.cpp:206
 #, kde-format
 msgid "<qt>Camera Settings<br/><i>Manage your camera devices</i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:214
+#: core/utilities/setup/setup.cpp:215
 #, kde-format
 msgid ""
 "<qt>Plug-in Settings<br/><i>Set which plugins will be accessible from "
 "application</i></qt>"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:220
+#: core/utilities/setup/setup.cpp:221
 #, kde-format
 msgid ""
 "<qt>Miscellaneous Settings<br/><i>Customize behavior of the other parts of "
@@ -47410,24 +47766,24 @@ msgid ""
 "or unset it to preserve the images currently on the light table."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:143
+#: core/utilities/setup/setupmisc.cpp:155
 #, kde-format
 msgid "String comparison type:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:145
+#: core/utilities/setup/setupmisc.cpp:157
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Natural"
 msgstr "Tự nhiên"
 
-#: core/utilities/setup/setupmisc.cpp:146
+#: core/utilities/setup/setupmisc.cpp:158
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Normal"
 msgstr "Chuẩn"
 
-#: core/utilities/setup/setupmisc.cpp:147
+#: core/utilities/setup/setupmisc.cpp:159
 #, kde-format
 msgid ""
 "<qt>Sets the way in which strings are compared inside digiKam. This eg. "
@@ -47439,28 +47795,28 @@ msgid ""
 "albums should be sorted according to these dates.</qt>"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:157
+#: core/utilities/setup/setupmisc.cpp:169
 #, fuzzy, kde-format
 msgid "Confirm when moving items to the &trash"
 msgstr "Yêu cầu xác nhận khi chuyển mục vào Sọ&t Rác"
 
-#: core/utilities/setup/setupmisc.cpp:158
+#: core/utilities/setup/setupmisc.cpp:170
 #, fuzzy, kde-format
 msgid "Confirm when permanently deleting items"
 msgstr "Yêu cầu xác nhận khi chuyển mục vào Sọ&t Rác"
 
-#: core/utilities/setup/setupmisc.cpp:159
+#: core/utilities/setup/setupmisc.cpp:171
 #, fuzzy, kde-format
 msgid "Do not confirm when applying changes in the &right sidebar"
 msgstr "Áp dụng thay đổi t&rong khung lề bên phải, không cần xác nhận"
 
-#: core/utilities/setup/setupmisc.cpp:160
+#: core/utilities/setup/setupmisc.cpp:172
 #, fuzzy, kde-format
 #| msgid "&Scan for new items on startup (slows down startup)"
 msgid "&Scan for new items at startup (makes startup slower)"
 msgstr "&Quét tìm mục mới khi khởi chạy (làm chậm việc khởi chạy)"
 
-#: core/utilities/setup/setupmisc.cpp:161
+#: core/utilities/setup/setupmisc.cpp:173
 #, kde-format
 msgid ""
 "Set this option to force digiKam to scan all collections for new items to\n"
@@ -47477,12 +47833,12 @@ msgid ""
 "a manual scan through the maintenance tool at the right moment."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:170
+#: core/utilities/setup/setupmisc.cpp:182
 #, kde-format
 msgid "Remove obsolete core database objects (makes startup slower)"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:171
+#: core/utilities/setup/setupmisc.cpp:183
 #, kde-format
 msgid ""
 "Set this option to force digiKam to clean up the core database from obsolete "
@@ -47495,22 +47851,22 @@ msgid ""
 "For clean up routines for other databases, please use the maintenance."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:177
+#: core/utilities/setup/setupmisc.cpp:189
 #, kde-format
 msgid "Expand current tree item with a single mouse click"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:179
+#: core/utilities/setup/setupmisc.cpp:191
 #, kde-format
 msgid "Show only face tags for assigning names in people sidebar"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:184
+#: core/utilities/setup/setupmisc.cpp:196
 #, kde-format
 msgid "Lower bound for minimum similarity:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:190
+#: core/utilities/setup/setupmisc.cpp:202
 #, kde-format
 msgid ""
 "Select here the lower bound of the minimum similarity threshold for fuzzy "
@@ -47518,17 +47874,17 @@ msgid ""
 "than 40 can make the search <b>really</b> slow."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:221
+#: core/utilities/setup/setupmisc.cpp:275
 #, fuzzy, kde-format
 msgid "Use native file dialogs from system"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/utilities/setup/setupmisc.cpp:222
+#: core/utilities/setup/setupmisc.cpp:276
 #, fuzzy, kde-format
 msgid "Draw frames around grouped items"
 msgstr "&Sắp xếp ảnh"
 
-#: core/utilities/setup/setupmisc.cpp:229
+#: core/utilities/setup/setupmisc.cpp:283
 #, kde-format
 msgid ""
 "Set this option to configure how sidebar tab titles are visible. Use \"Only "
@@ -47536,12 +47892,12 @@ msgid ""
 "laptop computer."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:322
+#: core/utilities/setup/setupmisc.cpp:376
 #, kde-format
 msgid "Perform the following operations on all group members:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:323
+#: core/utilities/setup/setupmisc.cpp:377
 #, kde-format
 msgid ""
 "When images are grouped the following operations<br/>are performed only on "
@@ -47550,12 +47906,12 @@ msgid ""
 "operation is executed."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:331
+#: core/utilities/setup/setupmisc.cpp:385
 #, kde-format
 msgid "Ask"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:376
+#: core/utilities/setup/setupmisc.cpp:430
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Grouping"
@@ -48004,6 +48360,10 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Downloading new %1 built on %2 in progress, please wait..."
+#~ msgstr "Đang ngắt kết nối tới máy ảnh, hãy đợi..."
 
 #, fuzzy
 #~| msgid "Open folder"

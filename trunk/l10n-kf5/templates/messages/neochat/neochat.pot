@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-05 02:29+0100\n"
+"POT-Creation-Date: 2021-01-15 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,14 +36,14 @@ msgstr ""
 msgid "No name"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:224
+#: imports/NeoChat/Component/ChatTextInput.qml:225
 #: imports/NeoChat/Component/Timeline/MessageDelegate.qml:138
 #: imports/NeoChat/Page/ImageEditorPage.qml:24
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:234
+#: imports/NeoChat/Component/ChatTextInput.qml:235
 #: imports/NeoChat/Page/ImageEditorPage.qml:112
 #: imports/NeoChat/Page/InvitationPage.qml:23
 #: imports/NeoChat/Page/LoginPage.qml:62
@@ -51,7 +51,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:286
+#: imports/NeoChat/Component/ChatTextInput.qml:287
 #, kde-format
 msgid "Edit Message"
 msgstr ""
@@ -61,17 +61,17 @@ msgstr ""
 msgid "Write your message..."
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:504
+#: imports/NeoChat/Component/ChatTextInput.qml:509
 #, kde-format
 msgid "Add an Emoji"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:532
+#: imports/NeoChat/Component/ChatTextInput.qml:537
 #, kde-format
 msgid "Attach an image or file"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:554
+#: imports/NeoChat/Component/ChatTextInput.qml:561
 #, kde-format
 msgid "Send message"
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 
 #: imports/NeoChat/Component/Timeline/ReactionDelegate.qml:48
 #, kde-format
-msgctxt "Seperate the usernames of users"
+msgctxt "Separate the usernames of users"
 msgid " and "
 msgstr ""
 
@@ -148,13 +148,13 @@ msgid_plural "%2 reacted with %3"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Component/Timeline/TextDelegate.qml:18
+#: imports/NeoChat/Component/Timeline/TextDelegate.qml:38
 #, kde-format
 msgid "(edited)"
 msgstr ""
 
 #: imports/NeoChat/Dialog/CreateRoomDialog.qml:21
-#: qml/main.qml:169
+#: qml/main.qml:184
 #, kde-format
 msgid "Create a Room"
 msgstr ""
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Room Topic"
 msgstr ""
 
-#: imports/NeoChat/Dialog/CreateRoomDialog.qml:39
+#: imports/NeoChat/Dialog/CreateRoomDialog.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "Ok"
@@ -269,22 +269,37 @@ msgstr ""
 msgid "Ban this user"
 msgstr ""
 
-#: imports/NeoChat/Menu/RoomListContextMenu.qml:18
+#: imports/NeoChat/Menu/RoomListContextMenu.qml:19
 #, kde-format
-msgid "Favourite"
+msgid "Open in new window"
 msgstr ""
 
 #: imports/NeoChat/Menu/RoomListContextMenu.qml:26
 #, kde-format
+msgid "Remove from Favourites"
+msgstr ""
+
+#: imports/NeoChat/Menu/RoomListContextMenu.qml:26
+#, kde-format
+msgid "Add to Favourites"
+msgstr ""
+
+#: imports/NeoChat/Menu/RoomListContextMenu.qml:32
+#, kde-format
+msgid "Reprioritize"
+msgstr ""
+
+#: imports/NeoChat/Menu/RoomListContextMenu.qml:32
+#, kde-format
 msgid "Deprioritize"
 msgstr ""
 
-#: imports/NeoChat/Menu/RoomListContextMenu.qml:36
+#: imports/NeoChat/Menu/RoomListContextMenu.qml:38
 #, kde-format
 msgid "Mark as Read"
 msgstr ""
 
-#: imports/NeoChat/Menu/RoomListContextMenu.qml:44
+#: imports/NeoChat/Menu/RoomListContextMenu.qml:46
 #, kde-format
 msgid "Leave Room"
 msgstr ""
@@ -327,7 +342,7 @@ msgid "Message Source"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:16
-#: qml/main.qml:179 qml/main.qml:182
+#: qml/main.qml:194 qml/main.qml:197
 #, kde-format
 msgid "Accounts"
 msgstr ""
@@ -338,7 +353,7 @@ msgid "Edit this account"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:49
-#: qml/main.qml:205
+#: qml/main.qml:220
 #, kde-format
 msgid "Logout"
 msgstr ""
@@ -395,7 +410,7 @@ msgid "Passwords do not match"
 msgstr ""
 
 #: imports/NeoChat/Page/DevicesPage.qml:16
-#: qml/main.qml:186 qml/main.qml:189
+#: qml/main.qml:201 qml/main.qml:204
 #, kde-format
 msgid "Devices"
 msgstr ""
@@ -523,7 +538,7 @@ msgid "Add"
 msgstr ""
 
 #: imports/NeoChat/Page/InviteUserPage.qml:72
-#: imports/NeoChat/Page/StartChatPage.qml:131
+#: imports/NeoChat/Page/StartChatPage.qml:138
 #, kde-format
 msgid "No users available"
 msgstr ""
@@ -533,38 +548,38 @@ msgstr ""
 msgid "Send invitation"
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:27
-#: qml/main.qml:160
+#: imports/NeoChat/Page/JoinRoomPage.qml:25
+#: qml/main.qml:175
 #, kde-format
 msgid "Explore Rooms"
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:41
+#: imports/NeoChat/Page/JoinRoomPage.qml:39
 #, kde-format
 msgid "Find a room..."
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:49
+#: imports/NeoChat/Page/JoinRoomPage.qml:47
 #, kde-format
 msgid "View"
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:49
+#: imports/NeoChat/Page/JoinRoomPage.qml:47
 #, kde-format
 msgid "Join"
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:68
+#: imports/NeoChat/Page/JoinRoomPage.qml:66
 #, kde-format
 msgid "Local"
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:68
+#: imports/NeoChat/Page/JoinRoomPage.qml:66
 #, kde-format
 msgid "Global"
 msgstr ""
 
-#: imports/NeoChat/Page/JoinRoomPage.qml:137
+#: imports/NeoChat/Page/JoinRoomPage.qml:135
 #, kde-format
 msgid "Joined"
 msgstr ""
@@ -614,58 +629,63 @@ msgstr ""
 msgid "Loading, this might take up to 10 seconds."
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:42
+#: imports/NeoChat/Page/RoomListPage.qml:39
 #, kde-format
 msgid "Rooms"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:59
+#: imports/NeoChat/Page/RoomListPage.qml:56
 #, kde-format
 msgid "No rooms found"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:59
+#: imports/NeoChat/Page/RoomListPage.qml:56
 #, kde-format
 msgid "Join some rooms to get started"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:62
-#: qml/main.qml:157
+#: imports/NeoChat/Page/RoomListPage.qml:59
+#: qml/main.qml:172
 #, kde-format
 msgid "Explore rooms"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:62
+#: imports/NeoChat/Page/RoomListPage.qml:59
 #, kde-format
 msgid "Search in room directory"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:139
+#: imports/NeoChat/Page/RoomListPage.qml:120
 #, kde-format
 msgid "No Name"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:149
+#: imports/NeoChat/Page/RoomListPage.qml:141
+#, kde-format
+msgid "Configure room"
+msgstr ""
+
+#: imports/NeoChat/Page/RoomPage.qml:170
 #, kde-format
 msgid "Choose local file"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:175
+#: imports/NeoChat/Page/RoomPage.qml:196
 #, kde-format
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:507
+#: imports/NeoChat/Page/RoomPage.qml:529
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:507
+#: imports/NeoChat/Page/RoomPage.qml:529
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:523
+#: imports/NeoChat/Page/RoomPage.qml:545
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -673,13 +693,13 @@ msgid_plural "%2 are typing"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Page/RoomPage.qml:554
+#: imports/NeoChat/Page/RoomPage.qml:576
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:16
-#: qml/main.qml:192 qml/main.qml:195
+#: qml/main.qml:207 qml/main.qml:210
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -725,7 +745,7 @@ msgid "Show User Avatar"
 msgstr ""
 
 #: imports/NeoChat/Page/StartChatPage.qml:22
-#: qml/main.qml:163 qml/main.qml:166 qml/main.qml:176
+#: qml/main.qml:178 qml/main.qml:181 qml/main.qml:191
 #, kde-format
 msgid "Start a Chat"
 msgstr ""
@@ -787,104 +807,203 @@ msgstr[1] ""
 msgid "No Member Count"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:206
+#: imports/NeoChat/Panel/RoomDrawer.qml:218
 #, kde-format
 msgid "Owner"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:209
+#: imports/NeoChat/Panel/RoomDrawer.qml:221
 #, kde-format
 msgid "Admin"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:212
+#: imports/NeoChat/Panel/RoomDrawer.qml:224
 #, kde-format
 msgid "Mod"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:215
+#: imports/NeoChat/Panel/RoomDrawer.qml:227
 #, kde-format
 msgid "Muted"
 msgstr ""
 
-#: qml/main.qml:199
+#: qml/main.qml:214
 #, kde-format
 msgid "About Neochat"
 msgstr ""
 
-#: qml/main.qml:202
+#: qml/main.qml:217
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: qml/main.qml:211
+#: qml/main.qml:226
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: qml/main.qml:296
+#: qml/main.qml:323
 #, kde-format
 msgid "User consent"
 msgstr ""
 
-#: qml/main.qml:302
+#: qml/main.qml:329
 #, kde-format
 msgid ""
 "Your homeserver requires you to agree to its terms and conditions before "
 "being able to use it. Please click the button below to read them."
 msgstr ""
 
-#: qml/main.qml:307
+#: qml/main.qml:334
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: src/controller.cpp:129 src/controller.cpp:137
+#: src/actionshandler.cpp:66 src/actionshandler.cpp:72
+#: src/actionshandler.cpp:78 src/actionshandler.cpp:84
+#: src/actionshandler.cpp:90 src/actionshandler.cpp:96
+#: src/actionshandler.cpp:102
+#, kde-format
+msgctxt "@label Parameter of a command"
+msgid "<message>"
+msgstr ""
+
+#: src/actionshandler.cpp:67
+#, kde-format
+msgid "Prepends ¯\\_(ツ)_/¯ to a plain-text message"
+msgstr ""
+
+#: src/actionshandler.cpp:73
+#, kde-format
+msgid "Prepends ( ͡° ͜ʖ ͡°) to a plain-text message"
+msgstr ""
+
+#: src/actionshandler.cpp:79
+#, kde-format
+msgid "Sends a message as plain text, without interpreting it as markdown"
+msgstr ""
+
+#: src/actionshandler.cpp:85
+#, kde-format
+msgid "Sends a message as html, without interpreting it as markdown"
+msgstr ""
+
+#: src/actionshandler.cpp:91
+#, kde-format
+msgid "Sends the given message coloured as a rainbow"
+msgstr ""
+
+#: src/actionshandler.cpp:97
+#, kde-format
+msgid "Sends the given emote coloured as a rainbow"
+msgstr ""
+
+#: src/actionshandler.cpp:103
+#, kde-format
+msgid "Displays action"
+msgstr ""
+
+#: src/actionshandler.cpp:109
+#, kde-format
+msgctxt "@label Parameter of a command"
+msgid "<room-address>"
+msgstr ""
+
+#: src/actionshandler.cpp:110
+#, kde-format
+msgid "Joins room with given address"
+msgstr ""
+
+#: src/actionshandler.cpp:115
+#, kde-format
+msgctxt "@label Parameter of a command"
+msgid "[<room-address>]"
+msgstr ""
+
+#: src/actionshandler.cpp:116
+#, kde-format
+msgid "Leave room"
+msgstr ""
+
+#: src/actionshandler.cpp:121
+#, kde-format
+msgctxt "@label Parameter of a command"
+msgid "<user-id>"
+msgstr ""
+
+#: src/actionshandler.cpp:122
+#, kde-format
+msgid "Invites user with given id to current room"
+msgstr ""
+
+#: src/actionshandler.cpp:133
+#, kde-format
+msgid "The room id you are trying to join is not valid"
+msgstr ""
+
+#: src/actionshandler.cpp:141
+#, kde-format
+msgid "Server error when joining the room \"%1\": %2"
+msgstr ""
+
+#: src/actionshandler.cpp:154
+#, kde-format
+msgid "Room creation failed: \"%1\""
+msgstr ""
+
+#: src/actionshandler.cpp:253 src/actionshandler.cpp:264
+#: src/actionshandler.cpp:290 src/actionshandler.cpp:295
+#: src/actionshandler.cpp:308 src/actionshandler.cpp:313
+#, kde-format
+msgid "Invalid command"
+msgstr ""
+
+#: src/controller.cpp:127 src/controller.cpp:135
 #, kde-format
 msgid "Network Error"
 msgstr ""
 
-#: src/controller.cpp:132 src/controller.cpp:273 src/controller.cpp:276
+#: src/controller.cpp:130 src/controller.cpp:280 src/controller.cpp:283
 #, kde-format
 msgid "Login Failed"
 msgstr ""
 
-#: src/controller.cpp:273
+#: src/controller.cpp:280
 #, kde-format
 msgid "Access Token invalid or revoked"
 msgstr ""
 
-#: src/main.cpp:72
+#: src/main.cpp:73
 #, kde-format
 msgid "Neochat"
 msgstr ""
 
-#: src/main.cpp:72
+#: src/main.cpp:73
 #, kde-format
 msgid "Matrix client"
 msgstr ""
 
-#: src/main.cpp:72
+#: src/main.cpp:73
 #, kde-format
 msgid "© 2018-2020 Black Hat, 2020 KDE Community"
 msgstr ""
 
-#: src/main.cpp:73
+#: src/main.cpp:74
 #, kde-format
 msgid "Black Hat"
 msgstr ""
 
-#: src/main.cpp:74
+#: src/main.cpp:75
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
-#: src/main.cpp:75
+#: src/main.cpp:76
 #, kde-format
 msgid "Tobias Fella"
 msgstr ""
 
-#: src/main.cpp:132
+#: src/main.cpp:134
 #, kde-format
 msgid "Client for the matrix communication protocol"
 msgstr ""
@@ -899,212 +1018,218 @@ msgstr ""
 msgid "Image request has been cancelled"
 msgstr ""
 
-#: src/messageeventmodel.cpp:257
+#: src/messageeventmodel.cpp:260
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: src/messageeventmodel.cpp:260
+#: src/messageeventmodel.cpp:263
 #, kde-format
 msgid "Yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:263
+#: src/messageeventmodel.cpp:266
 #, kde-format
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:327
+#: src/messageeventmodel.cpp:331
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:327
+#: src/messageeventmodel.cpp:331
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:393
+#: src/messageeventmodel.cpp:397
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:393
+#: src/messageeventmodel.cpp:397
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""
 
-#: src/neochatroom.cpp:327
+#: src/neochatroom.cpp:335
 #, kde-format
 msgid "a file"
 msgstr ""
 
-#: src/neochatroom.cpp:359
+#: src/neochatroom.cpp:367
 #, kde-format
 msgid "reinvited %1 to the room"
 msgstr ""
 
-#: src/neochatroom.cpp:364
+#: src/neochatroom.cpp:369
+#, kde-format
+msgctxt "Optional reason for an invitation"
+msgid ": %1"
+msgstr ""
+
+#: src/neochatroom.cpp:378
 #, kde-format
 msgid "joined the room (repeated)"
 msgstr ""
 
-#: src/neochatroom.cpp:367
+#: src/neochatroom.cpp:381
 #, kde-format
 msgid "invited %1 to the room"
 msgstr ""
 
-#: src/neochatroom.cpp:367
+#: src/neochatroom.cpp:382
 #, kde-format
 msgid "joined the room"
 msgstr ""
 
-#: src/neochatroom.cpp:372
+#: src/neochatroom.cpp:386
+#, kde-format
+msgid ": %1"
+msgstr ""
+
+#: src/neochatroom.cpp:393
 #, kde-format
 msgid "cleared their display name"
 msgstr ""
 
-#: src/neochatroom.cpp:374
+#: src/neochatroom.cpp:395
 #, kde-format
 msgid "changed their display name to %1"
 msgstr ""
 
-#: src/neochatroom.cpp:379
+#: src/neochatroom.cpp:400
 #, kde-format
 msgid " and "
 msgstr ""
 
-#: src/neochatroom.cpp:382
+#: src/neochatroom.cpp:403
 #, kde-format
 msgid "cleared their avatar"
 msgstr ""
 
-#: src/neochatroom.cpp:384
-#, kde-format
-msgid "set an avatar"
-msgstr ""
-
-#: src/neochatroom.cpp:386
+#: src/neochatroom.cpp:405
 #, kde-format
 msgid "updated their avatar"
 msgstr ""
 
-#: src/neochatroom.cpp:393
+#: src/neochatroom.cpp:412
 #, kde-format
 msgid "withdrew %1's invitation"
 msgstr ""
 
-#: src/neochatroom.cpp:393
+#: src/neochatroom.cpp:412
 #, kde-format
 msgid "rejected the invitation"
 msgstr ""
 
-#: src/neochatroom.cpp:397
+#: src/neochatroom.cpp:416
 #, kde-format
 msgid "unbanned %1"
 msgstr ""
 
-#: src/neochatroom.cpp:397
+#: src/neochatroom.cpp:416
 #, kde-format
 msgid "self-unbanned"
 msgstr ""
 
-#: src/neochatroom.cpp:399
+#: src/neochatroom.cpp:418
 #, kde-format
 msgid "has put %1 out of the room: %2"
 msgstr ""
 
-#: src/neochatroom.cpp:399
+#: src/neochatroom.cpp:418
 #, kde-format
 msgid "left the room"
 msgstr ""
 
-#: src/neochatroom.cpp:401
+#: src/neochatroom.cpp:420
 #, kde-format
 msgid "banned %1 from the room: %2"
 msgstr ""
 
-#: src/neochatroom.cpp:401
+#: src/neochatroom.cpp:420
 #, kde-format
 msgid "self-banned from the room"
 msgstr ""
 
-#: src/neochatroom.cpp:403
+#: src/neochatroom.cpp:422
 #, kde-format
 msgid "knocked"
 msgstr ""
 
-#: src/neochatroom.cpp:406
+#: src/neochatroom.cpp:425
 #, kde-format
 msgid "made something unknown"
 msgstr ""
 
-#: src/neochatroom.cpp:409
+#: src/neochatroom.cpp:428
 #, kde-format
 msgid "cleared the room main alias"
 msgstr ""
 
-#: src/neochatroom.cpp:409
+#: src/neochatroom.cpp:428
 #, kde-format
 msgid "set the room main alias to: %1"
 msgstr ""
 
-#: src/neochatroom.cpp:412
+#: src/neochatroom.cpp:431
 #, kde-format
 msgid "cleared the room name"
 msgstr ""
 
-#: src/neochatroom.cpp:412
+#: src/neochatroom.cpp:431
 #, kde-format
 msgid "set the room name to: %1"
 msgstr ""
 
-#: src/neochatroom.cpp:415
+#: src/neochatroom.cpp:434
 #, kde-format
 msgid "cleared the topic"
 msgstr ""
 
-#: src/neochatroom.cpp:415
+#: src/neochatroom.cpp:434
 #, kde-format
 msgid "set the topic to: %1"
 msgstr ""
 
-#: src/neochatroom.cpp:418
+#: src/neochatroom.cpp:437
 #, kde-format
 msgid "changed the room avatar"
 msgstr ""
 
-#: src/neochatroom.cpp:421
+#: src/neochatroom.cpp:440
 #, kde-format
 msgid "activated End-to-End Encryption"
 msgstr ""
 
-#: src/neochatroom.cpp:424
+#: src/neochatroom.cpp:443
 #, kde-format
 msgid "upgraded the room to version %1"
 msgstr ""
 
-#: src/neochatroom.cpp:424
+#: src/neochatroom.cpp:443
 #, kde-format
 msgid "created the room, version %1"
 msgstr ""
 
-#: src/neochatroom.cpp:428
+#: src/neochatroom.cpp:447
 #, kde-format
 msgid "updated the database"
 msgstr ""
 
-#: src/neochatroom.cpp:428
+#: src/neochatroom.cpp:447
 #, kde-format
 msgid "updated %1 state"
 msgstr ""
 
-#: src/neochatroom.cpp:428
+#: src/neochatroom.cpp:447
 #, kde-format
 msgid "updated %1 state for %2"
 msgstr ""
 
-#: src/neochatroom.cpp:430
+#: src/neochatroom.cpp:449
 #, kde-format
 msgid "Unknown event"
 msgstr ""
@@ -1119,27 +1244,27 @@ msgstr ""
 msgid "Open NeoChat in this room"
 msgstr ""
 
-#: src/roomlistmodel.cpp:345
+#: src/roomlistmodel.cpp:398
 #, kde-format
 msgid "Invited"
 msgstr ""
 
-#: src/roomlistmodel.cpp:347
+#: src/roomlistmodel.cpp:400
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: src/roomlistmodel.cpp:349
+#: src/roomlistmodel.cpp:402
 #, kde-format
 msgid "Direct Messages"
 msgstr ""
 
-#: src/roomlistmodel.cpp:351
+#: src/roomlistmodel.cpp:404
 #, kde-format
 msgid "Normal"
 msgstr ""
 
-#: src/roomlistmodel.cpp:353
+#: src/roomlistmodel.cpp:406
 #, kde-format
 msgid "Low priority"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksystemlog\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-08 03:01+0100\n"
+"POT-Creation-Date: 2021-01-18 03:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -133,8 +133,9 @@ msgstr ""
 #: src/detailDialogBase.ui:41 src/lib/logViewWidget.cpp:48
 #: src/loggerDialogBase.ui:33 src/modes/acpid/acpidAnalyzer.cpp:34
 #: src/modes/apache/apacheAnalyzer.cpp:35
-#: src/modes/base/syslogAnalyzer.cpp:59 src/modes/cups/cupsAnalyzer.cpp:39
-#: src/modes/cups/cupsPdfAnalyzer.cpp:36 src/modes/journald/journaldAnalyzer.cpp:38
+#: src/modes/audit/auditAnalyzer.cpp:23 src/modes/base/syslogAnalyzer.cpp:59
+#: src/modes/cups/cupsAnalyzer.cpp:39 src/modes/cups/cupsPdfAnalyzer.cpp:36
+#: src/modes/journald/journaldAnalyzer.cpp:38
 #: src/modes/kernel/kernelAnalyzer.cpp:35
 #: src/modes/samba/sambaAnalyzer.cpp:38 src/modes/xorg/xorgAnalyzer.cpp:42
 #: src/modes/xsession/xsessionAnalyzer.cpp:36
@@ -403,22 +404,22 @@ msgid "Logs Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/ksystemlogui.rc:63
+#: src/ksystemlogui.rc:64
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
 
-#: src/lib/fileAnalyzer.cpp:119
+#: src/lib/fileAnalyzer.cpp:119 src/modes/audit/auditAnalyzer.cpp:213
 #, kde-format
 msgid "Opening '%1'..."
 msgstr ""
 
-#: src/lib/fileAnalyzer.cpp:128
+#: src/lib/fileAnalyzer.cpp:128 src/modes/audit/auditAnalyzer.cpp:222
 #, kde-format
 msgid "Log file '%1' loaded successfully."
 msgstr ""
 
-#: src/lib/fileAnalyzer.cpp:140
+#: src/lib/fileAnalyzer.cpp:140 src/modes/audit/auditAnalyzer.cpp:234
 #, kde-format
 msgid "Log file '%1' has changed."
 msgstr ""
@@ -543,18 +544,18 @@ msgstr ""
 msgid "Insufficient Permissions"
 msgstr ""
 
-#: src/lib/logManager.cpp:85
+#: src/lib/logManager.cpp:83
 #, kde-format
 msgid "Loading log..."
 msgstr ""
 
-#: src/lib/logManager.cpp:109
+#: src/lib/logManager.cpp:107
 #, kde-format
 msgid "Log successfully loaded."
 msgstr ""
 
-#: src/lib/logModeConfiguration.cpp:216 src/lib/logModeConfiguration.cpp:243
-#: src/modes/base/genericConfiguration.cpp:101
+#: src/lib/logModeConfiguration.cpp:217 src/lib/logModeConfiguration.cpp:244
+#: src/modes/base/genericConfiguration.cpp:94
 #, kde-format
 msgid "URL '%1' is not valid, skipping this URL."
 msgstr ""
@@ -563,6 +564,7 @@ msgstr ""
 #: src/modes/acpid/acpidItemBuilder.cpp:32
 #: src/modes/apache/apacheAccessItemBuilder.cpp:32
 #: src/modes/apache/apacheItemBuilder.cpp:32
+#: src/modes/audit/auditItemBuilder.cpp:14
 #: src/modes/cron/cronItemBuilder.cpp:32 src/modes/cups/cupsAccessItemBuilder.cpp:32
 #: src/modes/cups/cupsItemBuilder.cpp:30 src/modes/cups/cupsPageItemBuilder.cpp:32
 #: src/modes/cups/cupsPdfItemBuilder.cpp:32
@@ -588,6 +590,7 @@ msgstr ""
 #: src/modes/acpid/acpidItemBuilder.cpp:33
 #: src/modes/apache/apacheAccessItemBuilder.cpp:33
 #: src/modes/apache/apacheItemBuilder.cpp:33
+#: src/modes/audit/auditItemBuilder.cpp:15
 #: src/modes/cron/cronItemBuilder.cpp:36 src/modes/cups/cupsAccessItemBuilder.cpp:33
 #: src/modes/cups/cupsItemBuilder.cpp:31 src/modes/cups/cupsPageItemBuilder.cpp:33
 #: src/modes/cups/cupsPdfItemBuilder.cpp:33
@@ -598,8 +601,8 @@ msgid "Level:"
 msgstr ""
 
 #: src/lib/logModeItemBuilder.cpp:76 src/lib/logModeItemBuilder.cpp:91
-#: src/modes/cron/cronItemBuilder.cpp:37 src/modes/xorg/xorgItemBuilder.cpp:54
-#: src/modes/xsession/xsessionItemBuilder.cpp:54
+#: src/modes/cron/cronItemBuilder.cpp:37 src/modes/xorg/xorgItemBuilder.cpp:55
+#: src/modes/xsession/xsessionItemBuilder.cpp:55
 #, kde-format
 msgid "Original file:"
 msgstr ""
@@ -630,41 +633,41 @@ msgstr ""
 msgid "Log Lines of my problem"
 msgstr ""
 
-#: src/lib/logViewExport.cpp:197
+#: src/lib/logViewExport.cpp:196
 #, kde-format
 msgid "No items selected. Nothing copied to clipboard."
 msgstr ""
 
-#: src/lib/logViewExport.cpp:204
+#: src/lib/logViewExport.cpp:203
 #, kde-format
 msgid "1 log line copied to clipboard."
 msgid_plural "%1 log lines copied to clipboard."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/lib/logViewExport.cpp:218
+#: src/lib/logViewExport.cpp:217
 #, kde-format
 msgid "No items selected. Please select items to be able to save them."
 msgstr ""
 
-#: src/lib/logViewExport.cpp:223
+#: src/lib/logViewExport.cpp:222
 #, kde-format
 msgid "Save selected log entries to..."
 msgstr ""
 
-#: src/lib/logViewExport.cpp:251
+#: src/lib/logViewExport.cpp:250
 #, kde-format
 msgid "1 log line saved to '%2'."
 msgid_plural "%1 log lines saved to '%2'."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/lib/logViewExport.cpp:253
+#: src/lib/logViewExport.cpp:252
 #, kde-format
 msgid "Unable to save file '%1': Permission Denied."
 msgstr ""
 
-#: src/lib/logViewExport.cpp:254
+#: src/lib/logViewExport.cpp:253
 #, kde-format
 msgid "Unable to save file."
 msgstr ""
@@ -711,12 +714,12 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: src/lib/logViewSearchWidget.cpp:172
+#: src/lib/logViewSearchWidget.cpp:173
 #, kde-format
 msgid "Reached end of list."
 msgstr ""
 
-#: src/lib/logViewSearchWidget.cpp:255
+#: src/lib/logViewSearchWidget.cpp:256
 #, kde-format
 msgid "Phrase not found."
 msgstr ""
@@ -745,8 +748,8 @@ msgstr ""
 #: src/lib/logViewWidget.cpp:48 src/modes/acpid/acpidAnalyzer.cpp:32
 #: src/modes/apache/apacheAccessAnalyzer.cpp:33
 #: src/modes/apache/apacheAnalyzer.cpp:33
-#: src/modes/base/syslogAnalyzer.cpp:56 src/modes/cron/cronAnalyzer.cpp:27
-#: src/modes/cups/cupsAccessAnalyzer.cpp:35
+#: src/modes/audit/auditAnalyzer.cpp:22 src/modes/base/syslogAnalyzer.cpp:56
+#: src/modes/cron/cronAnalyzer.cpp:27 src/modes/cups/cupsAccessAnalyzer.cpp:35
 #: src/modes/cups/cupsAnalyzer.cpp:38 src/modes/cups/cupsPageAnalyzer.cpp:34
 #: src/modes/cups/cupsPdfAnalyzer.cpp:35 src/modes/journald/journaldAnalyzer.cpp:36
 #: src/modes/kernel/kernelAnalyzer.cpp:33
@@ -755,7 +758,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: src/lib/logViewWidget.cpp:116
+#: src/lib/logViewWidget.cpp:117
 #, kde-format
 msgid "Display/Hide the '%1' column"
 msgstr ""
@@ -1039,7 +1042,7 @@ msgstr ""
 msgid "Document to open."
 msgstr ""
 
-#: src/mainWindow.cpp:327
+#: src/mainWindow.cpp:326
 #, kde-format
 msgctxt "Total displayed lines"
 msgid "1 line."
@@ -1047,7 +1050,7 @@ msgid_plural "%1 lines."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/mainWindow.cpp:331
+#: src/mainWindow.cpp:330
 #, kde-format
 msgctxt "Line not hidden by search / Total displayed lines"
 msgid "1 line / %2 total."
@@ -1055,34 +1058,34 @@ msgid_plural "%1 lines / %2 total."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/mainWindow.cpp:353
+#: src/mainWindow.cpp:352
 #, kde-format
 msgid "Resu&me"
 msgstr ""
 
-#: src/mainWindow.cpp:355
+#: src/mainWindow.cpp:354
 #, kde-format
 msgid "Resume the watching of the current log"
 msgstr ""
 
-#: src/mainWindow.cpp:357
+#: src/mainWindow.cpp:356
 #, kde-format
 msgid ""
 "Resumes the watching of the current log. This action is only available when "
 "the user has already paused the reading."
 msgstr ""
 
-#: src/mainWindow.cpp:362
+#: src/mainWindow.cpp:361
 #, kde-format
 msgid "S&top"
 msgstr ""
 
-#: src/mainWindow.cpp:364
+#: src/mainWindow.cpp:363
 #, kde-format
 msgid "Pause the watching of the current log"
 msgstr ""
 
-#: src/mainWindow.cpp:366
+#: src/mainWindow.cpp:365
 #, kde-format
 msgid ""
 "Pauses the watching of the current log. This action is particularly useful "
@@ -1090,7 +1093,7 @@ msgid ""
 "to reload too frequently."
 msgstr ""
 
-#: src/mainWindow.cpp:440 src/tabLogManager.cpp:74
+#: src/mainWindow.cpp:439 src/tabLogManager.cpp:72
 #, kde-format
 msgctxt "Newly created tab"
 msgid "Empty Log"
@@ -1412,7 +1415,7 @@ msgid "<p>These files will be analyzed to show the <b>Acpid log</b>.</p>"
 msgstr ""
 
 #: src/modes/acpid/acpidItemBuilder.cpp:34
-#: src/modes/xorg/xorgItemBuilder.cpp:49 src/modes/xorg/xorgItemBuilder.cpp:51
+#: src/modes/xorg/xorgItemBuilder.cpp:50 src/modes/xorg/xorgItemBuilder.cpp:52
 #, kde-format
 msgid "Type:"
 msgstr ""
@@ -1587,6 +1590,29 @@ msgstr ""
 msgid ""
 "Displays the Apache log in the current tab. Apache is the main used Web "
 "server in the world."
+msgstr ""
+
+#: src/modes/audit/auditConfigurationWidget.cpp:14
+#: src/modes/audit/auditLogMode.cpp:18 src/modes/audit/auditLogMode.cpp:27
+#, kde-format
+msgid "Audit Log"
+msgstr ""
+
+#: src/modes/audit/auditConfigurationWidget.cpp:18
+#, kde-format
+msgid "<p>These files will be analyzed to show the <b>Audit logs</b>.</p>"
+msgstr ""
+
+#: src/modes/audit/auditLogMode.cpp:28
+#, kde-format
+msgid "Display the audit log."
+msgstr ""
+
+#: src/modes/audit/auditLogMode.cpp:30
+#, kde-format
+msgid ""
+"Displays the audit log in the current tab. This log is generally used by non-"
+"specialized processes (like \"sudo\" or \"fsck\" commands)"
 msgstr ""
 
 #: src/modes/authentication/authenticationConfigurationWidget.cpp:25
@@ -1908,7 +1934,7 @@ msgstr ""
 msgid "Choose Log File"
 msgstr ""
 
-#: src/modes/base/genericConfiguration.cpp:80
+#: src/modes/base/genericConfiguration.cpp:73
 #, kde-format
 msgid "The two arrays size are different, skipping the reading of log files."
 msgstr ""
@@ -2523,14 +2549,14 @@ msgstr ""
 msgid "Unit:"
 msgstr ""
 
-#: src/modes/journald/journaldLocalAnalyzer.cpp:168
-#: src/modes/journald/journaldNetworkAnalyzer.cpp:237
+#: src/modes/journald/journaldLocalAnalyzer.cpp:166
+#: src/modes/journald/journaldNetworkAnalyzer.cpp:233
 #, kde-format
 msgid "Reading journald entries..."
 msgstr ""
 
-#: src/modes/journald/journaldLocalAnalyzer.cpp:179
-#: src/modes/journald/journaldNetworkAnalyzer.cpp:248
+#: src/modes/journald/journaldLocalAnalyzer.cpp:177
+#: src/modes/journald/journaldNetworkAnalyzer.cpp:244
 #, kde-format
 msgid "Journald entries loaded successfully."
 msgstr ""
@@ -2550,7 +2576,7 @@ msgstr ""
 msgid "Connected"
 msgstr ""
 
-#: src/modes/journald/journaldNetworkAnalyzer.cpp:168
+#: src/modes/journald/journaldNetworkAnalyzer.cpp:164
 #, kde-format
 msgid "Connection error"
 msgstr ""
@@ -2593,12 +2619,12 @@ msgstr ""
 msgid "Open Location"
 msgstr ""
 
-#: src/modes/open/openLogMode.cpp:75
+#: src/modes/open/openLogMode.cpp:74
 #, kde-format
 msgid "Malformed URL. Unable to open this file."
 msgstr ""
 
-#: src/modes/open/openLogMode.cpp:76
+#: src/modes/open/openLogMode.cpp:75
 #, kde-format
 msgid "Unable to open this file."
 msgstr ""
@@ -2811,7 +2837,7 @@ msgstr ""
 msgid "<p>These files will be analyzed to show the <b>X.org log</b>.</p>"
 msgstr ""
 
-#: src/modes/xorg/xorgItemBuilder.cpp:49 src/modes/xsession/xsessionItemBuilder.cpp:49
+#: src/modes/xorg/xorgItemBuilder.cpp:50 src/modes/xsession/xsessionItemBuilder.cpp:50
 #, kde-format
 msgid "none"
 msgstr ""
@@ -2896,8 +2922,8 @@ msgid ""
 "\"margin-bottom:0px\">The following lines will be ignored:</p>"
 msgstr ""
 
-#: src/modes/xsession/xsessionItemBuilder.cpp:49
-#: src/modes/xsession/xsessionItemBuilder.cpp:51
+#: src/modes/xsession/xsessionItemBuilder.cpp:50
+#: src/modes/xsession/xsessionItemBuilder.cpp:52
 #, kde-format
 msgid "Program:"
 msgstr ""
@@ -2926,7 +2952,7 @@ msgstr ""
 msgid "%1: %2"
 msgstr ""
 
-#: src/tabLogManager.cpp:66
+#: src/tabLogManager.cpp:64
 #, kde-format
 msgctxt "Log mode name (added lines count)"
 msgid "%1 (%2)"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-30 02:54+0100\n"
+"POT-Creation-Date: 2021-01-18 02:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -60,7 +60,7 @@ msgctxt "indicator_name, removed success"
 msgid "<b>%0</b> indicator removed successfully"
 msgstr ""
 
-#: app/lattecorona.cpp:1166
+#: app/lattecorona.cpp:1165
 #, kde-format
 msgid "The layout cannot be imported from file :: "
 msgstr ""
@@ -349,92 +349,97 @@ msgstr ""
 msgid "Latte Dock panel"
 msgstr ""
 
-#: app/package/lattepackage.cpp:49
+#: app/package/lattepackage.cpp:48
 #, kde-format
-msgid "Dock configuration UI"
+msgid "Widget Explorer"
 msgstr ""
 
 #: app/package/lattepackage.cpp:50
 #, kde-format
-msgid "Dock secondary configuration UI"
+msgid "Dock configuration UI"
 msgstr ""
 
 #: app/package/lattepackage.cpp:51
 #, kde-format
-msgid "Dock canvas configuration UI"
+msgid "Dock secondary configuration UI"
 msgstr ""
 
 #: app/package/lattepackage.cpp:52
 #, kde-format
-msgid "Config model"
+msgid "Dock canvas configuration UI"
 msgstr ""
 
 #: app/package/lattepackage.cpp:53
 #, kde-format
-msgid "Splitter"
+msgid "Config model"
 msgstr ""
 
 #: app/package/lattepackage.cpp:54
 #, kde-format
-msgid "Latte Trademark"
+msgid "Splitter"
 msgstr ""
 
 #: app/package/lattepackage.cpp:55
 #, kde-format
-msgid "Latte Trademark Icon"
+msgid "Latte Trademark"
 msgstr ""
 
 #: app/package/lattepackage.cpp:56
 #, kde-format
-msgid "Info View Window"
+msgid "Latte Trademark Icon"
 msgstr ""
 
-#: app/package/lattepackage.cpp:58
+#: app/package/lattepackage.cpp:57
 #, kde-format
-msgid "default layout file"
+msgid "Info View Window"
 msgstr ""
 
 #: app/package/lattepackage.cpp:59
 #, kde-format
-msgid "plasma layout file"
+msgid "default layout file"
 msgstr ""
 
 #: app/package/lattepackage.cpp:60
 #, kde-format
-msgid "unity layout file"
+msgid "plasma layout file"
 msgstr ""
 
 #: app/package/lattepackage.cpp:61
 #, kde-format
+msgid "unity layout file"
+msgstr ""
+
+#: app/package/lattepackage.cpp:62
+#, kde-format
 msgid "extended layout file"
 msgstr ""
 
-#: app/package/lattepackage.cpp:63
+#: app/package/lattepackage.cpp:64
 #, kde-format
 msgid "system templates directory"
 msgstr ""
 
-#: app/package/lattepackage.cpp:65
+#: app/package/lattepackage.cpp:66
 #, kde-format
 msgid "default preset file"
 msgstr ""
 
-#: app/package/lattepackage.cpp:66
+#: app/package/lattepackage.cpp:67
 #, kde-format
 msgid "plasma preset file"
 msgstr ""
 
-#: app/package/lattepackage.cpp:67
+#: app/package/lattepackage.cpp:68
 #, kde-format
 msgid "unity preset file"
 msgstr ""
 
-#: app/package/lattepackage.cpp:68
+#: app/package/lattepackage.cpp:69
 #, kde-format
 msgid "extended preset file"
 msgstr ""
 
-#: app/package/lattepackage.cpp:69
+#: app/package/lattepackage.cpp:70
 #, kde-format
 msgid "multiple layouts hidden file"
 msgstr ""
@@ -2261,17 +2266,29 @@ msgstr ""
 msgid "Floating gap is disabled when there are maximized windows"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:902
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:890
+#, kde-format
+msgid "Mirror floating gap for maximized windows"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:892
+#, kde-format
+msgid ""
+"Floating gap is mirrored when there are maximized windows in Always Visible "
+"mode"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:914
 #, kde-format
 msgid "Environment"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:911
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:923
 #, kde-format
 msgid "Activate KWin edge after hiding"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:913
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:925
 #, kde-format
 msgid ""
 "After the view becomes hidden, KWin is informed to track user feedback. For "
@@ -2279,24 +2296,24 @@ msgid ""
 "hidden view"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:926
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:938
 #, kde-format
 msgid "Can be above fullscreen windows"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:929
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:941
 #, kde-format
 msgid ""
 "BypassWindowManagerHint flag for the window. The view will be above all "
 "windows even those set as 'Always On Top'"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:938
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:950
 #, kde-format
 msgid "Raise on desktop change"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:948
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:960
 #, kde-format
 msgid "Raise on activity change"
 msgstr ""
@@ -2813,4 +2830,50 @@ msgstr ""
 #: shell/package/contents/controls/TypeSelection.qml:115
 #, kde-format
 msgid "Change the behavior and appearance to Panel type"
+msgstr ""
+
+#: shell/package/contents/views/AppletDelegate.qml:180
+#, kde-format
+msgid "Undo uninstall"
+msgstr ""
+
+#: shell/package/contents/views/AppletDelegate.qml:181
+#, kde-format
+msgid "Uninstall widget"
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:152
+#: shell/package/contents/views/WidgetExplorer.qml:262
+#, kde-format
+msgid "All Widgets"
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:224
+#, kde-format
+msgid "Widgets"
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:232
+#, kde-format
+msgid "Get New Widgets..."
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:250
+#, kde-format
+msgid "Search..."
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:261
+#, kde-format
+msgid "Categories"
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:356
+#, kde-format
+msgid "No widgets matched the search terms"
+msgstr ""
+
+#: shell/package/contents/views/WidgetExplorer.qml:356
+#, kde-format
+msgid "No widgets available"
 msgstr ""

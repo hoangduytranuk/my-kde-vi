@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-24 02:37+0100\n"
+"POT-Creation-Date: 2021-01-18 02:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -108,12 +108,17 @@ msgstr ""
 msgid "Alarms"
 msgstr ""
 
+#: qml/AlarmPage.qml:34 qml/NewAlarmPage.qml:38
+#, kde-format
+msgid "New Alarm"
+msgstr ""
+
 #: qml/AlarmPage.qml:49
 #, kde-format
 msgid "No alarms configured"
 msgstr ""
 
-#: qml/AlarmPage.qml:61 qml/TimePage.qml:36
+#: qml/AlarmPage.qml:61 qml/TimePage.qml:37
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -153,11 +158,6 @@ msgstr ""
 msgid "Clock"
 msgstr ""
 
-#: qml/NewAlarmPage.qml:38
-#, kde-format
-msgid "New Alarm"
-msgstr ""
-
 #: qml/NewAlarmPage.qml:43
 #, kde-format
 msgid "Done"
@@ -181,6 +181,11 @@ msgstr ""
 #: qml/NewAlarmPage.qml:140
 #, kde-format
 msgid "Ringtone"
+msgstr ""
+
+#: qml/NewAlarmPage.qml:161
+#, kde-format
+msgid "Choose an audio"
 msgstr ""
 
 #: qml/SettingsPage.qml:27 qml/Sidebar.qml:76
@@ -218,7 +223,7 @@ msgstr ""
 msgid "Volume: "
 msgstr ""
 
-#: qml/Sidebar.qml:56
+#: qml/Sidebar.qml:56 qml/TimePage.qml:31
 #, kde-format
 msgid "Time"
 msgstr ""
@@ -228,7 +233,7 @@ msgstr ""
 msgid "Timer"
 msgstr ""
 
-#: qml/Sidebar.qml:66
+#: qml/Sidebar.qml:66 qml/StopwatchPage.qml:30
 #, kde-format
 msgid "Stopwatch"
 msgstr ""
@@ -238,12 +243,27 @@ msgstr ""
 msgid "Alarm"
 msgstr ""
 
-#: qml/StopwatchPage.qml:154
+#: qml/StopwatchPage.qml:39 qml/TimerPage.qml:46
+#, kde-format
+msgid "Pause"
+msgstr ""
+
+#: qml/StopwatchPage.qml:39 qml/TimerPage.qml:46
+#, kde-format
+msgid "Start"
+msgstr ""
+
+#: qml/StopwatchPage.qml:116 qml/TimerPage.qml:56
+#, kde-format
+msgid "Reset"
+msgstr ""
+
+#: qml/StopwatchPage.qml:127 qml/StopwatchPage.qml:154
 #, kde-format
 msgid "Lap"
 msgstr ""
 
-#: qml/TimePage.qml:90
+#: qml/TimePage.qml:94
 #, kde-format
 msgid "Add timezone"
 msgstr ""
@@ -268,22 +288,12 @@ msgstr ""
 msgid "New timer"
 msgstr ""
 
-#: qml/TimerPage.qml:46
+#: qml/TimerPage.qml:77
 #, kde-format
-msgid "Pause"
+msgid "Duration"
 msgstr ""
 
-#: qml/TimerPage.qml:46
-#, kde-format
-msgid "Start"
-msgstr ""
-
-#: qml/TimerPage.qml:56
-#, kde-format
-msgid "Reset"
-msgstr ""
-
-#: qml/TimerPage.qml:90 timezoneselectormodel.cpp:73
+#: qml/TimerPage.qml:90 timezoneselectormodel.cpp:76
 #, kde-format
 msgid "hours"
 msgstr ""
@@ -296,6 +306,16 @@ msgstr ""
 #: qml/TimerPage.qml:115
 #, kde-format
 msgid "seconds"
+msgstr ""
+
+#: qml/TimerPage.qml:125
+#, kde-format
+msgid "Label (optional)"
+msgstr ""
+
+#: qml/TimerPage.qml:138
+#, kde-format
+msgid "Create"
 msgstr ""
 
 #: qml/TimeZoneSelectPage.qml:30
@@ -313,73 +333,73 @@ msgstr ""
 msgid "%1 %2"
 msgstr ""
 
-#: timezoneselectormodel.cpp:73
+#: timezoneselectormodel.cpp:76
 #, kde-format
 msgid "hour"
 msgstr ""
 
-#: timezoneselectormodel.cpp:77
+#: timezoneselectormodel.cpp:80
 #, kde-format
 msgid "%1 and a half hours ahead"
 msgstr ""
 
-#: timezoneselectormodel.cpp:79
+#: timezoneselectormodel.cpp:82
 #, kde-format
 msgid "%1 %2 ahead"
 msgstr ""
 
-#: timezoneselectormodel.cpp:84
+#: timezoneselectormodel.cpp:87
 #, kde-format
 msgid "%1 and a half hours behind"
 msgstr ""
 
-#: timezoneselectormodel.cpp:86
+#: timezoneselectormodel.cpp:89
 #, kde-format
 msgid "%1 %2 behind"
 msgstr ""
 
-#: timezoneselectormodel.cpp:89
+#: timezoneselectormodel.cpp:92
 #, kde-format
 msgid "Local time"
 msgstr ""
 
-#: utilmodel.cpp:82
+#: utilmodel.cpp:83
 #, kde-format
 msgid "%1 day"
 msgid_plural "%1 days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utilmodel.cpp:86
+#: utilmodel.cpp:87
 #, kde-format
 msgid ", "
 msgstr ""
 
-#: utilmodel.cpp:88 utilmodel.cpp:94
+#: utilmodel.cpp:89 utilmodel.cpp:95
 #, kde-format
 msgid " and "
 msgstr ""
 
-#: utilmodel.cpp:90
+#: utilmodel.cpp:91
 #, kde-format
 msgid "%1 hour"
 msgid_plural "%1 hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utilmodel.cpp:96
+#: utilmodel.cpp:97
 #, kde-format
 msgid "%1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utilmodel.cpp:100
+#: utilmodel.cpp:101
 #, kde-format
 msgid "Alarm will be rung within a minute"
 msgstr ""
 
-#: utilmodel.cpp:102
+#: utilmodel.cpp:103
 #, kde-format
 msgid "Alarm will be rung after %1"
 msgstr ""

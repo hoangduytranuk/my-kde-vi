@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-20 02:37+0100\n"
+"POT-Creation-Date: 2021-01-16 02:48+0100\n"
 "PO-Revision-Date: 2007-06-24 14:17+0930\n"
 "Last-Translator: Trần Thế Trung <tttrung@hotmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -50,13 +50,13 @@ msgstr "Lặp lại bàn phím"
 msgid "Switch keyboard layout to %1"
 msgstr "Chuyển sang Bố trí Bàn phím Tiếp theo"
 
-#: flags.cpp:168
+#: flags.cpp:169
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:176
+#: flags.cpp:177
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -576,19 +576,29 @@ msgstr "Lặp lại bàn phím"
 msgid "Configure Layouts..."
 msgstr "Bố trí hoạt động:"
 
-#: tastenbrett/main.cpp:64
+#: tastenbrett/main.cpp:67
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "app display name"
 msgid "Keyboard Preview"
 msgstr "Lặp lại bàn phím"
 
-#: tastenbrett/main.cpp:66
+#: tastenbrett/main.cpp:69
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "app description"
 msgid "Keyboard layout visualization"
 msgstr "Lặp lại bàn phím"
+
+#: tastenbrett/main.cpp:148
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant."
+msgstr ""
 
 #, fuzzy
 #~| msgid "Keyboard Repeat"

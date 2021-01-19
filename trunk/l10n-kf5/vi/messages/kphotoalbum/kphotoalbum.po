@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-06 02:39+0100\n"
+"POT-Creation-Date: 2021-01-16 02:34+0100\n"
 "PO-Revision-Date: 2012-01-16 16:58+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -409,13 +409,13 @@ msgstr "Xoá"
 msgid "Copy tags from previous image"
 msgstr "Chép các thẻ từ ảnh trước"
 
-#: AnnotationDialog/Dialog.cpp:1294 MainWindow/Window.cpp:787
+#: AnnotationDialog/Dialog.cpp:1294 MainWindow/Window.cpp:789
 #, fuzzy, kde-format
 #| msgid "Rotate contra-clockwise (to the left)"
 msgid "Rotate counterclockwise"
 msgstr "Xoay theo ngược chiều kim đồng hồ"
 
-#: AnnotationDialog/Dialog.cpp:1297 MainWindow/Window.cpp:791
+#: AnnotationDialog/Dialog.cpp:1297 MainWindow/Window.cpp:793
 #, fuzzy, kde-format
 #| msgid "Rotate clockwise (to the right)"
 msgid "Rotate clockwise"
@@ -527,12 +527,12 @@ msgctxt "@info:tooltip"
 msgid "Delete image"
 msgstr "Xoá ảnh"
 
-#: AnnotationDialog/ListSelect.cpp:82 DB/ImageSearchInfo.cpp:324
+#: AnnotationDialog/ListSelect.cpp:82 DB/ImageSearchInfo.cpp:315
 #, kde-format
 msgid "or"
 msgstr "hoặc"
 
-#: AnnotationDialog/ListSelect.cpp:83 DB/ImageSearchInfo.cpp:319
+#: AnnotationDialog/ListSelect.cpp:83 DB/ImageSearchInfo.cpp:310
 #, kde-format
 msgid "and"
 msgstr "và"
@@ -639,8 +639,8 @@ msgstr ""
 msgid "Really Delete %1?"
 msgstr "Thực sự xoá %1 không?"
 
-#: AnnotationDialog/ListSelect.cpp:431 Settings/TagGroupsPage.cpp:522
-#: Settings/TagGroupsPage.cpp:768
+#: AnnotationDialog/ListSelect.cpp:431 Settings/TagGroupsPage.cpp:517
+#: Settings/TagGroupsPage.cpp:763
 #, kde-format
 msgid "&Delete"
 msgstr "&Xoá"
@@ -930,7 +930,7 @@ msgctxt "@action Search button in the browser view."
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: Browser/OverviewPage.cpp:163 Settings/UntaggedGroupBox.cpp:21
+#: Browser/OverviewPage.cpp:163 Settings/UntaggedGroupBox.cpp:20
 #, fuzzy, kde-format
 #| msgid "New Images"
 msgid "Untagged Images"
@@ -964,7 +964,7 @@ msgctxt "Breadcrumb denoting that we 'browsed' to a search result."
 msgid "search"
 msgstr "Tìm kiếm"
 
-#: Browser/OverviewPage.cpp:317 MainWindow/Window.cpp:1630
+#: Browser/OverviewPage.cpp:317 MainWindow/Window.cpp:1632
 #, kde-format
 msgid ""
 "<p>You have not yet configured which tag to use for indicating untagged "
@@ -974,7 +974,7 @@ msgid ""
 "section <b>Untagged Images</b></li></ul></p>"
 msgstr ""
 
-#: Browser/OverviewPage.cpp:323 MainWindow/Window.cpp:1637
+#: Browser/OverviewPage.cpp:323 MainWindow/Window.cpp:1639
 #, kde-format
 msgid "Feature has not been configured"
 msgstr ""
@@ -1269,7 +1269,7 @@ msgstr "th12"
 msgid "Loading information from images"
 msgstr "Đang tải thông tin từ ảnh"
 
-#: DB/ImageSearchInfo.cpp:316
+#: DB/ImageSearchInfo.cpp:307
 #, fuzzy, kde-format
 #| msgid "Show %1"
 msgctxt ""
@@ -1279,12 +1279,12 @@ msgctxt ""
 msgid "No %1"
 msgstr "Hiện %1"
 
-#: DB/ImageSearchInfo.cpp:325
+#: DB/ImageSearchInfo.cpp:316
 #, kde-format
 msgid "not"
 msgstr "không phải"
 
-#: DB/ImageSearchInfo.cpp:330
+#: DB/ImageSearchInfo.cpp:321
 #, fuzzy, kde-format
 #| msgid "No other"
 msgctxt ""
@@ -1295,7 +1295,7 @@ msgctxt ""
 msgid "No other %1"
 msgstr "Không có gì khác"
 
-#: DB/NewImageFinder.cpp:468
+#: DB/NewImageFinder.cpp:467
 #, kde-format
 msgid ""
 "<p><b>Loading information from new files</b></p><p>Depending on the number "
@@ -1306,13 +1306,13 @@ msgstr ""
 "ảnh, việc này có thể kéo dài một lát.<br/>Tuy nhiên, chỉ chạy trễ khi tìm "
 "ảnh mới.</p></p>"
 
-#: DB/NewImageFinder.cpp:683
+#: DB/NewImageFinder.cpp:682
 #, kde-format
 msgid "<p><b>Calculating checksum for %1 file</b></p>"
 msgid_plural "<p><b>Calculating checksums for %1 files</b></p>"
 msgstr[0] ""
 
-#: DB/NewImageFinder.cpp:684
+#: DB/NewImageFinder.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Calculating checksum for %1 files<b></p><p>By storing a checksum "
@@ -1326,7 +1326,7 @@ msgstr ""
 "tổng kiểm tra (checksum) riêng cho mỗi ảnh, KPhotoAlbum có khả năng tìm ảnh "
 "ngay cả khi bạn đã di chuyển nó vào vị trí khác trên đĩa.</p></p>"
 
-#: DB/NewImageFinder.cpp:727
+#: DB/NewImageFinder.cpp:726
 #, kde-format
 msgid "Following files could not be read:"
 msgstr ""
@@ -1492,7 +1492,7 @@ msgstr "Máy ảnh"
 msgid "Lens"
 msgstr ""
 
-#: Exif/SearchDialog.cpp:106 Settings/GeneralPage.cpp:116
+#: Exif/SearchDialog.cpp:106 Settings/GeneralPage.cpp:115
 #, kde-format
 msgid "Miscellaneous"
 msgstr "Lặt vặt"
@@ -1889,43 +1889,43 @@ msgstr ""
 msgid "<p>The output directory already exists.</p>"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:94
+#: ImageManager/ExtractOneVideoFrame.cpp:93
 #, kde-format
 msgid "Failed to start"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:97
+#: ImageManager/ExtractOneVideoFrame.cpp:96
 #, kde-format
 msgid "Crashed"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:100
+#: ImageManager/ExtractOneVideoFrame.cpp:99
 #, kde-format
 msgid "Timedout"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:103
+#: ImageManager/ExtractOneVideoFrame.cpp:102
 #, kde-format
 msgid "Read error"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:106
+#: ImageManager/ExtractOneVideoFrame.cpp:105
 #, kde-format
 msgid "Write error"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:109
+#: ImageManager/ExtractOneVideoFrame.cpp:108
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgid "Unknown error"
 msgstr "Không rõ"
 
-#: ImageManager/ExtractOneVideoFrame.cpp:114
+#: ImageManager/ExtractOneVideoFrame.cpp:113
 #, kde-format
 msgid "<p>Error when extracting video thumbnails.<br/>Error was: %1</p>"
 msgstr ""
 
-#: ImageManager/ExtractOneVideoFrame.cpp:142
+#: ImageManager/ExtractOneVideoFrame.cpp:141
 #, kde-format
 msgid ""
 "Unable to extract video thumbnails from some files. Either the file is "
@@ -2421,75 +2421,75 @@ msgstr ""
 msgid "Copyright (C) 2020 The KPhotoAlbum Development Team"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:56 main.cpp:99
+#: kpa-thumbnailtool/main.cpp:56 main.cpp:98
 #, kde-format
 msgid "Johannes Zarl-Zierl"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:56 main.cpp:99
+#: kpa-thumbnailtool/main.cpp:56 main.cpp:98
 #, fuzzy, kde-format
 #| msgid "Development"
 msgid "Development, Maintainer"
 msgstr "Phát triển"
 
-#: kpa-thumbnailtool/main.cpp:57 main.cpp:100
+#: kpa-thumbnailtool/main.cpp:57 main.cpp:99
 #, fuzzy, kde-format
 #| msgid "Robert L Krawitz"
 msgid "Robert Krawitz"
 msgstr "Robert L Krawitz"
 
-#: kpa-thumbnailtool/main.cpp:57 main.cpp:100
+#: kpa-thumbnailtool/main.cpp:57 main.cpp:99
 #, fuzzy, kde-format
 #| msgid "Development"
 msgid "Development, Optimization"
 msgstr "Phát triển"
 
-#: kpa-thumbnailtool/main.cpp:58 main.cpp:101
+#: kpa-thumbnailtool/main.cpp:58 main.cpp:100
 #, kde-format
 msgid "Tobias Leupold"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:58 main.cpp:101
+#: kpa-thumbnailtool/main.cpp:58 main.cpp:100
 #, kde-format
 msgid "Development, Releases, Website"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:59 main.cpp:102
+#: kpa-thumbnailtool/main.cpp:59 main.cpp:101
 #, kde-format
 msgid "Jesper K. Pedersen"
 msgstr "Jesper K. Pedersen"
 
-#: kpa-thumbnailtool/main.cpp:59 main.cpp:102
+#: kpa-thumbnailtool/main.cpp:59 main.cpp:101
 #, kde-format
 msgid "Former Maintainer, Project Creator"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:61 main.cpp:104
+#: kpa-thumbnailtool/main.cpp:61 main.cpp:103
 #, kde-format
 msgid "Hassan Ibraheem"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:62 main.cpp:105
+#: kpa-thumbnailtool/main.cpp:62 main.cpp:104
 #, kde-format
 msgid "Jan Kundr&aacute;t"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:63 main.cpp:106
+#: kpa-thumbnailtool/main.cpp:63 main.cpp:105
 #, kde-format
 msgid "Andreas Neustifter"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:64 main.cpp:107
+#: kpa-thumbnailtool/main.cpp:64 main.cpp:106
 #, kde-format
 msgid "Tuomas Suutari"
 msgstr "Tuomas Suutari"
 
-#: kpa-thumbnailtool/main.cpp:65 main.cpp:108
+#: kpa-thumbnailtool/main.cpp:65 main.cpp:107
 #, kde-format
 msgid "Miika Turkia"
 msgstr ""
 
-#: kpa-thumbnailtool/main.cpp:66 main.cpp:109
+#: kpa-thumbnailtool/main.cpp:66 main.cpp:108
 #, kde-format
 msgid "Henner Zeller"
 msgstr ""
@@ -2688,39 +2688,66 @@ msgstr "Bổ sung"
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
 
-#: main.cpp:87
+#: lib/kpabase/SettingsData.cpp:222
+#, kde-format
+msgid ""
+"When reading time information of images, their Exif info is used. Exif info "
+"may, however, not be supported by your KPhotoAlbum installation, or no valid "
+"information may be in the file. As a backup, KPhotoAlbum may use the "
+"timestamp of the image - this may, however, not be valid in case the image "
+"is scanned in. So the question is, should KPhotoAlbum trust the time stamp "
+"on your images?"
+msgstr ""
+
+#: lib/kpabase/SettingsData.cpp:229
+#, kde-format
+msgid "Trust Time Stamps?"
+msgstr "Theo nhãn thời gian ?"
+
+#: lib/kpabase/SettingsData.cpp:354 XMLDB/FileReader.cpp:498
+#, kde-format
+msgid "Events"
+msgstr ""
+
+#: lib/kpabase/SettingsData.cpp:355 XMLDB/FileReader.cpp:499
+#, fuzzy, kde-format
+#| msgid "New Images"
+msgid "untagged"
+msgstr "Ảnh mới"
+
+#: main.cpp:86
 #, kde-format
 msgid "KPhotoAlbum"
 msgstr "KPhotoAlbum"
 
-#: main.cpp:89
+#: main.cpp:88
 #, kde-format
 msgid "KDE Photo Album"
 msgstr "Tập Ảnh KDE"
 
-#: main.cpp:91
+#: main.cpp:90
 #, kde-format
 msgid "Copyright (C) 2003-2021 The KPhotoAlbum Development Team"
 msgstr ""
 
-#: main.cpp:112
+#: main.cpp:111
 #, kde-format
 msgid "Marco Caldarelli"
 msgstr "Marco Caldarelli"
 
-#: main.cpp:112
+#: main.cpp:111
 #, fuzzy, kde-format
 #| msgid ""
 #| "Patch for making it possible to reread EXIF info using a nice dialog."
 msgid "Patch for making it possible to reread Exif info using a nice dialog."
 msgstr "Đắp vá cung cấp khả năng đọc lại thông tin EXIF bằng hộp thoại đẹp."
 
-#: main.cpp:113
+#: main.cpp:112
 #, kde-format
 msgid "Jean-Michel FAYARD"
 msgstr "Jean-Michel FAYARD"
 
-#: main.cpp:113
+#: main.cpp:112
 #, kde-format
 msgid ""
 "(.) Patch with directory info made available through the browser. (.) Patch "
@@ -2729,64 +2756,64 @@ msgstr ""
 " • Đắp vá cung cấp thông tin thư mục qua trình duyệt qua. • Đắp vá thêm hộp "
 "kiểm cho việc tìm kiếm kiểu « và/hoặc » trên trang tìm kiếm."
 
-#: main.cpp:114
+#: main.cpp:113
 #, kde-format
 msgid "Matthias Füssel"
 msgstr ""
 
-#: main.cpp:114
+#: main.cpp:113
 #, kde-format
 msgid "Geo Position page in browser and various bug fixes"
 msgstr ""
 
-#: main.cpp:115
+#: main.cpp:114
 #, kde-format
 msgid "Wes Hardaker"
 msgstr ""
 
-#: main.cpp:115
+#: main.cpp:114
 #, kde-format
 msgid "Some very useful features to improve workflow"
 msgstr ""
 
-#: main.cpp:116
+#: main.cpp:115
 #, kde-format
 msgid "Reimar Imhof"
 msgstr "Reimar Imhof"
 
-#: main.cpp:116
+#: main.cpp:115
 #, kde-format
 msgid "Patch to sort items in option listboxes"
 msgstr "Đắp vá sắp xếp mục trong hộp liệt kê tuỳ chọn"
 
-#: main.cpp:117
+#: main.cpp:116
 #, kde-format
 msgid "Christoph Moseler"
 msgstr "Christoph Moseler"
 
-#: main.cpp:117
+#: main.cpp:116
 #, kde-format
 msgid "Numerous patches for lots of bugs plus patches for a few new features"
 msgstr ""
 "Nhiều đắp vá sửa chữa rất nhiều lỗi, cũng như đắp vá cung cấp vài tính năng "
 "mới."
 
-#: main.cpp:118
+#: main.cpp:117
 #, kde-format
 msgid "Teemu Rytilahti"
 msgstr "Teemu Rytilahti"
 
-#: main.cpp:119
+#: main.cpp:118
 #, kde-format
 msgid "Theme support for HTML generation"
 msgstr ""
 
-#: main.cpp:120
+#: main.cpp:119
 #, kde-format
 msgid "Thomas Schwarzgruber"
 msgstr "Thomas Schwarzgruber"
 
-#: main.cpp:120
+#: main.cpp:119
 #, fuzzy, kde-format
 #| msgid ""
 #| "Patch to sort images in the thumbnail view, plus reading time info out of "
@@ -2798,33 +2825,33 @@ msgstr ""
 "Đắp vá sắp xếp ảnh trong ô xem mẫu ảnh, cũng đọc thông tin giờ từ ảnh EXIF "
 "cho ảnh đã có."
 
-#: main.cpp:121
+#: main.cpp:120
 #, kde-format
 msgid "Clytie Siddall"
 msgstr "Clytie Siddall"
 
-#: main.cpp:121
+#: main.cpp:120
 #, fuzzy, kde-format
 #| msgid "Tremendous help with the english text in the application."
 msgid "Tremendous help with the English text in the application."
 msgstr "Giúp đỡ sửa chữa văn bản tiếng Anh trong ứng dụng."
 
-#: main.cpp:122
+#: main.cpp:121
 #, kde-format
 msgid "Will Stephenson"
 msgstr "Will Stephenson"
 
-#: main.cpp:122
+#: main.cpp:121
 #, kde-format
 msgid "Developing an Icon for KPhotoAlbum"
 msgstr "Phát triển biểu tượng cho KPhotoAlbum"
 
-#: main.cpp:123
+#: main.cpp:122
 #, kde-format
 msgid "Marcel Wiesweg"
 msgstr "Marcel Wiesweg"
 
-#: main.cpp:123
+#: main.cpp:122
 #, kde-format
 msgid ""
 "Patch which speed up loading of thumbnails plus preview in image property "
@@ -3085,32 +3112,32 @@ msgstr "Chưa chọn mục nào"
 msgid "No duplicates found"
 msgstr "Không tìm thấy tệp thiết lập mặc định nào"
 
-#: MainWindow/ExternalPopup.cpp:57
+#: MainWindow/ExternalPopup.cpp:61
 #, kde-format
 msgid "Current Item"
 msgstr "Mục hiện có"
 
-#: MainWindow/ExternalPopup.cpp:60
+#: MainWindow/ExternalPopup.cpp:64
 #, kde-format
 msgid "All Selected Items"
 msgstr "Mọi mục đã chọn"
 
-#: MainWindow/ExternalPopup.cpp:63
+#: MainWindow/ExternalPopup.cpp:67
 #, kde-format
 msgid "Copy and Open"
 msgstr ""
 
-#: MainWindow/ExternalPopup.cpp:87
+#: MainWindow/ExternalPopup.cpp:91
 #, kde-format
 msgid "Open With..."
 msgstr ""
 
-#: MainWindow/ExternalPopup.cpp:106
+#: MainWindow/ExternalPopup.cpp:110
 #, kde-format
 msgid "Your Command Line"
 msgstr ""
 
-#: MainWindow/ExternalPopup.cpp:174
+#: MainWindow/ExternalPopup.cpp:178
 #, kde-format
 msgid "Invoke External Program"
 msgstr "Gọi trình bên ngoài"
@@ -3556,12 +3583,12 @@ msgid ""
 msgstr ""
 
 #: MainWindow/StatisticsDialog.cpp:110 Settings/BirthdayPage.cpp:47
-#: Settings/UntaggedGroupBox.cpp:30
+#: Settings/UntaggedGroupBox.cpp:29
 #, kde-format
 msgid "Category:"
 msgstr "Loại:"
 
-#: MainWindow/StatisticsDialog.cpp:116 Settings/UntaggedGroupBox.cpp:37
+#: MainWindow/StatisticsDialog.cpp:116 Settings/UntaggedGroupBox.cpp:36
 #, kde-format
 msgid "Tag:"
 msgstr ""
@@ -3699,23 +3726,23 @@ msgstr "Kiểm tra tính năng"
 msgid "Congratulations: all dynamic features have been enabled."
 msgstr ""
 
-#: MainWindow/Window.cpp:138
+#: MainWindow/Window.cpp:140
 #, kde-format
 msgid "Loading Database"
 msgstr "Đang nạp cơ sở dữ liệu"
 
-#: MainWindow/Window.cpp:145
+#: MainWindow/Window.cpp:147
 #, kde-format
 msgid "Loading Main Window"
 msgstr "Đang nạp cửa sổ chính"
 
-#: MainWindow/Window.cpp:251
+#: MainWindow/Window.cpp:253
 #, fuzzy, kde-format
 #| msgid "Searching for New Images and Videos"
 msgid "Searching for New Files"
 msgstr "Đang tìm kiếm ảnh (động) mới"
 
-#: MainWindow/Window.cpp:286
+#: MainWindow/Window.cpp:288
 #, kde-format
 msgid ""
 "<p><b>Delete Your Temporary Demo Database</b></p><p>I hope you enjoyed the "
@@ -3731,368 +3758,368 @@ msgstr ""
 "lần nữa, có thể bạn sẽ muốn giữ nó lại cùng với những thay đổi mà bạn đã tạo "
 "ra trong phiên làm việc này</p>"
 
-#: MainWindow/Window.cpp:291
+#: MainWindow/Window.cpp:293
 #, kde-format
 msgid "Delete Demo Database"
 msgstr "Xoá cơ sở dữ liệu chứng minh"
 
-#: MainWindow/Window.cpp:305
+#: MainWindow/Window.cpp:307
 #, kde-format
 msgid "Do you want to save the changes?"
 msgstr "Bạn có muốn lưu các thay đổi không?"
 
-#: MainWindow/Window.cpp:306
+#: MainWindow/Window.cpp:308
 #, kde-format
 msgid "Save Changes?"
 msgstr "Lưu thay đổi ?"
 
-#: MainWindow/Window.cpp:349
+#: MainWindow/Window.cpp:351
 #, kde-format
 msgid ""
 "Some of the selected images already belong to a stack. Do you want to remove "
 "them from their stacks and create a completely new one?"
 msgstr ""
 
-#: MainWindow/Window.cpp:352 MainWindow/Window.cpp:358
+#: MainWindow/Window.cpp:354 MainWindow/Window.cpp:360
 #, kde-format
 msgid "Stacking Error"
 msgstr ""
 
-#: MainWindow/Window.cpp:357
+#: MainWindow/Window.cpp:359
 #, kde-format
 msgid "Unknown error, stack creation failed."
 msgstr ""
 
-#: MainWindow/Window.cpp:437 MainWindow/Window.cpp:563
-#: MainWindow/Window.cpp:1285
+#: MainWindow/Window.cpp:439 MainWindow/Window.cpp:565
+#: MainWindow/Window.cpp:1287
 #, kde-format
 msgid "No item is selected."
 msgstr "Chưa chọn mục nào."
 
-#: MainWindow/Window.cpp:437 MainWindow/Window.cpp:563
-#: MainWindow/Window.cpp:1286
+#: MainWindow/Window.cpp:439 MainWindow/Window.cpp:565
+#: MainWindow/Window.cpp:1288
 #, kde-format
 msgid "No Selection"
 msgstr "Chưa chọn gì"
 
-#: MainWindow/Window.cpp:483
+#: MainWindow/Window.cpp:485
 #, kde-format
 msgid "Saving..."
 msgstr "Đang lưu..."
 
-#: MainWindow/Window.cpp:488
+#: MainWindow/Window.cpp:490
 #, kde-format
 msgid "Saving... Done"
 msgstr "Đang lưu... xong."
 
-#: MainWindow/Window.cpp:636
+#: MainWindow/Window.cpp:638
 #, kde-format
 msgid "There are no images to be shown."
 msgstr ""
 
-#: MainWindow/Window.cpp:722
+#: MainWindow/Window.cpp:724
 #, kde-format
 msgid "Generate HTML..."
 msgstr "Tạo ra mã HTML..."
 
-#: MainWindow/Window.cpp:726
+#: MainWindow/Window.cpp:728
 #, kde-format
 msgid "Import..."
 msgstr "Nhập..."
 
-#: MainWindow/Window.cpp:729
+#: MainWindow/Window.cpp:731
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgid "Export/Copy Images..."
 msgstr "Đang sao chép ảnh"
 
-#: MainWindow/Window.cpp:756
+#: MainWindow/Window.cpp:758
 #, fuzzy, kde-format
 #| msgid "Delete Selected"
 msgctxt "Delete selected images"
 msgid "Delete Selected"
 msgstr "Xoá điều chọn"
 
-#: MainWindow/Window.cpp:762
+#: MainWindow/Window.cpp:764
 #, fuzzy, kde-format
 #| msgid "Remove Tokens"
 msgid "Remove Tokens..."
 msgstr "Gỡ bỏ hiệu bài"
 
-#: MainWindow/Window.cpp:765
+#: MainWindow/Window.cpp:767
 #, kde-format
 msgid "Open List of Files..."
 msgstr ""
 
-#: MainWindow/Window.cpp:768
+#: MainWindow/Window.cpp:770
 #, kde-format
 msgid "Annotate Individual Items"
 msgstr "Chú giải mục riêng"
 
-#: MainWindow/Window.cpp:772
+#: MainWindow/Window.cpp:774
 #, kde-format
 msgid "Annotate Multiple Items at a Time"
 msgstr "Chú giải đồng thời nhiều mục"
 
-#: MainWindow/Window.cpp:776
+#: MainWindow/Window.cpp:778
 #, kde-format
 msgid "Merge Images into a Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:780
+#: MainWindow/Window.cpp:782
 #, kde-format
 msgid "Remove Images from Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:783
+#: MainWindow/Window.cpp:785
 #, kde-format
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:796
+#: MainWindow/Window.cpp:798
 #, kde-format
 msgid "View"
 msgstr "Xem"
 
-#: MainWindow/Window.cpp:800
+#: MainWindow/Window.cpp:802
 #, kde-format
 msgid "View (In New Window)"
 msgstr "Xem (trong cửa sổ mới)"
 
-#: MainWindow/Window.cpp:803
+#: MainWindow/Window.cpp:805
 #, kde-format
 msgid "Run Slide Show"
 msgstr "Chạy chiếu ảnh"
 
-#: MainWindow/Window.cpp:808
+#: MainWindow/Window.cpp:810
 #, kde-format
 msgid "Run Randomized Slide Show"
 msgstr "Chạy chiếu ảnh ngẫu nhiên"
 
-#: MainWindow/Window.cpp:814
+#: MainWindow/Window.cpp:816
 #, kde-format
 msgid "Collapse all stacks"
 msgstr ""
 
-#: MainWindow/Window.cpp:820
+#: MainWindow/Window.cpp:822
 #, kde-format
 msgid "Expand all stacks"
 msgstr ""
 
-#: MainWindow/Window.cpp:825
+#: MainWindow/Window.cpp:827
 #, kde-format
 msgid "Show &Oldest First"
 msgstr "Hiện &cú nhất trước"
 
-#: MainWindow/Window.cpp:830
+#: MainWindow/Window.cpp:832
 #, kde-format
 msgid "Show &Newest First"
 msgstr "Hiện mới &nhất trước"
 
-#: MainWindow/Window.cpp:835
+#: MainWindow/Window.cpp:837
 #, kde-format
 msgid "Sort Selected by Date && Time"
 msgstr "Sắp xếp điều chọn theo ngày và giờ"
 
-#: MainWindow/Window.cpp:838
+#: MainWindow/Window.cpp:840
 #, fuzzy, kde-format
 #| msgid "Limit View to Marked"
 msgid "Limit View to Selection"
 msgstr "Chỉ hiện điều có dấu"
 
-#: MainWindow/Window.cpp:841
+#: MainWindow/Window.cpp:843
 #, kde-format
 msgid "Jump to Context"
 msgstr "Nhảy tới ngữ cảnh"
 
-#: MainWindow/Window.cpp:847
+#: MainWindow/Window.cpp:849
 #, kde-format
 msgid "Lock Images"
 msgstr "Khoá ảnh"
 
-#: MainWindow/Window.cpp:851
+#: MainWindow/Window.cpp:853
 #, kde-format
 msgid "Unlock"
 msgstr "Bỏ khoá"
 
-#: MainWindow/Window.cpp:854
+#: MainWindow/Window.cpp:856
 #, kde-format
 msgid "Lock Away All Other Items"
 msgstr "Khoá riêng các mục khác"
 
-#: MainWindow/Window.cpp:857
+#: MainWindow/Window.cpp:859
 #, kde-format
 msgid "Lock Away Current Set of Items"
 msgstr "Khoá riêng tập mục hiện có"
 
-#: MainWindow/Window.cpp:861
+#: MainWindow/Window.cpp:863
 #, kde-format
 msgid "Display Images and Videos Not on Disk"
 msgstr "Hiển thị ảnh (động) không phải trên đĩa"
 
-#: MainWindow/Window.cpp:864
+#: MainWindow/Window.cpp:866
 #, kde-format
 msgid "Display Images and Videos with Incomplete Dates..."
 msgstr "Hiển thị ảnh (động) có ngày tháng không hoàn toàn..."
 
-#: MainWindow/Window.cpp:868
+#: MainWindow/Window.cpp:870
 #, kde-format
 msgid "Display Images and Videos with Changed MD5 Sum"
 msgstr "Hiển thị ảnh (động) có tổng kiểm MD5 bị sửa đổi"
 
-#: MainWindow/Window.cpp:872
+#: MainWindow/Window.cpp:874
 #, kde-format
 msgid "Merge duplicates"
 msgstr ""
 
-#: MainWindow/Window.cpp:874
+#: MainWindow/Window.cpp:876
 #, kde-format
 msgid "Recalculate Checksum"
 msgstr "Tính lại tổng kiểm tra"
 
-#: MainWindow/Window.cpp:878
+#: MainWindow/Window.cpp:880
 #, kde-format
 msgid "Rescan for Images and Videos"
 msgstr "Quết lại tìm ảnh (động)"
 
-#: MainWindow/Window.cpp:881
+#: MainWindow/Window.cpp:883
 #, fuzzy, kde-format
 #| msgid "Update EXIF search database"
 msgid "Recreate Exif Search Database"
 msgstr "Cập nhật co sở dữ liệu tìm EXIF"
 
-#: MainWindow/Window.cpp:884
+#: MainWindow/Window.cpp:886
 #, fuzzy, kde-format
 #| msgid "Read EXIF Info From Files..."
 msgid "Read Exif Info from Files..."
 msgstr "Đọc thông tin EXIF từ tệp..."
 
-#: MainWindow/Window.cpp:887
+#: MainWindow/Window.cpp:889
 #, fuzzy, kde-format
 #| msgid "Sort Selected by Date && Time"
 msgid "Sort All by Date && Time"
 msgstr "Sắp xếp điều chọn theo ngày và giờ"
 
-#: MainWindow/Window.cpp:891
+#: MainWindow/Window.cpp:893
 #, kde-format
 msgid "Automatically Stack Selected Images..."
 msgstr ""
 
-#: MainWindow/Window.cpp:894
+#: MainWindow/Window.cpp:896
 #, kde-format
 msgid "Build Thumbnails"
 msgstr "Xây dựng mẫu ảnh"
 
-#: MainWindow/Window.cpp:897
+#: MainWindow/Window.cpp:899
 #, kde-format
 msgid "Statistics..."
 msgstr ""
 
-#: MainWindow/Window.cpp:901
+#: MainWindow/Window.cpp:903
 #, kde-format
 msgid "Mark As Untagged"
 msgstr ""
 
-#: MainWindow/Window.cpp:910
+#: MainWindow/Window.cpp:912
 #, kde-format
 msgid "Enable All Messages"
 msgstr "Bật mọi thông điệp"
 
-#: MainWindow/Window.cpp:913
+#: MainWindow/Window.cpp:915
 #, fuzzy, kde-format
 #| msgid "Configure View"
 msgid "Configure Current View"
 msgstr "Cấu hình ô xem"
 
-#: MainWindow/Window.cpp:921
+#: MainWindow/Window.cpp:923
 #, fuzzy, kde-format
 #| msgid "Theme:"
 msgid "Tree"
 msgstr "Sắc thái:"
 
-#: MainWindow/Window.cpp:926
+#: MainWindow/Window.cpp:928
 #, kde-format
 msgid "Tree with User Icons"
 msgstr ""
 
-#: MainWindow/Window.cpp:931
+#: MainWindow/Window.cpp:933
 #, fuzzy, kde-format
 #| msgid "Icon:"
 msgid "Icons"
 msgstr "Biểu tượng:"
 
-#: MainWindow/Window.cpp:939
+#: MainWindow/Window.cpp:941
 #, kde-format
 msgid "Show Tooltips in Thumbnails Window"
 msgstr "Hiện mẹo công cụ trong cửa sổ mẫu ảnh"
 
-#: MainWindow/Window.cpp:948
+#: MainWindow/Window.cpp:950
 #, kde-format
 msgid "Choose Color Scheme"
 msgstr ""
 
-#: MainWindow/Window.cpp:957
+#: MainWindow/Window.cpp:959
 #, kde-format
 msgid "Run KPhotoAlbum Demo"
 msgstr "Chạy chứng minh KPhotoAlbum"
 
-#: MainWindow/Window.cpp:960
+#: MainWindow/Window.cpp:962
 #, kde-format
 msgid "KPhotoAlbum Feature Status"
 msgstr "Trạng thái tính năng KPhotoAlbum"
 
-#: MainWindow/Window.cpp:963
+#: MainWindow/Window.cpp:965
 #, fuzzy, kde-format
 #| msgid "Show Videos"
 msgid "Show Demo Videos"
 msgstr "Hiện ảnh động"
 
-#: MainWindow/Window.cpp:967
+#: MainWindow/Window.cpp:969
 #, kde-format
 msgid "Show Exif Info"
 msgstr "Hiện thông tin EXIF"
 
-#: MainWindow/Window.cpp:970
+#: MainWindow/Window.cpp:972
 #, kde-format
 msgid "Recreate Selected Thumbnails"
 msgstr "Tạo ra các mẫu ảnh đã chọn"
 
-#: MainWindow/Window.cpp:973
+#: MainWindow/Window.cpp:975
 #, fuzzy, kde-format
 #| msgid "Generate thumbnails"
 msgid "Use next video thumbnail"
 msgstr "Tạo ra các mẫu ảnh"
 
-#: MainWindow/Window.cpp:977
+#: MainWindow/Window.cpp:979
 #, kde-format
 msgid "Use previous video thumbnail"
 msgstr ""
 
-#: MainWindow/Window.cpp:1003
+#: MainWindow/Window.cpp:1005
 #, kde-format
 msgid "Auto saving...."
 msgstr "Đang tự động lưu..."
 
-#: MainWindow/Window.cpp:1006
+#: MainWindow/Window.cpp:1008
 #, kde-format
 msgid "Auto saving.... Done"
 msgstr "Đang tự động lưu... xong."
 
-#: MainWindow/Window.cpp:1100
+#: MainWindow/Window.cpp:1102
 #, kde-format
 msgid ""
 "<p>Could not open given index.xml as provided directory does not exist.<br />"
 "%1</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1107
+#: MainWindow/Window.cpp:1109
 #, kde-format
 msgid ""
 "<p>Given index file does not exist, do you want to create following?<br />%1/"
 "index.xml</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1127
+#: MainWindow/Window.cpp:1129
 #, kde-format
 msgid ""
 "<p>You have configured a tag for untagged images, but either the tag itself "
@@ -4101,27 +4128,27 @@ msgid ""
 "Categories</interface></p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1238 Settings/SettingsDialog.cpp:47
+#: MainWindow/Window.cpp:1240 Settings/SettingsDialog.cpp:47
 #, kde-format
 msgid "General"
 msgstr "Chung"
 
-#: MainWindow/Window.cpp:1239 Settings/SettingsDialog.cpp:53
+#: MainWindow/Window.cpp:1241 Settings/SettingsDialog.cpp:53
 #, kde-format
 msgid "Viewer"
 msgstr "Bộ xem"
 
-#: MainWindow/Window.cpp:1242
+#: MainWindow/Window.cpp:1244
 #, kde-format
 msgid "Annotation Dialog"
 msgstr "Hộp thoại chú giải"
 
-#: MainWindow/Window.cpp:1243 Settings/SettingsDialog.cpp:49
+#: MainWindow/Window.cpp:1245 Settings/SettingsDialog.cpp:49
 #, kde-format
 msgid "Thumbnail View"
 msgstr "Xem mẫu ảnh"
 
-#: MainWindow/Window.cpp:1388
+#: MainWindow/Window.cpp:1390
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Really enable all messageboxes where you previously checked the do-not-"
@@ -4133,7 +4160,7 @@ msgstr ""
 "<p>Thực sự hiệu lực mọi hộp thông điệp khi bạn đã đánh dấu trong hộp ở cạnh "
 "« Đừng hiện lần nữa » không?</p>"
 
-#: MainWindow/Window.cpp:1398
+#: MainWindow/Window.cpp:1400
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum hit an internal error (missing plug-in menu in MainWindow::"
@@ -4144,58 +4171,58 @@ msgid ""
 "on due to the missing make install.</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1398
+#: MainWindow/Window.cpp:1400
 #, fuzzy, kde-format
 #| msgid "Invoke External Program"
 msgid "Internal Error"
 msgstr "Gọi trình bên ngoài"
 
-#: MainWindow/Window.cpp:1409
+#: MainWindow/Window.cpp:1411
 #, kde-format
 msgid "Successfully shared image(s). Copying location to clipboard..."
 msgstr ""
 
-#: MainWindow/Window.cpp:1412
+#: MainWindow/Window.cpp:1414
 #, kde-format
 msgid "Successfully shared image(s)."
 msgstr ""
 
-#: MainWindow/Window.cpp:1417
+#: MainWindow/Window.cpp:1419
 #, kde-format
 msgid "Image sharing failed with message: %1"
 msgstr ""
 
-#: MainWindow/Window.cpp:1480
+#: MainWindow/Window.cpp:1482
 #, kde-format
 msgid "Open List of Files"
 msgstr ""
 
-#: MainWindow/Window.cpp:1481
+#: MainWindow/Window.cpp:1483
 #, kde-format
 msgid ""
 "You can open a set of files from KPhotoAlbum's image root by listing the "
 "files here."
 msgstr ""
 
-#: MainWindow/Window.cpp:1497
+#: MainWindow/Window.cpp:1499
 #, kde-format
 msgid "No images matching your input were found."
 msgstr ""
 
-#: MainWindow/Window.cpp:1497
+#: MainWindow/Window.cpp:1499
 #, fuzzy, kde-format
 #| msgid "No other"
 msgid "No Matches"
 msgstr "Không có gì khác"
 
-#: MainWindow/Window.cpp:1676
+#: MainWindow/Window.cpp:1678
 #, fuzzy, no-c-format, kde-format
 #| msgid "Thumbnail image size:"
 msgctxt "@info:status"
 msgid "Thumbnail width: %1px (storage size: %2px)"
 msgstr "Cỡ ảnh mẫu ảnh :"
 
-#: MainWindow/Window.cpp:1727
+#: MainWindow/Window.cpp:1729
 #, kde-format
 msgid ""
 "<p>Unable to find ffmpeg on the system.</p><p>Without it, KPhotoAlbum will "
@@ -4203,74 +4230,88 @@ msgid ""
 "the ffmpeg package</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1730
+#: MainWindow/Window.cpp:1732
 #, fuzzy, kde-format
 #| msgid "File not available"
 msgid "Video thumbnails are not available"
 msgstr "Tệp không sẵn sàng"
 
-#: Map/GeoCluster.cpp:133
+#: Map/GeoCluster.cpp:135
 #, kde-format
 msgctxt "The number of images in an area of the map"
 msgid "%1"
 msgstr ""
 
-#: Map/MapView.cpp:162
+#: Map/MapView.cpp:170
 #, kde-format
 msgid "Save the current map settings"
 msgstr ""
 
-#: Map/MapView.cpp:169
+#: Map/MapView.cpp:177
 #, kde-format
 msgid "Go to last map position"
 msgstr ""
 
-#: Map/MapView.cpp:176
+#: Map/MapView.cpp:184
 #, fuzzy, kde-format
 #| msgid "Show Thumbnails"
 msgid "Show thumbnails"
 msgstr "Hiện các mẫu ảnh"
 
-#: Map/MapView.cpp:185
+#: Map/MapView.cpp:193
 #, kde-format
 msgctxt "@action to group, as in aggregate thumbnails into clusters"
 msgid "Group adjacent thumbnails into clickable clusters"
 msgstr ""
 
-#: Map/MapView.cpp:328
+#: Map/MapView.cpp:205
+#, kde-format
+msgctxt ""
+"@action Decrease size of the markers (i.e. thumbnails) drawn on the map"
+msgid "Decrease marker size"
+msgstr ""
+
+#: Map/MapView.cpp:212
+#, kde-format
+msgctxt ""
+"@action Increase size of the markers (i.e. thumbnails) drawn on the map"
+msgid "Increase marker size"
+msgstr ""
+
+#: Map/MapView.cpp:360
 #, kde-format
 msgid "Map view"
 msgstr ""
 
-#: Map/MapView.cpp:328
+#: Map/MapView.cpp:360
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgid "Settings saved!"
 msgstr "Thiết lập"
 
-#: Map/MapView.cpp:355
+#: Map/MapView.cpp:387
 #, fuzzy, kde-format
 #| msgid "Loading information from images"
 msgid "<i>Loading coordinates from the images ...</i>"
 msgstr "Đang tải thông tin từ ảnh"
 
-#: Map/MapView.cpp:371
+#: Map/MapView.cpp:403
 #, kde-format
 msgid "<i>This image does not contain geographic coordinates.</i>"
 msgstr ""
 
-#: Map/MapView.cpp:379
+#: Map/MapView.cpp:411
 #, kde-format
 msgid ""
 "<i>Some of the selected images do not contain geographic coordinates.</i>"
 msgstr ""
 
-#: Map/MapView.cpp:389
+#: Map/MapView.cpp:421
 #, kde-format
 msgid "<i>Search for geographic coordinates.</i>"
 msgstr ""
 
-#: Map/MapView.cpp:397
+#: Map/MapView.cpp:429
 #, kde-format
 msgid "<i>None of the selected images contain geographic coordinates.</i>"
 msgstr ""
@@ -4529,37 +4570,37 @@ msgstr "<p>Thực sự muốn xoá phân loại « %1 » không?</p>"
 msgid "<i>Choose a category to edit it</i>"
 msgstr ""
 
-#: Settings/DatabaseBackendPage.cpp:24
+#: Settings/DatabaseBackendPage.cpp:23
 #, kde-format
 msgid "Choose speed over readability for index.xml file"
 msgstr "Chọn tốc độ hơn khả năng đọc cho tệp « index.xml »"
 
-#: Settings/DatabaseBackendPage.cpp:28
+#: Settings/DatabaseBackendPage.cpp:27
 #, kde-format
 msgid "Compress backup file"
 msgstr "Nén tệp sao lưu"
 
-#: Settings/DatabaseBackendPage.cpp:32
+#: Settings/DatabaseBackendPage.cpp:31
 #, kde-format
 msgid "Auto save every:"
 msgstr "Tự động lưu mỗi:"
 
-#: Settings/DatabaseBackendPage.cpp:35
+#: Settings/DatabaseBackendPage.cpp:34
 #, kde-format
 msgid "min."
 msgstr "phút"
 
-#: Settings/DatabaseBackendPage.cpp:46
+#: Settings/DatabaseBackendPage.cpp:45
 #, kde-format
 msgid "Number of backups to keep:"
 msgstr "Số bản sao lưu cần giữ:"
 
-#: Settings/DatabaseBackendPage.cpp:51
+#: Settings/DatabaseBackendPage.cpp:50
 #, kde-format
 msgid "Infinite"
 msgstr "Vô hạn"
 
-#: Settings/DatabaseBackendPage.cpp:58
+#: Settings/DatabaseBackendPage.cpp:57
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum is capable of backing up the index.xml file by keeping copies "
@@ -4577,7 +4618,7 @@ msgstr ""
 "nhiều ảnh, trong trường hợp đó bạn có thể báo KPhotoAlbum nén (bằng zip) các "
 "tệp sao lưu, để tiết kiệm sức chứa trên đĩa.</p>"
 
-#: Settings/DatabaseBackendPage.cpp:68
+#: Settings/DatabaseBackendPage.cpp:67
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum is using a single index.xml file as its <i>data base</i>. "
@@ -4591,19 +4632,19 @@ msgstr ""
 "này. Tiếc là tính năng này làm cho tệp « index.xml » khó hơn cho người đọc.</"
 "p>"
 
-#: Settings/ExifPage.cpp:28
+#: Settings/ExifPage.cpp:27
 #, fuzzy, kde-format
 #| msgid "EXIF info to show in the Viewer"
 msgid "Exif/IPTC info to show in the viewer"
 msgstr "Thông tin EXIF cần hiện trong Bộ xem"
 
-#: Settings/ExifPage.cpp:31
+#: Settings/ExifPage.cpp:30
 #, fuzzy, kde-format
 #| msgid "EXIF info to show in the EXIF dialog"
 msgid "Exif/IPTC info to show in the Exif dialog"
 msgstr "Thông tin EXIF cần hiện trong hộp thoại EXIF"
 
-#: Settings/ExifPage.cpp:34
+#: Settings/ExifPage.cpp:33
 #, kde-format
 msgid "Character set for image metadata:"
 msgstr ""
@@ -4923,100 +4964,100 @@ msgid ""
 "be restarted for changes to take effect.</p>"
 msgstr ""
 
-#: Settings/GeneralPage.cpp:29
+#: Settings/GeneralPage.cpp:28
 #, fuzzy, kde-format
 #| msgid "New Images"
 msgid "Loading New Images"
 msgstr "Ảnh mới"
 
-#: Settings/GeneralPage.cpp:37
+#: Settings/GeneralPage.cpp:36
 #, kde-format
 msgid "Trust image dates:"
 msgstr "Theo ngày ảnh:"
 
-#: Settings/GeneralPage.cpp:39
+#: Settings/GeneralPage.cpp:38
 #, fuzzy, kde-format
 #| msgid "Always"
 msgctxt "As in 'always trust image dates'"
 msgid "Always"
 msgstr "Luôn luôn"
 
-#: Settings/GeneralPage.cpp:40
+#: Settings/GeneralPage.cpp:39
 #, fuzzy, kde-format
 #| msgid "Ask"
 msgctxt "As in 'ask whether to trust image dates'"
 msgid "Ask"
 msgstr "Hỏi"
 
-#: Settings/GeneralPage.cpp:41
+#: Settings/GeneralPage.cpp:40
 #, fuzzy, kde-format
 #| msgid "Never"
 msgctxt "As in 'never trust image dates'"
 msgid "Never"
 msgstr "Không bao giờ"
 
-#: Settings/GeneralPage.cpp:48
+#: Settings/GeneralPage.cpp:47
 #, fuzzy, kde-format
 #| msgid "Use EXIF orientation information"
 msgid "Use Exif orientation information"
 msgstr "Dùng thông tin hướng EXIF"
 
-#: Settings/GeneralPage.cpp:53
+#: Settings/GeneralPage.cpp:52
 #, fuzzy, kde-format
 #| msgid "Use EXIF description"
 msgid "Use Exif description"
 msgstr "Dùng mô tả EXIF"
 
-#: Settings/GeneralPage.cpp:57
+#: Settings/GeneralPage.cpp:56
 #, kde-format
 msgid "Strip out camera generated default descriptions"
 msgstr ""
 
-#: Settings/GeneralPage.cpp:69
+#: Settings/GeneralPage.cpp:68
 #, kde-format
 msgid "Use the embedded thumbnail in RAW file or halfsized RAW"
 msgstr ""
 
-#: Settings/GeneralPage.cpp:73
+#: Settings/GeneralPage.cpp:72
 #, fuzzy, kde-format
 #| msgid "Reorder Thumbnails"
 msgid "Required size for the thumbnail:"
 msgstr "Sắp xếp lại mẫu ảnh"
 
-#: Settings/GeneralPage.cpp:87
+#: Settings/GeneralPage.cpp:86
 #, kde-format
 msgid "Histogram"
 msgstr ""
 
-#: Settings/GeneralPage.cpp:94
+#: Settings/GeneralPage.cpp:93
 #, fuzzy, kde-format
 #| msgid "Show Time"
 msgid "Show histogram"
 msgstr "Hiện giờ"
 
-#: Settings/GeneralPage.cpp:99
+#: Settings/GeneralPage.cpp:98
 #, kde-format
 msgid "Use linear scale for histogram"
 msgstr ""
 
-#: Settings/GeneralPage.cpp:103
+#: Settings/GeneralPage.cpp:102
 #, fuzzy, kde-format
 #| msgid "Size of histogram columns in datebar:"
 msgid "Size of histogram columns in date bar:"
 msgstr "Kích cỡ các cột của biểu đồ tần xuất trên thanh ngày:"
 
-#: Settings/GeneralPage.cpp:124
+#: Settings/GeneralPage.cpp:123
 #, kde-format
 msgid "Show splash screen"
 msgstr "Hiện màn hình giật gân"
 
-#: Settings/GeneralPage.cpp:128
+#: Settings/GeneralPage.cpp:127
 #, fuzzy, kde-format
 #| msgid "Search for new images and videos on startup"
 msgid "Listen for Android devices on startup"
 msgstr "Tìm kiếm ảnh (động) mới khi khởi chạy"
 
-#: Settings/GeneralPage.cpp:137
+#: Settings/GeneralPage.cpp:136
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>KPhotoAlbum will try to read the image date from EXIF information in "
@@ -5048,7 +5089,7 @@ msgstr ""
 "bạn khả năng chọn nếu ảnh thuộc về máy quét hay máy chụp ảnh, từ phiên chạy "
 "này đến phiên bản khác.</p>"
 
-#: Settings/GeneralPage.cpp:148
+#: Settings/GeneralPage.cpp:147
 #, kde-format
 msgid ""
 "<p>JPEG images may contain information about rotation. If you have a reason "
@@ -5061,7 +5102,7 @@ msgstr ""
 "p><p>Ghi chú : máy chụp ảnh số của bạn có lẽ sẽ không ghi thông tin này vào "
 "ảnh bằng cách nào cả.</p>"
 
-#: Settings/GeneralPage.cpp:154
+#: Settings/GeneralPage.cpp:153
 #, kde-format
 msgid ""
 "<p>JPEG images may contain a description. Check this checkbox to specify if "
@@ -5070,12 +5111,12 @@ msgstr ""
 "<p>Ảnh kiểu JPEG có thể chứa mô tả. Hãy chọn mục này nếu bạn muốn sử dụng "
 "thông tin đó là mô tả mặc định về mỗi ảnh.</p>"
 
-#: Settings/GeneralPage.cpp:159
+#: Settings/GeneralPage.cpp:158
 #, kde-format
 msgid "Show the KPhotoAlbum splash screen on start up"
 msgstr "Hiện màn hình giật gân KPhotoAlbum khi khởi chạy"
 
-#: Settings/GeneralPage.cpp:163
+#: Settings/GeneralPage.cpp:162
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum is capable of showing your images on android devices. "
@@ -5086,7 +5127,7 @@ msgid ""
 "in the status bar to start listening."
 msgstr ""
 
-#: Settings/GeneralPage.cpp:170
+#: Settings/GeneralPage.cpp:169
 #, kde-format
 msgid ""
 "<p>Some cameras automatically store generic comments in each image. These "
@@ -5094,33 +5135,6 @@ msgid ""
 "want to ignore in the input field, one per line. Be sure to add the exact "
 "comment, including all whitespace.</p>"
 msgstr ""
-
-#: Settings/SettingsData.cpp:222
-#, kde-format
-msgid ""
-"When reading time information of images, their Exif info is used. Exif info "
-"may, however, not be supported by your KPhotoAlbum installation, or no valid "
-"information may be in the file. As a backup, KPhotoAlbum may use the "
-"timestamp of the image - this may, however, not be valid in case the image "
-"is scanned in. So the question is, should KPhotoAlbum trust the time stamp "
-"on your images?"
-msgstr ""
-
-#: Settings/SettingsData.cpp:229
-#, kde-format
-msgid "Trust Time Stamps?"
-msgstr "Theo nhãn thời gian ?"
-
-#: Settings/SettingsData.cpp:354 XMLDB/FileReader.cpp:498
-#, kde-format
-msgid "Events"
-msgstr ""
-
-#: Settings/SettingsData.cpp:355 XMLDB/FileReader.cpp:499
-#, fuzzy, kde-format
-#| msgid "New Images"
-msgid "untagged"
-msgstr "Ảnh mới"
 
 #: Settings/SettingsDialog.cpp:48
 #, fuzzy, kde-format
@@ -5163,20 +5177,20 @@ msgctxt "@title:window"
 msgid "Settings"
 msgstr "Thiết lập"
 
-#: Settings/TagGroupsPage.cpp:38
+#: Settings/TagGroupsPage.cpp:33
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgctxt "@label"
 msgid "Categories and groups:"
 msgstr "Phân loại"
 
-#: Settings/TagGroupsPage.cpp:47
+#: Settings/TagGroupsPage.cpp:42
 #, kde-format
 msgctxt "@label/rich"
 msgid "<strong>Select a group on the left side to add tags to it</strong>"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:58
+#: Settings/TagGroupsPage.cpp:53
 #, kde-format
 msgctxt "@label/rich"
 msgid ""
@@ -5184,74 +5198,74 @@ msgid ""
 "the changes before working on tag groups.</strong>"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:67
+#: Settings/TagGroupsPage.cpp:62
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add group ..."
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:230
+#: Settings/TagGroupsPage.cpp:225
 #, fuzzy, kde-format
 #| msgid "Really delete group %1?"
 msgctxt "@action:inmenu"
 msgid "Rename group \"%1\""
 msgstr "Thực sự xoá nhóm %1 không?"
 
-#: Settings/TagGroupsPage.cpp:232
+#: Settings/TagGroupsPage.cpp:227
 #, fuzzy, kde-format
 #| msgid "Delete Group"
 msgctxt "@action:inmenu"
 msgid "Delete group \"%1\""
 msgstr "Xoá nhóm"
 
-#: Settings/TagGroupsPage.cpp:311
+#: Settings/TagGroupsPage.cpp:306
 #, fuzzy, kde-format
 #| msgid "Take item out of category %1"
 msgctxt "@label"
 msgid "Tags in group \"%1\" of category \"%2\""
 msgstr "Lấy mục ra phân loại %1"
 
-#: Settings/TagGroupsPage.cpp:342
+#: Settings/TagGroupsPage.cpp:337
 #, fuzzy, kde-format
 #| msgid "New Group"
 msgctxt "@title:window"
 msgid "New Group"
 msgstr "Nhóm mới"
 
-#: Settings/TagGroupsPage.cpp:343
+#: Settings/TagGroupsPage.cpp:338
 #, fuzzy, kde-format
 #| msgid "Group name:"
 msgctxt "@label:textbox"
 msgid "Group name:"
 msgstr "Tên nhóm:"
 
-#: Settings/TagGroupsPage.cpp:357
+#: Settings/TagGroupsPage.cpp:352
 #, kde-format
 msgctxt "@info"
 msgid "<p>The group \"%1\" already exists.</p>"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:358
+#: Settings/TagGroupsPage.cpp:353
 #, kde-format
 msgctxt "@title:window"
 msgid "Cannot add group"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:435 Settings/TagGroupsPage.cpp:453
+#: Settings/TagGroupsPage.cpp:430 Settings/TagGroupsPage.cpp:448
 #, fuzzy, kde-format
 #| msgid "Delete Group"
 msgctxt "@title:window"
 msgid "Rename Group"
 msgstr "Xoá nhóm"
 
-#: Settings/TagGroupsPage.cpp:436
+#: Settings/TagGroupsPage.cpp:431
 #, fuzzy, kde-format
 #| msgid "Group name:"
 msgctxt "@label:textbox"
 msgid "New group name:"
 msgstr "Tên nhóm:"
 
-#: Settings/TagGroupsPage.cpp:448
+#: Settings/TagGroupsPage.cpp:443
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5259,7 +5273,7 @@ msgid ""
 "category \"%3\"</para>"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:510
+#: Settings/TagGroupsPage.cpp:505
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5268,49 +5282,49 @@ msgid ""
 "memberships of the sub-categories will stay intact.</para>"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:516
+#: Settings/TagGroupsPage.cpp:511
 #, fuzzy, kde-kuit-format
 #| msgid "<p>Really delete category '%1'?</p>"
 msgctxt "@info"
 msgid "<para>Really delete group \"%1\"?</para>"
 msgstr "<p>Thực sự muốn xoá phân loại « %1 » không?</p>"
 
-#: Settings/TagGroupsPage.cpp:521
+#: Settings/TagGroupsPage.cpp:516
 #, fuzzy, kde-format
 #| msgid "Delete Group"
 msgctxt "@title:window"
 msgid "Delete Group"
 msgstr "Xoá nhóm"
 
-#: Settings/TagGroupsPage.cpp:700
+#: Settings/TagGroupsPage.cpp:695
 #, fuzzy, kde-format
 #| msgid "Rename..."
 msgctxt "@action:inmenu"
 msgid "Rename \"%1\""
 msgstr "Thay tên..."
 
-#: Settings/TagGroupsPage.cpp:702
+#: Settings/TagGroupsPage.cpp:697
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgctxt "@action:inmenu"
 msgid "Delete \"%1\""
 msgstr "Xoá"
 
-#: Settings/TagGroupsPage.cpp:713
+#: Settings/TagGroupsPage.cpp:708
 #, fuzzy, kde-format
 #| msgid "New Sub Category Name:"
 msgctxt "@title:window"
 msgid "New Tag Name"
 msgstr "Tên phân loại con mới:"
 
-#: Settings/TagGroupsPage.cpp:714
+#: Settings/TagGroupsPage.cpp:709
 #, fuzzy, kde-format
 #| msgid "Database name:"
 msgctxt "@label:textbox"
 msgid "Tag name:"
 msgstr "Tên co sở dữ liệu :"
 
-#: Settings/TagGroupsPage.cpp:763
+#: Settings/TagGroupsPage.cpp:758
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "<p>Do you really want to delete \"%1\"?<br>Deleting the item will remove "
@@ -5324,7 +5338,7 @@ msgstr ""
 "<p>Bạn thực sự muốn xoá « %1 » không?<br>Việc xoá mục này sẽ gỡ bỏ thông tin "
 "nào về nó ra ảnh nào chứa mục đó.</p>"
 
-#: Settings/TagGroupsPage.cpp:767
+#: Settings/TagGroupsPage.cpp:762
 #, fuzzy, kde-format
 #| msgid "Really Delete %1?"
 msgctxt "@title:window"
@@ -5505,7 +5519,7 @@ msgstr ""
 "ảnh sẽ được hiển thị tự động. Sự chọn xen kẽ là tiếp tục hiển thị bộ duyệt "
 "cho đến khi bạn bấm cái nút <b>Hiện ảnh</b>.</p>"
 
-#: Settings/UntaggedGroupBox.cpp:23
+#: Settings/UntaggedGroupBox.cpp:22
 #, kde-format
 msgid ""
 "If a tag is selected here, it will be added to new (untagged) images "
@@ -5513,24 +5527,24 @@ msgid ""
 "as the image has been annotated."
 msgstr ""
 
-#: Settings/UntaggedGroupBox.cpp:44
+#: Settings/UntaggedGroupBox.cpp:43
 #, kde-format
 msgid "Show the untagged images tag as a normal tag"
 msgstr ""
 
-#: Settings/UntaggedGroupBox.cpp:53
+#: Settings/UntaggedGroupBox.cpp:52
 #, fuzzy, kde-format
 #| msgid "No Item Selected"
 msgid "None Selected"
 msgstr "Chưa chọn mục nào"
 
-#: Settings/UntaggedGroupBox.cpp:114
+#: Settings/UntaggedGroupBox.cpp:113
 #, fuzzy, kde-format
 #| msgid "New Sub Category Name:"
 msgid "New tag added"
 msgstr "Tên phân loại con mới:"
 
-#: Settings/UntaggedGroupBox.cpp:115
+#: Settings/UntaggedGroupBox.cpp:114
 #, kde-format
 msgid ""
 "<p>The new tag \"%1\" has been added to the category \"%2\" and will be used "
@@ -5539,57 +5553,57 @@ msgid ""
 "error about this tag being not present on the next start.</p>"
 msgstr ""
 
-#: Settings/ViewerPage.cpp:22
+#: Settings/ViewerPage.cpp:23
 #, kde-format
 msgid "Running Slide Show From Thumbnail View"
 msgstr "Đang chạy trình chiều ảnh từ ô xem mẫu ảnh"
 
-#: Settings/ViewerPage.cpp:25
+#: Settings/ViewerPage.cpp:26
 #, kde-format
 msgid "Viewing Images and Videos From Thumbnail View"
 msgstr "Đang xem ảnh và ảnh động từ ô xem mẫu ảnh"
 
-#: Settings/ViewerPage.cpp:31
+#: Settings/ViewerPage.cpp:32
 #, kde-format
 msgid "Slideshow interval:"
 msgstr "Thời gian chiều ảnh:"
 
-#: Settings/ViewerPage.cpp:37
+#: Settings/ViewerPage.cpp:38
 #, kde-format
 msgid " sec"
 msgstr " giây"
 
-#: Settings/ViewerPage.cpp:40
+#: Settings/ViewerPage.cpp:41
 #, kde-format
 msgid "Image cache:"
 msgstr "Bộ nhớ tạm ảnh:"
 
-#: Settings/ViewerPage.cpp:46
+#: Settings/ViewerPage.cpp:47
 #, kde-format
 msgid " Mbytes"
 msgstr " Mbyte"
 
-#: Settings/ViewerPage.cpp:52
+#: Settings/ViewerPage.cpp:53
 #, kde-format
 msgid "Standard size in viewer:"
 msgstr "Cỡ chuẩn trong bộ xem:"
 
-#: Settings/ViewerPage.cpp:54
+#: Settings/ViewerPage.cpp:55
 #, kde-format
 msgid "Full Viewer Size"
 msgstr "Cỡ bộ xem đầy"
 
-#: Settings/ViewerPage.cpp:54
+#: Settings/ViewerPage.cpp:55
 #, kde-format
 msgid "Natural Image Size"
 msgstr "Cỡ ảnh tự nhiên"
 
-#: Settings/ViewerPage.cpp:54
+#: Settings/ViewerPage.cpp:55
 #, kde-format
 msgid "Natural Image Size If Possible"
 msgstr "Cỡ ảnh tự nhiên nếu có thể"
 
-#: Settings/ViewerPage.cpp:59
+#: Settings/ViewerPage.cpp:60
 #, kde-format
 msgid ""
 "<p>Set the standard size for images to be displayed in the viewer.</p> "
@@ -5607,23 +5621,23 @@ msgstr ""
 "ảnh nếu nó sẽ vừa khít cửa sổ; nếu không thì nó sẽ được thu gọn để vừa khít "
 "bộ xem.</p>"
 
-#: Settings/ViewerPage.cpp:66
+#: Settings/ViewerPage.cpp:67
 #, fuzzy, kde-format
 #| msgid "Scaling Algorithm"
 msgid "Scaling algorithm:"
 msgstr "Thuật toán co dãn"
 
-#: Settings/ViewerPage.cpp:68
+#: Settings/ViewerPage.cpp:69
 #, kde-format
 msgid "Fastest"
 msgstr "Nhanh nhất"
 
-#: Settings/ViewerPage.cpp:68
+#: Settings/ViewerPage.cpp:69
 #, kde-format
 msgid "Best"
 msgstr "Tốt nhất"
 
-#: Settings/ViewerPage.cpp:73
+#: Settings/ViewerPage.cpp:74
 #, kde-format
 msgid ""
 "<p>When displaying images, KPhotoAlbum normally performs smooth scaling of "
@@ -6130,77 +6144,77 @@ msgstr "Gặp lỗi khi chạy chứng minh"
 msgid "Unable to create directory '%1' needed for demo."
 msgstr "Không thể tạo thư mục %1 cần thiết để chứng minh."
 
-#: Utilities/DescriptionUtil.cpp:59
+#: Utilities/DescriptionUtil.cpp:56
 #, kde-format
 msgid "<b>File Name: </b> "
 msgstr "<b>Tên tệp:</b> "
 
-#: Utilities/DescriptionUtil.cpp:65
+#: Utilities/DescriptionUtil.cpp:62
 #, kde-format
 msgid "<b>Date: </b> "
 msgstr "<b>Ngày:</b> "
 
-#: Utilities/DescriptionUtil.cpp:74
+#: Utilities/DescriptionUtil.cpp:71
 #, kde-format
 msgctxt "width x height"
 msgid "%1x%2"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:76
+#: Utilities/DescriptionUtil.cpp:73
 #, kde-format
 msgctxt "short for: x megapixels"
 msgid " (%1MP)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:81
+#: Utilities/DescriptionUtil.cpp:78
 #, kde-format
 msgctxt "aspect ratio"
 msgid " (%1:1)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:83
+#: Utilities/DescriptionUtil.cpp:80
 #, kde-format
 msgctxt "aspect ratio"
 msgid " (1:1)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:85
+#: Utilities/DescriptionUtil.cpp:82
 #, kde-format
 msgctxt "aspect ratio"
 msgid " (1:%1)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:86
+#: Utilities/DescriptionUtil.cpp:83
 #, kde-format
 msgid "<b>Image Size: </b> "
 msgstr "<b>Cỡ ảnh:</b> "
 
-#: Utilities/DescriptionUtil.cpp:144
+#: Utilities/DescriptionUtil.cpp:141
 #, fuzzy, kde-format
 #| msgid "<b>Date: </b> "
 msgid "<b>Label: </b> "
 msgstr "<b>Ngày:</b> "
 
-#: Utilities/DescriptionUtil.cpp:148
+#: Utilities/DescriptionUtil.cpp:145
 #, kde-format
 msgid "<b>Description: </b> "
 msgstr "<b>Mô tả: </b> "
 
-#: Utilities/DescriptionUtil.cpp:252
+#: Utilities/DescriptionUtil.cpp:249
 #, kde-format
 msgctxt "As in 'The baby is 1 day old'"
 msgid "1 day"
 msgid_plural "%1 days"
 msgstr[0] ""
 
-#: Utilities/DescriptionUtil.cpp:254
+#: Utilities/DescriptionUtil.cpp:251
 #, kde-format
 msgctxt "As in 'This happened 1 day ago'"
 msgid "1 day ago"
 msgid_plural "%1 days ago"
 msgstr[0] ""
 
-#: Utilities/DescriptionUtil.cpp:257
+#: Utilities/DescriptionUtil.cpp:254
 #, fuzzy, kde-format
 #| msgid "1 Month"
 msgctxt "As in 'The baby is 1 month old'"
@@ -6208,7 +6222,7 @@ msgid "1 month"
 msgid_plural "%1 months"
 msgstr[0] "1 tháng"
 
-#: Utilities/DescriptionUtil.cpp:259
+#: Utilities/DescriptionUtil.cpp:256
 #, fuzzy, kde-format
 #| msgid "1 Month"
 msgctxt "As in 'This happened 1 month ago'"
@@ -6216,49 +6230,49 @@ msgid "1 month ago"
 msgid_plural "%1 months ago"
 msgstr[0] "1 tháng"
 
-#: Utilities/DescriptionUtil.cpp:262
+#: Utilities/DescriptionUtil.cpp:259
 #, kde-format
 msgctxt "As in 'The baby is 1 year old'"
 msgid "1 year"
 msgid_plural "%1 years"
 msgstr[0] ""
 
-#: Utilities/DescriptionUtil.cpp:264
+#: Utilities/DescriptionUtil.cpp:261
 #, kde-format
 msgctxt "As in 'This happened 1 year ago'"
 msgid "1 year ago"
 msgid_plural "%1 years ago"
 msgstr[0] ""
 
-#: Utilities/DescriptionUtil.cpp:354 Utilities/DescriptionUtil.cpp:380
+#: Utilities/DescriptionUtil.cpp:351 Utilities/DescriptionUtil.cpp:377
 #, kde-format
 msgid " (%1)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:356
+#: Utilities/DescriptionUtil.cpp:353
 #, kde-format
 msgid " (&lt; %1)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:359
+#: Utilities/DescriptionUtil.cpp:356
 #, kde-format
 msgctxt "E.g. ' (1-2 years)'"
 msgid " (%1-%2)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:361
+#: Utilities/DescriptionUtil.cpp:358
 #, kde-format
 msgctxt "E.g. ' (7 months-1 year)'"
 msgid " (%1-%2)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:383
+#: Utilities/DescriptionUtil.cpp:380
 #, kde-format
 msgctxt "E.g. ' (1-2 years ago)'"
 msgid " (%1-%2)"
 msgstr ""
 
-#: Utilities/DescriptionUtil.cpp:385
+#: Utilities/DescriptionUtil.cpp:382
 #, kde-format
 msgctxt "E.g. '(7 months ago-1 year ago)'"
 msgid " (%1-%2)"

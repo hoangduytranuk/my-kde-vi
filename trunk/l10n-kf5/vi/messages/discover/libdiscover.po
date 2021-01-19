@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-11 02:39+0100\n"
+"POT-Creation-Date: 2021-01-19 02:43+0100\n"
 "PO-Revision-Date: 2012-06-13 11:10+0800\n"
 "Last-Translator: HeroP <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -36,17 +36,17 @@ msgstr ""
 msgid "Proprietary"
 msgstr "Độc quyền"
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:132
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:137
 #, kde-format
 msgid "Error while fetching reviews: %1"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:178
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:183
 #, kde-format
 msgid "Error while submitting usefulness: %1"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:233
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:238
 #, kde-format
 msgid "Error while submitting review: %1"
 msgstr ""
@@ -496,12 +496,12 @@ msgctxt "Category"
 msgid "System Settings"
 msgstr "Hệ thống & thiết lập"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:379
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:376
 #, kde-format
 msgid "Local bundle"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1218
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1236
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:568
 #, kde-format
 msgid "Malformed appstream url '%1'"
@@ -520,27 +520,27 @@ msgstr "Không rõ"
 msgid "%1 (%2)"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:353
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:361
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:354
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:362
 #, kde-format
 msgid "Retrieving size information"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:355
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:363
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:356
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:364
 #, fuzzy, kde-format
 #| msgctxt "@info license"
 #| msgid "Unknown"
 msgid "Unknown size"
 msgstr "Không rõ"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:357
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:358
 #, kde-format
 msgctxt "@info app size"
 msgid "%1 to download, %2 on disk"
 msgstr "sẽ tải %1, %2 trên đĩa"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:365
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:366
 #, kde-format
 msgctxt "@info app size"
 msgid "%1 on disk"
@@ -701,6 +701,11 @@ msgstr "Phông chữ"
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:207
 #, kde-format
 msgid "Please make sure that Appstream is properly set up on your system"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:659
+#, kde-format
+msgid "Cannot remove '%1'"
 msgstr ""
 
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:19
@@ -1501,14 +1506,14 @@ msgstr[0] ""
 msgid "Repository URL:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:72
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:69
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Filters updates in the history view"
 #| msgid "Updates"
 msgid "System upgrade"
 msgstr "Bản cập nhật"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:107
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:104
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Packages Could Not be Found"
@@ -1516,36 +1521,31 @@ msgid "1 package to upgrade"
 msgid_plural "%1 packages to upgrade"
 msgstr[0] "Không thể tìm thấy gói"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:119
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:116
 #, kde-format
 msgid "Present"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:120
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:117
 #, kde-format
 msgid "Future"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:305
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:322
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Packages Could Not be Found"
 msgid "Packages to remove"
 msgstr "Không thể tìm thấy gói"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:305
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:322
 #, kde-format
 msgid ""
 "The following packages will be removed by the update:<ul><li>%1</li></ul><br/"
 ">in order to install:<ul><li>%2</li></ul>"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:321
-#, kde-format
-msgid "Please restart the device to finish the update"
-msgstr ""
-
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:408
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:424
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:282
 #, kde-format
 msgid ""
@@ -1553,13 +1553,13 @@ msgid ""
 "%2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:416
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:432
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:267
 #, kde-format
 msgid "Accept EULA"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:416
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:432
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:267
 #, kde-format
 msgid ""
@@ -1567,13 +1567,13 @@ msgid ""
 " %3"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:514
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:530
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:294
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:515
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:531
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:295
 #, kde-format
 msgid ""
@@ -1624,52 +1624,52 @@ msgid ""
 "List all the backends we'll want to have loaded, separated by comma ','."
 msgstr ""
 
-#: libdiscover/resources/AbstractResource.cpp:86
+#: libdiscover/resources/AbstractResource.cpp:87
 #, fuzzy, kde-format
 #| msgctxt "@info:status Package state"
 #| msgid "Broken"
 msgid "Broken"
 msgstr "Hỏng"
 
-#: libdiscover/resources/AbstractResource.cpp:87
+#: libdiscover/resources/AbstractResource.cpp:88
 #, fuzzy, kde-format
 #| msgid "Available updates"
 msgid "Available"
 msgstr "Bản cập nhật sẵn sàng"
 
-#: libdiscover/resources/AbstractResource.cpp:88
+#: libdiscover/resources/AbstractResource.cpp:89
 #, fuzzy, kde-format
 #| msgctxt "@info:status describes a past-tense action"
 #| msgid "Installed"
 msgid "Installed"
 msgstr "Đã cài "
 
-#: libdiscover/resources/AbstractResource.cpp:89
+#: libdiscover/resources/AbstractResource.cpp:90
 #, fuzzy, kde-format
 #| msgctxt "@info:status Package state"
 #| msgid "Upgradeable"
 msgid "Upgradeable"
 msgstr "Nâng cấp được"
 
-#: libdiscover/resources/AbstractResource.cpp:229
+#: libdiscover/resources/AbstractResource.cpp:236
 #, kde-format
 msgctxt "origin (backend name)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: libdiscover/resources/AbstractResource.cpp:234
+#: libdiscover/resources/AbstractResource.cpp:241
 #, kde-format
 msgid "Launch"
 msgstr ""
 
-#: libdiscover/resources/AbstractResource.cpp:243
+#: libdiscover/resources/AbstractResource.cpp:250
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Packages Could Not be Found"
 msgid "Update to version %1"
 msgstr "Không thể tìm thấy gói"
 
-#: libdiscover/resources/AbstractResource.cpp:253
+#: libdiscover/resources/AbstractResource.cpp:260
 #, kde-format
 msgctxt "Do not translate or alter \\u009C"
 msgid "%1 → %2%1 → %2%2"

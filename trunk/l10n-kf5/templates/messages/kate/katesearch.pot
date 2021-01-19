@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-03 02:43+0100\n"
+"POT-Creation-Date: 2021-01-19 02:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,30 +28,147 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: KateSearchCommand.cpp:65
+#: KateSearchCommand.cpp:67
 #, kde-format
 msgid "Usage: grep [pattern to search for in folder]"
 msgstr ""
 
-#: KateSearchCommand.cpp:67
+#: KateSearchCommand.cpp:69
 #, kde-format
 msgid "Usage: newGrep [pattern to search for in folder]"
 msgstr ""
 
-#: KateSearchCommand.cpp:71 KateSearchCommand.cpp:73
+#: KateSearchCommand.cpp:73 KateSearchCommand.cpp:75
 #, kde-format
 msgid "Usage: search [pattern to search for in open files]"
 msgstr ""
 
-#: KateSearchCommand.cpp:77
+#: KateSearchCommand.cpp:79
 #, kde-format
 msgid "Usage: pgrep [pattern to search for in current project]"
 msgstr ""
 
-#: KateSearchCommand.cpp:79
+#: KateSearchCommand.cpp:81
 #, kde-format
 msgid "Usage: newPGrep [pattern to search for in current project]"
 msgstr ""
+
+#: MatchModel.cpp:472 MatchModel.cpp:474
+#, kde-format
+msgid "<b><i>Generating file list: ...%1</i></b>"
+msgstr ""
+
+#: MatchModel.cpp:482
+#, kde-format
+msgid "<b><i>One match found, searching: ...%2</b>"
+msgid_plural "<b><i>%1 matches found, searching: ...%2</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:484
+#, kde-format
+msgid "<b><i>One match found, searching: %2</b>"
+msgid_plural "<b><i>%1 matches found, searching: %2</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:488 MatchModel.cpp:603
+#, kde-format
+msgid "One checked"
+msgid_plural "%1 checked"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:492
+#, kde-format
+msgid "<b><i>One match (%2) found in file</i></b>"
+msgid_plural "<b><i>%1 matches (%2) found in current file</i></b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:494
+#, kde-format
+msgid "<b><i>One match (%2) found in open files</i></b>"
+msgid_plural "<b><i>%1 matches (%2) found in open files</i></b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:497
+#, kde-format
+msgid "<b><i>One match (%3) found in folder %2</i></b>"
+msgid_plural "<b><i>%1 matches (%3) found in folder %2</i></b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:500
+#, kde-format
+msgid "<b><i>One match (%4) found in project %2 (%3)</i></b>"
+msgid_plural "<b><i>%1 matches (%4) found in project %2 (%3)</i></b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:504
+#, kde-format
+msgid ""
+"<b><i>One match (%3) found in all open projects (common parent: %2)</i></b>"
+msgid_plural ""
+"<b><i>%1 matches (%3) found in all open projects (common parent: %2)</i></b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:587 MatchModel.cpp:589
+#, kde-format
+msgid "Generating file list: ...%1"
+msgstr ""
+
+#: MatchModel.cpp:597
+#, kde-format
+msgid "One match found, searching: ...%2"
+msgid_plural "%1 matches found, searching: ...%2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:599
+#, kde-format
+msgid "One match found, searching: %2"
+msgid_plural "%1 matches found, searching: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:607
+#, kde-format
+msgid "One match (%2) found in file"
+msgid_plural "%1 matches (%2) found in current file"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:609
+#, kde-format
+msgid "One match (%2) found in open files"
+msgid_plural "%1 matches (%2) found in open files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:612
+#, kde-format
+msgid "One match (%3) found in folder %2"
+msgid_plural "%1 matches (%3) found in folder %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:615
+#, kde-format
+msgid "One match (%4) found in project %2 (%3)"
+msgid_plural "%1 matches (%4) found in project %2 (%3)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: MatchModel.cpp:619
+#, kde-format
+msgid "One match (%3) found in all open projects (common parent: %2)"
+msgid_plural "%1 matches (%3) found in all open projects (common parent: %2)"
+msgstr[0] ""
+msgstr[1] ""
 
 #: plugin_search.cpp:92 plugin_search.cpp:124
 #, kde-format
@@ -213,199 +330,116 @@ msgstr ""
 msgid "Lower-cased capture 0-999"
 msgstr ""
 
-#: plugin_search.cpp:345
+#: plugin_search.cpp:304
 #, kde-format
 msgid "Kate Search & Replace"
 msgstr ""
 
-#: plugin_search.cpp:348
+#: plugin_search.cpp:307
 #, kde-format
 msgid "Search and Replace"
 msgstr ""
 
-#: plugin_search.cpp:357
+#: plugin_search.cpp:316
 #, kde-format
 msgid "Search in Files"
 msgstr ""
 
-#: plugin_search.cpp:361
+#: plugin_search.cpp:320
 #, kde-format
 msgid "Search in Files (in new tab)"
 msgstr ""
 
-#: plugin_search.cpp:367
+#: plugin_search.cpp:326
 #, kde-format
 msgid "Go to Next Match"
 msgstr ""
 
-#: plugin_search.cpp:372
+#: plugin_search.cpp:331
 #, kde-format
 msgid "Go to Previous Match"
 msgstr ""
 
-#: plugin_search.cpp:399
+#: plugin_search.cpp:358
 #, kde-format
 msgid ""
 "Comma separated list of file types to search in. Example: \"*.cpp,*.h\"\n"
 msgstr ""
 
-#: plugin_search.cpp:400
+#: plugin_search.cpp:359
 #, kde-format
 msgid ""
 "Comma separated list of files and directories to exclude from the search. "
 "Example: \"build*\""
 msgstr ""
 
-#: plugin_search.cpp:476
+#: plugin_search.cpp:439
 #, kde-format
 msgid "Find"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, replaceButton)
-#: plugin_search.cpp:494 search.ui:170
+#: plugin_search.cpp:457 search.ui:170
 #, kde-format
 msgid "Replace"
 msgstr ""
 
-#: plugin_search.cpp:947
-#, kde-format
-msgid "Search Match"
-msgstr ""
-
-#: plugin_search.cpp:1368
+#: plugin_search.cpp:1089
 #, kde-format
 msgid "Searching while you type was interrupted. It would have taken too long."
 msgstr ""
 
-#: plugin_search.cpp:1492
+#: plugin_search.cpp:1410
 #, kde-format
-msgid "<b>Searching: ...%1</b>"
+msgid "Search Match"
 msgstr ""
 
-#: plugin_search.cpp:1494
-#, kde-format
-msgid "<b>Searching: %1</b>"
-msgstr ""
-
-#: plugin_search.cpp:1637
-#, kde-format
-msgid "<b>Processed %1 of %2 matches in: ...%3</b>"
-msgstr ""
-
-#: plugin_search.cpp:1639
-#, kde-format
-msgid "<b>Processed %1 of %2 matches in: %3</b>"
-msgstr ""
-
-#: plugin_search.cpp:1771
-#, kde-format
-msgid "One checked"
-msgid_plural "%1 checked"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:1780
-#, kde-format
-msgid "<b><i>One match (%2) found in file</i></b>"
-msgid_plural "<b><i>%1 matches (%2) found in file</i></b>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:1783
-#, kde-format
-msgid "<b><i>One match (%2) found in open files</i></b>"
-msgid_plural "<b><i>%1 matches (%2) found in open files</i></b>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:1786
-#, kde-format
-msgid "<b><i>One match (%3) found in folder %2</i></b>"
-msgid_plural "<b><i>%1 matches (%3) found in folder %2</i></b>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:1793
-#, kde-format
-msgid "<b><i>One match (%4) found in project %2 (%3)</i></b>"
-msgid_plural "<b><i>%1 matches (%4) found in project %2 (%3)</i></b>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:1799
-#, kde-format
-msgid ""
-"<b><i>One match (%3) found in all open projects (common parent: %2)</i></b>"
-msgid_plural ""
-"<b><i>%1 matches (%3) found in all open projects (common parent: %2)</i></b>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:1924
-#, kde-format
-msgid "Starting from first match"
-msgstr ""
-
-#: plugin_search.cpp:1933
+#: plugin_search.cpp:1558 plugin_search.cpp:1635
 #, kde-format
 msgid "Next from cursor"
 msgstr ""
 
-#: plugin_search.cpp:1942
+#: plugin_search.cpp:1575
+#, kde-format
+msgid "Starting from first match"
+msgstr ""
+
+#: plugin_search.cpp:1595
 #, kde-format
 msgid "Continuing from first match"
 msgstr ""
 
-#: plugin_search.cpp:2035
+#: plugin_search.cpp:1652
+#, kde-format
+msgid "Starting from last match"
+msgstr ""
+
+#: plugin_search.cpp:1672
 #, kde-format
 msgid "Continuing from last match"
 msgstr ""
 
-#: plugin_search.cpp:2255
+#: plugin_search.cpp:1893
 #, kde-format
 msgid "Copy all"
 msgstr ""
 
-#: plugin_search.cpp:2260
+#: plugin_search.cpp:1898
 #, kde-format
 msgid "Copy expanded"
 msgstr ""
 
-#: plugin_search.cpp:2276
-#, kde-format
-msgid "A total of %1 match found\n"
-msgid_plural "A total of %1 matches found\n"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:2286
-#, kde-format
-msgid "%1 match found in: %2\n"
-msgid_plural "%1 matches found in: %2\n"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin_search.cpp:2299
-#, kde-format
-msgid "\tLine: %1 column: %2: %3\n"
-msgstr ""
-
-#: plugin_search.cpp:2325
-#, kde-format
-msgid "No matches found\n"
-msgstr ""
-
-#: plugin_search.cpp:2396 plugin_search.cpp:2416
+#: plugin_search.cpp:1984 plugin_search.cpp:2004
 #, kde-format
 msgid "Add..."
 msgstr ""
 
-#: plugin_search.cpp:2464
+#: plugin_search.cpp:2052
 #, kde-format
 msgid "In Current Project"
 msgstr ""
 
-#: plugin_search.cpp:2466
+#: plugin_search.cpp:2054
 #, kde-format
 msgid "In All Open Projects"
 msgstr ""

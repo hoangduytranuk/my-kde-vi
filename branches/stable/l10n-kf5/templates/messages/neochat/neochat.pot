@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-29 08:20+0100\n"
+"POT-Creation-Date: 2021-01-15 08:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,13 +36,13 @@ msgstr ""
 msgid "No name"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:220
+#: imports/NeoChat/Component/ChatTextInput.qml:221
 #: imports/NeoChat/Page/ImageEditorPage.qml:24
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:230
+#: imports/NeoChat/Component/ChatTextInput.qml:231
 #: imports/NeoChat/Page/ImageEditorPage.qml:112
 #: imports/NeoChat/Page/InvitationPage.qml:23
 #: imports/NeoChat/Page/LoginPage.qml:62
@@ -50,22 +50,22 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:305
+#: imports/NeoChat/Component/ChatTextInput.qml:306
 #, kde-format
 msgid "Write your message..."
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:471
+#: imports/NeoChat/Component/ChatTextInput.qml:480
 #, kde-format
 msgid "Add an Emoji"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:499
+#: imports/NeoChat/Component/ChatTextInput.qml:508
 #, kde-format
 msgid "Attach an image or file"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatTextInput.qml:521
+#: imports/NeoChat/Component/ChatTextInput.qml:530
 #, kde-format
 msgid "Send message"
 msgstr ""
@@ -142,8 +142,13 @@ msgid_plural "%2 reacted with %3"
 msgstr[0] ""
 msgstr[1] ""
 
+#: imports/NeoChat/Component/Timeline/TextDelegate.qml:18
+#, kde-format
+msgid "(edited)"
+msgstr ""
+
 #: imports/NeoChat/Dialog/CreateRoomDialog.qml:21
-#: qml/main.qml:149
+#: qml/main.qml:148
 #, kde-format
 msgid "Create a Room"
 msgstr ""
@@ -315,7 +320,7 @@ msgid "Message Source"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:16
-#: qml/main.qml:159 qml/main.qml:162
+#: qml/main.qml:158 qml/main.qml:161
 #, kde-format
 msgid "Accounts"
 msgstr ""
@@ -326,6 +331,7 @@ msgid "Edit this account"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:49
+#: qml/main.qml:184
 #, kde-format
 msgid "Logout"
 msgstr ""
@@ -595,27 +601,27 @@ msgstr ""
 msgid "No Name"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:149
+#: imports/NeoChat/Page/RoomPage.qml:171
 #, kde-format
 msgid "Choose local file"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:175
+#: imports/NeoChat/Page/RoomPage.qml:197
 #, kde-format
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:476
+#: imports/NeoChat/Page/RoomPage.qml:500
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:476
+#: imports/NeoChat/Page/RoomPage.qml:500
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:492
+#: imports/NeoChat/Page/RoomPage.qml:516
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -623,13 +629,13 @@ msgid_plural "%2 are typing"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Page/RoomPage.qml:523
+#: imports/NeoChat/Page/RoomPage.qml:547
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:16
-#: qml/main.qml:165 qml/main.qml:168
+#: qml/main.qml:171 qml/main.qml:174
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -675,7 +681,7 @@ msgid "Show User Avatar"
 msgstr ""
 
 #: imports/NeoChat/Page/StartChatPage.qml:22
-#: qml/main.qml:142 qml/main.qml:146 qml/main.qml:156
+#: qml/main.qml:142 qml/main.qml:145 qml/main.qml:155
 #, kde-format
 msgid "Start a Chat"
 msgstr ""
@@ -757,14 +763,41 @@ msgstr ""
 msgid "Muted"
 msgstr ""
 
-#: qml/main.qml:172
+#: qml/main.qml:165 qml/main.qml:168
+#, kde-format
+msgid "Devices"
+msgstr ""
+
+#: qml/main.qml:178
 #, kde-format
 msgid "About Neochat"
 msgstr ""
 
-#: qml/main.qml:175
+#: qml/main.qml:181
 #, kde-format
 msgid "About"
+msgstr ""
+
+#: qml/main.qml:190
+#, kde-format
+msgid "Quit"
+msgstr ""
+
+#: qml/main.qml:261
+#, kde-format
+msgid "User consent"
+msgstr ""
+
+#: qml/main.qml:267
+#, kde-format
+msgid ""
+"Your homeserver requires you to agree to its terms and conditions before "
+"being able to use it. Please click the button below to read them."
+msgstr ""
+
+#: qml/main.qml:272
+#, kde-format
+msgid "Open"
 msgstr ""
 
 #: src/controller.cpp:129 src/controller.cpp:137
@@ -772,12 +805,12 @@ msgstr ""
 msgid "Network Error"
 msgstr ""
 
-#: src/controller.cpp:132 src/controller.cpp:265 src/controller.cpp:268
+#: src/controller.cpp:132 src/controller.cpp:282 src/controller.cpp:285
 #, kde-format
 msgid "Login Failed"
 msgstr ""
 
-#: src/controller.cpp:265
+#: src/controller.cpp:282
 #, kde-format
 msgid "Access Token invalid or revoked"
 msgstr ""
@@ -827,37 +860,37 @@ msgstr ""
 msgid "Image request has been cancelled"
 msgstr ""
 
-#: src/messageeventmodel.cpp:255
+#: src/messageeventmodel.cpp:259
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: src/messageeventmodel.cpp:258
+#: src/messageeventmodel.cpp:262
 #, kde-format
 msgid "Yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:261
+#: src/messageeventmodel.cpp:265
 #, kde-format
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:325
+#: src/messageeventmodel.cpp:330
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:325
+#: src/messageeventmodel.cpp:330
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:387
+#: src/messageeventmodel.cpp:392
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:387
+#: src/messageeventmodel.cpp:392
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""
@@ -1047,27 +1080,27 @@ msgstr ""
 msgid "Open NeoChat in this room"
 msgstr ""
 
-#: src/roomlistmodel.cpp:345
+#: src/roomlistmodel.cpp:349
 #, kde-format
 msgid "Invited"
 msgstr ""
 
-#: src/roomlistmodel.cpp:347
+#: src/roomlistmodel.cpp:351
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: src/roomlistmodel.cpp:349
+#: src/roomlistmodel.cpp:353
 #, kde-format
 msgid "Direct Messages"
 msgstr ""
 
-#: src/roomlistmodel.cpp:351
+#: src/roomlistmodel.cpp:355
 #, kde-format
 msgid "Normal"
 msgstr ""
 
-#: src/roomlistmodel.cpp:353
+#: src/roomlistmodel.cpp:357
 #, kde-format
 msgid "Low priority"
 msgstr ""
