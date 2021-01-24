@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-12 02:25+0200\n"
+"POT-Creation-Date: 2021-01-24 09:21+0100\n"
 "PO-Revision-Date: 2014-03-20 09:52+0800\n"
 "Last-Translator: Lê Phương\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -22,12 +22,8 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: package/contents/ui/ApplicationsView.qml:121
-#, kde-format
-msgid "All Applications"
-msgstr "Tất cả các ứng dụng"
-
-#: package/contents/ui/ApplicationsView.qml:273
+#: package/contents/ui/ApplicationsGroupView.qml:127
+#: package/contents/ui/ApplicationsView.qml:350
 #, fuzzy, kde-format
 #| msgid "Applications"
 msgid "Applications updated."
@@ -61,71 +57,24 @@ msgstr ""
 msgid "Show in Favorites"
 msgstr "Các mục ưa thích"
 
-#: package/contents/ui/ConfigButtons.qml:36
-#: package/contents/ui/FullRepresentation.qml:713
-#, kde-format
-msgid "Favorites"
-msgstr "Các mục ưa thích"
-
-#: package/contents/ui/ConfigButtons.qml:37
-#: package/contents/ui/FullRepresentation.qml:715
-#, kde-format
-msgid "Applications"
-msgstr "Ứng dụng"
-
-#: package/contents/ui/ConfigButtons.qml:38
-#: package/contents/ui/FullRepresentation.qml:717
-#, kde-format
-msgid "Computer"
-msgstr "Máy tính"
-
-#: package/contents/ui/ConfigButtons.qml:39
-#: package/contents/ui/FullRepresentation.qml:719
-#, kde-format
-msgid "History"
-msgstr ""
-
-#: package/contents/ui/ConfigButtons.qml:40
-#: package/contents/ui/FullRepresentation.qml:721
-#, fuzzy, kde-format
-#| msgid "Recently Used"
-msgid "Often Used"
-msgstr "Sử dụng gần đây"
-
-#: package/contents/ui/ConfigButtons.qml:41
-#: package/contents/ui/FullRepresentation.qml:723
-#, kde-format
-msgid "Leave"
-msgstr "Thoát máy"
-
-#: package/contents/ui/ConfigButtons.qml:214
-#, kde-format
-msgid "Active Tabs"
-msgstr ""
-
-#: package/contents/ui/ConfigButtons.qml:222
-#, kde-format
-msgid "Inactive Tabs"
-msgstr ""
-
-#: package/contents/ui/ConfigGeneral.qml:40
+#: package/contents/ui/ConfigGeneral.qml:42
 #, kde-format
 msgid "Icon:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:75
+#: package/contents/ui/ConfigGeneral.qml:77
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:80
+#: package/contents/ui/ConfigGeneral.qml:82
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:94
+#: package/contents/ui/ConfigGeneral.qml:95
 #, kde-format
 msgid "General:"
 msgstr ""
@@ -138,46 +87,162 @@ msgstr "Chuyển thẻ khi rê chuột qua:"
 
 #: package/contents/ui/ConfigGeneral.qml:101
 #, fuzzy, kde-format
-#| msgid "Show applications by name:"
-msgid "Show applications by name"
-msgstr "Hiện các ứng dụng theo tên:"
+#| msgid "Sort Alphabetically (A to Z)"
+msgid "Always sort applications alphabetically"
+msgstr "Xếp theo thứ tự Alphabet (từ A đến Z)"
 
 #: package/contents/ui/ConfigGeneral.qml:106
 #, kde-format
-msgid "Expand search to bookmarks, files and emails"
+msgid "Configure enabled search plugins"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:111
+#: package/contents/ui/ConfigGeneral.qml:116
 #, fuzzy, kde-format
-#| msgid "Sort Alphabetically (A to Z)"
-msgid "Sort alphabetically"
-msgstr "Xếp theo thứ tự Alphabet (từ A đến Z)"
+#| msgid "Favorites"
+msgid "Show favorites:"
+msgstr "Các mục ưa thích"
 
-#: package/contents/ui/ConfigGeneral.qml:121
+#: package/contents/ui/ConfigGeneral.qml:117
 #, kde-format
-msgid ""
-"Drag tabs between the boxes to show/hide them, or reorder the visible tabs "
-"by dragging."
+msgid "In a grid"
 msgstr ""
 
-#: package/contents/ui/Header.qml:167
+#: package/contents/ui/ConfigGeneral.qml:125
+#, kde-format
+msgid "In a list"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:133
+#, kde-format
+msgid "Allow label to have two lines"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:143
+#, kde-format
+msgid "Primary actions:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:144
+#, kde-format
+msgid "Power actions"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:153
+#, kde-format
+msgid "Session actions"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:344
+#, kde-format
+msgid "Computer"
+msgstr "Máy tính"
+
+#: package/contents/ui/FullRepresentation.qml:345
+#, kde-format
+msgid "History"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:346
+#, kde-format
+msgid "Frequently Used"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:473
+#, kde-format
+msgid "Applications"
+msgstr "Ứng dụng"
+
+#: package/contents/ui/FullRepresentation.qml:500
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: package/contents/ui/Header.qml:91
+#, kde-format
+msgid "Go to user settings"
+msgstr ""
+
+#: package/contents/ui/Header.qml:158
 #, kde-format
 msgid "%2@%3 (%1)"
 msgstr ""
 
-#: package/contents/ui/Header.qml:167
+#: package/contents/ui/Header.qml:158
 #, kde-format
 msgid "%1@%2"
 msgstr ""
 
-#: package/contents/ui/Header.qml:180
+#: package/contents/ui/Header.qml:181
 #, fuzzy, kde-format
 #| msgid "Type to search..."
 msgid "Search..."
 msgstr "Gõ để tìm kiếm..."
 
-#: package/contents/ui/Kickoff.qml:145
+#: package/contents/ui/Kickoff.qml:144
 #, fuzzy, kde-format
 #| msgid "Applications"
 msgid "Edit Applications..."
 msgstr "Ứng dụng"
+
+#: package/contents/ui/KickoffGridView.qml:97
+#, kde-format
+msgid "Grid with %1 rows, %2 columns"
+msgstr ""
+
+#: package/contents/ui/KickoffItem.qml:60
+#, kde-format
+msgid "List with 1 item"
+msgid_plural "List with %1 items"
+msgstr[0] ""
+
+#: package/contents/ui/KickoffItem.qml:64
+#, kde-format
+msgid "%1 submenu"
+msgstr ""
+
+#: package/contents/ui/LeaveButtons.qml:95
+#, fuzzy, kde-format
+#| msgid "Leave"
+msgid "Leave..."
+msgstr "Thoát máy"
+
+#: package/contents/ui/LeaveButtons.qml:96
+#, kde-format
+msgid "Power..."
+msgstr ""
+
+#: package/contents/ui/LeaveButtons.qml:97
+#, kde-format
+msgid "More..."
+msgstr ""
+
+#: package/contents/ui/LeaveButtons.qml:110
+#, kde-format
+msgid "Leave"
+msgstr "Thoát máy"
+
+#: package/contents/ui/LeaveButtons.qml:111
+#, kde-format
+msgid "Power"
+msgstr ""
+
+#: package/contents/ui/LeaveButtons.qml:112
+#, kde-format
+msgid "More"
+msgstr ""
+
+#~ msgid "All Applications"
+#~ msgstr "Tất cả các ứng dụng"
+
+#~ msgid "Favorites"
+#~ msgstr "Các mục ưa thích"
+
+#, fuzzy
+#~| msgid "Recently Used"
+#~ msgid "Often Used"
+#~ msgstr "Sử dụng gần đây"
+
+#, fuzzy
+#~| msgid "Show applications by name:"
+#~ msgid "Show applications by name"
+#~ msgstr "Hiện các ứng dụng theo tên:"

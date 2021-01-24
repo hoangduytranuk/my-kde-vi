@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sddm-kcm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-01 02:31+0200\n"
+"POT-Creation-Date: 2021-01-19 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,17 +27,17 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: sddmauthhelper.cpp:341 sddmauthhelper.cpp:362 sddmauthhelper.cpp:369
+#: sddmauthhelper.cpp:342 sddmauthhelper.cpp:364 sddmauthhelper.cpp:371
 #, kde-format
 msgid "Invalid theme package"
 msgstr ""
 
-#: sddmauthhelper.cpp:346
+#: sddmauthhelper.cpp:348
 #, kde-format
 msgid "Could not open file"
 msgstr ""
 
-#: sddmauthhelper.cpp:377
+#: sddmauthhelper.cpp:379
 #, kde-format
 msgid "Could not decompress archive"
 msgstr ""
@@ -67,177 +67,203 @@ msgstr ""
 msgid "Unable to install theme"
 msgstr ""
 
-#: src/configwidgets/selectimagebutton.cpp:41
+#: src/package/contents/ui/Advanced.qml:29
 #, kde-format
-msgid "Load from file..."
+msgctxt "@title"
+msgid "Behavior"
 msgstr ""
 
-#: src/configwidgets/selectimagebutton.cpp:42
+#: src/package/contents/ui/Advanced.qml:33
 #, kde-format
-msgid "Clear Image"
+msgctxt "option:check"
+msgid "Automatically log in:"
 msgstr ""
 
-#: src/configwidgets/selectimagebutton.cpp:75
+#: src/package/contents/ui/Advanced.qml:36
 #, kde-format
-msgctxt "@title:window"
-msgid "Select Image"
+msgctxt ""
+"@label:listbox, the following combobox selects the user to log in "
+"automatically"
+msgid "as user:"
 msgstr ""
 
-#: src/qml/main.qml:91 src/themesdelegate.cpp:65
+#: src/package/contents/ui/Advanced.qml:66
+#, kde-format
+msgctxt ""
+"@label:listbox, the following combobox selects the session that is started "
+"automatically"
+msgid "with session"
+msgstr ""
+
+#: src/package/contents/ui/Advanced.qml:84
+#, kde-format
+msgctxt "@option:check"
+msgid "Log in again immediately after logging off"
+msgstr ""
+
+#: src/package/contents/ui/Advanced.qml:97
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Minimum user UID:"
+msgstr ""
+
+#: src/package/contents/ui/Advanced.qml:109
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Maximum user UID:"
+msgstr ""
+
+#: src/package/contents/ui/Advanced.qml:124
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Halt Command:"
+msgstr ""
+
+#: src/package/contents/ui/Advanced.qml:157
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Reboot Command:"
+msgstr ""
+
+#: src/package/contents/ui/DetailsDialog.qml:39
+#, kde-format
+msgctxt "@title:window, %1 is the theme name, %2 the version"
+msgid "%1 (%2)"
+msgstr ""
+
+#: src/package/contents/ui/DetailsDialog.qml:71
 #, kde-format
 msgid "No preview available"
 msgstr ""
 
-#: src/qml/main.qml:116
+#: src/package/contents/ui/DetailsDialog.qml:74
 #, kde-format
-msgid ", by "
+msgctxt ""
+"%1 is a description of the theme, %2 are the authors, %3 is the license"
+msgid "%1, by %2 (%3)"
 msgstr ""
 
-#: src/sddmkcm.cpp:43
+#: src/package/contents/ui/main.qml:68
 #, kde-format
-msgid "SDDM KDE Config"
+msgctxt "@info:tooltip"
+msgid "View details"
 msgstr ""
 
-#: src/sddmkcm.cpp:45
+#: src/package/contents/ui/main.qml:83
 #, kde-format
-msgid "Login screen using the SDDM"
+msgctxt "@info:tooltip"
+msgid "Change Background"
 msgstr ""
 
-#: src/sddmkcm.cpp:49 src/sddmkcm.cpp:50
+#: src/package/contents/ui/main.qml:92
 #, kde-format
-msgid "Author"
+msgctxt "@info:tooltip"
+msgid "Delete"
 msgstr ""
 
-#: src/sddmkcm.cpp:116
+#: src/package/contents/ui/main.qml:100
 #, kde-format
-msgid "Theme"
+msgctxt "@action:button"
+msgid "Behavior..."
 msgstr ""
 
-#: src/sddmkcm.cpp:121
+#: src/package/contents/ui/main.qml:105
 #, kde-format
-msgid "Advanced"
+msgctxt "@action:button"
+msgid "Synchronize Settings..."
 msgstr ""
 
-#: src/sessionmodel.cpp:89
+#: src/package/contents/ui/main.qml:113
 #, kde-format
-msgctxt "%1 is the name of a session"
-msgid "%1 (Wayland)"
+msgctxt "@action:button"
+msgid "Install From File..."
 msgstr ""
 
-#: src/themeconfig.cpp:188
+#: src/package/contents/ui/main.qml:119
 #, kde-format
-msgid "Download New SDDM Themes"
+msgid "SDDM Themes"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/advancedconfig.ui:25
+#: src/package/contents/ui/main.qml:134
 #, kde-format
-msgid "Automatically log in:"
+msgctxt "@title:window"
+msgid "Settings Synchronization"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, autoLogin)
-#: src/ui/advancedconfig.ui:34
-#, kde-format
-msgid "as user:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/advancedconfig.ui:51
-#, kde-format
-msgid "with session:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, reloginAfterQuit)
-#: src/ui/advancedconfig.ui:76
-#, kde-format
-msgid "Log in again immediately after logging off"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/ui/advancedconfig.ui:99
-#, kde-format
-msgid "Minimum user UID:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/advancedconfig.ui:119
-#, kde-format
-msgid "Maximum user UID:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/advancedconfig.ui:155
-#, kde-format
-msgid "Halt command:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/advancedconfig.ui:172
-#, kde-format
-msgid "Reboot command:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/ui/advancedconfig.ui:205
-#, kde-format
-msgid "Settings synchronization:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, syncSettings)
-#: src/ui/advancedconfig.ui:214
-#, kde-format
-msgid "Sync"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, resetSettings)
-#: src/ui/advancedconfig.ui:224
-#, kde-format
-msgid "Reset"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, syncExplanation)
-#: src/ui/advancedconfig.ui:242
+#: src/package/contents/ui/main.qml:142
 #, kde-format
 msgid ""
 "Settings synchronization allows you to transfer the following Plasma "
-"settings to SDDM: color scheme, cursor theme, font, font rendering, NumLock "
-"preference, Plasma theme, and scaling DPI."
+"settings to SDDM:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, syncWarning)
-#: src/ui/advancedconfig.ui:255
+#: src/package/contents/ui/main.qml:143
+#, kde-format
+msgid ""
+"<ul><li>color scheme,</li><li>cursor theme,</li><li>font,</li><li>font "
+"rendering,</li><li>NumLock preference,</li><li>Plasma theme,</li><li>and "
+"scaling DPI</li></ul>"
+msgstr ""
+
+#: src/package/contents/ui/main.qml:144
 #, kde-format
 msgid ""
 "Please note that theme files must be installed globally for settings "
 "synchronization to work."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (SelectImageButton, selectBackgroundButton)
-#: src/ui/themeconfig.ui:127
+#: src/package/contents/ui/main.qml:151
 #, kde-format
-msgid "..."
+msgctxt "@action:button"
+msgid "Synchronize"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/themeconfig.ui:134
+#: src/package/contents/ui/main.qml:156
 #, kde-format
-msgid "Background:"
+msgctxt "@action:button"
+msgid "Reset"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, removeThemeButton)
-#: src/ui/themeconfig.ui:156
+#: src/package/contents/ui/main.qml:167
 #, kde-format
-msgid "Remove"
+msgctxt "@title:window"
+msgid "Change Background"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, installFromFileButton)
-#: src/ui/themeconfig.ui:180
+#: src/package/contents/ui/main.qml:178
 #, kde-format
-msgid "Install From File..."
+msgid "No image selected"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
-#: src/ui/themeconfig.ui:191
+#: src/package/contents/ui/main.qml:195
 #, kde-format
-msgid "Get New Login Screens..."
+msgctxt "@action:button"
+msgid "Load From File..."
+msgstr ""
+
+#: src/package/contents/ui/main.qml:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Image"
+msgstr ""
+
+#: src/sddmkcm.cpp:44
+#, kde-format
+msgid "Login Screen (SDDM)"
+msgstr ""
+
+#: src/sddmkcm.cpp:46
+#, kde-format
+msgid "Login screen using the SDDM"
+msgstr ""
+
+#: src/sddmkcm.cpp:49 src/sddmkcm.cpp:50 src/sddmkcm.cpp:51
+#, kde-format
+msgid "Author"
+msgstr ""
+
+#: src/sessionmodel.cpp:98
+#, kde-format
+msgctxt "%1 is the name of a session"
+msgid "%1 (Wayland)"
 msgstr ""

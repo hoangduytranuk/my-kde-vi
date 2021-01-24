@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-09 07:55+0000\n"
+"POT-Creation-Date: 2021-01-24 08:30+0000\n"
 "PO-Revision-Date: 2014-08-15 10:50+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -29,10 +29,22 @@ msgid "Icons-only Task Manager"
 msgstr "Bộ quản lí sắc thái"
 
 #: applets/icontasks/metadata.desktop:53
-#: applets/taskmanager/package/metadata.desktop:84
 msgctxt "Comment"
 msgid "Switch between running applications"
 msgstr "Chuyển đổi giữa các ứng dụng đang chạy"
+
+#: applets/keyboardlayout/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Daemon"
+msgctxt "Name"
+msgid "Keyboard Layout"
+msgstr "Trình nền bàn phím"
+
+#: applets/keyboardlayout/metadata.desktop:79
+msgctxt "Comment"
+msgid "Show/switch keyboard layout"
+msgstr ""
 
 #: applets/kicker/package/metadata.desktop:2
 msgctxt "Name"
@@ -64,14 +76,30 @@ msgctxt "Name"
 msgid "Input Method Panel"
 msgstr ""
 
-#: applets/kimpanel/package/metadata.desktop:46
+#: applets/kimpanel/package/metadata.desktop:47
 msgctxt "Comment"
 msgid "A generic input method panel"
 msgstr ""
 
-#: applets/kimpanel/package/metadata.desktop:88
+#: applets/kimpanel/package/metadata.desktop:89
 msgctxt "Keywords"
 msgid "Input;IM;"
+msgstr ""
+
+#: applets/margins-separator/metadata.desktop:2
+msgctxt "Name"
+msgid "Margins Separator"
+msgstr ""
+
+#: applets/margins-separator/metadata.desktop:25
+msgctxt "Comment"
+msgid ""
+"To be used as a separator between margin areas in themes that support them"
+msgstr ""
+
+#: applets/margins-separator/metadata.desktop:50
+msgctxt "Keywords"
+msgid "separator"
 msgstr ""
 
 #: applets/minimizeall/package/metadata.desktop:2
@@ -98,7 +126,7 @@ msgid "Switch between virtual desktops"
 msgstr "Liệt kê và chuyển đổi giữa các Hoạt động màn hình làm việc"
 
 #: applets/showActivityManager/package/metadata.desktop:2
-#: kcms/activities/kcm_activities.desktop:15
+#: kcms/activities/kcm_activities.desktop:14
 msgctxt "Name"
 msgid "Activities"
 msgstr "Hoạt động"
@@ -120,12 +148,9 @@ msgid "Show Desktop"
 msgstr "Màn hình nền"
 
 #: applets/showdesktop/package/metadata.desktop:39
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Interact with the Plasma desktop shell"
 msgctxt "Comment"
-msgid "Show the Plasma desktop"
-msgstr "Tương tác với vỏ Plasma"
+msgid "Shows the desktop by moving windows aside"
+msgstr ""
 
 #: applets/taskmanager/package/metadata.desktop:2
 #, fuzzy
@@ -134,6 +159,14 @@ msgstr "Tương tác với vỏ Plasma"
 msgctxt "Name"
 msgid "Task Manager"
 msgstr "Bộ quản lí sắc thái"
+
+#: applets/taskmanager/package/metadata.desktop:84
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "List and switch between desktop activities"
+msgctxt "Comment"
+msgid "Switch between tasks"
+msgstr "Liệt kê và chuyển đổi giữa các Hoạt động màn hình làm việc"
 
 #: applets/trash/package/metadata.desktop:2
 #, fuzzy
@@ -209,10 +242,11 @@ msgctxt "Comment"
 msgid "Desktop view furniture"
 msgstr "Xem nội dung bàn làm việc"
 
-#: kaccess/kaccess.desktop:3
+#: kaccess/kaccess.desktop:3 kcms/access/kcm_access.desktop:13
+#: kcms/access/package/metadata.desktop:2
 msgctxt "Name"
-msgid "KDE Accessibility Tool"
-msgstr "Công cụ hỗ trợ truy cập của KDE"
+msgid "Accessibility"
+msgstr "Hỗ trợ truy cập"
 
 #: kaccess/kaccess.notifyrc:3
 msgctxt "Comment"
@@ -317,20 +351,15 @@ msgctxt "Comment"
 msgid "Mouse keys has been enabled or disabled"
 msgstr ""
 
-#: kcms/access/kcmaccess.desktop:14
-msgctxt "Name"
-msgid "Accessibility"
-msgstr "Hỗ trợ truy cập"
-
-#: kcms/access/kcmaccess.desktop:109
+#: kcms/access/kcm_access.desktop:108 kcms/access/package/metadata.desktop:96
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Accessibility"
 msgctxt "Comment"
-msgid "Accessibility Options"
+msgid "Configure Accessibility Options"
 msgstr "Hỗ trợ truy cập"
 
-#: kcms/access/kcmaccess.desktop:161
+#: kcms/access/kcm_access.desktop:134
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -346,18 +375,16 @@ msgstr ""
 "truy cập,hỗ trợ người tàn tật,điếc,bị thương,chuông,chuông kêu,chuông rung,"
 "bàn phím,phím,phím dính,phím nảy,phím chậm,di chuyển chuột,bàn phím số"
 
-#: kcms/activities/kcm_activities.desktop:77
+#: kcms/activities/kcm_activities.desktop:76
 msgctxt "Comment"
 msgid "Activities help you to focus on a specific task"
 msgstr ""
 
-#: kcms/autostart/autostart.desktop:14
 #: kcms/autostart/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Autostart"
 msgstr "Tự khởi chạy"
 
-#: kcms/autostart/autostart.desktop:105
 #: kcms/autostart/package/metadata.desktop:92
 #, fuzzy
 #| msgctxt "Comment"
@@ -366,8 +393,7 @@ msgctxt "Comment"
 msgid "Automatically Started Applications"
 msgstr "Mục chạy để khởi động ứng dụng"
 
-#: kcms/autostart/autostart.desktop:156
-#: kcms/autostart/package/metadata.desktop:152
+#: kcms/autostart/package/metadata.desktop:151
 #, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid "Autostart Manager,autostart,startup,system startup,kde start,cron"
@@ -377,7 +403,7 @@ msgstr ""
 "trình quản lí tự động chạy,tự động chạy,khởi động,khởi động hệ thống,chạy "
 "kde,cron"
 
-#: kcms/baloo/kcm_baloofile.desktop:15
+#: kcms/baloo/kcm_baloofile.desktop:14
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Path"
@@ -385,7 +411,7 @@ msgctxt "Name"
 msgid "File Search"
 msgstr "Đường dẫn tệp"
 
-#: kcms/baloo/kcm_baloofile.desktop:64
+#: kcms/baloo/kcm_baloofile.desktop:63
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -393,7 +419,7 @@ msgctxt "Comment"
 msgid "Configure File Search"
 msgstr "Cấu hình trình kiểm tra chính tả"
 
-#: kcms/baloo/kcm_baloofile.desktop:113
+#: kcms/baloo/kcm_baloofile.desktop:112
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo"
 msgstr ""
@@ -416,107 +442,48 @@ msgstr "Cấu hình trình kiểm tra chính tả"
 
 # msgid "Terminal Applications"
 # | msgctxt "Name"
-#: kcms/componentchooser/componentchooser.desktop:14
+#: kcms/componentchooser/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Default Applications"
 msgstr "Ứng dụng mặc định"
 
 # msgid "Terminal Applications"
 # | msgctxt "Name"
-#: kcms/componentchooser/componentchooser.desktop:100
+#: kcms/componentchooser/package/metadata.desktop:88
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Default Applications"
 msgctxt "Comment"
-msgid "Default Applications"
+msgid "Choose default Applications"
 msgstr "Ứng dụng mặc định"
 
 # msgid ""
 # components,component chooser,resources, email client, terminal emulator
 # | msgctxt "Keywords"
-#: kcms/componentchooser/componentchooser.desktop:153
+#: kcms/componentchooser/package/metadata.desktop:117
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "default applications,components,component chooser,resources,e-mail,email "
+#| "client,text editor,instant messenger,terminal emulator,web browser,URL,"
+#| "hyperlinks"
 msgctxt "X-KDE-Keywords"
 msgid ""
-"default applications,components,component chooser,resources,e-mail,email "
-"client,text editor,instant messenger,terminal emulator,web browser,URL,"
-"hyperlinks"
+"default applications,components,component chooser,resources,web browser,"
+"browser,internet,file manager,dolphin,email,e-mail,email client,terminal,"
+"terminal emulator,konsole"
 msgstr ""
 "thành phần,bộ chọn thành phần,tài nguyên,thư điện tử,trình thư,mô phỏng "
 "thiết bị cuối,ứng dụng,default applications,components,component chooser,"
 "resources,e-mail,email client,text editor,instant messenger,terminal "
 "emulator,web browser,URL,hyperlinks"
 
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:4
-msgctxt "Name|standard desktop component"
-msgid "Web Browser"
-msgstr "Trình duyệt web"
-
-#: kcms/componentchooser/componentservices/kcm_browser.desktop:77
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default web browser. All KDE applications in "
-"which you can select hyperlinks should honor this setting."
-msgstr ""
-"Dịch vụ này cho phép bạn cấu hình trình duyệt mạng mặc định. Tất cả các "
-"chương trình của KDE có chứa liên kết mạng sẽ cần một trình duyệt dựa vào "
-"thiết lập này."
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:4
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Theme Manager"
-msgctxt "Name|standard desktop component"
-msgid "File Manager"
-msgstr "Bộ quản lí sắc thái"
-
-#: kcms/componentchooser/componentservices/kcm_filemanager.desktop:56
-msgctxt "Comment"
-msgid ""
-"Here you can configure your default file manager. The entries in the K menu "
-"and all KDE applications in which you can open folders will use this file "
-"manager."
-msgstr ""
-"Tại đây bạn có thể cấu hình trình quản lí tệp mặc định của bạn. Các mục "
-"trong trình đơn K và tất cả ứng dụng KDE mà bạn có thể mở thư mục từ đó đều "
-"sẽ dùng trình quản lí tệp này."
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:4
-msgctxt "Name|standard desktop component"
-msgid "Email Client"
-msgstr "Trình khách thư điện tử"
-
-#: kcms/componentchooser/componentservices/kcm_kemail.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default email client. All KDE "
-"applications which need access to an email client application should honor "
-"this setting."
-msgstr ""
-"Dịch vụ này cho phép bạn cấu hình trình thư mặc định. Tất cả các chương "
-"trình của KDE cần gửi thư điện tử đều dựa vào thiết lập này."
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:4
-msgctxt "Name|standard desktop component"
-msgid "Terminal Emulator"
-msgstr "Trình mô phỏng thiết bị cuối"
-
-#: kcms/componentchooser/componentservices/kcm_terminal.desktop:77
-msgctxt "Comment"
-msgid ""
-"This service allows you to configure your default terminal emulator. All KDE "
-"applications which invoke a terminal emulator application should honor this "
-"setting."
-msgstr ""
-"Dịch vụ này cho phép bạn cấu hình trình mô phỏng thiết bị cuối mặc định. Tất "
-"cả các chương trình của KDE cần mở thiết bị đầu cuối đều dựa vào thiết lập "
-"này."
-
-#: kcms/dateandtime/clock.desktop:16
+#: kcms/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
 msgstr "Ngày & giờ"
 
-#: kcms/dateandtime/clock.desktop:110
+#: kcms/dateandtime/clock.desktop:109
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date & Time"
@@ -524,7 +491,7 @@ msgctxt "Comment"
 msgid "Date and Time"
 msgstr "Ngày & giờ"
 
-#: kcms/dateandtime/clock.desktop:163
+#: kcms/dateandtime/clock.desktop:162
 msgctxt "X-KDE-Keywords"
 msgid ""
 "clock,date,time,time zone,ntp,synchronize,calendar,local time,region time"
@@ -548,7 +515,7 @@ msgctxt "Description"
 msgid "System policies prevent you from saving the date/time settings."
 msgstr "Hệ thống chính sách ngăn cấm bạn lưu các thiết lập ngày / giờ."
 
-#: kcms/desktoppaths/desktoppath.desktop:13
+#: kcms/desktoppaths/desktoppath.desktop:12
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Manage Notifications"
@@ -556,7 +523,7 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "Quản lí các thông báo"
 
-#: kcms/desktoppaths/desktoppath.desktop:61
+#: kcms/desktoppaths/desktoppath.desktop:60
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Paths to Personal Files"
@@ -564,23 +531,23 @@ msgctxt "Comment"
 msgid "Location for Personal Files"
 msgstr "Đường dẫn đến tệp cá nhân"
 
-#: kcms/desktoppaths/desktoppath.desktop:106
+#: kcms/desktoppaths/desktoppath.desktop:105
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "konqueror,filemanager,paths,desktop,directories,autostart"
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,dolphin,files,filemanager,path, paths,desktop,directories,"
-"autostart,downloads,music,documents,movies,pictures"
+"downloads,music,documents,movies,pictures"
 msgstr ""
 "konqueror,trình quản lí tệp,đường dẫn,màn hình nền,thư mục,tự khởi động"
 
-#: kcms/formats/formats.desktop:14
+#: kcms/formats/formats.desktop:13
 msgctxt "Name"
 msgid "Formats"
 msgstr ""
 
-#: kcms/formats/formats.desktop:64
+#: kcms/formats/formats.desktop:63
 msgctxt "Comment"
 msgid "Numeric, Currency and Time Formats"
 msgstr "Định dạng số, tiền tệ và thời gian"
@@ -601,7 +568,7 @@ msgstr ""
 "fractional digits,calendar,time,date,formats,week,week start,first,paper,"
 "size,letter,A4,measure,metric,English,Imperial"
 
-#: kcms/hardware/joystick/joystick.desktop:17
+#: kcms/hardware/joystick/joystick.desktop:15
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date and Time Control Module"
@@ -609,7 +576,7 @@ msgctxt "Comment"
 msgid "Calibrate Game Controller"
 msgstr "Khối điều khiển ngày giờ"
 
-#: kcms/hardware/joystick/joystick.desktop:51
+#: kcms/hardware/joystick/joystick.desktop:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Date and Time Control Module"
@@ -617,22 +584,22 @@ msgctxt "Name"
 msgid "Game Controller"
 msgstr "Khối điều khiển ngày giờ"
 
-#: kcms/hardware/joystick/joystick.desktop:87
+#: kcms/hardware/joystick/joystick.desktop:85
 msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr "Joystick,bàn điều khiển trò chơi"
 
-#: kcms/input/mouse.desktop:16 kcms/mouse/mouse.desktop:16
+#: kcms/input/mouse.desktop:15 kcms/mouse/mouse.desktop:15
 msgctxt "Name"
 msgid "Mouse"
 msgstr "Chuột"
 
-#: kcms/input/mouse.desktop:110 kcms/mouse/mouse.desktop:110
+#: kcms/input/mouse.desktop:109 kcms/mouse/mouse.desktop:109
 msgctxt "Comment"
 msgid "Mouse Controls"
 msgstr ""
 
-#: kcms/input/mouse.desktop:159
+#: kcms/input/mouse.desktop:158
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -651,7 +618,7 @@ msgstr ""
 "bị Nhập,Ánh xạ Nút,Nhấn,biểu tượng,phản hồi,Con trỏ,Kéo,Nhấn đúp,ánh xạ,"
 "thuận tay phải,thuận tay trái"
 
-#: kcms/kded/kcmkded.desktop:14 kcms/kded/package/metadata.desktop:2
+#: kcms/kded/kcmkded.desktop:13 kcms/kded/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Background"
@@ -659,7 +626,7 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr "Ảnh nền"
 
-#: kcms/kded/kcmkded.desktop:62 kcms/kded/package/metadata.desktop:50
+#: kcms/kded/kcmkded.desktop:61 kcms/kded/package/metadata.desktop:50
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Background"
@@ -667,17 +634,17 @@ msgctxt "Comment"
 msgid "Configure background services"
 msgstr "Ảnh nền"
 
-#: kcms/kded/kcmkded.desktop:96
+#: kcms/kded/kcmkded.desktop:95
 msgctxt "X-KDE-Keywords"
 msgid "KDED,Daemon,Services"
 msgstr "KDED,Trình nền,Dịch vụ, Daemon,Services"
 
-#: kcms/keyboard/kcm_keyboard.desktop:17
+#: kcms/keyboard/kcm_keyboard.desktop:16
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "Bàn phím"
 
-#: kcms/keyboard/kcm_keyboard.desktop:110
+#: kcms/keyboard/kcm_keyboard.desktop:109
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard Layout"
@@ -708,7 +675,7 @@ msgctxt "Comment"
 msgid "Enables switching keyboard layout through shortcuts or system tray"
 msgstr ""
 
-#: kcms/keys/kcm_keys.desktop:14 kcms/keys/package/metadata.desktop:2
+#: kcms/keys/kcm_keys.desktop:13 kcms/keys/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -716,7 +683,7 @@ msgctxt "Name"
 msgid "Shortcuts"
 msgstr "Phím tắt toàn hệ thống"
 
-#: kcms/keys/kcm_keys.desktop:44 kcms/keys/package/metadata.desktop:32
+#: kcms/keys/kcm_keys.desktop:46 kcms/keys/package/metadata.desktop:35
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Global Keyboard Shortcuts"
@@ -724,7 +691,7 @@ msgctxt "Comment"
 msgid "Configure Keyboard Shortcuts"
 msgstr "Phím tắt toàn hệ thống"
 
-#: kcms/keys/kcm_keys.desktop:74
+#: kcms/keys/kcm_keys.desktop:78
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
@@ -733,7 +700,7 @@ msgstr ""
 "Phím,tổ hợp phím toàn cục,phối hợp phím,tổ hợp phím,gõ tắt,gõ tắt cho ứng "
 "dụng"
 
-#: kcms/ksmserver/kcmsmserver.desktop:14
+#: kcms/ksmserver/package/metadata.desktop:12
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Desktop Theme"
@@ -741,12 +708,12 @@ msgctxt "Name"
 msgid "Desktop Session"
 msgstr "Sắc thái màn hình"
 
-#: kcms/ksmserver/kcmsmserver.desktop:64
+#: kcms/ksmserver/package/metadata.desktop:63
 msgctxt "Comment"
 msgid "Desktop Session Login and Logout"
 msgstr ""
 
-#: kcms/ksmserver/kcmsmserver.desktop:111
+#: kcms/ksmserver/package/metadata.desktop:111
 #, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid "ksmserver,session,logout,confirmation,save,restore"
@@ -754,13 +721,13 @@ msgctxt "X-KDE-Keywords"
 msgid "ksmserver,session,logout,confirmation,save,restore,efi,uefi,bios"
 msgstr "ksmserver,phiên,đăng xuất,xác nhận,lưu,khôi phục"
 
-#: kcms/ksplash/kcm_splashscreen.desktop:15
+#: kcms/ksplash/kcm_splashscreen.desktop:14
 #: kcms/ksplash/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Splash Screen"
 msgstr "Màn hình chào mừng"
 
-#: kcms/ksplash/kcm_splashscreen.desktop:66
+#: kcms/ksplash/kcm_splashscreen.desktop:65
 #: kcms/ksplash/package/metadata.desktop:53
 #, fuzzy
 #| msgctxt "Comment"
@@ -769,7 +736,7 @@ msgctxt "Comment"
 msgid "Choose splash screen theme"
 msgstr "Tuỳ chỉnh sắc thái màn hình"
 
-#: kcms/ksplash/kcm_splashscreen.desktop:103
+#: kcms/ksplash/kcm_splashscreen.desktop:102
 msgctxt "X-KDE-Keywords"
 msgid "splash screen,splash theme,startup"
 msgstr ""
@@ -782,13 +749,13 @@ msgctxt "Name"
 msgid "Splash Screens"
 msgstr "Màn hình chào mừng"
 
-#: kcms/launch/kcm_launchfeedback.desktop:14
+#: kcms/launch/kcm_launchfeedback.desktop:13
 #: kcms/launch/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Launch Feedback"
 msgstr "Khởi chạy Phản hồi"
 
-#: kcms/launch/kcm_launchfeedback.desktop:102
+#: kcms/launch/kcm_launchfeedback.desktop:101
 #: kcms/launch/package/metadata.desktop:90
 #, fuzzy
 #| msgctxt "Name"
@@ -797,7 +764,7 @@ msgctxt "Comment"
 msgid "Application Launch Feedback"
 msgstr "Trình chạy ứng dụng"
 
-#: kcms/launch/kcm_launchfeedback.desktop:153
+#: kcms/launch/kcm_launchfeedback.desktop:152
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -811,7 +778,7 @@ msgstr ""
 "chương trình ứng dụng,bắt đầu,khởi chạy,bận,con trỏ,chuột,con trỏ,quay,quay "
 "tròn,đĩa,khởi động,chương trình,báo cáo"
 
-#: kcms/mouse/mouse.desktop:159
+#: kcms/mouse/mouse.desktop:158
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -830,24 +797,24 @@ msgstr ""
 "bị Nhập,Ánh xạ Nút,Nhấn,biểu tượng,phản hồi,Con trỏ,Kéo,Nhấn đúp,ánh xạ,"
 "thuận tay phải,thuận tay trái"
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:16
+#: kcms/nightcolor/kcm_nightcolor.desktop:15
 #: kcms/nightcolor/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Night Color"
 msgstr ""
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:58
+#: kcms/nightcolor/kcm_nightcolor.desktop:57
 #: kcms/nightcolor/package/metadata.desktop:44
 msgctxt "Comment"
 msgid "Adjust color temperature at night to reduce eye strain"
 msgstr ""
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:100
+#: kcms/nightcolor/kcm_nightcolor.desktop:99
 msgctxt "X-KDE-Keywords"
 msgid "kwin,window,manager,night,colors,redshift,eyes"
 msgstr ""
 
-#: kcms/notifications/kcm_notifications.desktop:14
+#: kcms/notifications/kcm_notifications.desktop:13
 #: kcms/notifications/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -856,7 +823,7 @@ msgctxt "Name"
 msgid "Notifications"
 msgstr "Quản lí các thông báo"
 
-#: kcms/notifications/kcm_notifications.desktop:66
+#: kcms/notifications/kcm_notifications.desktop:65
 #: kcms/notifications/package/metadata.desktop:54
 #, fuzzy
 #| msgctxt "Comment"
@@ -865,17 +832,17 @@ msgctxt "Comment"
 msgid "Event Notifications and Actions"
 msgstr "Cấu hình Chuông Hệ thống"
 
-#: kcms/qtquicksettings/qtquicksettings.desktop:12
+#: kcms/qtquicksettings/qtquicksettings.desktop:11
 msgctxt "Name"
 msgid "Plasma Renderer"
 msgstr ""
 
-#: kcms/runners/kcm_plasmasearch.desktop:13
+#: kcms/runners/kcm_plasmasearch.desktop:12
 msgctxt "Name"
 msgid "KRunner"
 msgstr ""
 
-#: kcms/runners/kcm_plasmasearch.desktop:50
+#: kcms/runners/kcm_plasmasearch.desktop:49
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure the spell checker"
@@ -883,7 +850,7 @@ msgctxt "Comment"
 msgid "Configure Search Bar"
 msgstr "Cấu hình trình kiểm tra chính tả"
 
-#: kcms/runners/kcm_plasmasearch.desktop:92
+#: kcms/runners/kcm_plasmasearch.desktop:91
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo, Runner, krunner"
 msgstr ""
@@ -1105,18 +1072,18 @@ msgctxt "Name"
 msgid "File Path"
 msgstr "Đường dẫn tệp"
 
-#: kcms/solid_actions/solid-actions.desktop:13
+#: kcms/solid_actions/solid-actions.desktop:12
 msgctxt "Name"
 msgid "Device Actions"
 msgstr "Hành động cho thiết bị"
 
-#: kcms/solid_actions/solid-actions.desktop:85
+#: kcms/solid_actions/solid-actions.desktop:84
 msgctxt "Comment"
 msgid "Manage actions available to the user when connecting new devices"
 msgstr ""
 "Quản lí các hoạt động sẵn sàng cho người dùng khi kết nối các thiết bị mới"
 
-#: kcms/solid_actions/solid-actions.desktop:139
+#: kcms/solid_actions/solid-actions.desktop:138
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Preset Actions"
@@ -1129,17 +1096,17 @@ msgctxt "Name"
 msgid "Solid Device Type"
 msgstr "Loại thiết bị Solid"
 
-#: kcms/spellchecking/spellchecking.desktop:14
+#: kcms/spellchecking/spellchecking.desktop:13
 msgctxt "Name"
 msgid "Spell Check"
 msgstr "Kiểm tra đánh vần"
 
-#: kcms/spellchecking/spellchecking.desktop:68
+#: kcms/spellchecking/spellchecking.desktop:67
 msgctxt "Comment"
 msgid "Spell Checker Dictionaries and Options"
 msgstr "Các từ điển và các lựa chọn của trình kiểm tra đánh vần"
 
-#: kcms/spellchecking/spellchecking.desktop:117
+#: kcms/spellchecking/spellchecking.desktop:116
 msgctxt "X-KDE-Keywords"
 msgid "Spell"
 msgstr "Đánh vần"
@@ -1160,14 +1127,14 @@ msgid "Touchpad"
 msgstr ""
 
 #: kcms/touchpad/applet/qml/metadata.desktop:94
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:16
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:15
 #: kcms/touchpad/kded/kcm_touchpad.notifyrc:2
 #: kcms/touchpad/kded/kded_touchpad.desktop:9
 msgctxt "Name"
 msgid "Touchpad"
 msgstr ""
 
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:63
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:62
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Mouse settings"
@@ -1175,7 +1142,7 @@ msgctxt "Comment"
 msgid "Touchpad settings"
 msgstr "Thiết lập con chuột"
 
-#: kcms/touchpad/kcm/kcm_touchpad.desktop:109
+#: kcms/touchpad/kcm/kcm_touchpad.desktop:108
 msgctxt "X-KDE-Keywords"
 msgid "Touchpad,Synaptics"
 msgstr ""
@@ -1210,7 +1177,7 @@ msgctxt "Comment"
 msgid "Enables or disables touchpad"
 msgstr ""
 
-#: kcms/users/kcm_users.desktop:10
+#: kcms/users/kcm_users.desktop:9
 msgctxt "Name"
 msgid "Users"
 msgstr ""
@@ -1223,7 +1190,7 @@ msgctxt "Comment"
 msgid "Manage user accounts"
 msgstr "Quản lí phông chữ hệ thống."
 
-#: kcms/users/kcm_users.desktop:73
+#: kcms/users/kcm_users.desktop:74
 msgctxt "X-KDE-Keywords"
 msgid "user,account"
 msgstr ""
@@ -1241,13 +1208,13 @@ msgctxt "Comment"
 msgid "Manage users"
 msgstr "Quản lí Plasma"
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:11
+#: kcms/workspaceoptions/kcm_workspace.desktop:10
 #: kcms/workspaceoptions/package/metadata.desktop:2
 msgctxt "Name"
 msgid "General Behavior"
 msgstr ""
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:48
+#: kcms/workspaceoptions/kcm_workspace.desktop:47
 #: kcms/workspaceoptions/package/metadata.desktop:39
 #, fuzzy
 #| msgctxt "Comment"
@@ -1256,7 +1223,7 @@ msgctxt "Comment"
 msgid "Configure general workspace behavior"
 msgstr "Cấu hình trình kiểm tra chính tả"
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:84
+#: kcms/workspaceoptions/kcm_workspace.desktop:83
 msgctxt "X-KDE-Keywords"
 msgid ""
 "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,"
@@ -1336,12 +1303,12 @@ msgctxt "Comment"
 msgid "Interact with the Plasma desktop shell"
 msgstr "Tương tác với vỏ Plasma"
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:9
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:8
 msgctxt "X-KDE-Keywords"
 msgid "Mount,Removable,Devices,Automatic"
 msgstr ""
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:52
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:51
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Removable"
@@ -1349,7 +1316,7 @@ msgctxt "Name"
 msgid "Removable Devices"
 msgstr "Tháo ra được"
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:98
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:97
 msgctxt "Comment"
 msgid "Configure automatic handling of removable storage media"
 msgstr ""
@@ -1393,3 +1360,71 @@ msgstr "Hộp công cụ điều khiển mặc định cho Plasma"
 msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "Hộp công cụ điều khiển"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Interact with the Plasma desktop shell"
+#~ msgctxt "Comment"
+#~ msgid "Show the Plasma desktop"
+#~ msgstr "Tương tác với vỏ Plasma"
+
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Web Browser"
+#~ msgstr "Trình duyệt web"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can configure your default web browser. All KDE applications in "
+#~ "which you can select hyperlinks should honor this setting."
+#~ msgstr ""
+#~ "Dịch vụ này cho phép bạn cấu hình trình duyệt mạng mặc định. Tất cả các "
+#~ "chương trình của KDE có chứa liên kết mạng sẽ cần một trình duyệt dựa vào "
+#~ "thiết lập này."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Theme Manager"
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "File Manager"
+#~ msgstr "Bộ quản lí sắc thái"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Here you can configure your default file manager. The entries in the K "
+#~ "menu and all KDE applications in which you can open folders will use this "
+#~ "file manager."
+#~ msgstr ""
+#~ "Tại đây bạn có thể cấu hình trình quản lí tệp mặc định của bạn. Các mục "
+#~ "trong trình đơn K và tất cả ứng dụng KDE mà bạn có thể mở thư mục từ đó "
+#~ "đều sẽ dùng trình quản lí tệp này."
+
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Email Client"
+#~ msgstr "Trình khách thư điện tử"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This service allows you to configure your default email client. All KDE "
+#~ "applications which need access to an email client application should "
+#~ "honor this setting."
+#~ msgstr ""
+#~ "Dịch vụ này cho phép bạn cấu hình trình thư mặc định. Tất cả các chương "
+#~ "trình của KDE cần gửi thư điện tử đều dựa vào thiết lập này."
+
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Terminal Emulator"
+#~ msgstr "Trình mô phỏng thiết bị cuối"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This service allows you to configure your default terminal emulator. All "
+#~ "KDE applications which invoke a terminal emulator application should "
+#~ "honor this setting."
+#~ msgstr ""
+#~ "Dịch vụ này cho phép bạn cấu hình trình mô phỏng thiết bị cuối mặc định. "
+#~ "Tất cả các chương trình của KDE cần mở thiết bị đầu cuối đều dựa vào "
+#~ "thiết lập này."
+
+#~ msgctxt "Name"
+#~ msgid "KDE Accessibility Tool"
+#~ msgstr "Công cụ hỗ trợ truy cập của KDE"

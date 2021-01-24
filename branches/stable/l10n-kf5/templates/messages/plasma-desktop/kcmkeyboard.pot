@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-04 02:15+0200\n"
+"POT-Creation-Date: 2021-01-22 11:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,44 +28,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: bindings.cpp:33
+#: bindings.cpp:32
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
 msgstr ""
 
-#: bindings.cpp:34
+#: bindings.cpp:33
 #, kde-format
 msgid "KDE Keyboard Layout Switcher"
 msgstr ""
 
-#: bindings.cpp:41
+#: bindings.cpp:39
 #, kde-format
 msgid "Keyboard Layout Switcher"
 msgstr ""
 
-#: bindings.cpp:68
+#: bindings.cpp:64
 #, kde-format
 msgid "Switch keyboard layout to %1"
 msgstr ""
 
-#: flags.cpp:168
+#: flags.cpp:166
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:176
+#: flags.cpp:174
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:60
+#: kcm_add_layout_dialog.cpp:57
 #, kde-format
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
+#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:292
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -114,12 +114,12 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: kcm_keyboard.cpp:48
+#: kcm_keyboard.cpp:45
 #, kde-format
 msgid "KDE Keyboard Control Module"
 msgstr ""
 
-#: kcm_keyboard.cpp:50
+#: kcm_keyboard.cpp:49
 #, kde-format
 msgid "(c) 2010 Andriy Rysin"
 msgstr ""
@@ -353,66 +353,104 @@ msgstr ""
 msgid "&Configure keyboard options"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:214
+#: kcm_keyboard_widget.cpp:199
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:216
+#: kcm_keyboard_widget.cpp:201
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:226
+#: kcm_keyboard_widget.cpp:212
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_keyboard_widget.cpp:606
+#: kcm_keyboard_widget.cpp:590
 #, kde-format
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:622
+#: kcm_keyboard_widget.cpp:604
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Layout"
 msgstr ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Variant"
 msgstr ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Label"
 msgstr ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Shortcut"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcmmiscwidget.ui:31
+#, kde-format
+msgid "When a key is held:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, accentMenuRadioButton)
+#: kcmmiscwidget.ui:38
+#, kde-format
+msgid "&Show accented and similar characters "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, repeatRadioButton)
+#: kcmmiscwidget.ui:45
+#, kde-format
+msgid "&Repeat the key being held"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, nothingRadioButton)
+#: kcmmiscwidget.ui:52
+#, kde-format
+msgid "&Do nothing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmmiscwidget.ui:66
+#, kde-format
+msgid "Test area:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit)
+#: kcmmiscwidget.ui:73
+#, kde-format
+msgid ""
+"Allows to test keyboard repeat and click volume (just don't forget to apply "
+"the changes)."
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
-#: kcmmiscwidget.ui:17
+#: kcmmiscwidget.ui:82
 #, kde-format
 msgid ""
 "If supported, this option allows you to setup the state of NumLock after "
@@ -421,57 +459,38 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
-#: kcmmiscwidget.ui:20
+#: kcmmiscwidget.ui:85
 #, kde-format
 msgid "NumLock on Plasma Startup"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
-#: kcmmiscwidget.ui:32 kcmmiscwidget.ui:71
+#: kcmmiscwidget.ui:97
 #, kde-format
 msgid "T&urn on"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
-#: kcmmiscwidget.ui:39
+#: kcmmiscwidget.ui:104
 #, kde-format
 msgid "&Turn off"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton3)
-#: kcmmiscwidget.ui:46
+#: kcmmiscwidget.ui:111
 #, kde-format
 msgid "Leave unchan&ged"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, keyboardRepeatGroupBox)
-#: kcmmiscwidget.ui:59
+#. i18n: ectx: property (text), widget (QLabel, lblRate)
+#: kcmmiscwidget.ui:148
 #, kde-format
-msgid "Keyboard Repeat"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
-#: kcmmiscwidget.ui:78
-#, kde-format
-msgid "Turn o&ff"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
-#: kcmmiscwidget.ui:85
-#, kde-format
-msgid "&Leave unchanged"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblDelay)
-#: kcmmiscwidget.ui:123
-#, kde-format
-msgid "&Delay:"
+msgid "&Rate:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
-#: kcmmiscwidget.ui:133 kcmmiscwidget.ui:161
+#: kcmmiscwidget.ui:164 kcmmiscwidget.ui:202
 #, kde-format
 msgid ""
 "If supported, this option allows you to set the delay after which a pressed "
@@ -479,21 +498,9 @@ msgid ""
 "frequency of these keycodes."
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
-#: kcmmiscwidget.ui:164
-#, kde-format
-msgid " ms"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblRate)
-#: kcmmiscwidget.ui:177
-#, kde-format
-msgid "&Rate:"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
-#: kcmmiscwidget.ui:187 kcmmiscwidget.ui:215
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#: kcmmiscwidget.ui:192 kcmmiscwidget.ui:212
 #, kde-format
 msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
@@ -501,44 +508,52 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
-#: kcmmiscwidget.ui:218
+#: kcmmiscwidget.ui:195
 #, kde-format
 msgid " repeats/s"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kcmmiscwidget.ui:236
+#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
+#: kcmmiscwidget.ui:205
 #, kde-format
-msgid "Test area:"
+msgid " ms"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit)
-#: kcmmiscwidget.ui:243
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: kcmmiscwidget.ui:246
 #, kde-format
-msgid ""
-"Allows to test keyboard repeat and click volume (just don't forget to apply "
-"the changes)."
+msgid "&Delay:"
 msgstr ""
 
-#: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
+#: layout_tray_icon.cpp:43 layout_tray_icon.cpp:44
 #, kde-format
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr ""
 
-#: layouts_menu.cpp:135
+#: layouts_menu.cpp:131
 #, kde-format
 msgid "Configure Layouts..."
 msgstr ""
 
-#: tastenbrett/main.cpp:64
+#: tastenbrett/main.cpp:67
 #, kde-format
 msgctxt "app display name"
 msgid "Keyboard Preview"
 msgstr ""
 
-#: tastenbrett/main.cpp:66
+#: tastenbrett/main.cpp:69
 #, kde-format
 msgctxt "app description"
 msgid "Keyboard layout visualization"
+msgstr ""
+
+#: tastenbrett/main.cpp:154
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant."
 msgstr ""

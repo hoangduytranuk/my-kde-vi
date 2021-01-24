@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-12 08:34+0100\n"
+"POT-Creation-Date: 2021-01-22 11:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,30 +28,68 @@ msgid "Your emails"
 msgstr ""
 
 #: package/contents/ui/ChangePassword.qml:41
-#: package/contents/ui/UserDetailsPage.qml:179
+#: package/contents/ui/UserDetailsPage.qml:180
 #, kde-format
 msgid "Change Password"
 msgstr ""
 
-#: package/contents/ui/ChangePassword.qml:54
+#: package/contents/ui/ChangePassword.qml:57
 #, kde-format
 msgid "Password"
 msgstr ""
 
-#: package/contents/ui/ChangePassword.qml:66
+#: package/contents/ui/ChangePassword.qml:71
 #, kde-format
 msgid "Confirm password"
 msgstr ""
 
-#: package/contents/ui/ChangePassword.qml:82
+#: package/contents/ui/ChangePassword.qml:84
 #: package/contents/ui/CreateUser.qml:80
 #, kde-format
 msgid "Passwords must match"
 msgstr ""
 
-#: package/contents/ui/ChangePassword.qml:87
+#: package/contents/ui/ChangePassword.qml:89
 #, kde-format
 msgid "Set Password"
+msgstr ""
+
+#: package/contents/ui/ChangeWalletPassword.qml:32
+#, kde-format
+msgid "Change Wallet Password?"
+msgstr ""
+
+#: package/contents/ui/ChangeWalletPassword.qml:42
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Now that you have changed your login password, you may also want to change "
+"the password on your default KWallet to match it."
+msgstr ""
+
+#: package/contents/ui/ChangeWalletPassword.qml:47
+#, kde-format
+msgid "What is KWallet?"
+msgstr ""
+
+#: package/contents/ui/ChangeWalletPassword.qml:57
+#, kde-format
+msgid ""
+"KWallet is a password manager that stores your passwords for wireless "
+"networks and other encrypted resources. It is locked with its own password "
+"which differs from your login password. If the two passwords match, it can "
+"be unlocked at login automatically so you don't have to enter the KWallet "
+"password yourself."
+msgstr ""
+
+#: package/contents/ui/ChangeWalletPassword.qml:73
+#, kde-format
+msgid "Change Wallet Password"
+msgstr ""
+
+#: package/contents/ui/ChangeWalletPassword.qml:82
+#, kde-format
+msgid "Leave Unchanged"
 msgstr ""
 
 #: package/contents/ui/CreateUser.qml:30
@@ -64,22 +102,22 @@ msgstr ""
 msgid "Name:"
 msgstr ""
 
-#: package/contents/ui/CreateUser.qml:49 package/contents/ui/UserDetailsPage.qml:153
+#: package/contents/ui/CreateUser.qml:49 package/contents/ui/UserDetailsPage.qml:154
 #, kde-format
 msgid "Username:"
 msgstr ""
 
-#: package/contents/ui/CreateUser.qml:59 package/contents/ui/UserDetailsPage.qml:161
+#: package/contents/ui/CreateUser.qml:59 package/contents/ui/UserDetailsPage.qml:162
 #, kde-format
 msgid "Standard"
 msgstr ""
 
-#: package/contents/ui/CreateUser.qml:60 package/contents/ui/UserDetailsPage.qml:162
+#: package/contents/ui/CreateUser.qml:60 package/contents/ui/UserDetailsPage.qml:163
 #, kde-format
 msgid "Administrator"
 msgstr ""
 
-#: package/contents/ui/CreateUser.qml:63 package/contents/ui/UserDetailsPage.qml:165
+#: package/contents/ui/CreateUser.qml:63 package/contents/ui/UserDetailsPage.qml:166
 #, kde-format
 msgid "Account type:"
 msgstr ""
@@ -99,174 +137,189 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: package/contents/ui/main.qml:35
+#: package/contents/ui/main.qml:36
 #, kde-format
 msgid "Manage Users"
 msgstr ""
 
-#: package/contents/ui/main.qml:108
+#: package/contents/ui/main.qml:127
 #, kde-format
 msgid "Add New User"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:93
+#: package/contents/ui/UserDetailsPage.qml:103
 #, kde-format
 msgid "Choose a picture"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:145
+#: package/contents/ui/UserDetailsPage.qml:134
+#, kde-format
+msgid "Change avatar"
+msgstr ""
+
+#: package/contents/ui/UserDetailsPage.qml:146
 #, kde-format
 msgctxt "Example name"
 msgid "John Doe"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:174
+#: package/contents/ui/UserDetailsPage.qml:175
 #, kde-format
 msgctxt "Example email address"
 msgid "john.doe@kde.org"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:175
+#: package/contents/ui/UserDetailsPage.qml:176
 #, kde-format
 msgid "Email address:"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:199
+#: package/contents/ui/UserDetailsPage.qml:200
 #, kde-format
 msgid "Delete files"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:208
+#: package/contents/ui/UserDetailsPage.qml:209
 #, kde-format
 msgid "Keep files"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:217
+#: package/contents/ui/UserDetailsPage.qml:218
 #, kde-format
 msgid "Delete User..."
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:228
+#: package/contents/ui/UserDetailsPage.qml:229
 #, kde-format
 msgid "Change Avatar"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:268
+#: package/contents/ui/UserDetailsPage.qml:273
 #, kde-format
 msgid "Choose File..."
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:401
+#: package/contents/ui/UserDetailsPage.qml:378
 #, kde-format
 msgid "Feisty Flamingo"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:402
+#: package/contents/ui/UserDetailsPage.qml:379
 #, kde-format
 msgid "Dragon's Fruit"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:403
+#: package/contents/ui/UserDetailsPage.qml:380
 #, kde-format
 msgid "Sweet Potato"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:404
+#: package/contents/ui/UserDetailsPage.qml:381
 #, kde-format
 msgid "Ambient Amber"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:405
+#: package/contents/ui/UserDetailsPage.qml:382
 #, kde-format
 msgid "Sparkle Sunbeam"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:406
+#: package/contents/ui/UserDetailsPage.qml:383
 #, kde-format
 msgid "Lemon-Lime"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:407
+#: package/contents/ui/UserDetailsPage.qml:384
 #, kde-format
 msgid "Verdant Charm"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:408
+#: package/contents/ui/UserDetailsPage.qml:385
 #, kde-format
 msgid "Mellow Meadow"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:409
+#: package/contents/ui/UserDetailsPage.qml:386
 #, kde-format
 msgid "Tepid Teal"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:410
+#: package/contents/ui/UserDetailsPage.qml:387
 #, kde-format
 msgid "Plasma Blue"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:411
+#: package/contents/ui/UserDetailsPage.qml:388
 #, kde-format
 msgid "Pon Purple"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:412
+#: package/contents/ui/UserDetailsPage.qml:389
 #, kde-format
 msgid "Bajo Purple"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:413
+#: package/contents/ui/UserDetailsPage.qml:390
 #, kde-format
 msgid "Burnt Charcoal"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:414
+#: package/contents/ui/UserDetailsPage.qml:391
 #, kde-format
 msgid "Paper Perfection"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:415
+#: package/contents/ui/UserDetailsPage.qml:392
 #, kde-format
 msgid "Cafétera Brown"
 msgstr ""
 
-#: package/contents/ui/UserDetailsPage.qml:416
+#: package/contents/ui/UserDetailsPage.qml:393
 #, kde-format
 msgid "Rich Hardwood"
 msgstr ""
 
-#: src/kcm.cpp:51
+#: src/kcm.cpp:54
 #, kde-format
 msgid "Manage user accounts"
 msgstr ""
 
-#: src/kcm.cpp:53
+#: src/kcm.cpp:55
 #, kde-format
 msgid "Nicolas Fella"
 msgstr ""
 
-#: src/kcm.cpp:54
+#: src/kcm.cpp:56
 #, kde-format
 msgid "Carson Black"
 msgstr ""
 
-#: src/user.cpp:231
+#: src/user.cpp:253
 #, kde-format
 msgid "Could not get permission to save user %1"
 msgstr ""
 
-#: src/user.cpp:235
+#: src/user.cpp:258
 #, kde-format
 msgid "There was an error while saving changes"
 msgstr ""
 
-#: src/usermodel.cpp:150
+#: src/user.cpp:333 src/user.cpp:334
+#, kde-format
+msgid "Failed to resize image: opening temp file failed"
+msgstr ""
+
+#: src/user.cpp:341 src/user.cpp:342
+#, kde-format
+msgid "Failed to resize image: writing to temp file failed"
+msgstr ""
+
+#: src/usermodel.cpp:152
 #, kde-format
 msgid "Your Account"
 msgstr ""
 
-#: src/usermodel.cpp:150
+#: src/usermodel.cpp:152
 #, kde-format
 msgid "Other Accounts"
 msgstr ""

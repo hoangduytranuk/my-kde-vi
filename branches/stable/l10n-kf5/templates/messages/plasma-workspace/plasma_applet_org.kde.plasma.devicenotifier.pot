@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-17 08:25+0200\n"
+"POT-Creation-Date: 2020-12-21 02:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: package/contents/ui/DeviceItem.qml:207
 #, kde-format
-msgid "Mount"
+msgid "Mount and Open"
 msgstr ""
 
 #: package/contents/ui/DeviceItem.qml:209
@@ -59,6 +59,11 @@ msgstr ""
 msgid "Safely remove"
 msgstr ""
 
+#: package/contents/ui/DeviceItem.qml:251
+#, kde-format
+msgid "Mount"
+msgstr ""
+
 #: package/contents/ui/devicenotifier.qml:60
 #, kde-format
 msgid "Most Recent Device"
@@ -69,43 +74,48 @@ msgstr ""
 msgid "No Devices Available"
 msgstr ""
 
-#: package/contents/ui/devicenotifier.qml:234
+#: package/contents/ui/devicenotifier.qml:238
+#, kde-format
+msgid "Removable Devices"
+msgstr ""
+
+#: package/contents/ui/devicenotifier.qml:244
+#, kde-format
+msgid "Non Removable Devices"
+msgstr ""
+
+#: package/contents/ui/devicenotifier.qml:250
+#, kde-format
+msgid "All Devices"
+msgstr ""
+
+#: package/contents/ui/devicenotifier.qml:258
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr ""
+
+#: package/contents/ui/devicenotifier.qml:266
 #, kde-format
 msgctxt "Open auto mounter kcm"
-msgid "Configure Removable Devices"
+msgid "Configure Removable Devices..."
 msgstr ""
 
 #: package/contents/ui/FullRepresentation.qml:48
 #, kde-format
-msgid "Show:"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:55
-#, kde-format
-msgid "Removable devices"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:56
-#, kde-format
-msgid "Non-removable devices"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:57
-#, kde-format
-msgid "All devices"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:99
-#, kde-format
 msgid "Remove All"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:102
+#: package/contents/ui/FullRepresentation.qml:51
 #, kde-format
 msgid "Click to safely remove all devices"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:228
+#: package/contents/ui/FullRepresentation.qml:163
 #, kde-format
-msgid "No devices available"
+msgid "No removable devices attached"
+msgstr ""
+
+#: package/contents/ui/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
 msgstr ""

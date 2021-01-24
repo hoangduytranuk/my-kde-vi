@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-18 02:27+0100\n"
+"POT-Creation-Date: 2021-01-24 02:19+0100\n"
 "PO-Revision-Date: 2021-01-19 09:12+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -161,13 +161,13 @@ msgid "Moving"
 msgstr "Chuyển"
 
 #: core/job.cpp:105 core/job.cpp:115 core/job.cpp:149
-#: widgets/fileundomanager.cpp:136
+#: widgets/fileundomanager.cpp:137
 #, kde-format
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Nguồn"
 
-#: core/job.cpp:106 core/job.cpp:116 widgets/fileundomanager.cpp:137
+#: core/job.cpp:106 core/job.cpp:116 widgets/fileundomanager.cpp:138
 #, kde-format
 msgctxt "The destination of a file operation"
 msgid "Destination"
@@ -185,7 +185,7 @@ msgctxt "@title job"
 msgid "Creating directory"
 msgstr "Tạo thư mục"
 
-#: core/job.cpp:125 widgets/fileundomanager.cpp:131
+#: core/job.cpp:125 widgets/fileundomanager.cpp:132
 #: widgets/kurlrequester.cpp:456
 #, kde-format
 msgid "Directory"
@@ -197,7 +197,7 @@ msgctxt "@title job"
 msgid "Deleting"
 msgstr "Xoá"
 
-#: core/job.cpp:133 core/job.cpp:141 widgets/fileundomanager.cpp:142
+#: core/job.cpp:133 core/job.cpp:141 widgets/fileundomanager.cpp:143
 #: widgets/kurlrequester.cpp:455
 #, kde-format
 msgid "File"
@@ -2765,7 +2765,7 @@ msgstr "Hiện xem thử"
 msgid "Open Containing Folder"
 msgstr "Mở thư mục chứa"
 
-#: filewidgets/kdiroperator.cpp:2134 filewidgets/kfileplacesview.cpp:858
+#: filewidgets/kdiroperator.cpp:2134 filewidgets/kfileplacesview.cpp:863
 #, kde-format
 msgid "Properties"
 msgstr "Thuộc tính"
@@ -2874,7 +2874,6 @@ msgstr "Chuyển vào đây"
 
 #: filewidgets/kfilefiltercombo.cpp:37
 #, kde-format
-#| msgid "*|All Files"
 msgctxt "Default mime type filter that shows all file types"
 msgid "*|All Files"
 msgstr "*|Tất cả các tệp"
@@ -3155,61 +3154,61 @@ msgstr "Lỗi xảy ra khi đang truy cập '%1', phản hồi từ hệ thống
 msgid "An error occurred while accessing '%1'"
 msgstr "Lỗi xảy ra khi đang truy cập '%1'"
 
-#: filewidgets/kfileplacesview.cpp:463
+#: filewidgets/kfileplacesview.cpp:468
 #, kde-format
 msgid "%1 (hidden)"
 msgstr "%1 (ẩn)"
 
-#: filewidgets/kfileplacesview.cpp:809
+#: filewidgets/kfileplacesview.cpp:814
 #, kde-format
 msgid "Hide Section"
 msgstr "Ẩn khu vực"
 
-#: filewidgets/kfileplacesview.cpp:816
+#: filewidgets/kfileplacesview.cpp:821
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Đổ rác"
 
-#: filewidgets/kfileplacesview.cpp:821 filewidgets/kfileplacesview.cpp:855
-#: filewidgets/kfileplacesview.cpp:871 widgets/kacleditwidget.cpp:68
+#: filewidgets/kfileplacesview.cpp:826 filewidgets/kfileplacesview.cpp:860
+#: filewidgets/kfileplacesview.cpp:876 widgets/kacleditwidget.cpp:68
 #, kde-format
 msgid "Add Entry..."
 msgstr "Thêm mục..."
 
-#: filewidgets/kfileplacesview.cpp:847
+#: filewidgets/kfileplacesview.cpp:852
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "Gắn kết"
 
-#: filewidgets/kfileplacesview.cpp:861
+#: filewidgets/kfileplacesview.cpp:866
 #, kde-format
 msgid "&Edit Entry '%1'..."
 msgstr "&Sửa mục '%1'..."
 
-#: filewidgets/kfileplacesview.cpp:864
+#: filewidgets/kfileplacesview.cpp:869
 #, kde-format
 msgid "&Hide Entry '%1'"
 msgstr "Ẩn mụ&c '%1'"
 
-#: filewidgets/kfileplacesview.cpp:876
+#: filewidgets/kfileplacesview.cpp:881
 #, kde-format
 msgid "&Show All Entries"
 msgstr "Hiện &tất cả các mục"
 
-#: filewidgets/kfileplacesview.cpp:887
+#: filewidgets/kfileplacesview.cpp:892
 #, kde-format
 msgid "&Remove Entry '%1'"
 msgstr "&Xoá mục '%1'"
 
-#: filewidgets/kfileplacesview.cpp:890
+#: filewidgets/kfileplacesview.cpp:895
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "Cỡ biểu tượng"
 
-#: filewidgets/kfileplacesview.cpp:994
+#: filewidgets/kfileplacesview.cpp:999
 #, kde-format
 msgctxt ""
 "@item:inmenu Auto set icon size based on available space inthe Places side-"
@@ -3217,25 +3216,25 @@ msgctxt ""
 msgid "Auto Resize"
 msgstr "Tự động đổi cỡ"
 
-#: filewidgets/kfileplacesview.cpp:1017
+#: filewidgets/kfileplacesview.cpp:1022
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr "Nhỏ (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1020
+#: filewidgets/kfileplacesview.cpp:1025
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr "Vừa (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1023
+#: filewidgets/kfileplacesview.cpp:1028
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr "Lớn (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1026
+#: filewidgets/kfileplacesview.cpp:1031
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
@@ -3357,17 +3356,17 @@ msgstr "Bạn chỉ có thể chọn một tệp"
 msgid "More than one file provided"
 msgstr "Đang có được nhiều hơn một tệp"
 
-#: filewidgets/kfilewidget.cpp:969
+#: filewidgets/kfilewidget.cpp:979
 #, kde-format
 msgid "You can only select local files"
 msgstr "Bạn chỉ có thể chọn tệp cục bộ"
 
-#: filewidgets/kfilewidget.cpp:970
+#: filewidgets/kfilewidget.cpp:980
 #, kde-format
 msgid "Remote files not accepted"
 msgstr "Không chấp nhận tệp ở xa"
 
-#: filewidgets/kfilewidget.cpp:977
+#: filewidgets/kfilewidget.cpp:987
 #, kde-format
 msgid ""
 "The selected URL uses an unsupported scheme. Please use the following "
@@ -3379,12 +3378,12 @@ msgstr[0] ""
 "URL được chọn sử dụng một quy hoạch không được hỗ trợ. Vui lòng sử dụng một "
 "trong các quy hoạch sau: %2"
 
-#: filewidgets/kfilewidget.cpp:983
+#: filewidgets/kfilewidget.cpp:993
 #, kde-format
 msgid "Unsupported URL scheme"
 msgstr "Quy hoạch URL không được hỗ trợ"
 
-#: filewidgets/kfilewidget.cpp:998
+#: filewidgets/kfilewidget.cpp:1008
 #, kde-format
 msgid ""
 "More than one folder has been selected and this dialog does not accept "
@@ -3395,12 +3394,12 @@ msgstr ""
 "không thể quyết định đi vào cái nào. Vui lòng chọn chỉ một thư mục để liệt "
 "kê."
 
-#: filewidgets/kfilewidget.cpp:998
+#: filewidgets/kfilewidget.cpp:1008
 #, kde-format
 msgid "More than one folder provided"
 msgstr "Đang có được nhiều hơn một thư mục"
 
-#: filewidgets/kfilewidget.cpp:1006
+#: filewidgets/kfilewidget.cpp:1016
 #, kde-format
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
@@ -3409,27 +3408,27 @@ msgstr ""
 "Ít nhất một thư mục và một tệp đã được chọn. Các tệp được chọn sẽ bị bỏ qua "
 "và thư mục được chọn sẽ được liệt kê"
 
-#: filewidgets/kfilewidget.cpp:1006
+#: filewidgets/kfilewidget.cpp:1016
 #, kde-format
 msgid "Files and folders selected"
 msgstr "Các tệp và thư mục được chọn"
 
-#: filewidgets/kfilewidget.cpp:1024
+#: filewidgets/kfilewidget.cpp:1034
 #, kde-format
 msgid "The file \"%1\" could not be found"
 msgstr "Không tìm được tệp \"%1\""
 
-#: filewidgets/kfilewidget.cpp:1024
+#: filewidgets/kfilewidget.cpp:1034
 #, kde-format
 msgid "Cannot open file"
 msgstr "Không thể mở tệp"
 
-#: filewidgets/kfilewidget.cpp:1314
+#: filewidgets/kfilewidget.cpp:1324
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "Đây là tên để lưu tệp."
 
-#: filewidgets/kfilewidget.cpp:1317
+#: filewidgets/kfilewidget.cpp:1327
 #, kde-format
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
@@ -3438,84 +3437,84 @@ msgstr ""
 "Đây là danh sách các tệp để mở. Có thể chỉ định nhiều hơn một tệp bằng cách "
 "liệt kê nhiều tệp, phân cách bằng dấu cách."
 
-#: filewidgets/kfilewidget.cpp:1322
+#: filewidgets/kfilewidget.cpp:1332
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "Đây là tên của tệp để mở."
 
-#: filewidgets/kfilewidget.cpp:1336
+#: filewidgets/kfilewidget.cpp:1346
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Địa điểm"
 
-#: filewidgets/kfilewidget.cpp:1543
+#: filewidgets/kfilewidget.cpp:1553
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Tệp \"%1\" đã tồn tại. Bạn có muốn ghi đè lên nó?"
 
-#: filewidgets/kfilewidget.cpp:1544
+#: filewidgets/kfilewidget.cpp:1554
 #, kde-format
 msgid "Overwrite File?"
 msgstr "Ghi đè tệp?"
 
-#: filewidgets/kfilewidget.cpp:1767
+#: filewidgets/kfilewidget.cpp:1777
 #, kde-format
 msgid "You can only select local files."
 msgstr "Bạn chỉ có thể chọn tệp cục bộ."
 
-#: filewidgets/kfilewidget.cpp:1768
+#: filewidgets/kfilewidget.cpp:1778
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Không chấp nhận tệp ở xa"
 
-#: filewidgets/kfilewidget.cpp:1880
+#: filewidgets/kfilewidget.cpp:1890
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|Tất cả thư mục"
 
-#: filewidgets/kfilewidget.cpp:1882
+#: filewidgets/kfilewidget.cpp:1892
 #, kde-format
 msgid "*|All Files"
 msgstr "*|Tất cả các tệp"
 
-#: filewidgets/kfilewidget.cpp:2035 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:368
+#: filewidgets/kfilewidget.cpp:2045 widgets/executablefileopendialog.cpp:30
+#: widgets/kfileitemactions.cpp:372
 #, kde-format
 msgid "&Open"
 msgstr "&Mở"
 
-#: filewidgets/kfilewidget.cpp:2148
+#: filewidgets/kfilewidget.cpp:2158
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr "Cỡ biểu tượng: %1 điểm ảnh (cỡ tiêu chuẩn)"
 
-#: filewidgets/kfilewidget.cpp:2151
+#: filewidgets/kfilewidget.cpp:2161
 #, kde-format
 msgid "Icon size: %1 pixels"
 msgstr "Cỡ biểu tượng: %1 điểm ảnh"
 
-#: filewidgets/kfilewidget.cpp:2307
+#: filewidgets/kfilewidget.cpp:2317
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "Tự động chọn &phần mở rộng tên tệp (%1)"
 
-#: filewidgets/kfilewidget.cpp:2308
+#: filewidgets/kfilewidget.cpp:2318
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "phần mở rộng <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2314
+#: filewidgets/kfilewidget.cpp:2324
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "Tự động chọn &phần mở rộng tên tệp"
 
-#: filewidgets/kfilewidget.cpp:2315
+#: filewidgets/kfilewidget.cpp:2325
 #, kde-format
 msgid "a suitable extension"
 msgstr "một phần mở rộng phù hợp"
 
-#: filewidgets/kfilewidget.cpp:2324
+#: filewidgets/kfilewidget.cpp:2334
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3541,12 +3540,12 @@ msgstr ""
 "tên tệp (dấu chấm sẽ tự động bị xoá đi).</li></ol>Nếu không chắc, hãy giữ "
 "lựa chọn này được bật, nó giúp dễ quản lí các tệp của bạn hơn."
 
-#: filewidgets/kfilewidget.cpp:2789
+#: filewidgets/kfilewidget.cpp:2799
 #, kde-format
 msgid "&File type:"
 msgstr "&Kiểu tệp:"
 
-#: filewidgets/kfilewidget.cpp:2790
+#: filewidgets/kfilewidget.cpp:2800
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
@@ -3555,12 +3554,12 @@ msgstr ""
 "<qt>Đây là bộ chọn kiểu tệp. Nó được dùng để chọn định dạng mà tệp sẽ được "
 "lưu thành.</qt>"
 
-#: filewidgets/kfilewidget.cpp:2792
+#: filewidgets/kfilewidget.cpp:2802
 #, kde-format
 msgid "&Filter:"
 msgstr "&Lọc:"
 
-#: filewidgets/kfilewidget.cpp:2793
+#: filewidgets/kfilewidget.cpp:2803
 #, kde-format
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
@@ -7345,7 +7344,6 @@ msgstr "&Liên kết đến đây"
 
 #: widgets/executablefileopendialog.cpp:21
 #, kde-format
-#| msgid "What do you wish to do with this executable file?"
 msgid "What do you wish to do with this file?"
 msgstr "Bạn muốn làm gì với tệp này?"
 
@@ -7359,12 +7357,12 @@ msgstr "Đừng hỏi lại"
 msgid "&Execute"
 msgstr "&Thực thi"
 
-#: widgets/fileundomanager.cpp:117
+#: widgets/fileundomanager.cpp:118
 #, kde-format
 msgid "Undo Changes"
 msgstr "Đảo ngược các thay đổi"
 
-#: widgets/fileundomanager.cpp:118
+#: widgets/fileundomanager.cpp:119
 #, kde-format
 msgid ""
 "Undoing this operation requires root privileges. Do you want to continue?"
@@ -7372,72 +7370,72 @@ msgstr ""
 "Việc đảo ngược thao tác này đòi hỏi đặc quyền gốc. Bạn có muốn tiếp tục "
 "không?"
 
-#: widgets/fileundomanager.cpp:130
+#: widgets/fileundomanager.cpp:131
 #, kde-format
 msgid "Creating directory"
 msgstr "Tạo thư mục"
 
-#: widgets/fileundomanager.cpp:135
+#: widgets/fileundomanager.cpp:136
 #, kde-format
 msgid "Moving"
 msgstr "Chuyển"
 
-#: widgets/fileundomanager.cpp:141
+#: widgets/fileundomanager.cpp:142
 #, kde-format
 msgid "Deleting"
 msgstr "Xoá"
 
-#: widgets/fileundomanager.cpp:291
+#: widgets/fileundomanager.cpp:292
 #, kde-format
 msgid "Und&o"
 msgstr "Đả&o ngược"
 
-#: widgets/fileundomanager.cpp:297
+#: widgets/fileundomanager.cpp:298
 #, kde-format
 msgid "Und&o: Copy"
 msgstr "Đả&o ngược: Chép"
 
-#: widgets/fileundomanager.cpp:299
+#: widgets/fileundomanager.cpp:300
 #, kde-format
 msgid "Und&o: Link"
 msgstr "Đả&o ngược: Liên kết"
 
-#: widgets/fileundomanager.cpp:301
+#: widgets/fileundomanager.cpp:302
 #, kde-format
 msgid "Und&o: Move"
 msgstr "Đả&o ngược: Chuyển"
 
-#: widgets/fileundomanager.cpp:303
+#: widgets/fileundomanager.cpp:304
 #, kde-format
 msgid "Und&o: Rename"
 msgstr "Đả&o ngược: Đổi tên"
 
-#: widgets/fileundomanager.cpp:305
+#: widgets/fileundomanager.cpp:306
 #, kde-format
 msgid "Und&o: Trash"
 msgstr "Đả&o ngược: Vứt"
 
-#: widgets/fileundomanager.cpp:307
+#: widgets/fileundomanager.cpp:308
 #, kde-format
 msgid "Und&o: Create Folder"
 msgstr "Đả&o ngược: Tạo thư mục"
 
-#: widgets/fileundomanager.cpp:309
+#: widgets/fileundomanager.cpp:310
 #, kde-format
 msgid "Und&o: Create Folder(s)"
 msgstr "Đả&o ngược: Tạo (các) thư mục"
 
-#: widgets/fileundomanager.cpp:311
+#: widgets/fileundomanager.cpp:312
 #, kde-format
 msgid "Und&o: Create File"
 msgstr "Đả&o ngược: Tạo tệp"
 
-#: widgets/fileundomanager.cpp:313
+#: widgets/fileundomanager.cpp:314
 #, kde-format
 msgid "Und&o: Batch Rename"
 msgstr "Đả&o ngược: Đổi tên một loạt"
 
-#: widgets/fileundomanager.cpp:706
+#: widgets/fileundomanager.cpp:720
 #, kde-format
 msgid ""
 "The file %1 was copied from %2, but since then it has apparently been "
@@ -7449,7 +7447,7 @@ msgstr ""
 "Đảo ngược việc chép này sẽ xoá tệp đó, và tất cả các chỉnh sửa sẽ bị mất.\n"
 "Bạn có chắc chắn muốn xoá %4 không?"
 
-#: widgets/fileundomanager.cpp:709
+#: widgets/fileundomanager.cpp:723
 #, kde-format
 msgid "Undo File Copy Confirmation"
 msgstr "Xác nhận đảo ngược việc chép tệp"
@@ -7748,41 +7746,41 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Kiểu"
 
-#: widgets/kfileitemactions.cpp:357
+#: widgets/kfileitemactions.cpp:361
 #, kde-format
 msgid "&Open with %1"
 msgstr "&Mở bằng %1"
 
-#: widgets/kfileitemactions.cpp:379
+#: widgets/kfileitemactions.cpp:383
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "&Mở bằng..."
 
-#: widgets/kfileitemactions.cpp:392
+#: widgets/kfileitemactions.cpp:396
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Mở bằng"
 
-#: widgets/kfileitemactions.cpp:403
+#: widgets/kfileitemactions.cpp:407
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
 msgstr "Ứ&ng dụng khác..."
 
-#: widgets/kfileitemactions.cpp:521
+#: widgets/kfileitemactions.cpp:525
 #, kde-format
 msgid "Open &with %1"
 msgstr "Mở &bằng %1"
 
-#: widgets/kfileitemactions.cpp:523
+#: widgets/kfileitemactions.cpp:527
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1"
 
-#: widgets/kfileitemactions.cpp:723
+#: widgets/kfileitemactions.cpp:727
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"

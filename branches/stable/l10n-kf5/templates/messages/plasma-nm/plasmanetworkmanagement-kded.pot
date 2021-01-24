@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-19 08:28+0200\n"
+"POT-Creation-Date: 2020-10-24 02:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -22,13 +22,40 @@ msgstr ""
 msgid "Only 'dun' and 'nap' services are supported."
 msgstr ""
 
-#: modemmonitor.cpp:204
+#: connectivitymonitor.cpp:72
+#, kde-format
+msgid "Network authentication"
+msgstr ""
+
+#: connectivitymonitor.cpp:79
+#, kde-format
+msgid "Log in"
+msgstr ""
+
+#: connectivitymonitor.cpp:82
+#, kde-format
+msgid "You need to log in to this network"
+msgstr ""
+
+#: connectivitymonitor.cpp:100
+#, kde-format
+msgid "Limited Connectivity"
+msgstr ""
+
+#: connectivitymonitor.cpp:101
+#, kde-format
+msgid ""
+"This device appears to be connected to a network but is unable to reach the "
+"internet."
+msgstr ""
+
+#: modemmonitor.cpp:203
 #, kde-format
 msgctxt "Text in GSM PIN/PUK unlock error dialog"
 msgid "Error unlocking modem: %1"
 msgstr ""
 
-#: modemmonitor.cpp:205
+#: modemmonitor.cpp:204
 #, kde-format
 msgctxt "Title for GSM PIN/PUK unlock error dialog"
 msgid "PIN/PUK unlock error"
@@ -451,34 +478,29 @@ msgstr ""
 
 #: notification.cpp:473
 #, kde-format
-msgid "VPN connection '%1' failed."
+msgid "VPN connection '%1' failed to activate."
 msgstr ""
 
-#: notification.cpp:476
+#: notification.cpp:476 notification.cpp:484
 #, kde-format
-msgid "VPN connection '%1' disconnected."
-msgstr ""
-
-#: notification.cpp:484
-#, kde-format
-msgid "The VPN connection changed state because the user disconnected it."
+msgid "VPN connection '%1' deactivated."
 msgstr ""
 
 #: notification.cpp:487
 #, kde-format
 msgid ""
-"The VPN connection changed state because the device it was using was "
+"VPN connection '%1' was deactivated because the device it was using was "
 "disconnected."
 msgstr ""
 
 #: notification.cpp:490
 #, kde-format
-msgid "The service providing the VPN connection was stopped."
+msgid "The service providing the VPN connection '%1' was stopped."
 msgstr ""
 
 #: notification.cpp:493
 #, kde-format
-msgid "The IP config of the VPN connection was invalid."
+msgid "The IP config of the VPN connection '%1', was invalid."
 msgstr ""
 
 #: notification.cpp:496
@@ -489,17 +511,18 @@ msgstr ""
 #: notification.cpp:499
 #, kde-format
 msgid ""
-"A timeout occurred while starting the service providing the VPN connection."
+"A timeout occurred while starting the service providing the VPN connection "
+"'%1'."
 msgstr ""
 
 #: notification.cpp:502
 #, kde-format
-msgid "Starting the service providing the VPN connection failed."
+msgid "Starting the service providing the VPN connection '%1' failed."
 msgstr ""
 
 #: notification.cpp:505
 #, kde-format
-msgid "Necessary secrets for the VPN connection were not provided."
+msgid "Necessary secrets for the VPN connection '%1' were not provided."
 msgstr ""
 
 #: notification.cpp:508
@@ -509,7 +532,7 @@ msgstr ""
 
 #: notification.cpp:511
 #, kde-format
-msgid "The connection was deleted from settings."
+msgid "The connection was deleted."
 msgstr ""
 
 #: notification.cpp:594
@@ -542,12 +565,12 @@ msgstr ""
 msgid "%1 password dialog"
 msgstr ""
 
-#: passworddialog.cpp:142
+#: passworddialog.cpp:149
 #, kde-format
 msgid "Provide the secrets for the VPN connection '%1':"
 msgstr ""
 
-#: passworddialog.cpp:143
+#: passworddialog.cpp:150
 #, kde-format
 msgid "VPN secrets (%1) dialog"
 msgstr ""
@@ -564,140 +587,140 @@ msgstr ""
 msgid "Password:"
 msgstr ""
 
-#: pindialog.cpp:79
+#: pindialog.cpp:78
 #, kde-format
 msgid "SIM PUK"
 msgstr ""
 
-#: pindialog.cpp:81
+#: pindialog.cpp:80
 #, kde-format
 msgid "SIM PUK2"
 msgstr ""
 
-#: pindialog.cpp:83
+#: pindialog.cpp:82
 #, kde-format
 msgid "Service provider PUK"
 msgstr ""
 
-#: pindialog.cpp:85
+#: pindialog.cpp:84
 #, kde-format
 msgid "Network PUK"
 msgstr ""
 
-#: pindialog.cpp:87
+#: pindialog.cpp:86
 #, kde-format
 msgid "Corporate PUK"
 msgstr ""
 
-#: pindialog.cpp:89
+#: pindialog.cpp:88
 #, kde-format
 msgid "PH-FSIM PUK"
 msgstr ""
 
-#: pindialog.cpp:91
+#: pindialog.cpp:90
 #, kde-format
 msgid "Network Subset PUK"
 msgstr ""
 
-#: pindialog.cpp:94 pindialog.cpp:126
+#: pindialog.cpp:93 pindialog.cpp:125
 #, kde-format
 msgid "%1 unlock required"
 msgstr ""
 
-#: pindialog.cpp:95 pindialog.cpp:127
+#: pindialog.cpp:94 pindialog.cpp:126
 #, kde-format
 msgid "%1 Unlock Required"
 msgstr ""
 
-#: pindialog.cpp:96 pindialog.cpp:128
+#: pindialog.cpp:95 pindialog.cpp:127
 #, kde-format
 msgid ""
 "The mobile broadband device '%1' requires a %2 code before it can be used."
 msgstr ""
 
-#: pindialog.cpp:97 pindialog.cpp:129
+#: pindialog.cpp:96 pindialog.cpp:128
 #, kde-format
 msgid "%1 code:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, pinLabel)
-#: pindialog.cpp:98 pinwidget.ui:153
+#: pindialog.cpp:97 pinwidget.ui:153
 #, kde-format
 msgid "New PIN code:"
 msgstr ""
 
-#: pindialog.cpp:99
+#: pindialog.cpp:98
 #, kde-format
 msgid "Re-enter new PIN code:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowPass)
-#: pindialog.cpp:100 pinwidget.ui:193
+#: pindialog.cpp:99 pinwidget.ui:193
 #, kde-format
 msgid "Show PIN/PUK code"
 msgstr ""
 
-#: pindialog.cpp:110
+#: pindialog.cpp:109
 #, kde-format
 msgid "SIM PIN"
 msgstr ""
 
-#: pindialog.cpp:112
+#: pindialog.cpp:111
 #, kde-format
 msgid "SIM PIN2"
 msgstr ""
 
-#: pindialog.cpp:114
+#: pindialog.cpp:113
 #, kde-format
 msgid "Service provider PIN"
 msgstr ""
 
-#: pindialog.cpp:116
+#: pindialog.cpp:115
 #, kde-format
 msgid "Network PIN"
 msgstr ""
 
-#: pindialog.cpp:118
+#: pindialog.cpp:117
 #, kde-format
 msgid "PIN"
 msgstr ""
 
-#: pindialog.cpp:120
+#: pindialog.cpp:119
 #, kde-format
 msgid "Corporate PIN"
 msgstr ""
 
-#: pindialog.cpp:122
+#: pindialog.cpp:121
 #, kde-format
 msgid "PH-FSIM PIN"
 msgstr ""
 
-#: pindialog.cpp:124
+#: pindialog.cpp:123
 #, kde-format
 msgid "Network Subset PIN"
 msgstr ""
 
-#: pindialog.cpp:130
+#: pindialog.cpp:129
 #, kde-format
 msgid "Show PIN code"
 msgstr ""
 
-#: pindialog.cpp:213
+#: pindialog.cpp:212
 #, kde-format
 msgid "PIN code too short. It should be at least 4 digits."
 msgstr ""
 
-#: pindialog.cpp:218
+#: pindialog.cpp:217
 #, kde-format
 msgid "The two PIN codes do not match"
 msgstr ""
 
-#: pindialog.cpp:223
+#: pindialog.cpp:222
 #, kde-format
 msgid "PUK code too short. It should be 8 digits."
 msgstr ""
 
-#: pindialog.cpp:228
+#: pindialog.cpp:227
 #, kde-format
 msgid "Unknown Error"
 msgstr ""
@@ -729,22 +752,7 @@ msgstr ""
 msgid "Re-enter PIN code:"
 msgstr ""
 
-#: portalmonitor.cpp:57
-#, kde-format
-msgid "Log in"
-msgstr ""
-
-#: portalmonitor.cpp:59
-#, kde-format
-msgid "You need to log in to this network"
-msgstr ""
-
-#: portalmonitor.cpp:69
-#, kde-format
-msgid "Network authentication"
-msgstr ""
-
-#: secretagent.cpp:415
+#: secretagent.cpp:416
 #, kde-format
 msgid "Authentication to %1 failed. Wrong password?"
 msgstr ""

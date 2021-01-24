@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-19 02:32+0100\n"
+"POT-Creation-Date: 2021-01-23 02:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1103,99 +1103,99 @@ msgctxt "@info:status total(rows,cols)"
 msgid "%1 (%2 x %3)"
 msgstr ""
 
-#: imgsaver.cpp:62
+#: imgsaver.cpp:64
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The directory <filename>%2</filename><nl/>could not be accessed.<nl/>%1"
 msgstr ""
 
-#: imgsaver.cpp:73
+#: imgsaver.cpp:75
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The directory <filename>%2</filename><nl/>could not be created.<nl/>%1"
 msgstr ""
 
-#: imgsaver.cpp:348
+#: imgsaver.cpp:350
 #, kde-format
 msgid "indexed color image (up to 8 bit depth)"
 msgstr ""
 
-#: imgsaver.cpp:352
+#: imgsaver.cpp:354
 #, kde-format
 msgid "gray scale image (up to 8 bit depth)"
 msgstr ""
 
-#: imgsaver.cpp:356
+#: imgsaver.cpp:358
 #, kde-format
 msgid "lineart image (black and white, 1 bit depth)"
 msgstr ""
 
-#: imgsaver.cpp:360
+#: imgsaver.cpp:362
 #, kde-format
 msgid "high/true color image (more than 8 bit depth)"
 msgstr ""
 
-#: imgsaver.cpp:364
+#: imgsaver.cpp:366
 #, kde-format
 msgid "unknown image type %1"
 msgstr ""
 
-#: imgsaver.cpp:386
+#: imgsaver.cpp:388
 #, kde-format
 msgid "Save OK"
 msgstr ""
 
-#: imgsaver.cpp:388
+#: imgsaver.cpp:390
 #, kde-format
 msgid "Permission denied"
 msgstr ""
 
-#: imgsaver.cpp:390
+#: imgsaver.cpp:392
 #, kde-format
 msgid "Bad file name"
 msgstr ""
 
-#: imgsaver.cpp:392
+#: imgsaver.cpp:394
 #, kde-format
 msgid "No space left on device"
 msgstr ""
 
-#: imgsaver.cpp:394
+#: imgsaver.cpp:396
 #, kde-format
 msgid "Cannot write image format '%1'"
 msgstr ""
 
-#: imgsaver.cpp:396
+#: imgsaver.cpp:398
 #, kde-format
 msgid "Cannot write using protocol '%1'"
 msgstr ""
 
-#: imgsaver.cpp:398
+#: imgsaver.cpp:400
 #, kde-format
 msgid "User cancelled saving"
 msgstr ""
 
-#: imgsaver.cpp:400
+#: imgsaver.cpp:402
 #, kde-format
 msgid "Cannot create directory"
 msgstr ""
 
-#: imgsaver.cpp:402
+#: imgsaver.cpp:404
 #, kde-format
 msgid "Save failed"
 msgstr ""
 
-#: imgsaver.cpp:404
+#: imgsaver.cpp:406
 #, kde-format
 msgid "Bad parameter"
 msgstr ""
 
-#: imgsaver.cpp:406
+#: imgsaver.cpp:408
 #, kde-format
 msgid "Unknown status %1"
 msgstr ""
 
-#: imgsaver.cpp:429
+#: imgsaver.cpp:431
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1204,47 +1204,47 @@ msgid ""
 "filename>"
 msgstr ""
 
-#: imgsaver.cpp:432
+#: imgsaver.cpp:434
 #, kde-format
 msgid "Extension Missing"
 msgstr ""
 
-#: imgsaver.cpp:433
+#: imgsaver.cpp:435
 #, kde-format
 msgid "Add Extension"
 msgstr ""
 
-#: imgsaver.cpp:434
+#: imgsaver.cpp:436
 #, kde-format
 msgid "Do Not Add"
 msgstr ""
 
-#: imgsaver.cpp:459
+#: imgsaver.cpp:461
 #, kde-format
 msgid "Target already exists"
 msgstr ""
 
-#: imgsaver.cpp:472
+#: imgsaver.cpp:474
 #, kde-format
 msgid "Unable to copy the file"
 msgstr ""
 
-#: imgsaver.cpp:473
+#: imgsaver.cpp:475
 #, kde-format
 msgid "Unable to rename the file"
 msgstr ""
 
-#: imgsaver.cpp:474
+#: imgsaver.cpp:476
 #, kde-format
 msgid "Error copying file"
 msgstr ""
 
-#: imgsaver.cpp:475
+#: imgsaver.cpp:477
 #, kde-format
 msgid "Error renaming file"
 msgstr ""
 
-#: imgsaver.cpp:476
+#: imgsaver.cpp:478
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1 <filename>%3</filename><nl/>%2"
@@ -1527,11 +1527,10 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<emphasis strong=\"1\">Gallery Mode - No scanner selected</emphasis><nl/><nl/"
-">In this mode you can browse, manipulate and OCR images already in the "
-"gallery.<nl/><nl/><link url=\"a:1\">Select a scanner device</link> to "
-"perform scanning, or <link url=\"a:2\">add a device</link> if a scanner is "
-"not automatically detected."
+"<title>Gallery Mode - No scanner selected</title><nl/><nl/>In this mode you "
+"can browse, manipulate and OCR images already in the gallery.<nl/><nl/><link "
+"url=\"a:1\">Select a scanner device</link> to perform scanning, or <link url="
+"\"a:2\">add a device</link> if a scanner is not automatically detected."
 msgstr ""
 
 #. i18n: ectx: label, entry (StartupReadImage), group (Startup)
@@ -1843,8 +1842,8 @@ msgid ""
 "There was a problem opening the scanner device.<nl/><nl/>Check that the "
 "scanner is connected and switched on, and that SANE support for it is "
 "correctly configured.<nl/><nl/>Trying to use scanner device: <icode>%3</"
-"icode><nl/>libkookascan reported error: <emphasis>%2</emphasis><nl/>SANE "
-"reported error: <emphasis>%1</emphasis>"
+"icode><nl/>libkookascan reported error: <message>%2</message><nl/>SANE "
+"reported error: <message>%1</message>"
 msgstr ""
 
 #: kookaview.cpp:519
@@ -1959,8 +1958,8 @@ msgid ""
 "There was a problem during preview or scanning.<nl/>Check that the scanner "
 "is still connected and switched on, <nl/>and that media is loaded if "
 "required.<nl/><nl/>Trying to use scanner device: <icode>%3</icode><nl/"
-">libkookascan reported error: <emphasis>%2</emphasis><nl/>SANE reported "
-"error: <emphasis>%1</emphasis>"
+">libkookascan reported error: <message>%2</message><nl/>SANE reported error: "
+"<message>%1</message>"
 msgstr ""
 
 #: kookaview.cpp:911
@@ -2505,8 +2504,7 @@ msgstr ""
 #: scanparamsdialog.cpp:270
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"Do you really want to delete the set <emphasis strong=\"1\">%1</emphasis>?"
+msgid "Do you really want to delete the set <resource>%1</resource>?"
 msgstr ""
 
 #: scanparamsdialog.cpp:271

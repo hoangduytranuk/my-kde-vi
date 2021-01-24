@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-19 02:43+0100\n"
+"POT-Creation-Date: 2021-01-23 02:47+0100\n"
 "PO-Revision-Date: 2012-06-13 11:10+0800\n"
 "Last-Translator: HeroP <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -650,22 +650,31 @@ msgstr ""
 msgid "Invalid %1 backend, contact your distributor."
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:396
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:406
+#, kde-format
+msgid ""
+"Unable to complete the update of %1. You can try and perform this action "
+"through the Get Hot New Stuff dialog, which grants tighter control. The "
+"reported error was:\n"
+"%2"
+msgstr ""
+
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:413
 #, kde-format
 msgid "Could not fetch screenshot for the entry %1 in backend %2"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:400
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:417
 #, kde-format
 msgid "Unhandled error in %1 backend. Contact your distributor."
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:410
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:427
 #, kde-format
 msgid "%1: %2"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:581
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:598
 #, kde-format
 msgid "Wrong KNewStuff URI: %1"
 msgstr ""
@@ -1521,31 +1530,31 @@ msgid "1 package to upgrade"
 msgid_plural "%1 packages to upgrade"
 msgstr[0] "Không thể tìm thấy gói"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:116
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:123
 #, kde-format
 msgid "Present"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:117
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:124
 #, kde-format
 msgid "Future"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:322
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:329
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Packages Could Not be Found"
 msgid "Packages to remove"
 msgstr "Không thể tìm thấy gói"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:322
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:329
 #, kde-format
 msgid ""
 "The following packages will be removed by the update:<ul><li>%1</li></ul><br/"
 ">in order to install:<ul><li>%2</li></ul>"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:424
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:431
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:282
 #, kde-format
 msgid ""
@@ -1553,13 +1562,13 @@ msgid ""
 "%2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:432
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:439
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:267
 #, kde-format
 msgid "Accept EULA"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:432
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:439
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:267
 #, kde-format
 msgid ""
@@ -1567,13 +1576,13 @@ msgid ""
 " %3"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:530
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:537
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:294
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:531
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:538
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:295
 #, kde-format
 msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-04 02:15+0200\n"
+"POT-Creation-Date: 2021-01-22 11:57+0100\n"
 "PO-Revision-Date: 2007-06-24 14:17+0930\n"
 "Last-Translator: Trần Thế Trung <tttrung@hotmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -27,47 +27,47 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tttrung@hotmail.com"
 
-#: bindings.cpp:33
+#: bindings.cpp:32
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
 msgstr "Chuyển sang Bố trí Bàn phím Tiếp theo"
 
-#: bindings.cpp:34
+#: bindings.cpp:33
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "Lặp lại bàn phím"
 
-#: bindings.cpp:41
+#: bindings.cpp:39
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgid "Keyboard Layout Switcher"
 msgstr "Lặp lại bàn phím"
 
-#: bindings.cpp:68
+#: bindings.cpp:64
 #, fuzzy, kde-format
 #| msgid "Switch to Next Keyboard Layout"
 msgid "Switch keyboard layout to %1"
 msgstr "Chuyển sang Bố trí Bàn phím Tiếp theo"
 
-#: flags.cpp:168
+#: flags.cpp:166
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:176
+#: flags.cpp:174
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:60
+#: kcm_add_layout_dialog.cpp:57
 #, kde-format
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
+#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:292
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -119,13 +119,13 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: kcm_keyboard.cpp:48
+#: kcm_keyboard.cpp:45
 #, fuzzy, kde-format
 #| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "Bộ Chuyển đổi Bố trí Bàn phím KDE"
 
-#: kcm_keyboard.cpp:50
+#: kcm_keyboard.cpp:49
 #, kde-format
 msgid "(c) 2010 Andriy Rysin"
 msgstr ""
@@ -378,65 +378,103 @@ msgstr ""
 msgid "&Configure keyboard options"
 msgstr "&Bật bố trí bàn phím"
 
-#: kcm_keyboard_widget.cpp:214
+#: kcm_keyboard_widget.cpp:199
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:216
+#: kcm_keyboard_widget.cpp:201
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:226
+#: kcm_keyboard_widget.cpp:212
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] ""
 
-#: kcm_keyboard_widget.cpp:606
+#: kcm_keyboard_widget.cpp:590
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Không có"
 
-#: kcm_keyboard_widget.cpp:622
+#: kcm_keyboard_widget.cpp:604
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr ""
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Layout"
 msgstr "Bố trí"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Variant"
 msgstr "Biến thế"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Label"
 msgstr "Nhãn"
 
-#: kcm_view_models.cpp:220
+#: kcm_view_models.cpp:215
 #, kde-format
 msgid "Shortcut"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcmmiscwidget.ui:31
+#, kde-format
+msgid "When a key is held:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, accentMenuRadioButton)
+#: kcmmiscwidget.ui:38
+#, kde-format
+msgid "&Show accented and similar characters "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, repeatRadioButton)
+#: kcmmiscwidget.ui:45
+#, kde-format
+msgid "&Repeat the key being held"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, nothingRadioButton)
+#: kcmmiscwidget.ui:52
+#, kde-format
+msgid "&Do nothing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmmiscwidget.ui:66
+#, kde-format
+msgid "Test area:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit)
+#: kcmmiscwidget.ui:73
+#, kde-format
+msgid ""
+"Allows to test keyboard repeat and click volume (just don't forget to apply "
+"the changes)."
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
-#: kcmmiscwidget.ui:17
+#: kcmmiscwidget.ui:82
 #, fuzzy, kde-format
 #| msgid ""
 #| "If supported, this option allows you to setup the state of NumLock after "
@@ -452,61 +490,40 @@ msgstr ""
 "tắt phím NumLock, hoặc cấu hình KDE không đặt tình trang NumLock."
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
-#: kcmmiscwidget.ui:20
+#: kcmmiscwidget.ui:85
 #, fuzzy, kde-format
 #| msgid "NumLock on KDE Startup"
 msgid "NumLock on Plasma Startup"
 msgstr "NumLock khi khởi chạy KDE"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
-#: kcmmiscwidget.ui:32 kcmmiscwidget.ui:71
+#: kcmmiscwidget.ui:97
 #, kde-format
 msgid "T&urn on"
 msgstr "&Bật"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
-#: kcmmiscwidget.ui:39
+#: kcmmiscwidget.ui:104
 #, fuzzy, kde-format
 #| msgid "Turn o&ff"
 msgid "&Turn off"
 msgstr "&Tắt"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton3)
-#: kcmmiscwidget.ui:46
+#: kcmmiscwidget.ui:111
 #, kde-format
 msgid "Leave unchan&ged"
 msgstr "Để lại khôn&g thay đổi"
 
-#. i18n: ectx: property (title), widget (QGroupBox, keyboardRepeatGroupBox)
-#: kcmmiscwidget.ui:59
-#, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
-msgid "Keyboard Repeat"
-msgstr "Lặp lại bàn phím"
-
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
-#: kcmmiscwidget.ui:78
+#. i18n: ectx: property (text), widget (QLabel, lblRate)
+#: kcmmiscwidget.ui:148
 #, kde-format
-msgid "Turn o&ff"
-msgstr "&Tắt"
-
-#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
-#: kcmmiscwidget.ui:85
-#, fuzzy, kde-format
-#| msgid "Leave unchan&ged"
-msgid "&Leave unchanged"
-msgstr "Để lại khôn&g thay đổi"
-
-#. i18n: ectx: property (text), widget (QLabel, lblDelay)
-#: kcmmiscwidget.ui:123
-#, kde-format
-msgid "&Delay:"
-msgstr "T&rễ:"
+msgid "&Rate:"
+msgstr "&Tỉ lệ:"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
-#: kcmmiscwidget.ui:133 kcmmiscwidget.ui:161
+#: kcmmiscwidget.ui:164 kcmmiscwidget.ui:202
 #, kde-format
 msgid ""
 "If supported, this option allows you to set the delay after which a pressed "
@@ -517,21 +534,9 @@ msgstr ""
 "đã bấm sẽ bắt đầu tạo ra các mã phím. Tuỳ chọn « Tỉ lệ lặp lại » thì điều "
 "khiển tần số của những mã phím này."
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
-#: kcmmiscwidget.ui:164
-#, kde-format
-msgid " ms"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblRate)
-#: kcmmiscwidget.ui:177
-#, kde-format
-msgid "&Rate:"
-msgstr "&Tỉ lệ:"
-
-#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
-#: kcmmiscwidget.ui:187 kcmmiscwidget.ui:215
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#: kcmmiscwidget.ui:192 kcmmiscwidget.ui:212
 #, kde-format
 msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
@@ -541,48 +546,69 @@ msgstr ""
 "khi một phím đã bấm."
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
-#: kcmmiscwidget.ui:218
+#: kcmmiscwidget.ui:195
 #, kde-format
 msgid " repeats/s"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kcmmiscwidget.ui:236
+#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
+#: kcmmiscwidget.ui:205
 #, kde-format
-msgid "Test area:"
+msgid " ms"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit)
-#: kcmmiscwidget.ui:243
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: kcmmiscwidget.ui:246
 #, kde-format
-msgid ""
-"Allows to test keyboard repeat and click volume (just don't forget to apply "
-"the changes)."
-msgstr ""
+msgid "&Delay:"
+msgstr "T&rễ:"
 
-#: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
+#: layout_tray_icon.cpp:43 layout_tray_icon.cpp:44
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "Lặp lại bàn phím"
 
-#: layouts_menu.cpp:135
+#: layouts_menu.cpp:131
 #, fuzzy, kde-format
 #| msgid "Active layouts:"
 msgid "Configure Layouts..."
 msgstr "Bố trí hoạt động:"
 
-#: tastenbrett/main.cpp:64
+#: tastenbrett/main.cpp:67
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "app display name"
 msgid "Keyboard Preview"
 msgstr "Lặp lại bàn phím"
 
-#: tastenbrett/main.cpp:66
+#: tastenbrett/main.cpp:69
 #, fuzzy, kde-format
 #| msgid "Keyboard Repeat"
 msgctxt "app description"
 msgid "Keyboard layout visualization"
 msgstr "Lặp lại bàn phím"
+
+#: tastenbrett/main.cpp:154
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Keyboard Repeat"
+#~ msgid "Keyboard Repeat"
+#~ msgstr "Lặp lại bàn phím"
+
+#~ msgid "Turn o&ff"
+#~ msgstr "&Tắt"
+
+#, fuzzy
+#~| msgid "Leave unchan&ged"
+#~ msgid "&Leave unchanged"
+#~ msgstr "Để lại khôn&g thay đổi"
