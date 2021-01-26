@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-19 02:16+0200\n"
+"POT-Creation-Date: 2021-01-26 02:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,17 +28,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: BitEntry.cpp:10
-#, kde-format
-msgid "OS Type:"
-msgstr ""
-
-#: BitEntry.cpp:18
-#, kde-format
-msgctxt "@label %1 is the CPU bit width (e.g. 32 or 64)"
-msgid "%1-bit"
-msgstr ""
-
 #: CPUEntry.cpp:20
 #, kde-format
 msgid "Processor:"
@@ -51,9 +40,20 @@ msgstr[1] ""
 msgid "Graphics Processor:"
 msgstr ""
 
+#: GraphicsPlatformEntry.cpp:10
+#, kde-format
+msgid "Graphics Platform:"
+msgstr ""
+
 #: KernelEntry.cpp:11
 #, kde-format
 msgid "Kernel Version:"
+msgstr ""
+
+#: KernelEntry.cpp:23
+#, kde-format
+msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
+msgid "%1 (%2-bit)"
 msgstr ""
 
 #: MemoryEntry.cpp:17

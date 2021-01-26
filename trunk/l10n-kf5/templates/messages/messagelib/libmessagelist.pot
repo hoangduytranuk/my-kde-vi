@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messagelib\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-25 02:37+0100\n"
+"POT-Creation-Date: 2021-01-26 02:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1015,43 +1015,43 @@ msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/widgetbase.cpp:374 messagelistutil.cpp:118
+#: core/widgetbase.cpp:380 messagelistutil.cpp:118
 #, kde-format
 msgid "Theme"
 msgstr ""
 
-#: core/widgetbase.cpp:396 core/widgetbase.cpp:489 utils/aggregationconfigbutton.cpp:33
+#: core/widgetbase.cpp:402 core/widgetbase.cpp:495 utils/aggregationconfigbutton.cpp:33
 #: utils/themeconfigbutton.cpp:49
 #, kde-format
 msgid "Configure..."
 msgstr ""
 
-#: core/widgetbase.cpp:467 messagelistutil.cpp:113
+#: core/widgetbase.cpp:473 messagelistutil.cpp:113
 #, kde-format
 msgid "Aggregation"
 msgstr ""
 
-#: core/widgetbase.cpp:552
+#: core/widgetbase.cpp:558
 #, kde-format
 msgid "Message Sort Order"
 msgstr ""
 
-#: core/widgetbase.cpp:575
+#: core/widgetbase.cpp:581
 #, kde-format
 msgid "Message Sort Direction"
 msgstr ""
 
-#: core/widgetbase.cpp:593
+#: core/widgetbase.cpp:599
 #, kde-format
 msgid "Group Sort Order"
 msgstr ""
 
-#: core/widgetbase.cpp:612
+#: core/widgetbase.cpp:618
 #, kde-format
 msgid "Group Sort Direction"
 msgstr ""
 
-#: core/widgetbase.cpp:628
+#: core/widgetbase.cpp:634
 #, kde-format
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
@@ -1205,6 +1205,11 @@ msgstr ""
 msgid "Clear History"
 msgstr ""
 
+#: core/widgets/tablockedwarning.cpp:17
+#, kde-format
+msgid "Current Tab is locked."
+msgstr ""
+
 #: messagelistutil.cpp:108
 #, kde-format
 msgid "Sorting"
@@ -1277,7 +1282,7 @@ msgstr ""
 msgid "Close Tab"
 msgstr ""
 
-#: pane.cpp:512 pane.cpp:783
+#: pane.cpp:512 pane.cpp:785
 #, kde-format
 msgctxt "@title:tab Empty messagelist"
 msgid "Empty"
@@ -1293,6 +1298,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
+msgstr ""
+
+#: pane.cpp:701
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unlock Tab"
 msgstr ""
 
 #: pane.cpp:701
