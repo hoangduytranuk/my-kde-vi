@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-27 03:01+0100\n"
+"POT-Creation-Date: 2021-02-03 03:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -692,12 +692,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2453
+#: core/rocketchataccount.cpp:2454
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2454
+#: core/rocketchataccount.cpp:2455
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1411,6 +1411,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, addServer)
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:55
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:136
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:91
+#: widgets/administratordialog/users/administratoruserswidget.cpp:118
 #: widgets/configuredialog/configureaccountserverwidget.ui:25
 #, kde-format
 msgid "Add..."
@@ -1419,6 +1421,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, modifyServer)
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:58
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:139
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:94
+#: widgets/administratordialog/users/administratoruserswidget.cpp:121
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
 #, kde-format
 msgid "Modify..."
@@ -1427,6 +1431,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, removeServer)
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:60
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:96
+#: widgets/administratordialog/users/administratoruserswidget.cpp:123
 #: widgets/configuredialog/configureaccountserverwidget.ui:39
 #, kde-format
 msgid "Remove"
@@ -1462,11 +1468,13 @@ msgid "Presence"
 msgstr ""
 
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:128
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:114
 #, kde-format
 msgid "Do you want to remove \"%1\"?"
 msgstr ""
 
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:128
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:114
 #, kde-format
 msgid "Remove Custom User Status"
 msgstr ""
@@ -1486,7 +1494,7 @@ msgstr ""
 msgid "Discussion"
 msgstr ""
 
-#: widgets/administratordialog/rooms/administratorroomswidget.cpp:46
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:48
 #, kde-format
 msgid "Search channel..."
 msgstr ""
@@ -1683,7 +1691,7 @@ msgstr ""
 msgid "Build Environment"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:43
+#: widgets/administratordialog/users/administratoruserswidget.cpp:47
 #, kde-format
 msgid "Search users..."
 msgstr ""
@@ -1813,7 +1821,7 @@ msgstr ""
 msgid "Search Users..."
 msgstr ""
 
-#: widgets/dialogs/asktwoauthenticationpassworddialog.cpp:30
+#: widgets/dialogs/asktwoauthenticationpassworddialog.cpp:31
 #: widgets/dialogs/channelinfodialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
@@ -1835,7 +1843,7 @@ msgstr ""
 msgid "Delete File"
 msgstr ""
 
-#: widgets/dialogs/autotranslateconfiguredialog.cpp:30
+#: widgets/dialogs/autotranslateconfiguredialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Auto-Translate"
@@ -1963,18 +1971,18 @@ msgstr ""
 msgid "Change Text"
 msgstr ""
 
-#: widgets/dialogs/channelpassworddialog.cpp:31
+#: widgets/dialogs/channelpassworddialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Password"
 msgstr ""
 
-#: widgets/dialogs/channelpasswordwidget.cpp:35
+#: widgets/dialogs/channelpasswordwidget.cpp:36
 #, kde-format
 msgid "Channel Password:"
 msgstr ""
 
-#: widgets/dialogs/configurenotificationdialog.cpp:30
+#: widgets/dialogs/configurenotificationdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Notification"
@@ -2027,13 +2035,13 @@ msgstr ""
 msgid "Mobile"
 msgstr ""
 
-#: widgets/dialogs/createdirectmessagesdialog.cpp:39
+#: widgets/dialogs/createdirectmessagesdialog.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Direct Messages"
 msgstr ""
 
-#: widgets/dialogs/createdirectmessageswidget.cpp:34
+#: widgets/dialogs/createdirectmessageswidget.cpp:35
 #, kde-format
 msgid ""
 "You are about to create a chat with multiple users. Add the ones you would "
@@ -2046,7 +2054,7 @@ msgstr ""
 msgid "Select Users..."
 msgstr ""
 
-#: widgets/dialogs/createnewaccountdialog.cpp:38
+#: widgets/dialogs/createnewaccountdialog.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Account"
@@ -2078,7 +2086,7 @@ msgstr ""
 msgid "User Name:"
 msgstr ""
 
-#: widgets/dialogs/createnewchanneldialog.cpp:36
+#: widgets/dialogs/createnewchanneldialog.cpp:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Channel"
@@ -2115,7 +2123,7 @@ msgstr ""
 msgid "Encrypted Room:"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussiondialog.cpp:37
+#: widgets/dialogs/createnewdiscussiondialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Discussion"
@@ -2147,13 +2155,13 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: widgets/dialogs/createvideomessagedialog.cpp:31
+#: widgets/dialogs/createvideomessagedialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Video Message"
 msgstr ""
 
-#: widgets/dialogs/directchannelinfodialog.cpp:30
+#: widgets/dialogs/directchannelinfodialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Users Info"
@@ -2213,12 +2221,19 @@ msgstr ""
 msgid "%1 [%2]"
 msgstr ""
 
-#: widgets/dialogs/discussion/listdiscussiondelegate.cpp:59
+#: widgets/dialogs/discussion/listdiscussiondelegate.cpp:54
+#, kde-format
+msgid "%1 message"
+msgid_plural "%1 messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/dialogs/discussion/listdiscussiondelegate.cpp:60
 #, kde-format
 msgid "Open Discussion"
 msgstr ""
 
-#: widgets/dialogs/inviteusersdialog.cpp:37
+#: widgets/dialogs/inviteusersdialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Invite Users"
@@ -2276,7 +2291,7 @@ msgstr ""
 msgid "No Limit"
 msgstr ""
 
-#: widgets/dialogs/modifystatusdialog.cpp:30
+#: widgets/dialogs/modifystatusdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Modify Status"
@@ -2287,13 +2302,13 @@ msgstr ""
 msgid "Message Status:"
 msgstr ""
 
-#: widgets/dialogs/playsounddialog.cpp:30
+#: widgets/dialogs/playsounddialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Play Sound"
 msgstr ""
 
-#: widgets/dialogs/reportmessagedialog.cpp:37
+#: widgets/dialogs/reportmessagedialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Report Message"
@@ -2314,7 +2329,7 @@ msgstr ""
 msgid "Join"
 msgstr ""
 
-#: widgets/dialogs/searchchanneldialog.cpp:37
+#: widgets/dialogs/searchchanneldialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Channel"
@@ -2326,7 +2341,7 @@ msgstr ""
 msgid "Search Channel..."
 msgstr ""
 
-#: widgets/dialogs/searchmessagedialog.cpp:37
+#: widgets/dialogs/searchmessagedialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Messages"
@@ -2359,7 +2374,7 @@ msgid_plural "%1 Messages in room"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/dialogs/serverinfodialog.cpp:30
+#: widgets/dialogs/serverinfodialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Server Info"
@@ -2407,7 +2422,7 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: widgets/dialogs/showattachmentdialog.cpp:40
+#: widgets/dialogs/showattachmentdialog.cpp:41
 #, kde-format
 msgctxt "@title:window"
 msgid "Show Attachments"
@@ -2439,7 +2454,7 @@ msgstr[1] ""
 msgid "(Click here for Loading more...)"
 msgstr ""
 
-#: widgets/dialogs/showdiscussionsdialog.cpp:41
+#: widgets/dialogs/showdiscussionsdialog.cpp:42
 #, kde-format
 msgctxt "@title:window"
 msgid "Show Discussions"
@@ -2462,7 +2477,7 @@ msgid_plural "%1 Discussions in room (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/dialogs/showimagedialog.cpp:37
+#: widgets/dialogs/showimagedialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Display Image"
@@ -2534,7 +2549,7 @@ msgstr ""
 msgid "Error: "
 msgstr ""
 
-#: widgets/dialogs/uploadfiledialog.cpp:37
+#: widgets/dialogs/uploadfiledialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Upload File"
@@ -2622,7 +2637,7 @@ msgid "A one-time password is required to complete the login procedure."
 msgstr ""
 
 #: widgets/misc/accountsoverviewwidget.cpp:193
-#: widgets/ruqolaloginwidget.cpp:193
+#: widgets/ruqolaloginwidget.cpp:194
 #, kde-format
 msgid "Login failed: Invalid OTP code."
 msgstr ""
@@ -2930,34 +2945,34 @@ msgstr ""
 msgid "Follow Message..."
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:126
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:131
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Attachment?"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:127
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:132
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Open attachment <filename>%1</filename>?<nl/>"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:131
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:136
 #, kde-format
 msgid "&Open With '%1'"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:134
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:139
 #, kde-format
 msgid "Open &With..."
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:135
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:140
 #, kde-format
 msgid "Save &As..."
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:173
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:190
 #, kde-format
 msgid "Save File"
 msgstr ""
@@ -3140,22 +3155,28 @@ msgstr ""
 msgid "Show List of Users"
 msgstr ""
 
-#: widgets/room/roomquotemessagewidget.cpp:52
+#: widgets/room/roomquotemessagewidget.cpp:36
+#: widgets/room/roomreplythreadwidget.cpp:38
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: widgets/room/roomquotemessagewidget.cpp:47
 #, kde-format
 msgid "Quote Message: '%1'"
 msgstr ""
 
-#: widgets/room/roomreplythreadwidget.cpp:35
+#: widgets/room/roomreplythreadwidget.cpp:36
 #, kde-format
 msgid "Replying in a thread"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:231
+#: widgets/room/roomwidget.cpp:237
 #, kde-format
 msgid "Do you want really remove history?"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:231
+#: widgets/room/roomwidget.cpp:237
 #, kde-format
 msgid "Remove History"
 msgstr ""
@@ -3276,29 +3297,29 @@ msgstr ""
 msgid "Use LDAP"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:86
-#, kde-format
-msgid "Login"
-msgstr ""
-
-#: widgets/ruqolaloginwidget.cpp:100
+#: widgets/ruqolaloginwidget.cpp:95
 #, kde-format
 msgid ""
 "You have enabled second factor authentication.\n"
 "Please enter the generated code or a backup code."
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:189
+#: widgets/ruqolaloginwidget.cpp:105
+#, kde-format
+msgid "Login"
+msgstr ""
+
+#: widgets/ruqolaloginwidget.cpp:190
 #, kde-format
 msgid "Login Failed: invalid username or password"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:203
+#: widgets/ruqolaloginwidget.cpp:204
 #, kde-format
 msgid "Installation Problem found. No plugins found here."
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:209
+#: widgets/ruqolaloginwidget.cpp:210
 #, kde-format
 msgid "Login Failed: generic error"
 msgstr ""
@@ -3382,7 +3403,7 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr ""
 
-#: widgets/threadwidget/threadmessagedialog.cpp:37
+#: widgets/threadwidget/threadmessagedialog.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Threads"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-27 03:08+0100\n"
+"POT-Creation-Date: 2021-02-03 03:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -365,7 +365,7 @@ msgstr ""
 
 #: src/commands/changepincommand.cpp:121 src/commands/createcsrforcardkeycommand.cpp:137
 #: src/commands/createopenpgpkeyfromcardkeyscommand.cpp:103
-#: src/view/netkeywidget.cpp:251 src/view/netkeywidget.cpp:301
+#: src/view/netkeywidget.cpp:259 src/view/netkeywidget.cpp:309
 #, kde-format
 msgid "Failed to find the smartcard with the serial number: %1"
 msgstr ""
@@ -3304,8 +3304,14 @@ msgstr ""
 msgid "Multiple certificates"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:196
-#: src/crypto/gui/certificatelineedit.cpp:200
+#: src/crypto/gui/certificatelineedit.cpp:190
+#: src/crypto/gui/certificatelineedit.cpp:194
+#, kde-format
+msgid "Click for details."
+msgstr ""
+
+#: src/crypto/gui/certificatelineedit.cpp:197
+#: src/crypto/gui/certificatelineedit.cpp:201
 #, kde-format
 msgid "No matching certificates found.<br/>Click here to import a certificate."
 msgstr ""
@@ -3786,40 +3792,40 @@ msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:111
+#: src/crypto/gui/signencryptwidget.cpp:112
 #, kde-format
 msgid "Prove authenticity (sign)"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:112
+#: src/crypto/gui/signencryptwidget.cpp:113
 #, kde-format
 msgid "Sign as:"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:131
-#: src/crypto/gui/signencryptwidget.cpp:455
+#: src/crypto/gui/signencryptwidget.cpp:132
+#: src/crypto/gui/signencryptwidget.cpp:463
 #, kde-format
 msgctxt "@action"
 msgid "Encrypt"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:137
+#: src/crypto/gui/signencryptwidget.cpp:138
 #, kde-format
 msgid "Encrypt for me:"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:143
+#: src/crypto/gui/signencryptwidget.cpp:144
 #, kde-format
 msgid "Encrypt for others:"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:172
+#: src/crypto/gui/signencryptwidget.cpp:173
 #, kde-format
 msgid ""
 "Encrypt with password. Anyone you share the password with can read the data."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:174
+#: src/crypto/gui/signencryptwidget.cpp:175
 #, kde-format
 msgctxt "Tooltip information for symetric encryption"
 msgid ""
@@ -3829,25 +3835,25 @@ msgid ""
 "Even if you pick a very strong password."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:453
+#: src/crypto/gui/signencryptwidget.cpp:461
 #, kde-format
 msgctxt "@action"
 msgid "Sign / Encrypt"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:457
+#: src/crypto/gui/signencryptwidget.cpp:465
 #, kde-format
 msgctxt "@action"
 msgid "Sign"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:603
+#: src/crypto/gui/signencryptwidget.cpp:611
 #, kde-format
 msgctxt "%1 is user input that could not be found"
 msgid "Could not find a key for '%1'"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:604
+#: src/crypto/gui/signencryptwidget.cpp:612
 #, kde-format
 msgid "Failed to find recipient"
 msgstr ""
@@ -4651,19 +4657,19 @@ msgstr ""
 msgid "<i>Only the fingerprint clearly identifies the key and its owner.</i>"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:88
+#: src/dialogs/deletecertificatesdialog.cpp:91
 #, kde-format
 msgid "These are the certificates you have selected for deletion:"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:90
+#: src/dialogs/deletecertificatesdialog.cpp:93
 #, kde-format
 msgid ""
 "These certificates will be deleted even though you did <b>not</b> explicitly "
 "select them (<a href=\"whatsthis://\">Why?</a>):"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:111
+#: src/dialogs/deletecertificatesdialog.cpp:114
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4677,13 +4683,13 @@ msgid ""
 "contents, too.</para>"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:123
+#: src/dialogs/deletecertificatesdialog.cpp:126
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
 msgstr ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:189
+#: src/dialogs/deletecertificatesdialog.cpp:192
 #, kde-format
 msgid ""
 "The certificate to be deleted is your own. It contains private key material, "
@@ -4696,7 +4702,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:203
+#: src/dialogs/deletecertificatesdialog.cpp:206
 #, kde-format
 msgid ""
 "One of the certificates to be deleted is your own. It contains private key "
@@ -4709,7 +4715,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/dialogs/deletecertificatesdialog.cpp:218
+#: src/dialogs/deletecertificatesdialog.cpp:221
 #: src/view/pgpcardwidget.cpp:379
 #, kde-format
 msgid "Secret Key Deletion"
@@ -4827,6 +4833,12 @@ msgstr ""
 msgid ""
 "You will be asked for a passphrase to protect that file during key "
 "generation."
+msgstr ""
+
+#: src/dialogs/groupdetailsdialog.cpp:122
+#, kde-format
+msgctxt "@title:window"
+msgid "Group Details"
 msgstr ""
 
 #: src/dialogs/lookupcertificatesdialog.cpp:107
@@ -5762,37 +5774,37 @@ msgstr ""
 msgid "String or Fingerprint for query and search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:237
+#: src/kleopatraapplication.cpp:238
 #, kde-format
 msgid "Failed to execute command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:280
+#: src/kleopatraapplication.cpp:281
 #, kde-format
 msgid "Ambiguous protocol: --openpgp and --cms"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:314
+#: src/kleopatraapplication.cpp:315
 #, kde-format
 msgid "No search string specified for --search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:325
+#: src/kleopatraapplication.cpp:326
 #, kde-format
 msgid "No fingerprint argument specified for --query"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:365
+#: src/kleopatraapplication.cpp:366
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:372
+#: src/kleopatraapplication.cpp:373
 #, kde-format
 msgid "No files specified for \"%1\" command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:386
+#: src/kleopatraapplication.cpp:387
 #, kde-format
 msgid "Cannot read \"%1\""
 msgstr ""
@@ -7811,99 +7823,99 @@ msgstr ""
 msgid "View Columns"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:77 src/view/pgpcardwidget.cpp:143
+#: src/view/netkeywidget.cpp:80 src/view/pgpcardwidget.cpp:143
 #: src/view/pivcardwidget.cpp:110
 #, kde-format
 msgid "Serial number:"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:88
+#: src/view/netkeywidget.cpp:91
 #, kde-format
 msgid "Certificates:"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:90
+#: src/view/netkeywidget.cpp:93
 #, kde-format
 msgid "There are unknown certificates on this card."
 msgstr ""
 
-#: src/view/netkeywidget.cpp:91
+#: src/view/netkeywidget.cpp:94
 #, kde-format
 msgctxt "@action"
 msgid "Load Certificates"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:139 src/view/pgpcardwidget.cpp:195
+#: src/view/netkeywidget.cpp:142 src/view/pgpcardwidget.cpp:195
 #, kde-format
 msgid "Actions:"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:145 src/view/pivcardwidget.cpp:135
+#: src/view/netkeywidget.cpp:148 src/view/pivcardwidget.cpp:135
 #, kde-format
 msgctxt "@action:button"
 msgid "Create OpenPGP Key"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:146 src/view/pivcardwidget.cpp:136
+#: src/view/netkeywidget.cpp:149 src/view/pivcardwidget.cpp:136
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Create an OpenPGP key for the keys stored on the card."
 msgstr ""
 
-#: src/view/netkeywidget.cpp:153 src/view/pgpcardwidget.cpp:253
+#: src/view/netkeywidget.cpp:156 src/view/pgpcardwidget.cpp:253
 #: src/view/pivcardwidget.cpp:184
 #, kde-format
 msgctxt "@action:button"
 msgid "Create CSR"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:154
+#: src/view/netkeywidget.cpp:157
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Create a certificate signing request for a key stored on the card."
 msgstr ""
 
-#: src/view/netkeywidget.cpp:160
+#: src/view/netkeywidget.cpp:163
 #, kde-format
 msgctxt "NKS is an identifier for a type of keys on a NetKey card"
 msgid "Change NKS PIN"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:161 src/view/netkeywidget.cpp:219
+#: src/view/netkeywidget.cpp:164 src/view/netkeywidget.cpp:227
 #, kde-format
 msgctxt "SigG is an identifier for a type of keys on a NetKey card"
 msgid "Change SigG PIN"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:202
+#: src/view/netkeywidget.cpp:210
 #, kde-format
 msgctxt "1 is a Version number"
 msgid "NetKey v%1 Card"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:216 src/view/nullpinwidget.cpp:42
+#: src/view/netkeywidget.cpp:224 src/view/nullpinwidget.cpp:42
 #, kde-format
 msgctxt "SigG is an identifier for a type of keys on a NetKey card"
 msgid "Set SigG PIN"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:229
+#: src/view/netkeywidget.cpp:237
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:290
+#: src/view/netkeywidget.cpp:298
 #, kde-format
 msgid "Select Key"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:291
+#: src/view/netkeywidget.cpp:299
 #, kde-format
 msgid ""
 "Please select the key you want to create a certificate signing request for:"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:307
+#: src/view/netkeywidget.cpp:315
 #, kde-format
 msgid ""
 "Sorry! No keys suitable for creating a certificate signing request found on "

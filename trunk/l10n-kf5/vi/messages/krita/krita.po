@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-28 02:27+0100\n"
+"POT-Creation-Date: 2021-02-03 02:59+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hieu Duc Hoang <hieu.d.hoang@gmail.com>\n"
 "Language-Team: vietnamese <vi@i18n.kde.org>\n"
@@ -2613,9 +2613,9 @@ msgctxt "action"
 msgid "Select Shapes Tool"
 msgstr "Chọn các màu tương tự"
 
-#. i18n: context: Action, Actions (tool-shortcuts), ActionCollection (Krita)
+#. i18n: context: Action (KritaSelected/KisToolColorSampler), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (svg_sample_color), Actions (Text Tool), ActionCollection (SVG Tools)
-#. i18n: context: Action, Actions (tool-shortcuts), ActionCollection (Krita)
+#. i18n: context: Action (KritaSelected/KisToolColorSampler), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (svg_sample_color), Actions (Text Tool), ActionCollection (SVG Tools)
 #: krita/krita.action:1407 plugins/tools/svgtexttool/SvgTextTool.action:253
 #, fuzzy, kde-format
@@ -2624,7 +2624,7 @@ msgctxt "action"
 msgid "Color Sampler"
 msgstr "Không gian màu:"
 
-#. i18n: context: Action, Actions (tool-shortcuts), ActionCollection (Krita)
+#. i18n: context: Action (KritaSelected/KisToolColorSampler), Actions (tool-shortcuts), ActionCollection (Krita)
 #: krita/krita.action:1409
 #, fuzzy, kde-format
 msgctxt "action"
@@ -7688,7 +7688,7 @@ msgid "Cannot save %1 to html"
 msgstr ""
 
 #: libs/flake/KoMarkerCollection.cpp:68
-#: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:125
+#: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:126
 #: libs/ui/flake/kis_shape_layer.cc:545
 #, kde-format
 msgid ""
@@ -8238,7 +8238,7 @@ msgstr "Bỏ chọn"
 
 #: libs/image/commands/kis_image_layer_add_command.cpp:20
 #: libs/image/commands/kis_image_layer_add_command.cpp:36
-#: libs/ui/kis_layer_manager.cc:665 libs/ui/kis_layer_manager.cc:717
+#: libs/ui/kis_layer_manager.cc:597 libs/ui/kis_layer_manager.cc:649
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Layer"
@@ -8430,31 +8430,31 @@ msgstr "Làm mờ kiểu Gauss"
 msgid "Copy From"
 msgstr "xanh nước biển"
 
-#: libs/image/kis_filter_strategy.h:59
+#: libs/image/kis_filter_strategy.h:60
 #, fuzzy, kde-format
 msgid "Hermite"
 msgstr "Chiều cao"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
-#: libs/image/kis_filter_strategy.h:71
+#: libs/image/kis_filter_strategy.h:72
 #: libs/ui/widgets/KoFillConfigWidget.ui:421
 #, kde-format
 msgid "Bicubic"
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:77
+#: libs/image/kis_filter_strategy.h:78
 #, kde-format
 msgid ""
 "Adds pixels using the color of surrounding pixels. Produces smoother tonal "
 "gradations than Bilinear."
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:85
+#: libs/image/kis_filter_strategy.h:86
 #, kde-format
 msgid "Nearest Neighbor"
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:93
+#: libs/image/kis_filter_strategy.h:94
 #, kde-format
 msgid ""
 "Replicate pixels in the image. Preserves all the original detail, but can "
@@ -8462,14 +8462,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
-#: libs/image/kis_filter_strategy.h:107
+#: libs/image/kis_filter_strategy.h:108
 #: libs/ui/canvas/kis_canvas_controller.cpp:282
 #: libs/ui/widgets/KoFillConfigWidget.ui:416
 #, fuzzy, kde-format
 msgid "Bilinear"
 msgstr "Tuyến tính"
 
-#: libs/image/kis_filter_strategy.h:113
+#: libs/image/kis_filter_strategy.h:114
 #, kde-format
 msgid ""
 "Adds pixels averaging the color values of surrounding pixels. Produces "
@@ -8477,29 +8477,29 @@ msgid ""
 "original size."
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:123
+#: libs/image/kis_filter_strategy.h:124
 #, kde-format
 msgid "Bell"
 msgstr "Chuông"
 
-#: libs/image/kis_filter_strategy.h:134
+#: libs/image/kis_filter_strategy.h:135
 #, fuzzy, kde-format
 msgid "BSpline"
 msgstr "Hình sin"
 
-#: libs/image/kis_filter_strategy.h:145
+#: libs/image/kis_filter_strategy.h:146
 #, kde-format
 msgid "Lanczos3"
 msgstr "Lanczos3"
 
-#: libs/image/kis_filter_strategy.h:151
+#: libs/image/kis_filter_strategy.h:152
 #, kde-format
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
 msgstr ""
 
-#: libs/image/kis_filter_strategy.h:162
+#: libs/image/kis_filter_strategy.h:163
 #, kde-format
 msgid "Mitchell"
 msgstr "Mitchell"
@@ -8516,7 +8516,7 @@ msgstr ""
 msgid "Imported Image"
 msgstr "Nhập ảnh"
 
-#: libs/image/kis_image.cc:609 libs/image/kis_layer_utils.cpp:1629
+#: libs/image/kis_image.cc:609 libs/image/kis_layer_utils.cpp:1805
 #: libs/impex/KisExportCheckRegistry.cpp:108
 #, fuzzy, kde-format
 msgid "Selection Mask"
@@ -8527,7 +8527,7 @@ msgstr "Không có phần chọn"
 msgid "background"
 msgstr "nền"
 
-#: libs/image/kis_image.cc:673 libs/ui/kis_layer_manager.cc:608
+#: libs/image/kis_image.cc:673 libs/ui/kis_layer_manager.cc:540
 #, fuzzy, kde-format
 msgid "Paint Layer"
 msgstr "Layer"
@@ -8767,7 +8767,7 @@ msgid "Onion Skins"
 msgstr "&Bó buộc tỉ lệ"
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:126
+#: libs/resources/KisResourceModel.cpp:125
 #: libs/resources/KisStorageModel.cpp:285
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:73
 #, fuzzy, kde-format
@@ -8802,70 +8802,76 @@ msgstr "Trình chọn màu nhỏ"
 msgid "Open File"
 msgstr "Mở bảng màu"
 
-#: libs/image/kis_layer_utils.cpp:428
+#: libs/image/kis_layer_utils.cpp:572
 #, fuzzy, kde-format
 msgid "Merged"
 msgstr "xanh da trời"
 
-#: libs/image/kis_layer_utils.cpp:1135
+#: libs/image/kis_layer_utils.cpp:1311
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr "tuỳ chọn"
 
-#: libs/image/kis_layer_utils.cpp:1359
+#: libs/image/kis_layer_utils.cpp:1535
 #, fuzzy, kde-format
 msgid "Copy of"
 msgstr "xanh nước biển"
 
-#: libs/image/kis_layer_utils.cpp:1432
+#: libs/image/kis_layer_utils.cpp:1608
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change projection color"
 msgstr "Thay đổi Liên hệ"
 
-#: libs/image/kis_layer_utils.cpp:1592
+#: libs/image/kis_layer_utils.cpp:1768
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Xoá Màu được chọn"
 
-#: libs/image/kis_layer_utils.cpp:1600
+#: libs/image/kis_layer_utils.cpp:1776
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "New From Visible"
 msgstr "Tên:"
 
-#: libs/image/kis_layer_utils.cpp:1600
+#: libs/image/kis_layer_utils.cpp:1776
 #, fuzzy, kde-format
 #| msgid "Visible"
 msgctxt "New layer created from all the visible layers"
 msgid "Visible"
 msgstr "Nhìn thấy"
 
-#: libs/image/kis_layer_utils.cpp:1678
+#: libs/image/kis_layer_utils.cpp:1854
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "Phóng Phần chọn"
 
-#: libs/image/kis_layer_utils.cpp:1701
+#: libs/image/kis_layer_utils.cpp:1877
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Làm phẳng ảnh"
 
-#: libs/image/kis_layer_utils.cpp:1714
+#: libs/image/kis_layer_utils.cpp:1890
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr "Làm phẳng ảnh"
 
-#: libs/image/kis_layer_utils.cpp:1901
+#: libs/image/kis_layer_utils.cpp:2077
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr "Cấu hình Alpha"
+
+#: libs/image/kis_layer_utils.cpp:2103
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a Paint Layer"
+msgstr "Chuyển đổi lớp hiện tại từ"
 
 #: libs/image/kis_processing_visitor.cpp:22
 #, fuzzy, kde-format
@@ -8873,9 +8879,9 @@ msgid "Processing"
 msgstr "Hậu xử lí"
 
 #: libs/image/kis_psd_layer_style.cpp:91
-#: libs/ui/KisApplicationArguments.cpp:336 libs/ui/KisMainWindow.cpp:1365
-#: libs/ui/KisMainWindow.cpp:1632 libs/ui/KisMainWindow.cpp:1651
-#: plugins/impex/libkra/kis_kra_saver.cpp:81
+#: libs/ui/KisApplicationArguments.cpp:336 libs/ui/KisMainWindow.cpp:1371
+#: libs/ui/KisMainWindow.cpp:1638 libs/ui/KisMainWindow.cpp:1657
+#: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr "Không có tên"
@@ -9251,13 +9257,13 @@ msgid ""
 "The image contains <b>Exif</b> metadata. The metadata will not be saved."
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:88 libs/ui/kis_layer_manager.cc:637
+#: libs/impex/KisExportCheckRegistry.cpp:88 libs/ui/kis_layer_manager.cc:569
 #, fuzzy, kde-format
 msgid "Clone Layer"
 msgstr "Lớp &lặp lại"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/impex/KisExportCheckRegistry.cpp:90 libs/ui/kis_layer_manager.cc:621
+#: libs/impex/KisExportCheckRegistry.cpp:90 libs/ui/kis_layer_manager.cc:553
 #: libs/ui/kis_node_manager.cpp:1500 libs/ui/KisPaletteEditor.cpp:408
 #: libs/widgets/kis_palette_view.cpp:113
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:254
@@ -9266,18 +9272,18 @@ msgstr "Lớp &lặp lại"
 msgid "Group"
 msgstr "Nhóm:"
 
-#: libs/impex/KisExportCheckRegistry.cpp:92 libs/ui/kis_layer_manager.cc:950
+#: libs/impex/KisExportCheckRegistry.cpp:92 libs/ui/kis_layer_manager.cc:882
 #, fuzzy, kde-format
 msgid "File Layer"
 msgstr "Lớp &lặp lại"
 
-#: libs/impex/KisExportCheckRegistry.cpp:94 libs/ui/kis_layer_manager.cc:650
+#: libs/impex/KisExportCheckRegistry.cpp:94 libs/ui/kis_layer_manager.cc:582
 #: plugins/impex/svg/kis_svg_import.cc:79
 #, fuzzy, kde-format
 msgid "Vector Layer"
 msgstr "Trộn Layer"
 
-#: libs/impex/KisExportCheckRegistry.cpp:96 libs/ui/kis_layer_manager.cc:672
+#: libs/impex/KisExportCheckRegistry.cpp:96 libs/ui/kis_layer_manager.cc:604
 #, fuzzy, kde-format
 msgid "Filter Layer"
 msgstr "Tạo layer mới"
@@ -9536,7 +9542,7 @@ msgctxt "description of a file type"
 msgid "SeExpr script package"
 msgstr ""
 
-#: libs/libkis/Document.cpp:906 libs/ui/KisMainWindow.cpp:1926
+#: libs/libkis/Document.cpp:910 libs/ui/KisMainWindow.cpp:1932
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Nhập ảnh"
@@ -11584,7 +11590,7 @@ msgstr "không tên-1"
 msgid "SVG Gradient"
 msgstr "Đổ dốc màu"
 
-#: libs/resources/KisFolderStorage.cpp:229
+#: libs/resources/KisFolderStorage.cpp:186
 #, fuzzy, kde-format
 msgid "Local Resources"
 msgstr "Gỡ bỏ Layer"
@@ -11602,16 +11608,16 @@ msgstr "Gỡ bỏ Layer"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:523
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_filter_manager.cc:235
 #: libs/ui/kis_filter_manager.cc:244 libs/ui/kis_layer_manager.cc:302
-#: libs/ui/kis_layer_manager.cc:958 libs/ui/kis_node_manager.cpp:1215
+#: libs/ui/kis_layer_manager.cc:890 libs/ui/kis_node_manager.cpp:1215
 #: libs/ui/kis_node_manager.cpp:1278 libs/ui/KisApplication.cpp:898
 #: libs/ui/KisApplication.cpp:901 libs/ui/KisApplication.cpp:926
 #: libs/ui/KisApplication.cpp:958 libs/ui/KisApplication.cpp:972
 #: libs/ui/KisApplication.cpp:1000 libs/ui/KisDocument.cpp:796
 #: libs/ui/KisDocument.cpp:1571 libs/ui/KisDocument.cpp:1613
-#: libs/ui/KisDocument.cpp:1621 libs/ui/KisMainWindow.cpp:863
-#: libs/ui/KisMainWindow.cpp:1020 libs/ui/KisMainWindow.cpp:1145
-#: libs/ui/KisMainWindow.cpp:1158 libs/ui/KisMainWindow.cpp:1253
-#: libs/ui/KisMainWindow.cpp:1933 libs/ui/KisPart.cpp:537
+#: libs/ui/KisDocument.cpp:1621 libs/ui/KisMainWindow.cpp:869
+#: libs/ui/KisMainWindow.cpp:1026 libs/ui/KisMainWindow.cpp:1151
+#: libs/ui/KisMainWindow.cpp:1164 libs/ui/KisMainWindow.cpp:1259
+#: libs/ui/KisMainWindow.cpp:1939 libs/ui/KisPart.cpp:537
 #: libs/ui/KisPart.cpp:540 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:703
@@ -11631,8 +11637,8 @@ msgstr "Gỡ bỏ Layer"
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:365
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #: plugins/extensions/imagesplit/imagesplit.cpp:76
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:149
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:220
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:137
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:208
 #: plugins/extensions/qmic/QMic.cpp:52 plugins/extensions/qmic/QMic.cpp:78
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:284
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:217
@@ -11671,73 +11677,73 @@ msgstr "Không thể tạo tệp để lưu"
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:415
+#: libs/resources/KisResourceLocator.cpp:435
 #, fuzzy, kde-format
 msgid "Could not add %1 to the database"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/resources/KisResourceLocator.cpp:431
+#: libs/resources/KisResourceLocator.cpp:451
 #, fuzzy, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/resources/KisResourceLocator.cpp:446
+#: libs/resources/KisResourceLocator.cpp:466
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:453
+#: libs/resources/KisResourceLocator.cpp:473
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "3. Could not create the resource location at %1."
 msgstr "Không thể tạo tệp để lưu"
 
-#: libs/resources/KisResourceLocator.cpp:466
-#: libs/resources/KisResourceLocator.cpp:482
+#: libs/resources/KisResourceLocator.cpp:486
+#: libs/resources/KisResourceLocator.cpp:502
 #, fuzzy, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/resources/KisResourceLocator.cpp:478
+#: libs/resources/KisResourceLocator.cpp:498
 #, fuzzy, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "Cấu hình mới %1"
 
-#: libs/resources/KisResourceLocator.cpp:500
+#: libs/resources/KisResourceLocator.cpp:520
 #, fuzzy, kde-format
 msgid "Initializing the resources."
 msgstr "&Tài nguyên"
 
-#: libs/resources/KisResourceLocator.cpp:514
+#: libs/resources/KisResourceLocator.cpp:534
 #, kde-format
 msgid "Could not add storage %1 to the cache database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:534
+#: libs/resources/KisResourceLocator.cpp:555
 #, fuzzy, kde-format
 msgid "Temporary Resources"
 msgstr "Nhập Tài liệu"
 
-#: libs/resources/KisResourceLocator.cpp:646
+#: libs/resources/KisResourceLocator.cpp:667
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not synchronize %1 with the database"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/resources/KisResourceModel.cpp:108
+#: libs/resources/KisResourceModel.cpp:107
 #: libs/resources/KisStorageModel.cpp:275
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:67
 #, kde-format
 msgid "Id"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:110
+#: libs/resources/KisResourceModel.cpp:109
 #, kde-format
 msgid "Storage ID"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:112
+#: libs/resources/KisResourceModel.cpp:111
 #: libs/resources/KisStorageModel.cpp:289
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:71
 #: libs/ui/KisPaletteEditor.cpp:204 libs/ui/KisPaletteEditor.cpp:410
@@ -11749,20 +11755,20 @@ msgstr ""
 msgid "Name"
 msgstr "Tên:"
 
-#: libs/resources/KisResourceModel.cpp:114
+#: libs/resources/KisResourceModel.cpp:113
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "File Name"
 msgstr "Tên tệp"
 
-#: libs/resources/KisResourceModel.cpp:116
+#: libs/resources/KisResourceModel.cpp:115
 #, fuzzy, kde-format
 msgid "Tooltip"
 msgstr "&Công cụ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:118
+#: libs/resources/KisResourceModel.cpp:117
 #: plugins/extensions/imagesize/imagesize.xmlgui:4
 #: plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
@@ -11773,12 +11779,12 @@ msgstr "&Công cụ"
 msgid "Image"
 msgstr "Ảnh"
 
-#: libs/resources/KisResourceModel.cpp:120
+#: libs/resources/KisResourceModel.cpp:119
 #, fuzzy, kde-format
 msgid "Status"
 msgstr "Hiện lớp gốc"
 
-#: libs/resources/KisResourceModel.cpp:122
+#: libs/resources/KisResourceModel.cpp:121
 #: libs/resources/KisStorageModel.cpp:279
 #, fuzzy, kde-format
 #| msgid "Rotation"
@@ -11786,13 +11792,13 @@ msgid "Location"
 msgstr "Xoay"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:124
+#: libs/resources/KisResourceModel.cpp:123
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, fuzzy, kde-format
 msgid "Resource Type"
 msgstr "&Tài nguyên"
 
-#: libs/resources/KisResourceModel.cpp:128
+#: libs/resources/KisResourceModel.cpp:127
 #, fuzzy, kde-format
 #| msgid "For images"
 msgid "Storage Active"
@@ -11804,7 +11810,7 @@ msgstr "Cho ảnh"
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: libs/resources/KisResourceStorage.h:116
+#: libs/resources/KisResourceStorage.h:126
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1356
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1360
 #: libs/ui/forms/wdgdisplaysettings.ui:172 libs/ui/KoDocumentInfo.cpp:39
@@ -11819,32 +11825,32 @@ msgstr "Cho ảnh"
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: libs/resources/KisResourceStorage.h:118
+#: libs/resources/KisResourceStorage.h:128
 #, fuzzy, kde-format
 msgid "Folder"
 msgstr "Gỡ bỏ Layer"
 
-#: libs/resources/KisResourceStorage.h:120
+#: libs/resources/KisResourceStorage.h:130
 #, fuzzy, kde-format
 msgid "Bundle"
 msgstr "Tên lớp:"
 
-#: libs/resources/KisResourceStorage.h:122
+#: libs/resources/KisResourceStorage.h:132
 #, kde-format
 msgid "Adobe Brush Library"
 msgstr ""
 
-#: libs/resources/KisResourceStorage.h:124
+#: libs/resources/KisResourceStorage.h:134
 #, fuzzy, kde-format
 msgid "Adobe Style Library"
 msgstr "Không có tuỳ chọn nào."
 
-#: libs/resources/KisResourceStorage.h:126
+#: libs/resources/KisResourceStorage.h:136
 #, fuzzy, kde-format
 msgid "Memory"
 msgstr "Nhập các điểm"
 
-#: libs/resources/KisResourceStorage.h:128
+#: libs/resources/KisResourceStorage.h:138
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:47
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:351
 #, fuzzy, kde-format
@@ -12045,25 +12051,25 @@ msgstr "&Tài nguyên"
 msgid "Tag:"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:153
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:152
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr "Nhập Tài liệu"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:160
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:159
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "Xoá"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:180
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:179
 #, fuzzy, kde-format
 msgid "Storage Resources"
 msgstr "&Tài nguyên"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:216
-#: libs/ui/KisMainWindow.cpp:2343
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:215
+#: libs/ui/KisMainWindow.cpp:2349
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -12285,7 +12291,7 @@ msgid "Failed to render animation frames!"
 msgstr "Tạo layer mới"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:51
-#: libs/ui/KisMainWindow.cpp:1951
+#: libs/ui/KisMainWindow.cpp:1957
 #, fuzzy, kde-format
 msgid "Render Animation"
 msgstr "Định hướng"
@@ -13494,7 +13500,7 @@ msgid "Numerical"
 msgstr "Dọc"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:124
-#: libs/ui/KisMainWindow.cpp:1122
+#: libs/ui/KisMainWindow.cpp:1128
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "Nhập ảnh"
@@ -13597,7 +13603,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "Nhập tên nhóm:"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2366
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:269 libs/ui/KisMainWindow.cpp:2372
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:360
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
@@ -14312,20 +14318,20 @@ msgid "Session name:"
 msgstr "Chế độ chọn:"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:89
-#: libs/ui/KisMainWindow.cpp:2372 libs/ui/widgets/kis_gradient_chooser.cc:527
+#: libs/ui/KisMainWindow.cpp:2378 libs/ui/widgets/kis_gradient_chooser.cc:523
 #: libs/ui/widgets/KoFillConfigWidget.cpp:651
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:366
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:200
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:202
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:90
-#: libs/ui/KisMainWindow.cpp:2373 libs/ui/widgets/kis_gradient_chooser.cc:528
+#: libs/ui/KisMainWindow.cpp:2379 libs/ui/widgets/kis_gradient_chooser.cc:524
 #: libs/ui/widgets/KoFillConfigWidget.cpp:652
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:367
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:201
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:203
 #, fuzzy, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
 msgstr ""
@@ -14441,7 +14447,7 @@ msgstr ""
 #: libs/ui/forms/KisWelcomePage.ui:769
 #, fuzzy, kde-format
 #| msgid "Image Size"
-msgid "Drag Image in window to open"
+msgid "Drag an image into the window to open"
 msgstr "Cỡ Ảnh "
 
 #. i18n: ectx: property (text), widget (QLabel, startTitleLabel)
@@ -14487,8 +14493,8 @@ msgstr "Xoá"
 #: libs/ui/forms/KisWelcomePage.ui:1276
 #, kde-format
 msgid ""
-"You don't seem to have\n"
-" any opened document"
+"You don't seem to have any\n"
+" recently opened documents"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, newsTitleLabel)
@@ -14528,7 +14534,7 @@ msgstr "&Hiện"
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
 "decoration: underline;\">enable news</a> from krita.org in various languages "
-"in the menu above"
+"with the menu above"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
@@ -14685,7 +14691,7 @@ msgstr "Tựa đề:"
 #. i18n: ectx: property (text), widget (QLabel, labelTranslation)
 #: libs/ui/forms/koDocumentInfoAuthorWidget.ui:106
 #: libs/widgets/KoConfigAuthorPage.ui:65
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:180
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:174
 #, kde-format
 msgid "Position:"
 msgstr "Vị trí:"
@@ -14876,7 +14882,7 @@ msgstr "Đo màu tuyệt đối"
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #: libs/ui/forms/wdgautogradient.ui:29 libs/ui/forms/wdgnewwindowlayout.ui:30
 #: libs/ui/forms/wdgstopgradienteditor.ui:23
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:193
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:195
 #: plugins/extensions/pykrita/plugin/info.ui:217
 #: plugins/impex/brush/wdg_export_gih.ui:41
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:117
@@ -16284,7 +16290,7 @@ msgstr "&Xoay"
 #: plugins/paintops/gridbrush/wdggridoptions.ui:88
 #: plugins/paintops/hairy/wdgbristleoptions.ui:134
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:82
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
 #: plugins/paintops/spray/wdgsprayoptions.ui:112
 #: plugins/tools/basictools/kis_tool_fill.cc:260
 #, fuzzy, kde-format
@@ -16486,45 +16492,45 @@ msgid "Blending mode:"
 msgstr "Chế độ chân dung"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorSpaceTitle)
-#: libs/ui/forms/wdglayerproperties.ui:106
+#: libs/ui/forms/wdglayerproperties.ui:109
 #, kde-format
 msgid "Color space:"
 msgstr "Không gian màu:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfileTitle)
-#: libs/ui/forms/wdglayerproperties.ui:135
+#: libs/ui/forms/wdglayerproperties.ui:138
 #, fuzzy, kde-format
 msgctxt "Label of ICC Color Profile in Layer Properties dialogue"
 msgid "Profile:"
 msgstr "Phần trăm:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorLabel)
-#: libs/ui/forms/wdglayerproperties.ui:164
+#: libs/ui/forms/wdglayerproperties.ui:167
 #, fuzzy, kde-format
 msgid "Color label:"
 msgstr "Không gian màu:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDimensionsTitle)
-#: libs/ui/forms/wdglayerproperties.ui:190
+#: libs/ui/forms/wdglayerproperties.ui:196
 #, fuzzy, kde-format
 msgctxt "Label of Dimensions as in Layer Position"
 msgid "Dimensions:"
 msgstr "&Kích thước bằng điểm ảnh"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpProperties)
-#: libs/ui/forms/wdglayerproperties.ui:238
+#: libs/ui/forms/wdglayerproperties.ui:244
 #, fuzzy, kde-format
 msgid "Properties"
 msgstr "Tính chất:"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, grpActiveChannels)
-#: libs/ui/forms/wdglayerproperties.ui:252
+#: libs/ui/forms/wdglayerproperties.ui:258
 #, fuzzy, kde-format
 msgid "Select the set of active channels."
 msgstr "Chế độ chân dung"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, grpActiveChannels)
-#: libs/ui/forms/wdglayerproperties.ui:255
+#: libs/ui/forms/wdglayerproperties.ui:261
 #, kde-format
 msgid ""
 "Select the set of active channels. Only active channels will be visible, "
@@ -16532,7 +16538,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpActiveChannels)
-#: libs/ui/forms/wdglayerproperties.ui:258
+#: libs/ui/forms/wdglayerproperties.ui:264
 #, fuzzy, kde-format
 msgid "&Active Channels"
 msgstr "Kênh"
@@ -16718,7 +16724,7 @@ msgstr "Màu Nền"
 #. i18n: ectx: property (text), widget (QLabel, mLabelBackground)
 #: libs/ui/forms/wdgnewimage.ui:491
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:175
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:400
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:394
 #, fuzzy, kde-format
 msgid "Background:"
 msgstr "nền"
@@ -16812,7 +16818,7 @@ msgid "path"
 msgstr "Đường"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
-#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:447
+#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:441
 #, fuzzy, kde-format
 msgid "Brush Editor"
 msgstr "Cỡ chổi"
@@ -16827,14 +16833,14 @@ msgstr "sửa định sẵn"
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/forms/wdgsavebrushpreset.ui:219 libs/ui/KisMainWindow.cpp:999
+#: libs/ui/forms/wdgsavebrushpreset.ui:219 libs/ui/KisMainWindow.cpp:1005
 #: libs/ui/widgets/kis_workspace_chooser.cpp:110
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:49
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:45
 #: plugins/generators/seexpr/wdgseexpr.ui:172
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:149
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:136
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:154
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:134
 #: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, fuzzy, kde-format
 msgid "Save"
@@ -16872,67 +16878,67 @@ msgid "Engine:"
 msgstr "Khoảng màu"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushSizeCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:658
+#: libs/ui/forms/wdgpaintopsettings.ui:652
 #, kde-format
 msgid "Erase mode will use a separate brush size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushSizeCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:661
+#: libs/ui/forms/wdgpaintopsettings.ui:655
 #, fuzzy, kde-format
 msgid "Eraser switch size"
 msgstr "Độ đậm đặc của hình xem trước:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushOpacityCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:677
+#: libs/ui/forms/wdgpaintopsettings.ui:671
 #, kde-format
 msgid "Erase mode will use a separate brush opacity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushOpacityCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:680
+#: libs/ui/forms/wdgpaintopsettings.ui:674
 #, fuzzy, kde-format
 msgid "Eraser switch opacity"
 msgstr "Độ đậm đặc của hình xem trước:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dirtyPresetCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:696
+#: libs/ui/forms/wdgpaintopsettings.ui:690
 #, kde-format
 msgid "Temporarily Save Tweaks To Presets"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, scratchpadSidebarLabel)
-#: libs/ui/forms/wdgpaintopsettings.ui:804
+#: libs/ui/forms/wdgpaintopsettings.ui:798
 #, fuzzy, kde-format
 msgid "Scratchpad"
 msgstr "Hiện lớp gốc"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, paintPresetIcon)
-#: libs/ui/forms/wdgpaintopsettings.ui:861
+#: libs/ui/forms/wdgpaintopsettings.ui:855
 #, fuzzy, kde-format
 msgid "Fill area with brush preset icon"
 msgstr "&Thêm vào lựa chọn"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, fillLayer)
-#: libs/ui/forms/wdgpaintopsettings.ui:874
+#: libs/ui/forms/wdgpaintopsettings.ui:868
 #, fuzzy, kde-format
 msgid "Fill area with current image"
 msgstr "&Thêm vào lựa chọn"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, fillGradient)
-#: libs/ui/forms/wdgpaintopsettings.ui:887
+#: libs/ui/forms/wdgpaintopsettings.ui:881
 #, fuzzy, kde-format
 msgid "Fill area with gradient"
 msgstr "Vẽ một đổ dốc màu"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, fillSolid)
-#: libs/ui/forms/wdgpaintopsettings.ui:900
+#: libs/ui/forms/wdgpaintopsettings.ui:894
 #, fuzzy, kde-format
 msgid "Fill area with background color"
 msgstr "Điền với màu nền"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eraseScratchPad)
-#: libs/ui/forms/wdgpaintopsettings.ui:913
+#: libs/ui/forms/wdgpaintopsettings.ui:907
 #, kde-format
 msgid "Reset area to white"
 msgstr ""
@@ -17395,7 +17401,7 @@ msgstr "Chiều rộng:"
 #. i18n: ectx: property (text), widget (QLabel, lblRatio)
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: libs/ui/forms/wdgrectangleconstraints.ui:144
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:185
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:180
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:310
 #, kde-format
 msgid "Ratio:"
@@ -18724,7 +18730,7 @@ msgstr "Tính chất cho lớp mới"
 msgid "File Layer Properties"
 msgstr "Tính chất cho lớp mới"
 
-#: libs/ui/kis_layer_manager.cc:302 libs/ui/kis_layer_manager.cc:958
+#: libs/ui/kis_layer_manager.cc:302 libs/ui/kis_layer_manager.cc:890
 #, kde-format
 msgid "No file name specified"
 msgstr ""
@@ -18734,72 +18740,66 @@ msgstr ""
 msgid "Change Clone Layer"
 msgstr "Đổi bộ lọc"
 
-#: libs/ui/kis_layer_manager.cc:443
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Convert to a Paint Layer"
-msgstr "Chuyển đổi lớp hiện tại từ"
-
-#: libs/ui/kis_layer_manager.cc:471
+#: libs/ui/kis_layer_manager.cc:403
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to an animated layer"
 msgstr "Chuyển đổi lớp hiện tại từ"
 
-#: libs/ui/kis_layer_manager.cc:491
+#: libs/ui/kis_layer_manager.cc:423
 #, fuzzy, kde-format
 msgid "Save layers to..."
 msgstr "Lưu lớp thành ảnh..."
 
-#: libs/ui/kis_layer_manager.cc:492
+#: libs/ui/kis_layer_manager.cc:424
 #, kde-format
 msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:555
+#: libs/ui/kis_layer_manager.cc:487
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
 msgstr "Chuyển đổi lớp hiện tại từ"
 
-#: libs/ui/kis_layer_manager.cc:672
+#: libs/ui/kis_layer_manager.cc:604
 #, fuzzy, kde-format
 msgid "New Filter Layer"
 msgstr "Tạo layer mới"
 
-#: libs/ui/kis_layer_manager.cc:721
+#: libs/ui/kis_layer_manager.cc:653
 #, fuzzy, kde-format
 msgid "Fill Layer"
 msgstr "Lớp &lặp lại"
 
-#: libs/ui/kis_layer_manager.cc:748
+#: libs/ui/kis_layer_manager.cc:680
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "Làm phẳng ảnh"
 
-#: libs/ui/kis_layer_manager.cc:749
+#: libs/ui/kis_layer_manager.cc:681
 #, fuzzy, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
 msgstr "Ảnh chứa lớp ẩn, chúng sẽ bị mất."
 
-#: libs/ui/kis_layer_manager.cc:827 libs/ui/kis_layer_manager.cc:848
+#: libs/ui/kis_layer_manager.cc:759 libs/ui/kis_layer_manager.cc:780
 #, fuzzy, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is locked "
 msgid_plural "Layers are locked"
 msgstr[0] "Cỡ Lớp"
 
-#: libs/ui/kis_layer_manager.cc:906
+#: libs/ui/kis_layer_manager.cc:838
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:909
+#: libs/ui/kis_layer_manager.cc:841
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr ""
@@ -19078,7 +19078,7 @@ msgstr "&Hiện"
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:220
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:214
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1904
 #, fuzzy, kde-format
@@ -19100,8 +19100,8 @@ msgstr "Không gian màu"
 msgid "Brush composite"
 msgstr "Cỡ chổi"
 
-#: libs/ui/kis_paintop_box.cc:1219 libs/ui/kis_paintop_box.cc:1241
-#: libs/ui/kis_paintop_box.cc:1255
+#: libs/ui/kis_paintop_box.cc:1208 libs/ui/kis_paintop_box.cc:1230
+#: libs/ui/kis_paintop_box.cc:1244
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -19387,7 +19387,7 @@ msgstr "Đổ dốc màu"
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #: libs/ui/kis_stopgradient_editor.cpp:314
 #: libs/ui/KisImportExportManager.cpp:586
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:63
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:57
 #, kde-format
 msgid "Options"
 msgstr "Tuỳ chọn"
@@ -20275,39 +20275,39 @@ msgstr "Hiện lớp gốc"
 msgid "Hide %1 Toolbar"
 msgstr "&Công cụ"
 
-#: libs/ui/KisMainWindow.cpp:863
+#: libs/ui/KisMainWindow.cpp:869
 #, kde-format
 msgid "The chosen file's location could not be found. Does it exist?"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:968
+#: libs/ui/KisMainWindow.cpp:974
 #, fuzzy, kde-format
 #| msgid "(write protected)"
 msgid "Write Protected"
 msgstr "(bảo vệ khỏi ghi)"
 
-#: libs/ui/KisMainWindow.cpp:972
+#: libs/ui/KisMainWindow.cpp:978
 #, fuzzy, kde-format
 #| msgid "Average"
 msgid "Recovered"
 msgstr "Trung bình"
 
-#: libs/ui/KisMainWindow.cpp:996
+#: libs/ui/KisMainWindow.cpp:1002
 #, fuzzy, kde-format
 msgid "Save as %1"
 msgstr "Phóng Lớp"
 
-#: libs/ui/KisMainWindow.cpp:1020
+#: libs/ui/KisMainWindow.cpp:1026
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "Tệp %1 không tồn tại."
 
-#: libs/ui/KisMainWindow.cpp:1122
+#: libs/ui/KisMainWindow.cpp:1128
 #, fuzzy, kde-format
 msgid "Open Images"
 msgstr "Ảnh"
 
-#: libs/ui/KisMainWindow.cpp:1254
+#: libs/ui/KisMainWindow.cpp:1260
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -20316,33 +20316,33 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1310
+#: libs/ui/KisMainWindow.cpp:1316
 #, fuzzy, kde-format
 msgid "Exporting"
 msgstr "Xuất"
 
-#: libs/ui/KisMainWindow.cpp:1310
+#: libs/ui/KisMainWindow.cpp:1316
 #, fuzzy, kde-format
 msgid "Saving As"
 msgstr "Định dạng trang"
 
-#: libs/ui/KisMainWindow.cpp:1611
+#: libs/ui/KisMainWindow.cpp:1617
 #: libs/widgetutils/config/kstandardaction_p.h:29
 #, fuzzy, kde-format
 msgid "Create new document"
 msgstr "Bắt đầu với tài liệu &rỗng"
 
-#: libs/ui/KisMainWindow.cpp:1635
+#: libs/ui/KisMainWindow.cpp:1641
 #, fuzzy, kde-format
 msgid "Custom Document"
 msgstr "Đổ dốc màu tự chọn"
 
-#: libs/ui/KisMainWindow.cpp:1653
+#: libs/ui/KisMainWindow.cpp:1659
 #, fuzzy, kde-format
 msgid "Create from Clipboard"
 msgstr "Lớp đầu tiên trong bảng nháp"
 
-#: libs/ui/KisMainWindow.cpp:1933
+#: libs/ui/KisMainWindow.cpp:1939
 #, fuzzy, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -20351,60 +20351,60 @@ msgstr ""
 "Không thể mở\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2335
+#: libs/ui/KisMainWindow.cpp:2341
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "Không gian màu"
 
-#: libs/ui/KisMainWindow.cpp:2349
+#: libs/ui/KisMainWindow.cpp:2355
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "Không gian màu"
 
-#: libs/ui/KisMainWindow.cpp:2365
+#: libs/ui/KisMainWindow.cpp:2371
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "Không gian màu"
 
-#: libs/ui/KisMainWindow.cpp:2409
+#: libs/ui/KisMainWindow.cpp:2415
 #, fuzzy, kde-format
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2412
+#: libs/ui/KisMainWindow.cpp:2418
 #, fuzzy, kde-format
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2586
+#: libs/ui/KisMainWindow.cpp:2592
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2594
+#: libs/ui/KisMainWindow.cpp:2600
 #, fuzzy, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 "Không tìm thấy không gian màu RGBAF32 cho HDR, xin kiểm tra lại cài đặt."
 
-#: libs/ui/KisMainWindow.cpp:2609
+#: libs/ui/KisMainWindow.cpp:2615
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Lỗi khi tạo lớp"
 
-#: libs/ui/KisMainWindow.cpp:2715
+#: libs/ui/KisMainWindow.cpp:2721
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2765
+#: libs/ui/KisMainWindow.cpp:2771
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -21657,7 +21657,7 @@ msgstr "Mực &nước:"
 #. i18n: ectx: attribute (title), widget (QWidget, textureTab)
 #: libs/ui/layerstyles/wdglayerstyles.ui:95
 #: libs/ui/layerstyles/wdgTexture.ui:21
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:37
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:31
 #, fuzzy, kde-format
 msgid "Texture"
 msgstr "Chữ"
@@ -21727,7 +21727,7 @@ msgstr "Các bảng màu"
 #. i18n: ectx: property (text), widget (QLabel, labelPattern)
 #: libs/ui/layerstyles/WdgPatternOverlay.ui:91
 #: libs/ui/layerstyles/WdgStroke.ui:332 libs/ui/layerstyles/wdgTexture.ui:33
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:84
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:78
 #, fuzzy, kde-format
 msgid "Pattern:"
 msgstr "Các bảng màu"
@@ -21804,10 +21804,10 @@ msgstr "Điền"
 #: libs/ui/layerstyles/WdgStroke.ui:163
 #: libs/ui/widgets/KoFillConfigWidget.ui:176
 #: plugins/filters/colors/wdgcolortoalphabase.ui:44
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:485
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:581
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:683
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:782
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:462
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:558
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:660
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:759
 #, kde-format
 msgid "Color:"
 msgstr "Màu:"
@@ -22537,6 +22537,13 @@ msgstr "Không gian màu đí&ch:"
 msgid "No profile available..."
 msgstr "sửa định sẵn"
 
+#: libs/ui/widgets/kis_cmb_idlist.cc:28
+#, fuzzy, kde-format
+#| msgid "Auto"
+msgctxt "Automatic"
+msgid "Auto"
+msgstr "Tự động"
+
 #: libs/ui/widgets/kis_color_filter_combo.cpp:215
 #, kde-format
 msgctxt "combo box: show all layers"
@@ -22601,65 +22608,65 @@ msgstr "Đổ dốc màu tự chọn"
 msgid "Custom Segmented Gradient"
 msgstr "Các chổi có sẵn"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:169
+#: libs/ui/widgets/kis_gradient_chooser.cc:170
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show icons instead of a list"
 msgid "Icon view"
 msgstr "Đặt kiểu điểm"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:175
+#: libs/ui/widgets/kis_gradient_chooser.cc:176
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show a list instead of icons"
 msgid "List view"
 msgstr "Khung xem xa"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:184
+#: libs/ui/widgets/kis_gradient_chooser.cc:185
 #, fuzzy, kde-format
 #| msgid "Small Tiles"
 msgctxt "Set the gradient chooser to show small items"
 msgid "Small items"
 msgstr "Miếng nhỏ"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:190
+#: libs/ui/widgets/kis_gradient_chooser.cc:191
 #, kde-format
 msgctxt "Set the gradient chooser to show medium size items"
 msgid "Medium size items"
 msgstr ""
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:196
+#: libs/ui/widgets/kis_gradient_chooser.cc:197
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show large items"
 msgid "Large items"
 msgstr "Cỡ miếng"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:202
+#: libs/ui/widgets/kis_gradient_chooser.cc:203
 #, kde-format
 msgctxt "Set the gradient chooser to show custom size items"
 msgid "Custom size items"
 msgstr ""
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:225
+#: libs/ui/widgets/kis_gradient_chooser.cc:226
 #, fuzzy, kde-format
 msgid "Add..."
 msgstr "&Thêm..."
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:230
+#: libs/ui/widgets/kis_gradient_chooser.cc:231
 #, fuzzy, kde-format
 msgid "Stop gradient"
 msgstr "Đổ dốc màu"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:232
+#: libs/ui/widgets/kis_gradient_chooser.cc:233
 #, fuzzy, kde-format
 msgid "Segmented gradient"
 msgstr "Các chổi có sẵn"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:239
+#: libs/ui/widgets/kis_gradient_chooser.cc:240
 #, fuzzy, kde-format
 msgid "Edit..."
 msgstr "Sửa"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:482
-#: libs/ui/widgets/kis_gradient_chooser.cc:491
+#: libs/ui/widgets/kis_gradient_chooser.cc:478
+#: libs/ui/widgets/kis_gradient_chooser.cc:487
 #, fuzzy, kde-format
 msgid "unnamed"
 msgstr "Không có tên"
@@ -23209,7 +23216,7 @@ msgstr "kết nối"
 #: plugins/filters/asccdl/wdg_asccdl.ui:21
 #: plugins/filters/asccdl/wdg_asccdl.ui:28
 #: plugins/filters/asccdl/wdg_asccdl.ui:49
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:202
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:190
 #, fuzzy, kde-format
 msgid "PushButton"
 msgstr "Nút ấn"
@@ -28611,30 +28618,50 @@ msgstr "Lời bình:"
 msgid "Vector Libraries"
 msgstr "Trộn Layer"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:74
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:75
 #, fuzzy, kde-format
 msgid "Task Sets"
 msgstr "Nguồn"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:96
-#, fuzzy, kde-format
-msgid "Task sets"
-msgstr "Nguồn"
-
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:184
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:186
 #, fuzzy, kde-format
 msgid "Taskset"
 msgstr "Krita %1"
 
-#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:192
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:194
 #, fuzzy, kde-format
 msgid "Taskset Name"
 msgstr "Tên lớp:"
+
+#: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:240
+#, fuzzy, kde-format
+msgid "Task sets"
+msgstr "Nguồn"
 
 #: plugins/dockers/tasksetdocker/tasksetmodel.cpp:45
 #, fuzzy, kde-format
 msgid "Task"
 msgstr "Krita %1"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, recordButton)
+#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:37
+#, fuzzy, kde-format
+#| msgid "Average"
+msgid "Start Recording"
+msgstr "Trung bình"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, clearButton)
+#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:47
+#, fuzzy, kde-format
+msgid "Delete the taskset"
+msgstr "Xoá Trang"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, saveButton)
+#: plugins/dockers/tasksetdocker/wdgtasksetdocker.ui:57
+#, fuzzy, kde-format
+#| msgid "&Add to current selection"
+msgid "Save the taskset"
+msgstr "&Thêm vào lựa chọn"
 
 #: plugins/dockers/throttle/ThrottlePlugin.h:23
 #, kde-format
@@ -29012,7 +29039,7 @@ msgid ""
 msgstr ""
 
 #: plugins/extensions/imagesize/dlg_canvassize.cc:24
-#: plugins/extensions/imagesize/dlg_imagesize.cc:32
+#: plugins/extensions/imagesize/dlg_imagesize.cc:33
 #: plugins/extensions/imagesize/dlg_layersize.cc:32
 #, fuzzy, kde-format
 msgid "Percent (%)"
@@ -29023,37 +29050,37 @@ msgstr "&Phần trăm:"
 msgid "Resize Canvas"
 msgstr "Tải lại Canvas"
 
-#: plugins/extensions/imagesize/dlg_imagesize.cc:33
+#: plugins/extensions/imagesize/dlg_imagesize.cc:34
 #, fuzzy, kde-format
 msgid "Pixels/Inch"
 msgstr "điểm ảnh"
 
-#: plugins/extensions/imagesize/dlg_imagesize.cc:34
+#: plugins/extensions/imagesize/dlg_imagesize.cc:35
 #, fuzzy, kde-format
 #| msgid "Centimeters (cm)"
 msgid "Pixels/Centimeter"
 msgstr "Centimét (mm)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgImageSize)
-#: plugins/extensions/imagesize/dlg_imagesize.cc:46
+#: plugins/extensions/imagesize/dlg_imagesize.cc:47
 #: plugins/extensions/imagesize/wdg_imagesize.ui:18
 #, kde-format
 msgid "Scale To New Size"
 msgstr "Phóng lên cỡ mới"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgLayerSize)
-#: plugins/extensions/imagesize/dlg_layersize.cc:45
+#: plugins/extensions/imagesize/dlg_layersize.cc:47
 #: plugins/extensions/imagesize/wdg_layersize.ui:18
 #, kde-format
 msgid "Layer Size"
 msgstr "Cỡ Lớp"
 
-#: plugins/extensions/imagesize/imagesize.cc:122
+#: plugins/extensions/imagesize/imagesize.cc:120
 #, fuzzy, kde-format
 msgid "Resize Layer"
 msgstr "Xoay Lớp"
 
-#: plugins/extensions/imagesize/imagesize.cc:171
+#: plugins/extensions/imagesize/imagesize.cc:168
 #, kde-format
 msgid "Scale Selection"
 msgstr "Phóng Phần chọn"
@@ -29719,7 +29746,7 @@ msgstr "Năng lượng chớp:"
 #. i18n: ectx: attribute (title), widget (QWidget, tabPostProcessing)
 #: plugins/extensions/metadataeditor/editors/exif.ui:642
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:84
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:337
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:331
 #, kde-format
 msgid "Postprocessing"
 msgstr "Hậu xử lí"
@@ -29895,8 +29922,8 @@ msgstr "Cứng"
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. i18n: ectx: property (text), widget (QLabel, labelContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:877
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:474
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:108
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:462
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:102
 #, kde-format
 msgid "Contrast:"
 msgstr "Độ tương phản:"
@@ -30401,7 +30428,7 @@ msgstr "&Thêm vào lựa chọn"
 #. i18n: ectx: property (shortcut), widget (QPushButton, lCurveButton)
 #. i18n: ectx: property (shortcut), widget (QStatusBar, statusbar)
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:141
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:213
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:207
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:212
 #, kde-format
 msgid "Ctrl+S"
@@ -30502,18 +30529,18 @@ msgctxt "@title:column"
 msgid "Comment"
 msgstr "Lời bình:"
 
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:149
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:137
 #, kde-format
 msgid "Sorry, this output mode is not implemented yet."
 msgstr ""
 
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:204
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:192
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Gmic filter"
 msgstr "Trình chọn &màu"
 
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:220
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:208
 #, kde-format
 msgid "G'Mic failed, reason:"
 msgstr ""
@@ -31356,7 +31383,7 @@ msgstr "Gạch"
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:129
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:238
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:81
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:101
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:95
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:33
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:85
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:245
@@ -31382,7 +31409,7 @@ msgstr "Bán kính"
 #. i18n: ectx: property (text), widget (QLabel, axisRotationLabel)
 #: plugins/filters/blur/wdg_lens_blur.ui:84
 #: plugins/generators/pattern/wdgpatternoptions.ui:212
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:307
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:301
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:178
 #: plugins/tools/basictools/wdgmultihandtool.ui:129
 #, fuzzy, kde-format
@@ -31399,7 +31426,7 @@ msgstr "Xoay"
 #: plugins/filters/blur/wdgblur.ui:62
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:422
 #: plugins/paintops/hatching/wdghatchingoptions.ui:53
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:165
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:160
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:220
 #: plugins/paintops/spray/wdgsprayoptions.ui:96
 #: plugins/tools/basictools/kis_tool_measure.cc:44
@@ -32072,7 +32099,7 @@ msgstr "Nghịch đảo"
 
 #. i18n: ectx: property (text), widget (QLabel, labelForeground)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:144
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:366
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:360
 #, fuzzy, kde-format
 msgid "Foreground:"
 msgstr "Màu Mặt"
@@ -32402,51 +32429,51 @@ msgstr "Thông thường"
 #. i18n: ectx: property (text), widget (QLabel, lblDiffuseReflectivity)
 #. i18n: ectx: property (text), widget (QLabel, lblAmbientReflectivity)
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:112
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:225
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:303
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:213
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:286
 #, fuzzy, kde-format
 msgid "Reflectivity:"
 msgstr "Ánh sáng &nền:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpecularShinyExp)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:144
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:138
 #, kde-format
 msgid "Shinyness exponent:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, diffuseReflectivityGroup)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:198
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:186
 #, kde-format
 msgid "Di&ffuse"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, AmbientGroup)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:276
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:259
 #, fuzzy, kde-format
 msgid "Ambient"
 msgstr "Ánh sáng &nền:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblHeightmapChannel)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:357
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:334
 #, kde-format
 msgid "Heightmap channel:"
 msgstr ""
 
 #. i18n: Whether or not this filter should only use a given channel or use all channels and treat them as a normal map
 #. i18n: ectx: property (text), widget (QCheckBox, useNormalMap)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:409
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:386
 #, fuzzy, kde-format
 msgid "Use Normal map"
 msgstr "Bình thường "
 
 #. i18n: ectx: attribute (title), widget (QWidget, lightSources)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:420
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:397
 #, fuzzy, kde-format
 msgid "Light Sources"
 msgstr "Nguồn sáng:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:447
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:424
 #, fuzzy, kde-format
 msgid "Light Source &4"
 msgstr "Nguồn sáng:"
@@ -32455,10 +32482,10 @@ msgstr "Nguồn sáng:"
 #. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel2)
 #. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel1)
 #. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel3)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:506
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:602
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:704
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:803
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:483
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:579
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:681
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:780
 #, kde-format
 msgid ""
 "Direction of the light, the dial tip represents where the light comes from."
@@ -32468,10 +32495,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, azimuthLabel2)
 #. i18n: ectx: property (text), widget (QLabel, azimuthLabel1)
 #. i18n: ectx: property (text), widget (QLabel, azimuthLabel3)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:509
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:605
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:707
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:806
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:486
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:582
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:684
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:783
 #, kde-format
 msgid "Azimuth:"
 msgstr ""
@@ -32480,10 +32507,10 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel2)
 #. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel1)
 #. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel3)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:519
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:615
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:717
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:816
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:496
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:592
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:694
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:793
 #, kde-format
 msgid ""
 "Vertical tilt of the light. 90° is perpendicular to the canvas, 0° is "
@@ -32494,28 +32521,28 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, inclinationLabel2)
 #. i18n: ectx: property (text), widget (QLabel, inclinationLabel1)
 #. i18n: ectx: property (text), widget (QLabel, inclinationLabel3)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:522
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:618
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:720
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:819
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:499
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:595
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:697
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:796
 #, fuzzy, kde-format
 msgid "Inclination:"
 msgstr "Độ phân giải:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox2)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:549
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:526
 #, fuzzy, kde-format
 msgid "Light Source &2"
 msgstr "Nguồn sáng:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox1)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:645
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:622
 #, fuzzy, kde-format
 msgid "Light Source &1"
 msgstr "Nguồn sáng:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox3)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:747
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:724
 #, fuzzy, kde-format
 msgid "Light Source &3"
 msgstr "Nguồn sáng:"
@@ -33336,7 +33363,7 @@ msgstr "Các bảng màu"
 #. i18n: ectx: property (title), widget (QGroupBox, gbShear)
 #. i18n: ectx: property (text), widget (QLabel, labelShear)
 #: plugins/generators/pattern/wdgpatternoptions.ui:250
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:267
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:261
 #: plugins/paintops/hairy/wdgbristleoptions.ui:118
 #, fuzzy, kde-format
 msgid "Shear:"
@@ -33377,25 +33404,25 @@ msgid "Y: "
 msgstr "Y:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreentoneType)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:55
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:49
 #, kde-format
 msgid "Screentone Type"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelInterpolation)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:118
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:112
 #, fuzzy, kde-format
 msgid "Interpolation:"
 msgstr "Trình chọn &màu"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabTransformation)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:151
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:145
 #, fuzzy, kde-format
 msgid "Transformation"
 msgstr "Công cụ &xoá"
 
 #. i18n: ectx: property (text), widget (QLabel, labelInvert)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:434
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:428
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgctxt "Swapping FG and BG color in the screentone pattern"
@@ -33404,8 +33431,8 @@ msgstr "Nghịch đảo"
 
 #. i18n: ectx: property (text), widget (QLabel, lblRatio)
 #. i18n: ectx: property (text), widget (QLabel, labelBrightness)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:448
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:134
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:442
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:128
 #, fuzzy, kde-format
 msgid "Brightness:"
 msgstr "Độ sáng:"
@@ -33711,7 +33738,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: plugins/impex/brush/wdg_export_gih.ui:31
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:384
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:379
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:153
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:107
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:82
@@ -34242,8 +34269,8 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:150
-#: plugins/impex/libkra/kis_kra_loader.cpp:937
-#: plugins/impex/libkra/kis_kra_loader.cpp:1307
+#: plugins/impex/libkra/kis_kra_loader.cpp:971
+#: plugins/impex/libkra/kis_kra_loader.cpp:1341
 #, fuzzy, kde-format
 #| msgid "File not found"
 msgctxt "@title:window"
@@ -34363,27 +34390,27 @@ msgstr ""
 msgid "Image specifies an unsupported color model: %1."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:741
+#: plugins/impex/libkra/kis_kra_loader.cpp:775
 #, fuzzy, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:769
+#: plugins/impex/libkra/kis_kra_loader.cpp:803
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:803
+#: plugins/impex/libkra/kis_kra_loader.cpp:837
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:810
+#: plugins/impex/libkra/kis_kra_loader.cpp:844
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:932
+#: plugins/impex/libkra/kis_kra_loader.cpp:966
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -34395,7 +34422,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1302
+#: plugins/impex/libkra/kis_kra_loader.cpp:1336
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -34508,22 +34535,22 @@ msgstr "Tạo layer mới"
 msgid "Could not write for %1 metadata to the file."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:163
+#: plugins/impex/libkra/kis_kra_saver.cpp:194
 #, fuzzy, kde-format
 msgid "could not save palettes"
 msgstr "Chọn véctơ"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:190
+#: plugins/impex/libkra/kis_kra_saver.cpp:221
 #, fuzzy, kde-format
 msgid "could not save storyboards"
 msgstr "Chọn véctơ"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:216
+#: plugins/impex/libkra/kis_kra_saver.cpp:247
 #, fuzzy, kde-format
 msgid "could not save animation meta data"
 msgstr "Chọn véctơ"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:320
+#: plugins/impex/libkra/kis_kra_saver.cpp:351
 #, fuzzy, kde-format
 msgid "could not save keyframes"
 msgstr "Chọn véctơ"
@@ -36597,7 +36624,7 @@ msgstr "Nhiễu &ngẫu nhiên..."
 #. i18n: ectx: property (text), widget (QLabel, densityLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblDensity)
 #: plugins/paintops/hairy/wdgbristleoptions.ui:150
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:371
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:366
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:297
 #: plugins/paintops/sketch/wdgsketchoptions.ui:77
 #, fuzzy, kde-format
@@ -36964,7 +36991,7 @@ msgstr "Hình vuông"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkInvert)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, btnAntialiasing)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:109
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:262
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:238
 #, kde-format
 msgid "The border of the brush will be smoothed to avoid aliasing"
 msgstr ""
@@ -36979,7 +37006,7 @@ msgstr "Khử răng cưa"
 #. i18n: ectx: property (text), widget (QLabel, DiameterLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblDiameter)
 #. i18n: ectx: property (text), widget (QLabel, lineWidthLbl)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:175
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:170
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:89
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:23
 #: plugins/paintops/spray/wdgsprayoptions.ui:44
@@ -36988,37 +37015,37 @@ msgid "Diameter:"
 msgstr "Palettes"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpFade)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:232
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:227
 #, fuzzy, kde-format
 msgid "Fade"
 msgstr "Bóng"
 
 #. i18n: ectx: property (text), widget (QLabel, lblHorizontalFade)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:243
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:238
 #, kde-format
 msgid "Horizontal:"
 msgstr "Ngang:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblVerticalFade)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:259
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:254
 #, kde-format
 msgid "Vertical:"
 msgstr "Dọc"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSoftness)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:293
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:288
 #, fuzzy, kde-format
 msgid "Softness:"
 msgstr "Độ mượt:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblRandomness)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:342
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:337
 #, fuzzy, kde-format
 msgid "Randomness:"
 msgstr "Ngẫu nhiên"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpikes)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:352
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:347
 #, fuzzy, kde-format
 msgid "Spikes:"
 msgstr "kết nối"
@@ -37118,7 +37145,7 @@ msgid "Available Blending Modes"
 msgstr "Chế độ chân dung"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxUseCurve)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:58
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:52
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:57
 #, fuzzy, kde-format
 msgid "Enable Pen Settings"
@@ -37126,7 +37153,7 @@ msgstr "Thiết lập Màu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, yRangeLabel)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:470
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:464
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:469
 #, fuzzy, kde-format
 msgid "Y Range:"
@@ -37136,8 +37163,8 @@ msgstr "Khoảng:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, toLabel2)
 #. i18n: ectx: property (text), widget (QLabel, toLabel1)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:487
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:609
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:481
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:603
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:486
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:608
 #, fuzzy, kde-format
@@ -37146,8 +37173,8 @@ msgstr "Đỉnh:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (QComboBox, curveMode)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:527
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:543
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:521
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:537
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:526
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:542
 #, kde-format
@@ -37166,7 +37193,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:530
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:524
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:529
 #, fuzzy, kde-format
 #| msgid "Selection mode:"
@@ -37174,21 +37201,21 @@ msgid "Curves calculation mode:"
 msgstr "Chế độ chọn:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, curveMode)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:550
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:544
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:549
 #, fuzzy, kde-format
 msgid "multiply"
 msgstr "Nhiều điểm"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, curveMode)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:555
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:549
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:554
 #, fuzzy, kde-format
 msgid "addition"
 msgstr "Thêm phân số"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, curveMode)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:560
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:554
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:559
 #, fuzzy, kde-format
 #| msgid "Maximum:"
@@ -37196,7 +37223,7 @@ msgid "maximum"
 msgstr "Tối đa:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, curveMode)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:565
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:559
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:564
 #, fuzzy, kde-format
 #| msgid "Maximum:"
@@ -37204,14 +37231,14 @@ msgid "minimum"
 msgstr "Tối đa:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, curveMode)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:570
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:564
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:569
 #, fuzzy, kde-format
 msgid "difference"
 msgstr "Tuỳ chọn"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxUseSameCurve)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:580
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:574
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:579
 #, kde-format
 msgid "Share curve across all settings"
@@ -37219,7 +37246,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, xRangeLabel)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:592
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:586
 #: plugins/paintops/mypaint/wdgmypaintcurveoption.ui:591
 #, fuzzy, kde-format
 msgid "X Range:"
@@ -37359,51 +37386,51 @@ msgid "Pipe mode"
 msgstr "Tạo layer mới"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:150
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:144
 #, fuzzy, kde-format
 msgid "Cutoff Policy:"
 msgstr "Cà phê"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDensity)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:166
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:160
 #, fuzzy, kde-format
 msgid "Texturing Mode:"
 msgstr "Chế độ đo khoảng cách:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing_2)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:192
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:180
 #, fuzzy, kde-format
 msgid "Cutoff"
 msgstr "Cà phê"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNeutralPoint)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:219
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:201
 #, fuzzy, kde-format
 msgid "Neutral Point"
 msgstr "Nhập các điểm"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpikes)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:249
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:225
 #, fuzzy, kde-format
 msgid "Horizontal Offset:"
 msgstr "Ngang:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkInvert)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:265
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:241
 #, fuzzy, kde-format
 msgid "Invert Pattern"
 msgstr "Bão hoà"
 
 #. i18n: ectx: property (text), widget (QCheckBox, randomOffsetY)
 #. i18n: ectx: property (text), widget (QCheckBox, randomOffsetX)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:275
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:304
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:251
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:280
 #, fuzzy, kde-format
 msgid "Random Offset"
 msgstr "Nhiễu &ngẫu nhiên..."
 
 #. i18n: ectx: property (text), widget (QLabel, lblRandomness)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:288
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:264
 #, fuzzy, kde-format
 msgid "Vertical Offset:"
 msgstr "Dọc"
@@ -37610,15 +37637,15 @@ msgid ""
 "The slowest performance. Best quality."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:77
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:93
 #, fuzzy, kde-format
 msgid ""
 "Nothing copied\n"
 " to Clipboard"
 msgstr "Chép phần chọn tới lớp mới"
 
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:147
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:134
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:152
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:132
 #, fuzzy, kde-format
 msgid "Overwrite"
 msgstr "sửa định sẵn"
@@ -41329,12 +41356,12 @@ msgstr "Chổi"
 msgid "Assign ten brush presets to ten shortcuts."
 msgstr ""
 
-#: plugins/python/tenbrushes/tenbrushes.py:59
+#: plugins/python/tenbrushes/tenbrushes.py:57
 #, fuzzy, python-brace-format
 msgid "Activate Brush Preset {num}"
 msgstr "Định sẵn:"
 
-#: plugins/python/tenbrushes/tenbrushes.py:85
+#: plugins/python/tenbrushes/tenbrushes.py:82
 #, fuzzy
 msgid ""
 "{}\n"
@@ -44229,7 +44256,7 @@ msgctxt "action"
 msgid "Transform a layer or a selection"
 msgstr "Biến dạnh một lớp hoặc phần chọn"
 
-#: plugins/tools/tool_transform2/strokes/inplace_transform_stroke_strategy.cpp:134
+#: plugins/tools/tool_transform2/strokes/inplace_transform_stroke_strategy.cpp:122
 #: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:54
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -44683,11 +44710,6 @@ msgstr ""
 #~ msgctxt "action"
 #~ msgid "Outline Selection Tool"
 #~ msgstr "Chọn"
-
-#, fuzzy
-#~| msgid "Average"
-#~ msgid "Recording"
-#~ msgstr "Trung bình"
 
 #, fuzzy
 #~ msgid "Macros"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-04 02:35+0100\n"
+"POT-Creation-Date: 2021-02-03 03:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -152,6 +152,37 @@ msgstr ""
 #: src/borrowerdialog.cpp:91 src/collections/filecatalog.cpp:49
 #, kde-format
 msgid "Name"
+msgstr ""
+
+#: src/charts/collectionsizereport.cpp:45
+#: src/charts/collectionsizereport.cpp:117
+#, kde-format
+msgid "Collection Size"
+msgstr ""
+
+#: src/charts/collectionsizereport.cpp:91
+#, kde-format
+msgid "Collection Size Over Time"
+msgstr ""
+
+#: src/charts/groupsummaryreport.cpp:60
+#, kde-format
+msgid "Group Summary: %1"
+msgstr ""
+
+#: src/charts/groupsummaryreport.cpp:66
+#, kde-format
+msgid "Total number of entries: %1"
+msgstr ""
+
+#: src/charts/groupsummaryreport.cpp:117
+#, kde-format
+msgid "Top Values: %1"
+msgstr ""
+
+#: src/charts/groupsummaryreport.cpp:189
+#, kde-format
+msgid "Group Summary Report"
 msgstr ""
 
 #: src/cite/lyxpipe.cpp:57
@@ -2652,7 +2683,7 @@ msgid "Template Packages"
 msgstr ""
 
 #: src/configdialog.cpp:1123 src/importdialog.cpp:411 src/mainwindow.cpp:1203
-#: src/mainwindow.cpp:1373 src/reportdialog.cpp:264 src/translators/bibtexexporter.cpp:65
+#: src/mainwindow.cpp:1373 src/reportdialog.cpp:340 src/translators/bibtexexporter.cpp:65
 #: src/translators/bibtexmlexporter.cpp:51
 #: src/translators/csvexporter.cpp:64 src/translators/gcstarexporter.cpp:61
 #: src/translators/htmlexporter.cpp:100 src/translators/librarythingimporter.cpp:155
@@ -3084,7 +3115,7 @@ msgstr ""
 #: src/fetch/dvdfrfetcher.cpp:169 src/fetch/imdbfetcher.cpp:770
 #: src/fetch/imdbfetcher.cpp:1489 src/fetch/kinopoiskfetcher.cpp:310
 #: src/fetch/kinopoiskfetcher.cpp:506 src/fetch/kinoteatrfetcher.cpp:263
-#: src/fetch/kinoteatrfetcher.cpp:506 src/fetch/omdbfetcher.cpp:243
+#: src/fetch/kinoteatrfetcher.cpp:506 src/fetch/omdbfetcher.cpp:240
 #: src/fetch/themoviedbfetcher.cpp:280 src/fetch/themoviedbfetcher.cpp:445
 #: src/fetch/vndbfetcher.cpp:283 src/fetch/vndbfetcher.cpp:431
 #, kde-format
@@ -3321,7 +3352,7 @@ msgstr ""
 #: src/fetch/comicvinefetcher.cpp:231 src/fetch/crossreffetcher.cpp:313
 #: src/fetch/discogsfetcher.cpp:466 src/fetch/giantbombfetcher.cpp:214
 #: src/fetch/googlebookfetcher.cpp:380 src/fetch/isbndbfetcher.cpp:394
-#: src/fetch/mobygamesfetcher.cpp:607 src/fetch/omdbfetcher.cpp:372
+#: src/fetch/mobygamesfetcher.cpp:607 src/fetch/omdbfetcher.cpp:371
 #: src/fetch/thegamesdbfetcher.cpp:526 src/fetch/themoviedbfetcher.cpp:457
 #, kde-format
 msgid ""
@@ -3334,7 +3365,7 @@ msgstr ""
 #: src/fetch/comicvinefetcher.cpp:244 src/fetch/entrezfetcher.cpp:531
 #: src/fetch/giantbombfetcher.cpp:227 src/fetch/googlebookfetcher.cpp:393
 #: src/fetch/isbndbfetcher.cpp:407 src/fetch/mobygamesfetcher.cpp:620
-#: src/fetch/numistafetcher.cpp:414 src/fetch/omdbfetcher.cpp:385
+#: src/fetch/numistafetcher.cpp:414 src/fetch/omdbfetcher.cpp:384
 #: src/fetch/thegamesdbfetcher.cpp:539 src/fetch/themoviedbfetcher.cpp:470
 #, kde-format
 msgid "Access key: "
@@ -3410,7 +3441,7 @@ msgstr ""
 #: src/fetch/animenfofetcher.cpp:295 src/fetch/animenfofetcher.cpp:496
 #: src/fetch/dvdfrfetcher.cpp:171 src/fetch/imdbfetcher.cpp:824
 #: src/fetch/imdbfetcher.cpp:1487 src/fetch/moviemeterfetcher.cpp:225
-#: src/fetch/moviemeterfetcher.cpp:294 src/fetch/omdbfetcher.cpp:238
+#: src/fetch/moviemeterfetcher.cpp:294 src/fetch/omdbfetcher.cpp:235
 #: src/fetch/themoviedbfetcher.cpp:275 src/fetch/themoviedbfetcher.cpp:444
 #: src/fetch/tvmazefetcher.cpp:199 src/fetch/tvmazefetcher.cpp:391
 #, kde-format
@@ -3887,7 +3918,7 @@ msgstr ""
 msgid "Certifications"
 msgstr ""
 
-#: src/fetch/imdbfetcher.cpp:1485 src/fetch/omdbfetcher.cpp:361
+#: src/fetch/imdbfetcher.cpp:1485 src/fetch/omdbfetcher.cpp:360
 #: src/fetch/themoviedbfetcher.cpp:443 src/fetch/tvmazefetcher.cpp:388
 #: src/field.cpp:331
 #, kde-format
@@ -6077,33 +6108,33 @@ msgid ""
 "imported."
 msgstr ""
 
-#: src/reportdialog.cpp:79
+#: src/reportdialog.cpp:88
 #, kde-format
 msgid "Collection Report"
 msgstr ""
 
-#: src/reportdialog.cpp:90
+#: src/reportdialog.cpp:99
 #, kde-format
 msgid "&Report template:"
 msgstr ""
 
-#: src/reportdialog.cpp:112
+#: src/reportdialog.cpp:135
 #, kde-format
 msgid "&Generate"
 msgstr ""
 
-#: src/reportdialog.cpp:132
+#: src/reportdialog.cpp:155
 #, kde-format
 msgid "Select a report template and click <em>Generate</em>."
 msgstr ""
 
-#: src/reportdialog.cpp:133
+#: src/reportdialog.cpp:156
 #, kde-format
 msgid ""
 "Some reports may take several seconds to generate for large collections."
 msgstr ""
 
-#: src/reportdialog.cpp:262 src/translators/htmlexporter.cpp:100
+#: src/reportdialog.cpp:338 src/translators/htmlexporter.cpp:100
 #, kde-format
 msgid "HTML Files"
 msgstr ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-23 02:34+0100\n"
+"POT-Creation-Date: 2021-01-30 02:46+0100\n"
 "PO-Revision-Date: 2012-01-16 16:54+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -1399,17 +1399,17 @@ msgstr "&Cất ảnh"
 msgid "Import Image..."
 msgstr "&Cất ảnh"
 
-#: kooka.cpp:240 kooka.cpp:550
+#: kooka.cpp:240 kooka.cpp:544
 #, fuzzy, kde-format
 msgid "Delete Image"
 msgstr "&Xoá ảnh"
 
-#: kooka.cpp:247 kooka.cpp:551
+#: kooka.cpp:247 kooka.cpp:545
 #, fuzzy, kde-format
 msgid "Rename Image"
 msgstr "&Xoá ảnh"
 
-#: kooka.cpp:253 kooka.cpp:549
+#: kooka.cpp:253 kooka.cpp:543
 #, fuzzy, kde-format
 #| msgid "&Unload Image"
 msgid "Unload Image"
@@ -1442,54 +1442,49 @@ msgid "Start Scan"
 msgstr "Khởi động Nhận dạng Kí tự"
 
 #: kooka.cpp:289
-#, kde-format
-msgid "Photocopy..."
-msgstr ""
-
-#: kooka.cpp:294
 #, fuzzy, kde-format
-msgid "Scan Parameters..."
+msgid "Scan Presets..."
 msgstr "Cất tham số scan"
 
-#: kooka.cpp:299
+#: kooka.cpp:294
 #, fuzzy, kde-format
 #| msgid "Font Type Selection"
 msgid "Auto Select"
 msgstr "Chọn Loại Phông chữ"
 
-#: kooka.cpp:307
+#: kooka.cpp:302
 #, fuzzy, kde-format
 msgid "OCR Image..."
 msgstr "Ảnh &OCR...."
 
-#: kooka.cpp:311
+#: kooka.cpp:306
 #, fuzzy, kde-format
 msgid "OCR Selection..."
 msgstr "O&CR trên phần trọn ..."
 
-#: kooka.cpp:315
+#: kooka.cpp:310
 #, kde-format
 msgid "Save OCR Result Text..."
 msgstr ""
 
-#: kooka.cpp:320
+#: kooka.cpp:315
 #, kde-format
 msgid "Spell Check OCR Result..."
 msgstr ""
 
-#: kooka.cpp:537
+#: kooka.cpp:531
 #, fuzzy, kde-format
 #| msgid "&Unload Image"
 msgid "Unload Folder"
 msgstr "&Unload ảnh"
 
-#: kooka.cpp:538
+#: kooka.cpp:532
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgid "Delete Folder"
 msgstr "Thư mục mới"
 
-#: kooka.cpp:539
+#: kooka.cpp:533
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgid "Rename Folder"
@@ -2089,25 +2084,25 @@ msgstr "Tảo ảnh mới từ phần chọn"
 msgid "Cannot transform, image is read-only"
 msgstr ""
 
-#: kookaview.cpp:974
+#: kookaview.cpp:973
 #, fuzzy, kde-format
 #| msgid "image %1"
 msgid "Loaded image %1"
 msgstr "ảnh %1"
 
-#: kookaview.cpp:975
+#: kookaview.cpp:974
 #, fuzzy, kde-format
 #| msgid "&Unload Image"
 msgid "Unloaded image"
 msgstr "&Unload ảnh"
 
-#: kookaview.cpp:992
+#: kookaview.cpp:991
 #, fuzzy, kde-format
 #| msgid "image %1"
 msgid "Loading %1..."
 msgstr "ảnh %1"
 
-#: kookaview.cpp:1198
+#: kookaview.cpp:1197
 #, kde-format
 msgid "Other..."
 msgstr ""
@@ -2231,32 +2226,32 @@ msgstr "Chỉ định thiết bị tương thích SANE ( e.g umax:/dev/sg0)"
 msgid "device"
 msgstr ""
 
-#: newscanparams.cpp:54
+#: newscanpresetdialog.cpp:53
 #, fuzzy, kde-format
-msgid "Edit Scan Parameters"
+msgid "Edit Scan Preset"
 msgstr "Cất tham số scan"
 
-#: newscanparams.cpp:55
+#: newscanpresetdialog.cpp:54
 #, kde-format
-msgid "Change the name and/or description of the scan parameter set."
+msgid "Change the name and/or description of the scan preset."
 msgstr ""
 
-#: newscanparams.cpp:59
+#: newscanpresetdialog.cpp:58
 #, fuzzy, kde-format
-msgid "Save Scan Parameters"
+msgid "Save Scan Preset"
 msgstr "Cất tham số scan"
 
-#: newscanparams.cpp:60
+#: newscanpresetdialog.cpp:59
 #, kde-format
-msgid "Enter a name and description for the new scan parameter set."
+msgid "Enter a name and description for the new scan preset."
 msgstr ""
 
-#: newscanparams.cpp:67
-#, kde-format
-msgid "Set name:"
-msgstr ""
+#: newscanpresetdialog.cpp:66
+#, fuzzy, kde-format
+msgid "Preset name:"
+msgstr "Tên tệp"
 
-#: newscanparams.cpp:74
+#: newscanpresetdialog.cpp:73
 #, kde-format
 msgid "Description:"
 msgstr ""
@@ -2575,64 +2570,66 @@ msgstr ""
 msgid "Folder Create Error"
 msgstr ""
 
-#: scanparamsdialog.cpp:61
+#: scanpresetsdialog.cpp:63
 #, fuzzy, kde-format
-msgid "Scan Parameters"
+msgid "Scan Presets"
+msgstr "&Xem trước"
+
+#: scanpresetsdialog.cpp:76
+#, fuzzy, kde-format
+msgid "Saved scan preset sets:"
 msgstr "Cất tham số scan"
 
-#: scanparamsdialog.cpp:74
-#, fuzzy, kde-format
-msgid "Saved scan parameter sets:"
-msgstr "Cất tham số scan"
-
-#: scanparamsdialog.cpp:78
+#: scanpresetsdialog.cpp:80
 #, fuzzy, kde-format
 #| msgid "Font Type Selection"
 msgid "Select"
 msgstr "Chọn Loại Phông chữ"
 
-#: scanparamsdialog.cpp:80
+#: scanpresetsdialog.cpp:82
 #, kde-format
-msgid "Load the selected scan parameter set to use as scanner settings"
+msgid "Load the selected scan preset set to use as scanner settings"
 msgstr ""
 
-#: scanparamsdialog.cpp:84
+#: scanpresetsdialog.cpp:86
 #, fuzzy, kde-format
 msgid "Save..."
 msgstr "&Cất ảnh"
 
-#: scanparamsdialog.cpp:86
+#: scanpresetsdialog.cpp:88
 #, kde-format
-msgid "Save the current scanner settings as a new scan parameter set"
+msgid "Save the current scanner settings as a new scan preset set"
 msgstr ""
 
-#: scanparamsdialog.cpp:92
+#: scanpresetsdialog.cpp:94
 #, kde-format
-msgid "Delete the selected scan parameter set"
+msgid "Delete the selected scan preset set"
 msgstr ""
 
-#: scanparamsdialog.cpp:96
+#: scanpresetsdialog.cpp:98
 #, kde-format
 msgid "Edit..."
 msgstr ""
 
-#: scanparamsdialog.cpp:98
+#: scanpresetsdialog.cpp:100
 #, kde-format
-msgid "Change the name or description of the selected scan parameter set"
+msgid "Change the name or description of the selected scan preset set"
 msgstr ""
 
-#: scanparamsdialog.cpp:136
+#: scanpresetsdialog.cpp:146
 #, fuzzy, kde-format
 #| msgid "-No format selected-"
-msgid "No save set selected."
+msgid "No preset set selected."
 msgstr "-Chưa định dạng nào được chọn-"
 
-#: scanparamsdialog.cpp:192
-#, kde-format
+#: scanpresetsdialog.cpp:212
+#, fuzzy, kde-format
+#| msgid "%1 x %2"
+msgctxt "New set name, %1=scan mode, %2=resolution"
 msgid "%1, %2 dpi"
-msgstr ""
+msgstr "%1 x %2"
 
-#: scanparamsdialog.cpp:270
+#: scanpresetsdialog.cpp:289
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Do you really want to delete the folder %1\n"
@@ -2643,9 +2640,9 @@ msgstr ""
 "Bạn thực sự muốn xoá thư mục %1\n"
 " và mọi ảnh trong nó?"
 
-#: scanparamsdialog.cpp:271
+#: scanpresetsdialog.cpp:290
 #, fuzzy, kde-format
-msgid "Delete Scan Parameter Set"
+msgid "Delete Scan Preset Set"
 msgstr "Cất tham số scan"
 
 #: statusbarmanager.cpp:52
@@ -2727,6 +2724,10 @@ msgstr ""
 #, kde-format
 msgid "Tiny"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Scan Parameters"
+#~ msgstr "Cất tham số scan"
 
 #, fuzzy
 #~| msgid "Image Saving"

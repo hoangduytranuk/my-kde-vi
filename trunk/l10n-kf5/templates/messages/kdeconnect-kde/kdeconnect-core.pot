@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-27 02:24+0100\n"
+"POT-Creation-Date: 2021-02-01 02:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -65,7 +65,6 @@ msgid "Sending to %1"
 msgstr ""
 
 #: backends/lan/compositeuploadjob.cpp:290
-#: compositefiletransferjob.cpp:141
 #, kde-format
 msgid "Progress"
 msgstr ""
@@ -76,7 +75,6 @@ msgid "Sending file %1 of %2"
 msgstr ""
 
 #: backends/lan/compositeuploadjob.cpp:295
-#: compositefiletransferjob.cpp:146
 #, kde-format
 msgid "File"
 msgstr ""
@@ -88,17 +86,25 @@ msgid ""
 "Connect."
 msgstr ""
 
-#: compositefiletransferjob.cpp:142
+#: compositefiletransferjob.cpp:45
 #, kde-format
-msgid "Receiving file %1 of %2"
-msgstr ""
-
-#: compositefiletransferjob.cpp:145
-#, kde-format
-msgid "Receiving file from %2"
-msgid_plural "Receiving %1 files from %2"
+msgctxt "@title job"
+msgid "Receiving file"
+msgid_plural "Receiving files"
 msgstr[0] ""
 msgstr[1] ""
+
+#: compositefiletransferjob.cpp:46
+#, kde-format
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr ""
+
+#: compositefiletransferjob.cpp:47
+#, kde-format
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr ""
 
 #: device.cpp:212
 #, kde-format

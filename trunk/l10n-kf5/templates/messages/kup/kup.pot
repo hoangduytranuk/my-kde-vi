@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-26 03:05+0100\n"
+"POT-Creation-Date: 2021-01-29 03:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -212,36 +212,36 @@ msgstr ""
 msgid "User Backups"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:237
+#: daemon/kupdaemon.cpp:240
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup destination not available"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:241 daemon/kupdaemon.cpp:298
+#: daemon/kupdaemon.cpp:244 daemon/kupdaemon.cpp:301
 #, kde-format
 msgid "No backup plans configured"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:247
+#: daemon/kupdaemon.cpp:250
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup destination available"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:257 daemon/planexecutor.cpp:70
+#: daemon/kupdaemon.cpp:260 daemon/planexecutor.cpp:70
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup status OK"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:264 daemon/planexecutor.cpp:72
+#: daemon/kupdaemon.cpp:267 daemon/planexecutor.cpp:72
 #, kde-format
 msgctxt "status in tooltip"
 msgid "New backup suggested"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:271 daemon/planexecutor.cpp:74
+#: daemon/kupdaemon.cpp:274 daemon/planexecutor.cpp:74
 #, kde-format
 msgctxt "status in tooltip"
 msgid "New backup needed"
@@ -275,22 +275,26 @@ msgid "Copyright (C) 2011-2020 Simon Persson"
 msgstr ""
 
 #: daemon/main.cpp:38 filedigger/main.cpp:29 kcm/kupkcm.cpp:37
+#: purger/main.cpp:24
 #, kde-format
 msgid "Simon Persson"
 msgstr ""
 
 #: daemon/main.cpp:38 filedigger/main.cpp:29 kcm/kupkcm.cpp:37
+#: purger/main.cpp:24
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
 #: daemon/main.cpp:39 filedigger/main.cpp:30 kcm/kupkcm.cpp:38
+#: purger/main.cpp:25
 #, kde-format, kde-kuit-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #: daemon/main.cpp:39 filedigger/main.cpp:30 kcm/kupkcm.cpp:39
+#: purger/main.cpp:25
 #, kde-format, kde-kuit-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -337,14 +341,14 @@ msgid ""
 msgstr ""
 
 #: daemon/planexecutor.cpp:142 daemon/planexecutor.cpp:172
-#: daemon/planexecutor.cpp:257
+#: daemon/planexecutor.cpp:267
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Yes"
 msgstr ""
 
 #: daemon/planexecutor.cpp:142 daemon/planexecutor.cpp:173
-#: daemon/planexecutor.cpp:258
+#: daemon/planexecutor.cpp:268
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "No"
@@ -356,8 +360,8 @@ msgctxt "@title:window"
 msgid "Saving of Backup Failed"
 msgstr ""
 
-#: daemon/planexecutor.cpp:169 daemon/planexecutor.cpp:254
-#: daemon/planexecutor.cpp:288
+#: daemon/planexecutor.cpp:169 daemon/planexecutor.cpp:264
+#: daemon/planexecutor.cpp:298
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Show log file"
@@ -381,19 +385,19 @@ msgctxt "@info notification"
 msgid "Saving backup completed successfully."
 msgstr ""
 
-#: daemon/planexecutor.cpp:250
+#: daemon/planexecutor.cpp:260
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Integrity Check Completed"
 msgstr ""
 
-#: daemon/planexecutor.cpp:285
+#: daemon/planexecutor.cpp:295
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Repair Completed"
 msgstr ""
 
-#: daemon/planexecutor.cpp:316
+#: daemon/planexecutor.cpp:326
 #, kde-format
 msgid "Kup Backup System"
 msgstr ""
@@ -441,12 +445,12 @@ msgstr ""
 msgid "Copyright (C) 2013-2020 Simon Persson"
 msgstr ""
 
-#: filedigger/main.cpp:35
+#: filedigger/main.cpp:35 purger/main.cpp:30
 #, kde-format
 msgid "Name of the branch to be opened."
 msgstr ""
 
-#: filedigger/main.cpp:37
+#: filedigger/main.cpp:37 purger/main.cpp:32
 #, kde-format
 msgid "Path to the bup repository to be opened."
 msgstr ""
@@ -1263,17 +1267,22 @@ msgid ""
 "%1"
 msgstr ""
 
-#: plasmoid/contents/ui/FullRepresentation.qml:108
+#: plasmoid/contents/ui/FullRepresentation.qml:109
 #, kde-format
 msgid "Save new backup"
 msgstr ""
 
-#: plasmoid/contents/ui/FullRepresentation.qml:114
+#: plasmoid/contents/ui/FullRepresentation.qml:115
+#, kde-format
+msgid "Prune old backups..."
+msgstr ""
+
+#: plasmoid/contents/ui/FullRepresentation.qml:120
 #, kde-format
 msgid "Show files"
 msgstr ""
 
-#: plasmoid/contents/ui/FullRepresentation.qml:119
+#: plasmoid/contents/ui/FullRepresentation.qml:125
 #, kde-format
 msgid "Show log file"
 msgstr ""
@@ -1286,6 +1295,22 @@ msgstr ""
 #: plasmoid/contents/ui/Main.qml:71
 #, kde-format
 msgid "&Reload backup plans"
+msgstr ""
+
+#: purger/main.cpp:21
+#, kde-kuit-format
+msgctxt "@title"
+msgid "Purger"
+msgstr ""
+
+#: purger/main.cpp:22
+#, kde-format
+msgid "Purger for bup archives."
+msgstr ""
+
+#: purger/main.cpp:23
+#, kde-format
+msgid "Copyright (C) 2013-2021 Simon Persson"
 msgstr ""
 
 #: settings/backupplan.cpp:23

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-23 02:34+0100\n"
+"POT-Creation-Date: 2021-01-30 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1330,17 +1330,17 @@ msgstr ""
 msgid "Import Image..."
 msgstr ""
 
-#: kooka.cpp:240 kooka.cpp:550
+#: kooka.cpp:240 kooka.cpp:544
 #, kde-format
 msgid "Delete Image"
 msgstr ""
 
-#: kooka.cpp:247 kooka.cpp:551
+#: kooka.cpp:247 kooka.cpp:545
 #, kde-format
 msgid "Rename Image"
 msgstr ""
 
-#: kooka.cpp:253 kooka.cpp:549
+#: kooka.cpp:253 kooka.cpp:543
 #, kde-format
 msgid "Unload Image"
 msgstr ""
@@ -1372,50 +1372,45 @@ msgstr ""
 
 #: kooka.cpp:289
 #, kde-format
-msgid "Photocopy..."
+msgid "Scan Presets..."
 msgstr ""
 
 #: kooka.cpp:294
 #, kde-format
-msgid "Scan Parameters..."
-msgstr ""
-
-#: kooka.cpp:299
-#, kde-format
 msgid "Auto Select"
 msgstr ""
 
-#: kooka.cpp:307
+#: kooka.cpp:302
 #, kde-format
 msgid "OCR Image..."
 msgstr ""
 
-#: kooka.cpp:311
+#: kooka.cpp:306
 #, kde-format
 msgid "OCR Selection..."
 msgstr ""
 
-#: kooka.cpp:315
+#: kooka.cpp:310
 #, kde-format
 msgid "Save OCR Result Text..."
 msgstr ""
 
-#: kooka.cpp:320
+#: kooka.cpp:315
 #, kde-format
 msgid "Spell Check OCR Result..."
 msgstr ""
 
-#: kooka.cpp:537
+#: kooka.cpp:531
 #, kde-format
 msgid "Unload Folder"
 msgstr ""
 
-#: kooka.cpp:538
+#: kooka.cpp:532
 #, kde-format
 msgid "Delete Folder"
 msgstr ""
 
-#: kooka.cpp:539
+#: kooka.cpp:533
 #, kde-format
 msgid "Rename Folder"
 msgstr ""
@@ -1972,22 +1967,22 @@ msgstr ""
 msgid "Cannot transform, image is read-only"
 msgstr ""
 
-#: kookaview.cpp:974
+#: kookaview.cpp:973
 #, kde-format
 msgid "Loaded image %1"
 msgstr ""
 
-#: kookaview.cpp:975
+#: kookaview.cpp:974
 #, kde-format
 msgid "Unloaded image"
 msgstr ""
 
-#: kookaview.cpp:992
+#: kookaview.cpp:991
 #, kde-format
 msgid "Loading %1..."
 msgstr ""
 
-#: kookaview.cpp:1198
+#: kookaview.cpp:1197
 #, kde-format
 msgid "Other..."
 msgstr ""
@@ -2111,32 +2106,32 @@ msgstr ""
 msgid "device"
 msgstr ""
 
-#: newscanparams.cpp:54
+#: newscanpresetdialog.cpp:53
 #, kde-format
-msgid "Edit Scan Parameters"
+msgid "Edit Scan Preset"
 msgstr ""
 
-#: newscanparams.cpp:55
+#: newscanpresetdialog.cpp:54
 #, kde-format
-msgid "Change the name and/or description of the scan parameter set."
+msgid "Change the name and/or description of the scan preset."
 msgstr ""
 
-#: newscanparams.cpp:59
+#: newscanpresetdialog.cpp:58
 #, kde-format
-msgid "Save Scan Parameters"
+msgid "Save Scan Preset"
 msgstr ""
 
-#: newscanparams.cpp:60
+#: newscanpresetdialog.cpp:59
 #, kde-format
-msgid "Enter a name and description for the new scan parameter set."
+msgid "Enter a name and description for the new scan preset."
 msgstr ""
 
-#: newscanparams.cpp:67
+#: newscanpresetdialog.cpp:66
 #, kde-format
-msgid "Set name:"
+msgid "Preset name:"
 msgstr ""
 
-#: newscanparams.cpp:74
+#: newscanpresetdialog.cpp:73
 #, kde-format
 msgid "Description:"
 msgstr ""
@@ -2446,70 +2441,71 @@ msgstr ""
 msgid "Folder Create Error"
 msgstr ""
 
-#: scanparamsdialog.cpp:61
+#: scanpresetsdialog.cpp:63
 #, kde-format
-msgid "Scan Parameters"
+msgid "Scan Presets"
 msgstr ""
 
-#: scanparamsdialog.cpp:74
+#: scanpresetsdialog.cpp:76
 #, kde-format
-msgid "Saved scan parameter sets:"
+msgid "Saved scan preset sets:"
 msgstr ""
 
-#: scanparamsdialog.cpp:78
+#: scanpresetsdialog.cpp:80
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: scanparamsdialog.cpp:80
+#: scanpresetsdialog.cpp:82
 #, kde-format
-msgid "Load the selected scan parameter set to use as scanner settings"
+msgid "Load the selected scan preset set to use as scanner settings"
 msgstr ""
 
-#: scanparamsdialog.cpp:84
+#: scanpresetsdialog.cpp:86
 #, kde-format
 msgid "Save..."
 msgstr ""
 
-#: scanparamsdialog.cpp:86
+#: scanpresetsdialog.cpp:88
 #, kde-format
-msgid "Save the current scanner settings as a new scan parameter set"
+msgid "Save the current scanner settings as a new scan preset set"
 msgstr ""
 
-#: scanparamsdialog.cpp:92
+#: scanpresetsdialog.cpp:94
 #, kde-format
-msgid "Delete the selected scan parameter set"
+msgid "Delete the selected scan preset set"
 msgstr ""
 
-#: scanparamsdialog.cpp:96
+#: scanpresetsdialog.cpp:98
 #, kde-format
 msgid "Edit..."
 msgstr ""
 
-#: scanparamsdialog.cpp:98
+#: scanpresetsdialog.cpp:100
 #, kde-format
-msgid "Change the name or description of the selected scan parameter set"
+msgid "Change the name or description of the selected scan preset set"
 msgstr ""
 
-#: scanparamsdialog.cpp:136
+#: scanpresetsdialog.cpp:146
 #, kde-format
-msgid "No save set selected."
+msgid "No preset set selected."
 msgstr ""
 
-#: scanparamsdialog.cpp:192
+#: scanpresetsdialog.cpp:212
 #, kde-format
+msgctxt "New set name, %1=scan mode, %2=resolution"
 msgid "%1, %2 dpi"
 msgstr ""
 
-#: scanparamsdialog.cpp:270
+#: scanpresetsdialog.cpp:289
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to delete the set <resource>%1</resource>?"
 msgstr ""
 
-#: scanparamsdialog.cpp:271
+#: scanpresetsdialog.cpp:290
 #, kde-format
-msgid "Delete Scan Parameter Set"
+msgid "Delete Scan Preset Set"
 msgstr ""
 
 #: statusbarmanager.cpp:52
