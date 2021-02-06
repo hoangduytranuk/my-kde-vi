@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewstuff\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-03 02:46+0100\n"
+"POT-Creation-Date: 2021-02-06 02:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -483,7 +483,7 @@ msgstr ""
 msgid "Get Hot New Stuff!"
 msgstr ""
 
-#: downloadwidget.cpp:263 qtquick/qml/Page.qml:199
+#: downloadwidget.cpp:263
 #, kde-format
 msgid "Icons view mode"
 msgstr ""
@@ -512,7 +512,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
-#: downloadwidget.ui:71 uploaddialog.ui:304
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:347 uploaddialog.ui:304
 #, kde-format
 msgid "Category:"
 msgstr ""
@@ -530,13 +530,13 @@ msgid "Newest"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:110
+#: downloadwidget.ui:110 qtquick/qml/Page.qml:274
 #, kde-format
 msgid "Rating"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117
+#: downloadwidget.ui:117 qtquick/qml/Page.qml:223
 #, kde-format
 msgid "Installed"
 msgstr ""
@@ -554,7 +554,7 @@ msgid "Search:"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:217 qtquick/qml/Page.qml:213
+#: downloadwidget.ui:217 qtquick/qml/Page.qml:327 qtquick/qml/Page.qml:332
 #, kde-format
 msgid "Search..."
 msgstr ""
@@ -912,14 +912,14 @@ msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:69 qtquick/qml/Page.qml:253
+#: qtquick/qml/NewStuffList.qml:69
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items are shown"
 msgid "Installed Only"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:70 qtquick/qml/Page.qml:254
+#: qtquick/qml/NewStuffList.qml:70
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -966,64 +966,119 @@ msgid ""
 "not be found."
 msgstr ""
 
-#: qtquick/qml/Page.qml:190
+#: qtquick/qml/Page.qml:176
 #, kde-format
-msgid "Tiles view mode"
+msgid "Tiles"
 msgstr ""
 
-#: qtquick/qml/Page.qml:208
+#: qtquick/qml/Page.qml:178
 #, kde-format
-msgid "Preview view mode"
+msgid "Icons"
 msgstr ""
 
-#: qtquick/qml/Page.qml:234
+#: qtquick/qml/Page.qml:180
 #, kde-format
-msgid "Show:"
+msgid "Preview"
+msgstr ""
+
+#: qtquick/qml/Page.qml:195
+#, kde-format
+msgid "Detailed Tiles View Mode"
+msgstr ""
+
+#: qtquick/qml/Page.qml:203
+#, kde-format
+msgid "Icons Only View Mode"
+msgstr ""
+
+#: qtquick/qml/Page.qml:211
+#, kde-format
+msgid "Large Preview View Mode"
+msgstr ""
+
+#: qtquick/qml/Page.qml:221
+#, kde-format
+msgid "Everything"
+msgstr ""
+
+#: qtquick/qml/Page.qml:225
+#, kde-format
+msgid "Updateable"
+msgstr ""
+
+#: qtquick/qml/Page.qml:244
+#, kde-format
+msgctxt "List option which will set the filter to show everything"
+msgid "Show All Entries"
 msgstr ""
 
 #: qtquick/qml/Page.qml:252
 #, kde-format
-msgctxt "List option which will set the filter to show everything"
-msgid "Everything"
+msgctxt ""
+"List option which will set the filter so only installed items are shown"
+msgid "Show Only Installed Entries"
 msgstr ""
 
-#: qtquick/qml/Page.qml:266
+#: qtquick/qml/Page.qml:260
+#, kde-format
+msgctxt ""
+"List option which will set the filter so only installed items with updates "
+"available are shown"
+msgid "Show Only Updateable Entries"
+msgstr ""
+
+#: qtquick/qml/Page.qml:270
+#, kde-format
+msgid "Recent"
+msgstr ""
+
+#: qtquick/qml/Page.qml:272
+#, kde-format
+msgid "Alphabetical"
+msgstr ""
+
+#: qtquick/qml/Page.qml:276
+#, kde-format
+msgid "Downloads"
+msgstr ""
+
+#: qtquick/qml/Page.qml:295
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
 "recently updated"
-msgid "Most recent first"
+msgid "Show Most Recent First"
 msgstr ""
 
-#: qtquick/qml/Page.qml:267
+#: qtquick/qml/Page.qml:303
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
 "name"
-msgid "A-Z"
+msgid "Sort Alphabetically By Name"
 msgstr ""
 
-#: qtquick/qml/Page.qml:268
+#: qtquick/qml/Page.qml:311
 #, kde-format
 msgctxt "List option which will set the sort order to based on user ratings"
-msgid "Highest rated first"
+msgid "Show Highest Rated First"
 msgstr ""
 
-#: qtquick/qml/Page.qml:269
+#: qtquick/qml/Page.qml:319
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
-msgid "Most downloaded first"
+msgid "Show Most Downloaded First"
 msgstr ""
 
-#: qtquick/qml/Page.qml:344
+#: qtquick/qml/Page.qml:426
 #, kde-format
 msgctxt ""
 "A text shown beside a busy indicator suggesting that data is being fetched"
 msgid "Loading more..."
 msgstr ""
 
-#: qtquick/qml/Page.qml:355
+#: qtquick/qml/Page.qml:437
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "

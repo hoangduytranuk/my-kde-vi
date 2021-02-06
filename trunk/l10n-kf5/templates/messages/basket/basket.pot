@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: basket\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-28 02:58+0100\n"
+"POT-Creation-Date: 2021-02-06 02:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26,6 +26,118 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: devtools/weaver/main.cpp:18
+#, kde-format
+msgid "basketweaver"
+msgstr ""
+
+#: devtools/weaver/main.cpp:19
+#, kde-format
+msgid "Encodes and decodes .baskets files"
+msgstr ""
+
+#: devtools/weaver/main.cpp:28
+#, kde-format
+msgid "Destination directory. Optional."
+msgstr ""
+
+#: devtools/weaver/main.cpp:33
+#, kde-format
+msgid ""
+"Use the <image> as preview image for a .baskets file. Must be a .png file."
+msgstr ""
+
+#: devtools/weaver/main.cpp:39
+#, kde-format
+msgid "Decodes the <file>. Cannot be used together with --weave."
+msgstr ""
+
+#: devtools/weaver/main.cpp:45
+#, kde-format
+msgid "Encodes the <directory>. Cannot be used together with --unweave."
+msgstr ""
+
+#: devtools/weaver/main.cpp:51
+#, kde-format
+msgid ""
+"This optional value will be used to label the new content within the "
+"optionally given output directory"
+msgstr ""
+
+#: devtools/weaver/main.cpp:56
+#, kde-format
+msgid "Overwrite existing files."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:45
+#, kde-format
+msgid "You need to provide at least one --weave/-w or --unweave/-w option"
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:50
+#, kde-format
+msgid "You cannot use --weave/-w and --unweave/-u options in conjunction."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:56
+#, kde-format
+msgid ""
+"Multiple --weave/-w or --unweave/-u input options found. All but the first "
+"input are going to be ignored."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:80
+#, kde-format
+msgid "The source seems to be an invalid .baskets file"
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:87 devtools/weaver/weaver.cpp:128
+#, kde-format
+msgid "Output directory does not exist."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:114
+#, kde-format
+msgid "The source seems to be invalid."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:282
+#, kde-format
+msgid "Could not open file."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:306 src/archive.cpp:254
+#, kde-format
+msgid "Failed to open a file resource."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:309 src/archive.cpp:257
+#, kde-format
+msgid "This file is not a basket archive."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:312 src/archive.cpp:260
+#, kde-format
+msgid "This file is corrupted. It can not be opened."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:315
+#, kde-format
+msgid "The destination path already exists."
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:318
+#, kde-format
+msgid "This file supplied file format is not supported"
+msgstr ""
+
+#: devtools/weaver/weaver.cpp:321
+#, kde-format
+msgid ""
+"This file was created with a more recent version of BasKet Note Pads. It "
+"might not be fully supported"
 msgstr ""
 
 #: src/aboutdata.cpp:13
@@ -134,25 +246,10 @@ msgstr ""
 msgid "Saving as basket archive. Please wait..."
 msgstr ""
 
-#: src/archive.cpp:254
-#, kde-format
-msgid "Failed to open a file resource."
-msgstr ""
-
 #: src/archive.cpp:254 src/archive.cpp:257 src/archive.cpp:260
 #: src/archive.cpp:263 src/archive.cpp:270 src/archive.cpp:279
 #, kde-format
 msgid "Basket Archive Error"
-msgstr ""
-
-#: src/archive.cpp:257
-#, kde-format
-msgid "This file is not a basket archive."
-msgstr ""
-
-#: src/archive.cpp:260
-#, kde-format
-msgid "This file is corrupted. It can not be opened."
 msgstr ""
 
 #: src/archive.cpp:263
