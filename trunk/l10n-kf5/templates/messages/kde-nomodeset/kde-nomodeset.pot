@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde-nomodeset\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-25 02:43+0100\n"
+"POT-Creation-Date: 2021-02-09 03:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -113,14 +113,40 @@ msgctxt "@title"
 msgid "Unexpected Error"
 msgstr ""
 
+#: qml/InfoPage.qml:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid ""
+"If regular graphics mode is not working on this system you'll need to figure "
+"out what's wrong or ask for help in a support forum for this operating "
+"system. Whatever is wrong needs to be resolved on the installed system "
+"before it can perform properly."
+msgstr ""
+
 #: qml/main.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Safe Graphics Mode"
 msgstr ""
 
-#: qml/main.qml:29
+#: qml/main.qml:20
 #, kde-format
 msgctxt "@label"
-msgid "qrc:/DisablePage.qml"
+msgid ""
+"This system is running in Safe Graphics Mode (also known as 'nomodeset'). "
+"While this mode often works even when the graphics driver is malfunctioning "
+"it is also greatly impairing the ability of your graphics card to work as "
+"intended because the system likely is using a very basic fallback graphics "
+"driver."
+msgstr ""
+
+#: qml/main.qml:22
+#, kde-format
+msgctxt "@label"
+msgid ""
+"It is advised to deal with whatever is wrong with your system that you felt "
+"the need to use Safe Graphics Mode. This likely means either upgrading the "
+"Linux kernel or installing a graphics driver that correctly supports the "
+"graphics card. If you are unsure what to do it's probably best to ask in a "
+"support forum for this operating system."
 msgstr ""
