@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-11 02:38+0100\n"
+"POT-Creation-Date: 2021-02-12 02:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1545,7 +1545,7 @@ msgid "Name:"
 msgstr ""
 
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:40
-#: widgets/channellist/channellistwidget.cpp:63
+#: widgets/channellist/channellistwidget.cpp:64
 #: widgets/dialogs/directchannelinfowidget.cpp:58
 #: widgets/dialogs/modifystatuswidget.cpp:44
 #, kde-format
@@ -1834,12 +1834,12 @@ msgstr ""
 
 #: widgets/channellist/channellistwidget.cpp:50
 #, kde-format
-msgid "Search Rooms (CTRL + K)"
+msgid "Search Channels (CTRL + K)"
 msgstr ""
 
-#: widgets/channellist/channellistwidget.cpp:73
+#: widgets/channellist/channellistwidget.cpp:74
 #, kde-format
-msgid "Search Rooms"
+msgid "Search Channels"
 msgstr ""
 
 #: widgets/configuredialog/configureaccountserverwidget.cpp:71
@@ -1990,8 +1990,8 @@ msgid "Description:"
 msgstr ""
 
 #: widgets/dialogs/channelinfowidget.cpp:105
-#: widgets/dialogs/createnewaccountwidget.cpp:56
 #: widgets/dialogs/createnewchannelwidget.cpp:67
+#: widgets/dialogs/createnewserverwidget.cpp:56
 #: widgets/registeruser/registeruserwidget.cpp:49
 #: widgets/ruqolaloginwidget.cpp:79
 #, kde-format
@@ -2164,38 +2164,6 @@ msgstr ""
 msgid "Select Users..."
 msgstr ""
 
-#: widgets/dialogs/createnewaccountdialog.cpp:39
-#, kde-format
-msgctxt "@title:window"
-msgid "Add Account"
-msgstr ""
-
-#: widgets/dialogs/createnewaccountdialog.cpp:72
-#, kde-format
-msgctxt "@title:window"
-msgid "Modify Account"
-msgstr ""
-
-#: widgets/dialogs/createnewaccountwidget.cpp:40
-#: widgets/dialogs/serverinfowidget.cpp:38
-#: widgets/ruqolaloginwidget.cpp:46
-#, kde-format
-msgid "Account Name:"
-msgstr ""
-
-#: widgets/dialogs/createnewaccountwidget.cpp:46
-#: widgets/ruqolaloginwidget.cpp:50
-#, kde-format
-msgid "Server Name:"
-msgstr ""
-
-#: widgets/dialogs/createnewaccountwidget.cpp:52
-#: widgets/dialogs/serverinfowidget.cpp:44
-#: widgets/ruqolaloginwidget.cpp:54
-#, kde-format
-msgid "User Name:"
-msgstr ""
-
 #: widgets/dialogs/createnewchanneldialog.cpp:37
 #, kde-format
 msgctxt "@title:window"
@@ -2263,6 +2231,38 @@ msgstr ""
 #: widgets/dialogs/createnewdiscussionwidget.cpp:70
 #, kde-format
 msgid "Message"
+msgstr ""
+
+#: widgets/dialogs/createnewserverdialog.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Server"
+msgstr ""
+
+#: widgets/dialogs/createnewserverdialog.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Modify Account"
+msgstr ""
+
+#: widgets/dialogs/createnewserverwidget.cpp:40
+#: widgets/dialogs/serverinfowidget.cpp:38
+#: widgets/ruqolaloginwidget.cpp:46
+#, kde-format
+msgid "Account Name:"
+msgstr ""
+
+#: widgets/dialogs/createnewserverwidget.cpp:46
+#: widgets/ruqolaloginwidget.cpp:50
+#, kde-format
+msgid "Server Name:"
+msgstr ""
+
+#: widgets/dialogs/createnewserverwidget.cpp:52
+#: widgets/dialogs/serverinfowidget.cpp:44
+#: widgets/ruqolaloginwidget.cpp:54
+#, kde-format
+msgid "User Name:"
 msgstr ""
 
 #: widgets/dialogs/createvideomessagedialog.cpp:32
@@ -2463,12 +2463,12 @@ msgctxt "@title:window"
 msgid "Search Messages in '%1'"
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:43
+#: widgets/dialogs/searchmessagelineedit.cpp:30
 #, kde-format
 msgid "Search Word..."
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:83
+#: widgets/dialogs/searchmessagewidget.cpp:88
 #: widgets/dialogs/showdiscussionswidget.cpp:83
 #: widgets/dialogs/showlistmessagebasewidget.cpp:95
 #: widgets/room/usersinroomwidget.cpp:149
@@ -2476,14 +2476,14 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:85
+#: widgets/dialogs/searchmessagewidget.cpp:92
 #: widgets/dialogs/showlistmessagebasewidget.cpp:97
 #: widgets/room/usersinroomwidget.cpp:151
 #, kde-format
 msgid "No Message found"
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:91
+#: widgets/dialogs/searchmessagewidget.cpp:98
 #, kde-format
 msgid "%1 Message in room"
 msgid_plural "%1 Messages in room"
@@ -2605,7 +2605,7 @@ msgid "Zoom:"
 msgstr ""
 
 #: widgets/dialogs/showlistmessagebasewidget.cpp:42
-#: widgets/room/roomheaderwidget.cpp:130
+#: widgets/room/roomheaderwidget.cpp:136
 #, kde-format
 msgid "Search Messages..."
 msgstr ""
@@ -2707,11 +2707,6 @@ msgstr ""
 msgid "Html"
 msgstr ""
 
-#: widgets/misc/accountmenu.cpp:33
-#, kde-format
-msgid "Account"
-msgstr ""
-
 #: widgets/misc/accountsoverviewwidget.cpp:146
 #, kde-format
 msgid "(Unnamed)"
@@ -2808,6 +2803,11 @@ msgstr ""
 #: widgets/misc/recentusedemoticonview.cpp:39
 #, kde-format
 msgid "Clear Recents"
+msgstr ""
+
+#: widgets/misc/servermenu.cpp:33
+#, kde-format
+msgid "Account"
 msgstr ""
 
 #: widgets/misc/statuscombobox.cpp:43
@@ -3159,12 +3159,12 @@ msgstr[1] ""
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/messagelinewidget.cpp:227
+#: widgets/room/messagelinewidget.cpp:230
 #, kde-format
 msgid "File selected is too big (Maximum size %1)"
 msgstr ""
 
-#: widgets/room/messagelinewidget.cpp:227
+#: widgets/room/messagelinewidget.cpp:230
 #, kde-format
 msgid "File upload"
 msgstr ""
@@ -3271,22 +3271,22 @@ msgstr[1] ""
 msgid "(Mark As Read)"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:46
+#: widgets/room/roomheaderwidget.cpp:47
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:61
+#: widgets/room/roomheaderwidget.cpp:64
 #, kde-format
 msgid "E2E Enabled"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:114
+#: widgets/room/roomheaderwidget.cpp:118
 #, kde-format
 msgid "Channel Info"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:122
+#: widgets/room/roomheaderwidget.cpp:127
 #, kde-format
 msgid "Show List of Users"
 msgstr ""
@@ -3418,7 +3418,7 @@ msgstr ""
 msgid "Ignore"
 msgstr ""
 
-#: widgets/ruqolacentralwidget.cpp:59
+#: widgets/ruqolacentralwidget.cpp:60
 #, kde-format
 msgid "Error"
 msgstr ""
@@ -3467,7 +3467,7 @@ msgstr ""
 
 #: widgets/ruqolamainwindow.cpp:223
 #, kde-format
-msgid "Add Account..."
+msgid "Add Server..."
 msgstr ""
 
 #: widgets/ruqolamainwindow.cpp:228
