@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-14 02:53+0100\n"
+"POT-Creation-Date: 2021-02-17 03:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -73,7 +73,179 @@ msgstr ""
 msgid "Failed to create new branch. Error \"%1\""
 msgstr ""
 
-#: kateproject.cpp:374
+#: gitcommitdialog.cpp:71
+#, kde-format
+msgid "Commit Changes"
+msgstr ""
+
+#: gitcommitdialog.cpp:73 gitwidget.cpp:58
+#, kde-format
+msgid "Commit"
+msgstr ""
+
+#: gitcommitdialog.cpp:74
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: gitcommitdialog.cpp:76
+#, kde-format
+msgid "Write commit message..."
+msgstr ""
+
+#: gitcommitdialog.cpp:84
+#, kde-format
+msgid "Extended commit description..."
+msgstr ""
+
+#: gitstatusmodel.cpp:81
+#, kde-format
+msgid "Staged (%1)"
+msgstr ""
+
+#: gitstatusmodel.cpp:83
+#, kde-format
+msgid "Untracked (%1)"
+msgstr ""
+
+#: gitstatusmodel.cpp:85
+#, kde-format
+msgid "Conflict (%1)"
+msgstr ""
+
+#: gitstatusmodel.cpp:87
+#, kde-format
+msgid "Modified (%1)"
+msgstr ""
+
+#: gitwidget.cpp:96
+#, kde-format
+msgid ""
+"Failed to find .git directory. Things may not work correctly. Error:\n"
+"%1"
+msgstr ""
+
+#: gitwidget.cpp:159 gitwidget.cpp:180
+#, kde-format
+msgid ""
+"Failed to stage file. Error:\n"
+"%1"
+msgstr ""
+
+#: gitwidget.cpp:203
+#, kde-format
+msgid ""
+"Failed to discard changes. Error:\n"
+"%1"
+msgstr ""
+
+#: gitwidget.cpp:229
+#, kde-format
+msgid ""
+"Failed to open file at HEAD. Error:\n"
+"%1"
+msgstr ""
+
+#: gitwidget.cpp:283
+#, kde-format
+msgid ""
+"Failed to get Diff of file. Error:\n"
+"%1"
+msgstr ""
+
+#: gitwidget.cpp:345
+#, kde-format
+msgid ""
+"Failed to commit. \n"
+" %1"
+msgstr ""
+
+#: gitwidget.cpp:347
+#, kde-format
+msgid "Changes committed successfully."
+msgstr ""
+
+#: gitwidget.cpp:357
+#, kde-format
+msgid "Nothing to commit. Please stage your changes first."
+msgstr ""
+
+#: gitwidget.cpp:374
+#, kde-format
+msgid "Commit message cannot be empty."
+msgstr ""
+
+#: gitwidget.cpp:388
+#, kde-format
+msgid "Failed to get git-status. Error: %1"
+msgstr ""
+
+#: gitwidget.cpp:436
+#, kde-format
+msgid "Refresh"
+msgstr ""
+
+#: gitwidget.cpp:441
+#, kde-format
+msgid "Checkout Branch"
+msgstr ""
+
+#: gitwidget.cpp:457
+#, kde-format
+msgid "Stage All"
+msgstr ""
+
+#: gitwidget.cpp:459
+#, kde-format
+msgid "Discard All"
+msgstr ""
+
+#: gitwidget.cpp:481
+#, kde-format
+msgid "Show raw diff"
+msgstr ""
+
+#: gitwidget.cpp:482
+#, kde-format
+msgid "Show in external diff tool"
+msgstr ""
+
+#: gitwidget.cpp:483
+#, kde-format
+msgid "Open at HEAD"
+msgstr ""
+
+#: gitwidget.cpp:484
+#, kde-format
+msgid "Unstage file"
+msgstr ""
+
+#: gitwidget.cpp:484
+#, kde-format
+msgid "Stage file"
+msgstr ""
+
+#: gitwidget.cpp:485
+#, kde-format
+msgid "Discard"
+msgstr ""
+
+#: gitwidget.cpp:505
+#, kde-format
+msgid "Unstage All"
+msgstr ""
+
+#: gitwidget.cpp:549
+#, kde-format
+msgid "Unstage Selected Files"
+msgstr ""
+
+#: gitwidget.cpp:549
+#, kde-format
+msgid "Stage Selected Files"
+msgstr ""
+
+#: kateproject.cpp:401
 #, kde-format
 msgid "<untracked>"
 msgstr ""
@@ -342,7 +514,7 @@ msgstr ""
 msgid "Git:"
 msgstr ""
 
-#: kateprojectview.cpp:59
+#: kateprojectview.cpp:79
 #, kde-format
 msgid "Filter..."
 msgstr ""

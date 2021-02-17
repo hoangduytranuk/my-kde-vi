@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-15 03:00+0100\n"
+"POT-Creation-Date: 2021-02-17 03:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -134,7 +134,7 @@ msgctxt "primary screen"
 msgid "Primary"
 msgstr ""
 
-#: app/layout/genericlayout.cpp:1561
+#: app/layout/genericlayout.cpp:1561 app/settings/settingsdialog/tablayoutshandler.cpp:445
 #, kde-format
 msgid "Yes"
 msgstr ""
@@ -196,12 +196,12 @@ msgid ""
 "layout(s) <b>[%0]</b> were updated for consistency!!!"
 msgstr ""
 
-#: app/layouts/storage.cpp:921
+#: app/layouts/storage.cpp:933
 #, kde-format
 msgid "Same applet and containment id found ::: "
 msgstr ""
 
-#: app/layouts/storage.cpp:930
+#: app/layouts/storage.cpp:942
 #, kde-format
 msgid "Different applets with same id ::: "
 msgstr ""
@@ -756,8 +756,8 @@ msgstr ""
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:220
 #: app/settings/settingsdialog/settingsdialog.cpp:356
-#: app/settings/settingsdialog/tablayoutshandler.cpp:614
-#: app/settings/settingsdialog/tablayoutshandler.cpp:637
+#: app/settings/settingsdialog/tablayoutshandler.cpp:659
+#: app/settings/settingsdialog/tablayoutshandler.cpp:682
 #, kde-format
 msgid "Open Location..."
 msgstr ""
@@ -979,13 +979,13 @@ msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:352
-#: app/settings/settingsdialog/tablayoutshandler.cpp:633
+#: app/settings/settingsdialog/tablayoutshandler.cpp:678
 #, kde-format
 msgid "Full configuration export <b>failed</b>..."
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:369
-#: app/settings/settingsdialog/tablayoutshandler.cpp:650
+#: app/settings/settingsdialog/tablayoutshandler.cpp:695
 #, kde-format
 msgid "Full configuration export succeeded..."
 msgstr ""
@@ -1305,241 +1305,268 @@ msgstr ""
 msgid "Press ⌘ to activate Application Launcher"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:123
+#: app/settings/settingsdialog/tablayoutshandler.cpp:124
 #, kde-format
 msgid "Layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:127
+#: app/settings/settingsdialog/tablayoutshandler.cpp:128
 #, kde-format
 msgctxt "switch layout"
 msgid "Switch"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:128
+#: app/settings/settingsdialog/tablayoutshandler.cpp:129
 #, kde-format
 msgid "Switch to selected layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:134
+#: app/settings/settingsdialog/tablayoutshandler.cpp:135
 #, kde-format
 msgid "&Activities"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:135
+#: app/settings/settingsdialog/tablayoutshandler.cpp:136
 #, kde-format
 msgid "Show Plasma Activities manager"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:143
+#: app/settings/settingsdialog/tablayoutshandler.cpp:144
 #, kde-format
 msgctxt "new layout"
 msgid "&New"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:144
+#: app/settings/settingsdialog/tablayoutshandler.cpp:145
 #, kde-format
 msgid "New layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:156
+#: app/settings/settingsdialog/tablayoutshandler.cpp:157
 #, kde-format
 msgctxt "copy layout"
 msgid "&Copy"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:157
+#: app/settings/settingsdialog/tablayoutshandler.cpp:158
 #, kde-format
 msgid "Copy selected layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:163
+#: app/settings/settingsdialog/tablayoutshandler.cpp:164
 #, kde-format
 msgctxt "remove layout"
 msgid "Remove"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:164
+#: app/settings/settingsdialog/tablayoutshandler.cpp:165
 #, kde-format
 msgid "Remove selected layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:172
+#: app/settings/settingsdialog/tablayoutshandler.cpp:173
 #, kde-format
 msgid "Ena&bled"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:173
+#: app/settings/settingsdialog/tablayoutshandler.cpp:174
 #, kde-format
 msgid "Assign in activities in order to be activated through Plasma Activities"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:180
+#: app/settings/settingsdialog/tablayoutshandler.cpp:181
 #, kde-format
 msgctxt "read only layout"
 msgid "&Read Only"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:181
+#: app/settings/settingsdialog/tablayoutshandler.cpp:182
 #, kde-format
 msgid "Make selected layout read-only"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:188
+#: app/settings/settingsdialog/tablayoutshandler.cpp:189
 #, kde-format
 msgctxt "layout details"
 msgid "De&tails..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:189
+#: app/settings/settingsdialog/tablayoutshandler.cpp:190
 #, kde-format
 msgid "Show selected layout details"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:197
+#: app/settings/settingsdialog/tablayoutshandler.cpp:198
 #, kde-format
 msgctxt "import layout"
 msgid "&Import..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:198
+#: app/settings/settingsdialog/tablayoutshandler.cpp:199
 #, kde-format
 msgid "Import layout file from your system"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:204
+#: app/settings/settingsdialog/tablayoutshandler.cpp:205
 #, kde-format
 msgctxt "export layout"
 msgid "Exp&ort"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:205
+#: app/settings/settingsdialog/tablayoutshandler.cpp:206
 #, kde-format
 msgid "Export selected layout at your system"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:215
+#: app/settings/settingsdialog/tablayoutshandler.cpp:216
 #, kde-format
 msgctxt "download layout"
 msgid "&Download..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:216
+#: app/settings/settingsdialog/tablayoutshandler.cpp:217
 #, kde-format
 msgid "Download community layouts from KDE Store"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:232
+#: app/settings/settingsdialog/tablayoutshandler.cpp:233
 #, kde-format
 msgctxt "export layout for backup"
 msgid "&Export For Backup..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:237
+#: app/settings/settingsdialog/tablayoutshandler.cpp:238
 #, kde-format
 msgctxt "export layout as layout template"
 msgid "Export As &Template..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:327
+#: app/settings/settingsdialog/tablayoutshandler.cpp:274
+#, kde-format
+msgid "Templates..."
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:275
+#, kde-format
+msgid "Open templates directory"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:341
 #, kde-format
 msgctxt "settings:not permitted switching layout"
 msgid ""
 "You need to <b>apply</b> your changes first to switch layout afterwards..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:400
+#: app/settings/settingsdialog/tablayoutshandler.cpp:414
 #, kde-format
 msgctxt "settings:layout added successfully"
 msgid "Layout <b>%0</b> added successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:435
+#: app/settings/settingsdialog/tablayoutshandler.cpp:434
 #, kde-format
 msgctxt "settings:layout downloaded successfully"
 msgid "Layout <b>%0</b> downloaded successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:461
-#, kde-format
-msgctxt "settings: active layout remove"
-msgid "<b>Active</b> layouts can not be removed..."
-msgstr ""
-
-#: app/settings/settingsdialog/tablayoutshandler.cpp:467
-#, kde-format
-msgctxt "settings: locked layout remove"
-msgid "Locked layouts can not be removed..."
-msgstr ""
-
-#: app/settings/settingsdialog/tablayoutshandler.cpp:498
-#, kde-format
-msgctxt "import layout"
-msgid "Import Layout"
-msgstr ""
-
-#: app/settings/settingsdialog/tablayoutshandler.cpp:501
-#, kde-format
-msgctxt "import layout"
-msgid "Import"
-msgstr ""
-
-#: app/settings/settingsdialog/tablayoutshandler.cpp:507
-#, kde-format
-msgctxt "import latte layout"
-msgid "Latte Dock Layout file v0.2"
-msgstr ""
-
-#: app/settings/settingsdialog/tablayoutshandler.cpp:508
-#, kde-format
-msgctxt "import older latte layout"
-msgid "Latte Dock Layout file v0.1"
-msgstr ""
-
-#: app/settings/settingsdialog/tablayoutshandler.cpp:519
-#: app/settings/settingsdialog/tablayoutshandler.cpp:697
-#: app/settings/settingsdialog/tablayoutshandler.cpp:708
+#: app/settings/settingsdialog/tablayoutshandler.cpp:435
+#: app/settings/settingsdialog/tablayoutshandler.cpp:742
+#: app/settings/settingsdialog/tablayoutshandler.cpp:753
 #, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%0</b> imported successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:523
+#: app/settings/settingsdialog/tablayoutshandler.cpp:440
+#, kde-format
+msgctxt "settings:layout import template"
+msgid "Would you like to update your <b>%0</b> layout template?"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:442
+#, kde-format
+msgctxt "settings:layout import template"
+msgid "Would you like to add <b>%0</b> in your layout templates?"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:446
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:507
+#, kde-format
+msgctxt "settings: active layout remove"
+msgid "<b>Active</b> layouts can not be removed..."
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:513
+#, kde-format
+msgctxt "settings: locked layout remove"
+msgid "Locked layouts can not be removed..."
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:544
+#, kde-format
+msgctxt "import layout"
+msgid "Import Layout"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:547
+#, kde-format
+msgctxt "import layout"
+msgid "Import"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:553
+#, kde-format
+msgctxt "import latte layout"
+msgid "Latte Dock Layout file v0.2"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:554
+#, kde-format
+msgctxt "import older latte layout"
+msgid "Latte Dock Layout file v0.1"
+msgstr ""
+
+#: app/settings/settingsdialog/tablayoutshandler.cpp:568
 #, kde-format
 msgctxt "settings:deprecated layouts import failed"
 msgid "Import layouts from deprecated version <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:570
+#: app/settings/settingsdialog/tablayoutshandler.cpp:615
 #, kde-format
 msgid "Export Layout For Backup"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:572
+#: app/settings/settingsdialog/tablayoutshandler.cpp:617
 #, kde-format
 msgctxt "export layout"
 msgid "Export"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:578
+#: app/settings/settingsdialog/tablayoutshandler.cpp:623
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:588
+#: app/settings/settingsdialog/tablayoutshandler.cpp:633
 #, kde-format
 msgctxt "settings:layout export fail"
 msgid "Layout <b>%0</b> export <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:627
+#: app/settings/settingsdialog/tablayoutshandler.cpp:672
 #, kde-format
 msgctxt "settings:layout export success"
 msgid "Layout <b>%0</b> export succeeded..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:700
+#: app/settings/settingsdialog/tablayoutshandler.cpp:745
 #, kde-format
 msgctxt "settings:layouts imported successfully"
 msgid "Layouts <b>%0</b> imported successfully..."
@@ -1570,13 +1597,13 @@ msgstr ""
 msgid "New Instance for Entry %1"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:287
+#: app/templates/templatesmanager.cpp:314
 #, kde-format
 msgctxt "default layout template name"
 msgid "Default"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:288
+#: app/templates/templatesmanager.cpp:315
 #, kde-format
 msgctxt "empty layout template name"
 msgid "Empty"

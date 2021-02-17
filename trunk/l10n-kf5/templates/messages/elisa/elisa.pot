@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-24 02:31+0100\n"
+"POT-Creation-Date: 2021-02-17 02:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -326,18 +326,18 @@ msgstr ""
 msgid "Color Scheme"
 msgstr ""
 
-#: qml/ContextView.qml:78
+#: qml/ContextView.qml:39
 #, kde-format
 msgctxt "Title of the context view related to the currently playing track"
 msgid "Now Playing"
 msgstr ""
 
-#: qml/ContextView.qml:310
+#: qml/ContextView.qml:317
 #, kde-format
 msgid "Nothing playing"
 msgstr ""
 
-#: qml/ContextView.qml:332
+#: qml/ContextView.qml:338
 #, kde-format
 msgid "Show In Folder"
 msgstr ""
@@ -655,73 +655,61 @@ msgstr ""
 
 #: qml/MediaPlayListView.qml:51
 #, kde-format
-msgctxt "Undo"
-msgid "Undo"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:58 qml/MediaPlayListView.qml:65
-#, kde-format
-msgctxt "Retry"
-msgid "Retry"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:73
-#, kde-format
-msgctxt "Message when playlist load failed"
-msgid "Loading failed"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:80
-#, kde-format
-msgctxt "Playlist cleared"
-msgid "Playlist cleared"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:101
-#, kde-format
-msgctxt "file type (mime type) for m3u playlist"
-msgid "Playlist (*.m3u)"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:107
-#, kde-format
-msgctxt "Message when saving a playlist failed"
-msgid "Saving failed"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:131
-#, kde-format
 msgctxt ""
 "@info Title of the view of the playlist; keep this string as short as "
 "possible because horizontal space is quite scarce"
 msgid "Playlist"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:139
+#: qml/MediaPlayListView.qml:64
+#, kde-format
+msgctxt "Undo"
+msgid "Undo"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:71 qml/MediaPlayListView.qml:78
+#, kde-format
+msgctxt "Retry"
+msgid "Retry"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:86
+#, kde-format
+msgctxt "Message when playlist load failed"
+msgid "Loading failed"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:93
+#, kde-format
+msgctxt "Playlist cleared"
+msgid "Playlist cleared"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:126
 #, kde-format
 msgctxt "Show currently played track inside playlist"
 msgid "Show Current Track"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:150
+#: qml/MediaPlayListView.qml:138
 #, kde-format
 msgctxt "Save a playlist file"
 msgid "Save Playlist..."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:161
+#: qml/MediaPlayListView.qml:150
 #, kde-format
 msgctxt "Load a playlist file"
 msgid "Load Playlist..."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:170
+#: qml/MediaPlayListView.qml:160
 #, kde-format
 msgctxt "Remove all tracks from play list"
 msgid "Clear Playlist"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:191
+#: qml/MediaPlayListView.qml:313
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -729,25 +717,37 @@ msgid ""
 "browse your music using the views on the left."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:249
+#: qml/MediaPlayListView.qml:354
 #, kde-format
 msgid "%1 track"
 msgid_plural "%1 tracks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/MediaPlayListView.qml:258
+#: qml/MediaPlayListView.qml:363
 #, kde-format
 msgid "Last track"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:258
+#: qml/MediaPlayListView.qml:363
 #, kde-format
 msgctxt "Number of remaining tracks in a playlist of songs"
 msgid "%1 remaining"
 msgid_plural "%1 remaining"
 msgstr[0] ""
 msgstr[1] ""
+
+#: qml/MediaPlayListView.qml:374
+#, kde-format
+msgctxt "file type (mime type) for m3u playlist"
+msgid "Playlist (*.m3u)"
+msgstr ""
+
+#: qml/MediaPlayListView.qml:380
+#, kde-format
+msgctxt "Message when saving a playlist failed"
+msgid "Saving failed"
+msgstr ""
 
 #: qml/MediaTrackMetadataView.qml:35
 #, kde-format
