@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-17 02:41+0100\n"
+"POT-Creation-Date: 2021-02-20 02:32+0100\n"
 "PO-Revision-Date: 2020-12-18 22:40+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -297,7 +297,7 @@ msgstr "Ngắt từ &động"
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
 #: data/katepart5ui.rc:75 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:685
+#: dialogs/katedialogs.cpp:688
 #, kde-format
 msgid "Borders"
 msgstr ""
@@ -522,7 +522,7 @@ msgid "Scro&llbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:689
+#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:692
 #, kde-format
 msgid "Always On"
 msgstr "Luôn bật"
@@ -683,8 +683,8 @@ msgstr "&Mẫu :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
-#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:545
-#: dialogs/katedialogs.cpp:681 dialogs/katedialogs.cpp:893
+#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:548
+#: dialogs/katedialogs.cpp:684 dialogs/katedialogs.cpp:896
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -697,41 +697,47 @@ msgstr "Chung"
 msgid "Enable &auto completion"
 msgstr "Bổ sung hoàn chỉnh từ"
 
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoSelectFirstEntry)
+#: dialogs/completionconfigtab.ui:33
+#, kde-format
+msgid "Auto select &first completion entry"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, gbWordCompletion)
-#: dialogs/completionconfigtab.ui:36
+#: dialogs/completionconfigtab.ui:43
 #, fuzzy, kde-format
 #| msgid "Word Completion Plugin"
 msgid "A&uto Word Completion"
 msgstr "Bổ sung hoàn chỉnh từ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/completionconfigtab.ui:50
+#: dialogs/completionconfigtab.ui:57
 #, kde-format
 msgid "Minimal word length to complete:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, removeTail)
-#: dialogs/completionconfigtab.ui:75
+#: dialogs/completionconfigtab.ui:82
 #, kde-format
 msgid "Remove tail of a previous word when completion item chosen from a list"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, removeTail)
-#: dialogs/completionconfigtab.ui:78
+#: dialogs/completionconfigtab.ui:85
 #, fuzzy, kde-format
 #| msgid "Highlighting for LaTeX"
 msgid "Remove tail on complete"
 msgstr "Cách tô sáng LaTeX"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbKeywordCompletion)
-#: dialogs/completionconfigtab.ui:88
+#: dialogs/completionconfigtab.ui:95
 #, fuzzy, kde-format
 #| msgid "Word Completion Plugin"
 msgid "&Keyword completion"
 msgstr "Bổ sung hoàn chỉnh từ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/completionconfigtab.ui:97
+#: dialogs/completionconfigtab.ui:104
 #, kde-format
 msgid ""
 "Keyword completion provides suggestions based on the keywords which exist in "
@@ -1404,25 +1410,25 @@ msgstr[0] "Kí tự"
 msgid "Indentation"
 msgstr "Canh lề"
 
-#: dialogs/katedialogs.cpp:279
+#: dialogs/katedialogs.cpp:282
 #, fuzzy, kde-format
 #| msgid "Word Completion Plugin"
 msgid "Auto Completion"
 msgstr "Bổ sung hoàn chỉnh từ"
 
-#: dialogs/katedialogs.cpp:346
+#: dialogs/katedialogs.cpp:349
 #, kde-format
 msgid "Spellcheck"
 msgstr "Kiểm tra đánh vần"
 
-#: dialogs/katedialogs.cpp:422
+#: dialogs/katedialogs.cpp:425
 #, fuzzy, kde-format
 #| msgctxt "Language Section"
 #| msgid "Configuration"
 msgid "Text Navigation"
 msgstr "Cấu hình"
 
-#: dialogs/katedialogs.cpp:519
+#: dialogs/katedialogs.cpp:522
 #, fuzzy, kde-format
 #| msgid "Character"
 msgctxt "Wrap words at (value is at 20 or larger)"
@@ -1430,187 +1436,187 @@ msgid " character"
 msgid_plural " characters"
 msgstr[0] "Kí tự"
 
-#: dialogs/katedialogs.cpp:524
+#: dialogs/katedialogs.cpp:527
 #, kde-format
 msgid "Feature is not active"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:526
+#: dialogs/katedialogs.cpp:529
 #, fuzzy, kde-format
 #| msgid "Disabled Breakpoint"
 msgid "Disable Feature"
 msgstr "Điểm ngắt bị tắt"
 
-#: dialogs/katedialogs.cpp:528
+#: dialogs/katedialogs.cpp:531
 #, kde-format
 msgid "May be handy with Markdown"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:530
+#: dialogs/katedialogs.cpp:533
 #, kde-format
 msgid "Mirror characters, similar but not exactly like auto brackets"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:532
+#: dialogs/katedialogs.cpp:535
 #, fuzzy, kde-format
 #| msgid "Character"
 msgid "Non letter character"
 msgstr "Kí tự"
 
-#: dialogs/katedialogs.cpp:647
+#: dialogs/katedialogs.cpp:650
 #, kde-format
 msgid "Editing"
 msgstr "HIệu chỉnh"
 
-#: dialogs/katedialogs.cpp:652
+#: dialogs/katedialogs.cpp:655
 #, kde-format
 msgid "Editing Options"
 msgstr "Tuỳ chọn hiệu chỉnh"
 
-#: dialogs/katedialogs.cpp:677
+#: dialogs/katedialogs.cpp:680
 #, kde-format
 msgid "Font"
 msgstr "Phông"
 
-#: dialogs/katedialogs.cpp:687
+#: dialogs/katedialogs.cpp:690
 #, kde-format
 msgid "Off"
 msgstr "Tắt"
 
-#: dialogs/katedialogs.cpp:688
+#: dialogs/katedialogs.cpp:691
 #, kde-format
 msgid "Follow Line Numbers"
 msgstr "Theo số thứ tự dòng"
 
-#: dialogs/katedialogs.cpp:826 dialogs/katedialogs.cpp:831
+#: dialogs/katedialogs.cpp:829 dialogs/katedialogs.cpp:834
 #, kde-format
 msgid "Appearance"
 msgstr "Diện mạo"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:894 dialogs/textareaappearanceconfigwidget.ui:243
+#: dialogs/katedialogs.cpp:897 dialogs/textareaappearanceconfigwidget.ui:243
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:958
+#: dialogs/katedialogs.cpp:961
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr ""
 "Bạn chưa cung cấp hậu tố hoặc tiền tố sao lưu nên dùng hậu tố mặc định: « ~ »"
 
-#: dialogs/katedialogs.cpp:958
+#: dialogs/katedialogs.cpp:961
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "Không có hậu tố hoặc tiền tố sao lưu"
 
-#: dialogs/katedialogs.cpp:1080
+#: dialogs/katedialogs.cpp:1083
 #, kde-format
 msgid "Open/Save"
 msgstr "Mở / Lưu"
 
-#: dialogs/katedialogs.cpp:1085
+#: dialogs/katedialogs.cpp:1088
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "Cách mở và lưu tệp"
 
-#: dialogs/katedialogs.cpp:1108
+#: dialogs/katedialogs.cpp:1111
 #, kde-format
 msgid "&Line:"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1109
+#: dialogs/katedialogs.cpp:1112
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr "Đi đến dòng thứ ... trong bảng nháp"
 
-#: dialogs/katedialogs.cpp:1120
+#: dialogs/katedialogs.cpp:1123
 #, kde-format
 msgid "Go to"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1196
+#: dialogs/katedialogs.cpp:1199
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr "Không tìm thấy số thứ tự dòng hợp lệ trong bảng nháp"
 
-#: dialogs/katedialogs.cpp:1260
+#: dialogs/katedialogs.cpp:1263
 #, fuzzy, kde-format
 #| msgid "Execution"
 msgid "Dictionary:"
 msgstr "Thực hiện"
 
-#: dialogs/katedialogs.cpp:1312
+#: dialogs/katedialogs.cpp:1315
 #, fuzzy, kde-format
 #| msgid "Word Completion Plugin"
 msgid "Enable Auto Reload"
 msgstr "Bổ sung hoàn chỉnh từ"
 
-#: dialogs/katedialogs.cpp:1314
+#: dialogs/katedialogs.cpp:1317
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1319
+#: dialogs/katedialogs.cpp:1322
 #, kde-format
 msgid "View &Difference"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1321
+#: dialogs/katedialogs.cpp:1324
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1326
+#: dialogs/katedialogs.cpp:1329
 #, fuzzy, kde-format
 #| msgid "Reloa&d"
 msgid "&Reload"
 msgstr "Tả&i lại"
 
-#: dialogs/katedialogs.cpp:1328
+#: dialogs/katedialogs.cpp:1331
 #, fuzzy, kde-format
 #| msgid ""
 #| "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr "Tải lại tệp từ đĩa. Thay đổi chưa lưu nào sẽ bị mất."
 
-#: dialogs/katedialogs.cpp:1332
+#: dialogs/katedialogs.cpp:1335
 #, fuzzy, kde-format
 #| msgid "&Reload File"
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "Tải &lại tệp"
 
-#: dialogs/katedialogs.cpp:1334
+#: dialogs/katedialogs.cpp:1337
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1338
+#: dialogs/katedialogs.cpp:1341
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Save As..."
 msgstr "&Lưu tệp dạng..."
 
-#: dialogs/katedialogs.cpp:1340
+#: dialogs/katedialogs.cpp:1343
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "Cho bạn chọn một địa điểm khác rồi lưu lại tệp."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1345 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1348 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "&Bỏ qua"
 
-#: dialogs/katedialogs.cpp:1346
+#: dialogs/katedialogs.cpp:1349
 #, fuzzy, kde-format
 #| msgid "Ignore the changes. You will not be prompted again."
 msgid "Ignores the changes on disk without any action."
 msgstr "Bỏ qua các thay đổi. Bạn sẽ không được nhắc lại."
 
-#: dialogs/katedialogs.cpp:1412 swapfile/kateswapdiffcreator.cpp:126
+#: dialogs/katedialogs.cpp:1415 swapfile/kateswapdiffcreator.cpp:126
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
@@ -1619,18 +1625,18 @@ msgstr ""
 "Lệnh khác biệt (diff) bị lỗi. Hãy kiểm tra xem công cụ diff(1) đã được cài "
 "đặt cho đúng, và nó có trong đường dẫn thực hiện (PATH) của bạn."
 
-#: dialogs/katedialogs.cpp:1414 swapfile/kateswapdiffcreator.cpp:94
+#: dialogs/katedialogs.cpp:1417 swapfile/kateswapdiffcreator.cpp:94
 #: swapfile/kateswapdiffcreator.cpp:128
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "Gặp lỗi khi tạo khác biệt"
 
-#: dialogs/katedialogs.cpp:1421 swapfile/kateswapdiffcreator.cpp:135
+#: dialogs/katedialogs.cpp:1424 swapfile/kateswapdiffcreator.cpp:135
 #, kde-format
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1421 swapfile/kateswapdiffcreator.cpp:135
+#: dialogs/katedialogs.cpp:1424 swapfile/kateswapdiffcreator.cpp:135
 #, kde-format
 msgid "Diff Output"
 msgstr "Xuất khác biệt"
@@ -3727,7 +3733,7 @@ msgstr "Không tìm thấy lệnh: %1"
 msgid "Add..."
 msgstr ""
 
-#: search/katesearchbar.cpp:277
+#: search/katesearchbar.cpp:278
 #, fuzzy, kde-format
 #| msgid "1 replacement done"
 #| msgid_plural "%1 replacements done"
@@ -3736,245 +3742,245 @@ msgid "1 replacement made"
 msgid_plural "%1 replacements made"
 msgstr[0] "Mới thay thế %1 lần."
 
-#: search/katesearchbar.cpp:279
+#: search/katesearchbar.cpp:280
 #, kde-format
 msgctxt "short translation"
 msgid "1 match found"
 msgid_plural "%1 matches found"
 msgstr[0] ""
 
-#: search/katesearchbar.cpp:301 vimode/searcher.cpp:215
+#: search/katesearchbar.cpp:302 vimode/searcher.cpp:215
 #, kde-format
 msgid "Search wrapped"
 msgstr ""
 
-#: search/katesearchbar.cpp:371
+#: search/katesearchbar.cpp:372
 #, kde-format
 msgid "Reached top, continued from bottom"
 msgstr ""
 
-#: search/katesearchbar.cpp:373
+#: search/katesearchbar.cpp:374
 #, kde-format
 msgid "Reached bottom, continued from top"
 msgstr ""
 
-#: search/katesearchbar.cpp:378
+#: search/katesearchbar.cpp:379
 #, kde-format
 msgid "Not found"
 msgstr ""
 
-#: search/katesearchbar.cpp:591
+#: search/katesearchbar.cpp:592
 #, kde-format
 msgid "Bottom of file reached. Continue from top?"
 msgstr ""
 
-#: search/katesearchbar.cpp:591
+#: search/katesearchbar.cpp:592
 #, kde-format
 msgid "Top of file reached. Continue from bottom?"
 msgstr ""
 
-#: search/katesearchbar.cpp:594
+#: search/katesearchbar.cpp:595
 #, fuzzy, kde-format
 #| msgid "&Case sensitive"
 msgid "Continue search?"
 msgstr "&Phân biệt hoa/thường"
 
 # msgid "Highlighting"
-#: search/katesearchbar.cpp:879
+#: search/katesearchbar.cpp:880
 #, fuzzy, kde-format
 #| msgid "&Highlighting"
 msgid "SearchHighLight"
 msgstr "Tô &sáng"
 
-#: search/katesearchbar.cpp:1117
+#: search/katesearchbar.cpp:1118
 #, fuzzy, kde-format
 #| msgid "Move to Beginning of Line"
 msgid "Beginning of line"
 msgstr "Về đầu dòng"
 
-#: search/katesearchbar.cpp:1118
+#: search/katesearchbar.cpp:1119
 #, fuzzy, kde-format
 #| msgid "&End of Line"
 msgid "End of line"
 msgstr "&Kết thúc dòng"
 
-#: search/katesearchbar.cpp:1120
+#: search/katesearchbar.cpp:1121
 #, kde-format
 msgid "Match any character excluding new line (by default)"
 msgstr ""
 
-#: search/katesearchbar.cpp:1121
+#: search/katesearchbar.cpp:1122
 #, kde-format
 msgid "One or more occurrences"
 msgstr ""
 
-#: search/katesearchbar.cpp:1122
+#: search/katesearchbar.cpp:1123
 #, kde-format
 msgid "Zero or more occurrences"
 msgstr ""
 
-#: search/katesearchbar.cpp:1123
+#: search/katesearchbar.cpp:1124
 #, kde-format
 msgid "Zero or one occurrences"
 msgstr ""
 
-#: search/katesearchbar.cpp:1126
+#: search/katesearchbar.cpp:1127
 #, kde-format
 msgid "<a> through <b> occurrences"
 msgstr ""
 
-#: search/katesearchbar.cpp:1132
+#: search/katesearchbar.cpp:1133
 #, kde-format
 msgid "Group, capturing"
 msgstr ""
 
-#: search/katesearchbar.cpp:1133
+#: search/katesearchbar.cpp:1134
 #, kde-format
 msgid "Or"
 msgstr ""
 
-#: search/katesearchbar.cpp:1134
+#: search/katesearchbar.cpp:1135
 #, fuzzy, kde-format
 #| msgid "Character"
 msgid "Set of characters"
 msgstr "Kí tự"
 
-#: search/katesearchbar.cpp:1135
+#: search/katesearchbar.cpp:1136
 #, fuzzy, kde-format
 #| msgid "Delete Next Character"
 msgid "Negative set of characters"
 msgstr "Xoá kí tự kế"
 
-#: search/katesearchbar.cpp:1139
+#: search/katesearchbar.cpp:1140
 #, kde-format
 msgid "Whole match reference"
 msgstr ""
 
-#: search/katesearchbar.cpp:1150
+#: search/katesearchbar.cpp:1151
 #, kde-format
 msgid "Reference"
 msgstr ""
 
-#: search/katesearchbar.cpp:1157
+#: search/katesearchbar.cpp:1158
 #, fuzzy, kde-format
 #| msgid "Show &Line Numbers"
 msgid "Line break"
 msgstr "Hiện &số hiệu dòng"
 
-#: search/katesearchbar.cpp:1158
+#: search/katesearchbar.cpp:1159
 #, kde-format
 msgid "Tab"
 msgstr ""
 
-#: search/katesearchbar.cpp:1161
+#: search/katesearchbar.cpp:1162
 #, kde-format
 msgid "Word boundary"
 msgstr ""
 
-#: search/katesearchbar.cpp:1162
+#: search/katesearchbar.cpp:1163
 #, kde-format
 msgid "Not word boundary"
 msgstr ""
 
-#: search/katesearchbar.cpp:1163
+#: search/katesearchbar.cpp:1164
 #, kde-format
 msgid "Digit"
 msgstr ""
 
-#: search/katesearchbar.cpp:1164
+#: search/katesearchbar.cpp:1165
 #, kde-format
 msgid "Non-digit"
 msgstr ""
 
-#: search/katesearchbar.cpp:1165
+#: search/katesearchbar.cpp:1166
 #, kde-format
 msgid "Whitespace (excluding line breaks)"
 msgstr ""
 
-#: search/katesearchbar.cpp:1166
+#: search/katesearchbar.cpp:1167
 #, fuzzy, kde-format
 #| msgid "Template"
 msgid "Non-whitespace"
 msgstr "Mẫu"
 
-#: search/katesearchbar.cpp:1167
+#: search/katesearchbar.cpp:1168
 #, kde-format
 msgid "Word character (alphanumerics plus '_')"
 msgstr ""
 
-#: search/katesearchbar.cpp:1168
+#: search/katesearchbar.cpp:1169
 #, fuzzy, kde-format
 #| msgid "Character"
 msgid "Non-word character"
 msgstr "Kí tự"
 
-#: search/katesearchbar.cpp:1171
+#: search/katesearchbar.cpp:1172
 #, kde-format
 msgid "Octal character 000 to 377 (2^8-1)"
 msgstr ""
 
-#: search/katesearchbar.cpp:1172
+#: search/katesearchbar.cpp:1173
 #, kde-format
 msgid "Hex character 0000 to FFFF (2^16-1)"
 msgstr ""
 
-#: search/katesearchbar.cpp:1173
+#: search/katesearchbar.cpp:1174
 #, fuzzy, kde-format
 #| msgid "Backspace"
 msgid "Backslash"
 msgstr "Xoá lùi"
 
-#: search/katesearchbar.cpp:1177
+#: search/katesearchbar.cpp:1178
 #, kde-format
 msgid "Group, non-capturing"
 msgstr ""
 
-#: search/katesearchbar.cpp:1178
+#: search/katesearchbar.cpp:1179
 #, kde-format
 msgid "Positive Lookahead"
 msgstr ""
 
-#: search/katesearchbar.cpp:1179
+#: search/katesearchbar.cpp:1180
 #, kde-format
 msgid "Negative lookahead"
 msgstr ""
 
-#: search/katesearchbar.cpp:1183
+#: search/katesearchbar.cpp:1184
 #, kde-format
 msgid "Fixed-length positive lookbehind"
 msgstr ""
 
-#: search/katesearchbar.cpp:1184
+#: search/katesearchbar.cpp:1185
 #, kde-format
 msgid "Fixed-length negative lookbehind"
 msgstr ""
 
-#: search/katesearchbar.cpp:1189
+#: search/katesearchbar.cpp:1190
 #, kde-format
 msgid "Begin lowercase conversion"
 msgstr ""
 
-#: search/katesearchbar.cpp:1190
+#: search/katesearchbar.cpp:1191
 #, kde-format
 msgid "Begin uppercase conversion"
 msgstr ""
 
-#: search/katesearchbar.cpp:1191
+#: search/katesearchbar.cpp:1192
 #, kde-format
 msgid "End case conversion"
 msgstr ""
 
-#: search/katesearchbar.cpp:1192
+#: search/katesearchbar.cpp:1193
 #, kde-format
 msgid "Lowercase first character conversion"
 msgstr ""
 
-#: search/katesearchbar.cpp:1193
+#: search/katesearchbar.cpp:1194
 #, kde-format
 msgid "Uppercase first character conversion"
 msgstr ""
 
-#: search/katesearchbar.cpp:1194
+#: search/katesearchbar.cpp:1195
 #, kde-format
 msgid "Replacement counter (for Replace All)"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-17 03:01+0100\n"
+"POT-Creation-Date: 2021-02-20 02:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -797,32 +797,32 @@ msgstr ""
 msgid "Your email has been queued for sending."
 msgstr ""
 
-#: core/room.cpp:1028
+#: core/room.cpp:1054
 #, kde-format
 msgid "Owner"
 msgstr ""
 
-#: core/room.cpp:1031
+#: core/room.cpp:1057
 #, kde-format
 msgid "Leader"
 msgstr ""
 
-#: core/room.cpp:1034
+#: core/room.cpp:1060
 #, kde-format
 msgid "Moderator"
 msgstr ""
 
-#: core/room.cpp:1371
+#: core/room.cpp:1405
 #, kde-format
 msgid "Channel is read only."
 msgstr ""
 
-#: core/room.cpp:1374
+#: core/room.cpp:1408
 #, kde-format
 msgid "You have blocked this channel."
 msgstr ""
 
-#: core/room.cpp:1377
+#: core/room.cpp:1411
 #, kde-format
 msgid "Channel was blocked."
 msgstr ""
@@ -1975,6 +1975,26 @@ msgctxt "@title:window"
 msgid "Channel Info about '%1'"
 msgstr ""
 
+#: widgets/dialogs/channelinfoprunewidget.cpp:28
+#, kde-format
+msgid "Exclude pinned messages"
+msgstr ""
+
+#: widgets/dialogs/channelinfoprunewidget.cpp:29
+#, kde-format
+msgid "Prune files only, keep messages"
+msgstr ""
+
+#: widgets/dialogs/channelinfoprunewidget.cpp:30
+#, kde-format
+msgid "Automatically prune old messages"
+msgstr ""
+
+#: widgets/dialogs/channelinfoprunewidget.cpp:31
+#, kde-format
+msgid "Override global retention policy"
+msgstr ""
+
 #: widgets/dialogs/channelinfowidget.cpp:74
 #: widgets/dialogs/channelinfowidget.cpp:186
 #, kde-format
@@ -1998,7 +2018,7 @@ msgstr ""
 #: widgets/dialogs/createnewchannelwidget.cpp:67
 #: widgets/dialogs/createnewserverwidget.cpp:56
 #: widgets/registeruser/registeruserwidget.cpp:49
-#: widgets/ruqolaloginwidget.cpp:79
+#: widgets/ruqolaloginwidget.cpp:87
 #, kde-format
 msgid "Password:"
 msgstr ""
@@ -2252,20 +2272,20 @@ msgstr ""
 
 #: widgets/dialogs/createnewserverwidget.cpp:40
 #: widgets/dialogs/serverinfowidget.cpp:38
-#: widgets/ruqolaloginwidget.cpp:46
+#: widgets/ruqolaloginwidget.cpp:57
 #, kde-format
 msgid "Account Name:"
 msgstr ""
 
 #: widgets/dialogs/createnewserverwidget.cpp:46
-#: widgets/ruqolaloginwidget.cpp:50
+#: widgets/ruqolaloginwidget.cpp:62
 #, kde-format
 msgid "Server Name:"
 msgstr ""
 
 #: widgets/dialogs/createnewserverwidget.cpp:52
 #: widgets/dialogs/serverinfowidget.cpp:44
-#: widgets/ruqolaloginwidget.cpp:54
+#: widgets/ruqolaloginwidget.cpp:65
 #, kde-format
 msgid "User Name:"
 msgstr ""
@@ -2763,7 +2783,7 @@ msgid "A one-time password is required to complete the login procedure."
 msgstr ""
 
 #: widgets/misc/accountsoverviewwidget.cpp:67
-#: widgets/ruqolaloginwidget.cpp:194
+#: widgets/ruqolaloginwidget.cpp:202
 #, kde-format
 msgid "Login failed: Invalid OTP code."
 msgstr ""
@@ -3174,12 +3194,12 @@ msgstr[1] ""
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/messagelinewidget.cpp:230
+#: widgets/room/messagelinewidget.cpp:242
 #, kde-format
 msgid "File selected is too big (Maximum size %1)"
 msgstr ""
 
-#: widgets/room/messagelinewidget.cpp:230
+#: widgets/room/messagelinewidget.cpp:242
 #, kde-format
 msgid "File upload"
 msgstr ""
@@ -3292,6 +3312,11 @@ msgstr ""
 #: widgets/room/messagetextedit.cpp:125
 #, kde-format
 msgid "Strike-out"
+msgstr ""
+
+#: widgets/room/messagetextedit.cpp:127
+#, kde-format
+msgid "Block Code"
 msgstr ""
 
 #: widgets/room/roomcounterinfowidget.cpp:51
@@ -3458,39 +3483,44 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:64
-#, kde-format
-msgid "Authentication Method"
-msgstr ""
-
-#: widgets/ruqolaloginwidget.cpp:82
+#: widgets/ruqolaloginwidget.cpp:44
 #, kde-format
 msgid "Use LDAP"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:95
+#: widgets/ruqolaloginwidget.cpp:45
+#, kde-format
+msgid "Login"
+msgstr ""
+
+#: widgets/ruqolaloginwidget.cpp:58
+#, kde-format
+msgid "Account Name"
+msgstr ""
+
+#: widgets/ruqolaloginwidget.cpp:74
+#, kde-format
+msgid "Authentication Method"
+msgstr ""
+
+#: widgets/ruqolaloginwidget.cpp:101
 #, kde-format
 msgid ""
 "You have enabled second factor authentication.\n"
 "Please enter the generated code or a backup code."
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:105
-#, kde-format
-msgid "Login"
-msgstr ""
-
-#: widgets/ruqolaloginwidget.cpp:190
+#: widgets/ruqolaloginwidget.cpp:198
 #, kde-format
 msgid "Login Failed: invalid username or password"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:204
+#: widgets/ruqolaloginwidget.cpp:212
 #, kde-format
 msgid "Installation Problem found. No plugins found here."
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:210
+#: widgets/ruqolaloginwidget.cpp:218
 #, kde-format
 msgid "Login Failed: generic error"
 msgstr ""
