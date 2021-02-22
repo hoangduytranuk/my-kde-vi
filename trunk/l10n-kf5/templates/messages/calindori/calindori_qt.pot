@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calindori\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-13 02:48+0100\n"
+"POT-Creation-Date: 2021-02-21 02:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -147,21 +147,21 @@ msgstr ""
 msgid "Calendar already exists"
 msgstr ""
 
-#: contents/ui/AttendeeEditor.qml:51 contents/ui/AttendeePicker.qml:51
+#: contents/ui/AttendeeEditor.qml:52 contents/ui/AttendeePicker.qml:53
 #, kde-format
 msgid "No contacts found"
 msgstr ""
 
-#: contents/ui/AttendeeEditor.qml:105 contents/ui/AttendeePicker.qml:105
-#: contents/ui/Attendees.qml:21 contents/ui/CalendarEditor.qml:173
+#: contents/ui/AttendeeEditor.qml:109 contents/ui/AttendeePicker.qml:111
+#: contents/ui/Attendees.qml:21 contents/ui/CalendarEditor.qml:156
 #: contents/ui/CalindoriGlobalDrawer.qml:213
 #: contents/ui/IncidenceListView.qml:27 contents/ui/Reminders.qml:19
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: contents/ui/AttendeeEditor.qml:117 contents/ui/AttendeePicker.qml:117
-#: contents/ui/CalendarEditor.qml:125 contents/ui/EventEditorPage.qml:199
+#: contents/ui/AttendeeEditor.qml:121 contents/ui/AttendeePicker.qml:123
+#: contents/ui/CalendarEditor.qml:108 contents/ui/EventEditorPage.qml:199
 #: contents/ui/EventsCardView.qml:90 contents/ui/IncidencePage.qml:85
 #: contents/ui/MessageBoard.qml:48 contents/ui/RecurrencePickerSheet.qml:98
 #: contents/ui/ReminderEditor.qml:95 contents/ui/TimePickerSheet.qml:48
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: contents/ui/AttendeeRoleEditor.qml:22 contents/ui/CalendarEditor.qml:115
+#: contents/ui/AttendeeRoleEditor.qml:22 contents/ui/CalendarEditor.qml:98
 #, kde-format
 msgid "Email:"
 msgstr ""
@@ -272,37 +272,32 @@ msgid ""
 "All data included in this calendar will be deleted. Proceed with deletion?"
 msgstr ""
 
-#: contents/ui/CalendarEditor.qml:33
+#: contents/ui/CalendarEditor.qml:32
 #, kde-format
 msgid "New calendar"
 msgstr ""
 
-#: contents/ui/CalendarEditor.qml:81 contents/ui/IncidenceEditor.qml:34
+#: contents/ui/CalendarEditor.qml:71 contents/ui/IncidenceEditor.qml:34
 #, kde-format
 msgid "Calendar:"
 msgstr ""
 
-#: contents/ui/CalendarEditor.qml:88
-#, kde-format
-msgid "Active:"
-msgstr ""
-
-#: contents/ui/CalendarEditor.qml:97
+#: contents/ui/CalendarEditor.qml:80
 #, kde-format
 msgid "File:"
 msgstr ""
 
-#: contents/ui/CalendarEditor.qml:102
+#: contents/ui/CalendarEditor.qml:85
 #, kde-format
 msgid "Owner"
 msgstr ""
 
-#: contents/ui/CalendarEditor.qml:109
+#: contents/ui/CalendarEditor.qml:92
 #, kde-format
 msgid "Name:"
 msgstr ""
 
-#: contents/ui/CalendarEditor.qml:136 contents/ui/EventEditorPage.qml:207
+#: contents/ui/CalendarEditor.qml:119 contents/ui/EventEditorPage.qml:207
 #: contents/ui/RecurrencePickerSheet.qml:89
 #: contents/ui/TodoEditorPage.qml:202
 #, kde-format
@@ -422,19 +417,16 @@ msgstr ""
 msgid "Next day"
 msgstr ""
 
-#: contents/ui/DayPage.qml:42 contents/ui/WeekPage.qml:43
-#, kde-format
-msgid "Add Event"
-msgstr ""
-
-#: contents/ui/DayPage.qml:48 contents/ui/WeekPage.qml:49
-#, kde-format
-msgid "Add Task"
-msgstr ""
-
-#: contents/ui/EventEditorPage.qml:45
+#: contents/ui/DayView.qml:115 contents/ui/EventEditorPage.qml:45
+#: contents/ui/WeekView.qml:163
 #, kde-format
 msgid "New event"
+msgstr ""
+
+#: contents/ui/DayView.qml:129 contents/ui/TodoEditorPage.qml:35
+#: contents/ui/WeekView.qml:170
+#, kde-format
+msgid "New task"
 msgstr ""
 
 #: contents/ui/EventEditorPage.qml:60 contents/ui/TodoEditorPage.qml:51
@@ -711,11 +703,6 @@ msgstr ""
 msgid "Add reminder to new events"
 msgstr ""
 
-#: contents/ui/TodoEditorPage.qml:35
-#, kde-format
-msgid "New task"
-msgstr ""
-
 #: contents/ui/TodoEditorPage.qml:92
 #, kde-format
 msgid "Due:"
@@ -814,12 +801,12 @@ msgid_plural "%1 seconds before start"
 msgstr[0] ""
 msgstr[1] ""
 
-#: incidencemodel.cpp:179
+#: incidencemodel.cpp:180
 #, kde-format
 msgid "Event"
 msgstr ""
 
-#: incidencemodel.cpp:181
+#: incidencemodel.cpp:182
 #, kde-format
 msgid "Task"
 msgstr ""
