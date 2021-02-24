@@ -1,32 +1,33 @@
 # Vietnamese translation for kcmsmserver.
 # Copyright © 2006 Free Software Foundation, Inc.
+#
 # Nguyễn Hưng Vũ <Vu.Hung@techviet.com>, 2002.
 # Phan Vĩnh Thịnh <teppi82@gmail.com>, 2006.
-#
+# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-01-22 02:48+0100\n"
-"PO-Revision-Date: 2006-04-15 22:12+0930\n"
-"Last-Translator: Phan Vĩnh Thịnh <teppi82@gmail.com>\n"
+"PO-Revision-Date: 2021-02-24 17:29+0100\n"
+"Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: KBabel 1.10\n"
+"X-Generator: Lokalize 20.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Nguyễn Hùng Phú"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "phuhnguyen@disroot.org"
 
 #: kcmsmserver.cpp:62
 #, kde-format
@@ -37,134 +38,136 @@ msgid ""
 "whether the computer should be automatically shut down after session exit by "
 "default."
 msgstr ""
-"<h1>Trình quản lí phiên chạy</h1> Bạn có thể cấu hình trình quản lí phiên "
-"chạy ở đây. Nó bao gốm các tuỳ chọn như có hỏi lại khi thoát hay không và có "
-"phục hồi lại phiên chạy khi đăng nhập lại hay không cũng như theo mặc định "
-"máy tính có tự động tắt hay không sau khi thoát phiên chạy."
+"<h1>Trình quản lí phiên</h1> Bạn có thể cấu hình trình quản lí phiên tại "
+"đây. Nó bao gốm các lựa chọn như việc thoát phiên (đăng xuất) có cần được "
+"xác nhận hay không, phiên có cần được khôi phục lại khi đăng nhập hay không, "
+"và theo mặc định máy tính có tự động tắt sau khi thoát phiên hay không."
 
 #: kcmsmserver.cpp:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restore &previous session"
 msgid "Desktop Session"
-msgstr "Phục hồi &phiên chạy trước"
+msgstr "Phiên bàn làm việc"
 
 #: kcmsmserver.cpp:75
 #, kde-format
 msgid "Desktop Session Login and Logout"
-msgstr ""
+msgstr "Đăng nhập và đăng xuất phiên bàn làm việc"
 
 #: kcmsmserver.cpp:77
 #, kde-format
 msgid "Copyright © 2000–2020 Desktop Session team"
-msgstr ""
+msgstr "Bản quyền © 2000–2020 đội ngũ \"Phiên bàn làm việc\""
 
 #: kcmsmserver.cpp:79
 #, kde-format
 msgid "Oswald Buddenhagen"
-msgstr ""
+msgstr "Oswald Buddenhagen"
 
 #: kcmsmserver.cpp:80
 #, kde-format
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: package/contents/ui/main.qml:38
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
-msgstr ""
+msgstr "Yêu cầu khởi động lại vào phần cài đặt phần sụn thất bại: %1"
 
 #: package/contents/ui/main.qml:39
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
+"Lần tiếp theo máy tính khởi động lại, nó sẽ đi đến màn hình cài đặt UEFI."
 
 #: package/contents/ui/main.qml:40
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr ""
+"Lần tiếp theo máy tính khởi động lại, nó sẽ đi đến màn hình cài đặt phần sụn."
 
 #: package/contents/ui/main.qml:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Restart computer"
 msgid "Restart Now"
-msgstr "&Khởi động lại"
+msgstr "Khởi động lại ngay"
 
 #: package/contents/ui/main.qml:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "General"
 msgid "General:"
-msgstr "Chung"
+msgstr "Chung:"
 
 #. i18n: ectx: label, entry (confirmLogout), group (General)
 #: package/contents/ui/main.qml:52 smserversettings.kcfg:9
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Conf&irm logout"
 msgid "Confirm logout"
-msgstr "&Xác nhận khi thoát"
+msgstr "Xác nhận khi đăng xuất"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
 #: package/contents/ui/main.qml:61 smserversettings.kcfg:13
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "O&ffer shutdown options"
 msgid "Offer shutdown options"
-msgstr "Đề n&ghị tuỳ chọn tắt máy"
+msgstr "Đề xuất các lựa chọn tắt máy"
 
 #: package/contents/ui/main.qml:78
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default Shutdown Option"
 msgid "Default leave option:"
-msgstr "Tuỳ chọn tắt máy mặc định"
+msgstr "Lựa chọn thoát mặc định:"
 
 #: package/contents/ui/main.qml:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&End current session"
 msgid "End current session"
-msgstr "&Kết thúc phiên chạy hiện thời"
+msgstr "Kết thúc phiên hiện tại"
 
 #: package/contents/ui/main.qml:89
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Restart computer"
 msgid "Restart computer"
-msgstr "&Khởi động lại"
+msgstr "Khởi động lại máy tínhtính"
 
 #: package/contents/ui/main.qml:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Turn off computer"
 msgid "Turn off computer"
-msgstr "&Tắt máy"
+msgstr "Tắt máy tính"
 
 #: package/contents/ui/main.qml:115
 #, kde-format
 msgid "When logging in:"
-msgstr ""
+msgstr "Khi đăng nhập:"
 
 #: package/contents/ui/main.qml:116
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restore &manually saved session"
 msgid "Restore previous saved session"
-msgstr "Phục hồi phiên chạy tự &ghi"
+msgstr "Khôi phục phiên đã lưu lần trước"
 
 #: package/contents/ui/main.qml:126
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restore &manually saved session"
 msgid "Restore manually saved session"
-msgstr "Phục hồi phiên chạy tự &ghi"
+msgstr "Khôi phục phiên đã lưu thủ công"
 
 #: package/contents/ui/main.qml:136
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start with an empty &session"
 msgid "Start with an empty session"
-msgstr "Chạy phiên chạy &mới"
+msgstr "Bắt đầu một phiên mới"
 
 #: package/contents/ui/main.qml:149
 #, kde-format
 msgid "Don't restore these applications:"
-msgstr ""
+msgstr "Không khôi phục những ứng dụng này:"
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Here you can enter a comma-separated list of applications that should not "
 #| "be saved in sessions, and therefore will not be started when restoring a "
@@ -174,35 +177,36 @@ msgid ""
 "should not be saved in sessions, and therefore will not be started when "
 "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
 msgstr ""
-"Đây là danh sách những ứng dụng sẽ không nhớ vào các phiên chạy, và do đó sẽ "
-"không chạy khi phục hồi phiên chạy này. Chúng được liệt kê cách nhau bởi dấu "
-"phẩy. Ví dụ 'xterm,xconsole'."
+"Tại đây bạn có thể nhập một danh sách ngăn cách bởi dấu hai chấm hoặc dấu "
+"phẩy của những ứng dụng sẽ không được nhớ vào các phiên, và do đó sẽ không "
+"được khởi động khi khôi phục phiên. Ví dụ 'xterm:konsole' hoặc"
+" 'xterm,konsole'."
 
 #: package/contents/ui/main.qml:169
 #, kde-format
 msgid "Enter firmware setup screen on next restart"
-msgstr ""
+msgstr "Đi vào màn hình cài đặt phần sụn ở lần khởi động lại tiếp theo"
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default Shutdown Option"
 msgid "Default leave option"
-msgstr "Tuỳ chọn tắt máy mặc định"
+msgstr "Lựa chọn thoát mặc định"
 
 #. i18n: ectx: label, entry (loginMode), group (General)
 #: smserversettings.kcfg:26
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "On Login"
 msgid "On login"
 msgstr "Khi đăng nhập"
 
 #. i18n: ectx: label, entry (excludeApps), group (General)
 #: smserversettings.kcfg:30
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Applications to be e&xcluded from sessions:"
 msgid "Applications to be excluded from session"
-msgstr "Những ứng dụng sẽ loại &bỏ khỏi phiên chạy:"
+msgstr "Những ứng dụng sẽ bị loại trừ khỏi phiên"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
