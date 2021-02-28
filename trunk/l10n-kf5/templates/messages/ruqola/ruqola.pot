@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-24 02:36+0100\n"
+"POT-Creation-Date: 2021-02-27 02:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -507,7 +507,7 @@ msgstr ""
 msgid "Role"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:54 widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:108
+#: core/model/adminusersmodel.cpp:54 widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:112
 #, kde-format
 msgid "Disabled"
 msgstr ""
@@ -563,8 +563,8 @@ msgstr[1] ""
 
 #: core/model/notificationdesktopsoundpreferencemodel.cpp:70
 #: core/model/notificationpreferencemodel.cpp:79
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:99
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:104
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:103
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:108
 #, kde-format
 msgid "Nothing"
 msgstr ""
@@ -600,15 +600,15 @@ msgid "Seasons"
 msgstr ""
 
 #: core/model/notificationpreferencemodel.cpp:67
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:97
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:102
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:101
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:106
 #, kde-format
 msgid "All Messages"
 msgstr ""
 
 #: core/model/notificationpreferencemodel.cpp:73
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:98
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:103
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:102
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:107
 #, kde-format
 msgid "Mentions"
 msgstr ""
@@ -649,26 +649,29 @@ msgstr ""
 msgid "Private Messages"
 msgstr ""
 
-#: core/model/statusmodel.cpp:69 widgets/misc/statuscombobox.cpp:37
+#: core/model/statusmodel.cpp:74
 #, kde-format
 msgid "Online"
 msgstr ""
 
-#: core/model/statusmodel.cpp:76 widgets/misc/statuscombobox.cpp:38
-#: widgets/room/usersinroomcombobox.cpp:40
+#: core/model/statusmodel.cpp:76 widgets/room/usersinroomcombobox.cpp:40
 #, kde-format
 msgid "Busy"
 msgstr ""
 
-#: core/model/statusmodel.cpp:83 widgets/misc/statuscombobox.cpp:39
-#: widgets/room/usersinroomcombobox.cpp:39
+#: core/model/statusmodel.cpp:78 widgets/room/usersinroomcombobox.cpp:39
 #, kde-format
 msgid "Away"
 msgstr ""
 
-#: core/model/statusmodel.cpp:90 widgets/misc/statuscombobox.cpp:40
+#: core/model/statusmodel.cpp:80
 #, kde-format
 msgid "Offline"
+msgstr ""
+
+#: core/model/statusmodel.cpp:82
+#, kde-format
+msgid "Modify Status..."
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:46
@@ -787,12 +790,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2456
+#: core/rocketchataccount.cpp:2455
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2457
+#: core/rocketchataccount.cpp:2456
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1539,7 +1542,7 @@ msgctxt "@title:window"
 msgid "Edit User Status"
 msgstr ""
 
-#: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:39
+#: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:40
 #: widgets/dialogs/channelinfowidget.cpp:108
 #: widgets/dialogs/channelinfowidget.cpp:148
 #: widgets/dialogs/createnewchannelwidget.cpp:38
@@ -1549,10 +1552,10 @@ msgstr ""
 msgid "Name:"
 msgstr ""
 
-#: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:40
+#: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:41
 #: widgets/dialogs/directchannelinfowidget.cpp:58
-#: widgets/dialogs/modifystatuswidget.cpp:44
-#: widgets/ruqolamainwindow.cpp:299
+#: widgets/dialogs/modifystatuswidget.cpp:46
+#: widgets/ruqolamainwindow.cpp:310
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -2442,7 +2445,7 @@ msgctxt "@title:window"
 msgid "Modify Status"
 msgstr ""
 
-#: widgets/dialogs/modifystatuswidget.cpp:43
+#: widgets/dialogs/modifystatuswidget.cpp:45
 #, kde-format
 msgid "Message Status:"
 msgstr ""
@@ -2481,7 +2484,7 @@ msgid "Search Channel"
 msgstr ""
 
 #: widgets/dialogs/searchchannelwidget.cpp:45
-#: widgets/ruqolamainwindow.cpp:250
+#: widgets/ruqolamainwindow.cpp:261
 #, kde-format
 msgid "Search Channel..."
 msgstr ""
@@ -2850,11 +2853,6 @@ msgstr ""
 msgid "Server"
 msgstr ""
 
-#: widgets/misc/statuscombobox.cpp:43
-#, kde-format
-msgid "Modify Status..."
-msgstr ""
-
 #: widgets/misc/twoauthenticationpasswordwidget.cpp:39
 #, kde-format
 msgid "Enter code"
@@ -2901,37 +2899,42 @@ msgstr ""
 msgid "Convert Ascii to Emoji"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:46
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:40
+#, kde-format
+msgid "Hide Roles"
+msgstr ""
+
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:48
 #, kde-format
 msgid "Highlight words:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:53
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:55
 #, kde-format
 msgid "Use ',' for separating words"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:54
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:56
 #, kde-format
 msgid "Separate each word with ','."
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:62
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:64
 #, kde-format
 msgid "Desktop Notification:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:69
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:71
 #, kde-format
 msgid "Email Notification:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:76
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:78
 #, kde-format
 msgid "Mobile Notification:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:107
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:111
 #, kde-format
 msgid "Each Mentions"
 msgstr ""
@@ -3535,74 +3538,74 @@ msgstr ""
 msgid "Login Failed: generic error"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:235
+#: widgets/ruqolamainwindow.cpp:246
 #, kde-format
 msgid "Save As Text..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:237
+#: widgets/ruqolamainwindow.cpp:248
 #, kde-format
 msgid "Add Server..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:242
+#: widgets/ruqolamainwindow.cpp:253
 #, kde-format
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:246
+#: widgets/ruqolamainwindow.cpp:257
 #, kde-format
 msgid "Logout Current Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:254
+#: widgets/ruqolamainwindow.cpp:265
 #, kde-format
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:259
+#: widgets/ruqolamainwindow.cpp:270
 #, kde-format
 msgid "Create Direct Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:268
+#: widgets/ruqolamainwindow.cpp:279
 #, kde-format
 msgid "Unread on Top"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:273
+#: widgets/ruqolamainwindow.cpp:284
 #, kde-format
 msgid "Mark all channels read"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:278
+#: widgets/ruqolamainwindow.cpp:289
 #, kde-format
 msgid "Register a New User..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:282
+#: widgets/ruqolamainwindow.cpp:293
 #, kde-format
 msgid "My Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:286
+#: widgets/ruqolamainwindow.cpp:297
 #, kde-format
 msgid "Administrator..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:292
+#: widgets/ruqolamainwindow.cpp:303
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:454
+#: widgets/ruqolamainwindow.cpp:465
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:455
+#: widgets/ruqolamainwindow.cpp:466
 #, kde-format
 msgid "Register New User"
 msgstr ""

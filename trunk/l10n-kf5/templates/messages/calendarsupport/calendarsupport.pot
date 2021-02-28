@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calendarsupport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-12 03:05+0100\n"
+"POT-Creation-Date: 2021-02-27 02:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -850,23 +850,22 @@ msgstr ""
 #. i18n: ectx: label, entry, group (Colors)
 #: kcalprefs.kcfg:220
 #, kde-format
-msgid "\"No category\" color (for \"Only category\" drawing schemes)"
+msgid "\"No tag\" color (for \"Only tag\" drawing schemes)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Colors)
 #: kcalprefs.kcfg:221
 #, kde-format
 msgid ""
-"Select a color to use for the \"no category\" or \"unset category\" "
-"situation, when an item does not belong to any category. This color is used "
-"when drawing items in the agenda or month views using the \"Only category\" "
-"scheme."
+"Select a color to use for the \"no tag\" or \"unset tag\" situation, when an "
+"item does not have any tags.  This color is used when drawing items in the "
+"agenda or month views using the \"Only tag\" scheme."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry, group (Colors)
 #: kcalprefs.kcfg:222
 #, kde-format
-msgid "Use this color when drawing items without a category"
+msgid "Use this color when drawing items without any tags"
 msgstr ""
 
 #: kdatepickerpopup.cpp:89
@@ -1339,9 +1338,11 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mColors)
 #: printing/calprintdayconfig_base.ui:381
 #: printing/calprintincidenceconfig_base.ui:127
+#: printing/calprintmonthconfig_base.ui:306
+#: printing/calprintweekconfig_base.ui:388
 #, kde-format
 msgid ""
-"If you want to use colors to distinguish certain categories on the print, "
+"If you want to use colors to distinguish certain tags in the printed output, "
 "check this option."
 msgstr ""
 
@@ -1477,7 +1478,7 @@ msgstr[1] ""
 #: printing/calprintdefaultplugins.cpp:359
 #: printing/calprintdefaultplugins.cpp:631
 #, kde-format
-msgctxt "Spacer for the joined list of categories"
+msgctxt "Spacer for the joined list of categories/tags"
 msgid ", "
 msgstr ""
 
@@ -1643,7 +1644,7 @@ msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:630
 #, kde-format
-msgid "Categories: "
+msgid "Tags: "
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:795
@@ -2224,14 +2225,6 @@ msgstr ""
 msgid "Check this option to show note lines."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, mColors)
-#: printing/calprintmonthconfig_base.ui:306
-#, kde-format
-msgid ""
-"If you want to make use of colors you should check this option. The category "
-"colors will be used."
-msgstr ""
-
 #: printing/calprintpluginbase.cpp:141
 #, kde-format
 msgid "This printing style does not have any configuration options."
@@ -2541,14 +2534,6 @@ msgstr ""
 #: printing/calprintweekconfig_base.ui:378
 #, kde-format
 msgid "Show note &lines in Filofax layout"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, mColors)
-#: printing/calprintweekconfig_base.ui:388
-#, kde-format
-msgid ""
-"The timetable view supports colors. If you want to make use of colors you "
-"should check this option. The category colors will be used."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)

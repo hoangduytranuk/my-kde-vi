@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-20 02:31+0100\n"
+"POT-Creation-Date: 2021-02-28 02:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -185,7 +185,7 @@ msgid "Creating directory"
 msgstr ""
 
 #: core/job.cpp:121 widgets/fileundomanager.cpp:132
-#: widgets/kurlrequester.cpp:459
+#: widgets/kurlrequester.cpp:466
 #, kde-format
 msgid "Directory"
 msgstr ""
@@ -197,7 +197,7 @@ msgid "Deleting"
 msgstr ""
 
 #: core/job.cpp:128 core/job.cpp:135 widgets/fileundomanager.cpp:143
-#: widgets/kurlrequester.cpp:458
+#: widgets/kurlrequester.cpp:465
 #, kde-format
 msgid "File"
 msgstr ""
@@ -2040,8 +2040,9 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: core/kcoredirlister.cpp:386 gui/openurljob.cpp:150 widgets/krun.cpp:402
-#: widgets/paste.cpp:262 widgets/renamedialog.cpp:599
+#: core/kcoredirlister.cpp:386 core/mimetypefinderjob.cpp:56
+#: gui/openurljob.cpp:145 widgets/krun.cpp:402 widgets/paste.cpp:262
+#: widgets/renamedialog.cpp:599
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -2068,6 +2069,11 @@ msgstr ""
 #: core/kfileitem.cpp:1296
 #, kde-format
 msgid " (Points to %1)"
+msgstr ""
+
+#: core/mimetypefinderjob.cpp:203
+#, kde-format
+msgid "Unable to determine the type of file for %1"
 msgstr ""
 
 #: core/slave.cpp:462
@@ -3483,7 +3489,7 @@ msgid ""
 "%2."
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:247 gui/openurljob.cpp:734
+#: gui/applicationlauncherjob.cpp:247 gui/openurljob.cpp:605
 #: widgets/krun.cpp:199
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
@@ -3523,12 +3529,12 @@ msgstr ""
 msgid "Launching %1"
 msgstr ""
 
-#: gui/openurljob.cpp:164
+#: gui/openurljob.cpp:159
 #, kde-format
 msgid "Failed to open %1"
 msgstr ""
 
-#: gui/openurljob.cpp:412 widgets/kdesktopfileactions.cpp:125
+#: gui/openurljob.cpp:283 widgets/kdesktopfileactions.cpp:125
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -3536,44 +3542,44 @@ msgid ""
 "is of type Link but has no URL=... entry."
 msgstr ""
 
-#: gui/openurljob.cpp:480
+#: gui/openurljob.cpp:351
 #, kde-format
 msgid ""
 "The executable file \"%1\" is located on a remote filesystem. For safety "
 "reasons it will not be started."
 msgstr ""
 
-#: gui/openurljob.cpp:524
+#: gui/openurljob.cpp:395
 #, kde-format
 msgid ""
 "For security reasons, launching executables is not allowed in this context."
 msgstr ""
 
-#: gui/openurljob.cpp:547
+#: gui/openurljob.cpp:418
 #, kde-format
 msgid ""
 "The program \"%1\" needs to have executable permission before it can be "
 "launched."
 msgstr ""
 
-#: gui/openurljob.cpp:558
+#: gui/openurljob.cpp:429
 #, kde-format
 msgid ""
 "Unable to make file \"%1\" executable.\n"
 "%2."
 msgstr ""
 
-#: gui/openurljob.cpp:645 widgets/kdesktopfileactions.cpp:60
+#: gui/openurljob.cpp:516 widgets/kdesktopfileactions.cpp:60
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr ""
 
-#: gui/openurljob.cpp:746
+#: gui/openurljob.cpp:617
 #, kde-format
 msgid "Failed to open the file."
 msgstr ""
 
-#: gui/openurljob.cpp:780
+#: gui/openurljob.cpp:651
 #, kde-format
 msgid "The program \"%1\" could not be launched."
 msgstr ""
@@ -8159,7 +8165,7 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr ""
 
-#: widgets/kurlrequester.cpp:344
+#: widgets/kurlrequester.cpp:351
 #, kde-format
 msgid "Open file dialog"
 msgstr ""

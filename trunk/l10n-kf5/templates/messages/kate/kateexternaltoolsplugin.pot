@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-22 03:00+0100\n"
+"POT-Creation-Date: 2021-02-28 02:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,117 +27,129 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#. i18n: file: 14
+#. i18n: file: 12
 #, kde-format
 msgctxt "External tool name"
 msgid "git-cola"
 msgstr ""
 
-#. i18n: file: 29
+#. i18n: file: 23
 #, kde-format
 msgctxt "External tool name"
 msgid "gitk"
 msgstr ""
 
-#. i18n: file: 44
+#. i18n: file: 35
 #, kde-format
 msgctxt "External tool name"
 msgid "git blame"
 msgstr ""
 
-#. i18n: file: 59
+#. i18n: file: 48
 #, kde-format
 msgctxt "External tool name"
 msgid "Run Shell Script"
 msgstr ""
 
-#. i18n: file: 74
+#. i18n: file: 61
 #, kde-format
 msgctxt "External tool name"
 msgid "Google Selected Text"
 msgstr ""
 
-#. i18n: file: 89
+#. i18n: file: 72
 #, kde-format
 msgctxt "External tool name"
 msgid "Insert UUID"
 msgstr ""
 
-#. i18n: file: 104
+#. i18n: file: 83
 #, kde-format
 msgctxt "External tool name"
 msgid "Clang Format Full File"
 msgstr ""
 
-#. i18n: file: 119
+#. i18n: file: 96
 #, kde-format
 msgctxt "External tool name"
 msgid "Clang Format Selected Text"
 msgstr ""
 
-#. i18n: file: 134
-#, kde-format
-msgctxt "External tool name"
-msgid "Qt Quick 2 Preview (qmlscene)"
-msgstr ""
-
-#. i18n: file: 149
+#. i18n: file: 109
 #, kde-format
 msgctxt "External tool name"
 msgid "JSON Format Full File"
 msgstr ""
 
-#. i18n: file: 164
+#. i18n: file: 122
 #, kde-format
 msgctxt "External tool name"
 msgid "XML Format Full File"
 msgstr ""
 
-#. i18n: file: 179
-#, kde-format
-msgctxt "External tool name"
-msgid "Go Fmt Full File"
-msgstr ""
-
-#. i18n: file: 194
+#. i18n: file: 136
 #, kde-format
 msgctxt "External tool name"
 msgid "Rust Fmt Full File"
 msgstr ""
 
-#. i18n: file: 209
+#. i18n: file: 148
 #, kde-format
 msgctxt "External tool name"
 msgid "Prettier Format Current File"
 msgstr ""
 
+#. i18n: file: 161
+#, kde-format
+msgctxt "External tool name"
+msgid "Qt Quick 2 Preview (qmlscene)"
+msgstr ""
+
+#. i18n: file: 175
+#, kde-format
+msgctxt "External tool name"
+msgid "Go Fmt Full File"
+msgstr ""
+
+#. i18n: file: 189
+#, kde-format
+msgctxt "External tool name"
+msgid "GoImports Full File"
+msgstr ""
+
 #. i18n: file: 8
-#. i18n: file: 23
-#. i18n: file: 38
+#. i18n: file: 19
+#. i18n: file: 32
 #, kde-format
 msgctxt "External tool category"
 msgid "Git"
 msgstr ""
 
-#. i18n: file: 53
-#. i18n: file: 68
-#. i18n: file: 83
-#. i18n: file: 98
-#. i18n: file: 113
-#. i18n: file: 143
-#. i18n: file: 158
-#. i18n: file: 173
-#. i18n: file: 188
-#. i18n: file: 203
+#. i18n: file: 44
+#. i18n: file: 57
+#. i18n: file: 69
+#. i18n: file: 80
+#. i18n: file: 92
+#. i18n: file: 105
+#. i18n: file: 118
+#. i18n: file: 131
+#. i18n: file: 145
 #, kde-format
 msgctxt "External tool category"
 msgid "Tools"
 msgstr ""
 
-#. i18n: file: 128
+#. i18n: file: 157
 #, kde-format
 msgctxt "External tool category"
 msgid "Qt"
+msgstr ""
+
+#. i18n: file: 170
+#. i18n: file: 184
+#, kde-format
+msgctxt "External tool category"
+msgid "Go"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QTreeView, lbTools)
@@ -165,39 +177,37 @@ msgstr ""
 msgid "&Remove"
 msgstr ""
 
-#: externaltoolsplugin.cpp:174
+#: externaltoolsplugin.cpp:182
 #, kde-format
-msgid "Running external tool: %1"
+msgid "Running %1: %2 %3"
 msgstr ""
 
-#: externaltoolsplugin.cpp:175
+#: externaltoolsplugin.cpp:183
 #, kde-format
-msgid "- Executable: %1"
+msgid "Running %1: %2 %3 with input %4"
 msgstr ""
 
-#: externaltoolsplugin.cpp:176
+#: externaltoolsplugin.cpp:188 externaltoolsplugin.cpp:286
+#: kateexternaltoolsconfigwidget.cpp:288 kateexternaltoolsconfigwidget.cpp:293
+#: kateexternaltoolsview.cpp:157 kateexternaltoolsview.cpp:161
+#: kateexternaltoolsview.cpp:207
 #, kde-format
-msgid "- Arguments : %1"
-msgstr ""
-
-#: externaltoolsplugin.cpp:177
-#, kde-format
-msgid "- Input     : %1"
-msgstr ""
-
-#: externaltoolsplugin.cpp:258
-#, kde-format
-msgid "Data written to stderr:"
+msgid "External Tools"
 msgstr ""
 
 #: externaltoolsplugin.cpp:267
 #, kde-format
-msgid "Warning: External tool crashed."
+msgid "Data written to stderr:\n"
 msgstr ""
 
-#: externaltoolsplugin.cpp:269
+#: externaltoolsplugin.cpp:278
 #, kde-format
-msgid "Finished with exit code: %1"
+msgid "%1 crashed"
+msgstr ""
+
+#: externaltoolsplugin.cpp:280
+#, kde-format
+msgid "%1 finished with exit code %2"
 msgstr ""
 
 #: kateexternaltoolscommand.cpp:38
@@ -250,13 +260,6 @@ msgstr ""
 msgid "Add Category"
 msgstr ""
 
-#: kateexternaltoolsconfigwidget.cpp:288 kateexternaltoolsconfigwidget.cpp:293
-#: kateexternaltoolsview.cpp:158 kateexternaltoolsview.cpp:162
-#: kateexternaltoolsview.cpp:208
-#, kde-format
-msgid "External Tools"
-msgstr ""
-
 #: kateexternaltoolsconfigwidget.cpp:307 kateexternaltoolsconfigwidget.cpp:419
 #: kateexternaltoolsconfigwidget.cpp:464
 #, kde-format
@@ -278,7 +281,7 @@ msgstr ""
 msgid "Configure..."
 msgstr ""
 
-#: kateexternaltoolsview.cpp:164
+#: kateexternaltoolsview.cpp:163
 #, kde-format
 msgid "Launch external helper applications"
 msgstr ""
@@ -505,18 +508,6 @@ msgstr ""
 #: toolview.ui:36
 #, kde-format
 msgid "Displays output from the external tool"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tabStatus)
-#: toolview.ui:44
-#, kde-format
-msgid "Status"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QTextEdit, teStatus)
-#: toolview.ui:53
-#, kde-format
-msgid "No errors detected"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
