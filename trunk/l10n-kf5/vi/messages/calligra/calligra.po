@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-26 03:00+0100\n"
+"POT-Creation-Date: 2021-03-01 02:50+0100\n"
 "PO-Revision-Date: 2008-01-27 21:10+0700\n"
 "Last-Translator: Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -251,6 +251,12 @@ msgid "Create shape"
 msgstr "Tạo đường"
 
 #: flake/commands/KoShapeDeleteCommand.cpp:56
+#, fuzzy
+#| msgid "Delete shape"
+msgctxt "(qtundo-format) Delete one shape"
+msgid "Delete shape"
+msgstr "Xoá hình"
+
 #: flake/commands/KoShapeDeleteCommand.cpp:69
 #, fuzzy
 #| msgid "Delete shape"
@@ -2272,6 +2278,19 @@ msgid "Hide master shapes"
 msgstr "Làm méo các hình"
 
 #: pageapp/commands/KoPAPageDeleteCommand.cpp:39
+#, fuzzy
+#| msgid "Delete shape"
+msgctxt "(qtundo-format) Delete one slide"
+msgid "Delete slide"
+msgstr "Xoá hình"
+
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:42
+#, fuzzy
+#| msgid "Delete page"
+msgctxt "(qtundo-format) Delete one page"
+msgid "Delete page"
+msgstr "Xoá trang"
+
 #: pageapp/commands/KoPAPageDeleteCommand.cpp:63
 #, fuzzy
 #| msgid "Delete shape"
@@ -2280,7 +2299,6 @@ msgid "Delete slide"
 msgid_plural "Delete slides"
 msgstr[0] "Xoá hình"
 
-#: pageapp/commands/KoPAPageDeleteCommand.cpp:42
 #: pageapp/commands/KoPAPageDeleteCommand.cpp:66
 #, fuzzy
 #| msgid "Delete page"

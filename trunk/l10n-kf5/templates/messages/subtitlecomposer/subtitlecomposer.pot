@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-24 02:32+0100\n"
+"POT-Creation-Date: 2021-03-01 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1290,6 +1290,12 @@ msgstr ""
 msgid "Texts"
 msgstr ""
 
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxLines)
+#: src/configs/errorsconfigwidget.ui:23
+#, kde-format
+msgid " lines"
+msgstr ""
+
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxCharacters)
 #: src/configs/errorsconfigwidget.ui:36 src/dialogs/smarttextsadjustdialog.cpp:39
 #, kde-format
@@ -1312,6 +1318,24 @@ msgstr ""
 #: src/configs/errorsconfigwidget.ui:63
 #, kde-format
 msgid "Absolute Durations"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDuration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDuration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_SeekOffsetOnDoubleClick)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_JumpLineOffset)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinesQuickShiftAmount)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GrabbedPositionCompensation)
+#: src/configs/errorsconfigwidget.ui:69 src/configs/errorsconfigwidget.ui:79
+#: src/configs/generalconfigwidget.ui:82 src/configs/generalconfigwidget.ui:92
+#: src/configs/generalconfigwidget.ui:102
+#: src/configs/generalconfigwidget.ui:122
+#: src/configs/generalconfigwidget.ui:141
+#: src/configs/generalconfigwidget.ui:151
+#, kde-format
+msgid " msec"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -1411,15 +1435,6 @@ msgstr ""
 #: src/configs/generalconfigwidget.ui:72
 #, kde-format
 msgid "Default pause between subtitle lines:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_JumpLineOffset)
-#: src/configs/generalconfigwidget.ui:82 src/configs/generalconfigwidget.ui:92
-#: src/configs/generalconfigwidget.ui:122
-#, kde-format
-msgid " msec"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -2587,10 +2602,22 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevImage)
+#: src/formats/vobsub/vobsubinputprocessdialog.ui:202
+#, kde-format
+msgid "Ctrl+Shift+Left"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, btnPrevImage)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:205
 #, kde-format
 msgid "Prev Image"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnPrevSymbol)
+#: src/formats/vobsub/vobsubinputprocessdialog.ui:219
+#, kde-format
+msgid "Ctrl+Left"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnPrevSymbol)
@@ -2599,10 +2626,22 @@ msgstr ""
 msgid "Prev Symbol"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextSymbol)
+#: src/formats/vobsub/vobsubinputprocessdialog.ui:236
+#, kde-format
+msgid "Ctrl+Right"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, btnNextSymbol)
 #: src/formats/vobsub/vobsubinputprocessdialog.ui:239
 #, kde-format
 msgid "Next Symbol"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnNextImage)
+#: src/formats/vobsub/vobsubinputprocessdialog.ui:250
+#, kde-format
+msgid "Ctrl+Shift+Right"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnNextImage)
