@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-02 02:52+0100\n"
+"POT-Creation-Date: 2021-03-03 03:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -6037,17 +6037,17 @@ msgstr ""
 
 #: src/assets/keyframes/model/keyframemodel.cpp:258
 #, kde-format
+msgctxt "@action"
 msgid "Move keyframes"
 msgstr ""
 
 #: src/assets/keyframes/model/keyframemodel.cpp:279
-#: src/assets/keyframes/view/keyframeview.cpp:271
-#: src/assets/keyframes/view/keyframeview.cpp:552
+#: src/assets/keyframes/model/keyframemodellist.cpp:193
+#: src/assets/keyframes/model/keyframemodellist.cpp:236
 #, kde-format
+msgctxt "@action"
 msgid "Move keyframe"
-msgid_plural "Move keyframes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr ""
 
 #: src/assets/keyframes/model/keyframemodel.cpp:350
 #: src/assets/keyframes/model/keyframemodellist.cpp:272
@@ -6081,13 +6081,6 @@ msgstr ""
 msgid "Delete keyframes"
 msgstr ""
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:193
-#: src/assets/keyframes/model/keyframemodellist.cpp:236
-#, kde-format
-msgctxt "@action"
-msgid "Move keyframe"
-msgstr ""
-
 #: src/assets/keyframes/model/keyframemodellist.cpp:533
 #, kde-format
 msgid "Missing keyframe detected at %1, automatically re-added"
@@ -6107,6 +6100,14 @@ msgstr ""
 #, kde-format
 msgid "Remove keyframe"
 msgid_plural "Remove keyframes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/assets/keyframes/view/keyframeview.cpp:271
+#: src/assets/keyframes/view/keyframeview.cpp:552
+#, kde-format
+msgid "Move keyframe"
+msgid_plural "Move keyframes"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7060,13 +7061,13 @@ msgstr ""
 msgid "Create Folder"
 msgstr ""
 
-#: src/bin/bin.cpp:2985 src/dialogs/textbasededit.cpp:628
+#: src/bin/bin.cpp:2985 src/dialogs/textbasededit.cpp:622
 #: src/monitor/recmanager.cpp:59
 #, kde-format
 msgid "Show log"
 msgstr ""
 
-#: src/bin/bin.cpp:2988 src/dialogs/textbasededit.cpp:630
+#: src/bin/bin.cpp:2988 src/dialogs/textbasededit.cpp:624
 #, kde-format
 msgid "Detailed log"
 msgstr ""
@@ -7516,7 +7517,7 @@ msgstr ""
 msgid "Tag %1"
 msgstr ""
 
-#: src/bin/tagwidget.cpp:131
+#: src/bin/tagwidget.cpp:131 src/dialogs/textbasededit.cpp:570
 #, kde-format
 msgid "Configure"
 msgstr ""
@@ -7817,8 +7818,8 @@ msgid "GPU processing needs MLT compiled with Movit and Rtaudio modules"
 msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:641
-#: src/dialogs/kdenlivesettingsdialog.cpp:1565
-#: src/dialogs/kdenlivesettingsdialog.cpp:1590
+#: src/dialogs/kdenlivesettingsdialog.cpp:1566
+#: src/dialogs/kdenlivesettingsdialog.cpp:1591
 #: src/project/dialogs/projectsettings.cpp:780
 #: src/project/dialogs/projectsettings.cpp:782
 #: src/project/dialogs/projectsettings.cpp:881
@@ -7865,42 +7866,42 @@ msgstr ""
 msgid "RtAudio"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:784
+#: src/dialogs/kdenlivesettingsdialog.cpp:785
 #, kde-format
 msgid "Select default audio editor"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:795
+#: src/dialogs/kdenlivesettingsdialog.cpp:796
 #, kde-format
 msgid "Select default image editor"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:880
-#: src/dialogs/kdenlivesettingsdialog.cpp:891
+#: src/dialogs/kdenlivesettingsdialog.cpp:881
+#: src/dialogs/kdenlivesettingsdialog.cpp:892
 #: src/project/dialogs/projectsettings.cpp:432
 #, kde-format
 msgid "Please select a video profile"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1115
+#: src/dialogs/kdenlivesettingsdialog.cpp:1116
 #, kde-format
 msgid "Kdenlive must be restarted to change this setting"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1221
+#: src/dialogs/kdenlivesettingsdialog.cpp:1222
 #, kde-format
 msgid "A profile with that name already exists"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1352
+#: src/dialogs/kdenlivesettingsdialog.cpp:1353
 #, kde-format
 msgid "Current settings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, progressive)
-#: src/dialogs/kdenlivesettingsdialog.cpp:1403
-#: src/dialogs/kdenlivesettingsdialog.cpp:1439
-#: src/dialogs/kdenlivesettingsdialog.cpp:1456
+#: src/dialogs/kdenlivesettingsdialog.cpp:1404
+#: src/dialogs/kdenlivesettingsdialog.cpp:1440
+#: src/dialogs/kdenlivesettingsdialog.cpp:1457
 #: src/mltcontroller/clippropertiescontroller.cpp:555
 #: src/mltcontroller/clippropertiescontroller.cpp:1324
 #: src/project/dialogs/profilewidget.cpp:121
@@ -7909,106 +7910,119 @@ msgstr ""
 msgid "Progressive"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1748
+#: src/dialogs/kdenlivesettingsdialog.cpp:1749
 #, kde-format
 msgid "Install missing dependencies"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1751
+#: src/dialogs/kdenlivesettingsdialog.cpp:1752
 #, kde-format
 msgid "Check VOSK installation"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1763
-#: src/dialogs/kdenlivesettingsdialog.cpp:1827
-#: src/dialogs/speechdialog.cpp:109 src/dialogs/textbasededit.cpp:764
+#: src/dialogs/kdenlivesettingsdialog.cpp:1764
+#: src/dialogs/kdenlivesettingsdialog.cpp:1831
+#: src/dialogs/speechdialog.cpp:109 src/dialogs/textbasededit.cpp:765
 #, kde-format
 msgid "Cannot find python3, please install it on your system."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1771
-#: src/dialogs/kdenlivesettingsdialog.cpp:1835
-#: src/dialogs/speechdialog.cpp:142 src/dialogs/textbasededit.cpp:775
+#: src/dialogs/kdenlivesettingsdialog.cpp:1772
+#: src/dialogs/kdenlivesettingsdialog.cpp:1839
+#: src/dialogs/speechdialog.cpp:142 src/dialogs/textbasededit.cpp:781
 #, kde-format
 msgid "The speech script was not found, check your install."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1777
+#: src/dialogs/kdenlivesettingsdialog.cpp:1778
 #, kde-format
 msgid "Installing modules..."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1799
+#: src/dialogs/kdenlivesettingsdialog.cpp:1800
 #, kde-format
 msgid ""
 "Download speech models from: <a href=\"https://alphacephei.com/vosk/models"
 "\">https://alphacephei.com/vosk/models</a>"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1814
+#: src/dialogs/kdenlivesettingsdialog.cpp:1815
 #, kde-format
 msgid "Add a new speech model from an archive file"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1815
+#: src/dialogs/kdenlivesettingsdialog.cpp:1816
 #, kde-format
 msgid "Delete the selected speech model"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1847
+#: src/dialogs/kdenlivesettingsdialog.cpp:1851
 #, kde-format
 msgid "The VOSK python module is required for speech features. "
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1853
+#: src/dialogs/kdenlivesettingsdialog.cpp:1857
 #, kde-format
 msgid "The SRT python module is required for automated subtitling."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1874
+#: src/dialogs/kdenlivesettingsdialog.cpp:1868
+#: src/dialogs/kdenlivesettingsdialog.cpp:1882
+#: src/dialogs/kdenlivesettingsdialog.cpp:2044
+#, kde-format
+msgid "Please add a speech model."
+msgstr ""
+
+#: src/dialogs/kdenlivesettingsdialog.cpp:1873
+#: src/dialogs/kdenlivesettingsdialog.cpp:1886
+#, kde-format
+msgid "Speech to text is properly configured."
+msgstr ""
+
+#: src/dialogs/kdenlivesettingsdialog.cpp:1894
 #, kde-format
 msgid "Enter url for the new dictionary"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1882
+#: src/dialogs/kdenlivesettingsdialog.cpp:1902
 #, kde-format
 msgid "Downloading model..."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1895
+#: src/dialogs/kdenlivesettingsdialog.cpp:1915
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1903
-#: src/dialogs/kdenlivesettingsdialog.cpp:1963
+#: src/dialogs/kdenlivesettingsdialog.cpp:1923
+#: src/dialogs/kdenlivesettingsdialog.cpp:1983
 #, kde-format
 msgid "Cannot access dictionary folder"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1913
+#: src/dialogs/kdenlivesettingsdialog.cpp:1933
 #, kde-format
 msgid ""
 "Delete folder:\n"
 "%1"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1936
+#: src/dialogs/kdenlivesettingsdialog.cpp:1956
 #, kde-format
 msgid "Download error"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1941
+#: src/dialogs/kdenlivesettingsdialog.cpp:1961
 #, kde-format
 msgid "Download error %1"
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1971
+#: src/dialogs/kdenlivesettingsdialog.cpp:1991
 #, kde-format
 msgid "Extracting archive..."
 msgstr ""
 
-#: src/dialogs/kdenlivesettingsdialog.cpp:1979
+#: src/dialogs/kdenlivesettingsdialog.cpp:1999
 #, kde-format
 msgid "New dictionary installed"
 msgstr ""
@@ -8451,12 +8465,12 @@ msgstr ""
 msgid "Process"
 msgstr ""
 
-#: src/dialogs/speechdialog.cpp:49 src/dialogs/textbasededit.cpp:570
+#: src/dialogs/speechdialog.cpp:49
 #, kde-format
 msgid "Configure speech recognition"
 msgstr ""
 
-#: src/dialogs/speechdialog.cpp:60 src/dialogs/textbasededit.cpp:609
+#: src/dialogs/speechdialog.cpp:60 src/dialogs/textbasededit.cpp:607
 #, kde-format
 msgid "Please install speech recognition models"
 msgstr ""
@@ -8471,12 +8485,12 @@ msgstr ""
 msgid "Audio export failed"
 msgstr ""
 
-#: src/dialogs/speechdialog.cpp:174 src/dialogs/textbasededit.cpp:796
+#: src/dialogs/speechdialog.cpp:174 src/dialogs/textbasededit.cpp:802
 #, kde-format
 msgid "Starting speech recognition"
 msgstr ""
 
-#: src/dialogs/speechdialog.cpp:194 src/dialogs/textbasededit.cpp:868
+#: src/dialogs/speechdialog.cpp:194 src/dialogs/textbasededit.cpp:864
 #, kde-format
 msgid "Speech recognition aborted."
 msgstr ""
@@ -8531,77 +8545,82 @@ msgstr ""
 msgid "Delete selection"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:638
+#: src/dialogs/textbasededit.cpp:632
 #, kde-format
 msgid "Delete selected text"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:642
+#: src/dialogs/textbasededit.cpp:636
 #, kde-format
 msgid "Save edited text in a new playlist"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:649
+#: src/dialogs/textbasededit.cpp:643
 #, kde-format
 msgid "Add bookmark for current selection"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:653
+#: src/dialogs/textbasededit.cpp:647
 #, kde-format
 msgid "Insert selected blocks in timeline"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:752
+#: src/dialogs/textbasededit.cpp:754
 #, kde-format
 msgid "Another recognition job is running. Abort it ?"
 msgstr ""
 
 #: src/dialogs/textbasededit.cpp:770
 #, kde-format
+msgid "Please configure speech to text."
+msgstr ""
+
+#: src/dialogs/textbasededit.cpp:776
+#, kde-format
 msgid "Please install a language model."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:781
+#: src/dialogs/textbasededit.cpp:787
 #, kde-format
 msgid "Select a clip in Project Bin."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:839
+#: src/dialogs/textbasededit.cpp:845
 #, kde-format
 msgid "Select a clip for speech recognition."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:842
+#: src/dialogs/textbasededit.cpp:848
 #, kde-format
 msgid "Starting speech recognition on %1."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:873
+#: src/dialogs/textbasededit.cpp:866
 #, kde-format
 msgid "No speech detected."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:876
+#: src/dialogs/textbasededit.cpp:869
 #, kde-format
 msgid "Speech recognition finished."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:933 src/dialogs/textbasededit.cpp:952
+#: src/dialogs/textbasededit.cpp:926 src/dialogs/textbasededit.cpp:945
 #, kde-format
 msgid "No speech"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:1061
+#: src/dialogs/textbasededit.cpp:1054
 #, kde-format
 msgid "No text to export"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:1081
+#: src/dialogs/textbasededit.cpp:1074
 #, kde-format
 msgid "Enter new playlist path"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:1158
+#: src/dialogs/textbasededit.cpp:1162
 #, kde-format
 msgid "No timecode found in selection"
 msgstr ""
@@ -11354,6 +11373,7 @@ msgid "Remove Space In All Tracks"
 msgstr ""
 
 #: src/mainwindow.cpp:1702 src/timeline2/model/timelinemodel.cpp:3336
+#: src/timeline2/view/timelinecontroller.cpp:668
 #, kde-format
 msgctxt "@action"
 msgid "Insert Track"
@@ -15068,16 +15088,9 @@ msgstr ""
 
 #: src/timeline2/view/timelinecontroller.cpp:668
 #, kde-format
+msgctxt "@action"
 msgid "Insert Tracks"
 msgstr ""
-
-#: src/timeline2/view/timelinecontroller.cpp:668
-#: src/timeline2/view/timelinecontroller.cpp:3981
-#, kde-format
-msgid "Insert Track"
-msgid_plural "Insert Tracks"
-msgstr[0] ""
-msgstr[1] ""
 
 #: src/timeline2/view/timelinecontroller.cpp:670
 #: src/timeline2/view/timelinecontroller.cpp:3983
@@ -15261,6 +15274,13 @@ msgstr ""
 #, kde-format
 msgid "Could not expand clip"
 msgstr ""
+
+#: src/timeline2/view/timelinecontroller.cpp:3981
+#, kde-format
+msgid "Insert Track"
+msgid_plural "Insert Tracks"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/timeline2/view/timelinecontroller.cpp:4065
 #, kde-format
@@ -16059,7 +16079,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, check_vosk)
 #. i18n: ectx: property (text), widget (QToolButton, button_add)
 #. i18n: ectx: property (text), widget (QToolButton, button_delete)
-#. i18n: ectx: property (text), widget (QToolButton, vosk_config)
 #. i18n: ectx: property (text), widget (QToolButton, button_search)
 #. i18n: ectx: property (text), widget (QToolButton, button_insert)
 #. i18n: ectx: property (text), widget (QToolButton, button_bookmark)
@@ -16098,6 +16117,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, buttonShowInTimeline)
 #. i18n: ectx: property (text), widget (QToolButton, buttonNewPoints)
 #. i18n: ectx: property (text), widget (QToolButton, buttonHelp)
+#. i18n: ectx: property (text), widget (QToolButton, vosk_config)
 #. i18n: ectx: property (text), widget (QToolButton, italic)
 #. i18n: ectx: property (text), widget (QToolButton, collapseButton)
 #. i18n: ectx: property (text), widget (QToolButton, enabledButton)
@@ -16187,24 +16207,24 @@ msgstr ""
 #: src/ui/renderwidget_ui.ui:896 src/ui/resourcewidget_ui.ui:249
 #: src/ui/resourcewidget_ui.ui:293 src/ui/selectivecolor_ui.ui:29
 #: src/ui/selectivecolor_ui.ui:36 src/ui/speechdialog_ui.ui:95
-#: src/ui/speechdialog_ui.ui:115 src/ui/textbasededit_ui.ui:41
-#: src/ui/textbasededit_ui.ui:51 src/ui/textbasededit_ui.ui:77
+#: src/ui/speechdialog_ui.ui:115 src/ui/textbasededit_ui.ui:54
+#: src/ui/textbasededit_ui.ui:74 src/ui/textbasededit_ui.ui:84
 #: src/ui/textbasededit_ui.ui:94 src/ui/textbasededit_ui.ui:104
-#: src/ui/textbasededit_ui.ui:114 src/ui/textbasededit_ui.ui:136
-#: src/ui/textbasededit_ui.ui:153 src/ui/textbasededit_ui.ui:227
-#: src/ui/titlewidget_ui.ui:530 src/ui/titlewidget_ui.ui:537
-#: src/ui/titlewidget_ui.ui:544 src/ui/titlewidget_ui.ui:551
-#: src/ui/titlewidget_ui.ui:558 src/ui/titlewidget_ui.ui:565
-#: src/ui/titlewidget_ui.ui:675 src/ui/titlewidget_ui.ui:757
-#: src/ui/titlewidget_ui.ui:774 src/ui/titlewidget_ui.ui:887
-#: src/ui/titlewidget_ui.ui:900 src/ui/titlewidget_ui.ui:930
-#: src/ui/titlewidget_ui.ui:959 src/ui/titlewidget_ui.ui:1205
-#: src/ui/titlewidget_ui.ui:1493 src/ui/titlewidget_ui.ui:1500
-#: src/ui/titlewidget_ui.ui:1507 src/ui/tracksconfigdialog_ui.ui:51
-#: src/ui/tracksconfigdialog_ui.ui:58 src/ui/tracksconfigdialog_ui.ui:65
-#: src/ui/tracksconfigdialog_ui.ui:72 src/ui/tracksconfigdialog_ui.ui:79
-#: src/ui/unicodewidget_ui.ui:197 src/ui/unicodewidget_ui.ui:222
-#: src/ui/urllistparamwidget_ui.ui:111 src/ui/urllistparamwidget_ui.ui:122
+#: src/ui/textbasededit_ui.ui:126 src/ui/textbasededit_ui.ui:143
+#: src/ui/textbasededit_ui.ui:217 src/ui/titlewidget_ui.ui:530
+#: src/ui/titlewidget_ui.ui:537 src/ui/titlewidget_ui.ui:544
+#: src/ui/titlewidget_ui.ui:551 src/ui/titlewidget_ui.ui:558
+#: src/ui/titlewidget_ui.ui:565 src/ui/titlewidget_ui.ui:675
+#: src/ui/titlewidget_ui.ui:757 src/ui/titlewidget_ui.ui:774
+#: src/ui/titlewidget_ui.ui:887 src/ui/titlewidget_ui.ui:900
+#: src/ui/titlewidget_ui.ui:930 src/ui/titlewidget_ui.ui:959
+#: src/ui/titlewidget_ui.ui:1205 src/ui/titlewidget_ui.ui:1493
+#: src/ui/titlewidget_ui.ui:1500 src/ui/titlewidget_ui.ui:1507
+#: src/ui/tracksconfigdialog_ui.ui:51 src/ui/tracksconfigdialog_ui.ui:58
+#: src/ui/tracksconfigdialog_ui.ui:65 src/ui/tracksconfigdialog_ui.ui:72
+#: src/ui/tracksconfigdialog_ui.ui:79 src/ui/unicodewidget_ui.ui:197
+#: src/ui/unicodewidget_ui.ui:222 src/ui/urllistparamwidget_ui.ui:111
+#: src/ui/urllistparamwidget_ui.ui:122
 #, kde-format
 msgid "..."
 msgstr ""
@@ -18436,19 +18456,19 @@ msgid "Template"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, speech_zone)
-#: src/ui/textbasededit_ui.ui:87
+#: src/ui/textbasededit_ui.ui:67
 #, kde-format
 msgid "Selected zone only"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, search_line)
-#: src/ui/textbasededit_ui.ui:143
+#: src/ui/textbasededit_ui.ui:133
 #, kde-format
 msgid "Search"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button_start)
-#: src/ui/textbasededit_ui.ui:197
+#: src/ui/textbasededit_ui.ui:187
 #, kde-format
 msgid "Start recognition"
 msgstr ""

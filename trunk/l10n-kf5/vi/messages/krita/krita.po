@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-02 02:46+0100\n"
+"POT-Creation-Date: 2021-03-03 02:54+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hieu Duc Hoang <hieu.d.hoang@gmail.com>\n"
 "Language-Team: vietnamese <vi@i18n.kde.org>\n"
@@ -8234,7 +8234,7 @@ msgstr "Góc"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:22
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:244
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:322
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
 #: plugins/paintops/roundmarker/kis_roundmarkerop_settings_widget.cpp:31
@@ -9284,7 +9284,7 @@ msgstr "Lớp &lặp lại"
 #: libs/impex/KisExportCheckRegistry.cpp:90 libs/ui/kis_layer_manager.cc:553
 #: libs/ui/kis_node_manager.cpp:1500 libs/ui/KisPaletteEditor.cpp:408
 #: libs/widgets/kis_palette_view.cpp:114
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:254
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "Group"
@@ -11650,8 +11650,8 @@ msgstr "Gỡ bỏ Layer"
 #: libs/ui/KisWelcomePageWidget.cpp:713
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
 #: libs/ui/widgets/kis_custom_image_widget.cc:265
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:886
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:889
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:881
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:884
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:289
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
@@ -11887,6 +11887,91 @@ msgstr "Nhập các điểm"
 msgid "Invalid"
 msgstr "Chiều rộng điểm ảnh"
 
+#: libs/resources/KisResourceTypes.h:46
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "paintoppresets"
+msgstr "sửa định sẵn"
+
+#: libs/resources/KisResourceTypes.h:47
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "brushes"
+msgstr "Chổi"
+
+#: libs/resources/KisResourceTypes.h:48
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "gradients"
+msgstr "Đổ dốc màu"
+
+#: libs/resources/KisResourceTypes.h:49
+#, fuzzy, kde-format
+#| msgid "Palettes"
+msgctxt "resource type"
+msgid "palettes"
+msgstr "Các bảng màu"
+
+#: libs/resources/KisResourceTypes.h:50
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "patterns"
+msgstr "Các bảng màu"
+
+#: libs/resources/KisResourceTypes.h:51
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "workspaces"
+msgstr "Không gian màu"
+
+#: libs/resources/KisResourceTypes.h:52
+#, kde-format
+msgctxt "resource type"
+msgid "symbols"
+msgstr ""
+
+#: libs/resources/KisResourceTypes.h:53
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "windowlayouts"
+msgstr "ảnh "
+
+#: libs/resources/KisResourceTypes.h:54
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "sessions"
+msgstr "&Kích thước bằng điểm ảnh"
+
+#: libs/resources/KisResourceTypes.h:55
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "gamutmasks"
+msgstr "Xoay ảnh"
+
+#: libs/resources/KisResourceTypes.h:56
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "seexpr_scripts"
+msgstr "Công cụ &bút vẽ"
+
+#: libs/resources/KisResourceTypes.h:57
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "ko_effects"
+msgstr "Hiệu ứng lớp"
+
+#: libs/resources/KisResourceTypes.h:58
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "tasksets"
+msgstr "Nguồn"
+
+#: libs/resources/KisResourceTypes.h:59
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "layerstyles"
+msgstr "Cỡ Lớp"
+
 #: libs/resources/KisStorageModel.cpp:277
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:67
 #: libs/widgets/KoConfigAuthorPage.cpp:89
@@ -12081,24 +12166,24 @@ msgstr "&Tài nguyên"
 msgid "Tag:"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:152
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:153
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr "Nhập Tài liệu"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:159
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:160
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "Xoá"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:179
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:180
 #, fuzzy, kde-format
 msgid "Storage Resources"
 msgstr "&Tài nguyên"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:215
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:217
 #: libs/ui/KisMainWindow.cpp:2417
 #, fuzzy, kde-format
 msgctxt "@title:window"
@@ -14374,7 +14459,7 @@ msgid "Session name:"
 msgstr "Chế độ chọn:"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:89
-#: libs/ui/KisMainWindow.cpp:2446 libs/ui/widgets/kis_gradient_chooser.cc:523
+#: libs/ui/KisMainWindow.cpp:2446 libs/ui/widgets/kis_gradient_chooser.cc:528
 #: libs/ui/widgets/KoFillConfigWidget.cpp:651
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:366
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:202
@@ -14384,7 +14469,7 @@ msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:90
-#: libs/ui/KisMainWindow.cpp:2447 libs/ui/widgets/kis_gradient_chooser.cc:524
+#: libs/ui/KisMainWindow.cpp:2447 libs/ui/widgets/kis_gradient_chooser.cc:529
 #: libs/ui/widgets/KoFillConfigWidget.cpp:652
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:367
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:203
@@ -16487,7 +16572,7 @@ msgstr "&Xoá"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/forms/wdgimportimagesequence.ui:57
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:177
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:231
 #, fuzzy, kde-format
 msgid "Order"
 msgstr "Viền"
@@ -19447,8 +19532,8 @@ msgid "%1  %2"
 msgstr ""
 
 #: libs/ui/kis_stopgradient_editor.cpp:42
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1036
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1042
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1031
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1037
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:28
@@ -20938,7 +21023,7 @@ msgstr "Trang Dán"
 
 #: libs/ui/KisWelcomePageWidget.cpp:128
 #, kde-format
-msgid "English news are always up to date."
+msgid "English news is always up to date."
 msgstr ""
 
 #: libs/ui/KisWelcomePageWidget.cpp:390
@@ -22734,75 +22819,75 @@ msgstr "Cấu hình mới %1"
 msgid "No configuration options"
 msgstr "Không có tuỳ chọn nào."
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:73
+#: libs/ui/widgets/kis_gradient_chooser.cc:74
 #, fuzzy, kde-format
 msgid "Custom Stop Gradient"
 msgstr "Đổ dốc màu tự chọn"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:78
+#: libs/ui/widgets/kis_gradient_chooser.cc:79
 #, fuzzy, kde-format
 msgid "Custom Segmented Gradient"
 msgstr "Các chổi có sẵn"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:170
+#: libs/ui/widgets/kis_gradient_chooser.cc:171
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show icons instead of a list"
 msgid "Icon view"
 msgstr "Đặt kiểu điểm"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:176
+#: libs/ui/widgets/kis_gradient_chooser.cc:177
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show a list instead of icons"
 msgid "List view"
 msgstr "Khung xem xa"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:185
+#: libs/ui/widgets/kis_gradient_chooser.cc:186
 #, fuzzy, kde-format
 #| msgid "Small Tiles"
 msgctxt "Set the gradient chooser to show small items"
 msgid "Small items"
 msgstr "Miếng nhỏ"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:191
+#: libs/ui/widgets/kis_gradient_chooser.cc:192
 #, kde-format
 msgctxt "Set the gradient chooser to show medium size items"
 msgid "Medium size items"
 msgstr ""
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:197
+#: libs/ui/widgets/kis_gradient_chooser.cc:198
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show large items"
 msgid "Large items"
 msgstr "Cỡ miếng"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:203
+#: libs/ui/widgets/kis_gradient_chooser.cc:204
 #, kde-format
 msgctxt "Set the gradient chooser to show custom size items"
 msgid "Custom size items"
 msgstr ""
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:226
+#: libs/ui/widgets/kis_gradient_chooser.cc:231
 #, fuzzy, kde-format
 msgid "Add..."
 msgstr "&Thêm..."
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:231
+#: libs/ui/widgets/kis_gradient_chooser.cc:236
 #, fuzzy, kde-format
 msgid "Stop gradient"
 msgstr "Đổ dốc màu"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:233
+#: libs/ui/widgets/kis_gradient_chooser.cc:238
 #, fuzzy, kde-format
 msgid "Segmented gradient"
 msgstr "Các chổi có sẵn"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:240
+#: libs/ui/widgets/kis_gradient_chooser.cc:245
 #, fuzzy, kde-format
 msgid "Edit..."
 msgstr "Sửa"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:478
-#: libs/ui/widgets/kis_gradient_chooser.cc:487
+#: libs/ui/widgets/kis_gradient_chooser.cc:483
+#: libs/ui/widgets/kis_gradient_chooser.cc:492
 #, fuzzy, kde-format
 msgid "unnamed"
 msgstr "Không có tên"
@@ -22911,31 +22996,31 @@ msgstr "Bão hoà:"
 msgid "Mid-gray level:"
 msgstr "Hiển thị"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:42
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:126
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:154
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:155
 #, fuzzy, kde-format
 #| msgid "Display"
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
 msgid "Display"
 msgstr "Hiển thị"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:48
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:132
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:162
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:163
 #, fuzzy, kde-format
 #| msgid "Import Image"
 msgid "Thumbnails"
 msgstr "Nhập ảnh"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:53
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:137
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:169
 #, fuzzy, kde-format
 msgid "Details"
 msgstr "&Mặc định"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:71
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:156
 #: libs/widgets/KoToolBox.cpp:294 libs/widgetutils/xmlgui/ktoolbar.cpp:318
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
@@ -24505,57 +24590,57 @@ msgstr "Gradients"
 msgid "Font Style"
 msgstr "In ấn"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:185
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:214
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:177
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:206
 #, fuzzy, kde-format
 msgid "percent (%)"
 msgstr "&Phần trăm:"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:195
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:224
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:187
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:216
 #, fuzzy, kde-format
 #| msgid "Pixel height"
 msgid "percent of view height (vh)"
 msgstr "Chiều cao điểm ảnh"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:195
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:224
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:187
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:216
 #, fuzzy, kde-format
 msgid "percent of view width (vw)"
 msgstr "Chiều rộng điểm ảnh"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, fuzzy, kde-format
 #| msgid "90 &degrees"
 msgid "degrees (°)"
 msgstr "&90 độ"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, kde-format
 msgid "gons (gon)"
 msgstr ""
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, fuzzy, kde-format
 msgid "percent of circle (%)"
 msgstr "&Phần trăm:"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, kde-format
 msgid "radians (rad)"
 msgstr ""
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:243
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:235
 #, fuzzy, kde-format
 msgid "frames (f)"
 msgstr "&Màu"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:250
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:242
 #, fuzzy, kde-format
 msgid "percent of animation (%)"
 msgstr "Chế độ Tổng hợp"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:250
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:242
 #, kde-format
 msgid "seconds (s)"
 msgstr ""
@@ -25461,22 +25546,22 @@ msgstr "Khoảng cách:"
 msgid "Infinite Ruler"
 msgstr "&Hiện/ Ẩn layer..."
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:741
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:736
 #, fuzzy, kde-format
 msgid "Select an Assistant"
 msgstr "Khoảng cách:"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:889
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:884
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:974
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:969
 #, fuzzy, kde-format
 msgid "Save Assistant"
 msgstr "Khoảng cách:"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1049
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1044
 #, fuzzy, kde-format
 msgid "Density: "
 msgstr "Mô tả:"
@@ -26811,19 +26896,19 @@ msgid "Right / After"
 msgstr "Thụt phải"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:30
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:36
 #, kde-format
 msgid "Activate the Select Shapes Tool to arrange objects."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:72
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:90
 #, fuzzy, kde-format
 msgid "Align"
 msgstr "Thêm text"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:492
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:654
 #, fuzzy, kde-format
 msgid "Distribute"
 msgstr "Phân phối các hình"
@@ -26838,8 +26923,8 @@ msgstr "Khoảng:"
 msgid "Artistic Color Selector"
 msgstr "Trình chọn màu nhỏ"
 
-#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:115
-#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:116
+#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:117
+#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:118
 #, fuzzy, kde-format
 msgid "Continuous Mode"
 msgstr "Góc:"
@@ -26910,7 +26995,7 @@ msgstr "Trình chọn màu nhỏ"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelHueSteps)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDefHueSteps)
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:305
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:86
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:98
 #, fuzzy, kde-format
 msgid "Hue Steps"
 msgstr "Bước thời gian:"
@@ -26918,7 +27003,7 @@ msgstr "Bước thời gian:"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSaturationSteps)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDefSaturationSteps)
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:321
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:73
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:79
 #, fuzzy, kde-format
 msgid "Saturation Rings"
 msgstr "Bão hoà"
@@ -26926,7 +27011,7 @@ msgstr "Bão hoà"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelValueScaleSteps)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDefValueScaleSteps)
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:357
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:99
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:117
 #, fuzzy, kde-format
 msgid "Value Scale Steps"
 msgstr "Cỡ Lớp"
@@ -26945,13 +27030,13 @@ msgid "Docker settings"
 msgstr "Thiết lập Màu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bnInverseSat)
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:116
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:134
 #, fuzzy, kde-format
 msgid "Invert Saturation"
 msgstr "Bão hoà"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDefault)
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:139
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:157
 #, kde-format
 msgid "Reset to default"
 msgstr "Đặt lại về mặc định"
