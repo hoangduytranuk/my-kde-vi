@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messagelib\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-05 02:45+0100\n"
+"POT-Creation-Date: 2021-03-06 03:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -305,6 +305,16 @@ msgstr ""
 msgid "DKIM Key"
 msgstr ""
 
+#: dkim-verify/dkimmanagerkeywidget.cpp:31
+#, kde-format
+msgid "Inserted"
+msgstr ""
+
+#: dkim-verify/dkimmanagerkeywidget.cpp:31
+#, kde-format
+msgid "Last Used"
+msgstr ""
+
 #: dkim-verify/dkimmanagerkeywidget.cpp:66
 #, kde-format
 msgid "Copy Key"
@@ -556,168 +566,168 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:93
+#: dkim-verify/dkimwidgetinfo.cpp:96
 #, kde-format
 msgid "DKIM: valid (signed by %1)"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:100
+#: dkim-verify/dkimwidgetinfo.cpp:103
 #, kde-format
 msgid "DKIM: invalid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:103
+#: dkim-verify/dkimwidgetinfo.cpp:106
 #, kde-format
 msgid "DKIM: Not signed"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:108
+#: dkim-verify/dkimwidgetinfo.cpp:111
 #, kde-format
 msgid "DKIM: Should Be Signed by %1"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:124
+#: dkim-verify/dkimwidgetinfo.cpp:127
 #, kde-format
 msgid "Body Hash was corrupted."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:127
+#: dkim-verify/dkimwidgetinfo.cpp:130
 #, kde-format
 msgid "The domain doesn't exist."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:130
+#: dkim-verify/dkimwidgetinfo.cpp:133
 #, kde-format
 msgid "Missing header From."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:133
+#: dkim-verify/dkimwidgetinfo.cpp:136
 #, kde-format
 msgid "Missing signature."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:136
+#: dkim-verify/dkimwidgetinfo.cpp:139
 #, kde-format
 msgid "Invalid query method."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:139
+#: dkim-verify/dkimwidgetinfo.cpp:142
 #, kde-format
 msgid "Invalid header canonicalization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:142
+#: dkim-verify/dkimwidgetinfo.cpp:145
 #, kde-format
 msgid "Invalid body canonicalization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:145
+#: dkim-verify/dkimwidgetinfo.cpp:148
 #, kde-format
 msgid "Unknown Body Hash Algorithm."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:148
+#: dkim-verify/dkimwidgetinfo.cpp:151
 #, kde-format
 msgid "Signature algorithm is invalid."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:151
+#: dkim-verify/dkimwidgetinfo.cpp:154
 #, kde-format
 msgid "The public key was revoked."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:154
+#: dkim-verify/dkimwidgetinfo.cpp:157
 #, kde-format
 msgid "Signature is too large."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:157
+#: dkim-verify/dkimwidgetinfo.cpp:160
 #, kde-format
 msgid "Hash Algorithm is unsupported."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:160
+#: dkim-verify/dkimwidgetinfo.cpp:163
 #, kde-format
 msgid "Public key is too small."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:163
+#: dkim-verify/dkimwidgetinfo.cpp:166
 #, kde-format
 msgid "Impossible to verify signature."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:166
+#: dkim-verify/dkimwidgetinfo.cpp:169
 #, kde-format
 msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:169
+#: dkim-verify/dkimwidgetinfo.cpp:172
 #, kde-format
 msgid "The signing domain is only testing DKIM."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:172
+#: dkim-verify/dkimwidgetinfo.cpp:175
 #, kde-format
 msgid "Impossible to download key."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:175 dkim-verify/dkimwidgetinfo.cpp:199
+#: dkim-verify/dkimwidgetinfo.cpp:178 dkim-verify/dkimwidgetinfo.cpp:202
 #, kde-format
 msgid "Hash Algorithm unsafe (sha1)"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:178
+#: dkim-verify/dkimwidgetinfo.cpp:181
 #, kde-format
 msgid "AUID is not in a subdomain of SDID"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:181
+#: dkim-verify/dkimwidgetinfo.cpp:184
 #, kde-format
 msgid "Problem during converting public key"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:190
+#: dkim-verify/dkimwidgetinfo.cpp:193
 #, kde-format
 msgid "Signature expired"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:193
+#: dkim-verify/dkimwidgetinfo.cpp:196
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:196
+#: dkim-verify/dkimwidgetinfo.cpp:199
 #, kde-format
 msgid "Signature too small"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:202
+#: dkim-verify/dkimwidgetinfo.cpp:205
 #, kde-format
 msgid "Public Key too small"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:223 dkim-verify/dkimwidgetinfo.cpp:269
+#: dkim-verify/dkimwidgetinfo.cpp:226 dkim-verify/dkimwidgetinfo.cpp:272
 #, kde-format
 msgctxt "method name: info about it from parsing"
 msgid "%1: %2"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:246
+#: dkim-verify/dkimwidgetinfo.cpp:249
 #, kde-format
 msgid "%1: None"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:261
+#: dkim-verify/dkimwidgetinfo.cpp:264
 #, kde-format
 msgid "%1: Valid (Signed by %2)"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:281
+#: dkim-verify/dkimwidgetinfo.cpp:284
 #, kde-format
 msgid "%1: Valid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:296
+#: dkim-verify/dkimwidgetinfo.cpp:299
 #, kde-format
 msgid "Not Signed"
 msgstr ""
@@ -1047,7 +1057,6 @@ msgid ""
 msgstr ""
 
 #: remote-content/remotecontentconfiguredialog.cpp:25
-#: remote-content/remotecontentdialog.cpp:18
 #: scamdetection/scamdetectiondetailsdialog.cpp:37
 #: widgets/mailtrackingdetailsdialog.cpp:24
 #, kde-format
@@ -1068,6 +1077,12 @@ msgstr ""
 #: remote-content/remotecontentconfigurewidget.cpp:90
 #, kde-format
 msgid "Add new Url"
+msgstr ""
+
+#: remote-content/remotecontentdialog.cpp:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Remote Content"
 msgstr ""
 
 #: remote-content/remotecontentmenu.cpp:20
@@ -1092,7 +1107,7 @@ msgstr ""
 
 #: remote-content/remotecontentwidget.cpp:26
 #, kde-format
-msgid "Url"
+msgid "Url:"
 msgstr ""
 
 #: scamdetection/scamdetectionwarningwidget.cpp:35
