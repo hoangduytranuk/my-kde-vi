@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-01 02:46+0100\n"
+"POT-Creation-Date: 2021-03-08 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -121,53 +121,53 @@ msgstr ""
 msgid "Open Video"
 msgstr ""
 
-#: src/application.cpp:1032
+#: src/application.cpp:1045
 #, kde-format
 msgid "modified"
 msgstr ""
 
-#: src/application.cpp:1035 src/application.cpp:1041 src/application_subtitle.cpp:665
+#: src/application.cpp:1048 src/application.cpp:1054 src/application_subtitle.cpp:665
 #, kde-format
 msgid "Untitled"
 msgstr ""
 
-#: src/application.cpp:1037 src/application_subtitle.cpp:665
+#: src/application.cpp:1050 src/application_subtitle.cpp:665
 #, kde-format
 msgid "Untitled Translation"
 msgstr ""
 
-#: src/application.cpp:1135
+#: src/application.cpp:1148
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: src/application.cpp:1143 src/application.cpp:1151 src/application_actions.cpp:575
+#: src/application.cpp:1156 src/application.cpp:1164 src/application_actions.cpp:575
 #, kde-format
 msgid "Play"
 msgstr ""
 
-#: src/application.cpp:1206
+#: src/application.cpp:1219
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/application.cpp:1207
+#: src/application.cpp:1220
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/application.cpp:1210 src/application.cpp:1214
+#: src/application.cpp:1223 src/application.cpp:1227
 #, kde-format
 msgid "Shift %2%1 millisecond"
 msgid_plural "Shift %2%1 milliseconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/application.cpp:1211 src/application.cpp:1215
+#: src/application.cpp:1224 src/application.cpp:1228
 #, kde-format
 msgid "Shift selected lines %2%1 millisecond"
 msgid_plural "Shift selected lines %2%1 milliseconds"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: src/application_actions.cpp:616
 #, kde-format
-msgid "Jump to Previous Line"
+msgid "Seek to Previous Line"
 msgstr ""
 
 #: src/application_actions.cpp:617
@@ -867,181 +867,190 @@ msgstr ""
 
 #: src/application_actions.cpp:641
 #, kde-format
-msgid ""
-"Seek to start of current subtitle line show time, play it and then pause"
+msgid "Seek to selected subtitle line show time, play it and then pause"
+msgstr ""
+
+#: src/application_actions.cpp:648
+#, kde-format
+msgid "Seek to Current Line"
 msgstr ""
 
 #: src/application_actions.cpp:649
 #, kde-format
-msgid "Jump to Next Line"
+msgid "Seek to selected subtitle line show time"
 msgstr ""
 
-#: src/application_actions.cpp:650
+#: src/application_actions.cpp:656
+#, kde-format
+msgid "Seek to Next Line"
+msgstr ""
+
+#: src/application_actions.cpp:657
 #, kde-format
 msgid "Seek to next subtitle line show time"
 msgstr ""
 
-#: src/application_actions.cpp:658
+#: src/application_actions.cpp:665
 #, kde-format
 msgid "Set Line Show Time to Video Position"
 msgstr ""
 
-#: src/application_actions.cpp:659
+#: src/application_actions.cpp:666
 #, kde-format
 msgid "Set current line show time to video position"
 msgstr ""
 
-#: src/application_actions.cpp:667
+#: src/application_actions.cpp:674
 #, kde-format
 msgid "Set Line Hide Time to Video Position"
 msgstr ""
 
-#: src/application_actions.cpp:668
+#: src/application_actions.cpp:675
 #, kde-format
 msgid "Set current line hide time to video position"
 msgstr ""
 
-#: src/application_actions.cpp:675
+#: src/application_actions.cpp:682
 #, kde-format
 msgid "Shift Current Line to Video Position"
 msgstr ""
 
-#: src/application_actions.cpp:676
+#: src/application_actions.cpp:683
 #, kde-format
 msgid ""
 "Set current line show time to video position by equally shifting all lines"
 msgstr ""
 
-#: src/application_actions.cpp:684
+#: src/application_actions.cpp:691
 #, kde-format
 msgid "Current Line Follows Video"
 msgstr ""
 
-#: src/application_actions.cpp:685
+#: src/application_actions.cpp:692
 #, kde-format
 msgid "Make current line follow the playing video position"
 msgstr ""
 
-#: src/application_actions.cpp:691
+#: src/application_actions.cpp:698
 #, kde-format
 msgctxt "@action:inmenu Toggle audio muted"
 msgid "Mute"
 msgstr ""
 
-#: src/application_actions.cpp:692
+#: src/application_actions.cpp:699
 #, kde-format
 msgid "Enable/disable playback sound"
 msgstr ""
 
-#: src/application_actions.cpp:699
+#: src/application_actions.cpp:706
 #, kde-format
 msgid "Increase Volume"
 msgstr ""
 
-#: src/application_actions.cpp:700
+#: src/application_actions.cpp:707
 #, kde-format
 msgid "Increase volume by 5%"
 msgstr ""
 
-#: src/application_actions.cpp:707
+#: src/application_actions.cpp:714
 #, kde-format
 msgid "Decrease Volume"
 msgstr ""
 
-#: src/application_actions.cpp:708
+#: src/application_actions.cpp:715
 #, kde-format
 msgid "Decrease volume by 5%"
 msgstr ""
 
-#: src/application_actions.cpp:715
+#: src/application_actions.cpp:722
 #, kde-format
 msgid "Audio Streams"
 msgstr ""
 
-#: src/application_actions.cpp:716
+#: src/application_actions.cpp:723
 #, kde-format
 msgid "Select active audio stream"
 msgstr ""
 
-#: src/application_actions.cpp:723
+#: src/application_actions.cpp:730
 #, kde-format
 msgid "Increase Font Size"
 msgstr ""
 
-#: src/application_actions.cpp:724
+#: src/application_actions.cpp:731
 #, kde-format
 msgid "Increase subtitles font size by 1 point"
 msgstr ""
 
-#: src/application_actions.cpp:731
+#: src/application_actions.cpp:738
 #, kde-format
 msgid "Decrease Font Size"
 msgstr ""
 
-#: src/application_actions.cpp:732
+#: src/application_actions.cpp:739
 #, kde-format
 msgid "Decrease subtitles font size by 1 point"
 msgstr ""
 
-#: src/application_actions.cpp:739
+#: src/application_actions.cpp:746
 #, kde-format
 msgid "Displayed Subtitle Text"
 msgstr ""
 
-#: src/application_actions.cpp:740
+#: src/application_actions.cpp:747
 #, kde-format
 msgid "Select visible subtitle text"
 msgstr ""
 
-#: src/application_actions.cpp:746 src/gui/waveformwidget.cpp:1244
+#: src/application_actions.cpp:753 src/gui/waveformwidget.cpp:1244
 #, kde-format
 msgid "Toggle Anchor"
 msgstr ""
 
-#: src/application_actions.cpp:747
+#: src/application_actions.cpp:754
 #, kde-format
 msgid ""
 "(Un)Anchor current line's show time to timeline (Editing anchored line's "
 "show time will stretch/compact the timeline between adjacent anchors)"
 msgstr ""
 
-#: src/application_actions.cpp:754
+#: src/application_actions.cpp:761
 #, kde-format
 msgid "Remove All Anchors"
 msgstr ""
 
-#: src/application_actions.cpp:755
+#: src/application_actions.cpp:762
 #, kde-format
 msgid "Unanchor show time from the timeline on all anchored lines"
 msgstr ""
 
-#: src/application_actions.cpp:763
+#: src/application_actions.cpp:770
 #, kde-format
 msgctxt "@action:inmenu Manage user scripts"
 msgid "Scripts Manager..."
 msgstr ""
 
-#: src/application_actions.cpp:764
+#: src/application_actions.cpp:771
 #, kde-format
 msgid "Manage user scripts"
 msgstr ""
 
-#: src/application_actions.cpp:771 src/application_actions.cpp:772
+#: src/application_actions.cpp:778 src/application_actions.cpp:779
 #, kde-format
 msgid "Waveform Zoom In"
 msgstr ""
 
-#: src/application_actions.cpp:778 src/application_actions.cpp:779
+#: src/application_actions.cpp:785 src/application_actions.cpp:786
 #, kde-format
 msgid "Waveform Zoom Out"
 msgstr ""
 
-#: src/application_actions.cpp:786
+#: src/application_actions.cpp:793
 #, kde-format
 msgid "Waveform Auto Scroll"
 msgstr ""
 
-#: src/application_actions.cpp:787
+#: src/application_actions.cpp:794
 #, kde-format
 msgid "Waveform display will automatically scroll to video position"
 msgstr ""
@@ -3607,19 +3616,19 @@ msgid "&Video"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
-#: src/subtitlecomposerui.rc:140
+#: src/subtitlecomposerui.rc:141
 #, kde-format
 msgid "T&ools"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/subtitlecomposerui.rc:145
+#: src/subtitlecomposerui.rc:146
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (editToolBar)
-#: src/subtitlecomposerui.rc:156
+#: src/subtitlecomposerui.rc:157
 #, kde-format
 msgid "Edit Toolbar"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kweather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-20 03:02+0100\n"
+"POT-Creation-Date: 2021-03-08 03:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -88,84 +88,84 @@ msgstr ""
 msgid "No locations configured"
 msgstr ""
 
-#: qml/LocationForecast.qml:30 qml/LocationForecast2.qml:39
+#: qml/DynamicLocationForecast.qml:41 qml/FlatLocationForecast.qml:32
 #, kde-format
 msgid "Weather refreshed for %1"
 msgstr ""
 
-#: qml/LocationForecast.qml:73 qml/LocationForecast2.qml:86
+#: qml/DynamicLocationForecast.qml:88 qml/FlatLocationForecast.qml:75
 #, kde-format
 msgid "Updated at %1"
 msgstr ""
 
-#: qml/LocationForecast.qml:82 qml/LocationForecast2.qml:99
+#: qml/DynamicLocationForecast.qml:101 qml/FlatLocationForecast.qml:84
 #, kde-format
 msgid "Daily"
 msgstr ""
 
-#: qml/LocationForecast.qml:161 qml/LocationForecast2.qml:280
-#, kde-format
-msgid "Hourly"
-msgstr ""
-
-#: qml/LocationForecast.qml:246 qml/LocationForecast2.qml:394
-#, kde-format
-msgid "Precipitation"
-msgstr ""
-
-#: qml/LocationForecast.qml:270 qml/LocationForecast2.qml:417
-#, kde-format
-msgid "Humidity"
-msgstr ""
-
-#: qml/LocationForecast.qml:273 qml/LocationForecast2.qml:421
-#, kde-format
-msgid "%1%"
-msgstr ""
-
-#: qml/LocationForecast.qml:294 qml/LocationForecast2.qml:440
-#, kde-format
-msgid "Pressure"
-msgstr ""
-
-#: qml/LocationForecast.qml:297 qml/LocationForecast2.qml:444
-#, kde-format
-msgid "%1hPa"
-msgstr ""
-
-#: qml/LocationForecast.qml:318 qml/LocationForecast2.qml:463
-#, kde-format
-msgid "UV index"
-msgstr ""
-
-#: qml/LocationForecast.qml:352 qml/LocationForecast2.qml:509
-#, kde-format
-msgid "Sunrise"
-msgstr ""
-
-#: qml/LocationForecast.qml:376 qml/LocationForecast2.qml:532
-#, kde-format
-msgid "Sunset"
-msgstr ""
-
-#: qml/LocationForecast.qml:400 qml/LocationForecast2.qml:554
-#, kde-format
-msgid "Moon Phase"
-msgstr ""
-
-#: qml/LocationForecast2.qml:104
+#: qml/DynamicLocationForecast.qml:106
 #, kde-format
 msgid "Local Date: "
 msgstr ""
 
-#: qml/LocationForecast2.qml:234
+#: qml/DynamicLocationForecast.qml:236
 #, kde-format
 msgid "MaxTemperature"
 msgstr ""
 
-#: qml/LocationForecast2.qml:285
+#: qml/DynamicLocationForecast.qml:282 qml/FlatLocationForecast.qml:163
+#, kde-format
+msgid "Hourly"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:287
 #, kde-format
 msgid "Local Time: "
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:396 qml/FlatLocationForecast.qml:248
+#, kde-format
+msgid "Precipitation"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:419 qml/FlatLocationForecast.qml:272
+#, kde-format
+msgid "Humidity"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:423 qml/FlatLocationForecast.qml:275
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:442 qml/FlatLocationForecast.qml:296
+#, kde-format
+msgid "Pressure"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:446 qml/FlatLocationForecast.qml:299
+#, kde-format
+msgid "%1hPa"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:465 qml/FlatLocationForecast.qml:320
+#, kde-format
+msgid "UV index"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:511 qml/FlatLocationForecast.qml:354
+#, kde-format
+msgid "Sunrise"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:534 qml/FlatLocationForecast.qml:378
+#, kde-format
+msgid "Sunset"
+msgstr ""
+
+#: qml/DynamicLocationForecast.qml:556 qml/FlatLocationForecast.qml:402
+#, kde-format
+msgid "Moon Phase"
 msgstr ""
 
 #: qml/LocationsPage.qml:15 qml/main.qml:72
@@ -183,12 +183,12 @@ msgstr ""
 msgid "Unable to fetch timezone information"
 msgstr ""
 
-#: qml/LocationsPage.qml:47
+#: qml/LocationsPage.qml:50
 #, kde-format
 msgid "Add a location"
 msgstr ""
 
-#: qml/LocationsPage.qml:63
+#: qml/LocationsPage.qml:67
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -258,12 +258,12 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: qml/SettingsPage.qml:168 qml/SetupWizard.qml:132
+#: qml/SettingsPage.qml:168 qml/SetupWizard.qml:133
 #, kde-format
 msgid "Flat"
 msgstr ""
 
-#: qml/SettingsPage.qml:168 qml/SetupWizard.qml:179
+#: qml/SettingsPage.qml:168 qml/SetupWizard.qml:180
 #, kde-format
 msgid "Dynamic"
 msgstr ""
@@ -310,37 +310,37 @@ msgstr ""
 msgid "Add your API token here... "
 msgstr ""
 
-#: qml/SetupWizard.qml:56
+#: qml/SetupWizard.qml:57
 #, kde-format
 msgid "Welcome to KWeather"
 msgstr ""
 
-#: qml/SetupWizard.qml:70
+#: qml/SetupWizard.qml:71
 #, kde-format
 msgid "Continue"
 msgstr ""
 
-#: qml/SetupWizard.qml:90
+#: qml/SetupWizard.qml:91
 #, kde-format
 msgid "Select forecast theme"
 msgstr ""
 
-#: qml/SetupWizard.qml:96
+#: qml/SetupWizard.qml:97
 #, kde-format
 msgid "You can change the theme later in the settings."
 msgstr ""
 
-#: qml/SetupWizard.qml:203
+#: qml/SetupWizard.qml:204
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: qml/SetupWizard.qml:209
+#: qml/SetupWizard.qml:210
 #, kde-format
 msgid "Finish"
 msgstr ""
 
-#: qml/SetupWizard.qml:223
+#: qml/SetupWizard.qml:224
 #, kde-format
 msgid "Dynamic mode may cause performance issues on embedded platforms"
 msgstr ""
