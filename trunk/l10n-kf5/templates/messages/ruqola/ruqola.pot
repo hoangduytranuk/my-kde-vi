@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-09 03:05+0100\n"
+"POT-Creation-Date: 2021-03-11 02:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -795,12 +795,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2519
+#: core/rocketchataccount.cpp:2518
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2520
+#: core/rocketchataccount.cpp:2519
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1170,6 +1170,7 @@ msgid "Invalid role"
 msgstr ""
 
 #: rocketchatrestapi-qt5/restapiabstractjob.cpp:354
+#: rocketchatrestapi-qt5/rooms/roomstartdiscussionjob.cpp:175
 #, kde-format
 msgid "Invalid room"
 msgstr ""
@@ -1522,8 +1523,8 @@ msgid "Sound File"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addServer)
-#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:54
-#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:136
+#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:57
+#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:140
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:91
 #: widgets/administratordialog/users/administratoruserswidget.cpp:117
 #: widgets/configuredialog/configureaccountserverwidget.ui:25
@@ -1532,8 +1533,8 @@ msgid "Add..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, modifyServer)
-#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:57
-#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:139
+#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:60
+#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:143
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:94
 #: widgets/administratordialog/users/administratoruserswidget.cpp:120
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
@@ -1542,8 +1543,8 @@ msgid "Modify..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeServer)
-#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:59
-#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
+#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:62
+#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:145
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:98
 #: widgets/administratordialog/users/administratoruserswidget.cpp:124
 #: widgets/configuredialog/configureaccountserverwidget.ui:39
@@ -1580,13 +1581,13 @@ msgstr ""
 msgid "Presence"
 msgstr ""
 
-#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:128
+#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:132
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:118
 #, kde-format
 msgid "Do you want to remove \"%1\"?"
 msgstr ""
 
-#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:128
+#: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:132
 #, kde-format
 msgid "Remove Custom User Status"
 msgstr ""
@@ -2145,6 +2146,11 @@ msgstr ""
 msgid "Channel Password:"
 msgstr ""
 
+#: widgets/dialogs/channelsearchnamelineresultwidget.cpp:41
+#, kde-format
+msgid "Clear"
+msgstr ""
+
 #: widgets/dialogs/configurenotificationdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
@@ -2224,7 +2230,7 @@ msgid "Create Channel"
 msgstr ""
 
 #: widgets/dialogs/createnewchannelwidget.cpp:48
-#: widgets/dialogs/createnewdiscussionwidget.cpp:69
+#: widgets/dialogs/createnewdiscussionwidget.cpp:65
 #, kde-format
 msgid "Invite Users..."
 msgstr ""
@@ -2270,18 +2276,18 @@ msgstr ""
 msgid "Channel or Group parent"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussionwidget.cpp:54
+#: widgets/dialogs/createnewdiscussionwidget.cpp:50
 #, kde-format
 msgid "Discussion Name"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussionwidget.cpp:64
+#: widgets/dialogs/createnewdiscussionwidget.cpp:60
 #: widgets/room/channelactionpopupmenu.cpp:110
 #, kde-format
 msgid "Invite Users"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussionwidget.cpp:72
+#: widgets/dialogs/createnewdiscussionwidget.cpp:68
 #, kde-format
 msgid "Message"
 msgstr ""
@@ -2523,7 +2529,7 @@ msgstr ""
 
 #: widgets/dialogs/searchmessagewidget.cpp:44
 #, kde-format
-msgid "Search Channel"
+msgid "Search Messages"
 msgstr ""
 
 #: widgets/dialogs/searchmessagewidget.cpp:89
@@ -3633,14 +3639,14 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:485
+#: widgets/ruqolamainwindow.cpp:484
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:486
+#: widgets/ruqolamainwindow.cpp:485
 #, kde-format
 msgid "Register New User"
 msgstr ""

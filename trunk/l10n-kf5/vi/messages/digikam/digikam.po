@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-09 02:49+0100\n"
+"POT-Creation-Date: 2021-03-11 02:40+0100\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -1006,7 +1006,6 @@ msgstr "%1 (%2)"
 #: core/dplugins/editor/filters/blurfx/blurfxtool.cpp:116
 #: core/dplugins/editor/filters/distortionfx/distortionfxtool.cpp:119
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:230
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:201
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslidevideopage.cpp:204
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslidevideopage.cpp:240
 #: core/libs/database/utils/widgets/dbsettingswidget.cpp:57
@@ -5356,7 +5355,6 @@ msgstr ""
 
 #: core/dplugins/bqm/metadata/timeadjust/timeadjust.cpp:53
 #: core/dplugins/bqm/metadata/timeadjust/timeadjustplugin.cpp:54
-#: core/dplugins/generic/metadata/timeadjust/timeadjustplugin.cpp:51
 #, fuzzy, kde-format
 msgid "Time Adjust"
 msgstr "Điều chỉnh:"
@@ -8544,13 +8542,11 @@ msgid "Orientation:"
 msgstr "Hướng:"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:333
-#: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:305
 #, kde-format
 msgid "Landscape"
 msgstr "Nằm ngang"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:334
-#: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:306
 #, kde-format
 msgid "Portrait"
 msgstr "Thẳng đứng"
@@ -8561,7 +8557,6 @@ msgid "Select constrained aspect ratio orientation."
 msgstr "<p>Ở đây hãy chọn hướng của tỉ lệ hình thể bị ràng buộc."
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:338
-#: core/dplugins/generic/metadata/metadataedit/exif/exiflight.cpp:205
 #, kde-format
 msgid "Auto"
 msgstr "Tự động"
@@ -9226,150 +9221,144 @@ msgstr ""
 "« %1 »"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:273
-#: core/utilities/geolocation/geoiface/items/gpsitemlistcontextmenu.cpp:514
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Geolocation Editor"
 msgstr "Lọc lục"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:304
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:306
 #, kde-format
+msgctxt "@info"
 msgid "Display bookmarked positions on the map."
-msgstr ""
-
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:322
-#, kde-format
-msgid "Layout:"
 msgstr ""
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:324
 #, kde-format
-msgid "One map"
+msgctxt "@label"
+msgid "Layout:"
 msgstr ""
-
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:325
-#, fuzzy, kde-format
-msgid "Two maps - horizontal"
-msgstr "Lật ngang"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:326
 #, kde-format
-msgid "Two maps - vertical"
+msgctxt "@item"
+msgid "One map"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:361
-#: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:200
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:327
 #, fuzzy, kde-format
+msgctxt "@item"
+msgid "Two maps - horizontal"
+msgstr "Lật ngang"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:328
+#, fuzzy, kde-format
+msgctxt "@item"
+msgid "Two maps - vertical"
+msgstr "Lật ngang"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:363
+#, fuzzy, kde-format
+msgctxt "@title"
 msgid "Sorting"
 msgstr "Làm mịn:"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:368
-#: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:207
-#, kde-format
-msgid "Show oldest first"
-msgstr ""
-
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:372
-#: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:211
-#, kde-format
-msgid "Show youngest first"
-msgstr ""
-
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:412
-#, kde-format
-msgid "Details"
-msgstr "Chi tiết"
-
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:413
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:370
 #, fuzzy, kde-format
-msgid "GPS Correlator"
-msgstr "Độ tương quan:"
+msgctxt "@action"
+msgid "Show oldest first"
+msgstr "Hiện trên bảng trái"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:374
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Show youngest first"
+msgstr "Hiện trên bảng trái"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:414
 #, fuzzy, kde-format
-msgid "Undo/Redo"
-msgstr "Huỷ bước"
+#| msgid "Details"
+msgctxt "@item: map tool"
+msgid "Details"
+msgstr "Chi tiết"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:415
 #, fuzzy, kde-format
-msgid "Reverse Geocoding"
-msgstr "Giải mã RAW"
+msgctxt "@item: map tool"
+msgid "GPS Correlator"
+msgstr "Độ tương quan:"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:416
 #, fuzzy, kde-format
-msgid "Search"
-msgstr "Tìm kiếm:"
+msgctxt "@item: map tool"
+msgid "Undo/Redo"
+msgstr "Huỷ bước"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:417
 #, fuzzy, kde-format
+msgctxt "@item: map tool"
+msgid "Reverse Geocoding"
+msgstr "Giải mã RAW"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:418
+#, fuzzy, kde-format
+msgctxt "@item: map tool"
+msgid "Search"
+msgstr "Tìm kiếm:"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:419
+#, fuzzy, kde-format
 #| msgid "Export"
+msgctxt "@item: map tool"
 msgid "KML Export"
 msgstr "Xuất"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:623
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:625
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Loading metadata -"
 msgstr "Siêu dữ liệu"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:809
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:811
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "You have 1 modified image."
 msgid_plural "You have %1 modified images."
 msgstr[0] "<qt><p>Bạn đã sửa ngày tháng của ảnh. "
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:816
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:818
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Unsaved changes"
 msgstr "Lưu ảnh"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:817
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:819
 #, kde-format
+msgctxt "@info"
 msgid "%1 Would you like to save the changes you made to them?"
 msgstr ""
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:933
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:935
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Saving changes -"
 msgstr "Lưu ảnh"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:992
-#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:170
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:384
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:394
-#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
-#: core/dplugins/generic/webservices/facebook/fbtalker.cpp:558
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:793
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:817
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:983
-#: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:469
-#: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:660
-#: core/dplugins/generic/webservices/mediawiki/mediawikitalker.cpp:186
-#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:411
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:455
-#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:396
-#: core/dplugins/generic/webservices/smugmug/smugtalker.cpp:754
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:450
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:459
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:497
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:534
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:1026
-#: core/dplugins/generic/webservices/twitter/twittertalker.cpp:673
-#: core/dplugins/generic/webservices/unified/manager/wstalker.cpp:356
-#: core/dplugins/generic/webservices/vkontakte/vknewalbumdlg.cpp:170
-#: core/dplugins/generic/webservices/yandexfotki/yfnewalbumdlg.cpp:105
-#: core/libs/database/utils/scan/scancontroller_progress.cpp:96
-#: core/libs/tags/widgets/tageditdlg.cpp:545
-#, kde-format
-msgid "Error"
-msgstr ""
-
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:993
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:994
 #, fuzzy, kde-format
+#| msgid "Profile Error"
+msgctxt "@title"
+msgid "Error"
+msgstr "Lỗi hồ sơ"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:995
+#, fuzzy, kde-format
+msgctxt "@info"
 msgid "Failed to save some information:"
 msgstr "Thông tin ảnh/tệp"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:1024
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:1026
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Edit Geolocation"
 msgstr "Vùng chọn"
 
@@ -9425,31 +9414,38 @@ msgstr ""
 msgid "Apply"
 msgstr "Áp dụng"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:446
+#: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:450
 #, fuzzy, kde-format
 msgid "Details changed"
 msgstr "Hoàn nguyên mọi thay đổi"
 
 #: core/dplugins/generic/metadata/geolocationedit/geolocationeditplugin.cpp:51
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Geolocation Edit"
 msgstr "Lọc lục"
 
 #: core/dplugins/generic/metadata/geolocationedit/geolocationeditplugin.cpp:66
 #, fuzzy, kde-format
 #| msgid "Add film grain"
+msgctxt "@info"
 msgid "A tool to edit items geolocation"
 msgstr "Thêm hạt mảng thuốc"
 
 #: core/dplugins/generic/metadata/geolocationedit/geolocationeditplugin.cpp:71
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>This tool permit to changes geolocation information from items.</"
-"p><p>This tool can edit GPS data, manually or over a map. Reverse geo-coding "
-"is also available through web services.</p><p>This tool as also an export "
-"function to KML to store map traces in Google format.</p><p>Finally, this "
-"tool is able to read a GPS trace from a device to synchronize geo-location "
-"of items if you camera do not have an embedded GPS device.</p>"
+"This tool permit to changes geolocation information from items.\n"
+"\n"
+"This tool can edit GPS data, manually or over a map. Reverse geo-coding is "
+"also available through web services.\n"
+"\n"
+"This tool as also an export function to KML to store map traces in Google "
+"format.\n"
+"\n"
+"Finally, this tool is able to read a GPS trace from a device to synchronize "
+"geo-location of items if you camera do not have an embedded GPS device."
 msgstr ""
 
 #: core/dplugins/generic/metadata/geolocationedit/geolocationeditplugin.cpp:99
@@ -9554,16 +9550,19 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlgpsdataparser.cpp:66
 #, kde-format
+msgctxt "@item: linetrack over the map"
 msgid "Track"
 msgstr ""
 
 #: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlgpsdataparser.cpp:92
 #, fuzzy, kde-format
+msgctxt "@item: points over the map"
 msgid "Points"
 msgstr "In %1"
 
-#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlgpsdataparser.cpp:104
+#: core/dplugins/generic/metadata/geolocationedit/kmlexport/kmlgpsdataparser.cpp:105
 #, fuzzy, kde-format
+msgctxt "@item: point coordinates"
 msgid "Point"
 msgstr "In %1"
 
@@ -9960,40 +9959,45 @@ msgstr[0] ""
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:100
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Metadata Editor"
 msgstr "Siêu dữ liệu"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:121
-#, kde-format
-msgctxt "@action:button"
+#, fuzzy, kde-format
+msgctxt "@action: button"
 msgid "Next"
-msgstr ""
+msgstr "T&uần qua"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:123
 #, fuzzy, kde-format
-msgctxt "@action:button"
+msgctxt "@action: button"
 msgid "Previous"
 msgstr "Ảnh trước"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:136
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Edit EXIF"
 msgstr "EXIF"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:137
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Edit IPTC"
 msgstr "Sửa thẻ"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:138
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Edit XMP"
 msgstr "Sửa"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/metadataedit.cpp:319
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@title"
 msgid "%1 (%2/%3) - Edit Metadata"
-msgstr ""
+msgstr "Siêu dữ liệu"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/multistringsedit.cpp:87
 #: core/dplugins/generic/metadata/metadataedit/dialog/multivaluesedit.cpp:91
@@ -10028,7 +10032,6 @@ msgid_plural "<p>%1 characters.</p>"
 msgstr[0] ""
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/objectattributesedit.cpp:89
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:216
 #, kde-format
 msgid "Attribute:"
 msgstr ""
@@ -10863,117 +10866,152 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:302
 #, kde-format
+msgctxt "@option"
 msgid "Scene capture type:"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:304
 #, fuzzy, kde-format
+msgctxt "@item: scene type"
 msgid "Standard"
 msgstr "Chuẩn"
 
-#: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:307
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:87
+#: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:305
 #, fuzzy, kde-format
+#| msgid "Landscape"
+msgctxt "@item: scene type"
+msgid "Landscape"
+msgstr "Nằm ngang"
+
+#: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:306
+#, fuzzy, kde-format
+#| msgid "Portrait"
+msgctxt "@item: scene type"
+msgid "Portrait"
+msgstr "Thẳng đứng"
+
+#: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:307
+#, fuzzy, kde-format
+msgctxt "@item: scene type"
 msgid "Night scene"
 msgstr "Quản lí màu"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:308
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@info"
 msgid "Select here the type of scene used by the camera to take the picture."
 msgstr ""
+"<p>Ở đây bạn có thể xem danh sách các máy ảnh điện số được dùng bởi digiKam "
+"qua giao diện Gphoto."
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:313
 #, fuzzy, kde-format
+msgctxt "@option"
 msgid "Subject distance type:"
 msgstr "Khoảng cách:"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:315
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "@item: subject distance"
 msgid "Unknown"
 msgstr "Không rõ"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:316
 #, kde-format
+msgctxt "@item: subject distance"
 msgid "Macro"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:317
 #, fuzzy, kde-format
+msgctxt "@item: subject distance"
 msgid "Close view"
 msgstr "Bộ sửa ảnh"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:318
 #, fuzzy, kde-format
+msgctxt "@item: subject distance"
 msgid "Distant view"
 msgstr "Khoảng cách:"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:319
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@info"
 msgid ""
 "Select here the type of distance between the subject and the image input "
 "equipment."
-msgstr ""
+msgstr "<p>Ở đây hãy đặt độ rộng của viền theo phần trăm kích cỡ ảnh."
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:110
 #, fuzzy, kde-format
-msgctxt "image caption"
+msgctxt "@item: image caption"
 msgid "Caption"
 msgstr "Độ xoay:"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:114
 #, fuzzy, kde-format
+msgctxt "@item: date properties"
 msgid "Date & Time"
 msgstr "Thêm Ngày và Giờ"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:118
-#: core/utilities/searchwindow/searchfields.cpp:440
 #, fuzzy, kde-format
+msgctxt "@item: lens properties"
 msgid "Lens"
 msgstr "Mật độ :"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:122
 #, fuzzy, kde-format
+msgctxt "@item: device properties"
 msgid "Device"
 msgstr "Hạng thiết bị"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:126
 #, fuzzy, kde-format
+msgctxt "@item; light properties"
 msgid "Light"
 msgstr "Độ nhạt"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:130
 #, fuzzy, kde-format
-msgctxt "Picture adjustments"
+msgctxt "@item: picture adjustments"
 msgid "Adjustments"
 msgstr "Điều chỉnh:"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:191
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Caption Information"
 msgstr "Thông tin"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:192
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Date and Time Information"
 msgstr "Lọc nhiễu :"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:193
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Lens Settings"
 msgstr "Thiết lập cục bộ"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:194
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Capture Device Settings"
 msgstr "Thiết lập chung"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:195
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Light Source Information"
 msgstr "Thông tin ảnh"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:196
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Pictures Adjustments"
 msgstr "Điều chỉnh độ nhạt"
 
@@ -11311,13 +11349,22 @@ msgstr ""
 msgid "White balance:"
 msgstr "Cán cân trắng"
 
+#: core/dplugins/generic/metadata/metadataedit/exif/exiflight.cpp:205
+#, fuzzy, kde-format
+#| msgid "Auto"
+msgctxt "@item: white balance"
+msgid "Auto"
+msgstr "Tự động"
+
 #: core/dplugins/generic/metadata/metadataedit/exif/exiflight.cpp:206
 #, fuzzy, kde-format
+msgctxt "@item: white balance"
 msgid "Manual"
 msgstr "Sổ tay"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exiflight.cpp:207
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid ""
 "Select here the white balance mode set by the camera when the picture was "
 "taken."
@@ -11548,132 +11595,131 @@ msgid "Set here the person or organization to contact."
 msgstr "<p>Ở đây hãy đặt giá trị độ bão hoà."
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:124
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:124
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Content"
 msgstr "Độ tương phản:"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:128
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:128
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Origin"
 msgstr "Gốc"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:132
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:132
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Credits"
 msgstr "Công trạng:"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:136
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:136
-#: core/libs/template/templatepanel.cpp:439
-#: core/libs/template/templateviewer.cpp:245
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Subjects"
 msgstr "Khoảng cách:"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:140
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:140
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Keywords"
 msgstr "Siêu dữ liệu"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:144
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:144
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Categories"
 msgstr "Theo ngày"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:148
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:148
-#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:48
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:616
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Status"
 msgstr "Thống kê"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:152
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:152
-#: core/libs/properties/import/importitempropertiessidebar.cpp:101
-#, kde-format
+#: core/libs/dialogs/solidhardwaredlg.cpp:303
+#, fuzzy, kde-format
+#| msgid "Properties"
+msgctxt "@item"
 msgid "Properties"
 msgstr "Thuộc tính"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:156
 #, fuzzy, kde-format
+msgctxt "@item"
 msgid "Envelope"
 msgstr "Bao chứa IIM"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:222
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:221
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Content Information<br/><i>Use this panel to describe the visual content "
-"of the image</i></qt>"
+"Content Information\n"
+"Use this panel to describe the visual content of the image"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:224
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:223
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Origin Information<br/><i>Use this panel for formal descriptive "
-"information about the image</i></qt>"
+"Origin Information\n"
+"Use this panel for formal descriptive information about the image"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:226
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:225
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Credit Information<br/><i>Use this panel to record copyright information "
-"about the image</i></qt>"
+"Credit Information\n"
+"Use this panel to record copyright information about the image"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:228
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:227
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Subject Information<br/><i>Use this panel to record subject information "
-"about the image</i></qt>"
+"Subject Information\n"
+"Use this panel to record subject information about the image"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:230
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:229
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Keyword Information<br/><i>Use this panel to record keywords relevant to "
-"the image</i></qt>"
+"Keyword Information\n"
+"Use this panel to record keywords relevant to the image"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:232
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:231
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Category Information<br/><i>Use this panel to record categories relevant "
-"to the image</i></qt>"
+"Category Information\n"
+"Use this panel to record categories relevant to the image"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:234
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:233
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Status Information<br/><i>Use this panel to record workflow information</"
-"i></qt>"
+"Status Information\n"
+"Use this panel to record workflow information"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:236
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:235
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Status Properties<br/><i>Use this panel to record workflow properties</"
-"i></qt>"
+"Status Properties\n"
+"Use this panel to record workflow properties"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:238
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<qt>Envelope Information<br/><i>Use this panel to record editorial details</"
-"i></qt>"
+"Envelope Information\n"
+"Use this panel to record editorial details"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcenvelope.cpp:87
@@ -11929,7 +11975,6 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcenvelope.cpp:227
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:205
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:170
 #, fuzzy, kde-format
 msgid "Priority:"
 msgstr "Độ đều đặn:"
@@ -11960,7 +12005,6 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcenvelope.cpp:238
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:216
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:181
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "9: User-defined"
@@ -12229,47 +12273,40 @@ msgid "Set here the latest intended usable time zone of intellectual content."
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:191
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:155
 #, fuzzy, kde-format
 msgid "Language:"
 msgstr "Mặc định"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:201
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:156
 #, fuzzy, kde-format
 msgid "Select here the language of content."
 msgstr "<p>Ở đây hãy đặt giá trị độ bão hoà."
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:207
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:172
 #, fuzzy, kde-format
 msgctxt "editorial urgency of content"
 msgid "0: None"
 msgstr "Không có"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:208
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:173
 #, fuzzy, kde-format
 msgctxt "editorial urgency of content"
 msgid "1: High"
 msgstr "Cao :"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:212
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:177
 #, fuzzy, kde-format
 msgctxt "editorial urgency of content"
 msgid "5: Normal"
 msgstr "Chuẩn"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:215
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:180
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "8: Low"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:217
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:182
 #, fuzzy, kde-format
 msgid "Select here the editorial urgency of content."
 msgstr "<p>Ở đây hãy đặt màu của đường."
@@ -12281,38 +12318,39 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:223
 #, fuzzy, kde-format
+msgctxt "@item: object cycle"
 msgid "Morning"
 msgstr "Cảnh báo"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:224
 #, fuzzy, kde-format
+msgctxt "@item: object cycle"
 msgid "Afternoon"
 msgstr "Sau"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:225
 #, kde-format
+msgctxt "@item: object cycle"
 msgid "Evening"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:226
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Select here the editorial cycle of content."
 msgstr "<p>Ở đây hãy đặt giá trị độ bão hoà."
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:235
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:106
 #, kde-format
 msgid "News"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:236
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:102
 #, fuzzy, kde-format
 msgid "Data"
 msgstr "Tạo thư mục ?"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:237
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:99
 #, kde-format
 msgid "Advisory"
 msgstr ""
@@ -12332,7 +12370,6 @@ msgstr ""
 "ASCII."
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:248
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:248
 #, kde-format
 msgid "Reference:"
 msgstr ""
@@ -12454,21 +12491,27 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/metadataeditplugin.cpp:51
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Metadata Edit"
 msgstr "Siêu dữ liệu"
 
 #: core/dplugins/generic/metadata/metadataedit/metadataeditplugin.cpp:66
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "A tool to edit items metadata"
 msgstr "Siêu dữ liệu"
 
 #: core/dplugins/generic/metadata/metadataedit/metadataeditplugin.cpp:71
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>This tool permit to changes plenty of metadata from items.</p><p>Most "
-"common Exif, Iptc, and Xmp tags used in photography are listed for editing "
-"with standardized values.</p><p>For photo agencies, pre-configured subjects "
-"can be used to describe the items contents based on Iptc reference codes.</p>"
+"This tool permit to changes plenty of metadata from items.\n"
+"\n"
+"Most common Exif, Iptc, and Xmp tags used in photography are listed for "
+"editing with standardized values.\n"
+"\n"
+"For photo agencies, pre-configured subjects can be used to describe the "
+"items contents based on Iptc reference codes."
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/metadataeditplugin.cpp:92
@@ -12510,6 +12553,7 @@ msgstr "Quản lí màu..."
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcredits.cpp:118
 #, fuzzy, kde-format
 #| msgid "Standard"
+msgctxt "@option: name of content creator"
 msgid "Creator:"
 msgstr "Chuẩn"
 
@@ -12606,6 +12650,108 @@ msgstr "<p>Ở đây hãy đặt màu của viền chính."
 msgid "Set here the original owner of content."
 msgstr "<p>Ở đây hãy đặt màu của đường."
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:124
+#, fuzzy, kde-format
+msgctxt "@item: xmp content"
+msgid "Content"
+msgstr "Độ tương phản:"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:128
+#, fuzzy, kde-format
+msgid "Origin"
+msgstr "Gốc"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:132
+#, fuzzy, kde-format
+msgid "Credits"
+msgstr "Công trạng:"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:136
+#: core/libs/template/templatepanel.cpp:439
+#: core/libs/template/templateviewer.cpp:245
+#, fuzzy, kde-format
+msgid "Subjects"
+msgstr "Khoảng cách:"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:140
+#, fuzzy, kde-format
+msgid "Keywords"
+msgstr "Siêu dữ liệu"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:144
+#, fuzzy, kde-format
+msgid "Categories"
+msgstr "Theo ngày"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:148
+#: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:48
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:616
+#, fuzzy, kde-format
+msgid "Status"
+msgstr "Thống kê"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:152
+#: core/libs/properties/import/importitempropertiessidebar.cpp:101
+#, kde-format
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:221
+#, kde-format
+msgid ""
+"<qt>Content Information<br/><i>Use this panel to describe the visual content "
+"of the image</i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:223
+#, kde-format
+msgid ""
+"<qt>Origin Information<br/><i>Use this panel for formal descriptive "
+"information about the image</i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:225
+#, kde-format
+msgid ""
+"<qt>Credit Information<br/><i>Use this panel to record copyright information "
+"about the image</i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:227
+#, kde-format
+msgid ""
+"<qt>Subject Information<br/><i>Use this panel to record subject information "
+"about the image</i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:229
+#, kde-format
+msgid ""
+"<qt>Keyword Information<br/><i>Use this panel to record keywords relevant to "
+"the image</i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:231
+#, kde-format
+msgid ""
+"<qt>Category Information<br/><i>Use this panel to record categories relevant "
+"to the image</i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:233
+#, kde-format
+msgid ""
+"<qt>Status Information<br/><i>Use this panel to record workflow information</"
+"i></qt>"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:235
+#, kde-format
+msgid ""
+"<qt>Status Properties<br/><i>Use this panel to record workflow properties</"
+"i></qt>"
+msgstr ""
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpkeywords.cpp:87
 #, fuzzy, kde-format
 msgid "Enter here a new keyword."
@@ -12643,333 +12789,465 @@ msgstr "<p>Ở đây hãy chọn độ xoay đoạn cần dùng."
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:74
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Headshot"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:75
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Half-length"
 msgstr "Thiết lập cục bộ"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:76
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Full-length"
 msgstr "Thiết lập cục bộ"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:77
 #, fuzzy, kde-format
-msgctxt "Side view of a person"
+msgctxt "@item: side view of a person"
 msgid "Profile"
 msgstr "ID hồ sơ :"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:78
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Rear view"
 msgstr "Xem thử"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:79
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Single"
 msgstr "Phạm vi:"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:80
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Couple"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:81
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Two"
-msgstr ""
+msgstr "Quay nhanh"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:82
 #, fuzzy, kde-format
-msgctxt "group of people"
+msgctxt "@item: group of people"
 msgid "Group"
 msgstr "&Nhóm lại"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:83
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "General view"
 msgstr "Chung"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:84
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Panoramic view"
 msgstr "Ô xem thử RAW nhanh"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:85
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Aerial view"
-msgstr ""
+msgstr "Chung"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:86
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Under-water"
 msgstr ""
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:87
+#, fuzzy, kde-format
+msgctxt "@item: scene code"
+msgid "Night scene"
+msgstr "Quản lí màu"
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:88
-#: core/utilities/geolocation/geoiface/backends/backendgooglemaps.cpp:178
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Satellite"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:89
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Exterior view"
-msgstr ""
+msgstr "Ô xem thử RAW nhanh"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:90
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Interior view"
 msgstr "Ô xem thử RAW nhanh"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:91
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Close-up"
 msgstr "Đón&g"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:92
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Action"
 msgstr "Vùng chọn"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:93
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Performing"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:94
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Posing"
 msgstr "Độ xói mòn:"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:95
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Symbolic"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:96
 #, kde-format
+msgctxt "@item: scene code"
 msgid "Off-beat"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:97
 #, fuzzy, kde-format
+msgctxt "@item: scene code"
 msgid "Movie scene"
 msgstr "Tệp phim"
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:99
+#, kde-format
+msgctxt "@item: type code"
+msgid "Advisory"
+msgstr ""
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:100
 #, kde-format
+msgctxt "@item: type code"
 msgid "Alert"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:101
 #, kde-format
+msgctxt "@item: type code"
 msgid "Catalog"
 msgstr ""
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:102
+#, fuzzy, kde-format
+msgctxt "@item: type code"
+msgid "Data"
+msgstr "Tạo thư mục ?"
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:103
 #, fuzzy, kde-format
-msgctxt "type is a document"
+msgctxt "@item: type is a document"
 msgid "Document"
 msgstr "Tài liệu cần mở."
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:104
 #, kde-format
+msgctxt "@item: type code"
 msgid "DTD"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:105
-#: core/utilities/maintenance/maintenancedlg.cpp:194
 #, fuzzy, kde-format
+msgctxt "@item: type code"
 msgid "Maintenance"
 msgstr "Góc chính:"
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:106
+#, kde-format
+msgctxt "@item: type code"
+msgid "News"
+msgstr ""
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:107
 #, fuzzy, kde-format
+msgctxt "@item: type code"
 msgid "News Management Mode"
 msgstr "Quản lí màu"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:108
 #, kde-format
+msgctxt "@item: type code"
 msgid "Package"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:109
 #, fuzzy, kde-format
+msgctxt "@item: type code"
 msgid "Schema"
 msgstr "Tên ảnh"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:110
 #, kde-format
+msgctxt "@item: type code"
 msgid "Topic"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:111
 #, kde-format
+msgctxt "@item: type code"
 msgid "Topic Set"
 msgstr ""
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:155
+#, fuzzy, kde-format
+msgctxt "@option"
+msgid "Language:"
+msgstr "Mặc định"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:156
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Select here the language of content."
+msgstr "<p>Ở đây hãy đặt giá trị độ bão hoà."
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:170
+#, fuzzy, kde-format
+msgctxt "@option"
+msgid "Priority:"
+msgstr "Độ đều đặn:"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:172
+#, fuzzy, kde-format
+msgctxt "@item: editorial urgency of content"
+msgid "0: None"
+msgstr "Không có"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:173
+#, fuzzy, kde-format
+msgctxt "@item: editorial urgency of content"
+msgid "1: High"
+msgstr "Cao :"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:177
+#, fuzzy, kde-format
+msgctxt "@item: editorial urgency of content"
+msgid "5: Normal"
+msgstr "Chuẩn"
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:180
+#, kde-format
+msgctxt "@item: editorial urgency of content"
+msgid "8: Low"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:181
+#, kde-format
+msgctxt "@item: editorial urgency of content"
+msgid "9: User-defined"
+msgstr ""
+
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:182
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "@info: Select here the editorial urgency of content."
+msgstr "<p>Ở đây hãy đặt màu của đường."
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:186
 #, kde-format
+msgctxt "@option"
 msgid "Scene:"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:187
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Select here the scene type of the content."
 msgstr "<p>Ở đây hãy đặt cấp của hiệu ứng."
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:201
+#, fuzzy, kde-format
+#| msgid "Type:"
+msgctxt "@option"
+msgid "Type:"
+msgstr "Kiểu :"
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:202
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Select here the editorial type of the content."
 msgstr "<p>Ở đây hãy đặt màu của đường."
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:216
+#, kde-format
+msgctxt "@option"
+msgid "Attribute:"
+msgstr ""
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:220
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Set here the editorial attribute description of the content."
 msgstr "<p>Ở đây hãy đặt giá trị độ bão hoà."
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:222
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Select here the editorial attribute of the content."
 msgstr "<p>Ở đây hãy đặt màu của đường."
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:223
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Current"
 msgstr "Đếm:"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:224
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Analysis"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:225
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Archive material"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:226
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Background"
 msgstr "Dùng mà&u nền của sắc thái"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:227
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Feature"
 msgstr "Tự nhiên"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:228
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Forecast"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:229
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "History"
 msgstr "Biểu đồ tần xuất"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:230
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Obituary"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:231
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Opinion"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:232
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Polls & Surveys"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:233
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Profile"
 msgstr "ID hồ sơ :"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:234
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Results Listings & Table"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:235
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Side bar & Supporting information"
 msgstr "Lọc nhiễu :"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:236
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Summary"
 msgstr "Tóm tắt"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:237
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Transcript & Verbatim"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:238
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Interview"
 msgstr "Xem thử"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:239
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "From the Scene"
 msgstr "Đang tải sắc thái..."
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:240
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Retrospective"
 msgstr "Phối cảnh"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:241
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Statistics"
 msgstr "Thống kê"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:242
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Update"
 msgstr "Ngày:"
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:243
 #, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Wrap-up"
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:244
 #, fuzzy, kde-format
-msgctxt "editorial content attribute"
+msgctxt "@item: editorial content attribute"
 msgid "Press Release"
 msgstr "Đang xử lí ảnh mẫu ít"
 
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:248
+#, fuzzy, kde-format
+#| msgid "Resize Image"
+msgctxt "@option"
+msgid "Reference:"
+msgstr "Đổi cỡ ảnh"
+
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:251
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Set here the original content transmission reference."
 msgstr "<p>Ở đây hãy đặt độ chính xác của hàm kiểu Gauss."
 
@@ -13055,6 +13333,7 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:110
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Adjust Time & Date"
 msgstr "Thuộc tính tệp"
 
@@ -13075,50 +13354,32 @@ msgstr "Ghi siêu dữ liệu vào mỗi tệp"
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:444
 #, fuzzy, kde-format
 #| msgid "Adjustment:"
+msgctxt "@info"
 msgid "Adjust Time and Date"
 msgstr "Điều chỉnh:"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:475
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:687
-#: core/dplugins/generic/webservices/box/boxwindow.cpp:265
-#: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:863
-#: core/dplugins/generic/webservices/google/gswindow.cpp:519
-#: core/dplugins/generic/webservices/google/gswindow.cpp:544
-#: core/dplugins/generic/webservices/google/gswindow.cpp:952
-#: core/dplugins/generic/webservices/google/gswindow.cpp:973
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1022
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1263
-#: core/dplugins/generic/webservices/onedrive/odwindow.cpp:265
-#: core/dplugins/generic/webservices/pinterest/pwindow.cpp:265
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:684
-#: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
-#: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
-#: core/libs/dplugins/webservices/wstooldialog.cpp:118
-#: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
+#: core/utilities/imageeditor/editor/editorwindow.cpp:537
 #, fuzzy, kde-format
+msgctxt "@action"
 msgid "Cancel"
 msgstr "T&hôi"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:477
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:689
-#: core/libs/dplugins/webservices/wstooldialog.cpp:120
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Cancel current operation"
 msgstr "Thông tin máy ảnh"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
-#: core/libs/dplugins/webservices/wstooldialog.cpp:111
-#: core/libs/onlineversion/onlineversiondlg.cpp:355
-#: core/libs/onlineversion/onlineversiondlg.cpp:538
 #, fuzzy, kde-format
+msgctxt "@action"
 msgid "Close"
 msgstr "Đón&g"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:483
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:682
-#: core/libs/dplugins/webservices/wstooldialog.cpp:113
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Close window"
 msgstr "Bộ sửa ảnh"
 
@@ -13155,19 +13416,30 @@ msgstr "Lỗi in tệp: « %1 »"
 msgid "Processed without error"
 msgstr "Đang xử lí ảnh mẫu ít"
 
+#: core/dplugins/generic/metadata/timeadjust/timeadjustplugin.cpp:51
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "Time Adjust"
+msgstr "Điều chỉnh:"
+
 #: core/dplugins/generic/metadata/timeadjust/timeadjustplugin.cpp:66
 #, fuzzy, kde-format
 #| msgid "Add film grain"
+msgctxt "@info"
 msgid "A tool to adjust items date-time"
 msgstr "Thêm hạt mảng thuốc"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustplugin.cpp:71
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>This tool permit to adjust date time-stamp of items in batch.</p><p>Many "
-"source of original time-stamp can be selected from original items, or a from "
-"a common file.</p><p>Many metadata time-stamp can be adjusted or left "
-"untouched. The adjustment can be an offset of time or a specific date.</p>"
+"This tool permit to adjust date time-stamp of items in batch.\n"
+"\n"
+"Many source of original time-stamp can be selected from original items, or a "
+"from a common file.\n"
+"\n"
+"Many metadata time-stamp can be adjusted or left untouched. The adjustment "
+"can be an offset of time or a specific date."
 msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustplugin.cpp:101
@@ -13851,6 +14123,46 @@ msgstr "Lỗi lấy tệp %1 từ máy ảnh"
 #, fuzzy, kde-format
 msgid "Failed to process output of bracketed images."
 msgstr "Lỗi lấy tệp %1 từ máy ảnh"
+
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
+#: core/libs/dplugins/webservices/wstooldialog.cpp:111
+#: core/libs/onlineversion/onlineversiondlg.cpp:355
+#: core/libs/onlineversion/onlineversiondlg.cpp:538
+#, fuzzy, kde-format
+msgid "Close"
+msgstr "Đón&g"
+
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:682
+#: core/libs/dplugins/webservices/wstooldialog.cpp:113
+#, fuzzy, kde-format
+msgid "Close window"
+msgstr "Bộ sửa ảnh"
+
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:687
+#: core/dplugins/generic/webservices/box/boxwindow.cpp:265
+#: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:863
+#: core/dplugins/generic/webservices/google/gswindow.cpp:519
+#: core/dplugins/generic/webservices/google/gswindow.cpp:544
+#: core/dplugins/generic/webservices/google/gswindow.cpp:952
+#: core/dplugins/generic/webservices/google/gswindow.cpp:973
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1022
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1263
+#: core/dplugins/generic/webservices/onedrive/odwindow.cpp:265
+#: core/dplugins/generic/webservices/pinterest/pwindow.cpp:265
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:684
+#: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
+#: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
+#: core/libs/dplugins/webservices/wstooldialog.cpp:118
+#: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
+#, fuzzy, kde-format
+msgid "Cancel"
+msgstr "T&hôi"
+
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:689
+#: core/libs/dplugins/webservices/wstooldialog.cpp:120
+#, fuzzy, kde-format
+msgid "Cancel current operation"
+msgstr "Thông tin máy ảnh"
 
 #: core/dplugins/generic/tools/expoblending/expoblendingplugin.cpp:74
 #, fuzzy, kde-format
@@ -14719,7 +15031,6 @@ msgid "Server is not running"
 msgstr ""
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:284
-#: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:90
 #, fuzzy, kde-format
 msgid "Start"
 msgstr "Độ mạnh:"
@@ -17014,6 +17325,37 @@ msgctxt "artist - title"
 msgid "%1 - %2"
 msgstr "%1 (%2)"
 
+#: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:170
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:384
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:394
+#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
+#: core/dplugins/generic/webservices/facebook/fbtalker.cpp:558
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:793
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:817
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:983
+#: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:469
+#: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:660
+#: core/dplugins/generic/webservices/mediawiki/mediawikitalker.cpp:186
+#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:411
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:455
+#: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:396
+#: core/dplugins/generic/webservices/smugmug/smugtalker.cpp:754
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:450
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:459
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:497
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:534
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:1026
+#: core/dplugins/generic/webservices/twitter/twittertalker.cpp:673
+#: core/dplugins/generic/webservices/unified/manager/wstalker.cpp:356
+#: core/dplugins/generic/webservices/vkontakte/vknewalbumdlg.cpp:170
+#: core/dplugins/generic/webservices/yandexfotki/yfnewalbumdlg.cpp:105
+#: core/libs/database/utils/scan/scancontroller_progress.cpp:96
+#: core/libs/tags/widgets/tageditdlg.cpp:545
+#, kde-format
+msgid "Error"
+msgstr ""
+
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:171
 #, kde-format
 msgid "%1 may not be playable."
@@ -17137,6 +17479,12 @@ msgstr ""
 msgid "Disable &cross-fade"
 msgstr "Quản lí màu..."
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableKenBurnsSameSpeed)
+#: core/dplugins/generic/view/presentation/dialogs/presentation_advpage.ui:130
+#, kde-format
+msgid "Use &same speed for visual effects"
+msgstr ""
+
 #: core/dplugins/generic/view/presentation/dialogs/presentation_captionpage.cpp:46
 #, kde-format
 msgid "This is a comment sample..."
@@ -17191,7 +17539,7 @@ msgid "Image #%1"
 msgstr "Ảnh được tìm trong %1"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:456
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:678
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:688
 #, kde-format
 msgid "Ken Burns"
 msgstr ""
@@ -17300,8 +17648,15 @@ msgstr "Chỉnh thẻ hướng EXIF"
 #: core/dplugins/generic/view/presentation/presentationplugin.cpp:56
 #, fuzzy, kde-format
 #| msgid "Orientation:"
+msgctxt "@title"
 msgid "Presentation"
 msgstr "Hướng:"
+
+#: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:90
+#, fuzzy, kde-format
+msgctxt "@action: play presentation"
+msgid "Start"
+msgstr "Độ mạnh:"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:91
 #, fuzzy, kde-format
@@ -17312,22 +17667,25 @@ msgstr "Hướng:"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:102
 #, fuzzy, kde-format
+msgctxt "@title: main settings for the presentation"
 msgid "Main Settings"
 msgstr "Thiết lập"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:107
 #, fuzzy, kde-format
-msgctxt "captions for the slideshow"
+msgctxt "@title: caption settings for the presentation"
 msgid "Caption"
 msgstr "Độ xoay:"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@title: soundtrack settings for the presentation"
 msgid "Soundtrack"
-msgstr ""
+msgstr "Ô xem thử RAW nhanh"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:121
 #, fuzzy, kde-format
+msgctxt "@title: avanced presentation settings"
 msgid "Advanced"
 msgstr "Cấp cao"
 
@@ -17402,14 +17760,14 @@ msgid "Slideshow Completed"
 msgstr "Trình chiếu"
 
 #: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:886
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:631
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:641
 #: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:879
 #, fuzzy, kde-format
 #| msgid "Click To Exit..."
 msgid "Click to Exit..."
 msgstr "Nhấn để thoát..."
 
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:630
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:640
 #, fuzzy, kde-format
 #| msgid "SlideShow"
 msgid "SlideShow Completed"
@@ -17428,16 +17786,20 @@ msgstr ""
 
 #: core/dplugins/generic/view/presentation/presentationplugin.cpp:71
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "A tool to render presentation"
 msgstr "Vẽ biếm hoạ"
 
 #: core/dplugins/generic/view/presentation/presentationplugin.cpp:76
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>This tool render a series of items as an advanced slide-show.</"
-"p><p>Plenty of transition effects are available are ones based on OpenGL and "
-"the famous Ken Burns effect.</p><p>You can add a sound-track in background "
-"while your presentation.</p>"
+"This tool render a series of items as an advanced slide-show.\n"
+"\n"
+"Plenty of transition effects are available are ones based on OpenGL and the "
+"famous Ken Burns effect.\n"
+"\n"
+"You can add a sound-track in background while your presentation."
 msgstr ""
 
 #: core/dplugins/generic/view/presentation/presentationplugin.cpp:106
@@ -24758,13 +25120,6 @@ msgstr "Mô tả"
 msgctxt "@item: device status"
 msgid "States"
 msgstr "Thống kê"
-
-#: core/libs/dialogs/solidhardwaredlg.cpp:303
-#, fuzzy, kde-format
-#| msgid "Properties"
-msgctxt "@item"
-msgid "Properties"
-msgstr "Thuộc tính"
 
 #: core/libs/dialogs/solidhardwaredlg.cpp:303
 #, kde-format
@@ -40088,37 +40443,37 @@ msgid "Set this option to indicate if image has geolocation information."
 msgstr "<p>Bật tuỳ chọn này để hiển thị chú thích về ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:168
-#: core/utilities/setup/setupmisc.cpp:189
+#: core/utilities/setup/setupmisc.cpp:190
 #, kde-format
 msgid "Scroll current item to center of thumbbar"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:177
-#: core/utilities/setup/setupmisc.cpp:210
+#: core/utilities/setup/setupmisc.cpp:211
 #, fuzzy, kde-format
 msgid "Updates"
 msgstr "Ngày:"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:181
-#: core/utilities/setup/setupmisc.cpp:214
+#: core/utilities/setup/setupmisc.cpp:215
 #, fuzzy, kde-format
 msgid "Check for new version:"
 msgstr "&Lưu dạng..."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:183
-#: core/utilities/setup/setupmisc.cpp:216
+#: core/utilities/setup/setupmisc.cpp:217
 #, kde-format
 msgid "Only For Stable Releases"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:184
-#: core/utilities/setup/setupmisc.cpp:217
+#: core/utilities/setup/setupmisc.cpp:218
 #, fuzzy, kde-format
 msgid "Weekly Pre-Releases"
 msgstr "Đang xử lí ảnh mẫu ít"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:185
-#: core/utilities/setup/setupmisc.cpp:218
+#: core/utilities/setup/setupmisc.cpp:219
 #, kde-format
 msgid ""
 "Set this option to configure which kind of new versions must be check for "
@@ -40129,13 +40484,13 @@ msgid ""
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:190
-#: core/utilities/setup/setupmisc.cpp:223
+#: core/utilities/setup/setupmisc.cpp:224
 #, kde-format
 msgid "Use Version With Debug Symbols"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:191
-#: core/utilities/setup/setupmisc.cpp:224
+#: core/utilities/setup/setupmisc.cpp:225
 #, kde-format
 msgid ""
 "If this option is enabled, a version including debug symbols will be used "
@@ -40145,19 +40500,19 @@ msgid ""
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:196
-#: core/utilities/setup/setupmisc.cpp:229
+#: core/utilities/setup/setupmisc.cpp:230
 #, kde-format
 msgid "Last check: %1"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:197
-#: core/utilities/setup/setupmisc.cpp:230
+#: core/utilities/setup/setupmisc.cpp:231
 #, fuzzy, kde-format
 msgid "Check now..."
 msgstr "&Lưu dạng..."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:225
-#: core/utilities/setup/setupmisc.cpp:273
+#: core/utilities/setup/setupmisc.cpp:274
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgctxt "@title:tab"
@@ -40165,7 +40520,7 @@ msgid "Behaviour"
 msgstr "Ứng xử"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:232
-#: core/utilities/setup/setupmisc.cpp:280
+#: core/utilities/setup/setupmisc.cpp:281
 #, kde-format
 msgid "&Show splash screen at startup"
 msgstr "Hiện màn hình &giật gân khi khởi chạy"
@@ -40176,19 +40531,19 @@ msgid "Use native file dialogs from the system"
 msgstr "Canh lề đoạn bên phải"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:236
-#: core/utilities/setup/setupmisc.cpp:285
+#: core/utilities/setup/setupmisc.cpp:286
 #, kde-format
 msgid "Sidebar tab title:"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:238
-#: core/utilities/setup/setupmisc.cpp:287
+#: core/utilities/setup/setupmisc.cpp:288
 #, kde-format
 msgid "Only For Active Tab"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:239
-#: core/utilities/setup/setupmisc.cpp:288
+#: core/utilities/setup/setupmisc.cpp:289
 #, fuzzy, kde-format
 msgid "For All Tabs"
 msgstr "Mọi thẻ"
@@ -40199,113 +40554,113 @@ msgid "Set this option to configure how sidebars tab title are visible."
 msgstr "<p>Bật tuỳ chọn này để hiển thị kích cỡ của tệp ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:243
-#: core/utilities/setup/setupmisc.cpp:293
+#: core/utilities/setup/setupmisc.cpp:294
 #, kde-format
 msgid "Widget style:"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:245
-#: core/utilities/setup/setupmisc.cpp:295
+#: core/utilities/setup/setupmisc.cpp:296
 #, fuzzy, kde-format
 msgid "Set this option to choose the default window decoration and looks."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:262
-#: core/utilities/setup/setupmisc.cpp:312
+#: core/utilities/setup/setupmisc.cpp:313
 #, kde-format
 msgid "Icon theme (changes after restart):"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:264
-#: core/utilities/setup/setupmisc.cpp:314
+#: core/utilities/setup/setupmisc.cpp:315
 #, fuzzy, kde-format
 msgid "Set this option to choose the default icon theme."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:268
-#: core/utilities/setup/setupmisc.cpp:318
+#: core/utilities/setup/setupmisc.cpp:319
 #, kde-format
 msgctxt "icon theme"
 msgid "Adwaita"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:269
-#: core/utilities/setup/setupmisc.cpp:319
+#: core/utilities/setup/setupmisc.cpp:320
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:270
-#: core/utilities/setup/setupmisc.cpp:320
+#: core/utilities/setup/setupmisc.cpp:321
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze Dark"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:271
-#: core/utilities/setup/setupmisc.cpp:321
+#: core/utilities/setup/setupmisc.cpp:322
 #, kde-format
 msgctxt "icon theme"
 msgid "Faenza"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:272
-#: core/utilities/setup/setupmisc.cpp:322
+#: core/utilities/setup/setupmisc.cpp:323
 #, fuzzy, kde-format
 msgctxt "icon theme"
 msgid "Ambiance"
 msgstr "Độ trưng:"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:273
-#: core/utilities/setup/setupmisc.cpp:323
+#: core/utilities/setup/setupmisc.cpp:324
 #, kde-format
 msgctxt "icon theme"
 msgid "Humanity"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:274
-#: core/utilities/setup/setupmisc.cpp:324
+#: core/utilities/setup/setupmisc.cpp:325
 #, kde-format
 msgctxt "icon theme"
 msgid "Oxygen"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:297
-#: core/utilities/setup/setupmisc.cpp:347
+#: core/utilities/setup/setupmisc.cpp:348
 #, kde-format
 msgid "Use Icon Theme From System"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:304
-#: core/utilities/setup/setupmisc.cpp:354
+#: core/utilities/setup/setupmisc.cpp:355
 #, fuzzy, kde-format
 #| msgid "Selection"
 msgid "Application font:"
 msgstr "Vùng chọn"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:305
-#: core/utilities/setup/setupmisc.cpp:355
+#: core/utilities/setup/setupmisc.cpp:356
 #, fuzzy, kde-format
 msgid "Select here the font used to display text in whole application."
 msgstr "<p>Ở đây hãy đặt màu dùng để vẽ nét dẫn cấu tạo."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:319
-#: core/utilities/setup/setupmisc.cpp:370
+#: core/utilities/setup/setupmisc.cpp:371
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Appearance"
 msgstr "T&hôi"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:325
-#: core/utilities/setup/setupmisc.cpp:439
+#: core/utilities/setup/setupmisc.cpp:440
 #, kde-format
 msgctxt "@title:tab"
 msgid "System"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:347
-#: core/utilities/setup/setupmisc.cpp:462
+#: core/utilities/setup/setupmisc.cpp:463
 #, kde-format
 msgid ""
 "Check for new version option will verify the pre-releases.\n"
@@ -42539,6 +42894,11 @@ msgstr ""
 msgid "Roadmap"
 msgstr ""
 
+#: core/utilities/geolocation/geoiface/backends/backendgooglemaps.cpp:178
+#, kde-format
+msgid "Satellite"
+msgstr ""
+
 #: core/utilities/geolocation/geoiface/backends/backendgooglemaps.cpp:179
 #, kde-format
 msgid "Hybrid"
@@ -43091,6 +43451,11 @@ msgid ""
 "time."
 msgstr ""
 
+#: core/utilities/geolocation/geoiface/items/gpsitemlistcontextmenu.cpp:514
+#, fuzzy, kde-format
+msgid "Geolocation Editor"
+msgstr "Lọc lục"
+
 #: core/utilities/geolocation/geoiface/items/gpsitemlistcontextmenu.cpp:515
 #, kde-format
 msgid "Could not find any coordinates on the clipboard."
@@ -43488,6 +43853,21 @@ msgstr "Thiết lập"
 #, fuzzy, kde-format
 msgid "Geolocation Interface"
 msgstr "Lọc lục"
+
+#: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:200
+#, fuzzy, kde-format
+msgid "Sorting"
+msgstr "Làm mịn:"
+
+#: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:207
+#, kde-format
+msgid "Show oldest first"
+msgstr ""
+
+#: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:211
+#, kde-format
+msgid "Show youngest first"
+msgstr ""
 
 #: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:215
 #, fuzzy, kde-format
@@ -44268,12 +44648,6 @@ msgstr "Xoay phải"
 msgctxt "@action"
 msgid "Previous Image"
 msgstr "Ảnh trước"
-
-#: core/utilities/imageeditor/editor/editorwindow.cpp:537
-#, fuzzy, kde-format
-msgctxt "@action"
-msgid "Cancel"
-msgstr "T&hôi"
 
 #: core/utilities/imageeditor/editor/editorwindow.cpp:553
 #, fuzzy, kde-format
@@ -46640,6 +47014,11 @@ msgstr "<b>Đang cập nhật cơ sở dữ liệu ảnh mẫu. Hãy đợi...</
 msgid "Finger-prints"
 msgstr "<b>Tiến trình cập nhật cơ sở dữ liệu ảnh mẫu đã chạy xong</b>"
 
+#: core/utilities/maintenance/maintenancedlg.cpp:194
+#, fuzzy, kde-format
+msgid "Maintenance"
+msgstr "Góc chính:"
+
 #: core/utilities/maintenance/maintenancedlg.cpp:209
 #, kde-format
 msgid "<qt><b>Select Maintenance Operations to Process</b></qt>"
@@ -47767,6 +48146,11 @@ msgstr ""
 #, kde-format
 msgid "The model of the camera"
 msgstr ""
+
+#: core/utilities/searchwindow/searchfields.cpp:440
+#, fuzzy, kde-format
+msgid "Lens"
+msgstr "Mật độ :"
 
 #: core/utilities/searchwindow/searchfields.cpp:440
 #, fuzzy, kde-format
@@ -51490,24 +51874,24 @@ msgid ""
 "or unset it to preserve the images currently on the light table."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:154
+#: core/utilities/setup/setupmisc.cpp:155
 #, kde-format
 msgid "String comparison type:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:156
+#: core/utilities/setup/setupmisc.cpp:157
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Natural"
 msgstr "Tự nhiên"
 
-#: core/utilities/setup/setupmisc.cpp:157
+#: core/utilities/setup/setupmisc.cpp:158
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Normal"
 msgstr "Chuẩn"
 
-#: core/utilities/setup/setupmisc.cpp:158
+#: core/utilities/setup/setupmisc.cpp:159
 #, kde-format
 msgid ""
 "<qt>Sets the way in which strings are compared inside digiKam. This eg. "
@@ -51519,28 +51903,28 @@ msgid ""
 "albums should be sorted according to these dates.</qt>"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:168
+#: core/utilities/setup/setupmisc.cpp:169
 #, fuzzy, kde-format
 msgid "Confirm when moving items to the &trash"
 msgstr "Yêu cầu xác nhận khi chuyển mục vào Sọ&t Rác"
 
-#: core/utilities/setup/setupmisc.cpp:169
+#: core/utilities/setup/setupmisc.cpp:170
 #, fuzzy, kde-format
 msgid "Confirm when permanently deleting items"
 msgstr "Yêu cầu xác nhận khi chuyển mục vào Sọ&t Rác"
 
-#: core/utilities/setup/setupmisc.cpp:170
+#: core/utilities/setup/setupmisc.cpp:171
 #, fuzzy, kde-format
 msgid "Do not confirm when applying changes in the &right sidebar"
 msgstr "Áp dụng thay đổi t&rong khung lề bên phải, không cần xác nhận"
 
-#: core/utilities/setup/setupmisc.cpp:171
+#: core/utilities/setup/setupmisc.cpp:172
 #, fuzzy, kde-format
 #| msgid "&Scan for new items on startup (slows down startup)"
 msgid "&Scan for new items at startup (makes startup slower)"
 msgstr "&Quét tìm mục mới khi khởi chạy (làm chậm việc khởi chạy)"
 
-#: core/utilities/setup/setupmisc.cpp:172
+#: core/utilities/setup/setupmisc.cpp:173
 #, kde-format
 msgid ""
 "Set this option to force digiKam to scan all collections for new items to\n"
@@ -51557,12 +51941,12 @@ msgid ""
 "a manual scan through the maintenance tool at the right moment."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:181
+#: core/utilities/setup/setupmisc.cpp:182
 #, kde-format
 msgid "Remove obsolete core database objects (makes startup slower)"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:182
+#: core/utilities/setup/setupmisc.cpp:183
 #, kde-format
 msgid ""
 "Set this option to force digiKam to clean up the core database from obsolete "
@@ -51575,22 +51959,22 @@ msgid ""
 "For clean up routines for other databases, please use the maintenance."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:188
+#: core/utilities/setup/setupmisc.cpp:189
 #, kde-format
 msgid "Expand current tree item with a single mouse click"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:190
+#: core/utilities/setup/setupmisc.cpp:191
 #, kde-format
 msgid "Show only face tags for assigning names in people sidebar"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:195
+#: core/utilities/setup/setupmisc.cpp:196
 #, kde-format
 msgid "Lower bound for minimum similarity:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:201
+#: core/utilities/setup/setupmisc.cpp:202
 #, kde-format
 msgid ""
 "Select here the lower bound of the minimum similarity threshold for fuzzy "
@@ -51598,17 +51982,17 @@ msgid ""
 "than 40 can make the search <b>really</b> slow."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:281
+#: core/utilities/setup/setupmisc.cpp:282
 #, fuzzy, kde-format
 msgid "Use native file dialogs from system"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/utilities/setup/setupmisc.cpp:282
+#: core/utilities/setup/setupmisc.cpp:283
 #, fuzzy, kde-format
 msgid "Draw frames around grouped items"
 msgstr "&Sắp xếp ảnh"
 
-#: core/utilities/setup/setupmisc.cpp:289
+#: core/utilities/setup/setupmisc.cpp:290
 #, kde-format
 msgid ""
 "Set this option to configure how sidebar tab titles are visible. Use \"Only "
@@ -51616,12 +52000,12 @@ msgid ""
 "laptop computer."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:379
+#: core/utilities/setup/setupmisc.cpp:380
 #, kde-format
 msgid "Perform the following operations on all group members:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:380
+#: core/utilities/setup/setupmisc.cpp:381
 #, kde-format
 msgid ""
 "When images are grouped the following operations<br/>are performed only on "
@@ -51630,27 +52014,27 @@ msgid ""
 "operation is executed."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:386
+#: core/utilities/setup/setupmisc.cpp:387
 #, fuzzy, kde-format
 #| msgid "No"
 msgctxt "@label: grouped image ops"
 msgid "No"
 msgstr "Không"
 
-#: core/utilities/setup/setupmisc.cpp:387
+#: core/utilities/setup/setupmisc.cpp:388
 #, fuzzy, kde-format
 #| msgid "Yes"
 msgctxt "@label: grouped image ops"
 msgid "Yes"
 msgstr "Có"
 
-#: core/utilities/setup/setupmisc.cpp:388
+#: core/utilities/setup/setupmisc.cpp:389
 #, kde-format
 msgctxt "@label: grouped image ops"
 msgid "Ask"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:433
+#: core/utilities/setup/setupmisc.cpp:434
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Grouping"
@@ -52121,6 +52505,96 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Previous"
+#~ msgstr "Ảnh trước"
+
+#, fuzzy
+#~ msgctxt "image caption"
+#~ msgid "Caption"
+#~ msgstr "Độ xoay:"
+
+#, fuzzy
+#~ msgctxt "Side view of a person"
+#~ msgid "Profile"
+#~ msgstr "ID hồ sơ :"
+
+#, fuzzy
+#~ msgctxt "group of people"
+#~ msgid "Group"
+#~ msgstr "&Nhóm lại"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Current"
+#~ msgstr "Đếm:"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Background"
+#~ msgstr "Dùng mà&u nền của sắc thái"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Feature"
+#~ msgstr "Tự nhiên"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "History"
+#~ msgstr "Biểu đồ tần xuất"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Profile"
+#~ msgstr "ID hồ sơ :"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Side bar & Supporting information"
+#~ msgstr "Lọc nhiễu :"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Summary"
+#~ msgstr "Tóm tắt"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Interview"
+#~ msgstr "Xem thử"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "From the Scene"
+#~ msgstr "Đang tải sắc thái..."
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Retrospective"
+#~ msgstr "Phối cảnh"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Statistics"
+#~ msgstr "Thống kê"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Update"
+#~ msgstr "Ngày:"
+
+#, fuzzy
+#~ msgctxt "editorial content attribute"
+#~ msgid "Press Release"
+#~ msgstr "Đang xử lí ảnh mẫu ít"
+
+#, fuzzy
+#~ msgctxt "captions for the slideshow"
+#~ msgid "Caption"
+#~ msgstr "Độ xoay:"
+
+#, fuzzy
 #~ msgctxt "View the selected image"
 #~ msgid "Preview"
 #~ msgstr "Xem thử"
@@ -52472,8 +52946,3 @@ msgstr ""
 #~| msgid "Remove Tag"
 #~ msgid "Remove Face Tags"
 #~ msgstr "Bỏ thẻ"
-
-#, fuzzy
-#~| msgid "Profile Error"
-#~ msgid "Save Error"
-#~ msgstr "Lỗi hồ sơ"
