@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-11 02:40+0100\n"
+"POT-Creation-Date: 2021-03-12 02:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -12886,6 +12886,7 @@ msgid "Adjust Time and Date"
 msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:475
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:687
 #: core/utilities/imageeditor/editor/editorwindow.cpp:537
 #, kde-format
 msgctxt "@action"
@@ -12893,18 +12894,21 @@ msgid "Cancel"
 msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:477
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:689
 #, kde-format
 msgctxt "@info"
 msgid "Cancel current operation"
 msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
 #, kde-format
 msgctxt "@action"
 msgid "Close"
 msgstr ""
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:483
+#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:682
 #, kde-format
 msgctxt "@info"
 msgid "Close window"
@@ -13278,19 +13282,19 @@ msgstr ""
 msgid "Printing Complete"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:114
+#: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:115
 #, kde-format
 msgctxt "@title:column Processing checkbox"
 msgid "Include for Enfuse"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:115
+#: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:116
 #, kde-format
 msgctxt "@title:column Input file name"
 msgid "File Name"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:116
+#: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:117
 #, kde-format
 msgctxt "@title:column Input image exposure"
 msgid "Exposure (EV)"
@@ -13298,46 +13302,55 @@ msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:48
 #, kde-format
+msgctxt "@info"
 msgid "Hardmask: enabled"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:48
 #, kde-format
+msgctxt "@info"
 msgid "Hardmask: disabled"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:50
 #, kde-format
+msgctxt "@info"
 msgid "CIECAM02: enabled"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:50
 #, kde-format
+msgctxt "@info"
 msgid "CIECAM02: disabled"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:52
 #, kde-format
+msgctxt "@info"
 msgid "Levels: auto"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:52
 #, kde-format
-msgid "Levels: %1"
+msgctxt "@info"
+msgid "Levels: <numid>%1</numid>"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:54
 #, kde-format
+msgctxt "@info"
 msgid "Exposure: <numid>%1</numid>"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:56
 #, kde-format
+msgctxt "@info"
 msgid "Saturation: <numid>%1</numid>"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/enfusesettings.cpp:58
 #, kde-format
+msgctxt "@info"
 msgid "Contrast: <numid>%1</numid>"
 msgstr ""
 
@@ -13526,38 +13539,38 @@ msgid "Clear all"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:136
-#: core/dplugins/generic/tools/expoblending/expoblendingplugin.cpp:59
 #, kde-format
+msgctxt "@title"
 msgid "Exposure Blending"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:144
 #, kde-format
-msgctxt "@action:button"
+msgctxt "@action: button"
 msgid "&Save"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:146
 #, kde-format
-msgctxt "@info:tooltip"
+msgctxt "@info: tooltip"
 msgid "Process and save selected items."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:150
 #, kde-format
-msgctxt "@action:button"
+msgctxt "@action: button"
 msgid "&Preview"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:152
 #, kde-format
-msgctxt "@info:tooltip"
+msgctxt "@info: tooltip"
 msgid "Process a preview of bracketed images stack with current settings."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:156
 #, kde-format
-msgctxt "@action:button"
+msgctxt "@action: button"
 msgid "&Default"
 msgstr ""
 
@@ -13568,102 +13581,74 @@ msgid "Revert current settings to default values."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:164
-#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:112
 #, kde-format
-msgctxt "@action:button"
+msgctxt "@action: button"
 msgid "Details..."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:182
 #, kde-format
+msgctxt "@title"
 msgid "Enfuse Settings"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:194
 #, kde-format
+msgctxt "@title"
 msgid "Save Result"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:204
 #, kde-format
-msgctxt "@label:textbox"
+msgctxt "@label: textbox"
 msgid "File Name Template: "
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:325
 #, kde-format
-msgctxt "@title:window"
+msgctxt "@title: window"
 msgid "Enfuse Processing Messages"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:520
 #, kde-format
+msgctxt "@info"
 msgid "Failed to save image to %1."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:563
 #, kde-format
+msgctxt "@info"
 msgid "Processing preview of bracketed images..."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:570
 #, kde-format
+msgctxt "@info"
 msgid "Processing output of bracketed images..."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:597
 #, kde-format
+msgctxt "@info"
 msgid "Failed to load processed image."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:607
 #, kde-format
+msgctxt "@info"
 msgid "Failed to process preview of bracketed images."
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:618
 #, kde-format
+msgctxt "@info"
 msgid "Failed to process output of bracketed images."
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:680
-#: core/libs/dplugins/webservices/wstooldialog.cpp:111
-#: core/libs/onlineversion/onlineversiondlg.cpp:355
-#: core/libs/onlineversion/onlineversiondlg.cpp:538
+#: core/dplugins/generic/tools/expoblending/expoblendingplugin.cpp:59
 #, kde-format
-msgid "Close"
-msgstr ""
-
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:682
-#: core/libs/dplugins/webservices/wstooldialog.cpp:113
-#, kde-format
-msgid "Close window"
-msgstr ""
-
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:687
-#: core/dplugins/generic/webservices/box/boxwindow.cpp:265
-#: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:863
-#: core/dplugins/generic/webservices/google/gswindow.cpp:519
-#: core/dplugins/generic/webservices/google/gswindow.cpp:544
-#: core/dplugins/generic/webservices/google/gswindow.cpp:952
-#: core/dplugins/generic/webservices/google/gswindow.cpp:973
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1022
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1263
-#: core/dplugins/generic/webservices/onedrive/odwindow.cpp:265
-#: core/dplugins/generic/webservices/pinterest/pwindow.cpp:265
-#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:684
-#: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
-#: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
-#: core/libs/dplugins/webservices/wstooldialog.cpp:118
-#: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
-#: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:689
-#: core/libs/dplugins/webservices/wstooldialog.cpp:120
-#, kde-format
-msgid "Cancel current operation"
+msgid "Exposure Blending"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/expoblendingplugin.cpp:74
@@ -13718,8 +13703,9 @@ msgctxt "@title:window"
 msgid "Welcome to Stacked Images Tool"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingintropage.cpp:72
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingintropage.cpp:73
 #, kde-format
+msgctxt "@info"
 msgid ""
 "<qt><p><h1><b>Welcome to Stacked Images Tool</b></h1></p><p>This tool fuses "
 "bracketed images with different exposure to make pseudo <a href='https://en."
@@ -13733,20 +13719,21 @@ msgid ""
 "wikipedia.org/wiki/Bracketing'>this page</a></p></qt>"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingintropage.cpp:89
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingintropage.cpp:90
 #, kde-format
-msgctxt "@title:group"
+msgctxt "@title: group"
 msgid "Exposure Blending Binaries"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/wizard/expoblendingitemspage.cpp:64
 #, kde-format
-msgctxt "@title:window"
+msgctxt "@title: window"
 msgid "<b>Set Bracketed Images</b>"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingitemspage.cpp:72
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingitemspage.cpp:73
 #, kde-format
+msgctxt "@info"
 msgid ""
 "<qt><p>Set here the list of your bracketed images to fuse. Please follow "
 "these conditions:</p><ul><li>At least 2 images from the same subject must be "
@@ -13754,20 +13741,21 @@ msgid ""
 "li><li>All images must have the same dimensions.</li></ul></qt>"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingitemspage.cpp:81
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingitemspage.cpp:82
 #, kde-format
-msgctxt "@title:column"
+msgctxt "@title: column"
 msgid "Exposure (EV)"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/wizard/expoblendinglastpage.cpp:59
 #, kde-format
-msgctxt "@title:window"
+msgctxt "@title: window"
 msgid "Pre-Processing is Complete"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendinglastpage.cpp:67
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendinglastpage.cpp:68
 #, kde-format
+msgctxt "@info"
 msgid ""
 "<qt><p><h1><b>Bracketed Images Pre-Processing is Done</b></h1></"
 "p><p>Congratulations. Your images are ready to be fused. </p><p>To perform "
@@ -13778,18 +13766,19 @@ msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:89
 #, kde-format
-msgctxt "@title:window"
+msgctxt "@title: window"
 msgid "<b>Pre-Processing Bracketed Images</b>"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:102
 #, kde-format
-msgctxt "@option:check"
+msgctxt "@option: check"
 msgid "Align bracketed images"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:143
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:144
 #, kde-format
+msgctxt "@info"
 msgid ""
 "<qt><p>Now, we will pre-process bracketed images before fusing them.</"
 "p><p>To perform auto-alignment, the <b>%1</b> program from the <a href='%2'>"
@@ -13800,15 +13789,17 @@ msgid ""
 "\" to start pre-processing.</p></qt>"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:162
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:164
 #, kde-format
+msgctxt "@info"
 msgid ""
 "<qt><p>Pre-processing is under progress, please wait.</p><p>This can take a "
 "while...</p></qt>"
 msgstr ""
 
-#: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:219
+#: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:222
 #, kde-format
+msgctxt "@info"
 msgid ""
 "<qt><p>Pre-processing has failed.</p><p>Please check your bracketed images "
 "stack...</p><p>See processing messages below.</p></qt>"
@@ -13816,7 +13807,7 @@ msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/wizard/expoblendingwizard.cpp:70
 #, kde-format
-msgctxt "@title:window"
+msgctxt "@title: window"
 msgid "Stacked Images Tool"
 msgstr ""
 
@@ -13848,199 +13839,235 @@ msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:111
 #, kde-format
+msgctxt "@info"
 msgid "Could not find theme in '%1'"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:123
-#: core/dplugins/generic/tools/jalbum/generator/jalbumgenerator.cpp:90
 #, kde-format
+msgctxt "@info"
 msgid "Create directories"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:127
-#: core/dplugins/generic/tools/jalbum/generator/jalbumgenerator.cpp:94
 #, kde-format
+msgctxt "@info"
 msgid "Could not create folder '%1'"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:136
 #, kde-format
+msgctxt "@info"
 msgid "Copying theme"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:151
 #, kde-format
+msgctxt "@info"
 msgid "Could not copy theme"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:160
 #, kde-format
+msgctxt "@info"
 msgid "Generate images and XML files"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:173
 #, kde-format
+msgctxt "@info"
 msgid "Could not create gallery.xml"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:285
 #, kde-format
+msgctxt "@info"
 msgid "Generating files for \"%1\""
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:320
 #, kde-format
+msgctxt "@info"
 msgid "Generating HTML files"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:328
 #, kde-format
+msgctxt "@info"
 msgid "Could not load XSL file '%1'"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:337
 #, kde-format
+msgctxt "@info"
 msgid "Could not load XML file '%1'"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:373
 #, kde-format
+msgctxt "@info"
 msgid "Error processing XML file"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:382
 #, kde-format
+msgctxt "@info"
 msgid "Could not open '%1' for writing"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:409
 #, kde-format
+msgctxt "@info"
 msgid "Downloading remote files for \"%1\""
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:426
 #, kde-format
+msgctxt "@info"
 msgid "Could not open temporary file"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:441
 #, kde-format
+msgctxt "@info"
 msgid "Could not download %1"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:460
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Previous"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:461
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Next"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:462
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Album List"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:463
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Original Image"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:464
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Go Up"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:466
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Make"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:467
 #, kde-format
-msgctxt "Camera Model"
+msgctxt "@info: Camera Model"
 msgid "Model"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:468
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Image Orientation"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:469
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Image X Resolution"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:470
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Image Y Resolution"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:471
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Image Resolution Unit"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:472
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Image Date Time"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:473
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "YCBCR Positioning"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:474
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Exposure Time"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:475
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "F Number"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:476
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Exposure Index"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:477
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "ISO Speed Ratings"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:478
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Shutter Speed Value"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:479
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Aperture Value"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:480
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "Focal Length"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:481
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "GPS Altitude"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:482
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "GPS Latitude"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:483
 #, kde-format
+msgctxt "@info: xslt param"
 msgid "GPS Longitude"
 msgstr ""
 
@@ -14200,41 +14227,43 @@ msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:80
 #, kde-format
+msgctxt "@label"
 msgid "Gallery Title:"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:89
-#: core/dplugins/generic/tools/printcreator/wizard/advprintoutputpage.cpp:111
-#: core/dplugins/generic/tools/videoslideshow/wizard/vidslideoutputpage.cpp:123
 #, kde-format
+msgctxt "@label"
 msgid "Destination Folder:"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:92
-#: core/dplugins/generic/tools/printcreator/wizard/advprintoutputpage.cpp:116
-#: core/dplugins/generic/tools/videoslideshow/wizard/vidslideoutputpage.cpp:128
-#: core/libs/dplugins/iface/dmetainfoiface.cpp:235
 #, kde-format
+msgctxt "@title"
 msgid "Destination Folder"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:101
 #, kde-format
+msgctxt "@label"
 msgid "Open in Browser:"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:103
 #, kde-format
+msgctxt "@item: open in browser"
 msgid "None"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:104
 #, kde-format
+msgctxt "@item: open in browser"
 msgid "Internal"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:105
 #, kde-format
+msgctxt "@item: open in browser"
 msgid "Default from Desktop"
 msgstr ""
 
@@ -14301,6 +14330,16 @@ msgstr ""
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmlwizard.cpp:104
 #, kde-format
 msgid "Generating Gallery"
+msgstr ""
+
+#: core/dplugins/generic/tools/jalbum/generator/jalbumgenerator.cpp:90
+#, kde-format
+msgid "Create directories"
+msgstr ""
+
+#: core/dplugins/generic/tools/jalbum/generator/jalbumgenerator.cpp:94
+#, kde-format
+msgid "Could not create folder '%1'"
 msgstr ""
 
 #: core/dplugins/generic/tools/jalbum/generator/jalbumgenerator.cpp:134
@@ -14426,102 +14465,113 @@ msgstr ""
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:157
 #, kde-format
+msgctxt "@option"
 msgid "Start Server at Startup"
 msgstr ""
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:158
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Set this option to turn-on the DLNA server at application start-up "
 "automatically"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:174
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:175
 #, kde-format
+msgctxt "@info"
 msgid ""
-"The media server permit to share items through the local network using <a "
-"href='https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance'>DLNA</"
-"a> standard and <a href='https://en.wikipedia.org/wiki/"
-"Universal_Plug_and_Play'>UPNP</a> protocol. Many kind of electronic devices "
-"can support DLNA, as tablets, cellulars, TV, etc.<br/>Note: depending of the "
-"network features and the configuration, the delay to discover the server on "
-"client devices can take a while."
+"The media server permit to share items through the local network using %1 "
+"standard and %2 protocol. Many kind of electronic devices can support DLNA, "
+"as tablets, cellulars, TV, etc.\n"
+"\n"
+"Note: depending of the network features and the configuration, the delay to "
+"discover the server on client devices can take a while."
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:231
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:306
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:319
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:233
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:308
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:321
 #, kde-format
+msgctxt "@title"
 msgid "Media Server Contents"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:232
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:234
 #, kde-format
+msgctxt "@info"
 msgid ""
 "The items list to share has changed. Do you want to start now the media "
 "server with this contents?"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:269
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:271
 #, kde-format
+msgctxt "@label"
 msgid "Server is running"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:270
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:272
 #, kde-format
+msgctxt "@info"
 msgid "1 album shared"
 msgid_plural "%1 albums shared"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:272
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:274
 #, kde-format
+msgctxt "@info"
 msgid "1 item shared"
 msgid_plural "%1 items shared"
 msgstr[0] ""
 msgstr[1] ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_stopButton)
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:273
-#: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:36
-#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:39
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:292
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:275
 #, kde-format
+msgctxt "@action: button"
 msgid "Stop"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:280
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:282
 #, kde-format
+msgctxt "@label"
 msgid "Server is not running"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:284
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:286
 #, kde-format
+msgctxt "@action: button"
 msgid "Start"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:307
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:309
 #, kde-format
+msgctxt "@info"
 msgid "There is no collection to share with the current selection..."
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:320
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:322
 #, kde-format
+msgctxt "@info"
 msgid "There is no item to share with the current selection..."
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:325
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:327
 #, kde-format
+msgctxt "@info"
 msgid "Shared Items"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:345
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:347
 #, kde-format
+msgctxt "@title"
 msgid "Starting Media Server"
 msgstr ""
 
-#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:346
+#: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:348
 #, kde-format
+msgctxt "@info"
 msgid "An error occurs while to start Media Server..."
 msgstr ""
 
@@ -14971,6 +15021,12 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "<b>Preview and Post-Processing</b>"
+msgstr ""
+
+#: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:112
+#, kde-format
+msgctxt "@action:button"
+msgid "Details..."
 msgstr ""
 
 #: core/dplugins/generic/tools/panorama/wizard/panopreviewpage.cpp:150
@@ -15651,6 +15707,19 @@ msgstr ""
 #: core/dplugins/generic/tools/printcreator/wizard/advprintoutputpage.cpp:94
 #, kde-format
 msgid "Select your preferred format to export printing as image."
+msgstr ""
+
+#: core/dplugins/generic/tools/printcreator/wizard/advprintoutputpage.cpp:111
+#: core/dplugins/generic/tools/videoslideshow/wizard/vidslideoutputpage.cpp:123
+#, kde-format
+msgid "Destination Folder:"
+msgstr ""
+
+#: core/dplugins/generic/tools/printcreator/wizard/advprintoutputpage.cpp:116
+#: core/dplugins/generic/tools/videoslideshow/wizard/vidslideoutputpage.cpp:128
+#: core/libs/dplugins/iface/dmetainfoiface.cpp:235
+#, kde-format
+msgid "Destination Folder"
 msgstr ""
 
 #: core/dplugins/generic/tools/printcreator/wizard/advprintoutputpage.cpp:117
@@ -16777,6 +16846,14 @@ msgstr ""
 msgid "Play"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, m_stopButton)
+#: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:36
+#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:39
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:292
+#, kde-format
+msgid "Stop"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, m_prevButton)
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:43
 #: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:46
@@ -17759,6 +17836,25 @@ msgstr ""
 #: core/libs/dialogs/dmessagebox.cpp:164
 #, kde-format
 msgid "Continue"
+msgstr ""
+
+#: core/dplugins/generic/webservices/box/boxwindow.cpp:265
+#: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:863
+#: core/dplugins/generic/webservices/google/gswindow.cpp:519
+#: core/dplugins/generic/webservices/google/gswindow.cpp:544
+#: core/dplugins/generic/webservices/google/gswindow.cpp:952
+#: core/dplugins/generic/webservices/google/gswindow.cpp:973
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1022
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1263
+#: core/dplugins/generic/webservices/onedrive/odwindow.cpp:265
+#: core/dplugins/generic/webservices/pinterest/pwindow.cpp:265
+#: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:684
+#: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:269
+#: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
+#: core/libs/dplugins/webservices/wstooldialog.cpp:118
+#: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
+#, kde-format
+msgid "Cancel"
 msgstr ""
 
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:293
@@ -28416,6 +28512,23 @@ msgstr ""
 #, kde-format
 msgctxt "@action: button"
 msgid "&Start"
+msgstr ""
+
+#: core/libs/dplugins/webservices/wstooldialog.cpp:111
+#: core/libs/onlineversion/onlineversiondlg.cpp:355
+#: core/libs/onlineversion/onlineversiondlg.cpp:538
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: core/libs/dplugins/webservices/wstooldialog.cpp:113
+#, kde-format
+msgid "Close window"
+msgstr ""
+
+#: core/libs/dplugins/webservices/wstooldialog.cpp:120
+#, kde-format
+msgid "Cancel current operation"
 msgstr ""
 
 #: core/libs/dplugins/widgets/ditemslist.cpp:296
@@ -41018,15 +41131,25 @@ msgstr ""
 
 #: core/utilities/fuzzysearch/findduplicatesalbum.cpp:78
 #, kde-format
-msgid "Items"
+msgid "Ref. dates"
 msgstr ""
 
 #: core/utilities/fuzzysearch/findduplicatesalbum.cpp:79
 #, kde-format
+msgid "Ref. albums"
+msgstr ""
+
+#: core/utilities/fuzzysearch/findduplicatesalbum.cpp:80
+#, kde-format
+msgid "Items"
+msgstr ""
+
+#: core/utilities/fuzzysearch/findduplicatesalbum.cpp:81
+#, kde-format
 msgid "Avg. similarity"
 msgstr ""
 
-#: core/utilities/fuzzysearch/findduplicatesalbum.cpp:83
+#: core/utilities/fuzzysearch/findduplicatesalbum.cpp:87
 #, kde-format
 msgid "This shows all found duplicate items."
 msgstr ""
@@ -41181,7 +41304,7 @@ msgctxt "Sketch Search Tab"
 msgid "Sketch"
 msgstr ""
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:299
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:289
 #, kde-format
 msgid ""
 "Image fingerprints have not yet been generated for your collection. The "
