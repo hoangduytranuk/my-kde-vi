@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:09+0200\n"
+"POT-Creation-Date: 2021-01-09 02:29+0100\n"
 "PO-Revision-Date: 2006-06-02 15:26+0930\n"
 "Last-Translator: Trần Thế Trung <tttrung@hotmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -27,8 +27,9 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tttrung@hotmail.com"
 
-#: calculator.cpp:43 maindlg.cpp:297
+#: calculator.cpp:43
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Calculator"
 msgstr "&Tính"
 
@@ -138,8 +139,14 @@ msgstr "&Độ"
 msgid "Coordinates"
 msgstr "Hệ Toạ độ I"
 
-#: coordsconfigdialog.cpp:52 coordsconfigdialog.cpp:53
+#: coordsconfigdialog.cpp:52
 #, fuzzy, kde-format
+msgid "Coordinate System"
+msgstr "Hệ Toạ độ I"
+
+#: coordsconfigdialog.cpp:53
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Coordinate System"
 msgstr "Hệ Toạ độ I"
 
@@ -241,6 +248,7 @@ msgstr ""
 
 #: equationeditor.cpp:40
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Equation Editor"
 msgstr "Phương trình:"
 
@@ -876,12 +884,16 @@ msgid "Search between:"
 msgstr "Tìm giữa giá trị-x:"
 
 #: functiontools.cpp:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Find Minimum Point"
+msgctxt "@title:window"
 msgid "Find Minimum Point"
 msgstr "Tìm Điểm Cực tiểu"
 
 #: functiontools.cpp:81
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Find Maximum Point"
+msgctxt "@title:window"
 msgid "Find Maximum Point"
 msgstr "Tìm Điểm Cực đại"
 
@@ -892,6 +904,7 @@ msgstr "Tính tích phân giữa giá trị-x:"
 
 #: functiontools.cpp:88
 #, kde-format
+msgctxt "@title:window"
 msgid "Area Under Graph"
 msgstr ""
 
@@ -942,6 +955,7 @@ msgstr ""
 
 #: kconstanteditor.cpp:67
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Constants Editor"
 msgstr "Soạn Hằng số"
 
@@ -969,6 +983,7 @@ msgstr ""
 
 #: kgradientdialog.cpp:410
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Choose a Gradient"
 msgstr "Chọn Tham số"
 
@@ -1513,9 +1528,10 @@ msgstr "tự động"
 msgid "The function %1 could not be loaded"
 msgstr "Hàm %1 không thể tải lên được"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
-#: kparametereditor.cpp:54 qparametereditor.ui:13
-#, kde-format
+#: kparametereditor.cpp:54
+#, fuzzy, kde-format
+#| msgid "Parameter Editor"
+msgctxt "@title:window"
 msgid "Parameter Editor"
 msgstr "Soạn Tham số"
 
@@ -1589,7 +1605,9 @@ msgid "An error appeared when saving this file"
 msgstr "Có lỗi khi lưu tệp"
 
 #: kprinterdlg.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KmPlot Options"
+msgctxt "@title:window"
 msgid "KmPlot Options"
 msgstr "Tuỳ chọn KmPlot"
 
@@ -1659,6 +1677,7 @@ msgstr ""
 
 #: ksliderwindow.cpp:96
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Sliders"
 msgstr "Con trượt"
 
@@ -1831,6 +1850,11 @@ msgstr ""
 msgid "Show Sliders"
 msgstr "Hiển thị Con &trượt"
 
+#: maindlg.cpp:297
+#, fuzzy, kde-format
+msgid "Calculator"
+msgstr "&Tính"
+
 #: maindlg.cpp:302
 #, fuzzy, kde-format
 msgid "Plot &Area..."
@@ -1847,7 +1871,9 @@ msgid "Find Mi&nimum..."
 msgstr "Tìm Điểm Cực tiểu"
 
 #: maindlg.cpp:319
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Predefined &Math Functions"
+msgctxt "@action:inmenu Help"
 msgid "Predefined &Math Functions"
 msgstr "&Hàm Toán học Định sẵn"
 
@@ -1957,17 +1983,26 @@ msgid "Sorry, something went wrong while saving to image \"%1\""
 msgstr ""
 
 #: maindlg.cpp:702
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Print Plot"
+msgctxt "@title:window"
 msgid "Print Plot"
 msgstr "In Đồ thị"
 
-#: maindlg.cpp:719 maindlg.cpp:724
+#: maindlg.cpp:719
 #, fuzzy, kde-format
+msgid "Print Settings"
+msgstr "Cài đặt Chung"
+
+#: maindlg.cpp:724
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Print Settings"
 msgstr "Cài đặt Chung"
 
 #: parameteranimator.cpp:64
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Parameter Animator"
 msgstr "Soạn Tham số"
 
@@ -2242,9 +2277,10 @@ msgid "Color:"
 msgstr "Màu:"
 
 #: plotstylewidget.cpp:71
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Plot Appearance"
-msgstr ""
+msgstr "Dải vẽ định sẵn"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PlotStyleWidget)
 #: plotstylewidget.ui:14
@@ -2298,6 +2334,12 @@ msgstr "Bề dày đường vẽ:"
 #, fuzzy, kde-format
 msgid " mm"
 msgstr "0,1mm"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
+#: qparametereditor.ui:13
+#, kde-format
+msgid "Parameter Editor"
+msgstr "Soạn Tham số"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, cmdDelete)
 #: qparametereditor.ui:55
@@ -2370,8 +2412,9 @@ msgstr "&Toạ độ"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settingspagecolor.ui:35
 #, fuzzy, kde-format
-msgid "Background Color:"
-msgstr "Màu Nền"
+#| msgid "Background color"
+msgid "Background color:"
+msgstr "Màu nền"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_backgroundcolor)
 #: settingspagecolor.ui:45
@@ -2403,8 +2446,9 @@ msgstr "&Lưới:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_AxesColor)
 #: settingspagecolor.ui:84
-#, kde-format
-msgid "select color for the axes"
+#, fuzzy, kde-format
+#| msgid "select color for the axes"
+msgid "Select color for the axes."
 msgstr "chọn màu cho trục"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_AxesColor)
@@ -2417,8 +2461,9 @@ msgstr "Chọn màu cho trục. Các thay đổi sẽ hiện ra ngay khi bạn �
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GridColor)
 #: settingspagecolor.ui:97
-#, kde-format
-msgid "select color for the grid"
+#, fuzzy, kde-format
+#| msgid "select color for the grid"
+msgid "Select color for the grid."
 msgstr "chọn màu cho lưới"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GridColor)
@@ -2437,8 +2482,9 @@ msgstr "&Màu Hàm Mặc định"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color1)
 #: settingspagecolor.ui:133
-#, kde-format
-msgid "the default color for function number 2"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 2"
+msgid "The default color for function number 2."
 msgstr "màu mặc định cho hàm số 2"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color1)
@@ -2457,8 +2503,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color4)
 #: settingspagecolor.ui:146
-#, kde-format
-msgid "the default color for function number 5"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 5"
+msgid "The default color for function number 5."
 msgstr "màu mặc định cho hàm số 5"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color4)
@@ -2477,8 +2524,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color0)
 #: settingspagecolor.ui:159
-#, kde-format
-msgid "the default color for function number 1"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 1"
+msgid "The default color for function number 1."
 msgstr "màu mặc định cho hàm số 1"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color0)
@@ -2503,8 +2551,9 @@ msgstr "Hàm &1:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color2)
 #: settingspagecolor.ui:185
-#, kde-format
-msgid "the default color for function number 3"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 3"
+msgid "The default color for function number 3."
 msgstr "màu mặc định cho hàm số 3"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color2)
@@ -2541,8 +2590,9 @@ msgstr "Hàm &4:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color3)
 #: settingspagecolor.ui:237
-#, kde-format
-msgid "the default color for function number 4"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 4"
+msgid "The default color for function number 4."
 msgstr "màu mặc định cho hàm số 4"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color3)
@@ -2579,8 +2629,9 @@ msgstr "Hàm &8:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color8)
 #: settingspagecolor.ui:315
-#, kde-format
-msgid "the default color for function number 9"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 9"
+msgid "The default color for function number 9."
 msgstr "màu mặc định cho hàm số 9"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color8)
@@ -2605,8 +2656,9 @@ msgstr "Hàm &6:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color6)
 #: settingspagecolor.ui:341
-#, kde-format
-msgid "the default color for function number 7"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 7"
+msgid "The default color for function number 7."
 msgstr "màu mặc định cho hàm số 7"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color6)
@@ -2625,8 +2677,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color7)
 #: settingspagecolor.ui:354
-#, kde-format
-msgid "the default color for function number 8"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 8"
+msgid "The default color for function number 8."
 msgstr "màu mặc định cho hàm số 8"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color7)
@@ -2645,8 +2698,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color5)
 #: settingspagecolor.ui:367
-#, kde-format
-msgid "the default color for function number 6"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 6"
+msgid "The default color for function number 6."
 msgstr "màu mặc định cho hàm số 6"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color5)
@@ -2671,8 +2725,9 @@ msgstr "Hàm &9:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color9)
 #: settingspagecolor.ui:393
-#, kde-format
-msgid "the default color for function number 10"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 10"
+msgid "The default color for function number 10."
 msgstr "màu mặc định cho hàm số 10"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color9)
@@ -2757,9 +2812,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settingspagediagram.ui:84
-#, kde-format
-msgid "Horizontal Axis Label: "
-msgstr ""
+#, fuzzy, kde-format
+msgid "Horizontal axis label:"
+msgstr "Tên phông chữ cho chú thích trên trục"
 
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_LabelHorizontalAxis)
 #: settingspagediagram.ui:94
@@ -2777,7 +2832,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settingspagediagram.ui:104
 #, kde-format
-msgid "Vertical Axis Label:"
+msgid "Vertical axis label:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_LabelVerticalAxis)
@@ -2813,8 +2868,9 @@ msgstr "Chiều dài dấu khắc:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowLabel)
 #: settingspagediagram.ui:252
-#, kde-format
-msgid "visible tic labels"
+#, fuzzy, kde-format
+#| msgid "visible tic labels"
+msgid "Visible tic labels."
 msgstr "hiện ra chú thích tại dấu khắc"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowLabel)
@@ -2831,8 +2887,9 @@ msgstr "Hiển thị chú thích"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAxes)
 #: settingspagediagram.ui:268
-#, kde-format
-msgid "visible axes"
+#, fuzzy, kde-format
+#| msgid "visible axes"
+msgid "Visible axes."
 msgstr "hiện ra trục"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAxes)
@@ -2849,8 +2906,9 @@ msgstr "Hiển thị trục"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowArrows)
 #: settingspagediagram.ui:284
-#, kde-format
-msgid "visible arrows at the end of the axes"
+#, fuzzy, kde-format
+#| msgid "visible arrows at the end of the axes"
+msgid "Visible arrows at the end of the axes."
 msgstr "hiện ra mũi tên ở cuối các trục"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowArrows)
@@ -2943,14 +3001,14 @@ msgstr "&Không Phóng đại"
 #: settingspagegeneral.ui:73
 #, fuzzy, kde-format
 #| msgid "Zoom in by:"
-msgid "Zoom In by:"
+msgid "Zoom in by:"
 msgstr "Tỉ lệ phóng đại:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #: settingspagegeneral.ui:86
 #, fuzzy, kde-format
 #| msgid "Zoom out by:"
-msgid "Zoom Out by:"
+msgid "Zoom out by:"
 msgstr "Tỉ lệ thu nhỏ:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_zoomOutStep)
@@ -3055,3 +3113,7 @@ msgstr ""
 #, kde-format
 msgid "Error in extension."
 msgstr "Lỗi trong phần mở rộng."
+
+#, fuzzy
+#~ msgid "Background Color:"
+#~ msgstr "Màu Nền"

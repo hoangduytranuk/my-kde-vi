@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yakuake\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-02 02:35+0100\n"
+"POT-Creation-Date: 2021-03-09 03:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,25 +18,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: app/config/appearancesettings.cpp:175
+#: app/config/appearancesettings.cpp:159
 #, kde-kuit-format
 msgctxt "@item:inlistbox Unknown skin author"
 msgid "Unknown"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:221
+#: app/config/appearancesettings.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Select the skin archive to install"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:267
+#: app/config/appearancesettings.cpp:250
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Unable to list the skin archive contents."
 msgstr ""
 
-#: app/config/appearancesettings.cpp:303
+#: app/config/appearancesettings.cpp:282
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -44,31 +44,31 @@ msgid ""
 "permissions to overwrite it."
 msgstr ""
 
-#: app/config/appearancesettings.cpp:310
+#: app/config/appearancesettings.cpp:287
 #, kde-kuit-format
 msgctxt "@info"
 msgid "This skin appears to be already installed. Do you want to overwrite it?"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:311
+#: app/config/appearancesettings.cpp:288
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Skin Already Exists"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:312
+#: app/config/appearancesettings.cpp:289
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Reinstall Skin"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:329
+#: app/config/appearancesettings.cpp:307
 #, kde-kuit-format
 msgctxt "@title:Window"
 msgid "Could Not Delete Skin"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:358
+#: app/config/appearancesettings.cpp:332
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -76,31 +76,31 @@ msgid ""
 "appears to be invalid."
 msgstr ""
 
-#: app/config/appearancesettings.cpp:362
+#: app/config/appearancesettings.cpp:335
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The skin archive file could not be opened."
 msgstr ""
 
-#: app/config/appearancesettings.cpp:367
+#: app/config/appearancesettings.cpp:340
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Cannot Install Skin"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:430
+#: app/config/appearancesettings.cpp:384
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you want to remove \"%1\" by %2?"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:431
+#: app/config/appearancesettings.cpp:385
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Remove Skin"
 msgstr ""
 
-#: app/config/appearancesettings.cpp:535
+#: app/config/appearancesettings.cpp:499
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -136,22 +136,28 @@ msgctxt "@option:check"
 msgid "Highlight terminals when moving focus between them"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideSkinBorders)
+#: app/config/appearancesettings.ui:45
+#, kde-format
+msgid "Hide borders"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: app/config/appearancesettings.ui:48
+#: app/config/appearancesettings.ui:55
 #, kde-format
 msgctxt "@title:group"
 msgid "Window Background"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
-#: app/config/appearancesettings.ui:56
+#: app/config/appearancesettings.ui:63
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Background color:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Translucency)
-#: app/config/appearancesettings.ui:85
+#: app/config/appearancesettings.ui:92
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -160,21 +166,21 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Translucency)
-#: app/config/appearancesettings.ui:88
+#: app/config/appearancesettings.ui:95
 #, kde-format
 msgctxt "@option:check"
 msgid "Use skin translucency if supported"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, backgroundColorOpacityLabel)
-#: app/config/appearancesettings.ui:119
+#: app/config/appearancesettings.ui:126
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Background color opacity:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_BackgroundColorOpacity)
-#: app/config/appearancesettings.ui:129
+#: app/config/appearancesettings.ui:136
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -187,36 +193,36 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_BackgroundColorOpacity)
-#: app/config/appearancesettings.ui:132 app/config/windowsettings.ui:115
-#: app/config/windowsettings.ui:169
+#: app/config/appearancesettings.ui:139 app/config/windowsettings.ui:146
+#: app/config/windowsettings.ui:200
 #, no-c-format, kde-format
 msgctxt "@label Spinbox unit suffix"
 msgid "%"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: app/config/appearancesettings.ui:163
+#: app/config/appearancesettings.ui:170
 #, kde-format
 msgctxt "@title:group"
 msgid "Skin"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, ghnsButton)
-#: app/config/appearancesettings.ui:169
+#: app/config/appearancesettings.ui:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Get New Skins..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: app/config/appearancesettings.ui:179
+#: app/config/appearancesettings.ui:186
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove Skin"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: app/config/appearancesettings.ui:189
+#: app/config/appearancesettings.ui:196
 #, kde-format
 msgctxt "@action:button"
 msgid "Install Skin..."
@@ -319,34 +325,45 @@ msgctxt "@option:check"
 msgid "Confirm quit when more than one session is open"
 msgstr ""
 
-#: app/config/skinlistdelegate.cpp:146 app/config/skinlistdelegate.cpp:189
+#: app/config/skinlistdelegate.cpp:125 app/config/skinlistdelegate.cpp:165
 #, kde-kuit-format
 msgctxt "@item:intext"
 msgid "by %1"
 msgstr ""
 
-#: app/config/windowsettings.cpp:34
+#: app/config/windowsettings.cpp:21
 #, kde-kuit-format
 msgctxt "@item:inlistbox"
 msgid "Screen %1"
 msgstr ""
 
+#: app/config/windowsettings.cpp:101 app/mainwindow.cpp:652
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Hiding Title Bar"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_0)
+#: app/config/windowsettings.ui:32
+#, kde-format
+msgid "Title Bar"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTitleBar)
+#: app/config/windowsettings.ui:38
+#, kde-format
+msgid "Show title bar"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
-#: app/config/windowsettings.ui:23
+#: app/config/windowsettings.ui:54
 #, kde-format
 msgctxt "@title:group"
 msgid "Tab Bar"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
-#: app/config/windowsettings.ui:29
-#, kde-format
-msgctxt "@option:check"
-msgid "Show the tab bar"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_DynamicTabTitles)
-#: app/config/windowsettings.ui:61
+#: app/config/windowsettings.ui:69
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -357,56 +374,63 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DynamicTabTitles)
-#: app/config/windowsettings.ui:64
+#: app/config/windowsettings.ui:72
 #, kde-format
 msgctxt "@option:check"
 msgid "Show title bar contents in tab labels"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
+#: app/config/windowsettings.ui:95
+#, kde-format
+msgctxt "@option:check"
+msgid "Show the tab bar"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: app/config/windowsettings.ui:74
+#: app/config/windowsettings.ui:105
 #, kde-format
 msgctxt "@title:group"
 msgid "Size and Animation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
-#: app/config/windowsettings.ui:80
+#: app/config/windowsettings.ui:111
 #, kde-format
 msgctxt "@label:slider"
 msgid "Width:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
-#: app/config/windowsettings.ui:134
+#: app/config/windowsettings.ui:165
 #, kde-format
 msgctxt "@label:slider"
 msgid "Height:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, durationLabel)
-#: app/config/windowsettings.ui:188
+#: app/config/windowsettings.ui:219
 #, kde-format
 msgctxt "@label:slider"
 msgid "Duration:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, framesSpinBox)
-#: app/config/windowsettings.ui:220
+#: app/config/windowsettings.ui:251
 #, kde-format
 msgctxt "@label Spinbox unit suffix"
 msgid "ms"
 msgstr ""
 
 #. i18n: ectx: property (prefix), widget (QSpinBox, framesSpinBox)
-#: app/config/windowsettings.ui:223
+#: app/config/windowsettings.ui:254
 #, kde-format
 msgctxt "@label Spinbox unit prefix"
 msgid "~"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseWMAssist)
-#: app/config/windowsettings.ui:239
+#: app/config/windowsettings.ui:270
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -417,56 +441,56 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseWMAssist)
-#: app/config/windowsettings.ui:242
+#: app/config/windowsettings.ui:273
 #, kde-format
 msgctxt "@option:check"
 msgid "Ask the window manager to perform the animation"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: app/config/windowsettings.ui:252
+#: app/config/windowsettings.ui:283
 #, kde-format
 msgctxt "@title:group"
 msgid "Position"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, leftLabel)
-#: app/config/windowsettings.ui:260
+#: app/config/windowsettings.ui:291
 #, kde-format
 msgctxt "@item:inrange Direction to move the window in"
 msgid "Left"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, rightLabel)
-#: app/config/windowsettings.ui:292
+#: app/config/windowsettings.ui:323
 #, kde-format
 msgctxt "@item:inrange Direction to move the window in"
 msgid "Right"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, screenLabel)
-#: app/config/windowsettings.ui:306
+#: app/config/windowsettings.ui:337
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Open on screen:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Screen)
-#: app/config/windowsettings.ui:317
+#: app/config/windowsettings.ui:348
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "At mouse location"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Screen)
-#: app/config/windowsettings.ui:322
+#: app/config/windowsettings.ui:353
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Screen 1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOnAllDesktops)
-#: app/config/windowsettings.ui:345
+#: app/config/windowsettings.ui:376
 #, kde-format
 msgctxt "@option:check"
 msgid "Show on all desktops"
@@ -606,57 +630,71 @@ msgid ""
 "Whether to keep the application window above other windows on the screen."
 msgstr ""
 
-#. i18n: ectx: label, entry (ShowTabBar), group (Window)
+#. i18n: ectx: label, entry (ShowTitleBar), group (Window)
 #: app/config/yakuake.kcfg:60
+#, kde-format
+msgctxt "@label"
+msgid "Show title bar"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ShowTitleBar), group (Window)
+#: app/config/yakuake.kcfg:61
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to show the title bar in the application window."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowTabBar), group (Window)
+#: app/config/yakuake.kcfg:65
 #, kde-format
 msgctxt "@label"
 msgid "Show tab bar"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowTabBar), group (Window)
-#: app/config/yakuake.kcfg:61
+#: app/config/yakuake.kcfg:66
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show the tab bar in the application window."
 msgstr ""
 
 #. i18n: ectx: label, entry (DynamicTabTitles), group (Window)
-#: app/config/yakuake.kcfg:65
+#: app/config/yakuake.kcfg:70
 #, kde-format
 msgctxt "@label"
 msgid "Dynamic tab titles"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DynamicTabTitles), group (Window)
-#: app/config/yakuake.kcfg:66
+#: app/config/yakuake.kcfg:71
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to update tab titles along with the title bar."
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowSystrayIcon), group (Window)
-#: app/config/yakuake.kcfg:70
+#: app/config/yakuake.kcfg:75
 #, kde-format
 msgctxt "@label"
 msgid "Show a system tray icon"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowSystrayIcon), group (Window)
-#: app/config/yakuake.kcfg:71
+#: app/config/yakuake.kcfg:76
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show a system tray icon."
 msgstr ""
 
 #. i18n: ectx: label, entry (FocusFollowsMouse), group (Behavior)
-#: app/config/yakuake.kcfg:77
+#: app/config/yakuake.kcfg:82
 #, kde-format
 msgctxt "@label"
 msgid "Focus follows mouse"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (FocusFollowsMouse), group (Behavior)
-#: app/config/yakuake.kcfg:78
+#: app/config/yakuake.kcfg:83
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -665,28 +703,28 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (OpenAfterStart), group (Behavior)
-#: app/config/yakuake.kcfg:82
+#: app/config/yakuake.kcfg:87
 #, kde-format
 msgctxt "@label"
 msgid "Open after start"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (OpenAfterStart), group (Behavior)
-#: app/config/yakuake.kcfg:83
+#: app/config/yakuake.kcfg:88
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the application window should be opened after program start."
 msgstr ""
 
 #. i18n: ectx: label, entry (RememberFullscreen), group (Behavior)
-#: app/config/yakuake.kcfg:87
+#: app/config/yakuake.kcfg:92
 #, kde-format
 msgctxt "@label"
 msgid "Remember window fullscreen state"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (RememberFullscreen), group (Behavior)
-#: app/config/yakuake.kcfg:88
+#: app/config/yakuake.kcfg:93
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -695,98 +733,98 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (Blur), group (Appearance)
-#: app/config/yakuake.kcfg:94
+#: app/config/yakuake.kcfg:99
 #, kde-format
 msgctxt "@label"
 msgid "Blur"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (Blur), group (Appearance)
-#: app/config/yakuake.kcfg:95
+#: app/config/yakuake.kcfg:100
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The KWin compositor's blur effects."
 msgstr ""
 
 #. i18n: ectx: label, entry (Skin), group (Appearance)
-#: app/config/yakuake.kcfg:99
+#: app/config/yakuake.kcfg:104
 #, kde-format
 msgctxt "@label"
 msgid "Skin"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (Skin), group (Appearance)
-#: app/config/yakuake.kcfg:100
+#: app/config/yakuake.kcfg:105
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The skin to be used by the application window."
 msgstr ""
 
 #. i18n: ectx: label, entry (SkinInstalledWithKns), group (Appearance)
-#: app/config/yakuake.kcfg:104
+#: app/config/yakuake.kcfg:109
 #, kde-format
 msgctxt "@label"
 msgid "Skin installed by KNS"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SkinInstalledWithKns), group (Appearance)
-#: app/config/yakuake.kcfg:105
+#: app/config/yakuake.kcfg:110
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the currently active skin was installed via KNS."
 msgstr ""
 
 #. i18n: ectx: label, entry (Translucency), group (Appearance)
-#: app/config/yakuake.kcfg:109
+#: app/config/yakuake.kcfg:114
 #, kde-format
 msgctxt "@label"
 msgid "Use translucent background"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (Translucency), group (Appearance)
-#: app/config/yakuake.kcfg:110
+#: app/config/yakuake.kcfg:115
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to make use of XComposite ARGB translucency."
 msgstr ""
 
 #. i18n: ectx: label, entry (BackgroundColor), group (Appearance)
-#: app/config/yakuake.kcfg:114
+#: app/config/yakuake.kcfg:119
 #, kde-format
 msgctxt "@label"
 msgid "Window background color"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (BackgroundColor), group (Appearance)
-#: app/config/yakuake.kcfg:115
+#: app/config/yakuake.kcfg:120
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Background color painted below skin elements."
 msgstr ""
 
 #. i18n: ectx: label, entry (BackgroundColorOpacity), group (Appearance)
-#: app/config/yakuake.kcfg:119
+#: app/config/yakuake.kcfg:124
 #, kde-format
 msgctxt "@label"
 msgid "Background color opacity"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (BackgroundColorOpacity), group (Appearance)
-#: app/config/yakuake.kcfg:120
+#: app/config/yakuake.kcfg:125
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The opacity of the background color fill when using translucency."
 msgstr ""
 
 #. i18n: ectx: label, entry (TerminalHighlightOnManualActivation), group (Appearance)
-#: app/config/yakuake.kcfg:126
+#: app/config/yakuake.kcfg:131
 #, kde-format
 msgctxt "@label"
 msgid "Highlight newly focused terminals"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (TerminalHighlightOnManualActivation), group (Appearance)
-#: app/config/yakuake.kcfg:127
+#: app/config/yakuake.kcfg:132
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -796,85 +834,102 @@ msgid ""
 "multiple terminals."
 msgstr ""
 
+#. i18n: ectx: label, entry (HideSkinBorders), group (Appearance)
+#: app/config/yakuake.kcfg:136
+#, kde-format
+msgctxt "@label"
+msgid "Hide the borders defined by the skin"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (HideSkinBorders), group (Appearance)
+#: app/config/yakuake.kcfg:137
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Skins can define borders around the terminal including the tabbar. This "
+"option, when turned on, will overwrite the border settings defined by the "
+"skin and hide all borders."
+msgstr ""
+
 #. i18n: ectx: label, entry (TerminalHighlightOpacity), group (Appearance)
-#: app/config/yakuake.kcfg:131
+#: app/config/yakuake.kcfg:141
 #, kde-format
 msgctxt "@label"
 msgid "Terminal highlight opacity"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (TerminalHighlightOpacity), group (Appearance)
-#: app/config/yakuake.kcfg:132
+#: app/config/yakuake.kcfg:142
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The opacity of the colored overlay used to highlight a terminal."
 msgstr ""
 
 #. i18n: ectx: label, entry (TerminalHighlightDuration), group (Appearance)
-#: app/config/yakuake.kcfg:138
+#: app/config/yakuake.kcfg:148
 #, kde-format
 msgctxt "@label"
 msgid "Terminal highlight duration"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (TerminalHighlightDuration), group (Appearance)
-#: app/config/yakuake.kcfg:139
+#: app/config/yakuake.kcfg:149
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The duration of the terminal highlight overlay."
 msgstr ""
 
 #. i18n: ectx: label, entry (KeyboardInputBlockIndicatorColor), group (Appearance)
-#: app/config/yakuake.kcfg:145
+#: app/config/yakuake.kcfg:155
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator color"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorColor), group (Appearance)
-#: app/config/yakuake.kcfg:146
+#: app/config/yakuake.kcfg:156
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The color of the keyboard input block indicator overlay."
 msgstr ""
 
 #. i18n: ectx: label, entry (KeyboardInputBlockIndicatorOpacity), group (Appearance)
-#: app/config/yakuake.kcfg:150
+#: app/config/yakuake.kcfg:160
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator opacity"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorOpacity), group (Appearance)
-#: app/config/yakuake.kcfg:151
+#: app/config/yakuake.kcfg:161
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The opacity of the keyboard input block indicator overlay."
 msgstr ""
 
 #. i18n: ectx: label, entry (KeyboardInputBlockIndicatorDuration), group (Appearance)
-#: app/config/yakuake.kcfg:157
+#: app/config/yakuake.kcfg:167
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator duration"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorDuration), group (Appearance)
-#: app/config/yakuake.kcfg:158
+#: app/config/yakuake.kcfg:168
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The duration of the keyboard input block indicator overlay."
 msgstr ""
 
 #. i18n: ectx: label, entry (UseWMAssist), group (Animation)
-#: app/config/yakuake.kcfg:166
+#: app/config/yakuake.kcfg:176
 #, kde-format
 msgctxt "@label"
 msgid "Attempt to use the window manager to animate the window"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (UseWMAssist), group (Animation)
-#: app/config/yakuake.kcfg:167
+#: app/config/yakuake.kcfg:177
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -885,14 +940,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (Frames), group (Animation)
-#: app/config/yakuake.kcfg:171
+#: app/config/yakuake.kcfg:181
 #, kde-format
 msgctxt "@label"
 msgid "Animation frames"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (Frames), group (Animation)
-#: app/config/yakuake.kcfg:172
+#: app/config/yakuake.kcfg:182
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -901,14 +956,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (PollMouse), group (AutoOpen)
-#: app/config/yakuake.kcfg:180
+#: app/config/yakuake.kcfg:190
 #, kde-format
 msgctxt "@label"
 msgid "Auto-open window"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (PollMouse), group (AutoOpen)
-#: app/config/yakuake.kcfg:181
+#: app/config/yakuake.kcfg:191
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -917,14 +972,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (PollInterval), group (AutoOpen)
-#: app/config/yakuake.kcfg:185
+#: app/config/yakuake.kcfg:195
 #, kde-format
 msgctxt "@label"
 msgid "Mouse pointer poll interval"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (PollInterval), group (AutoOpen)
-#: app/config/yakuake.kcfg:186
+#: app/config/yakuake.kcfg:196
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -933,28 +988,28 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (FirstRun), group (Dialogs)
-#: app/config/yakuake.kcfg:192
+#: app/config/yakuake.kcfg:202
 #, kde-format
 msgctxt "@label"
 msgid "Application first run"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (FirstRun), group (Dialogs)
-#: app/config/yakuake.kcfg:193
+#: app/config/yakuake.kcfg:203
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether this is the first time the application is run."
 msgstr ""
 
 #. i18n: ectx: label, entry (ConfirmQuit), group (Dialogs)
-#: app/config/yakuake.kcfg:197
+#: app/config/yakuake.kcfg:207
 #, kde-format
 msgctxt "@label"
 msgid "Confirm quit with multiple sessions"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ConfirmQuit), group (Dialogs)
-#: app/config/yakuake.kcfg:198
+#: app/config/yakuake.kcfg:208
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -962,7 +1017,7 @@ msgid ""
 "sessions are open."
 msgstr ""
 
-#: app/firstrundialog.cpp:36
+#: app/firstrundialog.cpp:22
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "First Run"
@@ -991,115 +1046,115 @@ msgctxt "@info"
 msgid "You can change the shortcut later at any time via the menu."
 msgstr ""
 
-#: app/main.cpp:40
+#: app/main.cpp:26
 #, kde-kuit-format
 msgctxt "@title"
 msgid "<application>Yakuake</application>"
 msgstr ""
 
-#: app/main.cpp:42
+#: app/main.cpp:28
 #, kde-kuit-format
 msgctxt "@title"
 msgid "A drop-down terminal emulator based on KDE Konsole technology."
 msgstr ""
 
-#: app/main.cpp:44
+#: app/main.cpp:30
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "(c) 2008-2018 The Yakuake Team"
 msgstr ""
 
-#: app/main.cpp:51
+#: app/main.cpp:37
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Eike Hein"
 msgstr ""
 
-#: app/main.cpp:52
+#: app/main.cpp:37
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Maintainer, Lead Developer"
 msgstr ""
 
-#: app/main.cpp:53
+#: app/main.cpp:38
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Francois Chazal"
 msgstr ""
 
-#: app/main.cpp:54
+#: app/main.cpp:38
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Project Founder, Legacy skin (Inactive)"
 msgstr ""
 
-#: app/main.cpp:55
+#: app/main.cpp:39
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Daniel 'suslik' D."
 msgstr ""
 
-#: app/main.cpp:56
+#: app/main.cpp:39
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Plastik skin"
 msgstr ""
 
-#: app/main.cpp:57
+#: app/main.cpp:40
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Juan Carlos Torres"
 msgstr ""
 
-#: app/main.cpp:58
+#: app/main.cpp:41
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Tab bar drag and drop support, Prevent Closing toggle"
 msgstr ""
 
-#: app/main.cpp:59
+#: app/main.cpp:43
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Gustavo Ribeiro Croscato"
 msgstr ""
 
-#: app/main.cpp:60
+#: app/main.cpp:44
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Icon on tabs with Prevent Closing enabled"
 msgstr ""
 
-#: app/main.cpp:61
+#: app/main.cpp:46
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Danilo Cesar Lemes de Paula"
 msgstr ""
 
-#: app/main.cpp:62
+#: app/main.cpp:47
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Actions to grow terminals"
 msgstr ""
 
-#: app/main.cpp:64
+#: app/main.cpp:50
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: app/main.cpp:65
+#: app/main.cpp:50
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: app/mainwindow.cpp:217
+#: app/mainwindow.cpp:193
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Are you sure you want to quit?"
 msgstr ""
 
-#: app/mainwindow.cpp:225
+#: app/mainwindow.cpp:200
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1108,7 +1163,7 @@ msgid ""
 "if you continue.</warning>"
 msgstr ""
 
-#: app/mainwindow.cpp:227
+#: app/mainwindow.cpp:203
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1116,7 +1171,7 @@ msgid ""
 "continue.</warning>"
 msgstr ""
 
-#: app/mainwindow.cpp:231
+#: app/mainwindow.cpp:206
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1124,283 +1179,289 @@ msgid ""
 "closing them accidentally. These will be killed if you continue.</warning>"
 msgstr ""
 
-#: app/mainwindow.cpp:236
+#: app/mainwindow.cpp:212
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Really Quit?"
 msgstr ""
 
-#: app/mainwindow.cpp:266
+#: app/mainwindow.cpp:244
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Open/Retract Yakuake"
 msgstr ""
 
-#: app/mainwindow.cpp:280
+#: app/mainwindow.cpp:257
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Keep window open when it loses focus"
 msgstr ""
 
-#: app/mainwindow.cpp:285
+#: app/mainwindow.cpp:262
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Manage Profiles..."
 msgstr ""
 
-#: app/mainwindow.cpp:290
+#: app/mainwindow.cpp:267
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Edit Current Profile..."
 msgstr ""
 
-#: app/mainwindow.cpp:296
+#: app/mainwindow.cpp:273
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Increase Window Width"
 msgstr ""
 
-#: app/mainwindow.cpp:301
+#: app/mainwindow.cpp:278
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Decrease Window Width"
 msgstr ""
 
-#: app/mainwindow.cpp:306
+#: app/mainwindow.cpp:283
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Increase Window Height"
 msgstr ""
 
-#: app/mainwindow.cpp:311
+#: app/mainwindow.cpp:288
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Decrease Window Height"
 msgstr ""
 
-#: app/mainwindow.cpp:316
+#: app/mainwindow.cpp:293
 #, kde-kuit-format
 msgctxt "@action"
 msgid "New Session"
 msgstr ""
 
-#: app/mainwindow.cpp:322
+#: app/mainwindow.cpp:299
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Two Terminals, Horizontally"
 msgstr ""
 
-#: app/mainwindow.cpp:327
+#: app/mainwindow.cpp:304
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Two Terminals, Vertically"
 msgstr ""
 
-#: app/mainwindow.cpp:332
+#: app/mainwindow.cpp:309
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Four Terminals, Grid"
 msgstr ""
 
-#: app/mainwindow.cpp:337
+#: app/mainwindow.cpp:314
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Close Session"
 msgstr ""
 
-#: app/mainwindow.cpp:344
+#: app/mainwindow.cpp:321
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Previous Session"
 msgstr ""
 
-#: app/mainwindow.cpp:350
+#: app/mainwindow.cpp:327
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Next Session"
 msgstr ""
 
-#: app/mainwindow.cpp:356
+#: app/mainwindow.cpp:333
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Move Session Left"
 msgstr ""
 
-#: app/mainwindow.cpp:363
+#: app/mainwindow.cpp:340
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Move Session Right"
 msgstr ""
 
-#: app/mainwindow.cpp:370
+#: app/mainwindow.cpp:347
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Grow Terminal to the Right"
 msgstr ""
 
-#: app/mainwindow.cpp:377
+#: app/mainwindow.cpp:354
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Grow Terminal to the Left"
 msgstr ""
 
-#: app/mainwindow.cpp:384
+#: app/mainwindow.cpp:361
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Grow Terminal to the Top"
 msgstr ""
 
-#: app/mainwindow.cpp:391
+#: app/mainwindow.cpp:368
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Grow Terminal to the Bottom"
 msgstr ""
 
-#: app/mainwindow.cpp:398
+#: app/mainwindow.cpp:375
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Rename Session..."
 msgstr ""
 
-#: app/mainwindow.cpp:405
+#: app/mainwindow.cpp:382
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Previous Terminal"
 msgstr ""
 
-#: app/mainwindow.cpp:411
+#: app/mainwindow.cpp:388
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Next Terminal"
 msgstr ""
 
-#: app/mainwindow.cpp:417
+#: app/mainwindow.cpp:394
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Close Active Terminal"
 msgstr ""
 
-#: app/mainwindow.cpp:424
+#: app/mainwindow.cpp:401
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Split Left/Right"
 msgstr ""
 
-#: app/mainwindow.cpp:431
+#: app/mainwindow.cpp:408
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Split Top/Bottom"
 msgstr ""
 
-#: app/mainwindow.cpp:438
+#: app/mainwindow.cpp:415
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Prevent Closing"
 msgstr ""
 
-#: app/mainwindow.cpp:444 app/tabbar.cpp:206
+#: app/mainwindow.cpp:421 app/tabbar.cpp:191
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Disable Keyboard Input"
 msgstr ""
 
-#: app/mainwindow.cpp:450 app/tabbar.cpp:254
+#: app/mainwindow.cpp:427 app/tabbar.cpp:236
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Monitor for Activity"
 msgstr ""
 
-#: app/mainwindow.cpp:457 app/tabbar.cpp:302
+#: app/mainwindow.cpp:434 app/tabbar.cpp:281
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Monitor for Silence"
 msgstr ""
 
-#: app/mainwindow.cpp:466
+#: app/mainwindow.cpp:441
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Toggle Titlebar"
+msgstr ""
+
+#: app/mainwindow.cpp:448
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Switch to Session %1"
 msgstr ""
 
-#: app/mainwindow.cpp:606
+#: app/mainwindow.cpp:600
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Activity detected in monitored terminal in session \"%1\"."
 msgstr ""
 
-#: app/mainwindow.cpp:620
+#: app/mainwindow.cpp:611
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Silence detected in monitored terminal in session \"%1\"."
 msgstr ""
 
-#: app/mainwindow.cpp:644
+#: app/mainwindow.cpp:667
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr ""
 
-#: app/mainwindow.cpp:650
+#: app/mainwindow.cpp:673
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Quick Options"
 msgstr ""
 
-#: app/mainwindow.cpp:656
+#: app/mainwindow.cpp:679
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Screen"
 msgstr ""
 
-#: app/mainwindow.cpp:661
+#: app/mainwindow.cpp:684
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Width"
 msgstr ""
 
-#: app/mainwindow.cpp:666
+#: app/mainwindow.cpp:689
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Height"
 msgstr ""
 
-#: app/mainwindow.cpp:669
+#: app/mainwindow.cpp:692
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Settings"
 msgstr ""
 
-#: app/mainwindow.cpp:685
+#: app/mainwindow.cpp:708
 #, kde-kuit-format
 msgctxt "@item:inmenu"
 msgid "At mouse location"
 msgstr ""
 
-#: app/mainwindow.cpp:692
+#: app/mainwindow.cpp:714
 #, kde-kuit-format
 msgctxt "@item:inmenu"
 msgid "Screen %1"
 msgstr ""
 
-#: app/mainwindow.cpp:813
+#: app/mainwindow.cpp:823
 #, kde-kuit-format
 msgctxt "@title Preferences page name"
 msgid "Window"
 msgstr ""
 
-#: app/mainwindow.cpp:820
+#: app/mainwindow.cpp:829
 #, kde-kuit-format
 msgctxt "@title Preferences page name"
 msgid "Behavior"
 msgstr ""
 
-#: app/mainwindow.cpp:824
+#: app/mainwindow.cpp:832
 #, kde-kuit-format
 msgctxt "@title Preferences page name"
 msgid "Appearance"
 msgstr ""
 
-#: app/mainwindow.cpp:907
+#: app/mainwindow.cpp:911
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1408,19 +1469,19 @@ msgid ""
 "that it was installed incorrectly.<nl/><nl/>The application will now quit."
 msgstr ""
 
-#: app/mainwindow.cpp:909
+#: app/mainwindow.cpp:913
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Cannot Load Skin"
 msgstr ""
 
-#: app/mainwindow.cpp:1672
+#: app/mainwindow.cpp:1638
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Press <shortcut>%1</shortcut> to open"
 msgstr ""
 
-#: app/sessionstack.cpp:260
+#: app/sessionstack.cpp:253
 #, kde-format
 msgid ""
 "The D-Bus method runCommand was just used.  There are security concerns "
@@ -1429,7 +1490,7 @@ msgid ""
 "only show once for this Yakuake instance.</p>"
 msgstr ""
 
-#: app/sessionstack.cpp:658
+#: app/sessionstack.cpp:719
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1437,25 +1498,25 @@ msgid ""
 "terminals.</warning>"
 msgstr ""
 
-#: app/sessionstack.cpp:662
+#: app/sessionstack.cpp:723
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Are you sure you want to close this session?"
 msgstr ""
 
-#: app/sessionstack.cpp:664
+#: app/sessionstack.cpp:725
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Are you sure you want to close this terminal?"
 msgstr ""
 
-#: app/sessionstack.cpp:668
+#: app/sessionstack.cpp:729
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Really Close?"
 msgstr ""
 
-#: app/tabbar.cpp:55
+#: app/tabbar.cpp:40
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1463,85 +1524,85 @@ msgid ""
 "sessions. You can double-click a tab to edit its label.</para>"
 msgstr ""
 
-#: app/tabbar.cpp:74
+#: app/tabbar.cpp:59
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Disable Keyboard Input"
 msgstr ""
 
-#: app/tabbar.cpp:75
+#: app/tabbar.cpp:60
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Monitor for Activity"
 msgstr ""
 
-#: app/tabbar.cpp:76
+#: app/tabbar.cpp:61
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Monitor for Silence"
 msgstr ""
 
-#: app/tabbar.cpp:85
+#: app/tabbar.cpp:70
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "New Session"
 msgstr ""
 
-#: app/tabbar.cpp:86
+#: app/tabbar.cpp:71
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Adds a new session. Press and hold to select session type from menu."
 msgstr ""
 
-#: app/tabbar.cpp:91
+#: app/tabbar.cpp:76
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Close Session"
 msgstr ""
 
-#: app/tabbar.cpp:92
+#: app/tabbar.cpp:77
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Closes the active session."
 msgstr ""
 
-#: app/tabbar.cpp:212
+#: app/tabbar.cpp:195
 #, kde-kuit-format
 msgctxt "@action"
 msgid "For This Session"
 msgstr ""
 
-#: app/tabbar.cpp:230
+#: app/tabbar.cpp:212
 #, kde-kuit-format
 msgctxt "@action"
 msgid "For Terminal %1"
 msgstr ""
 
-#: app/tabbar.cpp:260 app/tabbar.cpp:308
+#: app/tabbar.cpp:240 app/tabbar.cpp:285
 #, kde-kuit-format
 msgctxt "@action"
 msgid "In This Session"
 msgstr ""
 
-#: app/tabbar.cpp:278 app/tabbar.cpp:326
+#: app/tabbar.cpp:257 app/tabbar.cpp:302
 #, kde-kuit-format
 msgctxt "@action"
 msgid "In Terminal %1"
 msgstr ""
 
-#: app/tabbar.cpp:969
+#: app/tabbar.cpp:932
 #, kde-kuit-format
 msgctxt "@title:tab"
 msgid "Shell"
 msgstr ""
 
-#: app/tabbar.cpp:973
+#: app/tabbar.cpp:934
 #, kde-kuit-format
 msgctxt "@title:tab"
 msgid "Shell No. %1"
 msgstr ""
 
-#: app/terminal.cpp:199
+#: app/terminal.cpp:174
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1550,7 +1611,7 @@ msgid ""
 "application> installation is required to use Yakuake."
 msgstr ""
 
-#: app/titlebar.cpp:39
+#: app/titlebar.cpp:25
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1558,37 +1619,37 @@ msgid ""
 "available.</para>"
 msgstr ""
 
-#: app/titlebar.cpp:52
+#: app/titlebar.cpp:38
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Keep window open when it loses focus"
 msgstr ""
 
-#: app/titlebar.cpp:53
+#: app/titlebar.cpp:39
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "If this is checked, the window will stay open when it loses focus."
 msgstr ""
 
-#: app/titlebar.cpp:60
+#: app/titlebar.cpp:46
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Open Menu"
 msgstr ""
 
-#: app/titlebar.cpp:61
+#: app/titlebar.cpp:47
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Opens the main menu."
 msgstr ""
 
-#: app/titlebar.cpp:66
+#: app/titlebar.cpp:52
 #, kde-kuit-format
 msgctxt "@info:tooltip Quits the application"
 msgid "Quit"
 msgstr ""
 
-#: app/titlebar.cpp:67
+#: app/titlebar.cpp:53
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Quits the application."

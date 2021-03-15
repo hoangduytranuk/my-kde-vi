@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-12 02:58+0100\n"
+"POT-Creation-Date: 2021-03-15 03:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -160,7 +160,13 @@ msgstr ""
 msgid "Collection Size"
 msgstr ""
 
-#: src/charts/collectionsizereport.cpp:90
+#: src/charts/collectionsizereport.cpp:87
+#: src/mainwindow.cpp:1550
+#, kde-format
+msgid "Total entries: %1"
+msgstr ""
+
+#: src/charts/collectionsizereport.cpp:91
 #, kde-format
 msgid "Collection Size Over Time"
 msgstr ""
@@ -809,7 +815,7 @@ msgstr ""
 #: src/collections/bibtexcollection.cpp:213
 #: src/collections/bookcollection.cpp:143
 #: src/collections/cardcollection.cpp:82 src/collections/comicbookcollection.cpp:70
-#: src/fetch/colnectfetcher.cpp:316 src/fetch/colnectfetcher.cpp:539
+#: src/fetch/colnectfetcher.cpp:316 src/fetch/colnectfetcher.cpp:551
 #, kde-format
 msgid "Series"
 msgstr ""
@@ -928,7 +934,7 @@ msgstr ""
 #: src/collections/stampcollection.cpp:54
 #: src/collections/winecollection.cpp:125
 #: src/entrymatchdialog.cpp:94 src/fetch/colnectfetcher.cpp:323
-#: src/fetch/colnectfetcher.cpp:542 src/fetch/numistafetcher.cpp:350
+#: src/fetch/colnectfetcher.cpp:554 src/fetch/numistafetcher.cpp:350
 #: src/fetch/numistafetcher.cpp:398 src/fetchdialog.cpp:253
 #, kde-format
 msgid "Description"
@@ -1271,13 +1277,13 @@ msgid "Grading Service"
 msgstr ""
 
 #: src/collections/coincollection.cpp:144
-#: src/fetch/colnectfetcher.cpp:537 src/fetch/numistafetcher.cpp:400
+#: src/fetch/colnectfetcher.cpp:549 src/fetch/numistafetcher.cpp:400
 #, kde-format
 msgid "Obverse"
 msgstr ""
 
 #: src/collections/coincollection.cpp:147
-#: src/fetch/colnectfetcher.cpp:538 src/fetch/numistafetcher.cpp:401
+#: src/fetch/colnectfetcher.cpp:550 src/fetch/numistafetcher.cpp:401
 #, kde-format
 msgid "Reverse"
 msgstr ""
@@ -3092,7 +3098,7 @@ msgid "Encode the exported file in the local encoding."
 msgstr ""
 
 #: src/fetch/allocinefetcher.cpp:241 src/fetch/amazonfetcher.cpp:633
-#: src/fetch/colnectfetcher.cpp:515 src/fetch/discogsfetcher.cpp:202
+#: src/fetch/colnectfetcher.cpp:527 src/fetch/discogsfetcher.cpp:202
 #: src/fetch/doubanfetcher.cpp:391 src/fetch/filmasterfetcher.cpp:142
 #: src/fetch/googlebookfetcher.cpp:196 src/fetch/ibsfetcher.cpp:298
 #: src/fetch/igdbfetcher.cpp:161 src/fetch/isbndbfetcher.cpp:295
@@ -3518,24 +3524,24 @@ msgstr ""
 msgid "BoardGameGeek Link"
 msgstr ""
 
-#: src/fetch/colnectfetcher.cpp:329 src/fetch/colnectfetcher.cpp:541
+#: src/fetch/colnectfetcher.cpp:329 src/fetch/colnectfetcher.cpp:553
 #, kde-format
 msgid "Mintage"
 msgstr ""
 
-#: src/fetch/colnectfetcher.cpp:336 src/fetch/colnectfetcher.cpp:543
+#: src/fetch/colnectfetcher.cpp:336 src/fetch/colnectfetcher.cpp:555
 #, kde-format
 msgctxt "Stanley Gibbons stamp catalog code"
 msgid "Stanley Gibbons"
 msgstr ""
 
-#: src/fetch/colnectfetcher.cpp:343 src/fetch/colnectfetcher.cpp:544
+#: src/fetch/colnectfetcher.cpp:343 src/fetch/colnectfetcher.cpp:556
 #, kde-format
 msgctxt "Michel stamp catalog code"
 msgid "Michel"
 msgstr ""
 
-#: src/fetch/colnectfetcher.cpp:646 src/fetch/numistafetcher.cpp:422
+#: src/fetch/colnectfetcher.cpp:658 src/fetch/numistafetcher.cpp:422
 #: src/fetch/themoviedbfetcher.cpp:537
 #, kde-format
 msgid "Language: "
@@ -4397,7 +4403,7 @@ msgstr ""
 msgid "Attribution"
 msgstr ""
 
-#: src/fetchdialog.cpp:664 src/fetchdialog.cpp:890
+#: src/fetchdialog.cpp:664 src/fetchdialog.cpp:888
 #, kde-format
 msgid "No Internet sources are available for your current collection type."
 msgstr ""
@@ -5981,11 +5987,6 @@ msgstr ""
 msgid "Exiting..."
 msgstr ""
 
-#: src/mainwindow.cpp:1550
-#, kde-format
-msgid "Total entries: %1"
-msgstr ""
-
 #: src/mainwindow.cpp:1557
 #, kde-format
 msgid "(%1 filtered; %2 selected)"
@@ -6003,7 +6004,7 @@ msgstr ""
 
 #: src/mainwindow.cpp:1702 src/translators/boardgamegeekimporter.cpp:98
 #: src/translators/gcstarimporter.cpp:264
-#: src/translators/goodreadsimporter.cpp:109
+#: src/translators/goodreadsimporter.cpp:110
 #: src/translators/xsltimporter.cpp:92
 #, kde-format
 msgid "Tellico encountered an error in XSLT processing."
@@ -6428,14 +6429,14 @@ msgid "Bibtexml Files"
 msgstr ""
 
 #: src/translators/boardgamegeekimporter.cpp:81
-#: src/translators/goodreadsimporter.cpp:86
+#: src/translators/goodreadsimporter.cpp:87
 #: src/translators/xsltimporter.cpp:79 src/translators/xsltimporter.cpp:85
 #, kde-format
 msgid "A valid XSLT file is needed to import the file."
 msgstr ""
 
 #: src/translators/boardgamegeekimporter.cpp:92
-#: src/translators/goodreadsimporter.cpp:103
+#: src/translators/goodreadsimporter.cpp:104
 #, kde-format
 msgid "A valid user ID must be entered."
 msgstr ""
@@ -6451,7 +6452,7 @@ msgid "Import owned items only"
 msgstr ""
 
 #: src/translators/boardgamegeekimporter.cpp:255
-#: src/translators/goodreadsimporter.cpp:152
+#: src/translators/goodreadsimporter.cpp:153
 #, kde-format
 msgid "User ID:"
 msgstr ""
@@ -6735,7 +6736,7 @@ msgstr ""
 msgid "<qt>The file is not a valid GCstar data file.</qt>"
 msgstr ""
 
-#: src/translators/goodreadsimporter.cpp:146
+#: src/translators/goodreadsimporter.cpp:147
 #, kde-format
 msgid "Goodreads Options"
 msgstr ""

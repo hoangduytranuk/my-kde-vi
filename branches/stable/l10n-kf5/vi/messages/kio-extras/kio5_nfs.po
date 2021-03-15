@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_nfs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:10+0200\n"
+"POT-Creation-Date: 2021-02-14 02:39+0100\n"
 "PO-Revision-Date: 2006-04-11 14:12+0930\n"
 "Last-Translator: Phan Vinh Thinh <teppi82@gmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -18,47 +18,48 @@ msgstr ""
 "X-Generator: KBabel 1.10\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kio_nfs.cpp:131
+#: kio_nfs.cpp:164
 #, kde-format
-msgid "%1: Unsupported NFS version"
+msgid "Cannot find an NFS version that host '%1' supports"
 msgstr ""
 
-#: kio_nfs.cpp:654
+#: kio_nfs.cpp:344
 #, kde-format
-msgid "RPC error %1"
+msgid "The NFS protocol requires a server host name."
 msgstr ""
 
-#: kio_nfs.cpp:697
+#: kio_nfs.cpp:377
 #, kde-format
-msgid "No space left on device"
-msgstr "Không còn khoảng trống trên thiết bị"
+msgid "Failed to initialise protocol"
+msgstr ""
 
-#: kio_nfs.cpp:700
+#: kio_nfs.cpp:860
 #, kde-format
-msgid "Read only file system"
-msgstr "Hệ thống tệp chỉ đọc"
+msgid "RPC error %1, %2"
+msgstr ""
 
-#: kio_nfs.cpp:703
+#: kio_nfs.cpp:910
 #, kde-format
 msgid "Filename too long"
 msgstr "Tên tệp quá dài"
 
-#: kio_nfs.cpp:710
+#: kio_nfs.cpp:917
 #, kde-format
 msgid "Disk quota exceeded"
 msgstr "Vượt quá phần đĩa được chia"
 
-#: kio_nfs.cpp:716
+#: kio_nfs.cpp:923
 #, kde-format
-msgid "NFS error %1 - %2"
+msgid "NFS error %1, %2"
 msgstr ""
 
-#: nfsv2.cpp:260 nfsv3.cpp:275
-#, kde-format
-msgid "Failed to mount %1"
-msgstr ""
-
-#: nfsv2.cpp:431 nfsv2.cpp:492 nfsv3.cpp:447 nfsv3.cpp:612
+#: nfsv2.cpp:407 nfsv2.cpp:459 nfsv3.cpp:439 nfsv3.cpp:583
 #, kde-format
 msgid "Unknown target"
 msgstr ""
+
+#~ msgid "No space left on device"
+#~ msgstr "Không còn khoảng trống trên thiết bị"
+
+#~ msgid "Read only file system"
+#~ msgstr "Hệ thống tệp chỉ đọc"

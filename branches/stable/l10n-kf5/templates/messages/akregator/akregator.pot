@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-31 02:24+0100\n"
+"POT-Creation-Date: 2021-02-02 02:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -87,7 +87,7 @@ msgid "Send Link Address"
 msgstr ""
 
 #: ./src/formatter/html/5.2/combinedview.html:119
-#: src/mainwidget.cpp:1054 src/urlhandler/webengine/urlhandlerwebengine.cpp:96
+#: src/mainwidget.cpp:1038 src/urlhandler/webengine/urlhandlerwebengine.cpp:96
 #, kde-format
 msgid "Delete Article"
 msgstr ""
@@ -97,20 +97,20 @@ msgstr ""
 msgid "Advanced Feed Reader Settings"
 msgstr ""
 
-#: configuration/akregator_config_advanced.cpp:32
-#: configuration/akregator_config_appearance.cpp:47
-#: configuration/akregator_config_archive.cpp:48
-#: configuration/akregator_config_browser.cpp:38
-#: configuration/akregator_config_general.cpp:41
+#: configuration/akregator_config_advanced.cpp:34
+#: configuration/akregator_config_appearance.cpp:49
+#: configuration/akregator_config_archive.cpp:47
+#: configuration/akregator_config_browser.cpp:39
+#: configuration/akregator_config_general.cpp:42
 #, kde-format
 msgid "(c), 2004 - 2008 Frank Osterfeld"
 msgstr ""
 
-#: configuration/akregator_config_advanced.cpp:34
-#: configuration/akregator_config_appearance.cpp:49
-#: configuration/akregator_config_archive.cpp:50
-#: configuration/akregator_config_browser.cpp:40
-#: configuration/akregator_config_general.cpp:43
+#: configuration/akregator_config_advanced.cpp:36
+#: configuration/akregator_config_appearance.cpp:51
+#: configuration/akregator_config_archive.cpp:49
+#: configuration/akregator_config_browser.cpp:41
+#: configuration/akregator_config_general.cpp:44
 #: src/aboutdata.cpp:29
 #, kde-format
 msgid "Frank Osterfeld"
@@ -121,7 +121,7 @@ msgstr ""
 msgid "Configure Feed Reader Appearance"
 msgstr ""
 
-#: configuration/akregator_config_archive.cpp:36
+#: configuration/akregator_config_archive.cpp:33
 #, kde-format
 msgctxt "Limit feed archive size to:"
 msgid " article"
@@ -129,7 +129,7 @@ msgid_plural " articles"
 msgstr[0] ""
 msgstr[1] ""
 
-#: configuration/akregator_config_archive.cpp:37
+#: configuration/akregator_config_archive.cpp:34
 #, kde-format
 msgctxt "Delete articles older than:"
 msgid " day"
@@ -137,61 +137,61 @@ msgid_plural " days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: configuration/akregator_config_archive.cpp:46
+#: configuration/akregator_config_archive.cpp:43
 #, kde-format
 msgid "Configure Feed Reader Archive"
 msgstr ""
 
-#: configuration/akregator_config_browser.cpp:36
+#: configuration/akregator_config_browser.cpp:35
 #, kde-format
 msgid "Configure Feed Reader Browser"
 msgstr ""
 
-#: configuration/akregator_config_general.cpp:34
+#: configuration/akregator_config_general.cpp:33
 #, kde-format
 msgid " minute"
 msgid_plural " minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: configuration/akregator_config_general.cpp:39
+#: configuration/akregator_config_general.cpp:38
 #, kde-format
 msgid "Configure Feeds"
 msgstr ""
 
-#: configuration/akregator_config_plugins.cpp:28
+#: configuration/akregator_config_plugins.cpp:27
 #, kde-format
 msgid "Configure Plugins"
 msgstr ""
 
-#: configuration/akregator_config_plugins.cpp:30
+#: configuration/akregator_config_plugins.cpp:31
 #, kde-format
 msgid "(c), 2016-2020 Laurent Montel"
 msgstr ""
 
-#: configuration/akregator_config_plugins.cpp:32
-#: configuration/akregator_config_userfeedback.cpp:33
+#: configuration/akregator_config_plugins.cpp:33
+#: configuration/akregator_config_userfeedback.cpp:34
 #: src/aboutdata.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr ""
 
-#: configuration/akregator_config_userfeedback.cpp:29
+#: configuration/akregator_config_userfeedback.cpp:28
 #, kde-format
 msgid "Configure User Feedback"
 msgstr ""
 
-#: configuration/akregator_config_userfeedback.cpp:31
+#: configuration/akregator_config_userfeedback.cpp:32
 #, kde-format
 msgid "(c), 2020 Laurent Montel"
 msgstr ""
 
-#: configuration/akregatorconfigurepluginlistwidget.cpp:52
+#: configuration/akregatorconfigurepluginlistwidget.cpp:53
 #, kde-format
 msgid "Webengine Plugins"
 msgstr ""
 
-#: configuration/settings_advanced.cpp:42
+#: configuration/settings_advanced.cpp:43
 #, kde-format
 msgctxt "Mark selected article read after"
 msgid " second"
@@ -355,7 +355,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
 #: configuration/ui/settings_browser.ui:28
 #: configuration/ui/settings_browser.ui:54
-#: src/actions/actionmanagerimpl.cpp:316
+#: src/actions/actionmanagerimpl.cpp:317
 #, kde-format
 msgid "Open in Tab"
 msgstr ""
@@ -364,7 +364,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
 #: configuration/ui/settings_browser.ui:33
 #: configuration/ui/settings_browser.ui:59
-#: src/actions/actionmanagerimpl.cpp:322
+#: src/actions/actionmanagerimpl.cpp:323
 #, kde-format
 msgid "Open in Background Tab"
 msgstr ""
@@ -373,7 +373,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
 #: configuration/ui/settings_browser.ui:38
 #: configuration/ui/settings_browser.ui:64
-#: src/actions/actionmanagerimpl.cpp:328
+#: src/actions/actionmanagerimpl.cpp:329
 #, kde-format
 msgid "Open in External Browser"
 msgstr ""
@@ -557,7 +557,7 @@ msgstr ""
 msgid "Use the &browser cache (less network traffic)"
 msgstr ""
 
-#: export/akregatorstorageexporter.cpp:286
+#: export/akregatorstorageexporter.cpp:276
 #, kde-format
 msgid "Akregator Export for %1"
 msgstr ""
@@ -575,7 +575,7 @@ msgid "Auto-Expand folders with unread articles"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:19 src/actions/actionmanagerimpl.cpp:310
+#: interfaces/akregator.kcfg:19 src/actions/actionmanagerimpl.cpp:311
 #, kde-format
 msgid "Show Quick Filter"
 msgstr ""
@@ -951,25 +951,25 @@ msgid "Resets the quick filter when changing feeds."
 msgstr ""
 
 #: kontactplugin/akregator_plugin.cpp:27 src/aboutdata.cpp:19
-#: src/akregator_part.cpp:150 src/articleviewer-ng/webengine/articleviewerwebengine.cpp:128
-#: src/trayicon.cpp:32 src/trayicon.cpp:33 src/trayicon.cpp:46
+#: src/akregator_part.cpp:152 src/articleviewer-ng/webengine/articleviewerwebengine.cpp:126
+#: src/trayicon.cpp:42 src/trayicon.cpp:43 src/trayicon.cpp:57
 #, kde-format
 msgid "Akregator"
 msgstr ""
 
-#: kontactplugin/akregator_plugin.cpp:31
+#: kontactplugin/akregator_plugin.cpp:29
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Feed..."
 msgstr ""
 
-#: kontactplugin/akregator_plugin.cpp:34
+#: kontactplugin/akregator_plugin.cpp:32
 #, kde-format
 msgctxt "@info:status"
 msgid "Create a new feed"
 msgstr ""
 
-#: kontactplugin/akregator_plugin.cpp:37
+#: kontactplugin/akregator_plugin.cpp:33
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "You will be presented with a dialog where you can add a new feed."
@@ -987,7 +987,7 @@ msgstr ""
 
 #: src/aboutdata.cpp:23
 #, kde-format
-msgid "Copyright © 2004–2020 Akregator authors"
+msgid "Copyright © 2004–2021 Akregator authors"
 msgstr ""
 
 #: src/aboutdata.cpp:28
@@ -1126,345 +1126,345 @@ msgstr ""
 msgid "Gentoo Ebuild"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:61 src/actions/actionmanagerimpl.cpp:279
+#: src/actions/actionmanagerimpl.cpp:62 src/actions/actionmanagerimpl.cpp:280
 #, kde-format
 msgid "&Fetch Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:62 src/actions/actionmanagerimpl.cpp:235
+#: src/actions/actionmanagerimpl.cpp:63 src/actions/actionmanagerimpl.cpp:236
 #, kde-format
 msgid "&Delete Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:63 src/actions/actionmanagerimpl.cpp:241
+#: src/actions/actionmanagerimpl.cpp:64 src/actions/actionmanagerimpl.cpp:242
 #, kde-format
 msgid "&Edit Feed..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:64 src/actions/actionmanagerimpl.cpp:298
+#: src/actions/actionmanagerimpl.cpp:65 src/actions/actionmanagerimpl.cpp:299
 #, kde-format
 msgid "&Mark Feed as Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:80
+#: src/actions/actionmanagerimpl.cpp:81
 #, kde-format
 msgid "&Fetch Feeds"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:81
+#: src/actions/actionmanagerimpl.cpp:82
 #, kde-format
 msgid "&Delete Folder"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:82
+#: src/actions/actionmanagerimpl.cpp:83
 #, kde-format
 msgid "&Rename Folder"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:83
+#: src/actions/actionmanagerimpl.cpp:84
 #, kde-format
 msgid "&Mark Feeds as Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:183
+#: src/actions/actionmanagerimpl.cpp:184
 #, kde-format
 msgid "&Import Feeds..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:187
+#: src/actions/actionmanagerimpl.cpp:188
 #, kde-format
 msgid "&Export Feeds..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:192
+#: src/actions/actionmanagerimpl.cpp:193
 #, kde-format
 msgid "&Configure Akregator..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:211
+#: src/actions/actionmanagerimpl.cpp:212
 #, kde-format
 msgid "&Open Homepage"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:217
+#: src/actions/actionmanagerimpl.cpp:218
 #, kde-format
 msgid "Reload All Tabs"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:223
+#: src/actions/actionmanagerimpl.cpp:224
 #, kde-format
 msgid "&Add Feed..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:229
+#: src/actions/actionmanagerimpl.cpp:230
 #, kde-format
 msgid "Ne&w Folder..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:254
+#: src/actions/actionmanagerimpl.cpp:255
 #, kde-format
 msgid "&Normal View"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:263
+#: src/actions/actionmanagerimpl.cpp:264
 #, kde-format
 msgid "&Widescreen View"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:272
+#: src/actions/actionmanagerimpl.cpp:273
 #, kde-format
 msgid "C&ombined View"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:285
+#: src/actions/actionmanagerimpl.cpp:286
 #, kde-format
 msgid "Fe&tch All Feeds"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:291
+#: src/actions/actionmanagerimpl.cpp:292
 #, kde-format
 msgid "C&ancel Feed Fetches"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:304
+#: src/actions/actionmanagerimpl.cpp:305
 #, kde-format
 msgid "Ma&rk All Feeds as Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:333 src/actions/actionmanagerimpl.cpp:591
+#: src/actions/actionmanagerimpl.cpp:334 src/actions/actionmanagerimpl.cpp:593
 #, kde-format
 msgid "Copy Link Address"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:338
+#: src/actions/actionmanagerimpl.cpp:339
 #, kde-format
 msgid "Pre&vious Unread Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:344
+#: src/actions/actionmanagerimpl.cpp:345
 #, kde-format
 msgid "Ne&xt Unread Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:351
+#: src/actions/actionmanagerimpl.cpp:353
 #, kde-format
 msgid "&Delete"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:356
+#: src/actions/actionmanagerimpl.cpp:358
 #, kde-format
 msgid "&Mark As"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:360
+#: src/actions/actionmanagerimpl.cpp:362
 #, kde-format
 msgctxt "as in: mark as read"
 msgid "&Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:362
+#: src/actions/actionmanagerimpl.cpp:364
 #, kde-format
 msgid "Mark selected article as read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:368
+#: src/actions/actionmanagerimpl.cpp:370
 #, kde-format
 msgctxt "as in: mark as new"
 msgid "&New"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:371
+#: src/actions/actionmanagerimpl.cpp:373
 #, kde-format
 msgid "Mark selected article as new"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:376
+#: src/actions/actionmanagerimpl.cpp:378
 #, kde-format
 msgctxt "as in: mark as unread"
 msgid "&Unread"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:378
+#: src/actions/actionmanagerimpl.cpp:380
 #, kde-format
 msgid "Mark selected article as unread"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:384
+#: src/actions/actionmanagerimpl.cpp:386
 #, kde-format
 msgid "&Mark as Important"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:388
+#: src/actions/actionmanagerimpl.cpp:390
 #, kde-format
 msgid "Remove &Important Mark"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:392
+#: src/actions/actionmanagerimpl.cpp:394
 #, kde-format
 msgid "Move Node Up"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:397
+#: src/actions/actionmanagerimpl.cpp:399
 #, kde-format
 msgid "Move Node Down"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:402
+#: src/actions/actionmanagerimpl.cpp:404
 #, kde-format
 msgid "Move Node Left"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:407
+#: src/actions/actionmanagerimpl.cpp:409
 #, kde-format
 msgid "Move Node Right"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:413
+#: src/actions/actionmanagerimpl.cpp:415
 #, kde-format
 msgid "Send &Link Address..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:418
+#: src/actions/actionmanagerimpl.cpp:420
 #, kde-format
 msgid "Send &File..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:424
+#: src/actions/actionmanagerimpl.cpp:426
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:453
+#: src/actions/actionmanagerimpl.cpp:455
 #, kde-format
 msgid "&Previous Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:457
+#: src/actions/actionmanagerimpl.cpp:459
 #, kde-format
 msgid "&Next Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:473
+#: src/actions/actionmanagerimpl.cpp:475
 #, kde-format
 msgid "&Previous Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:478
+#: src/actions/actionmanagerimpl.cpp:480
 #, kde-format
 msgid "&Next Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:484
+#: src/actions/actionmanagerimpl.cpp:486
 #, kde-format
 msgid "N&ext Unread Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:490
+#: src/actions/actionmanagerimpl.cpp:492
 #, kde-format
 msgid "Prev&ious Unread Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:495
+#: src/actions/actionmanagerimpl.cpp:497
 #, kde-format
 msgid "Go to Top of Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:500
+#: src/actions/actionmanagerimpl.cpp:502
 #, kde-format
 msgid "Go to Bottom of Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:505
+#: src/actions/actionmanagerimpl.cpp:507
 #, kde-format
 msgid "Go Left in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:510
+#: src/actions/actionmanagerimpl.cpp:512
 #, kde-format
 msgid "Go Right in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:515
+#: src/actions/actionmanagerimpl.cpp:517
 #, kde-format
 msgid "Go Up in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:520
+#: src/actions/actionmanagerimpl.cpp:522
 #, kde-format
 msgid "Go Down in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:526
+#: src/actions/actionmanagerimpl.cpp:528
 #, kde-format
 msgid "Hide Read Feeds"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:532
+#: src/actions/actionmanagerimpl.cpp:534
 #, kde-format
 msgid "Auto-expand folders with unread articles"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:548
+#: src/actions/actionmanagerimpl.cpp:550
 #, kde-format
 msgid "Select Next Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:553
+#: src/actions/actionmanagerimpl.cpp:555
 #, kde-format
 msgid "Select Previous Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:559
+#: src/actions/actionmanagerimpl.cpp:561
 #, kde-format
 msgid "Detach Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:573
+#: src/actions/actionmanagerimpl.cpp:575
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:577
+#: src/actions/actionmanagerimpl.cpp:579
 #, kde-format
 msgid "Unmute"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:580
+#: src/actions/actionmanagerimpl.cpp:582
 #, kde-format
 msgid "Speak Text"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:585
+#: src/actions/actionmanagerimpl.cpp:587
 #, kde-format
 msgid "&Find in Message..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:596
+#: src/actions/actionmanagerimpl.cpp:598
 #, kde-format
 msgid "Close Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:609
+#: src/actions/actionmanagerimpl.cpp:611
 #, kde-format
 msgid "Activate Tab %1"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:615
+#: src/actions/actionmanagerimpl.cpp:617
 #, kde-format
 msgid "&Save Link As..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:619
+#: src/actions/actionmanagerimpl.cpp:621
 #, kde-format
 msgid "Copy &Link Address"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:622
+#: src/actions/actionmanagerimpl.cpp:624
 #, kde-format
 msgid "Copy Image Location"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:629
+#: src/actions/actionmanagerimpl.cpp:631
 #, kde-format
 msgid "Save Image On Disk..."
 msgstr ""
@@ -1500,126 +1500,126 @@ msgstr ""
 msgid "Feed found, downloading..."
 msgstr ""
 
-#: src/akregator_options.h:21 src/akregator_options.h:34
+#: src/akregator_options.h:21 src/akregator_options.h:29
 #, kde-format
 msgid "Add a feed with the given URL"
 msgstr ""
 
-#: src/akregator_options.h:25
+#: src/akregator_options.h:24
 #, kde-format
 msgid "When adding feeds, place them in this group"
 msgstr ""
 
-#: src/akregator_options.h:29
+#: src/akregator_options.h:26
 #, kde-format
 msgid "Hide main window on startup"
 msgstr ""
 
-#: src/akregator_options.h:37
+#: src/akregator_options.h:31
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr ""
 
-#: src/akregator_part.cpp:85
+#: src/akregator_part.cpp:87
 #, kde-format
 msgid "Feeds"
 msgstr ""
 
-#: src/akregator_part.cpp:96
+#: src/akregator_part.cpp:98
 #, kde-format
 msgid "KDE Dot News"
 msgstr ""
 
-#: src/akregator_part.cpp:101
+#: src/akregator_part.cpp:103
 #, kde-format
 msgid "Linux.com"
 msgstr ""
 
-#: src/akregator_part.cpp:106
+#: src/akregator_part.cpp:108
 #, kde-format
 msgid "Planet KDE"
 msgstr ""
 
-#: src/akregator_part.cpp:111
+#: src/akregator_part.cpp:113
 #, kde-format
 msgid "KDE Apps"
 msgstr ""
 
-#: src/akregator_part.cpp:117
+#: src/akregator_part.cpp:119
 #, kde-format
 msgid "Spanish feeds"
 msgstr ""
 
-#: src/akregator_part.cpp:121
+#: src/akregator_part.cpp:123
 #, kde-format
 msgid "Planet KDE España"
 msgstr ""
 
-#: src/akregator_part.cpp:176
+#: src/akregator_part.cpp:179
 #, kde-format
 msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
 msgstr ""
 
-#: src/akregator_part.cpp:176
+#: src/akregator_part.cpp:180
 #, kde-format
 msgid "Plugin error"
 msgstr ""
 
-#: src/akregator_part.cpp:487
+#: src/akregator_part.cpp:480
 #, kde-format
 msgid ""
 "Access denied: Cannot save feed list to <b>%1</b>. Please check your "
 "permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:488 src/akregator_part.cpp:537
+#: src/akregator_part.cpp:481 src/akregator_part.cpp:532
 #, kde-format
 msgid "Write Error"
 msgstr ""
 
-#: src/akregator_part.cpp:524 src/command/loadfeedlistcommand.cpp:69
+#: src/akregator_part.cpp:517 src/command/loadfeedlistcommand.cpp:72
 #, kde-format
 msgid "OPML Parsing Error"
 msgstr ""
 
-#: src/akregator_part.cpp:524
+#: src/akregator_part.cpp:517
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr ""
 
-#: src/akregator_part.cpp:527 src/command/loadfeedlistcommand.cpp:147
-#, kde-format
-msgid "Read Error"
-msgstr ""
-
-#: src/akregator_part.cpp:527
+#: src/akregator_part.cpp:521
 #, kde-format
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
 "the current user."
 msgstr ""
 
-#: src/akregator_part.cpp:537
+#: src/akregator_part.cpp:522 src/command/loadfeedlistcommand.cpp:146
+#, kde-format
+msgid "Read Error"
+msgstr ""
+
+#: src/akregator_part.cpp:532
 #, kde-format
 msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:552 src/akregator_part.cpp:561
+#: src/akregator_part.cpp:547 src/akregator_part.cpp:556
 #, kde-format
 msgid "OPML Outlines (%1);;All Files (*)"
 msgstr ""
 
-#: src/akregator_part.cpp:695
+#: src/akregator_part.cpp:686
 #, kde-format
 msgid "Imported Folder"
 msgstr ""
 
-#: src/articlejobs.cpp:178
+#: src/articlejobs.cpp:181
 #, kde-format
 msgid "The feed to be listed was already removed."
 msgstr ""
 
-#: src/articlelistview.cpp:158 src/subscription/subscriptionlistview.cpp:175
+#: src/articlelistview.cpp:158 src/subscription/subscriptionlistview.cpp:180
 #, kde-format
 msgid "Columns"
 msgstr ""
@@ -1629,7 +1629,7 @@ msgstr ""
 msgid "No result found"
 msgstr ""
 
-#: src/articlelistview.cpp:376
+#: src/articlelistview.cpp:377
 #, kde-format
 msgid ""
 "<h2>Article list</h2>Here you can browse articles from the currently "
@@ -1639,105 +1639,105 @@ msgid ""
 "a tab or in an external browser window."
 msgstr ""
 
-#: src/articlemodel.cpp:76
+#: src/articlemodel.cpp:77
 #, kde-format
 msgctxt "Articlelist's column header"
 msgid "Title"
 msgstr ""
 
-#: src/articlemodel.cpp:78
+#: src/articlemodel.cpp:79
 #, kde-format
 msgctxt "Articlelist's column header"
 msgid "Feed"
 msgstr ""
 
-#: src/articlemodel.cpp:80
+#: src/articlemodel.cpp:81
 #, kde-format
 msgctxt "Articlelist's column header"
 msgid "Date"
 msgstr ""
 
-#: src/articlemodel.cpp:82
+#: src/articlemodel.cpp:83
 #, kde-format
 msgctxt "Articlelist's column header"
 msgid "Author"
 msgstr ""
 
-#: src/articlemodel.cpp:84
+#: src/articlemodel.cpp:85
 #, kde-format
 msgctxt "Articlelist's column header"
 msgid "Description"
 msgstr ""
 
-#: src/articlemodel.cpp:86
+#: src/articlemodel.cpp:87
 #, kde-format
 msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:129
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:127
 #, kde-format
 msgid "Akregator is a KDE news feed reader."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:174
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:168
 #, kde-format
 msgid "Save As"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:361
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:355
 #, kde-format
 msgid "Disable"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:363
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:357
 #, kde-format
 msgid "Keep Enabled"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:364
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:359
 #, kde-format
 msgid "Are you sure you want to disable this introduction page?"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:365
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:360
 #, kde-format
 msgid "Disable Introduction Page"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:395
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:393
 #, kde-format
 msgid "This web site is a malware, do you want to continue to show it?"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:395
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:393
 #, kde-format
 msgid "Malware"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:405
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:403
 #, kde-format
 msgid "The network is broken."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:405
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:408
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:403
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:406
 #, kde-format
 msgid "Check Phishing Url"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:408
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:406
 #, kde-format
 msgid "The url %1 is not valid."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebenginewidgetng.cpp:129
+#: src/articleviewer-ng/webengine/articleviewerwebenginewidgetng.cpp:127
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Document"
 msgstr ""
 
-#: src/command/createfoldercommand.cpp:46
+#: src/command/createfoldercommand.cpp:47
 #, kde-format
 msgid "Add Folder"
 msgstr ""
@@ -1747,70 +1747,70 @@ msgstr ""
 msgid "Folder name:"
 msgstr ""
 
-#: src/command/deletesubscriptioncommand.cpp:37
+#: src/command/deletesubscriptioncommand.cpp:39
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to delete this folder and its feeds and subfolders?"
 "</qt>"
 msgstr ""
 
-#: src/command/deletesubscriptioncommand.cpp:38
+#: src/command/deletesubscriptioncommand.cpp:40
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to delete folder <b>%1</b> and its feeds and "
 "subfolders?</qt>"
 msgstr ""
 
-#: src/command/deletesubscriptioncommand.cpp:42
+#: src/command/deletesubscriptioncommand.cpp:44
 #, kde-format
 msgid "Delete Folder"
 msgstr ""
 
-#: src/command/deletesubscriptioncommand.cpp:58
+#: src/command/deletesubscriptioncommand.cpp:61
 #, kde-format
 msgid "<qt>Are you sure you want to delete this feed?</qt>"
 msgstr ""
 
-#: src/command/deletesubscriptioncommand.cpp:60
+#: src/command/deletesubscriptioncommand.cpp:63
 #, kde-format
 msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
 msgstr ""
 
-#: src/command/deletesubscriptioncommand.cpp:65
+#: src/command/deletesubscriptioncommand.cpp:68
 #, kde-format
 msgid "Delete Feed"
 msgstr ""
 
-#: src/command/importfeedlistcommand.cpp:47
+#: src/command/importfeedlistcommand.cpp:48
 #, kde-format
 msgid "Imported Feeds"
 msgstr ""
 
-#: src/command/importfeedlistcommand.cpp:75
+#: src/command/importfeedlistcommand.cpp:77
 #, kde-format
 msgid "Add Imported Folder"
 msgstr ""
 
-#: src/command/importfeedlistcommand.cpp:76
+#: src/command/importfeedlistcommand.cpp:78
 #, kde-format
 msgid "Imported folder name:"
 msgstr ""
 
-#: src/command/loadfeedlistcommand.cpp:63
+#: src/command/loadfeedlistcommand.cpp:64
 #, kde-format
 msgid ""
 "<qt>The standard feed list is corrupted (invalid OPML). A backup was created:"
 "<p><b>%1</b></p></qt>"
 msgstr ""
 
-#: src/command/loadfeedlistcommand.cpp:65
+#: src/command/loadfeedlistcommand.cpp:68
 #, kde-format
 msgid ""
 "<qt>The standard feed list is corrupted (invalid OPML). Could not create a "
 "backup.</qt>"
 msgstr ""
 
-#: src/command/loadfeedlistcommand.cpp:131
+#: src/command/loadfeedlistcommand.cpp:133
 #, kde-format
 msgid "Opening Feed List..."
 msgstr ""
@@ -1820,18 +1820,18 @@ msgstr ""
 msgid "<qt>Could not open feed list (%1) for reading.</qt>"
 msgstr ""
 
-#: src/command/loadfeedlistcommand.cpp:160
+#: src/command/loadfeedlistcommand.cpp:159
 #, kde-format
 msgctxt "error message window caption"
 msgid "XML Parsing Error"
 msgstr ""
 
-#: src/command/loadfeedlistcommand.cpp:162
+#: src/command/loadfeedlistcommand.cpp:161
 #, kde-kuit-format
 msgid "<qt><p>XML parsing error in line %1, column %2 of %3:</p><p>%4</p></qt>"
 msgstr ""
 
-#: src/command/loadfeedlistcommand.cpp:170
+#: src/command/loadfeedlistcommand.cpp:168
 #, kde-format
 msgid ""
 "<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
@@ -1915,12 +1915,12 @@ msgstr ""
 msgid "&File"
 msgstr ""
 
-#: src/dummystorage/storagefactorydummyimpl.cpp:30
+#: src/dummystorage/storagefactorydummyimpl.cpp:32
 #, kde-format
 msgid "No Archive"
 msgstr ""
 
-#: src/feed/feedlist.cpp:163
+#: src/feed/feedlist.cpp:160
 #, kde-format
 msgid "All Feeds"
 msgstr ""
@@ -1952,20 +1952,20 @@ msgctxt "@title:window"
 msgid "Feed Properties"
 msgstr ""
 
-#: src/feed/feedpropertiesdialog.cpp:83
+#: src/feed/feedpropertiesdialog.cpp:82
 #, kde-format
 msgctxt "never fetch new articles"
 msgid "Never"
 msgstr ""
 
-#: src/feed/feedpropertiesdialog.cpp:84
+#: src/feed/feedpropertiesdialog.cpp:83
 #, kde-format
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/feed/feedpropertiesdialog.cpp:85
+#: src/feed/feedpropertiesdialog.cpp:84
 #, kde-format
 msgid " article"
 msgid_plural " articles"
@@ -1973,12 +1973,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
-#: src/feed/feedpropertiesdialog.cpp:117 src/ui/feedpropertieswidgetbase.ui:20
+#: src/feed/feedpropertiesdialog.cpp:116 src/ui/feedpropertieswidgetbase.ui:20
 #, kde-format
 msgid "Feed Properties"
 msgstr ""
 
-#: src/feed/feedpropertiesdialog.cpp:118
+#: src/feed/feedpropertiesdialog.cpp:116
 #, kde-format
 msgid "Properties of %1"
 msgstr ""
@@ -2062,42 +2062,42 @@ msgstr ""
 msgid "Loading completed"
 msgstr ""
 
-#: src/mainwidget.cpp:158
+#: src/mainwidget.cpp:149
 #, kde-format
 msgid "You can view multiple articles in several open tabs."
 msgstr ""
 
-#: src/mainwidget.cpp:162
+#: src/mainwidget.cpp:153
 #, kde-format
 msgid "Articles list."
 msgstr ""
 
-#: src/mainwidget.cpp:230 src/mainwidget.cpp:659
+#: src/mainwidget.cpp:215 src/mainwidget.cpp:640
 #, kde-format
 msgid "Articles"
 msgstr ""
 
-#: src/mainwidget.cpp:259
+#: src/mainwidget.cpp:244
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: src/mainwidget.cpp:831 src/mainwidget.cpp:840 src/mainwidget.cpp:1237
+#: src/mainwidget.cpp:812 src/mainwidget.cpp:821 src/mainwidget.cpp:1223
 #, kde-format
 msgid "Networking is not available."
 msgstr ""
 
-#: src/mainwidget.cpp:848
+#: src/mainwidget.cpp:829
 #, kde-format
 msgid "Fetching Feeds..."
 msgstr ""
 
-#: src/mainwidget.cpp:1047
+#: src/mainwidget.cpp:1028
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr ""
 
-#: src/mainwidget.cpp:1050
+#: src/mainwidget.cpp:1031
 #, kde-format
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural ""
@@ -2105,76 +2105,76 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/mainwidget.cpp:1234
+#: src/mainwidget.cpp:1220
 #, kde-format
 msgid "Networking is available now."
 msgstr ""
 
-#: src/mainwindow.cpp:82
+#: src/mainwindow.cpp:81
 #, kde-format
 msgid ""
 "Could not find the Akregator part; please check your installation.\n"
 "%1"
 msgstr ""
 
-#: src/notificationmanager.cpp:55
+#: src/notificationmanager.cpp:56
 #, kde-format
 msgid ""
 "Feed added:\n"
 " %1"
 msgstr ""
 
-#: src/notificationmanager.cpp:62
+#: src/notificationmanager.cpp:68
 #, kde-format
 msgid ""
 "Feeds added:\n"
 " %1"
 msgstr ""
 
-#: src/notificationmanager.cpp:76
+#: src/notificationmanager.cpp:86
 #, kde-format
 msgid "<i>and 1 other</i>"
 msgid_plural "<i>and %1 others</i>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/pluginmanager.cpp:152
+#: src/pluginmanager.cpp:147
 #, kde-format
 msgctxt "Name of the plugin"
 msgid "Name"
 msgstr ""
 
-#: src/pluginmanager.cpp:153
+#: src/pluginmanager.cpp:148
 #, kde-format
 msgctxt "Library name"
 msgid "Library"
 msgstr ""
 
-#: src/pluginmanager.cpp:154
+#: src/pluginmanager.cpp:149
 #, kde-format
 msgctxt "Plugin authors"
 msgid "Authors"
 msgstr ""
 
-#: src/pluginmanager.cpp:155
+#: src/pluginmanager.cpp:150
 #, kde-format
 msgctxt "Plugin authors' emaila addresses"
 msgid "Email"
 msgstr ""
 
-#: src/pluginmanager.cpp:156
+#: src/pluginmanager.cpp:152
 #, kde-format
 msgctxt "Plugin version"
 msgid "Version"
 msgstr ""
 
-#: src/pluginmanager.cpp:157
+#: src/pluginmanager.cpp:154
 #, kde-format
 msgctxt "Framework version plugin requires"
 msgid "Framework Version"
 msgstr ""
 
-#: src/pluginmanager.cpp:161
+#: src/pluginmanager.cpp:158
 #, kde-format
 msgid "Plugin Information"
 msgstr ""
@@ -2194,114 +2194,114 @@ msgstr ""
 msgid "Fetch aborted"
 msgstr ""
 
-#: src/subscription/subscriptionlistjobs.cpp:51
+#: src/subscription/subscriptionlistjobs.cpp:52
 #, kde-format
 msgid "Feed list was deleted"
 msgstr ""
 
-#: src/subscription/subscriptionlistjobs.cpp:61
+#: src/subscription/subscriptionlistjobs.cpp:62
 #, kde-format
 msgid "Node or destination folder not found"
 msgstr ""
 
-#: src/subscription/subscriptionlistjobs.cpp:68
+#: src/subscription/subscriptionlistjobs.cpp:69
 #, kde-format
 msgid "Cannot move folder %1 to its own subfolder %2"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:45
+#: src/subscription/subscriptionlistmodel.cpp:46
 #, kde-format
 msgid "Timeout on remote server"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:47
+#: src/subscription/subscriptionlistmodel.cpp:48
 #, kde-format
 msgid "Unknown host"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:49
+#: src/subscription/subscriptionlistmodel.cpp:50
 #, kde-format
 msgid "Feed file not found on remote server"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:51
+#: src/subscription/subscriptionlistmodel.cpp:52
 #, kde-format
 msgid "Could not read feed (invalid XML)"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:53
+#: src/subscription/subscriptionlistmodel.cpp:54
 #, kde-format
 msgid "Could not read feed (unknown format)"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:55
+#: src/subscription/subscriptionlistmodel.cpp:56
 #, kde-format
 msgid "Could not read feed (invalid feed)"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:227
+#: src/subscription/subscriptionlistmodel.cpp:221
 #, kde-format
 msgid "Could not fetch feed: %1"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:277
+#: src/subscription/subscriptionlistmodel.cpp:268
 #, kde-format
 msgctxt "Feedlist's column header"
 msgid "Feeds"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:279
+#: src/subscription/subscriptionlistmodel.cpp:270
 #, kde-format
 msgctxt "Feedlist's column header"
 msgid "Unread"
 msgstr ""
 
-#: src/subscription/subscriptionlistmodel.cpp:281
+#: src/subscription/subscriptionlistmodel.cpp:272
 #, kde-format
 msgctxt "Feedlist's column header"
 msgid "Total"
 msgstr ""
 
-#: src/tabwidget.cpp:96
+#: src/tabwidget.cpp:97
 #, kde-format
 msgid "Close the current tab"
 msgstr ""
 
-#: src/tabwidget.cpp:99
+#: src/tabwidget.cpp:100
 #, kde-format
 msgid "Close tab"
 msgstr ""
 
-#: src/tabwidget.cpp:125
+#: src/tabwidget.cpp:126
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Detach Tab"
 msgstr ""
 
-#: src/tabwidget.cpp:130
+#: src/tabwidget.cpp:131
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr ""
 
-#: src/tabwidget.cpp:134
+#: src/tabwidget.cpp:135
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr ""
 
-#: src/tabwidget.cpp:138
+#: src/tabwidget.cpp:139
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Tabs"
 msgstr ""
 
-#: src/trayicon.cpp:46
+#: src/trayicon.cpp:58
 #, kde-format
 msgid "There are no unread articles"
 msgstr ""
 
-#: src/trayicon.cpp:46
+#: src/trayicon.cpp:58
 #, kde-format
 msgid "1 unread article"
 msgid_plural "%1 unread articles"
