@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-15 03:06+0100\n"
+"POT-Creation-Date: 2021-03-28 16:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1329,14 +1329,14 @@ msgstr ""
 msgid "Absolute Durations"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDuration)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDuration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinePause)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LineDuration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_SeekOffsetOnDoubleClick)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_JumpLineOffset)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_LinesQuickShiftAmount)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GrabbedPositionCompensation)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MinDuration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxDuration)
 #: src/configs/errorsconfigwidget.ui:69 src/configs/errorsconfigwidget.ui:79
 #: src/configs/generalconfigwidget.ui:82 src/configs/generalconfigwidget.ui:92
 #: src/configs/generalconfigwidget.ui:102
@@ -1397,8 +1397,8 @@ msgstr ""
 msgid "Behavior"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoClearFixed)
 #. i18n: ectx: label, entry (AutoClearFixed), group (Error Check)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoClearFixed)
 #: src/configs/errorsconfigwidget.ui:223 src/scconfig.kcfg:82
 #, kde-format
 msgid "Automatically clear fixed errors"
@@ -1488,8 +1488,8 @@ msgstr ""
 msgid "Seconds to &jump on seek:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
 #. i18n: ectx: label, entry (VideoAutoPlay), group (VideoPlayer)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_VideoAutoPlay)
 #: src/configs/playerconfigwidget.ui:50 src/scconfig.kcfg:176
 #, kde-format
 msgid "Start playing video when loaded"
@@ -3416,57 +3416,57 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_acousticModelPath)
 #. i18n: ectx: label, entry (acousticModelPath), group (PocketSphinx)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_acousticModelPath)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:11
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:65
 #, kde-format
 msgid "Directory containing acoustic model files"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
 #. i18n: ectx: label, entry (trigramModelFile), group (PocketSphinx)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_trigramModelFile)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:15
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:39
 #, kde-format
 msgid "Word trigram language model input file"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
 #. i18n: ectx: label, entry (lexiconFile), group (PocketSphinx)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_lexiconFile)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:19
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:26
 #, kde-format
 msgid "Main pronunciation dictionary (lexicon) input file"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
 #. i18n: ectx: label, entry (vadPostSpeech), group (PocketSphinx)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPostSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:24
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:152
 #, kde-format
 msgid "Num of silence frames to keep after speech to silence transition"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
 #. i18n: ectx: label, entry (vadPreSpeech), group (PocketSphinx)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_vadPreSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:28
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:139
 #, kde-format
 msgid "Num of speech frames to keep before silence to speech transition"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
 #. i18n: ectx: label, entry (vadStartSpeech), group (PocketSphinx)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_vadStartSpeech)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:32
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:165
 #, kde-format
 msgid "Num of speech frames to trigger VAD from silence to speech"
 msgstr ""
 
+#. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_vadTreshold)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vadTreshold)
-#. i18n: ectx: label, entry (vadTreshold), group (PocketSphinx)
 #: src/speechplugins/pocketsphinx/pocketsphinxconfig.kcfg:36
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:106
 #: src/speechplugins/pocketsphinx/pocketsphinxconfigwidget.ui:126
@@ -3648,6 +3648,13 @@ msgstr ""
 msgid "Find"
 msgstr ""
 
+#: src/utils/finder.cpp:266 src/utils/speller.cpp:148
+#, kde-format
+msgid ""
+"End of subtitle reached.\n"
+"Continue from the beginning?"
+msgstr ""
+
 #: src/utils/finder.cpp:266
 #, kde-format
 msgid ""
@@ -3666,13 +3673,6 @@ msgstr ""
 #, kde-format
 msgid ""
 "End of selection reached.\n"
-"Continue from the beginning?"
-msgstr ""
-
-#: src/utils/finder.cpp:266 src/utils/speller.cpp:148
-#, kde-format
-msgid ""
-"End of subtitle reached.\n"
 "Continue from the beginning?"
 msgstr ""
 

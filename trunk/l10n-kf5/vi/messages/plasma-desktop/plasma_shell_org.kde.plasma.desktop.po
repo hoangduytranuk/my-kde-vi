@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-02 03:10+0100\n"
+"POT-Creation-Date: 2021-04-02 00:19+0000\n"
 "PO-Revision-Date: 2021-03-02 17:48+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -78,39 +78,44 @@ msgstr "Rất tiếc! Có lỗi khi tải %1."
 msgid "Copy Error Details to Clipboard"
 msgstr "Chép chi tiết về lỗi vào bảng nháp"
 
+#: contents/configuration/AboutPlugin.qml:19
+#: contents/configuration/AppletConfiguration.qml:235
+msgid "About"
+msgstr "Thông tin"
+
 #: contents/configuration/AboutPlugin.qml:45
 msgid "Send an email to %1"
 msgstr "Gửi thư đến %1"
 
-#: contents/configuration/AboutPlugin.qml:95
+#: contents/configuration/AboutPlugin.qml:94
 msgid "Copyright"
 msgstr "Bản quyền"
 
-#: contents/configuration/AboutPlugin.qml:115 contents/explorer/Tooltip.qml:106
+#: contents/configuration/AboutPlugin.qml:114 contents/explorer/Tooltip.qml:106
 msgid "License:"
 msgstr "Giấy phép:"
 
-#: contents/configuration/AboutPlugin.qml:128
+#: contents/configuration/AboutPlugin.qml:127
 msgid "Authors"
 msgstr "Tác giả"
 
-#: contents/configuration/AboutPlugin.qml:138
+#: contents/configuration/AboutPlugin.qml:137
 msgid "Credits"
 msgstr "Ghi nhận"
 
-#: contents/configuration/AboutPlugin.qml:149
+#: contents/configuration/AboutPlugin.qml:148
 msgid "Translators"
 msgstr "Người dịch"
 
-#: contents/configuration/AppletConfiguration.qml:49
+#: contents/configuration/AppletConfiguration.qml:52
 msgid "Keyboard Shortcuts"
 msgstr "Phím tắt"
 
-#: contents/configuration/AppletConfiguration.qml:128
+#: contents/configuration/AppletConfiguration.qml:283
 msgid "Apply Settings"
 msgstr "Áp dụng thiết lập"
 
-#: contents/configuration/AppletConfiguration.qml:129
+#: contents/configuration/AppletConfiguration.qml:284
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -118,22 +123,22 @@ msgstr ""
 "Thiết lập cho khối hiện tại đã thay đổi. Bạn muốn áp dụng hay loại bỏ các "
 "thay đổi?"
 
-#: contents/configuration/AppletConfiguration.qml:241
-msgid "About"
-msgstr "Thông tin"
-
-#: contents/configuration/AppletConfiguration.qml:303
+#: contents/configuration/AppletConfiguration.qml:307
 msgid "OK"
 msgstr "OK"
 
-#: contents/configuration/AppletConfiguration.qml:310
+#: contents/configuration/AppletConfiguration.qml:315
 msgid "Apply"
 msgstr "Áp dụng"
 
-#: contents/configuration/AppletConfiguration.qml:316
+#: contents/configuration/AppletConfiguration.qml:321
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr "Huỷ"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:41
+msgid "Open configuration page"
+msgstr ""
 
 #: contents/configuration/ConfigurationContainmentActions.qml:31
 msgid "Left-Button"
@@ -189,32 +194,42 @@ msgstr "+"
 msgid "Add Action"
 msgstr "Thêm hành động"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:78
+#: contents/configuration/ConfigurationContainmentAppearance.qml:38
+msgid "Appearance"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:80
 msgid "Layout changes have been restricted by the system administrator"
 msgstr "Các thay đổi về bố cục đã bị giới hạn bởi quản trị viên hệ thống"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:93
+#: contents/configuration/ConfigurationContainmentAppearance.qml:95
 msgid "Layout:"
 msgstr "Bố cục:"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:108
+#: contents/configuration/ConfigurationContainmentAppearance.qml:110
 msgid "Wallpaper Type:"
 msgstr "Kiểu phông nền:"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:125
+#: contents/configuration/ConfigurationContainmentAppearance.qml:127
 msgid "Get New Plugins..."
 msgstr "Lấy phần cài cắm mới..."
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:137
+#: contents/configuration/ConfigurationContainmentAppearance.qml:139
 msgid "Layout changes must be applied before other changes can be made"
 msgstr ""
 "Thay đổi về bố cục phải được áp dụng trước khi tạo ra các thay đổi khác"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:143
+#: contents/configuration/ConfigurationContainmentAppearance.qml:145
 msgid "Apply now"
 msgstr "Áp dụng ngay"
 
-#: contents/configuration/ConfigurationShortcuts.qml:39
+#: contents/configuration/ConfigurationShortcuts.qml:28
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
+msgstr "Phím tắt"
+
+#: contents/configuration/ConfigurationShortcuts.qml:38
 msgid "This shortcut will activate the applet as though it had been clicked."
 msgstr "Phím tắt này sẽ kích hoạt tiểu ứng dụng như thể nó được bấm vào."
 
@@ -331,11 +346,11 @@ msgstr "Độ cao bảng:"
 msgid "Close"
 msgstr "Đóng"
 
-#: contents/explorer/AppletAlternatives.qml:83
+#: contents/explorer/AppletAlternatives.qml:84
 msgid "Alternative Widgets"
 msgstr "Phụ kiện thay thế"
 
-#: contents/explorer/AppletAlternatives.qml:174
+#: contents/explorer/AppletAlternatives.qml:175
 msgid "Switch"
 msgstr "Chuyển"
 
@@ -383,3 +398,8 @@ msgstr "Không có phụ kiện nào khớp với các từ khoá tìm kiếm"
 #: contents/explorer/WidgetExplorer.qml:349
 msgid "No widgets available"
 msgstr "Không có phụ kiện nào"
+
+#, fuzzy
+#~| msgid "Apply Settings"
+#~ msgid "Settings"
+#~ msgstr "Áp dụng thiết lập"

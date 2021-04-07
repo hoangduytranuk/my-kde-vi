@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-08 03:16+0100\n"
+"POT-Creation-Date: 2021-03-28 13:56+0000\n"
 "PO-Revision-Date: 2007-06-24 15:01+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -536,8 +536,8 @@ msgctxt "@info:tooltip"
 msgid "Click to choose Faint color"
 msgstr "Nhấn vào để gửi thư cho « %1 »."
 
-#. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
 #. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#. i18n: ectx: property (text), widget (QLabel, discriptionLabel)
 #: colorscheme/ColorSchemeEditor.ui:31 KeyBindingEditor.ui:31
 #, kde-format
 msgid "Description:"
@@ -617,8 +617,8 @@ msgstr ""
 msgid "Copy Input"
 msgstr "Kết nhập"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: CopyInputDialog.ui:19 KeyBindingEditor.ui:41
 #, kde-format
 msgid "Filter:"
@@ -651,7 +651,7 @@ msgstr ""
 msgid "Copy Location"
 msgstr "Tuỳ chọn con chạy"
 
-#: filterHotSpots/FileFilterHotspot.cpp:190 session/SessionController.cpp:1824
+#: filterHotSpots/FileFilterHotspot.cpp:190 session/SessionController.cpp:1842
 #, kde-format
 msgid "open with"
 msgstr ""
@@ -753,9 +753,9 @@ msgstr ""
 msgid "Add"
 msgstr "Thêm"
 
+#. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeKeyBindingsButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeColorSchemeButton)
-#. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
 #: KeyBindingEditor.ui:72 widgets/EditProfileAppearancePage.ui:89
 #: widgets/EditProfileKeyboardPage.ui:95
 #, kde-format
@@ -1226,18 +1226,18 @@ msgctxt "Name of the default/builtin profile"
 msgid "Default"
 msgstr "Làm mặc định"
 
-#: profile/ProfileList.cpp:35
+#: profile/ProfileList.cpp:37
 #, fuzzy, kde-format
 #| msgid "Delete Profile"
 msgid "Default profile"
 msgstr "Xoá hồ sơ"
 
-#: profile/ProfileManager.cpp:332
+#: profile/ProfileManager.cpp:294
 #, kde-format
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr ""
 
-#: profile/ProfileManager.cpp:387
+#: profile/ProfileManager.cpp:328
 #, kde-format
 msgid ""
 "The name \"Default\" is reserved for the built-in fallback profile;\n"
@@ -1699,45 +1699,45 @@ msgstr ""
 msgid "User Signal &2"
 msgstr ""
 
-#: session/SessionController.cpp:996
+#: session/SessionController.cpp:1014
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: session/SessionController.cpp:999
+#: session/SessionController.cpp:1017
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: session/SessionController.cpp:1005 session/SessionController.cpp:1035
+#: session/SessionController.cpp:1023 session/SessionController.cpp:1053
 #, kde-format
 msgid "Confirm Close"
 msgstr ""
 
-#: session/SessionController.cpp:1028
+#: session/SessionController.cpp:1046
 #, kde-format
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
 msgstr ""
 
-#: session/SessionController.cpp:1031
+#: session/SessionController.cpp:1049
 #, kde-format
 msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
 "kill it by force?"
 msgstr ""
 
-#: session/SessionController.cpp:1865
+#: session/SessionController.cpp:1883
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: session/SessionController.cpp:1875
+#: session/SessionController.cpp:1893
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -1745,20 +1745,20 @@ msgid ""
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: session/SessionController.cpp:1886
+#: session/SessionController.cpp:1904
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: session/SessionController.cpp:1896
+#: session/SessionController.cpp:1914
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: session/SessionController.cpp:1902
+#: session/SessionController.cpp:1920
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr ""
@@ -2131,13 +2131,6 @@ msgid ""
 "a change to how these are handled.</body></html>"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:138
-#, fuzzy, kde-format
-#| msgid "New Profile..."
-msgctxt "@item This will be used as part of the file name"
-msgid "New Profile"
-msgstr "Hồ sơ mới..."
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
 #: settings/ProfileSettings.ui:39
 #, fuzzy, kde-format
@@ -2303,8 +2296,8 @@ msgstr ""
 msgid "Use user-defined stylesheet:"
 msgstr "Dùng màu riêng cố định cho con chạy"
 
-#. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_TabBarUserStyleSheetFile)
 #. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_scrollbackUseSpecifiedLocationDirectory)
+#. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_TabBarUserStyleSheetFile)
 #: settings/TabBarSettings.ui:258 settings/TemporaryFilesSettings.ui:53
 #, kde-format
 msgid "text/css"
@@ -3231,7 +3224,7 @@ msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "Cấp cao"
 
-#: widgets/EditProfileDialog.cpp:304
+#: widgets/EditProfileDialog.cpp:294
 #, kde-format
 msgid ""
 "<p>Konsole does not have permission to save this profile to:<br /> \"%1\"</"
@@ -3240,29 +3233,29 @@ msgid ""
 "settings to a new profile.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:325
+#: widgets/EditProfileDialog.cpp:315
 #, kde-format
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:333
+#: widgets/EditProfileDialog.cpp:323
 #, kde-format
 msgid "<p>A profile with this name already exists.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:367
+#: widgets/EditProfileDialog.cpp:357
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "Sửa hồ sơ « %1 »"
 
-#: widgets/EditProfileDialog.cpp:372
+#: widgets/EditProfileDialog.cpp:362
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "Sửa hồ sơ « %1 »"
 
-#: widgets/EditProfileDialog.cpp:461
+#: widgets/EditProfileDialog.cpp:451
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3271,7 +3264,7 @@ msgid " column"
 msgid_plural " columns"
 msgstr[0] ""
 
-#: widgets/EditProfileDialog.cpp:462
+#: widgets/EditProfileDialog.cpp:452
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3280,71 +3273,71 @@ msgid " row"
 msgid_plural " rows"
 msgstr[0] ""
 
-#: widgets/EditProfileDialog.cpp:473
+#: widgets/EditProfileDialog.cpp:463
 #, kde-format
 msgid "System Bell"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:473
+#: widgets/EditProfileDialog.cpp:463
 #, fuzzy, kde-format
 #| msgid "&Paste"
 msgid "System Notifications"
 msgstr "&Dán"
 
-#: widgets/EditProfileDialog.cpp:474
+#: widgets/EditProfileDialog.cpp:464
 #, fuzzy, kde-format
 #| msgid "Visual effects"
 msgid "Visual Bell"
 msgstr "Hiệu ứng hiển thị"
 
-#: widgets/EditProfileDialog.cpp:474
+#: widgets/EditProfileDialog.cpp:464
 #, kde-format
 msgid "Ignore Bell Events"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:525
+#: widgets/EditProfileDialog.cpp:515
 #, kde-format
 msgid "Edit Environment"
 msgstr "Sửa môi trường"
 
-#: widgets/EditProfileDialog.cpp:526
+#: widgets/EditProfileDialog.cpp:516
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:560
+#: widgets/EditProfileDialog.cpp:550
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] ""
 
-#: widgets/EditProfileDialog.cpp:653
+#: widgets/EditProfileDialog.cpp:643
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "Chọn thư mục đầu tiên"
 
-#: widgets/EditProfileDialog.cpp:1189
+#: widgets/EditProfileDialog.cpp:1179
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1374
+#: widgets/EditProfileDialog.cpp:1364
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1380
+#: widgets/EditProfileDialog.cpp:1370
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1788
+#: widgets/EditProfileDialog.cpp:1778
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -3361,7 +3354,7 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1801
+#: widgets/EditProfileDialog.cpp:1791
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""
@@ -4316,6 +4309,12 @@ msgstr "Tha&y tên thẻ..."
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Đón&g thẻ"
+
+#, fuzzy
+#~| msgid "New Profile..."
+#~ msgctxt "@item This will be used as part of the file name"
+#~ msgid "New Profile"
+#~ msgstr "Hồ sơ mới..."
 
 #, fuzzy
 #~| msgid "Edit the selected profile"

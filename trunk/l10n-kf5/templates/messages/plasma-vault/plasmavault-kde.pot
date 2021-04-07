@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-vault\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-15 03:23+0100\n"
+"POT-Creation-Date: 2021-04-07 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: fileitemplugin/plasmavaultfileitemaction.cpp:82
+#: fileitemplugin/plasmavaultfileitemaction.cpp:73
 #, kde-format
 msgctxt "@action Action to unmount a vault"
 msgid "Close this Plasma Vault"
 msgstr ""
 
-#: fileitemplugin/plasmavaultfileitemaction.cpp:83
+#: fileitemplugin/plasmavaultfileitemaction.cpp:74
 #, kde-format
 msgctxt "@action Action to mount a vault"
 msgid "Open this Plasma Vault"
 msgstr ""
 
-#: kded/engine/backend_p.cpp:63
+#: kded/engine/backend_p.cpp:46
 #, kde-format
 msgctxt "formatting the message for a command, as in encfs: not found"
 msgid "%1: %2"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:104
-#: kded/engine/backends/encfs/encfsbackend.cpp:60
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:86
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:92
+#: kded/engine/backends/encfs/encfsbackend.cpp:51
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:76
 #, kde-format
 msgid "Failed to create directories, check your permissions"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:145
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:130
 #, kde-format
 msgid "Upgrade the vault?"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:146
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:131
 #, kde-format
 msgid ""
 "This vault was created with an older version of cryfs and needs to be "
@@ -59,176 +59,204 @@ msgid ""
 "Do you want to perform the upgrade now?"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:150
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:135
 #, kde-format
 msgid ""
 "The vault needs to be upgraded before it can be opened with this version of "
 "cryfs"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:163
-#: kded/engine/fusebackend_p.cpp:45
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:149
+#: kded/engine/fusebackend_p.cpp:42
 #, kde-format
 msgid "The mount point directory is not empty, refusing to open the vault"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:171
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:157
 #, kde-format
 msgid "You entered the wrong password"
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:175
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:161
 #, kde-format
 msgid "The installed version of cryfs is too old to open this vault."
 msgstr ""
 
-#: kded/engine/backends/cryfs/cryfsbackend.cpp:182
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:129
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:168
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:116
 #, kde-format
 msgid "Unable to perform the operation (error code %1)."
 msgstr ""
 
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:117
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:106
 #, kde-format
 msgid "The cipher directory is not empty, cannot initialise the vault."
 msgstr ""
 
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:121
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:109
 #, kde-format
 msgid "The password is empty, cannot initialise the vault."
 msgstr ""
 
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:125
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:112
 #, kde-format
 msgid ""
 "Cannot write gocryptfs.conf inside cipher directory, check your permissions."
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:54
+#: kded/engine/fusebackend_p.cpp:51
 #, kde-format
 msgid "Unable to perform the operation"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:110
+#: kded/engine/fusebackend_p.cpp:88
 #, kde-format
 msgid "This directory already contains encrypted data"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:114
+#: kded/engine/fusebackend_p.cpp:91
 #, kde-format
 msgid ""
 "You need to select empty directories for the encrypted storage and for the "
 "mount point"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:132
+#: kded/engine/fusebackend_p.cpp:106
 #, kde-format
 msgid "This directory doesn't contain encrypted data"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:136
+#: kded/engine/fusebackend_p.cpp:110
 #, kde-format
 msgid "You need to select an empty directory for the mount point"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:151
+#: kded/engine/fusebackend_p.cpp:120
 #, kde-format
 msgid "Device is already open"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:167
+#: kded/engine/fusebackend_p.cpp:128
 #, kde-format
 msgid "Device is not open"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:214
+#: kded/engine/fusebackend_p.cpp:157
 #, kde-format
 msgid "Failed to execute"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:228
+#: kded/engine/fusebackend_p.cpp:169
 #, kde-format
 msgid "Unable to detect the version"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:240
+#: kded/engine/fusebackend_p.cpp:177
 #, kde-format
 msgid "Wrong version installed. The required version is %1.%2.%3"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:249
+#: kded/engine/fusebackend_p.cpp:183
 #, kde-format
 msgid "Correct version found"
 msgstr ""
 
-#: kded/engine/vault.cpp:237
+#: kded/engine/vault.cpp:238
 #, kde-format
 msgid "Unknown device"
 msgstr ""
 
-#: kded/engine/vault.cpp:267
+#: kded/engine/vault.cpp:268
 #, kde-format
 msgid "Configured backend does not exist: %1"
 msgstr ""
 
-#: kded/engine/vault.cpp:272
+#: kded/engine/vault.cpp:273
 #, kde-format
 msgid "Mount point is not specified"
 msgstr ""
 
-#: kded/engine/vault.cpp:277
+#: kded/engine/vault.cpp:278
 #, kde-format
 msgid "Cannot create the mount point"
 msgstr ""
 
-#: kded/engine/vault.cpp:282
+#: kded/engine/vault.cpp:283
 #, kde-format
 msgid "Configured backend cannot be instantiated: %1"
 msgstr ""
 
-#: kded/engine/vault.cpp:397
+#: kded/engine/vault.cpp:398
 #, kde-format
 msgid "This device is already registered. Cannot recreate it."
 msgstr ""
 
-#: kded/engine/vault.cpp:402 kded/engine/vault.cpp:436
+#: kded/engine/vault.cpp:403 kded/engine/vault.cpp:437
 #, kde-format
 msgid "Unknown error; unable to create the backend."
 msgstr ""
 
-#: kded/engine/vault.cpp:431
+#: kded/engine/vault.cpp:432
 #, kde-format
 msgid "This device is not initialized. Cannot import it."
 msgstr ""
 
-#: kded/engine/vault.cpp:462
+#: kded/engine/vault.cpp:463
 #, kde-format
 msgid "Cannot open an unknown vault."
 msgstr ""
 
-#: kded/engine/vault.cpp:479
+#: kded/engine/vault.cpp:480
 #, kde-format
 msgid "The vault is unknown; cannot close it."
 msgstr ""
 
-#: kded/engine/vault.cpp:494 kded/engine/vault.cpp:509
+#: kded/engine/vault.cpp:495 kded/engine/vault.cpp:510
 #, kde-format
 msgid "Unable to close the vault because an application is using it"
 msgstr ""
 
-#: kded/engine/vault.cpp:532
+#: kded/engine/vault.cpp:533
 #, kde-format
 msgid "Unable to close the vault because it is being used by %1"
 msgstr ""
 
-#: kded/engine/vault.cpp:556
+#: kded/engine/vault.cpp:557
 #, kde-format
 msgid "Failed to fetch the list of applications using this vault"
 msgstr ""
 
-#: kded/engine/vault.cpp:592
+#: kded/engine/vault.cpp:615
+#, kde-format
+msgid "Cannot delete the vault; there are other vaults with overlapping paths."
+msgstr ""
+
+#: kded/engine/vault.cpp:620
 #, kde-format
 msgid "The vault is unknown; cannot dismantle it."
+msgstr ""
+
+#: kded/engine/vault.cpp:623
+#, kde-format
+msgid "Are you sure you want to delete this vault"
+msgstr ""
+
+#: kded/engine/vault.cpp:624
+#, kde-format
+msgid ""
+"This operation will irreversibly delete the following:\n"
+"%1\n"
+"%2"
+msgstr ""
+
+#: kded/engine/vault.cpp:626
+#, kde-format
+msgid "Delete operation cancelled"
+msgstr ""
+
+#: kded/service.cpp:422
+#, kde-format
+msgid "Error deleting vault"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -247,7 +275,7 @@ msgstr ""
 msgid "Limit to the selected activities:"
 msgstr ""
 
-#: kded/ui/backendchooserwidget.cpp:79
+#: kded/ui/backendchooserwidget.cpp:74
 #, kde-format
 msgid "The specified backend is not available"
 msgstr ""
@@ -276,7 +304,7 @@ msgstr ""
 msgid "Choose the encryption system you want to use for this vault:"
 msgstr ""
 
-#: kded/ui/cryfscypherchooserwidget.cpp:60
+#: kded/ui/cryfscypherchooserwidget.cpp:59
 #, kde-format
 msgid "Use the default cipher"
 msgstr ""
@@ -331,7 +359,7 @@ msgstr ""
 msgid "Details..."
 msgstr ""
 
-#: kded/ui/mountdialog.cpp:39
+#: kded/ui/mountdialog.cpp:38
 #, kde-format
 msgid ""
 "Command output:\n"
@@ -340,12 +368,12 @@ msgid ""
 "Error output: %2"
 msgstr ""
 
-#: kded/ui/mountdialog.cpp:44
+#: kded/ui/mountdialog.cpp:43
 #, kde-format
 msgid "Error details"
 msgstr ""
 
-#: kded/ui/mountdialog.cpp:85
+#: kded/ui/mountdialog.cpp:83
 #, kde-format
 msgid "Failed to open: %1"
 msgstr ""
@@ -399,47 +427,47 @@ msgid ""
 "password, your data is as good as gone."
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:48
+#: kded/ui/vaultconfigurationdialog.cpp:47
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:53
+#: kded/ui/vaultconfigurationdialog.cpp:49
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:58
+#: kded/ui/vaultconfigurationdialog.cpp:51
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:65
-#: kded/ui/vaultcreationwizard.cpp:36 kded/ui/vaultimportingwizard.cpp:36
+#: kded/ui/vaultconfigurationdialog.cpp:53
+#: kded/ui/vaultcreationwizard.cpp:34 kded/ui/vaultimportingwizard.cpp:34
 #, kde-format
 msgid "EncFS"
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:69
-#: kded/ui/vaultcreationwizard.cpp:68 kded/ui/vaultimportingwizard.cpp:52
+#: kded/ui/vaultconfigurationdialog.cpp:55
+#: kded/ui/vaultcreationwizard.cpp:55 kded/ui/vaultimportingwizard.cpp:40
 #, kde-format
 msgid "CryFS"
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:73
-#: kded/ui/vaultcreationwizard.cpp:101 kded/ui/vaultimportingwizard.cpp:68
+#: kded/ui/vaultconfigurationdialog.cpp:57
+#: kded/ui/vaultcreationwizard.cpp:75 kded/ui/vaultimportingwizard.cpp:46
 #, kde-format
 msgid "gocryptfs"
 msgstr ""
 
-#: kded/ui/vaultconfigurationdialog.cpp:166
+#: kded/ui/vaultconfigurationdialog.cpp:142
 #, kde-format
 msgid "Configure"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, VaultConfigurationDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, VaultImportingWizard)
 #. i18n: ectx: property (windowTitle), widget (QDialog, VaultCreationWizard)
-#. i18n: ectx: property (windowTitle), widget (QDialog, VaultConfigurationDialog)
 #: kded/ui/vaultconfigurationdialog.ui:19
 #: kded/ui/vaultcreationwizard.ui:19 kded/ui/vaultimportingwizard.ui:19
 #, kde-format
@@ -458,7 +486,7 @@ msgstr ""
 msgid "Close the vault"
 msgstr ""
 
-#: kded/ui/vaultcreationwizard.cpp:39
+#: kded/ui/vaultcreationwizard.cpp:35
 #, kde-format
 msgid ""
 "<b>Security notice:</b>\n"
@@ -486,7 +514,7 @@ msgid ""
 "htm'>defuse.ca/audits/encfs.htm</a> for more information."
 msgstr ""
 
-#: kded/ui/vaultcreationwizard.cpp:71
+#: kded/ui/vaultcreationwizard.cpp:56
 #, kde-format
 msgid ""
 "<b>Security notice:</b>\n"
@@ -507,7 +535,7 @@ msgid ""
 "                             which confirms this."
 msgstr ""
 
-#: kded/ui/vaultcreationwizard.cpp:104
+#: kded/ui/vaultcreationwizard.cpp:76
 #, kde-format
 msgid ""
 "<b>Security notice:</b>\n"
@@ -529,7 +557,7 @@ msgid ""
 "htm'>defuse.ca/audits/gocryptfs.htm</a> for more information."
 msgstr ""
 
-#: kded/ui/vaultcreationwizard.cpp:179
+#: kded/ui/vaultcreationwizard.cpp:138
 #, kde-format
 msgctxt "@title:window"
 msgid "Create a New Vault"
@@ -555,18 +583,18 @@ msgstr ""
 msgid "Delete this vault"
 msgstr ""
 
-#: kded/ui/vaultimportingwizard.cpp:88
+#: kded/ui/vaultimportingwizard.cpp:55
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: kded/ui/vaultimportingwizard.cpp:128
+#: kded/ui/vaultimportingwizard.cpp:93
 #, kde-format
 msgctxt "@title:window"
 msgid "Import an Existing Vault"
 msgstr ""
 
-#: kded/ui/vaultwizardbase.h:36 kded/ui/vaultwizardbase.h:89
+#: kded/ui/vaultwizardbase.h:39 kded/ui/vaultwizardbase.h:90
 #, kde-format
 msgid "Next"
 msgstr ""
@@ -592,32 +620,32 @@ msgstr ""
 msgid "Create a New Vault..."
 msgstr ""
 
-#: plasma/package/contents/ui/VaultItem.qml:27
+#: plasma/package/contents/ui/VaultItem.qml:28
 #, kde-format
 msgid "Lock Vault"
 msgstr ""
 
-#: plasma/package/contents/ui/VaultItem.qml:27
+#: plasma/package/contents/ui/VaultItem.qml:28
 #, kde-format
 msgid "Unlock and Open"
 msgstr ""
 
-#: plasma/package/contents/ui/VaultItem.qml:42
+#: plasma/package/contents/ui/VaultItem.qml:43
 #, kde-format
 msgid "Show in File Manager"
 msgstr ""
 
-#: plasma/package/contents/ui/VaultItem.qml:49
+#: plasma/package/contents/ui/VaultItem.qml:50
 #, kde-format
 msgid "Forcefully Lock Vault"
 msgstr ""
 
-#: plasma/package/contents/ui/VaultItem.qml:49
+#: plasma/package/contents/ui/VaultItem.qml:50
 #, kde-format
 msgid "Unlock Vault"
 msgstr ""
 
-#: plasma/package/contents/ui/VaultItem.qml:60
+#: plasma/package/contents/ui/VaultItem.qml:61
 #, kde-format
 msgid "Configure Vault..."
 msgstr ""

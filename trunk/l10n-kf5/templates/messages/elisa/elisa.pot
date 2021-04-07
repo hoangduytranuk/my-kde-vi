@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-15 03:04+0100\n"
+"POT-Creation-Date: 2021-03-28 16:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26,45 +26,6 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
-
-#: android/AlbumsView.qml:25 models/viewsmodel.cpp:109
-#: qml/SettingsForm.qml:149 viewslistdata.cpp:56 viewslistdata.cpp:558
-#, kde-format
-msgctxt "Title of the view of all albums"
-msgid "Albums"
-msgstr ""
-
-#: android/ArtistsView.qml:25 models/viewsmodel.cpp:115
-#: qml/SettingsForm.qml:150 viewslistdata.cpp:71 viewslistdata.cpp:577
-#, kde-format
-msgctxt "Title of the view of all artists"
-msgid "Artists"
-msgstr ""
-
-#: android/ElisaMainWindow.qml:22 android/ElisaMainWindow.qml:30
-#: main.cpp:104 qml/ElisaMainWindow.qml:56 qml/mobile/MobileSidebar.qml:20
-#, kde-format
-msgid "Elisa"
-msgstr ""
-
-#: android/ElisaMainWindow.qml:72
-#, kde-format
-msgctxt "message of passive notification when playlist load failed"
-msgid "Load of playlist failed"
-msgstr ""
-
-#: android/GenresView.qml:25 models/viewsmodel.cpp:112
-#: qml/SettingsForm.qml:152 viewslistdata.cpp:105 viewslistdata.cpp:596
-#, kde-format
-msgctxt "Title of the view of all genres"
-msgid "Genres"
-msgstr ""
-
-#: android/TracksView.qml:25 qml/SettingsForm.qml:151 viewslistdata.cpp:86
-#, kde-format
-msgctxt "Title of the view of all tracks"
-msgid "Tracks"
 msgstr ""
 
 #: databaseinterface.cpp:7031 databaseinterface.cpp:8068
@@ -108,47 +69,52 @@ msgstr ""
 msgid "Play/pause"
 msgstr ""
 
-#: main.cpp:106
+#: main.cpp:106 qml/ElisaMainWindow.qml:56 qml/mobile/MobileSidebar.qml:20
 #, kde-format
-msgid "A Simple Music Player made with love by the KDE community"
+msgid "Elisa"
 msgstr ""
 
 #: main.cpp:108
 #, kde-format
-msgid "(c) 2015-2020, Elisa contributors"
+msgid "A Simple Music Player made with love by the KDE community"
 msgstr ""
 
 #: main.cpp:110
 #, kde-format
-msgid "Creator"
+msgid "(c) 2015-2020, Elisa contributors"
 msgstr ""
 
-#: main.cpp:111
+#: main.cpp:112
 #, kde-format
-msgid "Author"
+msgid "Creator"
 msgstr ""
 
 #: main.cpp:113
 #, kde-format
-msgid "Concept and design work"
-msgstr ""
-
-#: main.cpp:114
-#, kde-format
-msgid "Localization support"
+msgid "Author"
 msgstr ""
 
 #: main.cpp:115
 #, kde-format
-msgid "Right to left support in interface"
+msgid "Concept and design work"
 msgstr ""
 
 #: main.cpp:116
 #, kde-format
-msgid "Various improvements to the interface"
+msgid "Localization support"
 msgstr ""
 
 #: main.cpp:117
+#, kde-format
+msgid "Right to left support in interface"
+msgstr ""
+
+#: main.cpp:118
+#, kde-format
+msgid "Various improvements to the interface"
+msgstr ""
+
+#: main.cpp:119
 #, kde-format
 msgid "Support for online radios"
 msgstr ""
@@ -295,6 +261,27 @@ msgstr ""
 #, kde-format
 msgctxt "Image address for radio metadata view"
 msgid "Image Address"
+msgstr ""
+
+#: models/viewsmodel.cpp:109 qml/SettingsForm.qml:149 viewslistdata.cpp:56
+#: viewslistdata.cpp:558
+#, kde-format
+msgctxt "Title of the view of all albums"
+msgid "Albums"
+msgstr ""
+
+#: models/viewsmodel.cpp:112 qml/SettingsForm.qml:152 viewslistdata.cpp:105
+#: viewslistdata.cpp:596
+#, kde-format
+msgctxt "Title of the view of all genres"
+msgid "Genres"
+msgstr ""
+
+#: models/viewsmodel.cpp:115 qml/SettingsForm.qml:150 viewslistdata.cpp:71
+#: viewslistdata.cpp:577
+#, kde-format
+msgctxt "Title of the view of all artists"
+msgid "Artists"
 msgstr ""
 
 #: powermanagementinterface.cpp:175 powermanagementinterface.cpp:218
@@ -585,37 +572,37 @@ msgctxt "Message when playlist load failed"
 msgid "Loading failed"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:109 qml/MediaPlayListView.qml:491
+#: qml/MediaPlayListView.qml:109 qml/MediaPlayListView.qml:492
 #, kde-format
 msgctxt "Playlist cleared"
 msgid "Playlist cleared"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:144
+#: qml/MediaPlayListView.qml:145
 #, kde-format
 msgctxt "Show currently played track inside playlist"
 msgid "Show Current Track"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:156
+#: qml/MediaPlayListView.qml:157
 #, kde-format
 msgctxt "Save a playlist file"
 msgid "Save Playlist..."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:168
+#: qml/MediaPlayListView.qml:169
 #, kde-format
 msgctxt "Load a playlist file"
 msgid "Load Playlist..."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:178
+#: qml/MediaPlayListView.qml:179
 #, kde-format
 msgctxt "Remove all tracks from play list"
 msgid "Clear Playlist"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:336
+#: qml/MediaPlayListView.qml:337
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -623,30 +610,30 @@ msgid ""
 "browse your music using the views on the left."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:462
+#: qml/MediaPlayListView.qml:463
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Your playlist is empty."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:495
+#: qml/MediaPlayListView.qml:496
 #, kde-format
 msgid "Undo"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:510
+#: qml/MediaPlayListView.qml:513
 #, kde-format
 msgid "%1 track"
 msgid_plural "%1 tracks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/MediaPlayListView.qml:519
+#: qml/MediaPlayListView.qml:522
 #, kde-format
 msgid "Last track"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:519
+#: qml/MediaPlayListView.qml:522
 #, kde-format
 msgctxt "Number of remaining tracks in a playlist of songs"
 msgid "%1 remaining"
@@ -654,13 +641,13 @@ msgid_plural "%1 remaining"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/MediaPlayListView.qml:530
+#: qml/MediaPlayListView.qml:533
 #, kde-format
 msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
 msgid "Playlist (*.m3u*)"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:536
+#: qml/MediaPlayListView.qml:539
 #, kde-format
 msgctxt "Message when saving a playlist failed"
 msgid "Saving failed"
@@ -806,14 +793,14 @@ msgctxt "menu category"
 msgid "Controls"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:73
-#, kde-format
-msgid "Pause"
-msgstr ""
-
 #: qml/NativeGlobalMenu.qml:73 qml/NavigationActionBar.qml:123
 #, kde-format
 msgid "Play"
+msgstr ""
+
+#: qml/NativeGlobalMenu.qml:73
+#, kde-format
+msgid "Pause"
 msgstr ""
 
 #: qml/NativeGlobalMenu.qml:80
@@ -1008,6 +995,12 @@ msgstr ""
 #, kde-format
 msgctxt "Title of the view of frequently played tracks"
 msgid "Frequently Played"
+msgstr ""
+
+#: qml/SettingsForm.qml:151 viewslistdata.cpp:86
+#, kde-format
+msgctxt "Title of the view of all tracks"
+msgid "Tracks"
 msgstr ""
 
 #: qml/SettingsForm.qml:153 viewslistdata.cpp:120

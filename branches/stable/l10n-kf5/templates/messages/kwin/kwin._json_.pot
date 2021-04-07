@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-06 03:29+0000\n"
+"POT-Creation-Date: 2021-04-06 01:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -11,19 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: plugins/platforms/virtual/virtual.json
+#: plugins/platforms/drm/drm.json
 msgctxt "Name"
-msgid "virtual"
-msgstr ""
-
-#: plugins/platforms/x11/windowed/x11.json
-msgctxt "Name"
-msgid "x11"
-msgstr ""
-
-#: plugins/platforms/x11/standalone/x11.json
-msgctxt "Name"
-msgid "x11-standalone"
+msgid "drm"
 msgstr ""
 
 #: plugins/platforms/fbdev/fbdev.json
@@ -31,9 +21,9 @@ msgctxt "Name"
 msgid "framebuffer"
 msgstr ""
 
-#: plugins/platforms/drm/drm.json
+#: plugins/platforms/virtual/virtual.json
 msgctxt "Name"
-msgid "drm"
+msgid "virtual"
 msgstr ""
 
 #: plugins/platforms/wayland/wayland.json
@@ -41,14 +31,19 @@ msgctxt "Name"
 msgid "wayland"
 msgstr ""
 
+#: plugins/platforms/x11/standalone/x11.json
+msgctxt "Name"
+msgid "x11-standalone"
+msgstr ""
+
+#: plugins/platforms/x11/windowed/x11.json
+msgctxt "Name"
+msgid "x11"
+msgstr ""
+
 #: plugins/scenes/opengl/opengl.json
 msgctxt "Name"
 msgid "SceneOpenGL"
-msgstr ""
-
-#: plugins/scenes/xrender/xrender.json
-msgctxt "Name"
-msgid "SceneXRender"
 msgstr ""
 
 #: plugins/scenes/qpainter/qpainter.json
@@ -56,24 +51,9 @@ msgctxt "Name"
 msgid "SceneQPainter"
 msgstr ""
 
-#: plugins/platforms/virtual/virtual.json
-msgctxt "Description"
-msgid "Render to a virtual framebuffer."
-msgstr ""
-
-#: plugins/platforms/x11/windowed/x11.json
-msgctxt "Description"
-msgid "Render to a nested window on X11 windowing system."
-msgstr ""
-
-#: plugins/platforms/x11/standalone/x11.json
-msgctxt "Description"
-msgid "Platform plugin for standalone x11 in kwin_x11."
-msgstr ""
-
-#: plugins/platforms/fbdev/fbdev.json
-msgctxt "Description"
-msgid "Render to framebuffer."
+#: plugins/scenes/xrender/xrender.json
+msgctxt "Name"
+msgid "SceneXRender"
 msgstr ""
 
 #: plugins/platforms/drm/drm.json
@@ -81,9 +61,29 @@ msgctxt "Description"
 msgid "Render through drm node."
 msgstr ""
 
+#: plugins/platforms/fbdev/fbdev.json
+msgctxt "Description"
+msgid "Render to framebuffer."
+msgstr ""
+
+#: plugins/platforms/virtual/virtual.json
+msgctxt "Description"
+msgid "Render to a virtual framebuffer."
+msgstr ""
+
 #: plugins/platforms/wayland/wayland.json
 msgctxt "Description"
 msgid "Render to a nested window on running Wayland compositor."
+msgstr ""
+
+#: plugins/platforms/x11/standalone/x11.json
+msgctxt "Description"
+msgid "Platform plugin for standalone x11 in kwin_x11."
+msgstr ""
+
+#: plugins/platforms/x11/windowed/x11.json
+msgctxt "Description"
+msgid "Render to a nested window on X11 windowing system."
 msgstr ""
 
 #: plugins/scenes/opengl/opengl.json
@@ -91,12 +91,12 @@ msgctxt "Description"
 msgid "KWin Compositor plugin rendering through OpenGL"
 msgstr ""
 
-#: plugins/scenes/xrender/xrender.json
-msgctxt "Description"
-msgid "KWin Compositor plugin rendering through XRender"
-msgstr ""
-
 #: plugins/scenes/qpainter/qpainter.json
 msgctxt "Description"
 msgid "KWin Compositor plugin rendering through QPainter"
+msgstr ""
+
+#: plugins/scenes/xrender/xrender.json
+msgctxt "Description"
+msgid "KWin Compositor plugin rendering through XRender"
 msgstr ""

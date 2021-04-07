@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewstuff\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-15 02:50+0100\n"
+"POT-Creation-Date: 2021-04-01 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -242,7 +242,7 @@ msgstr ""
 msgid "The installation of %1 failed to create the expected new directory %2"
 msgstr ""
 
-#: core/installation.cpp:506 core/installation.cpp:798
+#: core/installation.cpp:506 core/installation.cpp:805
 #, kde-format
 msgid "Installation of %1 failed: %2"
 msgstr ""
@@ -324,14 +324,22 @@ msgid ""
 "%3"
 msgstr ""
 
-#: core/installation.cpp:805
+#: core/installation.cpp:752
+#, kde-format
+msgid ""
+"The removal of %1 failed, as the installed file %2 could not be "
+"automatically removed. You can attempt to manually delete this file, if you "
+"believe this is an error."
+msgstr ""
+
+#: core/installation.cpp:812
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:810
+#: core/installation.cpp:817
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package is not a supported type "
@@ -339,21 +347,21 @@ msgid ""
 "package?)"
 msgstr ""
 
-#: core/installation.cpp:817
+#: core/installation.cpp:824
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain any "
 "useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:857
+#: core/installation.cpp:864
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the downloaded file %2 could not be "
 "automatically removed."
 msgstr ""
 
-#: core/installation.cpp:862
+#: core/installation.cpp:869
 #, kde-format
 msgid ""
 "The removal of %1 failed, due to the installed file not being a KPackage. "
@@ -361,14 +369,14 @@ msgid ""
 "you are certain that it is not needed."
 msgstr ""
 
-#: core/installation.cpp:870
+#: core/installation.cpp:877
 #, kde-format
 msgid ""
 "The removal of %1 failed, as there seems to somehow be more than one thing "
 "installed, which is not supposed to be possible for KPackage based entries."
 msgstr ""
 
-#: core/installation.cpp:903
+#: core/installation.cpp:910
 #, kde-format
 msgid ""
 "The uninstallation process failed to successfully run the command %1\n"
@@ -503,15 +511,15 @@ msgstr ""
 msgid "All Categories"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
 #: downloadwidget.ui:54 uploaddialog.ui:127
 #, kde-format
 msgid "Provider:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #: downloadwidget.ui:71 qtquick/qml/Page.qml:348 uploaddialog.ui:304
 #, kde-format
 msgid "Category:"
@@ -571,8 +579,8 @@ msgstr ""
 msgid "<a href=\"https://opendesktop.org\">Homepage</a>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
+#. i18n: ectx: property (text), widget (QPushButton, updateButton)
 #: downloadwidget.ui:572 ui/itemsgridviewdelegate.cpp:324
 #: ui/itemsviewdelegate.cpp:112 uploaddialog.ui:171
 #, kde-format
@@ -790,8 +798,8 @@ msgstr ""
 #, kde-format
 msgctxt ""
 "Status message to be shown when the entry is in the process of being "
-"installed"
-msgid "Currently installing the item %1 by %2. Please wait..."
+"installed OR uninstalled"
+msgid "Currently working on the item %1 by %2. Please wait..."
 msgstr ""
 
 #: qtquick/qml/EntryDetails.qml:66
@@ -1147,8 +1155,10 @@ msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:44
 #, kde-format
-msgctxt "Label for the busy indicator showing an item is being installed"
-msgid "Installing..."
+msgctxt ""
+"Label for the busy indicator showing an item is being installed OR "
+"uninstalled"
+msgid "Working..."
 msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:46
@@ -1194,7 +1204,7 @@ msgctxt ""
 msgid "(%1/%2)"
 msgstr ""
 
-#: qtquick/quickengine.cpp:158
+#: qtquick/quickengine.cpp:167
 #, kde-format
 msgctxt ""
 "An informational message which is shown to inform the user they are not "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-04 02:52+0100\n"
+"POT-Creation-Date: 2021-03-16 03:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -167,25 +167,6 @@ msgid ""
 "more details. Do you want to try repairing the backup files?"
 msgstr ""
 
-#: daemon/edexecutor.cpp:99 daemon/edexecutor.cpp:108 daemon/edexecutor.cpp:144
-#: daemon/fsexecutor.cpp:109 daemon/fsexecutor.cpp:141
-#, kde-kuit-format
-msgctxt "@title:window"
-msgid "Problem"
-msgstr ""
-
-#: daemon/edexecutor.cpp:100 daemon/fsexecutor.cpp:110
-#, kde-kuit-format
-msgctxt "notification"
-msgid "Invalid type of backup in configuration."
-msgstr ""
-
-#: daemon/edexecutor.cpp:109
-#, kde-kuit-format
-msgctxt "notification"
-msgid "You don't have write permission to backup destination."
-msgstr ""
-
 #: daemon/kupdaemon.cpp:155
 #, kde-format
 msgid "Continue"
@@ -229,19 +210,19 @@ msgctxt "status in tooltip"
 msgid "Backup destination available"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:260 daemon/planexecutor.cpp:70
+#: daemon/kupdaemon.cpp:260 daemon/planexecutor.cpp:72
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup status OK"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:267 daemon/planexecutor.cpp:72
+#: daemon/kupdaemon.cpp:267 daemon/planexecutor.cpp:74
 #, kde-format
 msgctxt "status in tooltip"
 msgid "New backup suggested"
 msgstr ""
 
-#: daemon/kupdaemon.cpp:274 daemon/planexecutor.cpp:74
+#: daemon/kupdaemon.cpp:274 daemon/planexecutor.cpp:76
 #, kde-format
 msgctxt "status in tooltip"
 msgid "New backup needed"
@@ -300,31 +281,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: daemon/planexecutor.cpp:60
+#: daemon/planexecutor.cpp:62
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Saving backup"
 msgstr ""
 
-#: daemon/planexecutor.cpp:62
+#: daemon/planexecutor.cpp:64
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Checking backup integrity"
 msgstr ""
 
-#: daemon/planexecutor.cpp:64
+#: daemon/planexecutor.cpp:66
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Repairing backups"
 msgstr ""
 
-#: daemon/planexecutor.cpp:94 daemon/planexecutor.cpp:108
+#: daemon/planexecutor.cpp:96 daemon/planexecutor.cpp:110
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you want to save a first backup now?"
 msgstr ""
 
-#: daemon/planexecutor.cpp:97
+#: daemon/planexecutor.cpp:99
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -332,7 +313,7 @@ msgid ""
 "Save a new backup now?"
 msgstr ""
 
-#: daemon/planexecutor.cpp:111
+#: daemon/planexecutor.cpp:113
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -340,64 +321,83 @@ msgid ""
 "Save a new backup now?"
 msgstr ""
 
-#: daemon/planexecutor.cpp:142 daemon/planexecutor.cpp:172
-#: daemon/planexecutor.cpp:267
+#: daemon/planexecutor.cpp:144 daemon/planexecutor.cpp:174
+#: daemon/planexecutor.cpp:315
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Yes"
 msgstr ""
 
-#: daemon/planexecutor.cpp:142 daemon/planexecutor.cpp:173
-#: daemon/planexecutor.cpp:268
+#: daemon/planexecutor.cpp:144 daemon/planexecutor.cpp:175
+#: daemon/planexecutor.cpp:316
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "No"
 msgstr ""
 
-#: daemon/planexecutor.cpp:164
+#: daemon/planexecutor.cpp:166
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Saving of Backup Failed"
 msgstr ""
 
-#: daemon/planexecutor.cpp:169 daemon/planexecutor.cpp:264
-#: daemon/planexecutor.cpp:298
+#: daemon/planexecutor.cpp:171 daemon/planexecutor.cpp:312
+#: daemon/planexecutor.cpp:346
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Show log file"
 msgstr ""
 
-#: daemon/planexecutor.cpp:176
+#: daemon/planexecutor.cpp:178
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Open settings"
 msgstr ""
 
-#: daemon/planexecutor.cpp:200
+#: daemon/planexecutor.cpp:202
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Backup Saved"
 msgstr ""
 
-#: daemon/planexecutor.cpp:201
+#: daemon/planexecutor.cpp:203
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Saving backup completed successfully."
 msgstr ""
 
-#: daemon/planexecutor.cpp:260
+#: daemon/planexecutor.cpp:255 daemon/planexecutor.cpp:262
+#: daemon/planexecutor.cpp:294
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Problem"
+msgstr ""
+
+#: daemon/planexecutor.cpp:256
+#, kde-kuit-format
+msgctxt "notification"
+msgid "You don't have write permission to backup destination."
+msgstr ""
+
+#: daemon/planexecutor.cpp:263
+#, kde-kuit-format
+msgctxt "notification"
+msgid "Invalid type of backup in configuration."
+msgstr ""
+
+#: daemon/planexecutor.cpp:308
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Integrity Check Completed"
 msgstr ""
 
-#: daemon/planexecutor.cpp:295
+#: daemon/planexecutor.cpp:343
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Repair Completed"
 msgstr ""
 
-#: daemon/planexecutor.cpp:326
+#: daemon/planexecutor.cpp:374
 #, kde-format
 msgid "Kup Backup System"
 msgstr ""
@@ -455,7 +455,7 @@ msgstr ""
 msgid "Path to the bup repository to be opened."
 msgstr ""
 
-#: filedigger/mergedvfs.cpp:97
+#: filedigger/mergedvfs.cpp:96
 #, kde-kuit-format
 msgctxt "@info messagebox"
 msgid ""
@@ -463,19 +463,19 @@ msgid ""
 "corrupted. Do you want to run an integrity check to test this?"
 msgstr ""
 
-#: filedigger/mergedvfs.cpp:145
+#: filedigger/mergedvfs.cpp:144
 #, kde-kuit-format
 msgctxt "added after folder name in some cases"
 msgid " (folder)"
 msgstr ""
 
-#: filedigger/mergedvfs.cpp:147
+#: filedigger/mergedvfs.cpp:146
 #, kde-kuit-format
 msgctxt "added after file name in some cases"
 msgid " (symlink)"
 msgstr ""
 
-#: filedigger/mergedvfs.cpp:149
+#: filedigger/mergedvfs.cpp:148
 #, kde-kuit-format
 msgctxt "added after file name in some cases"
 msgid " (file)"
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: plasmoid/contents/ui/FullRepresentation.qml:115
 #, kde-format
-msgid "Prune old backups..."
+msgid "Prune old backups"
 msgstr ""
 
 #: plasmoid/contents/ui/FullRepresentation.qml:120

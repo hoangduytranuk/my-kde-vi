@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxstitch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:38+0200\n"
+"POT-Creation-Date: 2021-03-28 13:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1028,14 +1028,14 @@ msgstr ""
 msgid "The floss name %1 was not found"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderStitchesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox, RenderStitchesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_StitchesColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, StitchesColumn)
-#. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, RenderStitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
 #: src/Document.cpp:1812 src/Document.cpp:2018 src/Element.cpp:520
 #: src/Element.cpp:555 src/ImportImageDlg.cpp:235 src/MainWindow.cpp:1500
 #: ui/EditorConfigPage.ui:72 ui/EditorConfigPage.ui:304
@@ -1045,20 +1045,20 @@ msgstr ""
 msgid "Stitches"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_ClothCountUnits)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_ClothCountUnits)
 #: src/Document.cpp:1816 src/Document.cpp:2022 ui/EditorConfigPage.ui:82
 #: ui/PatternConfigPage.ui:159 ui/PatternElement.ui:210
 #, kde-format
 msgid "CM"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_ClothCountUnits)
-#. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
 #: src/Document.cpp:1820 src/Document.cpp:2026 src/ImportImageDlg.cpp:241
 #: src/MainWindow.cpp:1514 ui/EditorConfigPage.ui:77 ui/FileProperties.ui:87
 #: ui/PatternConfigPage.ui:91 ui/PatternConfigPage.ui:154
@@ -1152,9 +1152,9 @@ msgstr ""
 msgid "Paste"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, SymbolColumn)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: ectx: property (text), widget (QCheckBox, SymbolColumn)
 #: src/Element.cpp:516 src/Element.cpp:539 ui/KeyElement.ui:377
 #: ui/PaletteManager.ui:150 ui/PaletteManager.ui:253
 #, kde-format
@@ -1228,8 +1228,8 @@ msgstr ""
 msgid "Import Image - Image Size %1 x %2 pixels"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
 #. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
 #: src/ImportImageDlg.cpp:247 src/MainWindow.cpp:1507 ui/FileProperties.ui:92
 #: ui/PatternConfigPage.ui:96
 #, kde-format
@@ -1242,14 +1242,14 @@ msgctxt "%1 width, %2 height and %3 units"
 msgid "%1 x %2 %3"
 msgstr ""
 
-#: src/ImportImageDlg.cpp:391 src/MainWindow.cpp:597
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
 #: src/ImportImageDlg.cpp:391
 #, kde-format
 msgid "Rendering preview"
+msgstr ""
+
+#: src/ImportImageDlg.cpp:391 src/MainWindow.cpp:597
+#, kde-format
+msgid "Cancel"
 msgstr ""
 
 #: src/ImportImageDlg.cpp:611
@@ -1570,8 +1570,8 @@ msgstr ""
 msgid "Pattern"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, PaletteProperties)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, PaletteProperties)
 #: src/MainWindow.cpp:962 src/MainWindow.cpp:1718 ui/FileProperties.ui:33
 #: ui/ImportImage.ui:42 ui/PaletteConfigPage.ui:20
 #, kde-format
@@ -1866,16 +1866,16 @@ msgstr ""
 msgid "New Floss"
 msgstr ""
 
+#: src/NewFlossDlg.cpp:84 src/PrintSetupDlg.cpp:477
+#, kde-format
+msgid "Overwrite"
+msgstr ""
+
 #: src/NewFlossDlg.cpp:84
 #, kde-format
 msgid ""
 "The floss name %1 is already used.\n"
 "Overwrite with the description and color selected."
-msgstr ""
-
-#: src/NewFlossDlg.cpp:84 src/PrintSetupDlg.cpp:477
-#, kde-format
-msgid "Overwrite"
 msgstr ""
 
 #: src/Page.cpp:294
@@ -2118,8 +2118,8 @@ msgstr ""
 msgid "Text Tool"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/CalibrateFloss.ui:20 ui/NewFloss.ui:20
 #, kde-format
 msgid "Scheme"
@@ -2357,9 +2357,9 @@ msgstr ""
 msgid "Font size"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/FileProperties.ui:41 ui/ImportImage.ui:48 ui/LibraryPatternProperties.ui:41
 #: ui/PaletteConfigPage.ui:26
 #, kde-format
@@ -2380,16 +2380,16 @@ msgstr ""
 msgid "Units"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/FileProperties.ui:100 ui/LibraryPatternProperties.ui:55
 #: ui/PatternConfigPage.ui:39
 #, kde-format
 msgid "Width"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ui/FileProperties.ui:123 ui/LibraryPatternProperties.ui:69
 #: ui/PatternConfigPage.ui:62
 #, kde-format
@@ -2458,8 +2458,8 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ui/ImageElement.ui:61 ui/KeyElement.ui:168 ui/PrinterConfigPage.ui:616
 #: ui/PrinterConfigPage.ui:786 ui/TextElement.ui:158
 #, kde-format
@@ -2475,10 +2475,10 @@ msgstr ""
 msgid "Show border"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ui/ImageElement.ui:74 ui/KeyElement.ui:183 ui/KeyElement.ui:255
 #: ui/TextElement.ui:174 ui/TextElement.ui:245
 #, kde-format
@@ -2486,18 +2486,13 @@ msgctxt "Label for color value"
 msgid "Color"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/ImageElement.ui:88 ui/KeyElement.ui:197 ui/TextElement.ui:191
 #, kde-format
 msgid "Line thickness"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, MarginTop)
-#. i18n: ectx: property (suffix), widget (QSpinBox, MarginLeft)
-#. i18n: ectx: property (suffix), widget (QSpinBox, MarginRight)
-#. i18n: ectx: property (suffix), widget (QSpinBox, MarginBottom)
-#. i18n: ectx: property (suffix), widget (QSpinBox, GridSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Page_MarginLeft)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Page_MarginRight)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Page_MarginTop)
@@ -2517,6 +2512,11 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_MarginTop)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_MarginBottom)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, BorderThickness)
+#. i18n: ectx: property (suffix), widget (QSpinBox, MarginTop)
+#. i18n: ectx: property (suffix), widget (QSpinBox, MarginLeft)
+#. i18n: ectx: property (suffix), widget (QSpinBox, MarginRight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, MarginBottom)
+#. i18n: ectx: property (suffix), widget (QSpinBox, GridSize)
 #: ui/ImageElement.ui:101 ui/KeyElement.ui:55 ui/KeyElement.ui:84
 #: ui/KeyElement.ui:113 ui/KeyElement.ui:142 ui/KeyElement.ui:213
 #: ui/PageProperties.ui:45 ui/PageProperties.ui:77 ui/PageProperties.ui:109
@@ -2541,15 +2541,15 @@ msgstr ""
 msgid "Import Configuration"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Import_UseMaximumColors)
 #. i18n: ectx: property (text), widget (QCheckBox, UseMaximumColors)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Import_UseMaximumColors)
 #: ui/ImportConfigPage.ui:20 ui/ImportImage.ui:71
 #, kde-format
 msgid "Maximum colors"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Import_UseFractionals)
 #. i18n: ectx: property (text), widget (QCheckBox, UseFractionals)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Import_UseFractionals)
 #: ui/ImportConfigPage.ui:40 ui/ImportImage.ui:325
 #, kde-format
 msgid "Use fractionals"
@@ -2567,8 +2567,8 @@ msgstr ""
 msgid "Set as default"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: ui/ImportImage.ui:185 ui/TextTool.ui:38
 #, kde-format
 msgid "Size"
@@ -2652,8 +2652,8 @@ msgstr ""
 msgid "Bottom margin in mm"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ui/KeyElement.ui:240 ui/TextElement.ui:229
 #, kde-format
 msgctxt "Groupbox title for background properties"
@@ -2671,8 +2671,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #. i18n: ectx: property (text), widget (QLabel, label_26)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: ui/KeyElement.ui:269 ui/PrinterConfigPage.ui:586 ui/PrinterConfigPage.ui:873
 #: ui/TextElement.ui:262
 #, kde-format
@@ -2685,8 +2685,8 @@ msgstr ""
 msgid "Element Content"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: ui/KeyElement.ui:301 ui/TextTool.ui:25
 #, kde-format
 msgid "Font"
@@ -2734,9 +2734,9 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_FlossNameColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, FlossNameColumn)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/KeyElement.ui:396 ui/NewFloss.ui:34 ui/PrinterConfigPage.ui:1005
 #, kde-format
 msgid "Floss name"
@@ -2769,8 +2769,8 @@ msgstr ""
 msgid "Library Configuration"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: property (text), widget (LibraryTreeWidget, LibraryTree)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: ui/LibraryConfigPage.ui:24 ui/LibraryManager.ui:37
 #, kde-format
 msgid "Libraries"
@@ -3019,8 +3019,8 @@ msgstr ""
 msgid "Show map"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: ui/PrinterConfigPage.ui:24 ui/PrintSetup.ui:49
 #, kde-format
 msgid "Pages"
@@ -3032,262 +3032,262 @@ msgstr ""
 msgid "Default paper size"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (toolTip), widget (KComboBox, PaperSize)
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:45 ui/PrintSetup.ui:210
 #, kde-format
 msgid "Select a paper size"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:49 ui/PrintSetup.ui:214
 #, kde-format
 msgctxt "Paper size"
 msgid "A0"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:54 ui/PrintSetup.ui:219
 #, kde-format
 msgctxt "Paper size"
 msgid "A1"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:59 ui/PrintSetup.ui:224
 #, kde-format
 msgctxt "Paper size"
 msgid "A2"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:64 ui/PrintSetup.ui:229
 #, kde-format
 msgctxt "Paper size"
 msgid "A3"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:69 ui/PrintSetup.ui:234
 #, kde-format
 msgctxt "Paper size"
 msgid "A4"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:74 ui/PrintSetup.ui:239
 #, kde-format
 msgctxt "Paper size"
 msgid "A5"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:79 ui/PrintSetup.ui:244
 #, kde-format
 msgctxt "Paper size"
 msgid "A6"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:84 ui/PrintSetup.ui:249
 #, kde-format
 msgctxt "Paper size"
 msgid "A7"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:89 ui/PrintSetup.ui:254
 #, kde-format
 msgctxt "Paper size"
 msgid "A8"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:94 ui/PrintSetup.ui:259
 #, kde-format
 msgctxt "Paper size"
 msgid "A9"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:99 ui/PrintSetup.ui:264
 #, kde-format
 msgctxt "Paper size"
 msgid "B0"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:104 ui/PrintSetup.ui:269
 #, kde-format
 msgctxt "Paper size"
 msgid "B1"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:109 ui/PrintSetup.ui:274
 #, kde-format
 msgctxt "Paper size"
 msgid "B2"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:114 ui/PrintSetup.ui:279
 #, kde-format
 msgctxt "Paper size"
 msgid "B3"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:119 ui/PrintSetup.ui:284
 #, kde-format
 msgctxt "Paper size"
 msgid "B4"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:124 ui/PrintSetup.ui:289
 #, kde-format
 msgctxt "Paper size"
 msgid "B5"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:129 ui/PrintSetup.ui:294
 #, kde-format
 msgctxt "Paper size"
 msgid "B6"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:134 ui/PrintSetup.ui:299
 #, kde-format
 msgctxt "Paper size"
 msgid "B7"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:139 ui/PrintSetup.ui:304
 #, kde-format
 msgctxt "Paper size"
 msgid "B8"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:144 ui/PrintSetup.ui:309
 #, kde-format
 msgctxt "Paper size"
 msgid "B9"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:149 ui/PrintSetup.ui:314
 #, kde-format
 msgctxt "Paper size"
 msgid "B10"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:154 ui/PrintSetup.ui:319
 #, kde-format
 msgctxt "Paper size"
 msgid "C5E"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:159 ui/PrintSetup.ui:324
 #, kde-format
 msgctxt "Paper size"
 msgid "Comm10E"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:164 ui/PrintSetup.ui:329
 #, kde-format
 msgctxt "Paper size"
 msgid "DLE"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:169 ui/PrintSetup.ui:334
 #, kde-format
 msgctxt "Paper size"
 msgid "Executive"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:174 ui/PrintSetup.ui:339
 #, kde-format
 msgctxt "Paper size"
 msgid "Folio"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:179 ui/PrintSetup.ui:344
 #, kde-format
 msgctxt "Paper size"
 msgid "Ledger"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:184 ui/PrintSetup.ui:349
 #, kde-format
 msgctxt "Paper size"
 msgid "Legal"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:189 ui/PrintSetup.ui:354
 #, kde-format
 msgctxt "Paper size"
 msgid "Letter"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
 #: ui/PrinterConfigPage.ui:194 ui/PrintSetup.ui:359
 #, kde-format
 msgctxt "Paper size"
 msgid "Tabloid"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, PortraitRadioButton)
 #. i18n: ectx: property (text), item, widget (KComboBox, Orientation)
+#. i18n: ectx: property (text), widget (QRadioButton, PortraitRadioButton)
 #: ui/PrinterConfigPage.ui:206 ui/PrintSetup.ui:377
 #, kde-format
 msgid "Portrait"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, LandscapeRadioButton)
 #. i18n: ectx: property (text), item, widget (KComboBox, Orientation)
+#. i18n: ectx: property (text), widget (QRadioButton, LandscapeRadioButton)
 #: ui/PrinterConfigPage.ui:219 ui/PrintSetup.ui:382
 #, kde-format
 msgid "Landscape"

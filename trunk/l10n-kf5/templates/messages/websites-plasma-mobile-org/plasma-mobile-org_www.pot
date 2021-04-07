@@ -1,0 +1,543 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: kde-www@kde.org\n"
+"Last-Translator: you <you@example.com>\n"
+"Language-Team: English <yourteam@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./content/faq.md:0
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ./content/faq.md:0
+msgid "/faq/"
+msgstr ""
+
+#: ./content/faq.md:0
+msgid "FAQ"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:6
+msgid ""
+"Why is Plasma Mobile not using Mer/Nemomobile? "
+"----------------------------------------------"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:13
+msgid ""
+"Plasma Mobile is a software platform for mobile devices. It is not an "
+"operating system in itself, it consists of Qt5, the KDE Frameworks, Plasma "
+"and various software that's part of the application set. Plasma Mobile can "
+"work on top of the Mer distribution, but due to a lack of time and "
+"resources, we're currently focusing on KDE Neon on PinePhone as a base for "
+"testing and development."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:16
+msgid ""
+"Can Android apps work on Plasma Mobile? "
+"---------------------------------------"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:19
+msgid ""
+"There are projects like [Anbox](https://anbox.io/) which is Android running "
+"inside Linux container, and use Linux kernel to execute applications to "
+"achieve near-native performance. This could be leveraged in the future to "
+"have Android apps running on top of a GNU/Linux system with the Plasma "
+"Mobile platform, but it's a complicated task, and as of *today*(September "
+"6th, 2020) some distributions already support Anbox and you can run Plasma "
+"Mobile on top of those distributions."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:22
+msgid ""
+"Can I run Plasma Mobile on my mobile device? "
+"--------------------------------------------"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:24
+msgid "Currently, Plasma Mobile runs on the following device types:"
+msgstr ""
+
+#. type: List item
+#: ./content/faq.md:27
+msgid ""
+"**(Recommended) PinePhone:** We offer official images built for the "
+"PinePhone on top of KDE Neon. You can find more information on the Plasma "
+"Mobile [documentation](https://docs.plasma-mobile.org)."
+msgstr ""
+
+#. type: List item
+#: ./content/faq.md:33
+msgid ""
+"**x86-based:** If you want to try out Plasma Mobile on an Intel tablet, "
+"desktop/laptop, or virtual machine, the x86_64 Neon-based Plasma Mobile "
+"[image](https://www.plasma-mobile.org/get/) is for you. Information on how "
+"to permanently install it can be found on the Plasma Mobile "
+"[documentation](https://docs.plasma-mobile.org)."
+msgstr ""
+
+#. type: List item
+#: ./content/faq.md:45
+msgid ""
+"**postmarketOS devices:** postmarketOS is a touch-optimized, pre-configured "
+"Alpine Linux that can be installed on Android smartphones and other mobile "
+"devices. This project is in *very early stages of development* but it does "
+"currently offer support for a fairly wide range of devices, and it offers "
+"Plasma Mobile as an available interface. Please find your device from the "
+"[list of supported devices](https://wiki.postmarketos.org/wiki/Devices) and "
+"see what's working, then you can follow the [pmOS installation "
+"guide](https://wiki.postmarketos.org/wiki/Installation_guide) to install it "
+"on your device. Your mileage may vary, and it is **not** necessarily "
+"representative of the current state of Plasma Mobile."
+msgstr ""
+
+#. type: List item
+#: ./content/faq.md:49
+msgid ""
+"**Other:** Unfortunately support for Halium based devices had to be dropped "
+"recently (see (technical debt)[/2020/12/14/plasma-mobile-technical-"
+"debt.html]). This includes the previous reference device Nexus 5x."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:52
+msgid ""
+"I've installed Plasma Mobile, what is the login password? "
+"---------------------------------------------------------"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:58
+msgid ""
+"If you've installed Neon onto your PinePhone via the installation script, "
+"the password should be \"1234\", and you can then change it afterwards by "
+"running \"passwd\" in Konsole. For Manjaro it is 123456. When changing it, "
+"please keep in mind that you can currently only enter numbers on the lock "
+"screen."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:62
+msgid ""
+"If you're using the x86 image, no password is set by default, and you'll "
+"have to set it by running \"passwd\" in Konsole before you can authenticate "
+"for anything."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:65
+msgid "What's the state of the project? --------------------------------"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/faq.md:68
+msgid ""
+"Plasma Mobile is currently under heavy development and is not intended to be"
+" used as a daily driver. If you are interested in contributing, "
+"[join](/findyourway) the game."
+msgstr ""
+
+#: ./content/get.md:0
+msgid "Distributions offering Plasma Mobile"
+msgstr ""
+
+#: ./content/get.md:0
+msgid "Install"
+msgstr ""
+
+#. type: Title ##
+#: ./content/get.md:5
+msgid "Mobile"
+msgstr ""
+
+#. type: Title ###
+#: ./content/get.md:7
+msgid "Manjaro ARM"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:9
+msgid "![](/img/manjaro.svg)"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:11
+msgid ""
+"Manjaro ARM is the Manjaro distribution, but for ARM devices. It's based on "
+"Arch Linux ARM, combined with Manjaro tools, themes and infrastructure to "
+"make install images for your ARM device."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:13
+msgid ""
+"[Website](https://manjaro.org) [Forum](https://forum.manjaro.org/c/arm/)"
+msgstr ""
+
+#. type: Title ####
+#: ./content/get.md:15 ./content/get.md:27 ./content/get.md:50
+msgid "Download:"
+msgstr ""
+
+#. type: List item
+#: ./content/get.md:17
+msgid ""
+"[Latest Stable (PinePhone)](https://github.com/manjaro-pinephone/plasma-"
+"mobile/releases)"
+msgstr ""
+
+#. type: List item
+#: ./content/get.md:18
+msgid ""
+"[Developer builds](https://github.com/manjaro-pinephone/plasma-mobile-"
+"dev/releases)"
+msgstr ""
+
+#. type: Title ###
+#: ./content/get.md:20
+msgid "Neon based reference rootfs"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:22 ./content/get.md:63
+msgid "![](/img/neon.svg)"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:25
+msgid ""
+"Image based on KDE Neon. Targeted at newer devices (with 1GB+ RAM). KDE Neon"
+" itself is based upon Ubuntu 20.04 (focal). This image is based on the dev-"
+"unstable branch of KDE Neon, and always ships the latest versions of KDE "
+"frameworks, KWin and Plasma Mobile compiled from git master."
+msgstr ""
+
+#. type: List item
+#: ./content/get.md:29
+msgid "[PinePhone](https://images.plasma-mobile.org/pinephone/)"
+msgstr ""
+
+#. type: Title ###
+#: ./content/get.md:32
+msgid "openSUSE"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:34
+msgid "![](/img/openSUSE.svg)"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:36
+msgid ""
+"openSUSE, formerly SUSE Linux and SuSE Linux Professional, is a Linux "
+"distribution sponsored by SUSE Linux GmbH and other companies. Currently "
+"openSUSE provides Tumbleweed based Plasma Mobile builds."
+msgstr ""
+
+#. type: Title ####
+#: ./content/get.md:38
+msgid "Download"
+msgstr ""
+
+#. type: List item
+#: ./content/get.md:40
+msgid ""
+"[PinePhone](https://download.opensuse.org/repositories/devel:/ARM:/Factory:/Contrib:/PinePhone/images/openSUSE-"
+"Tumbleweed-ARM-PLAMO-pinephone.aarch64.raw.xz)"
+msgstr ""
+
+#. type: Title ###
+#: ./content/get.md:42
+msgid "postmarketOS"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:44
+msgid "![](/img/pmOS.svg)"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:46
+msgid ""
+"PostmarketOS (pmOS), is a touch-optimized, pre-configured Alpine Linux that "
+"can be installed on smartphones and other mobile devices. The project is at "
+"very early stages of development and is not usable for most users yet."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:48
+msgid "[Learn more](https://postmarketos.org)"
+msgstr ""
+
+#. type: List item
+#: ./content/get.md:52
+msgid "[PinePhone](https://images.postmarketos.org/pinephone/)"
+msgstr ""
+
+#. type: Title ##
+#: ./content/get.md:55
+msgid "Installation"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:57
+msgid ""
+"Download the image, uncompress it and flash it to a SD-card using `dd` or a "
+"graphical tool. The Pine Phone will automatically boot from a SD-Card. To "
+"install to the embedded flash, please follow the instructions in the [Pine "
+"wiki](https://wiki.pine64.org/index.php/PinePhone_Installation_Instructions)."
+msgstr ""
+
+#. type: Title ##
+#: ./content/get.md:59
+msgid "Desktop Devices"
+msgstr ""
+
+#. type: Title ###
+#: ./content/get.md:61
+msgid "Neon based amd64 ISO image"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/get.md:65
+msgid ""
+"This ISO image is using the same packages as the Neon based reference "
+"rootfs, just compiled for amd64. It can be tested on non-android intel "
+"tablets, PCs and virtual machines."
+msgstr ""
+
+#. type: List item
+#: ./content/get.md:67
+msgid "[Neon amd64](https://files.kde.org/neon/images/mobile/)"
+msgstr ""
+
+#: ./content/join.md:0
+msgid "Join Plasma Mobile"
+msgstr ""
+
+#: ./content/join.md:0
+msgid "/join/"
+msgstr ""
+
+#: ./content/join.md:0
+msgid "/img/424px-Mascot_konqi-app-internet.png"
+msgstr ""
+
+#: ./content/join.md:0
+msgid "Community"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/join.md:5
+msgid ""
+"If you'd like to contribute to the amazing free software for mobile devices,"
+" [join us - we always have a task for you](/contributing/)!"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/join.md:7
+msgid "Plasma Mobile community groups and channels:"
+msgstr ""
+
+#. type: Title ###
+#: ./content/join.md:9
+msgid "Plasma Mobile specific channels:"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:11
+msgid ""
+"[![](/img/matrix.svg)Matrix (most "
+"active)](https://matrix.to/#/#plasmamobile:matrix.org)"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:13
+msgid "[![](/img/telegram.svg)Telegram](https://t.me/plasmamobile)"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:15
+msgid ""
+"[![](/img/irc.png)IRC](https://kiwiirc.com/nextclient/chat.freenode.net/#kde-"
+"plasmamobile)"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:17
+msgid ""
+"[![](/img/mail.svg)Plasma Mobile mailing "
+"list](https://mail.kde.org/mailman/listinfo/plasma-mobile)"
+msgstr ""
+
+#. type: Title ###
+#: ./content/join.md:20
+msgid "Plasma Mobile related project channels:"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:22
+msgid ""
+"[![](/img/irc.png)#plasma on Freenode "
+"(IRC)](https://kiwiirc.com/nextclient/chat.freenode.net/#plasma)"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:24
+msgid "[![](/img/telegram.svg)Halium on Telegram](https://t.me/Halium)"
+msgstr ""
+
+#. type: List item
+#: ./content/join.md:26
+msgid ""
+"[![](/img/mail.svg)Plasma development mailing "
+"list](https://mail.kde.org/mailman/listinfo/plasma-devel)"
+msgstr ""
+
+#: ./content/screenshots.md:0
+msgid "Screenshots"
+msgstr ""
+
+#: ./content/screenshots.md:0
+msgid "/screenshots/"
+msgstr ""
+
+#: ./content/screenshots.md:0
+msgid "Project"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/screenshots.md:5
+msgid ""
+"The following screenshots were taken from a Pinephone device running Plasma "
+"Mobile."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/screenshots.md:9
+msgid ""
+"<script src=\"https://cdn.kde.org/aether-devel/version/kde-"
+"org/applications.3e16ae06.js\"></script>"
+msgstr ""
+
+#: ./content/vision.md:0
+msgid "Our Vision"
+msgstr ""
+
+#: ./content/vision.md:0
+msgid "/vision/"
+msgstr ""
+
+#: ./content/vision.md:0
+msgid "/img/mascot_20140702_konqui-plasma_wee_0.png"
+msgstr ""
+
+#: ./content/vision.md:0
+msgid "Vision"
+msgstr ""
+
+#. type: Plain Text
+#: ./content/vision.md:5
+msgid ""
+"Plasma Mobile aims to become a complete and open software system for mobile "
+"devices.<br /> It is designed to give privacy-aware users back control over "
+"their information and communication."
+msgstr ""
+
+#. type: Plain Text
+#: ./content/vision.md:7
+msgid ""
+"Plasma Mobile takes a pragmatic approach and is inclusive to 3rd party "
+"software, allowing the user to choose which applications and services to "
+"use, while providing a seamless experience across multiple devices.<br /> "
+"Plasma Mobile implements open standards and is developed in a transparent "
+"process that is open for anyone to participate in."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Plasma, in your pocket."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Privacy-respecting, open source and secure phone ecosystem"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Open up."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Plasma Mobile is an open-source user interface for phones. Running on top of"
+" a Linux distribution, Plasma Mobile turns your phone into a fully hacking "
+"device."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Contribute"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Using the multi-platform toolkit Qt, the flexible extensions of KDE "
+"Frameworks plus the power of Plasma Shell, Plasma Mobile is built with "
+"technology which feels equally at home on the desktop and mobile devices."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "KWin and Wayland"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Wayland is the next-generation protocol for delivering cutting-edge "
+"interfaces which are silky smooth. KWin is the battle-tested window manager "
+"which implements Wayland, delivering a polished and reliable experience on "
+"both the desktop and mobile devices."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Making full use of Open Source"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Plasma Mobile combines many powerful software tools from established "
+"projects to make a whole greater than the sum of its parts.<br /> Ofono "
+"provides our telephone solution, Telepathy offers many communication "
+"utilities, and Pulseaudio drives the Plasma Mobile sound system."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Adapting to your needs"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Being based on the most flexible desktop in the world means you can truly "
+"make your phone your own. Add and modify widgets, change colour schemes, "
+"fonts, and much, much more."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Applications"
+msgstr ""
+
+#. Replace LANGUAGE_NAME with the name of your language in your language (e.g.
+#. Français, Deutsch, Українська ...). Displayed in the navbar
+#: i18n_hugo_extractor/extractors.py:29
+msgid "LANGUAGE_NAME"
+msgstr ""

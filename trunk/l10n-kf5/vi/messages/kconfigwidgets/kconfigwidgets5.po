@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-28 02:21+0100\n"
+"POT-Creation-Date: 2021-04-07 00:16+0000\n"
 "PO-Revision-Date: 2020-12-10 11:59+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -70,6 +70,27 @@ msgctxt "@title:window"
 msgid "Configure"
 msgstr "Cấu hình"
 
+#: khamburgermenu.cpp:126
+#, kde-format
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr ""
+
+#: khamburgermenu.cpp:337
+#, kde-format
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "For %1 more action:"
+msgid_plural "For %1 more actions:"
+msgstr[0] ""
+
+#: khamburgermenu.cpp:340
+#, kde-format
+msgctxt ""
+"@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "%1 Menu Bar Exclusive Action"
+msgid_plural "%1 Menu Bar Exclusive Actions"
+msgstr[0] ""
+
 #: krecentfilesaction.cpp:68
 #, kde-format
 msgid "No Entries"
@@ -80,36 +101,36 @@ msgstr "Không có mục nào"
 msgid "Clear List"
 msgstr "Làm trống danh sách"
 
-#: kstandardaction.cpp:139
+#: kstandardaction.cpp:138
 #, kde-format
 msgctxt "go back"
 msgid "&Back"
 msgstr "Lù&i"
 
-#: kstandardaction.cpp:146
+#: kstandardaction.cpp:145
 #, kde-format
 msgctxt "go forward"
 msgid "&Forward"
 msgstr "&Tiến"
 
-#: kstandardaction.cpp:153
+#: kstandardaction.cpp:152
 #, kde-format
 msgctxt "home page"
 msgid "&Home"
 msgstr "N&hà"
 
-#: kstandardaction.cpp:157
+#: kstandardaction.cpp:156
 #, kde-format
 msgctxt "show help"
 msgid "&Help"
 msgstr "Trợ &giúp"
 
-#: kstandardaction.cpp:214
+#: kstandardaction.cpp:213
 #, kde-format
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "Hiện thanh trình đơn<p>Hiện lại thanh trình đơn sau khi nó bị ẩn</p>"
 
-#: kstandardaction.cpp:235
+#: kstandardaction.cpp:234
 #, kde-format
 msgid ""
 "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
@@ -602,6 +623,12 @@ msgstr "Chuyển vào thùng &rác"
 #, kde-format
 msgid "&Donate"
 msgstr "&Quyên góp"
+
+#: kstandardaction_p.h:114
+#, fuzzy, kde-format
+#| msgid "Open &Recent"
+msgid "Open &Menu"
+msgstr "Mở &gần đây"
 
 #: ktipdialog.cpp:217
 #, kde-format

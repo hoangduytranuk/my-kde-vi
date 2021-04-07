@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-07 08:18+0100\n"
+"POT-Creation-Date: 2021-03-28 13:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -34,7 +34,7 @@ msgid "No PanelPluginHandle found for the Cantor Part."
 msgstr ""
 
 #: src/backend/cantorWorksheet/CantorWorksheet.cpp:293
-#: src/backend/core/column/Column.cpp:1156
+#: src/backend/core/column/Column.cpp:1151
 #: src/backend/datapicker/DatapickerCurve.cpp:497
 #: src/backend/datapicker/DatapickerImage.cpp:526
 #: src/backend/datapicker/DatapickerPoint.cpp:497
@@ -47,7 +47,7 @@ msgstr ""
 #: src/backend/datasources/MQTTTopic.cpp:236
 #: src/backend/matrix/Matrix.cpp:1135 src/backend/note/Note.cpp:153
 #: src/backend/worksheet/Image.cpp:652 src/backend/worksheet/plots/cartesian/Axis.cpp:2348
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3697
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3703
 #: src/backend/worksheet/plots/cartesian/CartesianPlotLegend.cpp:1060
 #: src/backend/worksheet/plots/cartesian/CustomPoint.cpp:413
 #: src/backend/worksheet/plots/cartesian/Histogram.cpp:1767
@@ -75,7 +75,7 @@ msgstr ""
 
 #: src/backend/cantorWorksheet/CantorWorksheet.cpp:343
 #: src/backend/core/AbstractSimpleFilter.cpp:394
-#: src/backend/core/column/Column.cpp:1204
+#: src/backend/core/column/Column.cpp:1199
 #: src/backend/core/Folder.cpp:151 src/backend/core/Project.cpp:540
 #: src/backend/datapicker/DatapickerCurve.cpp:561
 #: src/backend/datapicker/DatapickerImage.cpp:677
@@ -356,19 +356,19 @@ msgstr ""
 msgid "%1: change column type"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1322
+#: src/backend/core/column/Column.cpp:1317
 #, kde-format
 msgid "invalid or missing row index"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1331
-#: src/backend/core/column/Column.cpp:1340
-#: src/backend/core/column/Column.cpp:1349
+#: src/backend/core/column/Column.cpp:1326
+#: src/backend/core/column/Column.cpp:1335
+#: src/backend/core/column/Column.cpp:1344
 #, kde-format
 msgid "invalid row value"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1428
+#: src/backend/core/column/Column.cpp:1423
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:491
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:278
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:238
@@ -376,21 +376,21 @@ msgstr ""
 msgid "X-error"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1430
+#: src/backend/core/column/Column.cpp:1425
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:494
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:240
 #, kde-format
 msgid "X-error +"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1432
+#: src/backend/core/column/Column.cpp:1427
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:497
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:239
 #, kde-format
 msgid "X-error -"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1434
+#: src/backend/core/column/Column.cpp:1429
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:500
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:287
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:241
@@ -398,14 +398,14 @@ msgstr ""
 msgid "Y-error"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1436
+#: src/backend/core/column/Column.cpp:1431
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:503
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:243
 #, kde-format
 msgid "Y-error +"
 msgstr ""
 
-#: src/backend/core/column/Column.cpp:1438
+#: src/backend/core/column/Column.cpp:1433
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:506
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:242
 #, kde-format
@@ -419,7 +419,7 @@ msgid "%1: change cell values"
 msgstr ""
 
 #: src/backend/core/column/columncommands.cpp:509
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2285
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2288
 #, kde-format
 msgid "%1: set plot designation"
 msgstr ""
@@ -632,8 +632,8 @@ msgstr ""
 msgid "Column"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lData)
 #. i18n: ectx: property (title), widget (QGroupBox, gbData)
+#. i18n: ectx: property (text), widget (QLabel, lData)
 #: src/backend/datapicker/DatapickerCurve.cpp:167
 #: src/commonfrontend/matrix/MatrixView.cpp:153
 #: src/kdefrontend/spreadsheet/PlotDataDialog.cpp:333
@@ -981,10 +981,10 @@ msgstr ""
 #: src/backend/datasources/filters/AsciiFilter.cpp:743
 #: src/backend/datasources/filters/QJsonModel.cpp:149
 #: src/commonfrontend/matrix/MatrixView.cpp:625
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1998
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2015
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2033
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2050
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2001
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2018
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2036
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2053
 #: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:156
 #: src/kdefrontend/ui/spreadsheet/addsubtractvaluewidget.ui:17
 #: src/kdefrontend/widgets/FITSHeaderEditWidget.cpp:80
@@ -4239,12 +4239,12 @@ msgstr ""
 msgid "unexpected end of document"
 msgstr ""
 
-#: src/backend/matrix/Matrix.cpp:135 src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3066
+#: src/backend/matrix/Matrix.cpp:135 src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3069
 #, kde-format
 msgid "FITS image"
 msgstr ""
 
-#: src/backend/matrix/Matrix.cpp:135 src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3066
+#: src/backend/matrix/Matrix.cpp:135 src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3069
 #, kde-format
 msgid "FITS table"
 msgstr ""
@@ -4883,6 +4883,11 @@ msgstr ""
 msgid "cubic spline (periodic)"
 msgstr ""
 
+#: src/backend/nsl/nsl_interp.c:32 src/backend/nsl/nsl_smooth.c:41
+#, kde-format
+msgid "cosine"
+msgstr ""
+
 #: src/backend/nsl/nsl_interp.c:32
 #, kde-format
 msgid "Akima-spline (natural)"
@@ -4896,11 +4901,6 @@ msgstr ""
 #: src/backend/nsl/nsl_interp.c:32
 #, kde-format
 msgid "Steffen spline"
-msgstr ""
-
-#: src/backend/nsl/nsl_interp.c:32 src/backend/nsl/nsl_smooth.c:41
-#, kde-format
-msgid "cosine"
 msgstr ""
 
 #: src/backend/nsl/nsl_interp.c:32
@@ -5532,9 +5532,9 @@ msgstr ""
 msgid "Orientation"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabLine)
-#. i18n: ectx: property (text), widget (QLabel, lLine)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, lLine)
+#. i18n: ectx: attribute (title), widget (QWidget, tabLine)
 #: src/backend/worksheet/plots/cartesian/Axis.cpp:267
 #: src/backend/worksheet/plots/cartesian/ReferenceLine.cpp:129
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:245
@@ -5819,7 +5819,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabTitle)
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:148
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3895
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3901
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:267
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:505
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:348
@@ -5895,7 +5895,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbRecalculate)
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:424
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:635
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:506
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:507
 #: src/commonfrontend/worksheet/WorksheetView.cpp:336
 #: src/commonfrontend/worksheet/WorksheetView.cpp:363
 #: src/kdefrontend/ui/dockwidgets/xyfitcurvedockgeneraltab.ui:1102
@@ -6261,7 +6261,7 @@ msgid "%1: load default theme"
 msgstr ""
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:1171
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4106
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4112
 #: src/backend/worksheet/Worksheet.cpp:732
 #, kde-format
 msgid "%1: set theme"
@@ -6378,29 +6378,29 @@ msgstr ""
 msgid "%1: add Fourier filter curve"
 msgstr ""
 
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3188
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3194
 #, kde-format
 msgid "Not inside of the bounding rect"
 msgstr ""
 
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3209
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3226
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3215
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3232
 #, kde-format
 msgid "from x=%1 to x=%2"
 msgstr ""
 
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3216
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3236
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3222
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3242
 #, kde-format
 msgid "from y=%1 to y=%2"
 msgstr ""
 
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3252
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:3258
 #, kde-format
 msgid "x=%1"
 msgstr ""
 
-#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4052
+#: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:4058
 #, kde-format
 msgid "unknown cartesianPlot element '%1'"
 msgstr ""
@@ -7686,14 +7686,14 @@ msgstr ""
 
 #: src/commonfrontend/matrix/MatrixView.cpp:281
 #: src/commonfrontend/matrix/MatrixView.cpp:344
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:556
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:557
 #, kde-format
 msgid "Generate Data"
 msgstr ""
 
 #: src/commonfrontend/matrix/MatrixView.cpp:288
 #: src/commonfrontend/matrix/MatrixView.cpp:351
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:566
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:567
 #, kde-format
 msgid "Manipulate Data"
 msgstr ""
@@ -7907,7 +7907,7 @@ msgid "Equidistant Values"
 msgstr ""
 
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:251
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:979
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:980
 #, kde-format
 msgid "Show Comments"
 msgstr ""
@@ -8142,38 +8142,38 @@ msgstr ""
 msgid "Inverse Exponential"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:497
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:498
 #, kde-format
 msgid "Plot Data"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:524
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:525
 #, kde-format
 msgid "Analyze and Plot Data"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:538
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:539
 #, kde-format
 msgid "Set Column As"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:600
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:601
 #, kde-format
 msgid "Normalize"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:623
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:624
 #, kde-format
 msgid "Ladder of Powers"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:638
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:639
 #: src/kdefrontend/spreadsheet/SortDialog.cpp:52
 #, kde-format
 msgid "Sort"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:977
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:978
 #, kde-format
 msgid "Hide Comments"
 msgstr ""
@@ -8188,174 +8188,174 @@ msgstr ""
 msgid "%1: mask selected cells"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1708
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1711
 #, kde-format
 msgid "%1: unmask selected cells"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1759
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1762
 #, kde-format
 msgid "%1: fill cells with row numbers"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1822
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1825
 #, kde-format
 msgid "%1: fill column with row numbers"
 msgid_plural "%1: fill columns with row numbers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1863
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1866
 #, kde-format
 msgid "%1: fill cells with random values"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1990
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1993
 #, kde-format
 msgid "%1: fill cells with const values"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1997
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2014
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2032
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2049
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2000
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2017
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2035
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2052
 #, kde-format
 msgid "Fill the selection with constant value"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2096
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2172
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2099
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2175
 #, kde-format
 msgid "Insert empty columns"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2096
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2172
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2099
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2175
 #, kde-format
 msgid "Enter the number of columns to insert"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2108
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2184
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2111
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2187
 #, kde-format
 msgid "%1: insert empty column"
 msgid_plural "%1: insert empty columns"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2248
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2251
 #, kde-format
 msgid "%1: remove selected columns"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2259
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2262
 #, kde-format
 msgid "%1: clear selected columns"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2315
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2318
 #, kde-format
 msgid "%1: reverse column"
 msgid_plural "%1: reverse columns"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2391
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2394
 #, kde-format
 msgid "Normalization of the column <i>%1</i> was not possible because of %2."
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2392
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2395
 #, kde-format
 msgid "%1: normalize columns"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2483
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2486
 #, kde-format
 msgid "'Mode not defined'"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2594
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2597
 #, kde-format
 msgid "Normalization not possible"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2606
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2609
 #, kde-format
 msgid "%1: power transform columns"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2758
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2761
 #, kde-format
 msgid "Row %1"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2782
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2818
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2785
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2821
 #, kde-format
 msgid "Insert multiple rows"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2782
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2818
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2785
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2821
 #, kde-format
 msgid "Enter the number of rows to insert"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2796
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2832
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2799
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2835
 #, kde-format
 msgid "%1: insert empty row"
 msgid_plural "%1: insert empty rows"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2851
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2854
 #, kde-format
 msgid "%1: remove selected rows"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2863
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2866
 #, kde-format
 msgid "%1: clear selected rows"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2913
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:2916
 #, kde-format
 msgid "%1: clear selected cells"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3120
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3123
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Spreadsheet"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3307
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3357
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3310
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3360
 #: src/commonfrontend/worksheet/WorksheetView.cpp:1739
 #, kde-format
 msgid "Failed to export"
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3307
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3357
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3310
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3360
 #: src/commonfrontend/worksheet/WorksheetView.cpp:1739
 #, kde-format
 msgid "Failed to write to '%1'. Please check the path."
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3709
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3712
 #, kde-format
 msgid "Couldn't create the SQLite database %1."
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3741
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3744
 #, kde-format
 msgid "Failed to create table in the SQLite database %1."
 msgstr ""
 
-#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3785
+#: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:3788
 #, kde-format
 msgid "Failed to insert values into the table."
 msgstr ""
@@ -8579,8 +8579,8 @@ msgstr ""
 msgid "Zoom"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. i18n: ectx: attribute (title), widget (QWidget, tab3)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: src/commonfrontend/worksheet/WorksheetView.cpp:448
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:643
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:370
@@ -9097,9 +9097,9 @@ msgstr ""
 msgid "Add new data container to the project"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lMajorGrid_2)
-#. i18n: ectx: property (text), widget (QLabel, lPosition)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, lPosition)
+#. i18n: ectx: property (text), widget (QLabel, lMajorGrid_2)
 #: src/kdefrontend/datasources/ImportDialog.cpp:120
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1235
 #: src/kdefrontend/ui/dockwidgets/custompointdock.ui:102
@@ -10250,21 +10250,21 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lBorderColor)
 #. i18n: ectx: property (text), widget (QLabel, lErrorBarFillingColor)
 #. i18n: ectx: property (text), widget (QLabel, lFillingColor)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, lLineColor)
+#. i18n: ectx: property (text), widget (QLabel, lBoxBorderColor)
+#. i18n: ectx: property (text), widget (QLabel, lReferenceLineColor)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolFillingColor)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolBorderColor)
+#. i18n: ectx: property (text), widget (QLabel, lWhiskersColor)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksColor)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksColor)
 #. i18n: ectx: property (text), widget (QLabel, lMajorGridColor)
 #. i18n: ectx: property (text), widget (QLabel, lMinorGridColor)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolFillingColor)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolBorderColor)
+#. i18n: ectx: property (text), widget (QLabel, lDropLineColor)
 #. i18n: ectx: property (text), widget (QLabel, lValuesColor)
 #. i18n: ectx: property (text), widget (QLabel, lErrorBarsColor)
-#. i18n: ectx: property (text), widget (QLabel, lBoxBorderColor)
-#. i18n: ectx: property (text), widget (QLabel, lReferenceLineColor)
-#. i18n: ectx: property (text), widget (QLabel, lWhiskersColor)
 #. i18n: ectx: property (text), widget (QLabel, lFontColor)
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#. i18n: ectx: property (text), widget (QLabel, lDropLineColor)
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1070
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1094
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1122
@@ -10319,9 +10319,9 @@ msgstr ""
 msgid "Color:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lFillingFirstColor)
-#. i18n: ectx: property (text), widget (QLabel, lBoxFillingFirstColor)
 #. i18n: ectx: property (text), widget (QLabel, lBackgroundFirstColor)
+#. i18n: ectx: property (text), widget (QLabel, lBoxFillingFirstColor)
+#. i18n: ectx: property (text), widget (QLabel, lFillingFirstColor)
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1074
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1126
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:519
@@ -10364,8 +10364,8 @@ msgstr ""
 msgid "Images (%1)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lHorizontalSpacing)
 #. i18n: ectx: property (text), widget (QLabel, lPaddingHorizontal)
+#. i18n: ectx: property (text), widget (QLabel, lHorizontalSpacing)
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1293
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:974
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:564
@@ -10373,8 +10373,8 @@ msgstr ""
 msgid "Horizontal:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lVerticalSpacing)
 #. i18n: ectx: property (text), widget (QLabel, lPaddingVertical)
+#. i18n: ectx: property (text), widget (QLabel, lVerticalSpacing)
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1294
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1217
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:617
@@ -10382,8 +10382,8 @@ msgstr ""
 msgid "Vertical:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lLeftMargin)
 #. i18n: ectx: property (text), widget (QLabel, lTopMargin)
+#. i18n: ectx: property (text), widget (QLabel, lLeftMargin)
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1296
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:274
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:587
@@ -10391,8 +10391,8 @@ msgstr ""
 msgid "Left:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lTopMargin)
 #. i18n: ectx: property (text), widget (QLabel, lLeftMargin)
+#. i18n: ectx: property (text), widget (QLabel, lTopMargin)
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1297
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:281
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:541
@@ -12565,12 +12565,12 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tgeneral)
 #. i18n: ectx: property (text), widget (QLabel, lGeneral)
-#. i18n: ectx: attribute (title), widget (QWidget, general)
 #. i18n: ectx: attribute (title), widget (QWidget, tabGeneral)
 #. i18n: ectx: property (text), widget (QLabel, lSymbol)
 #. i18n: ectx: property (text), widget (QLabel, lValuesGeneral)
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, tab0)
+#. i18n: ectx: attribute (title), widget (QWidget, general)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, tGeneral)
 #. i18n: ectx: property (text), widget (QLabel, lSymbolGeneral)
 #: src/kdefrontend/SettingsDialog.cpp:68 src/kdefrontend/ui/datapickercurvewidget.ui:27
@@ -13082,9 +13082,9 @@ msgstr ""
 msgid "Row:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lXColumn)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksColumn)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksColumn)
-#. i18n: ectx: property (text), widget (QLabel, lXColumn)
 #. i18n: ectx: property (text), widget (QLabel, lValuesColumn)
 #: src/kdefrontend/spreadsheet/GoToDialog.cpp:65
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:563
@@ -13541,8 +13541,8 @@ msgstr ""
 msgid "Insert"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, bCancel)
 #. i18n: ectx: property (text), widget (QPushButton, pbCancel)
+#. i18n: ectx: property (text), widget (QPushButton, bCancel)
 #: src/kdefrontend/ui/constantswidget.ui:97
 #: src/kdefrontend/ui/fitoptionswidget.ui:37
 #: src/kdefrontend/ui/functionswidget.ui:63
@@ -13564,8 +13564,8 @@ msgid "Enter search term here"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lName)
-#. i18n: ectx: property (text), widget (QLabel, lFileName)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, lFileName)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:33
 #: src/kdefrontend/ui/datapickerimagewidget.ui:33
 #: src/kdefrontend/ui/datasources/databasemanagerwidget.ui:56
@@ -13661,11 +13661,11 @@ msgstr ""
 msgid "Symbols"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lFontSize)
 #. i18n: ectx: property (text), widget (QLabel, lSize)
 #. i18n: ectx: property (text), widget (QLabel, lErrorBarSize)
-#. i18n: ectx: property (text), widget (QLabel, lArrowSize)
 #. i18n: ectx: property (text), widget (QLabel, lSymbolSize)
-#. i18n: ectx: property (text), widget (QLabel, lFontSize)
+#. i18n: ectx: property (text), widget (QLabel, lArrowSize)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:193
 #: src/kdefrontend/ui/datapickercurvewidget.ui:501
 #: src/kdefrontend/ui/datapickerimagewidget.ui:682
@@ -13681,8 +13681,8 @@ msgid "Size:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lBorder)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolBorder)
 #. i18n: ectx: property (text), widget (QLabel, lBoxBorder)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolBorder)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:209
 #: src/kdefrontend/ui/datapickerimagewidget.ui:850
 #: src/kdefrontend/ui/dockwidgets/boxplotdock.ui:308
@@ -13698,34 +13698,34 @@ msgstr ""
 msgid "Border"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lBorderStyle)
 #. i18n: ectx: property (text), widget (QLabel, lErrorBarFillingStyle)
 #. i18n: ectx: property (text), widget (QLabel, lFillingStyle)
 #. i18n: ectx: property (text), widget (QLabel, lStyle)
-#. i18n: ectx: property (text), widget (QLabel, lBorderStyle)
+#. i18n: ectx: property (text), widget (QLabel, lXBreakStyle)
+#. i18n: ectx: property (text), widget (QLabel, lYBreakStyle)
+#. i18n: ectx: property (text), widget (QLabel, lBackgroundColorStyle)
+#. i18n: ectx: property (text), widget (QLabel, lBackgroundBrushStyle)
+#. i18n: ectx: property (text), widget (QLabel, lBackgroundImageStyle)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, lLineStyle)
-#. i18n: ectx: property (text), widget (QLabel, lMajorTicksLineStyle)
-#. i18n: ectx: property (text), widget (QLabel, lMinorTicksLineStyle)
-#. i18n: ectx: property (text), widget (QLabel, lMajorGridStyle)
-#. i18n: ectx: property (text), widget (QLabel, lMinorGridStyle)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolStyle)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolFillingStyle)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolBorderStyle)
-#. i18n: ectx: property (text), widget (QLabel, lFillingColorStyle)
-#. i18n: ectx: property (text), widget (QLabel, lFillingImageStyle)
-#. i18n: ectx: property (text), widget (QLabel, lFillingBrushStyle)
-#. i18n: ectx: property (text), widget (QLabel, lErrorBarsStyle)
 #. i18n: ectx: property (text), widget (QLabel, lBoxFillingColorStyle)
 #. i18n: ectx: property (text), widget (QLabel, lBoxFillingBrushStyle)
 #. i18n: ectx: property (text), widget (QLabel, lBoxBorderStyle)
 #. i18n: ectx: property (text), widget (QLabel, lReferenceLineStyle)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolFillingStyle)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolBorderStyle)
 #. i18n: ectx: property (text), widget (QLabel, lWhiskersLineStyle)
-#. i18n: ectx: property (text), widget (QLabel, lBackgroundColorStyle)
-#. i18n: ectx: property (text), widget (QLabel, lBackgroundImageStyle)
-#. i18n: ectx: property (text), widget (QLabel, lBackgroundBrushStyle)
-#. i18n: ectx: property (text), widget (QLabel, lXBreakStyle)
-#. i18n: ectx: property (text), widget (QLabel, lYBreakStyle)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, lMajorTicksLineStyle)
+#. i18n: ectx: property (text), widget (QLabel, lMinorTicksLineStyle)
+#. i18n: ectx: property (text), widget (QLabel, lMajorGridStyle)
+#. i18n: ectx: property (text), widget (QLabel, lMinorGridStyle)
 #. i18n: ectx: property (text), widget (QLabel, lDropLineStyle)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolStyle)
+#. i18n: ectx: property (text), widget (QLabel, lFillingColorStyle)
+#. i18n: ectx: property (text), widget (QLabel, lFillingImageStyle)
+#. i18n: ectx: property (text), widget (QLabel, lFillingBrushStyle)
+#. i18n: ectx: property (text), widget (QLabel, lErrorBarsStyle)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:230
 #: src/kdefrontend/ui/datapickercurvewidget.ui:434
 #: src/kdefrontend/ui/datapickercurvewidget.ui:474
@@ -13786,10 +13786,19 @@ msgstr ""
 msgid "Style:"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbErrorBarSize)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbOffsetX)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbOffsetY)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbBorderWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbErrorBarSize)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbSize)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbCursorLineWidth)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLineWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbBoxBorderWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbReferenceLineWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbSymbolSize)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbSymbolBorderWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbWhiskersWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbWhiskersCapSize)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbArrowSize)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbMinorTicksLength)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbMinorTicksWidth)
@@ -13798,19 +13807,10 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLabelsOffset)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbMajorGridWidth)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbMinorGridWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbSymbolSize)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbSymbolBorderWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbDropLineWidth)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbValuesDistance)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbErrorBarsCapSize)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbErrorBarsWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbBoxBorderWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbReferenceLineWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbWhiskersWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbWhiskersCapSize)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbCursorLineWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbDropLineWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbOffsetX)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbOffsetY)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:250
 #: src/kdefrontend/ui/datapickercurvewidget.ui:283
 #: src/kdefrontend/ui/datapickercurvewidget.ui:395
@@ -13858,8 +13858,8 @@ msgid " pt"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lRotation)
-#. i18n: ectx: property (text), widget (QLabel, lLabelsRotation)
 #. i18n: ectx: property (text), widget (QLabel, lSymbolRotation)
+#. i18n: ectx: property (text), widget (QLabel, lLabelsRotation)
 #. i18n: ectx: property (text), widget (QLabel, lValuesRotation)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:276
 #: src/kdefrontend/ui/datapickerimagewidget.ui:149
@@ -13878,24 +13878,24 @@ msgstr ""
 msgid "Rotation:"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbBorderOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbOpacity)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbBackgroundOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbLineOpacity)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbBoxFillingOpacity)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbReferenceLineOpacity)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbSymbolOpacity)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbWhiskersOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbArrowSize)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbMinorTicksOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbMajorTicksOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbLabelsOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbMajorGridOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbMinorGridOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbSymbolOpacity)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, sbDropLineOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbValuesOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbFillingOpacity)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbErrorBarsOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbBoxFillingOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbReferenceLineOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbWhiskersOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbBackgroundOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbBorderOpacity)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, sbDropLineOpacity)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:322
 #: src/kdefrontend/ui/datapickerimagewidget.ui:750
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:377
@@ -13935,25 +13935,25 @@ msgid ""
 "fully opaque."
 msgstr ""
 
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbBorderOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbYBreakPosition)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbXBreakPosition)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbBackgroundOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbLineOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbBoxFillingOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbReferenceLineOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbSymbolOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbWhiskersOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMinorTicksOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMajorTicksOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbLabelsOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMajorGridOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMinorGridOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbSymbolOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbDropLineOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbValuesOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbFillingOpacity)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbErrorBarsOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbBoxFillingOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbReferenceLineOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbWhiskersOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbBackgroundOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbBorderOpacity)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbYBreakPosition)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbXBreakPosition)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbDropLineOpacity)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:325
 #: src/kdefrontend/ui/datapickerimagewidget.ui:753
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:380
@@ -13994,20 +13994,20 @@ msgid " %"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lBorderWidth)
+#. i18n: ectx: property (text), widget (QLabel, lBottomMargin)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, lLineWidth)
+#. i18n: ectx: property (text), widget (QLabel, lWidth)
+#. i18n: ectx: property (text), widget (QLabel, lBoxBorderWidth)
+#. i18n: ectx: property (text), widget (QLabel, lReferenceLineWidth)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolBorderWidth)
+#. i18n: ectx: property (text), widget (QLabel, lWhiskersWidth)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksWidth)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksWidth)
 #. i18n: ectx: property (text), widget (QLabel, lMajorGridWidth)
 #. i18n: ectx: property (text), widget (QLabel, lMinorGridWidth)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolBorderWidth)
-#. i18n: ectx: property (text), widget (QLabel, lErrorBarsWidth)
-#. i18n: ectx: property (text), widget (QLabel, lBoxBorderWidth)
-#. i18n: ectx: property (text), widget (QLabel, lReferenceLineWidth)
-#. i18n: ectx: property (text), widget (QLabel, lWhiskersWidth)
-#. i18n: ectx: property (text), widget (QLabel, lWidth)
-#. i18n: ectx: property (text), widget (QLabel, lBottomMargin)
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, lDropLineWidth)
+#. i18n: ectx: property (text), widget (QLabel, lErrorBarsWidth)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:357
 #: src/kdefrontend/ui/datapickerimagewidget.ui:884
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:341
@@ -14041,8 +14041,8 @@ msgid "Width:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbRotation)
-#. i18n: ectx: property (suffix), widget (QSpinBox, sbLabelsRotation)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbSymbolRotation)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbLabelsRotation)
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbValuesRotation)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbRotation)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:373
@@ -14069,9 +14069,9 @@ msgid "Error Bar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lFilling)
+#. i18n: ectx: property (text), widget (QLabel, lBoxFilling)
 #. i18n: ectx: property (text), widget (QLabel, lSymbolFilling)
 #. i18n: ectx: attribute (title), widget (QWidget, tabAreaFilling)
-#. i18n: ectx: property (text), widget (QLabel, lBoxFilling)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:447
 #: src/kdefrontend/ui/datapickerimagewidget.ui:794
 #: src/kdefrontend/ui/dockwidgets/boxplotdock.ui:171
@@ -14085,23 +14085,23 @@ msgstr ""
 msgid "Filling"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lBorderOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lOpacity)
+#. i18n: ectx: property (text), widget (QLabel, lBackgroundOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lLineOpacity)
+#. i18n: ectx: property (text), widget (QLabel, lBoxFillingOpacity)
+#. i18n: ectx: property (text), widget (QLabel, lReferenceLineOpacity)
+#. i18n: ectx: property (text), widget (QLabel, lSymbolOpacity)
+#. i18n: ectx: property (text), widget (QLabel, lWhiskersOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lLabelsOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lMajorGridOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lMinorGridOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lSymbolOpacity)
+#. i18n: ectx: property (text), widget (QLabel, lDropLineOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lValuesOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lFillingOpacity)
 #. i18n: ectx: property (text), widget (QLabel, lErrorBarsOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lBoxFillingOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lReferenceLineOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lWhiskersOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lBackgroundOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lBorderOpacity)
-#. i18n: ectx: property (text), widget (QLabel, lDropLineOpacity)
 #: src/kdefrontend/ui/datapickercurvewidget.ui:454
 #: src/kdefrontend/ui/datapickerimagewidget.ui:737
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:364
@@ -14145,8 +14145,8 @@ msgstr ""
 msgid "Image:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, leFillingFileName)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, leBackgroundFileName)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leFillingFileName)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, leFileName)
 #: src/kdefrontend/ui/datapickerimagewidget.ui:109
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1136
@@ -14165,23 +14165,23 @@ msgstr ""
 msgid " Select the image file"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lFileType)
+#. i18n: ectx: property (text), widget (QLabel, lUpdateType)
+#. i18n: ectx: property (text), widget (QLabel, lBackgroundType)
 #. i18n: ectx: property (text), widget (QLabel, lType)
+#. i18n: ectx: property (text), widget (QLabel, lBoxFillingType)
+#. i18n: ectx: property (text), widget (QLabel, lWhiskersType_2)
 #. i18n: ectx: property (text), widget (QLabel, lArrowType)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksType)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksType)
 #. i18n: ectx: property (text), widget (QLabel, lLineType)
-#. i18n: ectx: property (text), widget (QLabel, lValuesPosition_2)
-#. i18n: ectx: property (text), widget (QLabel, lFillingType)
-#. i18n: ectx: property (text), widget (QLabel, lErrorType)
-#. i18n: ectx: property (text), widget (QLabel, lErrorBarsType)
-#. i18n: ectx: property (text), widget (QLabel, lBoxFillingType)
-#. i18n: ectx: property (text), widget (QLabel, lWhiskersType_2)
-#. i18n: ectx: property (text), widget (QLabel, lBackgroundType)
-#. i18n: ectx: property (text), widget (QLabel, lLayout)
-#. i18n: ectx: property (text), widget (QLabel, lUpdateType)
 #. i18n: ectx: property (text), widget (QLabel, lDropLineType)
 #. i18n: ectx: property (text), widget (QLabel, lValuesType)
+#. i18n: ectx: property (text), widget (QLabel, lFillingType)
+#. i18n: ectx: property (text), widget (QLabel, lErrorBarsType)
+#. i18n: ectx: property (text), widget (QLabel, lValuesPosition_2)
+#. i18n: ectx: property (text), widget (QLabel, lErrorType)
+#. i18n: ectx: property (text), widget (QLabel, lLayout)
+#. i18n: ectx: property (text), widget (QLabel, lFileType)
 #. i18n: ectx: property (text), widget (QLabel, lPlotType)
 #: src/kdefrontend/ui/datapickerimagewidget.ui:135
 #: src/kdefrontend/ui/datasources/importfilewidget.ui:300
@@ -14326,11 +14326,11 @@ msgstr ""
 msgid "Intensity:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QComboBox, cbPositionY)
+#. i18n: ectx: property (toolTip), widget (KComboBox, cbPositionY)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, sbPositionY)
 #. i18n: ectx: property (toolTip), widget (QLabel, lPositionY)
+#. i18n: ectx: property (toolTip), widget (QComboBox, cbPositionY)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cbPlotImageType)
-#. i18n: ectx: property (toolTip), widget (KComboBox, cbPositionY)
 #: src/kdefrontend/ui/datapickerimagewidget.ui:959
 #: src/kdefrontend/ui/dockwidgets/custompointdock.ui:146
 #: src/kdefrontend/ui/dockwidgets/imagedock.ui:59
@@ -14478,8 +14478,8 @@ msgstr ""
 msgid "The number of vectors in the file"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lDataType)
 #. i18n: ectx: property (text), widget (QLabel, lType)
+#. i18n: ectx: property (text), widget (QLabel, lDataType)
 #: src/kdefrontend/ui/datasources/binaryoptionswidget.ui:50
 #: src/kdefrontend/ui/dockwidgets/columndock.ui:57
 #, kde-format
@@ -14623,8 +14623,8 @@ msgstr ""
 msgid "Comment character:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lSeparatingCharacter)
 #. i18n: ectx: property (text), widget (QLabel, lSeparator)
+#. i18n: ectx: property (text), widget (QLabel, lSeparatingCharacter)
 #: src/kdefrontend/ui/datasources/datasetmetadatamanagerwidget.ui:86
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:138
 #, kde-format
@@ -14673,8 +14673,8 @@ msgstr ""
 msgid "Collection"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelPreview)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, labelPreview)
 #. i18n: ectx: property (text), widget (QLabel, lPreviewLines)
 #: src/kdefrontend/ui/datasources/fitsoptionswidget.ui:19
 #: src/kdefrontend/ui/datasources/hdf5optionswidget.ui:41
@@ -14721,8 +14721,8 @@ msgstr ""
 msgid "Collection:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lCategories)
 #. i18n: ectx: property (text), widget (QLabel, lValuesColumn)
+#. i18n: ectx: property (text), widget (QLabel, lCategories)
 #: src/kdefrontend/ui/datasources/importdatasetwidget.ui:86
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:794
 #, kde-format
@@ -14783,9 +14783,9 @@ msgstr ""
 msgid "Manage filters"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lSourceType)
-#. i18n: ectx: property (text), widget (QLabel, lDataSourceType)
 #. i18n: ectx: property (text), widget (QLabel, lSourceInfo)
+#. i18n: ectx: property (text), widget (QLabel, lDataSourceType)
+#. i18n: ectx: property (text), widget (QLabel, lSourceType)
 #: src/kdefrontend/ui/datasources/importfilewidget.ui:174
 #: src/kdefrontend/ui/dockwidgets/livedatadock.ui:59
 #: src/kdefrontend/ui/dockwidgets/xyconvolutioncurvedockgeneraltab.ui:185
@@ -14970,8 +14970,8 @@ msgstr ""
 msgid "Update interval:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lKeepLastValues)
 #. i18n: ectx: property (text), widget (QLabel, lKeepNvalues)
+#. i18n: ectx: property (text), widget (QLabel, lKeepLastValues)
 #: src/kdefrontend/ui/datasources/importfilewidget.ui:755
 #: src/kdefrontend/ui/dockwidgets/livedatadock.ui:307
 #, kde-format
@@ -15013,8 +15013,8 @@ msgid "Link the file"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lFileName)
-#. i18n: ectx: property (text), widget (QLabel, lFillingFileName)
 #. i18n: ectx: property (text), widget (QLabel, lBackgroundFileName)
+#. i18n: ectx: property (text), widget (QLabel, lFillingFileName)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/kdefrontend/ui/datasources/importprojectwidget.ui:23
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1231
@@ -15066,8 +15066,8 @@ msgstr ""
 msgid "Manage connections:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lId)
 #. i18n: ectx: property (text), widget (QLabel, lID)
+#. i18n: ectx: property (text), widget (QLabel, lId)
 #: src/kdefrontend/ui/datasources/mqttconnectionmanagerwidget.ui:65
 #: src/kdefrontend/ui/datasources/mqtterrorwidget.ui:67
 #, kde-format
@@ -15173,13 +15173,13 @@ msgstr ""
 msgid "Orientation:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lYBreakPosition)
+#. i18n: ectx: property (text), widget (QLabel, lXBreakPosition)
+#. i18n: ectx: property (text), widget (QLabel, lReferenceLinePosition)
 #. i18n: ectx: property (text), widget (QLabel, lPosition)
 #. i18n: ectx: property (text), widget (QLabel, lArrowPosition)
 #. i18n: ectx: property (text), widget (QLabel, lLabelsPosition)
 #. i18n: ectx: property (text), widget (QLabel, lValuesPosition)
-#. i18n: ectx: property (text), widget (QLabel, lReferenceLinePosition)
-#. i18n: ectx: property (text), widget (QLabel, lYBreakPosition)
-#. i18n: ectx: property (text), widget (QLabel, lXBreakPosition)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:118
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:448
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1125
@@ -15266,9 +15266,9 @@ msgstr ""
 msgid "Spacing:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lDirection)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksDirection)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksDirection)
-#. i18n: ectx: property (text), widget (QLabel, lDirection)
 #. i18n: ectx: property (text), widget (QLabel, lFillingPosition)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:543
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:747
@@ -15279,9 +15279,9 @@ msgstr ""
 msgid "Direction:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lIncrement)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksIncrementDateTime)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksIncrementDateTime)
-#. i18n: ectx: property (text), widget (QLabel, lIncrement)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:553
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:940
 #: src/kdefrontend/ui/spreadsheet/equidistantvalueswidget.ui:37
@@ -15295,9 +15295,9 @@ msgstr ""
 msgid "spacing between major ticks"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lNumber)
 #. i18n: ectx: property (text), widget (QLabel, lMajorTicksNumber)
 #. i18n: ectx: property (text), widget (QLabel, lMinorTicksNumber)
-#. i18n: ectx: property (text), widget (QLabel, lNumber)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:652
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:717
 #: src/kdefrontend/ui/spreadsheet/equidistantvalueswidget.ui:27
@@ -15330,15 +15330,15 @@ msgid ""
 "Automatically determine the optimal number of digits after the decimal point"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbAutoRange)
-#. i18n: ectx: property (text), widget (QCheckBox, chkLabelsAutoPrecision)
-#. i18n: ectx: property (text), widget (QCheckBox, chkAutoBinRanges)
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoScaleX)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, leXMin)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, leXMax)
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoScaleY)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, leYMin)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, leYMax)
+#. i18n: ectx: property (text), widget (QCheckBox, cbAutoRange)
+#. i18n: ectx: property (text), widget (QCheckBox, chkLabelsAutoPrecision)
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoBinRanges)
 #. i18n: ectx: property (text), widget (QCheckBox, chkAuto)
 #. i18n: ectx: property (text), widget (QCheckBox, chkAuto2)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:987
@@ -15364,10 +15364,10 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lLabelsBackground)
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. i18n: ectx: attribute (title), widget (QWidget, tab2)
 #. i18n: ectx: property (text), widget (QLabel, lBackground)
+#. i18n: ectx: property (text), widget (QLabel, lLabelsBackground)
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1000
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1059
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:353
@@ -15377,9 +15377,9 @@ msgstr ""
 msgid "Background"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lFont)
 #. i18n: ectx: property (text), widget (QLabel, lLabelsFont)
 #. i18n: ectx: property (text), widget (QLabel, lValuesFont)
-#. i18n: ectx: property (text), widget (QLabel, lFont)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1007
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:114
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:777
@@ -15391,11 +15391,11 @@ msgid "Font:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lOutputFormat)
-#. i18n: ectx: property (text), widget (QLabel, lLabelsDateTimeFormat)
-#. i18n: ectx: property (text), widget (QLabel, lLabelsFormat)
+#. i18n: ectx: property (text), widget (QLabel, lFormat)
 #. i18n: ectx: property (text), widget (QLabel, lXRangeFormat)
 #. i18n: ectx: property (text), widget (QLabel, lYRangeFormat)
-#. i18n: ectx: property (text), widget (QLabel, lFormat)
+#. i18n: ectx: property (text), widget (QLabel, lLabelsDateTimeFormat)
+#. i18n: ectx: property (text), widget (QLabel, lLabelsFormat)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1033
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1261
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:366
@@ -15438,9 +15438,9 @@ msgstr ""
 msgid "Number of digits after the decimal point"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lPrecision)
 #. i18n: ectx: property (text), widget (QLabel, lLabelsPrecision)
 #. i18n: ectx: property (text), widget (QLabel, lValuesPrecision)
-#. i18n: ectx: property (text), widget (QLabel, lPrecision)
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1304
 #: src/kdefrontend/ui/dockwidgets/columndock.ui:64
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:905
@@ -15480,9 +15480,9 @@ msgstr ""
 msgid "Box"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lFillingSecondColor)
-#. i18n: ectx: property (text), widget (QLabel, lBoxFillingSecondColor)
 #. i18n: ectx: property (text), widget (QLabel, lBackgroundSecondColor)
+#. i18n: ectx: property (text), widget (QLabel, lBoxFillingSecondColor)
+#. i18n: ectx: property (text), widget (QLabel, lFillingSecondColor)
 #: src/kdefrontend/ui/dockwidgets/boxplotdock.ui:241
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1210
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:478
@@ -15505,8 +15505,8 @@ msgstr ""
 msgid "Markers"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabSymbol)
 #. i18n: ectx: property (text), widget (QLabel, lSymbol)
+#. i18n: ectx: attribute (title), widget (QWidget, tabSymbol)
 #: src/kdefrontend/ui/dockwidgets/boxplotdock.ui:503
 #: src/kdefrontend/ui/dockwidgets/custompointdock.ui:184
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:431
@@ -15533,10 +15533,10 @@ msgstr ""
 msgid "Whiskers"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lFormat)
+#. i18n: ectx: property (text), widget (QLabel, lWhiskersFormat)
 #. i18n: ectx: property (text), widget (QLabel, lValuesFormat)
 #. i18n: ectx: property (text), widget (QLabel, lErrorFormat)
-#. i18n: ectx: property (text), widget (QLabel, lWhiskersFormat)
-#. i18n: ectx: property (text), widget (QLabel, lFormat)
 #. i18n: ectx: property (text), widget (QLabel, lFormat_2)
 #: src/kdefrontend/ui/dockwidgets/boxplotdock.ui:902
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:107
@@ -15551,8 +15551,8 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lErrorBarsCapSize)
 #. i18n: ectx: property (text), widget (QLabel, lWhiskersCapSize)
+#. i18n: ectx: property (text), widget (QLabel, lErrorBarsCapSize)
 #: src/kdefrontend/ui/dockwidgets/boxplotdock.ui:909
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:1344
 #: src/kdefrontend/ui/dockwidgets/xycurvedock.ui:1329
@@ -15560,24 +15560,24 @@ msgstr ""
 msgid "Cap size:"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbHeight)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutRightMargin)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutTopMargin)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutLeftMargin)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutHorizontalSpacing)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutBottomMargin)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutVerticalSpacing)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPositionX)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPositionY)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLineSymbolWidth)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbBorderCornerRadius)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPositionX)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLeft)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbTop)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbHeight)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPaddingHorizontal)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPaddingRight)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPaddingBottom)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbBorderCornerRadius)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbPaddingVertical)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLineSymbolWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutTopMargin)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutBottomMargin)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutRightMargin)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutHorizontalSpacing)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutVerticalSpacing)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sbLayoutLeftMargin)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:44
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:57
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:70
@@ -15630,8 +15630,8 @@ msgstr ""
 msgid "Geometry"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lHeight)
 #. i18n: ectx: property (text), widget (QLabel, lRightMargin)
+#. i18n: ectx: property (text), widget (QLabel, lHeight)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:295
 #: src/kdefrontend/ui/dockwidgets/imagedock.ui:452
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:43
@@ -15647,14 +15647,14 @@ msgstr ""
 msgid "Scaling:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lMax)
-#. i18n: ectx: property (text), widget (QLabel, lMaxDateTime)
-#. i18n: ectx: property (text), widget (QLabel, lBinRangesMax)
-#. i18n: ectx: property (text), widget (QLabel, lBinRangesMaxDateTime)
 #. i18n: ectx: property (text), widget (QLabel, lYMaxDateTime)
 #. i18n: ectx: property (text), widget (QLabel, lXMax)
 #. i18n: ectx: property (text), widget (QLabel, lXMaxDateTime)
 #. i18n: ectx: property (text), widget (QLabel, lYMax)
+#. i18n: ectx: property (text), widget (QLabel, lMax)
+#. i18n: ectx: property (text), widget (QLabel, lMaxDateTime)
+#. i18n: ectx: property (text), widget (QLabel, lBinRangesMax)
+#. i18n: ectx: property (text), widget (QLabel, lBinRangesMaxDateTime)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:309
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:419
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:433
@@ -15691,11 +15691,11 @@ msgstr ""
 msgid "Show f&irst"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, lXscale)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, lXRange)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:359
 #: src/kdefrontend/ui/dockwidgets/xyconvolutioncurvedockgeneraltab.ui:387
 #: src/kdefrontend/ui/dockwidgets/xycorrelationcurvedockgeneraltab.ui:129
@@ -15722,14 +15722,14 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lMinDateTime)
-#. i18n: ectx: property (text), widget (QLabel, lMin)
-#. i18n: ectx: property (text), widget (QLabel, lBinRangesMin)
-#. i18n: ectx: property (text), widget (QLabel, lBinRangesMinDateTime)
 #. i18n: ectx: property (text), widget (QLabel, lXMin)
 #. i18n: ectx: property (text), widget (QLabel, lXMinDateTime)
 #. i18n: ectx: property (text), widget (QLabel, lYMin)
 #. i18n: ectx: property (text), widget (QLabel, lYMinDateTime)
+#. i18n: ectx: property (text), widget (QLabel, lMinDateTime)
+#. i18n: ectx: property (text), widget (QLabel, lMin)
+#. i18n: ectx: property (text), widget (QLabel, lBinRangesMin)
+#. i18n: ectx: property (text), widget (QLabel, lBinRangesMinDateTime)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:412
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:426
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:483
@@ -15766,9 +15766,9 @@ msgstr ""
 msgid "Range Breaks"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lTo)
 #. i18n: ectx: property (text), widget (QLabel, lYBreakEnd)
 #. i18n: ectx: property (text), widget (QLabel, lXBreakEnd)
-#. i18n: ectx: property (text), widget (QLabel, lTo)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:516
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:552
 #: src/kdefrontend/ui/spreadsheet/equidistantvalueswidget.ui:57
@@ -15807,9 +15807,9 @@ msgid "y-Range"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lEnabled)
-#. i18n: ectx: property (text), widget (QLabel, lFillingEnabled)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, lFillingEnabled)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:676
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:683
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:1057
@@ -15818,9 +15818,9 @@ msgstr ""
 msgid "Enabled:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, lFrom)
 #. i18n: ectx: property (text), widget (QLabel, lXBreakStart)
 #. i18n: ectx: property (text), widget (QLabel, lYBreakStart)
-#. i18n: ectx: property (text), widget (QLabel, lFrom)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:750
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:807
 #: src/kdefrontend/ui/spreadsheet/equidistantvalueswidget.ui:47
@@ -15846,8 +15846,8 @@ msgstr ""
 msgid "Padding"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lRightMargin)
 #. i18n: ectx: property (text), widget (QLabel, lPaddingHorizontalRight)
+#. i18n: ectx: property (text), widget (QLabel, lRightMargin)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1073
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:488
 #, kde-format
@@ -15861,8 +15861,8 @@ msgstr ""
 msgid "Corner radius:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lBottomMargin)
 #. i18n: ectx: property (text), widget (QLabel, lPaddingVerticalDown)
+#. i18n: ectx: property (text), widget (QLabel, lBottomMargin)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1224
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:448
 #, kde-format
@@ -15884,8 +15884,8 @@ msgstr ""
 msgid "Columns:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lOrder)
 #. i18n: ectx: property (text), widget (QLabel, lOrdering)
+#. i18n: ectx: property (text), widget (QLabel, lOrder)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:154
 #: src/kdefrontend/ui/dockwidgets/xyfourierfiltercurvedockgeneraltab.ui:255
 #: src/kdefrontend/ui/spreadsheet/sortdialogwidget.ui:23
@@ -15997,11 +15997,11 @@ msgstr ""
 msgid "Cursor 2"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, lPositionX)
-#. i18n: ectx: property (toolTip), widget (QComboBox, cbPositionX)
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, sbPositionX)
-#. i18n: ectx: property (toolTip), widget (QLabel, lPosition)
 #. i18n: ectx: property (toolTip), widget (KComboBox, cbPositionX)
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, sbPositionX)
+#. i18n: ectx: property (toolTip), widget (QLabel, lPositionX)
+#. i18n: ectx: property (toolTip), widget (QLabel, lPosition)
+#. i18n: ectx: property (toolTip), widget (QComboBox, cbPositionX)
 #: src/kdefrontend/ui/dockwidgets/custompointdock.ui:109
 #: src/kdefrontend/ui/dockwidgets/imagedock.ui:426
 #: src/kdefrontend/ui/dockwidgets/imagedock.ui:467
@@ -16208,8 +16208,8 @@ msgstr ""
 msgid "Mapping"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, bgcolor)
 #. i18n: ectx: property (text), widget (QLabel, lBackgroundColor)
+#. i18n: ectx: property (text), widget (QLabel, bgcolor)
 #: src/kdefrontend/ui/dockwidgets/notedock.ui:69
 #: src/kdefrontend/ui/labelwidget.ui:223
 #, kde-format
@@ -16284,9 +16284,9 @@ msgstr ""
 msgid "or"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QToolButton, lResults)
 #. i18n: ectx: property (text), widget (QLabel, lResults)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QToolButton, lResults)
 #: src/kdefrontend/ui/dockwidgets/xyconvolutioncurvedockgeneraltab.ui:88
 #: src/kdefrontend/ui/dockwidgets/xycorrelationcurvedockgeneraltab.ui:367
 #: src/kdefrontend/ui/dockwidgets/xydatareductioncurvedockgeneraltab.ui:440
@@ -17039,8 +17039,8 @@ msgstr ""
 msgid "Left value:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, pbApply)
 #. i18n: ectx: property (text), widget (QPushButton, bApply)
+#. i18n: ectx: property (text), widget (QPushButton, pbApply)
 #: src/kdefrontend/ui/fitoptionswidget.ui:30
 #: src/kdefrontend/ui/mqttwillsettingswidget.ui:322
 #, kde-format

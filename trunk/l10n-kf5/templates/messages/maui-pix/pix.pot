@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-pix\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-08 02:40+0100\n"
+"POT-Creation-Date: 2021-03-28 03:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: src/main.qml:139 src/widgets/views/Viewer/PixViewer.qml:61
+#: src/main.qml:139 src/widgets/views/Viewer/PixViewer.qml:67
 #, kde-format
 msgid "Gallery"
 msgstr ""
@@ -86,7 +86,6 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/main.qml:277 src/view_models/PixMenu.qml:128
-#: src/widgets/views/Viewer/Editor.qml:142
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -104,19 +103,9 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/view_models/PixGrid.qml:53
+#: src/view_models/PixGrid.qml:54
 #, kde-format
 msgid "Search"
-msgstr ""
-
-#: src/view_models/PixGrid.qml:69
-#, kde-format
-msgid "List"
-msgstr ""
-
-#: src/view_models/PixGrid.qml:76
-#, kde-format
-msgid "Grid"
 msgstr ""
 
 #: src/view_models/PixMenu.qml:24
@@ -371,7 +360,7 @@ msgid "Make sure you're online and your cloud account is working"
 msgstr ""
 
 #: src/widgets/views/Folders/FoldersView.qml:29
-#: src/widgets/views/Tags/TagsSidebar.qml:23
+#: src/widgets/views/Tags/TagsSidebar.qml:22
 #, kde-format
 msgid "Filter"
 msgstr ""
@@ -398,7 +387,7 @@ msgstr ""
 
 #: src/widgets/views/Gallery/GalleryView.qml:21
 #: src/widgets/views/Tags/TagsView.qml:43
-#: src/widgets/views/Viewer/PixViewer.qml:154
+#: src/widgets/views/Viewer/PixViewer.qml:161
 #, kde-format
 msgid "No Pics!"
 msgstr ""
@@ -408,17 +397,17 @@ msgstr ""
 msgid "Add new sources to browse your image collection "
 msgstr ""
 
-#: src/widgets/views/Tags/TagsSidebar.qml:62
+#: src/widgets/views/Tags/TagsSidebar.qml:55
 #, kde-format
 msgid "qrc:/assets/add-image.svg"
 msgstr ""
 
-#: src/widgets/views/Tags/TagsSidebar.qml:63
+#: src/widgets/views/Tags/TagsSidebar.qml:56
 #, kde-format
 msgid "No Tags!"
 msgstr ""
 
-#: src/widgets/views/Tags/TagsSidebar.qml:64
+#: src/widgets/views/Tags/TagsSidebar.qml:57
 #, kde-format
 msgid "You can create new tags to organize your gallery"
 msgstr ""
@@ -428,92 +417,108 @@ msgstr ""
 msgid "There's no pics associated with the tag"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:22
+#: src/widgets/views/Viewer/editor/ColourBar.qml:59
 #, kde-format
-msgid "Edit"
+msgctxt "@action:button Crop an image"
+msgid "Saturation"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:40
+#: src/widgets/views/Viewer/editor/ColourBar.qml:68
+#, kde-format
+msgctxt "@action:button Rotate an image"
+msgid "Contrast"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/ColourBar.qml:77
+#, kde-format
+msgctxt "@action:button Rotate an image"
+msgid "Exposure"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/ColourBar.qml:86
+#, kde-format
+msgctxt "@action:button Rotate an image"
+msgid "Highlights"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/ColourBar.qml:95
+#, kde-format
+msgctxt "@action:button Rotate an image"
+msgid "Shadows"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/ColourBar.qml:105
+#, kde-format
+msgctxt "@action:button Rotate an image"
+msgid "Brightness"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/EditorView.qml:27
+#, kde-format
+msgid "Save as"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/EditorView.qml:33
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:47
+#: src/widgets/views/Viewer/editor/EditorView.qml:65
 #, kde-format
-msgid "Save as..."
+msgid "Color"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:94
+#: src/widgets/views/Viewer/editor/EditorView.qml:70
 #, kde-format
-msgctxt "@action:button Rotate an image to the left"
-msgid "Rotate left"
+msgid "Transform"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:102
+#: src/widgets/views/Viewer/editor/EditorView.qml:75
 #, kde-format
-msgctxt "@action:button Rotate an image to the right"
-msgid "Rotate right"
+msgid "Layer"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:118
+#: src/widgets/views/Viewer/editor/TransformationBar.qml:34
 #, kde-format
 msgctxt "@action:button Mirror an image vertically"
 msgid "Flip"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:126
+#: src/widgets/views/Viewer/editor/TransformationBar.qml:42
 #, kde-format
 msgctxt "@action:button Mirror an image horizontally"
 msgid "Mirror"
 msgstr ""
 
-#: src/widgets/views/Viewer/Editor.qml:142
+#: src/widgets/views/Viewer/editor/TransformationBar.qml:54
+#, kde-format
+msgctxt "@action:button Rotate an image 90°"
+msgid "Rotate 90°"
+msgstr ""
+
+#: src/widgets/views/Viewer/editor/TransformationBar.qml:109
 #, kde-format
 msgctxt "@action:button Crop an image"
 msgid "Crop"
 msgstr ""
 
-#: src/widgets/views/Viewer/EditTools.qml:68
+#: src/widgets/views/Viewer/editor/TransformationBar.qml:118
 #, kde-format
-msgid "Color"
-msgstr ""
-
-#: src/widgets/views/Viewer/EditTools.qml:80
-#, kde-format
-msgid "Contrast"
-msgstr ""
-
-#: src/widgets/views/Viewer/EditTools.qml:103
-#, kde-format
-msgid "Brightness"
-msgstr ""
-
-#: src/widgets/views/Viewer/EditTools.qml:127
-#, kde-format
-msgid "Saturation"
-msgstr ""
-
-#: src/widgets/views/Viewer/EditTools.qml:151
-#, kde-format
-msgid "Hue"
-msgstr ""
-
-#: src/widgets/views/Viewer/EditTools.qml:174
-#, kde-format
-msgid "Lightness"
-msgstr ""
-
-#: src/widgets/views/Viewer/PixViewer.qml:118
-#, kde-format
-msgid "Previous"
+msgctxt "@action:button Rotate an image"
+msgid "Rotate"
 msgstr ""
 
 #: src/widgets/views/Viewer/PixViewer.qml:125
 #, kde-format
+msgid "Previous"
+msgstr ""
+
+#: src/widgets/views/Viewer/PixViewer.qml:132
+#, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: src/widgets/views/Viewer/PixViewer.qml:155
+#: src/widgets/views/Viewer/PixViewer.qml:162
 #, kde-format
 msgid "Open an image from your collection"
 msgstr ""
