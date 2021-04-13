@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-08 00:17+0000\n"
+"POT-Creation-Date: 2021-04-13 00:16+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -2573,7 +2573,7 @@ msgstr "Thanh công cụ chính"
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:74
-#: core/libs/album/manager/albummanager_talbum.cpp:916
+#: core/libs/album/manager/albummanager_talbum.cpp:929
 #, kde-format
 msgid "digiKam"
 msgstr "digiKam"
@@ -23667,7 +23667,7 @@ msgid "Cannot delete Root Tag"
 msgstr "Không thể xoá thẻ gốc"
 
 #: core/libs/album/manager/albummanager_talbum.cpp:429
-#: core/libs/album/manager/albummanager_talbum.cpp:661
+#: core/libs/album/manager/albummanager_talbum.cpp:674
 #, kde-format
 msgid "Cannot edit root tag"
 msgstr "Không thể sửa đổi thẻ gốc"
@@ -23719,17 +23719,23 @@ msgstr "Không thẻ di chuyển thẻ gốc"
 msgid "Only a tag without children can be merged!"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:584
+#: core/libs/album/manager/albummanager_talbum.cpp:588
 #, fuzzy, kde-format
 msgid "Do you want to merge tag '%1' into tag '%2'?"
 msgstr "Siêu dữ liệu"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:655
+#: core/libs/album/manager/albummanager_talbum.cpp:592
+#: core/libs/album/manager/albummanager_talbum.cpp:1061
+#, fuzzy, kde-format
+msgid "Don't ask again at this session"
+msgstr "Đừng &hỏi lại"
+
+#: core/libs/album/manager/albummanager_talbum.cpp:668
 #, kde-format
 msgid "No such tag"
 msgstr "Không có thẻ như vậy"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:1043
+#: core/libs/album/manager/albummanager_talbum.cpp:1056
 #, fuzzy, kde-format
 msgid ""
 "This operation can take a long time in the background.\n"
@@ -23737,11 +23743,6 @@ msgid ""
 msgstr ""
 "Thực hiện thao tác này thì giảm chất lượng màu của ảnh. Bạn có muốn tiếp tục "
 "không?"
-
-#: core/libs/album/manager/albummanager_talbum.cpp:1048
-#, fuzzy, kde-format
-msgid "Do not ask again for this session"
-msgstr "Đừng &hỏi lại"
 
 #: core/libs/album/treeview/abstractalbumtreeview.cpp:61
 #, kde-format
@@ -32554,7 +32555,7 @@ msgid "Open setup dialog page to configure updates."
 msgstr ""
 
 #: core/libs/onlineversion/onlineversiondlg.cpp:305
-#: core/utilities/setup/downloader/filesdownloader.cpp:171
+#: core/utilities/setup/downloader/filesdownloader.cpp:168
 #, fuzzy, kde-format
 msgid "Download"
 msgstr "Tải về"
@@ -40872,6 +40873,21 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "XMP Extended Video schema"
 msgstr "Hành động IPTC"
+
+#: core/libs/widgets/metadata/mdkeylistviewitem.cpp:193
+#, kde-format
+msgid "Exif 2.3 metadata for XMP"
+msgstr ""
+
+#: core/libs/widgets/metadata/mdkeylistviewitem.cpp:197
+#, fuzzy, kde-format
+msgid "Image Magick Attributes"
+msgstr "Ảnh được tìm trong %1"
+
+#: core/libs/widgets/metadata/mdkeylistviewitem.cpp:201
+#, fuzzy, kde-format
+msgid "Image Magick Properties"
+msgstr "Thuộc tính"
 
 #: core/libs/widgets/metadata/metadatalistview.cpp:140
 #, fuzzy, kde-format
@@ -51105,7 +51121,7 @@ msgstr "Chọ&n mục mới"
 msgid "Your collection will use this category:"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:161
+#: core/utilities/setup/downloader/filesdownloader.cpp:158
 #, fuzzy, kde-format
 #| msgid "Downloading file %1..."
 msgid "Download required files"
@@ -51124,12 +51140,17 @@ msgid ""
 "b></p>"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:238
+#: core/utilities/setup/downloader/filesdownloader.cpp:240
 #, kde-format
 msgid "All files were downloaded successfully."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:245
+#: core/utilities/setup/downloader/filesdownloader.cpp:247
+#, fuzzy, kde-format
+msgid "Download error"
+msgstr "Tải về"
+
+#: core/utilities/setup/downloader/filesdownloader.cpp:248
 #, kde-format
 msgid ""
 "An error occurred during the download.\n"
@@ -51138,25 +51159,30 @@ msgid ""
 "\n"
 "%2\n"
 "\n"
-"The download will continue at the next start."
+"You can try again or continue the download at the next start."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:354
+#: core/utilities/setup/downloader/filesdownloader.cpp:256
+#, fuzzy, kde-format
+msgid "Try again"
+msgstr "Thêm hạt mảng thuốc..."
+
+#: core/utilities/setup/downloader/filesdownloader.cpp:383
 #, kde-format
 msgid "Checksum is incorrect."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:379
+#: core/utilities/setup/downloader/filesdownloader.cpp:408
 #, kde-format
 msgid "File write error."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:386
+#: core/utilities/setup/downloader/filesdownloader.cpp:415
 #, fuzzy, kde-format
 msgid "File open error."
 msgstr "Xuất"
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:401
+#: core/utilities/setup/downloader/filesdownloader.cpp:430
 #, fuzzy, kde-format
 msgid "File on the server is too large."
 msgstr "Lỗi in tệp: « %1 »"

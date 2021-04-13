@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-08 00:17+0000\n"
+"POT-Creation-Date: 2021-04-13 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2499,7 +2499,7 @@ msgstr ""
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:74
-#: core/libs/album/manager/albummanager_talbum.cpp:916
+#: core/libs/album/manager/albummanager_talbum.cpp:929
 #, kde-format
 msgid "digiKam"
 msgstr ""
@@ -22771,7 +22771,7 @@ msgid "Cannot delete Root Tag"
 msgstr ""
 
 #: core/libs/album/manager/albummanager_talbum.cpp:429
-#: core/libs/album/manager/albummanager_talbum.cpp:661
+#: core/libs/album/manager/albummanager_talbum.cpp:674
 #, kde-format
 msgid "Cannot edit root tag"
 msgstr ""
@@ -22818,26 +22818,27 @@ msgstr ""
 msgid "Only a tag without children can be merged!"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:584
+#: core/libs/album/manager/albummanager_talbum.cpp:588
 #, kde-format
 msgid "Do you want to merge tag '%1' into tag '%2'?"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:655
+#: core/libs/album/manager/albummanager_talbum.cpp:592
+#: core/libs/album/manager/albummanager_talbum.cpp:1061
+#, kde-format
+msgid "Don't ask again at this session"
+msgstr ""
+
+#: core/libs/album/manager/albummanager_talbum.cpp:668
 #, kde-format
 msgid "No such tag"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:1043
+#: core/libs/album/manager/albummanager_talbum.cpp:1056
 #, kde-format
 msgid ""
 "This operation can take a long time in the background.\n"
 "Do you want to write the metadata to %1 files now?"
-msgstr ""
-
-#: core/libs/album/manager/albummanager_talbum.cpp:1048
-#, kde-format
-msgid "Do not ask again for this session"
 msgstr ""
 
 #: core/libs/album/treeview/abstractalbumtreeview.cpp:61
@@ -31165,7 +31166,7 @@ msgid "Open setup dialog page to configure updates."
 msgstr ""
 
 #: core/libs/onlineversion/onlineversiondlg.cpp:305
-#: core/utilities/setup/downloader/filesdownloader.cpp:171
+#: core/utilities/setup/downloader/filesdownloader.cpp:168
 #, kde-format
 msgid "Download"
 msgstr ""
@@ -39291,6 +39292,21 @@ msgstr ""
 #: core/libs/widgets/metadata/mdkeylistviewitem.cpp:189
 #, kde-format
 msgid "XMP Extended Video schema"
+msgstr ""
+
+#: core/libs/widgets/metadata/mdkeylistviewitem.cpp:193
+#, kde-format
+msgid "Exif 2.3 metadata for XMP"
+msgstr ""
+
+#: core/libs/widgets/metadata/mdkeylistviewitem.cpp:197
+#, kde-format
+msgid "Image Magick Attributes"
+msgstr ""
+
+#: core/libs/widgets/metadata/mdkeylistviewitem.cpp:201
+#, kde-format
+msgid "Image Magick Properties"
 msgstr ""
 
 #: core/libs/widgets/metadata/metadatalistview.cpp:140
@@ -49111,7 +49127,7 @@ msgstr ""
 msgid "Your collection will use this category:"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:161
+#: core/utilities/setup/downloader/filesdownloader.cpp:158
 #, kde-format
 msgid "Download required files"
 msgstr ""
@@ -49129,12 +49145,17 @@ msgid ""
 "b></p>"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:238
+#: core/utilities/setup/downloader/filesdownloader.cpp:240
 #, kde-format
 msgid "All files were downloaded successfully."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:245
+#: core/utilities/setup/downloader/filesdownloader.cpp:247
+#, kde-format
+msgid "Download error"
+msgstr ""
+
+#: core/utilities/setup/downloader/filesdownloader.cpp:248
 #, kde-format
 msgid ""
 "An error occurred during the download.\n"
@@ -49143,25 +49164,30 @@ msgid ""
 "\n"
 "%2\n"
 "\n"
-"The download will continue at the next start."
+"You can try again or continue the download at the next start."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:354
+#: core/utilities/setup/downloader/filesdownloader.cpp:256
+#, kde-format
+msgid "Try again"
+msgstr ""
+
+#: core/utilities/setup/downloader/filesdownloader.cpp:383
 #, kde-format
 msgid "Checksum is incorrect."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:379
+#: core/utilities/setup/downloader/filesdownloader.cpp:408
 #, kde-format
 msgid "File write error."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:386
+#: core/utilities/setup/downloader/filesdownloader.cpp:415
 #, kde-format
 msgid "File open error."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:401
+#: core/utilities/setup/downloader/filesdownloader.cpp:430
 #, kde-format
 msgid "File on the server is too large."
 msgstr ""

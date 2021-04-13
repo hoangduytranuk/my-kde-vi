@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-06 00:19+0000\n"
+"POT-Creation-Date: 2021-04-10 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -488,6 +488,7 @@ msgstr ""
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:96
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:224
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:321
 #, kde-format
 msgid "Unknown"
 msgstr ""
@@ -1150,6 +1151,7 @@ msgid "Committing..."
 msgstr ""
 
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:231
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:357
 #, kde-format
 msgid "Finished"
 msgstr ""
@@ -1295,6 +1297,127 @@ msgctxt "update state"
 msgid "Testing"
 msgstr ""
 
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:323
+#: libdiscover/resources/AbstractResource.cpp:92
+#, kde-format
+msgid "Installed"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:325
+#, kde-format
+msgid "Not Installed"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:327
+#, kde-format
+msgid "Low"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:329
+#, kde-format
+msgid "Enhancement"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:331
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:333
+#, kde-format
+msgid "Bugfix"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:335
+#, kde-format
+msgid "Important"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:337
+#, kde-format
+msgid "Security"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:339
+#, kde-format
+msgid "Blocked"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:341
+#, kde-format
+msgid "Downloading"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:343
+#, kde-format
+msgid "Updating"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:345
+#, kde-format
+msgid "Installing"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:347
+#, kde-format
+msgid "Removing"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:349
+#, kde-format
+msgid "Cleanup"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:351
+#, kde-format
+msgid "Obsoleting"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:353
+#, kde-format
+msgid "Collection Installed"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:355
+#, kde-format
+msgid "Collection Available"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:359
+#, kde-format
+msgid "Reinstalling"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:361
+#, kde-format
+msgid "Downgrading"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:363
+#, kde-format
+msgid "Preparing"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:365
+#, kde-format
+msgid "Decompressing"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:367
+#, kde-format
+msgid "Untrusted"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:369
+#, kde-format
+msgid "Trusted"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:371
+#, kde-format
+msgid "Unavailable"
+msgstr ""
+
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:107
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:130
 #, kde-format
@@ -1343,51 +1466,51 @@ msgid_plural "Successfully updated %1 packages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:260
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:256
 #, kde-format
 msgctxt "package-name (version)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:262
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:258
 #, kde-format
 msgctxt "comma separating package names"
 msgid ", "
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:309
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:305
 #, kde-format
 msgid "Obsoletes:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:310
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:306
 #, kde-format
 msgid "Release Notes:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:311
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:307
 #, kde-format
 msgid "Update State:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:312
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:308
 #, kde-format
 msgid "Restart:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:315
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:311
 #, kde-format
 msgid "Vendor:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:335
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:331
 #, kde-format
 msgid "%2 (plus %1 dependency)"
 msgid_plural "%2 (plus %1 dependencies)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:388
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:395
 #, kde-format
 msgid "Failed to start '%1'"
 msgstr ""
@@ -1517,11 +1640,6 @@ msgstr ""
 #: libdiscover/resources/AbstractResource.cpp:90
 #, kde-format
 msgid "Available"
-msgstr ""
-
-#: libdiscover/resources/AbstractResource.cpp:92
-#, kde-format
-msgid "Installed"
 msgstr ""
 
 #: libdiscover/resources/AbstractResource.cpp:94
