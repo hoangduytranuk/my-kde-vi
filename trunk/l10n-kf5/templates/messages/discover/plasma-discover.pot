@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-12 00:19+0000\n"
+"POT-Creation-Date: 2021-04-16 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -195,7 +195,7 @@ msgid "Add"
 msgstr ""
 
 #: discover/qml/AddSourceDialog.qml:70 discover/qml/DiscoverWindow.qml:226
-#: discover/qml/InstallApplicationButton.qml:44
+#: discover/qml/InstallApplicationButton.qml:48
 #: discover/qml/ProgressView.qml:102 discover/qml/SourcesPage.qml:140
 #: discover/qml/UpdatesPage.qml:140
 #, kde-format
@@ -525,18 +525,24 @@ msgstr ""
 msgid "Participate..."
 msgstr ""
 
-#: discover/qml/InstallApplicationButton.qml:23
+#: discover/qml/InstallApplicationButton.qml:22
+#, kde-format
+msgctxt "State being fetched"
+msgid "Loading..."
+msgstr ""
+
+#: discover/qml/InstallApplicationButton.qml:27
 #, kde-format
 msgctxt "Install the version of an app that comes from Snap, Flatpak, etc"
 msgid "Install from %1"
 msgstr ""
 
-#: discover/qml/InstallApplicationButton.qml:25
+#: discover/qml/InstallApplicationButton.qml:29
 #, kde-format
 msgid "Install"
 msgstr ""
 
-#: discover/qml/InstallApplicationButton.qml:27
+#: discover/qml/InstallApplicationButton.qml:31
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -764,6 +770,13 @@ msgstr ""
 #: discover/qml/UpdatesPage.qml:12
 #, kde-format
 msgid "Updates"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:21
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"%1<nl/><nl/>Please report this issue to the packagers of your distribution."
 msgstr ""
 
 #: discover/qml/UpdatesPage.qml:41

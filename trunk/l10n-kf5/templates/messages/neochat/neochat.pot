@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-10 00:19+0000\n"
+"POT-Creation-Date: 2021-04-17 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -233,7 +233,7 @@ msgid "Video"
 msgstr ""
 
 #: imports/NeoChat/Dialog/CreateRoomDialog.qml:18
-#: qml/main.qml:182
+#: qml/main.qml:179
 #, kde-format
 msgid "Create a Room"
 msgstr ""
@@ -423,7 +423,7 @@ msgid "Message Source"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:15
-#: qml/main.qml:192 qml/main.qml:195
+#: qml/main.qml:189 qml/main.qml:192
 #, kde-format
 msgid "Accounts"
 msgstr ""
@@ -434,7 +434,7 @@ msgid "Edit this account"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:48
-#: qml/main.qml:218
+#: qml/main.qml:215
 #, kde-format
 msgid "Logout"
 msgstr ""
@@ -496,7 +496,7 @@ msgid "Passwords do not match"
 msgstr ""
 
 #: imports/NeoChat/Page/DevicesPage.qml:13
-#: qml/main.qml:199 qml/main.qml:202
+#: qml/main.qml:196 qml/main.qml:199
 #, kde-format
 msgid "Devices"
 msgstr ""
@@ -615,7 +615,7 @@ msgid "Send invitation"
 msgstr ""
 
 #: imports/NeoChat/Page/JoinRoomPage.qml:20
-#: qml/main.qml:173
+#: qml/main.qml:170
 #, kde-format
 msgid "Explore Rooms"
 msgstr ""
@@ -671,7 +671,7 @@ msgid "Search in room directory"
 msgstr ""
 
 #: imports/NeoChat/Page/RoomListPage.qml:58
-#: qml/main.qml:170
+#: qml/main.qml:167
 #, kde-format
 msgid "Explore rooms"
 msgstr ""
@@ -740,7 +740,7 @@ msgid "Drag items here to share them"
 msgstr ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:13
-#: qml/main.qml:205 qml/main.qml:208
+#: qml/main.qml:202 qml/main.qml:205
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -801,7 +801,7 @@ msgid "Show Fancy Effects"
 msgstr ""
 
 #: imports/NeoChat/Page/StartChatPage.qml:19
-#: qml/main.qml:176 qml/main.qml:179 qml/main.qml:189
+#: qml/main.qml:173 qml/main.qml:176 qml/main.qml:186
 #, kde-format
 msgid "Start a Chat"
 msgstr ""
@@ -900,156 +900,166 @@ msgstr ""
 msgid "Muted"
 msgstr ""
 
-#: qml/main.qml:212
+#: qml/main.qml:209
 #, kde-format
 msgid "About NeoChat"
 msgstr ""
 
-#: qml/main.qml:215
+#: qml/main.qml:212
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: qml/main.qml:224 src/trayicon.cpp:30
+#: qml/main.qml:221 src/trayicon.cpp:30
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: qml/main.qml:312
+#: qml/main.qml:313
 #, kde-format
 msgid "User consent"
 msgstr ""
 
-#: qml/main.qml:318
+#: qml/main.qml:319
 #, kde-format
 msgid ""
 "Your homeserver requires you to agree to its terms and conditions before "
 "being able to use it. Please click the button below to read them."
 msgstr ""
 
-#: qml/main.qml:323
+#: qml/main.qml:324
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: src/actionshandler.cpp:64 src/actionshandler.cpp:71
-#: src/actionshandler.cpp:78 src/actionshandler.cpp:85
-#: src/actionshandler.cpp:92 src/actionshandler.cpp:99
-#: src/actionshandler.cpp:106
+#: src/actionshandler.cpp:66 src/actionshandler.cpp:73
+#: src/actionshandler.cpp:80 src/actionshandler.cpp:87
+#: src/actionshandler.cpp:94 src/actionshandler.cpp:101
+#: src/actionshandler.cpp:108
 #, kde-format
 msgctxt "@label Parameter of a command"
 msgid "<message>"
 msgstr ""
 
-#: src/actionshandler.cpp:66
+#: src/actionshandler.cpp:68
 #, kde-format
 msgid "Prepends ¯\\_(ツ)_/¯ to a plain-text message"
 msgstr ""
 
-#: src/actionshandler.cpp:73
+#: src/actionshandler.cpp:75
 #, kde-format
 msgid "Prepends ( ͡° ͜ʖ ͡°) to a plain-text message"
 msgstr ""
 
-#: src/actionshandler.cpp:80
+#: src/actionshandler.cpp:82
 #, kde-format
 msgid "Sends a message as plain text, without interpreting it as markdown"
 msgstr ""
 
-#: src/actionshandler.cpp:87
+#: src/actionshandler.cpp:89
 #, kde-format
 msgid "Sends a message as html, without interpreting it as markdown"
 msgstr ""
 
-#: src/actionshandler.cpp:94
+#: src/actionshandler.cpp:96
 #, kde-format
 msgid "Sends the given message coloured as a rainbow"
 msgstr ""
 
-#: src/actionshandler.cpp:101
+#: src/actionshandler.cpp:103
 #, kde-format
 msgid "Sends the given emote coloured as a rainbow"
 msgstr ""
 
-#: src/actionshandler.cpp:108
+#: src/actionshandler.cpp:110
 #, kde-format
 msgid "Displays action"
 msgstr ""
 
-#: src/actionshandler.cpp:114
+#: src/actionshandler.cpp:116
 #, kde-format
 msgctxt "@label Parameter of a command"
 msgid "<room-address>"
 msgstr ""
 
-#: src/actionshandler.cpp:116
+#: src/actionshandler.cpp:118
 #, kde-format
 msgid "Joins room with given address"
 msgstr ""
 
-#: src/actionshandler.cpp:121
+#: src/actionshandler.cpp:123
 #, kde-format
 msgctxt "@label Parameter of a command"
 msgid "[<room-address>]"
 msgstr ""
 
-#: src/actionshandler.cpp:123
+#: src/actionshandler.cpp:125
 #, kde-format
 msgid "Leave room"
 msgstr ""
 
-#: src/actionshandler.cpp:128
+#: src/actionshandler.cpp:130
 #, kde-format
 msgctxt "@label Parameter of a command"
 msgid "<user-id>"
 msgstr ""
 
-#: src/actionshandler.cpp:130
+#: src/actionshandler.cpp:132
 #, kde-format
 msgid "Invites user with given id to current room"
 msgstr ""
 
-#: src/actionshandler.cpp:134
+#: src/actionshandler.cpp:136
 #, kde-format
 msgctxt "@label Parameter of a command"
 msgid "<reaction text>"
 msgstr ""
 
-#: src/actionshandler.cpp:136
+#: src/actionshandler.cpp:138
 #, kde-format
 msgid "React to this message with a text"
 msgstr ""
 
-#: src/actionshandler.cpp:146
-#, kde-format
-msgid "The room id you are trying to join is not valid"
-msgstr ""
-
-#: src/actionshandler.cpp:154
-#, kde-format
-msgid "Server error when joining the room \"%1\": %2"
-msgstr ""
-
-#: src/actionshandler.cpp:165
-#, kde-format
-msgid "Room creation failed: \"%1\""
-msgstr ""
-
-#: src/actionshandler.cpp:264 src/actionshandler.cpp:283
-#: src/actionshandler.cpp:306 src/actionshandler.cpp:311
-#: src/actionshandler.cpp:324 src/actionshandler.cpp:329
+#: src/actionshandler.cpp:237 src/actionshandler.cpp:256
+#: src/actionshandler.cpp:279 src/actionshandler.cpp:284
+#: src/actionshandler.cpp:297 src/actionshandler.cpp:302
 #, kde-format
 msgid "Invalid command"
 msgstr ""
 
-#: src/controller.cpp:270 src/controller.cpp:273
+#: src/controller.cpp:165 src/controller.cpp:282
+#, kde-format
+msgid "Network Error: %1"
+msgstr ""
+
+#: src/controller.cpp:201
+#, kde-format
+msgid "Server-side Logout Failed: %1"
+msgstr ""
+
+#: src/controller.cpp:273
+#, kde-format
+msgid "Login Failed: Access Token invalid or revoked"
+msgstr ""
+
+#: src/controller.cpp:276
 #, kde-format
 msgid "Login Failed"
 msgstr ""
 
-#: src/controller.cpp:270
+#: src/controller.cpp:569
 #, kde-format
-msgid "Access Token invalid or revoked"
+msgid "Room creation failed: \"%1\""
+msgstr ""
+
+#: src/controller.cpp:579
+#, kde-format
+msgid "The room id you are trying to join is not valid"
+msgstr ""
+
+#: src/controller.cpp:587
+#, kde-format
+msgid "Server error when joining the room \"%1\": %2"
 msgstr ""
 
 #: src/login.cpp:137 src/login.cpp:149

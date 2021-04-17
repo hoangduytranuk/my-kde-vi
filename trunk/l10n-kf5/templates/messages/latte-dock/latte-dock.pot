@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-13 00:19+0000\n"
+"POT-Creation-Date: 2021-04-15 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -60,7 +60,7 @@ msgctxt "indicator_name, removed success"
 msgid "<b>%0</b> indicator removed successfully"
 msgstr ""
 
-#: app/lattecorona.cpp:1114
+#: app/lattecorona.cpp:1097
 #, kde-format
 msgid "The layout cannot be imported from file :: "
 msgstr ""
@@ -117,12 +117,12 @@ msgstr ""
 msgid "Different applets with same id ::: "
 msgstr ""
 
-#: app/layouts/synchronizer.cpp:920
+#: app/layouts/synchronizer.cpp:931
 #, kde-format
 msgid "Activating layout: <b>%0</b> ..."
 msgstr ""
 
-#: app/layouts/synchronizer.cpp:922
+#: app/layouts/synchronizer.cpp:933
 #, kde-format
 msgid "Activating layouts: <b>%0</b> ..."
 msgstr ""
@@ -442,7 +442,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
 #: app/settings/detailsdialog/detailsdialog.ui:247
-#: app/settings/settingsdialog/settingsdialog.ui:673
+#: app/settings/settingsdialog/settingsdialog.ui:684
 #, kde-format
 msgid "Behavior:"
 msgstr ""
@@ -490,14 +490,13 @@ msgstr ""
 msgid "Hide window borders for maximized windows"
 msgstr ""
 
-#: app/settings/detailsdialog/detailshandler.cpp:400
+#: app/settings/detailsdialog/detailshandler.cpp:408
 #, kde-format
 msgctxt "<layout name> Details"
 msgid "%0 Details"
 msgstr ""
 
-#: app/settings/detailsdialog/detailshandler.cpp:407
-#: app/settings/viewsdialog/viewshandler.cpp:299
+#: app/settings/detailsdialog/detailshandler.cpp:415
 #, kde-format
 msgid ""
 "The settings of <b>%0</b> layout have changed. Do you want to apply the "
@@ -640,8 +639,8 @@ msgstr ""
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:220
 #: app/settings/settingsdialog/settingsdialog.cpp:356
-#: app/settings/settingsdialog/tablayoutshandler.cpp:665
-#: app/settings/settingsdialog/tablayoutshandler.cpp:688
+#: app/settings/settingsdialog/tablayoutshandler.cpp:666
+#: app/settings/settingsdialog/tablayoutshandler.cpp:689
 #, kde-format
 msgid "Open Location..."
 msgstr ""
@@ -652,12 +651,12 @@ msgctxt "settings:template export success"
 msgid "Template <b>%0</b> export succeeded..."
 msgstr ""
 
-#: app/settings/generic/genericdialog.cpp:70
+#: app/settings/generic/genericdialog.cpp:71
 #, kde-format
 msgid "Apply Settings"
 msgstr ""
 
-#: app/settings/generic/genericdialog.cpp:73
+#: app/settings/generic/genericdialog.cpp:74
 #, kde-format
 msgid ""
 "The settings have changed. Do you want to apply the changes or discard them?"
@@ -863,13 +862,13 @@ msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:352
-#: app/settings/settingsdialog/tablayoutshandler.cpp:684
+#: app/settings/settingsdialog/tablayoutshandler.cpp:685
 #, kde-format
 msgid "Full configuration export <b>failed</b>..."
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:369
-#: app/settings/settingsdialog/tablayoutshandler.cpp:701
+#: app/settings/settingsdialog/tablayoutshandler.cpp:702
 #, kde-format
 msgid "Full configuration export succeeded..."
 msgstr ""
@@ -973,171 +972,171 @@ msgid "Details..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, importButton)
-#: app/settings/settingsdialog/settingsdialog.ui:427
+#: app/settings/settingsdialog/settingsdialog.ui:438
 #, kde-format
 msgid "Import..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, exportButton)
-#: app/settings/settingsdialog/settingsdialog.ui:441
+#: app/settings/settingsdialog/settingsdialog.ui:452
 #, kde-format
 msgid "Export..."
 msgstr ""
 
 #. i18n: ectx: property (shortcut), widget (QPushButton, exportButton)
-#: app/settings/settingsdialog/settingsdialog.ui:448
+#: app/settings/settingsdialog/settingsdialog.ui:459
 #, kde-format
 msgid "Ctrl+S"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: app/settings/settingsdialog/settingsdialog.ui:458
+#: app/settings/settingsdialog/settingsdialog.ui:469
 #, kde-format
 msgid "Download..."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, preferencesTab)
-#: app/settings/settingsdialog/settingsdialog.ui:499
+#: app/settings/settingsdialog/settingsdialog.ui:510
 #, kde-format
 msgid "Preferences"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:554
+#: app/settings/settingsdialog/settingsdialog.ui:565
 #, kde-format
 msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:557
+#: app/settings/settingsdialog/settingsdialog.ui:568
 #, kde-format
 msgctxt "low sensitivity"
 msgid "Low"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:579
+#: app/settings/settingsdialog/settingsdialog.ui:590
 #, kde-format
 msgid ""
 "Medium sensitivity for parabolic effect (normal cpu usage and performance)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:582
+#: app/settings/settingsdialog/settingsdialog.ui:593
 #, kde-format
 msgctxt "medium sensitivity"
 msgid "Medium"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:604
+#: app/settings/settingsdialog/settingsdialog.ui:615
 #, kde-format
 msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:607
+#: app/settings/settingsdialog/settingsdialog.ui:618
 #, kde-format
 msgctxt "high sensitivity"
 msgid "High"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:617
+#: app/settings/settingsdialog/settingsdialog.ui:628
 #, kde-format
 msgid "mouse sensitivity"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:642
+#: app/settings/settingsdialog/settingsdialog.ui:653
 #, kde-format
 msgid "Press and hold ⌘ to show shortcuts badges for applets and tasks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:645
+#: app/settings/settingsdialog/settingsdialog.ui:656
 #, kde-format
 msgid "Press and Hold ⌘ to show shortcuts badges"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:722
+#: app/settings/settingsdialog/settingsdialog.ui:733
 #, kde-format
 msgid "Parabolic Effect:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, outlineSpinBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, outlineLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:754
-#: app/settings/settingsdialog/settingsdialog.ui:779
+#: app/settings/settingsdialog/settingsdialog.ui:765
+#: app/settings/settingsdialog/settingsdialog.ui:790
 #, kde-format
 msgid "Outline width used from background to draw its borders"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, outlineSpinBox)
-#: app/settings/settingsdialog/settingsdialog.ui:757
+#: app/settings/settingsdialog/settingsdialog.ui:768
 #, kde-format
 msgid " px."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, outlineLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:782
+#: app/settings/settingsdialog/settingsdialog.ui:793
 #, kde-format
 msgid "outline width "
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:823
+#: app/settings/settingsdialog/settingsdialog.ui:834
 #, kde-format
 msgid "Start the application automatically after each relogin"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:826
+#: app/settings/settingsdialog/settingsdialog.ui:837
 #, kde-format
 msgid "Enable autostart during startup"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, actionsLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:848
+#: app/settings/settingsdialog/settingsdialog.ui:859
 #, kde-format
 msgid "Actions:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, screensLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:897
+#: app/settings/settingsdialog/settingsdialog.ui:908
 #, kde-format
 msgid "Screens:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:909
+#: app/settings/settingsdialog/settingsdialog.ui:920
 #, kde-format
 msgid "Provide visual feedback when layouts are activated automatically"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:912
+#: app/settings/settingsdialog/settingsdialog.ui:923
 #, kde-format
 msgid "Show informative window for layouts automatic activation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, plasmaLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:940
+#: app/settings/settingsdialog/settingsdialog.ui:951
 #, kde-format
 msgid "Plasma Theme:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:952
+#: app/settings/settingsdialog/settingsdialog.ui:963
 #, kde-format
 msgid "Use 3D style for notification and shortcut badges"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:980
-#: app/settings/settingsdialog/settingsdialog.ui:1015
+#: app/settings/settingsdialog/settingsdialog.ui:991
+#: app/settings/settingsdialog/settingsdialog.ui:1026
 #, kde-format
 msgid ""
 "Different hardware can have different delays during screen changes.\n"
@@ -1145,38 +1144,38 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
-#: app/settings/settingsdialog/settingsdialog.ui:989
+#: app/settings/settingsdialog/settingsdialog.ui:1000
 #, kde-format
 msgid " ms."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1018
+#: app/settings/settingsdialog/settingsdialog.ui:1029
 #, kde-format
 msgid "reaction delay for changes"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1043
+#: app/settings/settingsdialog/settingsdialog.ui:1054
 #, kde-format
 msgid ""
 "Activate support for borderless maximized windows between different layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1046
+#: app/settings/settingsdialog/settingsdialog.ui:1057
 #, kde-format
 msgid "Support borderless maximized windows in different layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, appearanceLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1100
+#: app/settings/settingsdialog/settingsdialog.ui:1111
 #, kde-format
 msgid "Appearance:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1112
+#: app/settings/settingsdialog/settingsdialog.ui:1123
 #, kde-format
 msgid ""
 "Forward ⌘ press from KWin to Latte in order to activate Application "
@@ -1184,7 +1183,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1115
+#: app/settings/settingsdialog/settingsdialog.ui:1126
 #, kde-format
 msgid "Press ⌘ to activate Application Launcher"
 msgstr ""
@@ -1273,7 +1272,7 @@ msgstr ""
 #: app/settings/settingsdialog/tablayoutshandler.cpp:190
 #, kde-format
 msgctxt "layout docks / panels"
-msgid "Docks/&Panels..."
+msgid "Docks, &Panels..."
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:191
@@ -1281,195 +1280,195 @@ msgstr ""
 msgid "Show selected layouts docks and panels"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:196
+#: app/settings/settingsdialog/tablayoutshandler.cpp:197
 #, kde-format
 msgctxt "layout details"
 msgid "De&tails..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:197
+#: app/settings/settingsdialog/tablayoutshandler.cpp:198
 #, kde-format
 msgid "Show selected layout details"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:205
+#: app/settings/settingsdialog/tablayoutshandler.cpp:206
 #, kde-format
 msgctxt "import layout"
 msgid "&Import..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:206
+#: app/settings/settingsdialog/tablayoutshandler.cpp:207
 #, kde-format
 msgid "Import layout file from your system"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:212
+#: app/settings/settingsdialog/tablayoutshandler.cpp:213
 #, kde-format
 msgctxt "export layout"
 msgid "Exp&ort"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:213
+#: app/settings/settingsdialog/tablayoutshandler.cpp:214
 #, kde-format
 msgid "Export selected layout at your system"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:223
+#: app/settings/settingsdialog/tablayoutshandler.cpp:224
 #, kde-format
 msgctxt "download layout"
 msgid "&Download..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:224
+#: app/settings/settingsdialog/tablayoutshandler.cpp:225
 #, kde-format
 msgid "Download community layouts from KDE Store"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:240
+#: app/settings/settingsdialog/tablayoutshandler.cpp:241
 #, kde-format
 msgctxt "export layout for backup"
 msgid "&Export For Backup..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:245
+#: app/settings/settingsdialog/tablayoutshandler.cpp:246
 #, kde-format
 msgctxt "export layout as layout template"
 msgid "Export As &Template..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:281
-#: app/settings/viewsdialog/viewshandler.cpp:151
+#: app/settings/settingsdialog/tablayoutshandler.cpp:282
+#: app/settings/viewsdialog/viewshandler.cpp:152
 #, kde-format
 msgid "Templates..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:282
-#: app/settings/viewsdialog/viewshandler.cpp:152
+#: app/settings/settingsdialog/tablayoutshandler.cpp:283
+#: app/settings/viewsdialog/viewshandler.cpp:153
 #, kde-format
 msgid "Open templates directory"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:348
+#: app/settings/settingsdialog/tablayoutshandler.cpp:349
 #, kde-format
 msgctxt "settings:not permitted switching layout"
 msgid ""
 "You need to <b>apply</b> your changes first to switch layout afterwards..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:422
+#: app/settings/settingsdialog/tablayoutshandler.cpp:423
 #, kde-format
 msgctxt "settings:layout added successfully"
 msgid "Layout <b>%0</b> added successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:442
+#: app/settings/settingsdialog/tablayoutshandler.cpp:443
 #, kde-format
 msgctxt "settings:layout downloaded successfully"
 msgid "Layout <b>%0</b> downloaded successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:443
-#: app/settings/settingsdialog/tablayoutshandler.cpp:765
-#: app/settings/settingsdialog/tablayoutshandler.cpp:776
+#: app/settings/settingsdialog/tablayoutshandler.cpp:444
+#: app/settings/settingsdialog/tablayoutshandler.cpp:766
+#: app/settings/settingsdialog/tablayoutshandler.cpp:777
 #, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%0</b> imported successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:448
+#: app/settings/settingsdialog/tablayoutshandler.cpp:449
 #, kde-format
 msgctxt "settings:layout import template"
 msgid "Would you like to update your <b>%0</b> layout template?"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:450
+#: app/settings/settingsdialog/tablayoutshandler.cpp:451
 #, kde-format
 msgctxt "settings:layout import template"
 msgid "Would you like to add <b>%0</b> in your layout templates?"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:453
+#: app/settings/settingsdialog/tablayoutshandler.cpp:454
 #, kde-format
 msgid "Yes"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:454
+#: app/settings/settingsdialog/tablayoutshandler.cpp:455
 #, kde-format
 msgid "No"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:513
+#: app/settings/settingsdialog/tablayoutshandler.cpp:514
 #, kde-format
 msgctxt "settings: active layout remove"
 msgid "<b>Active</b> layouts can not be removed..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:519
+#: app/settings/settingsdialog/tablayoutshandler.cpp:520
 #, kde-format
 msgctxt "settings: locked layout remove"
 msgid "Locked layouts can not be removed..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:550
+#: app/settings/settingsdialog/tablayoutshandler.cpp:551
 #, kde-format
 msgctxt "import layout"
 msgid "Import Layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:553
+#: app/settings/settingsdialog/tablayoutshandler.cpp:554
 #, kde-format
 msgctxt "import layout"
 msgid "Import"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:559
+#: app/settings/settingsdialog/tablayoutshandler.cpp:560
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:560
+#: app/settings/settingsdialog/tablayoutshandler.cpp:561
 #, kde-format
 msgctxt "import older latte layout"
 msgid "Latte Dock Layout file v0.1"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:574
+#: app/settings/settingsdialog/tablayoutshandler.cpp:575
 #, kde-format
 msgctxt "settings:deprecated layouts import failed"
 msgid "Import layouts from deprecated version <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:621
+#: app/settings/settingsdialog/tablayoutshandler.cpp:622
 #, kde-format
 msgid "Export Layout For Backup"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:623
+#: app/settings/settingsdialog/tablayoutshandler.cpp:624
 #, kde-format
 msgctxt "export layout"
 msgid "Export"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:629
+#: app/settings/settingsdialog/tablayoutshandler.cpp:630
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:639
+#: app/settings/settingsdialog/tablayoutshandler.cpp:640
 #, kde-format
 msgctxt "settings:layout export fail"
 msgid "Layout <b>%0</b> export <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:678
+#: app/settings/settingsdialog/tablayoutshandler.cpp:679
 #, kde-format
 msgctxt "settings:layout export success"
 msgid "Layout <b>%0</b> export succeeded..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:768
+#: app/settings/settingsdialog/tablayoutshandler.cpp:769
 #, kde-format
 msgctxt "settings:layouts imported successfully"
 msgid "Layouts <b>%0</b> imported successfully..."
@@ -1481,6 +1480,7 @@ msgid "optional"
 msgstr ""
 
 #: app/settings/viewsdialog/viewsdialog.cpp:47
+#: app/settings/viewsdialog/viewshandler.cpp:310
 #, kde-format
 msgid "Apply Now"
 msgstr ""
@@ -1512,16 +1512,23 @@ msgstr ""
 msgid "Remove selected view"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:242
+#: app/settings/viewsdialog/viewshandler.cpp:243
 #, kde-format
 msgctxt "settings:dock/panel added successfully"
 msgid "<b>%0</b> added successfully..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:292
+#: app/settings/viewsdialog/viewshandler.cpp:301
 #, kde-format
 msgctxt "<layout name> Docks/Panels"
 msgid "%0 Docks/Panels"
+msgstr ""
+
+#: app/settings/viewsdialog/viewshandler.cpp:308
+#, kde-format
+msgid ""
+"The settings of <b>%0</b> layout have changed. Do you want to apply the "
+"changes now or discard them?"
 msgstr ""
 
 #: app/settings/viewsdialog/viewsmodel.cpp:125
@@ -1624,8 +1631,8 @@ msgstr ""
 msgid "Includes"
 msgstr ""
 
-#: app/settings/viewsdialog/viewsmodel.cpp:476
-#: app/settings/viewsdialog/viewsmodel.cpp:530
+#: app/settings/viewsdialog/viewsmodel.cpp:481
+#: app/settings/viewsdialog/viewsmodel.cpp:535
 #, kde-format
 msgctxt "unknown screen"
 msgid "Unknown : [%0]"
@@ -1835,7 +1842,7 @@ msgid "Absolute size"
 msgstr ""
 
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:115
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:986
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1016
 #, kde-format
 msgctxt "number in pixels, e.g. 12 px."
 msgid "%0 px."
@@ -1854,9 +1861,9 @@ msgstr ""
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:537
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:620
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:656
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:851
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:901
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:943
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:881
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:931
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:973
 #: shell/package/contents/configuration/pages/EffectsConfig.qml:115
 #: shell/package/contents/configuration/pages/EffectsConfig.qml:163
 #, kde-format
@@ -1927,208 +1934,220 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:734
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:736
 #, kde-format
 msgctxt "plasma theme colors"
 msgid "Plasma"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:735
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:739
+#, kde-format
+msgctxt "dark theme colors"
+msgid "Dark"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:742
+#, kde-format
+msgctxt "light theme colors"
+msgid "Light"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:745
 #, kde-format
 msgctxt "reverse plasma theme colors"
 msgid "Reverse"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:736
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:748
 #, kde-format
 msgctxt "smart theme colors"
 msgid "Smart"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:743
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:773
 #, kde-format
 msgid "From Window"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:750
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:780
 #: shell/package/contents/configuration/pages/TasksConfig.qml:507
 #, kde-format
 msgid "Disabled"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:754
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:784
 #, kde-format
 msgid "Current Active Window"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:757
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:787
 #, kde-format
 msgid "Colors are going to be based on the active window"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:758
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:788
 #, kde-format
 msgid ""
 "Colors are going to be based on the active window.\n"
 "Warning: You need to install Colors KWin Script from KDE Store"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:760
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:790
 #, kde-format
 msgid "Any Touching Window"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:763
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:793
 #, kde-format
 msgid "Colors are going to be based on windows that are touching the view"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:764
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:794
 #, kde-format
 msgid ""
 "Colors are going to be based on windows that are touching the view.\n"
 "Warning: You need to install Colors KWin Script from KDE Store"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:796
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:826
 #, kde-format
 msgid "Background"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:797
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:827
 #, kde-format
 msgid "Enable/disable background"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:816
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:846
 #: shell/package/contents/configuration/pages/EffectsConfig.qml:80
 #, kde-format
 msgid "Size"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:865
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:895
 #: shell/package/contents/configuration/pages/EffectsConfig.qml:128
 #, kde-format
 msgid "Opacity"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:865
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:895
 #, kde-format
 msgctxt "opacity when desktop background is busy from contrast point of view"
 msgid "Busy Opacity"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:914
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:944
 #, kde-format
 msgid "Radius"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:943
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:986
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:973
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1016
 #, kde-format
 msgctxt "Default word abbreviation"
 msgid "Def."
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:957
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:987
 #, kde-format
 msgid "Shadow"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1006
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1036
 #, kde-format
 msgid "Blur"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1009
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1039
 #, kde-format
 msgid "Background is blurred underneath"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1024
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1054
 #: shell/package/contents/configuration/pages/EffectsConfig.qml:64
 #, kde-format
 msgid "Shadows"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1027
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1057
 #, kde-format
 msgid "Background shows its shadows"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1042
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1072
 #, kde-format
 msgid "Outline"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1046
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1076
 #, kde-format
 msgid ""
 "Background draws a line for its borders. You can set the line size from "
 "Latte Preferences"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1057
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1087
 #, kde-format
 msgid "All Corners"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1065
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1095
 #, kde-format
 msgid "Background draws all corners at all cases."
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1075
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1105
 #, kde-format
 msgctxt "dynamic visibility for background"
 msgid "Dynamic Visibility"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1084
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1114
 #, kde-format
 msgid "Prefer opaque background when touching any window"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1085
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1115
 #, kde-format
 msgid "Background removes its transparency setting when a window is touching"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1098
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1128
 #, kde-format
 msgid "Hide background when not needed"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1099
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1129
 #, kde-format
 msgid ""
 "Background becomes hidden except when a window is touching or the desktop "
 "background is busy"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1112
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1142
 #, kde-format
 msgid "Hide background shadow for maximized windows"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1113
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1143
 #, kde-format
 msgid ""
 "Background shadows become hidden when an active maximized window is touching "
 "the view"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1126
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1156
 #, kde-format
 msgid "Exceptions"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1133
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1163
 #, kde-format
 msgid "Prefer Plasma background and colors for expanded applets"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1134
+#: shell/package/contents/configuration/pages/AppearanceConfig.qml:1164
 #, kde-format
 msgid "Background becomes opaque in plasma style when applets are expanded"
 msgstr ""

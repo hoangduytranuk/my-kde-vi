@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-13 00:18+0000\n"
+"POT-Creation-Date: 2021-04-17 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -618,38 +618,38 @@ msgstr ""
 msgid "Mentions"
 msgstr ""
 
-#: core/model/roommodel.cpp:437
+#: core/model/roommodel.cpp:446
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
-#: core/model/roommodel.cpp:444 core/model/roommodel.cpp:451
+#: core/model/roommodel.cpp:453 core/model/roommodel.cpp:460
 #, kde-format
 msgid "Unread Rooms"
 msgstr ""
 
-#: core/model/roommodel.cpp:446
+#: core/model/roommodel.cpp:455
 #, kde-format
 msgid "Unread Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:455
+#: core/model/roommodel.cpp:464
 #, kde-format
 msgid "Unread Private Messages"
 msgstr ""
 
-#: core/model/roommodel.cpp:465 core/model/roommodel.cpp:473
+#: core/model/roommodel.cpp:474 core/model/roommodel.cpp:482
 #: widgets/administratordialog/administratorwidget.cpp:53
 #, kde-format
 msgid "Rooms"
 msgstr ""
 
-#: core/model/roommodel.cpp:467
+#: core/model/roommodel.cpp:476
 #, kde-format
 msgid "Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:477
+#: core/model/roommodel.cpp:486
 #, kde-format
 msgid "Private Messages"
 msgstr ""
@@ -769,6 +769,11 @@ msgstr ""
 msgid "Hide \"Room Archived\" messages"
 msgstr ""
 
+#: core/model/teamroomsmodel.cpp:48
+#, kde-format
+msgid "(Autojoin)"
+msgstr ""
+
 #: core/notification.cpp:95
 #, kde-format
 msgid "%1 has %2 Unread Message"
@@ -795,42 +800,42 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2511
+#: core/rocketchataccount.cpp:2513
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2512
+#: core/rocketchataccount.cpp:2514
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
 
-#: core/room.cpp:1101
+#: core/room.cpp:1107
 #, kde-format
 msgid "Owner"
 msgstr ""
 
-#: core/room.cpp:1104
+#: core/room.cpp:1110
 #, kde-format
 msgid "Leader"
 msgstr ""
 
-#: core/room.cpp:1107
+#: core/room.cpp:1113
 #, kde-format
 msgid "Moderator"
 msgstr ""
 
-#: core/room.cpp:1456
+#: core/room.cpp:1462
 #, kde-format
 msgid "Channel is read only."
 msgstr ""
 
-#: core/room.cpp:1459
+#: core/room.cpp:1465
 #, kde-format
 msgid "You have blocked this channel."
 msgstr ""
 
-#: core/room.cpp:1462
+#: core/room.cpp:1468
 #, kde-format
 msgid "Channel was blocked."
 msgstr ""
@@ -2638,6 +2643,7 @@ msgstr ""
 #: widgets/dialogs/showattachmentcombobox.cpp:35
 #: widgets/misc/emoticonmenuwidget.cpp:86
 #: widgets/room/usersinroomcombobox.cpp:36
+#: widgets/teams/teamchannelscombobox.cpp:35
 #, kde-format
 msgid "All"
 msgstr ""
@@ -2689,7 +2695,7 @@ msgstr[1] ""
 #: widgets/dialogs/showdiscussionswidget.cpp:94
 #: widgets/dialogs/showlistmessagebasewidget.cpp:105
 #: widgets/room/usersinroomflowwidget.cpp:144
-#: widgets/room/usersinroomwidget.cpp:162
+#: widgets/room/usersinroomwidget.cpp:160
 #, kde-format
 msgid "(Click here for Loading more...)"
 msgstr ""
@@ -2723,29 +2729,28 @@ msgctxt "@title:window"
 msgid "Display Image"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:257
+#: widgets/dialogs/showimagewidget.cpp:256
 #, kde-format
 msgid "Zoom:"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:275
+#: widgets/dialogs/showimagewidget.cpp:274
 #, kde-format
 msgid "100%"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:283
+#: widgets/dialogs/showimagewidget.cpp:282
 #, kde-format
 msgid "Fit to View"
 msgstr ""
 
 #: widgets/dialogs/showlistmessagebasewidget.cpp:44
-#: widgets/room/roomheaderwidget.cpp:137
+#: widgets/room/roomheaderwidget.cpp:145
 #, kde-format
 msgid "Search Messages..."
 msgstr ""
 
 #: widgets/dialogs/showlistmessagebasewidget.cpp:103
-#: widgets/room/usersinroomwidget.cpp:157
 #, kde-format
 msgid "%1 Message in room (Total: %2)"
 msgid_plural "%1 Messages in room (Total: %2)"
@@ -3440,22 +3445,27 @@ msgstr ""
 msgid "(Jump to first Unread)"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:57
+#: widgets/room/roomheaderwidget.cpp:58
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:72
+#: widgets/room/roomheaderwidget.cpp:73
 #, kde-format
 msgid "E2E Enabled"
 msgstr ""
 
-#: widgets/room/roomheaderwidget.cpp:121
+#: widgets/room/roomheaderwidget.cpp:122
 #, kde-format
 msgid "Channel Info"
 msgstr ""
 
 #: widgets/room/roomheaderwidget.cpp:129
+#, kde-format
+msgid "Team Channels"
+msgstr ""
+
+#: widgets/room/roomheaderwidget.cpp:137
 #, kde-format
 msgid "Show List of Users"
 msgstr ""
@@ -3470,12 +3480,12 @@ msgstr ""
 msgid "Replying in a thread"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:195
+#: widgets/room/roomwidget.cpp:198
 #, kde-format
 msgid "Do you want really remove history?"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:195
+#: widgets/room/roomwidget.cpp:198
 #, kde-format
 msgid "Remove History"
 msgstr ""
@@ -3580,6 +3590,13 @@ msgstr ""
 #, kde-format
 msgid "Ignore"
 msgstr ""
+
+#: widgets/room/usersinroomwidget.cpp:158
+#, kde-format
+msgid "%1 User in room (Total: %2)"
+msgid_plural "%1 Users in room (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
 
 #: widgets/ruqolacentralwidget.cpp:60
 #, kde-format
@@ -3727,10 +3744,51 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr ""
 
+#: widgets/teams/teamchannelscombobox.cpp:36
+#, kde-format
+msgid "Autojoin"
+msgstr ""
+
 #: widgets/teams/teamchannelsdialog.cpp:36
 #, kde-format
 msgctxt "@title:window"
 msgid "Team Channels"
+msgstr ""
+
+#: widgets/teams/teamchannelswidget.cpp:67
+#, kde-format
+msgid "Search Room..."
+msgstr ""
+
+#: widgets/teams/teamchannelswidget.cpp:133
+#, kde-format
+msgid "Remove from Team"
+msgstr ""
+
+#: widgets/teams/teamchannelswidget.cpp:138
+#, kde-format
+msgid "Remove Autojoin"
+msgstr ""
+
+#: widgets/teams/teamchannelswidget.cpp:138
+#, kde-format
+msgid "Add Autojoin"
+msgstr ""
+
+#: widgets/teams/teamchannelswidget.cpp:144
+#, kde-format
+msgid "Add Existing Room"
+msgstr ""
+
+#: widgets/teams/teamchannelswidget.cpp:145
+#, kde-format
+msgid "Create Room"
+msgstr ""
+
+#: widgets/teams/teamsearchroomdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Rooms"
 msgstr ""
 
 #: widgets/threadwidget/threadmessagedialog.cpp:38

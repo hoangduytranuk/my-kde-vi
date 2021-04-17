@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-12 00:15+0000\n"
+"POT-Creation-Date: 2021-04-15 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -295,7 +295,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:295 ioslaves/file/file_unix.cpp:109
+#: core/job.cpp:295 ioslaves/file/file_unix.cpp:110
 #, kde-format
 msgid "Rename"
 msgstr ""
@@ -307,7 +307,7 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:301 filewidgets/knewfilemenu.cpp:605
-#: ioslaves/file/file_unix.cpp:113
+#: ioslaves/file/file_unix.cpp:114
 #, kde-format
 msgid "Create Symlink"
 msgstr ""
@@ -3618,77 +3618,77 @@ msgstr ""
 msgid "unmounting is not supported by wince."
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:85
+#: ioslaves/file/file_unix.cpp:86
 #, kde-format
 msgid "Change File Permissions"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:86
+#: ioslaves/file/file_unix.cpp:87
 #, kde-format
 msgid "New Permissions: %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:89
+#: ioslaves/file/file_unix.cpp:90
 #, kde-format
 msgid "Change File Owner"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:90
+#: ioslaves/file/file_unix.cpp:91
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:93
+#: ioslaves/file/file_unix.cpp:94
 #, kde-format
 msgid "Remove File"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:96
+#: ioslaves/file/file_unix.cpp:97
 #, kde-format
 msgid "Remove Directory"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:99
+#: ioslaves/file/file_unix.cpp:100
 #, kde-format
 msgid "Create Directory"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:100
+#: ioslaves/file/file_unix.cpp:101
 #, kde-format
 msgid "Directory Permissions: %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:103
+#: ioslaves/file/file_unix.cpp:104
 #, kde-format
 msgid "Open File"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:106
+#: ioslaves/file/file_unix.cpp:107
 #, kde-format
 msgid "Open Directory"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:110
+#: ioslaves/file/file_unix.cpp:111
 #, kde-format
 msgid "New Filename: %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:114
+#: ioslaves/file/file_unix.cpp:115
 #, kde-format
 msgid "Target: %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:117
+#: ioslaves/file/file_unix.cpp:118
 #, kde-format
 msgid "Change Timestamp"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:120
+#: ioslaves/file/file_unix.cpp:121
 #, kde-format
 msgid "Unknown Action"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:125
+#: ioslaves/file/file_unix.cpp:126
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -3696,22 +3696,22 @@ msgid ""
 "%3"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:873
+#: ioslaves/file/file_unix.cpp:883
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1111
+#: ioslaves/file/file_unix.cpp:1121
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1390
+#: ioslaves/file/file_unix.cpp:1400
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1402
+#: ioslaves/file/file_unix.cpp:1412
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
@@ -5073,7 +5073,7 @@ msgid ""
 "uploaded it is renamed to its real name."
 msgstr ""
 
-#: kcms/kio/kproxydlg.cpp:538
+#: kcms/kio/kproxydlg.cpp:530
 #, kde-format
 msgid ""
 "<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
@@ -5194,7 +5194,7 @@ msgid "Auto D&etect"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpLabel)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:158 kcms/kio/kproxydlg.ui:183
 #, kde-format
 msgid ""
@@ -5214,7 +5214,7 @@ msgid "HTTP Proxy:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpsLabel)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpsEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:193 kcms/kio/kproxydlg.ui:218
 #, kde-format
 msgid ""
@@ -5234,7 +5234,7 @@ msgid "SSL Proxy:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyFtpLabel)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyFtpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:228 kcms/kio/kproxydlg.ui:253
 #, kde-format
 msgid ""
@@ -5272,7 +5272,7 @@ msgstr ""
 msgid "SOCKS Proxy:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxySocksEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:285
 #, kde-format
 msgid ""
@@ -5302,7 +5302,7 @@ msgstr ""
 msgid "Exceptions:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, systemNoProxyEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, systemNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:317
 #, kde-format
 msgid ""
@@ -5330,7 +5330,7 @@ msgstr ""
 msgid "Use manually specified proxy configuration:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:398
 #, kde-format
 msgid "Enter the address of the HTTP proxy server."
@@ -5358,7 +5358,7 @@ msgstr ""
 msgid "Use this proxy server for a&ll protocols"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpsEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:464
 #, kde-format
 msgid "Enter the address of the HTTPS proxy server."
@@ -5370,7 +5370,7 @@ msgstr ""
 msgid "Enter the port number of the HTTPS proxy server."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyFtpEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:517
 #, kde-format
 msgid "Enter the address of the FTP proxy server."
@@ -5382,7 +5382,7 @@ msgstr ""
 msgid "Enter the port number of the FTP proxy server."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxySocksEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:567
 #, kde-format
 msgid "Enter the address of the SOCKS proxy server."
@@ -5394,7 +5394,7 @@ msgstr ""
 msgid "Enter the port number of the SOCKS proxy server."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, manualNoProxyEdit)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, manualNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:628
 #, kde-format
 msgid ""
