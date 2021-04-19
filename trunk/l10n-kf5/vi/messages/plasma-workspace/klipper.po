@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2021-04-07 17:57+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -593,14 +593,15 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "Lặp lại hành động trong lịch sử"
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
-msgstr "<bảng nháp trống>"
+msgid "Clipboard is empty"
+msgstr "Bảng nháp trống"
 
 #: klipperpopup.cpp:73
-#, kde-format
-msgid "<no matches>"
+#, fuzzy, kde-format
+#| msgid "<no matches>"
+msgid "No matches"
 msgstr "<không có tương ứng>"
 
 #: klipperpopup.cpp:121
@@ -716,11 +717,6 @@ msgstr "Thê&m"
 msgid "Clipboard Contents"
 msgstr "Nội dung bảng nháp"
 
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "Bảng nháp trống"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -735,6 +731,9 @@ msgstr "Tắt ô bật lên này"
 #, kde-format
 msgid "&Cancel"
 msgstr "H&uỷ"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<bảng nháp trống>"
 
 #~ msgid ""
 #~ "You can enable URL actions later by left-clicking on the Klipper icon and "
