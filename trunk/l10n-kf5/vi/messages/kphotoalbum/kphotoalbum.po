@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-14 00:16+0000\n"
+"POT-Creation-Date: 2021-04-20 00:16+0000\n"
 "PO-Revision-Date: 2012-01-16 16:58+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -409,13 +409,13 @@ msgstr "Xoá"
 msgid "Copy tags from previous image"
 msgstr "Chép các thẻ từ ảnh trước"
 
-#: AnnotationDialog/Dialog.cpp:1294 MainWindow/Window.cpp:795
+#: AnnotationDialog/Dialog.cpp:1294 MainWindow/Window.cpp:800
 #, fuzzy, kde-format
 #| msgid "Rotate contra-clockwise (to the left)"
 msgid "Rotate counterclockwise"
 msgstr "Xoay theo ngược chiều kim đồng hồ"
 
-#: AnnotationDialog/Dialog.cpp:1297 MainWindow/Window.cpp:799
+#: AnnotationDialog/Dialog.cpp:1297 MainWindow/Window.cpp:804
 #, fuzzy, kde-format
 #| msgid "Rotate clockwise (to the right)"
 msgid "Rotate clockwise"
@@ -971,7 +971,7 @@ msgctxt "Breadcrumb denoting that we 'browsed' to a search result."
 msgid "search"
 msgstr "Tìm kiếm"
 
-#: Browser/OverviewPage.cpp:314 MainWindow/Window.cpp:1648
+#: Browser/OverviewPage.cpp:314 MainWindow/Window.cpp:1676
 #, kde-format
 msgid ""
 "<p>You have not yet configured which tag to use for indicating untagged "
@@ -981,7 +981,7 @@ msgid ""
 "section <b>Untagged Images</b></li></ul></p>"
 msgstr ""
 
-#: Browser/OverviewPage.cpp:320 MainWindow/Window.cpp:1655
+#: Browser/OverviewPage.cpp:320 MainWindow/Window.cpp:1683
 #, kde-format
 msgid "Feature has not been configured"
 msgstr ""
@@ -2934,81 +2934,21 @@ msgstr "Hiện bộ sửa phân loại"
 msgid "Make Category Image"
 msgstr "Cấu hình ảnh phân loại"
 
-#: MainWindow/CopyPopup.cpp:33
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgid "Copy image(s) to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgid "Copy currently selected image to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:38
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgid "Copy all selected images to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:44
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgid "Link currently selected image to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:45
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgid "Link image(s) to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:49
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgid "Link all selected images to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:68 Viewer/ViewerWidget.cpp:1441
+#: MainWindow/CopyLinkEngine.cpp:37
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgctxt "@title:window"
-msgid "Copy Image to..."
-msgstr "Đang sao chép ảnh"
+msgid "Copy image to ..."
+msgid_plural "Copy images to ..."
+msgstr[0] "Đang sao chép ảnh"
 
-#: MainWindow/CopyPopup.cpp:69 Viewer/ViewerWidget.cpp:1446
-#, kde-format
-msgctxt "@action:button"
-msgid "Copy"
-msgstr ""
-
-#: MainWindow/CopyPopup.cpp:71
+#: MainWindow/CopyLinkEngine.cpp:40
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgctxt "@title:window"
-msgid "Link Image to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:72
-#, kde-format
-msgctxt "@action:button"
-msgid "Link"
-msgstr ""
-
-#: MainWindow/CopyPopup.cpp:95
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgctxt "@title:window"
-msgid "Copy images to..."
-msgstr "Đang sao chép ảnh"
-
-#: MainWindow/CopyPopup.cpp:97
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgctxt "@title:window"
-msgid "Link images to..."
-msgstr "Đang sao chép ảnh"
+msgid "Link image to ..."
+msgid_plural "Link images to ..."
+msgstr[0] "Đang sao chép ảnh"
 
 #: MainWindow/DeleteDialog.cpp:24
 #, fuzzy, kde-format
@@ -3744,13 +3684,13 @@ msgstr "Đang nạp cơ sở dữ liệu"
 msgid "Loading Main Window"
 msgstr "Đang nạp cửa sổ chính"
 
-#: MainWindow/Window.cpp:260
+#: MainWindow/Window.cpp:262
 #, fuzzy, kde-format
 #| msgid "Searching for New Images and Videos"
 msgid "Searching for New Files"
 msgstr "Đang tìm kiếm ảnh (động) mới"
 
-#: MainWindow/Window.cpp:294
+#: MainWindow/Window.cpp:296
 #, kde-format
 msgid ""
 "<p><b>Delete Your Temporary Demo Database</b></p><p>I hope you enjoyed the "
@@ -3766,368 +3706,386 @@ msgstr ""
 "lần nữa, có thể bạn sẽ muốn giữ nó lại cùng với những thay đổi mà bạn đã tạo "
 "ra trong phiên làm việc này</p>"
 
-#: MainWindow/Window.cpp:299
+#: MainWindow/Window.cpp:301
 #, kde-format
 msgid "Delete Demo Database"
 msgstr "Xoá cơ sở dữ liệu chứng minh"
 
-#: MainWindow/Window.cpp:313
+#: MainWindow/Window.cpp:315
 #, kde-format
 msgid "Do you want to save the changes?"
 msgstr "Bạn có muốn lưu các thay đổi không?"
 
-#: MainWindow/Window.cpp:314
+#: MainWindow/Window.cpp:316
 #, kde-format
 msgid "Save Changes?"
 msgstr "Lưu thay đổi ?"
 
-#: MainWindow/Window.cpp:357
+#: MainWindow/Window.cpp:359
 #, kde-format
 msgid ""
 "Some of the selected images already belong to a stack. Do you want to remove "
 "them from their stacks and create a completely new one?"
 msgstr ""
 
-#: MainWindow/Window.cpp:360 MainWindow/Window.cpp:366
+#: MainWindow/Window.cpp:362 MainWindow/Window.cpp:368
 #, kde-format
 msgid "Stacking Error"
 msgstr ""
 
-#: MainWindow/Window.cpp:365
+#: MainWindow/Window.cpp:367
 #, kde-format
 msgid "Unknown error, stack creation failed."
 msgstr ""
 
-#: MainWindow/Window.cpp:445 MainWindow/Window.cpp:571
-#: MainWindow/Window.cpp:1306
+#: MainWindow/Window.cpp:447 MainWindow/Window.cpp:573
+#: MainWindow/Window.cpp:1238 MainWindow/Window.cpp:1334
 #, kde-format
 msgid "No item is selected."
 msgstr "Chưa chọn mục nào."
 
-#: MainWindow/Window.cpp:445 MainWindow/Window.cpp:571
-#: MainWindow/Window.cpp:1307
+#: MainWindow/Window.cpp:447 MainWindow/Window.cpp:573
+#: MainWindow/Window.cpp:1238 MainWindow/Window.cpp:1335
 #, kde-format
 msgid "No Selection"
 msgstr "Chưa chọn gì"
 
-#: MainWindow/Window.cpp:491
+#: MainWindow/Window.cpp:493
 #, kde-format
 msgid "Saving..."
 msgstr "Đang lưu..."
 
-#: MainWindow/Window.cpp:496
+#: MainWindow/Window.cpp:498
 #, kde-format
 msgid "Saving... Done"
 msgstr "Đang lưu... xong."
 
-#: MainWindow/Window.cpp:644
+#: MainWindow/Window.cpp:646
 #, kde-format
 msgid "There are no images to be shown."
 msgstr ""
 
-#: MainWindow/Window.cpp:730
+#: MainWindow/Window.cpp:735
 #, kde-format
 msgid "Generate HTML..."
 msgstr "Tạo ra mã HTML..."
 
-#: MainWindow/Window.cpp:734
+#: MainWindow/Window.cpp:739
 #, kde-format
 msgid "Import..."
 msgstr "Nhập..."
 
-#: MainWindow/Window.cpp:737
+#: MainWindow/Window.cpp:742
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgid "Export/Copy Images..."
 msgstr "Đang sao chép ảnh"
 
-#: MainWindow/Window.cpp:764
+#: MainWindow/Window.cpp:769
 #, fuzzy, kde-format
 #| msgid "Delete Selected"
 msgctxt "Delete selected images"
 msgid "Delete Selected"
 msgstr "Xoá điều chọn"
 
-#: MainWindow/Window.cpp:770
+#: MainWindow/Window.cpp:775
 #, fuzzy, kde-format
 #| msgid "Remove Tokens"
 msgid "Remove Tokens..."
 msgstr "Gỡ bỏ hiệu bài"
 
-#: MainWindow/Window.cpp:773
+#: MainWindow/Window.cpp:778
 #, kde-format
 msgid "Open List of Files..."
 msgstr ""
 
-#: MainWindow/Window.cpp:776
+#: MainWindow/Window.cpp:781
 #, kde-format
 msgid "Annotate Individual Items"
 msgstr "Chú giải mục riêng"
 
-#: MainWindow/Window.cpp:780
+#: MainWindow/Window.cpp:785
 #, kde-format
 msgid "Annotate Multiple Items at a Time"
 msgstr "Chú giải đồng thời nhiều mục"
 
-#: MainWindow/Window.cpp:784
+#: MainWindow/Window.cpp:789
 #, kde-format
 msgid "Merge Images into a Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:788
+#: MainWindow/Window.cpp:793
 #, kde-format
 msgid "Remove Images from Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:791
+#: MainWindow/Window.cpp:796
 #, kde-format
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: MainWindow/Window.cpp:804
+#: MainWindow/Window.cpp:809
 #, kde-format
 msgid "View"
 msgstr "Xem"
 
-#: MainWindow/Window.cpp:808
+#: MainWindow/Window.cpp:813
 #, kde-format
 msgid "View (In New Window)"
 msgstr "Xem (trong cửa sổ mới)"
 
-#: MainWindow/Window.cpp:811
+#: MainWindow/Window.cpp:816
 #, kde-format
 msgid "Run Slide Show"
 msgstr "Chạy chiếu ảnh"
 
-#: MainWindow/Window.cpp:816
+#: MainWindow/Window.cpp:821
 #, kde-format
 msgid "Run Randomized Slide Show"
 msgstr "Chạy chiếu ảnh ngẫu nhiên"
 
-#: MainWindow/Window.cpp:822
+#: MainWindow/Window.cpp:827
 #, kde-format
 msgid "Collapse all stacks"
 msgstr ""
 
-#: MainWindow/Window.cpp:828
+#: MainWindow/Window.cpp:833
 #, kde-format
 msgid "Expand all stacks"
 msgstr ""
 
-#: MainWindow/Window.cpp:833
+#: MainWindow/Window.cpp:838
 #, kde-format
 msgid "Show &Oldest First"
 msgstr "Hiện &cú nhất trước"
 
-#: MainWindow/Window.cpp:838
+#: MainWindow/Window.cpp:843
 #, kde-format
 msgid "Show &Newest First"
 msgstr "Hiện mới &nhất trước"
 
-#: MainWindow/Window.cpp:843
+#: MainWindow/Window.cpp:848
 #, kde-format
 msgid "Sort Selected by Date && Time"
 msgstr "Sắp xếp điều chọn theo ngày và giờ"
 
-#: MainWindow/Window.cpp:846
+#: MainWindow/Window.cpp:851
 #, fuzzy, kde-format
 #| msgid "Limit View to Marked"
 msgid "Limit View to Selection"
 msgstr "Chỉ hiện điều có dấu"
 
-#: MainWindow/Window.cpp:849
+#: MainWindow/Window.cpp:854
 #, kde-format
 msgid "Jump to Context"
 msgstr "Nhảy tới ngữ cảnh"
 
-#: MainWindow/Window.cpp:855
+#: MainWindow/Window.cpp:860
 #, kde-format
 msgid "Lock Images"
 msgstr "Khoá ảnh"
 
-#: MainWindow/Window.cpp:859
+#: MainWindow/Window.cpp:864
 #, kde-format
 msgid "Unlock"
 msgstr "Bỏ khoá"
 
-#: MainWindow/Window.cpp:862
+#: MainWindow/Window.cpp:867
 #, kde-format
 msgid "Lock Away All Other Items"
 msgstr "Khoá riêng các mục khác"
 
-#: MainWindow/Window.cpp:865
+#: MainWindow/Window.cpp:870
 #, kde-format
 msgid "Lock Away Current Set of Items"
 msgstr "Khoá riêng tập mục hiện có"
 
-#: MainWindow/Window.cpp:869
+#: MainWindow/Window.cpp:874
 #, kde-format
 msgid "Display Images and Videos Not on Disk"
 msgstr "Hiển thị ảnh (động) không phải trên đĩa"
 
-#: MainWindow/Window.cpp:872
+#: MainWindow/Window.cpp:877
 #, kde-format
 msgid "Display Images and Videos with Incomplete Dates..."
 msgstr "Hiển thị ảnh (động) có ngày tháng không hoàn toàn..."
 
-#: MainWindow/Window.cpp:876
+#: MainWindow/Window.cpp:881
 #, kde-format
 msgid "Display Images and Videos with Changed MD5 Sum"
 msgstr "Hiển thị ảnh (động) có tổng kiểm MD5 bị sửa đổi"
 
-#: MainWindow/Window.cpp:880
+#: MainWindow/Window.cpp:885
 #, kde-format
 msgid "Merge duplicates"
 msgstr ""
 
-#: MainWindow/Window.cpp:882
+#: MainWindow/Window.cpp:887
 #, kde-format
 msgid "Recalculate Checksum"
 msgstr "Tính lại tổng kiểm tra"
 
-#: MainWindow/Window.cpp:886
+#: MainWindow/Window.cpp:891
 #, kde-format
 msgid "Rescan for Images and Videos"
 msgstr "Quết lại tìm ảnh (động)"
 
-#: MainWindow/Window.cpp:889
+#: MainWindow/Window.cpp:894
 #, fuzzy, kde-format
 #| msgid "Update EXIF search database"
 msgid "Recreate Exif Search Database"
 msgstr "Cập nhật co sở dữ liệu tìm EXIF"
 
-#: MainWindow/Window.cpp:892
+#: MainWindow/Window.cpp:897
 #, fuzzy, kde-format
 #| msgid "Read EXIF Info From Files..."
 msgid "Read Exif Info from Files..."
 msgstr "Đọc thông tin EXIF từ tệp..."
 
-#: MainWindow/Window.cpp:895
+#: MainWindow/Window.cpp:900
 #, fuzzy, kde-format
 #| msgid "Sort Selected by Date && Time"
 msgid "Sort All by Date && Time"
 msgstr "Sắp xếp điều chọn theo ngày và giờ"
 
-#: MainWindow/Window.cpp:899
+#: MainWindow/Window.cpp:904
 #, kde-format
 msgid "Automatically Stack Selected Images..."
 msgstr ""
 
-#: MainWindow/Window.cpp:902
+#: MainWindow/Window.cpp:907
 #, kde-format
 msgid "Build Thumbnails"
 msgstr "Xây dựng mẫu ảnh"
 
-#: MainWindow/Window.cpp:905
+#: MainWindow/Window.cpp:910
 #, kde-format
 msgid "Statistics..."
 msgstr ""
 
-#: MainWindow/Window.cpp:909
+#: MainWindow/Window.cpp:914
 #, kde-format
 msgid "Mark As Untagged"
 msgstr ""
 
-#: MainWindow/Window.cpp:918
+#: MainWindow/Window.cpp:923
 #, kde-format
 msgid "Enable All Messages"
 msgstr "Bật mọi thông điệp"
 
-#: MainWindow/Window.cpp:921
+#: MainWindow/Window.cpp:926
 #, fuzzy, kde-format
 #| msgid "Configure View"
 msgid "Configure Current View"
 msgstr "Cấu hình ô xem"
 
-#: MainWindow/Window.cpp:933
+#: MainWindow/Window.cpp:938
 #, fuzzy, kde-format
 #| msgid "Theme:"
 msgid "Tree"
 msgstr "Sắc thái:"
 
-#: MainWindow/Window.cpp:938
+#: MainWindow/Window.cpp:943
 #, kde-format
 msgid "Tree with User Icons"
 msgstr ""
 
-#: MainWindow/Window.cpp:943
+#: MainWindow/Window.cpp:948
 #, fuzzy, kde-format
 #| msgid "Icon:"
 msgid "Icons"
 msgstr "Biểu tượng:"
 
-#: MainWindow/Window.cpp:951
+#: MainWindow/Window.cpp:956
 #, kde-format
 msgid "Show Tooltips in Thumbnails Window"
 msgstr "Hiện mẹo công cụ trong cửa sổ mẫu ảnh"
 
-#: MainWindow/Window.cpp:960
+#: MainWindow/Window.cpp:965
 #, kde-format
 msgid "Choose Color Scheme"
 msgstr ""
 
-#: MainWindow/Window.cpp:973
+#: MainWindow/Window.cpp:978
 #, kde-format
 msgid "Run KPhotoAlbum Demo"
 msgstr "Chạy chứng minh KPhotoAlbum"
 
-#: MainWindow/Window.cpp:976
+#: MainWindow/Window.cpp:981
 #, kde-format
 msgid "KPhotoAlbum Feature Status"
 msgstr "Trạng thái tính năng KPhotoAlbum"
 
-#: MainWindow/Window.cpp:979
+#: MainWindow/Window.cpp:984
 #, fuzzy, kde-format
 #| msgid "Show Videos"
 msgid "Show Demo Videos"
 msgstr "Hiện ảnh động"
 
-#: MainWindow/Window.cpp:983
+#: MainWindow/Window.cpp:988
 #, kde-format
 msgid "Show Exif Info"
 msgstr "Hiện thông tin EXIF"
 
-#: MainWindow/Window.cpp:986
+#: MainWindow/Window.cpp:991
 #, kde-format
 msgid "Recreate Selected Thumbnails"
 msgstr "Tạo ra các mẫu ảnh đã chọn"
 
-#: MainWindow/Window.cpp:989
+#: MainWindow/Window.cpp:994
 #, fuzzy, kde-format
 #| msgid "Generate thumbnails"
 msgid "Use next video thumbnail"
 msgstr "Tạo ra các mẫu ảnh"
 
-#: MainWindow/Window.cpp:993
+#: MainWindow/Window.cpp:998
 #, kde-format
 msgid "Use previous video thumbnail"
 msgstr ""
 
-#: MainWindow/Window.cpp:1019
+#: MainWindow/Window.cpp:1002 MainWindow/Window.cpp:1216
+#: Viewer/ViewerWidget.cpp:160
+#, fuzzy, kde-format
+#| msgid "Copying Images"
+msgctxt "@action:inmenu"
+msgid "Copy image to ..."
+msgid_plural "Copy images to ..."
+msgstr[0] "Đang sao chép ảnh"
+
+#: MainWindow/Window.cpp:1006 MainWindow/Window.cpp:1220
+#: Viewer/ViewerWidget.cpp:165
+#, fuzzy, kde-format
+#| msgid "Copying Images"
+msgctxt "@action:inmenu"
+msgid "Link image to ..."
+msgid_plural "Link images to ..."
+msgstr[0] "Đang sao chép ảnh"
+
+#: MainWindow/Window.cpp:1032
 #, kde-format
 msgid "Auto saving...."
 msgstr "Đang tự động lưu..."
 
-#: MainWindow/Window.cpp:1022
+#: MainWindow/Window.cpp:1035
 #, kde-format
 msgid "Auto saving.... Done"
 msgstr "Đang tự động lưu... xong."
 
-#: MainWindow/Window.cpp:1121
+#: MainWindow/Window.cpp:1134
 #, kde-format
 msgid ""
 "<p>Could not open given index.xml as provided directory does not exist.<br />"
 "%1</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1128
+#: MainWindow/Window.cpp:1141
 #, kde-format
 msgid ""
 "<p>Given index file does not exist, do you want to create following?<br />%1/"
 "index.xml</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1148
+#: MainWindow/Window.cpp:1161
 #, kde-format
 msgid ""
 "<p>You have configured a tag for untagged images, but either the tag itself "
@@ -4136,27 +4094,27 @@ msgid ""
 "Categories</interface></p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1259 Settings/SettingsDialog.cpp:47
+#: MainWindow/Window.cpp:1287 Settings/SettingsDialog.cpp:47
 #, kde-format
 msgid "General"
 msgstr "Chung"
 
-#: MainWindow/Window.cpp:1260 Settings/SettingsDialog.cpp:53
+#: MainWindow/Window.cpp:1288 Settings/SettingsDialog.cpp:53
 #, kde-format
 msgid "Viewer"
 msgstr "Bộ xem"
 
-#: MainWindow/Window.cpp:1263
+#: MainWindow/Window.cpp:1291
 #, kde-format
 msgid "Annotation Dialog"
 msgstr "Hộp thoại chú giải"
 
-#: MainWindow/Window.cpp:1264 Settings/SettingsDialog.cpp:49
+#: MainWindow/Window.cpp:1292 Settings/SettingsDialog.cpp:49
 #, kde-format
 msgid "Thumbnail View"
 msgstr "Xem mẫu ảnh"
 
-#: MainWindow/Window.cpp:1409
+#: MainWindow/Window.cpp:1437
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Really enable all messageboxes where you previously checked the do-not-"
@@ -4168,7 +4126,7 @@ msgstr ""
 "<p>Thực sự hiệu lực mọi hộp thông điệp khi bạn đã đánh dấu trong hộp ở cạnh "
 "« Đừng hiện lần nữa » không?</p>"
 
-#: MainWindow/Window.cpp:1419
+#: MainWindow/Window.cpp:1447
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum hit an internal error (missing plug-in menu in MainWindow::"
@@ -4179,64 +4137,64 @@ msgid ""
 "on due to the missing make install.</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1419
+#: MainWindow/Window.cpp:1447
 #, fuzzy, kde-format
 #| msgid "Invoke External Program"
 msgid "Internal Error"
 msgstr "Gọi trình bên ngoài"
 
-#: MainWindow/Window.cpp:1430
+#: MainWindow/Window.cpp:1458
 #, kde-format
 msgid "Successfully shared image(s). Copying location to clipboard..."
 msgstr ""
 
-#: MainWindow/Window.cpp:1433
+#: MainWindow/Window.cpp:1461
 #, kde-format
 msgid "Successfully shared image(s)."
 msgstr ""
 
-#: MainWindow/Window.cpp:1438
+#: MainWindow/Window.cpp:1466
 #, kde-format
 msgid "Image sharing failed with message: %1"
 msgstr ""
 
-#: MainWindow/Window.cpp:1501
+#: MainWindow/Window.cpp:1529
 #, kde-format
 msgid "Open List of Files"
 msgstr ""
 
-#: MainWindow/Window.cpp:1502
+#: MainWindow/Window.cpp:1530
 #, kde-format
 msgid ""
 "You can open a set of files from KPhotoAlbum's image root by listing the "
 "files here."
 msgstr ""
 
-#: MainWindow/Window.cpp:1515
+#: MainWindow/Window.cpp:1543
 #, kde-format
 msgid "No images matching your input were found."
 msgstr ""
 
-#: MainWindow/Window.cpp:1515
+#: MainWindow/Window.cpp:1543
 #, fuzzy, kde-format
 #| msgid "No other"
 msgid "No Matches"
 msgstr "Không có gì khác"
 
-#: MainWindow/Window.cpp:1672
+#: MainWindow/Window.cpp:1700
 #, fuzzy, kde-format
 #| msgid "Loading information from images"
 msgid "Rereading Exif information from all images"
 msgstr "Đang tải thông tin từ ảnh"
 
-#: MainWindow/Window.cpp:1699
+#: MainWindow/Window.cpp:1727
 #, fuzzy, no-c-format, kde-format
 #| msgid "Thumbnail image size:"
 msgctxt "@info:status"
 msgid "Thumbnail width: %1px (storage size: %2px)"
 msgstr "Cỡ ảnh mẫu ảnh :"
 
-#: MainWindow/Window.cpp:1752
+#: MainWindow/Window.cpp:1780
 #, kde-format
 msgid ""
 "<p>Unable to find ffmpeg on the system.</p><p>Without it, KPhotoAlbum will "
@@ -4244,7 +4202,7 @@ msgid ""
 "the ffmpeg package</p>"
 msgstr ""
 
-#: MainWindow/Window.cpp:1755
+#: MainWindow/Window.cpp:1783
 #, fuzzy, kde-format
 #| msgid "File not available"
 msgid "Video thumbnails are not available"
@@ -6337,404 +6295,397 @@ msgstr ""
 msgid "Error playing media"
 msgstr "Gặp lỗi khi lưu ảnh"
 
-#: Viewer/ViewerWidget.cpp:142
+#: Viewer/ViewerWidget.cpp:144
 #, fuzzy, kde-format
 #| msgid "Annotate..."
 msgctxt "@action:inmenu"
 msgid "Annotate..."
 msgstr "Chú giải..."
 
-#: Viewer/ViewerWidget.cpp:147
+#: Viewer/ViewerWidget.cpp:149
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:152
+#: Viewer/ViewerWidget.cpp:154
 #, fuzzy, kde-format
 #| msgid "Show EXIF Viewer"
 msgctxt "@action:inmenu"
 msgid "Show Exif Viewer"
 msgstr "Hiện bộ xem EXIF"
 
-#: Viewer/ViewerWidget.cpp:156
-#, fuzzy, kde-format
-#| msgid "Copying Images"
-msgctxt "@action:inmenu"
-msgid "Copy Image to..."
-msgstr "Đang sao chép ảnh"
-
-#: Viewer/ViewerWidget.cpp:162
+#: Viewer/ViewerWidget.cpp:173
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr "Đóng"
 
-#: Viewer/ViewerWidget.cpp:218
+#: Viewer/ViewerWidget.cpp:229
 #, fuzzy, kde-format
 #| msgid "Rotate"
 msgctxt "@title:inmenu"
 msgid "Rotate"
 msgstr "Xoay"
 
-#: Viewer/ViewerWidget.cpp:221
+#: Viewer/ViewerWidget.cpp:232
 #, fuzzy, kde-format
 #| msgid "Rotate clockwise (to the right)"
 msgctxt "@action:inmenu"
 msgid "Rotate clockwise"
 msgstr "Xoay theo chiều kim đồng hồ"
 
-#: Viewer/ViewerWidget.cpp:227
+#: Viewer/ViewerWidget.cpp:238
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Flip Over"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:234
+#: Viewer/ViewerWidget.cpp:245
 #, fuzzy, kde-format
 #| msgid "Rotate contra-clockwise (to the left)"
 msgctxt "@action:inmenu"
 msgid "Rotate counterclockwise"
 msgstr "Xoay theo ngược chiều kim đồng hồ"
 
-#: Viewer/ViewerWidget.cpp:245
+#: Viewer/ViewerWidget.cpp:256
 #, fuzzy, kde-format
 #| msgid "Skip"
 msgctxt "@title:inmenu As in 'skip 2 images'"
 msgid "Skip"
 msgstr "Bỏ qua"
 
-#: Viewer/ViewerWidget.cpp:248
+#: Viewer/ViewerWidget.cpp:259
 #, fuzzy, kde-format
 #| msgid "First"
 msgctxt "@action:inmenu Go to first image"
 msgid "First"
 msgstr "Đầu"
 
-#: Viewer/ViewerWidget.cpp:255
+#: Viewer/ViewerWidget.cpp:266
 #, fuzzy, kde-format
 #| msgid "Last"
 msgctxt "@action:inmenu Go to last image"
 msgid "Last"
 msgstr "Cuối"
 
-#: Viewer/ViewerWidget.cpp:262
+#: Viewer/ViewerWidget.cpp:273
 #, fuzzy, kde-format
 #| msgid "Show Next"
 msgctxt "@action:inmenu"
 msgid "Show Next"
 msgstr "Hiện kế"
 
-#: Viewer/ViewerWidget.cpp:268
+#: Viewer/ViewerWidget.cpp:279
 #, fuzzy, kde-format
 #| msgid "Skip 10 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 10 Forward"
 msgstr "Nhảy 10 tới"
 
-#: Viewer/ViewerWidget.cpp:274
+#: Viewer/ViewerWidget.cpp:285
 #, fuzzy, kde-format
 #| msgid "Skip 100 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 100 Forward"
 msgstr "Nhảy 100 tới"
 
-#: Viewer/ViewerWidget.cpp:280
+#: Viewer/ViewerWidget.cpp:291
 #, fuzzy, kde-format
 #| msgid "Skip 1000 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Forward"
 msgstr "Nhảy 1000 tới"
 
-#: Viewer/ViewerWidget.cpp:286
+#: Viewer/ViewerWidget.cpp:297
 #, fuzzy, kde-format
 #| msgid "Show Previous"
 msgctxt "@action:inmenu"
 msgid "Show Previous"
 msgstr "Hiện lùi"
 
-#: Viewer/ViewerWidget.cpp:292
+#: Viewer/ViewerWidget.cpp:303
 #, fuzzy, kde-format
 #| msgid "Skip 10 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 10 Backward"
 msgstr "Nhảy 10 ngược"
 
-#: Viewer/ViewerWidget.cpp:298
+#: Viewer/ViewerWidget.cpp:309
 #, fuzzy, kde-format
 #| msgid "Skip 100 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 100 Backward"
 msgstr "Nhảy 100 ngược"
 
-#: Viewer/ViewerWidget.cpp:304
+#: Viewer/ViewerWidget.cpp:315
 #, fuzzy, kde-format
 #| msgid "Skip 1000 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Backward"
 msgstr "Nhảy 1000 ngược"
 
-#: Viewer/ViewerWidget.cpp:310
+#: Viewer/ViewerWidget.cpp:321
 #, fuzzy, kde-format
 #| msgid "Delete image"
 msgctxt "@action:inmenu"
 msgid "Delete Image"
 msgstr "Xoá ảnh"
 
-#: Viewer/ViewerWidget.cpp:315
+#: Viewer/ViewerWidget.cpp:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Image from Display List"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:326
+#: Viewer/ViewerWidget.cpp:337
 #, fuzzy, kde-format
 #| msgid "Zoom"
 msgctxt "@action:inmenu"
 msgid "Zoom"
 msgstr "Phóng/thu"
 
-#: Viewer/ViewerWidget.cpp:330
+#: Viewer/ViewerWidget.cpp:341
 #, fuzzy, kde-format
 #| msgid "Zoom In"
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Phóng to"
 
-#: Viewer/ViewerWidget.cpp:336
+#: Viewer/ViewerWidget.cpp:347
 #, fuzzy, kde-format
 #| msgid "Zoom Out"
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr "Thu nhỏ"
 
-#: Viewer/ViewerWidget.cpp:342
+#: Viewer/ViewerWidget.cpp:353
 #, fuzzy, kde-format
 #| msgid "Full View"
 msgctxt "@action:inmenu"
 msgid "Full View"
 msgstr "Xem toàn"
 
-#: Viewer/ViewerWidget.cpp:348
+#: Viewer/ViewerWidget.cpp:359
 #, fuzzy, kde-format
 #| msgid "Pixel for Pixel View"
 msgctxt "@action:inmenu"
 msgid "Pixel for Pixel View"
 msgstr "Xem mỗi điểm ảnh"
 
-#: Viewer/ViewerWidget.cpp:354
+#: Viewer/ViewerWidget.cpp:365
 #, fuzzy, kde-format
 #| msgid "Toggle Full Screen"
 msgctxt "@action:inmenu"
 msgid "Toggle Full Screen"
 msgstr "Hiện/ẩn toàn màn hình"
 
-#: Viewer/ViewerWidget.cpp:364
+#: Viewer/ViewerWidget.cpp:375
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgctxt "@title:inmenu"
 msgid "Slideshow"
 msgstr "Chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:367 Viewer/ViewerWidget.cpp:778
+#: Viewer/ViewerWidget.cpp:378 Viewer/ViewerWidget.cpp:789
 #, fuzzy, kde-format
 #| msgid "Run Slideshow"
 msgctxt "@action:inmenu"
 msgid "Run Slideshow"
 msgstr "Chạy chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:372
+#: Viewer/ViewerWidget.cpp:383
 #, fuzzy, kde-format
 #| msgid "Run Faster"
 msgctxt "@action:inmenu"
 msgid "Run Faster"
 msgstr "Chạy nhanh hơn"
 
-#: Viewer/ViewerWidget.cpp:377
+#: Viewer/ViewerWidget.cpp:388
 #, fuzzy, kde-format
 #| msgid "Run Slower"
 msgctxt "@action:inmenu"
 msgid "Run Slower"
 msgstr "Chạy chậm hơn"
 
-#: Viewer/ViewerWidget.cpp:409
+#: Viewer/ViewerWidget.cpp:420
 #, kde-format
 msgid "File not available"
 msgstr "Tệp không sẵn sàng"
 
-#: Viewer/ViewerWidget.cpp:460
+#: Viewer/ViewerWidget.cpp:471
 #, fuzzy, kde-format
 #| msgid "%1 to %2  %3"
 msgctxt "@title:window %1 is the filename, %2 its detail info"
 msgid "%1 %2"
 msgstr "%1 đến %2  %3"
 
-#: Viewer/ViewerWidget.cpp:476
+#: Viewer/ViewerWidget.cpp:487
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "@action:inmenu Start video playback"
 msgid "Play"
 msgstr "Phát"
 
-#: Viewer/ViewerWidget.cpp:478
+#: Viewer/ViewerWidget.cpp:489
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@action:inmenu Pause video playback"
 msgid "Pause"
 msgstr "Tạm dừng"
 
-#: Viewer/ViewerWidget.cpp:731
+#: Viewer/ViewerWidget.cpp:742
 #, fuzzy, kde-format
 #| msgid "<b>Sub Categories</b>"
 msgctxt "Basically 'enter a category name'"
 msgid "<b>Setting Category: </b>"
 msgstr "<b>Phân loại con</b>"
 
-#: Viewer/ViewerWidget.cpp:736
+#: Viewer/ViewerWidget.cpp:747
 #, fuzzy, kde-format
 #| msgid "<b>Description: </b> "
 msgctxt "Basically 'enter a tag name'"
 msgid "<b>Assigning: </b>"
 msgstr "<b>Mô tả: </b> "
 
-#: Viewer/ViewerWidget.cpp:784
+#: Viewer/ViewerWidget.cpp:795
 #, fuzzy, kde-format
 #| msgid "Stop Slideshow"
 msgctxt "@action:inmenu"
 msgid "Stop Slideshow"
 msgstr "Dừng chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:1196
+#: Viewer/ViewerWidget.cpp:1207
 #, fuzzy, kde-format
 #| msgid "1 Week"
 msgctxt "@title:inmenu"
 msgid "Seek"
 msgstr "1 tuần"
 
-#: Viewer/ViewerWidget.cpp:1200
+#: Viewer/ViewerWidget.cpp:1211
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes backward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1201
+#: Viewer/ViewerWidget.cpp:1212
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute backward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1202
+#: Viewer/ViewerWidget.cpp:1213
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "10 seconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1203
+#: Viewer/ViewerWidget.cpp:1214
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "1 seconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1204
+#: Viewer/ViewerWidget.cpp:1215
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1205
+#: Viewer/ViewerWidget.cpp:1216
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1206
+#: Viewer/ViewerWidget.cpp:1217
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "1 seconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1207
+#: Viewer/ViewerWidget.cpp:1218
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "10 seconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1208
+#: Viewer/ViewerWidget.cpp:1219
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute forward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1209
+#: Viewer/ViewerWidget.cpp:1220
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes forward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1234
+#: Viewer/ViewerWidget.cpp:1245
 #, fuzzy, kde-format
 #| msgid "Stop"
 msgctxt "@action:inmenu Stop video playback"
 msgid "Stop"
 msgstr "Dừng"
 
-#: Viewer/ViewerWidget.cpp:1247
+#: Viewer/ViewerWidget.cpp:1258
 #, fuzzy, kde-format
 #| msgid "Display categories in thumbnail view"
 msgctxt "@action:inmenu"
 msgid "Use current frame in thumbnail view"
 msgstr "Hiện nhãn trong ô xem mẫu ảnh"
 
-#: Viewer/ViewerWidget.cpp:1252
+#: Viewer/ViewerWidget.cpp:1263
 #, fuzzy, kde-format
 #| msgid "Restart"
 msgctxt "@action:inmenu Restart video playback."
 msgid "Restart"
 msgstr "Chạy lại"
 
-#: Viewer/ViewerWidget.cpp:1267
+#: Viewer/ViewerWidget.cpp:1278
 #, fuzzy, kde-format
 #| msgid "First"
 msgctxt "@title:inmenu"
 msgid "Filters"
 msgstr "Đầu"
 
-#: Viewer/ViewerWidget.cpp:1270
+#: Viewer/ViewerWidget.cpp:1281
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove All Filters"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1274
+#: Viewer/ViewerWidget.cpp:1285
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Grayscale Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1279
+#: Viewer/ViewerWidget.cpp:1290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Contrast Stretching Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1284
+#: Viewer/ViewerWidget.cpp:1295
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Histogram Equalization Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1289
+#: Viewer/ViewerWidget.cpp:1300
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Monochrome Filter"
@@ -7169,6 +7120,54 @@ msgstr ""
 #| msgid "Converting database"
 msgid "Error while reading database file"
 msgstr "Đang chuyển đổi co sở dữ liệu"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgid "Copy image(s) to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgid "Copy currently selected image to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgid "Copy all selected images to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgid "Link currently selected image to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgid "Link image(s) to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgid "Link all selected images to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgctxt "@title:window"
+#~ msgid "Copy Image to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgctxt "@title:window"
+#~ msgid "Link Image to..."
+#~ msgstr "Đang sao chép ảnh"
+
+#, fuzzy
+#~| msgid "Copying Images"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Image to..."
+#~ msgstr "Đang sao chép ảnh"
 
 #, fuzzy
 #~| msgid "Current EXIF Label Search: "

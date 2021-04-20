@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-20 02:50+0100\n"
+"POT-Creation-Date: 2021-04-20 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -211,6 +211,30 @@ msgctxt "@info:tooltip"
 msgid "Not scheduled"
 msgstr ""
 
+#: SchedulingLogModel.cpp:65
+#, kde-kuit-format
+msgctxt "@title"
+msgid "Name"
+msgstr ""
+
+#: SchedulingLogModel.cpp:66
+#, kde-kuit-format
+msgctxt "@title"
+msgid "Phase"
+msgstr ""
+
+#: SchedulingLogModel.cpp:67
+#, kde-kuit-format
+msgctxt "@title"
+msgid "Severity"
+msgstr ""
+
+#: SchedulingLogModel.cpp:68
+#, kde-kuit-format
+msgctxt "@title"
+msgid "Message"
+msgstr ""
+
 #: SchedulingModel.cpp:33
 #, kde-kuit-format
 msgctxt "@title:column"
@@ -298,25 +322,37 @@ msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
 msgstr ""
 
-#: SchedulingView.cpp:100
+#: SchedulingView.cpp:123
 #, kde-format
 msgid "Update"
 msgstr ""
 
-#: SchedulingView.cpp:105
+#: SchedulingView.cpp:128
 #, kde-format
 msgid "Calculate"
 msgstr ""
 
-#: SchedulingView.cpp:109
+#: SchedulingView.cpp:132
 #, kde-format
 msgid "Open Project"
 msgstr ""
 
-#: SchedulingView.cpp:190
+#: SchedulingView.cpp:225
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot load projects.<nl/>The directory does not exist:<nl/>%1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SchedulingView.ui:41
+#, kde-format
+msgid "Scheduler:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: SchedulingView.ui:55
+#, kde-format
+msgid "Granularity:"
 msgstr ""
 
 #: View.cpp:65

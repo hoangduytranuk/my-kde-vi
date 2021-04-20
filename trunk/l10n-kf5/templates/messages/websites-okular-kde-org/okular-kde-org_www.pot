@@ -1,32 +1,43 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: kde-www@kde.org\n"
-"Last-Translator: you <you@example.com>\n"
-"Language-Team: English <yourteam@example.com>\n"
+"Project-Id-Version: websites-okular-kde-org 1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ./content/_index.md:0
-msgid "Okular - The Universal PDF Reader"
-msgstr ""
-
-#: ./content/_index.md:0
+#. Site title
+#: config.yaml:0
 msgid "Okular"
 msgstr ""
 
-#: ./content/build-it.md:0
+#. Site menu entry
+#: config.yaml:0
+msgid "About"
+msgstr ""
+
+#. Site menu entry
+#: config.yaml:0
+msgid "Donate"
+msgstr ""
+
+#: content/_index.md:0
+msgid "Okular - The Universal PDF Reader"
+msgstr ""
+
+#: content/build-it.md:0
 msgid "Compiling Okular from source on Linux"
 msgstr ""
 
-#: ./content/build-it.md:0
+#: content/build-it.md:0
 msgid "Build It"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/build-it.md:5
+#: content/build-it.md:5
 msgid ""
 "<span style=\"background-color:#e8f4fa\">If you are looking for the pre-"
 "compiled packages, visit the [download page](/download/). You can check the "
@@ -34,7 +45,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain Text
-#: ./content/build-it.md:7
+#: content/build-it.md:7
 msgid ""
 "If you want to compile Okular, you need to have a compilation environment "
 "set up, which, in general, should be provided by your distribution. In case "
@@ -43,12 +54,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain Text
-#: ./content/build-it.md:9
+#: content/build-it.md:9
 msgid "You can download and compile Okular this way:"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/build-it.md:17
+#: content/build-it.md:17
 msgid ""
 "1. `git clone https://invent.kde.org/graphics/okular.git` 2. `cd okular` 3. "
 "`mkdir build` 4. `cd build` 5. `cmake "
@@ -57,7 +68,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain Text
-#: ./content/build-it.md:19
+#: content/build-it.md:19
 msgid ""
 "If you install Okular in a different path than your system install directory"
 " it is possible that you need to run `source build/prefix.sh; okular` so "
@@ -65,12 +76,12 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ./content/build-it.md:21
+#: content/build-it.md:21
 msgid "Optional packages"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/build-it.md:23
+#: content/build-it.md:23
 msgid ""
 "There are some optional packages you could install in order to have some "
 "more functionalities in Okular. Some might already be packaged for your "
@@ -79,7 +90,7 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/build-it.md:25
+#: content/build-it.md:25
 msgid ""
 "Poppler (PDF backend): To compile the PDF backend, you need [the Poppler "
 "library](http://poppler.freedesktop.org), for which the minimum version "
@@ -87,7 +98,7 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/build-it.md:26
+#: content/build-it.md:26
 msgid ""
 "Libspectre: In order to compile and use this PostScipt (PS) backend, you "
 "need libspectre >= 0.2. If your distro does not package it, or the packaged "
@@ -96,7 +107,7 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/build-it.md:27
+#: content/build-it.md:27
 msgid ""
 "DjVuLibre: To compile the DjVu backend, you need DjVuLibre >= 3.5.17. As "
 "with Libspectre, you can get it from your distro or "
@@ -104,7 +115,7 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/build-it.md:28
+#: content/build-it.md:28
 msgid ""
 "libTIFF: This is required for TIFF/fax support. Currently there is no "
 "minimum required version, so any quite recent version of the library "
@@ -113,37 +124,37 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/build-it.md:29
+#: content/build-it.md:29
 msgid ""
 "libCHM: This is needed to compile the CHM backend. As with libTIFF, there is"
 " no minimum version requirement"
 msgstr ""
 
 #. type: List item
-#: ./content/build-it.md:30
+#: content/build-it.md:30
 msgid ""
 "Libepub: If you need EPub support, you can install this library from your "
 "distro or from [sourceforge](http://sourceforge.net/projects/ebook-tools)."
 msgstr ""
 
-#: ./content/contact.md:0
+#: content/contact.md:0
 msgid "Contact"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/contact.md:5
+#: content/contact.md:5
 msgid ""
 "<img src=\"/images/konqi-dev.png\" align=\"right\" alt=\"Konqi, the KDE "
 "mascot\" style=\"height: 200px;\"/>"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/contact.md:7
+#: content/contact.md:7
 msgid "You can contact the Okular team in many ways:"
 msgstr ""
 
 #. type: List item
-#: ./content/contact.md:9
+#: content/contact.md:9
 msgid ""
 "Mailing list: To coordinate okular development, we use the [okular-devel "
 "mailing list](https://mail.kde.org/mailman/listinfo/okular-devel) at "
@@ -152,7 +163,7 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/contact.md:11
+#: content/contact.md:11
 msgid ""
 "IRC: For general chat, we use the IRC [#okular](irc://irc.kde.org/#okular) "
 "and [#kde-devel](irc://irc.kde.org/#kde-devel) on the [Freenode "
@@ -161,14 +172,14 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/contact.md:13
+#: content/contact.md:13
 msgid ""
 "Matrix: The aforementioned chat can also be accessed over the Matrix network"
 " via [#okular:kde.org](https://matrix.to/#/#okular:kde.org)."
 msgstr ""
 
 #. type: List item
-#: ./content/contact.md:15
+#: content/contact.md:15
 msgid ""
 "Forum: If you prefer to use a forum you can use the [Okular "
 "forum](http://forum.kde.org/viewforum.php?f=251) inside the bigger [KDE "
@@ -176,47 +187,43 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/contact.md:17
+#: content/contact.md:17
 msgid ""
 "Bugs and Wishes: Bugs and Wishes should be reported to the [KDE bug "
 "tracker](https://bugs.kde.org/). If you want to help, you can find a list of"
 " top bugs [here](https://community.kde.org/Okular)."
 msgstr ""
 
-#: ./content/download.md:0
-msgid "Download"
-msgstr ""
-
-#: ./content/download.md:0
+#: content/download.md:0
 msgid ""
 "Okular is available as a precompiled package in a wide range of platforms. "
 "You can check the package status for your Linux distro on the right or keep "
 "reading for info on other operating systems"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Linux"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Tux"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid ""
 "Okular is already available on most Linux distributions. You can install it "
 "from the [KDE Software Center](https://apps.kde.org/okular)."
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Flatpak"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Flatpak logo"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid ""
 "You can install the latest [Okular "
 "Flatpak](https://flathub.org/apps/details/org.kde.okular) from Flathub. "
@@ -226,29 +233,29 @@ msgid ""
 " )."
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Release Sources"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Ark logo"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid ""
-"Okular is released regularly as part of KDE Applications. If you want to "
-"build from source, you can check the [Build It section](/build-it)."
+"Okular is released regularly as part of KDE Gear. If you want to build from "
+"source, you can check the [Build It section](/build-it)."
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Windows"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid "Windows logo"
 msgstr ""
 
-#: ./content/download.md:0
+#: content/download.md:0
 msgid ""
 "Have a look at the [KDE on Windows "
 "initiative](https://community.kde.org/Windows) for information on how to "
@@ -259,67 +266,67 @@ msgid ""
 "reports would be welcome."
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid ""
 "When using Ubuntu, I cannot read CHM and EPub documents, even if I have "
 "okular-extra-backends and libchm1 installed. Why?"
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid ""
 "Ubuntu (thus Kubuntu as well) packages of Okular are compiled without "
 "support for these two formats. The reason is explained in "
 "[this](https://bugs.launchpad.net/kdegraphics/+bug/277007) Launchpad report."
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid "Why are the speak options in the Tools menu grayed out?"
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid ""
 "Because you don't have a speech service on your system. Install the Qt "
 "Speech library and they should be enabled"
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid ""
 "Some characters are not rendered and when enabling debug some lines mention "
 "'Missing language pack for xxx'"
 msgstr ""
 
-#: ./content/faq.md:0
+#: content/faq.md:0
 msgid "Install the poppler-data package"
 msgstr ""
 
-#: ./content/formats.md:0
+#: content/formats.md:0
 msgid "Document Format Handlers Status"
 msgstr ""
 
-#: ./content/formats.md:0
+#: content/formats.md:0
 msgid ""
 "Okular supports a wide variety of document formats and use cases. This page "
 "always refers to the stable series of Okular, currently Okular 20.12"
 msgstr ""
 
-#: ./content/formats.md:0
+#: content/formats.md:0
 msgid "Document Format"
 msgstr ""
 
-#: ./content/news/_index.md:0
+#: content/news/_index.md:0
 msgid "News"
 msgstr ""
 
-#: ./content/news/aKademy_2007_Okular_presentation_material_online.md:0
+#: content/news/aKademy_2007_Okular_presentation_material_online.md:0
 msgid "aKademy 2007 Okular presentation material online"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/aKademy_2007_Okular_presentation_material_online.md:5
+#: content/news/aKademy_2007_Okular_presentation_material_online.md:5
 msgid ""
 "The Okular talk given by Pino Toscano at <a "
 "href=\"http://akademy2007.kde.org\">aKademy 2007</a> is now online. There "
@@ -330,12 +337,12 @@ msgid ""
 " available."
 msgstr ""
 
-#: ./content/news/Okular_0.10_released.md:0
+#: content/news/Okular_0.10_released.md:0
 msgid "Okular 0.10 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.10_released.md:5
+#: content/news/Okular_0.10_released.md:5
 msgid ""
 "The 0.10 version of Okular has been released together with KDE SC 4.4. "
 "Besides general improvements in stability this release sports new/improved "
@@ -343,48 +350,48 @@ msgid ""
 " lines with the corresponding locations in dvi and pdf files."
 msgstr ""
 
-#: ./content/news/Okular_0.11_released.md:0
+#: content/news/Okular_0.11_released.md:0
 msgid "Okular 0.11 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.11_released.md:5
+#: content/news/Okular_0.11_released.md:5
 msgid ""
 "The 0.11 version of Okular has been released together with KDE Applications "
 "4.5 release. This release introduce small fixes and features and is a "
 "recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.12_released.md:0
+#: content/news/Okular_0.12_released.md:0
 msgid "Okular 0.12 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.12_released.md:5
+#: content/news/Okular_0.12_released.md:5
 msgid ""
 "The 0.12 version of Okular has been released together with KDE Applications "
 "4.6 release. This release introduce small fixes and features and is a "
 "recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.13_released.md:0
+#: content/news/Okular_0.13_released.md:0
 msgid "Okular 0.13 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.13_released.md:5
+#: content/news/Okular_0.13_released.md:5
 msgid ""
 "The 0.13 version of Okular has been released together with KDE Applications "
 "4.7 release. This release introduce small fixes and features and is a "
 "recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.14_released.md:0
+#: content/news/Okular_0.14_released.md:0
 msgid "Okular 0.14 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.14_released.md:5
+#: content/news/Okular_0.14_released.md:5
 msgid ""
 "The 0.14 version of Okular has been released together with KDE Applications "
 "4.8 release. This release introduces new features like improved text "
@@ -397,12 +404,12 @@ msgid ""
 " Okular 0.14 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.15_released.md:0
+#: content/news/Okular_0.15_released.md:0
 msgid "Okular 0.15 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.15_released.md:5
+#: content/news/Okular_0.15_released.md:5
 msgid ""
 "The 0.15 version of Okular has been released together with KDE Applications "
 "4.9 release. This release introduces new features like the ability to store "
@@ -413,12 +420,12 @@ msgid ""
 " Okular 0.15 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.16_released.md:0
+#: content/news/Okular_0.16_released.md:0
 msgid "Okular 0.16 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.16_released.md:5
+#: content/news/Okular_0.16_released.md:5
 msgid ""
 "The 0.16 version of Okular has been released together with KDE Applications "
 "4.10 release. This release introduces new features like the ability to zoom "
@@ -428,12 +435,12 @@ msgid ""
 "everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.17_released.md:0
+#: content/news/Okular_0.17_released.md:0
 msgid "Okular 0.17 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.17_released.md:5
+#: content/news/Okular_0.17_released.md:5
 msgid ""
 "The 0.17 version of Okular has been released together with KDE Applications "
 "4.11 release. This release introduces new features like undo/redo support "
@@ -441,12 +448,12 @@ msgid ""
 "recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.18_released.md:0
+#: content/news/Okular_0.18_released.md:0
 msgid "Okular 0.18 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.18_released.md:5
+#: content/news/Okular_0.18_released.md:5
 msgid ""
 "The 0.18 version of Okular has been released together with KDE Applications "
 "4.12 release. This release introduces new features like audio/video support "
@@ -454,12 +461,12 @@ msgid ""
 "printing. Okular 0.18 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.19_released.md:0
+#: content/news/Okular_0.19_released.md:0
 msgid "Okular 0.19 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.19_released.md:5
+#: content/news/Okular_0.19_released.md:5
 msgid ""
 "The 0.19 version of Okular has been released together with KDE Applications "
 "4.13 release. This release introduces new features like tabs support in the "
@@ -468,12 +475,12 @@ msgid ""
 "Okular 0.19 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.21_released.md:0
+#: content/news/Okular_0.21_released.md:0
 msgid "Okular 0.21 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.21_released.md:5
+#: content/news/Okular_0.21_released.md:5
 msgid ""
 "The 0.21 version of Okular has been released together with KDE Applications "
 "14.12 release. This release introduces new features like latex-synctex "
@@ -481,24 +488,24 @@ msgid ""
 "update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.22_released.md:0
+#: content/news/Okular_0.22_released.md:0
 msgid "Okular 0.22 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.22_released.md:5
+#: content/news/Okular_0.22_released.md:5
 msgid ""
 "The 0.22 version of Okular has been released together with KDE Applications "
 "15.04 release. Okular 0.22 is a recommended update for everyone using "
 "Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.23_released.md:0
+#: content/news/Okular_0.23_released.md:0
 msgid "Okular 0.23 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.23_released.md:5
+#: content/news/Okular_0.23_released.md:5
 msgid ""
 "The 0.23 version of Okular has been released together with KDE Applications "
 "15.08 release. This release introduces support for the Fade transition in "
@@ -506,12 +513,12 @@ msgid ""
 "playback. Okular 0.23 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.24_released.md:0
+#: content/news/Okular_0.24_released.md:0
 msgid "Okular 0.24 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.24_released.md:5
+#: content/news/Okular_0.24_released.md:5
 msgid ""
 "The 0.24 version of Okular has been released together with KDE Applications "
 "15.12 release. This release introduces minor bugfixes and features, you can "
@@ -520,12 +527,12 @@ msgid ""
 " Okular 0.24 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.26_released.md:0
+#: content/news/Okular_0.26_released.md:0
 msgid "Okular 0.26 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.26_released.md:5
+#: content/news/Okular_0.26_released.md:5
 msgid ""
 "The 0.26 version of Okular has been released together with KDE Applications "
 "16.08 release. This release introduces very small changes, you can check the"
@@ -534,12 +541,12 @@ msgid ""
 " Okular 0.26 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_0.5.81_unstable_snapshot_released.md:0
+#: content/news/Okular_0.5.81_unstable_snapshot_released.md:0
 msgid "Okular 0.5.81 unstable snapshot released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.5.81_unstable_snapshot_released.md:5
+#: content/news/Okular_0.5.81_unstable_snapshot_released.md:5
 msgid ""
 "The Okular team is proud to announce the release of a snapshot of Okular "
 "that compiles against the <a href=\"http://dot.kde.org/1162475911/\">Second "
@@ -552,12 +559,12 @@ msgid ""
 "you have all the necessary libraries."
 msgstr ""
 
-#: ./content/news/Okular_0.5_unstable_snapshot_released.md:0
+#: content/news/Okular_0.5_unstable_snapshot_released.md:0
 msgid "Okular 0.5 unstable snapshot released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.5_unstable_snapshot_released.md:5
+#: content/news/Okular_0.5_unstable_snapshot_released.md:5
 msgid ""
 "The Okular team is proud to announce the release of a snapshot of Okular "
 "that compiles against the <a href=\"http://dot.kde.org/1155935483/\">KDE 4 "
@@ -570,12 +577,12 @@ msgid ""
 "you have all the necessary libraries."
 msgstr ""
 
-#: ./content/news/Okular_0.6.1_released.md:0
+#: content/news/Okular_0.6.1_released.md:0
 msgid "Okular 0.6.1 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.6.1_released.md:5
+#: content/news/Okular_0.6.1_released.md:5
 msgid ""
 "The first maintenance release of the KDE 4.0 series includes Okular 0.6.1. "
 "It includes quite a few bug fixes, including better not redownloading files "
@@ -584,12 +591,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_0to4_0_1.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_0to4_0_1.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.6.2_released.md:0
+#: content/news/Okular_0.6.2_released.md:0
 msgid "Okular 0.6.2 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.6.2_released.md:5
+#: content/news/Okular_0.6.2_released.md:5
 msgid ""
 "The second maintenance release of the KDE 4.0 series includes Okular 0.6.2. "
 "It includes quite a few bug fixes, including more stability when closing a "
@@ -598,12 +605,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_0_1to4_0_2.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_0_1to4_0_2.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.6.3_released.md:0
+#: content/news/Okular_0.6.3_released.md:0
 msgid "Okular 0.6.3 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.6.3_released.md:5
+#: content/news/Okular_0.6.3_released.md:5
 msgid ""
 "The third maintenance release of the KDE 4.0 series includes Okular 0.6.3. "
 "It includes few bug fixes, i.e. a better way to get the text position in a "
@@ -612,12 +619,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_0_2to4_0_3.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_0_2to4_0_3.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.7.1_released.md:0
+#: content/news/Okular_0.7.1_released.md:0
 msgid "Okular 0.7.1 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.7.1_released.md:5
+#: content/news/Okular_0.7.1_released.md:5
 msgid ""
 "The first maintenance release of the KDE 4.1 series includes Okular 0.7.1. "
 "It includes some crash fixes among other minor fixes. You can read all the "
@@ -625,12 +632,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_1to4_1_1.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_1to4_1_1.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.7.2_released.md:0
+#: content/news/Okular_0.7.2_released.md:0
 msgid "Okular 0.7.2 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.7.2_released.md:5
+#: content/news/Okular_0.7.2_released.md:5
 msgid ""
 "The second maintenance release of the KDE 4.1 series includes Okular 0.7.2. "
 "It includes some minor fixes in the TIFF and Comicbook backends and the "
@@ -639,12 +646,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_1_1to4_1_2.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_1_1to4_1_2.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.7.3_released.md:0
+#: content/news/Okular_0.7.3_released.md:0
 msgid "Okular 0.7.3 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.7.3_released.md:5
+#: content/news/Okular_0.7.3_released.md:5
 msgid ""
 "The third maintenance release of the KDE 4.1 series includes Okular 0.7.3. "
 "It includes some minor fixes in the user interface and in the text search. "
@@ -652,12 +659,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_1_2to4_1_3.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_1_2to4_1_3.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.7_released.md:0
+#: content/news/Okular_0.7_released.md:0
 msgid "Okular 0.7 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.7_released.md:5
+#: content/news/Okular_0.7_released.md:5
 msgid ""
 "The Okular team is proud to announce a new version of Okular, released as "
 "part of <a href=\"http://www.kde.org/announcements/4.1/\">KDE 4.1</a>. Some "
@@ -665,88 +672,88 @@ msgid ""
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:7
+#: content/news/Okular_0.7_released.md:7
 msgid "Possibility to save a PDF document with the changes to the form fields"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:8
+#: content/news/Okular_0.7_released.md:8
 msgid ""
 "Presentation mode: support for more than one screen, and possibility to "
 "disable transitions"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:9
+#: content/news/Okular_0.7_released.md:9
 msgid "The zoom level is stored per-document now"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:10
+#: content/news/Okular_0.7_released.md:10
 msgid ""
 "Enhanced text-to-speech support, that can be used to read the whole "
 "document, a specific page or the text selection"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:11
+#: content/news/Okular_0.7_released.md:11
 msgid "Backward direction for text search"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:12
+#: content/news/Okular_0.7_released.md:12
 msgid "Improved support for forms"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:13
+#: content/news/Okular_0.7_released.md:13
 msgid ""
 "Preliminary (really basic and most probably incomplete) support for "
 "JavaScript in PDF documents"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:14
+#: content/news/Okular_0.7_released.md:14
 msgid "Support for file attachment annotations"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:15
+#: content/news/Okular_0.7_released.md:15
 msgid "Possibility to remove the white border of pages when viewing pages"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:16
+#: content/news/Okular_0.7_released.md:16
 msgid "New backend for EPub documents"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:17
+#: content/news/Okular_0.7_released.md:17
 msgid ""
 "OpenDocument Text backend: support for encrypted documents, list and tables "
 "improvements"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:18
+#: content/news/Okular_0.7_released.md:18
 msgid ""
 "XPS backend: various loading and rendering improvements, should be much more"
 " usable now"
 msgstr ""
 
 #. type: List item
-#: ./content/news/Okular_0.7_released.md:19
+#: content/news/Okular_0.7_released.md:19
 msgid ""
 "PS backend: various improvements, mainly due to the newer libspectre "
 "required"
 msgstr ""
 
-#: ./content/news/Okular_0.8.1_released.md:0
+#: content/news/Okular_0.8.1_released.md:0
 msgid "Okular 0.8.1 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.8.1_released.md:5
+#: content/news/Okular_0.8.1_released.md:5
 msgid ""
 "The first maintenance release of the KDE 4.2 series includes Okular 0.8.1. "
 "It includes some crash fixes in the CHM and DjVu backends, and minor fixes "
@@ -754,12 +761,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_2to4_2_1.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2to4_2_1.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.8.2_released.md:0
+#: content/news/Okular_0.8.2_released.md:0
 msgid "Okular 0.8.2 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.8.2_released.md:5
+#: content/news/Okular_0.8.2_released.md:5
 msgid ""
 "The second maintenance release of the KDE 4.2 series includes Okular 0.8.2. "
 "It includes better support (hopefully working) for DVI and pdfsync inverse "
@@ -768,12 +775,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_2_1to4_2_2.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2_1to4_2_2.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.8.3_released.md:0
+#: content/news/Okular_0.8.3_released.md:0
 msgid "Okular 0.8.3 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.8.3_released.md:5
+#: content/news/Okular_0.8.3_released.md:5
 msgid ""
 "The third maintenance release of the KDE 4.2 series includes Okular 0.8.3. "
 "It does not provide much news for Okular, the only relevant change is about "
@@ -782,12 +789,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_2_2to4_2_3.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2_2to4_2_3.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.8.4_released.md:0
+#: content/news/Okular_0.8.4_released.md:0
 msgid "Okular 0.8.4 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.8.4_released.md:5
+#: content/news/Okular_0.8.4_released.md:5
 msgid ""
 "The forth maintenance release of the KDE 4.2 series includes Okular 0.8.4. "
 "It includes some fixes in OpenDocument Text documents, a couple of crash "
@@ -796,12 +803,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_2_3to4_2_4.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2_3to4_2_4.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_0.8_released.md:0
+#: content/news/Okular_0.8_released.md:0
 msgid "Okular 0.8 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.8_released.md:5
+#: content/news/Okular_0.8_released.md:5
 msgid ""
 "The Okular team is proud to announce a new version of Okular, released as "
 "part of <a href=\"http://www.kde.org/announcements/4.2/\">KDE 4.2</a>. Some "
@@ -819,12 +826,12 @@ msgid ""
 "were fixed."
 msgstr ""
 
-#: ./content/news/Okular_0.9.4_released.md:0
+#: content/news/Okular_0.9.4_released.md:0
 msgid "Okular 0.9.4 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_0.9.4_released.md:5
+#: content/news/Okular_0.9.4_released.md:5
 msgid ""
 "The forth maintenance release of the KDE 4.3 series includes Okular 0.9.4. "
 "It includes some crash fixes, and few small bug fixes in the interface. You "
@@ -832,12 +839,12 @@ msgid ""
 "href=\"http://www.kde.org/announcements/changelogs/changelog4_3_3to4_3_4.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_3_3to4_3_4.php</a>"
 msgstr ""
 
-#: ./content/news/Okular_1.0_released.md:0
+#: content/news/Okular_1.0_released.md:0
 msgid "Okular 1.0 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.0_released.md:5
+#: content/news/Okular_1.0_released.md:5
 msgid ""
 "The 1.0 version of Okular has been released together with KDE Applications "
 "16.12 release. This release is now based in KDE Frameworks 5, you can check "
@@ -846,12 +853,12 @@ msgid ""
 " Okular 1.0 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.10_released.md:0
+#: content/news/Okular_1.10_released.md:0
 msgid "Okular 1.10 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.10_released.md:5
+#: content/news/Okular_1.10_released.md:5
 msgid ""
 "The 1.10 version of Okular has been released. This release introduces "
 "kinetic scrolling, tab management improvements, improvements to the Mobile "
@@ -862,12 +869,12 @@ msgid ""
 " for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.11_released.md:0
+#: content/news/Okular_1.11_released.md:0
 msgid "Okular 1.11 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.11_released.md:5
+#: content/news/Okular_1.11_released.md:5
 msgid ""
 "The 1.11 version of Okular has been released. This release introduces a new "
 "annotation user interface and various minor fixes and features all over. You"
@@ -878,12 +885,12 @@ msgid ""
 " for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.1_released.md:0
+#: content/news/Okular_1.1_released.md:0
 msgid "Okular 1.1 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.1_released.md:5
+#: content/news/Okular_1.1_released.md:5
 msgid ""
 "The 1.1 version of Okular has been released together with KDE Applications "
 "17.04 release. This release introduces annotation resize functionality, "
@@ -893,12 +900,12 @@ msgid ""
 " Okular 1.1 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.2_released.md:0
+#: content/news/Okular_1.2_released.md:0
 msgid "Okular 1.2 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.2_released.md:5
+#: content/news/Okular_1.2_released.md:5
 msgid ""
 "The 1.2 version of Okular has been released together with KDE Applications "
 "17.08 release. This release introduces minor bugfixes and improvements. You "
@@ -907,12 +914,12 @@ msgid ""
 " Okular 1.2 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.3_released.md:0
+#: content/news/Okular_1.3_released.md:0
 msgid "Okular 1.3 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.3_released.md:5
+#: content/news/Okular_1.3_released.md:5
 msgid ""
 "The 1.3 version of Okular has been released together with KDE Applications "
 "17.12 release. This release introduces changes to how saving annotations and"
@@ -924,12 +931,12 @@ msgid ""
 " Okular 1.3 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.4_released.md:0
+#: content/news/Okular_1.4_released.md:0
 msgid "Okular 1.4 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.4_released.md:5
+#: content/news/Okular_1.4_released.md:5
 msgid ""
 "The 1.4 version of Okular has been released together with KDE Applications "
 "18.04 release. This release introduces improved JavaScript support in PDF "
@@ -941,12 +948,12 @@ msgid ""
 " Okular 1.4 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.5_released.md:0
+#: content/news/Okular_1.5_released.md:0
 msgid "Okular 1.5 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.5_released.md:5
+#: content/news/Okular_1.5_released.md:5
 msgid ""
 "The 1.5 version of Okular has been released together with KDE Applications "
 "18.08 release. This release introduces Form improvements among various other"
@@ -955,12 +962,12 @@ msgid ""
 " Okular 1.5 is a recommended update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.6_released.md:0
+#: content/news/Okular_1.6_released.md:0
 msgid "Okular 1.6 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.6_released.md:5
+#: content/news/Okular_1.6_released.md:5
 msgid ""
 "The 1.6 version of Okular has been released together with KDE Applications "
 "18.12 release. This release introduces the new Typewriter annotation tool "
@@ -972,12 +979,12 @@ msgid ""
 "for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.8_released.md:0
+#: content/news/Okular_1.8_released.md:0
 msgid "Okular 1.8 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.8_released.md:5
+#: content/news/Okular_1.8_released.md:5
 msgid ""
 "The 1.8 version of Okular has been released together with KDE Applications "
 "19.08 release. This release introduces the feature of setting Line "
@@ -989,12 +996,12 @@ msgid ""
 "for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_1.9_released.md:0
+#: content/news/Okular_1.9_released.md:0
 msgid "Okular 1.9 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_1.9_released.md:5
+#: content/news/Okular_1.9_released.md:5
 msgid ""
 "The 1.9 version of Okular has been released. This release introduces cb7 "
 "support for ComicBook archives, improved JavaScript support for PDF files "
@@ -1005,12 +1012,12 @@ msgid ""
 "for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_20.12_released.md:0
+#: content/news/Okular_20.12_released.md:0
 msgid "Okular 20.12 released"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_20.12_released.md:5
+#: content/news/Okular_20.12_released.md:5
 msgid ""
 "The 20.12 version of Okular has been released. This release introduces "
 "various minor fixes and features all over. You can check the full changelog "
@@ -1020,35 +1027,35 @@ msgid ""
 "update for everyone using Okular."
 msgstr ""
 
-#: ./content/news/Okular_forums.md:0
+#: content/news/Okular_forums.md:0
 msgid "Okular forums"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_forums.md:5
+#: content/news/Okular_forums.md:5
 msgid ""
 "We now have a subforum inside the KDE Community Forums. You can find it at "
 "<a "
 "href=\"http://forum.kde.org/viewforum.php?f=251\">http://forum.kde.org/viewforum.php?f=251</href>."
 msgstr ""
 
-#: ./content/news/Okular_in_kdegraphics.md:0
+#: content/news/Okular_in_kdegraphics.md:0
 msgid "Okular in kdegraphics"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_in_kdegraphics.md:5
+#: content/news/Okular_in_kdegraphics.md:5
 msgid ""
 "The Okular team is proud to announce Okular is now part of the kdegraphics "
 "module. The next version of Okular will be shipped with KDE 4.0."
 msgstr ""
 
-#: ./content/news/Okular_joins_The_Season_of_Usability_project.md:0
+#: content/news/Okular_joins_The_Season_of_Usability_project.md:0
 msgid "Okular joins The Season of Usability project"
 msgstr ""
 
 #. type: Plain Text
-#: ./content/news/Okular_joins_The_Season_of_Usability_project.md:5
+#: content/news/Okular_joins_The_Season_of_Usability_project.md:5
 msgid ""
 "The Okular team is proud to announce Okular has been one of the applications"
 " selected to participate in the <a "
@@ -1057,6 +1064,11 @@ msgid ""
 "href=\"http://www.openusability.org\">OpenUsability</a>. From here we want "
 "to welcome Sharad Baliyan to the team and thank Florian Graessle and Pino "
 "Toscano for their continued work on improving Okular."
+msgstr ""
+
+#. Name of your language in your language (e.g. Français, Deutsch, ...)
+#: hugoi18n/extraction.py:36
+msgid "LANGUAGE_NAME"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1077,6 +1089,10 @@ msgstr ""
 #: i18n/en.yaml:0
 msgid ""
 "Illustration from [David Revoy CC-BY-SA-4.0](https://www.peppercarrot.com/)"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Download"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1403,10 +1419,4 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "No matches found"
-msgstr ""
-
-#. Replace LANGUAGE_NAME with the name of your language in your language (e.g.
-#. Français, Deutsch, Українська ...). Displayed in the navbar
-#: i18n_hugo_extractor/extractors.py:29
-msgid "LANGUAGE_NAME"
 msgstr ""
