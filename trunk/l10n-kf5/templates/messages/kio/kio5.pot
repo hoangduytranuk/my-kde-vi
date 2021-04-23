@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-19 00:16+0000\n"
+"POT-Creation-Date: 2021-04-23 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,16 +28,16 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: core/chmodjob.cpp:191
+#: core/chmodjob.cpp:193
 #, kde-format
 msgid "Could not modify the ownership of file %1"
 msgstr ""
 
-#: core/chmodjob.cpp:194
-#, kde-format
+#: core/chmodjob.cpp:227
+#, kde-kuit-format
 msgid ""
-"<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
-"access to the file to perform the change.</qt>"
+"Could not modify the ownership of file <filename>%1</filename>. You have "
+"insufficient access to the file to perform the change."
 msgstr ""
 
 #: core/connectionbackend.cpp:108
@@ -5073,7 +5073,21 @@ msgid ""
 "uploaded it is renamed to its real name."
 msgstr ""
 
-#: kcms/kio/kproxydlg.cpp:530
+#: kcms/kio/kproxydlg.cpp:191
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Not all applications will use this proxy setting. In particular, "
+"<application>Firefox</application> and <application>Chromium</application> "
+"or anything derived from them, or anything using <application>QtWebEngine</"
+"application>&nbsp;- which includes <application>Konqueror</application> "
+"using the <application>WebEnginePart</application>, <application>Akregator</"
+"application> and <application>Falkon</application>&nbsp;- will not use these "
+"settings. Some applications may allow the proxy to be configured in their "
+"own settings."
+msgstr ""
+
+#: kcms/kio/kproxydlg.cpp:542
 #, kde-format
 msgid ""
 "<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
@@ -6986,7 +7000,7 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr ""
 
-#: widgets/kfileitemdelegate.cpp:206
+#: widgets/kfileitemdelegate.cpp:204
 #, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
@@ -6994,7 +7008,7 @@ msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/kfileitemdelegate.cpp:261 widgets/kfileitemdelegate.cpp:265
+#: widgets/kfileitemdelegate.cpp:259 widgets/kfileitemdelegate.cpp:263
 #, kde-format
 msgctxt "@info mimetype"
 msgid "Unknown"

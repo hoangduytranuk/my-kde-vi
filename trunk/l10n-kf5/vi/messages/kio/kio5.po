@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-19 00:16+0000\n"
+"POT-Creation-Date: 2021-04-23 00:15+0000\n"
 "PO-Revision-Date: 2021-04-20 14:12+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -29,16 +29,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "clytie@riverland.net.au,herophuong93@gmail.com,phuhnguyen@disroot.org"
 
-#: core/chmodjob.cpp:191
+#: core/chmodjob.cpp:193
 #, kde-format
 msgid "Could not modify the ownership of file %1"
 msgstr "Không chỉnh sửa được quyền sở hữu của tệp %1"
 
-#: core/chmodjob.cpp:194
-#, kde-format
+#: core/chmodjob.cpp:227
+#, fuzzy, kde-kuit-format
+#| msgid ""
+#| "<qt>Could not modify the ownership of file <b>%1</b>. You have "
+#| "insufficient access to the file to perform the change.</qt>"
 msgid ""
-"<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
-"access to the file to perform the change.</qt>"
+"Could not modify the ownership of file <filename>%1</filename>. You have "
+"insufficient access to the file to perform the change."
 msgstr ""
 "<qt>Không chỉnh sửa được quyền sở hữu của tệp <b>%1</b>. Bạn không có đủ "
 "quyền truy cập đến tệp để thực hiện thay đổi này.</qt>"
@@ -5619,7 +5622,21 @@ msgstr ""
 "Khi một tệp đang được tải lên, phần mở rộng của nó là \".part\". Khi đã tải "
 "lên toàn bộ, nó được đổi tên thành tên thật."
 
-#: kcms/kio/kproxydlg.cpp:530
+#: kcms/kio/kproxydlg.cpp:191
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Not all applications will use this proxy setting. In particular, "
+"<application>Firefox</application> and <application>Chromium</application> "
+"or anything derived from them, or anything using <application>QtWebEngine</"
+"application>&nbsp;- which includes <application>Konqueror</application> "
+"using the <application>WebEnginePart</application>, <application>Akregator</"
+"application> and <application>Falkon</application>&nbsp;- will not use these "
+"settings. Some applications may allow the proxy to be configured in their "
+"own settings."
+msgstr ""
+
+#: kcms/kio/kproxydlg.cpp:542
 #, kde-format
 msgid ""
 "<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
@@ -7801,14 +7818,14 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Hành động"
 
-#: widgets/kfileitemdelegate.cpp:206
+#: widgets/kfileitemdelegate.cpp:204
 #, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 thứ"
 
-#: widgets/kfileitemdelegate.cpp:261 widgets/kfileitemdelegate.cpp:265
+#: widgets/kfileitemdelegate.cpp:259 widgets/kfileitemdelegate.cpp:263
 #, kde-format
 msgctxt "@info mimetype"
 msgid "Unknown"
@@ -8328,16 +8345,13 @@ msgstr "Các lự&a chọn nâng cao"
 
 #: widgets/kpropertiesdialog.cpp:159
 #, kde-kuit-format
-#| msgid ""
-#| "<qt>Could not save properties. You do not have sufficient access to write "
-#| "to <b>%1</b>.</qt>"
 msgctxt "@info"
 msgid ""
 "Could not save properties due to insufficient write access to:<nl/><filename>"
 "%1</filename>."
 msgstr ""
-"Không lưu được thuộc tính vì không đủ quyền truy cập để ghi vào:<nl/>"
-"<filename>%1</filename>."
+"Không lưu được thuộc tính vì không đủ quyền truy cập để ghi vào:<nl/"
+"><filename>%1</filename>."
 
 #: widgets/kpropertiesdialog.cpp:216 widgets/kpropertiesdialog.cpp:231
 #: widgets/kpropertiesdialog.cpp:243 widgets/kpropertiesdialog.cpp:259

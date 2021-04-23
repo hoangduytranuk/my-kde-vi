@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-14 00:19+0000\n"
+"POT-Creation-Date: 2021-04-23 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5970,7 +5970,7 @@ msgstr ""
 msgid "There was an error while connecting to Kleopatra: %1"
 msgstr ""
 
-#: src/main.cpp:119
+#: src/main.cpp:122
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5981,18 +5981,18 @@ msgid ""
 "permissions.</para>"
 msgstr ""
 
-#: src/main.cpp:123
+#: src/main.cpp:126
 #, kde-kuit-format
 msgid "<para>Are you sure that you want to continue?</para>"
 msgstr ""
 
-#: src/main.cpp:124
+#: src/main.cpp:127
 #, kde-format
 msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
-#: src/main.cpp:172
+#: src/main.cpp:175
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6003,18 +6003,18 @@ msgid ""
 "administrator for help in resolving this issue.</para>"
 msgstr ""
 
-#: src/main.cpp:176
+#: src/main.cpp:179
 #, kde-format
 msgctxt "@title"
 msgid "GpgME Too Old"
 msgstr ""
 
-#: src/main.cpp:223
+#: src/main.cpp:226
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
-#: src/main.cpp:224
+#: src/main.cpp:227
 #, kde-format
 msgid ""
 "<qt>The Kleopatra GPG UI Server Module could not be initialized.<br/>The "
@@ -6023,7 +6023,7 @@ msgid ""
 "present might not work correctly, or at all.</qt>"
 msgstr ""
 
-#: src/main.cpp:250
+#: src/main.cpp:253
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""
@@ -7918,8 +7918,8 @@ msgstr ""
 msgid "View Columns"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:80 src/view/pgpcardwidget.cpp:143
-#: src/view/pivcardwidget.cpp:110
+#: src/view/netkeywidget.cpp:80 src/view/p15cardwidget.cpp:58
+#: src/view/pgpcardwidget.cpp:143 src/view/pivcardwidget.cpp:110
 #, kde-format
 msgid "Serial number:"
 msgstr ""
@@ -8058,6 +8058,33 @@ msgstr ""
 #: src/view/nullpinwidget.cpp:75
 #, kde-format
 msgid "Set initial PIN"
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:68
+#, kde-format
+msgid "OpenPGP keys:"
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:83
+#, kde-format
+msgctxt "%1 is a smartcard manufacturer"
+msgid "%1 PKCS#15 card"
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:90
+#, kde-format
+msgid "Signing key:"
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:99 src/view/p15cardwidget.cpp:126
+#: src/view/pgpcardwidget.cpp:558
+#, kde-format
+msgid "Public key not found."
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:120
+#, kde-format
+msgid "Encryption key:"
 msgstr ""
 
 #: src/view/padwidget.cpp:76 src/view/padwidget.cpp:463
@@ -8335,11 +8362,6 @@ msgstr ""
 msgid "Slot empty"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:558
-#, kde-format
-msgid "Public key not found."
-msgstr ""
-
 #: src/view/pivcardwidget.cpp:142
 #, kde-format
 msgctxt "@action:button"
@@ -8484,51 +8506,57 @@ msgstr ""
 msgid "Search...<%1>"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:50
+#: src/view/smartcardwidget.cpp:52
 #, kde-format
 msgctxt "OpenPGP refers to a smartcard protocol"
 msgid "OpenPGP v2.0 - v3.3"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:51
+#: src/view/smartcardwidget.cpp:53
 #, kde-format
 msgctxt "Gnuk is a cryptographic token for GnuPG"
 msgid "Gnuk"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:52
+#: src/view/smartcardwidget.cpp:54
 #, kde-format
 msgctxt "NetKey refers to a smartcard protocol"
 msgid "NetKey v3"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:53
+#: src/view/smartcardwidget.cpp:55
 #, kde-format
 msgctxt "PIV refers to a smartcard protocol"
 msgid "PIV (requires GnuPG 2.3 or later)"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:55
+#: src/view/smartcardwidget.cpp:56
 #, kde-format
-msgid "Please insert a compatible smartcard."
+msgctxt "CardOS is a smartcard operating system"
+msgid "CardOS 5 (various apps)"
 msgstr ""
 
 #: src/view/smartcardwidget.cpp:58
 #, kde-format
+msgid "Please insert a compatible smartcard."
+msgstr ""
+
+#: src/view/smartcardwidget.cpp:61
+#, kde-format
 msgid "Kleopatra currently supports the following card types:"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:62
+#: src/view/smartcardwidget.cpp:65
 #, kde-format
 msgid "Refresh the view (F5) to update the smartcard status."
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:99
+#: src/view/smartcardwidget.cpp:102
 #, kde-format
 msgid "Smartcard Management"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:138
+#: src/view/smartcardwidget.cpp:143
 #, kde-format
 msgctxt ""
 "@title:tab smartcard application - name of card holder - serial number of "
@@ -8536,7 +8564,7 @@ msgctxt ""
 msgid "%1 - %2 - %3"
 msgstr ""
 
-#: src/view/smartcardwidget.cpp:141
+#: src/view/smartcardwidget.cpp:146
 #, kde-format
 msgctxt "@title:tab smartcard application - serial number of smartcard"
 msgid "%1 - %2"
