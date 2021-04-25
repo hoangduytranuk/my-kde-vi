@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kongress\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-25 02:45+0100\n"
+"POT-Creation-Date: 2021-04-25 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -26,6 +26,16 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: calendarcontroller.cpp:301
+#, kde-format
+msgid "Cannot save calendar file. Export failed."
+msgstr ""
+
+#: calendarcontroller.cpp:307
+#, kde-format
+msgid "Export completed successfully"
 msgstr ""
 
 #: conferencemodel.cpp:87
@@ -53,17 +63,12 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: contents/ui/Conferences.qml:70
-#, kde-format
-msgid "Select"
-msgstr ""
-
 #: contents/ui/EventInfo.qml:24
 #, kde-format
 msgid "Web Page"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:37 contents/ui/FavoritesView.qml:67
+#: contents/ui/EventInfo.qml:37 contents/ui/FavoritesView.qml:112
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -73,22 +78,32 @@ msgstr ""
 msgid "Favorite"
 msgstr ""
 
-#: contents/ui/FavoritesView.qml:28
+#: contents/ui/FavoritesView.qml:27
+#, kde-format
+msgid "Export"
+msgstr ""
+
+#: contents/ui/FavoritesView.qml:57
+#, kde-format
+msgid "Open folder"
+msgstr ""
+
+#: contents/ui/FavoritesView.qml:72
 #, kde-format
 msgid "No favorite talks found for %1"
 msgstr ""
 
-#: contents/ui/FavoritesView.qml:28
+#: contents/ui/FavoritesView.qml:72
 #, kde-format
 msgid "No favorite talks found"
 msgstr ""
 
-#: contents/ui/FavoritesView.qml:57 contents/ui/ScheduleView.qml:67
+#: contents/ui/FavoritesView.qml:102 contents/ui/ScheduleView.qml:67
 #, kde-format
 msgid "Details"
 msgstr ""
 
-#: contents/ui/FavoritesView.qml:135
+#: contents/ui/FavoritesView.qml:180
 #, kde-format
 msgid "Overlaps with another talk"
 msgid_plural "Overlaps with %1 other talks"
@@ -120,7 +135,7 @@ msgstr ""
 msgid "Full Schedule"
 msgstr ""
 
-#: contents/ui/GlobalDrawer.qml:70 contents/ui/Main.qml:62
+#: contents/ui/GlobalDrawer.qml:70 contents/ui/Main.qml:64
 #, kde-format
 msgid "Schedule"
 msgstr ""
@@ -136,7 +151,7 @@ msgid "Map"
 msgstr ""
 
 #: contents/ui/GlobalDrawer.qml:94 contents/ui/GlobalDrawer.qml:100
-#: contents/ui/Main.qml:73
+#: contents/ui/Main.qml:75
 #, kde-format
 msgid "Favorites"
 msgstr ""
