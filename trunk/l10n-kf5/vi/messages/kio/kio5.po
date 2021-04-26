@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-25 00:15+0000\n"
+"POT-Creation-Date: 2021-04-26 00:15+0000\n"
 "PO-Revision-Date: 2021-04-25 09:58+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -36,9 +36,6 @@ msgstr "Không chỉnh sửa được quyền sở hữu của tệp %1"
 
 #: core/chmodjob.cpp:227
 #, kde-kuit-format
-#| msgid ""
-#| "<qt>Could not modify the ownership of file <b>%1</b>. You have "
-#| "insufficient access to the file to perform the change.</qt>"
 msgid ""
 "Could not modify the ownership of file <filename>%1</filename>. You have "
 "insufficient access to the file to perform the change."
@@ -2321,7 +2318,7 @@ msgstr "(%1, liên kết đến %2)"
 msgid " (Points to %1)"
 msgstr " (Trỏ đến %1)"
 
-#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145 widgets/krun.cpp:403
+#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145 widgets/krun.cpp:402
 #: widgets/paste.cpp:262 widgets/renamedialog.cpp:599
 #, kde-format
 msgid ""
@@ -3478,7 +3475,7 @@ msgid "*|All Files"
 msgstr "*|Tất cả các tệp"
 
 #: filewidgets/kfilewidget.cpp:2073 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:370
+#: widgets/kfileitemactions.cpp:819
 #, kde-format
 msgid "&Open"
 msgstr "&Mở"
@@ -3826,7 +3823,7 @@ msgstr ""
 "%2."
 
 #: gui/applicationlauncherjob.cpp:249 gui/openurljob.cpp:604
-#: widgets/krun.cpp:200
+#: widgets/krun.cpp:199
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Bạn không có quyền chọn ứng dụng để mở tệp này."
@@ -5081,43 +5078,43 @@ msgstr ""
 "chính sách chấp nhận, và bạn có thể truy cập các địa điểm web mà không bị "
 "hỏi mỗi khi nhận được một miếng bánh quy.</p>"
 
-#: kcms/kio/kcookiesmanagement.cpp:125 kcms/kio/kcookiesmanagement.cpp:142
+#: kcms/kio/kcookiesmanagement.cpp:124 kcms/kio/kcookiesmanagement.cpp:141
 #, kde-format
 msgid "D-Bus Communication Error"
 msgstr "Lỗi giao tiếp D-Bus"
 
-#: kcms/kio/kcookiesmanagement.cpp:126
+#: kcms/kio/kcookiesmanagement.cpp:125
 #, kde-format
 msgid "Unable to delete all the cookies as requested."
 msgstr "Không thể xoá tất cả bánh quy theo yêu cầu."
 
-#: kcms/kio/kcookiesmanagement.cpp:143
+#: kcms/kio/kcookiesmanagement.cpp:142
 #, kde-format
 msgid "Unable to delete cookies as requested."
 msgstr "Không thể xoá bánh quy theo yêu cầu."
 
-#: kcms/kio/kcookiesmanagement.cpp:213
+#: kcms/kio/kcookiesmanagement.cpp:212
 #, kde-format
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr "<h1>Trợ giúp nhanh về quản lí bánh quy</h1>"
 
-#: kcms/kio/kcookiesmanagement.cpp:225
+#: kcms/kio/kcookiesmanagement.cpp:224
 #, kde-format
 msgid "Information Lookup Failure"
 msgstr "Tra cứu thông tin thất bại"
 
-#: kcms/kio/kcookiesmanagement.cpp:227
+#: kcms/kio/kcookiesmanagement.cpp:226
 #, kde-format
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr "Không thể lấy thông tin về bánh quy được lưu trên máy tính của bạn."
 
-#: kcms/kio/kcookiesmanagement.cpp:313
+#: kcms/kio/kcookiesmanagement.cpp:312
 #, kde-format
 msgid "End of session"
 msgstr "Hết phiên"
 
-#: kcms/kio/kcookiesmanagement.cpp:320
+#: kcms/kio/kcookiesmanagement.cpp:319
 #, kde-format
 msgid "Yes"
 msgstr "Có"
@@ -5180,19 +5177,19 @@ msgstr "Tải lạ&i danh sách"
 msgid "Secure:"
 msgstr "An toàn:"
 
-#: kcms/kio/kcookiespolicies.cpp:153
+#: kcms/kio/kcookiespolicies.cpp:152
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Cookie Policy"
 msgstr "Thay đổi chính sách bánh quy"
 
-#: kcms/kio/kcookiespolicies.cpp:172
+#: kcms/kio/kcookiespolicies.cpp:171
 #, kde-format
 msgctxt "@title:window"
 msgid "New Cookie Policy"
 msgstr "Chính sách bánh quy mới"
 
-#: kcms/kio/kcookiespolicies.cpp:204
+#: kcms/kio/kcookiespolicies.cpp:203
 #, kde-format
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
@@ -5201,18 +5198,18 @@ msgstr ""
 "<qt>Một chính sách đã tồn tại cho<center><b>%1</b></center>Bạn có muốn thay "
 "thế nó không?</qt>"
 
-#: kcms/kio/kcookiespolicies.cpp:208
+#: kcms/kio/kcookiespolicies.cpp:207
 #, kde-format
 msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr "Chính sách trùng lặp"
 
-#: kcms/kio/kcookiespolicies.cpp:209 kcms/kio/useragentdlg.cpp:174
+#: kcms/kio/kcookiespolicies.cpp:208 kcms/kio/useragentdlg.cpp:174
 #, kde-format
 msgid "Replace"
 msgstr "Thay thế"
 
-#: kcms/kio/kcookiespolicies.cpp:382
+#: kcms/kio/kcookiespolicies.cpp:381
 #, kde-format
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
@@ -5222,7 +5219,7 @@ msgstr ""
 "Mọi thay đổi bạn đã tạo ra sẽ không có hiệu lực cho đến khi dịch vụ đó được "
 "khởi động lại."
 
-#: kcms/kio/kcookiespolicies.cpp:423
+#: kcms/kio/kcookiespolicies.cpp:422
 #, kde-format
 msgid ""
 "<h1>Cookies</h1><p>Cookies contain information that KDE application using "
@@ -5637,12 +5634,12 @@ msgid ""
 msgstr ""
 "Không phải tất cả các ứng dụng đều sẽ dùng cấu hình uỷ nhiệm này. Cụ thể, "
 "<application>Firefox</application> và <application>Chromium</application> "
-"hoặc bất kì thứ gì bắt nguồn từ chúng, hoặc bất kì thứ gì dùng <application>"
-"QtWebEngine</application>&nbsp;- bao gồm <application>Konqueror</application> "
-"dùng <application>WebEnginePart</application>, <application>Akregator</"
-"application> và <application>Falkon</application>&nbsp;- sẽ không dùng những "
-"thiết lập này. Một số ứng dụng có thể cho phép cấu hình uỷ nhiệm trong phần "
-"thiết lập riêng của chúng."
+"hoặc bất kì thứ gì bắt nguồn từ chúng, hoặc bất kì thứ gì dùng "
+"<application>QtWebEngine</application>&nbsp;- bao gồm "
+"<application>Konqueror</application> dùng <application>WebEnginePart</"
+"application>, <application>Akregator</application> và <application>Falkon</"
+"application>&nbsp;- sẽ không dùng những thiết lập này. Một số ứng dụng có "
+"thể cho phép cấu hình uỷ nhiệm trong phần thiết lập riêng của chúng."
 
 #: kcms/kio/kproxydlg.cpp:542
 #, kde-format
@@ -7786,45 +7783,45 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Kiểu"
 
-#: widgets/kfileitemactions.cpp:359
-#, kde-format
-msgid "&Open with %1"
-msgstr "&Mở bằng %1"
-
-#: widgets/kfileitemactions.cpp:381
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Open With..."
-msgstr "&Mở bằng..."
-
-#: widgets/kfileitemactions.cpp:394
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Open With"
-msgstr "&Mở bằng"
-
-#: widgets/kfileitemactions.cpp:405
-#, kde-format
-msgctxt "@action:inmenu Open With"
-msgid "&Other Application..."
-msgstr "Ứ&ng dụng khác..."
-
-#: widgets/kfileitemactions.cpp:523
+#: widgets/kfileitemactions.cpp:456
 #, kde-format
 msgid "Open &with %1"
 msgstr "Mở &bằng %1"
 
-#: widgets/kfileitemactions.cpp:525
+#: widgets/kfileitemactions.cpp:458
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1"
 
-#: widgets/kfileitemactions.cpp:719
+#: widgets/kfileitemactions.cpp:652
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "&Hành động"
+
+#: widgets/kfileitemactions.cpp:808
+#, kde-format
+msgid "&Open with %1"
+msgstr "&Mở bằng %1"
+
+#: widgets/kfileitemactions.cpp:830
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Open With..."
+msgstr "&Mở bằng..."
+
+#: widgets/kfileitemactions.cpp:843
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Open With"
+msgstr "&Mở bằng"
+
+#: widgets/kfileitemactions.cpp:854
+#, kde-format
+msgctxt "@action:inmenu Open With"
+msgid "&Other Application..."
+msgstr "Ứ&ng dụng khác..."
 
 #: widgets/kfileitemdelegate.cpp:204
 #, kde-format
@@ -8982,7 +8979,7 @@ msgstr "Chỉ tệp thực thi trên các hệ thống tệp cục bộ mới đ
 msgid "Advanced Options for %1"
 msgstr "Các lựa chọn nâng cao cho %1"
 
-#: widgets/krun.cpp:437
+#: widgets/krun.cpp:436
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -8991,7 +8988,7 @@ msgstr ""
 "<qt>Không thể chạy lệnh được chỉ định. Tệp hoặc thư mục <b>%1</b> không tồn "
 "tại.</qt>"
 
-#: widgets/krun.cpp:496
+#: widgets/krun.cpp:495
 #, kde-format
 msgid "Could not find any application or handler for %1"
 msgstr "Không tìm được bất kì ứng dụng hay trình xử lí nào cho %1"

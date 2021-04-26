@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-25 00:20+0000\n"
+"POT-Creation-Date: 2021-04-26 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -662,7 +662,7 @@ msgid ""
 "The settings have changed. Do you want to apply the changes or discard them?"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:516
+#: app/settings/settingsdialog/layoutscontroller.cpp:538
 #, kde-format
 msgctxt "settings:broken layout"
 msgid ""
@@ -670,7 +670,7 @@ msgid ""
 "stability..."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:520
+#: app/settings/settingsdialog/layoutscontroller.cpp:542
 #, kde-format
 msgctxt "settings:broken layouts"
 msgid ""
@@ -678,28 +678,28 @@ msgid ""
 "stability..."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:593
+#: app/settings/settingsdialog/layoutscontroller.cpp:615
 #, kde-format
 msgid "Dropped Raw Layout"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:680
+#: app/settings/settingsdialog/layoutscontroller.cpp:702
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:689
+#: app/settings/settingsdialog/layoutscontroller.cpp:711
 #, kde-format
 msgid "Layout <b>%0</b> imported successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:692
+#: app/settings/settingsdialog/layoutscontroller.cpp:714
 #, kde-format
 msgid "Layouts <b>%0</b> imported successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:893
+#: app/settings/settingsdialog/layoutscontroller.cpp:921
 #, kde-format
 msgctxt "settings: layout name used"
 msgid "Layout <b>%0</b> is already used, please provide a different name..."
@@ -729,17 +729,17 @@ msgctxt "column for layout to show which activities is assigned to"
 msgid "Activities"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutsmodel.cpp:966
+#: app/settings/settingsdialog/layoutsmodel.cpp:970
 #, kde-format
 msgid "All Activities"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutsmodel.cpp:973
+#: app/settings/settingsdialog/layoutsmodel.cpp:977
 #, kde-format
 msgid "Free Activities"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutsmodel.cpp:980
+#: app/settings/settingsdialog/layoutsmodel.cpp:984
 #, kde-format
 msgid "Current Activity"
 msgstr ""
@@ -942,7 +942,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, duplicateBtn)
 #. i18n: ectx: property (text), widget (QPushButton, duplicateButton)
 #: app/settings/settingsdialog/settingsdialog.ui:258
-#: app/settings/viewsdialog/viewsdialog.ui:127
+#: app/settings/viewsdialog/viewsdialog.ui:130
 #, kde-format
 msgid "Duplicate"
 msgstr ""
@@ -1481,8 +1481,28 @@ msgstr ""
 msgid "optional"
 msgstr ""
 
+#: app/settings/viewsdialog/viewscontroller.cpp:112
+#, kde-format
+msgid "Cut"
+msgstr ""
+
+#: app/settings/viewsdialog/viewscontroller.cpp:115
+#, kde-format
+msgid "Copy"
+msgstr ""
+
+#: app/settings/viewsdialog/viewscontroller.cpp:118
+#, kde-format
+msgid "Paste"
+msgstr ""
+
+#: app/settings/viewsdialog/viewscontroller.cpp:121
+#, kde-format
+msgid "Duplicate Here"
+msgstr ""
+
 #: app/settings/viewsdialog/viewsdialog.cpp:47
-#: app/settings/viewsdialog/viewshandler.cpp:371
+#: app/settings/viewsdialog/viewshandler.cpp:349
 #, kde-format
 msgid "Apply Now"
 msgstr ""
@@ -1525,38 +1545,38 @@ msgstr ""
 msgid "Remove selected view"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:248
+#: app/settings/viewsdialog/viewshandler.cpp:253
 #, kde-format
 msgctxt "settings:dock/panel added successfully"
 msgid "<b>%0</b> added successfully..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:335
+#: app/settings/viewsdialog/viewshandler.cpp:313
 #, kde-format
 msgctxt "<layout name> Docks/Panels"
 msgid "%0 Docks/Panels"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:345
+#: app/settings/viewsdialog/viewshandler.cpp:323
 #, kde-format
 msgid ""
 "You are going to <b>remove 1</b> dock or panel completely from your layout."
 "<br/><br/> Would you like to continue?"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:348
+#: app/settings/viewsdialog/viewshandler.cpp:326
 #, kde-format
 msgid ""
 "You are going to <b>remove %0</b> docks and panels completely from your "
 "layout.<br/><br/> Would you like to continue?"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:353
+#: app/settings/viewsdialog/viewshandler.cpp:331
 #, kde-format
 msgid "Approve Removal"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:369
+#: app/settings/viewsdialog/viewshandler.cpp:347
 #, kde-format
 msgid ""
 "The settings of <b>%0</b> layout have changed. Do you want to apply the "
