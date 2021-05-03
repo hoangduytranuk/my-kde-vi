@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-01 00:17+0000\n"
+"POT-Creation-Date: 2021-05-02 00:16+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hieu Duc Hoang <hieu.d.hoang@gmail.com>\n"
 "Language-Team: vietnamese <vi@i18n.kde.org>\n"
@@ -11534,8 +11534,8 @@ msgstr "Gỡ bỏ Layer"
 #: libs/ui/KisView.cpp:661 libs/ui/KisWelcomePageWidget.cpp:713
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
 #: libs/ui/widgets/kis_custom_image_widget.cc:288
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1052
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1055
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1075
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1078
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:289
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
@@ -11890,7 +11890,7 @@ msgstr "Nhập ảnh"
 #. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
 #: libs/resources/KisTagModel.cpp:100 libs/resources/KisTagModel.cpp:262
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:616
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:235
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:245
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
 #, kde-format
@@ -20210,8 +20210,8 @@ msgid "%1  %2"
 msgstr ""
 
 #: libs/ui/kis_stopgradient_editor.cpp:42
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1206
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1212
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1231
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1237
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:28
@@ -26198,27 +26198,42 @@ msgstr "Ẩn thanh công cụ %1"
 msgid "Add:"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, twoPointUseVerticalCheckbox)
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:64
+#, kde-format
+msgid ""
+"When enabled, it gives assistance for drawing vertical lines (perpendicular "
+"to the horizon line)"
+msgstr ""
+
+#. i18n: User/snap to vertical line in 2 point perspective assistant
+#. i18n: ectx: property (text), widget (QCheckBox, twoPointUseVerticalCheckbox)
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:67
+#, kde-format
+msgid "Enable vertical ruler"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, globalColorLabel)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:70
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:80
 #, fuzzy, kde-format
 msgid "Global Color:"
 msgstr "Trình chọn màu nhỏ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useCustomAssistantColor)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:119
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:129
 #, fuzzy, kde-format
 #| msgid "Custom"
 msgid "Custom Color"
 msgstr "Tự đặt"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, loadAssistantButton)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:184
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:194
 #, fuzzy, kde-format
 msgid "Load Assistant Set"
 msgstr "Khoảng cách:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveAssistantButton)
-#: plugins/assistants/Assistants/AssistantsToolOptions.ui:203
+#: plugins/assistants/Assistants/AssistantsToolOptions.ui:213
 #, fuzzy, kde-format
 msgid "Save Assistant Set"
 msgstr "Khoảng cách:"
@@ -26287,28 +26302,28 @@ msgstr "Khoảng cách:"
 msgid "Infinite Ruler"
 msgstr "&Hiện/ Ẩn layer..."
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:907
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:930
 #, fuzzy, kde-format
 msgid "Select an Assistant"
 msgstr "Khoảng cách:"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1055
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1078
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1140
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1163
 #, fuzzy, kde-format
 msgid "Save Assistant"
 msgstr "Khoảng cách:"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1219
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1223
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1248
 #, fuzzy, kde-format
 msgid "Density: "
 msgstr "Mô tả:"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.h:163
+#: plugins/assistants/Assistants/kis_assistant_tool.h:164
 #, fuzzy, kde-format
 msgid "Assistant Tool"
 msgstr "Khoảng cách:"
@@ -26429,7 +26444,7 @@ msgstr "Hình sin"
 msgid "Two point assistant"
 msgstr "Khoảng cách:"
 
-#: plugins/assistants/Assistants/TwoPointAssistant.cc:382
+#: plugins/assistants/Assistants/TwoPointAssistant.cc:427
 #, fuzzy, kde-format
 msgid "2 Point Perspective"
 msgstr "Công cụ &xoá"
