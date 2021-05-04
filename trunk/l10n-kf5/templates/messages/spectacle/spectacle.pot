@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-25 00:16+0000\n"
+"POT-Creation-Date: 2021-05-04 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -254,27 +254,27 @@ msgstr ""
 msgid "Record Screen"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:224 src/Gui/KSMainWindow.cpp:308
+#: src/Gui/KSMainWindow.cpp:224 src/Gui/KSMainWindow.cpp:312
 #, kde-format
 msgid "Copy Image to Clipboard"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:227 src/Gui/KSMainWindow.cpp:312
+#: src/Gui/KSMainWindow.cpp:227 src/Gui/KSMainWindow.cpp:316
 #, kde-format
 msgid "Copy Location to Clipboard"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:266
+#: src/Gui/KSMainWindow.cpp:265
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:296
+#: src/Gui/KSMainWindow.cpp:300
 #, kde-format
 msgid "Save As..."
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:360
+#: src/Gui/KSMainWindow.cpp:364
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 second"
@@ -282,54 +282,54 @@ msgid_plural "%1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Gui/KSMainWindow.cpp:390 src/Gui/KSMainWindow.cpp:586
+#: src/Gui/KSMainWindow.cpp:394 src/Gui/KSMainWindow.cpp:590
 #, kde-format
 msgctxt "@title:window Unsaved Screenshot"
 msgid "Unsaved[*]"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:478
+#: src/Gui/KSMainWindow.cpp:482
 #, kde-format
 msgid "There was a problem sharing the image: %1"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:482
+#: src/Gui/KSMainWindow.cpp:486
 #, kde-format
 msgid "Image shared"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:484
+#: src/Gui/KSMainWindow.cpp:488
 #, kde-format
 msgid ""
 "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
 "clipboard."
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:517
+#: src/Gui/KSMainWindow.cpp:521
 #, kde-format
 msgid "The screenshot has been copied to the clipboard."
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:523
+#: src/Gui/KSMainWindow.cpp:527
 #, kde-format
 msgid ""
 "The screenshot has been saved as <a href=\"%1\">%2</a> and its location has "
 "been copied to clipboard"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:530
+#: src/Gui/KSMainWindow.cpp:534
 #, kde-format
 msgid ""
 "Could not take a screenshot. Please report this bug here: <a href=\"https://"
 "bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a spectacle bug</a>"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:546
+#: src/Gui/KSMainWindow.cpp:550
 #, kde-format
 msgid "The screenshot was saved as <a href=\"%1\">%2</a>"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:555
+#: src/Gui/KSMainWindow.cpp:559
 #, kde-format
 msgid ""
 "The screenshot was copied to the clipboard and saved as <a href=\"%1\">%2</a>"
@@ -356,7 +356,7 @@ msgid "Full Screen (All Monitors, scaled)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KTitleWidget, regionTitle)
-#: src/Gui/KSWidget.cpp:67 src/Gui/SettingsDialog/GeneralOptions.ui:130
+#: src/Gui/KSWidget.cpp:67 src/Gui/SettingsDialog/GeneralOptions.ui:116
 #, kde-format
 msgid "Rectangular Region"
 msgstr ""
@@ -469,97 +469,103 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSaveImage)
 #: src/Gui/SettingsDialog/GeneralOptions.ui:24
 #, kde-format
-msgid "Autosave the image to the default location"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_copyImageToClipboard)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:31
-#, kde-format
-msgid "Copy image to clipboard"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_copySaveLocation)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:38
-#, kde-format
-msgid "Copy file location to clipboard after saving"
+msgid "Autosave file to default folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KTitleWidget, runningTitle)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:61
+#: src/Gui/SettingsDialog/GeneralOptions.ui:47
 #, kde-format
 msgid "While Spectacle is running"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, printKeyActionLabel)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:68
+#: src/Gui/SettingsDialog/GeneralOptions.ui:54
 #, kde-format
 msgid "Press screenshot key to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, newScreenshotButton)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:87
+#: src/Gui/SettingsDialog/GeneralOptions.ui:73
 #, kde-format
 msgid "Take a new Screenshot"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, newWindowButton)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:97
+#: src/Gui/SettingsDialog/GeneralOptions.ui:83
 #, kde-format
 msgid "Open a new Spectacle window"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, activateWindowButton)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:104
+#: src/Gui/SettingsDialog/GeneralOptions.ui:90
 #, kde-format
 msgid "Return focus to Spectacle"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, generalLabel)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:137
+#: src/Gui/SettingsDialog/GeneralOptions.ui:123
 #, kde-format
 msgid "General:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useLightMaskColour)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:144
+#: src/Gui/SettingsDialog/GeneralOptions.ui:130
 #, kde-format
 msgid "Use light background"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showMagnifier)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:151
+#: src/Gui/SettingsDialog/GeneralOptions.ui:137
 #, kde-format
 msgid "Show magnifier"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useReleaseToCapture)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:158
+#: src/Gui/SettingsDialog/GeneralOptions.ui:144
 #, kde-format
 msgid "Accept on click-and-release"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, rememberLabel)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:165
+#: src/Gui/SettingsDialog/GeneralOptions.ui:167
 #, kde-format
 msgid "Remember selected area:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, neverRemeberButton)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:172
+#. i18n: ectx: property (text), item, widget (QLabel, rememberLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:175
 #, kde-format
 msgid "Never"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_alwaysRememberRegion)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:185
+#: src/Gui/SettingsDialog/GeneralOptions.ui:188
 #, kde-format
 msgid "Always"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_rememberLastRectangularRegion)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:195
+#: src/Gui/SettingsDialog/GeneralOptions.ui:198
 #, kde-format
 msgid "Until Spectacle is closed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, doNothingButton)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:220
+#, kde-format
+msgid "Do not copy anything"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, copyImageButton)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:230
+#, kde-format
+msgid "Copy image to clipboard"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, copyFileLocationButton)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:237
+#, kde-format
+msgid "Copy file location to clipboard"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, saveLocationLabel)
@@ -617,18 +623,18 @@ msgctxt "@info"
 msgid "<filename>%1.%2</filename>"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SettingsDialog.cpp:23
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:26
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SettingsDialog.cpp:25
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:28
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: src/Gui/SettingsDialog/SettingsDialog.cpp:27
-#: src/Gui/SettingsDialog/SettingsDialog.cpp:42
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:30
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:51
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
@@ -640,38 +646,32 @@ msgid ""
 "What should happen if print key is pressed when Spectacle is already running"
 msgstr ""
 
-#. i18n: ectx: label, entry (copyImageToClipboard), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:21
-#, kde-format
-msgid "Copy screenshot automatically to the clipboard after it is taken"
-msgstr ""
-
 #. i18n: ectx: label, entry (autoSaveImage), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:25
+#: src/Gui/SettingsDialog/spectacle.kcfg:21
 #, kde-format
 msgid "Save screenshot automatically after it is taken"
 msgstr ""
 
-#. i18n: ectx: label, entry (copySaveLocation), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:29
+#. i18n: ectx: label, entry (clipboardGroup), group (General)
+#: src/Gui/SettingsDialog/spectacle.kcfg:25
 #, kde-format
-msgid "Whether to copy the file path after saving to the clipboard"
+msgid "Clipboard action which should be executed after the screenshot is taken"
 msgstr ""
 
 #. i18n: ectx: label, entry (useLightMaskColour), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:33
+#: src/Gui/SettingsDialog/spectacle.kcfg:34
 #, kde-format
 msgid "Whether to use a light color mask in the region selection dialog"
 msgstr ""
 
 #. i18n: ectx: label, entry (showMagnifier), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:37
+#: src/Gui/SettingsDialog/spectacle.kcfg:38
 #, kde-format
 msgid "Whether to show a magnifier in the region selection"
 msgstr ""
 
 #. i18n: ectx: label, entry (useReleaseToCapture), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:41
+#: src/Gui/SettingsDialog/spectacle.kcfg:42
 #, kde-format
 msgid ""
 "Whether the screenshot should be captured after selecting the region and "
@@ -679,103 +679,103 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (rememberLastRectangularRegion), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:45
+#: src/Gui/SettingsDialog/spectacle.kcfg:46
 #, kde-format
 msgid "Remember the last rectangular region"
 msgstr ""
 
 #. i18n: ectx: label, entry (alwaysRememberRegion), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:49
+#: src/Gui/SettingsDialog/spectacle.kcfg:50
 #, kde-format
 msgid "Remember the region across restarts"
 msgstr ""
 
 #. i18n: ectx: label, entry (cropRegion), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:55
+#: src/Gui/SettingsDialog/spectacle.kcfg:56
 #, kde-format
 msgid "The last used region the user selected"
 msgstr ""
 
 #. i18n: ectx: label, entry (onClickChecked), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:59
+#: src/Gui/SettingsDialog/spectacle.kcfg:60
 #, kde-format
 msgid "Take screenshot on click"
 msgstr ""
 
 #. i18n: ectx: label, entry (includePointer), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:63
+#: src/Gui/SettingsDialog/spectacle.kcfg:64
 #, kde-format
 msgid "Whether the mouse cursor is included in the screenshot"
 msgstr ""
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:67
+#: src/Gui/SettingsDialog/spectacle.kcfg:68
 #, kde-format
 msgid "Whether the window decorations are included in the screenshot"
 msgstr ""
 
 #. i18n: ectx: label, entry (transientOnly), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:71
+#: src/Gui/SettingsDialog/spectacle.kcfg:72
 #, kde-format
 msgid "Only capture the current pop up menu"
 msgstr ""
 
 #. i18n: ectx: label, entry (quitAfterSaveCopyExport), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:75
+#: src/Gui/SettingsDialog/spectacle.kcfg:76
 #, kde-format
 msgid "Quit after saving or copying an image"
 msgstr ""
 
 #. i18n: ectx: label, entry (captureDelay), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:79
+#: src/Gui/SettingsDialog/spectacle.kcfg:80
 #, kde-format
 msgid "Delay"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultSaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:89
+#: src/Gui/SettingsDialog/spectacle.kcfg:90
 #, kde-format
 msgid "Default filename"
 msgstr ""
 
 #. i18n: ectx: label, entry (compressionQuality), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:95
+#: src/Gui/SettingsDialog/spectacle.kcfg:96
 #, kde-format
 msgid "Compression quality for lossy file formats"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultSaveImageFormat), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:99
+#: src/Gui/SettingsDialog/spectacle.kcfg:100
 #, kde-format
 msgid "Default save image format"
 msgstr ""
 
 #. i18n: ectx: label, entry (saveFilenameFormat), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:103
+#: src/Gui/SettingsDialog/spectacle.kcfg:104
 #, kde-format
 msgid "The default filename used when saving"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastSaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:107
+#: src/Gui/SettingsDialog/spectacle.kcfg:108
 #, kde-format
 msgid "The path of the file saved last"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastSaveAsLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:111
+#: src/Gui/SettingsDialog/spectacle.kcfg:112
 #, kde-format
 msgid "Last path used for \"save as\" action"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastUsedSaveMode), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:115
+#: src/Gui/SettingsDialog/spectacle.kcfg:116
 #, kde-format
 msgid "The last used save mode"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastUsedCopyMode), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:123
+#: src/Gui/SettingsDialog/spectacle.kcfg:124
 #, kde-format
 msgid "The last used copy mode"
 msgstr ""
@@ -954,149 +954,154 @@ msgstr ""
 msgid "%1×%2"
 msgstr ""
 
-#: src/SpectacleCore.cpp:384
+#: src/SpectacleCore.cpp:395
 #, kde-format
 msgid "Screenshot capture canceled or failed"
 msgstr ""
 
-#: src/SpectacleCore.cpp:404
+#: src/SpectacleCore.cpp:415
 #, kde-format
 msgctxt "The entire screen area was captured, heading"
 msgid "Full Screen Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:407
+#: src/SpectacleCore.cpp:418
 #, kde-format
 msgctxt "The current screen was captured, heading"
 msgid "Current Screen Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:410
+#: src/SpectacleCore.cpp:421
 #, kde-format
 msgctxt "The active window was captured, heading"
 msgid "Active Window Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:414
+#: src/SpectacleCore.cpp:425
 #, kde-format
 msgctxt "The window under the mouse was captured, heading"
 msgid "Window Under Cursor Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:417
+#: src/SpectacleCore.cpp:428
 #, kde-format
 msgctxt "A rectangular region was captured, heading"
 msgid "Rectangular Region Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:426 src/SpectacleCore.cpp:434
+#: src/SpectacleCore.cpp:437 src/SpectacleCore.cpp:445
 #, kde-format
 msgid "A screenshot was saved as '%1' to '%2'."
 msgstr ""
 
-#: src/SpectacleCore.cpp:430
+#: src/SpectacleCore.cpp:441
 #, kde-format
 msgid "A screenshot was saved to your clipboard."
 msgstr ""
 
-#: src/SpectacleCore.cpp:432
+#: src/SpectacleCore.cpp:443
 #, kde-format
 msgctxt "Placeholder is filename"
 msgid "A screenshot was saved as '%1' to your Pictures folder."
 msgstr ""
 
-#: src/SpectacleCore.cpp:439
+#: src/SpectacleCore.cpp:450
 #, kde-format
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr ""
 
-#: src/SpectacleCore.cpp:472
+#: src/SpectacleCore.cpp:483
 #, kde-format
 msgid "Capture the entire desktop (default)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:473
+#: src/SpectacleCore.cpp:484
 #, kde-format
 msgid "Capture the current monitor"
 msgstr ""
 
-#: src/SpectacleCore.cpp:474
+#: src/SpectacleCore.cpp:485
 #, kde-format
 msgid "Capture the active window"
 msgstr ""
 
-#: src/SpectacleCore.cpp:475
+#: src/SpectacleCore.cpp:486
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, including parents of pop-up "
 "menus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:476
+#: src/SpectacleCore.cpp:487
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, excluding parents of pop-up "
 "menus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:477
+#: src/SpectacleCore.cpp:488
 #, kde-format
 msgid "Capture a rectangular region of the screen"
 msgstr ""
 
-#: src/SpectacleCore.cpp:478
+#: src/SpectacleCore.cpp:489
 #, kde-format
 msgid "Start in GUI mode (default)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:479
+#: src/SpectacleCore.cpp:490
 #, kde-format
 msgid "Take a screenshot and exit without showing the GUI"
 msgstr ""
 
-#: src/SpectacleCore.cpp:480
+#: src/SpectacleCore.cpp:491
 #, kde-format
 msgid "Start in DBus-Activation mode"
 msgstr ""
 
-#: src/SpectacleCore.cpp:481
+#: src/SpectacleCore.cpp:492
 #, kde-format
 msgid ""
 "In background mode, do not pop up a notification when the screenshot is taken"
 msgstr ""
 
-#: src/SpectacleCore.cpp:482
+#: src/SpectacleCore.cpp:493
 #, kde-format
 msgid "In background mode, save image to specified file"
 msgstr ""
 
-#: src/SpectacleCore.cpp:483
+#: src/SpectacleCore.cpp:494
 #, kde-format
 msgid "In background mode, delay before taking the shot (in milliseconds)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:484
+#: src/SpectacleCore.cpp:495
 #, kde-format
-msgid "In background mode, copy screenshot to clipboard"
+msgid "In background mode, copy screenshot image to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:485
+#: src/SpectacleCore.cpp:496
+#, kde-format
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr ""
+
+#: src/SpectacleCore.cpp:497
 #, kde-format
 msgid "Wait for a click before taking screenshot. Invalidates delay"
 msgstr ""
 
-#: src/SpectacleCore.cpp:486
+#: src/SpectacleCore.cpp:498
 #, kde-format
 msgid "Starts a new GUI instance of spectacle without registering to DBus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:487
+#: src/SpectacleCore.cpp:499
 #, kde-format
 msgid "In background mode, include pointer in the screenshot"
 msgstr ""
 
-#: src/SpectacleCore.cpp:488
+#: src/SpectacleCore.cpp:500
 #, kde-format
 msgid "In background mode, exclude decorations in the screenshot"
 msgstr ""
