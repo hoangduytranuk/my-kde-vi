@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-03 00:22+0000\n"
+"POT-Creation-Date: 2021-05-14 00:21+0000\n"
 "PO-Revision-Date: 2014-08-15 10:53+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -51,37 +51,37 @@ msgid "&View"
 msgstr "&Xem"
 
 #. i18n: ectx: Menu (view-split)
-#: data/kateui.rc:62
+#: data/kateui.rc:64
 #, kde-format
 msgid "Split View"
 msgstr "Chia dọc"
 
 #. i18n: ectx: Menu (tools)
-#: data/kateui.rc:89
+#: data/kateui.rc:91
 #, kde-format
 msgid "&Tools"
 msgstr "&Công cụ"
 
 #. i18n: ectx: Menu (sessions)
-#: data/kateui.rc:97
+#: data/kateui.rc:99
 #, kde-format
 msgid "Sess&ions"
 msgstr "Phiên chạ&y"
 
 #. i18n: ectx: Menu (settings)
-#: data/kateui.rc:106
+#: data/kateui.rc:108
 #, kde-format
 msgid "&Settings"
 msgstr "T&hiết lập"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kateui.rc:113
+#: data/kateui.rc:115
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
-#: data/kateui.rc:146
+#: data/kateui.rc:148
 #, kde-format
 msgid "&Status Bar Items"
 msgstr ""
@@ -338,12 +338,12 @@ msgstr "Đóng tài liệu"
 msgid "Save As"
 msgstr "Lưu như"
 
-#: katedocmanager.cpp:359 katemainwindow.cpp:558
+#: katedocmanager.cpp:359 katemainwindow.cpp:559
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr "Mở tệp mới khi đóng Kate, không đóng."
 
-#: katedocmanager.cpp:359 katemainwindow.cpp:558
+#: katedocmanager.cpp:359 katemainwindow.cpp:559
 #, kde-format
 msgid "Closing Aborted"
 msgstr "Dừng đóng"
@@ -451,22 +451,27 @@ msgstr "Mở &nhanh"
 msgid "Open a form to quick open documents."
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:287
+#: katemainwindow.cpp:254
+#, kde-format
+msgid "&Command Bar"
+msgstr ""
+
+#: katemainwindow.cpp:288
 #, kde-format
 msgid "Output"
 msgstr ""
 
-#: katemainwindow.cpp:297
+#: katemainwindow.cpp:298
 #, kde-format
 msgid "Create a new document"
 msgstr "Tạo một tài liệu mới"
 
-#: katemainwindow.cpp:300
+#: katemainwindow.cpp:301
 #, kde-format
 msgid "Open an existing document for editing"
 msgstr "Mở tài liệu đã có để sửa"
 
-#: katemainwindow.cpp:305
+#: katemainwindow.cpp:306
 #, kde-format
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
@@ -474,150 +479,150 @@ msgid ""
 msgstr ""
 "Đây là danh sách những tệp bạn vừa mở, nó cho phép mở lại chúng dễ dàng hơn."
 
-#: katemainwindow.cpp:309
+#: katemainwindow.cpp:310
 #, kde-format
 msgid "Save A&ll"
 msgstr "Lưu &tất cả"
 
-#: katemainwindow.cpp:312
+#: katemainwindow.cpp:313
 #, kde-format
 msgid "Save all open, modified documents to disk."
 msgstr "Lưu mọi tài liệu mở và đã sửa lên đĩa."
 
-#: katemainwindow.cpp:315
+#: katemainwindow.cpp:316
 #, kde-format
 msgid "&Reload All"
 msgstr "Nạ&p lại toàn bộ"
 
-#: katemainwindow.cpp:317
+#: katemainwindow.cpp:318
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Reload all open documents."
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:321
+#: katemainwindow.cpp:322
 #, fuzzy, kde-format
 #| msgid "Sho&w Path"
 msgid "Copy File &Path"
 msgstr "&Hiện đường dẫn"
 
-#: katemainwindow.cpp:326 katemainwindow.cpp:335
+#: katemainwindow.cpp:327 katemainwindow.cpp:336
 #, fuzzy, kde-format
 #| msgid "Make the next split view the active one."
 msgid "Copies the file path of the current file to clipboard."
 msgstr "Chọn ô xem đã chia tiếp theo"
 
-#: katemainwindow.cpp:330
+#: katemainwindow.cpp:331
 #, fuzzy, kde-format
 msgid "&Open Containing Folder"
 msgstr "Thứ tự mở"
 
-#: katemainwindow.cpp:339
+#: katemainwindow.cpp:340
 #, fuzzy, kde-format
 #| msgid "&Rename..."
 msgctxt "@action:inmenu"
 msgid "Rename..."
 msgstr "Đổ&i tên..."
 
-#: katemainwindow.cpp:344
+#: katemainwindow.cpp:345
 #, fuzzy, kde-format
 #| msgid "Create another view containing the current document"
 msgid "Renames the file belonging to the current document."
 msgstr "Tạo một ô xem khác chứa tài liệu hiện thời"
 
-#: katemainwindow.cpp:348
+#: katemainwindow.cpp:349
 #, fuzzy, kde-format
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Xoá"
 
-#: katemainwindow.cpp:353 katemainwindow.cpp:362
+#: katemainwindow.cpp:354 katemainwindow.cpp:363
 #, fuzzy, kde-format
 #| msgid "Create another view containing the current document"
 msgid "Deletes the file belonging to the current document."
 msgstr "Tạo một ô xem khác chứa tài liệu hiện thời"
 
-#: katemainwindow.cpp:357
+#: katemainwindow.cpp:358
 #, kde-format
 msgid "Properties"
 msgstr ""
 
-#: katemainwindow.cpp:365 katemainwindow.cpp:367
+#: katemainwindow.cpp:366 katemainwindow.cpp:368
 #, kde-format
 msgid "Compare"
 msgstr ""
 
-#: katemainwindow.cpp:367
+#: katemainwindow.cpp:368
 #, fuzzy, kde-format
 #| msgid "Use this command to create a new document"
 msgid "Use the Tabbar context menu to compare two documents"
 msgstr "Dùng câu lệnh này để tạo một tài liệu mới"
 
-#: katemainwindow.cpp:369
+#: katemainwindow.cpp:370
 #, fuzzy, kde-format
 msgid "Shows a hint how to compare documents."
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:372
+#: katemainwindow.cpp:373
 #, fuzzy, kde-format
 msgid "Close Orphaned"
 msgstr "Đóng thẻ hiện thời"
 
-#: katemainwindow.cpp:374
+#: katemainwindow.cpp:375
 #, kde-format
 msgid ""
 "Close all documents in the file list that could not be reopened, because "
 "they are not accessible anymore."
 msgstr ""
 
-#: katemainwindow.cpp:378
+#: katemainwindow.cpp:379
 #, kde-format
 msgid "Close the current document."
 msgstr "Đóng tài liệu hiện thời."
 
-#: katemainwindow.cpp:381
+#: katemainwindow.cpp:382
 #, fuzzy, kde-format
 msgid "Close Other"
 msgstr "Đóng thẻ hiện thời"
 
-#: katemainwindow.cpp:383
+#: katemainwindow.cpp:384
 #, fuzzy, kde-format
 msgid "Close other open documents."
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:386
+#: katemainwindow.cpp:387
 #, kde-format
 msgid "Clos&e All"
 msgstr "Đón&g tất cả"
 
-#: katemainwindow.cpp:388
+#: katemainwindow.cpp:389
 #, kde-format
 msgid "Close all open documents."
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:393
+#: katemainwindow.cpp:394
 #, kde-format
 msgid "Close this window"
 msgstr "Đóng cửa sổ này"
 
-#: katemainwindow.cpp:397
+#: katemainwindow.cpp:398
 #, fuzzy, kde-format
 msgid "&New Window"
 msgstr "&Cửa sổ"
 
-#: katemainwindow.cpp:399
+#: katemainwindow.cpp:400
 #, kde-format
 msgid "Create a new Kate view (a new window with the same document list)."
 msgstr ""
 "Tạo một cửa sổ xem tài liệu mới (một cửa sổ mới với cùng danh sách tài liệu)."
 
-#: katemainwindow.cpp:405
+#: katemainwindow.cpp:406
 #, kde-format
 msgid "Open W&ith"
 msgstr "&Mở bằng"
 
-#: katemainwindow.cpp:407
+#: katemainwindow.cpp:408
 #, kde-format
 msgid ""
 "Open the current document using another application registered for its file "
@@ -626,127 +631,127 @@ msgstr ""
 "Mở tài liệu hiện thời bằng ứng dụng khác đã đăng kí để mở loại tệp này, hoặc "
 "một ứng dụng theo lựa chọn."
 
-#: katemainwindow.cpp:412
+#: katemainwindow.cpp:413
 #, kde-format
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "Cấu hình phím nóng của ứng dụng."
 
-#: katemainwindow.cpp:415
+#: katemainwindow.cpp:416
 #, kde-format
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "Chọn những mục hiện lên trên thanh công cụ."
 
-#: katemainwindow.cpp:418
+#: katemainwindow.cpp:419
 #, kde-format
 msgid ""
 "Configure various aspects of this application and the editing component."
 msgstr "Cấu hình các mặt khác nhau của ứng dụng này và sửa các thành phần."
 
-#: katemainwindow.cpp:422
+#: katemainwindow.cpp:423
 #, kde-format
 msgid "&Plugins Handbook"
 msgstr "&Sổ tay về bổ sung"
 
-#: katemainwindow.cpp:424
+#: katemainwindow.cpp:425
 #, kde-format
 msgid "This shows help files for various available plugins."
 msgstr "Hiển thị những tệp trợ giúp về các bổ sung."
 
-#: katemainwindow.cpp:442
+#: katemainwindow.cpp:443
 #, fuzzy, kde-format
 #| msgid "New Session"
 msgctxt "Menu entry Session->New Session"
 msgid "&New Session"
 msgstr "Phiên chạy mới"
 
-#: katemainwindow.cpp:447
+#: katemainwindow.cpp:448
 #, fuzzy, kde-format
 #| msgid "&Save session"
 msgid "&Save Session"
 msgstr "&Lưu phiên chạy"
 
-#: katemainwindow.cpp:451
+#: katemainwindow.cpp:452
 #, fuzzy, kde-format
 #| msgid "Save Session?"
 msgid "Save Session &As..."
 msgstr "Lưu phiên chạy?"
 
-#: katemainwindow.cpp:455
+#: katemainwindow.cpp:456
 #, fuzzy, kde-format
 #| msgid "Manage Sessions"
 msgid "&Manage Sessions..."
 msgstr "Quản lí các phiên chạy"
 
-#: katemainwindow.cpp:460
+#: katemainwindow.cpp:461
 #, fuzzy, kde-format
 #| msgid "Open Session"
 msgid "&Quick Open Session"
 msgstr "Mở phiên chạy"
 
-#: katemainwindow.cpp:466
+#: katemainwindow.cpp:467
 #, kde-format
 msgid "Go back"
 msgstr ""
 
-#: katemainwindow.cpp:474
+#: katemainwindow.cpp:475
 #, kde-format
 msgid "Go forward"
 msgstr ""
 
-#: katemainwindow.cpp:485
+#: katemainwindow.cpp:486
 #, kde-format
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr ""
 
-#: katemainwindow.cpp:486
+#: katemainwindow.cpp:487
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close all documents"
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:501
+#: katemainwindow.cpp:502
 #, kde-format
 msgid ""
 "This will close all open documents beside the current one. Are you sure you "
 "want to continue?"
 msgstr ""
 
-#: katemainwindow.cpp:502
+#: katemainwindow.cpp:503
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close all documents beside current one"
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemainwindow.cpp:692
+#: katemainwindow.cpp:693
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: katemainwindow.cpp:695
+#: katemainwindow.cpp:696
 #, fuzzy, kde-format
 #| msgid "Hide Side&bars"
 msgid "Hide menu bar"
 msgstr "Ẩn kh&ung lề"
 
-#: katemainwindow.cpp:819
+#: katemainwindow.cpp:820
 #, kde-format
 msgid ""
 "You dropped the directory %1 into Kate. Do you want to load all files "
 "contained in it ?"
 msgstr ""
 
-#: katemainwindow.cpp:822
+#: katemainwindow.cpp:823
 #, kde-format
 msgid "Load files recursively?"
 msgstr ""
 
-#: katemainwindow.cpp:950
+#: katemainwindow.cpp:951
 #, kde-format
 msgid "&Other..."
 msgstr "&Khác..."
 
-#: katemainwindow.cpp:1062
+#: katemainwindow.cpp:1063
 #, kde-format
 msgid " [read only]"
 msgstr ""
@@ -827,12 +832,12 @@ msgstr ""
 "thanh nằm bên</b> trong thực đơn. Hiện thời vẫn không thể hiện/ẩn các ô xem "
 "công cụ bằng phím nóng.</qt>"
 
-#: katemwmodonhddialog.cpp:58
+#: katemwmodonhddialog.cpp:59
 #, kde-format
 msgid "Documents Modified on Disk"
 msgstr "Tài liệu đã thay đổi trên đĩa"
 
-#: katemwmodonhddialog.cpp:74
+#: katemwmodonhddialog.cpp:75
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The documents listed below has changed on disk.<p>Select one or more "
@@ -844,37 +849,37 @@ msgstr ""
 "<qt>Những tài liệu sau đã có thay đổi trên đĩa.<p>Chọn một hoặc vài tệp và "
 "nhấn một nút thao tác cho đến khi không còn gì trong danh sách.</qt>"
 
-#: katemwmodonhddialog.cpp:84
+#: katemwmodonhddialog.cpp:85
 #, kde-format
 msgid "Filename"
 msgstr "Tên tệp"
 
-#: katemwmodonhddialog.cpp:84
+#: katemwmodonhddialog.cpp:85
 #, kde-format
 msgid "Status on Disk"
 msgstr "Trạng thái trên đĩa"
 
-#: katemwmodonhddialog.cpp:89
+#: katemwmodonhddialog.cpp:90
 #, kde-format
 msgid "Modified"
 msgstr "Sửa"
 
-#: katemwmodonhddialog.cpp:89
+#: katemwmodonhddialog.cpp:90
 #, kde-format
 msgid "Created"
 msgstr "Tạo"
 
-#: katemwmodonhddialog.cpp:89
+#: katemwmodonhddialog.cpp:90
 #, kde-format
 msgid "Deleted"
 msgstr "Xoá"
 
-#: katemwmodonhddialog.cpp:104
+#: katemwmodonhddialog.cpp:105
 #, kde-format
 msgid "&View Difference"
 msgstr "&Xem sự khác nhau"
 
-#: katemwmodonhddialog.cpp:106
+#: katemwmodonhddialog.cpp:107
 #, fuzzy, kde-format
 #| msgid ""
 #| "Calculates the difference between the the editor contents and the disk "
@@ -889,18 +894,18 @@ msgstr ""
 "tài liệu đã chọn, và hiển thị sự khác nhau bằng ứng dụng mặc định. Cần "
 "chương trình diff(1)."
 
-#: katemwmodonhddialog.cpp:116
+#: katemwmodonhddialog.cpp:117
 #, fuzzy, kde-format
 #| msgid "&Ignore"
 msgid "&Ignore Changes"
 msgstr "&Lờ đi"
 
-#: katemwmodonhddialog.cpp:117
+#: katemwmodonhddialog.cpp:118
 #, kde-format
 msgid "Remove modified flag from selected documents"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:123
+#: katemwmodonhddialog.cpp:124
 #, fuzzy, kde-format
 #| msgid ""
 #| "Overwrite selected documents, discarding the disk changes and closes the "
@@ -910,17 +915,17 @@ msgstr ""
 "Ghi chèn những tài liệu đã chọn, bỏ qua những thay đổi trên đĩa và đóng hộp "
 "thoại nếu không còn có những tài liệu không điều khiển được."
 
-#: katemwmodonhddialog.cpp:127
+#: katemwmodonhddialog.cpp:128
 #, kde-format
 msgid "&Reload"
 msgstr ""
 
-#: katemwmodonhddialog.cpp:129
+#: katemwmodonhddialog.cpp:130
 #, fuzzy, kde-format
 msgid "Reload selected documents from disk"
 msgstr "Đóng mọi tài liệu đang mở."
 
-#: katemwmodonhddialog.cpp:195
+#: katemwmodonhddialog.cpp:196
 #, kde-format
 msgid ""
 "Could not save the document \n"
@@ -929,7 +934,7 @@ msgstr ""
 "Không ghi được tài liệu hiện thời.\n"
 "'%1'"
 
-#: katemwmodonhddialog.cpp:327
+#: katemwmodonhddialog.cpp:328
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
@@ -938,17 +943,17 @@ msgstr ""
 "Lỗi chạy lệnh diff. Xin hãy kiểm tra xem diff(1) đã cài đặt và nằm trong "
 "biến PATH."
 
-#: katemwmodonhddialog.cpp:329
+#: katemwmodonhddialog.cpp:330
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "Lỗi tạo Diff"
 
-#: katemwmodonhddialog.cpp:336
+#: katemwmodonhddialog.cpp:337
 #, kde-format
 msgid "Ignoring amount of white space changed, the files are identical."
 msgstr ""
 
-#: katemwmodonhddialog.cpp:336
+#: katemwmodonhddialog.cpp:337
 #, kde-format
 msgid "Diff Output"
 msgstr ""
@@ -1036,141 +1041,141 @@ msgstr ""
 "Không ghi được dữ liệu bạn yêu cầu lưu. Xin hãy chọn thao tác thực hiện tiếp "
 "theo."
 
-#: kateviewmanager.cpp:114
+#: kateviewmanager.cpp:113
 #, kde-format
 msgid "Split Ve&rtical"
 msgstr "Chia &dọc"
 
-#: kateviewmanager.cpp:118
+#: kateviewmanager.cpp:117
 #, kde-format
 msgid "Split the currently active view vertically into two views."
 msgstr "Chia ô xem hiện thời thành hai ô bằng một đường thẳng đứng."
 
-#: kateviewmanager.cpp:122
+#: kateviewmanager.cpp:121
 #, kde-format
 msgid "Split &Horizontal"
 msgstr "Chia &ngang"
 
-#: kateviewmanager.cpp:126
+#: kateviewmanager.cpp:125
 #, kde-format
 msgid "Split the currently active view horizontally into two views."
 msgstr "Chia ô xem hiện thời thành hai ô bằng một đường nằm ngang."
 
-#: kateviewmanager.cpp:130
+#: kateviewmanager.cpp:129
 #, kde-format
 msgid "Cl&ose Current View"
 msgstr "Đóng ô &xem hiện thời"
 
-#: kateviewmanager.cpp:134
+#: kateviewmanager.cpp:133
 #, fuzzy, kde-format
 #| msgid "Close the currently active splitted view"
 msgid "Close the currently active split view"
 msgstr "Đóng ô xem đã được chia hiện thời"
 
-#: kateviewmanager.cpp:138
+#: kateviewmanager.cpp:137
 #, fuzzy, kde-format
 #| msgid "Cl&ose Current View"
 msgid "Close Inactive Views"
 msgstr "Đóng ô &xem hiện thời"
 
-#: kateviewmanager.cpp:141
+#: kateviewmanager.cpp:140
 #, fuzzy, kde-format
 #| msgid "Make the next split view the active one."
 msgid "Close every view but the active one"
 msgstr "Chọn ô xem đã chia tiếp theo"
 
-#: kateviewmanager.cpp:145
+#: kateviewmanager.cpp:144
 #, fuzzy, kde-format
 #| msgid "Cl&ose Current View"
 msgid "Hide Inactive Views"
 msgstr "Đóng ô &xem hiện thời"
 
-#: kateviewmanager.cpp:149
+#: kateviewmanager.cpp:148
 #, fuzzy, kde-format
 #| msgid "Make the next split view the active one."
 msgid "Hide every view but the active one"
 msgstr "Chọn ô xem đã chia tiếp theo"
 
-#: kateviewmanager.cpp:152
+#: kateviewmanager.cpp:151
 #, kde-format
 msgid "Toggle Orientation"
 msgstr ""
 
-#: kateviewmanager.cpp:155
+#: kateviewmanager.cpp:154
 #, fuzzy, kde-format
 #| msgid "Make the next split view the active one."
 msgid "Toggles the orientation of the current split view"
 msgstr "Chọn ô xem đã chia tiếp theo"
 
-#: kateviewmanager.cpp:158
+#: kateviewmanager.cpp:157
 #, fuzzy, kde-format
 #| msgid "Next View"
 msgid "Next Split View"
 msgstr "Ô xem tiếp theo"
 
-#: kateviewmanager.cpp:162
+#: kateviewmanager.cpp:161
 #, kde-format
 msgid "Make the next split view the active one."
 msgstr "Chọn ô xem đã chia tiếp theo"
 
-#: kateviewmanager.cpp:165
+#: kateviewmanager.cpp:164
 #, fuzzy, kde-format
 #| msgid "Previous View"
 msgid "Previous Split View"
 msgstr "Ô xem trước"
 
-#: kateviewmanager.cpp:169
+#: kateviewmanager.cpp:168
 #, kde-format
 msgid "Make the previous split view the active one."
 msgstr "Chọn ô xem đã chia trước."
 
-#: kateviewmanager.cpp:172
+#: kateviewmanager.cpp:171
 #, kde-format
 msgid "Move Splitter Right"
 msgstr ""
 
-#: kateviewmanager.cpp:175
+#: kateviewmanager.cpp:174
 #, kde-format
 msgid "Move the splitter of the current view to the right"
 msgstr ""
 
-#: kateviewmanager.cpp:178
+#: kateviewmanager.cpp:177
 #, kde-format
 msgid "Move Splitter Left"
 msgstr ""
 
-#: kateviewmanager.cpp:181
+#: kateviewmanager.cpp:180
 #, kde-format
 msgid "Move the splitter of the current view to the left"
 msgstr ""
 
-#: kateviewmanager.cpp:184
+#: kateviewmanager.cpp:183
 #, kde-format
 msgid "Move Splitter Up"
 msgstr ""
 
-#: kateviewmanager.cpp:187
+#: kateviewmanager.cpp:186
 #, kde-format
 msgid "Move the splitter of the current view up"
 msgstr ""
 
-#: kateviewmanager.cpp:190
+#: kateviewmanager.cpp:189
 #, kde-format
 msgid "Move Splitter Down"
 msgstr ""
 
-#: kateviewmanager.cpp:193
+#: kateviewmanager.cpp:192
 #, fuzzy, kde-format
 #| msgid "Make the next split view the active one."
 msgid "Move the splitter of the current view down"
 msgstr "Chọn ô xem đã chia tiếp theo"
 
-#: kateviewmanager.cpp:223 kateviewmanager.cpp:225
+#: kateviewmanager.cpp:222 kateviewmanager.cpp:224
 #, kde-format
 msgid "Open File"
 msgstr "Mở tệp"
 
-#: kateviewmanager.cpp:244
+#: kateviewmanager.cpp:243
 #, kde-format
 msgid ""
 "<p>You are attempting to open one or more large files:</p><ul>%1</ul><p>Do "
@@ -1178,7 +1183,7 @@ msgid ""
 "some time when opening large files.</strong></p>"
 msgstr ""
 
-#: kateviewmanager.cpp:247
+#: kateviewmanager.cpp:246
 #, fuzzy, kde-format
 #| msgid "Open File"
 msgid "Opening Large File"
@@ -1676,18 +1681,18 @@ msgstr "Tài liệu sẽ mở"
 msgid "[urls...]"
 msgstr ""
 
-#: quickopen/katequickopenlineedit.cpp:19
+#: quickopen/katequickopenlineedit.cpp:21
 #, kde-format
 msgid "Quick Open Search (configure via context menu)"
 msgstr ""
 
-#: quickopen/katequickopenlineedit.cpp:43
+#: quickopen/katequickopenlineedit.cpp:57
 #, fuzzy, kde-format
 #| msgid "Projects"
 msgid "All Projects"
 msgstr "Dự án"
 
-#: quickopen/katequickopenlineedit.cpp:54
+#: quickopen/katequickopenlineedit.cpp:69
 #, kde-format
 msgid "Current Project"
 msgstr ""

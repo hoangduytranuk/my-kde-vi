@@ -1,835 +1,870 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the ksysguard package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-26 10:30+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2021-04-30 00:20+0000\n"
+"PO-Revision-Date: 2021-05-03 22:22+0200\n"
+"Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.08.1\n"
 
-#: cpu/cpu.cpp:35 disks/disks.cpp:81 disks/disks.cpp:82 gpu/GpuDevice.cpp:20
-#: power/power.cpp:51
+#: cpu/cpu.cpp:22 disks/disks.cpp:68 disks/disks.cpp:69 gpu/GpuDevice.cpp:20
+#: power/power.cpp:39
 #, kde-format
 msgctxt "@title"
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
-#: cpu/cpu.cpp:45
+#: cpu/cpu.cpp:32
 #, kde-format
 msgctxt "@title"
 msgid "Total Usage"
-msgstr ""
+msgstr "Lượng dùng tổng"
 
-#: cpu/cpu.cpp:46
+#: cpu/cpu.cpp:33
 #, kde-format
 msgctxt "@title, Short for 'Total Usage'"
 msgid "Usage"
-msgstr ""
+msgstr "Lượng dùng"
 
-#: cpu/cpu.cpp:52
+#: cpu/cpu.cpp:39
 #, kde-format
 msgctxt "@title"
 msgid "System Usage"
-msgstr ""
+msgstr "Lượng dùng hệ thống"
 
-#: cpu/cpu.cpp:53
+#: cpu/cpu.cpp:40
 #, kde-format
 msgctxt "@title, Short for 'System Usage'"
 msgid "System"
-msgstr ""
+msgstr "Hệ thống"
 
-#: cpu/cpu.cpp:59
+#: cpu/cpu.cpp:46
 #, kde-format
 msgctxt "@title"
 msgid "User Usage"
-msgstr ""
+msgstr "Lượng dùng người dùng"
 
-#: cpu/cpu.cpp:60
+#: cpu/cpu.cpp:47
 #, kde-format
 msgctxt "@title, Short for 'User Usage'"
 msgid "User"
-msgstr ""
+msgstr "Người dùng"
 
-#: cpu/cpu.cpp:66
+#: cpu/cpu.cpp:53
 #, kde-format
 msgctxt "@title"
 msgid "Wait Usage"
-msgstr ""
+msgstr "Lượng dùng chờ"
 
-#: cpu/cpu.cpp:67
+#: cpu/cpu.cpp:54
 #, kde-format
 msgctxt "@title, Short for 'Wait Load'"
 msgid "Wait"
-msgstr ""
+msgstr "Chờ"
 
-#: cpu/cpu.cpp:92
+#: cpu/cpu.cpp:79
 #, kde-format
 msgctxt "@title"
 msgid "Current Frequency"
-msgstr ""
+msgstr "Tần số hiện tại"
 
-#: cpu/cpu.cpp:93
+#: cpu/cpu.cpp:80
 #, kde-format
 msgctxt "@title, Short for 'Current Frequency'"
 msgid "Frequency"
-msgstr ""
+msgstr "Tần số"
 
-#: cpu/cpu.cpp:94
+#: cpu/cpu.cpp:81
 #, kde-format
 msgctxt "@info"
 msgid "Current frequency of the CPU"
-msgstr ""
+msgstr "Tần số hiện tại của CPU"
 
-#: cpu/cpu.cpp:99
+#: cpu/cpu.cpp:86
 #, kde-format
 msgctxt "@title"
 msgid "Current Temperature"
-msgstr ""
+msgstr "Nhiệt độ hiện tại"
 
-#: cpu/cpu.cpp:100
+#: cpu/cpu.cpp:87
 #, kde-format
 msgctxt "@title, Short for Current Temperatur"
 msgid "Temperature"
-msgstr ""
+msgstr "Nhiệt độ"
 
-#: cpu/cpu.cpp:107
+#: cpu/cpu.cpp:94
 #, kde-format
 msgctxt "@title"
 msgid "All"
-msgstr ""
+msgstr "Tất cả"
 
-#: cpu/cpu.cpp:123
+#: cpu/cpu.cpp:115
 #, kde-format
 msgctxt "@title"
 msgid "Number of CPUs"
-msgstr ""
+msgstr "Số CPU"
 
-#: cpu/cpu.cpp:124
+#: cpu/cpu.cpp:116
 #, kde-format
 msgctxt "@title, Short fort 'Number of CPUs'"
 msgid "CPUs"
-msgstr ""
+msgstr "CPU"
 
-#: cpu/cpu.cpp:125
+#: cpu/cpu.cpp:117
 #, kde-format
 msgctxt "@info"
 msgid "Number of physical CPUs installed in the system"
-msgstr ""
+msgstr "Số CPU vật lí được cài đặt trong hệ thống"
 
-#: cpu/cpu.cpp:127
+#: cpu/cpu.cpp:119
 #, kde-format
 msgctxt "@title"
 msgid "Number of Cores"
-msgstr ""
+msgstr "Số lõi"
 
-#: cpu/cpu.cpp:128
+#: cpu/cpu.cpp:120
 #, kde-format
 msgctxt "@title, Short fort 'Number of Cores'"
 msgid "Cores"
-msgstr ""
+msgstr "Lõi"
 
-#: cpu/cpu.cpp:129
+#: cpu/cpu.cpp:121
 #, kde-format
 msgctxt "@info"
 msgid "Number of CPU cores across all physical CPUS"
-msgstr ""
+msgstr "Số lõi CPU trên tất cả các CPU vật lí"
 
-#: cpu/cpuplugin.cpp:32
+#: cpu/cpuplugin.cpp:19
 #, kde-format
 msgid "CPUs"
-msgstr ""
+msgstr "CPU"
 
-#: cpu/freebsdcpuplugin.cpp:127
+#: cpu/freebsdcpuplugin.cpp:114
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1"
-msgstr ""
+msgstr "CPU %1"
 
-#: cpu/linuxcpuplugin.cpp:64
+#: cpu/linuxcpuplugin.cpp:72
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1 Core %2"
-msgstr ""
+msgstr "CPU %1 Lõi %2"
 
-#: disks/disks.cpp:85 disks/disks.cpp:236
+#: cpu/linuxcpuplugin.cpp:73
+#, kde-format
+msgctxt "@title"
+msgid "Core %1"
+msgstr "Lõi %1"
+
+#: disks/disks.cpp:72 disks/disks.cpp:223
 #, kde-format
 msgctxt "@title"
 msgid "Total Space"
-msgstr ""
+msgstr "Tổng không gian "
 
-#: disks/disks.cpp:87 disks/disks.cpp:237
+#: disks/disks.cpp:74 disks/disks.cpp:224
 #, kde-format
 msgctxt "@title Short for 'Total Space'"
 msgid "Total"
-msgstr ""
+msgstr "Tổng"
 
-#: disks/disks.cpp:91 disks/disks.cpp:249
+#: disks/disks.cpp:78 disks/disks.cpp:236
 #, kde-format
 msgctxt "@title"
 msgid "Used Space"
-msgstr ""
+msgstr "Không gian đã dùng"
 
-#: disks/disks.cpp:93 disks/disks.cpp:250
+#: disks/disks.cpp:80 disks/disks.cpp:237
 #, kde-format
 msgctxt "@title Short for 'Used Space'"
 msgid "Used"
-msgstr ""
+msgstr "Đã dùng"
 
-#: disks/disks.cpp:98 disks/disks.cpp:242
+#: disks/disks.cpp:85 disks/disks.cpp:229
 #, kde-format
 msgctxt "@title"
 msgid "Free Space"
-msgstr ""
+msgstr "Không gian trống"
 
-#: disks/disks.cpp:100 disks/disks.cpp:243
+#: disks/disks.cpp:87 disks/disks.cpp:230
 #, kde-format
 msgctxt "@title Short for 'Free Space'"
 msgid "Free"
-msgstr ""
+msgstr "Trống"
 
-#: disks/disks.cpp:105 disks/disks.cpp:256
+#: disks/disks.cpp:92 disks/disks.cpp:243
 #, kde-format
 msgctxt "@title"
 msgid "Read Rate"
-msgstr ""
+msgstr "Tốc độ đọc"
 
-#: disks/disks.cpp:107 disks/disks.cpp:257
+#: disks/disks.cpp:94 disks/disks.cpp:244
 #, kde-format
 msgctxt "@title Short for 'Read Rate'"
 msgid "Read"
-msgstr ""
+msgstr "Đọc"
 
-#: disks/disks.cpp:111 disks/disks.cpp:262
+#: disks/disks.cpp:98 disks/disks.cpp:249
 #, kde-format
 msgctxt "@title"
 msgid "Write Rate"
-msgstr ""
+msgstr "Tốc độ ghi"
 
-#: disks/disks.cpp:113 disks/disks.cpp:263
+#: disks/disks.cpp:100 disks/disks.cpp:250
 #, kde-format
 msgctxt "@title Short for 'Write Rate'"
 msgid "Write"
-msgstr ""
+msgstr "Ghi"
 
-#: disks/disks.cpp:117 disks/disks.cpp:272
+#: disks/disks.cpp:104 disks/disks.cpp:259
 #, kde-format
 msgctxt "@title"
 msgid "Percentage Used"
-msgstr ""
+msgstr "Phần trăm đã dùng"
 
-#: disks/disks.cpp:121 disks/disks.cpp:268
+#: disks/disks.cpp:108 disks/disks.cpp:255
 #, kde-format
 msgctxt "@title"
 msgid "Percentage Free"
-msgstr ""
+msgstr "Phần trăm trống"
 
-#: disks/disks.cpp:154
+#: disks/disks.cpp:141
 #, kde-format
 msgid "Disks"
-msgstr ""
+msgstr "Đĩa"
 
-#: disks/disks.cpp:234
+#: disks/disks.cpp:221
 #, kde-format
 msgctxt "@title"
 msgid "All Disks"
-msgstr ""
+msgstr "Tất cả các đĩa"
 
-#: disks/disks.cpp:269
+#: disks/disks.cpp:256
 #, kde-format
 msgctxt "@title, Short for `Percentage Free"
 msgid "Free"
-msgstr ""
+msgstr "Trống"
 
-#: disks/disks.cpp:273
+#: disks/disks.cpp:260
 #, kde-format
 msgctxt "@title, Short for `Percentage Used"
 msgid "Used"
-msgstr ""
+msgstr "Đã dùng"
 
 #: gpu/AllGpus.cpp:14
 #, kde-format
 msgctxt "@title"
 msgid "All GPUs"
-msgstr ""
+msgstr "Tất cả GPU"
 
 #: gpu/AllGpus.cpp:16
 #, kde-format
 msgctxt "@title"
 msgid "All GPUs Usage"
-msgstr ""
+msgstr "Tất cả lượng dùng GPU"
 
 #: gpu/AllGpus.cpp:17
 #, kde-format
 msgctxt "@title Short for 'All GPUs Usage'"
 msgid "Usage"
-msgstr ""
+msgstr "Lượng dùng"
 
 #: gpu/AllGpus.cpp:25
 #, kde-format
 msgctxt "@title"
 msgid "All GPUs Total Memory"
-msgstr ""
+msgstr "Tất cả tổng bộ nhớ GPU"
 
 #: gpu/AllGpus.cpp:26
 #, kde-format
 msgctxt "@title Short for 'All GPUs Total Memory'"
 msgid "Total"
-msgstr ""
+msgstr "Tổng"
 
 #: gpu/AllGpus.cpp:30
 #, kde-format
 msgctxt "@title"
 msgid "All GPUs Used Memory"
-msgstr ""
+msgstr "Tất cả bộ nhớ GPU đã dùng"
 
 #: gpu/AllGpus.cpp:31
 #, kde-format
 msgctxt "@title Short for 'All GPUs Used Memory'"
 msgid "Used"
-msgstr ""
+msgstr "Đã dùng"
 
 #: gpu/GpuDevice.cpp:24
 #, kde-format
 msgctxt "@title"
 msgid "Usage"
-msgstr ""
+msgstr "Lượng dùng"
 
 #: gpu/GpuDevice.cpp:30
 #, kde-format
 msgctxt "@title"
 msgid "Total Video Memory"
-msgstr ""
+msgstr "Tổng bộ nhớ hình ảnh"
 
 #: gpu/GpuDevice.cpp:32
 #, kde-format
 msgctxt "@title Short for Total Video Memory"
 msgid "Total"
-msgstr ""
+msgstr "Tổng"
 
 #: gpu/GpuDevice.cpp:35
 #, kde-format
 msgctxt "@title"
 msgid "Video Memory Used"
-msgstr ""
+msgstr "Bộ nhớ hình ảnh đã dùng"
 
 #: gpu/GpuDevice.cpp:37
 #, kde-format
 msgctxt "@title Short for Video Memory Used"
 msgid "Used"
-msgstr ""
+msgstr "Đã dùng"
 
 #: gpu/GpuDevice.cpp:41
 #, kde-format
 msgctxt "@title"
 msgid "Frequency"
-msgstr ""
+msgstr "Tần số"
 
 #: gpu/GpuDevice.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "Memory Frequency"
-msgstr ""
+msgstr "Tần số bộ nhớ"
 
 #: gpu/GpuDevice.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Temperature"
-msgstr ""
+msgstr "Nhiệt độ"
 
 #: gpu/GpuPlugin.cpp:31
 #, kde-format
 msgctxt "@title"
 msgid "GPU"
-msgstr ""
+msgstr "GPU"
 
 #: gpu/LinuxBackend.cpp:49
 #, kde-format
 msgctxt "@title %1 is GPU number"
 msgid "GPU %1"
-msgstr ""
+msgstr "GPU %1"
 
-#: memory/backend.cpp:28
+#: lmsensors/lmsensors.cpp:22
+#, kde-format
+msgid "Hardware Sensors"
+msgstr "Cảm biến phần cứng"
+
+#: lmsensors/SensorsFeatureSensor.cpp:27
+#, kde-format
+msgctxt "@title %1 is a number"
+msgid "Voltage %1"
+msgstr "Điện áp %1"
+
+#: lmsensors/SensorsFeatureSensor.cpp:36
+#, kde-format
+msgctxt "@title %1 is a number"
+msgid "Fan %1"
+msgstr "Quạt %1"
+
+#: lmsensors/SensorsFeatureSensor.cpp:45
+#, kde-format
+msgctxt "@title %1 is a number"
+msgid "Temperature %1"
+msgstr "Nhiệt độ %1"
+
+#: memory/backend.cpp:17
 #, kde-format
 msgctxt "@title"
 msgid "Physical Memory"
-msgstr ""
+msgstr "Bộ nhớ vật lí"
 
-#: memory/backend.cpp:29
+#: memory/backend.cpp:18
 #, kde-format
 msgctxt "@title"
 msgid "Swap Memory"
-msgstr ""
+msgstr "Bộ nhớ hoán đổi"
 
-#: memory/backend.cpp:50
+#: memory/backend.cpp:39
 #, kde-format
 msgctxt "@title"
 msgid "Total Physical Memory"
-msgstr ""
+msgstr "Tổng bộ nhớ vật lí"
 
-#: memory/backend.cpp:51
+#: memory/backend.cpp:40
 #, kde-format
 msgctxt "@title, Short for 'Total Physical Memory'"
 msgid "Total"
-msgstr ""
+msgstr "Tổng"
 
-#: memory/backend.cpp:55
+#: memory/backend.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "Used Physical Memory"
-msgstr ""
+msgstr "Bộ nhớ vật lí đã dùng"
 
-#: memory/backend.cpp:56
+#: memory/backend.cpp:45
 #, kde-format
 msgctxt "@title, Short for 'Used Physical Memory'"
 msgid "Used"
-msgstr ""
+msgstr "Đã dùng"
 
-#: memory/backend.cpp:60
+#: memory/backend.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Used Physical Memory Percentage"
-msgstr ""
+msgstr "Phần trăm bộ nhớ vật lí đã dùng"
 
-#: memory/backend.cpp:63
+#: memory/backend.cpp:53
 #, kde-format
 msgctxt "@title"
 msgid "Free Physical Memory"
-msgstr ""
+msgstr "Bộ nhớ vật lí trống"
 
-#: memory/backend.cpp:64
+#: memory/backend.cpp:54
 #, kde-format
 msgctxt "@title, Short for 'Free Physical Memory'"
 msgid "Free"
-msgstr ""
+msgstr "Trống"
 
-#: memory/backend.cpp:68
+#: memory/backend.cpp:58
 #, kde-format
 msgctxt "@title"
 msgid "Free Physical Memory Percentage"
-msgstr ""
+msgstr "Phần trăm bộ nhớ vật lí trống"
+
+#: memory/backend.cpp:62
+#, kde-format
+msgctxt "@title"
+msgid "Application Memory"
+msgstr "Bộ nhớ ứng dụng"
+
+#: memory/backend.cpp:63
+#, kde-format
+msgctxt "@title, Short for 'Application Memory'"
+msgid "Application"
+msgstr "Ứng dụng"
+
+#: memory/backend.cpp:67
+#, kde-format
+msgctxt "@title"
+msgid "Application Memory Percentage"
+msgstr "Phần trăm bộ nhớ ứng dụng"
 
 #: memory/backend.cpp:71
 #, kde-format
 msgctxt "@title"
-msgid "Application Memory"
-msgstr ""
+msgid "Cache Memory"
+msgstr "Bộ nhớ sẵn"
 
 #: memory/backend.cpp:72
 #, kde-format
-msgctxt "@title, Short for 'Application Memory'"
-msgid "Application"
-msgstr ""
+msgctxt "@title, Short for 'Cache Memory'"
+msgid "Cache"
+msgstr "Sẵn"
 
 #: memory/backend.cpp:76
 #, kde-format
 msgctxt "@title"
-msgid "Application Memory Percentage"
-msgstr ""
-
-#: memory/backend.cpp:79
-#, kde-format
-msgctxt "@title"
-msgid "Cache Memory"
-msgstr ""
+msgid "Cache Memory Percentage"
+msgstr "Phần trăm bộ nhớ sẵn"
 
 #: memory/backend.cpp:80
 #, kde-format
-msgctxt "@title, Short for 'Cache Memory'"
-msgid "Cache"
-msgstr ""
-
-#: memory/backend.cpp:84
-#, kde-format
-msgctxt "@title"
-msgid "Cache Memory Percentage"
-msgstr ""
-
-#: memory/backend.cpp:87
-#, kde-format
 msgctxt "@title"
 msgid "Buffer Memory"
-msgstr ""
+msgstr "Bộ nhớ đệm"
 
-#: memory/backend.cpp:88
+#: memory/backend.cpp:81
 #, kde-format
 msgctxt "@title, Short for 'Buffer Memory'"
 msgid "Buffer"
-msgstr ""
+msgstr "Đệm"
 
-#: memory/backend.cpp:89
+#: memory/backend.cpp:82
 #, kde-format
 msgid "Amount of memory used for caching disk blocks"
-msgstr ""
+msgstr "Lượng bộ nhớ dùng để lưu sẵn các khối đĩa"
 
-#: memory/backend.cpp:93
+#: memory/backend.cpp:86
 #, kde-format
 msgctxt "@title"
 msgid "Buffer Memory Percentage"
-msgstr ""
+msgstr "Phần trăm bộ nhớ đệm"
 
-#: memory/backend.cpp:96
+#: memory/backend.cpp:90
 #, kde-format
 msgctxt "@title"
 msgid "Total Swap Memory"
-msgstr ""
+msgstr "Tổng bộ nhớ hoán đổi"
 
-#: memory/backend.cpp:97
+#: memory/backend.cpp:91
 #, kde-format
 msgctxt "@title, Short for 'Total Swap Memory'"
 msgid "Total"
-msgstr ""
+msgstr "Tổng"
 
-#: memory/backend.cpp:101
+#: memory/backend.cpp:95
 #, kde-format
 msgctxt "@title"
 msgid "Used Swap Memory"
-msgstr ""
+msgstr "Bộ nhớ hoán đổi đã dùng"
 
-#: memory/backend.cpp:102
+#: memory/backend.cpp:96
 #, kde-format
 msgctxt "@title, Short for 'Used Swap Memory'"
 msgid "Used"
-msgstr ""
+msgstr "Đã dùng"
 
-#: memory/backend.cpp:106
+#: memory/backend.cpp:100
 #, kde-format
 msgctxt "@title"
 msgid "Used Swap Memory Percentage"
-msgstr ""
+msgstr "Phần trăm bộ nhớ hoán đổi đã dùng"
+
+#: memory/backend.cpp:104
+#, kde-format
+msgctxt "@title"
+msgid "Free Swap Memory"
+msgstr "Bộ nhớ hoán đổi trống"
+
+#: memory/backend.cpp:105
+#, kde-format
+msgctxt "@title, Short for 'Free Swap Memory'"
+msgid "Free"
+msgstr "Trống"
 
 #: memory/backend.cpp:109
 #, kde-format
 msgctxt "@title"
-msgid "Free Swap Memory"
-msgstr ""
-
-#: memory/backend.cpp:110
-#, kde-format
-msgctxt "@title, Short for 'Free Swap Memory'"
-msgid "Free"
-msgstr ""
-
-#: memory/backend.cpp:114
-#, kde-format
-msgctxt "@title"
 msgid "Free Swap Memory Percentage"
-msgstr ""
+msgstr "Phần trăm bộ nhớ hoán đổi trống"
 
-#: memory/memory.cpp:37
+#: memory/memory.cpp:26
 #, kde-format
 msgctxt "@title"
 msgid "Memory"
-msgstr ""
+msgstr "Bộ nhớ"
 
 #: network/AllDevicesObject.cpp:16
 #, kde-format
 msgctxt "@title"
 msgid "All Network Devices"
-msgstr ""
+msgstr "Tất cả thiết bị mạng"
 
 #: network/AllDevicesObject.cpp:18 network/NetworkDevice.cpp:33
 #, kde-format
 msgctxt "@title"
 msgid "Download Rate"
-msgstr ""
+msgstr "Tốc độ tải về"
 
 #: network/AllDevicesObject.cpp:19 network/NetworkDevice.cpp:34
 #, kde-format
 msgctxt "@title Short for Download Rate"
 msgid "Download"
-msgstr ""
+msgstr "Tải về"
 
 #: network/AllDevicesObject.cpp:23 network/NetworkDevice.cpp:38
 #, kde-format
 msgctxt "@title"
 msgid "Upload Rate"
-msgstr ""
+msgstr "Tốc độ tải lên"
 
 #: network/AllDevicesObject.cpp:24 network/NetworkDevice.cpp:39
 #, kde-format
 msgctxt "@title Short for Upload Rate"
 msgid "Upload"
-msgstr ""
+msgstr "Tải lên"
 
 #: network/AllDevicesObject.cpp:28 network/NetworkDevice.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Total Downloaded"
-msgstr ""
+msgstr "Tổng đã tải về"
 
 #: network/AllDevicesObject.cpp:29 network/NetworkDevice.cpp:44
 #, kde-format
 msgctxt "@title Short for Total Downloaded"
 msgid "Downloaded"
-msgstr ""
+msgstr "Đã tải về"
 
 #: network/AllDevicesObject.cpp:33 network/NetworkDevice.cpp:48
 #, kde-format
 msgctxt "@title"
 msgid "Total Uploaded"
-msgstr ""
+msgstr "Tổng đã tải lên"
 
 #: network/AllDevicesObject.cpp:34 network/NetworkDevice.cpp:49
 #, kde-format
 msgctxt "@title Short for Total Uploaded"
 msgid "Uploaded"
-msgstr ""
+msgstr "Đã tải lên"
 
 #: network/NetworkDevice.cpp:14
 #, kde-format
 msgctxt "@title"
 msgid "Network Name"
-msgstr ""
+msgstr "Tên mạng"
 
 #: network/NetworkDevice.cpp:15
 #, kde-format
 msgctxt "@title Short of Network Name"
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: network/NetworkDevice.cpp:18
 #, kde-format
 msgctxt "@title"
 msgid "Signal Strength"
-msgstr ""
+msgstr "Độ mạnh tín hiệu"
 
 #: network/NetworkDevice.cpp:19
 #, kde-format
 msgctxt "@title Short of Signal Strength"
 msgid "Signal"
-msgstr ""
+msgstr "Tín hiệu"
 
 #: network/NetworkDevice.cpp:25
 #, kde-format
 msgctxt "@title"
 msgid "IPv4 Address"
-msgstr ""
+msgstr "Địa chỉ IPv4"
 
 #: network/NetworkDevice.cpp:26
 #, kde-format
 msgctxt "@title Short of IPv4 Address"
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: network/NetworkDevice.cpp:29
 #, kde-format
 msgctxt "@title"
 msgid "IPv6 Address"
-msgstr ""
+msgstr "Địa chỉ IPv6"
 
 #: network/NetworkDevice.cpp:30
 #, kde-format
 msgctxt "@title Short of IPv6 Address"
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
-#: network/NetworkPlugin.cpp:56
+#: network/NetworkPlugin.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Network Devices"
-msgstr ""
+msgstr "Thiết bị mạng"
+
+#: osinfo/osinfo.cpp:106
+#, kde-format
+msgctxt "@title"
+msgid "Operating System"
+msgstr "Hệ điều hành"
+
+#: osinfo/osinfo.cpp:108
+#, kde-format
+msgctxt "@title"
+msgid "Kernel"
+msgstr "Nhân"
+
+#: osinfo/osinfo.cpp:109
+#, kde-format
+msgctxt "@title"
+msgid "Kernel Name"
+msgstr "Tên nhân"
 
 #: osinfo/osinfo.cpp:110
 #, kde-format
 msgctxt "@title"
-msgid "Operating System"
-msgstr ""
+msgid "Kernel Version"
+msgstr "Phiên bản nhân"
+
+#: osinfo/osinfo.cpp:111
+#, kde-format
+msgctxt "@title"
+msgid "Kernel Name and Version"
+msgstr "Tên và phiên bản nhân"
 
 #: osinfo/osinfo.cpp:112
 #, kde-format
-msgctxt "@title"
+msgctxt "@title Kernel Name and Version"
 msgid "Kernel"
-msgstr ""
-
-#: osinfo/osinfo.cpp:113
-#, kde-format
-msgctxt "@title"
-msgid "Kernel Name"
-msgstr ""
+msgstr "Nhân"
 
 #: osinfo/osinfo.cpp:114
 #, kde-format
 msgctxt "@title"
-msgid "Kernel Version"
-msgstr ""
+msgid "System"
+msgstr "Hệ thống"
 
 #: osinfo/osinfo.cpp:115
 #, kde-format
 msgctxt "@title"
-msgid "Kernel Name and Version"
-msgstr ""
+msgid "Hostname"
+msgstr "Tên máy"
 
 #: osinfo/osinfo.cpp:116
 #, kde-format
-msgctxt "@title Kernel Name and Version"
-msgid "Kernel"
-msgstr ""
+msgctxt "@title"
+msgid "Operating System Name"
+msgstr "Tên hệ điều hành"
+
+#: osinfo/osinfo.cpp:117
+#, kde-format
+msgctxt "@title"
+msgid "Operating System Version"
+msgstr "Phiên bản hệ điều hành"
 
 #: osinfo/osinfo.cpp:118
 #, kde-format
 msgctxt "@title"
-msgid "System"
-msgstr ""
+msgid "Operating System Name and Version"
+msgstr "Tên và phiên bản hệ điều hành"
 
 #: osinfo/osinfo.cpp:119
 #, kde-format
-msgctxt "@title"
-msgid "Hostname"
-msgstr ""
+msgctxt "@title Operating System Name and Version"
+msgid "OS"
+msgstr "HĐH"
 
 #: osinfo/osinfo.cpp:120
 #, kde-format
 msgctxt "@title"
-msgid "Operating System Name"
-msgstr ""
+msgid "Operating System Logo"
+msgstr "Biểu trưng hệ điều hành"
 
 #: osinfo/osinfo.cpp:121
 #, kde-format
 msgctxt "@title"
-msgid "Operating System Version"
-msgstr ""
+msgid "Operating System URL"
+msgstr "URL hệ điều hành"
 
 #: osinfo/osinfo.cpp:122
 #, kde-format
 msgctxt "@title"
-msgid "Operating System Name and Version"
-msgstr ""
-
-#: osinfo/osinfo.cpp:123
-#, kde-format
-msgctxt "@title Operating System Name and Version"
-msgid "OS"
-msgstr ""
-
-#: osinfo/osinfo.cpp:124
-#, kde-format
-msgctxt "@title"
-msgid "Operating System Logo"
-msgstr ""
+msgid "Uptime"
+msgstr "Thời gian vận hành"
 
 #: osinfo/osinfo.cpp:125
 #, kde-format
 msgctxt "@title"
-msgid "Operating System URL"
-msgstr ""
+msgid "KDE Plasma"
+msgstr "Plasma KDE"
+
+#: osinfo/osinfo.cpp:126
+#, kde-format
+msgctxt "@title"
+msgid "Qt Version"
+msgstr "Phiên bản Qt"
 
 #: osinfo/osinfo.cpp:127
 #, kde-format
 msgctxt "@title"
-msgid "KDE Plasma"
-msgstr ""
+msgid "KDE Frameworks Version"
+msgstr "Phiên bản Các kết cấu KDE"
 
 #: osinfo/osinfo.cpp:128
 #, kde-format
 msgctxt "@title"
-msgid "Qt Version"
-msgstr ""
-
-#: osinfo/osinfo.cpp:129
-#, kde-format
-msgctxt "@title"
-msgid "KDE Frameworks Version"
-msgstr ""
-
-#: osinfo/osinfo.cpp:130
-#, kde-format
-msgctxt "@title"
 msgid "KDE Plasma Version"
-msgstr ""
+msgstr "Phiên bản Plasma KDE"
 
-#: osinfo/osinfo.cpp:163
+#: osinfo/osinfo.cpp:161
 #, kde-format
 msgctxt "@info"
 msgid "Unknown"
-msgstr ""
+msgstr "Không rõ"
 
-#: power/power.cpp:56 power/power.cpp:57
+#: power/power.cpp:44 power/power.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "Design Capacity"
-msgstr ""
+msgstr "Dung lượng thiết kế"
 
-#: power/power.cpp:59
+#: power/power.cpp:47
 #, kde-format
 msgid "Amount of energy that the Battery was designed to hold"
-msgstr ""
+msgstr "Lượng điện năng mà cục pin được thiết kế để chứa được"
 
-#: power/power.cpp:65 power/power.cpp:66 power/power.cpp:84
+#: power/power.cpp:53 power/power.cpp:54 power/power.cpp:72
 #, kde-format
 msgctxt "@title"
 msgid "Current Capacity"
-msgstr ""
+msgstr "Dung lượng hiện tại"
 
-#: power/power.cpp:68
+#: power/power.cpp:56
 #, kde-format
 msgid "Amount of energy that the battery can currently hold"
-msgstr ""
+msgstr "Lượng điện năng mà cục pin hiện tại có thể chứa được"
 
-#: power/power.cpp:74 power/power.cpp:75
+#: power/power.cpp:62 power/power.cpp:63
 #, kde-format
 msgctxt "@title"
 msgid "Health"
-msgstr ""
+msgstr "Sức chứa"
 
-#: power/power.cpp:77
+#: power/power.cpp:65
 #, kde-format
 msgid "Percentage of the design capacity that the battery can hold"
-msgstr ""
+msgstr "Phần trăm dung lượng thiết kế mà cục pin có thể chứa được"
 
-#: power/power.cpp:83
+#: power/power.cpp:71
 #, kde-format
 msgctxt "@title"
 msgid "Charge"
-msgstr ""
+msgstr "Sạc"
 
-#: power/power.cpp:86
+#: power/power.cpp:74
 #, kde-format
 msgid "Amount of energy that the battery is currently holding"
-msgstr ""
+msgstr "Lượng điện năng mà cục pin hiện đang chứa"
 
-#: power/power.cpp:92 power/power.cpp:93
+#: power/power.cpp:80 power/power.cpp:81
 #, kde-format
 msgctxt "@title"
 msgid "Charge Percentage"
-msgstr ""
+msgstr "Phần trăm sạc"
 
-#: power/power.cpp:95
+#: power/power.cpp:83
 #, kde-format
 msgid ""
 "Percentage of the current capacity that the battery is currently holding"
-msgstr ""
+msgstr "Phần trăm dung lượng hiện tại mà cục pin hiện đang chứa"
 
-#: power/power.cpp:102
+#: power/power.cpp:90
 #, kde-format
 msgctxt "@title"
 msgid "Charging Rate"
-msgstr ""
+msgstr "Tốc độ sạc"
 
-#: power/power.cpp:103
+#: power/power.cpp:91
 #, kde-format
 msgctxt "@title"
 msgid "Charging  Rate"
-msgstr ""
+msgstr "Tốc độ sạc"
 
-#: power/power.cpp:105
+#: power/power.cpp:93
 #, kde-format
 msgid ""
 "Power that the battery is being charged with (positive) or discharged "
 "(negative)"
-msgstr ""
+msgstr "Điện lượng mà cục pin đang được sạc (số dương) hoặc xả (số âm)"
 
-#: power/power.cpp:117
+#: power/power.cpp:105
 #, kde-format
 msgctxt "@title"
 msgid "Power"
-msgstr ""
+msgstr "Điện lượng"

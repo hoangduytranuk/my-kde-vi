@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-phonebook\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-16 02:44+0100\n"
+"POT-Creation-Date: 2021-05-13 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,69 +27,76 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:24
+#: src/contents/ui/AddContactPage.qml:25
 #, kde-format
 msgid "Adding contact"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:28
+#: src/contents/ui/AddContactPage.qml:29
 #, kde-format
 msgid "Editing contact"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:42
+#: src/contents/ui/AddContactPage.qml:43
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:61 src/contents/ui/DetailPage.qml:56
+#: src/contents/ui/AddContactPage.qml:62 src/contents/ui/DetailPage.qml:182
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:75
+#: src/contents/ui/AddContactPage.qml:76
 #, kde-format
 msgid "Photo"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:103
+#: src/contents/ui/AddContactPage.qml:96
 #, kde-format
 msgid "Name:"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:125
+#: src/contents/ui/AddContactPage.qml:118
 #, kde-format
 msgid "Phone:"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:158
+#: src/contents/ui/AddContactPage.qml:151
 #, kde-format
 msgid "+1 555 2368"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:190
+#: src/contents/ui/AddContactPage.qml:183
 #, kde-format
 msgid "E-mail:"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:218
+#: src/contents/ui/AddContactPage.qml:211
 #, kde-format
 msgid "user@example.org"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:250
+#: src/contents/ui/AddContactPage.qml:243
 #, kde-format
 msgid "Instant Messenger:"
 msgstr ""
 
-#: src/contents/ui/AddContactPage.qml:283
+#: src/contents/ui/AddContactPage.qml:276
 #, kde-format
 msgid "protocol:person@example.com"
 msgstr ""
 
-#: src/contents/ui/ContactsPage.qml:20
+#: src/contents/ui/AddContactPage.qml:308
+#: src/contents/ui/DetailPage.qml:158
 #, kde-format
-msgid "Address Book"
+msgid "Birthday:"
+msgstr ""
+
+#: src/contents/ui/ContactsPage.qml:20 src/contents/ui/main.qml:17
+#: src/main.cpp:46
+#, kde-format
+msgid "Phonebook"
 msgstr ""
 
 #: src/contents/ui/ContactsPage.qml:24
@@ -97,86 +104,58 @@ msgstr ""
 msgid "Create New"
 msgstr ""
 
-#: src/contents/ui/ContactsPage.qml:63
+#: src/contents/ui/ContactsPage.qml:65
 #, kde-format
 msgid "No contacts"
 msgstr ""
 
-#: src/contents/ui/Detail.qml:63
-#, kde-format
-msgid "Chat"
-msgstr ""
-
-#: src/contents/ui/Detail.qml:65
+#: src/contents/ui/DetailPage.qml:105
 #, kde-format
 msgid "Call"
 msgstr ""
 
-#: src/contents/ui/Detail.qml:67
+#: src/contents/ui/DetailPage.qml:114
 #, kde-format
-msgid "Video Call"
+msgid "Select number to call"
 msgstr ""
 
-#: src/contents/ui/Detail.qml:69
+#: src/contents/ui/DetailPage.qml:121
 #, kde-format
-msgid "Email"
+msgid "Send SMS"
 msgstr ""
 
-#: src/contents/ui/Detail.qml:71
+#: src/contents/ui/DetailPage.qml:130
 #, kde-format
-msgid "Send file"
+msgid "Select number to send message to"
 msgstr ""
 
-#: src/contents/ui/Detail.qml:73
+#: src/contents/ui/DetailPage.qml:137
 #, kde-format
-msgid "Other"
+msgid "Send email"
 msgstr ""
 
-#: src/contents/ui/DetailPage.qml:40
+#: src/contents/ui/DetailPage.qml:166
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: src/contents/ui/DetailPage.qml:48
+#: src/contents/ui/DetailPage.qml:174
 #, kde-format
 msgid "Delete contact"
 msgstr ""
 
-#: src/contents/ui/main.qml:18 src/main.cpp:39
-#, kde-format
-msgid "Phone Book"
-msgstr ""
-
-#: src/contents/ui/main.qml:27
+#: src/contents/ui/main.qml:26
 #, kde-format
 msgid "Import contacts"
 msgstr ""
 
-#: src/kpeopleactionplugin/kpeopleactionsplugin.cpp:41
-#, kde-format
-msgctxt "Action to tell user to call person using phone number"
-msgid "Call on %1"
-msgstr ""
-
-#: src/kpeopleactionplugin/kpeopleactionsplugin.cpp:55
-#, kde-format
-msgctxt "Action to tell user to write a message to phone number"
-msgid "Write SMS on %1"
-msgstr ""
-
-#: src/kpeopleactionplugin/kpeopleactionsplugin.cpp:71
+#: src/kpeopleactionplugin/kpeopleactionsplugin.cpp:40
 #, kde-format
 msgctxt "Action to write to instant messanger contact"
 msgid "%1 %2"
 msgstr ""
 
-#: src/kpeopleactionplugin/kpeopleactionsplugin.cpp:84
-#, kde-format
-msgctxt "Action to send an email"
-msgid "email %1"
-msgstr ""
-
-#: src/main.cpp:39
+#: src/main.cpp:46
 #, kde-format
 msgid "View and edit contacts"
 msgstr ""

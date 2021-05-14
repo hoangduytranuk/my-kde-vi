@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:20+0000\n"
+"POT-Creation-Date: 2021-05-13 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -204,10 +204,16 @@ msgctxt "@action"
 msgid "Add Separator"
 msgstr ""
 
-#: src/page/ColumnControl.qml:121
+#: src/page/ColumnControl.qml:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Background"
+msgstr ""
+
+#: src/page/ColumnControl.qml:129
+#, kde-format
+msgctxt "@action"
+msgid "Remove Background Margins"
 msgstr ""
 
 #: src/page/EditablePage.qml:123
@@ -306,7 +312,7 @@ msgctxt "@info:status %1 is preset name"
 msgid "Saved settings as preset %1."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:157
+#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:169
 #, kde-format
 msgctxt "@action"
 msgid "Add Chart as Desktop Widget"
@@ -340,6 +346,28 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Display Style"
+msgstr ""
+
+#: src/page/FaceConfigurationPage.qml:156
+#, kde-format
+msgctxt "@label"
+msgid "Minimum time between updates:"
+msgstr ""
+
+#: src/page/FaceConfigurationPage.qml:173
+#, kde-format
+msgid "No Limit"
+msgstr ""
+
+#. i18ndp doesn't handle floats :(
+#: src/page/FaceConfigurationPage.qml:177
+#, kde-format
+msgid "1 second"
+msgstr ""
+
+#: src/page/FaceConfigurationPage.qml:179
+#, kde-format
+msgid "%1 seconds"
 msgstr ""
 
 #: src/page/FacesModel.cpp:46
@@ -509,31 +537,31 @@ msgctxt "@window:title"
 msgid "Configure Columns"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:144
+#: src/table/ColumnConfigurationDialog.qml:150
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Hidden"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:145
+#: src/table/ColumnConfigurationDialog.qml:151
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Text Only"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:151
+#: src/table/ColumnConfigurationDialog.qml:157
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Line Chart"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:155
+#: src/table/ColumnConfigurationDialog.qml:161
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Text Only (Scaled to 100%)"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:156
+#: src/table/ColumnConfigurationDialog.qml:162
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Line Chart (Scaled to 100%)"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-11 02:56+0100\n"
+"POT-Creation-Date: 2021-05-06 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#: package/contents/config/config.qml:26
-#, kde-format
-msgid "General"
-msgstr ""
 
 #: package/contents/ui/BatteryItem.qml:53
 #, kde-format
@@ -34,6 +29,11 @@ msgstr ""
 #, kde-format
 msgctxt "Placeholder is battery percentage"
 msgid "%1%"
+msgstr ""
+
+#: package/contents/ui/BatteryItem.qml:222
+#, kde-format
+msgid "Your battery is configured to only charge up to %1%."
 msgstr ""
 
 #: package/contents/ui/batterymonitor.qml:55
@@ -89,17 +89,22 @@ msgstr ""
 msgid "Automatic sleep and screen locking are disabled"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:168
+#: package/contents/ui/batterymonitor.qml:173
 #, kde-format
 msgid "&Show Energy Information..."
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:171
+#: package/contents/ui/batterymonitor.qml:175
 #, kde-format
-msgid "&Configure Power Saving..."
+msgid "Show Battery Percentage on Icon"
 msgstr ""
 
-#: package/contents/ui/batterymonitor.qml:260
+#: package/contents/ui/batterymonitor.qml:181
+#, kde-format
+msgid "&Configure Energy Saving..."
+msgstr ""
+
+#: package/contents/ui/batterymonitor.qml:239
 #, kde-format
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr ""
@@ -110,21 +115,10 @@ msgctxt "Placeholder is brightness percentage"
 msgid "%1%"
 msgstr ""
 
-#: package/contents/ui/CompactRepresentation.qml:73
+#: package/contents/ui/CompactRepresentation.qml:101
 #, kde-format
 msgctxt "battery percentage below battery icon"
 msgid "%1%"
-msgstr ""
-
-#: package/contents/ui/CompactRepresentation.qml:73
-#, kde-format
-msgctxt "short symbol to signal there is no battery currently available"
-msgid "-"
-msgstr ""
-
-#: package/contents/ui/ConfigGeneral.qml:38
-#, kde-format
-msgid "Show percentage"
 msgstr ""
 
 #: package/contents/ui/logic.js:25
@@ -182,15 +176,10 @@ msgstr ""
 #: package/contents/ui/PowerManagementItem.qml:41
 #, kde-format
 msgctxt "Minimize the length of this string as much as possible"
-msgid "Allow automatic sleep and screen locking"
+msgid "Inhibit automatic sleep and screen locking"
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:56
-#, kde-format
-msgid "Your battery is configured to only charge up to %1%."
-msgstr ""
-
-#: package/contents/ui/PowerManagementItem.qml:63
+#: package/contents/ui/PowerManagementItem.qml:55
 #, kde-format
 msgctxt "Minimize the length of this string as much as possible"
 msgid ""
@@ -198,25 +187,30 @@ msgid ""
 "external monitor is connected."
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:78
+#: package/contents/ui/PowerManagementItem.qml:68
 #, kde-format
-msgid "An application is preventing sleep and screen locking:"
+msgid "%1 is inhibiting sleep and screen locking (%2)"
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:80
+#: package/contents/ui/PowerManagementItem.qml:70
 #, kde-format
-msgid "%1 application is preventing sleep and screen locking:"
-msgid_plural "%1 applications are preventing sleep and screen locking:"
+msgid "%1 is inhibiting sleep and screen locking (unknown reason)"
+msgstr ""
+
+#: package/contents/ui/PowerManagementItem.qml:87
+#, kde-format
+msgid "%1 application is inhibiting sleep and screen locking:"
+msgid_plural "%1 applications are inhibiting sleep and screen locking:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: package/contents/ui/PowerManagementItem.qml:95
+#: package/contents/ui/PowerManagementItem.qml:100
 #, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: %2"
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:96
+#: package/contents/ui/PowerManagementItem.qml:101
 #, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: unknown reason"

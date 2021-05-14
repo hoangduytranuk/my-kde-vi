@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-27 01:49+0000\n"
+"POT-Creation-Date: 2021-04-30 00:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,6 +29,16 @@ msgstr ""
 #: daemon/actions/bundled/powerdevildimdisplayaction.desktop:54
 msgctxt "Comment"
 msgid "Dims gradually the display on a time basis"
+msgstr ""
+
+#: daemon/actions/bundled/powerdevildpmsaction.desktop:5
+msgctxt "Name"
+msgid "Screen Energy Saving"
+msgstr ""
+
+#: daemon/actions/bundled/powerdevildpmsaction.desktop:54
+msgctxt "Comment"
+msgid "Controls DPMS settings"
 msgstr ""
 
 #: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:7
@@ -79,16 +89,6 @@ msgstr ""
 #: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:51
 msgctxt "Comment"
 msgid "Turns off signal-transmitting devices"
-msgstr ""
-
-#: daemon/actions/dpms/powerdevildpmsaction.desktop:6
-msgctxt "Name"
-msgid "Screen Energy Saving"
-msgstr ""
-
-#: daemon/actions/dpms/powerdevildpmsaction.desktop:55
-msgctxt "Comment"
-msgid "Controls DPMS settings"
 msgstr ""
 
 #: daemon/actions/powerdevilaction.desktop:5
@@ -165,18 +165,18 @@ msgctxt "Name"
 msgid "Get current battery charge limit"
 msgstr ""
 
-#: daemon/chargethreshold_helper_actions.actions:84
+#: daemon/chargethreshold_helper_actions.actions:85
 msgctxt "Description"
 msgid ""
 "System policies prevent you from getting the current battery charge limit."
 msgstr ""
 
-#: daemon/chargethreshold_helper_actions.actions:118
+#: daemon/chargethreshold_helper_actions.actions:120
 msgctxt "Name"
 msgid "Set battery charge limit"
 msgstr ""
 
-#: daemon/chargethreshold_helper_actions.actions:148
+#: daemon/chargethreshold_helper_actions.actions:151
 msgctxt "Description"
 msgid "System policies prevent you from setting a battery charge limit."
 msgstr ""
@@ -196,12 +196,12 @@ msgctxt "Name"
 msgid "Activity Power Settings"
 msgstr ""
 
-#: kcmodule/activities/powerdevilactivitiesconfig.desktop:39
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:42
 msgctxt "Comment"
 msgid "Per-Activity Power Management"
 msgstr ""
 
-#: kcmodule/activities/powerdevilactivitiesconfig.desktop:87
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:90
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
@@ -213,17 +213,17 @@ msgctxt "Name"
 msgid "Advanced Power Settings"
 msgstr ""
 
-#: kcmodule/global/powerdevilglobalconfig.desktop:39
+#: kcmodule/global/powerdevilglobalconfig.desktop:42
 msgctxt "Comment"
 msgid "Advanced Power Management Settings"
 msgstr ""
 
-#: kcmodule/global/powerdevilglobalconfig.desktop:88
-#: kcmodule/profiles/powerdevilprofilesconfig.desktop:113
+#: kcmodule/global/powerdevilglobalconfig.desktop:91
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
-"hibernate,brightness,performance,lid"
+"hibernate,brightness,performance,lid,levels,critical,charge,charging,limit, "
+"charge limit, charging limit"
 msgstr ""
 
 #: kcmodule/profiles/powerdevilprofilesconfig.desktop:13
@@ -234,6 +234,13 @@ msgstr ""
 #: kcmodule/profiles/powerdevilprofilesconfig.desktop:63
 msgctxt "Comment"
 msgid "Energy Saving"
+msgstr ""
+
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:113
+msgctxt "X-KDE-Keywords"
+msgid ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid,screen"
 msgstr ""
 
 #: powerdevil.notifyrc:52

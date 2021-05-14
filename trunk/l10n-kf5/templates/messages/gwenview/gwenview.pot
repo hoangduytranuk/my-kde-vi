@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-04 00:17+0000\n"
+"POT-Creation-Date: 2021-05-12 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -116,105 +116,111 @@ msgstr ""
 msgid "Color profile:"
 msgstr ""
 
-#: app/browsemainpage.cpp:149 app/mainwindow.cpp:391 app/viewmainpage.cpp:423
+#: app/alignwithsidebarwidgetaction.cpp:24
+#, kde-format
+msgctxt "@action:inmenu a spacer that aligns toolbar buttons with the sidebar"
+msgid "Sidebar Alignment Spacer"
+msgstr ""
+
+#: app/browsemainpage.cpp:154 app/mainwindow.cpp:393 app/viewmainpage.cpp:423
 #: lib/documentview/documentviewcontroller.cpp:62
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr ""
 
-#: app/browsemainpage.cpp:151
+#: app/browsemainpage.cpp:156
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr ""
 
-#: app/browsemainpage.cpp:155
+#: app/browsemainpage.cpp:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Sort By"
 msgstr ""
 
-#: app/browsemainpage.cpp:164
+#: app/browsemainpage.cpp:169
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Name"
 msgstr ""
 
-#: app/browsemainpage.cpp:167
+#: app/browsemainpage.cpp:172
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Date"
 msgstr ""
 
-#: app/browsemainpage.cpp:170
+#: app/browsemainpage.cpp:175
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Size"
 msgstr ""
 
-#: app/browsemainpage.cpp:174
+#: app/browsemainpage.cpp:179
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Rating"
 msgstr ""
 
-#: app/browsemainpage.cpp:182
+#: app/browsemainpage.cpp:187
 #, kde-format
 msgctxt "@action:inmenu Sort"
 msgid "Descending"
 msgstr ""
 
-#: app/browsemainpage.cpp:195
+#: app/browsemainpage.cpp:200
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Thumbnail Details"
 msgstr ""
 
-#: app/browsemainpage.cpp:196
+#: app/browsemainpage.cpp:201
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filename"
 msgstr ""
 
-#: app/browsemainpage.cpp:197
+#: app/browsemainpage.cpp:202
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Date"
 msgstr ""
 
-#: app/browsemainpage.cpp:198
+#: app/browsemainpage.cpp:203
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Image Size"
 msgstr ""
 
-#: app/browsemainpage.cpp:199
+#: app/browsemainpage.cpp:204
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File Size"
 msgstr ""
 
-#: app/browsemainpage.cpp:201
+#: app/browsemainpage.cpp:206
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr ""
 
-#: app/browsemainpage.cpp:204 app/fileopscontextmanageritem.cpp:145
-#: app/mainwindow.cpp:390
+#: app/browsemainpage.cpp:209 app/fileopscontextmanageritem.cpp:145
+#: app/mainwindow.cpp:392
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
 msgstr ""
 
-#: app/browsemainpage.cpp:206
+#: app/browsemainpage.cpp:211
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
 msgstr ""
 
-#: app/browsemainpage.cpp:255
+#: app/browsemainpage.cpp:260
 #, kde-format
 msgctxt ""
 "@info:status %1 number of selected documents, %2 total number of documents, "
@@ -222,7 +228,7 @@ msgctxt ""
 msgid "Selected %1 of %2 (%3)"
 msgstr ""
 
-#: app/browsemainpage.cpp:261
+#: app/browsemainpage.cpp:266
 #, kde-format
 msgctxt "@info:status Image files"
 msgid "%1 image"
@@ -230,7 +236,7 @@ msgid_plural "%1 images"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/browsemainpage.cpp:262
+#: app/browsemainpage.cpp:267
 #, kde-format
 msgctxt "@info:status Video files"
 msgid "%1 video"
@@ -238,7 +244,7 @@ msgid_plural "%1 videos"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/browsemainpage.cpp:269
+#: app/browsemainpage.cpp:274
 #, kde-format
 msgctxt "@info:status images, videos"
 msgid "%1, %2"
@@ -350,7 +356,7 @@ msgstr ""
 msgid "File Operations"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:146 app/semanticinfocontextmanageritem.cpp:195
+#: app/fileopscontextmanageritem.cpp:146 app/semanticinfocontextmanageritem.cpp:193
 #, kde-format
 msgctxt "@title actions category"
 msgid "Edit"
@@ -952,13 +958,13 @@ msgstr ""
 #: app/infocontextmanageritem.cpp:232
 #, kde-format
 msgctxt "@action show more image meta info"
-msgid "More..."
+msgid "Show more details..."
 msgstr ""
 
 #: app/infocontextmanageritem.cpp:246
 #, kde-format
 msgctxt "@title:group"
-msgid "Meta Information"
+msgid "Image Information"
 msgstr ""
 
 #: app/infocontextmanageritem.cpp:338
@@ -1111,261 +1117,267 @@ msgstr ""
 msgid "A starting file or folders"
 msgstr ""
 
-#: app/mainwindow.cpp:401
+#: app/mainwindow.cpp:403
 #, kde-format
 msgctxt "@action Open Recent menu"
 msgid "Clear List"
 msgstr ""
 
-#: app/mainwindow.cpp:408
+#: app/mainwindow.cpp:410
 #, kde-format
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr ""
 
-#: app/mainwindow.cpp:413
+#: app/mainwindow.cpp:415
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr ""
 
-#: app/mainwindow.cpp:418
+#: app/mainwindow.cpp:420
 #, kde-format
 msgctxt "@action:intoolbar Switch to file list"
 msgid "Browse"
 msgstr ""
 
-#: app/mainwindow.cpp:419
+#: app/mainwindow.cpp:421
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr ""
 
-#: app/mainwindow.cpp:427
+#: app/mainwindow.cpp:429
 #, kde-format
 msgctxt "@action:intoolbar Switch to image view"
 msgid "View"
 msgstr ""
 
-#: app/mainwindow.cpp:428
+#: app/mainwindow.cpp:430
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "View selected images"
 msgstr ""
 
-#: app/mainwindow.cpp:449
+#: app/mainwindow.cpp:451
 #, kde-format
 msgctxt "@action"
 msgid "Exit Full Screen"
 msgstr ""
 
-#: app/mainwindow.cpp:454
+#: app/mainwindow.cpp:456
 #, kde-format
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr ""
 
-#: app/mainwindow.cpp:455
+#: app/mainwindow.cpp:457
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to previous image"
 msgstr ""
 
-#: app/mainwindow.cpp:462
+#: app/mainwindow.cpp:464
 #, kde-format
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr ""
 
-#: app/mainwindow.cpp:463
+#: app/mainwindow.cpp:465
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to next image"
 msgstr ""
 
-#: app/mainwindow.cpp:470
+#: app/mainwindow.cpp:472
 #, kde-format
 msgctxt "@action Go to first image"
 msgid "First"
 msgstr ""
 
-#: app/mainwindow.cpp:471
+#: app/mainwindow.cpp:473
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to first image"
 msgstr ""
 
-#: app/mainwindow.cpp:477
+#: app/mainwindow.cpp:479
 #, kde-format
 msgctxt "@action Go to last image"
 msgid "Last"
 msgstr ""
 
-#: app/mainwindow.cpp:478
+#: app/mainwindow.cpp:480
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to last image"
 msgstr ""
 
-#: app/mainwindow.cpp:488
+#: app/mainwindow.cpp:490
 #, kde-format
 msgctxt "@action"
 msgid "Start Page"
 msgstr ""
 
-#: app/mainwindow.cpp:489
+#: app/mainwindow.cpp:491
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the start page"
 msgstr ""
 
-#: app/mainwindow.cpp:496
+#: app/mainwindow.cpp:498
 #, kde-format
 msgctxt "@action"
 msgid "Sidebar"
 msgstr ""
 
-#: app/mainwindow.cpp:528
+#: app/mainwindow.cpp:506
+#, kde-format
+msgctxt "@action opens crop, rename, etc."
+msgid "Show Editing Tools"
+msgstr ""
+
+#: app/mainwindow.cpp:542
 #, kde-format
 msgctxt "@action Share images"
 msgid "Share"
 msgstr ""
 
-#: app/mainwindow.cpp:537
+#: app/mainwindow.cpp:551
 #, kde-format
 msgid "Error while sharing: %1"
 msgstr ""
 
-#: app/mainwindow.cpp:544
+#: app/mainwindow.cpp:558
 #, kde-format
 msgid ""
 "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
 "clipboard."
 msgstr ""
 
-#: app/mainwindow.cpp:563
+#: app/mainwindow.cpp:581
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr ""
 
-#: app/mainwindow.cpp:568
+#: app/mainwindow.cpp:586
 #, kde-format
 msgid "Redo"
 msgstr ""
 
-#: app/mainwindow.cpp:576
+#: app/mainwindow.cpp:594
 #, kde-format
 msgid "Undo"
 msgstr ""
 
-#: app/mainwindow.cpp:605
+#: app/mainwindow.cpp:623
 #, kde-format
 msgid "Folders"
 msgstr ""
 
-#: app/mainwindow.cpp:611
+#: app/mainwindow.cpp:629
 #, kde-format
 msgid "Information"
 msgstr ""
 
-#: app/mainwindow.cpp:621
+#: app/mainwindow.cpp:643
 #, kde-format
 msgid "Operations"
 msgstr ""
 
-#: app/mainwindow.cpp:1214
+#: app/mainwindow.cpp:1243
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr ""
 
-#: app/mainwindow.cpp:1215
+#: app/mainwindow.cpp:1244
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr ""
 
-#: app/mainwindow.cpp:1471
+#: app/mainwindow.cpp:1508
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr ""
 
-#: app/mainwindow.cpp:1532
+#: app/mainwindow.cpp:1569
 #, kde-format
 msgid "Pause Slideshow"
 msgstr ""
 
-#: app/mainwindow.cpp:1535
+#: app/mainwindow.cpp:1572
 #, kde-format
 msgid "Resume Slideshow"
 msgstr ""
 
-#: app/mainwindow.cpp:1536
+#: app/mainwindow.cpp:1573
 #, kde-format
 msgid "Start Slideshow"
 msgstr ""
 
-#: app/mainwindow.cpp:1549
+#: app/mainwindow.cpp:1586
 #, kde-format
 msgid "Save All Changes"
 msgstr ""
 
-#: app/mainwindow.cpp:1550
+#: app/mainwindow.cpp:1587
 #, kde-format
 msgid "Discard Changes"
 msgstr ""
 
-#: app/mainwindow.cpp:1551
+#: app/mainwindow.cpp:1588
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/mainwindow.cpp:1553
+#: app/mainwindow.cpp:1590
 #, kde-format
 msgid "If you quit now, your changes will be lost."
 msgstr ""
 
-#: app/mainwindow.cpp:1598
+#: app/mainwindow.cpp:1635
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: app/mainwindow.cpp:1600
+#: app/mainwindow.cpp:1637
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: app/mainwindow.cpp:1811
+#: app/mainwindow.cpp:1848
 #, kde-format
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1812 app/mainwindow.cpp:1826
+#: app/mainwindow.cpp:1849 app/mainwindow.cpp:1863
 #, kde-format
 msgid "Stay There"
 msgstr ""
 
-#: app/mainwindow.cpp:1813
+#: app/mainwindow.cpp:1850
 #, kde-format
 msgid "Go to the Last Document"
 msgstr ""
 
-#: app/mainwindow.cpp:1814 app/mainwindow.cpp:1828
+#: app/mainwindow.cpp:1851 app/mainwindow.cpp:1865
 #, kde-format
 msgid "Go Back to the Document List"
 msgstr ""
 
-#: app/mainwindow.cpp:1825
+#: app/mainwindow.cpp:1862
 #, kde-format
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1827
+#: app/mainwindow.cpp:1864
 #, kde-format
 msgid "Go to the First Document"
 msgstr ""
@@ -1415,68 +1427,63 @@ msgctxt ""
 msgid "<filename>%1</filename>: %2"
 msgstr ""
 
-#: app/savebar.cpp:86
+#: app/savebar.cpp:85
 #, kde-format
 msgid ""
 "You have modified many images. To avoid memory problems, you should save "
 "your changes."
 msgstr ""
 
-#: app/savebar.cpp:171
+#: app/savebar.cpp:170
 #, kde-format
 msgid "Current image modified"
 msgstr ""
 
-#: app/savebar.cpp:177
+#: app/savebar.cpp:176
 #, kde-format
 msgid "Previous modified image"
 msgstr ""
 
-#: app/savebar.cpp:178
+#: app/savebar.cpp:177
 #, kde-format
 msgid "Next modified image"
 msgstr ""
 
-#: app/savebar.cpp:194
+#: app/savebar.cpp:193
 #, kde-format
 msgid "One image modified"
 msgid_plural "%1 images modified"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/savebar.cpp:196
+#: app/savebar.cpp:195
 #, kde-format
 msgid "Go to first modified image"
 msgstr ""
 
-#: app/savebar.cpp:198
+#: app/savebar.cpp:197
 #, kde-format
 msgid "Go to it"
 msgstr ""
 
-#: app/savebar.cpp:297 app/savebar.cpp:301
+#: app/savebar.cpp:296 app/savebar.cpp:300
 #, kde-format
 msgid "Save All"
 msgstr ""
 
-#: app/semanticinfocontextmanageritem.cpp:173
-#, kde-format
-msgid "Semantic Information"
-msgstr ""
-
-#: app/semanticinfocontextmanageritem.cpp:198
+#: app/semanticinfocontextmanageritem.cpp:196
 #, kde-format
 msgctxt "@action"
 msgid "Edit Tags"
 msgstr ""
 
-#: app/semanticinfocontextmanageritem.cpp:208
+#: app/semanticinfocontextmanageritem.cpp:206
 #, kde-format
 msgctxt "@action Rating value of zero"
 msgid "Zero"
 msgstr ""
 
-#: app/semanticinfocontextmanageritem.cpp:244
+#: app/semanticinfocontextmanageritem.cpp:242
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -1877,12 +1884,12 @@ msgstr ""
 msgid "Importing documents..."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:211
+#: importer/thumbnailpage.cpp:210
 #, kde-format
 msgid "Import Selected"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:214
+#: importer/thumbnailpage.cpp:213
 #, kde-format
 msgid "Import All"
 msgstr ""

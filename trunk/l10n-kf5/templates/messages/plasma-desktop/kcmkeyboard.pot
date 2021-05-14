@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-01 00:20+0000\n"
+"POT-Creation-Date: 2021-05-12 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -48,13 +48,7 @@ msgstr ""
 msgid "Switch keyboard layout to %1"
 msgstr ""
 
-#: flags.cpp:166
-#, kde-format
-msgctxt "short layout label - full layout name"
-msgid "%1 - %2"
-msgstr ""
-
-#: flags.cpp:174
+#: flags.cpp:144
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -65,7 +59,7 @@ msgstr ""
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:292
+#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:285
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -109,7 +103,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, prevbutton)
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:355
+#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:315
 #, kde-format
 msgid "Preview"
 msgstr ""
@@ -161,44 +155,8 @@ msgstr ""
 msgid "Layouts"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup)
-#: kcm_keyboard.ui:102
-#, kde-format
-msgid "Layout Indicator"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, showIndicatorChk)
-#: kcm_keyboard.ui:111
-#, kde-format
-msgid "Show layout indicator"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
-#: kcm_keyboard.ui:118
-#, kde-format
-msgid "Show for single layout"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, showFlagRadioBtn)
-#: kcm_keyboard.ui:125
-#, kde-format
-msgid "Show flag"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, showLabelRadioBtn)
-#: kcm_keyboard.ui:132
-#, kde-format
-msgid "Show label"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, showLabelOnFlagRadioBtn)
-#: kcm_keyboard.ui:139
-#, kde-format
-msgid "Show label on flag"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, switchingPolicyGroupBox)
-#: kcm_keyboard.ui:149
+#: kcm_keyboard.ui:102
 #, kde-format
 msgid ""
 "If you select \"Application\" or \"Window\" switching policy, changing the "
@@ -206,49 +164,49 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyGroupBox)
-#: kcm_keyboard.ui:152
+#: kcm_keyboard.ui:105
 #, kde-format
 msgid "Switching Policy"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
-#: kcm_keyboard.ui:158
+#: kcm_keyboard.ui:111
 #, kde-format
 msgid "&Global"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
-#: kcm_keyboard.ui:171
+#: kcm_keyboard.ui:124
 #, kde-format
 msgid "&Desktop"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByApplicationRadioBtn)
-#: kcm_keyboard.ui:181
+#: kcm_keyboard.ui:134
 #, kde-format
 msgid "&Application"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
-#: kcm_keyboard.ui:191
+#: kcm_keyboard.ui:144
 #, kde-format
 msgid "&Window"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
-#: kcm_keyboard.ui:204
+#: kcm_keyboard.ui:157
 #, kde-format
 msgid "Shortcuts for Switching Layout"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: kcm_keyboard.ui:210
+#: kcm_keyboard.ui:163
 #, kde-format
 msgid "Main shortcuts:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, xkbGrpShortcutBtn)
-#: kcm_keyboard.ui:223
+#: kcm_keyboard.ui:176
 #, kde-format
 msgid ""
 "This is a shortcut for switching layouts which is handled by X.org. It "
@@ -257,7 +215,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, xkbGrpShortcutBtn)
 #. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
-#: kcm_keyboard.ui:226 kcm_keyboard.ui:256
+#: kcm_keyboard.ui:179 kcm_keyboard.ui:209
 #, kde-format
 msgctxt "no shortcut defined"
 msgid "None"
@@ -265,19 +223,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, xkbGrpClearBtn)
 #. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
-#: kcm_keyboard.ui:233 kcm_keyboard.ui:263
+#: kcm_keyboard.ui:186 kcm_keyboard.ui:216
 #, kde-format
 msgid "..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcm_keyboard.ui:240
+#: kcm_keyboard.ui:193
 #, kde-format
 msgid "3rd level shortcuts:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, xkb3rdLevelShortcutBtn)
-#: kcm_keyboard.ui:253
+#: kcm_keyboard.ui:206
 #, kde-format
 msgid ""
 "This is a shortcut for switching to a third level of the active layout (if "
@@ -285,13 +243,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcm_keyboard.ui:270
+#: kcm_keyboard.ui:223
 #, kde-format
 msgid "Alternative shortcut:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, kdeKeySequence)
-#: kcm_keyboard.ui:283
+#: kcm_keyboard.ui:236
 #, kde-format
 msgid ""
 "This is a shortcut for switching layouts. It does not support modifier-only "
@@ -300,113 +258,113 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
-#: kcm_keyboard.ui:301
+#: kcm_keyboard.ui:261
 #, kde-format
 msgid "Configure layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addLayoutBtn)
-#: kcm_keyboard.ui:315
+#: kcm_keyboard.ui:275
 #, kde-format
 msgid "Add"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeLayoutBtn)
-#: kcm_keyboard.ui:325
+#: kcm_keyboard.ui:285
 #, kde-format
 msgid "Remove"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, moveUpBtn)
-#: kcm_keyboard.ui:335
+#: kcm_keyboard.ui:295
 #, kde-format
 msgid "Move Up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, moveDownBtn)
-#: kcm_keyboard.ui:345
+#: kcm_keyboard.ui:305
 #, kde-format
 msgid "Move Down"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
-#: kcm_keyboard.ui:390
+#: kcm_keyboard.ui:350
 #, kde-format
 msgid "Spare layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: kcm_keyboard.ui:422
+#: kcm_keyboard.ui:382
 #, kde-format
 msgid "Main layout count:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
-#: kcm_keyboard.ui:452
+#: kcm_keyboard.ui:412
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
-#: kcm_keyboard.ui:458
+#: kcm_keyboard.ui:418
 #, kde-format
 msgid "&Configure keyboard options"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:208
+#: kcm_keyboard_widget.cpp:196
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:210
+#: kcm_keyboard_widget.cpp:198
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:221
+#: kcm_keyboard_widget.cpp:209
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_keyboard_widget.cpp:603
+#: kcm_keyboard_widget.cpp:584
 #, kde-format
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr ""
 
-#: kcm_keyboard_widget.cpp:617
+#: kcm_keyboard_widget.cpp:598
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr ""
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Layout"
 msgstr ""
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Variant"
 msgstr ""
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Label"
 msgstr ""
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Shortcut"
 msgstr ""
@@ -523,17 +481,6 @@ msgstr ""
 #: kcmmiscwidget.ui:246
 #, kde-format
 msgid "&Delay:"
-msgstr ""
-
-#: layout_tray_icon.cpp:43 layout_tray_icon.cpp:44
-#, kde-format
-msgctxt "tooltip title"
-msgid "Keyboard Layout"
-msgstr ""
-
-#: layouts_menu.cpp:131
-#, kde-format
-msgid "Configure Layouts..."
 msgstr ""
 
 #: tastenbrett/main.cpp:67

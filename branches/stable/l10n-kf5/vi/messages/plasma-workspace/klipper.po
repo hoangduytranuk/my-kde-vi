@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-27 08:09+0100\n"
-"PO-Revision-Date: 2021-03-08 10:29+0100\n"
+"POT-Creation-Date: 2021-05-07 00:20+0000\n"
+"PO-Revision-Date: 2021-04-20 14:12+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -315,122 +315,123 @@ msgstr "Kích thước lịch sử bảng nháp:"
 msgid "%1x%2 %3bpp"
 msgstr "%1x%2 %3bpp"
 
-#: klipper.cpp:129
+#: klipper.cpp:130
 #, kde-format
 msgid "Enable Clipboard Actions"
 msgstr "Bật hành động bảng nháp"
 
-#: klipper.cpp:152
+#: klipper.cpp:153
 #, kde-format
 msgid "C&lear Clipboard History"
 msgstr "&Xoá lịch sử bảng nháp"
 
-#: klipper.cpp:159
+#: klipper.cpp:160
 #, kde-format
 msgid "&Configure Klipper..."
 msgstr "&Cấu hình Klipper..."
 
-#: klipper.cpp:164
+#: klipper.cpp:166
 #, kde-format
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "Th&oát"
 
-#: klipper.cpp:168
+#: klipper.cpp:171
 #, kde-format
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Gọi hành động trên bảng nháp hiện thời một cách thủ công"
 
-#: klipper.cpp:175
+#: klipper.cpp:178
 #, kde-format
 msgid "&Edit Contents..."
 msgstr "&Sửa nội dung..."
 
-#: klipper.cpp:183
+#: klipper.cpp:186
 #, kde-format
 msgid "&Show Barcode..."
 msgstr "Hiện mã &vạch..."
 
-#: klipper.cpp:191
+#: klipper.cpp:194
 #, kde-format
 msgid "Next History Item"
 msgstr "Mục lịch sử sau"
 
-#: klipper.cpp:195
+#: klipper.cpp:198
 #, kde-format
 msgid "Previous History Item"
 msgstr "Mục lịch sử trước"
 
-#: klipper.cpp:201
+#: klipper.cpp:204
 #, kde-format
 msgid "Open Klipper at Mouse Position"
 msgstr "Mở Klipper tại vị trí con trỏ chuột"
 
-#: klipper.cpp:483
-#, kde-format
+#: klipper.cpp:488
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"You can enable URL actions later by left-clicking on the Klipper icon and "
-"selecting 'Enable Clipboard Actions'"
+"You can enable URL actions later in the <interface>Actions</interface> page "
+"of the Clipboard applet's configuration window"
 msgstr ""
-"Về sau bạn có thể bật các hành động cho URL bằng cách bấm trái vào biểu "
-"tượng Klipper và chọn 'Bật hành động bảng nháp'"
+"Bạn có thể bật các hành động cho URL về sau ở trong trang <interface>Hành "
+"động</interface> của cửa sổ cấu hình tiểu ứng dụng bảng nháp"
 
-#: klipper.cpp:517
+#: klipper.cpp:523
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "Klipper tự động chạy khi bạn đăng nhập?"
 
-#: klipper.cpp:518
+#: klipper.cpp:524
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "Tự động chạy Klipper?"
 
-#: klipper.cpp:519
+#: klipper.cpp:525
 #, kde-format
 msgid "Start"
 msgstr "Chạy"
 
-#: klipper.cpp:520
+#: klipper.cpp:526
 #, kde-format
 msgid "Do Not Start"
 msgstr "Không chạy"
 
-#: klipper.cpp:867
+#: klipper.cpp:873
 #, kde-format
 msgid "Edit Contents"
 msgstr "Sửa nội dung"
 
-#: klipper.cpp:934
+#: klipper.cpp:940
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "Mã vạch điện thoại"
 
-#: klipper.cpp:981
+#: klipper.cpp:987
 #, kde-format
 msgid "Really delete entire clipboard history?"
 msgstr "Thực sự xoá toàn bộ lịch sử bảng nháp?"
 
-#: klipper.cpp:982
+#: klipper.cpp:988
 #, kde-format
 msgid "Delete clipboard history?"
 msgstr "Xoá lịch sử bảng nháp?"
 
-#: klipper.cpp:998 klipper.cpp:1007
+#: klipper.cpp:1004 klipper.cpp:1013
 #, kde-format
 msgid "Clipboard history"
 msgstr "Lịch sử bảng nháp"
 
-#: klipper.cpp:1024
+#: klipper.cpp:1030
 #, kde-format
 msgid "up"
 msgstr "lên"
 
-#: klipper.cpp:1031
+#: klipper.cpp:1037
 #, kde-format
 msgid "current"
 msgstr "hiện tại"
 
-#: klipper.cpp:1038
+#: klipper.cpp:1044
 #, kde-format
 msgid "down"
 msgstr "xuống"
@@ -592,27 +593,27 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "Lặp lại hành động trong lịch sử"
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:73 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
-msgstr "<bảng nháp trống>"
+msgid "Clipboard is empty"
+msgstr "Bảng nháp trống"
 
-#: klipperpopup.cpp:73
+#: klipperpopup.cpp:74
 #, kde-format
-msgid "<no matches>"
-msgstr "<không có tương ứng>"
+msgid "No matches"
+msgstr "Không có mục khớp"
 
-#: klipperpopup.cpp:121
+#: klipperpopup.cpp:125
 #, kde-format
 msgid "Klipper - Clipboard Tool"
 msgstr "Klipper - công cụ bảng nháp"
 
-#: klipperpopup.cpp:125
+#: klipperpopup.cpp:129
 #, kde-format
 msgid "Search..."
 msgstr "Tìm kiếm..."
 
-#: klipperpopup.cpp:134 main.cpp:43
+#: klipperpopup.cpp:138 main.cpp:43
 #, kde-format
 msgid "KDE cut & paste history utility"
 msgstr "Tiện ích lịch sử cắt & dán của KDE"
@@ -715,11 +716,6 @@ msgstr "Thê&m"
 msgid "Clipboard Contents"
 msgstr "Nội dung bảng nháp"
 
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "Bảng nháp trống"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -734,3 +730,13 @@ msgstr "Tắt ô bật lên này"
 #, kde-format
 msgid "&Cancel"
 msgstr "H&uỷ"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<bảng nháp trống>"
+
+#~ msgid ""
+#~ "You can enable URL actions later by left-clicking on the Klipper icon and "
+#~ "selecting 'Enable Clipboard Actions'"
+#~ msgstr ""
+#~ "Về sau bạn có thể bật các hành động cho URL bằng cách bấm trái vào biểu "
+#~ "tượng Klipper và chọn 'Bật hành động bảng nháp'"

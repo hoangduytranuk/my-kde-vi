@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 11:57+0100\n"
+"POT-Creation-Date: 2021-05-12 00:21+0000\n"
 "PO-Revision-Date: 2021-03-08 10:30+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -48,13 +48,7 @@ msgstr "Trình chuyển bố cục bàn phím"
 msgid "Switch keyboard layout to %1"
 msgstr "Chuyển bố cục bàn phím sang %1"
 
-#: flags.cpp:166
-#, kde-format
-msgctxt "short layout label - full layout name"
-msgid "%1 - %2"
-msgstr "%1 - %2"
-
-#: flags.cpp:174
+#: flags.cpp:144
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -65,7 +59,7 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "Bất kì"
 
-#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:292
+#: kcm_add_layout_dialog.cpp:136 kcm_view_models.cpp:285
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -109,7 +103,7 @@ msgstr "Giới hạn lựa chọn bằng ngôn ngữ:"
 
 #. i18n: ectx: property (text), widget (QPushButton, prevbutton)
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:352
+#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:315
 #, kde-format
 msgid "Preview"
 msgstr "Xem thử"
@@ -168,44 +162,8 @@ msgstr ""
 msgid "Layouts"
 msgstr "Bố cục"
 
-#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup)
-#: kcm_keyboard.ui:102
-#, kde-format
-msgid "Layout Indicator"
-msgstr "Trình biểu thị bố cục"
-
-#. i18n: ectx: property (text), widget (QCheckBox, showIndicatorChk)
-#: kcm_keyboard.ui:108
-#, kde-format
-msgid "Show layout indicator"
-msgstr "Hiện trình biểu thị bố cục"
-
-#. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
-#: kcm_keyboard.ui:115
-#, kde-format
-msgid "Show for single layout"
-msgstr "Hiện cả khi chỉ có một bố cục"
-
-#. i18n: ectx: property (text), widget (QRadioButton, showFlagRadioBtn)
-#: kcm_keyboard.ui:122
-#, kde-format
-msgid "Show flag"
-msgstr "Hiện cờ"
-
-#. i18n: ectx: property (text), widget (QRadioButton, showLabelRadioBtn)
-#: kcm_keyboard.ui:129
-#, kde-format
-msgid "Show label"
-msgstr "Hiện nhãn"
-
-#. i18n: ectx: property (text), widget (QRadioButton, showLabelOnFlagRadioBtn)
-#: kcm_keyboard.ui:136
-#, kde-format
-msgid "Show label on flag"
-msgstr "Hiện nhãn trên cờ"
-
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, switchingPolicyGroupBox)
-#: kcm_keyboard.ui:146
+#: kcm_keyboard.ui:102
 #, kde-format
 msgid ""
 "If you select \"Application\" or \"Window\" switching policy, changing the "
@@ -215,49 +173,49 @@ msgstr ""
 "thay đổi bố cục bàn phím sẽ chỉ ảnh hưởng đến ứng dụng hoặc cửa sổ hiện tại."
 
 #. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyGroupBox)
-#: kcm_keyboard.ui:149
+#: kcm_keyboard.ui:105
 #, kde-format
 msgid "Switching Policy"
 msgstr "Chính sách chuyển đổi"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
-#: kcm_keyboard.ui:155
+#: kcm_keyboard.ui:111
 #, kde-format
 msgid "&Global"
 msgstr "T&oàn cục"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
-#: kcm_keyboard.ui:168
+#: kcm_keyboard.ui:124
 #, kde-format
 msgid "&Desktop"
 msgstr "&Bàn làm việc"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByApplicationRadioBtn)
-#: kcm_keyboard.ui:178
+#: kcm_keyboard.ui:134
 #, kde-format
 msgid "&Application"
 msgstr "Ứ&ng dụng"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
-#: kcm_keyboard.ui:188
+#: kcm_keyboard.ui:144
 #, kde-format
 msgid "&Window"
 msgstr "Cửa &sổ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
-#: kcm_keyboard.ui:201
+#: kcm_keyboard.ui:157
 #, kde-format
 msgid "Shortcuts for Switching Layout"
 msgstr "Phím tắt để chuyển bố cục"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: kcm_keyboard.ui:207
+#: kcm_keyboard.ui:163
 #, kde-format
 msgid "Main shortcuts:"
 msgstr "Phím tắt chính:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, xkbGrpShortcutBtn)
-#: kcm_keyboard.ui:220
+#: kcm_keyboard.ui:176
 #, kde-format
 msgid ""
 "This is a shortcut for switching layouts which is handled by X.org. It "
@@ -268,7 +226,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, xkbGrpShortcutBtn)
 #. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
-#: kcm_keyboard.ui:223 kcm_keyboard.ui:253
+#: kcm_keyboard.ui:179 kcm_keyboard.ui:209
 #, kde-format
 msgctxt "no shortcut defined"
 msgid "None"
@@ -276,19 +234,19 @@ msgstr "Không"
 
 #. i18n: ectx: property (text), widget (QToolButton, xkbGrpClearBtn)
 #. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
-#: kcm_keyboard.ui:230 kcm_keyboard.ui:260
+#: kcm_keyboard.ui:186 kcm_keyboard.ui:216
 #, kde-format
 msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcm_keyboard.ui:237
+#: kcm_keyboard.ui:193
 #, kde-format
 msgid "3rd level shortcuts:"
 msgstr "Phím tắt cấp độ ba:"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, xkb3rdLevelShortcutBtn)
-#: kcm_keyboard.ui:250
+#: kcm_keyboard.ui:206
 #, kde-format
 msgid ""
 "This is a shortcut for switching to a third level of the active layout (if "
@@ -298,13 +256,13 @@ msgstr ""
 "được xử lí bởi X.org. Cho phép cả các phím tắt chỉ bao gồm phím bổ trợ."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcm_keyboard.ui:267
+#: kcm_keyboard.ui:223
 #, kde-format
 msgid "Alternative shortcut:"
 msgstr "Phím tắt thay thế:"
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, kdeKeySequence)
-#: kcm_keyboard.ui:280
+#: kcm_keyboard.ui:236
 #, kde-format
 msgid ""
 "This is a shortcut for switching layouts. It does not support modifier-only "
@@ -316,111 +274,111 @@ msgstr ""
 "nếu đang có ô bật lên hoặc ở trình bảo vệ màn hình)."
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
-#: kcm_keyboard.ui:298
+#: kcm_keyboard.ui:261
 #, kde-format
 msgid "Configure layouts"
 msgstr "Cấu hình bố cục"
 
 #. i18n: ectx: property (text), widget (QPushButton, addLayoutBtn)
-#: kcm_keyboard.ui:312
+#: kcm_keyboard.ui:275
 #, kde-format
 msgid "Add"
 msgstr "Thêm"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeLayoutBtn)
-#: kcm_keyboard.ui:322
+#: kcm_keyboard.ui:285
 #, kde-format
 msgid "Remove"
 msgstr "Xoá"
 
 #. i18n: ectx: property (text), widget (QPushButton, moveUpBtn)
-#: kcm_keyboard.ui:332
+#: kcm_keyboard.ui:295
 #, kde-format
 msgid "Move Up"
 msgstr "Chuyển lên"
 
 #. i18n: ectx: property (text), widget (QPushButton, moveDownBtn)
-#: kcm_keyboard.ui:342
+#: kcm_keyboard.ui:305
 #, kde-format
 msgid "Move Down"
 msgstr "Chuyển xuống"
 
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
-#: kcm_keyboard.ui:387
+#: kcm_keyboard.ui:350
 #, kde-format
 msgid "Spare layouts"
 msgstr "Bố cục phụ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: kcm_keyboard.ui:419
+#: kcm_keyboard.ui:382
 #, kde-format
 msgid "Main layout count:"
 msgstr "Số lượng bố cục chính:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
-#: kcm_keyboard.ui:449
+#: kcm_keyboard.ui:412
 #, kde-format
 msgid "Advanced"
 msgstr "Nâng cao"
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
-#: kcm_keyboard.ui:455
+#: kcm_keyboard.ui:418
 #, kde-format
 msgid "&Configure keyboard options"
 msgstr "Cấu hình các &lựa chọn bàn phím"
 
-#: kcm_keyboard_widget.cpp:199
+#: kcm_keyboard_widget.cpp:196
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: kcm_keyboard_widget.cpp:201
+#: kcm_keyboard_widget.cpp:198
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr "%1 | %2"
 
-#: kcm_keyboard_widget.cpp:212
+#: kcm_keyboard_widget.cpp:209
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] "Chỉ hỗ trợ tối đa %1 bố cục bàn phím"
 
-#: kcm_keyboard_widget.cpp:590
+#: kcm_keyboard_widget.cpp:584
 #, kde-format
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Không"
 
-#: kcm_keyboard_widget.cpp:604
+#: kcm_keyboard_widget.cpp:598
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] "%1 phím tắt"
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Mã"
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Layout"
 msgstr "Bố cục"
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Variant"
 msgstr "Biến thế"
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Label"
 msgstr "Nhãn"
 
-#: kcm_view_models.cpp:215
+#: kcm_view_models.cpp:212
 #, kde-format
 msgid "Shortcut"
 msgstr "Phím tắt"
@@ -440,8 +398,8 @@ msgstr "&Hiện các kí tự có dấu phụ và tương tự"
 #. i18n: ectx: property (text), widget (QRadioButton, repeatRadioButton)
 #: kcmmiscwidget.ui:45
 #, kde-format
-msgid "&Repeat the key being held"
-msgstr "Lặp lạ&i phím được giữ"
+msgid "&Repeat the key"
+msgstr "Lặp lạ&i phím"
 
 #. i18n: ectx: property (text), widget (QRadioButton, nothingRadioButton)
 #: kcmmiscwidget.ui:52
@@ -549,17 +507,6 @@ msgstr " ms"
 msgid "&Delay:"
 msgstr "Độ t&rễ:"
 
-#: layout_tray_icon.cpp:43 layout_tray_icon.cpp:44
-#, kde-format
-msgctxt "tooltip title"
-msgid "Keyboard Layout"
-msgstr "Bố cục bàn phím"
-
-#: layouts_menu.cpp:131
-#, kde-format
-msgid "Configure Layouts..."
-msgstr "Cấu hình bố cục..."
-
 #: tastenbrett/main.cpp:67
 #, kde-format
 msgctxt "app display name"
@@ -585,6 +532,35 @@ msgstr ""
 "được chọn không hỗ trợ một bố cục hoặc biến thể bố cục nhất định. Vấn đề này "
 "cũng sẽ có thể xuất hiện khi bạn thử dùng mẫu mã, bố cục và biến thể này đi "
 "kèm với nhau."
+
+#~ msgctxt "short layout label - full layout name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgid "Layout Indicator"
+#~ msgstr "Trình biểu thị bố cục"
+
+#~ msgid "Show layout indicator"
+#~ msgstr "Hiện trình biểu thị bố cục"
+
+#~ msgid "Show for single layout"
+#~ msgstr "Hiện cả khi chỉ có một bố cục"
+
+#~ msgid "Show flag"
+#~ msgstr "Hiện cờ"
+
+#~ msgid "Show label"
+#~ msgstr "Hiện nhãn"
+
+#~ msgid "Show label on flag"
+#~ msgstr "Hiện nhãn trên cờ"
+
+#~ msgctxt "tooltip title"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Bố cục bàn phím"
+
+#~ msgid "Configure Layouts..."
+#~ msgstr "Cấu hình bố cục..."
 
 #, fuzzy
 #~| msgid "Keyboard Repeat"

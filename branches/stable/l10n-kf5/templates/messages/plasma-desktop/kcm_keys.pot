@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 11:57+0100\n"
+"POT-Creation-Date: 2021-05-01 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,30 +28,30 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: globalaccelmodel.cpp:118
+#: globalaccelmodel.cpp:126
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: globalaccelmodel.cpp:118 globalaccelmodel.cpp:258
+#: globalaccelmodel.cpp:126 globalaccelmodel.cpp:272
 #, kde-format
 msgid "System Services"
 msgstr ""
 
-#: globalaccelmodel.cpp:186
+#: globalaccelmodel.cpp:200
 #, kde-format
 msgctxt ""
 "%1 is the name of the component, %2 is the action for which saving failed"
 msgid "Error while saving shortcut %1: %2"
 msgstr ""
 
-#: globalaccelmodel.cpp:279
+#: globalaccelmodel.cpp:293
 #, kde-format
 msgctxt "%1 is the name of an application"
 msgid "Error while adding %1, it seems it has no actions."
 msgstr ""
 
-#: globalaccelmodel.cpp:322
+#: globalaccelmodel.cpp:336
 #, kde-format
 msgid "Error while communicating with the global shortcuts service"
 msgstr ""
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Failed to communicate with global shortcuts daemon"
 msgstr ""
 
-#: kcm_keys.cpp:229 package/contents/ui/main.qml:127
+#: kcm_keys.cpp:229 package/contents/ui/main.qml:133
 #: standardshortcutsmodel.cpp:43
 #, kde-format
 msgid "Common Actions"
@@ -114,78 +114,83 @@ msgstr ""
 msgid "Save scheme"
 msgstr ""
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:141
 #, kde-format
 msgid "Remove all shortcuts for %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:145
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgid "Undo deletion"
 msgstr ""
 
-#: package/contents/ui/main.qml:220
+#: package/contents/ui/main.qml:228
 #, kde-format
 msgid "Select an item from the list to view its shortcuts here"
 msgstr ""
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:235
 #, kde-format
 msgid "Add Application..."
 msgstr ""
 
-#: package/contents/ui/main.qml:237
+#: package/contents/ui/main.qml:245
 #, kde-format
 msgid "Import Scheme..."
 msgstr ""
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:250
 #, kde-format
 msgid "Cancel Export"
 msgstr ""
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:250
 #, kde-format
 msgid "Export Scheme..."
 msgstr ""
 
-#: package/contents/ui/main.qml:263
+#: package/contents/ui/main.qml:271
 #, kde-format
 msgid "Export Shortcut Scheme"
 msgstr ""
 
-#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:286
+#: package/contents/ui/main.qml:271 package/contents/ui/main.qml:294
 #, kde-format
 msgid "Import Shortcut Scheme"
 msgstr ""
 
-#: package/contents/ui/main.qml:265
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgctxt "Template for file dialog"
 msgid "Shortcut Scheme (*.kksrc)"
 msgstr ""
 
-#: package/contents/ui/main.qml:292
+#: package/contents/ui/main.qml:300
 #, kde-format
 msgid "Select the scheme to import:"
 msgstr ""
 
-#: package/contents/ui/main.qml:304
+#: package/contents/ui/main.qml:312
 #, kde-format
 msgid "Custom Scheme"
 msgstr ""
 
-#: package/contents/ui/main.qml:309
+#: package/contents/ui/main.qml:317
 #, kde-format
 msgid "Select File..."
 msgstr ""
 
-#: package/contents/ui/main.qml:309
+#: package/contents/ui/main.qml:317
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:46
+#: package/contents/ui/ShortcutActionDelegate.qml:38
+#, kde-format
+msgid "Editing shortcut: %1"
+msgstr ""
+
+#: package/contents/ui/ShortcutActionDelegate.qml:50
 #, kde-format
 msgctxt ""
 "%1 is the name action that is triggered by the key sequences following "
@@ -193,12 +198,12 @@ msgctxt ""
 msgid "%1:"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:59
+#: package/contents/ui/ShortcutActionDelegate.qml:63
 #, kde-format
 msgid "No active shortcuts"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:99
+#: package/contents/ui/ShortcutActionDelegate.qml:102
 #, kde-format
 msgctxt "%1 decides if singular or plural will be used"
 msgid "Default shortcut"
@@ -206,27 +211,37 @@ msgid_plural "Default shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:101
+#: package/contents/ui/ShortcutActionDelegate.qml:104
 #, kde-format
 msgid "No default shortcuts"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:129
+#: package/contents/ui/ShortcutActionDelegate.qml:112
+#, kde-format
+msgid "Default shortcut %1 is enabled."
+msgstr ""
+
+#: package/contents/ui/ShortcutActionDelegate.qml:112
+#, kde-format
+msgid "Default shortcut %1 is disabled."
+msgstr ""
+
+#: package/contents/ui/ShortcutActionDelegate.qml:133
 #, kde-format
 msgid "Custom shortcuts"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:153
+#: package/contents/ui/ShortcutActionDelegate.qml:157
 #, kde-format
 msgid "Delete this shortcut"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:159
+#: package/contents/ui/ShortcutActionDelegate.qml:163
 #, kde-format
 msgid "Add custom shortcut"
 msgstr ""
 
-#: package/contents/ui/ShortcutActionDelegate.qml:193
+#: package/contents/ui/ShortcutActionDelegate.qml:197
 #, kde-format
 msgid "Cancel capturing of new shortcut"
 msgstr ""

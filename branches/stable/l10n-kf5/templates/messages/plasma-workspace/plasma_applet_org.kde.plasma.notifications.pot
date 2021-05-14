@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-28 08:05+0100\n"
+"POT-Creation-Date: 2021-05-08 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: filemenu.cpp:127 package/contents/ui/JobItem.qml:226
+#: filemenu.cpp:127 package/contents/ui/JobItem.qml:268
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
@@ -28,7 +28,13 @@ msgstr ""
 msgid "&Copy"
 msgstr ""
 
-#: filemenu.cpp:190
+#: filemenu.cpp:148
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr ""
+
+#: filemenu.cpp:201
 #, kde-format
 msgid "Properties"
 msgstr ""
@@ -60,7 +66,7 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: package/contents/ui/EditContextMenu.qml:74
+#: package/contents/ui/EditContextMenu.qml:75
 #, kde-format
 msgid "Select All"
 msgstr ""
@@ -125,35 +131,35 @@ msgctxt "Do not disturb because external mirrored screens connected"
 msgid "Screens are mirrored"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:409
+#: package/contents/ui/FullRepresentation.qml:408
 #, kde-format
 msgid "Close Group"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:540
+#: package/contents/ui/FullRepresentation.qml:547
 #, kde-format
 msgid "Show Fewer"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:542
+#: package/contents/ui/FullRepresentation.qml:549
 #, kde-format
 msgctxt "Expand to show n more notifications"
 msgid "Show %1 More"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:567
+#: package/contents/ui/FullRepresentation.qml:574
 #: package/contents/ui/main.qml:89
 #, kde-format
 msgid "No unread notifications"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:581
+#: package/contents/ui/FullRepresentation.qml:582
 #: package/contents/ui/main.qml:66
 #, kde-format
 msgid "Notification service not available"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:593
+#: package/contents/ui/FullRepresentation.qml:596
 #, kde-format
 msgctxt "Vendor and product name"
 msgid "Notifications are currently provided by '%1 %2'"
@@ -222,38 +228,48 @@ msgctxt "Bytes per second"
 msgid "%1/s"
 msgstr ""
 
-#: package/contents/ui/JobItem.qml:148
+#: package/contents/ui/JobItem.qml:182
 #, kde-format
 msgctxt "Pause running job"
 msgid "Pause"
 msgstr ""
 
-#: package/contents/ui/JobItem.qml:158
+#: package/contents/ui/JobItem.qml:192
 #, kde-format
 msgctxt "Cancel running job"
 msgid "Cancel"
 msgstr ""
 
-#: package/contents/ui/JobItem.qml:169
+#: package/contents/ui/JobItem.qml:203
 #, kde-format
 msgctxt "A button tooltip; hides item details"
 msgid "Hide Details"
 msgstr ""
 
-#: package/contents/ui/JobItem.qml:170
+#: package/contents/ui/JobItem.qml:204
 #, kde-format
 msgctxt "A button tooltip; expands the item to show details"
 msgid "Show Details"
 msgstr ""
 
-#: package/contents/ui/JobItem.qml:211 package/contents/ui/ThumbnailStrip.qml:159
+#: package/contents/ui/JobItem.qml:246 package/contents/ui/ThumbnailStrip.qml:159
 #, kde-format
 msgid "More Options..."
 msgstr ""
 
-#: package/contents/ui/JobItem.qml:227
+#: package/contents/ui/JobItem.qml:260
 #, kde-format
 msgid "Open"
+msgstr ""
+
+#: package/contents/ui/JobItem.qml:276
+#, kde-format
+msgid "Open with %1"
+msgstr ""
+
+#: package/contents/ui/JobItem.qml:284
+#, kde-format
+msgid "Open with..."
 msgstr ""
 
 #: package/contents/ui/main.qml:62
@@ -275,12 +291,12 @@ msgstr[1] ""
 msgid "Do not disturb until %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:175
+#: package/contents/ui/main.qml:181
 #, kde-format
-msgid "Clear History"
+msgid "Clear All Notifications"
 msgstr ""
 
-#: package/contents/ui/main.qml:182
+#: package/contents/ui/main.qml:191
 #, kde-format
 msgid "&Configure Event Notifications and Actions..."
 msgstr ""
@@ -338,35 +354,35 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: package/contents/ui/NotificationItem.qml:193
+#: package/contents/ui/NotificationItem.qml:194
 #, kde-format
 msgctxt "Job name, e.g. Copying is paused"
 msgid "%1 (Paused)"
 msgstr ""
 
-#: package/contents/ui/NotificationItem.qml:198
+#: package/contents/ui/NotificationItem.qml:199
 #, kde-format
 msgctxt "Job name, e.g. Copying has failed"
 msgid "%1 (Failed)"
 msgstr ""
 
-#: package/contents/ui/NotificationItem.qml:200
+#: package/contents/ui/NotificationItem.qml:201
 #, kde-format
 msgid "Job Failed"
 msgstr ""
 
-#: package/contents/ui/NotificationItem.qml:204
+#: package/contents/ui/NotificationItem.qml:205
 #, kde-format
 msgctxt "Job name, e.g. Copying has finished"
 msgid "%1 (Finished)"
 msgstr ""
 
-#: package/contents/ui/NotificationItem.qml:206
+#: package/contents/ui/NotificationItem.qml:207
 #, kde-format
 msgid "Job Finished"
 msgstr ""
 
-#: package/contents/ui/NotificationItem.qml:364
+#: package/contents/ui/NotificationItem.qml:344
 #, kde-format
 msgctxt "Reply to message"
 msgid "Reply"

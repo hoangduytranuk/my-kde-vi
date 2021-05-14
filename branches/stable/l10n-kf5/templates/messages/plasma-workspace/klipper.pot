@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-27 08:09+0100\n"
+"POT-Creation-Date: 2021-05-07 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -305,120 +305,121 @@ msgstr ""
 msgid "%1x%2 %3bpp"
 msgstr ""
 
-#: klipper.cpp:129
+#: klipper.cpp:130
 #, kde-format
 msgid "Enable Clipboard Actions"
 msgstr ""
 
-#: klipper.cpp:152
+#: klipper.cpp:153
 #, kde-format
 msgid "C&lear Clipboard History"
 msgstr ""
 
-#: klipper.cpp:159
+#: klipper.cpp:160
 #, kde-format
 msgid "&Configure Klipper..."
 msgstr ""
 
-#: klipper.cpp:164
+#: klipper.cpp:166
 #, kde-format
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr ""
 
-#: klipper.cpp:168
+#: klipper.cpp:171
 #, kde-format
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:175
+#: klipper.cpp:178
 #, kde-format
 msgid "&Edit Contents..."
 msgstr ""
 
-#: klipper.cpp:183
+#: klipper.cpp:186
 #, kde-format
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:191
+#: klipper.cpp:194
 #, kde-format
 msgid "Next History Item"
 msgstr ""
 
-#: klipper.cpp:195
+#: klipper.cpp:198
 #, kde-format
 msgid "Previous History Item"
 msgstr ""
 
-#: klipper.cpp:201
+#: klipper.cpp:204
 #, kde-format
 msgid "Open Klipper at Mouse Position"
 msgstr ""
 
-#: klipper.cpp:483
-#, kde-format
+#: klipper.cpp:488
+#, kde-kuit-format
+msgctxt "@info"
 msgid ""
-"You can enable URL actions later by left-clicking on the Klipper icon and "
-"selecting 'Enable Clipboard Actions'"
+"You can enable URL actions later in the <interface>Actions</interface> page "
+"of the Clipboard applet's configuration window"
 msgstr ""
 
-#: klipper.cpp:517
+#: klipper.cpp:523
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr ""
 
-#: klipper.cpp:518
+#: klipper.cpp:524
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr ""
 
-#: klipper.cpp:519
+#: klipper.cpp:525
 #, kde-format
 msgid "Start"
 msgstr ""
 
-#: klipper.cpp:520
+#: klipper.cpp:526
 #, kde-format
 msgid "Do Not Start"
 msgstr ""
 
-#: klipper.cpp:867
+#: klipper.cpp:873
 #, kde-format
 msgid "Edit Contents"
 msgstr ""
 
-#: klipper.cpp:934
+#: klipper.cpp:940
 #, kde-format
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:981
+#: klipper.cpp:987
 #, kde-format
 msgid "Really delete entire clipboard history?"
 msgstr ""
 
-#: klipper.cpp:982
+#: klipper.cpp:988
 #, kde-format
 msgid "Delete clipboard history?"
 msgstr ""
 
-#: klipper.cpp:998 klipper.cpp:1007
+#: klipper.cpp:1004 klipper.cpp:1013
 #, kde-format
 msgid "Clipboard history"
 msgstr ""
 
-#: klipper.cpp:1024
+#: klipper.cpp:1030
 #, kde-format
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1031
+#: klipper.cpp:1037
 #, kde-format
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1038
+#: klipper.cpp:1044
 #, kde-format
 msgid "down"
 msgstr ""
@@ -559,27 +560,27 @@ msgstr ""
 msgid "Replay action in history"
 msgstr ""
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:73 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
+msgid "Clipboard is empty"
 msgstr ""
 
-#: klipperpopup.cpp:73
+#: klipperpopup.cpp:74
 #, kde-format
-msgid "<no matches>"
-msgstr ""
-
-#: klipperpopup.cpp:121
-#, kde-format
-msgid "Klipper - Clipboard Tool"
+msgid "No matches"
 msgstr ""
 
 #: klipperpopup.cpp:125
 #, kde-format
+msgid "Klipper - Clipboard Tool"
+msgstr ""
+
+#: klipperpopup.cpp:129
+#, kde-format
 msgid "Search..."
 msgstr ""
 
-#: klipperpopup.cpp:134 main.cpp:43
+#: klipperpopup.cpp:138 main.cpp:43
 #, kde-format
 msgid "KDE cut & paste history utility"
 msgstr ""
@@ -677,11 +678,6 @@ msgstr ""
 #: tray.cpp:38
 #, kde-format
 msgid "Clipboard Contents"
-msgstr ""
-
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
 msgstr ""
 
 #: urlgrabber.cpp:185

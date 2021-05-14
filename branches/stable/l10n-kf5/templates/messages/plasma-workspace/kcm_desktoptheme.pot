@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-05 08:49+0100\n"
+"POT-Creation-Date: 2021-05-03 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -113,22 +113,67 @@ msgstr ""
 msgid "Restore Theme"
 msgstr ""
 
-#: package/contents/ui/main.qml:183
+#: package/contents/ui/main.qml:186
 #, kde-format
 msgid "Install from File..."
 msgstr ""
 
-#: package/contents/ui/main.qml:188
+#: package/contents/ui/main.qml:191
 #, kde-format
 msgid "Get New Plasma Styles..."
 msgstr ""
 
-#: package/contents/ui/main.qml:233
+#: package/contents/ui/main.qml:236
 #, kde-format
 msgid "Open Theme"
 msgstr ""
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:238
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:43
+#, kde-format
+msgid ""
+"This tool allows you to set the theme of the current Plasma session, without "
+"accidentally setting it to one that is either not available, or which is "
+"already set."
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:47
+#, kde-format
+msgid ""
+"The name of the theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:48
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:61
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:77
+#, kde-format
+msgid "The current Plasma session's theme has been set to %1"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:79
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:87
+#, kde-format
+msgid "You have the following Plasma themes on your system:"
 msgstr ""

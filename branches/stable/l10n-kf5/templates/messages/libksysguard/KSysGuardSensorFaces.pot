@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-12 09:07+0100\n"
+"POT-Creation-Date: 2021-05-05 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,55 +18,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Choices.qml:313
+#: Choices.qml:310
+#, kde-format
+msgid "Search..."
+msgstr ""
+
+#: Choices.qml:323
 #, kde-format
 msgctxt "@action:button"
 msgid "Back"
 msgstr ""
 
-#: Choices.qml:323
-#, kde-format
-msgid "Search..."
-msgstr ""
-
-#: ConfigAppearance.qml:107
+#: ConfigAppearance.qml:120
 #, kde-format
 msgid "Presets:"
 msgstr ""
 
-#: ConfigAppearance.qml:111
+#: ConfigAppearance.qml:124
 #, kde-format
 msgid "Load Preset..."
 msgstr ""
 
-#: ConfigAppearance.qml:116
+#: ConfigAppearance.qml:129
 #, kde-format
 msgid "Get new presets..."
 msgstr ""
 
-#: ConfigAppearance.qml:128
+#: ConfigAppearance.qml:141
 #, kde-format
 msgid "Save Settings As Preset"
 msgstr ""
 
-#: ConfigAppearance.qml:139
+#: ConfigAppearance.qml:152
 #, kde-format
 msgid "Title:"
 msgstr ""
 
-#: ConfigAppearance.qml:145
+#: ConfigAppearance.qml:158
 #, kde-format
 msgid "Show Title"
 msgstr ""
 
-#: ConfigAppearance.qml:150
+#: ConfigAppearance.qml:163
 #, kde-format
 msgid "Display Style:"
 msgstr ""
 
-#: ConfigAppearance.qml:170
+#: ConfigAppearance.qml:183
 #, kde-format
 msgid "Get New Display Styles..."
+msgstr ""
+
+#: ConfigAppearance.qml:192
+#, kde-format
+msgid "Minimum Time Between Updates:"
+msgstr ""
+
+#: ConfigAppearance.qml:201
+#, kde-format
+msgid "No Limit"
+msgstr ""
+
+#. i18ndp doesn't handle floats :(
+#: ConfigAppearance.qml:205
+#, kde-format
+msgid "1 second"
+msgstr ""
+
+#: ConfigAppearance.qml:207
+#, kde-format
+msgid "%1 seconds"
 msgstr ""
 
 #: ConfigSensors.qml:135
@@ -215,7 +236,7 @@ msgstr ""
 msgid "Rounded Lines"
 msgstr ""
 
-#: facepackages/textonly/contents/ui/Config.qml:36
+#: facepackages/textonly/contents/ui/Config.qml:37
 #, kde-format
 msgid "Group sensors based on the value of the total sensors."
 msgstr ""
@@ -255,4 +276,9 @@ msgstr ""
 #: packagestructure/sensorfacepackage.cpp:48
 #, kde-format
 msgid "The configuration file that describes face properties and capabilities."
+msgstr ""
+
+#: SensorFaceController.cpp:416
+#, kde-format
+msgid "System Monitor Sensor"
 msgstr ""

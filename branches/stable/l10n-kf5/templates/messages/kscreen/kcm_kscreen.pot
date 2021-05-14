@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kscreen\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-06 01:46+0000\n"
+"POT-Creation-Date: 2021-04-30 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,18 +57,18 @@ msgstr ""
 msgid "%1 Hz"
 msgstr ""
 
-#: output_model.cpp:478
+#: output_model.cpp:528
 #, kde-format
 msgctxt "Width x height (aspect ratio)"
 msgid "%1x%2 (%3:%4)"
 msgstr ""
 
-#: output_model.cpp:555
+#: output_model.cpp:605
 #, kde-format
 msgid "None"
 msgstr ""
 
-#: output_model.cpp:562
+#: output_model.cpp:612
 #, kde-format
 msgid "Replicated by other output"
 msgstr ""
@@ -116,6 +116,7 @@ msgid "Orientation:"
 msgstr ""
 
 #: package/contents/ui/Orientation.qml:37
+#: package/contents/ui/OutputPanel.qml:113
 #, kde-format
 msgid "Automatic"
 msgstr ""
@@ -135,39 +136,59 @@ msgstr ""
 msgid "Replicas"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:32
+#: package/contents/ui/OutputPanel.qml:33
 #, kde-format
 msgid "Enabled"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:39
+#: package/contents/ui/OutputPanel.qml:40
 #, kde-format
 msgid "Primary"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:46
+#: package/contents/ui/OutputPanel.qml:47
 #, kde-format
 msgid "Resolution:"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:57
+#: package/contents/ui/OutputPanel.qml:60
 #, kde-format
 msgid "Scale:"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:86
-#: package/contents/ui/Panel.qml:118
+#: package/contents/ui/OutputPanel.qml:89
+#: package/contents/ui/Panel.qml:119
 #, kde-format
 msgctxt "Global scale factor expressed in percentage form"
 msgid "%1%"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:98
+#: package/contents/ui/OutputPanel.qml:101
 #, kde-format
 msgid "Refresh rate:"
 msgstr ""
 
-#: package/contents/ui/OutputPanel.qml:106
+#: package/contents/ui/OutputPanel.qml:109
+#, kde-format
+msgid "Adaptive sync:"
+msgstr ""
+
+#: package/contents/ui/OutputPanel.qml:111
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#: package/contents/ui/OutputPanel.qml:112
+#, kde-format
+msgid "Always"
+msgstr ""
+
+#: package/contents/ui/OutputPanel.qml:124
+#, kde-format
+msgid "Overscan:"
+msgstr ""
+
+#: package/contents/ui/OutputPanel.qml:139
 #, kde-format
 msgid "Replica of:"
 msgstr ""
@@ -177,29 +198,29 @@ msgstr ""
 msgid "Device:"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:82
+#: package/contents/ui/Panel.qml:83
 #, kde-format
 msgid "Global scale:"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:139
+#: package/contents/ui/Panel.qml:140
 #, kde-format
 msgid ""
 "The global scale factor is limited to multiples of 6.25% to minimize visual "
 "glitches in applications using the X11 windowing system."
 msgstr ""
 
-#: package/contents/ui/Panel.qml:151
+#: package/contents/ui/Panel.qml:152
 #, kde-format
 msgid "Save displays' properties:"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:157
+#: package/contents/ui/Panel.qml:158
 #, kde-format
 msgid "For any display arrangement"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:164
+#: package/contents/ui/Panel.qml:165
 #, kde-format
 msgid "For only this specific display arrangement"
 msgstr ""

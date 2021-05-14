@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:15+0000\n"
+"POT-Creation-Date: 2021-05-13 00:15+0000\n"
 "PO-Revision-Date: 2021-02-22 11:44+0100\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -286,28 +286,29 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "Ủn&g hộ KDE"
 
-#: kabstractaboutdialog_p.cpp:35
-#, kde-format
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr "<html><font size=\"5\">%1</font><br />Phiên bản %2</html>"
+#: kabstractaboutdialog_p.cpp:36
+#, fuzzy, kde-format
+#| msgid "Version:"
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "Phiên bản:"
 
 #: kabstractaboutdialog_p.cpp:79
 #, kde-format
 msgid "License: %1"
 msgstr "Giấy phép: %1"
 
-#: kabstractaboutdialog_p.cpp:111
+#: kabstractaboutdialog_p.cpp:112
 #, kde-format
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
+msgctxt "Reference to website"
+msgid "Please use %1 to report bugs.\n"
 msgstr ""
-"Vui lòng sử dụng <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> "
-"để báo lỗi.\n"
 
-#: kabstractaboutdialog_p.cpp:117
-#, kde-format
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+#: kabstractaboutdialog_p.cpp:120
+#, fuzzy, kde-format
+#| msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+msgctxt "Reference to email address"
+msgid "Please report bugs to %1.\n"
 msgstr "Vui lòng báo lỗi đến <a href=\"%1\">%2</a>.\n"
 
 #: kactionconflictdetector.cpp:38
@@ -1508,6 +1509,16 @@ msgstr "Thiết &lập"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
+
+#~ msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
+#~ msgstr "<html><font size=\"5\">%1</font><br />Phiên bản %2</html>"
+
+#~ msgid ""
+#~ "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+#~ "report bugs.\n"
+#~ msgstr ""
+#~ "Vui lòng sử dụng <a href=\"https://bugs.kde.org\">https://bugs.kde.org</"
+#~ "a> để báo lỗi.\n"
 
 #~ msgid "The key you just pressed is not supported by Qt."
 #~ msgstr "Phím bạn vừa nhấn không được Qt hỗ trợ."

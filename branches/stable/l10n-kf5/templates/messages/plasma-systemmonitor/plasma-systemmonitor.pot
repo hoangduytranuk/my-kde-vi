@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-17 01:51+0000\n"
+"POT-Creation-Date: 2021-05-13 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,135 +17,179 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.cpp:79 src/main.qml:24
+#: src/main.cpp:76 src/main.qml:25
 #, kde-format
 msgid "System Monitor"
 msgstr ""
 
-#: src/main.cpp:81
+#: src/main.cpp:78
 #, kde-format
 msgid "An application for monitoring system resources"
 msgstr ""
 
-#: src/main.cpp:83
+#: src/main.cpp:80
 #, kde-format
 msgid "© 2020 Plasma Development Team"
 msgstr ""
 
-#: src/main.cpp:89
+#: src/main.cpp:86
 #, kde-format
 msgid "Arjen Hiemstra"
 msgstr ""
 
-#: src/main.cpp:89 src/main.cpp:92 src/main.cpp:94 src/main.cpp:95
+#: src/main.cpp:86 src/main.cpp:89 src/main.cpp:91 src/main.cpp:92
 #, kde-format
 msgid "Development"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:87
 #, kde-format
 msgid "Uri Herrera"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:87
 #, kde-format
 msgid "Design"
 msgstr ""
 
-#: src/main.cpp:91
+#: src/main.cpp:88
 #, kde-format
 msgid "Nate Graham"
 msgstr ""
 
-#: src/main.cpp:91 src/main.cpp:93
+#: src/main.cpp:88 src/main.cpp:90
 #, kde-format
 msgid "Design and Quality Assurance"
 msgstr ""
 
-#: src/main.cpp:92
+#: src/main.cpp:89
 #, kde-format
 msgid "David Redondo"
 msgstr ""
 
-#: src/main.cpp:93
+#: src/main.cpp:90
 #, kde-format
 msgid "Noah Davis"
 msgstr ""
 
-#: src/main.cpp:94
+#: src/main.cpp:91
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: src/main.cpp:95
+#: src/main.cpp:92
 #, kde-format
 msgid "David Edmundson"
 msgstr ""
 
-#: src/main.cpp:97
+#: src/main.cpp:94
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: src/main.cpp:97
+#: src/main.cpp:94
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: src/main.qml:60
+#: src/main.qml:63
 #, kde-format
 msgctxt "@action"
 msgid "Tools"
 msgstr ""
 
-#: src/main.qml:66
+#: src/main.qml:69
 #, kde-format
 msgctxt "@action"
 msgid "Edit or Remove pages..."
 msgstr ""
 
-#: src/main.qml:72
+#: src/main.qml:74
+#, kde-format
+msgctxt "@action"
+msgid "Export Current Page..."
+msgstr ""
+
+#: src/main.qml:81
+#, kde-format
+msgctxt "@action"
+msgid "Import Page..."
+msgstr ""
+
+#: src/main.qml:86
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Get New Pages..."
 msgstr ""
 
-#: src/main.qml:78
+#: src/main.qml:96
 #, kde-format
 msgctxt "@action"
 msgid "Expand Sidebar"
 msgstr ""
 
-#: src/main.qml:78
+#: src/main.qml:96
 #, kde-format
 msgctxt "@action"
 msgid "Collapse Sidebar"
 msgstr ""
 
-#: src/main.qml:83
+#: src/main.qml:104
+#, kde-format
+msgctxt "@action"
+msgid "Report Bug..."
+msgstr ""
+
+#: src/main.qml:109
 #, kde-format
 msgctxt "@action"
 msgid "About System Monitor"
 msgstr ""
 
-#: src/main.qml:107
+#: src/main.qml:133
 #, kde-format
 msgctxt "@action"
 msgid "Add New Page..."
 msgstr ""
 
-#: src/main.qml:166
+#: src/main.qml:199
 #, kde-format
 msgctxt "@window:title"
 msgid "Add New Page"
 msgstr ""
 
-#: src/main.qml:187
+#: src/main.qml:220
 #, kde-format
 msgctxt "@window:title"
 msgid "Edit Pages"
+msgstr ""
+
+#: src/main.qml:234
+#, kde-format
+msgctxt "@title:window %1 is the name of the page that is being exported"
+msgid "Export %1"
+msgstr ""
+
+#: src/main.qml:236 src/main.qml:247
+#, kde-format
+msgctxt "Name filter in file dialog"
+msgid "System Monitor page (*.page)"
+msgstr ""
+
+#: src/main.qml:245
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Page"
+msgstr ""
+
+#: src/main.qml:278
+#, kde-format
+msgid ""
+"System Monitor has fallen back to software rendering because hardware "
+"acceleration is not available, and visual glitches may appear. Please check "
+"your graphics drivers."
 msgstr ""
 
 #: src/page/ColumnControl.qml:109
@@ -160,10 +204,16 @@ msgctxt "@action"
 msgid "Add Separator"
 msgstr ""
 
-#: src/page/ColumnControl.qml:121
+#: src/page/ColumnControl.qml:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Background"
+msgstr ""
+
+#: src/page/ColumnControl.qml:129
+#, kde-format
+msgctxt "@action"
+msgid "Remove Background Margins"
 msgstr ""
 
 #: src/page/EditablePage.qml:123
@@ -250,64 +300,74 @@ msgctxt "@action"
 msgid "Get new presets..."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:48
+#: src/page/FaceConfigurationPage.qml:49
 #, kde-format
 msgctxt "@action"
 msgid "Save Settings as Preset"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:52
+#: src/page/FaceConfigurationPage.qml:53
 #, kde-format
 msgctxt "@info:status %1 is preset name"
 msgid "Saved settings as preset %1."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:57 src/page/PageContents.qml:157
+#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:169
 #, kde-format
 msgctxt "@action"
 msgid "Add Chart as Desktop Widget"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:66
+#: src/page/FaceConfigurationPage.qml:67
 #, kde-format
 msgctxt "@action"
 msgid "Get new display styles..."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:84
+#: src/page/FaceConfigurationPage.qml:86
 #, kde-format
 msgctxt "@info:status %1 is preset name"
 msgid "Loaded preset %1."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:93
-#, kde-format
-msgctxt "@title:window"
-msgid "Presets"
-msgstr ""
-
 #: src/page/FaceConfigurationPage.qml:103
-#, kde-format
-msgctxt "@title:window"
-msgid "Display Styles"
-msgstr ""
-
-#: src/page/FaceConfigurationPage.qml:120
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Title"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:126
+#: src/page/FaceConfigurationPage.qml:109
 #, kde-format
 msgctxt "@option:check"
 msgid "Show Title"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:144
+#: src/page/FaceConfigurationPage.qml:127
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Display Style"
+msgstr ""
+
+#: src/page/FaceConfigurationPage.qml:156
+#, kde-format
+msgctxt "@label"
+msgid "Minimum time between updates:"
+msgstr ""
+
+#: src/page/FaceConfigurationPage.qml:173
+#, kde-format
+msgid "No Limit"
+msgstr ""
+
+#. i18ndp doesn't handle floats :(
+#: src/page/FaceConfigurationPage.qml:177
+#, kde-format
+msgid "1 second"
+msgstr ""
+
+#: src/page/FaceConfigurationPage.qml:179
+#, kde-format
+msgid "%1 seconds"
 msgstr ""
 
 #: src/page/FacesModel.cpp:46
@@ -406,52 +466,63 @@ msgstr ""
 msgid "New Title"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:96
+#: src/page/PageSortDialog.qml:101
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show Page"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:97
+#: src/page/PageSortDialog.qml:102
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide Page"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:144
+#: src/page/PageSortDialog.qml:149
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Do not reset the page"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:148
+#: src/page/PageSortDialog.qml:153
 #, kde-format
 msgctxt "@item:intable"
 msgid "The page will be reset to its default state"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:157
+#: src/page/PageSortDialog.qml:162
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset the page to its default state"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:166
+#: src/page/PageSortDialog.qml:171
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Do not remove this page"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:170
+#: src/page/PageSortDialog.qml:175
 #, kde-format
 msgctxt "@item:intable"
 msgid "The page will be removed"
 msgstr ""
 
-#: src/page/PageSortDialog.qml:183
+#: src/page/PageSortDialog.qml:188
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this page"
+msgstr ""
+
+#: src/page/PageSortDialog.qml:207
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Start with:"
+msgstr ""
+
+#: src/page/PageSortDialog.qml:216
+#, kde-format
+msgid "Last Visited Page"
 msgstr ""
 
 #: src/page/RowControl.qml:105
@@ -466,31 +537,31 @@ msgctxt "@window:title"
 msgid "Configure Columns"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:144
+#: src/table/ColumnConfigurationDialog.qml:150
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Hidden"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:145
+#: src/table/ColumnConfigurationDialog.qml:151
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Text Only"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:151
+#: src/table/ColumnConfigurationDialog.qml:157
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Line Chart"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:155
+#: src/table/ColumnConfigurationDialog.qml:161
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Text Only (Scaled to 100%)"
 msgstr ""
 
-#: src/table/ColumnConfigurationDialog.qml:156
+#: src/table/ColumnConfigurationDialog.qml:162
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Line Chart (Scaled to 100%)"
