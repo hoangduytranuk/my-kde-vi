@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-11 01:42+0000\n"
+"POT-Creation-Date: 2021-05-19 01:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2355,6 +2355,36 @@ msgstr ""
 msgid "Y axis"
 msgstr ""
 
+#: data/effects/frei0r_glitch0r.xml:3
+#, kde-format
+msgid "Glitch0r"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:4
+#, kde-format
+msgid "Adds glitches and block shifting"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:7
+#, kde-format
+msgid "Glitch frequency"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:10
+#, kde-format
+msgid "Block height"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:13
+#, kde-format
+msgid "Shift intensity"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:16
+#, kde-format
+msgid "Color glitching intensity"
+msgstr ""
+
 #: data/effects/frei0r_glow.xml:3
 #, kde-format
 msgctxt "Glow Effect Name"
@@ -2605,7 +2635,8 @@ msgid "Input white level"
 msgstr ""
 
 #: data/effects/frei0r_levels.xml:19 data/effects/frei0r_levels.xml:51
-#: data/effects/gamma.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:40
+#: data/effects/gamma.xml:7 data/effects/lumaliftgaingamma.xml:13
+#: src/assets/view/widgets/lumaliftgainparam.cpp:40
 #: src/effects/effectstack/view/qml/LiftGammaGain.qml:59
 #, kde-format
 msgid "Gamma"
@@ -3737,7 +3768,8 @@ msgstr ""
 msgid "Adjust the audio volume without keyframes"
 msgstr ""
 
-#: data/effects/gain.xml:7 data/effects/mute.xml:7 data/effects/normalise.xml:7
+#: data/effects/gain.xml:7 data/effects/lumaliftgaingamma.xml:10
+#: data/effects/mute.xml:7 data/effects/normalise.xml:7
 #: data/effects/sox_bass.xml:7 data/effects/sox_gain.xml:7
 #: data/effects/volume.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:43
 #: src/effects/effectstack/view/qml/LiftGammaGain.qml:76
@@ -4188,6 +4220,24 @@ msgstr ""
 #: data/effects/loudness.xml:4
 #, kde-format
 msgid "Correct audio loudness as recommended by EBU R128"
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:3
+#, kde-format
+msgid "LumaLiftGainGamma"
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:4
+#, kde-format
+msgid ""
+"Filter can be used to apply lift, gain and gamma correction to luma values "
+"of image."
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:37
+#: src/effects/effectstack/view/qml/LiftGammaGain.qml:42
+#, kde-format
+msgid "Lift"
 msgstr ""
 
 #: data/effects/mirror.xml:3
@@ -6425,12 +6475,6 @@ msgstr ""
 msgid "None (Dissolve)"
 msgstr ""
 
-#: src/assets/view/widgets/lumaliftgainparam.cpp:37
-#: src/effects/effectstack/view/qml/LiftGammaGain.qml:42
-#, kde-format
-msgid "Lift"
-msgstr ""
-
 #: src/audiomixer/mixermanager.cpp:177 src/audiospectrum/audiographspectrum.cpp:105
 #: src/timeline2/view/qml/timeline.qml:789
 #, kde-format
@@ -6969,83 +7013,83 @@ msgstr ""
 msgid "(copy)"
 msgstr ""
 
-#: src/bin/bin.cpp:3777
+#: src/bin/bin.cpp:3778
 #, kde-format
 msgid ""
 "You are editing an external title clip (%1). Do you want to save your "
 "changes to the title file or save the changes for this project only?"
 msgstr ""
 
-#: src/bin/bin.cpp:3780 src/titler/titlewidget.cpp:2202
+#: src/bin/bin.cpp:3781 src/titler/titlewidget.cpp:2202
 #, kde-format
 msgid "Save Title"
 msgstr ""
 
-#: src/bin/bin.cpp:3780
+#: src/bin/bin.cpp:3781
 #, kde-format
 msgid "Save to title file"
 msgstr ""
 
-#: src/bin/bin.cpp:3781
+#: src/bin/bin.cpp:3782
 #, kde-format
 msgid "Save in project only"
 msgstr ""
 
-#: src/bin/bin.cpp:3841
+#: src/bin/bin.cpp:3842
 #, kde-format
 msgid "Clip is invalid, will be removed from project."
 msgstr ""
 
-#: src/bin/bin.cpp:3845 src/jobs/meltjob.cpp:99 src/jobs/meltjob.cpp:127
+#: src/bin/bin.cpp:3846 src/jobs/meltjob.cpp:99 src/jobs/meltjob.cpp:127
 #, kde-format
 msgid "Invalid clip"
 msgstr ""
 
-#: src/bin/bin.cpp:3966
+#: src/bin/bin.cpp:3967
 #, kde-format
 msgid "Enable proxies"
 msgstr ""
 
-#: src/bin/bin.cpp:3966
+#: src/bin/bin.cpp:3967
 #, kde-format
 msgid "Disable proxies"
 msgstr ""
 
-#: src/bin/bin.cpp:4128
+#: src/bin/bin.cpp:4129
 #, kde-format
 msgid "Rebuild proxies"
 msgstr ""
 
-#: src/bin/bin.cpp:4319
+#: src/bin/bin.cpp:4320
 #, kde-format
 msgid "Add Tracks"
 msgstr ""
 
-#: src/bin/bin.cpp:4323
+#: src/bin/bin.cpp:4324
 #, kde-format
 msgid "Edit Streams"
 msgstr ""
 
-#: src/bin/bin.cpp:4336
+#: src/bin/bin.cpp:4337
 #, kde-format
 msgid "Don't ask again"
 msgstr ""
 
 #. i18n("Cancel"), this);
 #. << ac4;
-#: src/bin/bin.cpp:4342
+#: src/bin/bin.cpp:4343
 #, kde-format
 msgid ""
 "Your project needs more audio tracks to handle all streams. Add %1 audio "
 "tracks ?"
 msgstr ""
 
-#: src/bin/bin.cpp:4353 src/mainwindow.cpp:2611
+#: src/bin/bin.cpp:4354 src/mainwindow.cpp:2611
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr ""
 
-#: src/bin/bin.cpp:4449
+#: src/bin/bin.cpp:4450
 #, kde-format
 msgid "Could not find master clip"
 msgstr ""

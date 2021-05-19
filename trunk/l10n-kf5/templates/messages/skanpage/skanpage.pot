@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-05 00:22+0000\n"
+"POT-Creation-Date: 2021-05-15 00:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -64,9 +64,14 @@ msgctxt "Page index"
 msgid "Page %1"
 msgstr ""
 
-#: DocumentModel.cpp:22
+#: DocumentModel.cpp:23
 #, kde-format
 msgid "New document"
+msgstr ""
+
+#: DocumentModel.cpp:172
+#, kde-format
+msgid "Failed to save image"
 msgstr ""
 
 #: DocumentPage.qml:19
@@ -121,32 +126,32 @@ msgctxt "Prefix for document name indicating an unsaved document"
 msgid "* %1"
 msgstr ""
 
-#: main.cpp:34
+#: main.cpp:40
 #, kde-format
 msgid "Skanpage"
 msgstr ""
 
-#: main.cpp:36
+#: main.cpp:42
 #, kde-format
 msgid "Page-scanning application by KDE based on libksane."
 msgstr ""
 
-#: main.cpp:38
+#: main.cpp:44
 #, kde-format
 msgid "(C) 2015 Kåre Särs"
 msgstr ""
 
-#: main.cpp:43 main.cpp:44
+#: main.cpp:49 main.cpp:50
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:61
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:61
 #, kde-format
 msgid "device"
 msgstr ""
@@ -198,102 +203,74 @@ msgstr ""
 msgid "Reselect scanning device"
 msgstr ""
 
-#: MainWindow.qml:171
-#, kde-format
-msgid "Draft (75 DPI)"
-msgstr ""
-
-#: MainWindow.qml:172
-#, kde-format
-msgid "Normal (150 DPI)"
-msgstr ""
-
-#: MainWindow.qml:173
-#, kde-format
-msgid "High Quality (300 DPI)"
-msgstr ""
-
-#: MainWindow.qml:174
-#, kde-format
-msgid "Best Quality (600 DPI)"
-msgstr ""
-
-#: MainWindow.qml:221
-#, kde-format
-msgid "Color"
-msgstr ""
-
-#: MainWindow.qml:222
-#, kde-format
-msgid "Gray"
-msgstr ""
-
-#: MainWindow.qml:283
+#: MainWindow.qml:230
 #, kde-format
 msgid "PDF files (*.pdf)"
 msgstr ""
 
-#: MainWindow.qml:283
+#: MainWindow.qml:230
 #, kde-format
 msgid "JPEG files (*.jpg)"
 msgstr ""
 
-#: MainWindow.qml:283
+#: MainWindow.qml:230
 #, kde-format
 msgid "PNG files (*.png)"
 msgstr ""
 
-#: MainWindow.qml:283
+#: MainWindow.qml:230
 #, kde-format
 msgid "All files (*)"
 msgstr ""
 
-#: Skanpage.cpp:46
+#: OptionDelegate.qml:116
 #, kde-format
-msgid "A4"
+msgctxt "Adding unit suffix"
+msgid "%1 %2"
 msgstr ""
 
-#: Skanpage.cpp:47
+#: OptionDelegate.qml:139
 #, kde-format
-msgid "B5"
+msgctxt "Unit suffix for bit"
+msgid "bit"
 msgstr ""
 
-#: Skanpage.cpp:48
+#: OptionDelegate.qml:142
 #, kde-format
-msgid "Letter"
+msgctxt "Unit suffix for DPI"
+msgid "DPI"
 msgstr ""
 
-#: Skanpage.cpp:49
+#: OptionDelegate.qml:145
 #, kde-format
-msgid "Legal"
+msgctxt "Unit suffix for microsecond"
+msgid "µs"
 msgstr ""
 
-#: Skanpage.cpp:50
+#: OptionDelegate.qml:148
 #, kde-format
-msgid "Executive"
+msgctxt "Unit suffix for millimeter"
+msgid "mm"
 msgstr ""
 
-#: Skanpage.cpp:51
+#: OptionDelegate.qml:151
 #, kde-format
-msgid "A5"
+msgctxt "Unit suffix for percent"
+msgid "%"
 msgstr ""
 
-#: Skanpage.cpp:52
+#: OptionDelegate.qml:154
 #, kde-format
-msgid "A6"
+msgctxt "Unit suffix for pixel"
+msgid "px"
 msgstr ""
 
-#: Skanpage.cpp:53
+#: OptionsWindow.qml:18
 #, kde-format
-msgid "Custom"
+msgid "Scanner Options"
 msgstr ""
 
-#: Skanpage.cpp:213
+#: Skanpage.cpp:102
 #, kde-format
 msgid "We do not support 16 per color scans at the moment!"
-msgstr ""
-
-#: Skanpage.cpp:229
-#, kde-format
-msgid "Failed to save image"
 msgstr ""
