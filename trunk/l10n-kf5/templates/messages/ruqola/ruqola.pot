@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-18 00:18+0000\n"
+"POT-Creation-Date: 2021-05-20 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -460,22 +460,27 @@ msgstr ""
 msgid "%1 and %2"
 msgstr ""
 
-#: core/model/admininvitemodel.cpp:50
+#: core/model/admininvitemodel.cpp:49
+#, kde-format
+msgid "Token"
+msgstr ""
+
+#: core/model/admininvitemodel.cpp:51
 #, kde-format
 msgid "Created at"
 msgstr ""
 
-#: core/model/admininvitemodel.cpp:52
+#: core/model/admininvitemodel.cpp:53
 #, kde-format
 msgid "Uses"
 msgstr ""
 
-#: core/model/admininvitemodel.cpp:54
+#: core/model/admininvitemodel.cpp:55
 #, kde-format
 msgid "Uses left"
 msgstr ""
 
-#: core/model/admininvitemodel.cpp:56
+#: core/model/admininvitemodel.cpp:57
 #, kde-format
 msgid "Expiration"
 msgstr ""
@@ -1591,7 +1596,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:58
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:91
-#: widgets/administratordialog/users/administratoruserswidget.cpp:117
+#: widgets/administratordialog/users/administratoruserswidget.cpp:115
 #: widgets/configuredialog/configureaccountserverwidget.ui:25
 #, kde-format
 msgid "Add..."
@@ -1601,7 +1606,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:61
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:144
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:94
-#: widgets/administratordialog/users/administratoruserswidget.cpp:120
+#: widgets/administratordialog/users/administratoruserswidget.cpp:118
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
 #, kde-format
 msgid "Modify..."
@@ -1610,9 +1615,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, removeServer)
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:63
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:146
-#: widgets/administratordialog/invites/invitetableview.cpp:55
+#: widgets/administratordialog/invites/invitetreeview.cpp:55
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:98
-#: widgets/administratordialog/users/administratoruserswidget.cpp:124
+#: widgets/administratordialog/users/administratoruserswidget.cpp:122
 #: widgets/configuredialog/configureaccountserverwidget.ui:39
 #, kde-format
 msgid "Remove"
@@ -1658,12 +1663,12 @@ msgstr ""
 msgid "Remove Custom User Status"
 msgstr ""
 
-#: widgets/administratordialog/invites/invitetableview.cpp:65
+#: widgets/administratordialog/invites/invitetreeview.cpp:65
 #, kde-format
 msgid "Are you sure that you want to delete this invite?"
 msgstr ""
 
-#: widgets/administratordialog/invites/invitetableview.cpp:65
+#: widgets/administratordialog/invites/invitetreeview.cpp:65
 #, kde-format
 msgid "Remove Invite"
 msgstr ""
