@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-21 00:16+0000\n"
+"POT-Creation-Date: 2021-05-25 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -51,6 +51,12 @@ msgstr ""
 
 #: imports/NeoChat/Component/ChatBox/ChatBar.qml:90
 #, kde-format
+msgid ""
+"This room is encrypted. Sending encrypted messages is not yet supported."
+msgstr ""
+
+#: imports/NeoChat/Component/ChatBox/ChatBar.qml:90
+#, kde-format
 msgid "Edit Message"
 msgstr ""
 
@@ -59,22 +65,22 @@ msgstr ""
 msgid "Write your message..."
 msgstr ""
 
-#: imports/NeoChat/Component/ChatBox/ChatBar.qml:248
+#: imports/NeoChat/Component/ChatBox/ChatBar.qml:250
 #, kde-format
 msgid "Attach an image or file"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatBox/ChatBar.qml:278
+#: imports/NeoChat/Component/ChatBox/ChatBar.qml:280
 #, kde-format
 msgid "Add an Emoji"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatBox/ChatBar.qml:289
+#: imports/NeoChat/Component/ChatBox/ChatBar.qml:291
 #, kde-format
 msgid "Send message"
 msgstr ""
 
-#: imports/NeoChat/Component/ChatBox/ChatBox.qml:72
+#: imports/NeoChat/Component/ChatBox/ChatBox.qml:77
 #, kde-format
 msgid "NeoChat is offline. Please check your network connection."
 msgstr ""
@@ -101,7 +107,8 @@ msgstr ""
 
 #: imports/NeoChat/Component/Login/Homeserver.qml:18
 #, kde-format
-msgid "@title"
+msgctxt "@title"
+msgid "Select a Homeserver"
 msgstr ""
 
 #: imports/NeoChat/Component/Login/Homeserver.qml:38
@@ -350,7 +357,12 @@ msgstr ""
 msgid "Ban this user"
 msgstr ""
 
-#: imports/NeoChat/Dialog/UserDetailDialog.qml:133
+#: imports/NeoChat/Dialog/UserDetailDialog.qml:135
+#, kde-format
+msgid "Unban this user"
+msgstr ""
+
+#: imports/NeoChat/Dialog/UserDetailDialog.qml:146
 #, kde-format
 msgid "Open a private chat"
 msgstr ""
@@ -713,32 +725,38 @@ msgstr ""
 msgid "React"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:274
+#: imports/NeoChat/Page/RoomPage.qml:271
 #, kde-format
 msgid "Choose local file"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:300
+#: imports/NeoChat/Page/RoomPage.qml:297
 #, kde-format
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:565
+#: imports/NeoChat/Page/RoomPage.qml:548
+#, kde-format
+msgctxt "Relative time since the room was last read"
+msgid "Last read: %1"
+msgstr ""
+
+#: imports/NeoChat/Page/RoomPage.qml:634
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:587
+#: imports/NeoChat/Page/RoomPage.qml:656
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:617
+#: imports/NeoChat/Page/RoomPage.qml:686
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:654
+#: imports/NeoChat/Page/RoomPage.qml:723
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -1021,37 +1039,37 @@ msgstr ""
 msgid "React to this message with a text"
 msgstr ""
 
-#: src/controller.cpp:168 src/controller.cpp:285
+#: src/controller.cpp:169 src/controller.cpp:286
 #, kde-format
 msgid "Network Error: %1"
 msgstr ""
 
-#: src/controller.cpp:204
+#: src/controller.cpp:205
 #, kde-format
 msgid "Server-side Logout Failed: %1"
 msgstr ""
 
-#: src/controller.cpp:276
+#: src/controller.cpp:277
 #, kde-format
 msgid "Login Failed: Access Token invalid or revoked"
 msgstr ""
 
-#: src/controller.cpp:279
+#: src/controller.cpp:280
 #, kde-format
 msgid "Login Failed"
 msgstr ""
 
-#: src/controller.cpp:568
+#: src/controller.cpp:569
 #, kde-format
 msgid "Room creation failed: \"%1\""
 msgstr ""
 
-#: src/controller.cpp:580
+#: src/controller.cpp:581
 #, kde-format
 msgid "The room id you are trying to join is not valid"
 msgstr ""
 
-#: src/controller.cpp:588
+#: src/controller.cpp:589
 #, kde-format
 msgid "Server error when joining the room \"%1\": %2"
 msgstr ""
@@ -1116,37 +1134,37 @@ msgstr ""
 msgid "Image request has been cancelled"
 msgstr ""
 
-#: src/messageeventmodel.cpp:293
+#: src/messageeventmodel.cpp:325
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: src/messageeventmodel.cpp:296
+#: src/messageeventmodel.cpp:328
 #, kde-format
 msgid "Yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:299
+#: src/messageeventmodel.cpp:331
 #, kde-format
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:364
+#: src/messageeventmodel.cpp:435
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:365
+#: src/messageeventmodel.cpp:436
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:441
+#: src/messageeventmodel.cpp:512
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:441
+#: src/messageeventmodel.cpp:512
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""

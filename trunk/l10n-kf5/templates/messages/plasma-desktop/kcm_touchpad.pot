@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-01 00:20+0000\n"
+"POT-Creation-Date: 2021-05-25 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -25,6 +25,26 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: actions.cpp:31
+#, kde-format
+msgid "Touchpad"
+msgstr ""
+
+#: actions.cpp:34
+#, kde-format
+msgid "Enable Touchpad"
+msgstr ""
+
+#: actions.cpp:42
+#, kde-format
+msgid "Disable Touchpad"
+msgstr ""
+
+#: actions.cpp:50
+#, kde-format
+msgid "Toggle Touchpad"
 msgstr ""
 
 #: backends/kwin_wayland/kwinwaylandbackend.cpp:75
@@ -341,7 +361,7 @@ msgid "Press anywhere with three fingers."
 msgstr ""
 
 #: kcm/libinput/touchpadconfiglibinput.cpp:42
-#: kcm/xlib/touchpadconfigxlib.cpp:106
+#: kcm/xlib/touchpadconfigxlib.cpp:94
 #, kde-format
 msgid "Touchpad KCM"
 msgstr ""
@@ -357,7 +377,7 @@ msgid "Copyright © 2016 Roman Gilg"
 msgstr ""
 
 #: kcm/libinput/touchpadconfiglibinput.cpp:49
-#: kcm/xlib/touchpadconfigxlib.cpp:116
+#: kcm/xlib/touchpadconfigxlib.cpp:104
 #, kde-format
 msgid "Developer"
 msgstr ""
@@ -433,187 +453,96 @@ msgctxt "Mouse button"
 msgid "Middle button"
 msgstr ""
 
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:27
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "No action"
-msgstr ""
-
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:30
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "Left button"
-msgstr ""
-
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:33
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "Middle button"
-msgstr ""
-
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:36
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "Right button"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:285
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "All edges"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:288
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Top edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:291
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Top right corner"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:294
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Right edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:297
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Bottom right corner"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:300
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Bottom edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:303
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Bottom left corner"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:306
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Left edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:309
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Top left corner"
-msgstr ""
-
-#: kcm/xlib/touchpadconfigxlib.cpp:108
+#: kcm/xlib/touchpadconfigxlib.cpp:96
 #, kde-format
 msgid ""
 "System Settings module, daemon and Plasma applet for managing your touchpad"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:110
+#: kcm/xlib/touchpadconfigxlib.cpp:98
 #, kde-format
 msgid "Copyright © 2013 Alexander Mezin"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:111
+#: kcm/xlib/touchpadconfigxlib.cpp:99
 #, kde-format
 msgid ""
 "This program incorporates work covered by this copyright notice:\n"
 "Copyright © 2002-2005,2007 Peter Osterlund"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:116
+#: kcm/xlib/touchpadconfigxlib.cpp:104
 #, kde-format
 msgid "Alexander Mezin"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:117
+#: kcm/xlib/touchpadconfigxlib.cpp:105
 #, kde-format
 msgid "Thomas Pfeiffer"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:117
+#: kcm/xlib/touchpadconfigxlib.cpp:105
 #, kde-format
 msgctxt "Credits"
 msgid "Usability, testing"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:118
+#: kcm/xlib/touchpadconfigxlib.cpp:106
 #, kde-format
 msgid "Alex Fiestas"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:118
+#: kcm/xlib/touchpadconfigxlib.cpp:106
 #, kde-format
 msgctxt "Credits"
 msgid "Helped a bit"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:119
+#: kcm/xlib/touchpadconfigxlib.cpp:107
 #, kde-format
 msgid "Peter Osterlund"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:119
+#: kcm/xlib/touchpadconfigxlib.cpp:107
 #, kde-format
 msgctxt "Credits"
 msgid "Developer of synclient"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:120
+#: kcm/xlib/touchpadconfigxlib.cpp:108
 #, kde-format
 msgid "Vadim Zaytsev"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:120 kcm/xlib/touchpadconfigxlib.cpp:121
+#: kcm/xlib/touchpadconfigxlib.cpp:108 kcm/xlib/touchpadconfigxlib.cpp:109
 #, kde-format
 msgctxt "Credits"
 msgid "Testing"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:121
+#: kcm/xlib/touchpadconfigxlib.cpp:109
 #, kde-format
 msgid "Violetta Raspryagayeva"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:140
+#: kcm/xlib/touchpadconfigxlib.cpp:128
 #, kde-format
 msgid ""
 "Active settings don't match saved settings.\n"
 "You currently see saved settings."
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:146
+#: kcm/xlib/touchpadconfigxlib.cpp:134
 #, kde-format
 msgid "Show active settings"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:184
+#: kcm/xlib/touchpadconfigxlib.cpp:172
 #, kde-format
 msgid "These settings won't take effect in the testing area"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:189
+#: kcm/xlib/touchpadconfigxlib.cpp:177
 #, kde-format
 msgid "Enable/Disable Touchpad"
 msgstr ""
@@ -1417,32 +1346,103 @@ msgstr ""
 msgid "Click me"
 msgstr ""
 
-#: kded/kded.cpp:211
+#: kded/kded.cpp:213
 #, kde-format
 msgid "Touchpad was disabled because a mouse was plugged in"
 msgstr ""
 
-#: kded/kded.cpp:214
+#: kded/kded.cpp:216
 #, kde-format
 msgid "Touchpad was enabled because the mouse was unplugged"
 msgstr ""
 
-#: kded/kdedactions.cpp:33
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:27
 #, kde-format
-msgid "Touchpad"
+msgctxt "Emulated mouse button"
+msgid "No action"
 msgstr ""
 
-#: kded/kdedactions.cpp:36
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:30
 #, kde-format
-msgid "Enable Touchpad"
+msgctxt "Emulated mouse button"
+msgid "Left button"
 msgstr ""
 
-#: kded/kdedactions.cpp:44
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:33
 #, kde-format
-msgid "Disable Touchpad"
+msgctxt "Emulated mouse button"
+msgid "Middle button"
 msgstr ""
 
-#: kded/kdedactions.cpp:52
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:36
 #, kde-format
-msgid "Toggle Touchpad"
+msgctxt "Emulated mouse button"
+msgid "Right button"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:285
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "All edges"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:288
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Top edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:291
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Top right corner"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:294
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Right edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:297
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Bottom right corner"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:300
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Bottom edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:303
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Bottom left corner"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:306
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Left edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:309
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Top left corner"
 msgstr ""

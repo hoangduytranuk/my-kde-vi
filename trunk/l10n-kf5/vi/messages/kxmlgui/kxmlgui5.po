@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-13 00:15+0000\n"
+"POT-Creation-Date: 2021-05-22 00:13+0000\n"
 "PO-Revision-Date: 2021-05-20 17:19+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -47,37 +47,37 @@ msgctxt "@title:tab"
 msgid "Libraries"
 msgstr "Thư viện"
 
-#: kaboutapplicationdialog.cpp:124 kaboutplugindialog.cpp:91
+#: kaboutapplicationdialog.cpp:123 kaboutplugindialog.cpp:91
 #, kde-format
 msgctxt "@title:tab"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "Tác giả"
 
-#: kaboutapplicationdialog.cpp:131 kaboutplugindialog.cpp:98
+#: kaboutapplicationdialog.cpp:130 kaboutplugindialog.cpp:98
 #, kde-format
 msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "Cảm ơn"
 
-#: kaboutapplicationdialog.cpp:138 kaboutplugindialog.cpp:104
+#: kaboutapplicationdialog.cpp:137 kaboutplugindialog.cpp:104
 #, kde-format
 msgctxt "@title:tab"
 msgid "Translation"
 msgstr "Biên dịch"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:49
+#: kaboutapplicationpersonlistdelegate_p.cpp:53
 #, kde-format
 msgctxt "Action to send an email to a contributor"
 msgid "Email contributor"
 msgstr "Gửi thư cho người đóng góp"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:54
+#: kaboutapplicationpersonlistdelegate_p.cpp:58
 #, kde-format
 msgid "Visit contributor's homepage"
 msgstr "Xem trang nhà của người đóng góp"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:112
+#: kaboutapplicationpersonlistdelegate_p.cpp:106
 #, kde-format
 msgctxt "@info:tooltip Action to send an email to a contributor"
 msgid ""
@@ -87,8 +87,7 @@ msgstr ""
 "Gửi thư cho người đóng góp\n"
 "%1"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:118
-#: kaboutapplicationpersonlistdelegate_p.cpp:151
+#: kaboutapplicationpersonlistdelegate_p.cpp:112
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -98,8 +97,7 @@ msgstr ""
 "Xem trang nhà của người đóng góp\n"
 "%1"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:125
-#: kaboutapplicationpersonlistdelegate_p.cpp:153
+#: kaboutapplicationpersonlistdelegate_p.cpp:119
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -109,55 +107,11 @@ msgstr ""
 "Xem hồ sơ của người đóng góp ở %1\n"
 "%2"
 
-#: kaboutapplicationpersonlistdelegate_p.cpp:147
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Visit contributor's page\n"
-"%1"
-msgstr ""
-"Xem trang của người đóng góp\n"
-"%1"
-
-#: kaboutapplicationpersonlistdelegate_p.cpp:149
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Visit contributor's blog\n"
-"%1"
-msgstr ""
-"Xem blog của người đóng góp\n"
-"%1"
-
-#: kaboutapplicationpersonlistdelegate_p.cpp:233
+#: kaboutapplicationpersonlistdelegate_p.cpp:188
 #, kde-format
 msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
-
-#: kaboutapplicationpersonmodel_p.cpp:177
-#, kde-format
-msgctxt "City, Country"
-msgid "%1, %2"
-msgstr "%1, %2"
-
-#: kaboutapplicationpersonmodel_p.cpp:277
-#, kde-format
-msgctxt "A generic social network or homepage link of an unlisted type."
-msgid "Other"
-msgstr "Khác"
-
-#: kaboutapplicationpersonmodel_p.cpp:279
-#, kde-format
-msgctxt "A type of link."
-msgid "Blog"
-msgstr "Blog"
-
-#: kaboutapplicationpersonmodel_p.cpp:287
-#, kde-format
-msgctxt "A type of link."
-msgid "Homepage"
-msgstr "Trang nhà"
 
 #: kaboutkdedialog_p.cpp:31
 #, kde-format
@@ -286,24 +240,34 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "Ủn&g hộ KDE"
 
-#: kabstractaboutdialog_p.cpp:36
+#: kabstractaboutdialog_p.cpp:37
 #, kde-format
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "Phiên bản %1"
 
-#: kabstractaboutdialog_p.cpp:79
+#: kabstractaboutdialog_p.cpp:80
 #, kde-format
 msgid "License: %1"
 msgstr "Giấy phép: %1"
 
-#: kabstractaboutdialog_p.cpp:112
+#: kabstractaboutdialog_p.cpp:100
+#, kde-format
+msgid "Show author photos"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:101
+#, kde-format
+msgid "Enabling this will fetch images from an online location"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:140
 #, kde-format
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "Vui lòng sử dụng %1 để báo lỗi.\n"
 
-#: kabstractaboutdialog_p.cpp:120
+#: kabstractaboutdialog_p.cpp:148
 #, kde-format
 msgctxt "Reference to email address"
 msgid "Please report bugs to %1.\n"
@@ -1507,6 +1471,38 @@ msgstr "Thiết &lập"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Visit contributor's page\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Xem trang của người đóng góp\n"
+#~ "%1"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Visit contributor's blog\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Xem blog của người đóng góp\n"
+#~ "%1"
+
+#~ msgctxt "City, Country"
+#~ msgid "%1, %2"
+#~ msgstr "%1, %2"
+
+#~ msgctxt "A generic social network or homepage link of an unlisted type."
+#~ msgid "Other"
+#~ msgstr "Khác"
+
+#~ msgctxt "A type of link."
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgctxt "A type of link."
+#~ msgid "Homepage"
+#~ msgstr "Trang nhà"
 
 #~ msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
 #~ msgstr "<html><font size=\"5\">%1</font><br />Phiên bản %2</html>"
