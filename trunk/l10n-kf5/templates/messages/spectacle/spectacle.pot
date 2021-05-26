@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-15 00:17+0000\n"
+"POT-Creation-Date: 2021-05-26 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: desktop/MigrateShortcuts.cpp:74 src/ShortcutActions.cpp:30
+#: desktop/MigrateShortcuts.cpp:74 src/ShortcutActions.cpp:31
 #, kde-format
 msgid "Launch Spectacle"
 msgstr ""
 
-#: desktop/MigrateShortcuts.cpp:79 src/ShortcutActions.cpp:35
+#: desktop/MigrateShortcuts.cpp:79 src/ShortcutActions.cpp:36
 #, kde-format
 msgid "Capture Entire Desktop"
 msgstr ""
 
-#: desktop/MigrateShortcuts.cpp:84 src/ShortcutActions.cpp:40
+#: desktop/MigrateShortcuts.cpp:84 src/ShortcutActions.cpp:41
 #, kde-format
 msgid "Capture Current Monitor"
 msgstr ""
 
-#: desktop/MigrateShortcuts.cpp:89 src/ShortcutActions.cpp:45
+#: desktop/MigrateShortcuts.cpp:89 src/ShortcutActions.cpp:46
 #, kde-format
 msgid "Capture Active Window"
 msgstr ""
 
-#: desktop/MigrateShortcuts.cpp:94 src/ShortcutActions.cpp:50
+#: desktop/MigrateShortcuts.cpp:94 src/ShortcutActions.cpp:51
 #, kde-format
 msgid "Capture Rectangular Region"
 msgstr ""
@@ -954,154 +954,159 @@ msgstr ""
 msgid "%1×%2"
 msgstr ""
 
-#: src/SpectacleCore.cpp:395
+#: src/ShortcutActions.cpp:56
+#, kde-format
+msgid "Capture Window Under Cursor"
+msgstr ""
+
+#: src/SpectacleCore.cpp:397
 #, kde-format
 msgid "Screenshot capture canceled or failed"
 msgstr ""
 
-#: src/SpectacleCore.cpp:415
+#: src/SpectacleCore.cpp:417
 #, kde-format
 msgctxt "The entire screen area was captured, heading"
 msgid "Full Screen Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:418
+#: src/SpectacleCore.cpp:420
 #, kde-format
 msgctxt "The current screen was captured, heading"
 msgid "Current Screen Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:421
+#: src/SpectacleCore.cpp:423
 #, kde-format
 msgctxt "The active window was captured, heading"
 msgid "Active Window Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:425
+#: src/SpectacleCore.cpp:427
 #, kde-format
 msgctxt "The window under the mouse was captured, heading"
 msgid "Window Under Cursor Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:428
+#: src/SpectacleCore.cpp:430
 #, kde-format
 msgctxt "A rectangular region was captured, heading"
 msgid "Rectangular Region Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:437 src/SpectacleCore.cpp:445
+#: src/SpectacleCore.cpp:439 src/SpectacleCore.cpp:447
 #, kde-format
 msgid "A screenshot was saved as '%1' to '%2'."
 msgstr ""
 
-#: src/SpectacleCore.cpp:441
+#: src/SpectacleCore.cpp:443
 #, kde-format
 msgid "A screenshot was saved to your clipboard."
 msgstr ""
 
-#: src/SpectacleCore.cpp:443
+#: src/SpectacleCore.cpp:445
 #, kde-format
 msgctxt "Placeholder is filename"
 msgid "A screenshot was saved as '%1' to your Pictures folder."
 msgstr ""
 
-#: src/SpectacleCore.cpp:450
+#: src/SpectacleCore.cpp:452
 #, kde-format
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr ""
 
-#: src/SpectacleCore.cpp:483
+#: src/SpectacleCore.cpp:485
 #, kde-format
 msgid "Capture the entire desktop (default)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:484
+#: src/SpectacleCore.cpp:486
 #, kde-format
 msgid "Capture the current monitor"
 msgstr ""
 
-#: src/SpectacleCore.cpp:485
+#: src/SpectacleCore.cpp:487
 #, kde-format
 msgid "Capture the active window"
 msgstr ""
 
-#: src/SpectacleCore.cpp:486
+#: src/SpectacleCore.cpp:488
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, including parents of pop-up "
 "menus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:487
+#: src/SpectacleCore.cpp:489
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, excluding parents of pop-up "
 "menus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:488
+#: src/SpectacleCore.cpp:490
 #, kde-format
 msgid "Capture a rectangular region of the screen"
 msgstr ""
 
-#: src/SpectacleCore.cpp:489
+#: src/SpectacleCore.cpp:491
 #, kde-format
 msgid "Start in GUI mode (default)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:490
+#: src/SpectacleCore.cpp:492
 #, kde-format
 msgid "Take a screenshot and exit without showing the GUI"
 msgstr ""
 
-#: src/SpectacleCore.cpp:491
+#: src/SpectacleCore.cpp:493
 #, kde-format
 msgid "Start in DBus-Activation mode"
 msgstr ""
 
-#: src/SpectacleCore.cpp:492
+#: src/SpectacleCore.cpp:494
 #, kde-format
 msgid ""
 "In background mode, do not pop up a notification when the screenshot is taken"
 msgstr ""
 
-#: src/SpectacleCore.cpp:493
+#: src/SpectacleCore.cpp:495
 #, kde-format
 msgid "In background mode, save image to specified file"
 msgstr ""
 
-#: src/SpectacleCore.cpp:494
+#: src/SpectacleCore.cpp:496
 #, kde-format
 msgid "In background mode, delay before taking the shot (in milliseconds)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:495
+#: src/SpectacleCore.cpp:497
 #, kde-format
 msgid "In background mode, copy screenshot image to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:496
+#: src/SpectacleCore.cpp:498
 #, kde-format
 msgid "In background mode, copy screenshot file path to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:497
+#: src/SpectacleCore.cpp:499
 #, kde-format
 msgid "Wait for a click before taking screenshot. Invalidates delay"
 msgstr ""
 
-#: src/SpectacleCore.cpp:498
+#: src/SpectacleCore.cpp:500
 #, kde-format
 msgid "Starts a new GUI instance of spectacle without registering to DBus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:499
+#: src/SpectacleCore.cpp:501
 #, kde-format
 msgid "In background mode, include pointer in the screenshot"
 msgstr ""
 
-#: src/SpectacleCore.cpp:500
+#: src/SpectacleCore.cpp:502
 #, kde-format
 msgid "In background mode, exclude decorations in the screenshot"
 msgstr ""
