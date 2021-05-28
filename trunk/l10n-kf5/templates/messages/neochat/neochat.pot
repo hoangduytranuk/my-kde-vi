@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-27 00:16+0000\n"
+"POT-Creation-Date: 2021-05-28 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: imports/NeoChat/Component/ChatBox/AttachmentPane.qml:159
 #: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:25
 #: imports/NeoChat/Page/ImageEditorPage.qml:21
-#: imports/NeoChat/Page/RoomPage.qml:195
+#: imports/NeoChat/Page/RoomPage.qml:200
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 #: imports/NeoChat/Component/Login/Loading.qml:17
 #: imports/NeoChat/Component/Login/Login.qml:53
 #: imports/NeoChat/Page/LoadingPage.qml:8
-#: imports/NeoChat/Page/RoomPage.qml:101
+#: imports/NeoChat/Page/RoomPage.qml:106
 #, kde-format
 msgid "Loading"
 msgstr ""
@@ -414,7 +414,7 @@ msgstr ""
 
 #: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:49
 #: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:31
-#: imports/NeoChat/Page/RoomPage.qml:207 src/notificationsmanager.cpp:64
+#: imports/NeoChat/Page/RoomPage.qml:212 src/notificationsmanager.cpp:64
 #, kde-format
 msgid "Reply"
 msgstr ""
@@ -705,58 +705,58 @@ msgstr ""
 msgid "Configure room"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:75
+#: imports/NeoChat/Page/RoomPage.qml:80
 #, kde-format
 msgid "Accept this invitation?"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:79
+#: imports/NeoChat/Page/RoomPage.qml:84
 #, kde-format
 msgid "Reject"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:86
+#: imports/NeoChat/Page/RoomPage.qml:91
 #, kde-format
 msgid "Accept"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:182
+#: imports/NeoChat/Page/RoomPage.qml:187
 #, kde-format
 msgid "React"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:271
+#: imports/NeoChat/Page/RoomPage.qml:283
 #, kde-format
 msgid "Choose local file"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:297
+#: imports/NeoChat/Page/RoomPage.qml:309
 #, kde-format
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:548
+#: imports/NeoChat/Page/RoomPage.qml:560
 #, kde-format
 msgctxt "Relative time since the room was last read"
 msgid "Last read: %1"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:634
+#: imports/NeoChat/Page/RoomPage.qml:646
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:656
+#: imports/NeoChat/Page/RoomPage.qml:668
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:686
+#: imports/NeoChat/Page/RoomPage.qml:698
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:723
+#: imports/NeoChat/Page/RoomPage.qml:736
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -1059,17 +1059,17 @@ msgstr ""
 msgid "Login Failed"
 msgstr ""
 
-#: src/controller.cpp:570
+#: src/controller.cpp:571
 #, kde-format
 msgid "Room creation failed: \"%1\""
 msgstr ""
 
-#: src/controller.cpp:582
+#: src/controller.cpp:583
 #, kde-format
 msgid "The room id you are trying to join is not valid"
 msgstr ""
 
-#: src/controller.cpp:590
+#: src/controller.cpp:591
 #, kde-format
 msgid "Server error when joining the room \"%1\": %2"
 msgstr ""
@@ -1084,42 +1084,42 @@ msgstr ""
 msgid "Login Failed: %1"
 msgstr ""
 
-#: src/main.cpp:96
+#: src/main.cpp:98
 #, kde-format
 msgid "NeoChat"
 msgstr ""
 
-#: src/main.cpp:98
+#: src/main.cpp:100
 #, kde-format
 msgid "Matrix client"
 msgstr ""
 
-#: src/main.cpp:100
+#: src/main.cpp:102
 #, kde-format
 msgid "© 2018-2020 Black Hat, 2020 KDE Community"
 msgstr ""
 
-#: src/main.cpp:101
+#: src/main.cpp:103
 #, kde-format
 msgid "Black Hat"
 msgstr ""
 
-#: src/main.cpp:102
+#: src/main.cpp:104
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
-#: src/main.cpp:103
+#: src/main.cpp:105
 #, kde-format
 msgid "Tobias Fella"
 msgstr ""
 
-#: src/main.cpp:188
+#: src/main.cpp:190
 #, kde-format
 msgid "Client for the matrix communication protocol"
 msgstr ""
 
-#: src/main.cpp:189
+#: src/main.cpp:191
 #, kde-format
 msgid "Supports appstream: url scheme"
 msgstr ""
@@ -1149,22 +1149,22 @@ msgstr ""
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:435
+#: src/messageeventmodel.cpp:437
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:436
+#: src/messageeventmodel.cpp:438
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:512
+#: src/messageeventmodel.cpp:514
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:512
+#: src/messageeventmodel.cpp:514
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-27 00:16+0000\n"
+"POT-Creation-Date: 2021-05-28 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -142,22 +142,6 @@ msgstr ""
 #: apps/widget/main.cpp:106
 #, kde-format
 msgid "The following accounts are available:"
-msgstr ""
-
-#: core/administrator/adminroom.cpp:108
-#, kde-format
-msgid "Group"
-msgstr ""
-
-#. i18n: ectx: Menu (channel)
-#: core/administrator/adminroom.cpp:110 widgets/ruqolaui.rc:25
-#, kde-format
-msgid "Channel"
-msgstr ""
-
-#: core/administrator/adminroom.cpp:112 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:28
-#, kde-format
-msgid "Direct"
 msgstr ""
 
 #: core/command.cpp:69
@@ -486,7 +470,8 @@ msgid "Expiration"
 msgstr ""
 
 #: core/model/adminroomsmodel.cpp:46 core/model/adminusersmodel.cpp:46
-#: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:30
+#: core/model/directoryroomsmodel.cpp:105
+#: core/model/directoryteamsmodel.cpp:92 widgets/administratordialog/customsounds/customsoundstreewidget.cpp:30
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:55
 #, kde-format
 msgid "Name"
@@ -497,32 +482,34 @@ msgstr ""
 msgid "Number Of Messages"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:50
+#: core/model/adminroomsmodel.cpp:50 core/model/directoryroomsmodel.cpp:107
 #, kde-format
 msgid "Number Of Users"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:52
+#: core/model/adminroomsmodel.cpp:52 core/model/directoryroomsmodel.cpp:109
 #, kde-format
 msgid "Topic"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:54
+#: core/model/adminroomsmodel.cpp:54 core/model/directoryroomsmodel.cpp:111
 #, kde-format
 msgid "Identifier"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:56
+#: core/model/adminroomsmodel.cpp:56 core/model/directoryroomsmodel.cpp:113
 #, kde-format
 msgid "Read Only"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:58
+#: core/model/adminroomsmodel.cpp:58 core/model/directoryroomsmodel.cpp:115
 #, kde-format
 msgid "Default Room"
 msgstr ""
 
 #: core/model/adminroomsmodel.cpp:60 core/model/adminroomsmodel.cpp:62
+#: core/model/directoryroomsmodel.cpp:117
+#: core/model/directoryroomsmodel.cpp:119
 #, kde-format
 msgid "Type"
 msgstr ""
@@ -545,6 +532,13 @@ msgstr ""
 #: core/model/adminusersmodel.cpp:54 widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:116
 #, kde-format
 msgid "Disabled"
+msgstr ""
+
+#: core/model/directoryteamsmodel.cpp:94 core/model/roommodel.cpp:478
+#: core/model/roommodel.cpp:486 widgets/administratordialog/administratorwidget.cpp:53
+#: widgets/directory/directorytabwidget.cpp:32
+#, kde-format
+msgid "Rooms"
 msgstr ""
 
 #: core/model/listmessagesmodelfilterproxymodel.cpp:59
@@ -677,13 +671,6 @@ msgstr ""
 #: core/model/roommodel.cpp:468
 #, kde-format
 msgid "Unread Private Messages"
-msgstr ""
-
-#: core/model/roommodel.cpp:478 core/model/roommodel.cpp:486
-#: widgets/administratordialog/administratorwidget.cpp:53
-#: widgets/directory/directorytabwidget.cpp:32
-#, kde-format
-msgid "Rooms"
 msgstr ""
 
 #: core/model/roommodel.cpp:480 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:31
@@ -880,6 +867,22 @@ msgstr ""
 #: core/room.cpp:1468
 #, kde-format
 msgid "Channel was blocked."
+msgstr ""
+
+#: core/roominfo.cpp:109
+#, kde-format
+msgid "Group"
+msgstr ""
+
+#. i18n: ectx: Menu (channel)
+#: core/roominfo.cpp:111 widgets/ruqolaui.rc:25
+#, kde-format
+msgid "Channel"
+msgstr ""
+
+#: core/roominfo.cpp:113 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:28
+#, kde-format
+msgid "Direct"
 msgstr ""
 
 #: core/user.cpp:215
@@ -1957,7 +1960,7 @@ msgid "Filter Channels (CTRL + K)"
 msgstr ""
 
 #: widgets/channellist/channellistwidget.cpp:58
-#: widgets/directory/directorywidget.cpp:56
+#: widgets/directory/directorywidget.cpp:66
 #, kde-format
 msgid "Search Channels"
 msgstr ""
@@ -2745,11 +2748,13 @@ msgid "Search Attachments..."
 msgstr ""
 
 #: widgets/dialogs/showattachmentwidget.cpp:106
+#: widgets/directory/directorywidget.cpp:97
 #, kde-format
 msgid "No Attachments found"
 msgstr ""
 
 #: widgets/dialogs/showattachmentwidget.cpp:111
+#: widgets/directory/directorywidget.cpp:103
 #, kde-format
 msgid "%1 Attachment in room (Total: %2)"
 msgid_plural "%1 Attachments in room (Total: %2)"
@@ -2759,6 +2764,7 @@ msgstr[1] ""
 #: widgets/dialogs/showattachmentwidget.cpp:113
 #: widgets/dialogs/showdiscussionswidget.cpp:94
 #: widgets/dialogs/showlistmessagebasewidget.cpp:105
+#: widgets/directory/directorywidget.cpp:105
 #: widgets/room/usersinroomflowwidget.cpp:144
 #: widgets/room/usersinroomwidget.cpp:160
 #, kde-format
@@ -2886,14 +2892,14 @@ msgctxt "@title:window"
 msgid "Directory"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:59
-#: widgets/directory/directorywidget.cpp:83
+#: widgets/directory/directorywidget.cpp:70
+#: widgets/directory/directorywidget.cpp:119
 #, kde-format
 msgid "Search Users"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:62
-#: widgets/directory/directorywidget.cpp:87
+#: widgets/directory/directorywidget.cpp:74
+#: widgets/directory/directorywidget.cpp:123
 #, kde-format
 msgid "Search Teams"
 msgstr ""

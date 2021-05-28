@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-25 00:19+0000\n"
+"POT-Creation-Date: 2021-05-28 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1573,7 +1573,6 @@ msgstr ""
 #: kmymoney/plugins/qif/config/mymoneyqifprofileeditor.ui:465
 #: kmymoney/plugins/views/reports/core/kreportchartview.cpp:163
 #: kmymoney/plugins/views/reports/core/listtable.cpp:636
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2163
 #: kmymoney/plugins/views/reports/reporttabrowcolquery.ui:185
 #, kde-format
 msgid "Price"
@@ -5485,7 +5484,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: kmymoney/kmymoneyutils.cpp:130 kmymoney/mymoney/storage/budgetsmodel.cpp:64
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2138
 #: kmymoney/plugins/views/reports/reportsview.cpp:155
 #: kmymoney/plugins/views/reports/reporttabrowcolpivot.ui:139
 #: kmymoney/views/khomeview_p.h:1438
@@ -7968,8 +7966,6 @@ msgstr ""
 #: kmymoney/plugins/views/forecast/kforecastview_p.h:611
 #: kmymoney/plugins/views/onlinejoboutbox/onlinejobmodel.cpp:84
 #: kmymoney/plugins/views/reports/core/listtable.cpp:618
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:1364
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:1633
 #: kmymoney/plugins/views/reports/reportsview.cpp:227
 #: kmymoney/plugins/views/reports/reporttabrowcolquery.ui:211
 #: kmymoney/views/investtransactioneditor.ui:95
@@ -8556,9 +8552,9 @@ msgstr ""
 #: kmymoney/plugins/views/reports/core/pivottable.cpp:1378
 #: kmymoney/plugins/views/reports/core/pivottable.cpp:1519
 #: kmymoney/plugins/views/reports/core/pivottable.cpp:1571
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:1645
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:1831
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:1901
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:1647
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:1833
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:1903
 #, kde-format
 msgctxt "Total balance"
 msgid "Total"
@@ -14721,7 +14717,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_forecastButton)
 #: kmymoney/plugins/views/forecast/forecastview.cpp:56
 #: kmymoney/plugins/views/forecast/kforecastview.ui:263
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2148
 #: kmymoney/plugins/views/reports/kreportsview_p.h:1373
 #, kde-format
 msgid "Forecast"
@@ -15366,7 +15361,7 @@ msgstr ""
 
 #: kmymoney/plugins/views/reports/core/listtable.cpp:297
 #: kmymoney/plugins/views/reports/core/pivottable.cpp:1595
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:1939
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:1941
 #, kde-format
 msgid "Grand Total"
 msgstr ""
@@ -15629,28 +15624,59 @@ msgstr ""
 msgid "Transfers"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2133
-#: kmymoney/plugins/views/reports/reportsview.cpp:196
-#: kmymoney/plugins/views/reports/reportsview.cpp:233
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:525
 #, kde-format
+msgctxt "@title:column Report heading"
+msgid "Opening"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:1364
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:1635
+#, kde-format
+msgctxt "@title:column report header"
+msgid "Account"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2135
+#, kde-format
+msgctxt "@title:column report header"
 msgid "Actual"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2143
-#: kmymoney/plugins/views/reports/reportsview.cpp:199
-#: kmymoney/plugins/views/reports/reportsview.cpp:236
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2140
 #, kde-format
+msgctxt "@title:column report header"
+msgid "Budget"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2145
+#, kde-format
+msgctxt "@title:column report header"
 msgid "Difference"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2153
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2150
 #, kde-format
+msgctxt "@title:column report header"
+msgid "Forecast"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2155
+#, kde-format
+msgctxt "@title:column report header"
 msgid "Moving Average"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/core/pivottable.cpp:2158
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2160
 #, kde-format
+msgctxt "@title:column report header"
 msgid "Moving Average Price"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/core/pivottable.cpp:2165
+#, kde-format
+msgctxt "@title:column report header"
+msgid "Price"
 msgstr ""
 
 #: kmymoney/plugins/views/reports/core/querytable.cpp:544
@@ -16558,6 +16584,18 @@ msgstr ""
 #: kmymoney/plugins/views/reports/reportsview.cpp:230
 #, kde-format
 msgid "Budgeted"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/reportsview.cpp:196
+#: kmymoney/plugins/views/reports/reportsview.cpp:233
+#, kde-format
+msgid "Actual"
+msgstr ""
+
+#: kmymoney/plugins/views/reports/reportsview.cpp:199
+#: kmymoney/plugins/views/reports/reportsview.cpp:236
+#, kde-format
+msgid "Difference"
 msgstr ""
 
 #: kmymoney/plugins/views/reports/reportsview.cpp:223
