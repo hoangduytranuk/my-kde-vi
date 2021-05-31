@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-28 00:18+0000\n"
+"POT-Creation-Date: 2021-05-31 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -686,7 +686,7 @@ msgid "Template <b>%1</b> export <b>failed</b>..."
 msgstr ""
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:222
-#: app/settings/settingsdialog/settingsdialog.cpp:345
+#: app/settings/settingsdialog/settingsdialog.cpp:348
 #: app/settings/settingsdialog/tablayoutshandler.cpp:661
 #: app/settings/settingsdialog/tablayoutshandler.cpp:686
 #: app/settings/viewsdialog/viewshandler.cpp:369
@@ -726,6 +726,17 @@ msgstr ""
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:588
 #, kde-format
 msgid "Hide"
+msgstr ""
+
+#: app/settings/screensdialog/screensdialog.cpp:64
+#, kde-format
+msgctxt "remove selected screens"
+msgid "Remove Now"
+msgstr ""
+
+#: app/settings/screensdialog/screensdialog.cpp:66
+#, kde-format
+msgid "Remove selected screen references"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ScreensDialog)
@@ -894,66 +905,71 @@ msgstr ""
 msgid "Unsupported data!"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:125
+#: app/settings/settingsdialog/settingsdialog.cpp:126
 #, kde-format
 msgid "File"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:129
+#: app/settings/settingsdialog/settingsdialog.cpp:130
 #, kde-format
 msgid "Import Configuration..."
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:132
+#: app/settings/settingsdialog/settingsdialog.cpp:133
 #, kde-format
 msgid "Import your full configuration from previous backup"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:135
+#: app/settings/settingsdialog/settingsdialog.cpp:136
 #, kde-format
 msgid "Export Configuration..."
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:138
+#: app/settings/settingsdialog/settingsdialog.cpp:139
 #, kde-format
 msgid "Export your full configuration to create backup"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:143
+#: app/settings/settingsdialog/settingsdialog.cpp:144
 #, kde-format
 msgid "Sc&reens..."
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:147
 #, kde-format
+msgid "Examing your screens and remove deprecated references"
+msgstr ""
+
+#: app/settings/settingsdialog/settingsdialog.cpp:150
+#, kde-format
 msgid "&Quit Latte"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:255
+#: app/settings/settingsdialog/settingsdialog.cpp:258
 #, kde-format
 msgctxt "import full configuration"
 msgid "Import Full Configuration"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:260
-#: app/settings/settingsdialog/settingsdialog.cpp:289
+#: app/settings/settingsdialog/settingsdialog.cpp:263
+#: app/settings/settingsdialog/settingsdialog.cpp:292
 #, kde-format
 msgctxt "import full configuration"
 msgid "Import"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:266
+#: app/settings/settingsdialog/settingsdialog.cpp:269
 #, kde-format
 msgctxt "import full configuration"
 msgid "Latte Dock Full Configuration file"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:279
+#: app/settings/settingsdialog/settingsdialog.cpp:282
 #, kde-format
 msgid "Import: Full Configuration File"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:280
+#: app/settings/settingsdialog/settingsdialog.cpp:283
 #, kde-format
 msgid ""
 "You are importing full configuration file. Be careful, all <b>current "
@@ -961,53 +977,53 @@ msgid ""
 "first!<br>"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:284
+#: app/settings/settingsdialog/settingsdialog.cpp:287
 #, kde-format
 msgctxt "export full configuration"
 msgid "Take Backup..."
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:286
+#: app/settings/settingsdialog/settingsdialog.cpp:289
 #, kde-format
 msgid "Export your full configuration in order to take backup"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:291
+#: app/settings/settingsdialog/settingsdialog.cpp:294
 #, kde-format
 msgid ""
 "Import your full configuration and drop all your current settings and layouts"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:319
+#: app/settings/settingsdialog/settingsdialog.cpp:322
 #, kde-format
 msgid "Export Full Configuration"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:323
+#: app/settings/settingsdialog/settingsdialog.cpp:326
 #, kde-format
 msgctxt "export full configuration"
 msgid "Export"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:329
+#: app/settings/settingsdialog/settingsdialog.cpp:332
 #, kde-format
 msgctxt "export full configuration"
 msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:339
+#: app/settings/settingsdialog/settingsdialog.cpp:342
 #: app/settings/settingsdialog/tablayoutshandler.cpp:680
 #, kde-format
 msgid "Full configuration export <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:359
+#: app/settings/settingsdialog/settingsdialog.cpp:362
 #: app/settings/settingsdialog/tablayoutshandler.cpp:700
 #, kde-format
 msgid "Full configuration export succeeded..."
 msgstr ""
 
-#: app/settings/settingsdialog/settingsdialog.cpp:468
+#: app/settings/settingsdialog/settingsdialog.cpp:477
 #, kde-format
 msgid ""
 "The settings of <b>%1</b> tab have changed.<br/>Do you want to apply the "
