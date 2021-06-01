@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-31 00:15+0000\n"
+"POT-Creation-Date: 2021-06-01 00:15+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -4366,14 +4366,15 @@ msgid "A tool to convert RAW images to DNG container"
 msgstr "Đang chuyển đổi %1 sang định dạng tệp không mất gì..."
 
 #: core/dplugins/bqm/convert/converttodng/converttodngplugin.cpp:74
+#: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:71
 #, kde-format
 msgctxt "@info"
 msgid ""
 "This Generic tool can convert RAW images data to DNG format.\n"
 "\n"
-"<p>The Digital Negative is a lossless RAW image format created by Adobe.\n"
+"The Digital Negative is a lossless RAW image format created by Adobe.\n"
 "\n"
-"<p>See details on this wikipedia entry about this format: %1"
+"See details on this wikipedia entry about this format: %1"
 msgstr ""
 
 #: core/dplugins/bqm/convert/converttoheif/converttoheifplugin.cpp:54
@@ -14313,17 +14314,6 @@ msgctxt "@info"
 msgid "A tool to batch convert RAW camera images to DNG"
 msgstr "Đang chuyển đổi %1 sang định dạng tệp không mất gì..."
 
-#: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:71
-#, kde-format
-msgctxt "@info"
-msgid ""
-"This Generic tool can convert RAW images data to DNG format.\n"
-"\n"
-"The Digital Negative is a lossless RAW image format created by Adobe.\n"
-"\n"
-"See details on this wikipedia entry about this format: %1"
-msgstr ""
-
 #: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:99
 #, fuzzy, kde-format
 msgctxt "@action"
@@ -24002,21 +23992,28 @@ msgstr "Tập"
 msgid "Searches"
 msgstr "Việc tìm kiếm"
 
-#: core/libs/album/manager/albummanager_database.cpp:116
+#: core/libs/album/manager/albummanager_database.cpp:112
+#, kde-format
+msgid ""
+"The MySQL database directory are not found, please set the correct location "
+"in the next dialog."
+msgstr ""
+
+#: core/libs/album/manager/albummanager_database.cpp:121
 #, kde-format
 msgid ""
 "The MySQL binary tools are not found, please set the correct location in the "
 "next dialog."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:124
+#: core/libs/album/manager/albummanager_database.cpp:129
 #, kde-format
 msgid ""
 "The SQLite core database are not found, please set the correct location in "
 "the next dialog."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:140
+#: core/libs/album/manager/albummanager_database.cpp:145
 #, fuzzy, kde-format
 msgid ""
 "An error occurred during the internal server start.\n"
@@ -24027,7 +24024,7 @@ msgstr ""
 "Gặp lỗi khi mở hậu phương cơ sở dữ liệu.\n"
 " "
 
-#: core/libs/album/manager/albummanager_database.cpp:156
+#: core/libs/album/manager/albummanager_database.cpp:161
 #, fuzzy, kde-format
 msgid ""
 "Failed to open the database.\n"
@@ -24039,14 +24036,14 @@ msgstr ""
 "p><p>Không có cơ sở dữ liệu hoạt động được thì không thể sử dụng digiKam. "
 "Hãy kiểm tra lại thiết lập cơ sở dữ liệu trong trình đơn cấu hình.</p></qt>"
 
-#: core/libs/album/manager/albummanager_database.cpp:165
+#: core/libs/album/manager/albummanager_database.cpp:170
 #, kde-format
 msgid ""
 "<p>digiKam will attempt to start now, but it will <b>not</b> be functional.</"
 "p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:203
+#: core/libs/album/manager/albummanager_database.cpp:208
 #, fuzzy, kde-format
 msgid ""
 "<p>Failed to open the database.</p><p>You cannot use digiKam without a "
@@ -24058,7 +24055,7 @@ msgstr ""
 "p><p>Không có cơ sở dữ liệu hoạt động được thì không thể sử dụng digiKam. "
 "Hãy kiểm tra lại thiết lập cơ sở dữ liệu trong trình đơn cấu hình.</p></qt>"
 
-#: core/libs/album/manager/albummanager_database.cpp:212
+#: core/libs/album/manager/albummanager_database.cpp:217
 #, fuzzy, kde-format
 msgid ""
 "<p>Failed to open the database. Error message from database:</p><p><b>%1</"
@@ -24070,7 +24067,7 @@ msgstr ""
 "p><p>Không có cơ sở dữ liệu hoạt động được thì không thể sử dụng digiKam. "
 "Hãy kiểm tra lại thiết lập cơ sở dữ liệu trong trình đơn cấu hình.</p></qt>"
 
-#: core/libs/album/manager/albummanager_database.cpp:287
+#: core/libs/album/manager/albummanager_database.cpp:292
 #, fuzzy, kde-format
 msgid ""
 "Your locale has changed since this album was last opened.\n"
@@ -24088,7 +24085,7 @@ msgstr ""
 "nhấn vào « Có » để làm việc với tập ảnh này. Không thì nhấn vào « Không » và "
 "sửa chữa thiết lập miền địa phương trước khi khởi chạy lại trình digiKam."
 
-#: core/libs/album/manager/albummanager_database.cpp:329
+#: core/libs/album/manager/albummanager_database.cpp:334
 #, kde-format
 msgid ""
 "<p>The collection </p><p><b>%1</b><br/>(%2)</p><p> is currently not found on "
@@ -24096,7 +24093,7 @@ msgid ""
 "situation:</p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:348
+#: core/libs/album/manager/albummanager_database.cpp:353
 #, kde-format
 msgid ""
 "<p>The collection is still available, but the identifier changed.<br/>This "
@@ -24104,31 +24101,31 @@ msgid ""
 "file system settings.<br/>The collection is now located at this place:</p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:367
+#: core/libs/album/manager/albummanager_database.cpp:372
 #, kde-format
 msgid ""
 "The collection is located on a storage device which is not always attached. "
 "Mark the collection as a removable collection."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:374
+#: core/libs/album/manager/albummanager_database.cpp:379
 #, kde-format
 msgid ""
 "Take no action now. I would like to solve the problem later using the setup "
 "dialog"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:388
+#: core/libs/album/manager/albummanager_database.cpp:393
 #, fuzzy, kde-format
 msgid "Collection not found"
 msgstr "Tập hợp"
 
-#: core/libs/album/manager/albummanager_database.cpp:490
+#: core/libs/album/manager/albummanager_database.cpp:495
 #, fuzzy, kde-format
 msgid "Database Folder"
 msgstr "Tạo thư mục ?"
 
-#: core/libs/album/manager/albummanager_database.cpp:491
+#: core/libs/album/manager/albummanager_database.cpp:496
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the place to store the database. A "
@@ -24138,30 +24135,30 @@ msgid ""
 "\"%2\" - or ignore the old file and start with a new database?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:501
-#: core/libs/album/manager/albummanager_database.cpp:566
-#: core/libs/album/manager/albummanager_database.cpp:588
+#: core/libs/album/manager/albummanager_database.cpp:506
+#: core/libs/album/manager/albummanager_database.cpp:571
+#: core/libs/album/manager/albummanager_database.cpp:593
 #, fuzzy, kde-format
 msgid "Upgrade Database"
 msgstr "Tạo tập ảnh mới"
 
-#: core/libs/album/manager/albummanager_database.cpp:503
-#: core/libs/album/manager/albummanager_database.cpp:568
-#: core/libs/album/manager/albummanager_database.cpp:590
-#: core/libs/album/manager/albummanager_database.cpp:638
+#: core/libs/album/manager/albummanager_database.cpp:508
+#: core/libs/album/manager/albummanager_database.cpp:573
+#: core/libs/album/manager/albummanager_database.cpp:595
+#: core/libs/album/manager/albummanager_database.cpp:643
 #, fuzzy, kde-format
 msgid "Create New Database"
 msgstr "Tạo tập ảnh mới"
 
-#: core/libs/album/manager/albummanager_database.cpp:557
-#: core/libs/album/manager/albummanager_database.cpp:580
-#: core/libs/album/manager/albummanager_database.cpp:630
-#: core/libs/album/manager/albummanager_database.cpp:662
+#: core/libs/album/manager/albummanager_database.cpp:562
+#: core/libs/album/manager/albummanager_database.cpp:585
+#: core/libs/album/manager/albummanager_database.cpp:635
+#: core/libs/album/manager/albummanager_database.cpp:667
 #, fuzzy, kde-format
 msgid "New database folder"
 msgstr "Đang đọc cơ sở dữ liệu..."
 
-#: core/libs/album/manager/albummanager_database.cpp:558
+#: core/libs/album/manager/albummanager_database.cpp:563
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -24171,14 +24168,14 @@ msgid ""
 "it?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:570
-#: core/libs/album/manager/albummanager_database.cpp:640
-#: core/libs/album/manager/albummanager_database.cpp:671
+#: core/libs/album/manager/albummanager_database.cpp:575
+#: core/libs/album/manager/albummanager_database.cpp:645
+#: core/libs/album/manager/albummanager_database.cpp:676
 #, fuzzy, kde-format
 msgid "Copy Current Database"
 msgstr "Đang đọc cơ sở dữ liệu..."
 
-#: core/libs/album/manager/albummanager_database.cpp:581
+#: core/libs/album/manager/albummanager_database.cpp:586
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -24187,7 +24184,7 @@ msgid ""
 "database?</p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:616
+#: core/libs/album/manager/albummanager_database.cpp:621
 #, fuzzy, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -24196,7 +24193,7 @@ msgstr ""
 "Lỗi sao chép tệp cơ sở dữ liệu cũ (« %1 ») vào vị trí mới (« %2 »). Hãy kiểm "
 "tra lại tệp này có khả năng được sao chép."
 
-#: core/libs/album/manager/albummanager_database.cpp:631
+#: core/libs/album/manager/albummanager_database.cpp:636
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database."
@@ -24204,7 +24201,7 @@ msgid ""
 "continue using it, or start with a new database?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:663
+#: core/libs/album/manager/albummanager_database.cpp:668
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -24213,19 +24210,19 @@ msgid ""
 "current database to this place?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:673
+#: core/libs/album/manager/albummanager_database.cpp:678
 #, fuzzy, kde-format
 msgid "Use Existing File"
 msgstr "Dùng hồ sơ sRGB có sẵn"
 
-#: core/libs/album/manager/albummanager_database.cpp:746
+#: core/libs/album/manager/albummanager_database.cpp:751
 #, kde-format
 msgid ""
 "Failed to backup the existing database file (\"%1\"). Refusing to replace "
 "file without backup, using the existing file."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:764
+#: core/libs/album/manager/albummanager_database.cpp:769
 #, fuzzy, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "

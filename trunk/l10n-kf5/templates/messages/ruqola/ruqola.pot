@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-31 00:17+0000\n"
+"POT-Creation-Date: 2021-06-01 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -469,9 +469,19 @@ msgstr ""
 msgid "Expiration"
 msgstr ""
 
-#: core/model/adminroomsmodel.cpp:46 core/model/adminusersmodel.cpp:46
+#: core/model/admininvitemodel.cpp:121
+#, kde-format
+msgid "Expire in %1 days"
+msgstr ""
+
+#: core/model/admininvitemodel.cpp:123
+#, kde-format
+msgid "Expired"
+msgstr ""
+
+#: core/model/adminroomsmodel.cpp:46 core/model/adminusersmodel.cpp:43
 #: core/model/directoryroomsmodel.cpp:107
-#: core/model/directoryteamsmodel.cpp:98 core/model/directoryusersmodel.cpp:101
+#: core/model/directoryteamsmodel.cpp:98 core/model/directoryusersmodel.cpp:108
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:30
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:55
 #, kde-format
@@ -513,22 +523,22 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:48
+#: core/model/adminusersmodel.cpp:45
 #, kde-format
 msgid "UserName"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:50 widgets/dialogs/configurenotificationwidget.cpp:132
+#: core/model/adminusersmodel.cpp:47 widgets/dialogs/configurenotificationwidget.cpp:132
 #, kde-format
 msgid "Email"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:52
+#: core/model/adminusersmodel.cpp:49
 #, kde-format
 msgid "Role"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:54 widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:116
+#: core/model/adminusersmodel.cpp:51 widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:116
 #, kde-format
 msgid "Disabled"
 msgstr ""
@@ -541,10 +551,14 @@ msgstr ""
 msgid "Rooms"
 msgstr ""
 
-#: core/model/directoryusersmodel.cpp:103
-#: core/model/directoryusersmodel.cpp:105
+#: core/model/directoryusersmodel.cpp:110
 #, kde-format
 msgid "Emails"
+msgstr ""
+
+#: core/model/directoryusersmodel.cpp:112
+#, kde-format
+msgid "Join At"
 msgstr ""
 
 #: core/model/listmessagesmodelfilterproxymodel.cpp:59
@@ -1608,7 +1622,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:58
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:91
-#: widgets/administratordialog/users/administratoruserswidget.cpp:115
+#: widgets/administratordialog/users/administratoruserswidget.cpp:111
 #: widgets/configuredialog/configureaccountserverwidget.ui:25
 #, kde-format
 msgid "Add..."
@@ -1618,7 +1632,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:61
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:144
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:94
-#: widgets/administratordialog/users/administratoruserswidget.cpp:118
+#: widgets/administratordialog/users/administratoruserswidget.cpp:114
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
 #, kde-format
 msgid "Modify..."
@@ -1629,7 +1643,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:146
 #: widgets/administratordialog/invites/invitetreeview.cpp:55
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:98
-#: widgets/administratordialog/users/administratoruserswidget.cpp:122
+#: widgets/administratordialog/users/administratoruserswidget.cpp:118
 #: widgets/configuredialog/configureaccountserverwidget.ui:39
 #, kde-format
 msgid "Remove"
@@ -1966,7 +1980,7 @@ msgid "Filter Channels (CTRL + K)"
 msgstr ""
 
 #: widgets/channellist/channellistwidget.cpp:58
-#: widgets/directory/directorywidget.cpp:75
+#: widgets/directory/directorywidget.cpp:76
 #, kde-format
 msgid "Search Channels"
 msgstr ""
@@ -2768,7 +2782,7 @@ msgstr[1] ""
 #: widgets/dialogs/showattachmentwidget.cpp:113
 #: widgets/dialogs/showdiscussionswidget.cpp:94
 #: widgets/dialogs/showlistmessagebasewidget.cpp:105
-#: widgets/directory/directorywidget.cpp:213
+#: widgets/directory/directorywidget.cpp:229
 #: widgets/room/usersinroomflowwidget.cpp:144
 #: widgets/room/usersinroomwidget.cpp:160
 #, kde-format
@@ -2896,60 +2910,60 @@ msgctxt "@title:window"
 msgid "Directory"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:79
-#: widgets/directory/directorywidget.cpp:225
+#: widgets/directory/directorywidget.cpp:80
+#: widgets/directory/directorywidget.cpp:241
 #, kde-format
 msgid "Search Users"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:83
-#: widgets/directory/directorywidget.cpp:228
+#: widgets/directory/directorywidget.cpp:84
+#: widgets/directory/directorywidget.cpp:244
 #, kde-format
 msgid "Search Teams"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:109
+#: widgets/directory/directorywidget.cpp:122
 #, kde-format
 msgid "Open..."
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:185
+#: widgets/directory/directorywidget.cpp:201
 #, kde-format
 msgid "No Room found"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:187
+#: widgets/directory/directorywidget.cpp:203
 #, kde-format
 msgid "No User found"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:189
+#: widgets/directory/directorywidget.cpp:205
 #, kde-format
 msgid "No Team found"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:201
+#: widgets/directory/directorywidget.cpp:217
 #, kde-format
 msgid "%1 room (Total: %2)"
 msgid_plural "%1 rooms (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/directory/directorywidget.cpp:204
+#: widgets/directory/directorywidget.cpp:220
 #, kde-format
 msgid "%1 user (Total: %2)"
 msgid_plural "%1 users (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/directory/directorywidget.cpp:207
+#: widgets/directory/directorywidget.cpp:223
 #, kde-format
 msgid "%1 team (Total: %2)"
 msgid_plural "%1 teams (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/directory/directorywidget.cpp:222
+#: widgets/directory/directorywidget.cpp:238
 #, kde-format
 msgid "Search Rooms"
 msgstr ""

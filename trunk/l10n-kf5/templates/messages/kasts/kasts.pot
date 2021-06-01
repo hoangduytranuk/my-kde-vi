@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-29 00:19+0000\n"
+"POT-Creation-Date: 2021-06-01 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -79,7 +79,7 @@ msgctxt "Explanation for sleep inhibit during play of music"
 msgid "Playing Music"
 msgstr ""
 
-#: qml/AboutPage.qml:16 qml/main.qml:104
+#: qml/AboutPage.qml:16 qml/main.qml:102
 #, kde-format
 msgid "About"
 msgstr ""
@@ -99,53 +99,59 @@ msgstr ""
 msgid "Add Podcast"
 msgstr ""
 
-#: qml/DownloadSwipePage.qml:19 qml/main.qml:88
+#: qml/DownloadSwipePage.qml:18 qml/main.qml:86
 #, kde-format
 msgid "Downloads"
 msgstr ""
 
-#: qml/DownloadSwipePage.qml:45 qml/DownloadSwipePage.qml:66
+#: qml/DownloadSwipePage.qml:23 qml/EpisodeListPage.qml:30
+#: qml/EpisodeSwipePage.qml:23 qml/FeedListPage.qml:36 qml/QueuePage.qml:33
+#, kde-format
+msgid "Refresh All Podcasts"
+msgstr ""
+
+#: qml/DownloadSwipePage.qml:51 qml/DownloadSwipePage.qml:79
 #, kde-format
 msgid "In Progress"
 msgstr ""
 
-#: qml/DownloadSwipePage.qml:50 qml/DownloadSwipePage.qml:71
+#: qml/DownloadSwipePage.qml:56 qml/DownloadSwipePage.qml:84
 #, kde-format
 msgid "Completed"
 msgstr ""
 
-#: qml/DownloadSwipePage.qml:55 qml/DownloadSwipePage.qml:76
+#: qml/DownloadSwipePage.qml:61 qml/DownloadSwipePage.qml:89
 #, kde-format
 msgid "Error Log"
 msgstr ""
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListPage.qml:40
 #, kde-format
 msgid "Details"
 msgstr ""
 
-#: qml/EntryListPage.qml:50 qml/FeedListDelegate.qml:157
+#: qml/EntryListPage.qml:49 qml/FeedListDelegate.qml:157
 #, kde-format
 msgid "Remove Podcast"
 msgstr ""
 
-#: qml/EntryListPage.qml:61
+#: qml/EntryListPage.qml:60
 #, kde-format
 msgid "Refresh Podcast"
 msgstr ""
 
-#: qml/EntryListPage.qml:72 qml/EpisodeListPage.qml:42
-#: qml/EpisodeListPage.qml:47
+#: qml/EntryListPage.qml:71 qml/EpisodeListPage.qml:41
+#: qml/EpisodeListPage.qml:46
 #, kde-format
 msgid "No Episodes Available"
 msgstr ""
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:71
 #, kde-format
 msgid "Error (%1): %2"
 msgstr ""
 
-#: qml/EntryListPage.qml:100
+#: qml/EntryListPage.qml:99
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
@@ -216,67 +222,62 @@ msgstr ""
 msgid "Label as \"New\""
 msgstr ""
 
-#: qml/EpisodeListPage.qml:31 qml/FeedListPage.qml:36 qml/QueuePage.qml:34
-#, kde-format
-msgid "Refresh All Podcasts"
-msgstr ""
-
-#: qml/EpisodeListPage.qml:43
+#: qml/EpisodeListPage.qml:42
 #, kde-format
 msgid "No New Episodes"
 msgstr ""
 
-#: qml/EpisodeListPage.qml:44
+#: qml/EpisodeListPage.qml:43
 #, kde-format
 msgid "No Unplayed Episodes"
 msgstr ""
 
-#: qml/EpisodeListPage.qml:45
+#: qml/EpisodeListPage.qml:44
 #, kde-format
 msgid "No Downloaded Episodes"
 msgstr ""
 
-#: qml/EpisodeListPage.qml:46
+#: qml/EpisodeListPage.qml:45
 #, kde-format
 msgid "No Downloads in Progress"
 msgstr ""
 
-#: qml/EpisodeSwipePage.qml:19
+#: qml/EpisodeSwipePage.qml:18
 #, kde-format
 msgid "Episode List"
 msgstr ""
 
-#: qml/EpisodeSwipePage.qml:45 qml/EpisodeSwipePage.qml:61
+#: qml/EpisodeSwipePage.qml:51 qml/EpisodeSwipePage.qml:74
 #, kde-format
 msgid "New Episodes"
 msgstr ""
 
-#: qml/EpisodeSwipePage.qml:50 qml/EpisodeSwipePage.qml:66
+#: qml/EpisodeSwipePage.qml:56 qml/EpisodeSwipePage.qml:79
 #, kde-format
 msgid "All Episodes"
 msgstr ""
 
-#: qml/ErrorListPage.qml:26
+#: qml/ErrorListPage.qml:25
 #, kde-format
 msgid "No Errors Logged"
 msgstr ""
 
-#: qml/ErrorListPage.qml:44 qml/main.qml:186
+#: qml/ErrorListPage.qml:43 qml/main.qml:184
 #, kde-format
 msgid "Media Download Error"
 msgstr ""
 
-#: qml/ErrorListPage.qml:44 qml/main.qml:186
+#: qml/ErrorListPage.qml:43 qml/main.qml:184
 #, kde-format
 msgid "Podcast Update Error"
 msgstr ""
 
-#: qml/ErrorListPage.qml:58
+#: qml/ErrorListPage.qml:57
 #, kde-format
 msgid "Error Code: "
 msgstr ""
 
-#: qml/ErrorListPage.qml:81
+#: qml/ErrorListPage.qml:80
 #, kde-format
 msgid "Clear All Errors"
 msgstr ""
@@ -303,7 +304,7 @@ msgstr ""
 msgid "Last Updated: %1"
 msgstr ""
 
-#: qml/FeedDetailsPage.qml:61 qml/QueuePage.qml:67
+#: qml/FeedDetailsPage.qml:61 qml/QueuePage.qml:66
 #, kde-format
 msgid "1 Episode"
 msgid_plural "%1 Episodes"
@@ -317,7 +318,7 @@ msgid_plural "%1 Unplayed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/FeedListPage.qml:19 qml/main.qml:78
+#: qml/FeedListPage.qml:19 qml/main.qml:76
 #, kde-format
 msgid "Subscriptions"
 msgstr ""
@@ -372,22 +373,22 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-#: qml/main.qml:58 qml/QueuePage.qml:20
+#: qml/main.qml:56 qml/QueuePage.qml:19
 #, kde-format
 msgid "Queue"
 msgstr ""
 
-#: qml/main.qml:68
+#: qml/main.qml:66
 #, kde-format
 msgid "Episodes"
 msgstr ""
 
-#: qml/main.qml:98 qml/SettingsPage.qml:16
+#: qml/main.qml:96 qml/SettingsPage.qml:16
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: qml/main.qml:186
+#: qml/main.qml:184
 #, kde-format
 msgid "Check Error Log Tab (under Downloads) for more details."
 msgstr ""
@@ -412,12 +413,12 @@ msgstr ""
 msgid "No Track Title"
 msgstr ""
 
-#: qml/QueuePage.qml:45
+#: qml/QueuePage.qml:44
 #, kde-format
 msgid "Nothing Added to the Queue Yet"
 msgstr ""
 
-#: qml/QueuePage.qml:67
+#: qml/QueuePage.qml:66
 #, kde-format
 msgid "Time Left"
 msgstr ""
