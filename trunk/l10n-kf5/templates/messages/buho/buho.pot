@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: buho\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-23 00:16+0000\n"
+"POT-Creation-Date: 2021-06-03 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/main.cpp:50 src/main.qml:18
+#: src/main.cpp:54 src/main.qml:18
 #, kde-format
 msgid "Buho"
 msgstr ""
 
-#: src/main.cpp:50
+#: src/main.cpp:54
 #, kde-format
 msgid "Create and organize your notes."
 msgstr ""
 
-#: src/main.cpp:50
+#: src/main.cpp:54
 #, kde-format
 msgid "© 2019-%1 Nitrux Development Team"
 msgstr ""
 
-#: src/main.cpp:51
+#: src/main.cpp:55
 #, kde-format
 msgid "Camilo Higuita"
 msgstr ""
 
-#: src/main.cpp:51
+#: src/main.cpp:55
 #, kde-format
 msgid "Developer"
 msgstr ""
@@ -47,111 +47,14 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: src/main.qml:82
+#: src/main.qml:72
 #, kde-format
 msgid "Notes"
 msgstr ""
 
-#: src/main.qml:89
+#: src/main.qml:79
 #, kde-format
-msgid "Books"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:35
-#, kde-format
-msgid "Filter "
-msgstr ""
-
-#: src/views/books/BookletPage.qml:35
-#, kde-format
-msgid "booklets in "
-msgstr ""
-
-#: src/views/books/BookletPage.qml:53
-#, kde-format
-msgid "This book is empty!"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:54
-#, kde-format
-msgid "Start by creating a new chapter for your book"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:73
-#, kde-format
-msgid "Notes in this book: "
-msgstr ""
-
-#: src/views/books/BookletPage.qml:179
-#, kde-format
-msgid "Save"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:206
-#, kde-format
-msgid "Nothing to edit!"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:207
-#, kde-format
-msgid "Select a chapter or create a new one"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:216
-#, kde-format
-msgid "New Chapter"
-msgstr ""
-
-#: src/views/books/BookletPage.qml:217
-#, kde-format
-msgid "Create a new chapter for your current book. Give it a title"
-msgstr ""
-
-#: src/views/books/BooksView.qml:40 src/views/notes/NotesView.qml:189
-#, kde-format
-msgid "Search "
-msgstr ""
-
-#: src/views/books/BooksView.qml:40
-#, kde-format
-msgid "books"
-msgstr ""
-
-#: src/views/books/BooksView.qml:57
-#, kde-format
-msgid "There are no Books!"
-msgstr ""
-
-#: src/views/books/BooksView.qml:58
-#, kde-format
-msgid "You can create new books and organize your notes"
-msgstr ""
-
-#: src/views/books/NewBookDialog.qml:14
-#, kde-format
-msgid "New Book"
-msgstr ""
-
-#: src/views/books/NewBookDialog.qml:15
-#, kde-format
-msgid ""
-"Give a title to your new book. Your new book can contain many notes grouped "
-"together"
-msgstr ""
-
-#: src/views/books/NewBookDialog.qml:18
-#, kde-format
-msgid "My Book..."
-msgstr ""
-
-#: src/views/books/NewBookDialog.qml:20
-#, kde-format
-msgid "Create"
-msgstr ""
-
-#: src/views/books/NewBookDialog.qml:21
-#, kde-format
-msgid "Cancel"
+msgid "Tags"
 msgstr ""
 
 #: src/views/notes/NotesView.qml:67
@@ -172,6 +75,11 @@ msgstr ""
 #: src/views/notes/NotesView.qml:93
 #, kde-format
 msgid "Click here to create a new note"
+msgstr ""
+
+#: src/views/notes/NotesView.qml:189
+#, kde-format
+msgid "Search "
 msgstr ""
 
 #: src/views/notes/NotesView.qml:189
@@ -222,6 +130,71 @@ msgstr ""
 #: src/views/notes/NotesView.qml:505
 #, kde-format
 msgid "Remove"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:35 src/views/tags/TagsView.qml:50
+#, kde-format
+msgid "Filter "
+msgstr ""
+
+#: src/views/tags/TagPage.qml:35
+#, kde-format
+msgid "booklets in "
+msgstr ""
+
+#: src/views/tags/TagPage.qml:53
+#, kde-format
+msgid "This book is empty!"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:54
+#, kde-format
+msgid "Start by creating a new chapter for your book"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:73
+#, kde-format
+msgid "Notes in this book: "
+msgstr ""
+
+#: src/views/tags/TagPage.qml:179
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:206
+#, kde-format
+msgid "Nothing to edit!"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:207
+#, kde-format
+msgid "Select a chapter or create a new one"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:216
+#, kde-format
+msgid "New Chapter"
+msgstr ""
+
+#: src/views/tags/TagPage.qml:217
+#, kde-format
+msgid "Create a new chapter for your current book. Give it a title"
+msgstr ""
+
+#: src/views/tags/TagsView.qml:50
+#, kde-format
+msgid "tags"
+msgstr ""
+
+#: src/views/tags/TagsView.qml:67
+#, kde-format
+msgid "There are no Tags!"
+msgstr ""
+
+#: src/views/tags/TagsView.qml:68
+#, kde-format
+msgid "You can create new tags to organize your notes"
 msgstr ""
 
 #: src/widgets/CardDelegate.qml:54

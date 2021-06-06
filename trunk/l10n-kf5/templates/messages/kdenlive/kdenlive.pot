@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-02 00:17+0000\n"
+"POT-Creation-Date: 2021-06-06 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -8012,17 +8012,27 @@ msgstr ""
 
 #: src/dialogs/proxytest.cpp:48
 #, kde-format
+msgid "Failing profiles"
+msgstr ""
+
+#: src/dialogs/proxytest.cpp:63
+#, kde-format
 msgid "Starting process"
 msgstr ""
 
-#: src/dialogs/proxytest.cpp:95
+#: src/dialogs/proxytest.cpp:128 src/dialogs/proxytest.cpp:150
 #, kde-format
-msgid "Processing %1"
+msgid "Cannot create temporary files"
 msgstr ""
 
-#: src/dialogs/proxytest.cpp:151
+#: src/dialogs/proxytest.cpp:132
 #, kde-format
-msgid "failed"
+msgid "Generating a 60 seconds test video %1"
+msgstr ""
+
+#: src/dialogs/proxytest.cpp:143
+#, kde-format
+msgid "Processing %1"
 msgstr ""
 
 #: src/dialogs/renderwidget.cpp:127 src/dialogs/renderwidget.cpp:1659
@@ -11827,7 +11837,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, resultList)
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize)
 #: src/mltcontroller/clippropertiescontroller.cpp:1367
-#: src/ui/clipproperties_ui.ui:65 src/ui/testproxy_ui.ui:53
+#: src/ui/clipproperties_ui.ui:65 src/ui/testproxy_ui.ui:59
 #, kde-format
 msgid "File size"
 msgstr ""
@@ -11876,17 +11886,17 @@ msgstr ""
 msgid "Open Analysis Data"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1662
+#: src/monitor/glwidget.cpp:1670
 #, kde-format
 msgid "Select a zone to play"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1699
+#: src/monitor/glwidget.cpp:1707
 #, kde-format
 msgid "Select a clip to play"
 msgstr ""
 
-#: src/monitor/glwidget.cpp:1756
+#: src/monitor/glwidget.cpp:1764
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -12558,7 +12568,7 @@ msgstr ""
 #: src/onlineresources/resourcewidget.cpp:404
 #, kde-format
 msgctxt "Creative Commons License (short)"
-msgid "CC BY-ND-SA"
+msgid "CC BY-NC-SA"
 msgstr ""
 
 #: src/onlineresources/resourcewidget.cpp:406
@@ -14013,17 +14023,17 @@ msgstr ""
 msgid "Problems found in your project file"
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:345
+#: src/timeline2/model/builders/meltBuilder.cpp:349
 #, kde-format
 msgid "Invalid clip %1 (%2) not found in project bin, recovered."
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:347
+#: src/timeline2/model/builders/meltBuilder.cpp:351
 #, kde-format
 msgid "Project corrupted. Clip %1 (%2) not found in project bin."
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:367
+#: src/timeline2/model/builders/meltBuilder.cpp:373
 #, kde-format
 msgid "Invalid clip %1 found on track %2 at %3."
 msgstr ""
@@ -14245,7 +14255,7 @@ msgid "Select a clip to apply the mix"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:888
-#: src/timeline2/model/trackmodel.cpp:1665
+#: src/timeline2/model/trackmodel.cpp:1670
 #, kde-format
 msgid "start"
 msgstr ""
@@ -14256,7 +14266,7 @@ msgid "end"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:888
-#: src/timeline2/model/trackmodel.cpp:1665
+#: src/timeline2/model/trackmodel.cpp:1670
 #, kde-format
 msgid "Not enough frames at clip %1 to apply the mix"
 msgstr ""
@@ -15061,7 +15071,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, speedSpin)
 #. i18n: ectx: property (suffix), widget (QSpinBox, zoom_spin)
 #: src/titler/titlewidget.cpp:166 src/ui/clipspeed_ui.ui:69
-#: src/ui/configsdl_ui.ui:89 src/ui/selectivecolor_ui.ui:75
+#: src/ui/configsdl_ui.ui:96 src/ui/selectivecolor_ui.ui:75
 #: src/ui/selectivecolor_ui.ui:108 src/ui/selectivecolor_ui.ui:141
 #: src/ui/selectivecolor_ui.ui:174 src/ui/titlewidget_ui.ui:88
 #: src/widgets/geometrywidget.cpp:87 src/widgets/geometrywidget.cpp:94
@@ -15812,7 +15822,7 @@ msgstr ""
 #: src/ui/configcapture_ui.ui:621 src/ui/configcapture_ui.ui:628
 #: src/ui/configjogshuttle_ui.ui:78 src/ui/configproject_ui.ui:99
 #: src/ui/configproject_ui.ui:109 src/ui/configproxy_ui.ui:74
-#: src/ui/configproxy_ui.ui:126 src/ui/configsdl_ui.ui:154
+#: src/ui/configproxy_ui.ui:126 src/ui/configsdl_ui.ui:161
 #: src/ui/configspeech_ui.ui:33 src/ui/configspeech_ui.ui:47
 #: src/ui/cutjobdialog_ui.ui:80 src/ui/editsub_ui.ui:43 src/ui/editsub_ui.ui:71
 #: src/ui/editsub_ui.ui:98 src/ui/editsub_ui.ui:111 src/ui/editsub_ui.ui:139
@@ -16149,7 +16159,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_profile)
 #: src/ui/cliptranscode_ui.ui:150 src/ui/profiledialog_ui.ui:40
-#: src/ui/testproxy_ui.ui:43
+#: src/ui/testproxy_ui.ui:49
 #, kde-format
 msgid "Profile"
 msgstr ""
@@ -16834,44 +16844,50 @@ msgstr ""
 msgid "Use GPU processing (Movit library) - restart Kdenlive to apply"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_audio_scrub)
 #: src/ui/configsdl_ui.ui:34
+#, kde-format
+msgid "Enable Audio Scrubbing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/ui/configsdl_ui.ui:41
 #, kde-format
 msgid "Audio backend"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: src/ui/configsdl_ui.ui:53
+#: src/ui/configsdl_ui.ui:60
 #, kde-format
 msgid "Audio driver:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: src/ui/configsdl_ui.ui:66
+#: src/ui/configsdl_ui.ui:73
 #, kde-format
 msgid "Audio device:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/configsdl_ui.ui:82
+#: src/ui/configsdl_ui.ui:89
 #, kde-format
 msgid "Preview volume:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/configsdl_ui.ui:102
+#: src/ui/configsdl_ui.ui:109
 #, kde-format
 msgid "Monitor background color:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_external_display)
-#: src/ui/configsdl_ui.ui:127
+#: src/ui/configsdl_ui.ui:134
 #, kde-format
 msgid "Use external display (Blackmagic card)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/configsdl_ui.ui:134
+#: src/ui/configsdl_ui.ui:141
 #, kde-format
 msgid "Output device"
 msgstr ""
@@ -18101,7 +18117,7 @@ msgid "Template"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, resultList)
-#: src/ui/testproxy_ui.ui:48
+#: src/ui/testproxy_ui.ui:54
 #, kde-format
 msgid "Render time"
 msgstr ""

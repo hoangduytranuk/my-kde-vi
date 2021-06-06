@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-01 00:19+0000\n"
+"POT-Creation-Date: 2021-06-06 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -586,6 +586,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, deselectAllBtn)
 #: app/settings/exporttemplatedialog/exporttemplatedialog.ui:81
+#: app/settings/screensdialog/screensdialog.ui:74
 #, kde-format
 msgid "Deselect All"
 msgstr ""
@@ -687,9 +688,9 @@ msgstr ""
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:222
 #: app/settings/settingsdialog/settingsdialog.cpp:348
-#: app/settings/settingsdialog/tablayoutshandler.cpp:661
-#: app/settings/settingsdialog/tablayoutshandler.cpp:686
-#: app/settings/viewsdialog/viewshandler.cpp:369
+#: app/settings/settingsdialog/tablayoutshandler.cpp:666
+#: app/settings/settingsdialog/tablayoutshandler.cpp:691
+#: app/settings/viewsdialog/viewshandler.cpp:374
 #, kde-format
 msgid "Open Location..."
 msgstr ""
@@ -728,13 +729,13 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: app/settings/screensdialog/screensdialog.cpp:64
+#: app/settings/screensdialog/screensdialog.cpp:69
 #, kde-format
 msgctxt "remove selected screens"
 msgid "Remove Now"
 msgstr ""
 
-#: app/settings/screensdialog/screensdialog.cpp:66
+#: app/settings/screensdialog/screensdialog.cpp:71
 #, kde-format
 msgid "Remove selected screen references"
 msgstr ""
@@ -746,7 +747,7 @@ msgid "Screens"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, noteLbl)
-#: app/settings/screensdialog/screensdialog.ui:59
+#: app/settings/screensdialog/screensdialog.ui:83
 #, kde-format
 msgid ""
 "<b>Select only</b> screens that are obsolete and you would like to remove "
@@ -754,13 +755,13 @@ msgid ""
 "removed."
 msgstr ""
 
-#: app/settings/screensdialog/screensmodel.cpp:176
+#: app/settings/screensdialog/screensmodel.cpp:238
 #, kde-format
 msgctxt "column for screens"
 msgid "Screens"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:533
+#: app/settings/settingsdialog/layoutscontroller.cpp:599
 #, kde-format
 msgctxt "settings:counted layout with errors"
 msgid "<b>Error:</b> There is <b>1 layout</b> that has reported errors."
@@ -769,7 +770,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:546
+#: app/settings/settingsdialog/layoutscontroller.cpp:612
 #, kde-format
 msgctxt "settings:counted layout with warnings"
 msgid "<b>Warning:</b> There is <b>1 layout</b> that has reported warnings."
@@ -778,12 +779,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:556
+#: app/settings/settingsdialog/layoutscontroller.cpp:622
 #, kde-format
 msgid "Examine..."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:574
+#: app/settings/settingsdialog/layoutscontroller.cpp:640
 #, kde-format
 msgctxt "settings:named layout with warnings"
 msgid ""
@@ -795,14 +796,14 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:584
+#: app/settings/settingsdialog/layoutscontroller.cpp:650
 #, kde-format
 msgctxt "settings:named layout with errors"
 msgid ""
 "<b>Error: %2</b> layout has reported <b>1 error</b> that you need to repair."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:594
+#: app/settings/settingsdialog/layoutscontroller.cpp:660
 #, kde-format
 msgctxt "errors count"
 msgid "1 error"
@@ -810,7 +811,7 @@ msgid_plural "%1 errors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:598
+#: app/settings/settingsdialog/layoutscontroller.cpp:664
 #, kde-format
 msgctxt "warnings count"
 msgid "1 warning"
@@ -818,7 +819,7 @@ msgid_plural "%1 warnings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:603
+#: app/settings/settingsdialog/layoutscontroller.cpp:669
 #, kde-format
 msgctxt "settings: named layout with %2 errors and %3 warnings"
 msgid ""
@@ -826,25 +827,25 @@ msgid ""
 "to repair."
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:722
+#: app/settings/settingsdialog/layoutscontroller.cpp:788
 #, kde-format
 msgid "Dropped Raw Layout"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:810
+#: app/settings/settingsdialog/layoutscontroller.cpp:876
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:818
+#: app/settings/settingsdialog/layoutscontroller.cpp:884
 #, kde-format
 msgid "Layout <b>%2</b> imported successfully..."
 msgid_plural "Layouts <b>%2</b> imported successfully..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/settingsdialog/layoutscontroller.cpp:1028
+#: app/settings/settingsdialog/layoutscontroller.cpp:1094
 #, kde-format
 msgctxt "settings: layout name used"
 msgid "Layout <b>%1</b> is already used, please provide a different name..."
@@ -932,7 +933,7 @@ msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:144
 #, kde-format
-msgid "Sc&reens..."
+msgid "&Screens..."
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:147
@@ -1012,13 +1013,13 @@ msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:342
-#: app/settings/settingsdialog/tablayoutshandler.cpp:680
+#: app/settings/settingsdialog/tablayoutshandler.cpp:685
 #, kde-format
 msgid "Full configuration export <b>failed</b>..."
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:362
-#: app/settings/settingsdialog/tablayoutshandler.cpp:700
+#: app/settings/settingsdialog/tablayoutshandler.cpp:705
 #, kde-format
 msgid "Full configuration export succeeded..."
 msgstr ""
@@ -1357,7 +1358,7 @@ msgid "Duplicate selected layout"
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:151
-#: app/settings/viewsdialog/viewshandler.cpp:90
+#: app/settings/viewsdialog/viewshandler.cpp:91
 #, kde-format
 msgctxt "remove layout"
 msgid "Remove"
@@ -1423,7 +1424,7 @@ msgid "Import layout from various resources"
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:207
-#: app/settings/viewsdialog/viewshandler.cpp:107
+#: app/settings/viewsdialog/viewshandler.cpp:108
 #, kde-format
 msgctxt "export layout"
 msgid "&Export"
@@ -1447,129 +1448,129 @@ msgid "Import From K&DE Online Store..."
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:248
-#: app/settings/viewsdialog/viewshandler.cpp:183
+#: app/settings/viewsdialog/viewshandler.cpp:188
 #, kde-format
 msgctxt "export for backup"
 msgid "&Export For Backup..."
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:253
-#: app/settings/viewsdialog/viewshandler.cpp:188
+#: app/settings/viewsdialog/viewshandler.cpp:193
 #, kde-format
 msgctxt "export as template"
 msgid "Export As &Template..."
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:289
-#: app/settings/viewsdialog/viewshandler.cpp:164
+#: app/settings/viewsdialog/viewshandler.cpp:169
 #, kde-format
 msgid "Templates..."
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:290
-#: app/settings/viewsdialog/viewshandler.cpp:165
+#: app/settings/viewsdialog/viewshandler.cpp:170
 #, kde-format
 msgid "Open templates directory"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:361
+#: app/settings/settingsdialog/tablayoutshandler.cpp:366
 #, kde-format
 msgctxt "settings:not permitted switching layout"
 msgid ""
 "You need to <b>apply</b> your changes first to switch layout afterwards..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:437
+#: app/settings/settingsdialog/tablayoutshandler.cpp:442
 #, kde-format
 msgctxt "settings:layout added successfully"
 msgid "Layout <b>%1</b> added successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:473
+#: app/settings/settingsdialog/tablayoutshandler.cpp:478
 #, kde-format
 msgctxt "settings:layout downloaded successfully"
 msgid "Layout <b>%1</b> downloaded successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:499
+#: app/settings/settingsdialog/tablayoutshandler.cpp:504
 #, kde-format
 msgctxt "settings: active layout remove"
 msgid "<b>Active</b> layouts can not be removed..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:505
+#: app/settings/settingsdialog/tablayoutshandler.cpp:510
 #, kde-format
 msgctxt "settings: locked layout remove"
 msgid "Locked layouts can not be removed..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:536
+#: app/settings/settingsdialog/tablayoutshandler.cpp:541
 #, kde-format
 msgctxt "import layout"
 msgid "Import Layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:539
+#: app/settings/settingsdialog/tablayoutshandler.cpp:544
 #, kde-format
 msgctxt "import layout"
 msgid "Import"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:545
+#: app/settings/settingsdialog/tablayoutshandler.cpp:550
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:546
+#: app/settings/settingsdialog/tablayoutshandler.cpp:551
 #, kde-format
 msgctxt "import older latte layout"
 msgid "Latte Dock Layout file v0.1"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:557
-#: app/settings/settingsdialog/tablayoutshandler.cpp:776
+#: app/settings/settingsdialog/tablayoutshandler.cpp:562
+#: app/settings/settingsdialog/tablayoutshandler.cpp:781
 #, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%1</b> imported successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:561
+#: app/settings/settingsdialog/tablayoutshandler.cpp:566
 #, kde-format
 msgctxt "settings:deprecated layouts import failed"
 msgid "Import layouts from deprecated version <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:617
+#: app/settings/settingsdialog/tablayoutshandler.cpp:622
 #, kde-format
 msgid "Export Layout For Backup"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:619
+#: app/settings/settingsdialog/tablayoutshandler.cpp:624
 #, kde-format
 msgctxt "export layout"
 msgid "Export"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:625
+#: app/settings/settingsdialog/tablayoutshandler.cpp:630
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:635
+#: app/settings/settingsdialog/tablayoutshandler.cpp:640
 #, kde-format
 msgctxt "settings:layout export fail"
 msgid "Layout <b>%1</b> export <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:674
+#: app/settings/settingsdialog/tablayoutshandler.cpp:679
 #, kde-format
 msgctxt "settings:layout export success"
 msgid "Layout <b>%1</b> export succeeded..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:765
+#: app/settings/settingsdialog/tablayoutshandler.cpp:770
 #, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%2</b> imported successfully..."
@@ -1832,116 +1833,116 @@ msgstr ""
 msgid "Docks/Panels"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:68
+#: app/settings/viewsdialog/viewshandler.cpp:69
 #, kde-format
 msgctxt "new view"
 msgid "&New"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:69
+#: app/settings/viewsdialog/viewshandler.cpp:70
 #, kde-format
 msgid "New dock or panel"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:82
+#: app/settings/viewsdialog/viewshandler.cpp:83
 #, kde-format
 msgctxt "duplicate dock or panel"
 msgid "&Duplicate"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:83
+#: app/settings/viewsdialog/viewshandler.cpp:84
 #, kde-format
 msgid "Duplicate selected dock or panel"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:91
+#: app/settings/viewsdialog/viewshandler.cpp:92
 #, kde-format
 msgid "Remove selected view"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:99
+#: app/settings/viewsdialog/viewshandler.cpp:100
 #, kde-format
 msgctxt "import dock/panel"
 msgid "&Import..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:100
+#: app/settings/viewsdialog/viewshandler.cpp:101
 #, kde-format
 msgid "Import dock or panel from local file"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:108
+#: app/settings/viewsdialog/viewshandler.cpp:109
 #, kde-format
 msgid "Export selected dock or panel at your system"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:298
+#: app/settings/viewsdialog/viewshandler.cpp:303
 #, kde-format
 msgctxt "settings:dock/panel added successfully"
 msgid "<b>%1</b> added successfully..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:321
-#: app/settings/viewsdialog/viewshandler.cpp:400
+#: app/settings/viewsdialog/viewshandler.cpp:326
+#: app/settings/viewsdialog/viewshandler.cpp:405
 #, kde-format
 msgid ""
 "<b>Export</b> functionality is supported only for one dock or panel each "
 "time."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:335
+#: app/settings/viewsdialog/viewshandler.cpp:340
 #, kde-format
 msgid "Export Dock/Panel For Backup"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:337
+#: app/settings/viewsdialog/viewshandler.cpp:342
 #, kde-format
 msgctxt "export view"
 msgid "Export"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:343
+#: app/settings/viewsdialog/viewshandler.cpp:348
 #, kde-format
 msgctxt "export view"
 msgid "Latte Dock/Panel file v0.2"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:353
+#: app/settings/viewsdialog/viewshandler.cpp:358
 #, kde-format
 msgctxt "settings:view export fail"
 msgid "Export in file <b>%1</b> <b>failed</b>..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:382
+#: app/settings/viewsdialog/viewshandler.cpp:387
 #, kde-format
 msgctxt "settings:view export success"
 msgid "Export in file <b>%1</b> succeeded..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:424
+#: app/settings/viewsdialog/viewshandler.cpp:429
 #, kde-format
 msgctxt "import dock/panel"
 msgid "Import Dock/Panel"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:427
+#: app/settings/viewsdialog/viewshandler.cpp:432
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:433
+#: app/settings/viewsdialog/viewshandler.cpp:438
 #, kde-format
 msgctxt "import dock panel"
 msgid "Latte Dock or Panel file v0.2"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:495
+#: app/settings/viewsdialog/viewshandler.cpp:510
 #, kde-format
 msgctxt "<layout name> Docks/Panels"
 msgid "%1 Docks/Panels"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:507
+#: app/settings/viewsdialog/viewshandler.cpp:522
 #, kde-format
 msgid ""
 "You are going to <b>remove 1</b> dock or panel completely from your layout."
@@ -1952,12 +1953,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:510
+#: app/settings/viewsdialog/viewshandler.cpp:525
 #, kde-format
 msgid "Approve Removal"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:520
+#: app/settings/viewsdialog/viewshandler.cpp:535
 #, kde-format
 msgid ""
 "The settings of <b>%1</b> layout have changed.<br/>Do you want to apply the "

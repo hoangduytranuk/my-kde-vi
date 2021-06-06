@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tokodon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-31 00:17+0000\n"
+"POT-Creation-Date: 2021-06-06 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -52,47 +52,102 @@ msgstr ""
 msgid "%1 following"
 msgstr ""
 
-#: content/ui/main.qml:36
+#: content/ui/FullScreenImage.qml:18
+#, kde-format
+msgid "Image View"
+msgstr ""
+
+#: content/ui/FullScreenImage.qml:84
+#, kde-format
+msgid "Previous image"
+msgstr ""
+
+#: content/ui/FullScreenImage.qml:99
+#, kde-format
+msgid "Next image"
+msgstr ""
+
+#: content/ui/FullScreenImage.qml:109
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: content/ui/main.qml:47
 #, kde-format
 msgid "Add Account"
 msgstr ""
 
-#: content/ui/main.qml:60
+#: content/ui/main.qml:77 content/ui/main.qml:80
+#, kde-format
+msgid "Home"
+msgstr ""
+
+#: content/ui/main.qml:87
+#, kde-format
+msgid "Notifications"
+msgstr ""
+
+#: content/ui/main.qml:89
+#, kde-format
+msgid "Notifications support is not implemented yet"
+msgstr ""
+
+#: content/ui/main.qml:93
+#, kde-format
+msgid "Local"
+msgstr ""
+
+#: content/ui/main.qml:96
+#, kde-format
+msgid "Local Timeline"
+msgstr ""
+
+#: content/ui/main.qml:103
+#, kde-format
+msgid "Global"
+msgstr ""
+
+#: content/ui/main.qml:105
+#, kde-format
+msgid "Global Timeline"
+msgstr ""
+
+#: content/ui/main.qml:233
 #, kde-format
 msgid "Welcome to Tokodon"
 msgstr ""
 
-#: content/ui/main.qml:64
+#: content/ui/main.qml:237
 #, kde-format
 msgid "Instance Url:"
 msgstr ""
 
-#: content/ui/main.qml:68
+#: content/ui/main.qml:241
 #, kde-format
 msgid "Username:"
 msgstr ""
 
-#: content/ui/main.qml:71 content/ui/main.qml:126
+#: content/ui/main.qml:244 content/ui/main.qml:299
 #, kde-format
 msgid "Continue"
 msgstr ""
 
-#: content/ui/main.qml:91
+#: content/ui/main.qml:264
 #, kde-format
 msgid "To continue, please open the following link and authorize Tokodon: %1"
 msgstr ""
 
-#: content/ui/main.qml:106
+#: content/ui/main.qml:279
 #, kde-format
 msgid "Copy link"
 msgstr ""
 
-#: content/ui/main.qml:110
+#: content/ui/main.qml:283
 #, kde-format
 msgid "Open link"
 msgstr ""
 
-#: content/ui/main.qml:117
+#: content/ui/main.qml:290
 #, kde-format
 msgid "Enter token:"
 msgstr ""
@@ -102,14 +157,32 @@ msgstr ""
 msgid "Toot"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:58
+#: content/ui/TimelinePage.qml:63
 #, kde-format
 msgid "Pinned entry"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:75
+#: content/ui/TimelinePage.qml:80
 #, kde-format
 msgid "Shared by %1"
+msgstr ""
+
+#: content/ui/TimelinePage.qml:161
+#, kde-format
+msgctxt "Reply to a post"
+msgid "Reply"
+msgstr ""
+
+#: content/ui/TimelinePage.qml:169
+#, kde-format
+msgctxt "Share a post"
+msgid "Boost"
+msgstr ""
+
+#: content/ui/TimelinePage.qml:177
+#, kde-format
+msgctxt "Like a post"
+msgid "Like"
 msgstr ""
 
 #: content/ui/TootComposer.qml:13
@@ -229,11 +302,11 @@ msgstr ""
 #: timelinemodel.cpp:31
 #, kde-format
 msgctxt "@title"
-msgid "Public Timeline"
+msgid "Local Timeline"
 msgstr ""
 
 #: timelinemodel.cpp:33
 #, kde-format
 msgctxt "@title"
-msgid "Federated Timeline"
+msgid "Global Timeline"
 msgstr ""

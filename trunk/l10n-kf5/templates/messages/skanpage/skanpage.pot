@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-31 00:20+0000\n"
+"POT-Creation-Date: 2021-06-04 00:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -64,12 +64,12 @@ msgctxt "Page index"
 msgid "Page %1"
 msgstr ""
 
-#: DocumentModel.cpp:23
+#: DocumentModel.cpp:27
 #, kde-format
 msgid "New document"
 msgstr ""
 
-#: DocumentModel.cpp:174
+#: DocumentModel.cpp:91
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
@@ -120,38 +120,58 @@ msgctxt "@info"
 msgid "You do not have any images in this document.<nl/><nl/>Start scanning!"
 msgstr ""
 
+#: DocumentSaver.cpp:33
+#, kde-format
+msgid "Nothing to save."
+msgstr ""
+
+#: DocumentSaver.cpp:37
+#, kde-format
+msgid "Saving still in progress."
+msgstr ""
+
+#: DocumentSaver.cpp:54
+#, kde-format
+msgid "Document saved as PDF."
+msgstr ""
+
+#: DocumentSaver.cpp:57
+#, kde-format
+msgid "Document saved as image."
+msgstr ""
+
 #: DocumentView.qml:22
 #, kde-format
 msgctxt "Prefix for document name indicating an unsaved document"
 msgid "* %1"
 msgstr ""
 
-#: main.cpp:41
+#: main.cpp:43
 #, kde-format
 msgid "Skanpage"
 msgstr ""
 
-#: main.cpp:43
+#: main.cpp:45
 #, kde-format
 msgid "Page-scanning application by KDE based on libksane."
 msgstr ""
 
-#: main.cpp:45
+#: main.cpp:47
 #, kde-format
 msgid "(C) 2015 Kåre Särs"
 msgstr ""
 
-#: main.cpp:50 main.cpp:51
+#: main.cpp:52 main.cpp:53
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:62
+#: main.cpp:64
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:62
+#: main.cpp:64
 #, kde-format
 msgid "device"
 msgstr ""
