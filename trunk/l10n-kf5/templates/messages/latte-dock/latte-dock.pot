@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-06 00:19+0000\n"
+"POT-Creation-Date: 2021-06-07 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -690,7 +690,7 @@ msgstr ""
 #: app/settings/settingsdialog/settingsdialog.cpp:348
 #: app/settings/settingsdialog/tablayoutshandler.cpp:666
 #: app/settings/settingsdialog/tablayoutshandler.cpp:691
-#: app/settings/viewsdialog/viewshandler.cpp:374
+#: app/settings/viewsdialog/viewshandler.cpp:376
 #, kde-format
 msgid "Open Location..."
 msgstr ""
@@ -753,6 +753,23 @@ msgid ""
 "<b>Select only</b> screens that are obsolete and you would like to remove "
 "their reference. Active screens or screens used in your layouts can not be "
 "removed."
+msgstr ""
+
+#: app/settings/screensdialog/screenshandler.cpp:133
+#, kde-format
+msgid ""
+"You are going to <b>remove %2</b> reference completely.<br/>Would you like "
+"to continue?"
+msgid_plural ""
+"You are going to <b>remove %2</b> references completely.<br/>Would you like "
+"to continue?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/settings/screensdialog/screenshandler.cpp:137
+#: app/settings/viewsdialog/viewshandler.cpp:527
+#, kde-format
+msgid "Approve Removal"
 msgstr ""
 
 #: app/settings/screensdialog/screensmodel.cpp:238
@@ -1876,73 +1893,73 @@ msgstr ""
 msgid "Export selected dock or panel at your system"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:303
+#: app/settings/viewsdialog/viewshandler.cpp:305
 #, kde-format
 msgctxt "settings:dock/panel added successfully"
 msgid "<b>%1</b> added successfully..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:326
-#: app/settings/viewsdialog/viewshandler.cpp:405
+#: app/settings/viewsdialog/viewshandler.cpp:328
+#: app/settings/viewsdialog/viewshandler.cpp:407
 #, kde-format
 msgid ""
 "<b>Export</b> functionality is supported only for one dock or panel each "
 "time."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:340
+#: app/settings/viewsdialog/viewshandler.cpp:342
 #, kde-format
 msgid "Export Dock/Panel For Backup"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:342
+#: app/settings/viewsdialog/viewshandler.cpp:344
 #, kde-format
 msgctxt "export view"
 msgid "Export"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:348
+#: app/settings/viewsdialog/viewshandler.cpp:350
 #, kde-format
 msgctxt "export view"
 msgid "Latte Dock/Panel file v0.2"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:358
+#: app/settings/viewsdialog/viewshandler.cpp:360
 #, kde-format
 msgctxt "settings:view export fail"
 msgid "Export in file <b>%1</b> <b>failed</b>..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:387
+#: app/settings/viewsdialog/viewshandler.cpp:389
 #, kde-format
 msgctxt "settings:view export success"
 msgid "Export in file <b>%1</b> succeeded..."
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:429
+#: app/settings/viewsdialog/viewshandler.cpp:431
 #, kde-format
 msgctxt "import dock/panel"
 msgid "Import Dock/Panel"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:432
+#: app/settings/viewsdialog/viewshandler.cpp:434
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:438
+#: app/settings/viewsdialog/viewshandler.cpp:440
 #, kde-format
 msgctxt "import dock panel"
 msgid "Latte Dock or Panel file v0.2"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:510
+#: app/settings/viewsdialog/viewshandler.cpp:512
 #, kde-format
 msgctxt "<layout name> Docks/Panels"
 msgid "%1 Docks/Panels"
 msgstr ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:522
+#: app/settings/viewsdialog/viewshandler.cpp:524
 #, kde-format
 msgid ""
 "You are going to <b>remove 1</b> dock or panel completely from your layout."
@@ -1953,12 +1970,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/settings/viewsdialog/viewshandler.cpp:525
-#, kde-format
-msgid "Approve Removal"
-msgstr ""
-
-#: app/settings/viewsdialog/viewshandler.cpp:535
+#: app/settings/viewsdialog/viewshandler.cpp:537
 #, kde-format
 msgid ""
 "The settings of <b>%1</b> layout have changed.<br/>Do you want to apply the "

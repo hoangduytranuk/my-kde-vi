@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-06 00:15+0000\n"
+"POT-Creation-Date: 2021-06-07 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -11299,15 +11299,15 @@ msgstr ""
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:552
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:559
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:64
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:169
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:536
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:557
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:564
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:665
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:722
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:743
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:237
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:539
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:560
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:567
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:668
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:725
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:746
 #: libs/ui/dialogs/kis_dlg_preferences.cc:556
 #: libs/ui/input/kis_tablet_debugger.cpp:96
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_filter_manager.cc:251
@@ -12118,13 +12118,19 @@ msgstr ""
 msgid "This is a source code archive. Please install ffmpeg instead."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:64
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Video Animation"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
 #, kde-format
 msgid "FFMpeg not found! Please add a path to FFMpeg in the \"Advanced\" tab"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:104
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:583
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:586
 #, kde-format
 msgctxt "Video importer: fps of the document you're importing into"
 msgid ""
@@ -12132,18 +12138,18 @@ msgid ""
 " %1 FPS</small>"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:169
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #, kde-format
 msgid "Failed to create a work directory, make sure you have write permission"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:181
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:182
 #, kde-format
 msgctxt "Title for a messagebox"
 msgid "Krita"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:182
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:183
 #, kde-format
 msgid ""
 "Warning: you are trying to import more than 100 frames into Krita.\n"
@@ -12153,7 +12159,7 @@ msgid ""
 "video editor, like Kdenlive (https://kdenlive.org)."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:225
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:226
 #, kde-format
 msgctxt ""
 "FFMPEG animated video import message. arg1: frame progress number. arg2: "
@@ -12161,59 +12167,59 @@ msgctxt ""
 msgid "Extracted %1 frames from %2 video."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:237
 #, kde-format
 msgid "Failed to export frames from video"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:308
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:309
 #, kde-format
 msgid "Select your Video File"
-msgstr ""
-
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:349
-#, kde-format
-msgctxt "video importer: video file statistics"
-msgid "Width: %1 px"
 msgstr ""
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:350
 #, kde-format
 msgctxt "video importer: video file statistics"
+msgid "Width: %1 px"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:351
+#, kde-format
+msgctxt "video importer: video file statistics"
 msgid "Height: %1 px"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:354
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:355
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Color Primaries: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:357
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:358
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Color Transfer: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:360
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:361
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Duration: %1 s"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:361
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:362
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Frames: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:362
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:363
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "FPS: %1"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:366
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:367
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid ""
@@ -12221,7 +12227,7 @@ msgid ""
 "duration</em></font>"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:463
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:466
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -12229,13 +12235,13 @@ msgid ""
 "import is %2."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:470
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:473
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid "Use a <a href=\"https://kdenlive.org\">video editor</a> instead!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:476
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:479
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -12243,14 +12249,14 @@ msgid ""
 "overloaded."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:483
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:486
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
 "This will take over half the available memory, editing will be difficult."
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:492
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:495
 #, kde-format
 msgctxt "part of warning in video importer."
 msgid ""
@@ -12258,44 +12264,44 @@ msgid ""
 "linear"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:522
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:524
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:525
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:527
 #, kde-format
 msgid "Open FFProbe"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:536
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:539
 #, kde-format
 msgid "FFProbe is invalid!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:543
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:545
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:546
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:548
 #, kde-format
 msgid "Open FFMpeg"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:557
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:560
 #, kde-format
 msgid "FFMpeg is invalid!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:564
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:567
 #, kde-format
 msgid "No FFMpeg found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:665
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:668
 #, kde-format
 msgid "No video stream could be found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:722
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:725
 #, kde-format
 msgid "Failed to load video information"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:743
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:746
 #, kde-format
 msgid "Your FFMpeg version does not support this format"
 msgstr ""
