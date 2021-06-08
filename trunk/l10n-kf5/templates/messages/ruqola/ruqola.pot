@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-07 00:17+0000\n"
+"POT-Creation-Date: 2021-06-08 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -485,7 +485,7 @@ msgstr ""
 #: core/model/directoryusersmodel.cpp:107
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:30
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:55
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:47
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:50
 #, kde-format
 msgid "Name"
 msgstr ""
@@ -531,7 +531,8 @@ msgstr ""
 msgid "UserName"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:81 widgets/dialogs/configurenotificationwidget.cpp:132
+#: core/model/adminusersmodel.cpp:81 widgets/administratordialog/users/administratoradduserwidget.cpp:52
+#: widgets/dialogs/configurenotificationwidget.cpp:132
 #, kde-format
 msgid "Email"
 msgstr ""
@@ -552,7 +553,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:130 widgets/administratordialog/users/administratoruserswidget.cpp:153
+#: core/model/adminusersmodel.cpp:130 widgets/administratordialog/users/administratoruserswidget.cpp:165
 #, kde-format
 msgid "Active"
 msgstr ""
@@ -1641,7 +1642,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:58
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:91
-#: widgets/administratordialog/users/administratoruserswidget.cpp:146
+#: widgets/administratordialog/users/administratoruserswidget.cpp:158
 #: widgets/configuredialog/configureaccountserverwidget.ui:25
 #, kde-format
 msgid "Add..."
@@ -1651,7 +1652,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/customsoundstreewidget.cpp:61
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:144
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:94
-#: widgets/administratordialog/users/administratoruserswidget.cpp:157
+#: widgets/administratordialog/users/administratoruserswidget.cpp:169
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
 #, kde-format
 msgid "Modify..."
@@ -1662,7 +1663,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:146
 #: widgets/administratordialog/invites/invitetreeview.cpp:55
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:98
-#: widgets/administratordialog/users/administratoruserswidget.cpp:161
+#: widgets/administratordialog/users/administratoruserswidget.cpp:173
 #: widgets/configuredialog/configureaccountserverwidget.ui:39
 #, kde-format
 msgid "Remove"
@@ -1947,24 +1948,35 @@ msgctxt "@title:window"
 msgid "Create New User"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:37
+#: widgets/administratordialog/users/administratoradduserdialog.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit User"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:36
 #, kde-format
 msgid "Join Default Channels"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:38
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:37
 #, kde-format
 msgid "Send Welcome Email"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:48
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:51
 #, kde-format
 msgid "Username"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:49
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:53
 #, kde-format
-msgid "email"
+msgid "Password"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:56
+#, kde-format
+msgid "Roles"
 msgstr ""
 
 #: widgets/administratordialog/users/administratoruserswidget.cpp:52
@@ -1974,17 +1986,17 @@ msgstr ""
 msgid "Search Users"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:153
+#: widgets/administratordialog/users/administratoruserswidget.cpp:165
 #, kde-format
 msgid "Disable"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:171
+#: widgets/administratordialog/users/administratoruserswidget.cpp:183
 #, kde-format
 msgid "No user found"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:176
+#: widgets/administratordialog/users/administratoruserswidget.cpp:188
 #: widgets/directory/directorywidget.cpp:186
 #, kde-format
 msgid "%1 user (Total: %2)"
@@ -1992,7 +2004,7 @@ msgid_plural "%1 users (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:178
+#: widgets/administratordialog/users/administratoruserswidget.cpp:190
 #: widgets/dialogs/showattachmentwidget.cpp:113
 #: widgets/dialogs/showdiscussionswidget.cpp:94
 #: widgets/dialogs/showlistmessagebasewidget.cpp:105
