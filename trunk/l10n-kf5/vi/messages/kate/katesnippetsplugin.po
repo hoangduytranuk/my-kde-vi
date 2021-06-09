@@ -151,12 +151,12 @@ msgstr ""
 "hiện về sau của cùng một tên_trường sẽ tạo ra các trường lặp lại nội dung "
 "của trường đầu tiên khi chỉnh sửa.<br><tt>${tên_trường=trị}</tt> dùng để chỉ "
 "định một giá trị mặc định cho trường. <tt>trị</tt> có thể là một biểu thức "
-"JavaScript bất kì.<br>Dùng <tt>${tên_trường=chuỗi}</tt> để chỉ định một chuỗi "
-"cố định làm giá trị mặc định.<br><tt>${hàm(trường_1, trường_2, ...)}</tt> "
-"dùng để tạo ra một trường chứa nội dung trả về từ một hàm JavaScript ở mỗi "
-"lần chỉnh sửa. Xem thêm thông tin ở thẻ \"Kịch bản\".<br><tt>${cursor}</tt> "
-"dùng để đánh dấu vị trí cuối cùng của con trỏ sau khi mọi thứ khác đã được "
-"điền xong.\">Thêm...</a>"
+"JavaScript bất kì.<br>Dùng <tt>${tên_trường=chuỗi}</tt> để chỉ định một "
+"chuỗi cố định làm giá trị mặc định.<br><tt>${hàm(trường_1, trường_2, ...)}</"
+"tt> dùng để tạo ra một trường chứa nội dung trả về từ một hàm JavaScript ở "
+"mỗi lần chỉnh sửa. Xem thêm thông tin ở thẻ \"Kịch bản\".<br><tt>${cursor}</"
+"tt> dùng để đánh dấu vị trí cuối cùng của con trỏ sau khi mọi thứ khác đã "
+"được điền xong.\">Thêm...</a>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, scriptTab)
 #: editsnippet.ui:82
@@ -182,18 +182,18 @@ msgid ""
 "tt> objects. Refer to the scripting API documentation for more information."
 "\">More...</a>"
 msgstr ""
-"Viết vào đây các hàm JavaScript trợ giúp để dùng trong mảnh mã. <a href=\"Tất "
-"cả các hàm JavaScript nên trả về nội dung mà bạn muốn đặt vào một trường mẫu "
-"dưới dạng một chuỗi.<br>Các hàm được gọi trong một phạm vi bao gồm nội dung "
-"của tất cả các trường mẫu sửa được dưới dạng các biến cục bộ. Ví dụ trong một "
-"mảnh mã chứa <tt>${truong}</tt>, sẽ có một biến <tt>truong</tt> chứa nội dung "
-"cập nhật của trường mẫu. Các biến đó có thể hoặc được dùng tĩnh trong hàm "
-"hoặc được truyền làm đối số, bằng cách dùng cú pháp <tt>${hàm(trường)}</tt> "
-"hoặc <tt>${trường2=hàm(trường)}</tt> trong mảnh mã.<br>Bạn có thể dùng API "
-"lập kịch bản của Kate để lấy phần chữ được chọn, toàn bộ phần chữ, tên tệp và "
-"các thứ khác bằng cách dùng các phương thức tương ứng của các đối tượng <tt>"
-"document</tt> và <tt>view</tt>. Tham khảo thêm thông tin ở tài liệu API lập "
-"kịch bản.\">Thêm...</a>"
+"Viết vào đây các hàm JavaScript trợ giúp để dùng trong mảnh mã. <a href="
+"\"Tất cả các hàm JavaScript nên trả về nội dung mà bạn muốn đặt vào một "
+"trường mẫu dưới dạng một chuỗi.<br>Các hàm được gọi trong một phạm vi bao "
+"gồm nội dung của tất cả các trường mẫu sửa được dưới dạng các biến cục bộ. "
+"Ví dụ trong một mảnh mã chứa <tt>${truong}</tt>, sẽ có một biến <tt>truong</"
+"tt> chứa nội dung cập nhật của trường mẫu. Các biến đó có thể hoặc được dùng "
+"tĩnh trong hàm hoặc được truyền làm đối số, bằng cách dùng cú pháp <tt>"
+"${hàm(trường)}</tt> hoặc <tt>${trường2=hàm(trường)}</tt> trong mảnh mã."
+"<br>Bạn có thể dùng API lập kịch bản của Kate để lấy phần chữ được chọn, "
+"toàn bộ phần chữ, tên tệp và các thứ khác bằng cách dùng các phương thức "
+"tương ứng của các đối tượng <tt>document</tt> và <tt>view</tt>. Tham khảo "
+"thêm thông tin ở tài liệu API lập kịch bản.\">Thêm...</a>"
 
 #. i18n: ectx: property (text), widget (QPushButton, dotest_button)
 #: editsnippet.ui:105
@@ -212,8 +212,8 @@ msgstr "%1 mảnh mã"
 msgid "Snippets tool view"
 msgstr "Khung xem công cụ \"mảnh mã\""
 
-#: katesnippets.cpp:55 snippetcompletionmodel.cpp:43
-#: snippetview.cpp:80 snippetview.cpp:194
+#: katesnippets.cpp:55 snippetcompletionmodel.cpp:43 snippetview.cpp:80
+#: snippetview.cpp:194
 #, kde-format
 msgid "Snippets"
 msgstr "Mảnh mã"
@@ -245,8 +245,9 @@ msgid ""
 "directory; as such, a copy of the original file has been created within your "
 "personal data directory."
 msgstr ""
-"Bạn đã sửa một tệp kho mảnh mã không ở trong thư mục cá nhân của bạn; vì vậy, "
-"một bản sao của tệp gốc đã được tạo trong thư mục dữ liệu cá nhân của bạn."
+"Bạn đã sửa một tệp kho mảnh mã không ở trong thư mục cá nhân của bạn; vì "
+"vậy, một bản sao của tệp gốc đã được tạo trong thư mục dữ liệu cá nhân của "
+"bạn."
 
 #: snippetrepository.cpp:236
 #, kde-format
@@ -275,7 +276,8 @@ msgid ""
 "Repository is disabled, the contained snippets will not be shown during code-"
 "completion."
 msgstr ""
-"Kho bị tắt, các mảnh mã chứa bên trong sẽ không được hiển thị khi hoàn tất mã."
+"Kho bị tắt, các mảnh mã chứa bên trong sẽ không được hiển thị khi hoàn tất "
+"mã."
 
 #: snippetrepository.cpp:360
 #, kde-format
