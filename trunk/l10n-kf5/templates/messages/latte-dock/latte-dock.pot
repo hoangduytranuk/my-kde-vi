@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-07 00:19+0000\n"
+"POT-Creation-Date: 2021-06-12 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -398,6 +398,73 @@ msgstr ""
 msgid "Translations"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, ActionsDialog)
+#: app/settings/actionsdialog/actionsdialog.ui:14
+#, kde-format
+msgid "Context Menu Actions"
+msgstr ""
+
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, actionsSelector)
+#: app/settings/actionsdialog/actionsdialog.ui:24
+#, kde-format
+msgctxt "actions shown only in edit mode"
+msgid "Accessible only in edit mode:"
+msgstr ""
+
+#. i18n: ectx: property (selectedLabel), widget (KActionSelector, actionsSelector)
+#: app/settings/actionsdialog/actionsdialog.ui:27
+#, kde-format
+msgctxt "actions shown always"
+msgid "Accessible always:"
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:61
+#, kde-format
+msgid "Layouts"
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:68
+#, kde-format
+msgctxt "global settings window"
+msgid "Configure Latte..."
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:75
+#, kde-format
+msgctxt "quit application"
+msgid "Quit Latte"
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:82
+#, kde-format
+msgid " --- separator --- "
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:89
+#, kde-format
+msgid "Add Widgets..."
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:96
+#, kde-format
+msgid "Add Dock/Panel"
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:103
+#, kde-format
+msgid "Move Dock/Panel To Layout"
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:110
+#, kde-format
+msgid "Export Dock/Panel as Template..."
+msgstr ""
+
+#: app/settings/actionsdialog/actionshandler.cpp:117
+#, kde-format
+msgid "Remove Dock/Panel"
+msgstr ""
+
 #: app/settings/detailsdialog/colorsmodel.cpp:35
 #, kde-format
 msgid "Blue"
@@ -474,7 +541,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
 #: app/settings/detailsdialog/detailsdialog.ui:301
-#: app/settings/settingsdialog/settingsdialog.ui:673
+#: app/settings/settingsdialog/settingsdialog.ui:809
 #, kde-format
 msgid "Behavior:"
 msgstr ""
@@ -579,32 +646,32 @@ msgid "Export Again"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, selectAllBtn)
-#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:74
+#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:58
 #, kde-format
 msgid "Select All"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, deselectAllBtn)
-#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:81
-#: app/settings/screensdialog/screensdialog.ui:74
+#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:65
+#: app/settings/screensdialog/screensdialog.ui:58
 #, kde-format
 msgid "Deselect All"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fileTabLbl)
-#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:98
+#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:82
 #, kde-format
 msgid "File:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, chooseBtn)
-#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:118
+#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:102
 #, kde-format
 msgid "Choose..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, noteLbl)
-#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:127
+#: app/settings/exporttemplatedialog/exporttemplatedialog.ui:111
 #, kde-format
 msgid ""
 "<b>Select only</b> applets that you would like to keep their settings in the "
@@ -747,7 +814,7 @@ msgid "Screens"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, noteLbl)
-#: app/settings/screensdialog/screensdialog.ui:83
+#: app/settings/screensdialog/screensdialog.ui:67
 #, kde-format
 msgid ""
 "<b>Select only</b> screens that are obsolete and you would like to remove "
@@ -1165,116 +1232,10 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:554
-#, kde-format
-msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:557
-#, kde-format
-msgctxt "low sensitivity"
-msgid "Low"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:579
-#, kde-format
-msgid ""
-"Medium sensitivity for parabolic effect (normal cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:582
-#, kde-format
-msgctxt "medium sensitivity"
-msgid "Medium"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:604
-#, kde-format
-msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:607
-#, kde-format
-msgctxt "high sensitivity"
-msgid "High"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:617
-#, kde-format
-msgid "mouse sensitivity"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:642
-#, kde-format
-msgid "Press and hold ⌘ to show shortcuts badges for applets and tasks"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:645
-#, kde-format
-msgid "Press and Hold ⌘ to show shortcuts badges"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:722
-#, kde-format
-msgid "Parabolic Effect:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:753
-#, kde-format
-msgid "Start the application automatically after each relogin"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:756
-#, kde-format
-msgid "Enable autostart during startup"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, actionsLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:778
-#, kde-format
-msgid "Actions:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, screensLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:827
-#, kde-format
-msgid "Screens:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:839
-#, kde-format
-msgid "Provide visual feedback when layouts are activated automatically"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:842
-#, kde-format
-msgid "Show informative window for layouts automatic activation"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:852
-#, kde-format
-msgid "Use 3D style for notification and shortcut badges"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:880
-#: app/settings/settingsdialog/settingsdialog.ui:915
+#: app/settings/settingsdialog/settingsdialog.ui:561
+#: app/settings/settingsdialog/settingsdialog.ui:596
 #, kde-format
 msgid ""
 "Different hardware can have different delays during screen changes.\n"
@@ -1282,38 +1243,144 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
-#: app/settings/settingsdialog/settingsdialog.ui:889
+#: app/settings/settingsdialog/settingsdialog.ui:570
 #, kde-format
 msgid " ms."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:918
+#: app/settings/settingsdialog/settingsdialog.ui:599
 #, kde-format
 msgid "reaction delay for changes"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:624
+#, kde-format
+msgid "Provide visual feedback when layouts are activated automatically"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:627
+#, kde-format
+msgid "Show informative window for layouts automatic activation"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:943
+#: app/settings/settingsdialog/settingsdialog.ui:666
 #, kde-format
 msgid ""
 "Activate support for borderless maximized windows between different layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:946
+#: app/settings/settingsdialog/settingsdialog.ui:669
 #, kde-format
 msgid "Support borderless maximized windows in different layouts"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, actionsLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:691
+#, kde-format
+msgid "Actions:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:703
+#, kde-format
+msgid "Use 3D style for notification and shortcut badges"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressHoldChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:729
+#, kde-format
+msgid "Press and hold ⌘ to show shortcuts badges for applets and tasks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, metaPressHoldChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:732
+#, kde-format
+msgid "Press and Hold ⌘ to show shortcuts badges"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:776
+#, kde-format
+msgid "Parabolic Effect:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, screensLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:842
+#, kde-format
+msgid "Screens:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:873
+#, kde-format
+msgid "Start the application automatically after each relogin"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:876
+#, kde-format
+msgid "Enable autostart during startup"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:897
+#, kde-format
+msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:900
+#, kde-format
+msgctxt "low sensitivity"
+msgid "Low"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:922
+#, kde-format
+msgid ""
+"Medium sensitivity for parabolic effect (normal cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:925
+#, kde-format
+msgctxt "medium sensitivity"
+msgid "Medium"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:947
+#, kde-format
+msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:950
+#, kde-format
+msgctxt "high sensitivity"
+msgid "High"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:960
+#, kde-format
+msgid "mouse sensitivity"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, appearanceLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1000
+#: app/settings/settingsdialog/settingsdialog.ui:1016
 #, kde-format
 msgid "Appearance:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1012
+#: app/settings/settingsdialog/settingsdialog.ui:1028
 #, kde-format
 msgid ""
 "Forward ⌘ press from KWin to Latte in order to activate Application "
@@ -1321,9 +1388,21 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1015
+#: app/settings/settingsdialog/settingsdialog.ui:1031
 #, kde-format
 msgid "Press ⌘ to activate Application Launcher"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, contextMenuLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1053
+#, kde-format
+msgid "Context Menu:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, contextMenuActionsBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:1082
+#, kde-format
+msgid "Actions..."
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:111

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-05 00:19+0000\n"
+"POT-Creation-Date: 2021-06-12 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -50,6 +50,11 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: GanttView.cpp:99
+#, kde-format
+msgid "Open Project"
 msgstr ""
 
 #: MainDocument.cpp:96
@@ -179,7 +184,7 @@ msgctxt "@info:tooltip"
 msgid "Select schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:179
+#: ProjectsModel.cpp:178
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -188,24 +193,24 @@ msgid ""
 "item><item>Target finish:\t%5</item></list></para>"
 msgstr ""
 
-#: ProjectsModel.cpp:192
+#: ProjectsModel.cpp:191
 #, kde-format
 msgid "No schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:213
+#: ProjectsModel.cpp:212
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule is baselined"
 msgstr ""
 
-#: ProjectsModel.cpp:216
+#: ProjectsModel.cpp:215
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scheduled but not baselined"
 msgstr ""
 
-#: ProjectsModel.cpp:219
+#: ProjectsModel.cpp:218
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Not scheduled"
@@ -322,45 +327,53 @@ msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
 msgstr ""
 
-#: SchedulingView.cpp:124
+#: SchedulingView.cpp:173
 #, kde-format
 msgid "Update"
 msgstr ""
 
-#: SchedulingView.cpp:129
-#, kde-format
-msgid "Calculate"
-msgstr ""
-
-#: SchedulingView.cpp:133
-#, kde-format
-msgid "Open Project"
-msgstr ""
-
-#: SchedulingView.cpp:227
+#: SchedulingView.cpp:270
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot load projects.<nl/>The directory does not exist:<nl/>%1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: SchedulingView.ui:41
+#: SchedulingView.ui:66
 #, kde-format
 msgid "Scheduler:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: SchedulingView.ui:55
+#: SchedulingView.ui:76
 #, kde-format
 msgid "Granularity:"
 msgstr ""
 
-#: View.cpp:65
+#. i18n: ectx: property (text), widget (QRadioButton, sequential)
+#: SchedulingView.ui:86
+#, kde-format
+msgid "Sequential"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, parallell)
+#: SchedulingView.ui:93
+#, kde-format
+msgid "Parallell"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, calculate)
+#: SchedulingView.ui:122
+#, kde-format
+msgid "Calculate"
+msgstr ""
+
+#: View.cpp:66
 #, kde-format
 msgid "Configuration"
 msgstr ""
 
-#: View.cpp:70
+#: View.cpp:71
 #, kde-format
 msgid "Scheduling"
 msgstr ""
@@ -377,15 +390,15 @@ msgstr ""
 
 #: View.cpp:86
 #, kde-format
-msgid "Details"
+msgid "Progress"
 msgstr ""
 
-#: View.cpp:90
+#: View.cpp:91
 #, kde-format
-msgid "Gantt"
+msgid "Gantt Summary"
 msgstr ""
 
-#: View.cpp:108
+#: View.cpp:115
 #, kde-format
 msgid "Configure Portfolio..."
 msgstr ""
