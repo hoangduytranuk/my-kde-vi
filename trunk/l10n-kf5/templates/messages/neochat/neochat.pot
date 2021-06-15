@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-11 00:16+0000\n"
+"POT-Creation-Date: 2021-06-15 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -305,7 +305,7 @@ msgid "Video"
 msgstr ""
 
 #: imports/NeoChat/Dialog/CreateRoomDialog.qml:18
-#: qml/main.qml:189
+#: qml/main.qml:252
 #, kde-format
 msgid "Create a Room"
 msgstr ""
@@ -520,7 +520,7 @@ msgid "Edit this account"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:48
-#: qml/main.qml:212
+#: qml/main.qml:275
 #, kde-format
 msgid "Logout"
 msgstr ""
@@ -582,7 +582,7 @@ msgid "Passwords do not match"
 msgstr ""
 
 #: imports/NeoChat/Page/DevicesPage.qml:13
-#: qml/main.qml:199 qml/main.qml:202
+#: qml/main.qml:262 qml/main.qml:265
 #, kde-format
 msgid "Devices"
 msgstr ""
@@ -701,7 +701,7 @@ msgid "Send invitation"
 msgstr ""
 
 #: imports/NeoChat/Page/JoinRoomPage.qml:20
-#: qml/main.qml:180
+#: qml/main.qml:243
 #, kde-format
 msgid "Explore Rooms"
 msgstr ""
@@ -736,38 +736,34 @@ msgstr ""
 msgid "Joined"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:36
-#, kde-format
-msgid "Rooms"
-msgstr ""
-
-#: imports/NeoChat/Page/RoomListPage.qml:56
+#: imports/NeoChat/Page/RoomListPage.qml:108
 #, kde-format
 msgid "No rooms found"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:56
+#: imports/NeoChat/Page/RoomListPage.qml:108
 #, kde-format
 msgid "Join some rooms to get started"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:59
+#: imports/NeoChat/Page/RoomListPage.qml:111
 #, kde-format
 msgid "Search in room directory"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:59
-#: qml/main.qml:177
+#: imports/NeoChat/Page/RoomListPage.qml:111
+#: qml/main.qml:240
 #, kde-format
 msgid "Explore rooms"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:142
+#: imports/NeoChat/Page/RoomListPage.qml:193
+#: imports/NeoChat/Page/RoomListPage.qml:242
 #, kde-format
 msgid "No Name"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:166
+#: imports/NeoChat/Page/RoomListPage.qml:266
 #, kde-format
 msgid "Configure room"
 msgstr ""
@@ -832,7 +828,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:15
-#: qml/main.qml:205 qml/main.qml:208
+#: qml/main.qml:268 qml/main.qml:271
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -858,7 +854,7 @@ msgid "About NeoChat"
 msgstr ""
 
 #: imports/NeoChat/Page/StartChatPage.qml:19
-#: qml/main.qml:183 qml/main.qml:186 qml/main.qml:196
+#: qml/main.qml:246 qml/main.qml:249 qml/main.qml:259
 #, kde-format
 msgid "Start a Chat"
 msgstr ""
@@ -987,6 +983,11 @@ msgstr ""
 msgid "Use transparent chat page"
 msgstr ""
 
+#: imports/NeoChat/Settings/AppearanceSettingsPage.qml:208
+#, kde-format
+msgid "Show your messages on the right"
+msgstr ""
+
 #: imports/NeoChat/Settings/GeneralSettingsPage.qml:17
 #, kde-format
 msgid "General settings:"
@@ -1037,34 +1038,34 @@ msgstr ""
 msgid "Warning: %1"
 msgstr ""
 
-#: qml/main.qml:218 src/trayicon.cpp:30
+#: qml/main.qml:281 src/trayicon.cpp:30
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: qml/main.qml:312
+#: qml/main.qml:375
 #, kde-format
 msgid "User consent"
 msgstr ""
 
-#: qml/main.qml:318
+#: qml/main.qml:381
 #, kde-format
 msgid ""
 "Your homeserver requires you to agree to its terms and conditions before "
 "being able to use it. Please click the button below to read them."
 msgstr ""
 
-#: qml/main.qml:323
+#: qml/main.qml:386
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: qml/main.qml:353
+#: qml/main.qml:416
 #, kde-format
 msgid "Start a chat"
 msgstr ""
 
-#: qml/main.qml:356
+#: qml/main.qml:419
 #, kde-format
 msgid "Do you want to start a chat with %1?"
 msgstr ""
@@ -1074,6 +1075,11 @@ msgstr ""
 #: src/actionshandler.cpp:244 src/actionshandler.cpp:249
 #, kde-format
 msgid "Invalid command"
+msgstr ""
+
+#: src/actionshandler.cpp:268
+#, kde-format
+msgid "Couldn't find a message to react to"
 msgstr ""
 
 #: src/commandmodel.cpp:36

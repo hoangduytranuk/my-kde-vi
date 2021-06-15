@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-09 00:19+0000\n"
+"POT-Creation-Date: 2021-06-15 00:17+0000\n"
 "PO-Revision-Date: 2012-07-09 22:08+0800\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -100,7 +100,7 @@ msgstr "Gửi địa chỉ &liên kết..."
 msgid "Send Link Address"
 msgstr "Gửi địa chỉ &liên kết..."
 
-#: src/formatter/html/5.2/combinedview.html:119 src/mainwidget.cpp:1038
+#: src/formatter/html/5.2/combinedview.html:119 src/mainwidget.cpp:1041
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:96
 #, kde-format
 msgid "Delete Article"
@@ -170,6 +170,7 @@ msgid "Configure Feeds"
 msgstr "Thiết lập nguồn tin"
 
 #: configuration/akregator_config_plugins.cpp:27
+#: configuration/akregator_config_security.cpp:29
 #, fuzzy, kde-format
 #| msgid "Configure Feeds"
 msgid "Configure Plugins"
@@ -181,9 +182,15 @@ msgid "(c), 2016-2021 Laurent Montel"
 msgstr ""
 
 #: configuration/akregator_config_plugins.cpp:33
+#: configuration/akregator_config_security.cpp:35
 #: configuration/akregator_config_userfeedback.cpp:34 src/aboutdata.cpp:28
 #, kde-format
 msgid "Laurent Montel"
+msgstr ""
+
+#: configuration/akregator_config_security.cpp:33
+#, kde-format
+msgid "(c), 2021 Laurent Montel"
 msgstr ""
 
 #: configuration/akregator_config_userfeedback.cpp:28
@@ -431,7 +438,7 @@ msgstr "Thẻ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysShowTabBar)
 #. i18n: ectx: label, entry, group (Browser)
-#: configuration/ui/settings_browser.ui:116 interfaces/akregator.kcfg:189
+#: configuration/ui/settings_browser.ui:116 interfaces/akregator.kcfg:192
 #, kde-format
 msgid "Always show the tab bar"
 msgstr "Luôn hiện thanh thẻ"
@@ -444,7 +451,7 @@ msgstr "Hiện nút đóng tại mỗi thẻ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_NewWindowInTab)
 #. i18n: ectx: label, entry, group (Browser)
-#: configuration/ui/settings_browser.ui:130 interfaces/akregator.kcfg:199
+#: configuration/ui/settings_browser.ui:130 interfaces/akregator.kcfg:202
 #, kde-format
 msgid "Open links in new tab instead of in new window"
 msgstr "Mở liên kết trong thẻ mới thanh vì cửa sổ mới"
@@ -463,7 +470,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableJavascript)
 #. i18n: ectx: label, entry, group (Browser)
-#: configuration/ui/settings_browser.ui:153 interfaces/akregator.kcfg:185
+#: configuration/ui/settings_browser.ui:153 interfaces/akregator.kcfg:188
 #, kde-format
 msgid "Enable Javascript"
 msgstr ""
@@ -577,6 +584,12 @@ msgstr "Mạng"
 msgid "Use the &browser cache (less network traffic)"
 msgstr "Dùng bộ đệm trình &duyệt (ít lưu lượng mạng hơn)"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LoadExternalReferences)
+#: configuration/ui/settings_security.ui:17
+#, kde-format
+msgid "Allow feed to load external references from internet."
+msgstr ""
+
 #: export/akregatorstorageexporter.cpp:276
 #, kde-format
 msgid "Akregator Export for %1"
@@ -681,91 +694,91 @@ msgid "Second (usually horizontal) splitter widget sizes."
 msgstr "Kích thước widget chia thứ hai (thường là ngang)."
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:90
+#: interfaces/akregator.kcfg:93
 #, kde-format
 msgid "Archive Mode"
 msgstr "Chế độ lưu trữ"
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:94
+#: interfaces/akregator.kcfg:97
 #, kde-format
 msgid "Keep All Articles"
 msgstr "Giữ tất cả bài viết"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:95
+#: interfaces/akregator.kcfg:98
 #, kde-format
 msgid "Save an unlimited number of articles."
 msgstr "Lưu số lượng bài viết không giới hạn."
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:98
+#: interfaces/akregator.kcfg:101
 #, kde-format
 msgid "Limit Number of Articles"
 msgstr "Giới hạn lượng bài viết"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:99
+#: interfaces/akregator.kcfg:102
 #, kde-format
 msgid "Limit the number of articles in a feed"
 msgstr "Giới hạn lượng bài viết trong một nguồn tin"
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:102
+#: interfaces/akregator.kcfg:105
 #, kde-format
 msgid "Delete Expired Articles"
 msgstr "Xoá bài viết quá hạn"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:103
+#: interfaces/akregator.kcfg:106
 #, kde-format
 msgid "Delete expired articles"
 msgstr "Xoá bài viết quá hạn"
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:106
+#: interfaces/akregator.kcfg:109
 #, kde-format
 msgid "Disable Archiving"
 msgstr "Tắt lưu trữ"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:107
+#: interfaces/akregator.kcfg:110
 #, kde-format
 msgid "Do not save any articles"
 msgstr "Không lưu bài viết nào"
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:112
+#: interfaces/akregator.kcfg:115
 #, kde-format
 msgid "Expiry Age"
 msgstr "Thời hạn tồn tại"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:113
+#: interfaces/akregator.kcfg:116
 #, kde-format
 msgid "Default expiry age for articles in days."
 msgstr "Thời hạn tồn tại mặc định cho các bài viết tính theo ngày."
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:117
+#: interfaces/akregator.kcfg:120
 #, kde-format
 msgid "Article Limit"
 msgstr "Giới hạn bài viết"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:118
+#: interfaces/akregator.kcfg:121
 #, kde-format
 msgid "Number of articles to keep per feed."
 msgstr "Lượng bài viết giữ trong mỗi nguồn tin."
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:122
+#: interfaces/akregator.kcfg:125
 #, kde-format
 msgid "Do Not Expire Important Articles"
 msgstr "Không xoá các bài viết quan trọng"
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:123
+#: interfaces/akregator.kcfg:126
 #, kde-format
 msgid ""
 "When this option is enabled, articles you marked as important will not be "
@@ -775,25 +788,25 @@ msgstr ""
 "bị xoá khi nguồn tin gặp các giới hạn về thời gian hay lượng bài viết."
 
 #. i18n: ectx: label, entry, group (Network)
-#: interfaces/akregator.kcfg:129
+#: interfaces/akregator.kcfg:132
 #, kde-format
 msgid "Concurrent Fetches"
 msgstr "Lấy tin đa luồng"
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: interfaces/akregator.kcfg:130
+#: interfaces/akregator.kcfg:133
 #, kde-format
 msgid "Number of concurrent fetches"
 msgstr "Số luồng lấy tin"
 
 #. i18n: ectx: label, entry, group (Network)
-#: interfaces/akregator.kcfg:134
+#: interfaces/akregator.kcfg:137
 #, kde-format
 msgid "Use HTML Cache"
 msgstr "Sử dụng bộ đệm HTML"
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: interfaces/akregator.kcfg:135
+#: interfaces/akregator.kcfg:138
 #, kde-format
 msgid ""
 "Use the KDE-wide HTML cache settings when downloading feeds, to avoid "
@@ -803,7 +816,7 @@ msgstr ""
 "thiết. Chỉ tắt khi cần thiết."
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: interfaces/akregator.kcfg:139
+#: interfaces/akregator.kcfg:142
 #, kde-format
 msgid ""
 "This option allows user to specify custom user-agent string instead of using "
@@ -815,110 +828,110 @@ msgstr ""
 "kết nối khi gặp \"gator\" trong chuỗi."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:145
+#: interfaces/akregator.kcfg:148
 #, kde-format
 msgid "Fetch on startup"
 msgstr "Lấy tin khi khởi động"
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:146
+#: interfaces/akregator.kcfg:149
 #, kde-format
 msgid "Fetch feedlist on startup."
 msgstr "Lấy danh sách nguồn tin khi khởi động."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:150
+#: interfaces/akregator.kcfg:153
 #, kde-format
 msgid "Mark all feeds as read on startup"
 msgstr "Đánh dấu đã đọc tất cả nguồn tin khi khởi động"
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:151
+#: interfaces/akregator.kcfg:154
 #, kde-format
 msgid "Mark all feeds as read on startup."
 msgstr "Đánh dấu đã đọc tất cả nguồn tin khi khởi động."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:155
+#: interfaces/akregator.kcfg:158
 #, kde-format
 msgid "Use interval fetching"
 msgstr "Lấy tin định kì"
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:156
+#: interfaces/akregator.kcfg:159
 #, no-c-format, kde-format
 msgid "Fetch all feeds every %1 minutes."
 msgstr "Lấy tin mỗi %1 phút."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:160
+#: interfaces/akregator.kcfg:163
 #, kde-format
 msgid "Interval for autofetching"
 msgstr "Khoảng thời gian tự động lấy tin"
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:161
+#: interfaces/akregator.kcfg:164
 #, kde-format
 msgid "Interval for autofetching in minutes."
 msgstr "Khoảng thời gian tự động lấy tin tính theo phút."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:165
+#: interfaces/akregator.kcfg:168
 #, kde-format
 msgid "Use notifications"
 msgstr "Dùng thông báo"
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:166
+#: interfaces/akregator.kcfg:169
 #, kde-format
 msgid "Specifies if the balloon notifications are used or not."
 msgstr "Chỉ định việc sử dụng thông báo."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:170
+#: interfaces/akregator.kcfg:173
 #, kde-format
 msgid "Show tray icon"
 msgstr "Hiện biểu tượng khay hệ thống"
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:171
+#: interfaces/akregator.kcfg:174
 #, kde-format
 msgid "Specifies if the tray icon is shown or not."
 msgstr "Chỉ định việc sử dụng biểu tượng khay hệ thống."
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:175
+#: interfaces/akregator.kcfg:178
 #, kde-format
 msgid "Show Unread In Taskbar"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:176
+#: interfaces/akregator.kcfg:179
 #, fuzzy, kde-format
 #| msgid " (no unread articles)"
 msgid "Specifies if we show unread article in taskbar."
 msgstr "(không có bài viết chưa đọc)"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:190
+#: interfaces/akregator.kcfg:193
 #, kde-format
 msgid "Always show the tab bar, even when only one tab is open"
 msgstr "Luôn hiện thanh thẻ, thậm chí khi chỉ một thẻ được mở"
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:194
+#: interfaces/akregator.kcfg:197
 #, kde-format
 msgid "Show close buttons on tabs"
 msgstr "Hiện nút đóng trên mỗi thẻ"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:195
+#: interfaces/akregator.kcfg:198
 #, kde-format
 msgid "Show close buttons on tabs instead of icons"
 msgstr "Hiện nút đóng trên mỗi thẻ thay vì các biểu tượng"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:200
+#: interfaces/akregator.kcfg:203
 #, kde-format
 msgid ""
 "Open a link which would normally open in a new window (external browser) in "
@@ -928,62 +941,62 @@ msgstr ""
 "một thẻ mới"
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:204
+#: interfaces/akregator.kcfg:207
 #, kde-format
 msgid "Use default KDE web browser"
 msgstr "Sử dụng trình duyệt web KDE mặc định"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:205
+#: interfaces/akregator.kcfg:208
 #, kde-format
 msgid "Use KDE web browser when opening in external browser."
 msgstr "Sử dụng trình duyệt web KDE khi mở một trình duyệt ngoài."
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:209
+#: interfaces/akregator.kcfg:212
 #, kde-format
 msgid "Use this command:"
 msgstr "Dùng lệnh này:"
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:210
+#: interfaces/akregator.kcfg:213
 #, kde-format
 msgid "Use the specified command when opening in external browser."
 msgstr "Sử dụng lệnh đã chỉ định khi mở trình duyệt ngoài."
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:214
+#: interfaces/akregator.kcfg:217
 #, fuzzy, no-c-format, kde-format
 #| msgid "Command to launch external browser.  URL will substitute for %u."
 msgid "Command to launch external browser. URL will substitute for %u."
 msgstr "Lệnh để chạy trình duyệt ngoài. URL sẽ được thay cho %u."
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:218
+#: interfaces/akregator.kcfg:221
 #, kde-format
 msgid "What the click with left mouse button should do."
 msgstr "Hành động khi nhấn chuột trái."
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:227
+#: interfaces/akregator.kcfg:230
 #, kde-format
 msgid "What the click with middle mouse button should do."
 msgstr "Hành động khi nhấn chuột giữa."
 
 #. i18n: ectx: label, entry, group (Advanced)
-#: interfaces/akregator.kcfg:252
+#: interfaces/akregator.kcfg:255
 #, kde-format
 msgid "Archive Backend"
 msgstr "Hậu trường lưu trữ"
 
 #. i18n: ectx: whatsthis, entry (UseMarkReadDelay), group (Advanced)
-#: interfaces/akregator.kcfg:256
+#: interfaces/akregator.kcfg:259
 #, kde-format
 msgid "Whether to delay before marking an article as read upon selecting it."
 msgstr "Trì hoãn trước khi đánh dấu đã đọc một bài viết ngay khi chọn nó."
 
 #. i18n: ectx: whatsthis, entry (MarkReadDelay), group (Advanced)
-#: interfaces/akregator.kcfg:260
+#: interfaces/akregator.kcfg:263
 #, kde-format
 msgid ""
 "Configurable delay between selecting an article and it being marked as read."
@@ -991,14 +1004,14 @@ msgstr ""
 "Cấu hình trì hoãn giữa việc chọn một bài viết và đánh dấu đã đọc bài đó."
 
 #. i18n: ectx: whatsthis, entry, group (Advanced)
-#: interfaces/akregator.kcfg:264
+#: interfaces/akregator.kcfg:267
 #, kde-format
 msgid "Resets the quick filter when changing feeds."
 msgstr "Thiết lập lại bộ lọc nhanh khi thay đổi nguồn tin."
 
 #: kontactplugin/akregator_plugin.cpp:27 src/aboutdata.cpp:19
 #: src/akregator_part.cpp:155
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:142
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:148
 #: src/trayicon.cpp:42 src/trayicon.cpp:43 src/trayicon.cpp:57
 #, kde-format
 msgid "Akregator"
@@ -1674,7 +1687,7 @@ msgstr ""
 msgid "OPML Outlines (%1);;All Files (*)"
 msgstr ""
 
-#: src/akregator_part.cpp:689
+#: src/akregator_part.cpp:690
 #, kde-format
 msgid "Imported Folder"
 msgstr "Thư mục đã nhập"
@@ -1751,60 +1764,60 @@ msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr "Nội dung"
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:143
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:149
 #, fuzzy, kde-format
 #| msgid "A KDE news feed reader."
 msgid "Akregator is a KDE news feed reader."
 msgstr "Một trình đọc tin tức của KDE."
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:184
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:190
 #, fuzzy, kde-format
 #| msgid "&Save Link As..."
 msgid "Save As"
 msgstr "&Lưu liên kết dạng..."
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:371
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:377
 #, kde-format
 msgid "Disable"
 msgstr "Tắt"
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:373
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:379
 #, kde-format
 msgid "Keep Enabled"
 msgstr "Giữ bật"
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:375
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:381
 #, kde-format
 msgid "Are you sure you want to disable this introduction page?"
 msgstr "Bạn có chắc muốn tắt trang giới thiệu này?"
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:376
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:382
 #, kde-format
 msgid "Disable Introduction Page"
 msgstr "Tắt trang giới thiệu"
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:409
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:415
 #, kde-format
 msgid "This web site is a malware, do you want to continue to show it?"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:409
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:415
 #, kde-format
 msgid "Malware"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:419
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:425
 #, kde-format
 msgid "The network is broken."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:419
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:422
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:425
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:428
 #, kde-format
 msgid "Check Phishing Url"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:422
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:428
 #, kde-format
 msgid "The url %1 is not valid."
 msgstr ""
@@ -2159,54 +2172,54 @@ msgstr "Đã huỷ tải"
 msgid "Loading completed"
 msgstr "Tải hoàn tất"
 
-#: src/mainwidget.cpp:149
+#: src/mainwidget.cpp:152
 #, kde-format
 msgid "You can view multiple articles in several open tabs."
 msgstr "Bạn có thể xem nhiều bài viết trong các thẻ khác nhau."
 
-#: src/mainwidget.cpp:153
+#: src/mainwidget.cpp:156
 #, kde-format
 msgid "Articles list."
 msgstr "Danh sách bài viết."
 
-#: src/mainwidget.cpp:215 src/mainwidget.cpp:640
+#: src/mainwidget.cpp:218 src/mainwidget.cpp:643
 #, kde-format
 msgid "Articles"
 msgstr "Bài viết"
 
-#: src/mainwidget.cpp:244
+#: src/mainwidget.cpp:247
 #, kde-format
 msgid "About"
 msgstr "Giới thiệu"
 
-#: src/mainwidget.cpp:812 src/mainwidget.cpp:821 src/mainwidget.cpp:1223
+#: src/mainwidget.cpp:815 src/mainwidget.cpp:824 src/mainwidget.cpp:1226
 #, kde-format
 msgid "Networking is not available."
 msgstr "Mạng không sẵn sàng."
 
-#: src/mainwidget.cpp:829
+#: src/mainwidget.cpp:832
 #, kde-format
 msgid "Fetching Feeds..."
 msgstr "Đang lấy tin..."
 
-#: src/mainwidget.cpp:1028
+#: src/mainwidget.cpp:1031
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt>Bạn có chắc muốn xoá bài viết <b>%1</b>?</qt>"
 
-#: src/mainwidget.cpp:1031
+#: src/mainwidget.cpp:1034
 #, kde-format
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural ""
 "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
 msgstr[0] "<qt>Bạn có chắc muốn xoá %1 bài viết đã chọn?</qt>"
 
-#: src/mainwidget.cpp:1220
+#: src/mainwidget.cpp:1223
 #, kde-format
 msgid "Networking is available now."
 msgstr "Mạng hiện sẵn sàng."
 
-#: src/mainwindow.cpp:104
+#: src/mainwindow.cpp:102
 #, kde-format
 msgid ""
 "Could not find the Akregator part; please check your installation.\n"

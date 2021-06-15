@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-13 00:19+0000\n"
+"POT-Creation-Date: 2021-06-15 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -416,54 +416,80 @@ msgstr ""
 msgid "End Time:"
 msgstr ""
 
-#: app/favoritelocationmodel.cpp:123 app/favoritelocationmodel.cpp:143
+#: app/favoritelocationmodel.cpp:129 app/favoritelocationmodel.cpp:149
 #: app/SettingsPage.qml:41 app/transfermanager.cpp:318
 #, kde-format
 msgid "Home"
 msgstr ""
 
-#: app/favoritelocationmodel.cpp:146
+#: app/favoritelocationmodel.cpp:152
 #, kde-format
 msgid "Work"
 msgstr ""
 
-#: app/favoritelocationmodel.cpp:149
+#: app/favoritelocationmodel.cpp:155
 #, kde-format
 msgid "Location %1"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:18 app/SettingsPage.qml:55
+#: app/FavoriteLocationPage.qml:19 app/SettingsPage.qml:55
 #, kde-format
 msgid "Favorite Locations"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:39 app/LocationPicker.qml:27
+#: app/FavoriteLocationPage.qml:41
+#, kde-format
+msgid "Export Favorite Locations"
+msgstr ""
+
+#: app/FavoriteLocationPage.qml:43 app/FavoriteLocationPage.qml:51
+#: app/TimelinePage.qml:156
+#, kde-format
+msgid "GPX Files (*.gpx)"
+msgstr ""
+
+#: app/FavoriteLocationPage.qml:49
+#, kde-format
+msgid "Import Favorite Locations"
+msgstr ""
+
+#: app/FavoriteLocationPage.qml:57 app/LocationPicker.qml:27
 #: app/PlaceEditor.qml:44
 #, kde-format
 msgid "Pick Location"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:48
+#: app/FavoriteLocationPage.qml:66
 #, kde-format
 msgid "Add Favorite Location"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:56
+#: app/FavoriteLocationPage.qml:74
 #, kde-format
 msgid "Rename Favorite Location"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:61
+#: app/FavoriteLocationPage.qml:79
 #, kde-format
 msgid "Remove Favorite Location"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:76
+#: app/FavoriteLocationPage.qml:89
+#, kde-format
+msgid "Export to GPX"
+msgstr ""
+
+#: app/FavoriteLocationPage.qml:94
+#, kde-format
+msgid "Import from GPX"
+msgstr ""
+
+#: app/FavoriteLocationPage.qml:104
 #, kde-format
 msgid "Rename favorite location"
 msgstr ""
 
-#: app/FavoriteLocationPage.qml:87
+#: app/FavoriteLocationPage.qml:115
 #, kde-format
 msgid "Rename"
 msgstr ""
@@ -570,9 +596,24 @@ msgctxt "flight arrival"
 msgid "Arrival"
 msgstr ""
 
-#: app/gpxexport.cpp:26 app/main.cpp:214 app/main.qml:17 app/main.qml:42
+#: app/gpxexport.cpp:32 app/main.cpp:214 app/main.qml:17 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
+msgstr ""
+
+#: app/gpxexport.cpp:46
+#, kde-format
+msgid "Flight %1 from %2 to %3"
+msgstr ""
+
+#: app/gpxexport.cpp:50
+#, kde-format
+msgid "Train %1 from %2 to %3"
+msgstr ""
+
+#: app/gpxexport.cpp:54
+#, kde-format
+msgid "Bus %1 from %2 to %3"
 msgstr ""
 
 #: app/HotelDelegate.qml:20
@@ -1407,11 +1448,6 @@ msgstr ""
 #: app/TimelinePage.qml:154
 #, kde-format
 msgid "Export Trip"
-msgstr ""
-
-#: app/TimelinePage.qml:156
-#, kde-format
-msgid "GPX Files (*.gpx)"
 msgstr ""
 
 #: app/TouristAttractionPage.qml:18
