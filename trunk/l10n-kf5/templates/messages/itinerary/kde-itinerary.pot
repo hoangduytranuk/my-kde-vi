@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-15 00:17+0000\n"
+"POT-Creation-Date: 2021-06-16 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -238,20 +238,32 @@ msgstr ""
 msgid "Departures"
 msgstr ""
 
-#: app/DepartureQueryPage.qml:43 app/JourneySectionDelegate.qml:36
+#: app/DepartureQueryPage.qml:23 app/JourneyQueryPage.qml:23
+#: app/TransferPage.qml:54
+#, kde-format
+msgid "Earlier"
+msgstr ""
+
+#: app/DepartureQueryPage.qml:29 app/JourneyQueryPage.qml:29
+#: app/TransferPage.qml:60
+#, kde-format
+msgid "Later"
+msgstr ""
+
+#: app/DepartureQueryPage.qml:57 app/JourneySectionDelegate.qml:36
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Canceled"
 msgstr ""
 
-#: app/DepartureQueryPage.qml:94
+#: app/DepartureQueryPage.qml:108
 #, kde-format
 msgctxt "destination"
 msgid "To:"
 msgstr ""
 
-#: app/DepartureQueryPage.qml:147 app/JourneyQueryPage.qml:129
-#: app/TransferPage.qml:169
+#: app/DepartureQueryPage.qml:161 app/JourneyQueryPage.qml:144
+#: app/TransferPage.qml:181
 #, kde-format
 msgid "Data providers: %1"
 msgstr ""
@@ -787,19 +799,19 @@ msgstr ""
 msgid "Alternative Connections"
 msgstr ""
 
-#: app/JourneyQueryPage.qml:62
+#: app/JourneyQueryPage.qml:77
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: app/JourneyQueryPage.qml:83
+#: app/JourneyQueryPage.qml:98
 #, kde-format
 msgid ""
 "Do you really want to replace your existing reservation with the newly "
 "selected journey?"
 msgstr ""
 
-#: app/JourneyQueryPage.qml:90
+#: app/JourneyQueryPage.qml:105
 #, kde-format
 msgid "Replace"
 msgstr ""
@@ -1564,17 +1576,17 @@ msgstr ""
 msgid "Discard"
 msgstr ""
 
-#: app/TransferPage.qml:94
+#: app/TransferPage.qml:106
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: app/TransferPage.qml:114
+#: app/TransferPage.qml:126
 #, kde-format
 msgid "Preceding arrival %1 at %2"
 msgstr ""
 
-#: app/TransferPage.qml:122
+#: app/TransferPage.qml:134
 #, kde-format
 msgid "Following departure %1 from %2"
 msgstr ""
