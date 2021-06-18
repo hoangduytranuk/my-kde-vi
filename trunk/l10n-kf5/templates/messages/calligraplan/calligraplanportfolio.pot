@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-16 00:19+0000\n"
+"POT-Creation-Date: 2021-06-18 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -327,45 +327,81 @@ msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
 msgstr ""
 
-#: SchedulingView.cpp:194
+#: SchedulingView.cpp:218
 #, kde-format
 msgid "Update"
 msgstr ""
 
-#: SchedulingView.cpp:291
+#: SchedulingView.cpp:315
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot load projects.<nl/>The directory does not exist:<nl/>%1"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: SchedulingView.ui:66
+#. i18n: ectx: property (title), widget (QGroupBox, schedulingProperties)
+#: SchedulingView.ui:42
 #, kde-format
-msgid "Scheduler:"
+msgid "Scheduling Control"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: SchedulingView.ui:76
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: SchedulingView.ui:71
 #, kde-format
-msgid "Granularity:"
+msgid "Options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, sequential)
-#: SchedulingView.ui:86
+#: SchedulingView.ui:77
 #, kde-format
 msgid "Sequential"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: SchedulingView.ui:84
+#, kde-format
+msgid "Granularity:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QRadioButton, parallel)
-#: SchedulingView.ui:93
+#: SchedulingView.ui:94
 #, kde-format
 msgid "Parallel"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: SchedulingView.ui:107
+#, kde-format
+msgid "Calculate From"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, todayRB)
+#: SchedulingView.ui:113
+#, kde-format
+msgid "Today"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, timeRB)
+#: SchedulingView.ui:120
+#, kde-format
+msgid "Time:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, tomorrowRB)
+#: SchedulingView.ui:134
+#, kde-format
+msgid "Tomorrow"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, calculate)
-#: SchedulingView.ui:122
+#: SchedulingView.ui:144
 #, kde-format
 msgid "Calculate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SchedulingView.ui:181
+#, kde-format
+msgid "Scheduler:"
 msgstr ""
 
 #: View.cpp:66

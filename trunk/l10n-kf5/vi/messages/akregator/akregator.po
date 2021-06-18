@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-16 00:19+0000\n"
+"POT-Creation-Date: 2021-06-18 00:18+0000\n"
 "PO-Revision-Date: 2012-07-09 22:08+0800\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -105,6 +105,12 @@ msgstr "Gửi địa chỉ &liên kết..."
 #, kde-format
 msgid "Delete Article"
 msgstr "Xoá bài viết"
+
+#: src/formatter/html/5.2/normalview.html:84
+msgid ""
+"<b>Note:</b> For security reasons, external reference is blocked (See "
+"configure dialog)."
+msgstr ""
 
 #: configuration/akregator_config_advanced.cpp:30
 #, kde-format
@@ -1010,7 +1016,7 @@ msgid "Resets the quick filter when changing feeds."
 msgstr "Thiết lập lại bộ lọc nhanh khi thay đổi nguồn tin."
 
 #: kontactplugin/akregator_plugin.cpp:27 src/aboutdata.cpp:19
-#: src/akregator_part.cpp:155
+#: src/akregator_part.cpp:158
 #: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:148
 #: src/trayicon.cpp:42 src/trayicon.cpp:43 src/trayicon.cpp:57
 #, kde-format
@@ -1591,54 +1597,54 @@ msgstr "Ẩn cửa sổ chính khi khởi động"
 msgid "Lists the available options for user feedback"
 msgstr ""
 
-#: src/akregator_part.cpp:90
+#: src/akregator_part.cpp:93
 #, kde-format
 msgid "Feeds"
 msgstr "Nguồn tin"
 
-#: src/akregator_part.cpp:101
+#: src/akregator_part.cpp:104
 #, kde-format
 msgid "KDE Dot News"
 msgstr "KDE Dot News"
 
-#: src/akregator_part.cpp:106
+#: src/akregator_part.cpp:109
 #, kde-format
 msgid "Linux.com"
 msgstr "Linux.com"
 
-#: src/akregator_part.cpp:111
+#: src/akregator_part.cpp:114
 #, kde-format
 msgid "Planet KDE"
 msgstr "Planet KDE"
 
-#: src/akregator_part.cpp:116
+#: src/akregator_part.cpp:119
 #, kde-format
 msgid "KDE Apps"
 msgstr "Ứng dụng KDE"
 
-#: src/akregator_part.cpp:122
+#: src/akregator_part.cpp:125
 #, kde-format
 msgid "Spanish feeds"
 msgstr "Nguồn tin Tây Ban Nha"
 
-#: src/akregator_part.cpp:126
+#: src/akregator_part.cpp:129
 #, kde-format
 msgid "Planet KDE España"
 msgstr "Planet KDE España"
 
-#: src/akregator_part.cpp:182
+#: src/akregator_part.cpp:185
 #, kde-format
 msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
 msgstr ""
 "Không thể nạp phần bổ sung hậu trường lưu trữ \"%1\". Chưa lưu trữ nguồn tin "
 "nào."
 
-#: src/akregator_part.cpp:183
+#: src/akregator_part.cpp:186
 #, kde-format
 msgid "Plugin error"
 msgstr "Lỗi phần bổ sung"
 
-#: src/akregator_part.cpp:483
+#: src/akregator_part.cpp:486
 #, kde-format
 msgid ""
 "Access denied: Cannot save feed list to <b>%1</b>. Please check your "
@@ -1647,22 +1653,22 @@ msgstr ""
 "Từ chối truy cập: Không thể lưu danh sách nguồn tin vào <b>%1</b>. Hãy kiểm "
 "tra quyền của bạn."
 
-#: src/akregator_part.cpp:484 src/akregator_part.cpp:535
+#: src/akregator_part.cpp:487 src/akregator_part.cpp:538
 #, kde-format
 msgid "Write Error"
 msgstr "Lỗi ghi"
 
-#: src/akregator_part.cpp:520
+#: src/akregator_part.cpp:523
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr "Không thể nhập tệp %1 (không có OPML hợp lệ)"
 
-#: src/akregator_part.cpp:520 src/command/loadfeedlistcommand.cpp:72
+#: src/akregator_part.cpp:523 src/command/loadfeedlistcommand.cpp:72
 #, kde-format
 msgid "OPML Parsing Error"
 msgstr "Lỗi phân tích OPML"
 
-#: src/akregator_part.cpp:524
+#: src/akregator_part.cpp:527
 #, kde-format
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
@@ -1671,23 +1677,23 @@ msgstr ""
 "Không thể đọc tệp %1, hãy kiểm tra sự tồn tại hay nó có thể được người dùng "
 "hiện tại đọc hay không."
 
-#: src/akregator_part.cpp:525 src/command/loadfeedlistcommand.cpp:146
+#: src/akregator_part.cpp:528 src/command/loadfeedlistcommand.cpp:146
 #, kde-format
 msgid "Read Error"
 msgstr "Lỗi đọc"
 
-#: src/akregator_part.cpp:535
+#: src/akregator_part.cpp:538
 #, kde-format
 msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr ""
 "Từ chối truy cập: không thể ghi vào tệp %1. Hãy kiểm tra quyền của bạn."
 
-#: src/akregator_part.cpp:550 src/akregator_part.cpp:559
+#: src/akregator_part.cpp:553 src/akregator_part.cpp:562
 #, kde-format
 msgid "OPML Outlines (%1);;All Files (*)"
 msgstr ""
 
-#: src/akregator_part.cpp:690
+#: src/akregator_part.cpp:691
 #, kde-format
 msgid "Imported Folder"
 msgstr "Thư mục đã nhập"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-11 00:17+0000\n"
+"POT-Creation-Date: 2021-06-18 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2175,49 +2175,24 @@ msgstr ""
 msgid "Directory Services"
 msgstr ""
 
-#: src/conf/configuredialog.cpp:35
-#, kde-format
-msgid "Configuration of directory services"
-msgstr ""
-
-#: src/conf/configuredialog.cpp:39
+#: src/conf/configuredialog.cpp:38
 #, kde-format
 msgid "Appearance"
 msgstr ""
 
-#: src/conf/configuredialog.cpp:40
-#, kde-format
-msgid "Colors & Fonts Configuration"
-msgstr ""
-
-#: src/conf/configuredialog.cpp:44
+#: src/conf/configuredialog.cpp:42
 #, kde-format
 msgid "Crypto Operations"
 msgstr ""
 
-#: src/conf/configuredialog.cpp:45
-#, kde-format
-msgid "Configuration of Crypto Operations"
-msgstr ""
-
-#: src/conf/configuredialog.cpp:49
+#: src/conf/configuredialog.cpp:46
 #, kde-format
 msgid "S/MIME Validation"
 msgstr ""
 
 #: src/conf/configuredialog.cpp:50
 #, kde-format
-msgid "Configuration of S/MIME certificate validation options"
-msgstr ""
-
-#: src/conf/configuredialog.cpp:54
-#, kde-format
 msgid "GnuPG System"
-msgstr ""
-
-#: src/conf/configuredialog.cpp:55
-#, kde-format
-msgid "Configuration of GnuPG System options"
 msgstr ""
 
 #: src/conf/cryptooperationsconfigwidget.cpp:103
@@ -2350,27 +2325,44 @@ msgstr ""
 msgid "Archive command to use when archiving files:"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:150
+#: src/conf/dirservconfigpage.cpp:153
 #, kde-format
-msgid "LDAP &timeout (minutes:seconds):"
-msgstr ""
-
-#: src/conf/dirservconfigpage.cpp:160
-#, kde-format
-msgid "&Maximum number of items returned by query:"
+msgid "OpenPGP keyserver:"
 msgstr ""
 
 #: src/conf/dirservconfigpage.cpp:170
 #, kde-format
+msgid "X.509 Directory Services"
+msgstr ""
+
+#: src/conf/dirservconfigpage.cpp:183
+#, kde-format
+msgid ""
+"Configuration of directory services is not possible because the used gpgme "
+"libraries are too old."
+msgstr ""
+
+#: src/conf/dirservconfigpage.cpp:192
+#, kde-format
+msgid "LDAP &timeout (minutes:seconds):"
+msgstr ""
+
+#: src/conf/dirservconfigpage.cpp:202
+#, kde-format
+msgid "&Maximum number of items returned by query:"
+msgstr ""
+
+#: src/conf/dirservconfigpage.cpp:212
+#, kde-format
 msgid "Automatically add &new servers discovered in CRL distribution points"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:377
+#: src/conf/dirservconfigpage.cpp:418
 #, kde-format
 msgid "Backend error: gpgconf does not seem to know the entry for %1/%2"
 msgstr ""
 
-#: src/conf/dirservconfigpage.cpp:383
+#: src/conf/dirservconfigpage.cpp:424
 #, kde-format
 msgid "Backend error: gpgconf has wrong type for %1/%2: %3 %4"
 msgstr ""

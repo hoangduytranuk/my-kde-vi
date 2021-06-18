@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-14 01:40+0000\n"
+"POT-Creation-Date: 2021-06-18 01:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -751,6 +751,7 @@ msgstr ""
 #: src/collections/bibtexcollection.cpp:134
 #: src/collections/boardgamecollection.cpp:68
 #: src/collections/bookcollection.cpp:87 src/collections/comicbookcollection.cpp:81
+#: src/fetch/rpggeekfetcher.cpp:193
 #, kde-format
 msgid "Publisher"
 msgstr ""
@@ -907,22 +908,25 @@ msgstr ""
 #: src/collections/comicbookcollection.cpp:114
 #: src/collections/gamecollection.cpp:66 src/collections/musiccollection.cpp:77
 #: src/collections/videocollection.cpp:78
+#: src/fetch/rpggeekfetcher.cpp:191
 #, kde-format
 msgid "Genre"
 msgstr ""
 
 #: src/collections/boardgamecollection.cpp:57
+#: src/fetch/rpggeekfetcher.cpp:197
 #, kde-format
 msgid "Mechanism"
 msgstr ""
 
 #: src/collections/boardgamecollection.cpp:63
-#: src/collections/gamecollection.cpp:72
+#: src/collections/gamecollection.cpp:72 src/fetch/rpggeekfetcher.cpp:192
 #, kde-format
 msgid "Release Year"
 msgstr ""
 
 #: src/collections/boardgamecollection.cpp:74
+#: src/fetch/rpggeekfetcher.cpp:195
 #, kde-format
 msgid "Designer"
 msgstr ""
@@ -949,7 +953,8 @@ msgstr ""
 #: src/collections/winecollection.cpp:125
 #: src/entrymatchdialog.cpp:94 src/fetch/colnectfetcher.cpp:323
 #: src/fetch/colnectfetcher.cpp:554 src/fetch/numistafetcher.cpp:350
-#: src/fetch/numistafetcher.cpp:398 src/fetchdialog.cpp:253
+#: src/fetch/numistafetcher.cpp:398 src/fetch/rpggeekfetcher.cpp:198
+#: src/fetchdialog.cpp:253
 #, kde-format
 msgid "Description"
 msgstr ""
@@ -1315,7 +1320,7 @@ msgstr ""
 
 #: src/collections/comicbookcollection.cpp:64
 #: src/fetch/boardgamegeekfetcher.cpp:189
-#: src/translators/boardgamegeekimporter.cpp:217
+#: src/fetch/rpggeekfetcher.cpp:194 src/translators/boardgamegeekimporter.cpp:217
 #, kde-format
 msgctxt "Comic Book Illustrator"
 msgid "Artist"
@@ -1610,7 +1615,7 @@ msgstr ""
 #: src/collections/musiccollection.cpp:54
 #: src/fetch/discogsfetcher.cpp:378 src/fetch/doubanfetcher.cpp:385
 #: src/fetch/doubanfetcher.cpp:518 src/fetch/upcitemdbfetcher.cpp:291
-#: src/fetch/upcitemdbfetcher.cpp:411 src/translators/audiofileimporter.cpp:316
+#: src/fetch/upcitemdbfetcher.cpp:411 src/translators/audiofileimporter.cpp:318
 #: src/translators/freedbimporter.cpp:275
 #: src/translators/freedbimporter.cpp:392
 #: src/translators/freedbimporter.cpp:459
@@ -1646,7 +1651,7 @@ msgstr ""
 
 #: src/collections/musiccollection.cpp:60
 #: src/collections/musiccollection.cpp:87
-#: src/translators/audiofileimporter.cpp:217
+#: src/translators/audiofileimporter.cpp:219
 #: src/translators/xmlstatehandler.cpp:396
 #, kde-format
 msgid "Artist"
@@ -1665,14 +1670,14 @@ msgstr ""
 #: src/collections/musiccollection.cpp:86
 #: src/entrymatchdialog.cpp:94 src/fetch/fetchmanager.cpp:67
 #: src/fetchdialog.cpp:252 src/field.cpp:297 src/field.cpp:338
-#: src/translators/audiofileimporter.cpp:216
+#: src/translators/audiofileimporter.cpp:218
 #: src/translators/xmlstatehandler.cpp:395
 #, kde-format
 msgid "Title"
 msgstr ""
 
 #: src/collections/musiccollection.cpp:88
-#: src/translators/audiofileimporter.cpp:218
+#: src/translators/audiofileimporter.cpp:220
 #: src/translators/xmlstatehandler.cpp:397
 #, kde-format
 msgid "Length"
@@ -1900,6 +1905,7 @@ msgstr ""
 
 #: src/collections/videocollection.cpp:127
 #: src/fetch/discogsfetcher.cpp:296 src/fetch/discogsfetcher.cpp:465
+#: src/fetch/rpggeekfetcher.cpp:196
 #, kde-format
 msgid "Producer"
 msgstr ""
@@ -3497,8 +3503,9 @@ msgstr ""
 #: src/fetch/kinopoiskfetcher.cpp:518 src/fetch/kinoteatrfetcher.cpp:514
 #: src/fetch/moviemeterfetcher.cpp:301 src/fetch/mrlookupfetcher.cpp:223
 #: src/fetch/musicbrainzfetcher.cpp:376 src/fetch/openlibraryfetcher.cpp:400
-#: src/fetch/springerfetcher.cpp:183 src/fetch/tvmazefetcher.cpp:393
-#: src/fetch/upcitemdbfetcher.cpp:466 src/fetch/videogamegeekfetcher.cpp:197
+#: src/fetch/rpggeekfetcher.cpp:206 src/fetch/springerfetcher.cpp:183
+#: src/fetch/tvmazefetcher.cpp:393 src/fetch/upcitemdbfetcher.cpp:466
+#: src/fetch/videogamegeekfetcher.cpp:197
 #: src/fetch/vndbfetcher.cpp:440
 #, kde-format
 msgid "This source has no options."
@@ -4004,6 +4011,11 @@ msgstr ""
 #: src/fetch/openlibraryfetcher.cpp:247 src/fetch/openlibraryfetcher.cpp:393
 #, kde-format
 msgid "OpenLibrary Link"
+msgstr ""
+
+#: src/fetch/rpggeekfetcher.cpp:199
+#, kde-format
+msgid "RPGGeek Link"
 msgstr ""
 
 #: src/fetch/srufetcher.cpp:490
@@ -6268,60 +6280,60 @@ msgstr ""
 msgid "Scanning audio files..."
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:171
-#: src/translators/audiofileimporter.cpp:174
+#: src/translators/audiofileimporter.cpp:172
+#: src/translators/audiofileimporter.cpp:175
 #, kde-format
 msgid "Files"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:177
+#: src/translators/audiofileimporter.cpp:178
 #, kde-format
 msgid "Bitrate"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:212
-#: src/translators/audiofileimporter.cpp:222
+#: src/translators/audiofileimporter.cpp:214
+#: src/translators/audiofileimporter.cpp:224
 #, kde-format
 msgid "Tracks (Disc %1)"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:296
+#: src/translators/audiofileimporter.cpp:298
 #: xslt/entry-templates/Album.xsl:243
 #, kde-format
 msgid "(Various)"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:470
+#: src/translators/audiofileimporter.cpp:475
 #, kde-format
 msgid "Audio File Options"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:473
+#: src/translators/audiofileimporter.cpp:478
 #, kde-format
 msgid "Recursive &folder search"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:474
+#: src/translators/audiofileimporter.cpp:479
 #, kde-format
 msgid "If checked, folders are recursively searched for audio files."
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:478
+#: src/translators/audiofileimporter.cpp:483
 #, kde-format
 msgid "Include file &location"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:479
+#: src/translators/audiofileimporter.cpp:484
 #, kde-format
 msgid "If checked, the file names for each track are added to the entries."
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:483
+#: src/translators/audiofileimporter.cpp:488
 #, kde-format
 msgid "Include &bitrate"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:484
+#: src/translators/audiofileimporter.cpp:489
 #, kde-format
 msgid "If checked, the bitrate for each track is added to the entries."
 msgstr ""
