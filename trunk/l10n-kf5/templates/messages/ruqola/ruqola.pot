@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-18 00:16+0000\n"
+"POT-Creation-Date: 2021-06-19 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -915,18 +915,28 @@ msgstr ""
 msgid "Channel was blocked."
 msgstr ""
 
-#: core/roominfo.cpp:109
+#: core/roominfo.cpp:111
+#, kde-format
+msgid "Private Team"
+msgstr ""
+
+#: core/roominfo.cpp:113
 #, kde-format
 msgid "Group"
 msgstr ""
 
+#: core/roominfo.cpp:117
+#, kde-format
+msgid "Public Team"
+msgstr ""
+
 #. i18n: ectx: Menu (channel)
-#: core/roominfo.cpp:111 widgets/ruqolaui.rc:25
+#: core/roominfo.cpp:119 widgets/ruqolaui.rc:25
 #, kde-format
 msgid "Channel"
 msgstr ""
 
-#: core/roominfo.cpp:113 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:28
+#: core/roominfo.cpp:122 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:28
 #, kde-format
 msgid "Direct"
 msgstr ""
@@ -1660,17 +1670,17 @@ msgstr ""
 msgid "Name:"
 msgstr ""
 
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:40
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:42
 #, kde-format
 msgid "Search Custom Sounds"
 msgstr ""
 
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:55
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:57
 #, kde-format
 msgid "No custom sound found"
 msgstr ""
 
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:60
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:62
 #, kde-format
 msgid "%1 custom sound (Total: %2)"
 msgid_plural "%1 custom sounds (Total: %2)"
@@ -1678,7 +1688,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addServer)
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:117
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:123
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
 #: widgets/administratordialog/users/administratoruserswidget.cpp:191
 #: widgets/configuredialog/configureaccountserverwidget.ui:25
@@ -1687,7 +1697,7 @@ msgid "Add..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, modifyServer)
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:119
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:125
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:144
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:70
 #: widgets/administratordialog/users/administratoruserswidget.cpp:202
@@ -1697,7 +1707,7 @@ msgid "Modify..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeServer)
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:123
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:129
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:146
 #: widgets/administratordialog/invites/invitetreeview.cpp:55
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:74

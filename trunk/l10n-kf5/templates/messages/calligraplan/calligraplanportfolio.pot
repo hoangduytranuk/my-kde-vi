@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-18 00:17+0000\n"
+"POT-Creation-Date: 2021-06-19 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -173,18 +173,46 @@ msgstr ""
 msgid "Add Project"
 msgstr ""
 
-#: ProjectsModel.cpp:140 SchedulingModel.cpp:38
+#: ProjectsModel.cpp:142
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Project name"
+msgstr ""
+
+#: ProjectsModel.cpp:151
+#, kde-format
+msgid "Target Start"
+msgstr ""
+
+#: ProjectsModel.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Scheduling range: Earliest start time"
+msgstr ""
+
+#: ProjectsModel.cpp:163
+#, kde-format
+msgid "Target End"
+msgstr ""
+
+#: ProjectsModel.cpp:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Scheduling range: Latest end time"
+msgstr ""
+
+#: ProjectsModel.cpp:178 SchedulingModel.cpp:38
 #, kde-format
 msgid "Schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:142
+#: ProjectsModel.cpp:181
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:178
+#: ProjectsModel.cpp:222
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -193,24 +221,24 @@ msgid ""
 "item><item>Target finish:\t%5</item></list></para>"
 msgstr ""
 
-#: ProjectsModel.cpp:191
+#: ProjectsModel.cpp:235
 #, kde-format
 msgid "No schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:212
+#: ProjectsModel.cpp:256
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule is baselined"
 msgstr ""
 
-#: ProjectsModel.cpp:215
+#: ProjectsModel.cpp:259
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scheduled but not baselined"
 msgstr ""
 
-#: ProjectsModel.cpp:218
+#: ProjectsModel.cpp:262
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Not scheduled"
@@ -268,60 +296,60 @@ msgstr ""
 msgid "Exclude"
 msgstr ""
 
-#: SchedulingModel.cpp:133
+#: SchedulingModel.cpp:135
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: SchedulingModel.cpp:137
+#: SchedulingModel.cpp:139
 #, kde-format
 msgid "Scheduling..."
 msgstr ""
 
-#: SchedulingModel.cpp:139
+#: SchedulingModel.cpp:141
 #, kde-format
 msgid "Not scheduled"
 msgstr ""
 
-#: SchedulingModel.cpp:141
+#: SchedulingModel.cpp:143
 #, kde-format
 msgid "Finished"
 msgstr ""
 
-#: SchedulingModel.cpp:143
+#: SchedulingModel.cpp:145
 #, kde-format
 msgid "Started"
 msgstr ""
 
-#: SchedulingModel.cpp:145
+#: SchedulingModel.cpp:147
 #, kde-format
 msgid "Baselined"
 msgstr ""
 
-#: SchedulingModel.cpp:147
+#: SchedulingModel.cpp:149
 #, kde-format
 msgid "Scheduled"
 msgstr ""
 
-#: SchedulingModel.cpp:168
+#: SchedulingModel.cpp:170
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Schedule this project"
 msgstr ""
 
-#: SchedulingModel.cpp:171
+#: SchedulingModel.cpp:173
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Include resource bookings from this project"
 msgstr ""
 
-#: SchedulingModel.cpp:174 SchedulingModel.cpp:177
+#: SchedulingModel.cpp:176 SchedulingModel.cpp:179
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Exclude this project"
 msgstr ""
 
-#: SchedulingModel.cpp:190
+#: SchedulingModel.cpp:192
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
