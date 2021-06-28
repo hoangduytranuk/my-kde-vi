@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-18 00:16+0000\n"
+"POT-Creation-Date: 2021-06-24 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: imports/NeoChat/Component/ChatBox/AttachmentPane.qml:181
 #: imports/NeoChat/Component/ChatBox/ReplyPane.qml:102
-#: imports/NeoChat/Page/AccountsPage.qml:219
+#: imports/NeoChat/Page/AccountsPage.qml:221
 #: imports/NeoChat/Page/ImageEditorPage.qml:94
 #, kde-format
 msgid "Cancel"
@@ -354,7 +354,7 @@ msgid "Room topic:"
 msgstr ""
 
 #: imports/NeoChat/Dialog/RoomSettingsDialog.qml:85
-#: imports/NeoChat/Page/AccountsPage.qml:198
+#: imports/NeoChat/Page/AccountsPage.qml:200
 #: imports/NeoChat/Page/DevicesPage.qml:123
 #, kde-format
 msgid "Save"
@@ -521,69 +521,69 @@ msgid "Accounts"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:23
-#: imports/NeoChat/Page/AccountsPage.qml:95
+#: imports/NeoChat/Page/AccountsPage.qml:97
 #, kde-format
 msgid "Add an account"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:67
+#: imports/NeoChat/Page/AccountsPage.qml:69
 #, kde-format
 msgid "Edit this account"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:75
+#: imports/NeoChat/Page/AccountsPage.qml:77
 #: qml/main.qml:269
 #, kde-format
 msgid "Logout"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:110
+#: imports/NeoChat/Page/AccountsPage.qml:112
 #, kde-format
 msgid "Password changed successfully"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:112
+#: imports/NeoChat/Page/AccountsPage.qml:114
 #, kde-format
 msgid "Wrong password entered"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:114
+#: imports/NeoChat/Page/AccountsPage.qml:116
 #, kde-format
 msgid "Unknown problem while trying to change password"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:132
+#: imports/NeoChat/Page/AccountsPage.qml:134
 #, kde-format
 msgid "Edit Account"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:172
+#: imports/NeoChat/Page/AccountsPage.qml:174
 #, kde-format
 msgid "Avatar:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:177
+#: imports/NeoChat/Page/AccountsPage.qml:179
 #: imports/NeoChat/Page/DevicesPage.qml:119
 #, kde-format
 msgid "Name:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:181
+#: imports/NeoChat/Page/AccountsPage.qml:183
 #, kde-format
 msgid "Current Password:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:186
+#: imports/NeoChat/Page/AccountsPage.qml:188
 #, kde-format
 msgid "New Password:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:192
+#: imports/NeoChat/Page/AccountsPage.qml:194
 #, kde-format
 msgid "Confirm new Password:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:208
+#: imports/NeoChat/Page/AccountsPage.qml:210
 #, kde-format
 msgid "Passwords do not match"
 msgstr ""
@@ -769,13 +769,13 @@ msgstr ""
 msgid "Explore rooms"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:195
-#: imports/NeoChat/Page/RoomListPage.qml:244
+#: imports/NeoChat/Page/RoomListPage.qml:196
+#: imports/NeoChat/Page/RoomListPage.qml:245
 #, kde-format
 msgid "No Name"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomListPage.qml:268
+#: imports/NeoChat/Page/RoomListPage.qml:269
 #, kde-format
 msgid "Configure room"
 msgstr ""
@@ -1102,14 +1102,14 @@ msgstr ""
 msgid "Do you want to start a chat with %1?"
 msgstr ""
 
-#: src/actionshandler.cpp:199 src/actionshandler.cpp:218
-#: src/actionshandler.cpp:245 src/actionshandler.cpp:250
-#: src/actionshandler.cpp:263 src/actionshandler.cpp:268
+#: src/actionshandler.cpp:222 src/actionshandler.cpp:241
+#: src/actionshandler.cpp:268 src/actionshandler.cpp:273
+#: src/actionshandler.cpp:286 src/actionshandler.cpp:291
 #, kde-format
 msgid "Invalid command"
 msgstr ""
 
-#: src/actionshandler.cpp:287
+#: src/actionshandler.cpp:310
 #, kde-format
 msgid "Couldn't find a message to react to"
 msgstr ""
@@ -1131,40 +1131,55 @@ msgstr ""
 
 #: src/commandmodel.cpp:51
 #, kde-format
-msgid "Sends a message as plain text, without interpreting it as markdown"
+msgid "Prepends (╯°□°）╯︵ ┻━┻ to a plain-text message"
 msgstr ""
 
 #: src/commandmodel.cpp:56
 #, kde-format
-msgid "Sends a message as html, without interpreting it as markdown"
+msgid "Prepends ┬──┬ ノ( ゜-゜ノ) to a plain-text message"
 msgstr ""
 
 #: src/commandmodel.cpp:61
 #, kde-format
-msgid "Sends the given message coloured as a rainbow"
+msgid "Sends a message as plain text, without interpreting it as markdown"
 msgstr ""
 
 #: src/commandmodel.cpp:66
 #, kde-format
+msgid "Sends a message as html, without interpreting it as markdown"
+msgstr ""
+
+#: src/commandmodel.cpp:71
+#, kde-format
+msgid "Sends the given message coloured as a rainbow"
+msgstr ""
+
+#: src/commandmodel.cpp:76
+#, kde-format
 msgid "Sends the given emote coloured as a rainbow"
 msgstr ""
 
-#: src/commandmodel.cpp:72
+#: src/commandmodel.cpp:81
+#, kde-format
+msgid "Sends the given message as a spoiler"
+msgstr ""
+
+#: src/commandmodel.cpp:87
 #, kde-format
 msgid "Joins room with given address"
 msgstr ""
 
-#: src/commandmodel.cpp:77
+#: src/commandmodel.cpp:92
 #, kde-format
 msgid "Leave room"
 msgstr ""
 
-#: src/commandmodel.cpp:82
+#: src/commandmodel.cpp:97
 #, kde-format
 msgid "Invites user with given id to current room"
 msgstr ""
 
-#: src/commandmodel.cpp:87
+#: src/commandmodel.cpp:102
 #, kde-format
 msgid "React to this message with a text"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-16 00:22+0000\n"
+"POT-Creation-Date: 2021-06-28 00:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -34,8 +34,9 @@ msgstr ""
 msgid "File"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #. i18n: ectx: Menu (edit)
-#: ../desktop/konsoleui.rc:16
+#: ../desktop/konsoleui.rc:16 plugins/SSHManager/sshwidget.ui:224
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -58,14 +59,20 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#. i18n: ectx: Menu (plugins)
+#: ../desktop/konsoleui.rc:50
+#, kde-format
+msgid "Plugins"
+msgstr ""
+
 #. i18n: ectx: Menu (help)
-#: ../desktop/konsoleui.rc:49
+#: ../desktop/konsoleui.rc:53
 #, kde-format
 msgid "Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: ../desktop/konsoleui.rc:53
+#: ../desktop/konsoleui.rc:57
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -82,50 +89,50 @@ msgstr ""
 msgid "Session Toolbar"
 msgstr ""
 
-#: Application.cpp:51
+#: Application.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Name of profile to use for new Konsole instance"
 msgstr ""
 
-#: Application.cpp:55
+#: Application.cpp:58
 #, kde-format
 msgctxt "@info:shell"
 msgid "json layoutfile to be loaded to use for new Konsole instance"
 msgstr ""
 
-#: Application.cpp:59
+#: Application.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Use the internal FALLBACK profile"
 msgstr ""
 
-#: Application.cpp:62
+#: Application.cpp:65
 #, kde-format
 msgctxt "@info:shell"
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr ""
 
-#: Application.cpp:66
+#: Application.cpp:69
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr ""
 
-#: Application.cpp:69
+#: Application.cpp:72
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr ""
 
-#: Application.cpp:72
+#: Application.cpp:75
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: Application.cpp:76
+#: Application.cpp:79
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -133,67 +140,67 @@ msgid ""
 "(by default) is pressed"
 msgstr ""
 
-#: Application.cpp:79
+#: Application.cpp:82
 #, kde-format
 msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
-#: Application.cpp:82
+#: Application.cpp:85
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:85
+#: Application.cpp:88
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:88
+#: Application.cpp:91
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:91
+#: Application.cpp:94
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:94
+#: Application.cpp:97
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in fullscreen mode"
 msgstr ""
 
-#: Application.cpp:97
+#: Application.cpp:100
 #, kde-format
 msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr ""
 
-#: Application.cpp:100
+#: Application.cpp:103
 #, kde-format
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr ""
 
-#: Application.cpp:103
+#: Application.cpp:106
 #, kde-format
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: Application.cpp:106
+#: Application.cpp:109
 #, kde-format
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr ""
 
-#: Application.cpp:110
+#: Application.cpp:113
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -201,13 +208,13 @@ msgid ""
 "it as the last option."
 msgstr ""
 
-#: Application.cpp:119
+#: Application.cpp:122
 #, kde-format
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr ""
 
-#: Application.cpp:566
+#: Application.cpp:571
 #, kde-format
 msgctxt "@item"
 msgid "Toggle Background Window"
@@ -688,7 +695,8 @@ msgid "A key bindings scheme cannot be saved with an empty description."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addEntryButton)
-#: KeyBindingEditor.ui:65
+#. i18n: ectx: property (text), widget (QPushButton, btnAdd)
+#: KeyBindingEditor.ui:65 plugins/SSHManager/sshwidget.ui:235
 #, kde-format
 msgid "Add"
 msgstr ""
@@ -1107,7 +1115,7 @@ msgctxt "@action:inmenu"
 msgid "Load tab layout from file"
 msgstr ""
 
-#: MainWindow.cpp:625 MainWindow.cpp:644
+#: MainWindow.cpp:633 MainWindow.cpp:652
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -1116,55 +1124,55 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: MainWindow.cpp:631 MainWindow.cpp:650 MainWindow.cpp:668
+#: MainWindow.cpp:639 MainWindow.cpp:658 MainWindow.cpp:676
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr ""
 
-#: MainWindow.cpp:633 MainWindow.cpp:652 MainWindow.cpp:669
+#: MainWindow.cpp:641 MainWindow.cpp:660 MainWindow.cpp:677
 #, kde-format
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr ""
 
-#: MainWindow.cpp:655 MainWindow.cpp:672
+#: MainWindow.cpp:663 MainWindow.cpp:680
 #, kde-format
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr ""
 
-#: MainWindow.cpp:665
+#: MainWindow.cpp:673
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:776 Part.cpp:312
+#: MainWindow.cpp:784 Part.cpp:312
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr ""
 
-#: MainWindow.cpp:793
+#: MainWindow.cpp:801
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr ""
 
-#: MainWindow.cpp:802
+#: MainWindow.cpp:810
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr ""
 
-#: MainWindow.cpp:807
+#: MainWindow.cpp:815
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr ""
 
-#: MainWindow.cpp:812
+#: MainWindow.cpp:820
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
@@ -1174,6 +1182,183 @@ msgstr ""
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
+msgstr ""
+
+#. i18n: ectx: property (currentText), widget (QComboBox, folder)
+#: plugins/SSHManager/sshmanagermodel.cpp:36
+#: plugins/SSHManager/sshwidget.ui:132
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerplugin.cpp:50
+#, kde-format
+msgid "SSH Manager"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerplugin.cpp:68
+#, kde-format
+msgid "Show SSH Manager"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:156
+#, kde-format
+msgid ""
+"You are about to remove the folder %1,\n"
+" with multiple SSH Configurations, are you sure?"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:162
+#, kde-format
+msgid "Remove SSH Configurations"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:297
+#, kde-format
+msgid "Missing Hostname"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:302
+#, kde-format
+msgid "Missing Name"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:307
+#, kde-format
+msgid "Missing Port"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:313
+#, kde-format
+msgid "If Use Ssh Config is set, do not specify sshkey or username."
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:318
+#, kde-format
+msgid "At least Username or SSHKey must be set"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:324
+#, kde-format
+msgid "Missing Folder"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:329
+#, kde-format
+msgid "An SSH session must have a profile"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:353
+#, kde-format
+msgid "Double click to change the folder name."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SSHTreeWidget)
+#: plugins/SSHManager/sshwidget.ui:14
+#, kde-format
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterText)
+#: plugins/SSHManager/sshwidget.ui:22
+#, kde-format
+msgid "Filter..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnInvertFilter)
+#: plugins/SSHManager/sshwidget.ui:32
+#, kde-format
+msgid "Invert"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/SSHManager/sshwidget.ui:57
+#, kde-format
+msgid "Identifier"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, name)
+#: plugins/SSHManager/sshwidget.ui:64
+#, kde-format
+msgid "The name of this entry on the list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/SSHManager/sshwidget.ui:71
+#, kde-format
+msgid "SSH Hostname"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, hostname)
+#: plugins/SSHManager/sshwidget.ui:78
+#, kde-format
+msgid "The hostname of the server"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/SSHManager/sshwidget.ui:85
+#, kde-format
+msgid "Port"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, port)
+#: plugins/SSHManager/sshwidget.ui:92
+#, kde-format
+msgid "22"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/SSHManager/sshwidget.ui:99
+#, kde-format
+msgid "SSH Key"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, sshkey)
+#: plugins/SSHManager/sshwidget.ui:109
+#, kde-format
+msgid "The private key"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, folderLabel)
+#: plugins/SSHManager/sshwidget.ui:116
+#, kde-format
+msgid "Folder"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plugins/SSHManager/sshwidget.ui:139
+#, kde-format
+msgid "Profile"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, username)
+#: plugins/SSHManager/sshwidget.ui:156
+#, kde-format
+msgid "Your username"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: plugins/SSHManager/sshwidget.ui:163
+#, kde-format
+msgid "Username"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, useSshConfig)
+#: plugins/SSHManager/sshwidget.ui:170
+#, kde-format
+msgid "Use ~/.ssh/config for key"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnImport)
+#: plugins/SSHManager/sshwidget.ui:217
+#, kde-format
+msgid "Import"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnCancel)
+#: plugins/SSHManager/sshwidget.ui:242
+#, kde-format
+msgid "Cancel"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptions)
@@ -1197,7 +1382,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: profile/Profile.cpp:157
+#: profile/Profile.cpp:158
 #, kde-format
 msgctxt "Name of the default/builtin profile"
 msgid "Default"
@@ -1427,7 +1612,7 @@ msgstr ""
 msgid "Activity in '%1' (Session '%2')"
 msgstr ""
 
-#: session/SessionController.cpp:134
+#: session/SessionController.cpp:135
 #, kde-format
 msgid "Konsole"
 msgstr ""
@@ -2394,101 +2579,101 @@ msgstr ""
 msgid "Activation:"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:692
-#: terminalDisplay/TerminalDisplay.cpp:693
+#: terminalDisplay/TerminalClipboard.cpp:110
+#, kde-format
+msgid "End Of Text/Interrupt: may exit the current process"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:111
+#, kde-format
+msgid "End Of Transmission: may exit the current process"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:112
+#, kde-format
+msgid "Bell: will try to emit an audible warning"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:113
+#, kde-format
+msgid "Backspace"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:114
+#, kde-format
+msgid "Device Control Three/XOFF: suspends output"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:115
+#, kde-format
+msgid "Substitute/Suspend: may suspend current process"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:116
+#, kde-format
+msgid "Escape: used for manipulating terminal state"
+msgstr ""
+
+#: terminalDisplay/TerminalClipboard.cpp:117
+#, kde-format
+msgid "File Separator/Quit: may abort the current process"
+msgstr ""
+
+#: terminalDisplay/TerminalDisplay.cpp:696
+#: terminalDisplay/TerminalDisplay.cpp:697
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:704
+#: terminalDisplay/TerminalDisplay.cpp:708
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2116
+#: terminalDisplay/TerminalDisplay.cpp:2112
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2119
+#: terminalDisplay/TerminalDisplay.cpp:2115
 #, kde-format
 msgid "Confirm Paste"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2151
-#, kde-format
-msgid "End Of Text/Interrupt: may exit the current process"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2152
-#, kde-format
-msgid "End Of Transmission: may exit the current process"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2153
-#, kde-format
-msgid "Bell: will try to emit an audible warning"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2154
-#, kde-format
-msgid "Backspace"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2155
-#, kde-format
-msgid "Device Control Three/XOFF: suspends output"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2156
-#, kde-format
-msgid "Substitute/Suspend: may suspend current process"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2157
-#, kde-format
-msgid "Escape: used for manipulating terminal state"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2158
-#, kde-format
-msgid "File Separator/Quit: may abort the current process"
-msgstr ""
-
-#: terminalDisplay/TerminalDisplay.cpp:2180
+#: terminalDisplay/TerminalDisplay.cpp:2127
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2183
+#: terminalDisplay/TerminalDisplay.cpp:2130
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2185
+#: terminalDisplay/TerminalDisplay.cpp:2132
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2188
+#: terminalDisplay/TerminalDisplay.cpp:2135
 #, kde-format
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2191
+#: terminalDisplay/TerminalDisplay.cpp:2138
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2422
+#: terminalDisplay/TerminalDisplay.cpp:2312
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
@@ -2496,17 +2681,17 @@ msgid ""
 "b> to resume.</qt>"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2463
+#: terminalDisplay/TerminalDisplay.cpp:2353
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2720
+#: terminalDisplay/TerminalDisplay.cpp:2571
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2752
+#: terminalDisplay/TerminalDisplay.cpp:2603
 #, kde-format
 msgid "&Paste Location"
 msgstr ""
@@ -2990,7 +3175,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
 #. i18n: ectx: property (text), widget (QCheckBox, alignToCenterButton)
 #: widgets/EditProfileAppearancePage.ui:444
-#: widgets/EditProfileAppearancePage.ui:664
+#: widgets/EditProfileAppearancePage.ui:671
 #, kde-format
 msgid "Enabled"
 msgstr ""
@@ -3010,72 +3195,78 @@ msgstr ""
 msgid "Window:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, invertSelectionColorsCheckbox)
+#: widgets/EditProfileAppearancePage.ui:495
+#, kde-format
+msgid "Always invert the colors of selected text"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, dimLabel)
-#: widgets/EditProfileAppearancePage.ui:497
+#: widgets/EditProfileAppearancePage.ui:504
 #, kde-format
 msgid "Darkening strength:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: widgets/EditProfileAppearancePage.ui:522
+#: widgets/EditProfileAppearancePage.ui:529
 #, kde-format
 msgid "Inactive Terminals:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, contentsGroup)
-#: widgets/EditProfileAppearancePage.ui:532
+#: widgets/EditProfileAppearancePage.ui:539
 #, kde-format
 msgctxt "@title:group"
 msgid "Terminal contents"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: widgets/EditProfileAppearancePage.ui:544
+#: widgets/EditProfileAppearancePage.ui:551
 #, kde-format
 msgid "Line spacing:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: widgets/EditProfileAppearancePage.ui:562
+#: widgets/EditProfileAppearancePage.ui:569
 #, kde-format
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, lineSpacingSpinner)
 #. i18n: ectx: property (suffix), widget (QSpinBox, marginsSpinner)
-#: widgets/EditProfileAppearancePage.ui:565
-#: widgets/EditProfileAppearancePage.ui:617
+#: widgets/EditProfileAppearancePage.ui:572
+#: widgets/EditProfileAppearancePage.ui:624
 #, kde-format
 msgctxt "(pixels) visual size unit"
 msgid " px"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/EditProfileAppearancePage.ui:599
+#: widgets/EditProfileAppearancePage.ui:606
 #, kde-format
 msgid "Margins:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: widgets/EditProfileAppearancePage.ui:651
+#: widgets/EditProfileAppearancePage.ui:658
 #, kde-format
 msgid "Align to center:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dimWhenInactiveCheckbox)
-#: widgets/EditProfileAppearancePage.ui:674
+#: widgets/EditProfileAppearancePage.ui:681
 #, kde-format
 msgid "Indicate whether the window is active by dimming the colors"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, dimWhenInactiveCheckbox)
-#: widgets/EditProfileAppearancePage.ui:677
+#: widgets/EditProfileAppearancePage.ui:684
 #, kde-format
 msgid "Darken"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, displayVerticalLine)
-#: widgets/EditProfileAppearancePage.ui:719
+#: widgets/EditProfileAppearancePage.ui:726
 #, kde-format
 msgid "Display Vertical line at column:"
 msgstr ""
@@ -3228,27 +3419,27 @@ msgstr[1] ""
 msgid "Select Initial Directory"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1181
+#: widgets/EditProfileDialog.cpp:1186
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1366
+#: widgets/EditProfileDialog.cpp:1371
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1372
+#: widgets/EditProfileDialog.cpp:1377
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1775
+#: widgets/EditProfileDialog.cpp:1780
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -3265,7 +3456,7 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1788
+#: widgets/EditProfileDialog.cpp:1793
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""

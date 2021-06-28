@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-18 00:18+0000\n"
+"POT-Creation-Date: 2021-06-24 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -257,7 +257,7 @@ msgctxt "@title"
 msgid "Success"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:164
+#: src/commands/certifycertificatecommand.cpp:165
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -265,34 +265,34 @@ msgid ""
 "certificate for yourself."
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:166
+#: src/commands/certifycertificatecommand.cpp:167
 #, kde-format
 msgid "Do you wish to create one now?"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:167
+#: src/commands/certifycertificatecommand.cpp:168
 #, kde-format
 msgid "Certification Not Possible"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:232
+#: src/commands/certifycertificatecommand.cpp:233
 #, kde-format
 msgid "Certification successful."
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:233
+#: src/commands/certifycertificatecommand.cpp:234
 #, kde-format
 msgid "Certification Succeeded"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:235
+#: src/commands/certifycertificatecommand.cpp:236
 #, kde-format
 msgid ""
 "<p>An error occurred while trying to certify<br/><br/><b>%1</b>:</p><p>\t%2</"
 "p>"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:239
+#: src/commands/certifycertificatecommand.cpp:240
 #, kde-format
 msgid "Certification Error"
 msgstr ""
@@ -2143,7 +2143,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_tags)
 #: src/conf/appearanceconfigwidget.ui:175
 #: src/dialogs/certificatedetailswidget.cpp:421
-#: src/dialogs/certifywidget.cpp:308
+#: src/dialogs/certifywidget.cpp:327
 #, kde-format
 msgid "Tags"
 msgstr ""
@@ -2808,7 +2808,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:328
-#: src/dialogs/updatenotification.cpp:70 src/mainwindow.cpp:631
+#: src/dialogs/updatenotification.cpp:70 src/mainwindow.cpp:636
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -4240,7 +4240,7 @@ msgstr ""
 msgid "Verifying checksums (%2) in %1"
 msgstr ""
 
-#: src/dialogs/addemaildialog.cpp:45 src/dialogs/certifywidget.cpp:282
+#: src/dialogs/addemaildialog.cpp:45 src/dialogs/certifywidget.cpp:301
 #, kde-format
 msgid "Advanced"
 msgstr ""
@@ -4673,49 +4673,89 @@ msgctxt "@title:window arg is name, email of certificate holder"
 msgid "Certify Certificate: %1"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:268
+#: src/dialogs/certifywidget.cpp:287
 #, kde-format
 msgid "Certify with:"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:287
+#: src/dialogs/certifywidget.cpp:306
 #, kde-format
 msgid "Certify for everyone to see (exportable)"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:293
+#: src/dialogs/certifywidget.cpp:312
 #, kde-format
 msgid "Publish on keyserver afterwards"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:309
+#: src/dialogs/certifywidget.cpp:328
 #, kde-format
 msgid "You can use this to add additional info to a certification."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:311
+#: src/dialogs/certifywidget.cpp:330
 #, kde-format
 msgid ""
 "Tags created by anyone with full certification trust are shown in the "
 "keylist and can be searched."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:315
+#: src/dialogs/certifywidget.cpp:334
 #, kde-format
 msgid "Tags:"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:330
+#: src/dialogs/certifywidget.cpp:349
+#, kde-format
+msgid "Expiration:"
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:356
+#, kde-format
+msgid "The certification must be valid at least until tomorrow."
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:357
+#, kde-format
+msgid "The latest allowed certification date is %1."
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:360
+#, kde-format
+msgctxt "Date for expiration of certification"
+msgid "Two years from now"
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:361
+#, kde-format
+msgctxt "Date for expiration of certification"
+msgid "One year from now"
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:366
+#, kde-format
+msgid "You can use this to set an expiration date for a certification."
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:368
+#, kde-format
+msgid ""
+"By setting an expiration date, you can limit the validity of your "
+"certification to a certain amount of time. Once the expiration date has "
+"passed, your certification is no longer valid."
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:388
 #, kde-format
 msgid "Certify as trusted introducer"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:331
+#: src/dialogs/certifywidget.cpp:389
 #, kde-format
 msgid "You can use this to certify a trusted introducer for a domain."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:333
+#: src/dialogs/certifywidget.cpp:391
 #, kde-format
 msgid ""
 "All certificates with email addresses belonging to the domain that have been "
@@ -4723,17 +4763,17 @@ msgid ""
 "introducer acts as a kind of intermediate CA for a domain."
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:347
+#: src/dialogs/certifywidget.cpp:405
 #, kde-format
 msgid "Domain"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:439 src/dialogs/revokecertificationwidget.cpp:227
+#: src/dialogs/certifywidget.cpp:503 src/dialogs/revokecertificationwidget.cpp:227
 #, kde-format
 msgid "Fingerprint: <b>%1</b>"
 msgstr ""
 
-#: src/dialogs/certifywidget.cpp:441 src/dialogs/revokecertificationwidget.cpp:229
+#: src/dialogs/certifywidget.cpp:505 src/dialogs/revokecertificationwidget.cpp:229
 #, kde-format
 msgid "<i>Only the fingerprint clearly identifies the key and its owner.</i>"
 msgstr ""
@@ -6057,42 +6097,42 @@ msgstr ""
 msgid "Invalid arguments: %1"
 msgstr ""
 
-#: src/mainwindow.cpp:88
+#: src/mainwindow.cpp:89
 #, kde-format
 msgctxt "Quit [ApplicationName]"
 msgid "&Quit %1"
 msgstr ""
 
-#: src/mainwindow.cpp:95
+#: src/mainwindow.cpp:96
 #, kde-format
 msgid "Only &Close Window"
 msgstr ""
 
-#: src/mainwindow.cpp:144
+#: src/mainwindow.cpp:145
 #, kde-format
 msgid ""
 "%1 may be used by other applications as a service.\n"
 "You may instead want to close this window without exiting %1."
 msgstr ""
 
-#: src/mainwindow.cpp:146
+#: src/mainwindow.cpp:147
 #, kde-format
 msgid "Really Quit?"
 msgstr ""
 
-#: src/mainwindow.cpp:210
+#: src/mainwindow.cpp:215
 #, kde-format
 msgid ""
 "Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
 "installation."
 msgstr ""
 
-#: src/mainwindow.cpp:212
+#: src/mainwindow.cpp:217
 #, kde-format
 msgid "Error Starting KWatchGnuPG"
 msgstr ""
 
-#: src/mainwindow.cpp:226
+#: src/mainwindow.cpp:231
 #, kde-format
 msgctxt ""
 "The Gpg4win compendium is only availableat this point (24.7.2017) in german "
@@ -6100,33 +6140,33 @@ msgctxt ""
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:409
+#: src/mainwindow.cpp:414
 #, kde-format
 msgid "GnuPG Log Viewer"
 msgstr ""
 
-#: src/mainwindow.cpp:415
+#: src/mainwindow.cpp:420
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
-#: src/mainwindow.cpp:419
+#: src/mainwindow.cpp:424
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
-#: src/mainwindow.cpp:424
+#: src/mainwindow.cpp:429
 #, kde-format
 msgctxt "@action show certificate overview"
 msgid "Certificates"
 msgstr ""
 
-#: src/mainwindow.cpp:425
+#: src/mainwindow.cpp:430
 #, kde-format
 msgid "Show certificate overview"
 msgstr ""
 
-#: src/mainwindow.cpp:428
+#: src/mainwindow.cpp:433
 #, kde-format
 msgctxt ""
 "@action show input / output area for encrypting/signing resp. decrypting/"
@@ -6134,66 +6174,66 @@ msgctxt ""
 msgid "Notepad"
 msgstr ""
 
-#: src/mainwindow.cpp:429
+#: src/mainwindow.cpp:434
 #, kde-format
 msgid "Show pad for encrypting/decrypting and signing/verifying text"
 msgstr ""
 
-#: src/mainwindow.cpp:434
+#: src/mainwindow.cpp:439
 #, kde-format
 msgid "Perform Self-Test"
 msgstr ""
 
-#: src/mainwindow.cpp:438
+#: src/mainwindow.cpp:443
 #, kde-format
 msgid "Configure Groups..."
 msgstr ""
 
-#: src/mainwindow.cpp:442
+#: src/mainwindow.cpp:447
 #, kde-format
 msgctxt "@action show smartcard management view"
 msgid "Smartcards"
 msgstr ""
 
-#: src/mainwindow.cpp:443
+#: src/mainwindow.cpp:448
 #, kde-format
 msgid "Show smartcard management"
 msgstr ""
 
-#: src/mainwindow.cpp:473
+#: src/mainwindow.cpp:478
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/mainwindow.cpp:503
+#: src/mainwindow.cpp:508
 #, kde-format
 msgid ""
 "There are still some background operations ongoing. These will be terminated "
 "when closing the window. Proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:506
+#: src/mainwindow.cpp:511
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:615 src/view/keylistcontroller.cpp:382
+#: src/mainwindow.cpp:620 src/view/keylistcontroller.cpp:382
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
-#: src/mainwindow.cpp:616 src/utils/clipboardmenu.cpp:38
+#: src/mainwindow.cpp:621 src/utils/clipboardmenu.cpp:38
 #: src/view/keylistcontroller.cpp:378
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr ""
 
-#: src/mainwindow.cpp:621
+#: src/mainwindow.cpp:626
 #, kde-format
 msgid "Import Certificates"
 msgstr ""
 
-#: src/mainwindow.cpp:622
+#: src/mainwindow.cpp:627
 #, kde-format
 msgid "Import CRLs"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koko\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-08 00:15+0000\n"
+"POT-Creation-Date: 2021-06-24 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -103,7 +103,12 @@ msgstr ""
 msgid "path of image you want to open"
 msgstr ""
 
-#: notificationmanager.cpp:28
+#: notificationmanager.cpp:16
+#, kde-format
+msgid "Sharing failed"
+msgstr ""
+
+#: notificationmanager.cpp:22
 #, kde-format
 msgid "Shared url for image is <a href='%1'>%1</a>"
 msgstr ""
@@ -126,74 +131,74 @@ msgctxt "@action:button Bookmarks the current folder"
 msgid "Bookmark Folder"
 msgstr ""
 
-#: qml/AlbumView.qml:205
+#: qml/AlbumView.qml:206
 #, kde-format
 msgid "Go Up"
 msgstr ""
 
-#: qml/AlbumView.qml:229
+#: qml/AlbumView.qml:230
 #, kde-format
 msgid "Home"
 msgstr ""
 
-#: qml/AlbumView.qml:229
+#: qml/AlbumView.qml:230
 #, kde-format
 msgid "Root"
 msgstr ""
 
-#: qml/AlbumView.qml:247
+#: qml/AlbumView.qml:248
 #, kde-format
 msgid "Select All"
 msgstr ""
 
-#: qml/AlbumView.qml:248
+#: qml/AlbumView.qml:249
 #, kde-format
-msgid "Selects all the images in the current view"
-msgstr ""
-
-#: qml/AlbumView.qml:254
-#, kde-format
-msgid "Deselect All"
+msgid "Selects all the media in the current view"
 msgstr ""
 
 #: qml/AlbumView.qml:255
 #, kde-format
-msgid "De-selects all the selected images"
+msgid "Deselect All"
 msgstr ""
 
-#: qml/AlbumView.qml:261 qml/ShareDialog.qml:34
+#: qml/AlbumView.qml:256
+#, kde-format
+msgid "De-selects all the selected media"
+msgstr ""
+
+#: qml/AlbumView.qml:262 qml/ShareDialog.qml:34
 #, kde-format
 msgid "Share"
 msgstr ""
 
-#: qml/AlbumView.qml:262
+#: qml/AlbumView.qml:263
 #, kde-format
-msgid "Share the selected images"
-msgstr ""
-
-#: qml/AlbumView.qml:274
-#, kde-format
-msgid "Delete Selection"
+msgid "Share the selected media"
 msgstr ""
 
 #: qml/AlbumView.qml:275
 #, kde-format
-msgid "Move selected items to trash"
+msgid "Delete Selection"
 msgstr ""
 
-#: qml/AlbumView.qml:281
+#: qml/AlbumView.qml:276
 #, kde-format
-msgid "Restore Selection"
+msgid "Move selected items to trash"
 msgstr ""
 
 #: qml/AlbumView.qml:282
 #, kde-format
+msgid "Restore Selection"
+msgstr ""
+
+#: qml/AlbumView.qml:283
+#, kde-format
 msgid "Restore selected items from trash"
 msgstr ""
 
-#: qml/AlbumView.qml:433
+#: qml/AlbumView.qml:434
 #, kde-format
-msgid "No Images Found"
+msgid "No Media Found"
 msgstr ""
 
 #: qml/EditorView.qml:25
@@ -230,7 +235,7 @@ msgstr ""
 msgid "You are now editing a new file."
 msgstr ""
 
-#: qml/EditorView.qml:124 qml/ImageViewer.qml:279
+#: qml/EditorView.qml:124 qml/ImageViewer.qml:316
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -265,215 +270,245 @@ msgctxt "@action:button Mirror an image horizontally"
 msgid "Mirror"
 msgstr ""
 
-#: qml/ImageViewer.qml:41
+#: qml/ImageViewer.qml:78
 #, kde-format
 msgid "Edit image"
 msgstr ""
 
-#: qml/ImageViewer.qml:75
+#: qml/ImageViewer.qml:112
 #, kde-format
 msgid "Metadata"
 msgstr ""
 
-#: qml/ImageViewer.qml:80
+#: qml/ImageViewer.qml:117
 #, kde-format
 msgid "File Name"
 msgstr ""
 
-#: qml/ImageViewer.qml:89
+#: qml/ImageViewer.qml:126
 #, kde-format
 msgid "Dimension"
 msgstr ""
 
-#: qml/ImageViewer.qml:94
+#: qml/ImageViewer.qml:131
 #, kde-format
 msgctxt "dimensions"
 msgid "%1 x %2"
 msgstr ""
 
-#: qml/ImageViewer.qml:99
+#: qml/ImageViewer.qml:136
 #, kde-format
 msgid "Size"
 msgstr ""
 
-#: qml/ImageViewer.qml:109
+#: qml/ImageViewer.qml:146
 #, kde-format
 msgid "Created"
 msgstr ""
 
-#: qml/ImageViewer.qml:119
+#: qml/ImageViewer.qml:156
 #, kde-format
 msgid "Model"
 msgstr ""
 
-#: qml/ImageViewer.qml:129
+#: qml/ImageViewer.qml:166
 #, kde-format
 msgid "Latitude"
 msgstr ""
 
-#: qml/ImageViewer.qml:139
+#: qml/ImageViewer.qml:176
 #, kde-format
 msgid "Longitude"
 msgstr ""
 
-#: qml/ImageViewer.qml:149
+#: qml/ImageViewer.qml:186
 #, kde-format
 msgid "Rating"
 msgstr ""
 
-#: qml/ImageViewer.qml:156
+#: qml/ImageViewer.qml:193
 #, kde-format
 msgid "Current rating %1"
 msgstr ""
 
-#: qml/ImageViewer.qml:163
+#: qml/ImageViewer.qml:200
 #, kde-format
 msgid "Set rating to %1"
 msgstr ""
 
-#: qml/ImageViewer.qml:188
+#: qml/ImageViewer.qml:225
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#: qml/ImageViewer.qml:195
+#: qml/ImageViewer.qml:232
 #, kde-format
 msgid "Image description..."
 msgstr ""
 
-#: qml/ImageViewer.qml:204 qml/Sidebar.qml:192
+#: qml/ImageViewer.qml:241 qml/Sidebar.qml:199
 #, kde-format
 msgid "Tags"
 msgstr ""
 
-#: qml/ImageViewer.qml:215
+#: qml/ImageViewer.qml:252
 #, kde-format
 msgid "Remove %1 tag"
 msgstr ""
 
-#: qml/ImageViewer.qml:236
+#: qml/ImageViewer.qml:273
 #, kde-format
 msgid "Add %1 tag"
 msgstr ""
 
-#: qml/ImageViewer.qml:249
+#: qml/ImageViewer.qml:286
 #, kde-format
 msgid "Add new tag"
 msgstr ""
 
-#: qml/ImageViewer.qml:258
+#: qml/ImageViewer.qml:295
 #, kde-format
 msgid "New tag..."
 msgstr ""
 
-#: qml/ImageViewer.qml:271
+#: qml/ImageViewer.qml:308
 #, kde-format
 msgid "Finished"
 msgstr ""
 
-#: qml/ImageViewer.qml:294
+#: qml/ImageViewer.qml:331
 #, kde-format
 msgid "Info"
 msgstr ""
 
-#: qml/ImageViewer.qml:295
+#: qml/ImageViewer.qml:333
+#, kde-format
+msgid "See information about video"
+msgstr ""
+
+#: qml/ImageViewer.qml:334
 #, kde-format
 msgid "See information about image"
 msgstr ""
 
-#: qml/ImageViewer.qml:310
+#: qml/ImageViewer.qml:350
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: qml/ImageViewer.qml:310
+#: qml/ImageViewer.qml:350
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: qml/ImageViewer.qml:311
+#: qml/ImageViewer.qml:351
 #, kde-format
 msgid "Remove from favorites"
 msgstr ""
 
-#: qml/ImageViewer.qml:311
+#: qml/ImageViewer.qml:351
 #, kde-format
 msgid "Add to favorites"
 msgstr ""
 
-#: qml/ImageViewer.qml:322
+#: qml/ImageViewer.qml:362
 #, kde-format
 msgctxt "verb, edit an image"
 msgid "Edit"
 msgstr ""
 
-#: qml/ImageViewer.qml:337
+#: qml/ImageViewer.qml:382
+#, kde-format
+msgid "Share Video"
+msgstr ""
+
+#: qml/ImageViewer.qml:382
 #, kde-format
 msgid "Share Image"
 msgstr ""
 
-#: qml/ImageViewer.qml:338
+#: qml/ImageViewer.qml:384
 #, kde-format
-msgctxt "verb, share an image"
+msgctxt "verb, share an image/video"
 msgid "Share"
 msgstr ""
 
-#: qml/ImageViewer.qml:349 qml/ImageViewer.qml:350
+#: qml/ImageViewer.qml:395 qml/ImageViewer.qml:396
 #, kde-format
 msgid "Stop Slideshow"
 msgstr ""
 
-#: qml/ImageViewer.qml:349
+#: qml/ImageViewer.qml:395
 #, kde-format
 msgid "Start Slideshow"
 msgstr ""
 
-#: qml/ImageViewer.qml:350
+#: qml/ImageViewer.qml:396
 #, kde-format
 msgid "Slideshow"
 msgstr ""
 
-#: qml/ImageViewer.qml:366
+#: qml/ImageViewer.qml:412
+#, kde-format
+msgid "Thumbnail Bar"
+msgstr ""
+
+#: qml/ImageViewer.qml:413
+#, kde-format
+msgid "Hide Thumbnail Bar"
+msgstr ""
+
+#: qml/ImageViewer.qml:413
+#, kde-format
+msgid "Show Thumbnail Bar"
+msgstr ""
+
+#: qml/ImageViewer.qml:414
+#, kde-format
+msgid "Toggle Thumbnail Bar"
+msgstr ""
+
+#: qml/ImageViewer.qml:429
 #, kde-format
 msgid "Fullscreen"
 msgstr ""
 
-#: qml/ImageViewer.qml:366 qml/ImageViewer.qml:367
+#: qml/ImageViewer.qml:429 qml/ImageViewer.qml:430
 #, kde-format
 msgid "Exit Fullscreen"
 msgstr ""
 
-#: qml/ImageViewer.qml:367
+#: qml/ImageViewer.qml:430
 #, kde-format
 msgid "Enter Fullscreen"
 msgstr ""
 
-#: qml/ImageViewer.qml:588
+#: qml/ImageViewer.qml:679
 #, kde-format
 msgid "Previous image"
 msgstr ""
 
-#: qml/ImageViewer.qml:606
+#: qml/ImageViewer.qml:705
 #, kde-format
 msgid "Next image"
 msgstr ""
 
-#: qml/Main.qml:40
+#: qml/Main.qml:44
 #, kde-format
 msgid "Images"
 msgstr ""
 
-#: qml/Main.qml:51 qml/Main.qml:60
+#: qml/Main.qml:55 qml/Main.qml:64
 #, kde-format
 msgid "Folders"
 msgstr ""
 
-#: qml/Main.qml:203 qml/SettingsPage.qml:15
+#: qml/Main.qml:210 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: qml/Main.qml:208
+#: qml/Main.qml:215
 #, kde-format
 msgid "About"
 msgstr ""
@@ -510,93 +545,145 @@ msgstr ""
 msgid "Random"
 msgstr ""
 
-#: qml/Sidebar.qml:48
+#: qml/Sidebar.qml:49
 #, kde-format
 msgid "Sort by"
 msgstr ""
 
-#: qml/Sidebar.qml:107
+#: qml/Sidebar.qml:108
 #, kde-format
 msgid "Places"
 msgstr ""
 
-#: qml/Sidebar.qml:112
+#: qml/Sidebar.qml:113
 #, kde-format
 msgid "Pictures"
 msgstr ""
 
-#: qml/Sidebar.qml:116
+#: qml/Sidebar.qml:117
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
-#: qml/Sidebar.qml:137
+#: qml/Sidebar.qml:123
+#, kde-format
+msgid "Videos"
+msgstr ""
+
+#: qml/Sidebar.qml:144
 #, kde-format
 msgid "Trash"
 msgstr ""
 
-#: qml/Sidebar.qml:142
+#: qml/Sidebar.qml:149
 #, kde-format
 msgctxt "Remote network locations"
 msgid "Remote"
 msgstr ""
 
-#: qml/Sidebar.qml:146
+#: qml/Sidebar.qml:153
 #, kde-format
 msgid "Network"
 msgstr ""
 
-#: qml/Sidebar.qml:151
+#: qml/Sidebar.qml:158
 #, kde-format
 msgid "Locations"
 msgstr ""
 
-#: qml/Sidebar.qml:154
+#: qml/Sidebar.qml:161
 #, kde-format
 msgid "Countries"
 msgstr ""
 
-#: qml/Sidebar.qml:159
+#: qml/Sidebar.qml:166
 #, kde-format
 msgid "States"
 msgstr ""
 
-#: qml/Sidebar.qml:164
+#: qml/Sidebar.qml:171
 #, kde-format
 msgid "Cities"
 msgstr ""
 
-#: qml/Sidebar.qml:169
+#: qml/Sidebar.qml:176
 #, kde-format
 msgid "Time"
 msgstr ""
 
-#: qml/Sidebar.qml:172
+#: qml/Sidebar.qml:179
 #, kde-format
 msgid "Years"
 msgstr ""
 
-#: qml/Sidebar.qml:177
+#: qml/Sidebar.qml:184
 #, kde-format
 msgid "Months"
 msgstr ""
 
-#: qml/Sidebar.qml:182
+#: qml/Sidebar.qml:189
 #, kde-format
 msgid "Weeks"
 msgstr ""
 
-#: qml/Sidebar.qml:187
+#: qml/Sidebar.qml:194
 #, kde-format
 msgid "Days"
 msgstr ""
 
-#: qml/Sidebar.qml:215
+#: qml/Sidebar.qml:222
 #, kde-format
 msgid "Thumbnails size:"
 msgstr ""
 
-#: qml/Sidebar.qml:219
+#: qml/Sidebar.qml:226
 #, kde-format
 msgid "%1 px"
+msgstr ""
+
+#: qml/VideoPlayer.qml:145
+#, kde-format
+msgid "Seek slider"
+msgstr ""
+
+#: qml/VideoPlayer.qml:187 qml/VideoPlayer.qml:209
+#, kde-format
+msgid "Skip backward 1 second"
+msgid_plural "Skip backward %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/VideoPlayer.qml:197
+#, kde-format
+msgid "Pause playback"
+msgstr ""
+
+#: qml/VideoPlayer.qml:197
+#, kde-format
+msgid "Continue playback"
+msgstr ""
+
+#: qml/VideoPlayer.qml:219
+#, kde-format
+msgid "Unmute audio"
+msgstr ""
+
+#: qml/VideoPlayer.qml:219
+#, kde-format
+msgid "Mute audio"
+msgstr ""
+
+#: qml/VideoPlayer.qml:231
+#, kde-format
+msgid "Volume slider"
+msgstr ""
+
+#: qml/VideoPlayer.qml:251
+#, kde-format
+msgid "Repeat current video"
+msgstr ""
+
+#: qml/VideoPlayer.qml:251
+#, kde-format
+msgid "Don't repeat current video"
 msgstr ""

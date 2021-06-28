@@ -92,12 +92,30 @@ msgid ""
 "`src/CMakeLists.txt`, next to main.cpp."
 msgstr ""
 
+#: content/docs/kirigami/advanced-connect_backend.md:9
+msgid ""
+"Add the following content to the new header file (the one with the `.h` "
+"extension):"
+msgstr ""
+
+#: content/docs/kirigami/advanced-connect_backend.md:24
+msgid ""
+"The cpp file containing the definitions is similarly empty right now, it "
+"should contain something like the following:"
+msgstr ""
+
 #: content/docs/kirigami/advanced-connect_backend.md:35
 msgid ""
 "Currently the user interface doesn't know about your backend class. To "
 "change that, we need to register the new type in `main.cpp`. The backend "
 "will be created as a singleton, that means it will only be created once and "
 "exist through the whole time from starting the application to closing it."
+msgstr ""
+
+#: content/docs/kirigami/advanced-connect_backend.md:37
+msgid ""
+"To `main.cpp`, right after creating the `QQmlApplicationEngine`, add the "
+"type registration as follows:"
 msgstr ""
 
 #: content/docs/kirigami/advanced-connect_backend.md:43
@@ -110,6 +128,10 @@ msgid ""
 "in a module called `org.kde.example`. Since the module is part of the "
 "application, you don't need to worry about versioning it, just stay with 1.0"
 " and use it consistently throughout the application."
+msgstr ""
+
+#: content/docs/kirigami/advanced-connect_backend.md:47
+msgid "In `main.qml`, import the new module:"
 msgstr ""
 
 #: content/docs/kirigami/advanced-connect_backend.md:52
@@ -132,6 +154,26 @@ msgid ""
 "it is written. It will automatically inform frontend and backend of changes."
 msgstr ""
 
+#: content/docs/kirigami/advanced-connect_backend.md:63
+msgid ""
+"The reading and writing is based on getter and setter functions, so add a "
+"new private attribute to your class, like this, and add getter and setter "
+"functions."
+msgstr ""
+
+#: content/docs/kirigami/advanced-connect_backend.md:69
+msgid "To the public section, add"
+msgstr ""
+
+#: content/docs/kirigami/advanced-connect_backend.md:75
+msgid ""
+"The first function is the getter, the second the setter, and the third a "
+"signal that is emitted when the property was changed. The signal doesn't "
+"need any implementation in the cpp file, since it doesn't do much more than "
+"being emitted, but the getter and setter need to be implemented similar to "
+"the following:"
+msgstr ""
+
 #: content/docs/kirigami/advanced-connect_backend.md:89
 msgid ""
 "As you can see, when the setter is called, the signal will be emitted, and "
@@ -143,6 +185,10 @@ msgid ""
 "To display the text, in `main.qml` add a heading displaying it right under "
 "the text property of the `Kirigami.Page` element that is already contained "
 "in the template."
+msgstr ""
+
+#: content/docs/kirigami/advanced-connect_backend.md:93
+msgid "The resulting code in that part of the file should look like this:"
 msgstr ""
 
 #: content/docs/kirigami/advanced-connect_backend.md:109
@@ -362,7 +408,7 @@ msgstr ""
 #: content/docs/kirigami/components-actions.md:29
 #: content/docs/kirigami/components-actions.md:216
 #: content/docs/kirigami/components-actiontoolbar.md:11
-#: content/docs/kirigami/components-card.md:81
+#: content/docs/kirigami/components-card.md:93
 #: content/docs/kirigami/components-controls.md:76
 #: content/docs/kirigami/components-drawers.md:106
 #: content/docs/kirigami/components-drawers.md:185
@@ -498,7 +544,7 @@ msgid "Page actions on a mobile device"
 msgstr ""
 
 #: content/docs/kirigami/components-actions.md:129
-#: content/docs/kirigami/components-scrollablepages_listviews.md:27
+#: content/docs/kirigami/components-scrollablepages_listviews.md:24
 #: content/docs/kirigami/introduction-pages.md:40
 msgid "Warning"
 msgstr ""
@@ -713,11 +759,15 @@ msgid ""
 "`wrapMode` set to `Text.WordWrap` is the card's `contentItem`."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:36
+#: content/docs/kirigami/components-card.md:35
+msgid "![Screenshot of an Abstract Card](abstract-card.png)"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:42
 msgid "Card"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:38
+#: content/docs/kirigami/components-card.md:44
 msgid ""
 "A [`Kirigami.Card`](docs:kirigami2;Card) inherits from "
 "[`Kirigami.AbstractCard`](docs:kirigami2;AbstractCard) and provides more "
@@ -726,19 +776,23 @@ msgid ""
 "alongside its main content."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:53
+#: content/docs/kirigami/components-card.md:61
 msgid "..."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:58
+#: content/docs/kirigami/components-card.md:66
 msgid "The title can be positioned in the banner"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:75
+#: content/docs/kirigami/components-card.md:81
+msgid "![](card1.png)"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:87
 msgid "CardsLayout"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:77
+#: content/docs/kirigami/components-card.md:89
 msgid ""
 "A [`Kirigami.CardsLayout`](docs:kirigami2;CardsLayout) is most useful when "
 "the cards being presented are not instantiated by a model or by a model "
@@ -748,29 +802,33 @@ msgid ""
 " phone screen."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:83
+#: content/docs/kirigami/components-card.md:95
 msgid "**A CardsLayout should always be contained within a ColumnLayout.**"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:85
+#: content/docs/kirigami/components-card.md:97
 msgid ""
 "A card can optionally be oriented horizontally. In this case it will be "
 "wider than tall, and is better suited to being placed in a ColumnLayout. If "
 "you must put it in a CardsLayout, it will have a columnSpan of 2 by default."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:121
+#: content/docs/kirigami/components-card.md:132
+msgid "![Screenshot of a CardsLayout](cardslayout.png)"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:138
 msgid "CardsListView"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:123
+#: content/docs/kirigami/components-card.md:140
 msgid ""
 "A [`Kirigami.CardsListView`](docs:kirigami2;CardsListView) is a list view "
 "that can be used with [`Kirigami.AbstractCard`](docs:kirigami2;AbstractCard)"
 " components."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:125
+#: content/docs/kirigami/components-card.md:142
 msgid ""
 "A `Kirigami.CardsListView` will stretch child cards to its own width. This "
 "component should therefore only be used with cards which will look good at "
@@ -779,7 +837,7 @@ msgid ""
 "`headerOrientation` property."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:127
+#: content/docs/kirigami/components-card.md:144
 msgid ""
 "The choice between using this view with `Kirigami.AbstractCard` components "
 "or a conventional `ListView` with "
@@ -787,39 +845,47 @@ msgid ""
 " components is purely an aesthetic one."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:178
+#: content/docs/kirigami/components-card.md:196
+msgid "![Screenshot of a CardsListView](cardslistview.png)"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:202
 msgid "CardsGridView"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:180
+#: content/docs/kirigami/components-card.md:204
 msgid ""
 "Use a "
 "[`Kirigami.CardsGridView`](docs:kirigami2;org::kde::kirigami::CardsGridView)"
 " to display cards in a grid."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:182
+#: content/docs/kirigami/components-card.md:206
 msgid ""
 "Its behavior is the same as a `Kirigami.CardsLayout`, and it allows cards to"
 " be put in one or two columns depending on the available width."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:184
+#: content/docs/kirigami/components-card.md:208
 msgid ""
 "CardsGridView has the limitation that every card must have the same exact "
 "height, so `cellHeight` must be manually set to a value for which the "
 "content must fit for every child card."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:186
+#: content/docs/kirigami/components-card.md:210
 msgid ""
 "If possible use `Kirigami.CardsGridView` only when you need to instantiate "
 "many cards. If you are only going to instantiate a few cards, opt for a "
 "`Kirigami.CardsLayout` with a `Repeater` instead."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:196
+#: content/docs/kirigami/components-card.md:222
 msgid "Model with the following roles: text, actions and image"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:253
+msgid "![Screenshot of a CardsGridView](cardsgridview.png)"
 msgstr ""
 
 #: content/docs/kirigami/components-controls.md:0
@@ -1810,18 +1876,18 @@ msgid ""
 "Page we want it to appear in."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:39
+#: content/docs/kirigami/components-overlaysheets.md:41
 msgid "![Simple overlay sheet](sheet_simple.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:44
+#: content/docs/kirigami/components-overlaysheets.md:47
 msgid ""
 "Overlay sheets come with methods we can use to open (`mySheet.open()`) or "
 "close (`mySheet.close()`) them as we see fit. By default overlay sheets are "
 "hidden, so at the very least we will need to use the `open()` method."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:53
+#: content/docs/kirigami/components-overlaysheets.md:56
 msgid ""
 "When opened, this overlay sheet will appear centered vertically and "
 "horizontally within its parent page. Horizontally it will be bounded by its "
@@ -1830,11 +1896,11 @@ msgid ""
 " its top position, and will be scrollable."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:55
+#: content/docs/kirigami/components-overlaysheets.md:58
 msgid "Global sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:57
+#: content/docs/kirigami/components-overlaysheets.md:60
 msgid ""
 "If you want to display the sheet as a global sheet — one that spans across "
 "the entire width of the application, regardless of the page it is a child to"
@@ -1842,19 +1908,19 @@ msgid ""
 " property. We can do this with the `parent` property."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:81
+#: content/docs/kirigami/components-overlaysheets.md:85
 msgid "Non-global overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:81
+#: content/docs/kirigami/components-overlaysheets.md:87
 msgid "Global overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:86
+#: content/docs/kirigami/components-overlaysheets.md:95
 msgid "Fixed sizing"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:88
+#: content/docs/kirigami/components-overlaysheets.md:97
 msgid ""
 "A sheet is greedy and will take the maximum amount of available width in a "
 "page if needed. We can avoid this by specifying an `implicitWidth` or a "
@@ -1862,19 +1928,19 @@ msgid ""
 "the sheet will grow width-wise."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:109
+#: content/docs/kirigami/components-overlaysheets.md:120
 msgid "Non-fixed width overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:109
+#: content/docs/kirigami/components-overlaysheets.md:122
 msgid "Fixed width overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:114
+#: content/docs/kirigami/components-overlaysheets.md:130
 msgid "Headers and footers"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:116
+#: content/docs/kirigami/components-overlaysheets.md:132
 msgid ""
 "Overlay sheets come by default with a header which only contains a button "
 "for closing our overlay sheet. We can add a Kirigami heading as a title in "
@@ -1883,11 +1949,11 @@ msgid ""
 "heading component."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:139
+#: content/docs/kirigami/components-overlaysheets.md:157
 msgid "![Sheet header](sheet_header.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:144
+#: content/docs/kirigami/components-overlaysheets.md:163
 msgid ""
 "We can also provide our overlay sheet with a footer. Footers in overlay "
 "sheets are quite flexible, but most often they are used to provide overlay "
@@ -1895,19 +1961,19 @@ msgid ""
 " modal dialogs (e.g. buttons for 'Apply', 'Ok', 'Cancel', 'Close', etc.)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:146
+#: content/docs/kirigami/components-overlaysheets.md:165
 msgid "Footers are set in much the same way as headers:"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:174
+#: content/docs/kirigami/components-overlaysheets.md:195
 msgid "![Sheet footer](sheet_footer.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:179
+#: content/docs/kirigami/components-overlaysheets.md:201
 msgid "Using delegate / model views"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:181
+#: content/docs/kirigami/components-overlaysheets.md:203
 msgid ""
 "Since overlay sheets are designed to display vertical content, they can be "
 "especially useful when used in conjunction with components such as "
@@ -1915,7 +1981,7 @@ msgid ""
 "itself, the overlay sheet becomes scrollable:"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:202
+#: content/docs/kirigami/components-overlaysheets.md:226
 msgid "![Sheet with a listview](sheet_listview.png)"
 msgstr ""
 
@@ -2172,35 +2238,41 @@ msgid ""
 "In almost every other way, a scrollable page is the same as a normal page."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:29
+#: content/docs/kirigami/components-scrollablepages_listviews.md:27
+msgid ""
+"Do not put a `ScrollView` inside of a `Kirigami.ScrollablePage`; children of"
+" a `Kirigami.ScrollablePage` are already inside a `ScrollView`."
+msgstr ""
+
+#: content/docs/kirigami/components-scrollablepages_listviews.md:31
 msgid "ListView in a ScrollablePage"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:33
+#: content/docs/kirigami/components-scrollablepages_listviews.md:35
 msgid ""
 "When a `Kirigami.ScrollablePage`'s direct children extend vertically beyond "
 "the size of the page itself, a scrollbar appears at the right edge of the "
 "page and the page will be scrollable."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:36
+#: content/docs/kirigami/components-scrollablepages_listviews.md:38
 msgid "NeoChat Scrollable Page Screenshot"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:36
+#: content/docs/kirigami/components-scrollablepages_listviews.md:38
 msgid ""
 "Two scrollable pages, both containing a ListView with custom contents "
 "(Screenshot of NeoChat)"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:39
+#: content/docs/kirigami/components-scrollablepages_listviews.md:41
 msgid ""
 "Often you have more than one child in your `Kirigami.ScrollablePage`, and "
 "positioning items can be tricky - especially in combination with a "
 "`ListView`."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:44
+#: content/docs/kirigami/components-scrollablepages_listviews.md:46
 msgid ""
 "For non-visual components, having them inside the `ListView` element won't "
 "change the visuals of the page. So we can move them inside the `ListView`. "
@@ -2208,56 +2280,63 @@ msgid ""
 "messages for empty `ListView`s."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:46
+#: content/docs/kirigami/components-scrollablepages_listviews.md:48
 msgid ""
 "For other items, it might make sense to move them to the header or footer of"
 " the `Kirigami.ScrollablePage`. This is often the case for search bars."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:48
+#: content/docs/kirigami/components-scrollablepages_listviews.md:50
 msgid "PlaceholderMessage"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:51
+#: content/docs/kirigami/components-scrollablepages_listviews.md:53
 msgid ""
 "It is possible to add a "
 "[`Kirigami.PlaceholderMessage`](docs:kirigami2;PlaceholderMessage) with some"
 " instructions in case the list view is empty."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:72
+#: content/docs/kirigami/components-scrollablepages_listviews.md:74
 msgid "Search in the ListView"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:76
+#: content/docs/kirigami/components-scrollablepages_listviews.md:78
 msgid ""
 "A search field is often added to a `Kirigami.ScrollablePage` to filter the "
 "`ListView`. This can be done by changing the default `titleDelegate` to use "
 "a [`Kirigami.SearchField`](docs:kirigami2;SearchField) instead."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:100
+#: content/docs/kirigami/components-scrollablepages_listviews.md:98
 msgid "Hint"
 msgstr ""
 
 #: content/docs/kirigami/components-scrollablepages_listviews.md:102
+msgid ""
+"You can use [KSortFilterProxyModel](docs:kitemmodels;SortFilterModel) from "
+"[KItemModel](https://api.kde.org/frameworks/kitemmodels/html/) to easily add"
+" filtering capability directly in QML without any need for C++ code."
+msgstr ""
+
+#: content/docs/kirigami/components-scrollablepages_listviews.md:106
 msgid "Pull to refresh"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:105
+#: content/docs/kirigami/components-scrollablepages_listviews.md:109
 msgid ""
 "Another function provided by this component is a \"pull to refresh\" action."
 " To use this, activate it as follows:"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:120
+#: content/docs/kirigami/components-scrollablepages_listviews.md:124
 msgid ""
 "NOTE: MyModel doesn't come from the components, it's purely an example on "
 "how it can be used together some application logic that can update the list "
 "model and signals when it's done."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:130
+#: content/docs/kirigami/components-scrollablepages_listviews.md:134
 msgid ""
 "By pulling down, you can also activate a special mode with a larger top "
 "margin which makes single-handed use of the application easier."
