@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-24 00:21+0000\n"
-"PO-Revision-Date: 2021-06-19 16:56+0200\n"
+"PO-Revision-Date: 2021-06-28 22:20+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -1344,12 +1344,12 @@ msgstr "Tắt tích hợp KActivities."
 #: main_wayland.cpp:549
 #, kde-format
 msgid "Exit after the session application, which is started by KWin, closed."
-msgstr ""
+msgstr "Thoát sau khi ứng dụng phiên, được khởi động bởi KWin, đóng."
 
 #: main_wayland.cpp:554
 #, kde-format
 msgid "Applications to start once Wayland and Xwayland server are started"
-msgstr ""
+msgstr "Ứng dụng để khởi động khi trình chủ Wayland và Xwayland được khởi động"
 
 #: main_x11.cpp:65
 #, kde-format
@@ -1358,6 +1358,9 @@ msgid ""
 "It seems to have crashed several times in a row.\n"
 "You can select another window manager to run:"
 msgstr ""
+"KWin đang không ổn định.\n"
+"Nó có vẻ đã gặp sự cố nhiều lần liên tiếp.\n"
+"Bạn có thể chọn một trình quản lí cửa sổ khác để chạy:"
 
 #: main_x11.cpp:225
 #, kde-format
@@ -1365,138 +1368,137 @@ msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
 msgstr ""
-"kwin: không đòi hỏi được lựa chọn trình quản lí, có một wm khác đang chạy? "
-"(hãy thử dùng --replace)\n"
+"kwin: không thể xác nhận sự lựa chọn của trình quản lí, có phải một wm khác "
+"đang chạy? (hãy thử dùng --replace)\n"
 
 #: main_x11.cpp:248
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "kwin: unable to claim manager selection, another wm running? (try using --"
 #| "replace)\n"
 msgid "kwin: another window manager is running (try using --replace)\n"
 msgstr ""
-"kwin: không đòi hỏi được lựa chọn trình quản lí, có một wm khác đang chạy? "
-"(hãy thử dùng --replace)\n"
+"kwin: một trình quản lí cửa sổ khác đang chạy (hãy thử dùng --replace)\n"
 
 #: main_x11.cpp:436
 #, kde-format
 msgid "Replace already-running ICCCM2.0-compliant window manager"
-msgstr "Thay thế trình quản lí cửa sổ tương thích ICCCM2.0 đang chạy"
+msgstr "Thay thế trình quản lí cửa sổ tương thích với ICCCM2.0 đang chạy"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:60
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:62
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "activate"
-msgstr ""
+msgstr "activate"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:63
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Close"
 msgctxt "Note this is a KRunner keyword"
 msgid "close"
-msgstr "Đón&g"
+msgstr "close"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:66
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:68
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:69
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Minimize"
 msgctxt "Note this is a KRunner keyword"
 msgid "minimize"
-msgstr "Thu nhỏ"
+msgstr "minimize"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:72
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:74
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "max"
-msgstr ""
+msgstr "max"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:75
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ma&ximize"
 msgctxt "Note this is a KRunner keyword"
 msgid "maximize"
-msgstr "Phóng t&o"
+msgstr "maximize"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:78
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:80
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Fullscreen"
 msgctxt "Note this is a KRunner keyword"
 msgid "fullscreen"
-msgstr "Đầ&y màn hình"
+msgstr "fullscreen"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:81
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:83
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Shade"
 msgctxt "Note this is a KRunner keyword"
 msgid "shade"
-msgstr "Che"
+msgstr "shade"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:84
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Keep above others"
 msgctxt "Note this is a KRunner keyword"
 msgid "keep above"
-msgstr "Giữ trên các cửa sổ khác"
+msgstr "keep above"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:87
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:89
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Keep below others"
 msgctxt "Note this is a KRunner keyword"
 msgid "keep below"
-msgstr "Giữ dưới các cửa sổ khác"
+msgstr "keep below"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Windows"
 msgctxt "Note this is a KRunner keyword"
 msgid "window"
-msgstr "Cửa sổ"
+msgstr "window"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:104
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "name"
-msgstr ""
+msgstr "name"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:106
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "appname"
-msgstr ""
+msgstr "appname"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:108
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:161
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&All Desktops"
 msgctxt "Note this is a KRunner keyword"
 msgid "desktop"
-msgstr "&Mọi màn hình"
+msgstr "desktop"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:266
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Switch to Desktop 1"
 msgid "Switch to desktop %1"
-msgstr "Chuyển tới màn hình 1"
+msgstr "Chuyển sang bàn làm việc %1"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:308
 #, kde-format
 msgid "Close running window on %1"
-msgstr ""
+msgstr "Đóng cửa sổ đang chạy ở %1"
 
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:311
 #, kde-format
@@ -2123,11 +2125,11 @@ msgid "..."
 msgstr ""
 
 #: tabbox/tabbox.cpp:374
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Switch to Desktop 1"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
-msgstr "Chuyển tới màn hình 1"
+msgstr "Hiện bàn làm việc"
 
 #: tabbox/tabbox.cpp:523
 #, kde-format
