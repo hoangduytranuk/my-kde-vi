@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-22 00:17+0000\n"
+"POT-Creation-Date: 2021-07-02 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,13 +29,13 @@ msgid "Account"
 msgstr ""
 
 #: kernel/kptcalendar.cpp:99 kernel/kptcalendar.cpp:111
-#: ui/kptcalendareditor.cpp:207 ui/kptcalendareditor.cpp:639
+#: ui/kptcalendareditor.cpp:207 ui/kptcalendareditor.cpp:616
 #, kde-format
 msgid "Undefined"
 msgstr ""
 
 #: kernel/kptcalendar.cpp:101 kernel/kptcalendar.cpp:111
-#: ui/kptcalendareditor.cpp:205 ui/kptcalendareditor.cpp:637
+#: ui/kptcalendareditor.cpp:205 ui/kptcalendareditor.cpp:614
 #, kde-format
 msgid "Non-working"
 msgstr ""
@@ -212,9 +212,9 @@ msgstr ""
 #: models/kptschedulemodel.cpp:618 models/kpttreecombobox.cpp:123
 #: models/ResourceModel.cpp:200 models/ResourceModel.cpp:232
 #: models/ResourceModel.cpp:353 models/ResourceModel.cpp:357
-#: models/ResourceModel.cpp:366 ui/kptpertresult.cpp:139
-#: ui/kptpertresult.cpp:493 ui/kptresourcedialog.cpp:283
-#: ui/kptresourcedialog.cpp:310 ui/kpttaskcostpanel.cpp:49
+#: models/ResourceModel.cpp:366 ui/kptpertresult.cpp:143
+#: ui/kptpertresult.cpp:560 ui/kptresourcedialog.cpp:287
+#: ui/kptresourcedialog.cpp:314 ui/kpttaskcostpanel.cpp:49
 #: ui/kpttaskgeneralpanel.cpp:72 ui/kpttaskgeneralpanelbase.ui:386
 #: ui/reports/reportview.cpp:1347 ui/TasksGeneralPanel.cpp:68
 #: ui/TasksGeneralPanel.ui:338
@@ -499,7 +499,7 @@ msgstr ""
 msgid "Finished scheduling backward: %1 ms"
 msgstr ""
 
-#: kernel/kptproject.cpp:3283
+#: kernel/kptproject.cpp:3282
 #, kde-format
 msgid "Plan"
 msgstr ""
@@ -1206,7 +1206,7 @@ msgstr ""
 msgid "%1 unsaved document (%2)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:289 ui/kptviewbase.cpp:760
+#: main/KoMainWindow.cpp:289 ui/kptviewbase.cpp:763
 #, kde-format
 msgid "Print to PDF..."
 msgstr ""
@@ -1385,9 +1385,9 @@ msgstr ""
 
 #: main/KoPrintingDialog.cpp:188 ui/gantt/GanttViewBase.cpp:191
 #: ui/kptaccountseditor.cpp:67 ui/kptaccountsviewconfigdialog.cpp:89
-#: ui/kptdependencyeditor.cpp:2021 ui/kptganttview.cpp:775
-#: ui/kptganttview.cpp:1213 ui/kptitemviewsettup.cpp:202
-#: ui/kptitemviewsettup.cpp:286 ui/kptresourceappointmentsview.cpp:105
+#: ui/kptdependencyeditor.cpp:2028 ui/kptganttview.cpp:1029
+#: ui/kptganttview.cpp:1715 ui/kptitemviewsettup.cpp:202
+#: ui/kptitemviewsettup.cpp:286 ui/kptresourceappointmentsview.cpp:113
 #: ui/performance/ProjectStatusView.cpp:184
 #, kde-format
 msgid "Printing"
@@ -4184,7 +4184,7 @@ msgstr ""
 msgid "Path"
 msgstr ""
 
-#: models/kptpertcpmmodel.cpp:439 ui/kptscheduleeditor.cpp:759
+#: models/kptpertcpmmodel.cpp:439 ui/kptscheduleeditor.cpp:785
 #, kde-format
 msgid "Critical Path"
 msgstr ""
@@ -5435,7 +5435,7 @@ msgstr ""
 msgid "Calligra Storage"
 msgstr ""
 
-#: ui/gantt/GanttViewBase.cpp:182 ui/performance/PerformanceStatusView.cpp:392
+#: ui/gantt/GanttViewBase.cpp:182 ui/performance/PerformanceStatusView.cpp:643
 #: ui/performance/ProjectStatusView.cpp:169
 #, kde-format
 msgid "Chart"
@@ -5447,9 +5447,9 @@ msgid "Gantt Chart Settings"
 msgstr ""
 
 #: ui/gantt/GanttViewBase.cpp:191 ui/kptaccountseditor.cpp:68
-#: ui/kptaccountsviewconfigdialog.cpp:90 ui/kptdependencyeditor.cpp:2022
-#: ui/kptganttview.cpp:775 ui/kptganttview.cpp:1213 ui/kptitemviewsettup.cpp:202
-#: ui/kptitemviewsettup.cpp:286 ui/kptresourceappointmentsview.cpp:106
+#: ui/kptaccountsviewconfigdialog.cpp:90 ui/kptdependencyeditor.cpp:2029
+#: ui/kptganttview.cpp:1029 ui/kptganttview.cpp:1715 ui/kptitemviewsettup.cpp:202
+#: ui/kptitemviewsettup.cpp:286 ui/kptresourceappointmentsview.cpp:114
 #: ui/performance/ProjectStatusView.cpp:185
 #, kde-format
 msgid "Printing Options"
@@ -5767,7 +5767,7 @@ msgid "Modify resourcegroup allocation"
 msgstr ""
 
 #: ui/kptaccountseditor.cpp:54 ui/kptaccountsviewconfigdialog.cpp:45
-#: ui/kptdependencyeditor.cpp:2008
+#: ui/kptdependencyeditor.cpp:2015
 #, kde-format
 msgid "Settings"
 msgstr ""
@@ -5814,7 +5814,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, ui_general)
 #: ui/kptaccountsviewconfigdialog.cpp:75 ui/kptmainprojectpanelbase.ui:25
-#: ui/kptresourceappointmentsview.cpp:91 ui/kpttaskstatusview.cpp:447
+#: ui/kptresourceappointmentsview.cpp:99 ui/kpttaskstatusview.cpp:626
 #: widgets/KoDocumentInfoDlg.cpp:123 widgets/KoDocumentInfoDlg.cpp:124
 #, kde-format
 msgid "General"
@@ -5928,7 +5928,7 @@ msgstr ""
 msgid "Project end"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:203 ui/kptcalendareditor.cpp:635
+#: ui/kptcalendareditor.cpp:203 ui/kptcalendareditor.cpp:612
 #, kde-format
 msgid "Work..."
 msgstr ""
@@ -5957,36 +5957,36 @@ msgid ""
 "><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:620
+#: ui/kptcalendareditor.cpp:597
 #, kde-format
 msgid "Add Calendar"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:625
+#: ui/kptcalendareditor.cpp:602
 #, kde-format
 msgid "Add Subcalendar"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:630 ui/kptdependencyeditor.cpp:2393
-#: ui/kptresourceeditor.cpp:310 ui/kptscheduleeditor.cpp:315
-#: ui/kpttaskeditor.cpp:897 ui/ResourceGroupEditor.cpp:305
+#: ui/kptcalendareditor.cpp:607 ui/kptdependencyeditor.cpp:2422
+#: ui/kptresourceeditor.cpp:312 ui/kptscheduleeditor.cpp:317
+#: ui/kpttaskeditor.cpp:936 ui/ResourceGroupEditor.cpp:305
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Delete"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:788 ui/kptcalendareditor.cpp:822
+#: ui/kptcalendareditor.cpp:765 ui/kptcalendareditor.cpp:799
 msgctxt "(qtundo-format)"
 msgid "Modify Calendar"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:797 ui/kptcalendareditor.cpp:803
+#: ui/kptcalendareditor.cpp:774 ui/kptcalendareditor.cpp:780
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "%1: Set to Non-Working"
 msgstr ""
 
-#: ui/kptcalendareditor.cpp:829
+#: ui/kptcalendareditor.cpp:806
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Set %1 to Undefined"
@@ -6036,7 +6036,7 @@ msgstr ""
 msgid "%"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2058
+#: ui/kptdependencyeditor.cpp:2065
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6047,53 +6047,115 @@ msgid ""
 "printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2364 ui/kpttaskeditor.cpp:868
-#: ui/kpttaskeditor.cpp:872
+#: ui/kptdependencyeditor.cpp:2380
 #, kde-format
-msgid "Add Task"
+msgid "Edit Dependency..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2368
+#: ui/kptdependencyeditor.cpp:2384
 #, kde-format
-msgid "Add Task..."
+msgid "Delete Dependency"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2373
-#, kde-format
-msgid "Add Milestone..."
-msgstr ""
-
-#: ui/kptdependencyeditor.cpp:2379 ui/kpttaskeditor.cpp:883
-#: ui/kpttaskeditor.cpp:887
-#, kde-format
-msgid "Add Sub-Task"
-msgstr ""
-
-#: ui/kptdependencyeditor.cpp:2383
-#, kde-format
-msgid "Add Sub-Task..."
-msgstr ""
-
-#: ui/kptdependencyeditor.cpp:2388
-#, kde-format
-msgid "Add Sub-Milestone..."
-msgstr ""
-
-#: ui/kptdependencyeditor.cpp:2398 ui/kpttaskeditor.cpp:902
+#: ui/kptdependencyeditor.cpp:2388 ui/kpttaskeditor.cpp:941
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Link"
 msgstr ""
 
+#: ui/kptdependencyeditor.cpp:2393 ui/kpttaskeditor.cpp:907
+#: ui/kpttaskeditor.cpp:911
+#, kde-format
+msgid "Add Task"
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2397
+#, kde-format
+msgid "Add Task..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2402
+#, kde-format
+msgid "Add Milestone..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2408 ui/kpttaskeditor.cpp:922
+#: ui/kpttaskeditor.cpp:926
+#, kde-format
+msgid "Add Sub-Task"
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2412
+#, kde-format
+msgid "Add Sub-Task..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2417
+#, kde-format
+msgid "Add Sub-Milestone..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2427 ui/kptdocumentseditor.cpp:216
+#: ui/kptganttview.cpp:514 ui/kptganttview.cpp:1328 ui/kptganttview.cpp:1909
+#: ui/kptpertresult.cpp:164 ui/kptscheduleeditor.cpp:695
+#: ui/kpttaskeditor.cpp:703 ui/kpttaskeditor.cpp:962 ui/kpttaskeditor.cpp:1803
+#: ui/performance/PerformanceStatusView.cpp:337
+#, kde-format
+msgid "Edit..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2431 ui/kptganttview.cpp:518
+#: ui/kptganttview.cpp:1332 ui/kptganttview.cpp:1913 ui/kptresourceappointmentsview.cpp:358
+#: ui/kpttaskeditor.cpp:966 ui/kpttaskeditor.cpp:1807 ui/kpttaskeditor.cpp:2376
+#: ui/kpttaskstatusview.cpp:344 ui/performance/PerformanceStatusView.cpp:341
+#, kde-format
+msgid "Progress..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2435 ui/kptganttview.cpp:522
+#: ui/kptganttview.cpp:1336 ui/kptganttview.cpp:1917 ui/kptresourceappointmentsview.cpp:362
+#: ui/kpttaskeditor.cpp:970 ui/kpttaskeditor.cpp:1811 ui/kpttaskeditor.cpp:2380
+#: ui/kpttaskstatusview.cpp:348 ui/performance/PerformanceStatusView.cpp:345
+#, kde-format
+msgid "Description..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2439 ui/kptganttview.cpp:526
+#: ui/kptganttview.cpp:1340 ui/kptganttview.cpp:1921 ui/kptresourceappointmentsview.cpp:366
+#: ui/kpttaskeditor.cpp:974 ui/kpttaskeditor.cpp:1815 ui/kpttaskeditor.cpp:2384
+#: ui/kpttaskstatusview.cpp:352 ui/performance/PerformanceStatusView.cpp:349
+#, kde-format
+msgid "Documents..."
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2470 ui/kptrelationdialog.cpp:100
+msgctxt "(qtundo-format)"
+msgid "Add task dependency"
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2539 ui/kptrelationdialog.cpp:175
+msgctxt "(qtundo-format)"
+msgid "Delete task dependency"
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2581
+msgctxt "(qtundo-format)"
+msgid "Add milestone"
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2626
+msgctxt "(qtundo-format)"
+msgid "Add sub-milestone"
+msgstr ""
+
+#: ui/kptdependencyeditor.cpp:2648 ui/kpttaskeditor.cpp:1147
+msgctxt "(qtundo-format) Delete one task"
+msgid "Delete task"
+msgstr ""
+
 #: ui/kptdocumentsdialog.cpp:37
 #, kde-format
 msgid "Task Documents"
-msgstr ""
-
-#: ui/kptdocumentseditor.cpp:216 ui/kptscheduleeditor.cpp:670
-#: ui/kpttaskeditor.cpp:673
-#, kde-format
-msgid "Edit..."
 msgstr ""
 
 #: ui/kptdocumentseditor.cpp:222
@@ -6234,7 +6296,7 @@ msgstr ""
 msgid "Ctrl+O"
 msgstr ""
 
-#: ui/kptganttview.cpp:395
+#: ui/kptganttview.cpp:402
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6246,59 +6308,59 @@ msgid ""
 "><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:441 ui/kpttaskeditor.cpp:924 ui/kpttaskeditor.cpp:1449
+#: ui/kptganttview.cpp:453 ui/kpttaskeditor.cpp:979 ui/kpttaskeditor.cpp:1820
 #, kde-format
 msgid "Show Project"
 msgstr ""
 
-#: ui/kptganttview.cpp:449
+#: ui/kptganttview.cpp:461
 #, kde-format
 msgid "Show Unscheduled Tasks"
 msgstr ""
 
-#: ui/kptganttview.cpp:461 ui/kptganttview.cpp:1027 ui/kptganttview.cpp:1366
+#: ui/kptganttview.cpp:473 ui/kptganttview.cpp:1287 ui/kptganttview.cpp:1868
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Auto"
 msgstr ""
 
-#: ui/kptganttview.cpp:468 ui/kptganttview.cpp:1034 ui/kptganttview.cpp:1373
+#: ui/kptganttview.cpp:480 ui/kptganttview.cpp:1294 ui/kptganttview.cpp:1875
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Month"
 msgstr ""
 
-#: ui/kptganttview.cpp:474 ui/kptganttview.cpp:1040 ui/kptganttview.cpp:1379
+#: ui/kptganttview.cpp:486 ui/kptganttview.cpp:1300 ui/kptganttview.cpp:1881
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Week"
 msgstr ""
 
-#: ui/kptganttview.cpp:480 ui/kptganttview.cpp:1046 ui/kptganttview.cpp:1385
+#: ui/kptganttview.cpp:492 ui/kptganttview.cpp:1306 ui/kptganttview.cpp:1887
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Day"
 msgstr ""
 
-#: ui/kptganttview.cpp:486 ui/kptganttview.cpp:1052 ui/kptganttview.cpp:1391
+#: ui/kptganttview.cpp:498 ui/kptganttview.cpp:1312 ui/kptganttview.cpp:1893
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hour"
 msgstr ""
 
-#: ui/kptganttview.cpp:492 ui/kptganttview.cpp:1058 ui/kptganttview.cpp:1397
+#: ui/kptganttview.cpp:504 ui/kptganttview.cpp:1318 ui/kptganttview.cpp:1899
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr ""
 
-#: ui/kptganttview.cpp:497 ui/kptganttview.cpp:1063 ui/kptganttview.cpp:1402
+#: ui/kptganttview.cpp:509 ui/kptganttview.cpp:1323 ui/kptganttview.cpp:1904
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr ""
 
-#: ui/kptganttview.cpp:846
+#: ui/kptganttview.cpp:1100
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6310,7 +6372,7 @@ msgid ""
 "url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:1280
+#: ui/kptganttview.cpp:1782
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6822,11 +6884,6 @@ msgctxt "@title:window"
 msgid "Add Dependency"
 msgstr ""
 
-#: ui/kptrelationdialog.cpp:100
-msgctxt "(qtundo-format)"
-msgid "Add task dependency"
-msgstr ""
-
 #: ui/kptrelationdialog.cpp:146 ui/RelationEditorDialog.cpp:248
 #, kde-kuit-format
 msgctxt "@title:window"
@@ -6837,11 +6894,6 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Delete"
-msgstr ""
-
-#: ui/kptrelationdialog.cpp:175
-msgctxt "(qtundo-format)"
-msgid "Delete task dependency"
 msgstr ""
 
 #: ui/kptrelationdialog.cpp:179
@@ -6861,12 +6913,12 @@ msgstr ""
 msgid "Show external appointments"
 msgstr ""
 
-#: ui/kptresourceappointmentsview.cpp:92
+#: ui/kptresourceappointmentsview.cpp:100
 #, kde-format
 msgid "Resource Assignments View Settings"
 msgstr ""
 
-#: ui/kptresourceappointmentsview.cpp:213
+#: ui/kptresourceappointmentsview.cpp:221
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6887,17 +6939,17 @@ msgctxt "title:column"
 msgid "Select team members"
 msgstr ""
 
-#: ui/kptresourcedialog.cpp:249
+#: ui/kptresourcedialog.cpp:253
 #, kde-format
 msgid "Resource Settings"
 msgstr ""
 
-#: ui/kptresourcedialog.cpp:389
+#: ui/kptresourcedialog.cpp:393
 msgctxt "(qtundo-format)"
 msgid "Modify Resource"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:151
+#: ui/kptresourceeditor.cpp:154
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6910,18 +6962,42 @@ msgid ""
 "Vacation Editor</emphasis>.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:305
+#: ui/kptresourceeditor.cpp:307
 #, kde-format
 msgid "Add Resource"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:400
+#: ui/kptresourceeditor.cpp:317
+#, kde-format
+msgid "Edit Resource..."
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:384
+#, kde-format
+msgid ""
+"A resource that has been scheduled will be deleted. This will invalidate the "
+"schedule."
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:404
+msgctxt "(qtundo-format)"
+msgid "Delete resource"
+msgid_plural "Delete resources"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/kptresourceeditor.cpp:411
+msgctxt "(qtundo-format) @action"
+msgid "Delete resource"
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:474
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Resource Groups"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:179
+#: ui/kptscheduleeditor.cpp:182
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6937,84 +7013,124 @@ msgid ""
 "para>"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:305
+#: ui/kptscheduleeditor.cpp:307
 #, kde-format
 msgid "Add Schedule"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:310
+#: ui/kptscheduleeditor.cpp:312
 #, kde-format
 msgid "Add Sub-schedule"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:320
+#: ui/kptscheduleeditor.cpp:322
 #, kde-format
 msgid "Calculate"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:325
+#: ui/kptscheduleeditor.cpp:327
 #, kde-format
 msgid "Baseline"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:330
+#: ui/kptscheduleeditor.cpp:332
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Detach"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:365
+#: ui/kptscheduleeditor.cpp:367
 #, kde-format
 msgid ""
 "This schedule cannot be calculated.\n"
 "The parent schedule must be calculated first"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:366 ui/kptscheduleeditor.cpp:372
+#: ui/kptscheduleeditor.cpp:368 ui/kptscheduleeditor.cpp:374
 #, kde-format
 msgid "Project Scheduling"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:371
+#: ui/kptscheduleeditor.cpp:373
 #, kde-format
 msgid ""
 "The project has been started.\n"
 "Do you really want to calculate this schedule?"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:402 ui/kptscheduleeditor.cpp:435
+#: ui/kptscheduleeditor.cpp:387
+#, kde-format
+msgctxt "(qtundo-format) @info:status 1=schedule name"
+msgid "Calculate %1"
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:405 ui/kptscheduleeditor.cpp:438
 msgctxt "(qtundo-format)"
 msgid "Create sub-schedule"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:413
+#: ui/kptscheduleeditor.cpp:416
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add schedule %1"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:518
+#: ui/kptscheduleeditor.cpp:458
+#, kde-format
+msgid "Cannot baseline. The project is already baselined."
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:463
+#, kde-format
+msgid "This schedule is baselined. Do you want to remove the baseline?"
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:467
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Reset baseline %1"
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:470 ui/kptscheduleeditor.cpp:474
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Baseline %1"
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:484
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Delete schedule %1"
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:500
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Move schedule %1"
+msgstr ""
+
+#: ui/kptscheduleeditor.cpp:543
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Show Debug Information"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:754
+#: ui/kptscheduleeditor.cpp:779
 #, kde-format
 msgid "Result"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:764
+#: ui/kptscheduleeditor.cpp:790
 #, kde-format
 msgid "Scheduling Log"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:845
+#: ui/kptscheduleeditor.cpp:974
 msgctxt "(qtundo-format)"
 msgid "Modify project target start time"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:857
+#: ui/kptscheduleeditor.cpp:986
 msgctxt "(qtundo-format)"
 msgid "Modify project target end time"
 msgstr ""
@@ -7209,13 +7325,13 @@ msgstr ""
 msgid "D&escription"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:101
+#: ui/kpttaskeditor.cpp:109
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "The type of task or the estimate type of the task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:104
+#: ui/kpttaskeditor.cpp:112
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7225,30 +7341,30 @@ msgid ""
 "emphasis> or <emphasis>Project</emphasis> the type is not editable.</note>"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:148
+#: ui/kpttaskeditor.cpp:156
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Task with estimate type: %1"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:150
+#: ui/kpttaskeditor.cpp:158
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Task type: %1"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:186 ui/kpttaskeditor.cpp:188
+#: ui/kpttaskeditor.cpp:194 ui/kpttaskeditor.cpp:196
 msgctxt "(qtundo-format)"
 msgid "Set type to Milestone"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:195
+#: ui/kpttaskeditor.cpp:203
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Set type to %1"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:383
+#: ui/kpttaskeditor.cpp:391
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7258,19 +7374,19 @@ msgid ""
 "the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:438
+#: ui/kpttaskeditor.cpp:462
 #, kde-kuit-format
 msgctxt "@title resource allocations"
 msgid "Allocations"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:459 ui/ResourceGroupEditor.cpp:400
+#: ui/kpttaskeditor.cpp:483 ui/ResourceGroupEditor.cpp:421
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Resources"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:461
+#: ui/kpttaskeditor.cpp:485
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -7278,13 +7394,13 @@ msgid ""
 "responsible column"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:489
+#: ui/kpttaskeditor.cpp:513
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Task Modules"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:490
+#: ui/kpttaskeditor.cpp:514
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -7292,7 +7408,7 @@ msgid ""
 "the project"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:515
+#: ui/kpttaskeditor.cpp:539
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7303,37 +7419,56 @@ msgid ""
 "para><para><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:877
+#: ui/kpttaskeditor.cpp:916
 #, kde-format
 msgid "Add Milestone"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:892
+#: ui/kpttaskeditor.cpp:931
 #, kde-format
 msgid "Add Sub-Milestone"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:907
+#: ui/kpttaskeditor.cpp:946
 #, kde-format
 msgid "Indent Task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:911
+#: ui/kpttaskeditor.cpp:950
 #, kde-format
 msgid "Unindent Task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:915
+#: ui/kpttaskeditor.cpp:954
 #, kde-format
 msgid "Move Up"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:919
+#: ui/kpttaskeditor.cpp:958
 #, kde-format
 msgid "Move Down"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:1107
+#: ui/kpttaskeditor.cpp:1139
+#, kde-format
+msgid ""
+"A task that has been scheduled will be deleted. This will invalidate the "
+"schedule."
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:1151
+msgctxt "(qtundo-format)"
+msgid "Delete task"
+msgid_plural "Delete tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/kpttaskeditor.cpp:1167
+msgctxt "(qtundo-format) @action"
+msgid "Delete task"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:1205
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Indent task"
@@ -7341,7 +7476,12 @@ msgid_plural "Indent %1 tasks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/kpttaskeditor.cpp:1126
+#: ui/kpttaskeditor.cpp:1220
+msgctxt "(qtundo-format) For a single task"
+msgid "Unindent task"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:1227
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Unindent task"
@@ -7349,7 +7489,17 @@ msgid_plural "Unindent %1 tasks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/kpttaskeditor.cpp:1280
+#: ui/kpttaskeditor.cpp:1243
+msgctxt "(qtundo-format)"
+msgid "Move task up"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:1258
+msgctxt "(qtundo-format)"
+msgid "Move task down"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:1626
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7360,17 +7510,17 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, ui_publish)
-#: ui/kpttaskeditor.cpp:1773 ui/kptworkpackagesendpanel.ui:45
+#: ui/kpttaskeditor.cpp:2388 ui/kptworkpackagesendpanel.ui:45
 #, kde-format
 msgid "Publish..."
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:1777
+#: ui/kpttaskeditor.cpp:2392
 #, kde-format
 msgid "Work Packages..."
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:1795
+#: ui/kpttaskeditor.cpp:2410
 msgctxt "(qtundo-format)"
 msgid "Log Send Workpackage"
 msgstr ""
@@ -7639,7 +7789,7 @@ msgstr ""
 msgid "Remove Entry"
 msgstr ""
 
-#: ui/kpttaskstatusview.cpp:201
+#: ui/kpttaskstatusview.cpp:204
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7654,7 +7804,7 @@ msgid ""
 "menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kpttaskstatusview.cpp:447
+#: ui/kpttaskstatusview.cpp:626
 #, kde-format
 msgid "General Settings"
 msgstr ""
@@ -7781,49 +7931,49 @@ msgstr ""
 msgid "Project:"
 msgstr ""
 
-#: ui/kptviewbase.cpp:674
+#: ui/kptviewbase.cpp:677
 #, kde-format
 msgid "This view does not support printing."
 msgstr ""
 
-#: ui/kptviewbase.cpp:683
+#: ui/kptviewbase.cpp:686
 #, kde-kuit-format
 msgctxt "@title:tab"
 msgid "Page Layout"
 msgstr ""
 
-#: ui/kptviewbase.cpp:704
+#: ui/kptviewbase.cpp:707
 #, kde-kuit-format
 msgctxt "@title:tab"
 msgid "Header and Footer"
 msgstr ""
 
-#: ui/kptviewbase.cpp:729
+#: ui/kptviewbase.cpp:732
 #, kde-format
 msgid "Expand All"
 msgstr ""
 
-#: ui/kptviewbase.cpp:735
+#: ui/kptviewbase.cpp:738
 #, kde-format
 msgid "Collapse All"
 msgstr ""
 
-#: ui/kptviewbase.cpp:766
+#: ui/kptviewbase.cpp:769
 #, kde-format
 msgid "Print Options..."
 msgstr ""
 
-#: ui/kptviewbase.cpp:777
+#: ui/kptviewbase.cpp:780
 #, kde-format
 msgid "Configure View..."
 msgstr ""
 
-#: ui/kptviewbase.cpp:2681
+#: ui/kptviewbase.cpp:2706
 #, kde-format
 msgid "Unsplit View"
 msgstr ""
 
-#: ui/kptviewbase.cpp:2684
+#: ui/kptviewbase.cpp:2709
 #, kde-format
 msgid "Split View"
 msgstr ""
@@ -8113,7 +8263,7 @@ msgctxt "Chart axis title"
 msgid "Effort (hours)"
 msgstr ""
 
-#: ui/performance/PerformanceStatusView.cpp:222
+#: ui/performance/PerformanceStatusView.cpp:229
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -8123,7 +8273,7 @@ msgid ""
 "</link></para>"
 msgstr ""
 
-#: ui/performance/PerformanceStatusView.cpp:392
+#: ui/performance/PerformanceStatusView.cpp:643
 #: ui/performance/ProjectStatusView.cpp:170
 #, kde-format
 msgid "Chart Settings"
@@ -8759,69 +8909,69 @@ msgstr ""
 msgid "Add Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:342
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:341
 #, kde-format
 msgid "Remove Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:348
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:346
 #, kde-format
 msgid "Generate Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:376
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:373
 #, kde-format
 msgid "New report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:417
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:424
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:414
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:421
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Generate Report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:418
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:415
 #, kde-format
 msgid ""
 "Failed to generate %1.\n"
 "Template file name is empty."
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:425
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:422
 #, kde-format
 msgid ""
 "Failed to generate %1.\n"
 "Report file name is empty."
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:444
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:441
 #, kde-format
 msgid "File exists. Continue?"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:444
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:441
 #, kde-format
 msgid "Report Generation"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:462
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:459
 #, kde-format
 msgid "Failed to open report generator"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:466
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:463
 #, kde-format
 msgid "Failed to create report"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:469
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:466
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Report Generation"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:469
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:466
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Report file generated:<nl/><filename>%1</filename>"
@@ -8956,6 +9106,18 @@ msgstr ""
 #, kde-format
 msgid "Add Child Resource Group"
 msgstr ""
+
+#: ui/ResourceGroupEditor.cpp:366
+msgctxt "(qtundo-format) @action"
+msgid "Delete resourcegroup"
+msgstr ""
+
+#: ui/ResourceGroupEditor.cpp:388
+msgctxt "(qtundo-format)"
+msgid "Delete resourcegroup"
+msgid_plural "Delete resourcegroups"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ui/RichTextWidget.cpp:39 ui/RichTextWidget.cpp:52
 #, kde-kuit-format

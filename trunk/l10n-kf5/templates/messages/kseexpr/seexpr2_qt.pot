@@ -22,7 +22,7 @@ msgstr ""
 #: KSeExpr/ExprBuiltins.cpp:31
 msgctxt "builtin|"
 msgid ""
-"float deg(float angle)\n"
+"float rad(float angle)\n"
 "degrees to radians"
 msgstr ""
 
@@ -246,7 +246,7 @@ msgstr ""
 #: KSeExpr/ExprBuiltins.cpp:68
 msgctxt "builtin|"
 msgid ""
-"float pow(float x)\n"
+"float pow(float x, float y)\n"
 "x to the y power, also available as ^"
 msgstr ""
 
@@ -332,7 +332,7 @@ msgstr ""
 #: KSeExpr/ExprBuiltins.cpp:124
 msgctxt "builtin|"
 msgid ""
-"float contrast(float x,float x)\n"
+"float contrast(float x, float c)\n"
 "Adjust the contrast.&nbsp; For c from 0 to 0.5, the contrast is "
 "decreased.&nbsp; For c &gt; 0.5, the contrast is increased."
 msgstr ""
@@ -347,9 +347,9 @@ msgstr ""
 #: KSeExpr/ExprBuiltins.cpp:143
 msgctxt "builtin|"
 msgid ""
-"float linearstep(float x,float a,float b)\n"
+"float linearstep(float x, float a, float b)\n"
 " if x &lt; a then 0, if x &gt; b then 1, and\n"
-"x transitions linearly when &lt; x &lt; b "
+"x transitions linearly when a &lt; x &lt; b"
 msgstr ""
 
 #: KSeExpr/ExprBuiltins.cpp:165
@@ -542,7 +542,7 @@ msgid ""
 "The base frequency is the same as the \"noise\" function. The total \n"
 "number of frequencies is controlled by octaves. The lacunarity is the \n"
 "spacing between the frequencies - a value of 2 means each octave is \n"
-"twice the previous frequency. The gain< controls how much each \n"
+"twice the previous frequency. The gain controls how much each \n"
 "frequency is scaled relative to the previous frequency."
 msgstr ""
 
@@ -727,7 +727,7 @@ msgid ""
 "float wchoose(float index,float choice1, float weight1, float choice2, float "
 "weight2, [...] )\n"
 "Chooses one of the supplied choices based on the index (assumed to be in "
-"range[0..1]).\n"
+"range [0..1]).\n"
 "The values will be distributed according to the supplied weights."
 msgstr ""
 
@@ -738,7 +738,7 @@ msgid ""
 "\n"
 "Interpolates a set of values to the parameter specified where y1, ..., yn "
 "are\n"
-"distributed evenly from [0...1]"
+"distributed evenly from [0..1]"
 msgstr ""
 
 #: KSeExpr/ExprBuiltins.cpp:1577
@@ -752,7 +752,7 @@ msgid ""
 "by triples of parameters pos_i, val_i, and interp_i. Interpolation codes are "
 "\n"
 "0 - none, 1 - linear, 2 - smooth, 3 - spline, \n"
-"4-monotone (non oscillating spline)"
+"4 - monotone (non oscillating spline)"
 msgstr ""
 
 #: KSeExpr/ExprBuiltins.cpp:1639
@@ -1120,47 +1120,52 @@ msgctxt "CCurveScene|"
 msgid "Delete Point"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:398
+#: KSeExprUI/ExprColorCurve.cpp:397
 msgctxt "ExprColorCurve|"
 msgid "Selected Position:"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:409
+#: KSeExprUI/ExprColorCurve.cpp:408
 msgctxt "ExprColorCurve|"
 msgid "Selected Color:"
 msgstr ""
 
 #: KSeExprUI/ExprColorCurve.cpp:416
 msgctxt "ExprColorCurve|"
+msgid "Interp:"
+msgstr ""
+
+#: KSeExprUI/ExprColorCurve.cpp:421
+msgctxt "ExprColorCurve|"
 msgid "None"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:417
+#: KSeExprUI/ExprColorCurve.cpp:422
 msgctxt "ExprColorCurve|"
 msgid "Linear"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:418
+#: KSeExprUI/ExprColorCurve.cpp:423
 msgctxt "ExprColorCurve|"
 msgid "Smooth"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:419
+#: KSeExprUI/ExprColorCurve.cpp:424
 msgctxt "ExprColorCurve|"
 msgid "Spline"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:420
+#: KSeExprUI/ExprColorCurve.cpp:425
 msgctxt "ExprColorCurve|"
 msgid "MSpline"
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:441
+#: KSeExprUI/ExprColorCurve.cpp:445
 msgctxt "ExprColorCurve|"
 msgid "&Expand..."
 msgstr ""
 
-#: KSeExprUI/ExprColorCurve.cpp:483
+#: KSeExprUI/ExprColorCurve.cpp:487
 #, qt-format
 msgctxt "ExprColorCurve|"
 msgid "%1"
@@ -1272,37 +1277,42 @@ msgctxt "ExprCurve|"
 msgid "Selected Value:"
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:316
+#: KSeExprUI/ExprCurve.cpp:317
+msgctxt "ExprCurve|"
+msgid "Interp:"
+msgstr ""
+
+#: KSeExprUI/ExprCurve.cpp:322
 msgctxt "ExprCurve|"
 msgid "None"
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:317
+#: KSeExprUI/ExprCurve.cpp:323
 msgctxt "ExprCurve|"
 msgid "Linear"
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:318
+#: KSeExprUI/ExprCurve.cpp:324
 msgctxt "ExprCurve|"
 msgid "Smooth"
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:319
+#: KSeExprUI/ExprCurve.cpp:325
 msgctxt "ExprCurve|"
 msgid "Spline"
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:320
+#: KSeExprUI/ExprCurve.cpp:326
 msgctxt "ExprCurve|"
 msgid "MSpline"
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:342
+#: KSeExprUI/ExprCurve.cpp:347
 msgctxt "ExprCurve|"
 msgid "&Expand..."
 msgstr ""
 
-#: KSeExprUI/ExprCurve.cpp:385 KSeExprUI/ExprCurve.cpp:394
+#: KSeExprUI/ExprCurve.cpp:390 KSeExprUI/ExprCurve.cpp:399
 #, qt-format
 msgctxt "ExprCurve|"
 msgid "%1"
@@ -1313,7 +1323,7 @@ msgctxt "ExprEditor|"
 msgid "Expression Editor"
 msgstr ""
 
-#: KSeExprUI/ExprEditor.cpp:215
+#: KSeExprUI/ExprEditor.cpp:216
 #, qt-format
 msgctxt "ExprEditor|"
 msgid "(%1, %2): %3"
