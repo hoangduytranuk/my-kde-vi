@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-20 00:19+0000\n"
+"POT-Creation-Date: 2021-07-04 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -72,12 +72,12 @@ msgid_plural "%1 pages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: DocumentModel.cpp:27
+#: DocumentModel.cpp:28
 #, kde-format
 msgid "New document"
 msgstr ""
 
-#: DocumentModel.cpp:91
+#: DocumentModel.cpp:99
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
@@ -94,17 +94,12 @@ msgstr ""
 
 #: DocumentPage.qml:38
 #, kde-format
-msgid "Zoom Fit Width"
-msgstr ""
-
-#: DocumentPage.qml:46
-#, kde-format
-msgid "Zoom 100%"
+msgid "Zoom Fit"
 msgstr ""
 
 #: DocumentPage.qml:54
 #, kde-format
-msgid "Cancel"
+msgid "Zoom 100%"
 msgstr ""
 
 #: DocumentPage.qml:62
@@ -122,10 +117,25 @@ msgstr ""
 msgid "Delete Page"
 msgstr ""
 
-#: DocumentPage.qml:90
+#: DocumentPage.qml:97
 #, kde-kuit-format
 msgctxt "@info"
 msgid "You do not have any images in this document.<nl/><nl/>Start scanning!"
+msgstr ""
+
+#: DocumentPrinter.cpp:36
+#, kde-format
+msgid "Nothing to print."
+msgstr ""
+
+#: DocumentPrinter.cpp:40
+#, kde-format
+msgid "Previous printing operation still in progress."
+msgstr ""
+
+#: DocumentPrinter.cpp:73
+#, kde-format
+msgid "Document sent to printer."
 msgstr ""
 
 #: DocumentSaver.cpp:33
@@ -154,32 +164,37 @@ msgctxt "Prefix for document name indicating an unsaved document"
 msgid "* %1"
 msgstr ""
 
-#: main.cpp:45
+#: InProgressPage.qml:21
 #, kde-format
-msgid "Skanpage"
+msgid "Cancel"
 msgstr ""
 
 #: main.cpp:47
 #, kde-format
-msgid "Page-scanning application by KDE based on libksane."
+msgid "Skanpage"
 msgstr ""
 
 #: main.cpp:49
 #, kde-format
+msgid "Page-scanning application by KDE based on libksane."
+msgstr ""
+
+#: main.cpp:51
+#, kde-format
 msgid "(C) 2015 Kåre Särs"
 msgstr ""
 
-#: main.cpp:52 main.cpp:53
+#: main.cpp:54 main.cpp:55
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:64
+#: main.cpp:66
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:64
+#: main.cpp:66
 #, kde-format
 msgid "device"
 msgstr ""
@@ -221,32 +236,37 @@ msgstr ""
 msgid "Scanner options"
 msgstr ""
 
-#: MainWindow.qml:130
+#: MainWindow.qml:118
+#, kde-format
+msgid "Print"
+msgstr ""
+
+#: MainWindow.qml:139
 #, kde-format
 msgid "About Skanpage"
 msgstr ""
 
-#: MainWindow.qml:137
+#: MainWindow.qml:146
 #, kde-format
 msgid "Reselect scanning device"
 msgstr ""
 
-#: MainWindow.qml:282
+#: MainWindow.qml:295
 #, kde-format
 msgid "PDF files (*.pdf)"
 msgstr ""
 
-#: MainWindow.qml:282
+#: MainWindow.qml:295
 #, kde-format
 msgid "JPEG files (*.jpg)"
 msgstr ""
 
-#: MainWindow.qml:282
+#: MainWindow.qml:295
 #, kde-format
 msgid "PNG files (*.png)"
 msgstr ""
 
-#: MainWindow.qml:282
+#: MainWindow.qml:295
 #, kde-format
 msgid "All files (*)"
 msgstr ""

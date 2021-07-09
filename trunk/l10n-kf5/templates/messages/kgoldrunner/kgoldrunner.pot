@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:15+0000\n"
+"POT-Creation-Date: 2021-07-03 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1590,7 +1590,7 @@ msgctxt ""
 "KGoldrunner game, are sometimes rather complicated, so it may help you to "
 "open the game and display the layout of a level as you translate the hint. "
 "It may also help to play the solution, by pressing H (for Hint) and then "
-"Escape (or click the Show A Solution button). You can move easily from one "
+"Escape (or click the 'Show a Solution' button). You can move easily from one "
 "level to the next by using the Y key and you can prevent a level from "
 "playing by using the Pause key (P or Escape)."
 msgid " "
@@ -2536,7 +2536,7 @@ msgid ""
 "It is best to play the first Gold Rush levels before attempting Gold Rush "
 "II, because you will need many techniques that are easier to learn there. "
 "None of the levels in Gold Rush and Gold Rush II are impossible. If in "
-"doubt, use menu item 'Move->Show A Solution' to watch solutions provided by "
+"doubt, use menu item 'Move->Show a Solution' to watch solutions provided by "
 "the author."
 msgstr ""
 
@@ -5746,7 +5746,7 @@ msgstr ""
 
 #: src/kgoldrunner.cpp:245 src/kgrgame.cpp:1303
 #, kde-format
-msgid "&Show A Solution"
+msgid "&Show a Solution"
 msgstr ""
 
 #: src/kgoldrunner.cpp:246
@@ -6469,7 +6469,8 @@ msgstr ""
 
 #: src/kgrdialog.cpp:34
 #, kde-format
-msgid "Edit Name & Hint"
+msgctxt "@title:window"
+msgid "Edit Name or Hint"
 msgstr ""
 
 #: src/kgrdialog.cpp:56
@@ -6482,9 +6483,9 @@ msgstr ""
 msgid "Hint for level:"
 msgstr ""
 
-#: src/kgrdialog.cpp:103 src/kgrdialog.cpp:172 src/kgrselector.cpp:82
-#: src/kgrselector.cpp:278
+#: src/kgrdialog.cpp:103 src/kgrdialog.cpp:172
 #, kde-format
+msgctxt "@title:window"
 msgid "Edit Game Info"
 msgstr ""
 
@@ -6522,6 +6523,7 @@ msgstr ""
 
 #: src/kgrdialog.cpp:169
 #, kde-format
+msgctxt "@title:window"
 msgid "Create Game"
 msgstr ""
 
@@ -6542,6 +6544,7 @@ msgstr ""
 
 #: src/kgrdialog.cpp:247
 #, kde-format
+msgctxt "@title:window"
 msgid "Select Saved Game"
 msgstr ""
 
@@ -6814,6 +6817,7 @@ msgstr ""
 
 #: src/kgrgame.cpp:695
 #, kde-format
+msgctxt "@title:window"
 msgid "Quick Start"
 msgstr ""
 
@@ -6883,7 +6887,7 @@ msgstr ""
 
 #: src/kgrgame.cpp:836
 #, kde-format
-msgid "Show A Solution"
+msgid "Show a Solution"
 msgstr ""
 
 #: src/kgrgame.cpp:837
@@ -7045,7 +7049,13 @@ msgid ""
 "KGoldrunner Hall of Fame.</html>"
 msgstr ""
 
-#: src/kgrgame.cpp:1722 src/kgrgame.cpp:1809
+#: src/kgrgame.cpp:1722
+#, kde-format
+msgctxt "@title:window"
+msgid "Save High Score"
+msgstr ""
+
+#: src/kgrgame.cpp:1809
 #, kde-format
 msgid "Save High Score"
 msgstr ""
@@ -7107,6 +7117,7 @@ msgstr ""
 
 #: src/kgrgame.cpp:1887
 #, kde-format
+msgctxt "@title:window"
 msgid "High Scores"
 msgstr ""
 
@@ -7196,6 +7207,11 @@ msgstr ""
 msgid "Sorry, you can only delete a level from one of your own games."
 msgstr ""
 
+#: src/kgrselector.cpp:82 src/kgrselector.cpp:278
+#, kde-format
+msgid "Edit Game Info"
+msgstr ""
+
 #: src/kgrselector.cpp:83
 #, kde-format
 msgid "Sorry, you can only edit the game information on your own games."
@@ -7208,6 +7224,7 @@ msgstr ""
 
 #: src/kgrselector.cpp:119 src/kgrselector.cpp:174
 #, kde-format
+msgctxt "@title:window"
 msgid "Select Game"
 msgstr ""
 
@@ -7243,6 +7260,7 @@ msgstr ""
 
 #: src/kgrselector.cpp:180
 #, kde-format
+msgctxt "@title:window"
 msgid "Select Game/Level"
 msgstr ""
 
@@ -7258,7 +7276,7 @@ msgstr ""
 
 #: src/kgrselector.cpp:207
 #, kde-format
-msgid "Edit Level Name && Hint"
+msgid "Edit Level Name o&r Hint"
 msgstr ""
 
 #: src/kgrselector.cpp:242

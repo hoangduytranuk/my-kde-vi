@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-02 00:17+0000\n"
+"POT-Creation-Date: 2021-07-09 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1659,36 +1659,65 @@ msgstr ""
 msgid "View Log"
 msgstr ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:45
+#: widgets/administratordialog/customemoji/administratorcustomemojicreatedialog.cpp:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Custom Emoji"
+msgstr ""
+
+#: widgets/administratordialog/customemoji/administratorcustomemojicreatewidget.cpp:45
+#: widgets/administratordialog/customsounds/administratorcustomsoundscreatewidget.cpp:36
+#: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:40
+#: widgets/dialogs/channelinfoeditablewidget.cpp:66
+#: widgets/dialogs/channelinforeadonlywidget.cpp:51
+#: widgets/dialogs/createnewchannelwidget.cpp:47
+#: widgets/dialogs/directchannelinfowidget.cpp:56
+#: widgets/myaccount/myaccountprofileconfigurewidget.cpp:56
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#: widgets/administratordialog/customemoji/administratorcustomemojicreatewidget.cpp:46
+#, kde-format
+msgid "Alias:"
+msgstr ""
+
+#: widgets/administratordialog/customemoji/administratorcustomemojicreatewidget.cpp:47
+#: widgets/dialogs/uploadfilewidget.cpp:42
+#, kde-format
+msgid "File:"
+msgstr ""
+
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:46
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:42
 #, kde-format
 msgid "Search Custom Sounds"
 msgstr ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:60
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:61
 #, kde-format
 msgid "No custom emoji found"
 msgstr ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:65
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:66
 #, kde-format
 msgid "%1 custom emoji (Total: %2)"
 msgid_plural "%1 custom emojis (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:117
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:121
 #, kde-format
 msgid "Do you want to remove this emoji?"
 msgstr ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:117
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:121
 #, kde-format
 msgid "Remove Emoji"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addServer)
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:141
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:145
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:123
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:141
 #: widgets/administratordialog/users/administratoruserswidget.cpp:188
@@ -1698,7 +1727,7 @@ msgid "Add..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, modifyServer)
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:144
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:148
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:125
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:144
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:67
@@ -1709,7 +1738,7 @@ msgid "Modify..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeServer)
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:149
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:153
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:129
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:146
 #: widgets/administratordialog/invites/invitetreeview.cpp:54
@@ -1725,17 +1754,6 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New User Status"
-msgstr ""
-
-#: widgets/administratordialog/customsounds/administratorcustomsoundscreatewidget.cpp:36
-#: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:40
-#: widgets/dialogs/channelinfoeditablewidget.cpp:66
-#: widgets/dialogs/channelinforeadonlywidget.cpp:51
-#: widgets/dialogs/createnewchannelwidget.cpp:47
-#: widgets/dialogs/directchannelinfowidget.cpp:56
-#: widgets/myaccount/myaccountprofileconfigurewidget.cpp:56
-#, kde-format
-msgid "Name:"
 msgstr ""
 
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:57
@@ -3064,11 +3082,6 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Upload File"
-msgstr ""
-
-#: widgets/dialogs/uploadfilewidget.cpp:42
-#, kde-format
-msgid "File:"
 msgstr ""
 
 #: widgets/directory/directorydialog.cpp:37

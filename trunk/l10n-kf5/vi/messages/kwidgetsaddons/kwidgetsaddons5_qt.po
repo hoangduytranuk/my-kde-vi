@@ -1599,78 +1599,43 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "Chuyển xuốn&g"
 
-#: kfontchooser.cpp:161
+#: kfontchooser.cpp:140
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Phông chữ được yêu cầu"
 
-#: kfontchooser.cpp:175
-msgctxt "KFontChooser|@option:check"
-msgid "Font"
-msgstr "Phông chữ"
-
-#: kfontchooser.cpp:180
-msgctxt "KFontChooser|@label"
-msgid "Font:"
-msgstr "Phông chữ:"
-
-#: kfontchooser.cpp:212
-msgctxt "KFontChooser|@option:check"
-msgid "Font style"
-msgstr "Kiểu cách phông chữ"
-
-#: kfontchooser.cpp:217
-msgctxt "KFontChooser|@label"
-msgid "Font style:"
-msgstr "Kiểu cách phông chữ:"
-
-#: kfontchooser.cpp:230
+#: kfontchooser.cpp:185
 msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Thường"
 
-#: kfontchooser.cpp:231 kfontchooser.cpp:579
+#: kfontchooser.cpp:186 kfontchooser.cpp:468
 msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Nghiêng"
 
-#: kfontchooser.cpp:232 kfontchooser.cpp:580
+#: kfontchooser.cpp:187 kfontchooser.cpp:469
 msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Xiên"
 
-#: kfontchooser.cpp:233
+#: kfontchooser.cpp:188
 msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Đậm"
 
-#: kfontchooser.cpp:234
+#: kfontchooser.cpp:189
 msgctxt "KFontChooser|@item font"
 msgid "Bold Italic"
 msgstr "Nghiêng đậm"
 
-#: kfontchooser.cpp:251
-msgctxt "KFontChooser|@option:check"
-msgid "Size"
-msgstr "Cỡ"
-
-#: kfontchooser.cpp:256
-msgctxt "KFontChooser|@label:listbox Font size"
-msgid "Size:"
-msgstr "Cỡ:"
-
-#: kfontchooser.cpp:273
-msgctxt "KFontChooser|@item font size"
-msgid "Relative"
-msgstr "Cân xứng"
-
-#: kfontchooser.cpp:274
+#: kfontchooser.cpp:206
 msgctxt "KFontChooser|@info:tooltip"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr ""
 "Cỡ phông chữ<br /><i>cố định</i> hay <i>cân xứng</i><br />với môi trường"
 
-#: kfontchooser.cpp:275
+#: kfontchooser.cpp:207
 msgctxt "KFontChooser|@info:whatsthis"
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
@@ -1681,26 +1646,12 @@ msgstr ""
 "được tính toán linh động và điều chỉnh để thích hợp với môi trường thay đổi "
 "(vd. kích thước của khiển tố, kích cỡ giấy)."
 
-#: kfontchooser.cpp:331
+#: kfontchooser.cpp:250
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "Ông già sửa căn hầm bí mật để nó đỡ nghiêng"
 
-#: kfontchooser.cpp:333
-msgctxt "KFontChooser|@info:whatsthis"
-msgid ""
-"This sample text illustrates the current settings. You may edit it to test "
-"special characters."
-msgstr ""
-"Đoạn chữ ví dụ này minh hoạ các thiết lập hiện thời. Bạn có thể sửa nó để "
-"kiểm tra các kí tự đặc biệt."
-
-#: kfontchooser.cpp:348
-msgctxt "KFontChooser|@option:check"
-msgid "Show only monospaced fonts"
-msgstr "Chỉ hiện phông chữ đơn cách"
-
-#: kfontchooser.cpp:564
+#: kfontchooser.cpp:453
 #, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -1710,6 +1661,89 @@ msgstr "%1"
 msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Chọn phông chữ"
+
+#: kfontchooserwidget.ui:14
+msgctxt "KFontChooserWidget|"
+msgid "KFontChooserWidget"
+msgstr ""
+
+#: kfontchooserwidget.ui:31
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Font"
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "Phông chữ"
+
+#: kfontchooserwidget.ui:38
+#, fuzzy
+#| msgctxt "KFontChooser|@label"
+#| msgid "Font:"
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "Phông chữ:"
+
+#: kfontchooserwidget.ui:56
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Font style"
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "Kiểu cách phông chữ"
+
+#: kfontchooserwidget.ui:63
+#, fuzzy
+#| msgctxt "KFontChooser|@label"
+#| msgid "Font style:"
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "Kiểu cách phông chữ:"
+
+#: kfontchooserwidget.ui:81
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Size"
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "Cỡ"
+
+#: kfontchooserwidget.ui:88
+#, fuzzy
+#| msgctxt "KFontChooser|@label:listbox Font size"
+#| msgid "Size:"
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "Cỡ:"
+
+#: kfontchooserwidget.ui:97
+#, fuzzy
+#| msgctxt "KFontChooser|@item font size"
+#| msgid "Relative"
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "Cân xứng"
+
+#: kfontchooserwidget.ui:116
+#, fuzzy
+#| msgctxt "KFontChooser|@info:whatsthis"
+#| msgid ""
+#| "This sample text illustrates the current settings. You may edit it to "
+#| "test special characters."
+msgctxt "KFontChooserWidget|"
+msgid ""
+"This sample text illustrates the current settings. You may edit it to test "
+"special characters."
+msgstr ""
+"Đoạn chữ ví dụ này minh hoạ các thiết lập hiện thời. Bạn có thể sửa nó để "
+"kiểm tra các kí tự đặc biệt."
+
+#: kfontchooserwidget.ui:128
+#, fuzzy
+#| msgctxt "KFontChooser|@option:check"
+#| msgid "Show only monospaced fonts"
+msgctxt "KFontChooserWidget|"
+msgid "Show only monospaced fonts"
+msgstr "Chỉ hiện phông chữ đơn cách"
 
 #: kfontrequester.cpp:155
 msgctxt "KFontRequester|@info:tooltip"

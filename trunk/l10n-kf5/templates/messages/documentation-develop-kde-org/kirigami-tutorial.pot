@@ -2610,7 +2610,7 @@ msgstr ""
 
 #: content/docs/kirigami/introduction-actions.md:59
 msgid ""
-"Each time we click our now 'Add kountdown' button on the top left, our "
+"Each time we click our now 'Add kountdown' button on the top right, our "
 "custom countdown is added."
 msgstr ""
 
@@ -2972,6 +2972,169 @@ msgid ""
 "Thanks to the magic of CMakeLists, you can also use IDEs such as KDevelop or"
 " QtCreator to develop this application within a comfortable environment with"
 " minimal effort."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:0
+msgid "Using Kirigami Gallery"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:0
+msgid "Using Kirigami Gallery to find code patterns\n"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:8
+msgid ""
+"[Kirigami Gallery](https://invent.kde.org/sdk/kirigami-gallery/) is a "
+"helpful friend when developing a Kirigami application. It is an application "
+"which uses the features of Kirigami, provides links to the source code, tips"
+" on how to use the components as well as links to the corresponding HIG "
+"pages."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:10
+#: content/docs/kirigami/introduction-kirigami-gallery.md:129
+msgid "Tip"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:13
+msgid ""
+"Before continuing please install Kirigami Gallery. It should already be in "
+"the repository of your Linux distribution."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:17
+msgid "Find a card grid"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:21
+msgid ""
+"Navigating through the Kirigami Gallery application, we will stumble upon "
+"the \"Grid view of cards\" gallery component. This is a good candidate for "
+"example to display a grid of contact cards."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:23
+msgid "![List of kirigami gallery components](components.png)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:26
+msgid ""
+"After selecting the \"Grid view of cards\" gallery component, we will click "
+"to the bottom action and we will get some useful information about the Card "
+"and Abstract Card types."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:28
+msgid "![Kirigami gallery grid view](cards.png)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:31
+msgid ""
+"In this information dialog we will also find a link to the source code of "
+"the Cards Grid View. Let's navigate to this page."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:33
+msgid "Implement the card grid"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:38
+msgid ""
+"We will reuse most of the code found in the Cards Grid View Gallery [source "
+"code page](https://invent.kde.org/sdk/kirigami-"
+"gallery/~/blob/master/src/data/contents/ui/gallery/CardsGridViewGallery.qml)."
+" In particular, we will remove the extra parts of the OverlaySheet (which is"
+" the implementation of the Kirigami Gallery that helped us reach the "
+"kirigami-gallery source code repository)."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:41
+msgid ""
+"So, we are going to substitute the Page component of main.qml of the "
+"skeleton app with the below Scrollable Page:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:63
+msgid ""
+"What we have done so far is to create a "
+"[ScrollablePage](docs:kirigami2;ScrollablePage) and put a "
+"[CardsGridView](docs:kirigami2;CardsGridView) into it, since we want to "
+"display a grid of Cards generated from a model. The data of each contact is "
+"provided by a [ListModel](https://doc.qt.io/qt-5/qml-qtqml-models-"
+"listmodel.html>) while the card delegate is responsible for the presentation"
+" of the data. For more info about models and views in Qt Quick, see "
+"[here](https://doc.qt.io/qt-5/qtquick-modelviewsdata-modelview.html)."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:66
+msgid ""
+"Now let's populate the model that will feed our grid view with data. In "
+"[Kirigami.ScrollablePage](docs:kirigami2;ScrollablePage) definition, just "
+"after:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:74
+msgid "add the below:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:87
+msgid ""
+"The model part of our implementation is ready. Let's proceed to defining a "
+"delegate that will be responsible for displaying the data. So, we add the "
+"following code to the main.qml page, just after the Component.onCompleted "
+"definition:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:121
+msgid ""
+"Following the related information on the [api page](docs:kirigami2;Card) we "
+"populate a \"banner\" (although without an image yet), that will act as a "
+"header that will display the name of the contact as well as a contact icon."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:123
+msgid ""
+"The main content of the card has been populated with the cell phone number "
+"and the email of the contact, structured as a "
+"[column](https://doc.qt.io/qt-5/qml-qtquick-column.html) of "
+"[labels](https://doc.qt.io/qt-5/qml-qtquick-controls2-label.html)."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:125
+msgid "The application should look like this:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:127
+msgid "![Simple grid of cards](implementation.png)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:131
+msgid ""
+"You can find the full source code of the tutorial at "
+"[invent.kde.org](https://invent.kde.org/dkardarakos/kirigami-tutorial)."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:136
+msgid ""
+"As a last step we will add some dummy functionality to each card. In "
+"particular, a \"call\" action will be added. Nevertheless, instead of a real"
+" call, a passive notification will be displayed. So, let's change the card "
+"Component to the following:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:180
+msgid ""
+"So, we added an [action](docs:kirigami2;Action) that, as soon as it is "
+"triggered (by pressing the action button), a [passive "
+"notification](docs:kirigami2;AbstractApplicationWindow) is displayed."
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:182
+msgid "Finally, our application should look like this:"
+msgstr ""
+
+#: content/docs/kirigami/introduction-kirigami-gallery.md:184
+msgid "![Grid with calling action triggered](implementation-actions.png)"
 msgstr ""
 
 #: content/docs/kirigami/introduction-listviews.md:0
@@ -3509,10 +3672,11 @@ msgstr ""
 #: content/docs/kirigami/introduction-next_steps.md:93
 msgid ""
 "We recommend you also take a look at Kirigami Gallery (`kirigami2gallery`), "
-"an application designed by KDE developers to demonstrate kirigami's tools "
+"an application designed by KDE developers to demonstrate Kirigami's tools "
 "and capabilities. It provides both interactive examples of Kirigami "
-"components and easy links to the source code of these examples so you can "
-"see how they were built."
+"components as well as links to the source code of these examples so you can "
+"see how they were built. You can read more about Kirigami Gallery in our "
+"[specific Kirigami Gallery tutorial](introduction-kirigami-gallery)."
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:95

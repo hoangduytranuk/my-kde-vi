@@ -174,7 +174,7 @@ msgid ""
 "[Website](https://manjaro.org) [Forum](https://forum.manjaro.org/c/arm/)"
 msgstr ""
 
-#: content/get.md:15 content/get.md:40 content/get.md:55
+#: content/get.md:15 content/get.md:48 content/get.md:63
 msgid "Download:"
 msgstr ""
 
@@ -190,40 +190,50 @@ msgid ""
 "mobile-dev/releases)"
 msgstr ""
 
-#: content/get.md:20
-msgid "openSUSE"
+#: content/get.md:20 content/get.md:34 content/get.md:67
+msgid "Installation"
 msgstr ""
 
-#: content/get.md:22
-msgid "![](/img/openSUSE.svg)"
+#: content/get.md:22 content/get.md:36
+msgid ""
+"For the PinePhone, you can find generic information on [Pine64 "
+"wiki](https://wiki.pine64.org/index.php/PinePhone_Installation_Instructions)."
 msgstr ""
 
 #: content/get.md:24
+msgid "openSUSE"
+msgstr ""
+
+#: content/get.md:26
+msgid "![](/img/openSUSE.svg)"
+msgstr ""
+
+#: content/get.md:28
 msgid ""
 "openSUSE, formerly SUSE Linux and SuSE Linux Professional, is a Linux "
 "distribution sponsored by SUSE Linux GmbH and other companies. Currently "
 "openSUSE provides Tumbleweed based Plasma Mobile builds."
 msgstr ""
 
-#: content/get.md:26
+#: content/get.md:30
 msgid "Download"
 msgstr ""
 
-#: content/get.md:28
+#: content/get.md:32
 msgid ""
 "[PinePhone](https://download.opensuse.org/repositories/devel:/ARM:/Factory:/Contrib:/PinePhone/images/openSUSE-"
 "Tumbleweed-ARM-PLAMO-pinephone.aarch64.raw.xz)"
 msgstr ""
 
-#: content/get.md:30
+#: content/get.md:38
 msgid "postmarketOS"
 msgstr ""
 
-#: content/get.md:32
+#: content/get.md:40
 msgid "![](/img/pmOS.svg)"
 msgstr ""
 
-#: content/get.md:34
+#: content/get.md:42
 msgid ""
 "PostmarketOS (pmOS), is a touch-optimized, pre-configured Alpine Linux that "
 "can be installed on smartphones and other mobile devices. View the [device "
@@ -231,7 +241,7 @@ msgid ""
 "supporting your device."
 msgstr ""
 
-#: content/get.md:36
+#: content/get.md:44
 msgid ""
 "For devices that do not have prebuilt images, you will need to flash it "
 "manually using the `pmbootstrap` utility. Follow instructions "
@@ -239,34 +249,34 @@ msgid ""
 "also check the device's wiki page for more information on what is working."
 msgstr ""
 
-#: content/get.md:38
+#: content/get.md:46
 msgid "[Learn more](https://postmarketos.org)"
 msgstr ""
 
-#: content/get.md:42
+#: content/get.md:50
 msgid "[PinePhone](https://images.postmarketos.org/pinephone/)"
 msgstr ""
 
-#: content/get.md:43
+#: content/get.md:51
 msgid ""
 "[Latest Edge "
 "(Pinephone)](https://images.postmarketos.org/bpo/edge/pine64-pinephone/plasma-"
 "mobile/)"
 msgstr ""
 
-#: content/get.md:44
+#: content/get.md:52
 msgid "[Community Devices](https://postmarketos.org/download/)"
 msgstr ""
 
-#: content/get.md:46
+#: content/get.md:54
 msgid "Neon based reference rootfs"
 msgstr ""
 
-#: content/get.md:48 content/get.md:67
+#: content/get.md:56 content/get.md:75
 msgid "![](/img/neon.svg)"
 msgstr ""
 
-#: content/get.md:51
+#: content/get.md:59
 msgid ""
 "Image based on KDE Neon. KDE Neon itself is based upon Ubuntu 20.04 (focal)."
 " This image is based on the dev-unstable branch of KDE Neon, and always "
@@ -274,19 +284,15 @@ msgid ""
 " from git master."
 msgstr ""
 
-#: content/get.md:53
+#: content/get.md:61
 msgid "There is no ongoing work for maintaining the images at the moment."
 msgstr ""
 
-#: content/get.md:57
+#: content/get.md:65
 msgid "[PinePhone](https://images.plasma-mobile.org/pinephone/)"
 msgstr ""
 
-#: content/get.md:59
-msgid "Installation"
-msgstr ""
-
-#: content/get.md:61
+#: content/get.md:69
 msgid ""
 "Download the image, uncompress it and flash it to a SD-card using `dd` or a "
 "graphical tool. The PinePhone will automatically boot from a SD-Card. To "
@@ -294,22 +300,22 @@ msgid ""
 "wiki](https://wiki.pine64.org/index.php/PinePhone_Installation_Instructions)."
 msgstr ""
 
-#: content/get.md:63
+#: content/get.md:71
 msgid "Desktop Devices"
 msgstr ""
 
-#: content/get.md:65
+#: content/get.md:73
 msgid "Neon based amd64 ISO image"
 msgstr ""
 
-#: content/get.md:69
+#: content/get.md:77
 msgid ""
 "This ISO image is using the same packages as the Neon based reference "
 "rootfs, just compiled for amd64. It can be tested on non-android intel "
 "tablets, PCs and virtual machines."
 msgstr ""
 
-#: content/get.md:71
+#: content/get.md:79
 msgid "[Neon amd64](https://files.kde.org/neon/images/mobile/)"
 msgstr ""
 
@@ -538,4 +544,39 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Applications"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Plasma Mobile are developed with "
+"[Kirigami](https://develop.kde.org/frameworks/kirigami) but applications "
+"developed for other Linux operating system are generally compatible."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "What is Plasma Mobile?"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Plasma Mobile offers a free (as in freedom and beer), user-friendly, "
+"privacy-enabling and customizable platform for mobile devices. It is shipped"
+" by different distributions (ex. postmarketOS, Manjaro, openSUSE), and can "
+"run on the devices that are supported by the distribution. Most of the "
+"testing is done on the PinePhone, as it is easier for developers to obtain "
+"and develop on. However, depending on your distribution, you may be able to "
+"install it on your device!"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Why?"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"The most common offerings on mobile devices lack openness and trust. In a "
+"world of walled gardens, we want to create a platform that respects and "
+"protects the user’s privacy to the fullest. We want to provide a fully open "
+"base which others can help develop and use for themselves, or in their "
+"products."
 msgstr ""

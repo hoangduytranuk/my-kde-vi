@@ -67,6 +67,9 @@ msgstr ""
 #: activities/instruments/ActivityInfo.qml:25
 #: activities/land_safe/ActivityInfo.qml:29
 #: activities/lang/ActivityInfo.qml:33 activities/learn_additions/ActivityInfo.qml:25
+#: activities/learn_decimals/ActivityInfo.qml:24
+#: activities/learn_decimals_additions/ActivityInfo.qml:24
+#: activities/learn_decimals_subtractions/ActivityInfo.qml:24
 #: activities/learn_digits/ActivityInfo.qml:25
 #: activities/learn_subtractions/ActivityInfo.qml:25
 #: activities/leftright/ActivityInfo.qml:25
@@ -755,6 +758,9 @@ msgstr ""
 #: activities/algebra_minus/ActivityInfo.qml:28
 #: activities/algebra_plus/ActivityInfo.qml:28
 #: activities/learn_additions/ActivityInfo.qml:28
+#: activities/learn_decimals/ActivityInfo.qml:25
+#: activities/learn_decimals_additions/ActivityInfo.qml:25
+#: activities/learn_decimals_subtractions/ActivityInfo.qml:25
 #: activities/learn_digits/ActivityInfo.qml:28
 #: activities/learn_subtractions/ActivityInfo.qml:28
 #: activities/letter-in-word/ActivityInfo.qml:28
@@ -9390,7 +9396,7 @@ msgid "Catamarca"
 msgstr ""
 
 #. Province of Argentina: Buenos Aires
-#: activities/geo-country/resource/board/board3_0.qml:178
+#: activities/geo-country/resource/board/board3_0.qml:186
 msgctxt "board3_0|"
 msgid "Buenos Aires"
 msgstr ""
@@ -13297,6 +13303,228 @@ msgstr ""
 #: activities/learn_additions/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Additions with 1, 2, 3 and 4."
+msgstr ""
+
+#. Activity title
+#: activities/learn_decimals/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Learn decimal numbers"
+msgstr ""
+
+#. Help title
+#: activities/learn_decimals/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Learn decimals with small numbers."
+msgstr ""
+
+#. Help goal
+#: activities/learn_decimals/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid ""
+"Learn decimals by counting how many bars are needed to represent the decimal "
+"number."
+msgstr ""
+
+#. Help manual
+#: activities/learn_decimals/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"A decimal number is displayed. Drag the arrow to select a part of the bar, "
+"then drop it in the empty area. Repeat these steps until the number of "
+"dropped bars corresponds to the displayed decimal number. Then click on the "
+"OK button to validate your answer."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:25
+msgctxt "learn_decimals|"
+msgid ""
+"A decimal number is displayed. The bar with the arrow represents a full "
+"unit, and each square in it represents one tenth of this unit."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:29
+msgctxt "learn_decimals|"
+msgid ""
+"Drag the arrow to select a part of the bar, and drag the selected part of "
+"the bar to the empty area. Repeat these steps until the number of dropped "
+"bars corresponds to the displayed decimal number. Then click on the OK "
+"button to validate your answer."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:36
+msgctxt "learn_decimals|"
+msgid ""
+"A subtraction with two decimal numbers is displayed. Below it, the first "
+"number from the subtraction is represented with bars. One bar represents a "
+"full unit, and each square in it represents one tenth of this unit."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:40
+msgctxt "learn_decimals|"
+msgid ""
+"Click on the squares to represent the result of the subtraction, and click "
+"on the OK button to validate your answer."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:44
+#: activities/learn_decimals/learn_decimals.js:59
+msgctxt "learn_decimals|"
+msgid ""
+"If the result is correct, type the corresponding result, and click on the OK "
+"button to validate your answer."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:51
+msgctxt "learn_decimals|"
+msgid ""
+"An addition with two decimal numbers is displayed. The bar with the arrow "
+"represents a full unit, and each square in it represents one tenth of this "
+"unit."
+msgstr ""
+
+#: activities/learn_decimals/learn_decimals.js:55
+msgctxt "learn_decimals|"
+msgid ""
+"Drag the arrow to select a part of the bar, and drag the selected part of "
+"the bar to the empty area. Repeat these steps until the number of dropped "
+"bars corresponds to the result of the addition, and click on the OK button "
+"to validate your answer."
+msgstr ""
+
+#: activities/learn_decimals/Learn_decimals.qml:96
+#, qt-format
+msgctxt "Learn_decimals|"
+msgid "Display the result of: %1 - %2"
+msgstr ""
+
+#: activities/learn_decimals/Learn_decimals.qml:96
+#, qt-format
+msgctxt "Learn_decimals|"
+msgid "Display the result of: %1 + %2"
+msgstr ""
+
+#: activities/learn_decimals/Learn_decimals.qml:96
+#, qt-format
+msgctxt "Learn_decimals|"
+msgid "Display the number: %1"
+msgstr ""
+
+#: activities/learn_decimals/Learn_decimals.qml:503
+#, qt-format
+msgctxt "Learn_decimals|"
+msgid "Enter the result: %1"
+msgstr ""
+
+#: activities/learn_decimals/resource/1/Data.qml:13
+msgctxt "Data|"
+msgid "Basic decimal numbers."
+msgstr ""
+
+#: activities/learn_decimals/resource/TutorialBase.qml:55
+#, qt-format
+msgctxt "TutorialBase|"
+msgid "Display the result of: %1 - %2"
+msgstr ""
+
+#: activities/learn_decimals/resource/TutorialBase.qml:58
+#, qt-format
+msgctxt "TutorialBase|"
+msgid "Display the result of: %1 + %2"
+msgstr ""
+
+#: activities/learn_decimals/resource/TutorialBase.qml:61
+#, qt-format
+msgctxt "TutorialBase|"
+msgid "Display the number: %1"
+msgstr ""
+
+#: activities/learn_decimals/resource/TutorialBase.qml:293
+msgctxt "TutorialBase|"
+msgid "Enter the result: "
+msgstr ""
+
+#. Activity title
+#: activities/learn_decimals_additions/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Addition with decimal numbers"
+msgstr ""
+
+#. Help title
+#: activities/learn_decimals_additions/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Learn addition with decimal number."
+msgstr ""
+
+#. Help goal
+#: activities/learn_decimals_additions/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid ""
+"Learn addition with decimal number by counting how many squares needed to "
+"represent the result."
+msgstr ""
+
+#. Help manual
+#: activities/learn_decimals_additions/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"An addition with two decimal numbers is displayed. Drag the arrow to select "
+"a part of the bar, and drag the selected part of the bar to the empty area. "
+"Repeat these steps until the number of dropped bars corresponds to the "
+"result of the addition, and click on the OK button to validate your answer."
+msgstr ""
+
+#: activities/learn_decimals_additions/resource/1/Data.qml:13
+msgctxt "Data|"
+msgid "Add decimal numbers up to 1."
+msgstr ""
+
+#: activities/learn_decimals_additions/resource/2/Data.qml:13
+msgctxt "Data|"
+msgid "Add decimal numbers up to 3."
+msgstr ""
+
+#: activities/learn_decimals_additions/resource/3/Data.qml:13
+msgctxt "Data|"
+msgid "Add decimal numbers up to 5."
+msgstr ""
+
+#. Activity title
+#: activities/learn_decimals_subtractions/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Subtraction with decimal numbers"
+msgstr ""
+
+#. Help title
+#. ----------
+#. Help goal
+#: activities/learn_decimals_subtractions/ActivityInfo.qml:16
+#: activities/learn_decimals_subtractions/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Learn subtraction with decimal number."
+msgstr ""
+
+#. Help manual
+#: activities/learn_decimals_subtractions/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"A subtraction with two decimal numbers is displayed, the first number from "
+"the subtraction is represented with bars. Click on the squares to represent "
+"the result of the subtraction."
+msgstr ""
+
+#: activities/learn_decimals_subtractions/resource/1/Data.qml:13
+msgctxt "Data|"
+msgid "Subtract decimal numbers up to 1."
+msgstr ""
+
+#: activities/learn_decimals_subtractions/resource/2/Data.qml:13
+msgctxt "Data|"
+msgid "Subtract decimal numbers up to 3."
+msgstr ""
+
+#: activities/learn_decimals_subtractions/resource/3/Data.qml:13
+msgctxt "Data|"
+msgid "Subtract decimal numbers up to 5."
 msgstr ""
 
 #: activities/learn_digits/ActivityConfig.qml:23
