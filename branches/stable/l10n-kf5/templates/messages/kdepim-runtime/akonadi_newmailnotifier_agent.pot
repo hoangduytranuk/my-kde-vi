@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-09 03:10+0100\n"
+"POT-Creation-Date: 2021-06-30 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: newmailnotifieragent.cpp:331
+#: newmailnotifieragent.cpp:336
 #, kde-format
 msgctxt ""
 "%2 = name of mail folder; %3 = name of Akonadi POP3/IMAP/etc resource (as "
@@ -28,7 +28,7 @@ msgid_plural "%1 new emails in %2 from \"%3\""
 msgstr[0] ""
 msgstr[1] ""
 
-#: newmailnotifieragent.cpp:349
+#: newmailnotifieragent.cpp:354
 #, kde-format
 msgid "New mail arrived"
 msgstr ""
@@ -37,6 +37,11 @@ msgstr ""
 #, kde-format
 msgctxt "%f is a variable for agent. Do not change it"
 msgid "A message was received from %f"
+msgstr ""
+
+#: newmailnotifierreplymessagejob.cpp:40 newmailnotifiershowmessagejob.cpp:40
+#, kde-format
+msgid "Unable to start KMail application."
 msgstr ""
 
 #: newmailnotifierselectcollectionwidget.cpp:91
@@ -59,156 +64,166 @@ msgstr ""
 msgid "&Unselect All"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:29
+#: newmailnotifiersettingswidget.cpp:30
 #, kde-format
 msgid ""
 "<qt><p>Here you can define message. You can use:</p><ul><li>%s set subject</"
 "li><li>%f set from</li></ul></qt>"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:49
+#: newmailnotifiersettingswidget.cpp:50
 #, kde-format
 msgid "Choose which fields to show:"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:54
+#: newmailnotifiersettingswidget.cpp:55
 #, kde-format
 msgid "Show Photo"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:58
+#: newmailnotifiersettingswidget.cpp:59
 #, kde-format
 msgid "Show From"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:62
+#: newmailnotifiersettingswidget.cpp:63
 #, kde-format
 msgid "Show Subject"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:66
+#: newmailnotifiersettingswidget.cpp:67
 #, kde-format
 msgid "Show Folders"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:70
+#: newmailnotifiersettingswidget.cpp:71
 #, kde-format
 msgid "Do not notify when email was sent by me"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:74
-#, kde-format
-msgid "Show Action Buttons"
-msgstr ""
-
-#: newmailnotifiersettingswidget.cpp:78
+#: newmailnotifiersettingswidget.cpp:75
 #, kde-format
 msgid "Keep Persistent Notification"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:83
+#: newmailnotifiersettingswidget.cpp:79
+#, kde-format
+msgid "Show Action Buttons"
+msgstr ""
+
+#: newmailnotifiersettingswidget.cpp:87
+#, kde-format
+msgid "Reply Mail"
+msgstr ""
+
+#: newmailnotifiersettingswidget.cpp:95 specialnotifierjob.cpp:156
+#, kde-format
+msgid "Reply to Author"
+msgstr ""
+
+#: newmailnotifiersettingswidget.cpp:95 specialnotifierjob.cpp:159
+#, kde-format
+msgid "Reply to All"
+msgstr ""
+
+#: newmailnotifiersettingswidget.cpp:104
 #, kde-format
 msgid "Display"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:88
+#: newmailnotifiersettingswidget.cpp:109
 #, kde-format
 msgid "Enabled"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:92
+#: newmailnotifiersettingswidget.cpp:113
 #, kde-format
 msgid "<a href=\"whatsthis\">How does this work?</a>"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:101
+#: newmailnotifiersettingswidget.cpp:122
 #, kde-format
 msgid "Message:"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:111
+#: newmailnotifiersettingswidget.cpp:132
 #, kde-format
 msgid "Text to Speak"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:117
+#: newmailnotifiersettingswidget.cpp:138
 #, kde-format
 msgid "Notify"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:121
+#: newmailnotifiersettingswidget.cpp:142
 #, kde-format
 msgid "Folders"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:124
+#: newmailnotifiersettingswidget.cpp:145
 #, kde-format
 msgid "New Mail Notifier Agent"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:126
+#: newmailnotifiersettingswidget.cpp:147
 #, kde-format
 msgid "Notify about new mails."
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:128
+#: newmailnotifiersettingswidget.cpp:149
 #, kde-format
-msgid "Copyright (C) 2013-2020 Laurent Montel"
+msgid "Copyright (C) 2013-2021 Laurent Montel"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:131
+#: newmailnotifiersettingswidget.cpp:152
 #, kde-format
 msgid "Laurent Montel"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:131
+#: newmailnotifiersettingswidget.cpp:152
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:132
+#: newmailnotifiersettingswidget.cpp:153
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: newmailnotifiersettingswidget.cpp:132
+#: newmailnotifiersettingswidget.cpp:153
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: newmailnotifiershowmessagejob.cpp:41
-#, kde-format
-msgid "Unable to start KMail application."
-msgstr ""
-
-#: specialnotifierjob.cpp:117
+#: specialnotifierjob.cpp:118
 #, kde-format
 msgid "From: %1"
 msgstr ""
 
-#: specialnotifierjob.cpp:125
+#: specialnotifierjob.cpp:126
 #, kde-format
 msgid "Subject: %1"
 msgstr ""
 
-#: specialnotifierjob.cpp:128
+#: specialnotifierjob.cpp:129
 #, kde-format
 msgid "In: %1"
 msgstr ""
 
-#: specialnotifierjob.cpp:151
+#: specialnotifierjob.cpp:152
 #, kde-format
 msgid "Show mail..."
 msgstr ""
 
-#: specialnotifierjob.cpp:151
+#: specialnotifierjob.cpp:152
 #, kde-format
 msgid "Mark As Read"
 msgstr ""
 
-#: specialnotifierjob.cpp:151
+#: specialnotifierjob.cpp:152
 #, kde-format
 msgid "Delete"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-26 02:57+0100\n"
+"POT-Creation-Date: 2021-06-18 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -46,6 +46,19 @@ msgstr ""
 msgid "Select the sound to play"
 msgstr ""
 
+#: lockdevice/lockdeviceplugin-win.cpp:63
+#: lockdevice/lockdeviceplugin.cpp:90
+#, kde-format
+msgid "Remote lock successful"
+msgstr ""
+
+#: lockdevice/lockdeviceplugin-win.cpp:65
+#: lockdevice/lockdeviceplugin-win.cpp:66
+#: lockdevice/lockdeviceplugin.cpp:92 lockdevice/lockdeviceplugin.cpp:93
+#, kde-format
+msgid "Remote lock failed"
+msgstr ""
+
 #: mousepad/waylandremoteinput.cpp:46 sftp/sftpplugin-win.cpp:71
 #, kde-format
 msgid "KDE Connect"
@@ -56,7 +69,19 @@ msgstr ""
 msgid "Use your phone as a touchpad and keyboard"
 msgstr ""
 
-#: notifications/notification.cpp:118
+#: notifications/notification.cpp:127
+#, kde-format
+msgctxt "@action:button"
+msgid "Reply"
+msgstr ""
+
+#: notifications/notification.cpp:128
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Reply to %1..."
+msgstr ""
+
+#: notifications/notification.cpp:134
 #, kde-format
 msgid "Reply"
 msgstr ""
@@ -125,57 +150,82 @@ msgstr ""
 msgid "Ping!"
 msgstr ""
 
-#: runcommand/runcommand_config.cpp:38
-#, kde-format
-msgid "Shutdown"
-msgstr ""
-
-#: runcommand/runcommand_config.cpp:39
-#, kde-format
-msgid "Reboot"
-msgstr ""
-
 #: runcommand/runcommand_config.cpp:40
 #, kde-format
-msgid "Suspend"
+msgid "Schedule a shutdown"
 msgstr ""
 
 #: runcommand/runcommand_config.cpp:41
 #, kde-format
-msgid "Maximum Brightness"
+msgid "Shutdown now"
 msgstr ""
 
 #: runcommand/runcommand_config.cpp:42
 #, kde-format
-msgid "Lock Screen"
+msgid "Cancel last shutdown"
 msgstr ""
 
 #: runcommand/runcommand_config.cpp:43
 #, kde-format
+msgid "Schedule a reboot"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:44 runcommand/runcommand_config.cpp:50
+#, kde-format
+msgid "Suspend"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:45 runcommand/runcommand_config.cpp:52
+#, kde-format
+msgid "Lock Screen"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:46
+#, kde-format
+msgid "Say Hello"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:48
+#, kde-format
+msgid "Shutdown"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:49
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:51
+#, kde-format
+msgid "Maximum Brightness"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:53
+#, kde-format
 msgid "Unlock Screen"
 msgstr ""
 
-#: runcommand/runcommand_config.cpp:44
+#: runcommand/runcommand_config.cpp:54
 #, kde-format
 msgid "Close All Vaults"
 msgstr ""
 
-#: runcommand/runcommand_config.cpp:45
+#: runcommand/runcommand_config.cpp:55
 #, kde-format
 msgid "Forcefully Close All Vaults"
 msgstr ""
 
-#: runcommand/runcommand_config.cpp:52
+#: runcommand/runcommand_config.cpp:63
 #, kde-format
 msgid "Sample commands"
 msgstr ""
 
-#: runcommand/runcommand_config.cpp:61 sendnotifications/notifyingapplicationmodel.cpp:194
+#: runcommand/runcommand_config.cpp:72 sendnotifications/notifyingapplicationmodel.cpp:194
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: runcommand/runcommand_config.cpp:61
+#: runcommand/runcommand_config.cpp:72
 #, kde-format
 msgid "Command"
 msgstr ""
@@ -277,27 +327,27 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: sftp/mounter.cpp:171
+#: sftp/mounter.cpp:175
 #, kde-format
 msgid "Failed to start sshfs"
 msgstr ""
 
-#: sftp/mounter.cpp:175
+#: sftp/mounter.cpp:179
 #, kde-format
 msgid "sshfs process crashed"
 msgstr ""
 
-#: sftp/mounter.cpp:179
+#: sftp/mounter.cpp:183
 #, kde-format
 msgid "Unknown error in sshfs"
 msgstr ""
 
-#: sftp/mounter.cpp:193
+#: sftp/mounter.cpp:197
 #, kde-format
 msgid "Error when accessing filesystem. sshfs finished with exit code %0"
 msgstr ""
 
-#: sftp/mounter.cpp:202
+#: sftp/mounter.cpp:206
 #, kde-format
 msgid "Failed to mount filesystem: device not responding"
 msgstr ""

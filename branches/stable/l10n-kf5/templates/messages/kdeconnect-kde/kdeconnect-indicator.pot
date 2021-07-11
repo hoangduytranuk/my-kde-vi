@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-20 01:44+0000\n"
+"POT-Creation-Date: 2021-07-03 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,52 +28,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: deviceindicator.cpp:38
-#, kde-format
-msgid "No Battery"
-msgstr ""
-
-#: deviceindicator.cpp:40
-#, kde-format
-msgid "Battery: %1% (Charging)"
-msgstr ""
-
-#: deviceindicator.cpp:42
-#, kde-format
-msgid "Battery: %1%"
-msgstr ""
-
-#: deviceindicator.cpp:75
+#: deviceindicator.cpp:49
 #, kde-format
 msgid "Browse device"
 msgstr ""
 
-#: deviceindicator.cpp:83
+#: deviceindicator.cpp:58
 #, kde-format
 msgid "Ring device"
 msgstr ""
 
-#: deviceindicator.cpp:91
+#: deviceindicator.cpp:67
 #, kde-format
-msgid "Send file"
+msgid "Get a photo"
 msgstr ""
 
-#: deviceindicator.cpp:93
+#: deviceindicator.cpp:78
 #, kde-format
-msgid "Select file to send to '%1'"
+msgid "Send a file/URL"
 msgstr ""
 
-#: deviceindicator.cpp:107
+#: deviceindicator.cpp:88
 #, kde-format
 msgid "SMS Messages..."
 msgstr ""
 
-#: deviceindicator.cpp:114
+#: deviceindicator.cpp:96
 #, kde-format
 msgid "Run command"
 msgstr ""
 
-#: deviceindicator.cpp:116
+#: deviceindicator.cpp:98
 #, kde-format
 msgid "Add commands"
 msgstr ""
@@ -115,49 +100,80 @@ msgstr ""
 msgid "Loading modules"
 msgstr ""
 
-#: main.cpp:36
+#: main.cpp:38
 #, kde-format
 msgid "KDE Connect Indicator"
 msgstr ""
 
-#: main.cpp:38
+#: main.cpp:40
 #, kde-format
 msgid "KDE Connect Indicator tool"
 msgstr ""
 
-#: main.cpp:40
+#: main.cpp:42
 #, kde-format
 msgid "(C) 2016 Aleix Pol Gonzalez"
 msgstr ""
 
-#: main.cpp:63
+#: main.cpp:77
 #, kde-format
 msgid "Configure..."
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:97
 #, kde-format
 msgid "Pairing requests"
 msgstr ""
 
-#: main.cpp:84
+#: main.cpp:102
 #, kde-format
 msgid "Pair"
 msgstr ""
 
-#: main.cpp:85
+#: main.cpp:103
 #, kde-format
 msgid "Reject"
 msgstr ""
 
-#: main.cpp:91 main.cpp:105
+#: main.cpp:109 main.cpp:123
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: main.cpp:127 main.cpp:141
+#: main.cpp:140 main.cpp:162
 #, kde-format
 msgid "%1 device connected"
 msgid_plural "%1 devices connected"
 msgstr[0] ""
 msgstr[1] ""
+
+#: systray_actions/battery_action.cpp:28
+#, kde-format
+msgid "No Battery"
+msgstr ""
+
+#: systray_actions/battery_action.cpp:30
+#, kde-format
+msgid "Battery: %1% (Charging)"
+msgstr ""
+
+#: systray_actions/battery_action.cpp:32
+#, kde-format
+msgid "Battery: %1%"
+msgstr ""
+
+#: systray_actions/connectivity_action.cpp:30
+#, kde-format
+msgctxt ""
+"The fallback text to display in case the remote device does not have a "
+"cellular connection"
+msgid "No Cellular Connectivity"
+msgstr ""
+
+#: systray_actions/connectivity_action.cpp:32
+#, kde-format
+msgctxt ""
+"Display the cellular connection type and an approximate percentage of signal "
+"strength"
+msgid "%1  | ~%2%"
+msgstr ""

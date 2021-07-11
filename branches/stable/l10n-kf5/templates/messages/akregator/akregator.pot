@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-12 01:41+0000\n"
+"POT-Creation-Date: 2021-06-22 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -87,9 +87,15 @@ msgid "Send Link Address"
 msgstr ""
 
 #: ./src/formatter/html/5.2/combinedview.html:119
-#: src/mainwidget.cpp:1038 src/urlhandler/webengine/urlhandlerwebengine.cpp:96
+#: src/mainwidget.cpp:1041 src/urlhandler/webengine/urlhandlerwebengine.cpp:96
 #, kde-format
 msgid "Delete Article"
+msgstr ""
+
+#: ./src/formatter/html/5.2/normalview.html:84
+msgid ""
+"<b>Note:</b> For security reasons, external reference is blocked (See "
+"configure dialog)."
 msgstr ""
 
 #: configuration/akregator_config_advanced.cpp:30
@@ -160,20 +166,27 @@ msgid "Configure Feeds"
 msgstr ""
 
 #: configuration/akregator_config_plugins.cpp:27
+#: configuration/akregator_config_security.cpp:29
 #, kde-format
 msgid "Configure Plugins"
 msgstr ""
 
 #: configuration/akregator_config_plugins.cpp:31
 #, kde-format
-msgid "(c), 2016-2020 Laurent Montel"
+msgid "(c), 2016-2021 Laurent Montel"
 msgstr ""
 
 #: configuration/akregator_config_plugins.cpp:33
+#: configuration/akregator_config_security.cpp:35
 #: configuration/akregator_config_userfeedback.cpp:34
 #: src/aboutdata.cpp:28
 #, kde-format
 msgid "Laurent Montel"
+msgstr ""
+
+#: configuration/akregator_config_security.cpp:33
+#, kde-format
+msgid "(c), 2021 Laurent Montel"
 msgstr ""
 
 #: configuration/akregator_config_userfeedback.cpp:28
@@ -183,7 +196,7 @@ msgstr ""
 
 #: configuration/akregator_config_userfeedback.cpp:32
 #, kde-format
-msgid "(c), 2020 Laurent Montel"
+msgid "(c), 2020-2021 Laurent Montel"
 msgstr ""
 
 #: configuration/akregatorconfigurepluginlistwidget.cpp:53
@@ -355,7 +368,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
 #: configuration/ui/settings_browser.ui:28
 #: configuration/ui/settings_browser.ui:54
-#: src/actions/actionmanagerimpl.cpp:317
+#: src/actions/actionmanagerimpl.cpp:324
 #, kde-format
 msgid "Open in Tab"
 msgstr ""
@@ -364,7 +377,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
 #: configuration/ui/settings_browser.ui:33
 #: configuration/ui/settings_browser.ui:59
-#: src/actions/actionmanagerimpl.cpp:323
+#: src/actions/actionmanagerimpl.cpp:330
 #, kde-format
 msgid "Open in Background Tab"
 msgstr ""
@@ -373,7 +386,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
 #: configuration/ui/settings_browser.ui:38
 #: configuration/ui/settings_browser.ui:64
-#: src/actions/actionmanagerimpl.cpp:329
+#: src/actions/actionmanagerimpl.cpp:336
 #, kde-format
 msgid "Open in External Browser"
 msgstr ""
@@ -417,7 +430,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysShowTabBar)
 #. i18n: ectx: label, entry, group (Browser)
 #: configuration/ui/settings_browser.ui:116
-#: interfaces/akregator.kcfg:184
+#: interfaces/akregator.kcfg:192
 #, kde-format
 msgid "Always show the tab bar"
 msgstr ""
@@ -431,7 +444,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_NewWindowInTab)
 #. i18n: ectx: label, entry, group (Browser)
 #: configuration/ui/settings_browser.ui:130
-#: interfaces/akregator.kcfg:194
+#: interfaces/akregator.kcfg:202
 #, kde-format
 msgid "Open links in new tab instead of in new window"
 msgstr ""
@@ -451,7 +464,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableJavascript)
 #. i18n: ectx: label, entry, group (Browser)
 #: configuration/ui/settings_browser.ui:153
-#: interfaces/akregator.kcfg:180
+#: interfaces/akregator.kcfg:188
 #, kde-format
 msgid "Enable Javascript"
 msgstr ""
@@ -495,66 +508,78 @@ msgstr ""
 msgid "Hide feeds with no unread articles"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LockFeedsInPlace)
+#: configuration/ui/settings_general.ui:57
+#, kde-format
+msgid "Lock feeds in place"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoExpandFolders)
 #. i18n: ectx: whatsthis, entry, group (View)
-#: configuration/ui/settings_general.ui:57
-#: interfaces/akregator.kcfg:15
+#: configuration/ui/settings_general.ui:64
+#: interfaces/akregator.kcfg:20
 #, kde-format
 msgid "Auto-expand folders containing unread articles"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseNotifications)
-#: configuration/ui/settings_general.ui:67
+#: configuration/ui/settings_general.ui:74
 #, kde-format
 msgid "Select this if you want to get notified when there are new articles."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseNotifications)
-#: configuration/ui/settings_general.ui:70
+#: configuration/ui/settings_general.ui:77
 #, kde-format
 msgid "Use &notifications for all feeds"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseIntervalFetch)
-#: configuration/ui/settings_general.ui:77
+#: configuration/ui/settings_general.ui:84
 #, kde-format
 msgid "&Use interval fetching"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, autoFetchIntervalLabel)
-#: configuration/ui/settings_general.ui:105
+#: configuration/ui/settings_general.ui:112
 #, kde-format
 msgid "Fetch feeds every:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: configuration/ui/settings_general.ui:146
+#: configuration/ui/settings_general.ui:153
 #, kde-format
 msgid "Startup"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MarkAllFeedsReadOnStartup)
-#: configuration/ui/settings_general.ui:152
+#: configuration/ui/settings_general.ui:159
 #, kde-format
 msgid "Mark &all feeds as read on startup"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FetchOnStartup)
-#: configuration/ui/settings_general.ui:159
+#: configuration/ui/settings_general.ui:166
 #, kde-format
 msgid "Fetch all fee&ds on startup"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: configuration/ui/settings_general.ui:169
+#: configuration/ui/settings_general.ui:176
 #, kde-format
 msgid "Network"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseHTMLCache)
-#: configuration/ui/settings_general.ui:175
+#: configuration/ui/settings_general.ui:182
 #, kde-format
 msgid "Use the &browser cache (less network traffic)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LoadExternalReferences)
+#: configuration/ui/settings_security.ui:17
+#, kde-format
+msgid "Allow feed to load external references from internet."
 msgstr ""
 
 #: export/akregatorstorageexporter.cpp:276
@@ -571,167 +596,179 @@ msgstr ""
 #. i18n: ectx: label, entry, group (View)
 #: interfaces/akregator.kcfg:14
 #, kde-format
+msgid "Prevent feeds from being moved in the list"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:15
+#, kde-format
+msgid "Locks feeds where they are"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:19
+#, kde-format
 msgid "Auto-Expand folders with unread articles"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:19 src/actions/actionmanagerimpl.cpp:311
+#: interfaces/akregator.kcfg:24 src/actions/actionmanagerimpl.cpp:318
 #, kde-format
 msgid "Show Quick Filter"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (View)
-#: interfaces/akregator.kcfg:20
+#: interfaces/akregator.kcfg:25
 #, kde-format
 msgid "Show Quick Filter Bar"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:24
+#: interfaces/akregator.kcfg:29
 #, kde-format
 msgid "Status Filter"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (View)
-#: interfaces/akregator.kcfg:25
+#: interfaces/akregator.kcfg:30
 #, kde-format
 msgid "Stores the last status filter setting"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:29
+#: interfaces/akregator.kcfg:34
 #, kde-format
 msgid "Text Filter"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (View)
-#: interfaces/akregator.kcfg:30
+#: interfaces/akregator.kcfg:35
 #, kde-format
 msgid "Stores the last search line text"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:33
+#: interfaces/akregator.kcfg:38
 #, kde-format
 msgid "View Mode"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (View)
-#: interfaces/akregator.kcfg:34
+#: interfaces/akregator.kcfg:39
 #, kde-format
 msgid "Article display mode."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:38
+#: interfaces/akregator.kcfg:43
 #, kde-format
 msgid "Sizes for first splitter"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (View)
-#: interfaces/akregator.kcfg:39
+#: interfaces/akregator.kcfg:44
 #, kde-format
 msgid "First (usually vertical) splitter widget sizes."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:43
+#: interfaces/akregator.kcfg:48
 #, kde-format
 msgid "Sizes for second splitter"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (View)
-#: interfaces/akregator.kcfg:44
+#: interfaces/akregator.kcfg:49
 #, kde-format
 msgid "Second (usually horizontal) splitter widget sizes."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:85
+#: interfaces/akregator.kcfg:93
 #, kde-format
 msgid "Archive Mode"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:89
+#: interfaces/akregator.kcfg:97
 #, kde-format
 msgid "Keep All Articles"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:90
+#: interfaces/akregator.kcfg:98
 #, kde-format
 msgid "Save an unlimited number of articles."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:93
+#: interfaces/akregator.kcfg:101
 #, kde-format
 msgid "Limit Number of Articles"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:94
+#: interfaces/akregator.kcfg:102
 #, kde-format
 msgid "Limit the number of articles in a feed"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:97
+#: interfaces/akregator.kcfg:105
 #, kde-format
 msgid "Delete Expired Articles"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:98
+#: interfaces/akregator.kcfg:106
 #, kde-format
 msgid "Delete expired articles"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:101
+#: interfaces/akregator.kcfg:109
 #, kde-format
 msgid "Disable Archiving"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:102
+#: interfaces/akregator.kcfg:110
 #, kde-format
 msgid "Do not save any articles"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:107
+#: interfaces/akregator.kcfg:115
 #, kde-format
 msgid "Expiry Age"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:108
+#: interfaces/akregator.kcfg:116
 #, kde-format
 msgid "Default expiry age for articles in days."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:112
+#: interfaces/akregator.kcfg:120
 #, kde-format
 msgid "Article Limit"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:113
+#: interfaces/akregator.kcfg:121
 #, kde-format
 msgid "Number of articles to keep per feed."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Archive)
-#: interfaces/akregator.kcfg:117
+#: interfaces/akregator.kcfg:125
 #, kde-format
 msgid "Do Not Expire Important Articles"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Archive)
-#: interfaces/akregator.kcfg:118
+#: interfaces/akregator.kcfg:126
 #, kde-format
 msgid ""
 "When this option is enabled, articles you marked as important will not be "
@@ -739,25 +776,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Network)
-#: interfaces/akregator.kcfg:124
+#: interfaces/akregator.kcfg:132
 #, kde-format
 msgid "Concurrent Fetches"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: interfaces/akregator.kcfg:125
+#: interfaces/akregator.kcfg:133
 #, kde-format
 msgid "Number of concurrent fetches"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Network)
-#: interfaces/akregator.kcfg:129
+#: interfaces/akregator.kcfg:137
 #, kde-format
 msgid "Use HTML Cache"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: interfaces/akregator.kcfg:130
+#: interfaces/akregator.kcfg:138
 #, kde-format
 msgid ""
 "Use the KDE-wide HTML cache settings when downloading feeds, to avoid "
@@ -765,7 +802,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Network)
-#: interfaces/akregator.kcfg:134
+#: interfaces/akregator.kcfg:142
 #, kde-format
 msgid ""
 "This option allows user to specify custom user-agent string instead of using "
@@ -774,109 +811,109 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:140
+#: interfaces/akregator.kcfg:148
 #, kde-format
 msgid "Fetch on startup"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:141
+#: interfaces/akregator.kcfg:149
 #, kde-format
 msgid "Fetch feedlist on startup."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:145
+#: interfaces/akregator.kcfg:153
 #, kde-format
 msgid "Mark all feeds as read on startup"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:146
+#: interfaces/akregator.kcfg:154
 #, kde-format
 msgid "Mark all feeds as read on startup."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:150
+#: interfaces/akregator.kcfg:158
 #, kde-format
 msgid "Use interval fetching"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:151
+#: interfaces/akregator.kcfg:159
 #, no-c-format, kde-format
 msgid "Fetch all feeds every %1 minutes."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:155
+#: interfaces/akregator.kcfg:163
 #, kde-format
 msgid "Interval for autofetching"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:156
+#: interfaces/akregator.kcfg:164
 #, kde-format
 msgid "Interval for autofetching in minutes."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:160
+#: interfaces/akregator.kcfg:168
 #, kde-format
 msgid "Use notifications"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:161
+#: interfaces/akregator.kcfg:169
 #, kde-format
 msgid "Specifies if the balloon notifications are used or not."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:165
+#: interfaces/akregator.kcfg:173
 #, kde-format
 msgid "Show tray icon"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:166
+#: interfaces/akregator.kcfg:174
 #, kde-format
 msgid "Specifies if the tray icon is shown or not."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General)
-#: interfaces/akregator.kcfg:170
+#: interfaces/akregator.kcfg:178
 #, kde-format
 msgid "Show Unread In Taskbar"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (General)
-#: interfaces/akregator.kcfg:171
+#: interfaces/akregator.kcfg:179
 #, kde-format
 msgid "Specifies if we show unread article in taskbar."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:185
+#: interfaces/akregator.kcfg:193
 #, kde-format
 msgid "Always show the tab bar, even when only one tab is open"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:189
+#: interfaces/akregator.kcfg:197
 #, kde-format
 msgid "Show close buttons on tabs"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:190
+#: interfaces/akregator.kcfg:198
 #, kde-format
 msgid "Show close buttons on tabs instead of icons"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:195
+#: interfaces/akregator.kcfg:203
 #, kde-format
 msgid ""
 "Open a link which would normally open in a new window (external browser) in "
@@ -884,74 +921,74 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:199
+#: interfaces/akregator.kcfg:207
 #, kde-format
 msgid "Use default KDE web browser"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:200
+#: interfaces/akregator.kcfg:208
 #, kde-format
 msgid "Use KDE web browser when opening in external browser."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Browser)
-#: interfaces/akregator.kcfg:204
+#: interfaces/akregator.kcfg:212
 #, kde-format
 msgid "Use this command:"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:205
+#: interfaces/akregator.kcfg:213
 #, kde-format
 msgid "Use the specified command when opening in external browser."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:209
+#: interfaces/akregator.kcfg:217
 #, no-c-format, kde-format
 msgid "Command to launch external browser. URL will substitute for %u."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:213
+#: interfaces/akregator.kcfg:221
 #, kde-format
 msgid "What the click with left mouse button should do."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Browser)
-#: interfaces/akregator.kcfg:222
+#: interfaces/akregator.kcfg:230
 #, kde-format
 msgid "What the click with middle mouse button should do."
 msgstr ""
 
 #. i18n: ectx: label, entry, group (Advanced)
-#: interfaces/akregator.kcfg:247
+#: interfaces/akregator.kcfg:255
 #, kde-format
 msgid "Archive Backend"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (UseMarkReadDelay), group (Advanced)
-#: interfaces/akregator.kcfg:251
+#: interfaces/akregator.kcfg:259
 #, kde-format
 msgid "Whether to delay before marking an article as read upon selecting it."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (MarkReadDelay), group (Advanced)
-#: interfaces/akregator.kcfg:255
+#: interfaces/akregator.kcfg:263
 #, kde-format
 msgid ""
 "Configurable delay between selecting an article and it being marked as read."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry, group (Advanced)
-#: interfaces/akregator.kcfg:259
+#: interfaces/akregator.kcfg:267
 #, kde-format
 msgid "Resets the quick filter when changing feeds."
 msgstr ""
 
 #: kontactplugin/akregator_plugin.cpp:27 src/aboutdata.cpp:19
-#: src/akregator_part.cpp:152 src/articleviewer-ng/webengine/articleviewerwebengine.cpp:126
+#: src/akregator_part.cpp:158 src/articleviewer-ng/webengine/articleviewerwebengine.cpp:148
 #: src/trayicon.cpp:42 src/trayicon.cpp:43 src/trayicon.cpp:57
 #, kde-format
 msgid "Akregator"
@@ -1126,22 +1163,22 @@ msgstr ""
 msgid "Gentoo Ebuild"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:62 src/actions/actionmanagerimpl.cpp:280
+#: src/actions/actionmanagerimpl.cpp:62 src/actions/actionmanagerimpl.cpp:287
 #, kde-format
 msgid "&Fetch Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:63 src/actions/actionmanagerimpl.cpp:236
+#: src/actions/actionmanagerimpl.cpp:63 src/actions/actionmanagerimpl.cpp:243
 #, kde-format
 msgid "&Delete Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:64 src/actions/actionmanagerimpl.cpp:242
+#: src/actions/actionmanagerimpl.cpp:64 src/actions/actionmanagerimpl.cpp:249
 #, kde-format
 msgid "&Edit Feed..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:65 src/actions/actionmanagerimpl.cpp:299
+#: src/actions/actionmanagerimpl.cpp:65 src/actions/actionmanagerimpl.cpp:306
 #, kde-format
 msgid "&Mark Feed as Read"
 msgstr ""
@@ -1166,305 +1203,310 @@ msgstr ""
 msgid "&Mark Feeds as Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:184
+#: src/actions/actionmanagerimpl.cpp:191
 #, kde-format
 msgid "&Import Feeds..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:188
+#: src/actions/actionmanagerimpl.cpp:195
 #, kde-format
 msgid "&Export Feeds..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:193
+#: src/actions/actionmanagerimpl.cpp:200
 #, kde-format
 msgid "&Configure Akregator..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:212
+#: src/actions/actionmanagerimpl.cpp:219
 #, kde-format
 msgid "&Open Homepage"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:218
+#: src/actions/actionmanagerimpl.cpp:225
 #, kde-format
 msgid "Reload All Tabs"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:224
+#: src/actions/actionmanagerimpl.cpp:231
 #, kde-format
 msgid "&Add Feed..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:230
+#: src/actions/actionmanagerimpl.cpp:237
 #, kde-format
 msgid "Ne&w Folder..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:255
+#: src/actions/actionmanagerimpl.cpp:262
 #, kde-format
 msgid "&Normal View"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:264
+#: src/actions/actionmanagerimpl.cpp:271
 #, kde-format
 msgid "&Widescreen View"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:273
+#: src/actions/actionmanagerimpl.cpp:280
 #, kde-format
 msgid "C&ombined View"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:286
+#: src/actions/actionmanagerimpl.cpp:293
 #, kde-format
 msgid "Fe&tch All Feeds"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:292
+#: src/actions/actionmanagerimpl.cpp:299
 #, kde-format
 msgid "C&ancel Feed Fetches"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:305
+#: src/actions/actionmanagerimpl.cpp:312
 #, kde-format
 msgid "Ma&rk All Feeds as Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:334 src/actions/actionmanagerimpl.cpp:593
+#: src/actions/actionmanagerimpl.cpp:341 src/actions/actionmanagerimpl.cpp:606
 #, kde-format
 msgid "Copy Link Address"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:339
+#: src/actions/actionmanagerimpl.cpp:346
 #, kde-format
 msgid "Pre&vious Unread Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:345
+#: src/actions/actionmanagerimpl.cpp:352
 #, kde-format
 msgid "Ne&xt Unread Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:353
+#: src/actions/actionmanagerimpl.cpp:360
 #, kde-format
 msgid "&Delete"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:358
+#: src/actions/actionmanagerimpl.cpp:365
 #, kde-format
 msgid "&Mark As"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:362
+#: src/actions/actionmanagerimpl.cpp:369
 #, kde-format
 msgctxt "as in: mark as read"
 msgid "&Read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:364
+#: src/actions/actionmanagerimpl.cpp:371
 #, kde-format
 msgid "Mark selected article as read"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:370
+#: src/actions/actionmanagerimpl.cpp:377
 #, kde-format
 msgctxt "as in: mark as new"
 msgid "&New"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:373
+#: src/actions/actionmanagerimpl.cpp:380
 #, kde-format
 msgid "Mark selected article as new"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:378
+#: src/actions/actionmanagerimpl.cpp:385
 #, kde-format
 msgctxt "as in: mark as unread"
 msgid "&Unread"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:380
+#: src/actions/actionmanagerimpl.cpp:387
 #, kde-format
 msgid "Mark selected article as unread"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:386
+#: src/actions/actionmanagerimpl.cpp:393
 #, kde-format
 msgid "&Mark as Important"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:390
+#: src/actions/actionmanagerimpl.cpp:397
 #, kde-format
 msgid "Remove &Important Mark"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:394
+#: src/actions/actionmanagerimpl.cpp:401
 #, kde-format
 msgid "Move Node Up"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:399
+#: src/actions/actionmanagerimpl.cpp:406
 #, kde-format
 msgid "Move Node Down"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:404
+#: src/actions/actionmanagerimpl.cpp:411
 #, kde-format
 msgid "Move Node Left"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:409
+#: src/actions/actionmanagerimpl.cpp:416
 #, kde-format
 msgid "Move Node Right"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:415
+#: src/actions/actionmanagerimpl.cpp:422
 #, kde-format
 msgid "Send &Link Address..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:420
+#: src/actions/actionmanagerimpl.cpp:427
 #, kde-format
 msgid "Send &File..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:426
+#: src/actions/actionmanagerimpl.cpp:433
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:455
+#: src/actions/actionmanagerimpl.cpp:462
 #, kde-format
 msgid "&Previous Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:459
+#: src/actions/actionmanagerimpl.cpp:466
 #, kde-format
 msgid "&Next Article"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:475
+#: src/actions/actionmanagerimpl.cpp:482
 #, kde-format
 msgid "&Previous Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:480
+#: src/actions/actionmanagerimpl.cpp:487
 #, kde-format
 msgid "&Next Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:486
+#: src/actions/actionmanagerimpl.cpp:493
 #, kde-format
 msgid "N&ext Unread Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:492
+#: src/actions/actionmanagerimpl.cpp:499
 #, kde-format
 msgid "Prev&ious Unread Feed"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:497
+#: src/actions/actionmanagerimpl.cpp:504
 #, kde-format
 msgid "Go to Top of Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:502
+#: src/actions/actionmanagerimpl.cpp:509
 #, kde-format
 msgid "Go to Bottom of Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:507
+#: src/actions/actionmanagerimpl.cpp:514
 #, kde-format
 msgid "Go Left in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:512
+#: src/actions/actionmanagerimpl.cpp:519
 #, kde-format
 msgid "Go Right in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:517
+#: src/actions/actionmanagerimpl.cpp:524
 #, kde-format
 msgid "Go Up in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:522
+#: src/actions/actionmanagerimpl.cpp:529
 #, kde-format
 msgid "Go Down in Tree"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:528
+#: src/actions/actionmanagerimpl.cpp:535
 #, kde-format
 msgid "Hide Read Feeds"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:534
+#: src/actions/actionmanagerimpl.cpp:541
+#, kde-format
+msgid "Lock Feeds In Place"
+msgstr ""
+
+#: src/actions/actionmanagerimpl.cpp:547
 #, kde-format
 msgid "Auto-expand folders with unread articles"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:550
+#: src/actions/actionmanagerimpl.cpp:563
 #, kde-format
 msgid "Select Next Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:555
+#: src/actions/actionmanagerimpl.cpp:568
 #, kde-format
 msgid "Select Previous Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:561
+#: src/actions/actionmanagerimpl.cpp:574
 #, kde-format
 msgid "Detach Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:575
+#: src/actions/actionmanagerimpl.cpp:588
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:579
+#: src/actions/actionmanagerimpl.cpp:592
 #, kde-format
 msgid "Unmute"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:582
+#: src/actions/actionmanagerimpl.cpp:595
 #, kde-format
 msgid "Speak Text"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:587
+#: src/actions/actionmanagerimpl.cpp:600
 #, kde-format
 msgid "&Find in Message..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:598
+#: src/actions/actionmanagerimpl.cpp:611
 #, kde-format
 msgid "Close Tab"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:611
+#: src/actions/actionmanagerimpl.cpp:624
 #, kde-format
 msgid "Activate Tab %1"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:617
+#: src/actions/actionmanagerimpl.cpp:630
 #, kde-format
 msgid "&Save Link As..."
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:621
+#: src/actions/actionmanagerimpl.cpp:634
 #, kde-format
 msgid "Copy &Link Address"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:624
+#: src/actions/actionmanagerimpl.cpp:637
 #, kde-format
 msgid "Copy Image Location"
 msgstr ""
 
-#: src/actions/actionmanagerimpl.cpp:631
+#: src/actions/actionmanagerimpl.cpp:644
 #, kde-format
 msgid "Save Image On Disk..."
 msgstr ""
@@ -1500,121 +1542,121 @@ msgstr ""
 msgid "Feed found, downloading..."
 msgstr ""
 
-#: src/akregator_options.h:21 src/akregator_options.h:29
+#: src/akregator_options.h:20 src/akregator_options.h:28
 #, kde-format
 msgid "Add a feed with the given URL"
 msgstr ""
 
-#: src/akregator_options.h:24
+#: src/akregator_options.h:23
 #, kde-format
 msgid "When adding feeds, place them in this group"
 msgstr ""
 
-#: src/akregator_options.h:26
+#: src/akregator_options.h:25
 #, kde-format
 msgid "Hide main window on startup"
 msgstr ""
 
-#: src/akregator_options.h:31
+#: src/akregator_options.h:30
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr ""
 
-#: src/akregator_part.cpp:87
+#: src/akregator_part.cpp:93
 #, kde-format
 msgid "Feeds"
 msgstr ""
 
-#: src/akregator_part.cpp:98
+#: src/akregator_part.cpp:104
 #, kde-format
 msgid "KDE Dot News"
 msgstr ""
 
-#: src/akregator_part.cpp:103
+#: src/akregator_part.cpp:109
 #, kde-format
 msgid "Linux.com"
 msgstr ""
 
-#: src/akregator_part.cpp:108
+#: src/akregator_part.cpp:114
 #, kde-format
 msgid "Planet KDE"
 msgstr ""
 
-#: src/akregator_part.cpp:113
+#: src/akregator_part.cpp:119
 #, kde-format
 msgid "KDE Apps"
 msgstr ""
 
-#: src/akregator_part.cpp:119
+#: src/akregator_part.cpp:125
 #, kde-format
 msgid "Spanish feeds"
 msgstr ""
 
-#: src/akregator_part.cpp:123
+#: src/akregator_part.cpp:129
 #, kde-format
 msgid "Planet KDE España"
 msgstr ""
 
-#: src/akregator_part.cpp:179
+#: src/akregator_part.cpp:185
 #, kde-format
 msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
 msgstr ""
 
-#: src/akregator_part.cpp:180
+#: src/akregator_part.cpp:186
 #, kde-format
 msgid "Plugin error"
 msgstr ""
 
-#: src/akregator_part.cpp:480
+#: src/akregator_part.cpp:486
 #, kde-format
 msgid ""
 "Access denied: Cannot save feed list to <b>%1</b>. Please check your "
 "permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:481 src/akregator_part.cpp:532
+#: src/akregator_part.cpp:487 src/akregator_part.cpp:538
 #, kde-format
 msgid "Write Error"
 msgstr ""
 
-#: src/akregator_part.cpp:517
+#: src/akregator_part.cpp:523
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr ""
 
-#: src/akregator_part.cpp:517 src/command/loadfeedlistcommand.cpp:72
+#: src/akregator_part.cpp:523 src/command/loadfeedlistcommand.cpp:72
 #, kde-format
 msgid "OPML Parsing Error"
 msgstr ""
 
-#: src/akregator_part.cpp:521
+#: src/akregator_part.cpp:527
 #, kde-format
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
 "the current user."
 msgstr ""
 
-#: src/akregator_part.cpp:522 src/command/loadfeedlistcommand.cpp:146
+#: src/akregator_part.cpp:528 src/command/loadfeedlistcommand.cpp:146
 #, kde-format
 msgid "Read Error"
 msgstr ""
 
-#: src/akregator_part.cpp:532
+#: src/akregator_part.cpp:538
 #, kde-format
 msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr ""
 
-#: src/akregator_part.cpp:547 src/akregator_part.cpp:556
+#: src/akregator_part.cpp:553 src/akregator_part.cpp:562
 #, kde-format
 msgid "OPML Outlines (%1);;All Files (*)"
 msgstr ""
 
-#: src/akregator_part.cpp:686
+#: src/akregator_part.cpp:691
 #, kde-format
 msgid "Imported Folder"
 msgstr ""
 
-#: src/articlejobs.cpp:181
+#: src/articlejobs.cpp:184
 #, kde-format
 msgid "The feed to be listed was already removed."
 msgstr ""
@@ -1675,63 +1717,63 @@ msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:127
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:149
 #, kde-format
 msgid "Akregator is a KDE news feed reader."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:168
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:190
 #, kde-format
 msgid "Save As"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:355
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:377
 #, kde-format
 msgid "Disable"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:357
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:379
 #, kde-format
 msgid "Keep Enabled"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:359
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:381
 #, kde-format
 msgid "Are you sure you want to disable this introduction page?"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:360
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:382
 #, kde-format
 msgid "Disable Introduction Page"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:393
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:415
 #, kde-format
 msgid "This web site is a malware, do you want to continue to show it?"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:393
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:415
 #, kde-format
 msgid "Malware"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:403
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:425
 #, kde-format
 msgid "The network is broken."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:403
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:406
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:425
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:428
 #, kde-format
 msgid "Check Phishing Url"
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:406
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:428
 #, kde-format
 msgid "The url %1 is not valid."
 msgstr ""
 
-#: src/articleviewer-ng/webengine/articleviewerwebenginewidgetng.cpp:127
+#: src/articleviewer-ng/webengine/articleviewerwebenginewidgetng.cpp:132
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Document"
@@ -1880,31 +1922,31 @@ msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (go)
-#: src/data/akregator_part.rc:33 src/data/akregator_shell.rc:21
+#: src/data/akregator_part.rc:34 src/data/akregator_shell.rc:21
 #, kde-format
 msgid "&Go"
 msgstr ""
 
 #. i18n: ectx: Menu (feed)
-#: src/data/akregator_part.rc:46 src/data/akregator_shell.rc:26
+#: src/data/akregator_part.rc:47 src/data/akregator_shell.rc:26
 #, kde-format
 msgid "Fee&d"
 msgstr ""
 
 #. i18n: ectx: Menu (article)
-#: src/data/akregator_part.rc:59 src/data/akregator_shell.rc:31
+#: src/data/akregator_part.rc:60 src/data/akregator_shell.rc:31
 #, kde-format
 msgid "&Article"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: src/data/akregator_part.rc:76 src/data/akregator_shell.rc:36
+#: src/data/akregator_part.rc:77 src/data/akregator_shell.rc:36
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/data/akregator_part.rc:88 src/data/akregator_shell.rc:48
+#: src/data/akregator_part.rc:89 src/data/akregator_shell.rc:48
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -2062,42 +2104,42 @@ msgstr ""
 msgid "Loading completed"
 msgstr ""
 
-#: src/mainwidget.cpp:149
+#: src/mainwidget.cpp:152
 #, kde-format
 msgid "You can view multiple articles in several open tabs."
 msgstr ""
 
-#: src/mainwidget.cpp:153
+#: src/mainwidget.cpp:156
 #, kde-format
 msgid "Articles list."
 msgstr ""
 
-#: src/mainwidget.cpp:215 src/mainwidget.cpp:640
+#: src/mainwidget.cpp:218 src/mainwidget.cpp:643
 #, kde-format
 msgid "Articles"
 msgstr ""
 
-#: src/mainwidget.cpp:244
+#: src/mainwidget.cpp:247
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: src/mainwidget.cpp:812 src/mainwidget.cpp:821 src/mainwidget.cpp:1223
+#: src/mainwidget.cpp:815 src/mainwidget.cpp:824 src/mainwidget.cpp:1226
 #, kde-format
 msgid "Networking is not available."
 msgstr ""
 
-#: src/mainwidget.cpp:829
+#: src/mainwidget.cpp:832
 #, kde-format
 msgid "Fetching Feeds..."
 msgstr ""
 
-#: src/mainwidget.cpp:1028
+#: src/mainwidget.cpp:1031
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr ""
 
-#: src/mainwidget.cpp:1031
+#: src/mainwidget.cpp:1034
 #, kde-format
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural ""
@@ -2105,12 +2147,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/mainwidget.cpp:1220
+#: src/mainwidget.cpp:1223
 #, kde-format
 msgid "Networking is available now."
 msgstr ""
 
-#: src/mainwindow.cpp:81
+#: src/mainwindow.cpp:102
 #, kde-format
 msgid ""
 "Could not find the Akregator part; please check your installation.\n"
@@ -2138,47 +2180,6 @@ msgid_plural "<i>and %1 others</i>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/pluginmanager.cpp:147
-#, kde-format
-msgctxt "Name of the plugin"
-msgid "Name"
-msgstr ""
-
-#: src/pluginmanager.cpp:148
-#, kde-format
-msgctxt "Library name"
-msgid "Library"
-msgstr ""
-
-#: src/pluginmanager.cpp:149
-#, kde-format
-msgctxt "Plugin authors"
-msgid "Authors"
-msgstr ""
-
-#: src/pluginmanager.cpp:150
-#, kde-format
-msgctxt "Plugin authors' emaila addresses"
-msgid "Email"
-msgstr ""
-
-#: src/pluginmanager.cpp:152
-#, kde-format
-msgctxt "Plugin version"
-msgid "Version"
-msgstr ""
-
-#: src/pluginmanager.cpp:154
-#, kde-format
-msgctxt "Framework version plugin requires"
-msgid "Framework Version"
-msgstr ""
-
-#: src/pluginmanager.cpp:158
-#, kde-format
-msgid "Plugin Information"
-msgstr ""
-
 #: src/progressmanager.cpp:131
 #, kde-format
 msgid "Fetch completed"
@@ -2194,17 +2195,17 @@ msgstr ""
 msgid "Fetch aborted"
 msgstr ""
 
-#: src/subscription/subscriptionlistjobs.cpp:52
+#: src/subscription/subscriptionlistjobs.cpp:55
 #, kde-format
 msgid "Feed list was deleted"
 msgstr ""
 
-#: src/subscription/subscriptionlistjobs.cpp:62
+#: src/subscription/subscriptionlistjobs.cpp:65
 #, kde-format
 msgid "Node or destination folder not found"
 msgstr ""
 
-#: src/subscription/subscriptionlistjobs.cpp:69
+#: src/subscription/subscriptionlistjobs.cpp:72
 #, kde-format
 msgid "Cannot move folder %1 to its own subfolder %2"
 msgstr ""
@@ -2467,12 +2468,12 @@ msgstr ""
 msgid "Open In External Browser"
 msgstr ""
 
-#: src/widgets/searchbar.cpp:36
+#: src/widgets/searchbar.cpp:39
 #, kde-format
 msgid "Search articles..."
 msgstr ""
 
-#: src/widgets/searchbar.cpp:110
+#: src/widgets/searchbar.cpp:113
 #, kde-format
 msgid "Search articles...<%1>"
 msgstr ""
