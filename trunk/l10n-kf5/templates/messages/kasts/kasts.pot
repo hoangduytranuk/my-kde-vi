@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-09 00:18+0000\n"
+"POT-Creation-Date: 2021-07-14 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -63,7 +63,7 @@ msgstr ""
 msgid "Invalid Media File"
 msgstr ""
 
-#: fetcher.cpp:92
+#: fetcher.cpp:93
 #, kde-format
 msgid "Podcast updates not allowed due to user setting"
 msgstr ""
@@ -169,12 +169,12 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: qml/DiscoverPage.qml:65 qml/FeedDetailsPage.qml:32
+#: qml/DiscoverPage.qml:66 qml/FeedDetailsPage.qml:32
 #, kde-format
 msgid "Subscribe"
 msgstr ""
 
-#: qml/DiscoverPage.qml:65 qml/FeedDetailsPage.qml:32
+#: qml/DiscoverPage.qml:66 qml/FeedDetailsPage.qml:32
 #, kde-format
 msgid "Subscribed"
 msgstr ""
@@ -215,7 +215,7 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: qml/EntryListPage.qml:64 qml/FeedListDelegate.qml:157
+#: qml/EntryListPage.qml:64 qml/FeedListDelegate.qml:164
 #, kde-format
 msgid "Remove Podcast"
 msgstr ""
@@ -247,37 +247,39 @@ msgstr ""
 msgid "Open in Browser"
 msgstr ""
 
-#: qml/EntryPage.qml:93 qml/GenericEntryDelegate.qml:194
+#: qml/EntryPage.qml:93 qml/GenericEntryDelegate.qml:196
 #, kde-format
 msgid "Download"
 msgstr ""
 
-#: qml/EntryPage.qml:94 qml/GenericEntryDelegate.qml:203
+#: qml/EntryPage.qml:94 qml/GenericEntryDelegate.qml:205
 #, kde-format
 msgid "Cancel Download"
 msgstr ""
 
-#: qml/EntryPage.qml:95 qml/EntryPage.qml:143 qml/GenericEntryDelegate.qml:209
+#: qml/EntryPage.qml:95 qml/EntryPage.qml:143 qml/GenericEntryDelegate.qml:211
 #, kde-format
 msgid "Delete Download"
 msgstr ""
 
-#: qml/EntryPage.qml:96 qml/GenericEntryDelegate.qml:230
+#: qml/EntryPage.qml:96 qml/GenericEntryDelegate.qml:232
+#: qml/HeaderBar.qml:115
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: qml/EntryPage.qml:97 qml/GenericEntryDelegate.qml:221
+#: qml/EntryPage.qml:97 qml/GenericEntryDelegate.qml:223
+#: qml/HeaderBar.qml:115
 #, kde-format
 msgid "Play"
 msgstr ""
 
-#: qml/EntryPage.qml:126 qml/GenericEntryDelegate.qml:186
+#: qml/EntryPage.qml:126 qml/GenericEntryDelegate.qml:188
 #, kde-format
 msgid "Remove from Queue"
 msgstr ""
 
-#: qml/EntryPage.qml:126 qml/GenericEntryDelegate.qml:215
+#: qml/EntryPage.qml:126 qml/GenericEntryDelegate.qml:217
 #, kde-format
 msgid "Add to Queue"
 msgstr ""
@@ -438,19 +440,49 @@ msgstr ""
 msgid "All Files"
 msgstr ""
 
-#: qml/GenericEntryDelegate.qml:72
+#: qml/GenericEntryDelegate.qml:74
 #, kde-format
 msgid "Played"
 msgstr ""
 
-#: qml/GenericEntryDelegate.qml:72
+#: qml/GenericEntryDelegate.qml:74
 #, kde-format
 msgid "Read"
 msgstr ""
 
-#: qml/GenericEntryDelegate.qml:78
+#: qml/GenericEntryDelegate.qml:80
 #, kde-format
 msgid "New"
+msgstr ""
+
+#: qml/HeaderBar.qml:46 qml/PlayerControls.qml:94
+#, kde-format
+msgid "No Track Title"
+msgstr ""
+
+#: qml/HeaderBar.qml:56 qml/PlayerControls.qml:20 qml/PlayerControls.qml:102
+#, kde-format
+msgid "No Track Loaded"
+msgstr ""
+
+#: qml/HeaderBar.qml:86
+#, kde-format
+msgid "Playback Rate: "
+msgstr ""
+
+#: qml/HeaderBar.qml:100
+#, kde-format
+msgid "Seek Backward"
+msgstr ""
+
+#: qml/HeaderBar.qml:129
+#, kde-format
+msgid "Seek Forward"
+msgstr ""
+
+#: qml/HeaderBar.qml:142
+#, kde-format
+msgid "Skip Forward"
 msgstr ""
 
 #: qml/main.qml:99 qml/QueuePage.qml:17
@@ -478,11 +510,6 @@ msgstr ""
 msgid "Set Playback Rate"
 msgstr ""
 
-#: qml/PlayerControls.qml:20 qml/PlayerControls.qml:102
-#, kde-format
-msgid "No Track Loaded"
-msgstr ""
-
 #: qml/PlayerControls.qml:71
 #, kde-format
 msgid "No Title"
@@ -491,11 +518,6 @@ msgstr ""
 #: qml/PlayerControls.qml:77
 #, kde-format
 msgid "No Podcast Title"
-msgstr ""
-
-#: qml/PlayerControls.qml:94
-#, kde-format
-msgid "No Track Title"
 msgstr ""
 
 #: qml/QueuePage.qml:43

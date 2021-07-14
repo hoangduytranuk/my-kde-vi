@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: isoimagewriter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-29 00:20+0000\n"
+"POT-Creation-Date: 2021-07-13 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -91,109 +91,109 @@ msgid ""
 "Aborting."
 msgstr ""
 
-#: isoimagewriter/imagewriter.cpp:229
+#: isoimagewriter/imagewriter.cpp:226
 #, kde-format
 msgid ""
 "Failed to read the image file:\n"
 "%1"
 msgstr ""
 
-#: isoimagewriter/imagewriter.cpp:257
+#: isoimagewriter/imagewriter.cpp:254
 #, kde-format
 msgid "The operation completed successfully."
 msgstr ""
 
-#: isoimagewriter/imagewriter.cpp:259
+#: isoimagewriter/imagewriter.cpp:256
 #, kde-format
 msgid "Now you need to format your device."
 msgstr ""
 
-#: isoimagewriter/imagewriter.cpp:259
+#: isoimagewriter/imagewriter.cpp:256
 #, kde-format
 msgid ""
 "To be able to store data on this device again, please, use the button \"Wipe "
 "USB Disk\"."
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:52
+#: isoimagewriter/isoverifier.cpp:53
 #, kde-format
 msgid "Could not verify as a known distro image."
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:63
+#: isoimagewriter/isoverifier.cpp:65
 #, kde-format
 msgid "SHA256 Checksum"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:64
+#: isoimagewriter/isoverifier.cpp:66
 #, kde-format
 msgid "Paste the SHA256 checksum for this ISO:"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:120
+#: isoimagewriter/isoverifier.cpp:122
 #, kde-format
 msgid ""
 "Could not find %1, please download PGP signature file to same directory."
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:127
+#: isoimagewriter/isoverifier.cpp:129
 #, kde-format
 msgid "Could not open signature file"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:134
+#: isoimagewriter/isoverifier.cpp:136
 #, kde-format
 msgid "Could not open ISO image"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:149 isoimagewriter/isoverifier.cpp:214
+#: isoimagewriter/isoverifier.cpp:151 isoimagewriter/isoverifier.cpp:218
 #, kde-format
 msgid "Key is revoked."
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:151 isoimagewriter/isoverifier.cpp:216
+#: isoimagewriter/isoverifier.cpp:154 isoimagewriter/isoverifier.cpp:221
 #, kde-format
 msgid "Uses wrong signature."
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:162
+#: isoimagewriter/isoverifier.cpp:166
 #, kde-format
 msgid "Could not open SHA256SUMS file, please download to same directory"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:174
+#: isoimagewriter/isoverifier.cpp:178
 #, kde-format
 msgid "Could not find checksum in SHA256SUMS file"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:182 isoimagewriter/isoverifier.cpp:228
+#: isoimagewriter/isoverifier.cpp:186 isoimagewriter/isoverifier.cpp:234
 #, kde-format
 msgid "Could not read ISO image"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:186 isoimagewriter/isoverifier.cpp:232
+#: isoimagewriter/isoverifier.cpp:190 isoimagewriter/isoverifier.cpp:238
 #, kde-format
 msgid "Could not perform checksum"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:191
+#: isoimagewriter/isoverifier.cpp:195
 #, kde-format
 msgid "Checksum of .iso file does not match value in SHA256SUMS file"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:199
+#: isoimagewriter/isoverifier.cpp:203
 #, kde-format
 msgid ""
 "Could not find SHA256SUMS.gpg, please download PGP signature file to same "
 "directory."
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:241
+#: isoimagewriter/isoverifier.cpp:247
 #, kde-format
 msgid "Checksum did not match"
 msgstr ""
 
-#: isoimagewriter/isoverifier.cpp:246
+#: isoimagewriter/isoverifier.cpp:253
 #, kde-format
 msgid "Requires an SHA256 checksum"
 msgstr ""
@@ -330,12 +330,26 @@ msgstr ""
 msgid "All Files (%1)"
 msgstr ""
 
-#: isoimagewriter/mainwindow.cpp:509 isoimagewriter/mainwindow.cpp:570
+#: isoimagewriter/mainwindow.cpp:508
+#, kde-format
+msgid "Unknown Disk Size"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:509
+#, kde-format
+msgid ""
+"The selected disk is of unknown size, please check the image will fit before "
+"writing.\n"
+"\n"
+"Image size: %1 (%2 b)"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:520 isoimagewriter/mainwindow.cpp:580
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: isoimagewriter/mainwindow.cpp:510
+#: isoimagewriter/mainwindow.cpp:521
 #, kde-format
 msgid ""
 "The image is larger than your selected device!\n"
@@ -344,17 +358,22 @@ msgid ""
 "Disk size: %3 (%4 b)"
 msgstr ""
 
-#: isoimagewriter/mainwindow.cpp:596
+#: isoimagewriter/mainwindow.cpp:606
 #, kde-format
 msgid "The ISO image is valid"
 msgstr ""
 
-#: isoimagewriter/mainwindow.cpp:599
+#: isoimagewriter/mainwindow.cpp:612
+#, kde-format
+msgid "Could not find the key to verify the ISO image"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:614
 #, kde-format
 msgid "Could not verify ISO image"
 msgstr ""
 
-#: isoimagewriter/mainwindow.cpp:602
+#: isoimagewriter/mainwindow.cpp:615
 #, kde-format
 msgid "ISO Verification failed"
 msgstr ""
