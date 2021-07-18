@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:20+0000\n"
-"PO-Revision-Date: 2021-05-03 22:22+0200\n"
+"POT-Creation-Date: 2021-07-17 00:19+0000\n"
+"PO-Revision-Date: 2021-07-18 18:00+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #: cpu/cpu.cpp:22 disks/disks.cpp:68 disks/disks.cpp:69 gpu/GpuDevice.cpp:20
 #: power/power.cpp:39
@@ -149,23 +149,83 @@ msgstr "Số lõi CPU trên tất cả các CPU vật lí"
 msgid "CPUs"
 msgstr "CPU"
 
-#: cpu/freebsdcpuplugin.cpp:114
+#: cpu/freebsdcpuplugin.cpp:117
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1"
 msgstr "CPU %1"
 
-#: cpu/linuxcpuplugin.cpp:72
+#: cpu/linuxcpuplugin.cpp:75
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1 Core %2"
 msgstr "CPU %1 Lõi %2"
 
-#: cpu/linuxcpuplugin.cpp:73
+#: cpu/linuxcpuplugin.cpp:76
 #, kde-format
 msgctxt "@title"
 msgid "Core %1"
 msgstr "Lõi %1"
+
+#: cpu/loadaverages.cpp:12
+#, kde-format
+msgctxt "@title"
+msgid "Load Averages"
+msgstr "Tải trung bình"
+
+#: cpu/loadaverages.cpp:13
+#, kde-format
+msgctxt "@title"
+msgid "Load average (1 minute)"
+msgstr "Tải trung bình (1 phút)"
+
+#: cpu/loadaverages.cpp:14
+#, kde-format
+msgctxt "@title"
+msgid "Load average (5 minutes)"
+msgstr "Tải trung bình (5 phút)"
+
+#: cpu/loadaverages.cpp:15
+#, kde-format
+msgctxt "@title"
+msgid "Load average (15 minute)"
+msgstr "Tải trung bình (15 phút)"
+
+#: cpu/loadaverages.cpp:17
+#, kde-format
+msgctxt "@title,  Short for 'Load average (1 minute)"
+msgid "Load average (1m)"
+msgstr "Tải trung bình (1p)"
+
+#: cpu/loadaverages.cpp:18
+#, kde-format
+msgctxt "@title,  Short for 'Load average (5 minutes)"
+msgid "Load average (5m)"
+msgstr "Tải trung bình (5p)"
+
+#: cpu/loadaverages.cpp:19
+#, kde-format
+msgctxt "@title,  Short for 'Load average (15 minutes)"
+msgid "Load average (15m)"
+msgstr "Tải trung bình (15p)"
+
+#: cpu/loadaverages.cpp:21
+#, kde-format
+msgctxt "@info"
+msgid "Number of jobs in the run queue averaged over 1 minute"
+msgstr "Số lượng công việc trong hàng đợi chạy, tính trung bình trong 1 phút"
+
+#: cpu/loadaverages.cpp:22
+#, kde-format
+msgctxt "@info"
+msgid "Number of jobs in the run queue averaged over 5 minutes"
+msgstr "Số lượng công việc trong hàng đợi chạy, tính trung bình trong 5 phút"
+
+#: cpu/loadaverages.cpp:23
+#, kde-format
+msgctxt "@info"
+msgid "Number of jobs in the run queue averaged over 15 minutes"
+msgstr "Số lượng công việc trong hàng đợi chạy, tính trung bình trong 15 phút"
 
 #: disks/disks.cpp:72 disks/disks.cpp:223
 #, kde-format

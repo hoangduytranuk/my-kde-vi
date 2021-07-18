@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-14 00:16+0000\n"
+"POT-Creation-Date: 2021-07-18 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28709,7 +28709,7 @@ msgstr ""
 msgid "Raw Conversion"
 msgstr ""
 
-#: core/libs/dimg/filters/redeye/redeyecorrectionfilter.cpp:111
+#: core/libs/dimg/filters/redeye/redeyecorrectionfilter.cpp:112
 #, kde-format
 msgid "RedEye Correction Filter"
 msgstr ""
@@ -44009,6 +44009,11 @@ msgstr ""
 msgid "Set whether picture time is ahead or behind the track time."
 msgstr ""
 
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:215
+#, kde-format
+msgid "Interpolate"
+msgstr ""
+
 #: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:216
 #: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:227
 #, kde-format
@@ -44021,6 +44026,11 @@ msgid ""
 "Sets the maximum time difference to interpolate GPX file points to image "
 "time data. If the time difference exceeds this setting, no match will be "
 "attempted."
+msgstr ""
+
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:226
+#, kde-format
+msgid "Match directly"
 msgstr ""
 
 #: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:231
@@ -44042,81 +44052,81 @@ msgctxt "@title:window"
 msgid "Select GPX File to Load"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:322
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:324
 #, kde-format
 msgid "The following GPX file could not be loaded:"
 msgid_plural "The following %1 GPX files could not be loaded:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:326
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:328
 #, kde-format
 msgid "Error loading GPX file"
 msgid_plural "Error loading GPX files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:418
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:420
 #, kde-format
 msgid "Correlating images -"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:500
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:502
 #, kde-format
 msgid "Correlation failed"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:501
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:503
 #, kde-format
 msgid ""
 "Could not correlate any image - please make sure the offset and gap settings "
 "are correct."
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:506
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:508
 #, kde-format
 msgid "Correlation succeeded"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:507
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:509
 #, kde-format
 msgid ""
 "All images have been correlated. You can now check their position on the map."
 msgstr ""
 
 #. i18np here, because the case of correlationTotalCount == 1 is covered in the other two cases.
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:514
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:516
 #, kde-format
 msgid "Correlation finished"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:515
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:517
 #, kde-format
 msgid ""
 "%1 out of %2 images have been correlated. Please check the offset and gap "
 "settings if you think that more images should have been correlated."
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:527
+#: core/utilities/geolocation/geoiface/correlator/gpscorrelatorwidget.cpp:529
 #, kde-format
 msgid "1 image correlated"
 msgid_plural "%1 images correlated"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:221
+#: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:229
 #, kde-format
 msgctxt "@title: track list header"
 msgid "Color"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:226
+#: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:234
 #, kde-format
 msgctxt "@title: track list header"
 msgid "Filename"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:231
+#: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:239
 #, kde-format
 msgctxt "@title: track list header"
 msgid "#points"
@@ -50486,7 +50496,7 @@ msgstr ""
 msgid "Download required files"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:186
+#: core/utilities/setup/downloader/filesdownloader.cpp:185
 #, kde-format
 msgctxt "%1: folder path, %2: disk size with unit"
 msgid ""
@@ -50499,17 +50509,17 @@ msgid ""
 "b></p>"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:240
+#: core/utilities/setup/downloader/filesdownloader.cpp:239
 #, kde-format
 msgid "All files were downloaded successfully."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:247
+#: core/utilities/setup/downloader/filesdownloader.cpp:246
 #, kde-format
 msgid "Download error"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:248
+#: core/utilities/setup/downloader/filesdownloader.cpp:247
 #, kde-format
 msgid ""
 "An error occurred during the download.\n"
@@ -50521,27 +50531,27 @@ msgid ""
 "You can try again or continue the download at the next start."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:256
+#: core/utilities/setup/downloader/filesdownloader.cpp:255
 #, kde-format
 msgid "Try again"
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:383
+#: core/utilities/setup/downloader/filesdownloader.cpp:382
 #, kde-format
 msgid "Checksum is incorrect."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:408
+#: core/utilities/setup/downloader/filesdownloader.cpp:406
 #, kde-format
 msgid "File write error."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:415
+#: core/utilities/setup/downloader/filesdownloader.cpp:413
 #, kde-format
 msgid "File open error."
 msgstr ""
 
-#: core/utilities/setup/downloader/filesdownloader.cpp:430
+#: core/utilities/setup/downloader/filesdownloader.cpp:428
 #, kde-format
 msgid "File on the server is too large."
 msgstr ""

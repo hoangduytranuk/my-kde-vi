@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-06-18 00:20+0000\n"
-"PO-Revision-Date: 2021-07-14 23:03+0200\n"
+"PO-Revision-Date: 2021-07-15 23:17+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -57,7 +57,7 @@ msgstr "Cài đặt gói gettext để tính năng này hoạt động được"
 
 #: scripts/msgmerge.py:44
 msgid "Updating from templates..."
-msgstr "Đang cập nhật từ mẫu..."
+msgstr "Đang cập nhật từ các bản mẫu..."
 
 #: scripts/msgmerge.py:71
 msgid "Merge has been completed"
@@ -69,7 +69,7 @@ msgid ""
 "Template modification time: %1 (%2 days ago)."
 msgstr ""
 "Việc trộn đã hoàn tất.\n"
-"Thời điểm mẫu được chỉnh sửa: %1 (%2 ngày trước)."
+"Thời điểm bản mẫu được chỉnh sửa: %1 (%2 ngày trước)."
 
 #: scripts/msgmerge.py:74
 msgid "Merge failed."
@@ -80,7 +80,7 @@ msgid ""
 "Could not find template file for the merge:\n"
 "%1"
 msgstr ""
-"Không tìm được tệp mẫu cho việc trộn:\n"
+"Không tìm được tệp bản mẫu cho việc trộn:\n"
 "%1"
 
 #. i18n: tag collection attribute text
@@ -93,7 +93,7 @@ msgstr "Tệp"
 #: scripts/msgmerge.rc:4
 #, kde-format
 msgid "Update file from template"
-msgstr "Cập nhật tệp từ mẫu"
+msgstr "Cập nhật tệp từ bản mẫu"
 
 #. i18n: tag script attribute text
 #: scripts/xliff2odf.rc:4
@@ -128,7 +128,7 @@ msgstr ""
 "\n"
 "Với các tệp PO của Gettext, nó hiển thị phần khác biệt giữa văn bản nguồn "
 "hiện tại và văn bản nguồn tương ứng với lời dịch mập mờ được msgmerge tìm "
-"thấy khi cập nhật tệp PO dựa trên mẫu POT.\n"
+"thấy khi cập nhật tệp PO dựa trên bản mẫu POT.\n"
 "\n"
 "Bạn có muốn hiện khung xem cùng với dữ liệu đó?"
 
@@ -578,8 +578,8 @@ msgid ""
 "romanized form: a form of a term resulting from an operation whereby non-"
 "Latin writing systems are converted to the Latin alphabet"
 msgstr ""
-"dạng la-tinh hoá: một dạng của một ngữ có được bằng thao tác mà trong đó "
-"các hệ chữ viết không phải la-tinh được chuyển đổi sang bảng chữ cái la-tinh"
+"dạng la-tinh hoá: một dạng của một ngữ có được bằng thao tác mà trong đó các "
+"hệ chữ viết không phải la-tinh được chuyển đổi sang bảng chữ cái la-tinh"
 
 #: src/catalog/catalogstring.cpp:157
 #, kde-format
@@ -628,8 +628,8 @@ msgid ""
 "symbol: a designation of a concept by letters, numerals, pictograms or any "
 "combination thereof"
 msgstr ""
-"kí hiệu: tên một khái niệm, bằng chữ cái, chữ số, chữ tượng hình hoặc tổ "
-"hợp của chúng"
+"kí hiệu: tên một khái niệm, bằng chữ cái, chữ số, chữ tượng hình hoặc tổ hợp "
+"của chúng"
 
 #: src/catalog/catalogstring.cpp:163
 #, kde-format
@@ -678,10 +678,9 @@ msgid ""
 "the characters of an alphabetic writing system are represented by characters "
 "from another alphabetic writing system"
 msgstr ""
-"dạng chuyển tự: một dạng của một ngữ có được bằng thao tác mà trong đó các kí "
-"tự của một hệ chữ viết mẫu tự được biểu diễn bằng các kí tự của một hệ chữ"
-" viết "
-"mẫu tự khác"
+"dạng chuyển tự: một dạng của một ngữ có được bằng thao tác mà trong đó các "
+"kí tự của một hệ chữ viết mẫu tự được biểu diễn bằng các kí tự của một hệ "
+"chữ viết mẫu tự khác"
 
 #: src/catalog/catalogstring.cpp:168
 #, kde-format
@@ -770,8 +769,8 @@ msgid ""
 "Previous source value, saved by Gettext during transition to a newer POT "
 "template"
 msgstr ""
-"Giá trị nguồn trước đây, lưu bởi Gettext khi chuyển đổi sang một mẫu POT mới"
-" hơn"
+"Giá trị nguồn trước đây, lưu bởi Gettext khi chuyển đổi sang một bản mẫu POT "
+"mới hơn"
 
 #: src/catalog/gettextheader.cpp:670
 #, kde-format
@@ -2111,42 +2110,47 @@ msgid ""
 "That is, there may be several entries with the same word/word sequence "
 "expressing different meanings."
 msgstr ""
+"Lưu ý: một mục trong bảng ngữ tương ứng với đúng một ngữ, không phải với từ/"
+"dãy từ.\n"
+"\n"
+"Nghĩa là, có thể có nhiều mục ngữ với cùng một từ/dãy từ thể hiện các nghĩa "
+"khác nhau."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_skipTags)
 #: src/kaider_findextension.ui:30
 #, kde-format
 msgid "Skip tags"
-msgstr ""
+msgstr "Bỏ qua thẻ gắn"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipTags)
 #: src/kaider_findextension.ui:33
 #, kde-format
 msgctxt "@option:check"
 msgid "Skip markup"
-msgstr ""
+msgstr "Bỏ qua mã đánh dấu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_ignoreAccelMarks)
 #: src/kaider_findextension.ui:43
 #, kde-format
 msgctxt "@option:check"
 msgid "Ignore accelerator marks"
-msgstr ""
+msgstr "Bỏ qua dấu tăng tốc"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_notes)
 #: src/kaider_findextension.ui:54
 #, kde-format
 msgid "Include notes"
-msgstr ""
+msgstr "Bao gồm cả ghi chú"
 
 #: src/languagetool/languagetoolgrammarerror.cpp:60
 #, kde-format
 msgid "Suggestions:"
-msgstr ""
+msgstr "Đề xuất:"
 
 #: src/languagetool/languagetoolparser.cpp:48
 #, kde-format
 msgid "No errors"
-msgstr ""
+msgstr "Không có lỗi nào"
 
 #: src/lokalizemainwindow.cpp:131
 #, kde-format
@@ -2157,12 +2161,12 @@ msgstr "Không tìm thấy khối SQL Qt nào. Bộ nhớ lời dịch sẽ khô
 #: src/lokalizemainwindow.cpp:407 src/project/project.cpp:313
 #, kde-format
 msgid "TM facility requires SQLite Qt module."
-msgstr ""
+msgstr "Bộ nhớ lời dịch cần có khối SQLite Qt."
 
 #: src/lokalizemainwindow.cpp:407 src/project/project.cpp:313
 #, kde-format
 msgid "No SQLite module available"
-msgstr ""
+msgstr "Không có khối SQLite nào"
 
 #: src/lokalizemainwindow.cpp:484 src/tm/tmtab.cpp:505
 #, kde-format
@@ -2261,13 +2265,13 @@ msgstr "Tìm kiếm và thay thế trong tệp"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find next in files"
-msgstr ""
+msgstr "Tìm về sau trong các tệp"
 
 #: src/lokalizemainwindow.cpp:571
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Widget text capture"
-msgstr ""
+msgstr "Thu thập chữ ở khiển tố"
 
 #: src/lokalizemainwindow.cpp:748
 #, kde-format
@@ -2373,7 +2377,7 @@ msgstr "Viesturs Zarins"
 #: src/main.cpp:78
 #, kde-format
 msgid "project tree merging translation+templates"
-msgstr "trộn lời dịch và mẫu trong cây dự án"
+msgstr "trộn lời dịch và bản mẫu trong cây dự án"
 
 #: src/main.cpp:79
 #, kde-format
@@ -2455,13 +2459,13 @@ msgstr "Tài liệu muốn mở"
 #, kde-format
 msgctxt "@item Undo action item"
 msgid "Accept change in translation"
-msgstr ""
+msgstr "Chấp nhận thay đổi trong lời dịch"
 
 #: src/mergemode/mergecatalog.cpp:313
 #, kde-format
 msgctxt "@item Undo action item"
 msgid "Accept all new translations"
-msgstr ""
+msgstr "Chấp nhận tất cả các lời dịch mới"
 
 #: src/mergemode/mergeview.cpp:45 src/mergemode/mergeview.cpp:50
 #, kde-format
@@ -2486,6 +2490,8 @@ msgid ""
 "Drop file to be merged into / synced with the current one here, then see "
 "context menu options"
 msgstr ""
+"Thả vào đây tệp để trộn vào / đồng bộ với tệp hiện tại, rồi xem các lựa chọn "
+"trong trình đơn ngữ cảnh"
 
 #: src/mergemode/mergeview.cpp:232
 #, kde-format
@@ -2502,6 +2508,8 @@ msgid ""
 "Different entries: %1\n"
 "Unmatched entries: %2"
 msgstr ""
+"Các mục khác nhau: %1\n"
+"Các mục không khớp: %2"
 
 #: src/msgctxtview.cpp:52
 #, kde-format
@@ -2514,19 +2522,19 @@ msgstr "Siêu dữ liệu của thông điệp"
 msgctxt ""
 "@info notes to translation unit which expire when the catalog is closed"
 msgid "<b>Temporary notes:</b>"
-msgstr ""
+msgstr "<b>Ghi chú tạm thời:</b>"
 
 #: src/msgctxtview.cpp:126
 #, kde-format
 msgctxt "@info notes generated by the pology check"
 msgid "<b>Pology notes:</b>"
-msgstr ""
+msgstr "<b>Ghi chú của Pology:</b>"
 
 #: src/msgctxtview.cpp:135
 #, kde-format
 msgctxt "@info notes generated by the languagetool check"
 msgid "<b>LanguageTool notes:</b>"
-msgstr ""
+msgstr "<b>Ghi chú của LanguageTool:</b>"
 
 #: src/msgctxtview.cpp:147
 #, kde-format
@@ -2550,25 +2558,25 @@ msgstr "<br><b>Ngữ cảnh:</b><br>"
 #, kde-format
 msgctxt "@info The pology command didn't return anything"
 msgid "(empty)"
-msgstr ""
+msgstr "(trống)"
 
 #: src/noteeditor.cpp:62
 #, kde-format
 msgctxt "@info:label"
 msgid "From:"
-msgstr ""
+msgstr "Từ:"
 
 #: src/noteeditor.cpp:67
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save empty note to remove it"
-msgstr ""
+msgstr "Lưu ghi chú trống để xoá"
 
 #: src/noteeditor.cpp:68
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Author of this note"
-msgstr ""
+msgstr "Tác giả của ghi chú này"
 
 #: src/noteeditor.cpp:81
 #, kde-format
@@ -2584,25 +2592,25 @@ msgstr "Esc"
 #, kde-format
 msgctxt "@info XLIFF notes representation"
 msgid "<b>Notes:</b>"
-msgstr ""
+msgstr "<b>Ghi chú:</b>"
 
 #: src/noteeditor.cpp:145
 #, kde-format
 msgctxt "link to edit note"
 msgid "edit..."
-msgstr ""
+msgstr "sửa..."
 
 #: src/noteeditor.cpp:150
 #, kde-format
 msgctxt "link to add a note"
 msgid "Add..."
-msgstr ""
+msgstr "Thêm..."
 
 #: src/noteeditor.cpp:152
 #, kde-format
 msgctxt "link to add a note"
 msgid "Add a note..."
-msgstr ""
+msgstr "Thêm ghi chú..."
 
 #: src/phaseswindow.cpp:154
 #, kde-format
@@ -2689,19 +2697,19 @@ msgstr "Tên người dịch trong ngôn ngữ đích"
 #: src/prefs/lokalize.kcfg:28
 #, kde-format
 msgid "Override Language Team"
-msgstr ""
+msgstr "Dùng tên khác cho đội ngôn ngữ"
 
 #. i18n: ectx: whatsthis, entry, group (Identity)
 #: src/prefs/lokalize.kcfg:29
 #, kde-format
 msgid "Use user-provided language team name instead of generating it"
-msgstr ""
+msgstr "Dùng tên đội ngôn ngữ do người dùng đặt thay vì tạo sẵn"
 
 #. i18n: ectx: label, entry, group (Identity)
 #: src/prefs/lokalize.kcfg:35
 #, kde-format
 msgid "Language Team"
-msgstr ""
+msgstr "Đội ngôn ngữ"
 
 #. i18n: ectx: whatsthis, entry, group (Identity)
 #: src/prefs/lokalize.kcfg:36
@@ -2713,7 +2721,7 @@ msgstr "Tên đội dịch"
 #: src/prefs/lokalize.kcfg:42
 #, kde-format
 msgid "Translator's email"
-msgstr ""
+msgstr "Thư của người dịch"
 
 #. i18n: ectx: label, entry, group (Identity)
 #. i18n: ectx: whatsthis, entry, group (Identity)
@@ -2739,18 +2747,20 @@ msgid ""
 "\n"
 "        "
 msgstr ""
+"\n"
+"        "
 
 #. i18n: ectx: label, entry (MsgFont), group (Appearance)
 #: src/prefs/lokalize.kcfg:81
 #, kde-format
 msgid "Font for Messages"
-msgstr ""
+msgstr "Phông chữ cho các thông điệp"
 
 #: src/prefs/prefs.cpp:120
 #, kde-format
 msgctxt "@title:tab"
 msgid "Identity"
-msgstr ""
+msgstr "Danh tính"
 
 #: src/prefs/prefs.cpp:130
 #, kde-format
@@ -2759,6 +2769,9 @@ msgid ""
 "%1 - Path of the source file\n"
 "%2 - Line number"
 msgstr ""
+"Hiện có các tham số sau\n"
+"%1 - Đường dẫn của tệp nguồn\n"
+"%2 - Số dòng"
 
 #: src/prefs/prefs.cpp:132 src/prefs/prefs.cpp:296
 #, kde-format
@@ -2867,7 +2880,7 @@ msgstr "Phông biên tập:"
 #: src/prefs/prefs_appearance.ui:44
 #, kde-format
 msgid "Change the font for the editor"
-msgstr "Thay đổi phông chữ cho trình biên tập"
+msgstr "Thay đổi phông chữ cho ô biên tập"
 
 #. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_MsgFont)
 #: src/prefs/prefs_appearance.ui:47
@@ -3020,67 +3033,68 @@ msgstr "Tự động đặt trạng thái \"được phê chuẩn\" khi việc b
 #, kde-format
 msgid "Visualize separators such as spaces, tabs and new lines in the editor"
 msgstr ""
+"Hiển thị các dấu phân cách như dấu cách, dấu tab và dòng mới trong ô biên tập"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l1)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WordCompletionLength)
 #: src/prefs/prefs_editor.ui:74 src/prefs/prefs_editor.ui:87
 #, kde-format
 msgid "Set to 2 to disable word completion"
-msgstr ""
+msgstr "Đặt là 2 để tắt tính năng hoàn tất từ"
 
 #. i18n: ectx: property (text), widget (QLabel, l1)
 #: src/prefs/prefs_editor.ui:77
 #, kde-format
 msgid "Minimum word length for word completion"
-msgstr ""
+msgstr "Độ dài từ tối thiểu để chạy hoàn tất từ"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_WordCompletionLength)
 #: src/prefs/prefs_editor.ui:90
 #, kde-format
 msgid "Disable word completion"
-msgstr ""
+msgstr "Tắt tính năng hoàn tất từ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConvertXMLChars)
 #: src/prefs/prefs_editor.ui:105
 #, kde-format
 msgid "Automatically convert XML special characters in TS files"
-msgstr ""
+msgstr "Tự động chuyển đổi các kí tự XML đặc biệt trong các tệp TS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RestoreRecentFilesOnStartup)
 #: src/prefs/prefs_general.ui:45
 #, kde-format
 msgid "Restore the previously opened files when launching Lokalize"
-msgstr ""
+msgstr "Khi khởi chạy Lokalize, khôi phục các tệp đã mở lần trước"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l2)
 #: src/prefs/prefs_general.ui:54
 #, kde-format
 msgid "Defines the behavior of the next/previous tab shortcuts"
-msgstr ""
+msgstr "Chỉ định ứng xử của các phím tắt chọn thẻ sau/trước"
 
 #. i18n: ectx: property (text), widget (QLabel, l2)
 #: src/prefs/prefs_general.ui:57
 #, kde-format
 msgid "Next/previous tab shortcut behavior"
-msgstr ""
+msgstr "Ứng xử của các phím tắt chọn thẻ sau/trước"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TabSwitch)
 #: src/prefs/prefs_general.ui:68
 #, kde-format
 msgid "According to tab position"
-msgstr ""
+msgstr "Theo vị trí thẻ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TabSwitch)
 #: src/prefs/prefs_general.ui:73
 #, kde-format
 msgid "According to tab activation order"
-msgstr ""
+msgstr "Theo thứ tự kích hoạt thẻ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CustomEditorEnabled)
 #: src/prefs/prefs_general.ui:83
 #, kde-format
 msgid "Use a custom editor to open source files"
-msgstr ""
+msgstr "Dùng một trình biên tập tự chọn để mở các tệp nguồn"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, prefs_identity)
 #: src/prefs/prefs_identity.ui:14
@@ -3089,6 +3103,8 @@ msgid ""
 "Fill in your identity and information about your translation team. This "
 "information is used when updating the header of a file."
 msgstr ""
+"Điền danh tính và thông tin về đội dịch của bạn. Thông tin này được dùng khi "
+"cập nhật phần đầu tải của tệp."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/prefs/prefs_identity.ui:35
@@ -3201,26 +3217,27 @@ msgstr "Đội ngôn ngữ mặc định:"
 #: src/prefs/prefs_languagetool.ui:21
 #, kde-format
 msgid "Use custom LanguageTool server"
-msgstr ""
+msgstr "Dùng trình chủ LanguageTool tự chọn"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
 #: src/prefs/prefs_languagetool.ui:31
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Server Path:"
-msgstr ""
+msgstr "Đường dẫn trình chủ:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_LanguageToolInstancePath)
 #: src/prefs/prefs_languagetool.ui:44
 #, kde-format
 msgid "The path of your custom Language Tool server"
-msgstr ""
+msgstr "Đường dẫn đến trình chủ LanguageTool tự chọn của bạn"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_LanguageToolInstancePath)
 #: src/prefs/prefs_languagetool.ui:47
 #, kde-format
 msgid "Please enter the path of your custom Language Tool server, if any"
 msgstr ""
+"Vui lòng nhập đường dẫn đến trình chủ LanguageTool tự chọn của bạn, nếu có"
 
 #. i18n: ectx: property (text), widget (QLabel, l1)
 #: src/prefs/prefs_languagetool.ui:58
@@ -3229,19 +3246,21 @@ msgid ""
 "Delay before automatic checking after you stop typing (in seconds, 0 to "
 "disable)"
 msgstr ""
+"Độ trễ trước khi tự động kiểm tra sau khi bạn dừng gõ (bằng giây, đặt là 0 "
+"để tắt)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l1)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_LanguageToolDelay)
 #: src/prefs/prefs_languagetool.ui:64 src/prefs/prefs_languagetool.ui:71
 #, kde-format
 msgid "Set to 0 to disable auto checking"
-msgstr ""
+msgstr "Đặt là 0 để tắt việc kiểm tra tự động"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PologyEnabled)
 #: src/prefs/prefs_pology.ui:21
 #, kde-format
 msgid "Enable Pology verification"
-msgstr ""
+msgstr "Bật xác minh bằng Pology"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_0)
 #: src/prefs/prefs_pology.ui:28
@@ -3252,12 +3271,15 @@ msgid ""
 "following placeholders in order to set-up the commands: %u is the entry "
 "number, %f is the file name. For instance: posieve -u %u check-rules %f"
 msgstr ""
+"Lệnh Pology để kiểm tra một mục riêng lẻ. Dùng các phần giữ chỗ sau để cài "
+"đặt lệnh: %u là số mục, %f là tên tệp. Chẳng hạn: posieve -u %u check-rules "
+"%f"
 
 #. i18n: ectx: property (toolTip), widget (QPlainTextEdit, kcfg_PologyCommandEntry)
 #: src/prefs/prefs_pology.ui:44
 #, kde-format
 msgid "The Pology command to run in order to check a single entry."
-msgstr ""
+msgstr "Lệnh Pology để kiểm tra một mục riêng lẻ."
 
 #. i18n: ectx: property (whatsThis), widget (QPlainTextEdit, kcfg_PologyCommandEntry)
 #: src/prefs/prefs_pology.ui:47
@@ -3265,7 +3287,7 @@ msgstr ""
 msgid ""
 "Please enter here the Pology command to be run in order to check a single "
 "entry"
-msgstr ""
+msgstr "Vui lòng nhập vào đây lệnh Pology để kiểm tra một mục riêng lẻ"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_0)
 #: src/prefs/prefs_pology.ui:54
@@ -3276,25 +3298,27 @@ msgid ""
 "should include \"-s lokalize\", placeholder %f is the file name. For "
 "instance: posieve -s lokalize check-rules %f"
 msgstr ""
+"Lệnh Pology để kiểm tra toàn bộ một tệp. Lệnh này nên chứa \"-s lokalize\", "
+"phần giữ chỗ %f là tên tệp. Chẳng hạn: posieve -s lokalize check-rules %f"
 
 #. i18n: ectx: property (toolTip), widget (QPlainTextEdit, kcfg_PologyCommandFile)
 #: src/prefs/prefs_pology.ui:70
 #, kde-format
 msgid "The Pology command to run in order to check a whole file."
-msgstr ""
+msgstr "Lệnh Pology để kiểm tra toàn bộ một tệp."
 
 #. i18n: ectx: property (whatsThis), widget (QPlainTextEdit, kcfg_PologyCommandFile)
 #: src/prefs/prefs_pology.ui:73
 #, kde-format
 msgid ""
 "Please enter here the Pology command to be run in order to check a whole file"
-msgstr ""
+msgstr "Vui lòng nhập vào đây lệnh Pology để kiểm tra toàn bộ một tệp"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PrefetchTM)
 #: src/prefs/prefs_tm.ui:45
 #, kde-format
 msgid "If checked, get translation memory suggestions "
-msgstr ""
+msgstr "Nếu chọn, lấy các gợi ý từ bộ nhớ lời dịch"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PrefetchTM)
 #: src/prefs/prefs_tm.ui:48
@@ -3303,42 +3327,44 @@ msgid ""
 "If this is checked, the program will fetch translation memories as soon as "
 "you open a file."
 msgstr ""
+"Nếu ô này được chọn, chương trình sẽ tìm nạp bộ nhớ lời dịch ngay khi bạn mở "
+"một tệp."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrefetchTM)
 #: src/prefs/prefs_tm.ui:51
 #, kde-format
 msgid "Prefetch translation memory suggestions on file open"
-msgstr ""
+msgstr "Tìm nạp trước các gợi ý từ bộ nhớ lời dịch khi mở tệp"
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: src/prefs/prefs_tm.ui:60
 #, kde-format
 msgid "Maximum number of suggestions:"
-msgstr ""
+msgstr "Số lượng gợi ý tối đa:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SuggCount)
 #: src/prefs/prefs_tm.ui:70
 #, kde-format
 msgid "Set the maximum number of suggestions"
-msgstr ""
+msgstr "Đặt số lượng gợi ý tối đa"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_SuggCount)
 #: src/prefs/prefs_tm.ui:73
 #, kde-format
 msgid "You can change the maximum number of suggestions, default is 7."
-msgstr ""
+msgstr "Bạn có thể thay đổi số lượng gợi ý tối đa, mặc định là 7."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/prefs/prefs_tm.ui:97
 #, kde-format
 msgid "Minimum score (0-100) of suggestions:"
-msgstr ""
+msgstr "Điểm tối thiểu (0-100) của các gợi ý:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SuggScore)
 #: src/prefs/prefs_tm.ui:107
 #, kde-format
 msgid "Set the minimum score (0-100) of suggestions"
-msgstr ""
+msgstr "Đặt điểm tối thiểu (0-100) của các gợi ý"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_SuggScore)
 #: src/prefs/prefs_tm.ui:110
@@ -3347,12 +3373,13 @@ msgid ""
 "You can change the minimum score (0-100) required for suggestions, default "
 "is 0."
 msgstr ""
+"Bạn có thể thay đổi điểm tối thiểu (0-100) cần cho các gợi ý, mặc định là 0."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoaddTM)
 #: src/prefs/prefs_tm.ui:138
 #, kde-format
 msgid "Update/Add edited entries to translation memory"
-msgstr ""
+msgstr "Cập nhật / thêm các mục được sửa vào bộ nhớ lời dịch"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScanToTMOnOpen)
 #: src/prefs/prefs_tm.ui:145
@@ -3367,12 +3394,14 @@ msgid ""
 "Delete missing files from translation memory on Rescan or when clicking a "
 "missing entry"
 msgstr ""
+"Xoá các tệp không còn tồn tại khỏi bộ nhớ lời dịch khi quét lại hoặc khi bấm "
+"vào một mục đã mất"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/project/prefs_project_advanced.ui:17
 #, kde-format
 msgid "Syntax"
-msgstr ""
+msgstr "Cú pháp"
 
 #. i18n: ectx: property (text), widget (QLabel, l0)
 #: src/project/prefs_project_advanced.ui:23
@@ -3385,14 +3414,14 @@ msgstr "Nút tăng tốc:"
 #: src/project/prefs_project_advanced.ui:33
 #, kde-format
 msgid "Usually '&', but may also be '_' for GTK apps."
-msgstr ""
+msgstr "Thường là '&', nhưng cũng có thể là '_' với các ứng dụng GTK."
 
 #. i18n: ectx: property (text), widget (QLabel, l1)
 #: src/project/prefs_project_advanced.ui:40
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Markup:"
-msgstr ""
+msgstr "Mã đánh dấu:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Markup)
 #: src/project/prefs_project_advanced.ui:58
@@ -3407,13 +3436,21 @@ msgid ""
 "It is only used for gettext PO files, as XLIFF format has its own way of "
 "specifying where markup is."
 msgstr ""
+"Biểu thức chính quy của mã đánh dấu. Dùng cho việc khớp bộ nhớ lời dịch và "
+"cho tính năng 'Chèn thẻ gắn'.\n"
+"\n"
+"Một giá trị mặc định (phù hợp cho các văn bản dựa trên XML) là:\n"
+"(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\\.:-]*;)+\n"
+"\n"
+"Chỉ dùng cho các tệp PO gettext, vì định dạng XLIFF có cách riêng để chỉ "
+"định mã đánh dấu ở đâu."
 
 #. i18n: ectx: property (text), widget (QLabel, l2)
 #: src/project/prefs_project_advanced.ui:65
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Word wrap:"
-msgstr ""
+msgstr "Bọc từ:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WordWrap)
 #: src/project/prefs_project_advanced.ui:75
@@ -3422,19 +3459,21 @@ msgid ""
 "Width used for the automatic msgfmt-like word wrap. Use the negative value "
 "'-1' to disable the word wrap."
 msgstr ""
+"Độ rộng dùng cho việc bọc từ tự động theo kiểu msgfmt. Dùng giá trị âm '-1' "
+"để tắt bọc từ."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/project/prefs_project_advanced.ui:91
 #, kde-format
 msgid "Paths"
-msgstr ""
+msgstr "Đường dẫn"
 
 #. i18n: ectx: property (text), widget (QLabel, l3)
 #: src/project/prefs_project_advanced.ui:100
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Template files folder:"
-msgstr ""
+msgstr "Thư mục tệp bản mẫu:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, potBaseDir)
 #: src/project/prefs_project_advanced.ui:124
@@ -3447,6 +3486,12 @@ msgid ""
 "(i.e. files without translation into any language)\n"
 "shared among all subprojects."
 msgstr ""
+"Dự án dịch của bạn thường là một dự án con trong một dự án dịch\n"
+"cùng một loạt văn bản sang nhiều ngôn ngữ.\n"
+"\n"
+"Đặt vào trường này đường dẫn đến thư mục chứa các tệp dịch trống\n"
+"(nói cách khác là các tệp không chứa lời dịch của bất kì ngôn ngữ nào)\n"
+"được chia sẻ giữa tất cả các dự án con."
 
 #. i18n: ectx: property (text), widget (QLabel, l4)
 #: src/project/prefs_project_advanced.ui:131
@@ -3475,6 +3520,18 @@ msgid ""
 "\n"
 "See documentation for more details."
 msgstr ""
+"Thiết lập này dành cho chế độ đồng bộ.\n"
+"\n"
+"Chế độ đồng bộ có thể được dùng để thay đổi lời dịch đồng thời trên\n"
+"hai nhánh.\n"
+"\n"
+"Đặt vào trường này đường dẫn tương ứng với thư mục gốc của dự án\n"
+"nhánh, và khung xem \"Đồng bộ cấp hai\" sẽ tự động mở các tệp từ\n"
+"nhánh. Sau đó, mỗi lần bạn tạo ra thay đổi trong các tệp ở nhánh\n"
+"chính, các thay đổi sẽ tự động được sao chép vào nhánh đó\n"
+"(tất nhiên, nếu nó cũng chứa chuỗi tiếng Anh đó).\n"
+"\n"
+"Xem thêm chi tiết trong tài liệu."
 
 #. i18n: ectx: property (text), widget (QLabel, l5)
 #: src/project/prefs_project_advanced.ui:168
@@ -3553,7 +3610,7 @@ msgstr "Bảng ngữ:"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Target language:"
-msgstr ""
+msgstr "Ngôn ngữ đích:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ProjectID)
 #: src/project/prefs_projectmain.ui:46
@@ -3565,6 +3622,11 @@ msgid ""
 "For example, if you have several projects for translating KDE applications\n"
 "(e.g. they are in different repositories), use same ID for all of them."
 msgstr ""
+"Mã định danh dự án được dùng để phân biệt các bộ nhớ lời dịch của các dự án "
+"và ngôn ngữ hoàn toàn khác nhau.\n"
+"\n"
+"Chẳng hạn, nếu bạn có nhiều dự án dịch các ứng dụng KDE (vd. chúng ở các\n"
+"thư mục khác nhau), hãy dùng cùng một mã định danh cho tất cả chúng."
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, LangCode)
 #: src/project/prefs_projectmain.ui:59
@@ -3584,7 +3646,7 @@ msgstr "Danh sách gửi thư:"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "ID:"
-msgstr ""
+msgstr "Mã định danh:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, poBaseDir)
 #: src/project/prefs_projectmain.ui:118
@@ -3593,6 +3655,9 @@ msgid ""
 "This is main setting. Set this to path of a folder with translation files\n"
 "for your project (or a subproject for your target language)."
 msgstr ""
+"Đây là thiết lập chính. Đặt vào trường này đường dẫn đến một thư mục\n"
+"với các tệp dịch cho dự án của bạn (hoặc một dự án con cho ngôn ngữ\n"
+"đích của bạn)."
 
 #. i18n: ectx: property (text), widget (QLabel, l1)
 #: src/project/prefs_projectmain.ui:141
@@ -3605,13 +3670,13 @@ msgstr "Thư mục gốc:"
 #: src/project/prefs_projectmain.ui:155
 #, kde-format
 msgid "Automatic"
-msgstr ""
+msgstr "Tự động"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LanguageSource)
 #: src/project/prefs_projectmain.ui:160
 #, kde-format
 msgid "Application"
-msgstr ""
+msgstr "Ứng dụng"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LanguageSource)
 #: src/project/prefs_projectmain.ui:165
@@ -3623,51 +3688,51 @@ msgstr "Dự án"
 #: src/project/prefs_projectmain.ui:180
 #, kde-format
 msgid "Language-Team:"
-msgstr ""
+msgstr "Đội ngôn ngữ:"
 
 #: src/project/project.cpp:461
 #, kde-format
 msgid "Scanning folders with source files"
-msgstr ""
+msgstr "Quét các thư mục với các tệp nguồn"
 
 #: src/project/project.cpp:462
 #, kde-format
 msgid "Editor"
-msgstr ""
+msgstr "Biên tập"
 
 #: src/project/project.cpp:492
 #, kde-format
 msgid "Install translate-toolkit package and retry"
-msgstr ""
+msgstr "Cài đặt gói translate-toolkit và thử lại"
 
 #: src/project/project.cpp:504
 #, kde-format
 msgctxt "project folder name. %2 is targetLangCode"
 msgid "%1 %2 Translation"
-msgstr ""
+msgstr "Biên dịch %1 %2"
 
 #: src/project/projectbase.kcfg:11
 #, kde-format
 msgid "default"
-msgstr ""
+msgstr "mặc định"
 
 #. i18n: ectx: label, entry (LangCode), group (General)
 #: src/project/projectbase.kcfg:18
 #, kde-format
 msgid "Language"
-msgstr ""
+msgstr "Ngôn ngữ"
 
 #. i18n: ectx: label, entry (UserLangTeam), group (General)
 #: src/project/projectbase.kcfg:32
 #, kde-format
 msgid "User Language Team in Lokalize settings"
-msgstr ""
+msgstr "Đội ngôn ngữ của người dùng trong thiết lập Lokalize"
 
 #. i18n: ectx: label, entry (OverrideLangTeam), group (General)
 #: src/project/projectbase.kcfg:38
 #, kde-format
 msgid "Override Lokalize Language Team"
-msgstr ""
+msgstr "Dùng tên khác cho đội ngôn ngữ trong Lokalize"
 
 #. i18n: ectx: label, entry (ProjLangTeam), group (General)
 #: src/project/projectbase.kcfg:44
@@ -3679,13 +3744,13 @@ msgstr "Đội ngôn ngữ dự án"
 #: src/project/projectbase.kcfg:59
 #, kde-format
 msgid "The base directory for PO files (translations)"
-msgstr ""
+msgstr "Thư mục cơ sở cho các tệp PO (các lời dịch)"
 
 #. i18n: ectx: label, entry (PotBaseDir), group (General)
 #: src/project/projectbase.kcfg:65
 #, kde-format
 msgid "The base directory for POT files (templates to be translated)"
-msgstr "Thư mục cơ sở cho các tệp POT (các mẫu để dịch)"
+msgstr "Thư mục cơ sở cho các tệp POT (các bản mẫu để dịch)"
 
 #. i18n: ectx: label, entry (GlossaryTbx), group (General)
 #: src/project/projectbase.kcfg:73
@@ -3747,13 +3812,13 @@ msgstr "Lần dịch cuối"
 #, kde-format
 msgctxt "@title:column"
 msgid "Comment"
-msgstr ""
+msgstr "Chú thích"
 
 #: src/project/projectmodel.cpp:543
 #, kde-format
 msgctxt "@title:column"
 msgid "Template Revision"
-msgstr ""
+msgstr "Phiên bản bản mẫu"
 
 #: src/project/projectmodel.cpp:545
 #, kde-format
@@ -3778,11 +3843,18 @@ msgid ""
 "documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
 "what you need.</html>"
 msgstr ""
+"<html>Bạn không cần phải là một nhà phát triển phần mềm để trở thành một "
+"thành viên của đội ngũ KDE. Bạn có thể tham gia các đội theo quốc gia để "
+"dịch các giao diện chương trình. Bạn có thể cung cấp các phần đồ hoạ, chủ "
+"đề, âm thanh, và tài liệu được cải thiện. Do bạn quyết!<br /><br />Xem <a "
+"href=\"%1\">%1</a> để biết thêm thông tin về các dự án bạn có thể tham gia. "
+"<br /><br />Nếu bạn cần thêm thông tin hay tài liệu thì hãy xem <a href="
+"\"%2\">%2</a>.</html>"
 
 #: src/project/projecttab.cpp:92
 #, kde-format
 msgid "&Configure Lokalize"
-msgstr ""
+msgstr "&Cấu hình Lokalize"
 
 #: src/project/projecttab.cpp:93 src/project/projecttab.cpp:206
 #, kde-format
@@ -3794,37 +3866,37 @@ msgstr "Mở dự án"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Translate software"
-msgstr ""
+msgstr "Dịch phần mềm"
 
 #: src/project/projecttab.cpp:95
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Translate OpenDocument"
-msgstr ""
+msgstr "Dịch OpenDocument"
 
 #: src/project/projecttab.cpp:179
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous template only"
-msgstr ""
+msgstr "Chỉ có bản mẫu, trước"
 
 #: src/project/projecttab.cpp:182
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next template only"
-msgstr ""
+msgstr "Chỉ có bản mẫu, sau"
 
 #: src/project/projecttab.cpp:185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous translation only"
-msgstr ""
+msgstr "Chỉ có bản dịch, trước"
 
 #: src/project/projecttab.cpp:188
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next translation only"
-msgstr ""
+msgstr "Chỉ có bản dịch, sau"
 
 #: src/project/projecttab.cpp:192
 #, kde-format
@@ -3842,13 +3914,13 @@ msgstr "Ẩn các tệp và thư mục đã dịch hoàn thiện"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open selected files"
-msgstr ""
+msgstr "Mở các tệp đã chọn"
 
 #: src/project/projecttab.cpp:260
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr ""
+msgstr "Mở"
 
 #. i18nc("@action:inmenu","Find in files"),this,&ProjectTab::findInFiles);
 #. i18nc("@action:inmenu","Replace in files"),this,&ProjectTab::replaceInFiles);
@@ -3866,46 +3938,46 @@ msgstr "Thêm vào bộ nhớ lời dịch"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search in files"
-msgstr ""
+msgstr "Tìm kiếm trong các tệp"
 
 #: src/project/projecttab.cpp:272
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add a comment"
-msgstr ""
+msgstr "Thêm chú thích"
 
 #: src/project/projecttab.cpp:274
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Launch Pology on files"
-msgstr ""
+msgstr "Khởi chạy Pology với tệp"
 
 #: src/project/projecttab.cpp:277
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search in files (including templates)"
-msgstr ""
+msgstr "Tìm kiếm trong các tệp (bao gồm các bản mẫu)"
 
 #: src/project/projecttab.cpp:311
 #, kde-format
 msgid "Project file comment"
-msgstr ""
+msgstr "Chú thích của tệp dự án"
 
 #: src/project/projecttab.cpp:311
 #, kde-format
 msgid "Input a comment for this project file:"
-msgstr ""
+msgstr "Nhập một chú thích cho tệp dự án này:"
 
 #: src/project/projecttab.cpp:377
 #, kde-format
 msgid "The Pology check has succeeded"
-msgstr ""
+msgstr "Việc kiểm tra bằng Pology đã thành công"
 
 #: src/project/projecttab.cpp:396
 #, kde-format
 msgid "You are about to open %1 file"
 msgid_plural "You are about to open %1 files"
-msgstr[0] ""
+msgstr[0] "Bạn sắp mở %1 tệp"
 
 #: src/project/projecttab.cpp:397
 #, kde-format
@@ -3913,17 +3985,19 @@ msgid ""
 "Opening a large number of files at the same time can make Lokalize "
 "unresponsive."
 msgstr ""
+"Mở một số lượng lớn các tệp cùng lúc có thể làm Lokalize mất khả năng hồi "
+"đáp."
 
 #: src/project/projecttab.cpp:399
 #, kde-format
 msgid "Are you sure you want to open this many files?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn mở nhiều tệp như vậy không?"
 
 #: src/project/projecttab.cpp:401
 #, kde-format
 msgid "&Open %1 File"
 msgid_plural "&Open %1 Files"
-msgstr[0] ""
+msgstr[0] "&Mở %1 tệp"
 
 #: src/tm/dbfilesmodel.cpp:114
 #, kde-format
@@ -3935,37 +4009,37 @@ msgstr "Tên"
 #, kde-format
 msgctxt "@title:column"
 msgid "Source language"
-msgstr ""
+msgstr "Ngôn ngữ nguồn"
 
 #: src/tm/dbfilesmodel.cpp:116
 #, kde-format
 msgctxt "@title:column"
 msgid "Target language"
-msgstr ""
+msgstr "Ngôn ngữ đích"
 
 #: src/tm/dbfilesmodel.cpp:117
 #, kde-format
 msgctxt "@title:column"
 msgid "Pairs"
-msgstr ""
+msgstr "Cặp"
 
 #: src/tm/dbfilesmodel.cpp:118
 #, kde-format
 msgctxt "@title:column"
 msgid "Unique original entries"
-msgstr ""
+msgstr "Các mục ban đầu độc nhất"
 
 #: src/tm/dbfilesmodel.cpp:119
 #, kde-format
 msgctxt "@title:column"
 msgid "Unique translations"
-msgstr ""
+msgstr "Các lời dịch độc nhất"
 
 #. i18n: ectx: property (title), widget (QGroupBox, connectionBox)
 #: src/tm/dbparams.ui:23
 #, kde-format
 msgid "Connection"
-msgstr ""
+msgstr "Kết nối"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: src/tm/dbparams.ui:32
@@ -4025,73 +4099,73 @@ msgstr ""
 #: src/tm/dbparams.ui:162
 #, kde-format
 msgid "Markup regex:"
-msgstr ""
+msgstr "Btcq mã đánh dấu:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/tm/dbparams.ui:175
 #, kde-format
 msgid "Accelerator:"
-msgstr ""
+msgstr "Nút tăng tốc:"
 
 #. i18n: ectx: property (text), widget (QPushButton, create)
 #: src/tm/managedatabases.ui:19
 #, kde-format
 msgid "Create"
-msgstr ""
+msgstr "Tạo"
 
 #. i18n: ectx: property (text), widget (QPushButton, addData)
 #: src/tm/managedatabases.ui:26
 #, kde-format
 msgid "Add Data"
-msgstr ""
+msgstr "Thêm dữ liệu"
 
 #. i18n: ectx: property (text), widget (QPushButton, importTMX)
 #: src/tm/managedatabases.ui:33
 #, kde-format
 msgid "Add Data from TMX"
-msgstr ""
+msgstr "Thêm dữ liệu từ TMX"
 
 #. i18n: ectx: property (text), widget (QPushButton, exportTMX)
 #: src/tm/managedatabases.ui:40
 #, kde-format
 msgid "Export to TMX"
-msgstr ""
+msgstr "Xuất khẩu ra TMX"
 
 #. i18n: ectx: property (text), widget (QPushButton, remove)
 #: src/tm/managedatabases.ui:47
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Xoá"
 
 #: src/tm/qamodel.cpp:105
 #, kde-format
 msgctxt "@title:column Translator's false friend"
 msgid "False Friend"
-msgstr ""
+msgstr "Bạn giả"
 
 #: src/tm/qaview.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Quality Assurance"
-msgstr ""
+msgstr "Đảm bảo chất lượng"
 
 #: src/tm/qaview.cpp:52
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add"
-msgstr ""
+msgstr "Thêm"
 
 #: src/tm/qaview.cpp:56
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove"
-msgstr ""
+msgstr "Xoá"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/tm/queryoptions.ui:32
 #, kde-format
 msgid "TM:"
-msgstr ""
+msgstr "BNLD:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, querySource)
 #: src/tm/queryoptions.ui:70
@@ -4101,31 +4175,34 @@ msgid ""
 "Press Enter to start the search.\n"
 "Press Ctrl+L to go to this control."
 msgstr ""
+"Biểu thức tìm kiếm cho phần ngôn ngữ nguồn.\n"
+"Nhấn Enter để bắt đầu tìm kiếm.\n"
+"Nhấn Ctrl+L để đi đến điều khiển này."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, invertTarget)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, invertSource)
 #: src/tm/queryoptions.ui:105 src/tm/queryoptions.ui:115
 #, kde-format
 msgid "Show results that do not match search expression"
-msgstr ""
+msgstr "Hiện các kết quả không khớp với biểu thức tìm kiếm"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/tm/queryoptions.ui:139
 #, kde-format
 msgid "File mask:"
-msgstr ""
+msgstr "Mặt nạ tệp:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, filemask)
 #: src/tm/queryoptions.ui:155
 #, kde-format
 msgid "Show only results from files with path matching specified mask"
-msgstr ""
+msgstr "Chỉ hiện các kết quả từ các tệp có đường dẫn khớp với mặt nạ đã định"
 
 #. i18n: ectx: property (text), widget (QLabel, label_s)
 #: src/tm/queryoptions.ui:162
 #, kde-format
 msgid "Query syntax:"
-msgstr ""
+msgstr "Cú pháp truy vấn:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, doUpdateTM)
 #: src/tm/queryoptions.ui:197
@@ -4134,12 +4211,14 @@ msgid ""
 "Reads all project files into translation memory, updating old entries. The "
 "scanning will work in background."
 msgstr ""
+"Đọc tất cả các tệp của dự án vào bộ nhớ lời dịch, cập nhật các mục cũ. Việc "
+"quét sẽ diễn ra ở nền."
 
 #. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
 #: src/tm/queryoptions.ui:200
 #, kde-format
 msgid "&Rescan project files"
-msgstr ""
+msgstr "&Quét lại các tệp dự án"
 
 #: src/tm/tmmanager.cpp:60
 #, kde-format
@@ -4151,7 +4230,7 @@ msgstr "Các bộ nhớ lời dịch"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Directory to be scanned"
-msgstr ""
+msgstr "Chọn thư mục để quét"
 
 #: src/tm/tmmanager.cpp:105
 #, kde-format
@@ -4169,60 +4248,60 @@ msgstr "Thuộc tính bộ nhớ lời dịch"
 #, kde-format
 msgctxt "@title:window"
 msgid "Select TMX file to be imported into selected database"
-msgstr ""
+msgstr "Chọn tệp TMX để nhập khẩu vào cơ sở dữ liệu đã chọn"
 
 #: src/tm/tmmanager.cpp:240 src/tm/tmmanager.cpp:260
 #, kde-format
 msgid "TMX files (*.tmx *.xml)"
-msgstr ""
+msgstr "Tệp TMX (*.tmx *.xml)"
 
 #: src/tm/tmmanager.cpp:259
 #, kde-format
 msgctxt "@title:window"
 msgid "Select TMX file to export selected database to"
-msgstr ""
+msgstr "Chọn tệp TMX để xuất khẩu cơ sở dữ liệu đã chọn ra"
 
 #: src/tm/tmscanapi.cpp:97
 #, kde-format
 msgid "Adding files to Lokalize translation memory"
-msgstr ""
+msgstr "Đang thêm tệp vào bộ nhớ lời dịch của Lokalize"
 
 #: src/tm/tmscanapi.cpp:98
 #, kde-format
 msgid "TM"
-msgstr ""
+msgstr "BNLD"
 
 #: src/tm/tmtab.cpp:374
 #, kde-format
 msgid "Substring"
-msgstr ""
+msgstr "Chuỗi con"
 
 #: src/tm/tmtab.cpp:374
 #, kde-format
 msgid "Google-like"
-msgstr ""
+msgstr "Kiểu Google"
 
 #: src/tm/tmtab.cpp:374
 #, kde-format
 msgid "Wildcard"
-msgstr ""
+msgstr "Thế tự"
 
 #: src/tm/tmtab.cpp:381
 #, kde-format
 msgid "Space is AND operator. Case insensitive."
-msgstr ""
+msgstr "Dấu cách là toán tử AND. Không phân biệt hoa thường."
 
 #: src/tm/tmtab.cpp:382
 #, kde-format
 msgid "Shell globs (* and ?). Case sensitive."
-msgstr ""
+msgstr "Các thế tự của hệ vỏ (* và ?). Có phân biệt hoa thường."
 
 #. i18nc("@title:window","Translation Memory"),false);
 #: src/tm/tmtab.cpp:398 src/tm/tmview.cpp:136 src/tm/tmview.cpp:142
 #, kde-format
 msgctxt "@title:window"
 msgid "Translation Memory"
-msgstr ""
+msgstr "Bộ nhớ lời dịch"
 
 #: src/tm/tmtab.cpp:609
 #, kde-format
@@ -4235,74 +4314,74 @@ msgstr "Tổng: %1 (%2)"
 msgctxt "@info"
 msgid ""
 "The file %1 does not exist, it has been removed from the translation memory."
-msgstr ""
+msgstr "Tệp %1 không tồn tại, nó đã bị xoá khỏi bộ nhớ lời dịch."
 
 #: src/tm/tmview.cpp:181 src/webquery/webqueryview.cpp:106
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Double-click any word to insert it into translation"
-msgstr ""
+msgstr "Bấm đúp vào bất kì từ nào để chèn nó vào lời dịch"
 
 #: src/tm/tmview.cpp:294
 #, kde-format
 msgctxt "@item Undo action"
 msgid "Batch translation memory filling"
-msgstr ""
+msgstr "Việc điền bộ nhớ lời dịch một loạt"
 
 #: src/tm/tmview.cpp:297
 #, kde-format
 msgctxt "@info"
 msgid "Batch translation has been completed."
-msgstr ""
+msgstr "Việc dịch một loạt đã hoàn tất."
 
 #: src/tm/tmview.cpp:303
 #, kde-format
 msgctxt "@info"
 msgid "No suggestions with exact matches were found."
-msgstr ""
+msgstr "Không tìm thấy gợi ý nào khớp chính xác."
 
 #: src/tm/tmview.cpp:307
 #, kde-format
 msgctxt "@title"
 msgid "Batch translation complete"
-msgstr ""
+msgstr "Hoàn tất dịch một loạt"
 
 #: src/tm/tmview.cpp:321 src/tm/tmview.cpp:336
 #, kde-format
 msgctxt "@title"
 msgid "Batch translation"
-msgstr ""
+msgstr "Dịch một loạt"
 
 #: src/tm/tmview.cpp:322 src/tm/tmview.cpp:337
 #, kde-format
 msgctxt "@info"
 msgid "Batch translation has been scheduled."
-msgstr ""
+msgstr "Việc dịch một loạt đã được lên lịch."
 
 #: src/tm/tmview.cpp:471
 #, kde-format
 msgctxt "%1 is the TM entry score in percentage"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: src/tm/tmview.cpp:473
 #, kde-format
 msgctxt "%1 is the number of times this TM entry has been found"
 msgid "(1 time)"
 msgid_plural "(%1 times)"
-msgstr[0] ""
+msgstr[0] "(%1 lần)"
 
 #: src/tm/tmview.cpp:554
 #, kde-format
 msgctxt "File argument in tooltip, when file is current file"
 msgid "this"
-msgstr ""
+msgstr "tệp này"
 
 #: src/tm/tmview.cpp:555
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "File: %1<br />Addition date: %2"
-msgstr ""
+msgstr "Tệp: %1<br />Ngày thêm: %2"
 
 #: src/tm/tmview.cpp:557
 #, kde-format
@@ -4320,13 +4399,13 @@ msgstr "<br />Tác giả thay đổi cuối: %1"
 #, kde-format
 msgctxt "@info:tooltip on TM entry continues"
 msgid "<br />TM: %1"
-msgstr ""
+msgstr "<br />BNLD: %1"
 
 #: src/tm/tmview.cpp:562
 #, kde-format
 msgctxt "@info:tooltip on TM entry continues"
 msgid "<br />Is not present in the file anymore"
-msgstr ""
+msgstr "<br />không còn xuất hiện trong tệp nữa"
 
 #: src/tm/tmview.cpp:572
 #, kde-format
@@ -4334,30 +4413,32 @@ msgid ""
 "<html>Do you really want to remove this entry:<br/><i>%1</i><br/>from "
 "translation memory %2?</html>"
 msgstr ""
+"<html>Bạn có thật sự muốn xoá mục này:<br/><i>%1</i><br/>khỏi bộ nhớ lời "
+"dịch %2?</html>"
 
 #: src/tm/tmview.cpp:573
 #, kde-format
 msgctxt "@title:window"
 msgid "Translation Memory Entry Removal"
-msgstr ""
+msgstr "Xoá mục bộ nhớ lời dịch"
 
 #: src/tm/tmview.cpp:605
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove this entry"
-msgstr ""
+msgstr "Xoá mục này"
 
 #: src/tm/tmview.cpp:607
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open file containing this entry"
-msgstr ""
+msgstr "Mở tệp chứa mục này"
 
 #: src/tm/tmview.cpp:614
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove this missing file from TM"
-msgstr ""
+msgstr "Xoá tệp không còn tồn tại này khỏi BNLD"
 
 #: src/tm/tmview.cpp:625
 #, kde-format
@@ -4365,24 +4446,26 @@ msgid ""
 "<html>Do you really want to remove this missing file:<br/><i>%1</i><br/>from "
 "translation memory %2?</html>"
 msgstr ""
+"<html>Bạn có thật sự muốn xoá tệp không còn tồn tại này:<br/><i>%1</i><br/"
+">khỏi bộ nhớ lời dịch %2?</html>"
 
 #: src/tm/tmview.cpp:626
 #, kde-format
 msgctxt "@title:window"
 msgid "Translation Memory Missing File Removal"
-msgstr ""
+msgstr "Xoá tệp không tồn tại khỏi bộ nhớ lời dịch"
 
 #: src/tm/tmview.cpp:1002
 #, kde-format
 msgctxt "@item Undo action"
 msgid "Use translation memory suggestion"
-msgstr ""
+msgstr "Dùng gợi ý của bộ nhớ lời dịch"
 
 #: src/tools/widgettextcaptureconfig.cpp:38
 #, kde-format
 msgctxt "@title"
 msgid "Widget Text Capture"
-msgstr ""
+msgstr "Thu thập chữ ở khiển tố"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/tools/widgettextcaptureconfig.ui:26
@@ -4401,71 +4484,83 @@ msgid ""
 "translation memory with all translation files indexed for this feature to "
 "work.</p></html>"
 msgstr ""
+"<html>\n"
+"<p align=\"justify\">Để tạo thuận lợi cho việc dịch KDE, Lokalize có thể thu "
+"thập các đoạn chữ ở giao diện người dùng của các ứng dụng và tìm kiếm các "
+"tệp dịch chứa đoạn chữ đó.</p>\n"
+"<p align=\"justify\">Khi được bật, việc thu thập có thể được bắt đầu bằng "
+"cách bấm chuột giữa vào bất kì yếu tố (khiển tố) GUI không sửa được nào. Sau "
+"đó, chuyển sang cửa sổ Lokalize và chọn mục có đoạn chữ này. Kể cả khi nhiều "
+"tệp chứa cùng một chuỗi, trong hầu hết các trường hợp, chuỗi đúng vẫn sẽ "
+"được chọn.</p>\n"
+"<p align=\"justify\">Nhớ rằng để tính năng này hoạt động, bạn cần có một bộ "
+"nhớ lời dịch được cập nhật với tất cả các tệp dịch đã được lập chỉ mục.</p></"
+"html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/tools/widgettextcaptureconfig.ui:42
 #, kde-format
 msgid "Middle Mouse Button Click Reaction"
-msgstr ""
+msgstr "Phản ứng khi bấm nút chuột giữa"
 
 #. i18n: ectx: property (text), widget (QRadioButton, none)
 #: src/tools/widgettextcaptureconfig.ui:48
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "Không"
 
 #. i18n: ectx: property (text), widget (QRadioButton, search)
 #: src/tools/widgettextcaptureconfig.ui:58
 #, kde-format
 msgid "Search GUI element text in translation memory"
-msgstr ""
+msgstr "Tìm kiếm đoạn chữ của yếu tố GUI trong bộ nhớ lời dịch"
 
 #. i18n: ectx: property (text), widget (QRadioButton, clipboard)
 #: src/tools/widgettextcaptureconfig.ui:65
 #, kde-format
 msgid "Copy GUI element text to clipboard"
-msgstr ""
+msgstr "Chép đoạn chữ của yếu tố GUI vào bảng nháp"
 
 #. i18n: ectx: property (text), widget (QPushButton, queryBtn)
 #: src/webquery/querycontrol.ui:8
 #, kde-format
 msgid "Query"
-msgstr ""
+msgstr "Truy vấn"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoQuery)
 #: src/webquery/querycontrol.ui:15
 #, kde-format
 msgid "Autoquery"
-msgstr ""
+msgstr "Truy vấn tự động"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox)
 #: src/webquery/querycontrol.ui:22
 #, kde-format
 msgid "Prefetch for the next untranslated"
-msgstr ""
+msgstr "Tìm nạp trước cho mục chưa dịch tiếp theo"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: src/webquery/querycontrol.ui:25
 #, kde-format
 msgid "Prefetch"
-msgstr ""
+msgstr "Tìm nạp trước"
 
 #: src/webquery/webqueryview.cpp:64
 #, kde-format
 msgid "Web Queries"
-msgstr ""
+msgstr "Các truy vấn web"
 
 #: src/xlifftextedit.cpp:1008
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Lookup selected text in translation memory"
-msgstr ""
+msgstr "Tra văn bản được chọn trong bộ nhớ lời dịch"
 
 #: src/xlifftextedit.cpp:1030 src/xlifftextedit.cpp:1108
 #, kde-format
 msgctxt "@item Undo action item"
 msgid "Replace text"
-msgstr ""
+msgstr "Thay thế văn bản"
 
 #: src/xlifftextedit.cpp:1145
 #, kde-format
@@ -4475,10 +4570,10 @@ msgstr "không có trình kiểm tra đánh vần nào"
 #: src/xlifftextedit.cpp:1159
 #, kde-format
 msgid "An error was reported: %1"
-msgstr ""
+msgstr "Một lỗi đã được báo: %1"
 
 #: src/xlifftextedit.cpp:1285
 #, kde-format
 msgctxt "@item Undo action item"
 msgid "Copy source to target"
-msgstr ""
+msgstr "Chép nguồn vào đích"

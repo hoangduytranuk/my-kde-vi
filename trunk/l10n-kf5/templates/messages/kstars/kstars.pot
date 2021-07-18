@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-14 00:14+0000\n"
+"POT-Creation-Date: 2021-07-18 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -377,7 +377,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, AddScope)
 #. i18n: ectx: property (text), widget (QPushButton, SavePreset)
 #: auxiliary/imageviewer.cpp:145 ekos/align/align.cpp:1309
-#: ekos/capture/capture.cpp:4332 ekos/scheduler/scheduler.cpp:4108
+#: ekos/capture/capture.cpp:4330 ekos/scheduler/scheduler.cpp:4108
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:95
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:382
 #: oal/equipmentwriter.ui:232 options/opscolors.ui:204
@@ -427,15 +427,15 @@ msgid "Save Image"
 msgstr ""
 
 #: auxiliary/imageviewer.cpp:331 ekos/align/align.cpp:1296
-#: ekos/align/align.cpp:1464 ekos/guide/guide.cpp:661 kstarsactions.cpp:1287
-#: printing/pwizprint.cpp:88 tools/scriptbuilder.cpp:892
+#: ekos/align/align.cpp:1464 ekos/guide/guidedriftgraph.cpp:463
+#: kstarsactions.cpp:1287 printing/pwizprint.cpp:88 tools/scriptbuilder.cpp:892
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr ""
 
 #: auxiliary/imageviewer.cpp:334 ekos/align/align.cpp:1299
-#: ekos/align/align.cpp:1467 ekos/guide/guide.cpp:664 kstarsactions.cpp:1288
-#: printing/pwizprint.cpp:89 tools/scriptbuilder.cpp:895
+#: ekos/align/align.cpp:1467 ekos/guide/guidedriftgraph.cpp:466
+#: kstarsactions.cpp:1288 printing/pwizprint.cpp:89 tools/scriptbuilder.cpp:895
 #, kde-format
 msgid "Overwrite File?"
 msgstr ""
@@ -543,7 +543,7 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
-#: auxiliary/ksuserdb.cpp:1555
+#: auxiliary/ksuserdb.cpp:1564
 #, kde-format
 msgctxt "No driver"
 msgid "None"
@@ -701,7 +701,7 @@ msgstr ""
 msgid "Astrometry Config File Error"
 msgstr ""
 
-#: auxiliary/ksutils.cpp:1729 fitsviewer/fitsdata.cpp:526
+#: auxiliary/ksutils.cpp:1729 fitsviewer/fitsdata.cpp:525
 #, kde-format
 msgid ""
 "Unable to find dcraw and cjpeg. Please install the required tools to convert "
@@ -893,8 +893,8 @@ msgstr ""
 #: tools/modcalcplanets.ui:190 tools/modcalcplanets.ui:614
 #: tools/obslistwizard.cpp:524 tools/obslistwizard.cpp:534
 #: tools/obslistwizard.cpp:536 tools/pvplotwidget.cpp:104
-#: tools/whatsinteresting/modelmanager.cpp:202
-#: tools/whatsinteresting/wiview.cpp:592 tools/wutdialog.cpp:138
+#: tools/whatsinteresting/modelmanager.cpp:203
+#: tools/whatsinteresting/wiview.cpp:618 tools/wutdialog.cpp:138
 #, kde-format, kde-kuit-format
 msgid "Sun"
 msgstr ""
@@ -968,7 +968,7 @@ msgstr ""
 #: tools/modcalcplanets.cpp:273 tools/modcalcplanets.cpp:403
 #: tools/modcalcplanets.ui:185 tools/modcalcplanets.ui:609
 #: tools/obslistwizard.cpp:538 tools/obslistwizard.cpp:548
-#: tools/obslistwizard.cpp:550 tools/whatsinteresting/wiview.cpp:592
+#: tools/obslistwizard.cpp:550 tools/whatsinteresting/wiview.cpp:618
 #: tools/wutdialog.cpp:206
 #, kde-format, kde-kuit-format
 msgid "Moon"
@@ -1721,7 +1721,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, RACheckBatch)
 #: data/qml/mount/mountbox.qml:530 data/qml/mount/mountbox.qml:701
 #: data/qml/mount/mountbox.qml:765 dialogs/focusdialog.ui:107
-#: ekos/align/align.ui:279 ekos/align/align.ui:384 ekos/manager.ui:1109
+#: ekos/align/align.ui:279 ekos/align/align.ui:384 ekos/manager.ui:885
 #: tools/altvstime.ui:97 tools/argsetradec.ui:37 tools/modcalcgalcoord.ui:288
 #: tools/modcalcplanets.ui:251 tools/modcalcvlsr.ui:508
 #, kde-format, kde-kuit-format
@@ -1730,7 +1730,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: data/qml/mount/mountbox.qml:548 data/qml/mount/mountbox.qml:801
-#: ekos/manager.ui:1146
+#: ekos/manager.ui:922
 #, kde-format, kde-kuit-format
 msgid "AZ:"
 msgstr ""
@@ -1742,14 +1742,14 @@ msgstr ""
 #: data/qml/mount/mountbox.qml:566 data/qml/mount/mountbox.qml:723
 #: data/qml/mount/mountbox.qml:766 data/qml/mount/mountbox.qml:838
 #: dialogs/focusdialog.ui:64 ekos/align/align.ui:235 ekos/align/align.ui:354
-#: ekos/manager.ui:1126
+#: ekos/manager.ui:902
 #, kde-format, kde-kuit-format
 msgid "DE:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: data/qml/mount/mountbox.qml:583 data/qml/mount/mountbox.qml:802
-#: ekos/manager.ui:1163
+#: ekos/manager.ui:939
 #, kde-format, kde-kuit-format
 msgid "AL:"
 msgstr ""
@@ -1847,19 +1847,21 @@ msgstr ""
 msgid "Status:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, captureStatus)
-#. i18n: ectx: property (text), widget (QLabel, mountStatus)
+#. i18n: ectx: property (text), widget (QLabel, idlingStateLabel)
 #. i18n: ectx: property (text), widget (QLabel, focusStatus)
 #. i18n: ectx: property (text), widget (QLabel, guideStatus)
+#. i18n: ectx: property (text), widget (QLabel, captureStatus)
+#. i18n: ectx: property (text), widget (QLabel, mountStatus)
 #. i18n: ectx: property (text), widget (QLabel, jobStatus)
 #: data/qml/mount/mountbox.qml:967 ekos/align/align.cpp:69
 #: ekos/analyze/analyze.cpp:119 ekos/analyze/analyze.cpp:138
 #: ekos/analyze/analyze.cpp:2270 ekos/auxiliary/darklibrary.cpp:53
 #: ekos/capture/sequencejob.cpp:31 ekos/ekos.h:24 ekos/ekos.h:75 ekos/ekos.h:122
-#: ekos/ekos.h:142 ekos/ekos.h:162 ekos/ekos.h:188 ekos/manager.cpp:568
-#: ekos/manager.cpp:570 ekos/manager.cpp:571 ekos/manager.cpp:572
-#: ekos/manager.ui:649 ekos/manager.ui:1044 ekos/manager.ui:1280
-#: ekos/manager.ui:1594 ekos/scheduler/scheduler.ui:1213
+#: ekos/ekos.h:142 ekos/ekos.h:162 ekos/ekos.h:188 ekos/guide/guidestatewidget.ui:38
+#: ekos/manager.cpp:553 ekos/manager.cpp:555 ekos/manager.ui:652
+#: ekos/manager.ui:804 ekos/manager/focusmanager.cpp:109
+#: ekos/manager/focusmanager.ui:126 ekos/manager/guidemanager.cpp:159
+#: ekos/manager/guidemanager.ui:117 ekos/scheduler/scheduler.ui:1213
 #: ekos/scheduler/schedulerjob.cpp:489 ekos/scheduler/schedulerjob.cpp:513
 #: indi/indicap.cpp:226 indi/indidome.cpp:529 indi/inditelescope.cpp:1344
 #, kde-format, kde-kuit-format
@@ -1961,50 +1963,75 @@ msgstr ""
 msgid "Clusters"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:597
-#: data/qml/whatisinteresting/wiview.qml:1303
+#: data/qml/whatisinteresting/wiview.qml:545
+#, kde-kuit-format
+msgid "Explore Catalogs"
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:564
+#, kde-kuit-format
+msgid "Messier Catalog"
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:596
+#, kde-kuit-format
+msgid "NGC Catalog"
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:628
+#, kde-kuit-format
+msgid "IC Catalog"
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:660
+#, kde-kuit-format
+msgid "Sharpless Catalog"
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:744
+#: data/qml/whatisinteresting/wiview.qml:1450
 #, kde-kuit-format
 msgid "No Items to display"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:744
-#: data/qml/whatisinteresting/wiview.qml:767
-#: data/qml/whatisinteresting/wiview.qml:992
+#: data/qml/whatisinteresting/wiview.qml:891
+#: data/qml/whatisinteresting/wiview.qml:914
+#: data/qml/whatisinteresting/wiview.qml:1139
 #, kde-kuit-format
 msgid "text"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:809
+#: data/qml/whatisinteresting/wiview.qml:956
 #, kde-kuit-format
 msgid "More Details"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:835
+#: data/qml/whatisinteresting/wiview.qml:982
 #, kde-kuit-format
 msgid "Center in Map \n"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:855
+#: data/qml/whatisinteresting/wiview.qml:1002
 #, kde-kuit-format
 msgid " Auto     Track   "
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:890
+#: data/qml/whatisinteresting/wiview.qml:1037
 #, kde-kuit-format
 msgid "Slew Telescope"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:935
+#: data/qml/whatisinteresting/wiview.qml:1082
 #, kde-kuit-format
 msgid "Object Information"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1016
+#: data/qml/whatisinteresting/wiview.qml:1163
 #, kde-kuit-format
 msgid "Wikipedia Infotext"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1128
+#: data/qml/whatisinteresting/wiview.qml:1275
 #, kde-kuit-format
 msgid "Info Text"
 msgstr ""
@@ -2014,7 +2041,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, remoteEquipmentNextB)
 #. i18n: ectx: property (text), widget (QPushButton, stellarMateEquipmentNextB)
 #. i18n: ectx: property (text), widget (QPushButton, NextButton)
-#: data/qml/whatisinteresting/wiview.qml:1191
+#: data/qml/whatisinteresting/wiview.qml:1338
 #: ekos/align/align.ui:1544 ekos/profilewizard.ui:169 ekos/profilewizard.ui:694
 #: ekos/profilewizard.ui:811 kstarslite/qml/modules/tutorial/TutorialPane.qml:57
 #: tools/starhopperdialog.ui:53
@@ -2022,22 +2049,22 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1267
+#: data/qml/whatisinteresting/wiview.qml:1414
 #, kde-kuit-format
 msgid "Previous"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1369
+#: data/qml/whatisinteresting/wiview.qml:1516
 #, kde-kuit-format
 msgid "Loading..."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1399
+#: data/qml/whatisinteresting/wiview.qml:1546
 #, kde-kuit-format
 msgid "Explanation of the What's Interesting Panel"
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1413
+#: data/qml/whatisinteresting/wiview.qml:1560
 #, kde-kuit-format
 msgid ""
 "The What's Interesting Panel is intended to allow you to explore many "
@@ -2054,7 +2081,7 @@ msgid ""
 "buttons at the bottom do."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1435
+#: data/qml/whatisinteresting/wiview.qml:1582
 #, kde-kuit-format
 msgid ""
 "This button will bring up the What's Interesting Settings. It will let you "
@@ -2062,7 +2089,7 @@ msgid ""
 "you are using and the observing conditions."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1456
+#: data/qml/whatisinteresting/wiview.qml:1603
 #, kde-kuit-format
 msgid ""
 "This button will turn on and off the Inspector Mode.  In this mode you can "
@@ -2070,7 +2097,7 @@ msgid ""
 "information about it."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1477
+#: data/qml/whatisinteresting/wiview.qml:1624
 #, kde-kuit-format
 msgid ""
 "This button will reload the current object list, update all displayed "
@@ -2078,7 +2105,7 @@ msgid ""
 "the currently selected object."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1498
+#: data/qml/whatisinteresting/wiview.qml:1645
 #, kde-kuit-format
 msgid ""
 "This button will toggle whether to filter the list to display only currently "
@@ -2088,7 +2115,7 @@ msgid ""
 "What's Interesting Settings."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1519
+#: data/qml/whatisinteresting/wiview.qml:1666
 #, kde-kuit-format
 msgid ""
 "This button will toggle whether to filter the list to display only "
@@ -2098,7 +2125,7 @@ msgid ""
 "'interesting' list."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1540
+#: data/qml/whatisinteresting/wiview.qml:1687
 #, kde-kuit-format
 msgid ""
 "This button will attempt to download information and pictures about the "
@@ -2110,7 +2137,7 @@ msgid ""
 "objects in the list, turn off the filters."
 msgstr ""
 
-#: data/qml/whatisinteresting/wiview.qml:1577
+#: data/qml/whatisinteresting/wiview.qml:1724
 #, kde-kuit-format
 msgid "Back"
 msgstr ""
@@ -2371,8 +2398,8 @@ msgstr ""
 
 #: dialogs/addlinkdialog.cpp:71 ekos/align/align.cpp:1170
 #: ekos/align/align.cpp:1316 ekos/align/align.cpp:1475
-#: ekos/analyze/analyze.cpp:1000 ekos/capture/capture.cpp:3933
-#: ekos/capture/capture.cpp:4341 ekos/guide/guide.cpp:672
+#: ekos/analyze/analyze.cpp:1000 ekos/capture/capture.cpp:3931
+#: ekos/capture/capture.cpp:4339 ekos/guide/guidedriftgraph.cpp:474
 #: ekos/scheduler/scheduler.cpp:3762 ekos/scheduler/scheduler.cpp:4119
 #: fitsviewer/fitstab.cpp:732 tools/scriptbuilder.cpp:845
 #: tools/scriptbuilder.cpp:943
@@ -2407,8 +2434,10 @@ msgid "Resource Type"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, ImageRadio)
-#. i18n: ectx: property (text), widget (QLabel, sequenceLabel_2)
-#: dialogs/addlinkdialog.ui:34 ekos/manager.ui:709 kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:70
+#. i18n: ectx: property (text), widget (QLabel, imageLabel)
+#: dialogs/addlinkdialog.ui:34 ekos/capture/capturecountswidget.cpp:53
+#: ekos/capture/capturecountswidget.ui:67
+#: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:70
 #, kde-format, kde-kuit-format
 msgid "Image"
 msgstr ""
@@ -2621,8 +2650,8 @@ msgid "Type Mapping"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, preview_button)
-#: dialogs/catalogcsvimport.ui:297 ekos/manager.cpp:3213 fitsviewer/fitsviewer.cpp:555
-#: indi/indiccd.cpp:1721
+#: dialogs/catalogcsvimport.ui:297 ekos/capture/capturecountswidget.cpp:158
+#: fitsviewer/fitsviewer.cpp:555 indi/indiccd.cpp:1721
 #, kde-format
 msgid "Preview"
 msgstr ""
@@ -3332,18 +3361,18 @@ msgid "Could not update the user log."
 msgstr ""
 
 #: dialogs/detaildialog.cpp:1092 dialogs/detaildialog.cpp:1129
-#: fitsviewer/fitslabel.cpp:338 fitsviewer/fitslabel.cpp:373
+#: fitsviewer/fitslabel.cpp:327 fitsviewer/fitslabel.cpp:362
 #: kstarsactions.cpp:286 kstarsactions.cpp:317 tools/flagmanager.cpp:274
 #: tools/flagmanager.cpp:304 tools/observinglist.cpp:690
-#: tools/observinglist.cpp:719 tools/whatsinteresting/wiview.cpp:317
-#: tools/whatsinteresting/wiview.cpp:348
+#: tools/observinglist.cpp:719 tools/whatsinteresting/wiview.cpp:343
+#: tools/whatsinteresting/wiview.cpp:374
 #, kde-format
 msgid "KStars did not find any active telescopes."
 msgstr ""
 
-#: dialogs/detaildialog.cpp:1109 fitsviewer/fitslabel.cpp:354
+#: dialogs/detaildialog.cpp:1109 fitsviewer/fitslabel.cpp:343
 #: kstarsactions.cpp:306 tools/flagmanager.cpp:291 tools/observinglist.cpp:707
-#: tools/whatsinteresting/wiview.cpp:333
+#: tools/whatsinteresting/wiview.cpp:359
 #, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr ""
@@ -3440,8 +3469,8 @@ msgstr ""
 #: ekos/auxiliary/darklibrary.ui:429 ekos/auxiliary/darklibrary.ui:609
 #: ekos/auxiliary/darklibrary.ui:629 ekos/auxiliary/darklibrary.ui:649
 #: ekos/auxiliary/darklibrary.ui:669 ekos/auxiliary/darklibrary.ui:689
-#: ekos/auxiliary/darklibrary.ui:709 ekos/capture/capture.cpp:1057
-#: ekos/capture/capture.cpp:1091 ekos/focus/focus.ui:560
+#: ekos/auxiliary/darklibrary.ui:709 ekos/capture/capture.cpp:1055
+#: ekos/capture/capture.cpp:1089 ekos/focus/focus.ui:560
 #: ekos/focus/focus.ui:1208 ekos/guide/guide.ui:436 indi/streamform.ui:368
 #, kde-format
 msgid "--"
@@ -4071,7 +4100,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, decLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_7)
-#: dialogs/focusdialog.ui:61 ekos/manager.ui:1123 ekos/mount/mount.ui:260
+#: dialogs/focusdialog.ui:61 ekos/manager.ui:899 ekos/mount/mount.ui:260
 #, kde-format
 msgid "Declination"
 msgstr ""
@@ -4090,7 +4119,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, raLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_5)
-#: dialogs/focusdialog.ui:104 ekos/manager.ui:1106 ekos/mount/mount.ui:243
+#: dialogs/focusdialog.ui:104 ekos/manager.ui:882 ekos/mount/mount.ui:243
 #, kde-format
 msgid "Right Ascension"
 msgstr ""
@@ -4110,7 +4139,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
-#: dialogs/focusdialog.ui:148 ekos/manager.ui:1143 ekos/mount/mount.ui:280
+#: dialogs/focusdialog.ui:148 ekos/manager.ui:919 ekos/mount/mount.ui:280
 #: kstarslite/qml/dialogs/DetailsDialog.qml:271
 #, kde-format, kde-kuit-format
 msgid "Azimuth"
@@ -5454,12 +5483,12 @@ msgstr ""
 msgid "Idle."
 msgstr ""
 
-#: ekos/align/align.cpp:381 ekos/guide/guide.cpp:3697
+#: ekos/align/align.cpp:381 ekos/guide/guidetargetplot.cpp:58
 #, kde-format
 msgid "dRA (arcsec)"
 msgstr ""
 
-#: ekos/align/align.cpp:382 ekos/guide/guide.cpp:3698
+#: ekos/align/align.cpp:382 ekos/guide/guidetargetplot.cpp:59
 #, kde-format
 msgid "dDE (arcsec)"
 msgstr ""
@@ -5493,8 +5522,8 @@ msgid "Open Ekos Alignment List"
 msgstr ""
 
 #: ekos/align/align.cpp:1169 ekos/align/align.cpp:1315
-#: ekos/align/align.cpp:1474 ekos/capture/capture.cpp:3932
-#: ekos/capture/capture.cpp:4340 ekos/guide/guide.cpp:671
+#: ekos/align/align.cpp:1474 ekos/capture/capture.cpp:3930
+#: ekos/capture/capture.cpp:4338 ekos/guide/guidedriftgraph.cpp:473
 #: ekos/scheduler/scheduler.cpp:3761 ekos/scheduler/scheduler.cpp:4118
 #: fitsviewer/fitstab.cpp:731 tools/scriptbuilder.cpp:845
 #: tools/scriptbuilder.cpp:942
@@ -5502,15 +5531,15 @@ msgstr ""
 msgid "Invalid URL: %1"
 msgstr ""
 
-#: ekos/align/align.cpp:1188 ekos/capture/capture.cpp:3947
+#: ekos/align/align.cpp:1188 ekos/capture/capture.cpp:3945
 #: ekos/scheduler/scheduler.cpp:3804 ekos/scheduler/scheduler.cpp:6178
 #, kde-format
 msgid "Unable to open file %1"
 msgstr ""
 
 #: ekos/align/align.cpp:1189 ekos/align/align.cpp:1327
-#: ekos/align/align.cpp:1484 ekos/capture/capture.cpp:3948
-#: ekos/guide/guide.cpp:681 ekos/scheduler/scheduler.cpp:3805
+#: ekos/align/align.cpp:1484 ekos/capture/capture.cpp:3946
+#: ekos/guide/guidedriftgraph.cpp:483 ekos/scheduler/scheduler.cpp:3805
 #: ekos/scheduler/scheduler.cpp:4131 ekos/scheduler/scheduler.cpp:6179
 #: ekos/scheduler/scheduler.cpp:6209 ekos/scheduler/scheduler.cpp:6246
 #: indi/drivermanager.cpp:1504 indi/indidriver.cpp:931 kstarsactions.cpp:1336
@@ -5526,7 +5555,7 @@ msgstr ""
 msgid "Could Not Open File"
 msgstr ""
 
-#: ekos/align/align.cpp:1210 ekos/capture/capture.cpp:3974
+#: ekos/align/align.cpp:1210 ekos/capture/capture.cpp:3972
 #, kde-format
 msgid ""
 "Deprecated sequence file format version %1. Please construct a new sequence "
@@ -5544,7 +5573,7 @@ msgid "Failed to save alignment list"
 msgstr ""
 
 #: ekos/align/align.cpp:1326 ekos/align/align.cpp:1483
-#: ekos/capture/capture.cpp:4365 ekos/guide/guide.cpp:680
+#: ekos/capture/capture.cpp:4363 ekos/guide/guidedriftgraph.cpp:482
 #: ekos/scheduler/scheduler.cpp:4130 ekos/scheduler/scheduler.cpp:6245
 #, kde-format
 msgid "Unable to write to file %1"
@@ -5639,8 +5668,8 @@ msgid "Mount does not support syncing."
 msgstr ""
 
 #: ekos/align/align.cpp:2177 ekos/align/align.cpp:2184
-#: ekos/guide/guide.cpp:1075 ekos/guide/guide.cpp:1082
-#: ekos/profileeditor.cpp:153 ekos/profileeditor.cpp:160
+#: ekos/guide/guide.cpp:634 ekos/guide/guide.cpp:641 ekos/profileeditor.cpp:153
+#: ekos/profileeditor.cpp:160
 #, kde-format
 msgctxt "F-Number, Focal Length, Aperture"
 msgid ""
@@ -5724,8 +5753,8 @@ msgstr ""
 msgid "Error: lost connection to filter wheel."
 msgstr ""
 
-#: ekos/align/align.cpp:2808 ekos/capture/capture.cpp:3206
-#: ekos/capture/capture.cpp:6500 ekos/focus/focus.cpp:3776
+#: ekos/align/align.cpp:2808 ekos/capture/capture.cpp:3204
+#: ekos/capture/capture.cpp:6498 ekos/focus/focus.cpp:3653
 #, kde-format
 msgid ""
 "Image transfer is disabled for this camera. Would you like to enable it?"
@@ -5747,12 +5776,12 @@ msgstr ""
 msgid "No remote astrometry driver detected, switching to StellarSolver."
 msgstr ""
 
-#: ekos/align/align.cpp:2907 ekos/focus/focus.cpp:1228
+#: ekos/align/align.cpp:2907 ekos/focus/focus.cpp:1231
 #, kde-format
 msgid "Capturing image..."
 msgstr ""
 
-#: ekos/align/align.cpp:2983 ekos/focus/focus.cpp:1811
+#: ekos/align/align.cpp:2983 ekos/focus/focus.cpp:1808
 #, kde-format
 msgid "Image received."
 msgstr ""
@@ -5849,7 +5878,7 @@ msgid "Refresh is complete."
 msgstr ""
 
 #: ekos/align/align.cpp:3936 ekos/auxiliary/darklibrary.cpp:1573
-#: ekos/focus/focus.cpp:1032
+#: ekos/focus/focus.cpp:1035
 #, kde-format
 msgid "Capture aborted."
 msgstr ""
@@ -5859,9 +5888,9 @@ msgstr ""
 msgid "Solver aborted after %1 seconds."
 msgstr ""
 
-#: ekos/align/align.cpp:3984 ekos/capture/capture.cpp:2468
-#: ekos/focus/focus.cpp:3044 ekos/guide/guide.cpp:1554
-#: ekos/manager.cpp:2245 ekos/mount/mount.cpp:833 ekos/observatory/observatory.cpp:943
+#: ekos/align/align.cpp:3984 ekos/capture/capture.cpp:2466
+#: ekos/focus/focus.cpp:2921 ekos/guide/guide.cpp:1113
+#: ekos/manager.cpp:2214 ekos/mount/mount.cpp:833 ekos/observatory/observatory.cpp:943
 #: ekos/scheduler/scheduler.cpp:421
 #, kde-format
 msgctxt "log entry; %1 is the date, %2 is the text"
@@ -6099,7 +6128,7 @@ msgstr ""
 msgid "Capture error. Aborting..."
 msgstr ""
 
-#: ekos/align/align.cpp:5233 ekos/capture/capture.cpp:2524
+#: ekos/align/align.cpp:5233 ekos/capture/capture.cpp:2522
 #, kde-format
 msgid "Restarting capture attempt #%1"
 msgstr ""
@@ -6209,23 +6238,23 @@ msgstr ""
 msgid "Failed to process World Coordinate System: %1. Try again."
 msgstr ""
 
-#: ekos/align/align.cpp:5970 ekos/capture/capture.cpp:6689
-#: ekos/focus/focus.cpp:3710
+#: ekos/align/align.cpp:5970 ekos/capture/capture.cpp:6687
+#: ekos/focus/focus.cpp:3587
 #, kde-format
 msgid "Filter operation failed."
 msgstr ""
 
-#: ekos/align/align.cpp:5982 ekos/capture/capture.cpp:6707
+#: ekos/align/align.cpp:5982 ekos/capture/capture.cpp:6705
 #, kde-format
 msgid "Changing focus offset by %1 steps..."
 msgstr ""
 
-#: ekos/align/align.cpp:5989 ekos/capture/capture.cpp:6711
+#: ekos/align/align.cpp:5989 ekos/capture/capture.cpp:6709
 #, kde-format
 msgid "Changing filter to %1..."
 msgstr ""
 
-#: ekos/align/align.cpp:5994 ekos/capture/capture.cpp:6715
+#: ekos/align/align.cpp:5994 ekos/capture/capture.cpp:6713
 #, kde-format
 msgid "Auto focus on filter change..."
 msgstr ""
@@ -6264,8 +6293,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, PAHStopB)
 #. i18n: ectx: property (text), widget (QPushButton, stopFocusB)
 #: ekos/align/align.ui:100 ekos/align/align.ui:2278 ekos/align/align.ui:2281
-#: ekos/auxiliary/darklibrary.ui:501 ekos/capture/capture.cpp:3317
-#: ekos/focus/focus.ui:123 ekos/guide/guide.ui:83 ekos/manager.cpp:194
+#: ekos/auxiliary/darklibrary.ui:501 ekos/capture/capture.cpp:3315
+#: ekos/focus/focus.ui:123 ekos/guide/guide.ui:83 ekos/manager.cpp:186
 #: ekos/observatory/observatorydomemodel.cpp:126
 #: ekos/observatory/observatorydomemodel.cpp:128
 #: kstarslite/qml/indi/INDIControlPanel.qml:144
@@ -6389,13 +6418,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, FOVScopeCombo)
-#: ekos/align/align.ui:334 ekos/guide/guide.ui:575
+#: ekos/align/align.ui:334 ekos/guide/guide.ui:532
 #, kde-format
 msgid "Primary Scope"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, FOVScopeCombo)
-#: ekos/align/align.ui:339 ekos/guide/guide.ui:580
+#: ekos/align/align.ui:339 ekos/guide/guide.ui:537
 #, kde-format
 msgid "Guide Scope"
 msgstr ""
@@ -6543,7 +6572,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #: ekos/align/align.ui:616 ekos/capture/capture.ui:603
-#: ekos/focus/focus.ui:543 ekos/profileeditor.ui:460 fitsviewer/fitsdebayer.ui:22
+#: ekos/focus/focus.ui:543 ekos/profileeditor.ui:473 fitsviewer/fitsdebayer.ui:22
 #: oal/execute.ui:358
 #, kde-format
 msgid "Filter:"
@@ -6558,7 +6587,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: ekos/align/align.ui:630 ekos/focus/focus.ui:604 ekos/profileeditor.ui:612
+#: ekos/align/align.ui:630 ekos/focus/focus.ui:604 ekos/profileeditor.ui:625
 #, kde-format
 msgid "CCD:"
 msgstr ""
@@ -6625,7 +6654,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/align/align.ui:859 ekos/align/opsastrometry.ui:389
-#: ekos/guide/guide.ui:395 ekos/guide/guide.ui:1594 ekos/guide/opscalibration.ui:253
+#: ekos/guide/guide.ui:395 ekos/guide/guide.ui:1551 ekos/guide/opscalibration.ui:253
 #: ekos/mount/mount.ui:263 ekos/scheduler/scheduler.ui:472
 #, kde-format
 msgid "DEC"
@@ -7024,7 +7053,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, PAHStartB)
 #. i18n: ectx: property (text), widget (QPushButton, startB)
 #: ekos/align/align.ui:2265 ekos/align/align.ui:2268 ekos/auxiliary/darklibrary.ui:491
-#: ekos/manager.cpp:134 ekos/manager.cpp:200 ekos/manager.cpp:585
+#: ekos/manager.cpp:125 ekos/manager.cpp:192 ekos/manager.cpp:566
 #: ekos/observatory/observatorydomemodel.cpp:126
 #: ekos/observatory/observatorydomemodel.cpp:128
 #: kstarslite/qml/indi/INDIControlPanel.qml:173
@@ -7080,13 +7109,13 @@ msgstr ""
 msgid "Correct Alt Error"
 msgstr ""
 
-#: ekos/align/alignview.cpp:138 fitsviewer/fitsview.cpp:1496
+#: ekos/align/alignview.cpp:138 fitsviewer/fitsview.cpp:1483
 #, kde-format
 msgctxt "North Celestial Pole"
 msgid "NCP"
 msgstr ""
 
-#: ekos/align/alignview.cpp:140 fitsviewer/fitsview.cpp:1513
+#: ekos/align/alignview.cpp:140 fitsviewer/fitsview.cpp:1500
 #, kde-format
 msgctxt "South Celestial Pole"
 msgid "SCP"
@@ -9259,7 +9288,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, SetupPython)
-#: ekos/align/opsprograms.ui:144 ekos/manager.cpp:299
+#: ekos/align/opsprograms.ui:144 ekos/manager.cpp:288
 #, kde-format
 msgid "Setup"
 msgstr ""
@@ -9507,14 +9536,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusLogging)
 #. i18n: ectx: property (text), widget (QCheckBox, focusStepCheck)
 #: ekos/analyze/analyze.cpp:1585 ekos/auxiliary/opslogs.ui:377
-#: ekos/manager.cpp:2388 ekos/scheduler/scheduler.ui:279
+#: ekos/manager.cpp:2349 ekos/scheduler/scheduler.ui:279
 #: fitsviewer/fitscommon.h:25 fitsviewer/fitsviewer.cpp:392
 #, kde-format
 msgid "Focus"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, alignStepCheck)
-#: ekos/analyze/analyze.cpp:1586 ekos/manager.cpp:2352 ekos/scheduler/scheduler.ui:232
+#: ekos/analyze/analyze.cpp:1586 ekos/manager.cpp:2313 ekos/scheduler/scheduler.ui:232
 #: fitsviewer/fitscommon.h:26 fitsviewer/fitsviewer.cpp:400
 #, kde-format
 msgid "Align"
@@ -9525,8 +9554,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, guideB)
 #. i18n: ectx: property (text), widget (QCheckBox, guideStepCheck)
 #: ekos/analyze/analyze.cpp:1587 ekos/analyze/analyze.ui:271
-#: ekos/auxiliary/opslogs.ui:120 ekos/guide/guide.cpp:149
-#: ekos/guide/guide.ui:205 ekos/manager.cpp:2605 ekos/scheduler/scheduler.ui:254
+#: ekos/auxiliary/opslogs.ui:120 ekos/guide/guide.cpp:132
+#: ekos/guide/guide.ui:205 ekos/manager.cpp:2512 ekos/scheduler/scheduler.ui:254
 #: fitsviewer/fitscommon.h:25 fitsviewer/fitsviewer.cpp:396
 #, kde-format
 msgid "Guide"
@@ -9542,7 +9571,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MountLogging)
 #: ekos/analyze/analyze.cpp:1589 ekos/analyze/analyze.ui:289
 #: ekos/auxiliary/opslogs.ui:77 ekos/auxiliary/opslogs.ui:420
-#: ekos/manager.cpp:2519
+#: ekos/manager.cpp:2432
 #, kde-format
 msgid "Mount"
 msgstr ""
@@ -10756,7 +10785,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, FilterCaptureLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, filterLabel)
 #: ekos/auxiliary/filtersettings.ui:22 ekos/auxiliary/opslogs.ui:272
-#: ekos/capture/capture.ui:320 ekos/focus/focus.ui:514 ekos/profileeditor.ui:457
+#: ekos/capture/capture.ui:320 ekos/focus/focus.ui:514 ekos/profileeditor.ui:470
 #, kde-format
 msgid "Filter Wheel"
 msgstr ""
@@ -10815,7 +10844,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (toolTip), widget (QPushButton, logsB)
 #. i18n: ectx: property (text), widget (QPushButton, logsB)
-#: ekos/auxiliary/opslogs.ui:71 ekos/manager.ui:499 ekos/manager.ui:502
+#: ekos/auxiliary/opslogs.ui:71 ekos/manager.ui:502 ekos/manager.ui:505
 #, kde-format
 msgid "Logs"
 msgstr ""
@@ -10828,7 +10857,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SchedulerLogging)
 #. i18n: ectx: attribute (title), widget (QWidget, schedulerTab)
-#: ekos/auxiliary/opslogs.ui:90 ekos/manager.cpp:304 ekos/opsekos.ui:166
+#: ekos/auxiliary/opslogs.ui:90 ekos/manager.cpp:293 ekos/opsekos.ui:166
 #, kde-format
 msgid "Scheduler"
 msgstr ""
@@ -10857,9 +10886,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (windowTitle), widget (QWidget, CaptureCountsWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, FocusManager)
+#. i18n: ectx: property (windowTitle), widget (QWidget, GuideManager)
 #. i18n: ectx: property (windowTitle), widget (QWidget, Manager)
-#: ekos/auxiliary/opslogs.ui:133 ekos/manager.cpp:608 ekos/manager.ui:38
-#: kstarsactions.cpp:1114 kstarsinit.cpp:454
+#: ekos/auxiliary/opslogs.ui:133 ekos/capture/capturecountswidget.ui:41
+#: ekos/manager.cpp:588 ekos/manager.ui:38 ekos/manager/focusmanager.ui:41
+#: ekos/manager/guidemanager.ui:41 kstarsactions.cpp:1114
+#: kstarsinit.cpp:454
 #, kde-format
 msgid "Ekos"
 msgstr ""
@@ -10914,8 +10948,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FITSLogging)
 #. i18n: ectx: property (text), item, widget (QComboBox, captureFormatS)
-#: ekos/auxiliary/opslogs.ui:202 ekos/capture/capture.cpp:1006
-#: ekos/capture/capture.cpp:1016 ekos/capture/capture.ui:614
+#: ekos/auxiliary/opslogs.ui:202 ekos/capture/capture.cpp:1004
+#: ekos/capture/capture.cpp:1014 ekos/capture/capture.ui:614
 #: kstarsactions.cpp:1104
 #, kde-format
 msgid "FITS"
@@ -11011,7 +11045,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObservatoryLogging)
 #. i18n: ectx: property (windowTitle), widget (QWidget, Observatory)
-#: ekos/auxiliary/opslogs.ui:328 ekos/manager.cpp:2728 ekos/observatory/observatory.ui:14
+#: ekos/auxiliary/opslogs.ui:328 ekos/manager.cpp:2596 ekos/observatory/observatory.ui:14
 #, kde-format
 msgid "Observatory"
 msgstr ""
@@ -11036,7 +11070,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_INDIAOLogging)
 #. i18n: ectx: property (toolTip), widget (QLabel, AOLabel)
-#: ekos/auxiliary/opslogs.ui:361 ekos/profileeditor.ui:582
+#: ekos/auxiliary/opslogs.ui:361 ekos/profileeditor.ui:595
 #, kde-format
 msgid "Adaptive Optics"
 msgstr ""
@@ -11183,6 +11217,81 @@ msgstr ""
 msgid "Open Logs Directory"
 msgstr ""
 
+#: ekos/auxiliary/portselector.cpp:69
+#, kde-format
+msgid "Serial"
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:71
+#, kde-format
+msgid ""
+"Select <b>Serial</b> if your device is connected via Serial to USB adapter."
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:83
+#, kde-format
+msgid "Network"
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:85
+#, kde-format
+msgid "Select <b>Network</b> if your device is connected via Ethernet or WiFi."
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:104
+#, kde-format
+msgid "Select Serial port"
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:135
+#, kde-format
+msgid "Select Baud rate"
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:152
+#, kde-format
+msgid "Host name or IP address."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, localTreeWidget)
+#. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
+#: ekos/auxiliary/portselector.cpp:162 indi/drivermanager.ui:81
+#: indi/drivermanager.ui:332
+#, kde-format
+msgid "Port"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, connectB)
+#. i18n: ectx: property (text), widget (QPushButton, externalConnectB)
+#. i18n: ectx: property (text), widget (QPushButton, connectHostB)
+#: ekos/auxiliary/portselector.cpp:193 ekos/ekoslive/ekosliveclient.cpp:216
+#: ekos/ekoslive/ekoslivedialog.ui:287 ekos/guide/guide.ui:450
+#: ekos/manager.ui:564 indi/drivermanager.ui:361 kstarslite/qml/indi/INDIControlPanel.qml:219
+#, kde-format, kde-kuit-format
+msgid "Connect"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, externalDisconnectB)
+#. i18n: ectx: property (text), widget (QPushButton, disconnectB)
+#. i18n: ectx: property (text), widget (QPushButton, disconnectHostB)
+#: ekos/auxiliary/portselector.cpp:200 ekos/ekoslive/ekosliveclient.cpp:190
+#: ekos/guide/guide.ui:280 ekos/manager.ui:580 indi/drivermanager.ui:368
+#: kstarslite/qml/indi/INDIControlPanel.qml:219
+#, kde-format, kde-kuit-format
+msgid "Disconnect"
+msgstr ""
+
+#: ekos/auxiliary/portselector.cpp:368
+#, kde-format
+msgid "Connect All"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, portSelectorCheck)
+#: ekos/auxiliary/portselector.cpp:381 ekos/profileeditor.ui:94
+#, kde-format
+msgid "Port Selector"
+msgstr ""
+
 #: ekos/auxiliary/serialportassistant.cpp:97
 #, kde-format
 msgid ""
@@ -11288,9 +11397,7 @@ msgid "Failed to add a new rule."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SerialPortAssistant)
-#. i18n: ectx: property (toolTip), widget (QPushButton, serialPortAssistantB)
 #: ekos/auxiliary/serialportassistant.ui:14
-#: ekos/manager.ui:444
 #, kde-format
 msgid "Serial Port Assistant"
 msgstr ""
@@ -12233,12 +12340,12 @@ msgstr ""
 msgid "Park Dome"
 msgstr ""
 
-#: ekos/capture/capture.cpp:215 ekos/capture/capture.cpp:4715
+#: ekos/capture/capture.cpp:215 ekos/capture/capture.cpp:4713
 #, kde-format
 msgid "Add job to sequence queue"
 msgstr ""
 
-#: ekos/capture/capture.cpp:216 ekos/capture/capture.cpp:4716
+#: ekos/capture/capture.cpp:216 ekos/capture/capture.cpp:4714
 #, kde-format
 msgid "Remove job from sequence queue"
 msgstr ""
@@ -12280,7 +12387,7 @@ msgid ""
 "restart capturing?"
 msgstr ""
 
-#: ekos/capture/capture.cpp:630 ekos/capture/capture.cpp:4527
+#: ekos/capture/capture.cpp:630 ekos/capture/capture.cpp:4525
 #, kde-format
 msgid "Reset job status"
 msgstr ""
@@ -12338,351 +12445,351 @@ msgid "CCD capture aborted"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, startB)
-#: ekos/capture/capture.cpp:828 ekos/capture/capture.ui:2128
+#: ekos/capture/capture.cpp:826 ekos/capture/capture.ui:2128
 #, kde-format
 msgid "Start Sequence"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, captureFormatS)
-#: ekos/capture/capture.cpp:1017 ekos/capture/capture.ui:619
+#: ekos/capture/capture.cpp:1015 ekos/capture/capture.ui:619
 #, kde-format
 msgid "Native"
 msgstr ""
 
-#: ekos/capture/capture.cpp:1581
+#: ekos/capture/capture.cpp:1579
 #, kde-format
 msgid "Waiting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:1755
+#: ekos/capture/capture.cpp:1753
 #, kde-format
 msgid "Framing..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:1777
+#: ekos/capture/capture.cpp:1775
 #, kde-format
 msgid "Download Time: %1 s, New Download Time Estimate: %2 s."
 msgstr ""
 
-#: ekos/capture/capture.cpp:1781 fitsviewer/fitsdebayer.cpp:63
+#: ekos/capture/capture.cpp:1779 fitsviewer/fitsdebayer.cpp:63
 #, kde-format
 msgid "Complete."
 msgstr ""
 
-#: ekos/capture/capture.cpp:1784
+#: ekos/capture/capture.cpp:1782
 #, kde-format
 msgid "Captured image received"
 msgstr ""
 
-#: ekos/capture/capture.cpp:1851
+#: ekos/capture/capture.cpp:1849
 #, kde-format
 msgid "Received image %1 out of %2."
 msgstr ""
 
-#: ekos/capture/capture.cpp:1878
+#: ekos/capture/capture.cpp:1876
 #, kde-format
 msgid "Executing post capture script %1"
 msgstr ""
 
-#: ekos/capture/capture.cpp:1901
+#: ekos/capture/capture.cpp:1899
 #, kde-format
 msgid "Executing post job script %1"
 msgstr ""
 
 #. i18n("CCD capture sequence completed"));
-#: ekos/capture/capture.cpp:1934
+#: ekos/capture/capture.cpp:1932
 #, kde-format
 msgid "CCD capture sequence completed"
 msgstr ""
 
-#: ekos/capture/capture.cpp:1982 ekos/capture/capture.cpp:1985
+#: ekos/capture/capture.cpp:1980 ekos/capture/capture.cpp:1983
 #, kde-format
 msgid "Dithering..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2104
+#: ekos/capture/capture.cpp:2102
 #, kde-format
 msgid "Scheduled refocus starting after %1 seconds..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2116
+#: ekos/capture/capture.cpp:2114
 #, kde-format
 msgid "Refocus starting because of temperature change of %1 °C..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2123 ekos/capture/capture.cpp:2157
-#: ekos/capture/capture.cpp:2220
+#: ekos/capture/capture.cpp:2121 ekos/capture/capture.cpp:2155
+#: ekos/capture/capture.cpp:2218
 #, kde-format
 msgid "Focusing..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2178 ekos/capture/capture.cpp:2391
+#: ekos/capture/capture.cpp:2176 ekos/capture/capture.cpp:2389
 #, kde-format
 msgid "Cannot capture while focus module is busy."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2195
+#: ekos/capture/capture.cpp:2193
 #, kde-format
 msgid "Cannot start framing while focus module is busy."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2200
+#: ekos/capture/capture.cpp:2198
 #, kde-format
 msgid "Starting framing..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2225
+#: ekos/capture/capture.cpp:2223
 #, kde-format
 msgid "Changing Filters..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2230
+#: ekos/capture/capture.cpp:2228
 #, kde-format
 msgid "Adjusting Filter Offset..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2238
+#: ekos/capture/capture.cpp:2236
 #, kde-format
 msgid "Delaying capture while focus module is busy."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2246
+#: ekos/capture/capture.cpp:2244
 #, kde-format
 msgid "Error: Lost connection to CCD."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2294
+#: ekos/capture/capture.cpp:2292
 #, kde-format
 msgid "Cannot calculate ADU levels in non-FITS images."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2353
+#: ekos/capture/capture.cpp:2351
 #, kde-format
 msgid "Capturing %1-second %2 image..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2368
+#: ekos/capture/capture.cpp:2366
 #, kde-format
 msgid "Failed to set sub frame."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2373
+#: ekos/capture/capture.cpp:2371
 #, kde-format
 msgid "Failed to set binning."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2379
+#: ekos/capture/capture.cpp:2377
 #, kde-format
 msgid "Changing filter..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2385
+#: ekos/capture/capture.cpp:2383
 #, kde-format
 msgid "Guider settling..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2516
+#: ekos/capture/capture.cpp:2514
 #, kde-format
 msgid "Capture failed. Check INDI Control Panel for details."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2555
+#: ekos/capture/capture.cpp:2553
 #, kde-format
 msgid "Downloading..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, secondsLabel)
-#: ekos/capture/capture.cpp:2566 ekos/capture/capture.ui:2313
+#: ekos/capture/capture.cpp:2564 ekos/capture/capture.ui:2313
 #, kde-format
 msgid "second left"
 msgstr ""
 
-#: ekos/capture/capture.cpp:2568
+#: ekos/capture/capture.cpp:2566
 #, kde-format
 msgid "seconds left"
 msgstr ""
 
-#: ekos/capture/capture.cpp:2617
+#: ekos/capture/capture.cpp:2615
 #, kde-format
 msgid "You must set remote directory for Local & Both modes."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2623
+#: ekos/capture/capture.cpp:2621
 #, kde-format
 msgid "You must set local directory for Client & Both modes."
 msgstr ""
 
-#: ekos/capture/capture.cpp:2859
+#: ekos/capture/capture.cpp:2857
 #, kde-format
 msgid "Job #%1 changes applied."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3156
+#: ekos/capture/capture.cpp:3154
 #, kde-format
 msgid ""
 "Job requires %1-second %2 images, has already %3/%4 captures and does not "
 "need to run."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3168
+#: ekos/capture/capture.cpp:3166
 #, kde-format
 msgid ""
 "Job requires %1-second %2 images, has %3/%4 frames captured and will be "
 "processed."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3207 ekos/capture/capture.cpp:6501
+#: ekos/capture/capture.cpp:3205 ekos/capture/capture.cpp:6499
 #, kde-format
 msgid "Image Transfer"
 msgstr ""
 
-#: ekos/capture/capture.cpp:3226
+#: ekos/capture/capture.cpp:3224
 #, kde-format
 msgid "Executing pre job script %1"
 msgstr ""
 
-#: ekos/capture/capture.cpp:3268
+#: ekos/capture/capture.cpp:3266
 #, kde-format
 msgid "Executing pre capture script %1"
 msgstr ""
 
-#: ekos/capture/capture.cpp:3338
+#: ekos/capture/capture.cpp:3336
 #, kde-format
 msgid "Setting temperature to %1 C..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3339
+#: ekos/capture/capture.cpp:3337
 #, kde-format
 msgid "Set %1 C..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3342
+#: ekos/capture/capture.cpp:3340
 #, kde-format
 msgid "Waiting for guide drift below %1 a-s..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3343
+#: ekos/capture/capture.cpp:3341
 #, kde-format
 msgid "Wait for Guider < %1 a-s..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3347
+#: ekos/capture/capture.cpp:3345
 #, kde-format
 msgid "Setting rotation to %1 degrees E of N..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3348
+#: ekos/capture/capture.cpp:3346
 #, kde-format
 msgid "Set Rotator %1..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3415
+#: ekos/capture/capture.cpp:3413
 #, kde-format
 msgid "Warning: Calibration process was prematurely terminated."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3491
+#: ekos/capture/capture.cpp:3489
 #, kde-format
 msgid "Post meridian flip calibration completed successfully."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3518
+#: ekos/capture/capture.cpp:3516
 #, kde-format
 msgid ""
 "Guiding deviation %1 exceeded limit value of %2 arcsecs, suspending exposure "
 "and waiting for guider up to %3 seconds."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3556
+#: ekos/capture/capture.cpp:3554
 #, kde-format
 msgid ""
 "Guiding deviation %1 is now lower than limit value of %2 arcsecs, resuming "
 "exposure."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3560
+#: ekos/capture/capture.cpp:3558
 #, kde-format
 msgid ""
 "Guiding deviation %1 is now lower than limit value of %2 arcsecs, resuming "
 "exposure in %3 seconds."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3567
+#: ekos/capture/capture.cpp:3565
 #, kde-format
 msgid "Guiding deviation %1 is still higher than limit value of %2 arcsecs."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3637 ekos/capture/capture.cpp:3638
-#: ekos/capture/capture.cpp:3650 ekos/capture/capture.cpp:3651
+#: ekos/capture/capture.cpp:3635 ekos/capture/capture.cpp:3636
+#: ekos/capture/capture.cpp:3648 ekos/capture/capture.cpp:3649
 #, kde-format
 msgid "Focus complete."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3643 ekos/capture/capture.cpp:3644
-#: ekos/capture/capture.cpp:3656
+#: ekos/capture/capture.cpp:3641 ekos/capture/capture.cpp:3642
+#: ekos/capture/capture.cpp:3654
 #, kde-format
 msgid "Autofocus failed."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3655
+#: ekos/capture/capture.cpp:3653
 #, kde-format
 msgid "Autofocus failed. Aborting exposure..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3713 ekos/capture/capture.cpp:3727
-#: ekos/capture/capture.cpp:5060
+#: ekos/capture/capture.cpp:3711 ekos/capture/capture.cpp:3725
+#: ekos/capture/capture.cpp:5058
 #, kde-format
 msgid "Paused..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3745
+#: ekos/capture/capture.cpp:3743
 #, kde-format
 msgid "Meridian Flip..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3746
+#: ekos/capture/capture.cpp:3744
 #, kde-format
 msgid "Meridian flip started"
 msgstr ""
 
-#: ekos/capture/capture.cpp:3759
+#: ekos/capture/capture.cpp:3757
 #, kde-format
 msgid "Flip complete."
 msgstr ""
 
-#: ekos/capture/capture.cpp:3915 ekos/scheduler/mosaic.cpp:517
+#: ekos/capture/capture.cpp:3913 ekos/scheduler/mosaic.cpp:517
 #, kde-format
 msgid "FITS Save Directory"
 msgstr ""
 
-#: ekos/capture/capture.cpp:3925
+#: ekos/capture/capture.cpp:3923
 #, kde-format
 msgid "Open Ekos Sequence Queue"
 msgstr ""
 
-#: ekos/capture/capture.cpp:4024
+#: ekos/capture/capture.cpp:4022
 #, kde-format
 msgid ""
 "Meridian flip configuration has been shifted to the mount module. Please "
 "configure the meridian flip there."
 msgstr ""
 
-#: ekos/capture/capture.cpp:4302
+#: ekos/capture/capture.cpp:4300
 #, kde-format
 msgid "Save Ekos Sequence Queue"
 msgstr ""
 
-#: ekos/capture/capture.cpp:4332
+#: ekos/capture/capture.cpp:4330
 #, kde-format
 msgid "Failed to save sequence queue"
 msgstr ""
 
-#: ekos/capture/capture.cpp:4366
+#: ekos/capture/capture.cpp:4364
 #, kde-format
 msgid "Could not open file"
 msgstr ""
 
-#: ekos/capture/capture.cpp:4388
+#: ekos/capture/capture.cpp:4386
 #, kde-format
 msgid ""
 "Warning: HFR-based autofocus is set but option \"Save Sequence HFR Value to "
@@ -12690,420 +12797,420 @@ msgid ""
 "file."
 msgstr ""
 
-#: ekos/capture/capture.cpp:4503
+#: ekos/capture/capture.cpp:4501
 #, kde-format
 msgid "Sequence queue saved to %1"
 msgstr ""
 
-#: ekos/capture/capture.cpp:4527
+#: ekos/capture/capture.cpp:4525
 #, kde-format
 msgid "Are you sure you want to reset status of all jobs?"
 msgstr ""
 
-#: ekos/capture/capture.cpp:4698
+#: ekos/capture/capture.cpp:4696
 #, kde-format
 msgid "Editing job #%1..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:4701 ekos/scheduler/scheduler.cpp:1144
+#: ekos/capture/capture.cpp:4699 ekos/scheduler/scheduler.cpp:1144
 #, kde-format
 msgid "Apply job changes."
 msgstr ""
 
-#: ekos/capture/capture.cpp:4702
+#: ekos/capture/capture.cpp:4700
 #, kde-format
 msgid "Cancel job changes."
 msgstr ""
 
-#: ekos/capture/capture.cpp:4710
+#: ekos/capture/capture.cpp:4708
 #, kde-format
 msgid "Editing job canceled."
 msgstr ""
 
-#: ekos/capture/capture.cpp:4972
+#: ekos/capture/capture.cpp:4970
 #, kde-format
 msgid "Telescope completed the meridian flip."
 msgstr ""
 
 #. i18n("Meridian flip is successfully completed"));
-#: ekos/capture/capture.cpp:4975
+#: ekos/capture/capture.cpp:4973
 #, kde-format
 msgid "Meridian flip is successfully completed"
 msgstr ""
 
-#: ekos/capture/capture.cpp:5003
+#: ekos/capture/capture.cpp:5001
 #, kde-format
 msgid "Performing post flip re-calibration and guiding..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5004
+#: ekos/capture/capture.cpp:5002
 #, kde-format
 msgid "Calibrating..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5016
+#: ekos/capture/capture.cpp:5014
 #, kde-format
 msgid "Post meridian flip calibration error. Restarting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5037
+#: ekos/capture/capture.cpp:5035
 #, kde-format
 msgid "Performing post flip re-alignment..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5038 ekos/capture/capture.cpp:5157
+#: ekos/capture/capture.cpp:5036 ekos/capture/capture.cpp:5155
 #, kde-format
 msgid "Aligning..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5059
+#: ekos/capture/capture.cpp:5057
 #, kde-format
 msgid "Sequence paused."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5106
+#: ekos/capture/capture.cpp:5104
 #, kde-format
 msgid "Guide module timed out."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5132
+#: ekos/capture/capture.cpp:5130
 #, kde-format
 msgid "Post flip re-alignment completed successfully."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5151
+#: ekos/capture/capture.cpp:5149
 #, kde-format
 msgid "Post-flip alignment failed."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5156
+#: ekos/capture/capture.cpp:5154
 #, kde-format
 msgid "Post-flip alignment failed. Retrying..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5197
+#: ekos/capture/capture.cpp:5195
 #, kde-format
 msgid "Dithering succeeded."
 msgstr ""
 
 #. i18np since guidingRate is DOUBLE value (e.g. 1.36) so we always use plural with that.
-#: ekos/capture/capture.cpp:5204
+#: ekos/capture/capture.cpp:5202
 #, kde-format
 msgid "Dither complete. Resuming in %1 seconds..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5212
+#: ekos/capture/capture.cpp:5210
 #, kde-format
 msgid "Dither complete."
 msgstr ""
 
 #. i18np since guidingRate is DOUBLE value (e.g. 1.36) so we always use plural with that.
-#: ekos/capture/capture.cpp:5225
+#: ekos/capture/capture.cpp:5223
 #, kde-format
 msgid "Warning: Dithering failed. Resuming in %1 seconds..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5234
+#: ekos/capture/capture.cpp:5232
 #, kde-format
 msgid "Warning: Dithering failed."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5259
+#: ekos/capture/capture.cpp:5257
 #, kde-format
 msgid "Autoguiding stopped. Waiting for autofocus to finish..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5266
+#: ekos/capture/capture.cpp:5264
 #, kde-format
 msgid "Autoguiding stopped. Aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5273
+#: ekos/capture/capture.cpp:5271
 #, kde-format
 msgid "Post meridian flip calibration error. Aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5546
+#: ekos/capture/capture.cpp:5544
 #, kde-format
 msgid "Wall coordinates are invalid."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5650
+#: ekos/capture/capture.cpp:5648
 #, kde-format
 msgid "Autoguiding resumed."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5702
+#: ekos/capture/capture.cpp:5700
 #, kde-format
 msgid "Remove cover from the telescope in order to continue."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5703
+#: ekos/capture/capture.cpp:5701
 #, kde-format
 msgid "Telescope Covered"
 msgstr ""
 
-#: ekos/capture/capture.cpp:5735
+#: ekos/capture/capture.cpp:5733
 #, kde-format
 msgid "Unparking dust cap..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5740
+#: ekos/capture/capture.cpp:5738
 #, kde-format
 msgid "Unparking dust cap failed, aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5754 ekos/capture/capture.cpp:6115
+#: ekos/capture/capture.cpp:5752 ekos/capture/capture.cpp:6113
 #, kde-format
 msgid "Dust cap unparked."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5802
+#: ekos/capture/capture.cpp:5800
 #, kde-format
 msgid "Does %1 have a shutter?"
 msgstr ""
 
-#: ekos/capture/capture.cpp:5803 ekos/capture/capture.cpp:5840
+#: ekos/capture/capture.cpp:5801 ekos/capture/capture.cpp:5838
 #, kde-format
 msgid "Dark Exposure"
 msgstr ""
 
-#: ekos/capture/capture.cpp:5839
+#: ekos/capture/capture.cpp:5837
 #, kde-format
 msgid "Cover the telescope in order to take a dark exposure."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5868 ekos/capture/capture.cpp:6001
+#: ekos/capture/capture.cpp:5866 ekos/capture/capture.cpp:5999
 #, kde-format
 msgid "Parking dust cap..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5873 ekos/capture/capture.cpp:6006
+#: ekos/capture/capture.cpp:5871 ekos/capture/capture.cpp:6004
 #, kde-format
 msgid "Parking dust cap failed, aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5887 ekos/capture/capture.cpp:6020
+#: ekos/capture/capture.cpp:5885 ekos/capture/capture.cpp:6018
 #, kde-format
 msgid "Dust cap parked."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5908 ekos/capture/capture.cpp:6040
+#: ekos/capture/capture.cpp:5906 ekos/capture/capture.cpp:6038
 #, kde-format
 msgid "Mount slewing to wall position..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5921 ekos/capture/capture.cpp:6053
+#: ekos/capture/capture.cpp:5919 ekos/capture/capture.cpp:6051
 #, kde-format
 msgid "Slew to wall position complete."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5971
+#: ekos/capture/capture.cpp:5969
 #, kde-format
 msgid "Cover telescope with an evenly illuminated light source."
 msgstr ""
 
-#: ekos/capture/capture.cpp:5972
+#: ekos/capture/capture.cpp:5970
 #, kde-format
 msgid "Flat Frame"
 msgstr ""
 
-#: ekos/capture/capture.cpp:6096
+#: ekos/capture/capture.cpp:6094
 #, kde-format
 msgid "UnParking dust cap..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6101
+#: ekos/capture/capture.cpp:6099
 #, kde-format
 msgid "UnParking dust cap failed, aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6137
+#: ekos/capture/capture.cpp:6135
 #, kde-format
 msgid "Parking mount prior to calibration frames capture..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6142
+#: ekos/capture/capture.cpp:6140
 #, kde-format
 msgid "Parking mount failed, aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6157 ekos/scheduler/scheduler.cpp:5485
+#: ekos/capture/capture.cpp:6155 ekos/scheduler/scheduler.cpp:5485
 #, kde-format
 msgid "Mount parked."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6171 ekos/scheduler/scheduler.cpp:5680
+#: ekos/capture/capture.cpp:6169 ekos/scheduler/scheduler.cpp:5680
 #, kde-format
 msgid "Parking dome..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6176
+#: ekos/capture/capture.cpp:6174
 #, kde-format
 msgid "Parking dome failed, aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6191 ekos/scheduler/scheduler.cpp:5746
+#: ekos/capture/capture.cpp:6189 ekos/scheduler/scheduler.cpp:5746
 #, kde-format
 msgid "Dome parked."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6230
+#: ekos/capture/capture.cpp:6228
 #, kde-format
 msgid "Autoguiding suspended."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6306
+#: ekos/capture/capture.cpp:6304
 #, kde-format
 msgid ""
 "Flat calibration failed. Captured image is only %1-bit while requested ADU "
 "is %2."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6317
+#: ekos/capture/capture.cpp:6315
 #, kde-format
 msgid "Current image is saturated (%1). Next exposure is %2 seconds."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6337
+#: ekos/capture/capture.cpp:6335
 #, kde-format
 msgid "Current ADU %1 within target ADU tolerance range."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6371
+#: ekos/capture/capture.cpp:6369
 #, kde-format
 msgid ""
 "Unable to calculate optimal exposure settings, please capture the flats "
 "manually."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6381
+#: ekos/capture/capture.cpp:6379
 #, kde-format
 msgid "Current ADU is %1 Next exposure is %2 seconds."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6402
+#: ekos/capture/capture.cpp:6400
 #, kde-format
 msgid "An empty image is received, aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6414
+#: ekos/capture/capture.cpp:6412
 #, kde-format
 msgid "Remote image saved to %1"
 msgstr ""
 
-#: ekos/capture/capture.cpp:6443
+#: ekos/capture/capture.cpp:6441
 #, kde-format
 msgid "Pre capture script finished with code %1."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6448
+#: ekos/capture/capture.cpp:6446
 #, kde-format
 msgid "Post capture script finished with code %1."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6458
+#: ekos/capture/capture.cpp:6456
 #, kde-format
 msgid "Processing meridian flip..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6463
+#: ekos/capture/capture.cpp:6461
 #, kde-format
 msgid "Resuming sequence..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6469
+#: ekos/capture/capture.cpp:6467
 #, kde-format
 msgid "Pre job script finished with code %1."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6474
+#: ekos/capture/capture.cpp:6472
 #, kde-format
 msgid "Post job script finished with code %1."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6572
+#: ekos/capture/capture.cpp:6570
 #, kde-format
 msgid "Select Current Observer"
 msgstr ""
 
-#: ekos/capture/capture.cpp:6574
+#: ekos/capture/capture.cpp:6572
 #, kde-format
 msgid "Current Observer:"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ObserverAdd)
-#: ekos/capture/capture.cpp:6585 oal/execute.cpp:50 oal/observeradd.cpp:36
+#: ekos/capture/capture.cpp:6583 oal/execute.cpp:50 oal/observeradd.cpp:36
 #: oal/observeradd.ui:26
 #, kde-format
 msgid "Manage Observers"
 msgstr ""
 
-#: ekos/capture/capture.cpp:6630
+#: ekos/capture/capture.cpp:6628
 #, kde-format
 msgid "Ekos will refocus in %1 seconds."
 msgstr ""
 
 #. i18n("Ekos will refocus in %1 seconds, last procedure was %2 seconds ago.", refocusEveryNTimer.elapsed()/1000-refocusEveryNTimer.elapsed()*60, refocusEveryNTimer.elapsed()/1000));
-#: ekos/capture/capture.cpp:6636
+#: ekos/capture/capture.cpp:6634
 #, kde-format
 msgid "Ekos will refocus in %1 seconds, last procedure was %2 seconds ago."
 msgstr ""
 
-#: ekos/capture/capture.cpp:6641
+#: ekos/capture/capture.cpp:6639
 #, kde-format
 msgid ""
 "Ekos will refocus as soon as possible, last procedure was %1 seconds ago."
 msgstr ""
 
-#: ekos/capture/capture.cpp:7062
+#: ekos/capture/capture.cpp:7060
 #, kde-format
 msgid "Reset %1 configuration to default?"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7063
+#: ekos/capture/capture.cpp:7061
 #, kde-format
 msgid "Confirmation"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7076
+#: ekos/capture/capture.cpp:7074
 #, kde-format
 msgid "Cooler is on"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7076
+#: ekos/capture/capture.cpp:7074
 #, kde-format
 msgid "Cooler is off"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7083 ekos/focus/focus.cpp:3823
-#: ekos/guide/guide.cpp:1343
+#: ekos/capture/capture.cpp:7081 ekos/focus/focus.cpp:3700
+#: ekos/guide/guide.cpp:902
 #, kde-format
 msgid "Exposure timeout. Restarting exposure..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:7098 ekos/focus/focus.cpp:3818
+#: ekos/capture/capture.cpp:7096 ekos/focus/focus.cpp:3695
 #, kde-format
 msgid "Exposure timeout. Aborting..."
 msgstr ""
 
-#: ekos/capture/capture.cpp:7450
+#: ekos/capture/capture.cpp:7448
 #, kde-format
 msgid "Are you sure you want to restart %1 camera driver?"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7451
+#: ekos/capture/capture.cpp:7449
 #, kde-format
 msgid "Driver Restart"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7487
+#: ekos/capture/capture.cpp:7485
 #, kde-format
 msgctxt "Temperature ramp celcius per minute"
 msgid "Ramp (C/min):"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7493
+#: ekos/capture/capture.cpp:7491
 #, kde-format
 msgid ""
 "Maximum temperature change per minute when cooling or warming the camera. "
@@ -13111,17 +13218,17 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
-#: ekos/capture/capture.cpp:7495 ekos/focus/focus.ui:1229
+#: ekos/capture/capture.cpp:7493 ekos/focus/focus.ui:1229
 #, kde-format
 msgid "Threshold:"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7501
+#: ekos/capture/capture.cpp:7499
 #, kde-format
 msgid "Maximum difference between camera and target temperatures"
 msgstr ""
 
-#: ekos/capture/capture.cpp:7511
+#: ekos/capture/capture.cpp:7509
 #, kde-format
 msgid "Set Temperature Regulation"
 msgstr ""
@@ -13396,7 +13503,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, remoteDriversLabel)
-#: ekos/capture/capture.ui:885 ekos/profileeditor.ui:694
+#: ekos/capture/capture.ui:885 ekos/profileeditor.ui:707
 #, kde-format
 msgid "Remote:"
 msgstr ""
@@ -13752,6 +13859,30 @@ msgstr ""
 #: ekos/capture/capture.ui:2369
 #, kde-format
 msgid "completed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, sequenceLabel)
+#: ekos/capture/capturecountswidget.cpp:54
+#: ekos/capture/capturecountswidget.ui:150
+#, kde-format
+msgid "Sequence"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, overallLabel)
+#: ekos/capture/capturecountswidget.cpp:55
+#: ekos/capture/capturecountswidget.ui:233
+#, kde-format
+msgid "Overall"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, imageRemainingTime)
+#. i18n: ectx: property (text), widget (QLabel, sequenceRemainingTime)
+#. i18n: ectx: property (text), widget (QLabel, overallRemainingTime)
+#: ekos/capture/capturecountswidget.ui:133
+#: ekos/capture/capturecountswidget.ui:216
+#: ekos/capture/capturecountswidget.ui:312
+#, kde-format
+msgid "--:--:--"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, CustomProperties)
@@ -14147,8 +14278,7 @@ msgstr ""
 msgid "Startup"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, runningStateLabel)
-#: ekos/ekos.h:188 ekos/guide/guide.ui:544 ekos/scheduler/schedulerjob.cpp:492
+#: ekos/ekos.h:188 ekos/scheduler/schedulerjob.cpp:492
 #, kde-format
 msgid "Running"
 msgstr ""
@@ -14156,25 +14286,6 @@ msgstr ""
 #: ekos/ekos.h:189
 #, kde-format
 msgid "Shutdown"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, externalDisconnectB)
-#. i18n: ectx: property (text), widget (QPushButton, disconnectB)
-#. i18n: ectx: property (text), widget (QPushButton, disconnectHostB)
-#: ekos/ekoslive/ekosliveclient.cpp:190 ekos/guide/guide.ui:280
-#: ekos/manager.ui:577 indi/drivermanager.ui:368 kstarslite/qml/indi/INDIControlPanel.qml:219
-#, kde-format, kde-kuit-format
-msgid "Disconnect"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, connectB)
-#. i18n: ectx: property (text), widget (QPushButton, externalConnectB)
-#. i18n: ectx: property (text), widget (QPushButton, connectHostB)
-#: ekos/ekoslive/ekosliveclient.cpp:216 ekos/ekoslive/ekoslivedialog.ui:287
-#: ekos/guide/guide.ui:450 ekos/manager.ui:561 indi/drivermanager.ui:361
-#: kstarslite/qml/indi/INDIControlPanel.qml:219
-#, kde-format, kde-kuit-format
-msgid "Connect"
 msgstr ""
 
 #: ekos/ekoslive/ekosliveclient.cpp:223
@@ -14194,7 +14305,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, EkosLiveDialog)
 #. i18n: ectx: property (toolTip), widget (QPushButton, ekosLiveB)
-#: ekos/ekoslive/ekoslivedialog.ui:14 ekos/manager.ui:386
+#: ekos/ekoslive/ekoslivedialog.ui:14 ekos/manager.ui:389
 #, kde-format
 msgid "Ekos Live"
 msgstr ""
@@ -14224,7 +14335,7 @@ msgid "Username:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, modeLabel)
-#: ekos/ekoslive/ekoslivedialog.ui:205 ekos/profileeditor.ui:128
+#: ekos/ekoslive/ekoslivedialog.ui:205 ekos/profileeditor.ui:141
 #, kde-format
 msgid "Mode:"
 msgstr ""
@@ -14270,337 +14381,322 @@ msgstr ""
 msgid "Focus Options Profile Editor"
 msgstr ""
 
-#: ekos/focus/focus.cpp:846
+#: ekos/focus/focus.cpp:854
 #, kde-format
 msgid "No Focuser connected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:853 ekos/focus/focus.cpp:3092
+#: ekos/focus/focus.cpp:861 ekos/focus/focus.cpp:2969
 #, kde-format
 msgid "No CCD connected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:860
+#: ekos/focus/focus.cpp:868
 #, kde-format
 msgid ""
 "Starting pulse step is too low. Increase the step size to %1 or higher..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:868
+#: ekos/focus/focus.cpp:876
 #, kde-format
 msgid "Autofocus is already running, discarding start request."
 msgstr ""
 
-#: ekos/focus/focus.cpp:959
+#: ekos/focus/focus.cpp:962
 #, kde-format
 msgid "Autofocus in progress..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:961
+#: ekos/focus/focus.cpp:964
 #, kde-format
 msgid "Please wait until image capture is complete..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:977
+#: ekos/focus/focus.cpp:980
 #, kde-format
 msgid "Autofocus operation started"
 msgstr ""
 
-#: ekos/focus/focus.cpp:1038
+#: ekos/focus/focus.cpp:1041
 #, kde-format
 msgid "Detection in progress, please wait."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1054
+#: ekos/focus/focus.cpp:1057
 #, kde-format
 msgid "Autofocus aborted."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1129
+#: ekos/focus/focus.cpp:1132
 #, kde-format
 msgid "Error: No Camera detected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1136
+#: ekos/focus/focus.cpp:1139
 #, kde-format
 msgid "Error: Lost connection to Camera."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1157
+#: ekos/focus/focus.cpp:1160
 #, kde-format
 msgid "Error: No Filter Wheel detected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1163
+#: ekos/focus/focus.cpp:1166
 #, kde-format
 msgid "Error: Lost connection to Filter Wheel."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1296 ekos/focus/focus.cpp:3448
+#: ekos/focus/focus.cpp:1299 ekos/focus/focus.cpp:3325
 #, kde-format
 msgid "Error: No Focuser detected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1303 ekos/focus/focus.cpp:3455
+#: ekos/focus/focus.cpp:1306 ekos/focus/focus.cpp:3332
 #, kde-format
 msgid "Error: Lost connection to Focuser."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1310 ekos/focus/focus.cpp:1355
+#: ekos/focus/focus.cpp:1313 ekos/focus/focus.cpp:1358
 #, kde-format
 msgid "outward"
 msgstr ""
 
-#: ekos/focus/focus.cpp:1310 ekos/focus/focus.cpp:1355
+#: ekos/focus/focus.cpp:1313 ekos/focus/focus.cpp:1358
 #, kde-format
 msgid "inward"
 msgstr ""
 
-#: ekos/focus/focus.cpp:1326
+#: ekos/focus/focus.cpp:1329
 #, kde-format
 msgid "Focusing %2 by %1 steps..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1332
+#: ekos/focus/focus.cpp:1335
 #, kde-format
 msgid "Focusing %2 by %1 step..."
 msgid_plural "Focusing %2 by %1 steps..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ekos/focus/focus.cpp:1338
+#: ekos/focus/focus.cpp:1341
 #, kde-format
 msgid "Focusing %2 by %1 ms..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1351
+#: ekos/focus/focus.cpp:1354
 #, kde-format
 msgid "Focuser is not responding to commands. Aborting..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1359
+#: ekos/focus/focus.cpp:1362
 #, kde-format
 msgid "Focus motion timed out. Focusing to %1 steps..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1364
+#: ekos/focus/focus.cpp:1367
 #, kde-format
 msgid "Focus motion timed out. Focusing %2 by %1 steps..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1370
+#: ekos/focus/focus.cpp:1373
 #, kde-format
 msgid "Focus motion timed out. Focusing %2 by %1 ms..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1424
+#: ekos/focus/focus.cpp:1427
 #, kde-format
 msgid "Detection complete."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1467
+#: ekos/focus/focus.cpp:1470
 #, kde-format
 msgid "Detecting sources..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1573
+#: ekos/focus/focus.cpp:1577
 #, kde-format
 msgid "Focus procedure completed after %1 iteration."
 msgid_plural "Focus procedure completed after %1 iterations."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ekos/focus/focus.cpp:1624
+#: ekos/focus/focus.cpp:1628
 #, kde-format
 msgid "Autofocus failed, moving back to initial focus position %1."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1652
+#: ekos/focus/focus.cpp:1655
 #, kde-format
 msgid "Settling for %1s..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1657
+#: ekos/focus/focus.cpp:1660
 #, kde-format
 msgid "Settling complete."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1665
+#: ekos/focus/focus.cpp:1668
 #, kde-format
 msgid "Autofocus operation completed successfully"
 msgstr ""
 
-#: ekos/focus/focus.cpp:1675
+#: ekos/focus/focus.cpp:1678
 #, kde-format
 msgid "Autofocus operation failed"
 msgstr ""
 
-#: ekos/focus/focus.cpp:1725
+#: ekos/focus/focus.cpp:1728
 #, kde-format
 msgid "FITS received. No stars detected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1889
+#: ekos/focus/focus.cpp:1886
 #, kde-format
 msgid "Failed to automatically select a star. Please select a star manually."
 msgstr ""
 
-#: ekos/focus/focus.cpp:1987
+#: ekos/focus/focus.cpp:1984
 #, kde-format
 msgid "Capture complete. Select a star to focus."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2020
+#: ekos/focus/focus.cpp:2017
 #, kde-format
 msgid "No stars detected while testing HFR, capturing again..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2224
+#: ekos/focus/focus.cpp:2116
 #, kde-format
 msgid "Autofocus failed to reach proper focus. Try increasing tolerance value."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2235 ekos/focus/focus.cpp:2725
+#: ekos/focus/focus.cpp:2127 ekos/focus/focus.cpp:2602
 #, kde-format
 msgid "No stars detected, capturing again..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2241 ekos/focus/focus.cpp:2731
+#: ekos/focus/focus.cpp:2133 ekos/focus/focus.cpp:2608
 #, kde-format
 msgid "Failed to detect any stars at position %1. Continuing..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2246 ekos/focus/focus.cpp:2736
+#: ekos/focus/focus.cpp:2138 ekos/focus/focus.cpp:2613
 #, kde-format
 msgid "Failed to detect any stars. Reset frame and try again."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2359
+#: ekos/focus/focus.cpp:2238
 #, kde-format
 msgid "FITS received. HFR %1 @ %2. Delta (%3%)"
 msgstr ""
 
-#: ekos/focus/focus.cpp:2361
+#: ekos/focus/focus.cpp:2240
 #, kde-format
 msgid "FITS received. HFR %1 @ %2."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2426
+#: ekos/focus/focus.cpp:2302
 #, kde-format
 msgid ""
 "Change in HFR is too small. Try increasing the step size or decreasing the "
 "tolerance."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2431
+#: ekos/focus/focus.cpp:2307
 #, kde-format
 msgid "Failed to detect focus star in frame. Capture and select a focus star."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2577
+#: ekos/focus/focus.cpp:2452
 #, kde-format
 msgid "Found polynomial solution @ %1"
 msgstr ""
 
-#: ekos/focus/focus.cpp:2639
+#: ekos/focus/focus.cpp:2518
 #, kde-format
 msgid "Deadlock reached. Please try again with different settings."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2710
+#: ekos/focus/focus.cpp:2587
 #, kde-format
 msgid "FITS received. HFR %1. Delta (%2%) Min HFR (%3)"
 msgstr ""
 
-#: ekos/focus/focus.cpp:2714
+#: ekos/focus/focus.cpp:2591
 #, kde-format
 msgid ""
 "Autofocus failed to reach proper focus. Try adjusting the tolerance value."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2830 ekos/focus/focus.cpp:2843
-#: ekos/focus/focus.cpp:2922 ekos/focus/focus.cpp:2962
-#: ekos/focus/focus.cpp:3003 ekos/focus/focus.cpp:3036
+#: ekos/focus/focus.cpp:2707 ekos/focus/focus.cpp:2720
+#: ekos/focus/focus.cpp:2799 ekos/focus/focus.cpp:2839
+#: ekos/focus/focus.cpp:2880 ekos/focus/focus.cpp:2913
 #, kde-format
 msgid "Focuser error, check INDI panel."
 msgstr ""
 
-#: ekos/focus/focus.cpp:2912 ekos/focus/focus.cpp:2953
-#: ekos/focus/focus.cpp:2994 ekos/focus/focus.cpp:3018
+#: ekos/focus/focus.cpp:2789 ekos/focus/focus.cpp:2830
+#: ekos/focus/focus.cpp:2871 ekos/focus/focus.cpp:2895
 #, kde-format
 msgid "Restarting autofocus process..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3110
+#: ekos/focus/focus.cpp:2987
 #, kde-format
 msgid "Starting continuous exposure..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3304
+#: ekos/focus/focus.cpp:3181
 #, kde-format
 msgid "Disabling Auto Star Selection as star selection box was moved manually."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3309
+#: ekos/focus/focus.cpp:3186
 #, kde-format
 msgid "Focus star is selected."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3370
+#: ekos/focus/focus.cpp:3247
 #, kde-format
 msgid ""
 "Warning: Only use filter '%1' for preview as it may interfere with autofocus "
 "operation."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3427
+#: ekos/focus/focus.cpp:3304
 #, kde-format
 msgid "No star was selected. Using last known position..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3433
+#: ekos/focus/focus.cpp:3310
 #, kde-format
 msgid "No star was selected. Aborting..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3559
+#: ekos/focus/focus.cpp:3436
 #, kde-format
 msgid "Focus Frame"
 msgstr ""
 
-#: ekos/focus/focus.cpp:3836
+#: ekos/focus/focus.cpp:3713
 #, kde-format
 msgid "Capturing image again..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3854
+#: ekos/focus/focus.cpp:3731
 #, kde-format
 msgid "Exposure failure. Aborting..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:3859
+#: ekos/focus/focus.cpp:3736
 #, kde-format
 msgid "Exposure failure. Restarting exposure..."
 msgstr ""
 
-#: ekos/focus/focus.cpp:4135
+#: ekos/focus/focus.cpp:4012
 #, kde-format
 msgid "Relative Profile"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTableWidget, statsTable)
-#: ekos/focus/focus.cpp:4198 fitsviewer/statform.ui:81
-#, kde-format
-msgid "HFR"
-msgstr ""
-
-#: ekos/focus/focus.cpp:4235
-#, kde-format
-msgctxt ""
-"HFR graphics tooltip; %1 is the Focus Position; %2 is the Half Flux Radius;"
-msgid ""
-"<table><tr><td>POS:   </td><td>%1</td></tr><tr><td>HFR:   </td><td>%2</td></"
-"tr></table>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, focusOutB)
@@ -14623,7 +14719,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: ekos/focus/focus.ui:152 ekos/profileeditor.ui:450
+#: ekos/focus/focus.ui:152 ekos/profileeditor.ui:463
 #, kde-format
 msgid "Focuser:"
 msgstr ""
@@ -15217,7 +15313,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: ekos/focus/focus.ui:1760 ekos/manager.ui:1328
+#: ekos/focus/focus.ui:1760 ekos/manager/focusmanager.ui:174
 #, kde-format
 msgid "HFR:"
 msgstr ""
@@ -15269,6 +15365,21 @@ msgstr ""
 #: ekos/focus/focusalgorithms.cpp:361
 #, kde-format
 msgid "Too many steps."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTableWidget, statsTable)
+#: ekos/focus/focushfrvplot.cpp:43 fitsviewer/statform.ui:81
+#, kde-format
+msgid "HFR"
+msgstr ""
+
+#: ekos/focus/focushfrvplot.cpp:86
+#, kde-format
+msgctxt ""
+"HFR graphics tooltip; %1 is the Focus Position; %2 is the Half Flux Radius;"
+msgid ""
+"<table><tr><td>POS:   </td><td>%1</td></tr><tr><td>HFR:   </td><td>%2</td></"
+"tr></table>"
 msgstr ""
 
 #: ekos/guide/externalguide/linguider.cpp:70
@@ -15584,86 +15695,24 @@ msgstr ""
 msgid "PHD2: Disconnecting Equipment. . ."
 msgstr ""
 
-#: ekos/guide/guide.cpp:139
+#: ekos/guide/guide.cpp:122
 #, kde-format
 msgid "Calibration"
 msgstr ""
 
-#: ekos/guide/guide.cpp:153
+#: ekos/guide/guide.cpp:136
 #, kde-format
 msgid "GPG RA Guider"
 msgstr ""
 
-#: ekos/guide/guide.cpp:345 ekos/guide/guide.cpp:377 kstarslite/skyitems/horizonitem.cpp:40
-#: skycomponents/horizoncomponent.cpp:129
-#, kde-format
-msgctxt "North"
-msgid "N"
-msgstr ""
-
-#: ekos/guide/guide.cpp:352 ekos/guide/guide.cpp:384 kstarslite/skyitems/horizonitem.cpp:36
-#: skycomponents/horizoncomponent.cpp:125
-#, kde-format
-msgctxt "South"
-msgid "S"
-msgstr ""
-
-#: ekos/guide/guide.cpp:359 ekos/guide/guide.cpp:391 kstarslite/skyitems/horizonitem.cpp:38
-#: skycomponents/horizoncomponent.cpp:127
-#, kde-format
-msgctxt "West"
-msgid "W"
-msgstr ""
-
-#: ekos/guide/guide.cpp:366 ekos/guide/guide.cpp:398 kstarslite/skyitems/horizonitem.cpp:34
-#: skycomponents/horizoncomponent.cpp:123
-#, kde-format
-msgctxt "East"
-msgid "E"
-msgstr ""
-
-#: ekos/guide/guide.cpp:503 ekos/guide/guide.cpp:2914
-#, kde-format
-msgctxt ""
-"Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
-"deviation in arcseconds; %4 is the RMS error in arcseconds; %5 is the SNR"
-msgid ""
-"<table><tr><td>LT:   </td><td>%1</td></tr><tr><td>RA:   </td><td>%2 \"</td></"
-"tr><tr><td>DE:   </td><td>%3 \"</td></tr><tr><td>RMS:   </td><td>%4 \"</td></"
-"tr><tr><td>SNR:   </td><td>%5 \"</td></tr></table>"
-msgstr ""
-
-#: ekos/guide/guide.cpp:522 ekos/guide/guide.cpp:2930
-#, kde-format
-msgctxt ""
-"Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
-"deviation in arcseconds; %4 is the RMS error in arcseconds; %5 is the SNR; "
-"%6 is RA Pulse in ms; %7 is DE Pulse in ms"
-msgid ""
-"<table><tr><td>LT:   </td><td>%1</td></tr><tr><td>RA:   </td><td>%2 \"</td></"
-"tr><tr><td>DE:   </td><td>%3 \"</td></tr><tr><td>RMS:   </td><td>%4 \"</td></"
-"tr><tr><td>SNR:   </td><td>%5 \"</td></tr><tr><td>RA Pulse:   </td><td>%6 "
-"ms</td></tr><tr><td>DE Pulse:   </td><td>%7 ms</td></tr></table>"
-msgstr ""
-
-#: ekos/guide/guide.cpp:649
-#, kde-format
-msgid "Export Guide Data"
-msgstr ""
-
-#: ekos/guide/guide.cpp:705
-#, kde-format
-msgid "Guide Data Saved as: %1"
-msgstr ""
-
-#: ekos/guide/guide.cpp:808
+#: ekos/guide/guide.cpp:367
 #, kde-format
 msgid ""
 "PHD2's current camera: %1, is NOT connected to Ekos.  The PHD2 Guide Star "
 "Image will be received, but the full external guide frames cannot."
 msgstr ""
 
-#: ekos/guide/guide.cpp:818
+#: ekos/guide/guide.cpp:377
 #, kde-format
 msgid ""
 "PHD2's current camera: %1, IS connected to Ekos.  You can select whether to "
@@ -15671,210 +15720,200 @@ msgid ""
 "using the SubFrame checkbox."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1017
+#: ekos/guide/guide.cpp:576
 #, kde-format
 msgid "Connection to the guide CCD is lost."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1195
+#: ekos/guide/guide.cpp:754
 #, kde-format
 msgid "Error: lost connection to CCD."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1359
+#: ekos/guide/guide.cpp:918
 #, kde-format
 msgid "Exposure timeout. Aborting Autoguide."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1361
+#: ekos/guide/guide.cpp:920
 #, kde-format
 msgid "Exposure timeout. Aborting Dithering."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1363
+#: ekos/guide/guide.cpp:922
 #, kde-format
 msgid "Exposure timeout. Aborting Calibration."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1706
+#: ekos/guide/guide.cpp:1265
 #, kde-format
 msgid ""
 "The guide camera is identical to the primary imaging camera. Are you sure "
 "you want to continue?"
 msgstr ""
 
-#: ekos/guide/guide.cpp:1713
+#: ekos/guide/guide.cpp:1272
 #, kde-format
 msgid "The mount is parked. Unpark to start guiding."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1816
+#: ekos/guide/guide.cpp:1375
 #, kde-format
 msgid "Pier side change detected. Clearing calibration."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1830
+#: ekos/guide/guide.cpp:1389
 #, kde-format
 msgid "Mount is moving. Resetting calibration..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1846
+#: ekos/guide/guide.cpp:1405
 #, kde-format
 msgid "Mount is parking. Aborting guide..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1848
+#: ekos/guide/guide.cpp:1407
 #, kde-format
 msgid "Mount is slewing. Aborting guide..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1952
+#: ekos/guide/guide.cpp:1511
 #, kde-format
 msgid "Calibration is cleared."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1973
+#: ekos/guide/guide.cpp:1532
 #, kde-format
 msgid "External guider connected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1991
+#: ekos/guide/guide.cpp:1550
 #, kde-format
 msgid "External guider disconnected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2008
+#: ekos/guide/guide.cpp:1567
 #, kde-format
 msgid "Calibration completed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2024
+#: ekos/guide/guide.cpp:1583
 #, kde-format
 msgid "Calibration started."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2030
+#: ekos/guide/guide.cpp:1589
 #, kde-format
 msgid "Guiding resumed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2033
+#: ekos/guide/guide.cpp:1592
 #, kde-format
 msgid "Autoguiding started."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2045
+#: ekos/guide/guide.cpp:1605
 #, kde-format
 msgid "Autoguiding aborted."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2050
+#: ekos/guide/guide.cpp:1610
 #, kde-format
 msgid "Guiding suspended."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2059
+#: ekos/guide/guide.cpp:1619
 #, kde-format
 msgid "Manual dithering in progress."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2063
+#: ekos/guide/guide.cpp:1623
 #, kde-format
 msgid "Dithering in progress."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2067
+#: ekos/guide/guide.cpp:1627
 #, kde-format
 msgid "Post-dither settling for %1 second..."
 msgid_plural "Post-dither settling for %1 seconds..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ekos/guide/guide.cpp:2072
+#: ekos/guide/guide.cpp:1632
 #, kde-format
 msgid "Dithering failed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2083
+#: ekos/guide/guide.cpp:1643
 #, kde-format
 msgid "Dithering completed successfully."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2140
+#: ekos/guide/guide.cpp:1700
 #, kde-format
 msgid "Exposure failed. Restarting exposure..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2238
+#: ekos/guide/guide.cpp:1798
 #, kde-format
 msgid "Cannot change guider type while active."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2304
+#: ekos/guide/guide.cpp:1864
 #, kde-format
 msgid "Select guide camera."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2359
+#: ekos/guide/guide.cpp:1919
 #, kde-format
 msgid ""
 "Warning: Reset Guiding Calibration is enabled. It is recommended to turn "
 "this option off for PHD2."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2463
+#: ekos/guide/guide.cpp:2027
 #, kde-format
 msgid "P: %1"
 msgstr ""
 
-#: ekos/guide/guide.cpp:3082
+#: ekos/guide/guide.cpp:2476
 #, kde-format
 msgid "Calibration failed to start."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3246
+#: ekos/guide/guide.cpp:2640
 #, kde-format
 msgid "Auto star selected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3250
+#: ekos/guide/guide.cpp:2644
 #, kde-format
 msgid "Failed to select an auto star."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3259
+#: ekos/guide/guide.cpp:2653
 #, kde-format
 msgid "Select a guide star to calibrate."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3536
-#, kde-format
-msgid "drift (arcsec)"
-msgstr ""
-
-#: ekos/guide/guide.cpp:3537
-#, kde-format
-msgid "pulse (ms)"
-msgstr ""
-
-#: ekos/guide/guide.cpp:3753
+#: ekos/guide/guide.cpp:2935
 #, kde-format
 msgid "x (pixels)"
 msgstr ""
 
-#: ekos/guide/guide.cpp:3754
+#: ekos/guide/guide.cpp:2936
 #, kde-format
 msgid "y (pixels)"
 msgstr ""
 
-#: ekos/guide/guide.cpp:3907 ekos/guide/guide.cpp:4256
+#: ekos/guide/guide.cpp:3092 ekos/guide/guide.cpp:3355
 #, kde-format
 msgid ""
 "The PHD2 camera is not available to Ekos, so you cannot see the captured "
 "images.  But you will still see the Guide Star Image when you guide."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3911 ekos/guide/guide.cpp:4260
+#: ekos/guide/guide.cpp:3096 ekos/guide/guide.cpp:3359
 #, kde-format
 msgid ""
 "To receive PHD2 images other than the Guide Star Image, SubFrame must be "
@@ -15884,7 +15923,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: ekos/guide/guide.ui:37 ekos/guide/guide.ui:1221
+#: ekos/guide/guide.ui:37 ekos/guide/guide.ui:1178
 #, kde-format
 msgid "Control"
 msgstr ""
@@ -16055,7 +16094,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: ekos/guide/guide.ui:415 ekos/profileeditor.ui:467
+#: ekos/guide/guide.ui:415 ekos/profileeditor.ui:480
 #, kde-format
 msgid "Guider:"
 msgstr ""
@@ -16084,26 +16123,14 @@ msgstr ""
 msgid "Guide Info"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, idlingStateLabel)
-#: ekos/guide/guide.ui:518
-#, kde-format
-msgid "Idling"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, preparingStateLabel)
-#: ekos/guide/guide.ui:531
-#, kde-format
-msgid "Preparing"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ekos/guide/guide.ui:558
+#: ekos/guide/guide.ui:515
 #, kde-format
 msgid "Scope:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, FOVScopeCombo)
-#: ekos/guide/guide.ui:571
+#: ekos/guide/guide.ui:528
 #, kde-format
 msgid ""
 "<html><head/><body><p>Select which telescope to use when performing Field of "
@@ -16111,13 +16138,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_3)
-#: ekos/guide/guide.ui:598
+#: ekos/guide/guide.ui:555
 #, kde-format
 msgid "Guiding rate"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, showGuideRateToolTipB)
-#: ekos/guide/guide.ui:614
+#: ekos/guide/guide.ui:571
 #, kde-format
 msgid ""
 "Mount guiding rate. Find out the guiding rate used by your mount and update "
@@ -16127,19 +16154,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spinBox_GuideRate)
-#: ekos/guide/guide.ui:637
+#: ekos/guide/guide.ui:594
 #, kde-format
 msgid "Mount guiding rate (x15\"/sec)"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_RecommendedGain)
-#: ekos/guide/guide.ui:656
+#: ekos/guide/guide.ui:613
 #, kde-format
 msgid "<b>Recommended</b> proportional rate given the selected guiding rate."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_5)
-#: ekos/guide/guide.ui:683
+#: ekos/guide/guide.ui:640
 #, kde-format
 msgid "Focal"
 msgstr ""
@@ -16147,13 +16174,13 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, l_Focal)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ekos/guide/guide.ui:690 ekos/mount/mount.ui:85 ekos/mount/mount.ui:129
+#: ekos/guide/guide.ui:647 ekos/mount/mount.ui:85 ekos/mount/mount.ui:129
 #, kde-format
 msgid "Focal Length (mm)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_6)
-#: ekos/guide/guide.ui:712
+#: ekos/guide/guide.ui:669
 #, kde-format
 msgid "Aperture"
 msgstr ""
@@ -16161,128 +16188,128 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, l_Aperture)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ekos/guide/guide.ui:719 ekos/mount/mount.ui:65 ekos/mount/mount.ui:162
+#: ekos/guide/guide.ui:676 ekos/mount/mount.ui:65 ekos/mount/mount.ui:162
 #, kde-format
 msgid "Aperture (mm)"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_7)
-#: ekos/guide/guide.ui:738
+#: ekos/guide/guide.ui:695
 #, kde-format
 msgid "Focal Ratio"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_7)
-#: ekos/guide/guide.ui:741
+#: ekos/guide/guide.ui:698
 #, kde-format
 msgid "F/D"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_8)
-#: ekos/guide/guide.ui:764
+#: ekos/guide/guide.ui:721
 #, kde-format
 msgid "FOV"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_FOV)
-#: ekos/guide/guide.ui:771
+#: ekos/guide/guide.ui:728
 #, kde-format
 msgid "Field of View (arcmin)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_FOV)
-#: ekos/guide/guide.ui:780
+#: ekos/guide/guide.ui:737
 #, kde-format
 msgid "YYxYY"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_17)
-#: ekos/guide/guide.ui:804
+#: ekos/guide/guide.ui:761
 #, kde-format
 msgid "Pulse Length (ms)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_16)
-#: ekos/guide/guide.ui:811
+#: ekos/guide/guide.ui:768
 #, kde-format
 msgid "Guiding Delta \""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_PulseRA)
-#: ekos/guide/guide.ui:823
+#: ekos/guide/guide.ui:780
 #, kde-format
 msgid "Generated RA pulse"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_PulseDEC)
-#: ekos/guide/guide.ui:842
+#: ekos/guide/guide.ui:799
 #, kde-format
 msgid "Generated DEC pulse"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_DeltaRA)
-#: ekos/guide/guide.ui:868
+#: ekos/guide/guide.ui:825
 #, kde-format
 msgid "Immediate Guiding RA deviation in arcseconds"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_DeltaDEC)
-#: ekos/guide/guide.ui:887
+#: ekos/guide/guide.ui:844
 #, kde-format
 msgid "Immediate Guiding DEC deviation in arcseconds"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_20)
-#: ekos/guide/guide.ui:910
+#: ekos/guide/guide.ui:867
 #, kde-format
 msgid "RA Guiding RMS error"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_20)
-#: ekos/guide/guide.ui:913
+#: ekos/guide/guide.ui:870
 #, kde-format
 msgid "RA RMS\""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_21)
-#: ekos/guide/guide.ui:943
+#: ekos/guide/guide.ui:900
 #, kde-format
 msgid "DEC Guiding RMS error"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_21)
-#: ekos/guide/guide.ui:946
+#: ekos/guide/guide.ui:903
 #, kde-format
 msgid "DE RMS\""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: ekos/guide/guide.ui:974
+#: ekos/guide/guide.ui:931
 #, kde-format
 msgid "<b>Total RMS\"</b>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_TotalRMS)
 #. i18n: ectx: property (text), widget (QLabel, l_SNR)
-#: ekos/guide/guide.ui:993 ekos/guide/guide.ui:1022
+#: ekos/guide/guide.ui:950 ekos/guide/guide.ui:979
 #, kde-format
 msgid "xxx"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7b)
-#: ekos/guide/guide.ui:1003
+#: ekos/guide/guide.ui:960
 #, kde-format
 msgid "<b>Guide SNR</b>"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, driftGraphicsGroup)
-#: ekos/guide/guide.ui:1100
+#: ekos/guide/guide.ui:1057
 #, kde-format
 msgid "Drift Graphics"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, correctionSlider)
-#: ekos/guide/guide.ui:1174
+#: ekos/guide/guide.ui:1131
 #, kde-format
 msgid ""
 "<html><head/><body><p>Drag the slider to adjust the scale of the Corrections "
@@ -16290,13 +16317,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, controlGroup)
-#: ekos/guide/guide.ui:1239
+#: ekos/guide/guide.ui:1196
 #, kde-format
 msgid "Control Parameters"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_11)
-#: ekos/guide/guide.ui:1272
+#: ekos/guide/guide.ui:1229
 #, kde-format
 msgid ""
 "<html><head/><body><p>Proportional term accounts for present values of the "
@@ -16305,13 +16332,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_11)
-#: ekos/guide/guide.ui:1275
+#: ekos/guide/guide.ui:1232
 #, kde-format
 msgid "Proportional gain"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_12)
-#: ekos/guide/guide.ui:1302
+#: ekos/guide/guide.ui:1259
 #, kde-format
 msgid ""
 "<html><head/><body><p>Integral term accounts for past values of the error. "
@@ -16321,13 +16348,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_12)
-#: ekos/guide/guide.ui:1305
+#: ekos/guide/guide.ui:1262
 #, kde-format
 msgid "Integral gain"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_13)
-#: ekos/guide/guide.ui:1335
+#: ekos/guide/guide.ui:1292
 #, kde-format
 msgid ""
 "Derivative term accounts for possible future trends of the error, based on "
@@ -16335,13 +16362,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_13)
-#: ekos/guide/guide.ui:1338
+#: ekos/guide/guide.ui:1295
 #, kde-format
 msgid "Derivative gain"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_14)
-#: ekos/guide/guide.ui:1371
+#: ekos/guide/guide.ui:1328
 #, kde-format
 msgid ""
 "<html><head/><body><p>Maximum guide pulse that is generated by the guider "
@@ -16349,13 +16376,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_14)
-#: ekos/guide/guide.ui:1374
+#: ekos/guide/guide.ui:1331
 #, kde-format
 msgid "Maximum pulse"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, l_15)
-#: ekos/guide/guide.ui:1395
+#: ekos/guide/guide.ui:1352
 #, kde-format
 msgid ""
 "<html><head/><body><p>Minimum guide pulse that is sent to the mount. If the "
@@ -16364,19 +16391,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_15)
-#: ekos/guide/guide.ui:1398
+#: ekos/guide/guide.ui:1355
 #, kde-format
 msgid "Minimum pulse"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_23)
-#: ekos/guide/guide.ui:1422
+#: ekos/guide/guide.ui:1379
 #, kde-format
 msgid "AO Limits"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spinBox_AOLimit)
-#: ekos/guide/guide.ui:1432
+#: ekos/guide/guide.ui:1389
 #, kde-format
 msgid ""
 "Maximum deviation to correct for using Adaptive Optics unit. If the guiding "
@@ -16385,25 +16412,25 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, l_24)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: ekos/guide/guide.ui:1454 ekos/guide/opsguide.ui:239
+#: ekos/guide/guide.ui:1411 ekos/guide/opsguide.ui:239
 #, kde-format
 msgid "arcsecs"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: ekos/guide/guide.ui:1467
+#: ekos/guide/guide.ui:1424
 #, kde-format
 msgid "Drift Plot"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: ekos/guide/guide.ui:1502
+#: ekos/guide/guide.ui:1459
 #, kde-format
 msgid "Calibration Plot"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showRAPlotCheck)
-#: ekos/guide/guide.ui:1558
+#: ekos/guide/guide.ui:1515
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display the RA graph in the Drift Graphics plot.</p></"
@@ -16411,13 +16438,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showRAPlotCheck)
-#: ekos/guide/guide.ui:1561
+#: ekos/guide/guide.ui:1518
 #, kde-format
 msgid "RA "
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showRACorrectionsCheck)
-#: ekos/guide/guide.ui:1571
+#: ekos/guide/guide.ui:1528
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display the RA Corrections graph in the Drift Graphics "
@@ -16426,13 +16453,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showRACorrectionsCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, showDECorrectionsCheck)
-#: ekos/guide/guide.ui:1574 ekos/guide/guide.ui:1607
+#: ekos/guide/guide.ui:1531 ekos/guide/guide.ui:1564
 #, kde-format
 msgid "Corr"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDECPlotCheck)
-#: ekos/guide/guide.ui:1591
+#: ekos/guide/guide.ui:1548
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display DEC graph in the Drift Graphics plot.</p></"
@@ -16440,7 +16467,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDECorrectionsCheck)
-#: ekos/guide/guide.ui:1604
+#: ekos/guide/guide.ui:1561
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display the DEC Corrections graph in the Drift "
@@ -16448,7 +16475,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showSNRPlotCheck)
-#: ekos/guide/guide.ui:1624
+#: ekos/guide/guide.ui:1581
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display SNR graph in the Drift Graphics plot.</p></"
@@ -16456,13 +16483,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showSNRPlotCheck)
-#: ekos/guide/guide.ui:1627
+#: ekos/guide/guide.ui:1584
 #, kde-format
 msgid "SNR"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showRMSPlotCheck)
-#: ekos/guide/guide.ui:1637
+#: ekos/guide/guide.ui:1594
 #, kde-format
 msgid ""
 "<html><head/><body><p>Display RMS graph in the Drift Graphics plot.</p></"
@@ -16470,31 +16497,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showRMSPlotCheck)
-#: ekos/guide/guide.ui:1640
+#: ekos/guide/guide.ui:1597
 #, kde-format
 msgid "RMS"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, guideZoomInXB)
-#: ekos/guide/guide.ui:1687
+#: ekos/guide/guide.ui:1644
 #, kde-format
 msgid "<html><head/><body><p>Zoom in for the X-Axis.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, guideZoomOutXB)
-#: ekos/guide/guide.ui:1716
+#: ekos/guide/guide.ui:1673
 #, kde-format
 msgid "<html><head/><body><p>Zoom out for the X-Axis.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: ekos/guide/guide.ui:1736
+#: ekos/guide/guide.ui:1693
 #, kde-format
 msgid "Trace:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, guideSlider)
-#: ekos/guide/guide.ui:1743
+#: ekos/guide/guide.ui:1700
 #, kde-format
 msgid ""
 "<html><head/><body><p>Drag the slider to scroll through guide history while "
@@ -16504,7 +16531,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, latestCheck)
-#: ekos/guide/guide.ui:1759
+#: ekos/guide/guide.ui:1716
 #, kde-format
 msgid ""
 "<html><head/><body><p>Check to display the latest guide data and autoscroll "
@@ -16512,13 +16539,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, latestCheck)
-#: ekos/guide/guide.ui:1762
+#: ekos/guide/guide.ui:1719
 #, kde-format
 msgid "Max "
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, guideAutoScaleGraphB)
-#: ekos/guide/guide.ui:1788
+#: ekos/guide/guide.ui:1745
 #, kde-format
 msgid ""
 "<html><head/><body><p>Autoscale both Guide Graphs to their default scale. If "
@@ -16528,7 +16555,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, guideSaveDataB)
-#: ekos/guide/guide.ui:1810
+#: ekos/guide/guide.ui:1767
 #, kde-format
 msgid ""
 "<html><head/><body><p>Export the guide data from the current session to a "
@@ -16536,19 +16563,109 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, guideDataClearB)
-#: ekos/guide/guide.ui:1832
+#: ekos/guide/guide.ui:1789
 #, kde-format
 msgid ""
 "<html><head/><body><p>Clear all the recent guide data.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, accuracyRadiusSpin)
-#: ekos/guide/guide.ui:1842
+#: ekos/guide/guide.ui:1799
 #, kde-format
 msgid ""
 "<html><head/><body><p>Set the desired guiding accuracy in the Drift Plot. "
 "The number represents the radius of the green concentric circle in "
 "arcseconds.</p></body></html>"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:66
+#, kde-format
+msgid "drift (arcsec)"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:67
+#, kde-format
+msgid "pulse (ms)"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:223 ekos/guide/guidedriftgraph.cpp:619
+#: ekos/guide/guidedriftgraph.cpp:694
+#, kde-format
+msgctxt ""
+"Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
+"deviation in arcseconds; %4 is the RMS error in arcseconds; %5 is the SNR"
+msgid ""
+"<table><tr><td>LT:   </td><td>%1</td></tr><tr><td>RA:   </td><td>%2 \"</td></"
+"tr><tr><td>DE:   </td><td>%3 \"</td></tr><tr><td>RMS:   </td><td>%4 \"</td></"
+"tr><tr><td>SNR:   </td><td>%5 \"</td></tr></table>"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:242 ekos/guide/guidedriftgraph.cpp:635
+#: ekos/guide/guidedriftgraph.cpp:710
+#, kde-format
+msgctxt ""
+"Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
+"deviation in arcseconds; %4 is the RMS error in arcseconds; %5 is the SNR; "
+"%6 is RA Pulse in ms; %7 is DE Pulse in ms"
+msgid ""
+"<table><tr><td>LT:   </td><td>%1</td></tr><tr><td>RA:   </td><td>%2 \"</td></"
+"tr><tr><td>DE:   </td><td>%3 \"</td></tr><tr><td>RMS:   </td><td>%4 \"</td></"
+"tr><tr><td>SNR:   </td><td>%5 \"</td></tr><tr><td>RA Pulse:   </td><td>%6 "
+"ms</td></tr><tr><td>DE Pulse:   </td><td>%7 ms</td></tr></table>"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:281 ekos/guide/guidetargetplot.cpp:202
+#: kstarslite/skyitems/horizonitem.cpp:40
+#: skycomponents/horizoncomponent.cpp:129
+#, kde-format
+msgctxt "North"
+msgid "N"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:289 ekos/guide/guidetargetplot.cpp:210
+#: kstarslite/skyitems/horizonitem.cpp:36
+#: skycomponents/horizoncomponent.cpp:125
+#, kde-format
+msgctxt "South"
+msgid "S"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:297 ekos/guide/guidetargetplot.cpp:218
+#: kstarslite/skyitems/horizonitem.cpp:38
+#: skycomponents/horizoncomponent.cpp:127
+#, kde-format
+msgctxt "West"
+msgid "W"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:305 ekos/guide/guidetargetplot.cpp:226
+#: kstarslite/skyitems/horizonitem.cpp:34
+#: skycomponents/horizoncomponent.cpp:123
+#, kde-format
+msgctxt "East"
+msgid "E"
+msgstr ""
+
+#: ekos/guide/guidedriftgraph.cpp:451
+#, kde-format
+msgid "Export Guide Data"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, preparingStateLabel)
+#: ekos/guide/guidestatewidget.ui:51
+#, kde-format
+msgid "Prep"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, runningStateLabel)
+#. i18n: ectx: property (text), widget (QPushButton, runButtonBatch)
+#. i18n: ectx: property (text), widget (QPushButton, RunButtonBatch)
+#: ekos/guide/guidestatewidget.ui:64 tools/modcalcangdist.ui:666
+#: tools/modcalcapcoord.ui:720 tools/modcalcgalcoord.ui:418
+#: tools/modcalcgeod.ui:572 tools/modcalcplanets.ui:932
+#: tools/modcalcvlsr.ui:750
+#, kde-format
+msgid "Run"
 msgstr ""
 
 #: ekos/guide/internalguide/internalguider.cpp:320
@@ -17493,65 +17610,59 @@ msgstr ""
 msgid "Robotic (Experimental)"
 msgstr ""
 
-#: ekos/manager.cpp:195
+#: ekos/manager.cpp:187
 #, kde-format
 msgid "Ekos - %1 Profile"
 msgstr ""
 
-#: ekos/manager.cpp:205
+#: ekos/manager.cpp:197
 #, kde-format
 msgid "Connection in progress. Click to abort."
 msgstr ""
 
-#: ekos/manager.cpp:225
+#: ekos/manager.cpp:217
 #, kde-format
 msgid "Logging"
 msgstr ""
 
-#: ekos/manager.cpp:316
+#: ekos/manager.cpp:306
 #, kde-format
 msgid "Analyze"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, sequenceLabel)
-#: ekos/manager.cpp:562 ekos/manager.cpp:3135 ekos/manager.ui:792
-#, kde-format
-msgid "Sequence"
-msgstr ""
-
-#: ekos/manager.cpp:805 ekos/manager.cpp:831
+#: ekos/manager.cpp:785 ekos/manager.cpp:811
 #, kde-format
 msgid "Ekos requires at least one CCD or Guider to operate."
 msgstr ""
 
-#: ekos/manager.cpp:862
+#: ekos/manager.cpp:842
 #, kde-format
 msgid ""
 "Ekos detected that PTP Camera is running and may prevent a Canon or Nikon "
 "camera from connecting to Ekos. Do you want to quit PTP Camera now?"
 msgstr ""
 
-#: ekos/manager.cpp:863
+#: ekos/manager.cpp:843
 #, kde-format
 msgid "PTP Camera"
 msgstr ""
 
-#: ekos/manager.cpp:878
+#: ekos/manager.cpp:858
 #, kde-format
 msgid "Starting INDI services..."
 msgstr ""
 
-#: ekos/manager.cpp:902
+#: ekos/manager.cpp:882
 #, kde-format
 msgid "INDI services started on port %1."
 msgstr ""
 
-#: ekos/manager.cpp:905
+#: ekos/manager.cpp:885
 #, kde-format
 msgid "INDI services started on port %1. Please connect devices."
 msgstr ""
 
-#: ekos/manager.cpp:931
+#: ekos/manager.cpp:911
 #, kde-format
 msgid ""
 "Ekos detected an instance of INDI server running. Do you wish to shut down "
@@ -17559,49 +17670,49 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ekos/manager.cpp:933 indi/opsindi.ui:347
+#: ekos/manager.cpp:913 indi/opsindi.ui:347
 #, kde-format
 msgid "INDI Server"
 msgstr ""
 
-#: ekos/manager.cpp:948
+#: ekos/manager.cpp:928
 #, kde-format
 msgid "Connecting to remote INDI server at %1 on port %2 ..."
 msgstr ""
 
-#: ekos/manager.cpp:956
+#: ekos/manager.cpp:936
 #, kde-format
 msgid ""
 "INDI services started. Connection to remote INDI server is successful. "
 "Waiting for devices..."
 msgstr ""
 
-#: ekos/manager.cpp:962
+#: ekos/manager.cpp:942
 #, kde-format
 msgid "Failed to connect to remote INDI server."
 msgstr ""
 
-#: ekos/manager.cpp:987
+#: ekos/manager.cpp:967
 #, kde-format
 msgid "Failed to start profile on remote INDI Web Manager."
 msgstr ""
 
-#: ekos/manager.cpp:991
+#: ekos/manager.cpp:971
 #, kde-format
 msgid "Starting profile on remote INDI Web Manager..."
 msgstr ""
 
-#: ekos/manager.cpp:1004
+#: ekos/manager.cpp:984
 #, kde-format
 msgid "Establishing communication with remote INDI Web Manager..."
 msgstr ""
 
-#: ekos/manager.cpp:1024
+#: ekos/manager.cpp:1004
 #, kde-format
 msgid "Warning: INDI Web Manager is not online."
 msgstr ""
 
-#: ekos/manager.cpp:1065
+#: ekos/manager.cpp:1045
 #, kde-format
 msgid ""
 "Unable to establish:\n"
@@ -17609,13 +17720,13 @@ msgid ""
 "Please ensure the device is connected and powered on."
 msgstr ""
 
-#: ekos/manager.cpp:1069 ekos/manager.cpp:1077 ekos/manager.cpp:1106
-#: ekos/manager.cpp:1113
+#: ekos/manager.cpp:1049 ekos/manager.cpp:1057 ekos/manager.cpp:1086
+#: ekos/manager.cpp:1093
 #, kde-format
 msgid "Ekos startup error"
 msgstr ""
 
-#: ekos/manager.cpp:1073
+#: ekos/manager.cpp:1053
 #, kde-format
 msgid ""
 "Unable to establish the following devices:\n"
@@ -17623,7 +17734,7 @@ msgid ""
 "Please ensure each device is connected and powered on."
 msgstr ""
 
-#: ekos/manager.cpp:1103
+#: ekos/manager.cpp:1083
 #, kde-format
 msgid ""
 "Unable to establish remote device:\n"
@@ -17631,7 +17742,7 @@ msgid ""
 "Please ensure remote device name corresponds to actual device name."
 msgstr ""
 
-#: ekos/manager.cpp:1110
+#: ekos/manager.cpp:1090
 #, kde-format
 msgid ""
 "Unable to establish remote devices:\n"
@@ -17639,117 +17750,117 @@ msgid ""
 "Please ensure remote device name corresponds to actual device name."
 msgstr ""
 
-#: ekos/manager.cpp:1152
+#: ekos/manager.cpp:1132
 #, kde-format
 msgid "Connecting INDI devices..."
 msgstr ""
 
-#: ekos/manager.cpp:1163
+#: ekos/manager.cpp:1143
 #, kde-format
 msgid "Disconnecting INDI devices..."
 msgstr ""
 
-#: ekos/manager.cpp:1229
+#: ekos/manager.cpp:1209
 #, kde-format
 msgid "INDI services stopped."
 msgstr ""
 
-#: ekos/manager.cpp:1302
+#: ekos/manager.cpp:1259
 #, kde-format
 msgid "Remote devices established."
 msgstr ""
 
-#: ekos/manager.cpp:1304
+#: ekos/manager.cpp:1261
 #, kde-format
 msgid "Remote devices established. Please connect devices."
 msgstr ""
 
-#: ekos/manager.cpp:1421
+#: ekos/manager.cpp:1402
 #, kde-format
 msgid ""
 "%1 failed to connect.\n"
 "Please ensure the device is connected and powered on."
 msgstr ""
 
-#: ekos/manager.cpp:1428
+#: ekos/manager.cpp:1409
 #, kde-format
 msgid "%1 is disconnected."
 msgstr ""
 
-#: ekos/manager.cpp:1456 ekos/manager.cpp:1557 ekos/manager.cpp:1633
-#: ekos/manager.cpp:1656 ekos/manager.cpp:1669 indi/indistd.cpp:543
+#: ekos/manager.cpp:1437 ekos/manager.cpp:1539 ekos/manager.cpp:1615
+#: ekos/manager.cpp:1638 ekos/manager.cpp:1651 indi/indistd.cpp:543
 #, kde-format
 msgid "%1 is online."
 msgstr ""
 
-#: ekos/manager.cpp:1576
+#: ekos/manager.cpp:1558
 #, kde-format
 msgid "%1 filter is online."
 msgstr ""
 
-#: ekos/manager.cpp:1613
+#: ekos/manager.cpp:1595
 #, kde-format
 msgid "%1 focuser is online."
 msgstr ""
 
-#: ekos/manager.cpp:1722
+#: ekos/manager.cpp:1704
 #, kde-format
 msgid "%1 is offline."
 msgstr ""
 
-#: ekos/manager.cpp:2288
+#: ekos/manager.cpp:2258
 #, kde-format
 msgctxt "Charge-Coupled Device"
 msgid "CCD"
 msgstr ""
 
-#: ekos/manager.cpp:2772
+#: ekos/manager.cpp:2640
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr ""
 
-#: ekos/manager.cpp:2970
+#: ekos/manager.cpp:2838
 #, kde-format
 msgid "Are you sure you want to delete the profile?"
 msgstr ""
 
-#: ekos/manager.cpp:2971
+#: ekos/manager.cpp:2839
 #, kde-format
 msgid "Confirm Delete"
 msgstr ""
 
-#: ekos/manager.cpp:3025
+#: ekos/manager.cpp:2893
 #, kde-format
 msgid "Site location updated to %1."
 msgstr ""
 
-#: ekos/manager.cpp:3027
+#: ekos/manager.cpp:2895
 #, kde-format
 msgid "Failed to update site location to %1. City not found."
 msgstr ""
 
-#: ekos/manager.cpp:3515
+#: ekos/manager.cpp:3186
 #, kde-format
 msgid "Enabling debug logging for %1..."
 msgstr ""
 
-#: ekos/manager.cpp:3523
+#: ekos/manager.cpp:3194
 #, kde-format
 msgid "Disabling debug logging for %1..."
 msgstr ""
 
-#: ekos/manager.cpp:3549
+#: ekos/manager.cpp:3220
 #, kde-format
 msgid "Re-enabling debug logging for %1..."
 msgstr ""
 
-#: ekos/manager.cpp:3561
+#: ekos/manager.cpp:3232
 #, kde-format
 msgid "Re-disabling debug logging for %1..."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, profileGroup)
-#: ekos/manager.ui:102
+#: ekos/manager.ui:105
 #, kde-format
 msgid "1. Select Profile"
 msgstr ""
@@ -17757,167 +17868,107 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: ekos/manager.ui:123 ekos/profilewizard.ui:993 ekos/scheduler/scheduler.ui:427
+#: ekos/manager.ui:126 ekos/profilewizard.ui:993 ekos/scheduler/scheduler.ui:427
 #, kde-format
 msgid "Profile:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, addProfileB)
-#: ekos/manager.ui:161
+#: ekos/manager.ui:164
 #, kde-format
 msgid "Add profile"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, editProfileB)
-#: ekos/manager.ui:198
+#: ekos/manager.ui:201
 #, kde-format
 msgid "Edit profile"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteProfileB)
-#: ekos/manager.ui:235
+#: ekos/manager.ui:238
 #, kde-format
 msgid "Remove profile"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, customDriversB)
 #. i18n: ectx: property (windowTitle), widget (QDialog, CustomDrivers)
-#: ekos/manager.ui:266 indi/customdrivers.ui:14
+#: ekos/manager.ui:269 indi/customdrivers.ui:14
 #, kde-format
 msgid "Custom Drivers"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, wizardProfileB)
-#: ekos/manager.ui:294
+#: ekos/manager.ui:297
 #, kde-format
 msgid "Launch Ekos Profile Wizard"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ekos/manager.ui:329
+#: ekos/manager.ui:332
 #, kde-format
 msgid "2. Start && Stop Ekos"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, indiControlPanelB)
-#: ekos/manager.ui:415 indi/guimanager.cpp:70 kstarslite/qml/indi/INDIControlPanel.qml:22
+#: ekos/manager.ui:418 indi/guimanager.cpp:70 kstarslite/qml/indi/INDIControlPanel.qml:22
 #, kde-format, kde-kuit-format
 msgid "INDI Control Panel"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, portSelectorB)
+#: ekos/manager.ui:447
+#, kde-format
+msgid "<html><head/><body><p>Devices Port Selector</p></body></html>"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, optionsB)
-#: ekos/manager.ui:473
+#: ekos/manager.ui:476
 #, kde-format
 msgid "Ekos Options"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: ekos/manager.ui:526
+#: ekos/manager.ui:529
 #, kde-format
 msgid "3. Connect && Disconnect Devices"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: ekos/manager.ui:633
+#: ekos/manager.ui:636
 #, kde-format
 msgid "Capture: "
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, imageRemainingTime)
-#. i18n: ectx: property (text), widget (QLabel, sequenceRemainingTime)
-#. i18n: ectx: property (text), widget (QLabel, overallRemainingTime)
-#: ekos/manager.ui:775 ekos/manager.ui:858 ekos/manager.ui:954
-#, kde-format
-msgid "--:--:--"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, overallLabel)
-#: ekos/manager.ui:875
-#, kde-format
-msgid "Overall"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ekos/manager.ui:1022
+#: ekos/manager.ui:782
 #, kde-format
 msgid "Mount: "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ekos/manager.ui:1076
+#: ekos/manager.ui:852
 #, kde-format
 msgid "Target: "
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
-#: ekos/manager.ui:1160 ekos/mount/mount.ui:297 ekos/scheduler/scheduler.ui:1065
+#: ekos/manager.ui:936 ekos/mount/mount.ui:297 ekos/scheduler/scheduler.ui:1065
 #: kstarslite/qml/dialogs/DetailsDialog.qml:276
 #: tools/altvstime.cpp:108
 #, kde-format, kde-kuit-format
 msgid "Altitude"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: ekos/manager.ui:1249
-#, kde-format
-msgid "Focus: "
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, focusDetailPrevButton)
-#. i18n: ectx: property (text), widget (QPushButton, guideDetailPrevButton)
-#. i18n: ectx: property (text), widget (QPushButton, previousButton)
-#: ekos/manager.ui:1427 ekos/manager.ui:1809 printing/foveditordialog.ui:115
-#, kde-format
-msgid "<"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, focusDetailView)
-#: ekos/manager.ui:1455
-#, kde-format
-msgid "Focus Profile"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, focusDetailNextButton)
-#. i18n: ectx: property (text), widget (QPushButton, guideDetailNextButton)
-#. i18n: ectx: property (text), widget (QPushButton, nextButton)
-#: ekos/manager.ui:1506 ekos/manager.ui:1873 printing/foveditordialog.ui:122
-#, kde-format
-msgid ">"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: ekos/manager.ui:1569
-#, kde-format
-msgid "Guide: "
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: ekos/manager.ui:1648
-#, kde-format
-msgid " σRA:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: ekos/manager.ui:1710
-#, kde-format
-msgid "σDEC:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, guideDetailView)
-#: ekos/manager.ui:1822
-#, kde-format
-msgid "Guide Profile"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, ekosOptionsB)
-#: ekos/manager.ui:1937
+#: ekos/manager.ui:1029
 #, kde-format
 msgid "Advanced Ekos Options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, ekosOptionsB)
-#: ekos/manager.ui:1940
+#: ekos/manager.ui:1032
 #, kde-format
 msgid "Options..."
 msgstr ""
@@ -17925,10 +17976,77 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, clearB)
 #. i18n: ectx: property (text), widget (QPushButton, ClearButton)
 #. i18n: ectx: property (text), widget (QPushButton, Clear)
-#: ekos/manager.ui:1947 fitsviewer/fitstab.cpp:396 indi/guimanager.cpp:73
+#: ekos/manager.ui:1039 fitsviewer/fitstab.cpp:396 indi/guimanager.cpp:73
 #: tools/conjunctions.ui:205 tools/eclipsetool.ui:167 tools/modcalcgeod.ui:160
 #, kde-format
 msgid "Clear"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: ekos/manager/focusmanager.ui:95
+#, kde-format
+msgid "Focus: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, focusDetailPrevButton)
+#. i18n: ectx: property (text), widget (QPushButton, guideDetailPrevButton)
+#. i18n: ectx: property (text), widget (QPushButton, previousButton)
+#: ekos/manager/focusmanager.ui:273 ekos/manager/guidemanager.ui:332
+#: printing/foveditordialog.ui:115
+#, kde-format
+msgid "<"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (FocusProfilePlot, profilePlot)
+#: ekos/manager/focusmanager.ui:281
+#, kde-format
+msgid "Focus HFR profile"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, focusStarView)
+#. i18n: ectx: property (text), widget (QLabel, focusStarView)
+#: ekos/manager/focusmanager.ui:299 ekos/manager/focusmanager.ui:306
+#, kde-format
+msgid "Focus star"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, focusDetailNextButton)
+#. i18n: ectx: property (text), widget (QPushButton, guideDetailNextButton)
+#. i18n: ectx: property (text), widget (QPushButton, nextButton)
+#: ekos/manager/focusmanager.ui:345 ekos/manager/guidemanager.ui:420
+#: printing/foveditordialog.ui:122
+#, kde-format
+msgid ">"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: ekos/manager/guidemanager.ui:92
+#, kde-format
+msgid "Guide: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: ekos/manager/guidemanager.ui:171
+#, kde-format
+msgid " σRA:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: ekos/manager/guidemanager.ui:233
+#, kde-format
+msgid "σDEC:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, guideStarView)
+#: ekos/manager/guidemanager.ui:374
+#, kde-format
+msgid "Guide star"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, guideStarView)
+#: ekos/manager/guidemanager.ui:381
+#, kde-format
+msgid "guide star"
 msgstr ""
 
 #: ekos/mount/mount.cpp:100
@@ -19494,14 +19612,14 @@ msgstr ""
 msgid "Profile name already exists."
 msgstr ""
 
-#: ekos/profileeditor.cpp:577
+#: ekos/profileeditor.cpp:580
 #, kde-format
 msgid ""
 "<nobr>Available as <b>Remote</b> Driver. To use locally, install the "
 "corresponding driver.<nobr/>"
 msgstr ""
 
-#: ekos/profileeditor.cpp:579
+#: ekos/profileeditor.cpp:582
 #, kde-format
 msgid ""
 "<nobr><b>Label</b>: %1 &#9473; <b>Driver</b>: %2 &#9473; <b>Exec</b>: "
@@ -19509,22 +19627,22 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, guideTypeCombo)
-#: ekos/profileeditor.cpp:934 ekos/profileeditor.ui:356
+#: ekos/profileeditor.cpp:938 ekos/profileeditor.ui:369
 #, kde-format
 msgid "Internal"
 msgstr ""
 
-#: ekos/profileeditor.cpp:1015
+#: ekos/profileeditor.cpp:1019
 #, kde-format
 msgid "Scanning Network"
 msgstr ""
 
-#: ekos/profileeditor.cpp:1016
+#: ekos/profileeditor.cpp:1020
 #, kde-format
 msgid "Scanning network for INDI Web Managers..."
 msgstr ""
 
-#: ekos/profileeditor.cpp:1080
+#: ekos/profileeditor.cpp:1084
 #, kde-format
 msgid "Found INDI Web Manager at %1"
 msgstr ""
@@ -19558,8 +19676,16 @@ msgstr ""
 msgid "Auto Connect"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, portSelectorCheck)
+#: ekos/profileeditor.ui:91
+#, kde-format
+msgid ""
+"Show port selector dialog when first connecting to equipment. It is "
+"automatically disabled after connection is established."
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, loadSiteCheck)
-#: ekos/profileeditor.ui:97
+#: ekos/profileeditor.ui:110
 #, kde-format
 msgid ""
 "<html><head/><body>\n"
@@ -19571,13 +19697,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, loadSiteCheck)
-#: ekos/profileeditor.ui:100
+#: ekos/profileeditor.ui:113
 #, kde-format
 msgid "Site Info"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, guidingTypeLabel)
-#: ekos/profileeditor.ui:111
+#: ekos/profileeditor.ui:124
 #, kde-format
 msgid ""
 "<html><body><p>Select which plug-in the Guider module should use.</p></"
@@ -19585,13 +19711,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, guidingTypeLabel)
-#: ekos/profileeditor.ui:114
+#: ekos/profileeditor.ui:127
 #, kde-format
 msgid "Guiding:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, modeLabel)
-#: ekos/profileeditor.ui:125
+#: ekos/profileeditor.ui:138
 #, kde-format
 msgid ""
 "<html><head/><body>\n"
@@ -19609,15 +19735,15 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: ekos/profileeditor.ui:138 ekos/profileeditor.ui:151
-#: ekos/profileeditor.ui:184 ekos/profilewizard.ui:582
+#: ekos/profileeditor.ui:151 ekos/profileeditor.ui:164
+#: ekos/profileeditor.ui:197 ekos/profilewizard.ui:582
 #: ekos/profilewizard.ui:774 indi/indihostconf.ui:40
 #, kde-format
 msgid "Port:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, remoteMode)
-#: ekos/profileeditor.ui:161
+#: ekos/profileeditor.ui:174
 #, kde-format
 msgid "Re&mote"
 msgstr ""
@@ -19627,7 +19753,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: ekos/profileeditor.ui:171 ekos/profileeditor.ui:339
+#: ekos/profileeditor.ui:184 ekos/profileeditor.ui:352
 #: ekos/profilewizard.ui:568 ekos/profilewizard.ui:747
 #: indi/indihostconf.ui:30
 #, kde-format
@@ -19635,25 +19761,25 @@ msgid "Host:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, INDIWebManagerPort)
-#: ekos/profileeditor.ui:203
+#: ekos/profileeditor.ui:216
 #, kde-format
 msgid "<html><body><p>INDI Web Manager port.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, INDIWebManagerPort)
-#: ekos/profileeditor.ui:206
+#: ekos/profileeditor.ui:219
 #, kde-format
 msgid "8624"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteHost)
-#: ekos/profileeditor.ui:222
+#: ekos/profileeditor.ui:235
 #, kde-format
 msgid "<html><body><p>Remote INDI server host or address.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remotePort)
-#: ekos/profileeditor.ui:241
+#: ekos/profileeditor.ui:254
 #, kde-format
 msgid "<html><body><p>Remote INDI Server Port.</p></body></html>"
 msgstr ""
@@ -19661,76 +19787,76 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLineEdit, remotePort)
 #. i18n: ectx: property (text), widget (QLineEdit, remotePortEdit)
 #. i18n: ectx: property (text), widget (QLineEdit, PiPort)
-#: ekos/profileeditor.ui:244 ekos/profilewizard.ui:589
+#: ekos/profileeditor.ui:257 ekos/profilewizard.ui:589
 #: ekos/profilewizard.ui:781
 #, kde-format
 msgid "7624"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, externalGuideHost)
-#: ekos/profileeditor.ui:260
+#: ekos/profileeditor.ui:273
 #, kde-format
 msgid "<html><body><p>External guider host or address.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, externalGuideHost)
-#: ekos/profileeditor.ui:263
+#: ekos/profileeditor.ui:276
 #, kde-format
 msgid "localhost"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, indihubB)
-#: ekos/profileeditor.ui:270
+#: ekos/profileeditor.ui:283
 #, kde-format
 msgid "<html><head/><body><p>Configure INDIHub.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, indihubB)
-#: ekos/profileeditor.ui:273
+#: ekos/profileeditor.ui:286
 #, kde-format
 msgid "INDI Hub"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, localMode)
-#: ekos/profileeditor.ui:290
+#: ekos/profileeditor.ui:303
 #, kde-format
 msgid "&Local"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, externalGuidePort)
-#: ekos/profileeditor.ui:309
+#: ekos/profileeditor.ui:322
 #, kde-format
 msgid "<html><body><p>External guider port.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, scanB)
-#: ekos/profileeditor.ui:316
+#: ekos/profileeditor.ui:329
 #, kde-format
 msgid ""
 "<html><body><p>Scan local network for INDI web managers.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, scanB)
-#: ekos/profileeditor.ui:319
+#: ekos/profileeditor.ui:332
 #, kde-format
 msgid "Scan"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, guideTypeCombo)
 #. i18n: ectx: property (text), widget (QRadioButton, usePHD2R)
-#: ekos/profileeditor.ui:361 ekos/profilewizard.ui:1034
+#: ekos/profileeditor.ui:374 ekos/profilewizard.ui:1034
 #, kde-format
 msgid "PHD2"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, guideTypeCombo)
-#: ekos/profileeditor.ui:366
+#: ekos/profileeditor.ui:379
 #, kde-format
 msgid "LinGuider"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, INDIWebManagerCheck)
-#: ekos/profileeditor.ui:377
+#: ekos/profileeditor.ui:390
 #, kde-format
 msgid ""
 "<html><body><p>Store profile on remote INDI Web Manager. Use INDI Web "
@@ -19738,116 +19864,116 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, INDIWebManagerCheck)
-#: ekos/profileeditor.ui:380
+#: ekos/profileeditor.ui:393
 #, kde-format
 msgid "INDI Web Manager"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, openWebManagerB)
-#: ekos/profileeditor.ui:396
+#: ekos/profileeditor.ui:409
 #, kde-format
 msgid "<html><body><p>Open Web Manager in browser.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openWebManagerB)
-#: ekos/profileeditor.ui:399
+#: ekos/profileeditor.ui:412
 #, kde-format
 msgid "Web Manager"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ekos/profileeditor.ui:421
+#: ekos/profileeditor.ui:434
 #, kde-format
 msgid "Select Devices"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, aux4Label)
-#: ekos/profileeditor.ui:440
+#: ekos/profileeditor.ui:453
 #, kde-format
 msgid "Auxiliary #4"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aux4Label)
-#: ekos/profileeditor.ui:443
+#: ekos/profileeditor.ui:456
 #, kde-format
 msgid "Aux 4:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, aux3Label)
-#: ekos/profileeditor.ui:500
+#: ekos/profileeditor.ui:513
 #, kde-format
 msgid "Auxiliary #3"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aux3Label)
-#: ekos/profileeditor.ui:503
+#: ekos/profileeditor.ui:516
 #, kde-format
 msgid "Aux 3:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, weatherLabel)
-#: ekos/profileeditor.ui:549
+#: ekos/profileeditor.ui:562
 #, kde-format
 msgid "Weather Station"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, weatherLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: ekos/profileeditor.ui:552 oal/execute.ui:65
+#: ekos/profileeditor.ui:565 oal/execute.ui:65
 #, kde-format
 msgid "Weather:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, domeLabel)
-#: ekos/profileeditor.ui:572
+#: ekos/profileeditor.ui:585
 #, kde-format
 msgid "Dome Controller"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, domeLabel)
-#: ekos/profileeditor.ui:575
+#: ekos/profileeditor.ui:588
 #, kde-format
 msgid "Dome:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, AOLabel)
-#: ekos/profileeditor.ui:585
+#: ekos/profileeditor.ui:598
 #, kde-format
 msgid "AO:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ekos/profileeditor.ui:605
+#: ekos/profileeditor.ui:618
 #, kde-format
 msgid "Mount:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, aux1Label)
-#: ekos/profileeditor.ui:632
+#: ekos/profileeditor.ui:645
 #, kde-format
 msgid "Auxiliary #1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aux1Label)
-#: ekos/profileeditor.ui:635
+#: ekos/profileeditor.ui:648
 #, kde-format
 msgid "Aux 1:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, aux2Label)
-#: ekos/profileeditor.ui:668
+#: ekos/profileeditor.ui:681
 #, kde-format
 msgid "Auxiliary #2"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aux2Label)
-#: ekos/profileeditor.ui:671
+#: ekos/profileeditor.ui:684
 #, kde-format
 msgid "Aux 2:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, remoteDriversLabel)
-#: ekos/profileeditor.ui:691
+#: ekos/profileeditor.ui:704
 #, kde-format
 msgid ""
 "<html><head/><body><p>Add remote INDI drivers to chain with the local INDI "
@@ -19866,25 +19992,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, remoteDrivers)
-#: ekos/profileeditor.ui:701
+#: ekos/profileeditor.ui:714
 #, kde-format
 msgid "driver@host:port,driver@host,@host:port,@host,driver"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ekos/profileeditor.ui:711
+#: ekos/profileeditor.ui:724
 #, kde-format
 msgid "Select Telescopes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ekos/profileeditor.ui:732
+#: ekos/profileeditor.ui:745
 #, kde-format
 msgid "Primary:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ekos/profileeditor.ui:749
+#: ekos/profileeditor.ui:762
 #, kde-format
 msgid "Guide:"
 msgstr ""
@@ -22583,137 +22709,138 @@ msgstr ""
 msgid "Normal"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:169
+#: fitsviewer/fitsdata.cpp:168
 #, kde-format
 msgid " Error: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:171 fitsviewer/fitsdata.cpp:212
-#: fitsviewer/fitsdata.cpp:265 fitsviewer/fitsdata.cpp:311
-#: fitsviewer/fitsdata.cpp:323
+#: fitsviewer/fitsdata.cpp:170 fitsviewer/fitsdata.cpp:211
+#: fitsviewer/fitsdata.cpp:264 fitsviewer/fitsdata.cpp:310
+#: fitsviewer/fitsdata.cpp:322
 #, kde-format
 msgid "FITS Open"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:210
+#: fitsviewer/fitsdata.cpp:209
 #, kde-format
 msgid "Failed to unpack compressed fits"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:229
+#: fitsviewer/fitsdata.cpp:228
 #, kde-format
 msgid "Error opening fits file %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:243
+#: fitsviewer/fitsdata.cpp:242
 #, kde-format
 msgid "Error reading fits buffer."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:252
+#: fitsviewer/fitsdata.cpp:251
 #, kde-format
 msgid "Could not locate image HDU."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:258
+#: fitsviewer/fitsdata.cpp:257
 #, kde-format
 msgid "FITS file open error (fits_get_img_param)."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:263
+#: fitsviewer/fitsdata.cpp:262
 #, kde-format
 msgid "1D FITS images are not supported in KStars."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:309
+#: fitsviewer/fitsdata.cpp:308
 #, kde-format
 msgid "Bit depth %1 is not supported."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:321
+#: fitsviewer/fitsdata.cpp:320
 #, kde-format
 msgid "Image has invalid dimensions %1x%2"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:359
+#: fitsviewer/fitsdata.cpp:358
 #, kde-format
 msgid "Error reading image."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:540
+#: fitsviewer/fitsdata.cpp:539
 #, kde-format
 msgid "Cannot open file %1: %2"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:553
+#: fitsviewer/fitsdata.cpp:552
 #, kde-format
 msgid "Cannot open buffer: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:564
+#: fitsviewer/fitsdata.cpp:563
 #, kde-format
 msgid "Cannot unpack_thumb: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:571
+#: fitsviewer/fitsdata.cpp:570
 #, kde-format
 msgid "Cannot dcraw_process: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:579
+#: fitsviewer/fitsdata.cpp:578
 #, kde-format
 msgid "Cannot load to memory: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:722
+#: fitsviewer/fitsdata.cpp:721
 #, kde-format
 msgid "Saving compressed files is not supported."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:2316 fitsviewer/fitsdata.cpp:2325
-#: fitsviewer/fitsdata.cpp:2391 fitsviewer/fitsdata.cpp:2401
-#: fitsviewer/fitsdata.cpp:2493 fitsviewer/fitsdata.cpp:2529
+#: fitsviewer/fitsdata.cpp:2315 fitsviewer/fitsdata.cpp:2324
+#: fitsviewer/fitsdata.cpp:2388 fitsviewer/fitsdata.cpp:2398
+#: fitsviewer/fitsdata.cpp:2441 fitsviewer/fitsdata.cpp:2477
+#: fitsviewer/fitsdata.cpp:2509
 #, kde-format
 msgid "No world coordinate systems found."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3215
+#: fitsviewer/fitsdata.cpp:3230
 #, kde-format
 msgid "Only 8 and 16 bits bayered images supported."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3215 fitsviewer/fitsdata.cpp:3248
-#: fitsviewer/fitsdata.cpp:3280 fitsviewer/fitsdata.cpp:3347
-#: fitsviewer/fitsdata.cpp:3356 fitsviewer/fitsdata.cpp:3376
-#: fitsviewer/fitsdata.cpp:3392 fitsviewer/fitsdata.cpp:3433
-#: fitsviewer/fitsdata.cpp:3442 fitsviewer/fitsdata.cpp:3462
-#: fitsviewer/fitsdata.cpp:3478
+#: fitsviewer/fitsdata.cpp:3230 fitsviewer/fitsdata.cpp:3263
+#: fitsviewer/fitsdata.cpp:3295 fitsviewer/fitsdata.cpp:3362
+#: fitsviewer/fitsdata.cpp:3371 fitsviewer/fitsdata.cpp:3391
+#: fitsviewer/fitsdata.cpp:3407 fitsviewer/fitsdata.cpp:3448
+#: fitsviewer/fitsdata.cpp:3457 fitsviewer/fitsdata.cpp:3477
+#: fitsviewer/fitsdata.cpp:3493
 #, kde-format
 msgid "Debayer error"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3248
+#: fitsviewer/fitsdata.cpp:3263
 #, kde-format
 msgid "Unsupported bayer pattern %1."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3279
+#: fitsviewer/fitsdata.cpp:3294
 #, kde-format
 msgid "Unsupported bayer offsets %1 %2."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3347 fitsviewer/fitsdata.cpp:3392
-#: fitsviewer/fitsdata.cpp:3433 fitsviewer/fitsdata.cpp:3478
+#: fitsviewer/fitsdata.cpp:3362 fitsviewer/fitsdata.cpp:3407
+#: fitsviewer/fitsdata.cpp:3448 fitsviewer/fitsdata.cpp:3493
 #, kde-format
 msgid "Unable to allocate memory for temporary bayer buffer: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3356 fitsviewer/fitsdata.cpp:3442
+#: fitsviewer/fitsdata.cpp:3371 fitsviewer/fitsdata.cpp:3457
 #, kde-format
 msgid "Unable to allocate memory for temporary bayer buffer."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3376 fitsviewer/fitsdata.cpp:3462
+#: fitsviewer/fitsdata.cpp:3391 fitsviewer/fitsdata.cpp:3477
 #, kde-format
 msgid "Debayer failed (%1)"
 msgstr ""
@@ -22914,13 +23041,13 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: fitsviewer/fitslabel.cpp:203
+#: fitsviewer/fitslabel.cpp:197
 #, kde-format
 msgctxt "Half Flux Radius"
 msgid "HFR: %1"
 msgstr ""
 
-#: fitsviewer/fitslabel.cpp:248 tools/whatsinteresting/wiview.cpp:310
+#: fitsviewer/fitslabel.cpp:244 tools/whatsinteresting/wiview.cpp:336
 #, kde-format
 msgid "Continue Slew"
 msgstr ""
@@ -22978,69 +23105,69 @@ msgstr ""
 msgid "Cannot zoom in further due to active limited resources mode."
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1865
+#: fitsviewer/fitsview.cpp:1852
 #, kde-format
 msgid "Finding stars..."
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2094
+#: fitsviewer/fitsview.cpp:2081
 #, kde-format
 msgid "Zoom In"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2097
+#: fitsviewer/fitsview.cpp:2084
 #, kde-format
 msgid "Zoom Out"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2100
+#: fitsviewer/fitsview.cpp:2087
 #, kde-format
 msgid "Default Zoom"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2103
+#: fitsviewer/fitsview.cpp:2090
 #, kde-format
 msgid "Zoom to Fit"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2106
+#: fitsviewer/fitsview.cpp:2093
 #, kde-format
 msgid "Toggle Stretch"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2114 fitsviewer/fitsviewer.cpp:185
+#: fitsviewer/fitsview.cpp:2101 fitsviewer/fitsviewer.cpp:185
 #, kde-format
 msgid "Show Cross Hairs"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2118 fitsviewer/fitsviewer.cpp:198
+#: fitsviewer/fitsview.cpp:2105 fitsviewer/fitsviewer.cpp:198
 #, kde-format
 msgid "Show Pixel Gridlines"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2123 fitsviewer/fitsview.cpp:2232
+#: fitsviewer/fitsview.cpp:2110 fitsviewer/fitsview.cpp:2219
 #, kde-format
 msgid "Detect Stars in Image"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2129 fitsviewer/starprofileviewer.cpp:63
+#: fitsviewer/fitsview.cpp:2116 fitsviewer/starprofileviewer.cpp:63
 #, kde-format
 msgid "View Star Profile"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2139 fitsviewer/fitsviewer.cpp:204
+#: fitsviewer/fitsview.cpp:2126 fitsviewer/fitsviewer.cpp:204
 #: fitsviewer/fitsviewer.cpp:900
 #, kde-format
 msgid "Show Equatorial Gridlines"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2145 fitsviewer/fitsviewer.cpp:211
+#: fitsviewer/fitsview.cpp:2132 fitsviewer/fitsviewer.cpp:211
 #: fitsviewer/fitsviewer.cpp:902
 #, kde-format
 msgid "Show Objects in Image"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:2151
+#: fitsviewer/fitsview.cpp:2138
 #, kde-format
 msgid "Center Telescope"
 msgstr ""
@@ -24114,13 +24241,6 @@ msgstr ""
 #: indi/drivermanager.ui:71 indi/drivermanager.ui:129
 #, kde-format
 msgid "Mode"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, localTreeWidget)
-#. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
-#: indi/drivermanager.ui:81 indi/drivermanager.ui:332
-#, kde-format
-msgid "Port"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, serverLogBox)
@@ -99281,12 +99401,12 @@ msgstr ""
 msgid "Planet"
 msgstr ""
 
-#: skyobjects/skyobject.cpp:380 tools/whatsinteresting/wiview.cpp:590
+#: skyobjects/skyobject.cpp:380 tools/whatsinteresting/wiview.cpp:616
 #, kde-format
 msgid "Comet"
 msgstr ""
 
-#: skyobjects/skyobject.cpp:382 tools/whatsinteresting/wiview.cpp:588
+#: skyobjects/skyobject.cpp:382 tools/whatsinteresting/wiview.cpp:614
 #, kde-format
 msgid "Asteroid"
 msgstr ""
@@ -101727,15 +101847,6 @@ msgstr ""
 #: tools/modcalcgalcoord.ui:371 tools/modcalcgeod.ui:519
 #, kde-format
 msgid "Output File:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, runButtonBatch)
-#. i18n: ectx: property (text), widget (QPushButton, RunButtonBatch)
-#: tools/modcalcangdist.ui:666 tools/modcalcapcoord.ui:720
-#: tools/modcalcgalcoord.ui:418 tools/modcalcgeod.ui:572
-#: tools/modcalcplanets.ui:932 tools/modcalcvlsr.ui:750
-#, kde-format
-msgid "Run"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -104494,22 +104605,22 @@ msgid ""
 "a></p></body></html>"
 msgstr ""
 
-#: tools/whatsinteresting/wiview.cpp:541
+#: tools/whatsinteresting/wiview.cpp:567
 #, kde-kuit-format
 msgid "Magnitude:  --"
 msgstr ""
 
-#: tools/whatsinteresting/wiview.cpp:543
+#: tools/whatsinteresting/wiview.cpp:569
 #, kde-kuit-format
 msgid "Magnitude: %1"
 msgstr ""
 
-#: tools/whatsinteresting/wiview.cpp:545
+#: tools/whatsinteresting/wiview.cpp:571
 #, kde-kuit-format
 msgid "Surface Brightness: %1"
 msgstr ""
 
-#: tools/whatsinteresting/wiview.cpp:547
+#: tools/whatsinteresting/wiview.cpp:573
 #, kde-kuit-format
 msgid "Size: %1"
 msgstr ""
