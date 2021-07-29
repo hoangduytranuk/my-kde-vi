@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalendar\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-18 00:18+0000\n"
+"POT-Creation-Date: 2021-07-23 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,13 +28,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: calendarmanager.cpp:194
+#: calendarmanager.cpp:195
 #, kde-format
 msgctxt "@item this is the default calendar"
 msgid "%1 (Offline)"
 msgstr ""
 
-#: calendarmanager.cpp:197
+#: calendarmanager.cpp:198
 #, kde-format
 msgctxt "@item this is the default calendar"
 msgid "%1 (Default)"
@@ -55,244 +55,252 @@ msgstr ""
 msgid "Years"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:22
+#: contents/ui/DayMouseArea.qml:44 contents/ui/main.qml:34
+#, kde-format
+msgid "New event"
+msgstr ""
+
+#: contents/ui/DeleteEventSheet.qml:21
 #, kde-format
 msgid "Delete event"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:29
+#: contents/ui/DeleteEventSheet.qml:30
 #, kde-format
 msgid "Only delete current"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:37
+#: contents/ui/DeleteEventSheet.qml:38
 #, kde-format
 msgid "Also delete future"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:52 contents/ui/EventInfo.qml:65
-#: contents/ui/MultiDayView.qml:213
+#: contents/ui/DeleteEventSheet.qml:53 contents/ui/EventInfo.qml:86
+#: contents/ui/IncidenceMouseArea.qml:49
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:52
+#: contents/ui/DeleteEventSheet.qml:53
 #, kde-format
 msgid "Delete all"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:59
+#: contents/ui/DeleteEventSheet.qml:60
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:79
+#: contents/ui/DeleteEventSheet.qml:85
 #, kde-format
-msgid "Do you really want to delete item: "
+msgid "Do you really want to delete item: \"%1\"?"
 msgstr ""
 
-#: contents/ui/DeleteEventSheet.qml:86
-#, kde-format
-msgid "The calendar item "
-msgstr ""
-
-#: contents/ui/DeleteEventSheet.qml:86
+#: contents/ui/DeleteEventSheet.qml:92
 #, kde-format
 msgid ""
-" recurs over multiple dates. Do you want to delete the current one on %1, "
-"also future occurrences, or all its occurrences?"
+"The calendar item \"%1\" recurs over multiple dates. Do you want to delete "
+"the selected occurrence on %2, also future occurrences, or all of its "
+"occurrences?"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:30 contents/ui/main.qml:196
+#: contents/ui/EventEditor.qml:31 contents/ui/main.qml:228
+#: contents/ui/main.qml:256
 #, kde-format
 msgid "Add event"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:30
+#: contents/ui/EventEditor.qml:31
 #, kde-format
 msgid "Edit event"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:37
+#: contents/ui/EventEditor.qml:38
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:37
+#: contents/ui/EventEditor.qml:38
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:65
+#: contents/ui/EventEditor.qml:75
 #, kde-format
 msgid "Invalid dates provided."
 msgstr ""
 
-#: contents/ui/EventEditor.qml:65
+#: contents/ui/EventEditor.qml:75
 #, kde-format
 msgid "End date cannot be before start date."
 msgstr ""
 
-#: contents/ui/EventEditor.qml:76
+#: contents/ui/EventEditor.qml:86
 #, kde-format
 msgid "Calendar:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:97
+#: contents/ui/EventEditor.qml:106
 #, kde-format
 msgid "<b>Title</b>:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:98
+#: contents/ui/EventEditor.qml:107
 #, kde-format
 msgid "Required"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:105
+#: contents/ui/EventEditor.qml:114
 #, kde-format
 msgid "Location:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:106 contents/ui/EventEditor.qml:696
+#: contents/ui/EventEditor.qml:115 contents/ui/EventEditor.qml:130
 #, kde-format
 msgid "Optional"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:118
+#: contents/ui/EventEditor.qml:124
+#, kde-format
+msgid "Description:"
+msgstr ""
+
+#: contents/ui/EventEditor.qml:143
 #, kde-format
 msgid "All day event"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:124
+#: contents/ui/EventEditor.qml:149
 #, kde-format
 msgid "Start:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:228
+#: contents/ui/EventEditor.qml:254
 #, kde-format
 msgid "End:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:332
+#: contents/ui/EventEditor.qml:358
 #, kde-format
 msgid "Repeat:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:361 contents/ui/EventEditor.qml:562
+#: contents/ui/EventEditor.qml:387 contents/ui/EventEditor.qml:564
+#: contents/ui/labelutils.js:104
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:362
+#: contents/ui/EventEditor.qml:388
 #, kde-format
 msgid "Daily"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:363
+#: contents/ui/EventEditor.qml:389
 #, kde-format
 msgid "Weekly"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:364
+#: contents/ui/EventEditor.qml:390
 #, kde-format
 msgid "Monthly"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:365
+#: contents/ui/EventEditor.qml:391
 #, kde-format
 msgid "Yearly"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:366
+#: contents/ui/EventEditor.qml:392
 #, kde-format
 msgid "Custom"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:391
+#: contents/ui/EventEditor.qml:415
 #, kde-format
 msgid "Every:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:428
+#: contents/ui/EventEditor.qml:455
 #, kde-format
 msgid "day"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:428
+#: contents/ui/EventEditor.qml:455
 #, kde-format
 msgid "days"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:429
+#: contents/ui/EventEditor.qml:456
 #, kde-format
 msgid "week"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:429
+#: contents/ui/EventEditor.qml:456
 #, kde-format
 msgid "weeks"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:430
+#: contents/ui/EventEditor.qml:457
 #, kde-format
 msgid "month"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:430
+#: contents/ui/EventEditor.qml:457
 #, kde-format
 msgid "months"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:431
+#: contents/ui/EventEditor.qml:458
 #, kde-format
 msgid "year"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:431
+#: contents/ui/EventEditor.qml:458
 #, kde-format
 msgid "years"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:490
+#: contents/ui/EventEditor.qml:522
 #, kde-format
 msgid "On:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:527
+#: contents/ui/EventEditor.qml:530
 #, kde-format
 msgctxt "%1 is the day number of month"
 msgid "the %1 of each month"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:538
+#: contents/ui/EventEditor.qml:541
 #, kde-format
 msgctxt "the weekOfMonth dayOfWeekString of each month"
 msgid "the %1 %2 of each month"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:549
+#: contents/ui/EventEditor.qml:552
 #, kde-format
 msgid "Ends:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:563
+#: contents/ui/EventEditor.qml:565
 #, kde-format
 msgid "On"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:564
+#: contents/ui/EventEditor.qml:566
 #, kde-format
 msgid "After"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:631
+#: contents/ui/EventEditor.qml:632
 #, kde-format
 msgid "occurrence"
 msgid_plural "occurrences"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/EventEditor.qml:637
+#: contents/ui/EventEditor.qml:638
 #, kde-format
 msgid "Exceptions:"
 msgstr ""
@@ -304,128 +312,251 @@ msgstr ""
 
 #: contents/ui/EventEditor.qml:690
 #, kde-format
-msgid "Description:"
+msgid "Reminders:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:705
-#, kde-format
-msgid "Reminder:"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:712
-#, kde-format
-msgctxt "%1 is 2 or more"
-msgid "%1 days"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:716
-#, kde-format
-msgctxt "%1 is 2 or mores"
-msgid "%1 hours"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:718
-#, kde-format
-msgid "1 hour"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:720
-#, kde-format
-msgid "%1 minutes"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:724
-#, kde-format
-msgid "%1 before"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:726
-#, kde-format
-msgid "%1 after"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:728
-#, kde-format
-msgid "On event start"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:737
+#: contents/ui/EventEditor.qml:748
 #, kde-format
 msgid "Add reminder"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:798
+#: contents/ui/EventEditor.qml:762
 #, kde-format
 msgid "Attendees:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:803
-#, kde-format
-msgid "Add attendee"
-msgstr ""
-
-#: contents/ui/EventEditor.qml:819
-#, kde-format
-msgid "Attendee "
-msgstr ""
-
-#: contents/ui/EventEditor.qml:832
+#: contents/ui/EventEditor.qml:797
 #, kde-format
 msgid "Name:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:844
+#: contents/ui/EventEditor.qml:821
 #, kde-format
 msgid "Email:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:855
+#: contents/ui/EventEditor.qml:836
 #, kde-format
 msgid "Status:"
 msgstr ""
 
-#: contents/ui/EventEditor.qml:871
+#: contents/ui/EventEditor.qml:860
 #, kde-format
 msgid "Request RSVP"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:54
+#: contents/ui/EventEditor.qml:874
+#, kde-format
+msgid "Add attendee"
+msgstr ""
+
+#: contents/ui/EventEditor.qml:888
+#, kde-format
+msgid "Attachments:"
+msgstr ""
+
+#: contents/ui/EventEditor.qml:911
+#, kde-format
+msgid "Add attachment"
+msgstr ""
+
+#: contents/ui/EventInfo.qml:75
 #, kde-format
 msgid "Event"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:59 contents/ui/MultiDayView.qml:207
+#: contents/ui/EventInfo.qml:80 contents/ui/IncidenceMouseArea.qml:43
 #: contents/ui/SettingsPage.qml:91
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:99
+#: contents/ui/EventInfo.qml:138
 #, kde-format
 msgid "<b>Calendar:</b>"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:111
+#: contents/ui/EventInfo.qml:150
 #, kde-format
 msgid "<b>Date:</b>"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:125
+#: contents/ui/EventInfo.qml:164
 #, kde-format
 msgid "<b>Time:</b>"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:147
+#: contents/ui/EventInfo.qml:186
 #, kde-format
-msgid "<b>Duration: </b>"
+msgid "<b>Duration:</b>"
 msgstr ""
 
-#: contents/ui/EventInfo.qml:162
+#: contents/ui/EventInfo.qml:200
 #, kde-format
-msgid "<b>Description: </b>"
+msgid "<b>Recurrence:</b>"
 msgstr ""
 
-#: contents/ui/main.qml:20 contents/ui/SettingsPage.qml:44
+#: contents/ui/EventInfo.qml:223
+#, kde-format
+msgid "Except on:"
+msgstr ""
+
+#: contents/ui/EventInfo.qml:252
+#, kde-format
+msgid "<b>Location:</b>"
+msgstr ""
+
+#: contents/ui/EventInfo.qml:270
+#, kde-format
+msgid "<b>Description:</b>"
+msgstr ""
+
+#: contents/ui/EventInfo.qml:287
+#, kde-format
+msgid "<b>Attachment:</b>"
+msgid_plural "<b>Attachments:</b>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/EventInfo.qml:314
+#, kde-format
+msgid "<b>Reminders:</b>"
+msgstr ""
+
+#: contents/ui/EventInfo.qml:339
+#, kde-format
+msgid "<b>Organizer:</b>"
+msgstr ""
+
+#: contents/ui/EventInfo.qml:358
+#, kde-format
+msgid "<b>Guests:</b>"
+msgstr ""
+
+#: contents/ui/labelutils.js:31
+#, kde-format
+msgctxt "%1 is 2 or more"
+msgid "%1 days"
+msgstr ""
+
+#: contents/ui/labelutils.js:33
+#, kde-format
+msgid "1 day"
+msgstr ""
+
+#: contents/ui/labelutils.js:35
+#, kde-format
+msgctxt "%1 is 2 or mores"
+msgid "%1 hours"
+msgstr ""
+
+#: contents/ui/labelutils.js:37
+#, kde-format
+msgid "1 hour"
+msgstr ""
+
+#: contents/ui/labelutils.js:39
+#, kde-format
+msgid "%1 minutes"
+msgstr ""
+
+#: contents/ui/labelutils.js:43
+#, kde-format
+msgid "%1 before start of event"
+msgstr ""
+
+#: contents/ui/labelutils.js:45
+#, kde-format
+msgid "%1 after start of event"
+msgstr ""
+
+#: contents/ui/labelutils.js:47
+#, kde-format
+msgid "On event start"
+msgstr ""
+
+#: contents/ui/labelutils.js:52
+#, kde-format
+msgid "Every week"
+msgid_plural "Every %1 weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:55
+#, kde-format
+msgid "Every week on"
+msgid_plural "Every %1 weeks on"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:88 contents/ui/labelutils.js:127
+#, kde-format
+msgid "Every year on the %2 of %3"
+msgid_plural "Every %1 years on the %2 of %3"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:107
+#, kde-format
+msgid "Every minute"
+msgid_plural "Every %1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:110
+#, kde-format
+msgid "Every hour"
+msgid_plural "Every %1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:113
+#, kde-format
+msgid "Every day"
+msgid_plural "Every %1 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:119 contents/ui/labelutils.js:123
+#, kde-format
+msgid "Every month on the %2"
+msgid_plural "Every %1 months on the %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:131
+#, kde-format
+msgid "Every year on the %2 day of the year"
+msgid_plural "Every %1 years on the %2 day of the year"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/labelutils.js:137
+#, kde-format
+msgid "Complex recurrence rule"
+msgstr ""
+
+#: contents/ui/labelutils.js:140
+#, kde-format
+msgid "Unknown"
+msgstr ""
+
+#: contents/ui/labelutils.js:148
+#, kde-format
+msgid "Never ends"
+msgstr ""
+
+#: contents/ui/labelutils.js:150
+#, kde-format
+msgid "Ends on %1"
+msgstr ""
+
+#: contents/ui/labelutils.js:152
+#, kde-format
+msgid "Ends after %1 occurrences"
+msgstr ""
+
+#: contents/ui/main.qml:22 contents/ui/SettingsPage.qml:44
 #: contents/ui/SettingsPage.qml:218
 #, kde-format
 msgid "Calendar"
@@ -433,42 +564,103 @@ msgstr ""
 
 #: contents/ui/main.qml:30
 #, kde-format
+msgid "Add..."
+msgstr ""
+
+#: contents/ui/main.qml:42
+#, kde-format
 msgid "Undo: "
 msgstr ""
 
-#: contents/ui/main.qml:31
+#: contents/ui/main.qml:43
 #, kde-format
 msgid "Undo"
 msgstr ""
 
-#: contents/ui/main.qml:39
+#: contents/ui/main.qml:51
 #, kde-format
 msgid "Redo: "
 msgstr ""
 
-#: contents/ui/main.qml:40
+#: contents/ui/main.qml:52
 #, kde-format
 msgid "Redo"
 msgstr ""
 
-#: contents/ui/main.qml:47 contents/ui/SettingsPage.qml:11
+#: contents/ui/main.qml:59
+#, kde-format
+msgid "Month view"
+msgstr ""
+
+#: contents/ui/main.qml:64
+#, kde-format
+msgid "Schedule view"
+msgstr ""
+
+#: contents/ui/main.qml:69 contents/ui/SettingsPage.qml:11
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: contents/ui/main.qml:52
+#: contents/ui/main.qml:74
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: contents/ui/MonthView.qml:35
+#: contents/ui/MonthView.qml:58 contents/ui/ScheduleView.qml:57
 #, kde-format
-msgid "Previous"
+msgid "Previous month"
 msgstr ""
 
-#: contents/ui/MonthView.qml:55
+#: contents/ui/MonthView.qml:63 contents/ui/ScheduleView.qml:62
 #, kde-format
-msgid "Next"
+msgid "Next month"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:174
+#, kde-format
+msgid "Clear day."
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:213
+#, kde-format
+msgid "Tap"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:213
+#, kde-format
+msgid "Click"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:214
+#, kde-format
+msgid "Nothing on the books today. %1 to add something."
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:280
+#, kde-format
+msgid "%1 (Day %2 of %3)"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:326 contents/ui/ScheduleView.qml:337
+#, kde-format
+msgid "Runs all day"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:330
+#, kde-format
+msgctxt "Displays times between incidence start and end"
+msgid "%1 - %2"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:333
+#, kde-format
+msgid "Starts at %1"
+msgstr ""
+
+#: contents/ui/ScheduleView.qml:335
+#, kde-format
+msgid "Ends at %1"
 msgstr ""
 
 #: contents/ui/SettingsPage.qml:34 contents/ui/SettingsPage.qml:206
@@ -511,12 +703,12 @@ msgstr ""
 msgid "Add new Calendar"
 msgstr ""
 
-#: contents/ui/TimePicker.qml:65
+#: contents/ui/TimePicker.qml:70
 #, kde-format
 msgid "Min. interval:"
 msgstr ""
 
-#: contents/ui/TimePicker.qml:225
+#: contents/ui/TimePicker.qml:228
 #, kde-format
 msgid "Done"
 msgstr ""

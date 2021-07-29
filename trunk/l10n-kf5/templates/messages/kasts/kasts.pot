@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-15 00:19+0000\n"
+"POT-Creation-Date: 2021-07-28 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "Invalid Media"
 msgstr ""
 
-#: enclosure.cpp:94
+#: enclosure.cpp:95
 #, kde-format
 msgid "Podcast downloads not allowed due to user setting"
 msgstr ""
@@ -63,47 +63,57 @@ msgstr ""
 msgid "Invalid Media File"
 msgstr ""
 
+#: error.cpp:56
+#, kde-format
+msgid "Nothing Found"
+msgstr ""
+
+#: error.cpp:58
+#, kde-format
+msgid "Error moving storage path"
+msgstr ""
+
 #: fetcher.cpp:93
 #, kde-format
 msgid "Podcast updates not allowed due to user setting"
 msgstr ""
 
-#: main.cpp:91
+#: main.cpp:92
 #, kde-format
 msgid "Podcast Application"
 msgstr ""
 
-#: main.cpp:93
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new podcast to subscriptions."
 msgstr ""
 
-#: main.cpp:94
+#: main.cpp:95
 #, kde-format
 msgid "Podcast URL"
 msgstr ""
 
-#: main.cpp:99
+#: main.cpp:100
 #, kde-format
 msgid "Kasts"
 msgstr ""
 
-#: main.cpp:101
+#: main.cpp:102
 #, kde-format
 msgid "Podcast Player"
 msgstr ""
 
-#: main.cpp:103
+#: main.cpp:104
 #, kde-format
 msgid "© 2020-2021 KDE Community"
 msgstr ""
 
-#: main.cpp:104
+#: main.cpp:105
 #, kde-format
 msgid "Tobias Fella"
 msgstr ""
 
-#: main.cpp:105
+#: main.cpp:106
 #, kde-format
 msgid "Bart De Vries"
 msgstr ""
@@ -284,7 +294,7 @@ msgstr ""
 msgid "Add to Queue"
 msgstr ""
 
-#: qml/EntryPage.qml:151 qml/SettingsPage.qml:97
+#: qml/EntryPage.qml:151 qml/SettingsPage.qml:98
 #, kde-format
 msgid "Reset Play Position"
 msgstr ""
@@ -495,12 +505,28 @@ msgstr ""
 msgid "Episodes"
 msgstr ""
 
-#: qml/main.qml:149 qml/SettingsPage.qml:17
+#: qml/main.qml:149 qml/SettingsPage.qml:18
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: qml/main.qml:272
+#: qml/main.qml:244
+#, kde-format
+msgctxt "Number of Updated Podcasts"
+msgid "Updated %2 of %1 Podcast"
+msgid_plural "Updated %2 of %1 Podcasts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/main.qml:265
+#, kde-format
+msgctxt "Number of Moved Files"
+msgid "Moved %2 of %1 File"
+msgid_plural "Moved %2 of %1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/main.qml:306
 #, kde-format
 msgid "Podcast downloads are currently not allowed on metered connections"
 msgstr ""
@@ -530,125 +556,193 @@ msgstr ""
 msgid "Time Left"
 msgstr ""
 
-#: qml/SettingsPage.qml:23
+#: qml/SettingsPage.qml:24
 #, kde-format
 msgid "Appearance"
 msgstr ""
 
-#: qml/SettingsPage.qml:29
+#: qml/SettingsPage.qml:30
 #, kde-format
 msgid "Always show podcast titles in subscription view"
 msgstr ""
 
-#: qml/SettingsPage.qml:35
+#: qml/SettingsPage.qml:36
 #, kde-format
 msgid "Play Settings"
 msgstr ""
 
-#: qml/SettingsPage.qml:41
+#: qml/SettingsPage.qml:42
 #, kde-format
 msgid "Continue playing next episode after current one finishes"
 msgstr ""
 
-#: qml/SettingsPage.qml:47
+#: qml/SettingsPage.qml:48
 #, kde-format
 msgid "Queue Settings"
 msgstr ""
 
-#: qml/SettingsPage.qml:53
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Automatically fetch podcast updates on startup"
 msgstr ""
 
-#: qml/SettingsPage.qml:59
+#: qml/SettingsPage.qml:60
 #, kde-format
 msgid "New Episodes:"
 msgstr ""
 
-#: qml/SettingsPage.qml:61
+#: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Automatically Queue"
 msgstr ""
 
-#: qml/SettingsPage.qml:75
+#: qml/SettingsPage.qml:76
 #, kde-format
 msgid "Automatically Download"
 msgstr ""
 
-#: qml/SettingsPage.qml:82
+#: qml/SettingsPage.qml:83
 #, kde-format
 msgid "Played Episodes:"
 msgstr ""
 
-#: qml/SettingsPage.qml:86
+#: qml/SettingsPage.qml:87
 #, kde-format
 msgid "Do Not Delete"
 msgstr ""
 
-#: qml/SettingsPage.qml:87
+#: qml/SettingsPage.qml:88
 #, kde-format
 msgid "Delete Immediately"
 msgstr ""
 
-#: qml/SettingsPage.qml:88
+#: qml/SettingsPage.qml:89
 #, kde-format
 msgid "Delete at Next Startup"
 msgstr ""
 
-#: qml/SettingsPage.qml:103
+#: qml/SettingsPage.qml:104
 #, kde-format
 msgid "Network"
 msgstr ""
 
-#: qml/SettingsPage.qml:109
+#: qml/SettingsPage.qml:110
 #, kde-format
 msgid "On metered connections:"
 msgstr ""
 
-#: qml/SettingsPage.qml:110
+#: qml/SettingsPage.qml:111
 #, kde-format
 msgid "Allow podcast updates"
 msgstr ""
 
-#: qml/SettingsPage.qml:118
+#: qml/SettingsPage.qml:119
 #, kde-format
 msgid "Allow episode downloads"
 msgstr ""
 
-#: qml/SettingsPage.qml:126
+#: qml/SettingsPage.qml:127
 #, kde-format
 msgid "Allow image downloads"
 msgstr ""
 
-#: qml/SettingsPage.qml:133
+#: qml/SettingsPage.qml:134
 #, kde-format
 msgid "Article"
 msgstr ""
 
-#: qml/SettingsPage.qml:141
+#: qml/SettingsPage.qml:142
 #, kde-format
 msgid "Font size:"
 msgstr ""
 
-#: qml/SettingsPage.qml:151
+#: qml/SettingsPage.qml:152
 #, kde-format
 msgid "Use system default"
 msgstr ""
 
-#: qml/SettingsPage.qml:158
+#: qml/SettingsPage.qml:159
+#, kde-format
+msgid "Storage"
+msgstr ""
+
+#: qml/SettingsPage.qml:164
+#, kde-format
+msgid "Storage path:"
+msgstr ""
+
+#: qml/SettingsPage.qml:175
+#, kde-format
+msgid "Select folder..."
+msgstr ""
+
+#: qml/SettingsPage.qml:181
+#, kde-format
+msgid "Select Storage Path"
+msgstr ""
+
+#: qml/SettingsPage.qml:194
+#, kde-format
+msgid "Use default path"
+msgstr ""
+
+#: qml/SettingsPage.qml:203
+#, kde-format
+msgid "Podcast Downloads:"
+msgstr ""
+
+#: qml/SettingsPage.qml:204 qml/SettingsPage.qml:210
+#, kde-format
+msgctxt "Using <amount of bytes> of disk space"
+msgid "Using %1 of disk space"
+msgstr ""
+
+#: qml/SettingsPage.qml:208
+#, kde-format
+msgid "Image Cache:"
+msgstr ""
+
+#: qml/SettingsPage.qml:214
+#, kde-format
+msgid "Clear Cache"
+msgstr ""
+
+#: qml/SettingsPage.qml:221
 #, kde-format
 msgid "Errors"
 msgstr ""
 
-#: qml/SettingsPage.qml:163
+#: qml/SettingsPage.qml:226
 #, kde-format
 msgid "Show Error Log"
 msgstr ""
 
-#: qml/UpdateNotification.qml:64 qml/UpdateNotification.qml:80
+#: qml/UpdateNotification.qml:88 qml/UpdateNotification.qml:89
 #, kde-format
-msgctxt "Number of Updated Podcasts"
-msgid "Updated %2 of %1 Podcast"
-msgid_plural "Updated %2 of %1 Podcasts"
-msgstr[0] ""
-msgstr[1] ""
+msgid "Abort"
+msgstr ""
+
+#: storagemanager.cpp:81
+#, kde-format
+msgid "Old location:"
+msgstr ""
+
+#: storagemanager.cpp:81
+#, kde-format
+msgid "New location:"
+msgstr ""
+
+#: storagemovejob.cpp:58
+#, kde-format
+msgid "Destination path not writable"
+msgstr ""
+
+#: storagemovejob.cpp:75 storagemovejob.cpp:96
+#, kde-format
+msgid "Operation aborted by user"
+msgstr ""
+
+#: storagemovejob.cpp:105
+#, kde-format
+msgid "An error occurred while copying data"
+msgstr ""

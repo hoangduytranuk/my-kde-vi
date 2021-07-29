@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-18 00:18+0000\n"
+"POT-Creation-Date: 2021-07-27 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -5512,9 +5512,11 @@ msgstr ""
 msgid "KMyMoney"
 msgstr ""
 
-#. i18n("language to be used"));
-#. parser.addOption(langOption);
-#. no file
+#: kmymoney/main.cpp:102
+#, kde-format
+msgid "language to be used"
+msgstr ""
+
 #: kmymoney/main.cpp:106
 #, kde-format
 msgid "do not open last used file"
@@ -5545,7 +5547,7 @@ msgstr ""
 msgid "file to open"
 msgstr ""
 
-#: kmymoney/main.cpp:271
+#: kmymoney/main.cpp:265
 #, kde-format
 msgid "Uncaught error. Please report the details to the developers"
 msgstr ""
@@ -16224,42 +16226,42 @@ msgstr ""
 msgid "History"
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:128
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:127
 #, kde-format
 msgid "Loading Woob backend..."
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:129
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:128
 #, kde-format
 msgid "Getting list of backends."
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:138
-#: kmymoney/plugins/woob/woob.cpp:148
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:137
+#: kmymoney/plugins/woob/woob.cpp:173
 #, kde-format
 msgid "Connecting to bank..."
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:139
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:138
 #, kde-format
 msgid "Getting list of accounts from your bank."
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:165
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:164
 #, kde-format
 msgid ""
 "No backends available.\n"
 "Add one using woob config-qt."
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:178
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:177
 #, kde-format
 msgid ""
 "No accounts available.\n"
 "Check your backend configuration in woob config-qt."
 msgstr ""
 
-#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:187
+#: kmymoney/plugins/woob/dialogs/mapaccountwizard.cpp:186
 #, kde-format
 msgid "Incorrect password."
 msgstr ""
@@ -16296,12 +16298,28 @@ msgid ""
 "account..."
 msgstr ""
 
-#: kmymoney/plugins/woob/woob.cpp:102
+#: kmymoney/plugins/woob/woob.cpp:58
+#, kde-format
+msgid ""
+"Woob plugin failed to fully initialize, most likely due to a missing or a "
+"misconfigured Python environment. Please refer to the manual on how to fix "
+"it."
+msgstr ""
+
+#: kmymoney/plugins/woob/woob.cpp:64
+#, kde-format
+msgid ""
+"Woob plugin failed to fully initialize, most likely due to a missing or a "
+"misconfigured Woob Python module. Please refer to the manual on how to fix "
+"it."
+msgstr ""
+
+#: kmymoney/plugins/woob/woob.cpp:122
 #, kde-format
 msgid "Woob configuration"
 msgstr ""
 
-#: kmymoney/plugins/woob/woob.cpp:149
+#: kmymoney/plugins/woob/woob.cpp:174
 #, kde-format
 msgid "Retrieving transactions..."
 msgstr ""

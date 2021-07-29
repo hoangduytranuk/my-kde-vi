@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-15 00:17+0000\n"
+"POT-Creation-Date: 2021-07-28 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1137,7 +1137,17 @@ msgstr ""
 msgid "Use transparent chat page"
 msgstr ""
 
-#: imports/NeoChat/Settings/AppearanceSettingsPage.qml:208
+#: imports/NeoChat/Settings/AppearanceSettingsPage.qml:209
+#, kde-format
+msgid "Transparency:"
+msgstr ""
+
+#: imports/NeoChat/Settings/AppearanceSettingsPage.qml:223
+#, kde-format
+msgid "Only enabled if the transparent chat page is enabled."
+msgstr ""
+
+#: imports/NeoChat/Settings/AppearanceSettingsPage.qml:230
 #, kde-format
 msgid "Show your messages on the right"
 msgstr ""
@@ -1212,29 +1222,29 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
-#: qml/main.qml:378
+#: qml/main.qml:385
 #, kde-format
 msgid "User consent"
 msgstr ""
 
-#: qml/main.qml:384
+#: qml/main.qml:391
 #, kde-format
 msgid ""
 "Your homeserver requires you to agree to its terms and conditions before "
 "being able to use it. Please click the button below to read them."
 msgstr ""
 
-#: qml/main.qml:389
+#: qml/main.qml:396
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: qml/main.qml:419
+#: qml/main.qml:426
 #, kde-format
 msgid "Start a chat"
 msgstr ""
 
-#: qml/main.qml:422
+#: qml/main.qml:429
 #, kde-format
 msgid "Do you want to start a chat with %1?"
 msgstr ""
@@ -1391,12 +1401,17 @@ msgstr ""
 msgid "Tobias Fella"
 msgstr ""
 
-#: src/main.cpp:199
+#: src/main.cpp:114
+#, kde-format
+msgid "A Qt5 library to write cross-platform clients for Matrix"
+msgstr ""
+
+#: src/main.cpp:201
 #, kde-format
 msgid "Client for the matrix communication protocol"
 msgstr ""
 
-#: src/main.cpp:200
+#: src/main.cpp:202
 #, kde-format
 msgid "Supports appstream: url scheme"
 msgstr ""

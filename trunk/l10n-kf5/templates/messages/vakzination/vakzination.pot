@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vakzination\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-16 00:20+0000\n"
+"POT-Creation-Date: 2021-07-21 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,52 +17,198 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.cpp:38
+#: certificatesmodel.cpp:142
+#, kde-format
+msgid "Empty file url"
+msgstr ""
+
+#: certificatesmodel.cpp:146
+#, kde-format
+msgid "File URL not valid: %1"
+msgstr ""
+
+#: certificatesmodel.cpp:154
+#, kde-format
+msgid "Could not open file: %1"
+msgstr ""
+
+#: certificatesmodel.cpp:170
+#, kde-format
+msgid "No certificate found in %1"
+msgstr ""
+
+#: certificatesmodel.cpp:174
+#, kde-format
+msgid "Importing certificates from PDF is not supported in this build"
+msgstr ""
+
+#: certificatesmodel.cpp:239
+#, kde-format
+msgid "No certificate in clipboard"
+msgstr ""
+
+#: main.cpp:44
 #, kde-format
 msgid "Show with test data"
 msgstr ""
 
-#: main.cpp:41
+#: main.cpp:47
 #, kde-format
 msgid "File to import."
 msgstr ""
 
-#: qml/CertificateDelegate.qml:23
+#: qml/CertificateDelegate.qml:27
 #, kde-format
-msgid "%1 (%2/%3)"
+msgid "Vaccination %1 (%2/%3)"
 msgstr ""
 
-#: qml/CertificateDelegate.qml:43 qml/CertificateDetailsPage.qml:16
+#: qml/CertificateDelegate.qml:31
+#, kde-format
+msgid "Test %1"
+msgstr ""
+
+#: qml/CertificateDelegate.qml:35
+#, kde-format
+msgid "Recovery %1"
+msgstr ""
+
+#: qml/CertificateDelegate.qml:59 qml/RecoveryDetailsSheet.qml:17
+#: qml/TestDetailsSheet.qml:17 qml/VaccinationDetailsSheet.qml:17
 #, kde-format
 msgid "Details"
 msgstr ""
 
-#: qml/CertificatesPage.qml:15
+#: qml/CertificatesPage.qml:16
 #, kde-format
-msgid "Your vaccinations"
+msgid "Your certificates"
 msgstr ""
 
-#: qml/CertificatesPage.qml:20
+#: qml/CertificatesPage.qml:19
 #, kde-format
-msgid "Certificate could not be imported"
+msgid "Import from file"
 msgstr ""
 
-#: qml/CertificatesPage.qml:42
+#: qml/CertificatesPage.qml:27
+#, kde-format
+msgid "Import from clipboard"
+msgstr ""
+
+#: qml/CertificatesPage.qml:49
+#, kde-format
+msgid "Certificate could not be imported: %1"
+msgstr ""
+
+#: qml/CertificatesPage.qml:87
 #, kde-format
 msgid "No certificates saved"
 msgstr ""
 
-#: qml/main.qml:17
+#: qml/main.qml:16
 #, kde-format
-msgid "Vakzination"
+msgid "Your Certificates"
 msgstr ""
 
-#: qml/main.qml:34
+#: qml/RecoveryDetailsSheet.qml:28 qml/TestDetailsSheet.qml:28
 #, kde-format
-msgid "vakzination"
+msgid "Person"
 msgstr ""
 
-#: qml/main.qml:39
+#: qml/RecoveryDetailsSheet.qml:33 qml/TestDetailsSheet.qml:33
 #, kde-format
-msgid "Add certificate"
+msgid "Name:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:38 qml/TestDetailsSheet.qml:38
+#, kde-format
+msgid "Date of birth:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:43
+#, kde-format
+msgid "Recovery"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:48
+#, kde-format
+msgid "Positive test:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:52 qml/TestDetailsSheet.qml:53
+#, kde-format
+msgid "Disease:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:56
+#, kde-format
+msgid "Valid from:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:60
+#, kde-format
+msgid "Valid until:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:65 qml/TestDetailsSheet.qml:83
+#, kde-format
+msgid "Certificate"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:70 qml/TestDetailsSheet.qml:88
+#, kde-format
+msgid "Issuer:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:74 qml/TestDetailsSheet.qml:92
+#, kde-format
+msgid "Identifier:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:79 qml/TestDetailsSheet.qml:97
+#, kde-format
+msgid "Issued:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:83 qml/TestDetailsSheet.qml:101
+#, kde-format
+msgid "Expires:"
+msgstr ""
+
+#: qml/RecoveryDetailsSheet.qml:97 qml/TestDetailsSheet.qml:115
+#, kde-format
+msgid "Signature:"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:43
+#, kde-format
+msgid "Test"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:48
+#, kde-format
+msgid "Date:"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:58
+#, kde-format
+msgid "Type:"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:64
+#, kde-format
+msgid "Test:"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:69
+#, kde-format
+msgid "Result:"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:74
+#, kde-format
+msgid "Test Center:"
+msgstr ""
+
+#: qml/TestDetailsSheet.qml:78
+#, kde-format
+msgid "Country:"
 msgstr ""
