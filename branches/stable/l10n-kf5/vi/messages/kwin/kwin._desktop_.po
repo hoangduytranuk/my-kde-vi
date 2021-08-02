@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-28 01:50+0000\n"
-"PO-Revision-Date: 2021-07-26 21:35+0200\n"
+"POT-Creation-Date: 2021-08-02 01:42+0000\n"
+"PO-Revision-Date: 2021-08-02 15:11+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -29,7 +29,7 @@ msgstr "Mờ"
 #: src/effects/coverswitch/coverswitch_config.desktop:8
 msgctxt "Name"
 msgid "Cover Switch"
-msgstr ""
+msgstr "Chuyển kiểu trang bìa"
 
 #: src/effects/cube/cube_config.desktop:8
 msgctxt "Name"
@@ -117,7 +117,7 @@ msgstr ""
 #: src/effects/flipswitch/flipswitch_config.desktop:8
 msgctxt "Name"
 msgid "Flip Switch"
-msgstr "Chuyển đổi lật"
+msgstr "Chuyển kiểu lật"
 
 #: src/effects/frozenapp/package/metadata.desktop:2
 msgctxt "Name"
@@ -377,7 +377,7 @@ msgstr "Bàn làm việc ảo"
 #: src/kcmkwin/kwindesktop/package/metadata.desktop:67
 msgctxt "Comment"
 msgid "Configure navigation, number and layout of virtual desktops"
-msgstr "Cáu hình điều hướng, số lượng và bố cục của các màn hình ảo"
+msgstr "Cáu hình điều hướng, số lượng và bố cục của các bàn làm việc ảo"
 
 #: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:111
 msgctxt "X-KDE-Keywords"
@@ -464,58 +464,46 @@ msgid "Desktop Effects"
 msgstr "Hiệu ứng bàn làm việc"
 
 #: src/kcmkwin/kwinoptions/kwinactions.desktop:11
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Decorations"
 msgctxt "Name"
 msgid "Window Actions"
-msgstr "Trang trí Cửa sổ"
+msgstr "Hành động cửa sổ"
 
-#: src/kcmkwin/kwinoptions/kwinactions.desktop:44
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure active screen edges"
+#: src/kcmkwin/kwinoptions/kwinactions.desktop:45
 msgctxt "Comment"
 msgid "Configure mouse actions for windows and titlebars"
-msgstr "Cấu hình cho các cạnh màn hình"
+msgstr "Cấu hình hành động của chuột cho các cửa sổ và thanh tiêu đề"
 
-#: src/kcmkwin/kwinoptions/kwinactions.desktop:77
-#, fuzzy
-#| msgctxt "Keywords"
-#| msgid ""
-#| "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
-#| "resize"
+#: src/kcmkwin/kwinoptions/kwinactions.desktop:79
 msgctxt "X-KDE-Keywords"
 msgid ""
 "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
 "resize"
 msgstr ""
-"bóng,phóng to,phóng to,thu nhỏ,thu nhỏ,hạ thấp,các thao tác trên trình đơn,"
-"tên thanh,thay đổi cỡ"
+"shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
+"resize,che,phóng to,thu nhỏ,hạ xuống,trình đơn thao tác,thanh tiêu đề,đổi cỡ"
 
 #: src/kcmkwin/kwinoptions/kwinadvanced.desktop:10
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Window Behavior"
 msgctxt "Name"
 msgid "Advanced Window Behavior"
-msgstr "Ứng xử của Cửa sổ"
+msgstr "Ứng xử nâng cao của cửa sổ"
 
-#: src/kcmkwin/kwinoptions/kwinadvanced.desktop:43
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure advanced window management features"
+#: src/kcmkwin/kwinoptions/kwinadvanced.desktop:44
 msgctxt "Comment"
 msgid "Configure advanced window management options"
-msgstr "Cấu hình các tính năng quản lí cửa sổ nâng cao"
+msgstr "Cấu hình các lựa chọn quản lí cửa sổ nâng cao"
 
-#: src/kcmkwin/kwinoptions/kwinadvanced.desktop:76
+#: src/kcmkwin/kwinoptions/kwinadvanced.desktop:78
 msgctxt "X-KDE-Keywords"
 msgid ""
 "unshade,unshading,shade,shading,border,hover,active borders,tiling,tabs,"
 "tabbing,window,window tabbing,window grouping,window tiling,placement,window "
 "placement,placement of windows,window advanced behavior"
 msgstr ""
+"unshade,unshading,shade,shading,border,hover,active borders,tiling,tabs,"
+"tabbing,window,window tabbing,window grouping,window tiling,placement,window "
+"placement,placement of windows,window advanced behavior,bỏ che,che,viền,đảo "
+"chuột,viền hoạt động,lát,thẻ,chia thẻ,cửa sổ,chia thẻ cửa sổ,nhóm cửa sổ,lát "
+"cửa sổ,xếp chỗ,xếp chỗ cửa sổ,ứng xử nâng cao của cửa sổ"
 
 #: src/kcmkwin/kwinoptions/kwinfocus.desktop:10
 msgctxt "Name"
@@ -541,28 +529,21 @@ msgstr ""
 "ứng xử nhắm của cửa sổ,ứng xử màn hình cửa sổ"
 
 #: src/kcmkwin/kwinoptions/kwinmoving.desktop:11
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Window Moving"
 msgctxt "Name"
 msgid "Window Movement"
 msgstr "Di chuyển cửa sổ"
 
-#: src/kcmkwin/kwinoptions/kwinmoving.desktop:44
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the window focus policy"
+#: src/kcmkwin/kwinoptions/kwinmoving.desktop:45
 msgctxt "Comment"
 msgid "Configure window movement options"
-msgstr "Cấu hình chính sách chọn cửa sổ"
+msgstr "Cấu hình các lựa chọn di chuyển cửa sổ"
 
-#: src/kcmkwin/kwinoptions/kwinmoving.desktop:77
-#, fuzzy
-#| msgctxt "Keywords"
-#| msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
+#: src/kcmkwin/kwinoptions/kwinmoving.desktop:79
 msgctxt "X-KDE-Keywords"
 msgid "moving,smart,cascade,maximize,maximise,snap zone,snap,border"
-msgstr "di chuyển,thông minh,tầng,phóng to,phóng to,vùng thả,thả,bờ"
+msgstr ""
+"moving,smart,cascade,maximize,maximise,snap zone,snap,border,di chuyển,thông "
+"minh,xếp tầng,tối đa hoá,khu vực đính,đính,viền"
 
 #: src/kcmkwin/kwinoptions/kwinoptions.desktop:14
 msgctxt "Name"
@@ -603,7 +584,7 @@ msgid ""
 "rules"
 msgstr ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
-"rules,kích thước,vị trí,trạng thái,ứng xử của cửa sổ,cửa sổ,cụ thể,cách khắc "
+"rules,kích thước,vị trí,trạng thái,ứng xử của cửa sổ,theo cửa sổ,cách khắc "
 "phục,nhớ,luật"
 
 #: src/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:13
@@ -726,12 +707,12 @@ msgstr "Một ứng dụng khác đã yêu cầu ngưng việc kết hợp."
 #: src/kwin.notifyrc:200
 msgctxt "Name"
 msgid "Graphics Reset"
-msgstr "Khởi động lại đồ hoạ"
+msgstr "Đặt lại đồ hoạ"
 
 #: src/kwin.notifyrc:247
 msgctxt "Comment"
 msgid "A graphics reset event occurred"
-msgstr "Một sự kiện khởi động lại đồ hoạ đã xảy ra"
+msgstr "Một sự kiện đặt lại đồ hoạ đã xảy ra"
 
 #: src/kwin.notifyrc:296
 msgctxt "Name"

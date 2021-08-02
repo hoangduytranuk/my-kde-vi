@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-04-27 00:19+0000\n"
-"PO-Revision-Date: 2021-07-29 21:39+0200\n"
+"PO-Revision-Date: 2021-08-02 11:39+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -526,21 +526,21 @@ msgstr ""
 "indent:0px;\"><span style=\"font-style:italic;\">Tối đa hoá</span> sẽ cố "
 "gắng mở rộng mọi cửa sổ để chiếm hết toàn bộ màn hình. Có thể có ích khi "
 "muốn tác động một cách chọn lọc lên sự xếp chỗ của một số cửa sổ bằng các "
-"thiết lập cửa sổ cụ thể.</li><li style=\"margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">"
-"<span style=\"font-style:italic;\">Xếp tầng</span> sẽ xếp tầng các cửa sổ</li>"
-"<li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"thiết lập theo cửa sổ.</li><li style=\"margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><span style=\"font-style:italic;\">Xếp tầng</span> sẽ xếp tầng các cửa "
+"sổ</li><li style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-"
+"style:italic;\">Ngẫu nhiên</span> sẽ dùng một vị trí ngẫu nhiên</li><li "
+"style=\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\"font-style:"
-"italic;\">Ngẫu nhiên</span> sẽ dùng một vị trí ngẫu nhiên</li><li style="
-"\"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
-"block-indent:0; text-indent:0px;\"><span style=\"font-style:italic;\">Ở "
-"giữa</span> sẽ đặt cửa sổ vào giữa</li><li style=\"margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"><span style=\"font-style:italic;\">Ở góc trái trên</span> sẽ "
-"đặt cửa sổ vào góc trái trên</li><li style=\"margin-top:0px; margin-"
-"bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"><span style=\"font-style:italic;\">Dưới chuột</span> sẽ đặt "
-"cửa sổ vào dưới con trỏ</li></ul></body></html>"
+"italic;\">Ở giữa</span> sẽ đặt cửa sổ vào giữa</li><li style=\"margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\"font-style:italic;\">Ở góc trái "
+"trên</span> sẽ đặt cửa sổ vào góc trái trên</li><li style=\"margin-top:0px; "
+"margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"><span style=\"font-style:italic;\">Dưới chuột</span> sẽ "
+"đặt cửa sổ vào dưới con trỏ</li></ul></body></html>"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:80
@@ -867,12 +867,6 @@ msgstr "Ứng xử đa màn hình"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ActiveMouseScreen)
 #: focus.ui:203
 #, kde-format
-#| msgid ""
-#| "When this option is enabled, active Xinerama screen (where for example "
-#| "new windows appear) is the screen with the mouse pointer. When disabled, "
-#| "the active Xinerama screen is the screen with the focused window. This "
-#| "option is by default disabled for Click to focus and enabled for other "
-#| "focus policies."
 msgid ""
 "When this option is enabled, the active screen (where new windows appear, "
 "for example) is the screen containing the mouse pointer. When disabled, the "
@@ -901,7 +895,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SeparateScreenFocus)
 #: focus.ui:216
 #, kde-format
-#| msgid "S&eparate screen focus"
 msgid "&Separate screen focus"
 msgstr "&Giới hạn nhắm trong màn hình"
 
@@ -918,25 +911,21 @@ msgstr "&Nhắm"
 
 #: main.cpp:80
 #, kde-format
-#| msgid "&Titlebar Actions"
 msgid "Titlebar A&ctions"
 msgstr "Hành động ở &thanh tiêu đề"
 
 #: main.cpp:86
 #, kde-format
-#| msgid "Window Actio&ns"
 msgid "W&indow Actions"
 msgstr "Hành động ở cửa &sổ"
 
 #: main.cpp:92
 #, kde-format
-#| msgid "&Placement:"
 msgid "Mo&vement"
 msgstr "Di chu&yển"
 
 #: main.cpp:98
 #, kde-format
-#| msgid "Ad&vanced"
 msgid "Adva&nced"
 msgstr "Nâng &cao"
 
@@ -1026,14 +1015,12 @@ msgstr "Hành động ở cửa &sổ"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: mouse.ui:17
 #, kde-format
-#| msgid "&Titlebar Actions"
 msgid "Titlebar Actions"
 msgstr "Hành động ở thanh tiêu đề"
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: mouse.ui:26
 #, kde-format
-#| msgid "&Titlebar double-click:"
 msgid "&Double-click:"
 msgstr "Bấm đú&p:"
 
@@ -1050,7 +1037,6 @@ msgstr "Ứng xử khi bấm <em>đúp</em> vào thanh tiêu đề."
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MaximizeButtonRightClickCommand)
 #: mouse.ui:40 mouse.ui:615 mouse.ui:650 mouse.ui:685
 #, kde-format
-#| msgid "Maximize"
 msgid "Maximize"
 msgstr "Phóng to"
 
@@ -1071,7 +1057,6 @@ msgstr "Phóng to theo chiều dọc"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MaximizeButtonRightClickCommand)
 #: mouse.ui:50 mouse.ui:625 mouse.ui:660 mouse.ui:695
 #, kde-format
-#| msgid "Horizontal offset:"
 msgid "Horizontally maximize"
 msgstr "Phóng to theo chiều ngang"
 
@@ -1107,21 +1092,18 @@ msgstr "Đóng"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
 #: mouse.ui:75
 #, kde-format
-#| msgid "On All Desktops"
 msgid "Show on all desktops"
 msgstr "Hiện ở tất cả các bàn làm việc"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_CommandTitlebarWheel)
 #: mouse.ui:98
 #, kde-format
-#| msgid "Behavior on <em>double</em> click into the titlebar."
 msgid "Behavior on <em>mouse wheel</em> scroll over the titlebar."
 msgstr "Ứng xử khi cuộn <em>nút cuộn chuột</em> trên thanh tiêu đề."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: mouse.ui:143
 #, kde-format
-#| msgid "&Titlebar Actions"
 msgid "Titlebar and Frame Actions"
 msgstr "Hành động ở thanh tiêu đề và khung"
 
@@ -1158,7 +1140,6 @@ msgstr ""
 #: mouse.ui:266 mouse.ui:328 mouse.ui:381 mouse.ui:443 mouse.ui:496
 #: mouse.ui:558
 #, kde-format
-#| msgid "Operations Menu"
 msgid "Show actions menu"
 msgstr "Hiện trình đơn các hành động"
 
@@ -1179,14 +1160,12 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CommandInactiveTitlebar3)
 #: mouse.ui:288 mouse.ui:403 mouse.ui:518
 #, kde-format
-#| msgid "Activate & Lower"
 msgid "Activate and lower"
 msgstr "Kích hoạt và hạ xuống"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: mouse.ui:589
 #, kde-format
-#| msgid "Maximize Button"
 msgid "Maximize Button Actions"
 msgstr "Hành động của nút phóng to"
 
@@ -1207,7 +1186,6 @@ msgstr "Ứng xử khi bấm <em>giữa</em> vào nút phóng to."
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: mouse.ui:636
 #, kde-format
-#| msgid "Middle button:"
 msgid "Middle c&lick:"
 msgstr "Bấm giữ&a:"
 
@@ -1239,24 +1217,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GeometryTip)
 #: moving.ui:33
 #, kde-format
-#| msgid "Display window &geometry when moving or resizing"
 msgid "Display when moving or resizing"
 msgstr "Hiển thị khi di chuyển hoặc đổi cỡ"
 
 #. i18n: ectx: property (text), widget (QLabel, borderSnapLabel)
 #: moving.ui:40
 #, kde-format
-#| msgid "&Border snap zone:"
 msgid "Screen &edge snap zone:"
 msgstr "Khu &vực đính ở cạnh màn hình:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_BorderSnapZone)
 #: moving.ui:50
 #, kde-format
-#| msgid ""
-#| "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
-#| "the magnetic field which will make windows snap to the border when moved "
-#| "near it."
 msgid ""
 "Here you can set the snap zone for screen edges, i.e. the 'strength' of the "
 "magnetic field which will make windows snap to the border when moved near it."
@@ -1269,18 +1241,12 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_CenterSnapZone)
 #: moving.ui:56 moving.ui:78 moving.ui:100
 #, kde-format
-#| msgid " pixel"
-#| msgid_plural " pixels"
 msgid " px"
 msgstr " px"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_WindowSnapZone)
 #: moving.ui:72
 #, kde-format
-#| msgid ""
-#| "Here you can set the snap zone for windows, i.e. the 'strength' of the "
-#| "magnetic field which will make windows snap to each other when they're "
-#| "moved near another window."
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
 "magnetic field which will make windows snap to each other when they are "
@@ -1292,17 +1258,14 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_CenterSnapZone)
 #: moving.ui:94
 #, kde-format
-#| msgid ""
-#| "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
-#| "the magnetic field which will make windows snap to the border when moved "
-#| "near it."
 msgid ""
 "Here you can set the snap zone for the screen center, i.e. the 'strength' of "
 "the magnetic field which will make windows snap to the center of the screen "
 "when moved near it."
 msgstr ""
 "Tại đây bạn có thể đặt khu vực đính cho vùng tâm màn hình, tức là 'độ mạnh' "
-"của từ trường làm cho các cửa sổ đính vào tâm màn hình khi di chuyển ở gần nó."
+"của từ trường làm cho các cửa sổ đính vào tâm màn hình khi di chuyển ở gần "
+"nó."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_SnapOnlyWhenOverlapping)
 #: moving.ui:113
@@ -1313,13 +1276,12 @@ msgid ""
 "window or border."
 msgstr ""
 "Tại đây bạn có thể chỉ định rằng các cửa sổ sẽ chỉ đính nếu bạn chồng chúng "
-"lên nhau, tức là chúng sẽ không đính nếu chỉ đến gần một cửa sổ khác hoặc"
-" cạnh."
+"lên nhau, tức là chúng sẽ không đính nếu chỉ đến gần một cửa sổ khác hoặc "
+"cạnh."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SnapOnlyWhenOverlapping)
 #: moving.ui:116
 #, kde-format
-#| msgid "Snap windows onl&y when overlapping"
 msgid "Only when overlapping"
 msgstr "Chỉ khi chồng nhau"
 
@@ -1332,14 +1294,12 @@ msgstr "Khu vực đính ở cửa &sổ:"
 #. i18n: ectx: property (text), widget (QLabel, centerSnaplabel)
 #: moving.ui:133
 #, kde-format
-#| msgid "&Border snap zone:"
 msgid "&Center snap zone:"
 msgstr "Khu vực đính ở tâ&m:"
 
 #. i18n: ectx: property (text), widget (QLabel, OverlapSnapLabel)
 #: moving.ui:143
 #, kde-format
-#| msgid "Inactive windows:"
 msgid "&Snap windows:"
 msgstr "Đín&h cửa sổ:"
 

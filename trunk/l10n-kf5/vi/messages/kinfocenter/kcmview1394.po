@@ -1,24 +1,25 @@
 # Vietnamese translation for kcmview1394.
 # Copyright © 2006 Free Software Foundation, Inc.
-# Phan Vĩnh Thịnh <teppi82@gmail.com>, 2006.
 #
+# Phan Vĩnh Thịnh <teppi82@gmail.com>, 2006.
+# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmview1394\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-04-25 00:20+0000\n"
-"PO-Revision-Date: 2006-04-14 22:25+0930\n"
-"Last-Translator: Phan Vĩnh Thịnh <teppi82@gmail.com>\n"
+"PO-Revision-Date: 2021-08-02 15:26+0200\n"
+"Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: KBabel 1.10\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #: view1394.cpp:61
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "On the right hand side you can see some information about your IEEE 1394 "
 #| "configuration.<br>The meaning of the columns:<br><b>Name</b>: port or "
@@ -45,17 +46,17 @@ msgid ""
 "100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: the "
 "vendor of the device</li></ul></qt>"
 msgstr ""
-"Ở bên phải bạn có thể thấy một vài thông tin về cấu hình IEEE 1394.<br>Ý "
-"nghĩa của các cột:<br><b>Tên</p> tên cổng hoặc tên nút, số có thể thay đổi "
-"với mỗi lần đặt lại khe<br><b>GUID</b>: GUID 64 bit của nút<br><b>Trên máy</"
-"b>: được chọn nếu nút là một cổng IEEE 1394 của máy bạn<br><b>IRM</b>: được "
-"chọn nếu nút có khả năng quản lí tài nguyên truyền tải "
-"isochronous<br><b>CRM</b>: được chọn nếu nút có khả năng điều khiển "
-"vòng<br><b>ISO</b>: được chọn nếu nút hỗ trợ truyền tải "
-"isochronous<br><b>BM</b>: được chọn nếu nút có khả năng quản lí "
-"khe<br><b>PM</b>: được chọn nếu nút có khả năng quản lí nguồn "
-"điện<br><b>Acc</b>: sự chính xác của đồng hồ vòng lặp của nút, từ 0 đến "
-"100<br><b>Tốc độ</b>: tốc độ của nút<br>"
+"<qt>Tại đây bạn có thể thấy một số thông tin về cấu hình IEEE 1394. Ý nghĩa "
+"của các cột:<ul><li><b>Tên</b>: tên cổng hoặc nút, con số có thể thay đổi "
+"với mỗi lần đặt lại buýt</li><li><b>GUID</b>: GUID 64 bit của nút</li><li>"
+"<b>Cục bộ</b>: được chọn nếu nút là một cổng IEEE 1394 của máy bạn</li><li>"
+"<b>IRM</b>: được chọn nếu nút có khả năng quản lí tài nguyên đẳng thời</li>"
+"<li><b>CRM</b>: được chọn nếu nút có khả năng điều khiển vòng</li><li><b>ISO"
+"</b>: được chọn nếu nút hỗ trợ truyền tải đẳng thời</li><li><b>BM</b>: được "
+"chọn nếu nút có khả năng quản lí buýt</li><li><b>PM</b>: được chọn nếu nút "
+"có khả năng quản lí nguồn điện</li><li><b>Acc</b>: độ chính xác đồng hồ vòng "
+"của nút, giá trị từ 0 đến 100</li><li><b>Tốc độ</b>: tốc độ của nút</li><li>"
+"<b>Nhà cung cấp</b>: nhà cung cấp thiết bị</li></ul></qt>"
 
 #: view1394.cpp:193
 #, kde-format
@@ -141,10 +142,10 @@ msgstr "Tốc độ"
 #: view1394widget.ui:130
 #, kde-format
 msgid "Vendor"
-msgstr "Nhà sản xuất"
+msgstr "Nhà cung cấp"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
 #: view1394widget.ui:165
 #, kde-format
 msgid "Generate 1394 Bus Reset"
-msgstr "Tạo ra đặt lại khe 1394"
+msgstr "Tạo ra một sự đặt lại buýt 1394"
