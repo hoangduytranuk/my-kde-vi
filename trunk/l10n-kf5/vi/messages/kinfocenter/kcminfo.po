@@ -2,13 +2,13 @@
 # Copyright © 2007 KDE i18n Project for Vietnamese.
 #
 # Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
-# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2020.
+# Phu Hung Nguyen <phuhnguyen@disroot.org>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-10 03:24+0100\n"
-"PO-Revision-Date: 2020-12-16 21:39+0100\n"
+"PO-Revision-Date: 2021-08-03 09:44+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -16,20 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Nhóm Việt hoá KDE"
+msgstr "Nguyễn Hùng Phú,Clytie Siddall"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-l10n-vi@kde.org"
+msgstr "phuhnguyen@disroot.org,clytie@riverland.net.au"
 
 #: ../base/info_fbsd.cpp:89
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Information"
 msgctxt "@title:column Column name for PCI information"
 msgid "Information"
@@ -40,20 +40,19 @@ msgstr "Thông tin"
 msgid ""
 "Could not find any programs with which to query your system's PCI information"
 msgstr ""
-"Không tìm thấy chương trình với đó có thể truy vấn thông tin PCI của hệ "
-"thống này"
+"Không tìm được chương trình nào để có thể truy vấn thông tin PCI của hệ "
+"thống"
 
 #: ../base/info_fbsd.cpp:105
 #, kde-format
 msgid "PCI subsystem could not be queried: %1 could not be executed"
-msgstr "Không thể truy vấn hệ thống phụ PCI: không thể thực hiện %1"
+msgstr "Không truy vấn được hệ thống con PCI: không thực thi được %1"
 
 #: ../base/info_fbsd.cpp:124
 #, kde-format
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr ""
-"Không thể truy vấn hệ thống phụ PCI: việc này có thể cần thiết quyền truy "
-"cập của người chủ."
+"Không truy vấn được hệ thống con PCI, việc này có thể cần đặc quyền gốc."
 
 #: ../base/info_linux.cpp:103 main.cpp:50
 #, kde-format
@@ -68,7 +67,7 @@ msgstr "Dùng bởi"
 #: ../base/info_linux.cpp:160
 #, kde-format
 msgid "I/O-Range"
-msgstr "Khoảng I/O"
+msgstr "Khoảng vào/ra"
 
 # Name: don't translate / Tên: đừng dịch
 #: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
@@ -84,12 +83,12 @@ msgstr "Thiết bị"
 #: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
 #, kde-format
 msgid "No PCI devices found."
-msgstr "Không tìm thấy thiết bị PCI."
+msgstr "Không tìm thấy thiết bị PCI nào."
 
 #: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
 #, kde-format
 msgid "No I/O port devices found."
-msgstr "Không tìm thấy thiết bị cổng I/O (nhập/xuất)."
+msgstr "Không tìm thấy thiết bị cổng vào/ra nào."
 
 #: ../base/info_wayland.cpp:58 ../base/os_base.h:228
 #, kde-format
@@ -102,30 +101,30 @@ msgid "Value"
 msgstr "Giá trị"
 
 #: ../base/info_wayland.cpp:61
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Could not get Information."
 msgid "Compositor Information"
-msgstr "Không thể giành cấu hình."
+msgstr "Thông tin trình kết hợp"
 
 #: ../base/info_wayland.cpp:65 ../base/os_base.h:239
 #, kde-format
 msgid "Name of the Display"
-msgstr "Tên của bộ trình bày"
+msgstr "Tên của bộ hiển thị"
 
 #: ../base/info_wayland.cpp:67
 #, kde-format
 msgid "Interfaces"
-msgstr ""
+msgstr "Giao diện"
 
 #: ../base/info_wayland.cpp:67
 #, kde-format
 msgid "Interface Version"
-msgstr ""
+msgstr "Phiên bản giao diện"
 
 #: ../base/info_wayland.cpp:93
 #, kde-format
 msgid "Seat"
-msgstr ""
+msgstr "Chỗ ngồi"
 
 #: ../base/info_wayland.cpp:98
 #, kde-format
@@ -135,28 +134,28 @@ msgstr "Tên"
 #: ../base/info_wayland.cpp:104
 #, kde-format
 msgid "Pointer"
-msgstr ""
+msgstr "Con trỏ"
 
 #: ../base/info_wayland.cpp:111
 #, kde-format
 msgid "Keyboard"
-msgstr ""
+msgstr "Bàn phím"
 
 #: ../base/info_wayland.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "enabled"
 msgid "Repeat enabled"
-msgstr "đã bật"
+msgstr "Đã bật lặp"
 
 #: ../base/info_wayland.cpp:114
 #, kde-format
 msgid "Repeat rate (characters per second)"
-msgstr ""
+msgstr "Tốc độ lặp (số kí tự mỗi giây)"
 
 #: ../base/info_wayland.cpp:115
 #, kde-format
 msgid "Repeat delay (msec)"
-msgstr ""
+msgstr "Độ trễ lặp (mi-li giây)"
 
 #: ../base/info_wayland.cpp:119 ../base/os_base.h:175
 #, kde-format
@@ -171,156 +170,156 @@ msgstr "Không"
 #: ../base/info_wayland.cpp:130
 #, kde-format
 msgid "Touch"
-msgstr ""
+msgstr "Chạm"
 
 #: ../base/info_wayland.cpp:136
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Output Channels"
 msgid "Outputs"
-msgstr "Kênh xuất"
+msgstr "Đầu ra"
 
 #: ../base/info_wayland.cpp:150
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Manufacturer: %1"
 msgid "Manufacturer"
-msgstr "Hãng chế tạo : %1"
+msgstr "Nhà sản xuất"
 
 #: ../base/info_wayland.cpp:151
 #, kde-format
 msgid "Model"
-msgstr "Mô hình"
+msgstr "Mẫu mã"
 
 #: ../base/info_wayland.cpp:152
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Physical Memory"
 msgid "Physical Size"
-msgstr "Bộ nhớ vật lí"
+msgstr "Kích thước vật lí"
 
 #: ../base/info_wayland.cpp:153
 #, kde-format
 msgid "Global Position"
-msgstr ""
+msgstr "Vị trí toàn cục"
 
 #: ../base/info_wayland.cpp:158
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "Không"
 
 #: ../base/info_wayland.cpp:161
 #, kde-format
 msgid "Horizontal RGB"
-msgstr ""
+msgstr "RGB ngang"
 
 #: ../base/info_wayland.cpp:164
 #, kde-format
 msgid "Horizontal BGR"
-msgstr ""
+msgstr "BGR ngang"
 
 #: ../base/info_wayland.cpp:167
 #, kde-format
 msgid "Vertical RGB"
-msgstr ""
+msgstr "RGB đứng"
 
 #: ../base/info_wayland.cpp:170
 #, kde-format
 msgid "Vertical BGR"
-msgstr ""
+msgstr "BGR đứng"
 
 #: ../base/info_wayland.cpp:174
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "unknown"
 msgid "Unknown"
-msgstr "không rõ"
+msgstr "Không rõ"
 
 #: ../base/info_wayland.cpp:177
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Subpixel bits"
 msgid "Subpixel"
-msgstr "Bit điểm ảnh con"
+msgstr "Hạ điểm ảnh"
 
 #: ../base/info_wayland.cpp:191
 #, kde-format
 msgid "Flipped"
-msgstr ""
+msgstr "Lật"
 
 #: ../base/info_wayland.cpp:194
 #, kde-format
 msgid "Flipped 90"
-msgstr ""
+msgstr "Lật 90"
 
 #: ../base/info_wayland.cpp:197
 #, kde-format
 msgid "Flipped 180"
-msgstr ""
+msgstr "Lật 180"
 
 #: ../base/info_wayland.cpp:200
 #, kde-format
 msgid "Flipped 270"
-msgstr ""
+msgstr "Lật 270"
 
 #: ../base/info_wayland.cpp:204
 #, kde-format
 msgid "Normal"
-msgstr ""
+msgstr "Bình thường"
 
 #: ../base/info_wayland.cpp:207
 #, kde-format
 msgid "Transform"
-msgstr ""
+msgstr "Biến đổi"
 
 #: ../base/info_wayland.cpp:208
 #, kde-format
 msgctxt "The scale factor of the output"
 msgid "Scale"
-msgstr ""
+msgstr "Tỉ lệ"
 
 #: ../base/info_wayland.cpp:211
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Model"
 msgid "Modes"
-msgstr "Mô hình"
+msgstr "Chế độ"
 
 #: ../base/info_wayland.cpp:216
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Free Size"
 msgid "Size"
-msgstr "Cỡ rảnh"
+msgstr "Cỡ"
 
 #: ../base/info_wayland.cpp:218
 #, kde-format
 msgid "Refresh Rate"
-msgstr ""
+msgstr "Tốc độ cập nhật"
 
 #: ../base/info_wayland.cpp:220
 #, kde-format
 msgid "Preferred"
-msgstr ""
+msgstr "Ưu tiên"
 
 #: ../base/info_wayland.cpp:221 ../base/info_wayland.cpp:223
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Bytes"
 msgid "yes"
-msgstr "Byte"
+msgstr "có"
 
 #: ../base/info_wayland.cpp:221 ../base/info_wayland.cpp:223
 #, kde-format
 msgid "no"
-msgstr ""
+msgstr "không"
 
 #: ../base/info_wayland.cpp:222
 #, kde-format
 msgid "Current"
-msgstr ""
+msgstr "Hiện tại"
 
 #: ../base/os_base.h:60
 #, kde-format
 msgid "LSBFirst"
-msgstr "LSB thứ nhất"
+msgstr "LSB trước"
 
 #: ../base/os_base.h:62
 #, kde-format
 msgid "MSBFirst"
-msgstr "MSB thứ nhất"
+msgstr "MSB trước"
 
 #: ../base/os_base.h:64
 #, kde-format
@@ -331,19 +330,19 @@ msgstr "Thứ tự không rõ %1"
 #, kde-format
 msgid "1 Bit"
 msgid_plural "%1 Bits"
-msgstr[0] "%1 bit"
+msgstr[0] "%1 Bit"
 
 #: ../base/os_base.h:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "1 Byte"
 msgid "1 Byte"
 msgid_plural "%1 Bytes"
-msgstr[0] "1 Byte"
+msgstr[0] "%1 Byte"
 
 #: ../base/os_base.h:114
 #, kde-format
 msgid "Screen # %1"
-msgstr "Màn hình %1"
+msgstr "Màn hình # %1"
 
 #: ../base/os_base.h:116
 #, kde-format
@@ -353,13 +352,13 @@ msgstr "(Màn hình mặc định)"
 #: ../base/os_base.h:125
 #, kde-format
 msgid "Dimensions"
-msgstr "Các chiều"
+msgstr "Kích thước"
 
 #: ../base/os_base.h:125
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 x %2 Pixel (%3 x %4 mm)"
 msgid "%1 x %2 Pixels (%3 x %4 mm)"
-msgstr "%1 × %2 điểm ảnh (%3 × %4 mm)"
+msgstr "%1 x %2 điểm ảnh (%3 x %4 mm)"
 
 #: ../base/os_base.h:129
 #, kde-format
@@ -369,7 +368,7 @@ msgstr "Độ phân giải"
 #: ../base/os_base.h:129
 #, kde-format
 msgid "%1 x %2 dpi"
-msgstr "%1 × %2 dpi"
+msgstr "%1 x %2 dpi"
 
 #: ../base/os_base.h:146
 #, kde-format
@@ -387,16 +386,16 @@ msgid "Depth of Root Window"
 msgstr "Độ sâu cửa sổ gốc"
 
 #: ../base/os_base.h:156
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 plane"
 msgid "%1 plane"
 msgid_plural "%1 planes"
-msgstr[0] "%1 mặt phẳng"
+msgstr[0] "%1 mặt"
 
 #: ../base/os_base.h:160
 #, kde-format
 msgid "Number of Colormaps"
-msgstr "Số sơ đồ màu"
+msgstr "Số lượng bản đồ màu"
 
 #: ../base/os_base.h:160
 #, kde-format
@@ -406,12 +405,12 @@ msgstr "tối thiểu %1, tối đa %2"
 #: ../base/os_base.h:164
 #, kde-format
 msgid "Default Colormap"
-msgstr "Sơ đồ màu mặc định"
+msgstr "Bản đồ màu mặc định"
 
 #: ../base/os_base.h:168
 #, kde-format
 msgid "Default Number of Colormap Cells"
-msgstr "Số ô sơ đồ màu mặc định"
+msgstr "Số lượng mặc định các ô bản đồ màu"
 
 #: ../base/os_base.h:172
 #, kde-format
@@ -426,7 +425,7 @@ msgstr "Đen %1, Trắng %2"
 #: ../base/os_base.h:179
 #, kde-format
 msgid "Options"
-msgstr "Tuỳ chọn"
+msgstr "Lựa chọn"
 
 #: ../base/os_base.h:179
 #, kde-format
@@ -436,12 +435,12 @@ msgstr "Khi được ánh xạ"
 #: ../base/os_base.h:179
 #, kde-format
 msgid "backing-store: %1, save-unders: %2"
-msgstr "cất giữ lùi lại: %1, lưu dưới : %2"
+msgstr "bộ nhớ lót: %1, lưu dưới: %2"
 
 #: ../base/os_base.h:185
 #, kde-format
 msgid "Largest Cursor"
-msgstr "Con chạy lớn nhất"
+msgstr "Con trỏ lớn nhất"
 
 #: ../base/os_base.h:187
 #, kde-format
@@ -451,7 +450,7 @@ msgstr "vô hạn"
 #: ../base/os_base.h:193
 #, kde-format
 msgid "Current Input Event Mask"
-msgstr "Mặt nạ sự kiện nhập hiện có"
+msgstr "Mặt nạ sự kiện đầu vào hiện tại"
 
 #: ../base/os_base.h:199
 #, kde-format
@@ -466,12 +465,12 @@ msgstr "Thông tin máy chủ"
 #: ../base/os_base.h:244
 #, kde-format
 msgid "Vendor String"
-msgstr "Chuỗi nhà sản xuất"
+msgstr "Chuỗi nhà cung cấp"
 
 #: ../base/os_base.h:258
 #, kde-format
 msgid "Vendor Release Number"
-msgstr "Số phiên bản nhà sản xuất"
+msgstr "Số phát hành của nhà cung cấp"
 
 #: ../base/os_base.h:262
 #, kde-format
@@ -481,7 +480,7 @@ msgstr "Số phiên bản"
 #: ../base/os_base.h:266
 #, kde-format
 msgid "Available Screens"
-msgstr "Màn hình sẵn sàng"
+msgstr "Các màn hình hiện có"
 
 #: ../base/os_base.h:276
 #, kde-format
@@ -491,17 +490,17 @@ msgstr "Phần mở rộng được hỗ trợ"
 #: ../base/os_base.h:291
 #, kde-format
 msgid "Supported Pixmap Formats"
-msgstr "Dạng thức sơ đồ điểm ảnh được hỗ trợ"
+msgstr "Dạng thức bản đồ điểm ảnh được hỗ trợ"
 
 #: ../base/os_base.h:298
 #, kde-format
 msgid "Pixmap Format #%1"
-msgstr "Dạng thức sơ đồ điểm ảnh %1"
+msgstr "Dạng thức bản đồ điểm ảnh %1"
 
 #: ../base/os_base.h:298
 #, kde-format
 msgid "%1 BPP, Depth: %2, Scanline padding: %3"
-msgstr "%1 BPP, Sâu : %2, Đệm dòng quét: %3"
+msgstr "%1 BPP, Độ sâu: %2, Phần đệm dòng quét: %3"
 
 #: ../base/os_base.h:310
 #, kde-format
@@ -511,12 +510,12 @@ msgstr "Cỡ yêu cầu tối đa"
 #: ../base/os_base.h:314
 #, kde-format
 msgid "Motion Buffer Size"
-msgstr "Cỡ bộ đệm chuyển động"
+msgstr "Cỡ bộ nhớ đệm chuyển động"
 
 #: ../base/os_base.h:318
 #, kde-format
 msgid "Bitmap"
-msgstr "Sơ đồ bit"
+msgstr "Bản đồ bit"
 
 #: ../base/os_base.h:322
 #, kde-format
@@ -531,7 +530,7 @@ msgstr "Thứ tự"
 #: ../base/os_base.h:330
 #, kde-format
 msgid "Padding"
-msgstr "Đệm"
+msgstr "Phần đệm"
 
 #: ../base/os_base.h:334
 #, kde-format
@@ -540,50 +539,52 @@ msgstr "Thứ tự byte ảnh"
 
 #: ../base/os_current.h:56 ../base/os_current.h:65 ../base/os_current.h:74
 #: ../base/os_current.h:83
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Maybe this system is not completely supported yet :-("
 msgid "This system may not be completely supported yet."
-msgstr "Có lẽ hệ thống này chưa hỗ trợ hoàn thành. :("
+msgstr "Hệ thống này có thể chưa được hỗ trợ đầy đủ."
 
 #: info.cpp:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "KDE Panel System Information Control Module"
 msgid "System Information Control Module"
-msgstr "Khối điều khiển thông tin hệ thống bảng KDE"
+msgstr "Khối điều khiển thông tin hệ thống"
 
 #: info.cpp:36
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(c) 1998 - 2002 Helge Deller"
 msgid ""
 "(c) 2008 Nicolas Ternisien\n"
 "(c) 1998 - 2002 Helge Deller"
-msgstr "Bản quyền © năm 1998-2002 của Helge Deller"
+msgstr ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
 
 #: info.cpp:39
 #, kde-format
 msgid "Nicolas Ternisien"
-msgstr ""
+msgstr "Nicolas Ternisien"
 
 #: info.cpp:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(c) 1998 - 2002 Helge Deller"
 msgid "Helge Deller"
-msgstr "Bản quyền © năm 1998-2002 của Helge Deller"
+msgstr "Helge Deller"
 
 #: info.cpp:60
 #, kde-format
 msgid "This list displays system information on the selected category."
-msgstr "Danh sách này hiển thị thông tin về phân loại đã chọn."
+msgstr "Danh sách này hiển thị thông tin hệ thống về nhóm đã chọn."
 
 #: info.cpp:76
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No information available about %1."
 msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
 msgid "No information available about %1."
-msgstr "Không có thông tin sẵn sàng về %1."
+msgstr "Không có sẵn thông tin nào về %1."
 
 #: info.cpp:107
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<h1>System Information</h1> All the information modules return "
 #| "information about a certain aspect of your computer hardware or your "
@@ -593,9 +594,8 @@ msgid ""
 "All the information modules return information about a certain aspect of "
 "your computer hardware or your operating system."
 msgstr ""
-"<h1>Thông tin hệ thống</h1>Mọi khối thông tin cung cấp thông tin về một khía "
-"cạnh riêng của phần cứng máy tính hay hệ điều hành. Không có tất cả các khối "
-"sẵn sàng trên mọi kiến trúc phần cứng và/hay hệ điều hành."
+"Tất cả các khối thông tin cung cấp thông tin về một khía cạnh nhất định của"
+" phần cứng máy tính hoặc hệ điều hành."
 
 #: main.cpp:44
 #, kde-format
@@ -605,14 +605,14 @@ msgstr "Ngắt"
 #: main.cpp:47
 #, kde-format
 msgid "I/O-Port"
-msgstr "Cổng I/O"
+msgstr "Cổng vào/ra"
 
 #: main.cpp:53
 #, kde-format
 msgid "X-Server"
-msgstr "Trình phục vụ X"
+msgstr "Máy chủ X"
 
 #: main.cpp:56
 #, kde-format
 msgid "Wayland"
-msgstr ""
+msgstr "Wayland"
