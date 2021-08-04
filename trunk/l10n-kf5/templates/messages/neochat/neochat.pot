@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-31 00:16+0000\n"
+"POT-Creation-Date: 2021-08-04 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: imports/NeoChat/Component/ChatBox/AttachmentPane.qml:181
 #: imports/NeoChat/Component/ChatBox/ReplyPane.qml:102
-#: imports/NeoChat/Page/AccountsPage.qml:221
+#: imports/NeoChat/Page/AccountsPage.qml:218
 #: imports/NeoChat/Page/ImageEditorPage.qml:94
 #, kde-format
 msgid "Cancel"
@@ -354,7 +354,7 @@ msgid "Room topic:"
 msgstr ""
 
 #: imports/NeoChat/Dialog/RoomSettingsDialog.qml:85
-#: imports/NeoChat/Page/AccountsPage.qml:200
+#: imports/NeoChat/Page/AccountsPage.qml:197
 #: imports/NeoChat/Page/DevicesPage.qml:123
 #, kde-format
 msgid "Save"
@@ -665,74 +665,75 @@ msgid "Message Source"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:15
+#: imports/NeoChat/Page/SettingsPage.qml:54
 #, kde-format
 msgid "Accounts"
 msgstr ""
 
 #: imports/NeoChat/Page/AccountsPage.qml:23
-#: imports/NeoChat/Page/AccountsPage.qml:97
+#: imports/NeoChat/Page/AccountsPage.qml:94
 #, kde-format
 msgid "Add an account"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:69
+#: imports/NeoChat/Page/AccountsPage.qml:66
 #, kde-format
 msgid "Edit this account"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:77
+#: imports/NeoChat/Page/AccountsPage.qml:74
 #: qml/main.qml:274
 #, kde-format
 msgid "Logout"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:112
+#: imports/NeoChat/Page/AccountsPage.qml:109
 #, kde-format
 msgid "Password changed successfully"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:114
+#: imports/NeoChat/Page/AccountsPage.qml:111
 #, kde-format
 msgid "Wrong password entered"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:116
+#: imports/NeoChat/Page/AccountsPage.qml:113
 #, kde-format
 msgid "Unknown problem while trying to change password"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:134
+#: imports/NeoChat/Page/AccountsPage.qml:131
 #, kde-format
 msgid "Edit Account"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:174
+#: imports/NeoChat/Page/AccountsPage.qml:171
 #, kde-format
 msgid "Avatar:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:179
+#: imports/NeoChat/Page/AccountsPage.qml:176
 #: imports/NeoChat/Page/DevicesPage.qml:119
 #, kde-format
 msgid "Name:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:183
+#: imports/NeoChat/Page/AccountsPage.qml:180
 #, kde-format
 msgid "Current Password:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:188
+#: imports/NeoChat/Page/AccountsPage.qml:185
 #, kde-format
 msgid "New Password:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:194
+#: imports/NeoChat/Page/AccountsPage.qml:191
 #, kde-format
 msgid "Confirm new Password:"
 msgstr ""
 
-#: imports/NeoChat/Page/AccountsPage.qml:210
+#: imports/NeoChat/Page/AccountsPage.qml:207
 #, kde-format
 msgid "Passwords do not match"
 msgstr ""
@@ -996,11 +997,6 @@ msgstr ""
 #: imports/NeoChat/Page/SettingsPage.qml:49
 #, kde-format
 msgid "Appearance"
-msgstr ""
-
-#: imports/NeoChat/Page/SettingsPage.qml:54
-#, kde-format
-msgid "Account"
 msgstr ""
 
 #: imports/NeoChat/Page/SettingsPage.qml:59
@@ -1361,12 +1357,12 @@ msgstr ""
 msgid "The room id you are trying to join is not valid"
 msgstr ""
 
-#: src/login.cpp:134 src/login.cpp:146
+#: src/login.cpp:131 src/login.cpp:143
 #, kde-format
 msgid "Network Error"
 msgstr ""
 
-#: src/login.cpp:139
+#: src/login.cpp:136
 #, kde-format
 msgid "Login Failed: %1"
 msgstr ""
@@ -1406,12 +1402,12 @@ msgstr ""
 msgid "A Qt5 library to write cross-platform clients for Matrix"
 msgstr ""
 
-#: src/main.cpp:201
+#: src/main.cpp:204
 #, kde-format
 msgid "Client for the matrix communication protocol"
 msgstr ""
 
-#: src/main.cpp:202
+#: src/main.cpp:205
 #, kde-format
 msgid "Supports appstream: url scheme"
 msgstr ""
@@ -1426,37 +1422,37 @@ msgstr ""
 msgid "Image request has been cancelled"
 msgstr ""
 
-#: src/messageeventmodel.cpp:327
+#: src/messageeventmodel.cpp:328
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: src/messageeventmodel.cpp:330
+#: src/messageeventmodel.cpp:331
 #, kde-format
 msgid "Yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:333
+#: src/messageeventmodel.cpp:334
 #, kde-format
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:439
+#: src/messageeventmodel.cpp:440
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:440
+#: src/messageeventmodel.cpp:441
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:516
+#: src/messageeventmodel.cpp:517
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:516
+#: src/messageeventmodel.cpp:517
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""
@@ -1666,29 +1662,34 @@ msgstr ""
 msgid "Reply..."
 msgstr ""
 
-#: src/roomlistmodel.cpp:425
+#: src/roomlistmodel.cpp:433
 #, kde-format
 msgid "Invited"
 msgstr ""
 
-#: src/roomlistmodel.cpp:427
+#: src/roomlistmodel.cpp:435
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: src/roomlistmodel.cpp:429
+#: src/roomlistmodel.cpp:437
 #, kde-format
 msgid "Direct Messages"
 msgstr ""
 
-#: src/roomlistmodel.cpp:431
+#: src/roomlistmodel.cpp:439
 #, kde-format
 msgid "Normal"
 msgstr ""
 
-#: src/roomlistmodel.cpp:433
+#: src/roomlistmodel.cpp:441
 #, kde-format
 msgid "Low priority"
+msgstr ""
+
+#: src/roomlistmodel.cpp:443
+#, kde-format
+msgid "Spaces"
 msgstr ""
 
 #: src/roommanager.cpp:42
@@ -1712,12 +1713,12 @@ msgid ""
 "There's no room %1 in the room list. Check the spelling and the account."
 msgstr ""
 
-#: src/roommanager.cpp:206
+#: src/roommanager.cpp:202
 #, kde-format
 msgid "No application for the link"
 msgstr ""
 
-#: src/roommanager.cpp:207
+#: src/roommanager.cpp:203
 #, kde-format
 msgid "Your operating system could not find an application for the link."
 msgstr ""
