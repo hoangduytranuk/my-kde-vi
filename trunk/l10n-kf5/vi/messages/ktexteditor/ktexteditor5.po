@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-26 00:14+0000\n"
-"PO-Revision-Date: 2021-08-04 22:13+0200\n"
+"PO-Revision-Date: 2021-08-05 22:05+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -378,7 +378,7 @@ msgstr ""
 #: dialogs/bordersappearanceconfigwidget.ui:258
 #, kde-format
 msgid "B&y creation"
-msgstr "Th&eo việc tạo"
+msgstr "Th&eo thứ tự tạo"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByPosition)
 #: dialogs/bordersappearanceconfigwidget.ui:265
@@ -430,20 +430,21 @@ msgstr "Độ dài từ nhỏ nhất để hoàn tất:"
 #, kde-format
 msgid "Remove tail of a previous word when completion item chosen from a list"
 msgstr ""
+"Xoá phần đuôi của từ trước đó, khi từ hoàn tất được chọn trong danh sách"
 
 #. i18n: ectx: property (text), widget (QCheckBox, removeTail)
 #: dialogs/completionconfigtab.ui:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Highlighting for LaTeX"
 msgid "Remove tail on complete"
-msgstr "Cách tô sáng LaTeX"
+msgstr "Xoá đuôi khi hoàn tất"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbKeywordCompletion)
 #: dialogs/completionconfigtab.ui:95
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Word Completion Plugin"
 msgid "&Keyword completion"
-msgstr "Bổ sung hoàn chỉnh từ"
+msgstr "Hoàn tất từ &khoá"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/completionconfigtab.ui:104
@@ -452,13 +453,15 @@ msgid ""
 "Keyword completion provides suggestions based on the keywords which exist in "
 "the document's language."
 msgstr ""
+"Chức năng hoàn tất từ khoá cung cấp các gợi ý dựa trên các từ khoá trong "
+"ngôn ngữ của tài liệu."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbStaticWordWrap)
 #: dialogs/editconfigwidget.ui:17 view/kateview.cpp:725
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Dynamic Word Wrap"
 msgid "Static Word Wrap"
-msgstr "Ngắt từ &động"
+msgstr "Bọc từ tĩnh"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkStaticWordWrap)
 #: dialogs/editconfigwidget.ui:23
@@ -471,36 +474,44 @@ msgid ""
 "be <i>visually wrapped</i> instead, according to the width of the view, "
 "enable <b>Dynamic Word Wrap</b> in the <b>Appearance</b> config page.</p>"
 msgstr ""
+"<p>Tự động bắt đầu dòng văn bản mới khi dòng hiện tại vượt quá độ dài được "
+"chỉ ra bởi lựa chọn <b>Bọc từ ở:</b>.</p><p>Lựa chọn này không bọc các dòng "
+"văn bản đã tồn tại - hãy dùng lựa chọn <b>Áp dụng bọc từ tĩnh</b> trong "
+"trình đơn <b>Công cụ</b> cho mục đích đó.</p><p>Nếu điều bạn muốn là các "
+"dòng được <i>bọc một cách trực quan</i>, tuỳ theo độ rộng của khung xem, thì "
+"hãy bật <b>Bọc từ động</b> trong trang cấu hình <b>Diện mạo</b>.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkStaticWordWrap)
 #: dialogs/editconfigwidget.ui:26
 #, kde-format
 msgid "Enable static &word wrap"
-msgstr ""
+msgstr "Bật bọc từ &tĩnh"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowStaticWordWrapMarker)
 #: dialogs/editconfigwidget.ui:33
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "If this option is checked, the text lines will be wrapped at the view "
 #| "border on the screen."
 msgid ""
 "<p>If this option is checked, a vertical line will be drawn at the word wrap "
 "column as defined in the <strong>Editing</strong> properties.</p>"
-msgstr "Nếu bật, các dòng văn bản sẽ bị ngắt tại viền khung xem trên màn hình."
+msgstr ""
+"<p>Nếu lựa chọn này được chọn, một đường dọc sẽ được vẽ ở cột bọc từ, như "
+"được chỉ định trong thuộc tính <strong>Sửa</strong>.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowStaticWordWrapMarker)
 #: dialogs/editconfigwidget.ui:36
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show Static &Word Wrap Marker"
 msgid "Show static word wra&p marker"
-msgstr "Hiện dấu hiệu &Ngắt từ tĩnh"
+msgstr "Hiện chỉ dấ&u bọc từ tĩnh"
 
 #. i18n: ectx: property (text), widget (QLabel, lblWordWrap)
 #: dialogs/editconfigwidget.ui:57
 #, kde-format
 msgid "Wra&p words at:"
-msgstr ""
+msgstr "&Bọc từ ở:"
 
 #. i18n: ectx: property (whatsThis), widget (KPluralHandlingSpinBox, sbWordWrap)
 #: dialogs/editconfigwidget.ui:67
@@ -509,20 +520,22 @@ msgid ""
 "If the Word Wrap option is selected this entry determines the length (in "
 "characters) at which the editor will automatically start a new line."
 msgstr ""
+"Nếu lựa chọn \"Bọc từ\" được chọn, mục này sẽ xác định độ dài (tính bằng "
+"số kí tự), tại đó trình biên tập sẽ tự động bắt đầu một dòng mới."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbInputMode)
 #: dialogs/editconfigwidget.ui:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Indentation"
 msgid "Input Mode"
-msgstr "Thụt &lề"
+msgstr "Chế độ nhập"
 
 #. i18n: ectx: property (text), widget (QLabel, lblInputMode)
 #: dialogs/editconfigwidget.ui:107
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Clean Indentation"
 msgid "Default input mode:"
-msgstr "Thụt lề &sạch"
+msgstr "Chế độ nhập mặc định:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbAutoBrackets)
 #: dialogs/editconfigwidget.ui:133
@@ -1628,39 +1641,41 @@ msgstr ""
 msgid ""
 "If this option is checked, the text lines will be wrapped at the view border "
 "on the screen."
-msgstr "Nếu bật, các dòng văn bản sẽ bị ngắt tại viền khung xem trên màn hình."
+msgstr ""
+"Nếu lựa chọn này được chọn, các dòng văn bản sẽ được bọc ở viền khung xem "
+"trên màn hình."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbWordWrap)
 #: dialogs/textareaappearanceconfigwidget.ui:20 view/kateview.cpp:709
 #, kde-format
 msgid "&Dynamic Word Wrap"
-msgstr "Ngắt từ &động"
+msgstr "Bọc từ độn&g"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAtStaticMarker)
 #: dialogs/textareaappearanceconfigwidget.ui:29
 #, kde-format
 msgid "Wrap dynamic at static word wrap marker"
-msgstr ""
+msgstr "Bọc động ở chỉ dấu bọc từ tĩnh"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAnywhere)
 #: dialogs/textareaappearanceconfigwidget.ui:36
 #, kde-format
 msgid "Disregard word boundaries for dynamic wrapping"
-msgstr ""
+msgstr "Không để ý đến giới hạn từ khi bọc động"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
 #: dialogs/textareaappearanceconfigwidget.ui:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dynamic Word Wrap Indicators"
 msgid "D&ynamic word wrap indicators (if applicable):"
-msgstr "Chỉ thị Ngắt từ động"
+msgstr "Chỉ dấu bọc từ độ&ng (nếu có):"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbDynamicWordWrapIndicator)
 #: dialogs/textareaappearanceconfigwidget.ui:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Choose when the Dynamic Word Wrap Indicators should be displayed"
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed."
-msgstr "Chọn cách hiển thị các chỉ thị Ngắt Từ Động."
+msgstr "Chọn khi nào thì hiển thị chỉ dấu bọc từ động."
 
 #. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators_2)
 #: dialogs/textareaappearanceconfigwidget.ui:99
