@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-17 00:18+0000\n"
+"POT-Creation-Date: 2021-08-07 00:17+0000\n"
 "PO-Revision-Date: 2012-01-16 16:50+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 "tiếng Anh  (nếu có thể, vì KDE được hình thành trên toàn cầu)."
 
 #: aboutbugreportingdialog.cpp:62 aboutbugreportingdialog.cpp:190
-#: bugzillaintegration/reportassistantdialog.cpp:72
+#: bugzillaintegration/reportassistantdialog.cpp:81
 #, kde-format
 msgctxt "@title"
 msgid "What do you know about the crash?"
@@ -429,7 +429,7 @@ msgid ""
 msgstr "<note>Bạn nên viết bằng tiếng Anh.</note>"
 
 #: aboutbugreportingdialog.cpp:199
-#: bugzillaintegration/reportassistantdialog.cpp:139
+#: bugzillaintegration/reportassistantdialog.cpp:144
 #, kde-format
 msgctxt "@title"
 msgid "Sending the Crash Report"
@@ -800,7 +800,27 @@ msgctxt "messagebox title"
 msgid "Missing debug information packages"
 msgstr "Thiếu gói thông tin gỡ lỗi"
 
-#: bugzillaintegration/assistantpage_bugzilla_version.cpp:40
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:41
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately <resource>%1</"
+"resource> is no longer supported. We may have alternative supported software "
+"on offer on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:50
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately version "
+"<resource>%1</resource> of <resource>%2</resource> is no longer supported. "
+"Please upgrade to a newer version if possible. If your distribution does not "
+"provide a newer version you may be able to find alternative installation "
+"options on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+
+#: bugzillaintegration/assistantpage_bugzilla_version.cpp:46
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:status"
 #| msgid "Error sending the crash report:  <message>%1.</message>"
@@ -1121,86 +1141,86 @@ msgctxt "@info:status"
 msgid "Error fetching the bug report"
 msgstr "Lỗi lấy báo cáo lỗi"
 
-#: bugzillaintegration/reportassistantdialog.cpp:33
+#: bugzillaintegration/reportassistantdialog.cpp:34
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Login into the KDE Bugtracking System"
 msgid "the KDE Bug Tracking System"
 msgstr "Đăng nhập vào hệ thống theo dõi lỗi KDE"
 
-#: bugzillaintegration/reportassistantdialog.cpp:44
+#: bugzillaintegration/reportassistantdialog.cpp:45
 #, kde-format
 msgctxt "@title:window"
 msgid "Crash Reporting Assistant"
 msgstr "Trợ tá báo cáo lỗi"
 
-#: bugzillaintegration/reportassistantdialog.cpp:61
+#: bugzillaintegration/reportassistantdialog.cpp:62
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to the Reporting Assistant"
 msgstr "Chào mừng đến với trợ tá báo cáo"
 
-#: bugzillaintegration/reportassistantdialog.cpp:81
+#: bugzillaintegration/reportassistantdialog.cpp:90
 #, kde-format
 msgctxt "@title"
 msgid "Fetching the Backtrace (Automatic Crash Information)"
 msgstr "Lấy backtrace (thông tin lỗi tự động)"
 
-#: bugzillaintegration/reportassistantdialog.cpp:90
+#: bugzillaintegration/reportassistantdialog.cpp:99
 #, kde-format
 msgctxt "@title"
 msgid "Results of the Analyzed Crash Details"
 msgstr "Kết quả chi tiết lỗi đã phân tích"
 
-#: bugzillaintegration/reportassistantdialog.cpp:104
+#: bugzillaintegration/reportassistantdialog.cpp:109
 #, kde-format
 msgctxt "@title"
 msgid "Login into %1"
 msgstr ""
 
-#: bugzillaintegration/reportassistantdialog.cpp:114
+#: bugzillaintegration/reportassistantdialog.cpp:119
 #, kde-format
 msgctxt "@title"
 msgid "Look for Possible Duplicate Reports"
 msgstr "Tìm kiếm các báo cáo có khả năng trùng"
 
-#: bugzillaintegration/reportassistantdialog.cpp:123
+#: bugzillaintegration/reportassistantdialog.cpp:128
 #, kde-format
 msgctxt "@title"
 msgid "Enter the Details about the Crash"
 msgstr "Nhập chi tiết về lỗi"
 
-#: bugzillaintegration/reportassistantdialog.cpp:131
+#: bugzillaintegration/reportassistantdialog.cpp:136
 #, kde-format
 msgctxt "@title"
 msgid "Preview the Report"
 msgstr "Xem trước báo cáo"
 
-#: bugzillaintegration/reportassistantdialog.cpp:173
+#: bugzillaintegration/reportassistantdialog.cpp:179
 #, kde-format
 msgctxt "@action button to submit report"
 msgid "Submit"
 msgstr ""
 
-#: bugzillaintegration/reportassistantdialog.cpp:402
+#: bugzillaintegration/reportassistantdialog.cpp:408
 #, kde-format
 msgctxt "@action:button"
 msgid "Close the assistant"
 msgstr "Đóng trợ tá"
 
-#: bugzillaintegration/reportassistantdialog.cpp:405
+#: bugzillaintegration/reportassistantdialog.cpp:411
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Huỷ bỏ"
 
-#: bugzillaintegration/reportassistantdialog.cpp:411
+#: bugzillaintegration/reportassistantdialog.cpp:417
 #, kde-format
 msgctxt "@action:button"
 msgid "Save information and close"
 msgstr "Lưu thông tin và đóng"
 
-#: bugzillaintegration/reportassistantdialog.cpp:415
+#: bugzillaintegration/reportassistantdialog.cpp:421
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1211,14 +1231,14 @@ msgstr ""
 "Bạn có thực sự muốn đóng trợ tá báo cáo lỗi? <note>Thông tin lỗi vẫn hợp lệ, "
 "vì vậy bạn có thể lưu báo cáo trước khi đóng nếu bạn muốn.</note>"
 
-#: bugzillaintegration/reportassistantdialog.cpp:418
-#: bugzillaintegration/reportassistantdialog.cpp:438
+#: bugzillaintegration/reportassistantdialog.cpp:424
+#: bugzillaintegration/reportassistantdialog.cpp:444
 #, kde-format
 msgctxt "@title:window"
 msgid "Close the Assistant"
 msgstr "Đóng trợ tá"
 
-#: bugzillaintegration/reportassistantdialog.cpp:436
+#: bugzillaintegration/reportassistantdialog.cpp:442
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to close the bug reporting assistant?"
@@ -2436,6 +2456,13 @@ msgstr "Mở trang báo cáo lỗi khi nhấn nút Kết thúc"
 msgctxt "@option:check"
 msgid "Restart the application when clicking the Finish button"
 msgstr "Khởi động lại ứng dụng khi nhấn nút Kết thúc"
+
+#. i18n: status message while waiting for bugzilla
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bugzillaintegration/ui/assistantpage_bugzilla_supported_entities.ui:47
+#, kde-format
+msgid "Resolving Bugzilla Product"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: bugzillaintegration/ui/assistantpage_bugzilla_version.ui:47
