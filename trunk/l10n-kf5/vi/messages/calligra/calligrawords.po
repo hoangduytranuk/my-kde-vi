@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-25 00:18+0000\n"
+"POT-Creation-Date: 2021-08-08 00:16+0000\n"
 "PO-Revision-Date: 2008-01-19 20:08+0700\n"
 "Last-Translator: Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@lists.kde.org>\n"
@@ -1471,6 +1471,14 @@ msgstr ""
 "Đây không phải là tài liệu văn bản, mà là %1. Hãy thử mở nó với ứng dụng phù "
 "hợp."
 
+#: part/KWPageManager.cpp:24 part/KWPageManager.cpp:413
+#, fuzzy, kde-format
+#| msgctxt "Style name"
+#| msgid "Standard"
+msgctxt "Default page style display name"
+msgid "Standard"
+msgstr "Tiêu chuẩn"
+
 #: part/KWPart.cpp:141
 #, fuzzy, kde-format
 #| msgid "Can not find needed text component, KWord will quit now"
@@ -1520,29 +1528,34 @@ msgstr "Trang số:"
 msgid "Line Number"
 msgstr "Trang số:"
 
-#: part/KWStatusBar.cpp:154
+#: part/KWStatusBar.cpp:149
+#, fuzzy, kde-format
+msgid "Change the page style"
+msgstr "&Khung"
+
+#: part/KWStatusBar.cpp:155
 #, fuzzy, kde-format
 msgid "Page Style"
 msgstr "&Khung"
 
-#: part/KWStatusBar.cpp:168
+#: part/KWStatusBar.cpp:169
 #, fuzzy, kde-format
 msgid "Page Size"
 msgstr "Thay đổi"
 
-#: part/KWStatusBar.cpp:183
+#: part/KWStatusBar.cpp:184
 #, fuzzy, kde-format
 #| msgid "State: saved/modified"
 msgid "Saved/Modified"
 msgstr "Trạng thái: đã lưu/đã thay đổi"
 
-#: part/KWStatusBar.cpp:196
+#: part/KWStatusBar.cpp:197
 #, fuzzy, kde-format
 #| msgid "Mouseposition: X:Y"
 msgid "Mouse Cursor X:Y"
 msgstr "Vị trí con trỏ: X:Y"
 
-#: part/KWStatusBar.cpp:210
+#: part/KWStatusBar.cpp:211
 #, kde-format
 msgid "Zoom Controller"
 msgstr "Điều khiển Phóng"
