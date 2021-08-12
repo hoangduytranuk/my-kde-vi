@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-10 00:14+0000\n"
+"POT-Creation-Date: 2021-08-12 00:14+0000\n"
 "PO-Revision-Date: 2021-08-10 22:11+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -64,8 +64,8 @@ msgid ""
 msgstr ""
 "Không tạo được \"%1\".\n"
 "Hệ thống tệp đích (%2) không cho phép các kí tự sau ở trong tên thư mục: %3\n"
-"Chọn \"Thay thế\" để thay thế mỗi kí tự không hợp lệ (trong tên thư mục đích) "
-"bằng một dấu gạch dưới \"_\"."
+"Chọn \"Thay thế\" để thay thế mỗi kí tự không hợp lệ (trong tên thư mục "
+"đích) bằng một dấu gạch dưới \"_\"."
 
 #: core/copyjob.cpp:1656 core/copyjob.cpp:2322 core/filecopyjob.cpp:373
 #: core/job_error.cpp:545 widgets/paste.cpp:80
@@ -97,39 +97,39 @@ msgstr ""
 "Chọn \"Thay thế\" để thay thế mỗi kí tự không hợp lệ (trong tên tệp đích) "
 "bằng một dấu gạch dưới \"_\"."
 
-#: core/desktopexecparser.cpp:320
+#: core/desktopexecparser.cpp:310
 #, kde-format
 msgid "No Exec field in %1"
 msgstr "Không có trường Exec nào trong %1"
 
-#: core/desktopexecparser.cpp:345
+#: core/desktopexecparser.cpp:335
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Không tìm được chương trình '%1'"
 
-#: core/desktopexecparser.cpp:348
+#: core/desktopexecparser.cpp:338
 #, kde-format
 msgid ""
 "The program '%1' was found at '%2' but it is missing executable permissions."
 msgstr ""
 "Đã tìm thấy chương trình '%1' ở '%2' nhưng nó đang thiếu các quyền thực thi."
 
-#: core/desktopexecparser.cpp:350
+#: core/desktopexecparser.cpp:340
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
 msgstr "Chương trình '%1' đang thiếu các quyền thực thi."
 
-#: core/desktopexecparser.cpp:364
+#: core/desktopexecparser.cpp:354
 #, kde-format
 msgid "Syntax error in command %1 coming from %2"
 msgstr "Lỗi cú pháp ở lệnh %1 đến từ %2"
 
-#: core/desktopexecparser.cpp:484
+#: core/desktopexecparser.cpp:474
 #, kde-format
 msgid "Terminal %1 not found while trying to run %2"
 msgstr "Không tìm thấy trình dòng lệnh %1 khi thử chạy %2"
 
-#: core/desktopexecparser.cpp:500
+#: core/desktopexecparser.cpp:490
 #, kde-format
 msgid "Syntax error in command %1 while trying to run %2"
 msgstr "Lỗi cú pháp ở lệnh %1 khi thử chạy %2"
@@ -2068,7 +2068,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Máy chủ quá bận với việc hồi đáp các yêu cầu khác, không hồi đáp được."
 
-#: core/job_error.cpp:1089 core/slavebase.cpp:1562
+#: core/job_error.cpp:1089 core/slavebase.cpp:1558
 #, kde-format
 msgid "Unknown Error"
 msgstr "Lỗi không rõ"
@@ -2392,108 +2392,108 @@ msgstr "Không thể giao tiếp với klauncher: %1"
 msgid "klauncher said: %1"
 msgstr "klauncher nói: %1"
 
-#: core/slavebase.cpp:858
+#: core/slavebase.cpp:854
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Việc mở kết nối không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:860
+#: core/slavebase.cpp:856
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Việc đóng kết nối không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:862
+#: core/slavebase.cpp:858
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Việc truy cập tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:864
+#: core/slavebase.cpp:860
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Việc ghi vào %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:866
+#: core/slavebase.cpp:862
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Không có hành động đặc biệt nào khả dụng cho giao thức %1."
 
-#: core/slavebase.cpp:868
+#: core/slavebase.cpp:864
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "Việc liệt kê thư mục không được hỗ trợ cho giao thức %1."
 
-#: core/slavebase.cpp:870
+#: core/slavebase.cpp:866
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Việc lấy dữ liệu từ %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:872
+#: core/slavebase.cpp:868
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Việc lấy thông tin kiểu MIME từ %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:874
+#: core/slavebase.cpp:870
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Việc đổi tên hoặc chuyển tệp trong %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:876
+#: core/slavebase.cpp:872
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Việc tạo liên kết tượng trưng không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:878
+#: core/slavebase.cpp:874
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Việc chép tệp trong %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:880
+#: core/slavebase.cpp:876
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Việc xoá tệp trong %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:882
+#: core/slavebase.cpp:878
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Việc tạo thư mục không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:884
+#: core/slavebase.cpp:880
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Việc thay đổi thuộc tính tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:886
+#: core/slavebase.cpp:882
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Việc thay đổi quyền sở hữu tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:888
+#: core/slavebase.cpp:884
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Việc dùng URL con với %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:890
+#: core/slavebase.cpp:886
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr ""
 "Việc thực hiện đồng thời nhiều lệnh get không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:892
+#: core/slavebase.cpp:888
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Việc mở tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:894
+#: core/slavebase.cpp:890
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Giao thức %1 không hỗ trợ hành động %2."
 
-#: core/slavebase.cpp:1052
+#: core/slavebase.cpp:1048
 #, kde-format
 msgid "&Yes"
 msgstr "&Có"
 
-#: core/slavebase.cpp:1053
+#: core/slavebase.cpp:1049
 #, kde-format
 msgid "&No"
 msgstr "&Không"
@@ -2999,43 +2999,43 @@ msgstr ""
 "hiện tại (%1).<br /><br />Nếu thiết lập này không được chọn, mục này sẽ có ở "
 "tất cả các ứng dụng.</qt>"
 
-#: filewidgets/kfileplacesitem.cpp:142
+#: filewidgets/kfileplacesitem.cpp:143
 #, kde-format
 msgctxt "@item"
 msgid "Places"
 msgstr "Địa điểm"
 
-#: filewidgets/kfileplacesitem.cpp:145
+#: filewidgets/kfileplacesitem.cpp:146
 #, kde-format
 msgctxt "@item"
 msgid "Remote"
 msgstr "Ở xa"
 
-#: filewidgets/kfileplacesitem.cpp:148
+#: filewidgets/kfileplacesitem.cpp:149
 #, kde-format
 msgctxt "@item The place group section name for recent dynamic lists"
 msgid "Recent"
 msgstr "Gần đây"
 
-#: filewidgets/kfileplacesitem.cpp:151
+#: filewidgets/kfileplacesitem.cpp:152
 #, kde-format
 msgctxt "@item"
 msgid "Search For"
 msgstr "Tìm kiếm"
 
-#: filewidgets/kfileplacesitem.cpp:154
+#: filewidgets/kfileplacesitem.cpp:155
 #, kde-format
 msgctxt "@item"
 msgid "Devices"
 msgstr "Thiết bị"
 
-#: filewidgets/kfileplacesitem.cpp:157
+#: filewidgets/kfileplacesitem.cpp:158
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
 msgstr "Thiết bị gắn ngoài"
 
-#: filewidgets/kfileplacesitem.cpp:160
+#: filewidgets/kfileplacesitem.cpp:161
 #, kde-format
 msgctxt "@item"
 msgid "Tags"
@@ -3048,119 +3048,119 @@ msgstr "Tất cả thẻ gắn"
 
 #. i18nc call is made later, with this context, so the two must match.
 #. createSystemBookmark actually does nothing with its second argument, the context.
-#: filewidgets/kfileplacesmodel.cpp:295
+#: filewidgets/kfileplacesmodel.cpp:290
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Nhà"
 
-#: filewidgets/kfileplacesmodel.cpp:301
+#: filewidgets/kfileplacesmodel.cpp:296
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr "Bàn làm việc"
 
-#: filewidgets/kfileplacesmodel.cpp:308 filewidgets/kfileplacesmodel.cpp:464
+#: filewidgets/kfileplacesmodel.cpp:303 filewidgets/kfileplacesmodel.cpp:459
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Tài liệu"
 
-#: filewidgets/kfileplacesmodel.cpp:315
+#: filewidgets/kfileplacesmodel.cpp:310
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr "Tải về"
 
-#: filewidgets/kfileplacesmodel.cpp:320
+#: filewidgets/kfileplacesmodel.cpp:315
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Mạng"
 
-#: filewidgets/kfileplacesmodel.cpp:325
+#: filewidgets/kfileplacesmodel.cpp:320
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Thùng rác"
 
-#: filewidgets/kfileplacesmodel.cpp:383
+#: filewidgets/kfileplacesmodel.cpp:378
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Music"
 msgstr "Nhạc"
 
-#: filewidgets/kfileplacesmodel.cpp:390
+#: filewidgets/kfileplacesmodel.cpp:385
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Pictures"
 msgstr "Ảnh"
 
-#: filewidgets/kfileplacesmodel.cpp:399 filewidgets/kfileplacesmodel.cpp:476
+#: filewidgets/kfileplacesmodel.cpp:394 filewidgets/kfileplacesmodel.cpp:471
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr "Phim"
 
-#: filewidgets/kfileplacesmodel.cpp:426
+#: filewidgets/kfileplacesmodel.cpp:421
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
 msgstr "Tệp gần đây"
 
-#: filewidgets/kfileplacesmodel.cpp:431
+#: filewidgets/kfileplacesmodel.cpp:426
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
 msgstr "Địa điểm gần đây"
 
-#: filewidgets/kfileplacesmodel.cpp:454
+#: filewidgets/kfileplacesmodel.cpp:449
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
 msgstr "Chỉnh sửa hôm nay"
 
-#: filewidgets/kfileplacesmodel.cpp:458
+#: filewidgets/kfileplacesmodel.cpp:453
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr "Chỉnh sửa hôm qua"
 
-#: filewidgets/kfileplacesmodel.cpp:468
+#: filewidgets/kfileplacesmodel.cpp:463
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Ảnh"
 
-#: filewidgets/kfileplacesmodel.cpp:472
+#: filewidgets/kfileplacesmodel.cpp:467
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "Âm thanh"
 
-#: filewidgets/kfileplacesmodel.cpp:1371
+#: filewidgets/kfileplacesmodel.cpp:1363
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Rút '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1373
+#: filewidgets/kfileplacesmodel.cpp:1365
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "Rút an &toàn '%1'"
 
 # msgid "Unmount"
-#: filewidgets/kfileplacesmodel.cpp:1376
+#: filewidgets/kfileplacesmodel.cpp:1368
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "Bỏ &gắn kết '%1'"
 
 # msgid "Eject"
-#: filewidgets/kfileplacesmodel.cpp:1396
+#: filewidgets/kfileplacesmodel.cpp:1388
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "Rú&t '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1432
+#: filewidgets/kfileplacesmodel.cpp:1424
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Thiết bị '%1' không phải là đĩa và không thể rút ra được."
@@ -3168,13 +3168,13 @@ msgstr "Thiết bị '%1' không phải là đĩa và không thể rút ra đư�
 # msgid ""
 # An error occurred while attempting to %1, %2. A summary of the reasons is
 # below.<ul>
-#: filewidgets/kfileplacesmodel.cpp:1467
+#: filewidgets/kfileplacesmodel.cpp:1459
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Lỗi xảy ra khi đang truy cập '%1', phản hồi từ hệ thống: %2"
 
 # msgid "An unexpected error (%1) occurred while attempting to %2."
-#: filewidgets/kfileplacesmodel.cpp:1469
+#: filewidgets/kfileplacesmodel.cpp:1461
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Lỗi xảy ra khi đang truy cập '%1'"
@@ -3831,12 +3831,12 @@ msgstr "Bấm để điều hướng địa điểm"
 msgid "Click to Edit Location"
 msgstr "Bấm để sửa địa điểm"
 
-#: gui/applicationlauncherjob.cpp:105 gui/kprocessrunner.cpp:183
+#: gui/applicationlauncherjob.cpp:105 gui/kprocessrunner.cpp:210
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Bạn không có quyền thực thi tệp này."
 
-#: gui/applicationlauncherjob.cpp:116 gui/commandlauncherjob.cpp:109
+#: gui/applicationlauncherjob.cpp:116 gui/commandlauncherjob.cpp:113
 #, kde-format
 msgctxt "Launching application"
 msgid "Launching %1"
@@ -3889,7 +3889,7 @@ msgstr ""
 "%1\n"
 "không hợp lệ."
 
-#: gui/kprocessrunner.cpp:207
+#: gui/kprocessrunner.cpp:234
 #, kde-format
 msgid "Launching %1"
 msgstr "Đang khởi chạy %1"
@@ -7158,12 +7158,12 @@ msgid "Do you really want to move this item to the Trash?"
 msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] "Bạn có thật sự muốn chuyển %1 thứ này vào thùng rác?"
 
-#: widgets/jobuidelegate.cpp:373 widgets/widgetsaskuseractionhandler.cpp:360
+#: widgets/jobuidelegate.cpp:387 widgets/widgetsaskuseractionhandler.cpp:360
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Chuỗi chứng chỉ SSL ngang hàng có vẻ đã bị hỏng."
 
-#: widgets/jobuidelegate.cpp:373 widgets/widgetsaskuseractionhandler.cpp:363
+#: widgets/jobuidelegate.cpp:387 widgets/widgetsaskuseractionhandler.cpp:363
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -9055,7 +9055,6 @@ msgstr "Thử lại"
 
 #: widgets/skipdialog.cpp:54
 #, kde-format
-#| msgid "Replace"
 msgid "Replace All"
 msgstr "Thay thế tất cả"
 
