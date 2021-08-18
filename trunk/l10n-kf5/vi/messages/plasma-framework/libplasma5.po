@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-framework\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-09 00:14+0000\n"
+"POT-Creation-Date: 2021-08-14 00:14+0000\n"
 "PO-Revision-Date: 2021-05-03 22:21+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -185,29 +185,6 @@ msgstr ""
 "không bị đạt đến. Vì vậy, đặt một kích thước lớn thường cũng không gây vấn "
 "đề gì."
 
-#: plasma/packagestructure/dataenginepackage.cpp:29
-#: plasma/packagestructure/packages.cpp:83
-#, kde-format
-msgid "Data Files"
-msgstr "Tệp dữ liệu"
-
-#: plasma/packagestructure/dataenginepackage.cpp:31
-#: plasma/packagestructure/packages.cpp:85
-#, kde-format
-msgid "Executable Scripts"
-msgstr "Kịch bản thực thi được"
-
-#: plasma/packagestructure/dataenginepackage.cpp:36
-#, kde-format
-msgid "Service Descriptions"
-msgstr "Mô tả dịch vụ"
-
-#: plasma/packagestructure/dataenginepackage.cpp:39
-#: plasma/packagestructure/packages.cpp:91
-#, kde-format
-msgid "Translations"
-msgstr "Bản dịch"
-
 #: plasma/packagestructure/packages.cpp:28
 #: plasma/packagestructure/packages.cpp:47
 #, kde-format
@@ -239,121 +216,144 @@ msgstr "Định nghĩa cấu hình"
 msgid "User Interface"
 msgstr "Giao diện người dùng"
 
+#: plasma/packagestructure/packages.cpp:83
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:29
+#, kde-format
+msgid "Data Files"
+msgstr "Tệp dữ liệu"
+
+#: plasma/packagestructure/packages.cpp:85
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:31
+#, kde-format
+msgid "Executable Scripts"
+msgstr "Kịch bản thực thi được"
+
 #: plasma/packagestructure/packages.cpp:89
 #, kde-format
 msgid "Screenshot"
 msgstr "Ảnh chụp màn hình"
 
-#: plasma/packagestructure/plasmathemepackage.cpp:30
+#: plasma/packagestructure/packages.cpp:91
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:39
 #, kde-format
-msgid "Images for dialogs"
-msgstr "Ảnh cho hộp thoại"
+msgid "Translations"
+msgstr "Bản dịch"
 
-#: plasma/packagestructure/plasmathemepackage.cpp:31
-#: plasma/packagestructure/plasmathemepackage.cpp:32
-#, kde-format
-msgid "Generic dialog background"
-msgstr "Nền hộp thoại trơn"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:33
-#: plasma/packagestructure/plasmathemepackage.cpp:34
-#, kde-format
-msgid "Theme for the logout dialog"
-msgstr "Chủ đề cho hộp thoại đăng xuất"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:36
-#, kde-format
-msgid "Wallpaper packages"
-msgstr "Gói phông nền"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:38
-#, kde-format
-msgid "Images for widgets"
-msgstr "Ảnh cho phụ kiện"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:39
-#: plasma/packagestructure/plasmathemepackage.cpp:40
-#, kde-format
-msgid "Background image for widgets"
-msgstr "Ảnh nền cho phụ kiện"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:41
-#: plasma/packagestructure/plasmathemepackage.cpp:42
-#, kde-format
-msgid "Analog clock face"
-msgstr "Mặt đồng hồ kim"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:43
-#: plasma/packagestructure/plasmathemepackage.cpp:44
-#, kde-format
-msgid "Background image for panels"
-msgstr "Ảnh nền cho bảng"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:45
-#: plasma/packagestructure/plasmathemepackage.cpp:46
-#, kde-format
-msgid "Background for graphing widgets"
-msgstr "Nền cho phụ kiện vẽ biểu đồ"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:47
-#: plasma/packagestructure/plasmathemepackage.cpp:48
-#, kde-format
-msgid "Background image for tooltips"
-msgstr "Ảnh nền cho chú giải"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:50
-#, kde-format
-msgid "Opaque images for dialogs"
-msgstr "Ảnh đục cho hộp thoại"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:51
-#: plasma/packagestructure/plasmathemepackage.cpp:52
-#, kde-format
-msgid "Opaque generic dialog background"
-msgstr "Nền hộp thoại trơn đục"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:55
-#: plasma/packagestructure/plasmathemepackage.cpp:58
-#, kde-format
-msgid "Opaque theme for the logout dialog"
-msgstr "Chủ đề đục cho hộp thoại đăng xuất"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:60
-#, kde-format
-msgid "Opaque images for widgets"
-msgstr "Ảnh đục cho phụ kiện"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:63
-#: plasma/packagestructure/plasmathemepackage.cpp:66
-#, kde-format
-msgid "Opaque background image for panels"
-msgstr "Ảnh nền đục cho bảng"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:67
-#: plasma/packagestructure/plasmathemepackage.cpp:68
-#, kde-format
-msgid "Opaque background image for tooltips"
-msgstr "Ảnh nền đục cho chú giải"
-
-#: plasma/packagestructure/plasmathemepackage.cpp:70
-#, kde-format
-msgid "KColorScheme configuration file"
-msgstr "Tệp cấu hình KColorScheme"
-
-#: plasma/packagestructure/plasmoidpackage.cpp:29
+#: plasma/packagestructure/plasma_applet_packagestructure.cpp:29
 #, kde-format
 msgid "Configuration UI pages model"
 msgstr "Mô hình các trang giao diện cấu hình"
 
-#: plasma/packagestructure/plasmoidpackage.cpp:30
+#: plasma/packagestructure/plasma_applet_packagestructure.cpp:30
 #, kde-format
 msgid "Configuration XML file"
 msgstr "Tệp XML cấu hình"
 
-#: plasma/packagestructure/plasmoidpackage.cpp:41
+#: plasma/packagestructure/plasma_applet_packagestructure.cpp:41
 #, kde-format
 msgid "Custom expander for compact applets"
 msgstr "Bộ mở rộng tự chọn cho các tiểu ứng dụng gọn"
+
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:36
+#, kde-format
+msgid "Service Descriptions"
+msgstr "Mô tả dịch vụ"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:30
+#, kde-format
+msgid "Images for dialogs"
+msgstr "Ảnh cho hộp thoại"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:31
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:32
+#, kde-format
+msgid "Generic dialog background"
+msgstr "Nền hộp thoại trơn"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:33
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:34
+#, kde-format
+msgid "Theme for the logout dialog"
+msgstr "Chủ đề cho hộp thoại đăng xuất"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:36
+#, kde-format
+msgid "Wallpaper packages"
+msgstr "Gói phông nền"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:38
+#, kde-format
+msgid "Images for widgets"
+msgstr "Ảnh cho phụ kiện"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:39
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:40
+#, kde-format
+msgid "Background image for widgets"
+msgstr "Ảnh nền cho phụ kiện"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:41
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:42
+#, kde-format
+msgid "Analog clock face"
+msgstr "Mặt đồng hồ kim"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:43
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:44
+#, kde-format
+msgid "Background image for panels"
+msgstr "Ảnh nền cho bảng"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:45
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:46
+#, kde-format
+msgid "Background for graphing widgets"
+msgstr "Nền cho phụ kiện vẽ biểu đồ"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:47
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:48
+#, kde-format
+msgid "Background image for tooltips"
+msgstr "Ảnh nền cho chú giải"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:50
+#, kde-format
+msgid "Opaque images for dialogs"
+msgstr "Ảnh đục cho hộp thoại"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:51
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:52
+#, kde-format
+msgid "Opaque generic dialog background"
+msgstr "Nền hộp thoại trơn đục"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:55
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:58
+#, kde-format
+msgid "Opaque theme for the logout dialog"
+msgstr "Chủ đề đục cho hộp thoại đăng xuất"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:60
+#, kde-format
+msgid "Opaque images for widgets"
+msgstr "Ảnh đục cho phụ kiện"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:63
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:66
+#, kde-format
+msgid "Opaque background image for panels"
+msgstr "Ảnh nền đục cho bảng"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:67
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:68
+#, kde-format
+msgid "Opaque background image for tooltips"
+msgstr "Ảnh nền đục cho chú giải"
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:70
+#, kde-format
+msgid "KColorScheme configuration file"
+msgstr "Tệp cấu hình KColorScheme"
 
 #: plasma/pluginloader.cpp:95
 #, kde-format
@@ -494,52 +494,52 @@ msgstr "Không tạo được một ScriptEngine %1 cho phụ kiện %2."
 msgid "Show Alternatives..."
 msgstr "Hiện các lựa chọn khác..."
 
-#: plasma/private/applet_p.cpp:267
+#: plasma/private/applet_p.cpp:268
 #, kde-format
 msgid "Widget Removed"
 msgstr "Đã xoá bỏ phụ kiện"
 
-#: plasma/private/applet_p.cpp:268
+#: plasma/private/applet_p.cpp:269
 #, kde-format
 msgid "The widget \"%1\" has been removed."
 msgstr "Phụ kiện \"%1\" đã bị xoá bỏ."
 
-#: plasma/private/applet_p.cpp:272
+#: plasma/private/applet_p.cpp:273
 #, kde-format
 msgid "Panel Removed"
 msgstr "Đã xoá bỏ bảng"
 
-#: plasma/private/applet_p.cpp:273
+#: plasma/private/applet_p.cpp:274
 #, kde-format
 msgid "A panel has been removed."
 msgstr "Một bảng đã bị xoá bỏ."
 
-#: plasma/private/applet_p.cpp:276
+#: plasma/private/applet_p.cpp:277
 #, kde-format
 msgid "Desktop Removed"
 msgstr "Đã xoá bỏ bàn làm việc"
 
-#: plasma/private/applet_p.cpp:277
+#: plasma/private/applet_p.cpp:278
 #, kde-format
 msgid "A desktop has been removed."
 msgstr "Một bàn làm việc đã bị xoá bỏ."
 
-#: plasma/private/applet_p.cpp:280
+#: plasma/private/applet_p.cpp:281
 #, kde-format
 msgid "Undo"
 msgstr "Đảo ngược"
 
-#: plasma/private/applet_p.cpp:368
+#: plasma/private/applet_p.cpp:369
 #, kde-format
 msgid "Widget Settings"
 msgstr "Thiết lập phụ kiện"
 
-#: plasma/private/applet_p.cpp:375
+#: plasma/private/applet_p.cpp:376
 #, kde-format
 msgid "Remove this Widget"
 msgstr "Xoá bỏ phụ kiện này"
 
-#: plasma/private/applet_p.cpp:382
+#: plasma/private/applet_p.cpp:383
 #: plasma/private/associatedapplicationmanager.cpp:65
 #: plasma/private/associatedapplicationmanager.cpp:124
 #: plasma/private/associatedapplicationmanager.cpp:166
@@ -547,7 +547,7 @@ msgstr "Xoá bỏ phụ kiện này"
 msgid "Run the Associated Application"
 msgstr "Chạy ứng dụng liên kết"
 
-#: plasma/private/applet_p.cpp:473
+#: plasma/private/applet_p.cpp:474
 #, kde-format
 msgid "Script initialization failed"
 msgstr "Khởi tạo kịch bản thất bại"

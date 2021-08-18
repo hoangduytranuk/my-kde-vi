@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-08 00:17+0000\n"
+"POT-Creation-Date: 2021-08-16 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Allow feed to load external references from internet."
 msgstr ""
 
-#: export/akregatorstorageexporter.cpp:276
+#: export/akregatorstorageexporter.cpp:277
 #, kde-format
 msgid "Akregator Export for %1"
 msgstr ""
@@ -1724,6 +1724,7 @@ msgstr ""
 
 #: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:190
 #, kde-format
+msgctxt "@title:window"
 msgid "Save As"
 msgstr ""
 
@@ -1988,7 +1989,7 @@ msgid_plural "Days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/feed/feedpropertiesdialog.cpp:62
+#: src/feed/feedpropertiesdialog.cpp:62 src/feed/feedpropertiesdialog.cpp:116
 #, kde-format
 msgctxt "@title:window"
 msgid "Feed Properties"
@@ -2014,14 +2015,9 @@ msgid_plural " articles"
 msgstr[0] ""
 msgstr[1] ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
-#: src/feed/feedpropertiesdialog.cpp:116 src/ui/feedpropertieswidgetbase.ui:20
-#, kde-format
-msgid "Feed Properties"
-msgstr ""
-
 #: src/feed/feedpropertiesdialog.cpp:116
 #, kde-format
+msgctxt "@title:window"
 msgid "Properties of %1"
 msgstr ""
 
@@ -2152,7 +2148,7 @@ msgstr[1] ""
 msgid "Networking is available now."
 msgstr ""
 
-#: src/mainwindow.cpp:103
+#: src/mainwindow.cpp:102
 #, kde-format
 msgid ""
 "Could not find the Akregator part; please check your installation.\n"
@@ -2325,6 +2321,12 @@ msgstr ""
 #: src/ui/addfeedwidgetbase.ui:135
 #, kde-format
 msgid "Feed &URL:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
+#: src/ui/feedpropertieswidgetbase.ui:20
+#, kde-format
+msgid "Feed Properties"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab1)

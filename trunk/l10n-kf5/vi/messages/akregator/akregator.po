@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-08 00:17+0000\n"
+"POT-Creation-Date: 2021-08-16 00:17+0000\n"
 "PO-Revision-Date: 2012-07-09 22:08+0800\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -596,7 +596,7 @@ msgstr "Dùng bộ đệm trình &duyệt (ít lưu lượng mạng hơn)"
 msgid "Allow feed to load external references from internet."
 msgstr ""
 
-#: export/akregatorstorageexporter.cpp:276
+#: export/akregatorstorageexporter.cpp:277
 #, kde-format
 msgid "Akregator Export for %1"
 msgstr ""
@@ -1779,6 +1779,7 @@ msgstr "Một trình đọc tin tức của KDE."
 #: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:190
 #, fuzzy, kde-format
 #| msgid "&Save Link As..."
+msgctxt "@title:window"
 msgid "Save As"
 msgstr "&Lưu liên kết dạng..."
 
@@ -2060,7 +2061,7 @@ msgid "Day"
 msgid_plural "Days"
 msgstr[0] "Ngày"
 
-#: src/feed/feedpropertiesdialog.cpp:62
+#: src/feed/feedpropertiesdialog.cpp:62 src/feed/feedpropertiesdialog.cpp:116
 #, fuzzy, kde-format
 #| msgid "Feed Properties"
 msgctxt "@title:window"
@@ -2085,14 +2086,10 @@ msgid " article"
 msgid_plural " articles"
 msgstr[0] " bài viết"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
-#: src/feed/feedpropertiesdialog.cpp:116 src/ui/feedpropertieswidgetbase.ui:20
-#, kde-format
-msgid "Feed Properties"
-msgstr "Thuộc tính nguồn tin"
-
 #: src/feed/feedpropertiesdialog.cpp:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Properties of %1"
+msgctxt "@title:window"
 msgid "Properties of %1"
 msgstr "Thuộc tính của %1"
 
@@ -2225,7 +2222,7 @@ msgstr[0] "<qt>Bạn có chắc muốn xoá %1 bài viết đã chọn?</qt>"
 msgid "Networking is available now."
 msgstr "Mạng hiện sẵn sàng."
 
-#: src/mainwindow.cpp:103
+#: src/mainwindow.cpp:102
 #, kde-format
 msgid ""
 "Could not find the Akregator part; please check your installation.\n"
@@ -2410,6 +2407,12 @@ msgstr "Thêm nguồn mới"
 #, kde-format
 msgid "Feed &URL:"
 msgstr "&URL nguồn tin:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
+#: src/ui/feedpropertieswidgetbase.ui:20
+#, kde-format
+msgid "Feed Properties"
+msgstr "Thuộc tính nguồn tin"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab1)
 #: src/ui/feedpropertieswidgetbase.ui:42

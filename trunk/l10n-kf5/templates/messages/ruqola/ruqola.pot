@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-10 00:16+0000\n"
+"POT-Creation-Date: 2021-08-18 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -578,7 +578,7 @@ msgid "Channel Type"
 msgstr ""
 
 #: core/model/directoryteamsmodel.cpp:104
-#: core/model/roommodel.cpp:598 widgets/administratordialog/administratorwidget.cpp:60
+#: core/model/roommodel.cpp:600 widgets/administratordialog/administratorwidget.cpp:60
 #: widgets/directory/directorytabwidget.cpp:32
 #, kde-format
 msgid "Rooms"
@@ -700,33 +700,33 @@ msgstr ""
 msgid "Mentions"
 msgstr ""
 
-#: core/model/roommodel.cpp:592
+#: core/model/roommodel.cpp:594
 #, kde-format
 msgid "Unread"
 msgstr ""
 
-#: core/model/roommodel.cpp:594
+#: core/model/roommodel.cpp:596
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
-#: core/model/roommodel.cpp:596 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:32
+#: core/model/roommodel.cpp:598 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:32
 #: widgets/directory/directorytabwidget.cpp:34
 #, kde-format
 msgid "Teams"
 msgstr ""
 
-#: core/model/roommodel.cpp:600 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:31
+#: core/model/roommodel.cpp:602 widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:31
 #, kde-format
 msgid "Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:602
+#: core/model/roommodel.cpp:604
 #, kde-format
 msgid "Private Messages"
 msgstr ""
 
-#: core/model/roommodel.cpp:604
+#: core/model/roommodel.cpp:606
 #, kde-format
 msgid "Unknown"
 msgstr ""
@@ -2129,49 +2129,54 @@ msgid_plural "%1 users (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/channellist/channellistview.cpp:100
+#: widgets/channellist/channellistview.cpp:105
 #, kde-format
 msgid "Mark As Read"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:100
+#: widgets/channellist/channellistview.cpp:105
 #, kde-format
 msgid "Mark As Unread"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:108
+#: widgets/channellist/channellistview.cpp:113
 #: widgets/room/messagelistview.cpp:227
 #, kde-format
 msgid "Set as Favorite"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:108
+#: widgets/channellist/channellistview.cpp:113
 #, kde-format
 msgid "Unset as Favorite"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:115
+#: widgets/channellist/channellistview.cpp:120
 #, kde-format
 msgid "Hide Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:126
-#: widgets/channellist/channellistview.cpp:188
+#: widgets/channellist/channellistview.cpp:131
+#: widgets/channellist/channellistview.cpp:241
 #, kde-format
 msgid "Convert to Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:135
+#: widgets/channellist/channellistview.cpp:141
+#, kde-format
+msgid "Convert to Channel"
+msgstr ""
+
+#: widgets/channellist/channellistview.cpp:151
 #, kde-format
 msgid "Move to Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:147
+#: widgets/channellist/channellistview.cpp:163
 #, kde-format
 msgid "Quit Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:188
+#: widgets/channellist/channellistview.cpp:241
 #, kde-format
 msgid "Are you sure to convert it to team? It can not be undo."
 msgstr ""
@@ -2424,12 +2429,12 @@ msgctxt "@title"
 msgid "Delete Room"
 msgstr ""
 
-#: widgets/dialogs/channelinfoeditablewidget.cpp:284
+#: widgets/dialogs/channelinfoeditablewidget.cpp:274
 #, kde-format
 msgid "This Room has a password"
 msgstr ""
 
-#: widgets/dialogs/channelinfoeditablewidget.cpp:284
+#: widgets/dialogs/channelinfoeditablewidget.cpp:274
 #, kde-format
 msgid "Add password"
 msgstr ""
@@ -3024,17 +3029,17 @@ msgctxt "@title:window"
 msgid "Display Image"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:256
+#: widgets/dialogs/showimagewidget.cpp:258
 #, kde-format
 msgid "Zoom:"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:274
+#: widgets/dialogs/showimagewidget.cpp:276
 #, kde-format
 msgid "100%"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:282
+#: widgets/dialogs/showimagewidget.cpp:284
 #, kde-format
 msgid "Fit to View"
 msgstr ""
@@ -3794,7 +3799,7 @@ msgstr ""
 msgid "(Show More Infos...)"
 msgstr ""
 
-#: widgets/room/roomheaderlabel.cpp:116
+#: widgets/room/roomheaderlabel.cpp:117
 #, kde-format
 msgid "(Show Less Info...)"
 msgstr ""
@@ -4116,10 +4121,10 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr ""
 
-#: widgets/teams/searchteamdialog.cpp:32 widgets/teams/teamsearchroomdialog.cpp:37
+#: widgets/teams/searchteamdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
-msgid "Search Rooms"
+msgid "Search Team"
 msgstr ""
 
 #: widgets/teams/searchteamwidget.cpp:35
@@ -4144,40 +4149,63 @@ msgstr ""
 msgid "Search Room..."
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:139
+#: widgets/teams/teamchannelswidget.cpp:131
 #, kde-format
 msgid "Add Existing Room"
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:141
+#: widgets/teams/teamchannelswidget.cpp:133
 #, kde-format
 msgid "Create Room"
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:147
+#: widgets/teams/teamchannelswidget.cpp:139
 #, kde-format
 msgid "Remove Autojoin"
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:147
+#: widgets/teams/teamchannelswidget.cpp:139
 #, kde-format
 msgid "Add Autojoin"
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:154
+#: widgets/teams/teamchannelswidget.cpp:146
 #, kde-format
 msgid "Remove from Team"
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:189
+#: widgets/teams/teamchannelswidget.cpp:181
 #, kde-format
 msgid "Would you like to remove this Channel from team?"
 msgstr ""
 
-#: widgets/teams/teamchannelswidget.cpp:189
+#: widgets/teams/teamchannelswidget.cpp:181
 #, kde-format
 msgctxt "@title"
 msgid "Remove Channel from Team"
+msgstr ""
+
+#: widgets/teams/teamconverttochanneldialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert Team to Channel"
+msgstr ""
+
+#: widgets/teams/teamconverttochanneldialog.cpp:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert Team '%1' to Channel"
+msgstr ""
+
+#: widgets/teams/teamconverttochannelwidget.cpp:35
+#, kde-format
+msgid "Select Room To Delete:"
+msgstr ""
+
+#: widgets/teams/teamsearchroomdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Rooms"
 msgstr ""
 
 #: widgets/teams/teamselectdeletedroomdialog.cpp:36

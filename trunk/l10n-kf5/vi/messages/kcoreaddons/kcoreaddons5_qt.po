@@ -168,7 +168,7 @@ msgctxt "KAboutLicense|@item license"
 msgid "Not specified"
 msgstr "Chưa chỉ định"
 
-#: lib/kaboutdata.cpp:956
+#: lib/kaboutdata.cpp:958
 msgctxt "KAboutData|replace this with information about your translation team"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
@@ -180,49 +180,69 @@ msgstr ""
 "trên toàn thế giới.</p><p>Để biết thêm thông tin về công việc quốc tế hoá "
 "KDE, hãy xem <a href=\"https://l10n.kde.org\">https://l10n.kde.org</a></p>"
 
-#: lib/kaboutdata.cpp:1214
+#: lib/kaboutdata.cpp:1216
 msgctxt "KAboutData CLI|"
 msgid "Show author information."
 msgstr "Hiện thông tin tác giả."
 
-#: lib/kaboutdata.cpp:1215
+#: lib/kaboutdata.cpp:1217
 msgctxt "KAboutData CLI|"
 msgid "Show license information."
 msgstr "Hiện thông tin giấy phép."
 
-#: lib/kaboutdata.cpp:1217
+#: lib/kaboutdata.cpp:1219
 msgctxt "KAboutData CLI|"
 msgid "The base file name of the desktop entry for this application."
 msgstr "Tên tệp cơ sở của mục desktop dành cho ứng dụng này."
 
-#: lib/kaboutdata.cpp:1218
+#: lib/kaboutdata.cpp:1220
 msgctxt "KAboutData CLI|"
 msgid "file name"
 msgstr "tên tệp"
 
-#: lib/kaboutdata.cpp:1228
+#: lib/kaboutdata.cpp:1230
 msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "Ứng dụng này được viết bởi một người muốn ẩn danh."
 
-#: lib/kaboutdata.cpp:1230
+#: lib/kaboutdata.cpp:1232
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "%1 was written by:"
 msgstr "%1 được viết bởi:"
 
-#: lib/kaboutdata.cpp:1241
+#: lib/kaboutdata.cpp:1243
 msgctxt "KAboutData CLI|"
 msgid "Please use https://bugs.kde.org to report bugs."
 msgstr "Vui lòng dùng https://bugs.kde.org để báo lỗi."
 
-#: lib/kaboutdata.cpp:1243
+#: lib/kaboutdata.cpp:1245
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "Please report bugs to %1."
 msgstr "Vui lòng báo lỗi đến %1."
 
-#: lib/plugin/kpluginloader.cpp:107
+#: lib/plugin/kpluginfactory.cpp:40
+#, qt-format
+msgctxt "KPluginFactory|"
+msgid "Could not load plugin from %1"
+msgstr ""
+
+#: lib/plugin/kpluginfactory.cpp:50
+#, fuzzy, qt-format
+#| msgctxt "KPluginLoader|"
+#| msgid "The library %1 does not offer a KPluginFactory."
+msgctxt "KPluginFactory|"
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "Thư viện %1 không cung cấp KPluginFactory nào."
+
+#: lib/plugin/kpluginfactory.h:488
+#, qt-format
+msgctxt "KPluginFactory|"
+msgid "KPluginFactory could not load the plugin: %1"
+msgstr ""
+
+#: lib/plugin/kpluginloader.cpp:109
 #, qt-format
 msgctxt "KPluginLoader|"
 msgid "The library %1 does not offer a KPluginFactory."

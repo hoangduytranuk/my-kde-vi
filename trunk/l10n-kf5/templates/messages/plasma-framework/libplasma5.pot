@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-framework\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-09 00:14+0000\n"
+"POT-Creation-Date: 2021-08-14 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -181,29 +181,6 @@ msgid ""
 "larger size is therefore often quite safe."
 msgstr ""
 
-#: plasma/packagestructure/dataenginepackage.cpp:29
-#: plasma/packagestructure/packages.cpp:83
-#, kde-format
-msgid "Data Files"
-msgstr ""
-
-#: plasma/packagestructure/dataenginepackage.cpp:31
-#: plasma/packagestructure/packages.cpp:85
-#, kde-format
-msgid "Executable Scripts"
-msgstr ""
-
-#: plasma/packagestructure/dataenginepackage.cpp:36
-#, kde-format
-msgid "Service Descriptions"
-msgstr ""
-
-#: plasma/packagestructure/dataenginepackage.cpp:39
-#: plasma/packagestructure/packages.cpp:91
-#, kde-format
-msgid "Translations"
-msgstr ""
-
 #: plasma/packagestructure/packages.cpp:28
 #: plasma/packagestructure/packages.cpp:47
 #, kde-format
@@ -235,120 +212,143 @@ msgstr ""
 msgid "User Interface"
 msgstr ""
 
+#: plasma/packagestructure/packages.cpp:83
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:29
+#, kde-format
+msgid "Data Files"
+msgstr ""
+
+#: plasma/packagestructure/packages.cpp:85
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:31
+#, kde-format
+msgid "Executable Scripts"
+msgstr ""
+
 #: plasma/packagestructure/packages.cpp:89
 #, kde-format
 msgid "Screenshot"
 msgstr ""
 
-#: plasma/packagestructure/plasmathemepackage.cpp:30
+#: plasma/packagestructure/packages.cpp:91
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:39
 #, kde-format
-msgid "Images for dialogs"
+msgid "Translations"
 msgstr ""
 
-#: plasma/packagestructure/plasmathemepackage.cpp:31
-#: plasma/packagestructure/plasmathemepackage.cpp:32
-#, kde-format
-msgid "Generic dialog background"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:33
-#: plasma/packagestructure/plasmathemepackage.cpp:34
-#, kde-format
-msgid "Theme for the logout dialog"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:36
-#, kde-format
-msgid "Wallpaper packages"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:38
-#, kde-format
-msgid "Images for widgets"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:39
-#: plasma/packagestructure/plasmathemepackage.cpp:40
-#, kde-format
-msgid "Background image for widgets"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:41
-#: plasma/packagestructure/plasmathemepackage.cpp:42
-#, kde-format
-msgid "Analog clock face"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:43
-#: plasma/packagestructure/plasmathemepackage.cpp:44
-#, kde-format
-msgid "Background image for panels"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:45
-#: plasma/packagestructure/plasmathemepackage.cpp:46
-#, kde-format
-msgid "Background for graphing widgets"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:47
-#: plasma/packagestructure/plasmathemepackage.cpp:48
-#, kde-format
-msgid "Background image for tooltips"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:50
-#, kde-format
-msgid "Opaque images for dialogs"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:51
-#: plasma/packagestructure/plasmathemepackage.cpp:52
-#, kde-format
-msgid "Opaque generic dialog background"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:55
-#: plasma/packagestructure/plasmathemepackage.cpp:58
-#, kde-format
-msgid "Opaque theme for the logout dialog"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:60
-#, kde-format
-msgid "Opaque images for widgets"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:63
-#: plasma/packagestructure/plasmathemepackage.cpp:66
-#, kde-format
-msgid "Opaque background image for panels"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:67
-#: plasma/packagestructure/plasmathemepackage.cpp:68
-#, kde-format
-msgid "Opaque background image for tooltips"
-msgstr ""
-
-#: plasma/packagestructure/plasmathemepackage.cpp:70
-#, kde-format
-msgid "KColorScheme configuration file"
-msgstr ""
-
-#: plasma/packagestructure/plasmoidpackage.cpp:29
+#: plasma/packagestructure/plasma_applet_packagestructure.cpp:29
 #, kde-format
 msgid "Configuration UI pages model"
 msgstr ""
 
-#: plasma/packagestructure/plasmoidpackage.cpp:30
+#: plasma/packagestructure/plasma_applet_packagestructure.cpp:30
 #, kde-format
 msgid "Configuration XML file"
 msgstr ""
 
-#: plasma/packagestructure/plasmoidpackage.cpp:41
+#: plasma/packagestructure/plasma_applet_packagestructure.cpp:41
 #, kde-format
 msgid "Custom expander for compact applets"
+msgstr ""
+
+#: plasma/packagestructure/plasma_dataengine_packagestructure.cpp:36
+#, kde-format
+msgid "Service Descriptions"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:30
+#, kde-format
+msgid "Images for dialogs"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:31
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:32
+#, kde-format
+msgid "Generic dialog background"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:33
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:34
+#, kde-format
+msgid "Theme for the logout dialog"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:36
+#, kde-format
+msgid "Wallpaper packages"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:38
+#, kde-format
+msgid "Images for widgets"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:39
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:40
+#, kde-format
+msgid "Background image for widgets"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:41
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:42
+#, kde-format
+msgid "Analog clock face"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:43
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:44
+#, kde-format
+msgid "Background image for panels"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:45
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:46
+#, kde-format
+msgid "Background for graphing widgets"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:47
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:48
+#, kde-format
+msgid "Background image for tooltips"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:50
+#, kde-format
+msgid "Opaque images for dialogs"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:51
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:52
+#, kde-format
+msgid "Opaque generic dialog background"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:55
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:58
+#, kde-format
+msgid "Opaque theme for the logout dialog"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:60
+#, kde-format
+msgid "Opaque images for widgets"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:63
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:66
+#, kde-format
+msgid "Opaque background image for panels"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:67
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:68
+#, kde-format
+msgid "Opaque background image for tooltips"
+msgstr ""
+
+#: plasma/packagestructure/plasma_theme_packagestructure.cpp:70
+#, kde-format
+msgid "KColorScheme configuration file"
 msgstr ""
 
 #: plasma/pluginloader.cpp:95
@@ -490,59 +490,59 @@ msgstr ""
 msgid "Show Alternatives..."
 msgstr ""
 
-#: plasma/private/applet_p.cpp:267
+#: plasma/private/applet_p.cpp:268
 #, kde-format
 msgid "Widget Removed"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:268
+#: plasma/private/applet_p.cpp:269
 #, kde-format
 msgid "The widget \"%1\" has been removed."
 msgstr ""
 
-#: plasma/private/applet_p.cpp:272
+#: plasma/private/applet_p.cpp:273
 #, kde-format
 msgid "Panel Removed"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:273
+#: plasma/private/applet_p.cpp:274
 #, kde-format
 msgid "A panel has been removed."
 msgstr ""
 
-#: plasma/private/applet_p.cpp:276
+#: plasma/private/applet_p.cpp:277
 #, kde-format
 msgid "Desktop Removed"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:277
+#: plasma/private/applet_p.cpp:278
 #, kde-format
 msgid "A desktop has been removed."
 msgstr ""
 
-#: plasma/private/applet_p.cpp:280
+#: plasma/private/applet_p.cpp:281
 #, kde-format
 msgid "Undo"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:368
+#: plasma/private/applet_p.cpp:369
 #, kde-format
 msgid "Widget Settings"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:375
+#: plasma/private/applet_p.cpp:376
 #, kde-format
 msgid "Remove this Widget"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:382 plasma/private/associatedapplicationmanager.cpp:65
+#: plasma/private/applet_p.cpp:383 plasma/private/associatedapplicationmanager.cpp:65
 #: plasma/private/associatedapplicationmanager.cpp:124
 #: plasma/private/associatedapplicationmanager.cpp:166
 #, kde-format
 msgid "Run the Associated Application"
 msgstr ""
 
-#: plasma/private/applet_p.cpp:473
+#: plasma/private/applet_p.cpp:474
 #, kde-format
 msgid "Script initialization failed"
 msgstr ""

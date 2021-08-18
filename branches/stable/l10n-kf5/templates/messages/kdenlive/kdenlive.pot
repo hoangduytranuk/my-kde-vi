@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-07 01:38+0000\n"
+"POT-Creation-Date: 2021-08-16 01:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -194,7 +194,9 @@ msgstr ""
 #: data/effects/qtcrop.xml:7 data/effects/tracker.xml:8
 #: data/effects/tracker.xml:52 data/transitions/affine.xml:7
 #: data/transitions/composite.xml:7 data/transitions/qtblend.xml:7
-#: data/transitions/region.xml:10 src/assets/view/widgets/keyframeimport.cpp:328
+#: data/transitions/region.xml:10 src/assets/view/widgets/keyframeimport.cpp:217
+#: src/assets/view/widgets/keyframeimport.cpp:337
+#: src/assets/view/widgets/keyframeimport.cpp:780
 #, kde-format
 msgid "Rectangle"
 msgstr ""
@@ -638,7 +640,7 @@ msgstr ""
 msgid "Overlay text with keywords replaced"
 msgstr ""
 
-#: data/effects/dynamictext.xml:7 src/assets/view/widgets/keyframeimport.cpp:314
+#: data/effects/dynamictext.xml:7 src/assets/view/widgets/keyframeimport.cpp:323
 #: src/project/transitionsettings.cpp:119
 #, kde-format
 msgid "Geometry"
@@ -987,7 +989,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, position_label)
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize_2)
-#: data/effects/frei0r_alphagrad.xml:9 src/assets/view/widgets/keyframeimport.cpp:315
+#: data/effects/frei0r_alphagrad.xml:9 src/assets/view/widgets/keyframeimport.cpp:324
 #: src/ui/clipdurationdialog_ui.ui:20 src/ui/editsub_ui.ui:127
 #: src/ui/keyframedialog_ui.ui:20 src/ui/markerdialog_ui.ui:20
 #, kde-format
@@ -2959,7 +2961,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_rotateX)
 #: data/effects/frei0r_pr0be.xml:13 data/effects/frei0r_pr0file.xml:8
-#: src/assets/view/widgets/keyframeimport.cpp:318
+#: src/assets/view/widgets/keyframeimport.cpp:327
 #: src/ui/titlewidget_ui.ui:549
 #, kde-format
 msgid "X"
@@ -2968,7 +2970,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbY)
 #. i18n: ectx: property (text), widget (QLabel, label_rotateY)
 #: data/effects/frei0r_pr0be.xml:17 data/effects/frei0r_pr0file.xml:12
-#: src/assets/view/widgets/keyframeimport.cpp:319
+#: src/assets/view/widgets/keyframeimport.cpp:328
 #: src/ui/histogram_ui.ui:50 src/ui/titlewidget_ui.ui:572
 #, kde-format
 msgid "Y"
@@ -4662,7 +4664,7 @@ msgstr ""
 
 #: data/effects/qtblend.xml:11 data/effects/qtblend.xml:29
 #: data/transitions/frei0r_cairoaffineblend.xml:19
-#: data/transitions/qtblend.xml:10 src/assets/view/widgets/keyframeimport.cpp:304
+#: data/transitions/qtblend.xml:10 src/assets/view/widgets/keyframeimport.cpp:313
 #, kde-format
 msgid "Rotation"
 msgstr ""
@@ -4917,8 +4919,8 @@ msgid "Center Frequency"
 msgstr ""
 
 #: data/effects/sox_band.xml:10 data/effects/sox_flanger.xml:16
-#: src/assets/view/widgets/keyframeimport.cpp:321
-#: src/assets/view/widgets/keyframeimport.cpp:675
+#: src/assets/view/widgets/keyframeimport.cpp:330
+#: src/assets/view/widgets/keyframeimport.cpp:684
 #: src/assets/view/widgets/keyframewidget.cpp:258
 #: src/assets/view/widgets/keyframewidget.cpp:307
 #, kde-format
@@ -6336,109 +6338,109 @@ msgstr ""
 msgid "Data to import:"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:190
-#: src/assets/view/widgets/keyframeimport.cpp:192
+#: src/assets/view/widgets/keyframeimport.cpp:195
+#: src/assets/view/widgets/keyframeimport.cpp:197
 #, kde-format
 msgid "Top left"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:190
-#: src/assets/view/widgets/keyframeimport.cpp:192
+#: src/assets/view/widgets/keyframeimport.cpp:195
+#: src/assets/view/widgets/keyframeimport.cpp:197
 #: src/transitions/view/mixstackview.cpp:58
 #, kde-format
 msgid "Center"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:190
-#: src/assets/view/widgets/keyframeimport.cpp:192
+#: src/assets/view/widgets/keyframeimport.cpp:195
+#: src/assets/view/widgets/keyframeimport.cpp:197
 #, kde-format
 msgid "Bottom right"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:193
+#: src/assets/view/widgets/keyframeimport.cpp:198
 #, kde-format
 msgid "Map "
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:194
+#: src/assets/view/widgets/keyframeimport.cpp:199
 #, kde-format
 msgid " to "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #. i18n: ectx: property (text), widget (QLabel, label_offset)
-#: src/assets/view/widgets/keyframeimport.cpp:225
+#: src/assets/view/widgets/keyframeimport.cpp:234
 #: src/ui/configcapture_ui.ui:403 src/ui/titlewidget_ui.ui:790
 #, kde-format
 msgid "Offset"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:229
-#: src/assets/view/widgets/keyframeimport.cpp:354
-#: src/assets/view/widgets/keyframeimport.cpp:357
-#: src/assets/view/widgets/keyframeimport.cpp:360
+#: src/assets/view/widgets/keyframeimport.cpp:238
 #: src/assets/view/widgets/keyframeimport.cpp:363
-#: src/assets/view/widgets/keyframeimport.cpp:374
-#: src/assets/view/widgets/keyframeimport.cpp:377
-#: src/assets/view/widgets/keyframeimport.cpp:380
+#: src/assets/view/widgets/keyframeimport.cpp:366
+#: src/assets/view/widgets/keyframeimport.cpp:369
+#: src/assets/view/widgets/keyframeimport.cpp:372
 #: src/assets/view/widgets/keyframeimport.cpp:383
 #: src/assets/view/widgets/keyframeimport.cpp:386
+#: src/assets/view/widgets/keyframeimport.cpp:389
+#: src/assets/view/widgets/keyframeimport.cpp:392
+#: src/assets/view/widgets/keyframeimport.cpp:395
 #, kde-format
 msgid "Source range %1 to %2"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:237
+#: src/assets/view/widgets/keyframeimport.cpp:246
 #, kde-format
 msgid "Destination range"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:245
+#: src/assets/view/widgets/keyframeimport.cpp:254
 #, kde-format
 msgid "Actual range only"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:252
+#: src/assets/view/widgets/keyframeimport.cpp:261
 #, kde-format
 msgid "Limit keyframe number"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:316
+#: src/assets/view/widgets/keyframeimport.cpp:325
 #, kde-format
 msgid "Inverted Position"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:317
+#: src/assets/view/widgets/keyframeimport.cpp:326
 #, kde-format
 msgid "Offset Position"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:324
-#: src/assets/view/widgets/keyframeimport.cpp:683
+#: src/assets/view/widgets/keyframeimport.cpp:333
+#: src/assets/view/widgets/keyframeimport.cpp:692
 #: src/assets/view/widgets/keyframewidget.cpp:257
 #: src/assets/view/widgets/keyframewidget.cpp:305
 #, kde-format
 msgid "Height"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:366
-#: src/assets/view/widgets/keyframeimport.cpp:389
+#: src/assets/view/widgets/keyframeimport.cpp:375
+#: src/assets/view/widgets/keyframeimport.cpp:398
 #, kde-format
 msgid "Source range: (%1-%2), (%3-%4)"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:657
+#: src/assets/view/widgets/keyframeimport.cpp:666
 #, kde-format
 msgctxt "X as in x coordinate"
 msgid "X"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:666
+#: src/assets/view/widgets/keyframeimport.cpp:675
 #, kde-format
 msgctxt "Y as in y coordinate"
 msgid "Y"
 msgstr ""
 
-#: src/assets/view/widgets/keyframeimport.cpp:892
+#: src/assets/view/widgets/keyframeimport.cpp:935
 #: src/assets/view/widgets/keyframewidget.cpp:165
 #, kde-format
 msgid "Import keyframes from clipboard"
@@ -7479,7 +7481,7 @@ msgstr ""
 msgid "Loading project clips..."
 msgstr ""
 
-#: src/bin/projectsubclip.cpp:56 src/doc/documentvalidator.cpp:1970
+#: src/bin/projectsubclip.cpp:56 src/doc/documentvalidator.cpp:2041
 #, kde-format
 msgid "Zone %1"
 msgstr ""
@@ -9137,7 +9139,7 @@ msgstr ""
 msgid "extra audio"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2071
+#: src/doc/documentvalidator.cpp:2142
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -9146,12 +9148,12 @@ msgid ""
 "This might result in data loss."
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2163
+#: src/doc/documentvalidator.cpp:2234
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2166
+#: src/doc/documentvalidator.cpp:2237
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr ""

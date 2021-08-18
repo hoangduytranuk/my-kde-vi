@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nota\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-11 00:17+0000\n"
+"POT-Creation-Date: 2021-08-16 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -119,8 +119,8 @@ msgstr ""
 msgid "Open in new split"
 msgstr ""
 
-#: views/editor/Editor.qml:138 views/editor/EditorView.qml:286
-#: views/widgets/ItemMenu.qml:129
+#: views/editor/Editor.qml:138 views/editor/EditorView.qml:295
+#: views/widgets/ItemMenu.qml:136
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -135,130 +135,79 @@ msgstr ""
 msgid "Toogle SideBar"
 msgstr ""
 
-#: views/editor/EditorView.qml:150
-#, kde-format
-msgid "Redo"
-msgstr ""
-
-#: views/editor/EditorView.qml:159
-#, kde-format
-msgid "Save"
-msgstr ""
-
-#: views/editor/EditorView.qml:168
-#, kde-format
-msgid "Save as..."
-msgstr ""
-
-#: views/editor/EditorView.qml:177
+#: views/editor/EditorView.qml:180
 #, kde-format
 msgid "Find and Replace"
 msgstr ""
 
-#: views/editor/EditorView.qml:190 views/editor/EditorView.qml:200
-#, kde-format
-msgid "Go to Line"
-msgstr ""
-
-#: views/editor/EditorView.qml:202
-#, kde-format
-msgid "Line number"
-msgstr ""
-
-#: views/editor/EditorView.qml:210
+#: views/editor/EditorView.qml:193
 #, kde-format
 msgid "Line/Word Counter"
 msgstr ""
 
-#: views/editor/EditorView.qml:225 views/RecentView.qml:138
-#: views/widgets/ItemMenu.qml:56
+#: views/editor/EditorView.qml:250 views/editor/EditorView.qml:260
 #, kde-format
-msgid "Share"
+msgid "Go to Line"
 msgstr ""
 
-#: views/editor/EditorView.qml:235 views/widgets/ItemMenu.qml:83
+#: views/editor/EditorView.qml:262
+#, kde-format
+msgid "Line number"
+msgstr ""
+
+#: views/editor/EditorView.qml:270 views/widgets/ItemMenu.qml:90
 #, kde-format
 msgid "Show in folder"
 msgstr ""
 
-#: views/editor/EditorView.qml:246 views/widgets/ItemMenu.qml:93
-#, kde-format
-msgid "Info"
-msgstr ""
-
-#: views/editor/EditorView.qml:257 views/widgets/ItemMenu.qml:37
-#, kde-format
-msgid "UnFav it"
-msgstr ""
-
-#: views/editor/EditorView.qml:271
+#: views/editor/EditorView.qml:280
 #, kde-format
 msgid "Delete file"
 msgstr ""
 
-#: views/editor/EditorView.qml:284 views/widgets/ItemMenu.qml:127
+#: views/editor/EditorView.qml:293 views/widgets/ItemMenu.qml:134
 #, kde-format
 msgid "Delete file?"
 msgstr ""
 
-#: views/editor/EditorView.qml:285 views/widgets/ItemMenu.qml:128
+#: views/editor/EditorView.qml:294 views/widgets/ItemMenu.qml:135
 #, kde-format
 msgid "Accept"
 msgstr ""
 
-#: views/editor/EditorView.qml:287 views/widgets/ItemMenu.qml:130
+#: views/editor/EditorView.qml:296 views/widgets/ItemMenu.qml:137
 #, kde-format
 msgid ""
 "Are sure you want to delete \n"
 "%1"
 msgstr ""
 
-#: views/editor/EditorView.qml:338
-#, kde-format
-msgid "Focus Mode"
-msgstr ""
-
-#: views/editor/EditorView.qml:346 views/widgets/ShortcutsDialog.qml:86
-#, kde-format
-msgid "Terminal"
-msgstr ""
-
-#: views/editor/EditorView.qml:357
-#, kde-format
-msgid "Split Horizontally"
-msgstr ""
-
-#: views/editor/EditorView.qml:357
-#, kde-format
-msgid "Split Vertically"
-msgstr ""
-
-#: views/editor/EditorView.qml:377 views/widgets/ShortcutsDialog.qml:12
+#: views/editor/EditorView.qml:389 views/widgets/ShortcutsDialog.qml:12
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
 
-#: views/editor/EditorView.qml:388
+#: views/editor/EditorView.qml:400
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: views/editor/EditorView.qml:399
+#: views/editor/EditorView.qml:411
 #, kde-format
 msgid "Plugins"
 msgstr ""
 
-#: views/editor/EditorView.qml:406
+#: views/editor/EditorView.qml:418
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: views/editor/EditorView.qml:429
+#: views/editor/EditorView.qml:441
 #, kde-format
 msgid "Create a new document"
 msgstr ""
 
-#: views/editor/EditorView.qml:430
+#: views/editor/EditorView.qml:442
 #, kde-format
 msgid "You can create or open a new document."
 msgstr ""
@@ -363,7 +312,12 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: views/RecentView.qml:145 views/widgets/ItemMenu.qml:63
+#: views/RecentView.qml:138
+#, kde-format
+msgid "Share"
+msgstr ""
+
+#: views/RecentView.qml:145 views/widgets/ItemMenu.qml:70
 #, kde-format
 msgid "Export"
 msgstr ""
@@ -373,22 +327,22 @@ msgstr ""
 msgid "Filter..."
 msgstr ""
 
-#: views/widgets/ItemMenu.qml:22 views/widgets/ShortcutsDialog.qml:191
+#: views/widgets/ItemMenu.qml:55 views/widgets/ShortcutsDialog.qml:191
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: views/widgets/ItemMenu.qml:44
+#: views/widgets/ItemMenu.qml:100
 #, kde-format
-msgid "Tags"
+msgid "Info"
 msgstr ""
 
-#: views/widgets/ItemMenu.qml:105
+#: views/widgets/ItemMenu.qml:112
 #, kde-format
 msgid "Copy"
 msgstr ""
 
-#: views/widgets/ItemMenu.qml:115
+#: views/widgets/ItemMenu.qml:122
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -599,6 +553,11 @@ msgstr ""
 #: views/widgets/ShortcutsDialog.qml:66
 #, kde-format
 msgid "Path Edit"
+msgstr ""
+
+#: views/widgets/ShortcutsDialog.qml:86
+#, kde-format
+msgid "Terminal"
 msgstr ""
 
 #: views/widgets/ShortcutsDialog.qml:101
