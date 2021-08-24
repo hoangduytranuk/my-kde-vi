@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-16 00:17+0000\n"
+"POT-Creation-Date: 2021-08-24 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -420,7 +420,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_qbuttonCancel)
 #. i18n: ectx: property (text), widget (QPushButton, m_skipButton)
 #: kmymoney/dialogs/kaccountselectdlg.cpp:80
-#: kmymoney/dialogs/kaccountselectdlg.ui:167
+#: kmymoney/dialogs/kaccountselectdlg.ui:178
 #: kmymoney/views/kenterscheduledlg.ui:191
 #: kmymoney/widgets/kmymoneybriefschedule.ui:322
 #, kde-format
@@ -460,7 +460,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_kButtonAbort)
 #: kmymoney/dialogs/kaccountselectdlg.cpp:93
-#: kmymoney/dialogs/kaccountselectdlg.ui:137
+#: kmymoney/dialogs/kaccountselectdlg.ui:155
 #, kde-format
 msgid "&Abort"
 msgstr ""
@@ -484,14 +484,14 @@ msgid "Account selection"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_headerLabel)
-#: kmymoney/dialogs/kaccountselectdlg.ui:70
+#: kmymoney/dialogs/kaccountselectdlg.ui:79
 #, kde-format
 msgid "Account to import to"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_createAssetButton)
 #. i18n: ectx: property (text), widget (QPushButton, m_createButton)
-#: kmymoney/dialogs/kaccountselectdlg.ui:90
+#: kmymoney/dialogs/kaccountselectdlg.ui:99
 #: kmymoney/wizards/newaccountwizard/kloanpayoutpage.ui:85
 #, kde-format
 msgid "Create"
@@ -500,7 +500,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnOK)
 #. i18n: ectx: property (text), widget (QPushButton, m_qbuttonOk)
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: kmymoney/dialogs/kaccountselectdlg.ui:160
+#: kmymoney/dialogs/kaccountselectdlg.ui:185
 #: kmymoney/dialogs/keditequityentry.ui:210
 #: kmymoney/dialogs/kimportverifydlg.ui:85
 #: kmymoney/plugins/csv/import/securitiesdlg.cpp:63
@@ -965,7 +965,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbldateCol)
 #. i18n: ectx: attribute (title), widget (QWidget, tabDate)
 #: kmymoney/dialogs/kcurrencycalculator.ui:87
-#: kmymoney/dialogs/kcurrencycalculator.ui:291
+#: kmymoney/dialogs/kcurrencycalculator.ui:274
 #: kmymoney/dialogs/kequitypriceupdatedlg.cpp:79
 #: kmymoney/dialogs/kmymoneypricedlg.ui:60
 #: kmymoney/dialogs/settings/ksettingsonlinequotes.ui:92
@@ -1018,7 +1018,7 @@ msgid "Exchange &rate / Price"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_conversionExample)
-#: kmymoney/dialogs/kcurrencycalculator.ui:260
+#: kmymoney/dialogs/kcurrencycalculator.ui:301
 #, kde-format
 msgid ""
 "xx\n"
@@ -1553,7 +1553,7 @@ msgstr ""
 #: kmymoney/dialogs/kequitypriceupdatedlg.cpp:79
 #: kmymoney/dialogs/kmymoneypricedlg.ui:65
 #: kmymoney/dialogs/settings/ksettingsonlinequotes.ui:75
-#: kmymoney/models/equitiesmodel.cpp:193 kmymoney/models/equitiesmodel.cpp:396
+#: kmymoney/models/equitiesmodel.cpp:193 kmymoney/models/equitiesmodel.cpp:415
 #: kmymoney/mymoney/storage/journalmodel.cpp:55
 #: kmymoney/mymoney/storage/pricemodel.cpp:40
 #: kmymoney/plugins/csv/export/csvwriter.cpp:98
@@ -4239,7 +4239,7 @@ msgctxt "Roles in project"
 msgid "CSV import/export"
 msgstr ""
 
-#: kmymoney/kmymoney.cpp:399 kmymoney/models/equitiesmodel.cpp:388
+#: kmymoney/kmymoney.cpp:399 kmymoney/models/equitiesmodel.cpp:407
 #: kmymoney/widgets/kmymoneyaccountselector.cpp:191
 #: kmymoney/widgets/kmymoneyaccountselector.cpp:399
 #: kmymoney/wizards/newaccountwizard/kaccounttypepage.cpp:79
@@ -5436,13 +5436,15 @@ msgstr ""
 msgid "Delete prices"
 msgstr ""
 
-#: kmymoney/kmymoneyutils.cpp:563 kmymoney/plugins/qif/import/mymoneyqifreader.cpp:429
+#: kmymoney/kmymoneyutils.cpp:563 kmymoney/plugins/qif/import/kimportdlg.cpp:143
+#: kmymoney/plugins/qif/import/mymoneyqifreader.cpp:429
 #: kmymoney/templates/templateloader.cpp:77
 #, kde-format
 msgid "Error while loading file '%1'."
 msgstr ""
 
-#: kmymoney/kmymoneyutils.cpp:565 kmymoney/plugins/qif/import/mymoneyqifreader.cpp:431
+#: kmymoney/kmymoneyutils.cpp:565 kmymoney/plugins/qif/import/kimportdlg.cpp:143
+#: kmymoney/plugins/qif/import/mymoneyqifreader.cpp:431
 #: kmymoney/plugins/qif/import/mymoneyqifreader.cpp:1002
 #: kmymoney/templates/templateloader.cpp:79
 #, kde-format
@@ -5643,7 +5645,7 @@ msgid "Unable to update price for %1 (empty quote data)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: kmymoney/models/equitiesmodel.cpp:191 kmymoney/models/equitiesmodel.cpp:390
+#: kmymoney/models/equitiesmodel.cpp:191 kmymoney/models/equitiesmodel.cpp:409
 #: kmymoney/mymoney/storage/securitiesmodel.cpp:81
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:57
 #: kmymoney/plugins/csv/import/securitiesdlg.ui:77
@@ -5654,7 +5656,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelInv_quantity)
 #. i18n: ectx: property (text), item, widget (QTreeWidget, m_editAmounts)
-#: kmymoney/models/equitiesmodel.cpp:192 kmymoney/models/equitiesmodel.cpp:394
+#: kmymoney/models/equitiesmodel.cpp:192 kmymoney/models/equitiesmodel.cpp:413
 #: kmymoney/mymoney/storage/journalmodel.cpp:54
 #: kmymoney/plugins/csv/export/csvwriter.cpp:98
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:53
@@ -5665,14 +5667,14 @@ msgid "Quantity"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, m_editAmounts)
-#: kmymoney/models/equitiesmodel.cpp:194 kmymoney/models/equitiesmodel.cpp:392
+#: kmymoney/models/equitiesmodel.cpp:194 kmymoney/models/equitiesmodel.cpp:411
 #: kmymoney/mymoney/storage/journalmodel.cpp:57
 #: kmymoney/plugins/qif/config/mymoneyqifprofileeditor.ui:414
 #, kde-format
 msgid "Value"
 msgstr ""
 
-#: kmymoney/models/equitiesmodel.cpp:502 kmymoney/widgets/columnselector.cpp:212
+#: kmymoney/models/equitiesmodel.cpp:521 kmymoney/widgets/columnselector.cpp:212
 #, kde-format
 msgid "Displayed columns"
 msgstr ""
@@ -7761,7 +7763,7 @@ msgstr ""
 msgid "Cost center"
 msgstr ""
 
-#: kmymoney/mymoney/storage/institutionsmodel.cpp:218
+#: kmymoney/mymoney/storage/institutionsmodel.cpp:229
 #, kde-format
 msgid "Accounts with no institution assigned"
 msgstr ""
@@ -10301,7 +10303,7 @@ msgid "Loading commodities..."
 msgstr ""
 
 #: kmymoney/plugins/gnc/import/mymoneygncreader.cpp:1475
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:295
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:296
 #, kde-format
 msgid "Loading prices..."
 msgstr ""
@@ -10313,13 +10315,13 @@ msgid "Imported History"
 msgstr ""
 
 #: kmymoney/plugins/gnc/import/mymoneygncreader.cpp:1508
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:270
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:271
 #, kde-format
 msgid "Loading accounts..."
 msgstr ""
 
 #: kmymoney/plugins/gnc/import/mymoneygncreader.cpp:1654
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:264
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:265
 #, kde-format
 msgid "Loading transactions..."
 msgstr ""
@@ -12073,7 +12075,7 @@ msgstr ""
 
 #: kmymoney/plugins/qif/config/mymoneyqifprofileeditor.cpp:216
 #: kmymoney/plugins/qif/export/kexportdlg.cpp:129
-#: kmymoney/plugins/qif/import/kimportdlg.cpp:170
+#: kmymoney/plugins/qif/import/kimportdlg.cpp:172
 #, kde-format
 msgid "The default QIF profile"
 msgstr ""
@@ -16439,53 +16441,53 @@ msgstr ""
 msgid "%1 (Brokerage)"
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:277
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:278
 #, kde-format
 msgid "Loading securities..."
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:283
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:284
 #, kde-format
 msgid "Loading currencies..."
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:289
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:290
 #, kde-format
 msgid "Loading reports..."
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:306
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:307
 #, kde-format
 msgid "Loading cost center..."
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:343
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:351
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:344
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:352
 #, kde-format
 msgid "ID '%1' is invalid in line %2."
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:421
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:422
 #, kde-format
 msgid "Unknown XML tag %1 found in line %2"
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:426
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:427
 #, kde-format
 msgid "Exception while reading %1 element: %2"
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:1443
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:1444
 #, kde-format
 msgid "File was not parsable. Reason: %1"
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:1615
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:1642
 #, kde-format
 msgid "Loading file information..."
 msgstr ""
 
-#: kmymoney/plugins/xml/mymoneystoragexml.cpp:1700
+#: kmymoney/plugins/xml/mymoneystoragexml.cpp:1727
 #, kde-format
 msgid "Loading user information..."
 msgstr ""

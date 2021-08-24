@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-25 00:17+0000\n"
+"POT-Creation-Date: 2021-08-21 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useProxyCheck)
 #. i18n: ectx: label, entry (UseProxy), group (network)
-#: imapresource.kcfg:38 setupserverview_desktop.ui:596
+#: imapresource.kcfg:38 setupserverview_desktop.ui:560
 #, kde-format
 msgid "Connect using the system proxy settings"
 msgstr ""
@@ -267,7 +267,7 @@ msgstr ""
 msgid "No server configured yet."
 msgstr ""
 
-#: imapresourcebase.cpp:251 setupserver.cpp:659
+#: imapresourcebase.cpp:251 setupserver.cpp:651
 #, kde-format
 msgctxt "@title:window"
 msgid "Serverside Subscription"
@@ -478,14 +478,14 @@ msgstr ""
 msgid "Invalid search"
 msgstr ""
 
-#: serverinfodialog.cpp:21
+#: serverinfodialog.cpp:27
 #, kde-format
 msgctxt ""
 "@title:window Dialog title for dialog showing information about a server"
 msgid "Server Info"
 msgstr ""
 
-#: serverinfodialog.cpp:60
+#: serverinfodialog.cpp:83
 #, kde-format
 msgid "Resource not synchronized yet."
 msgstr ""
@@ -599,8 +599,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserver.cpp:74 setupserverview_desktop.ui:302
-#: setupserverview_desktop.ui:553
+#: setupserver.cpp:75 setupserverview_desktop.ui:294
+#: setupserverview_desktop.ui:517
 #, kde-format
 msgctxt "Authentication method"
 msgid "Clear text"
@@ -608,32 +608,37 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserver.cpp:76 setupserverview_desktop.ui:337
-#: setupserverview_desktop.ui:588
+#: setupserver.cpp:77 setupserverview_desktop.ui:329
+#: setupserverview_desktop.ui:552
 #, kde-format
 msgctxt "Authentication method"
 msgid "Anonymous"
 msgstr ""
 
-#: setupserver.cpp:78
+#: setupserver.cpp:79
 #, kde-format
 msgctxt "Authentication method"
 msgid "Gmail"
 msgstr ""
 
-#: setupserver.cpp:145
+#: setupserver.cpp:146
 #, kde-format
 msgid "Archive Folder"
 msgstr ""
 
-#: setupserver.cpp:157
+#: setupserver.cpp:158
 #, kde-format
 msgid " minute"
 msgid_plural " minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: setupserver.cpp:257
+#: setupserver.cpp:173
+#, kde-format
+msgid "Identity:"
+msgstr ""
+
+#: setupserver.cpp:252
 #, kde-format
 msgid ""
 "You have changed the address of the server. Even if this is the same server "
@@ -641,12 +646,12 @@ msgid ""
 "again. Are you sure you want to proceed?"
 msgstr ""
 
-#: setupserver.cpp:260
+#: setupserver.cpp:255
 #, kde-format
 msgid "Server address change"
 msgstr ""
 
-#: setupserver.cpp:267
+#: setupserver.cpp:262
 #, kde-format
 msgid ""
 "You have changed the user name. Even if this is a user name for the same "
@@ -654,12 +659,12 @@ msgid ""
 "account again. Are you sure you want to proceed?"
 msgstr ""
 
-#: setupserver.cpp:270
+#: setupserver.cpp:265
 #, kde-format
 msgid "User name change"
 msgstr ""
 
-#: setupserver.cpp:417 setupserver.cpp:476
+#: setupserver.cpp:412 setupserver.cpp:468
 #, kde-format
 msgid ""
 "Could not access KWallet. If you want to store the password permanently then "
@@ -667,34 +672,34 @@ msgid ""
 "below, but note that you will be prompted for your password when needed."
 msgstr ""
 
-#: setupserver.cpp:422 setupserver.cpp:481
+#: setupserver.cpp:417 setupserver.cpp:473
 #, kde-format
 msgid "Do not use KWallet"
 msgstr ""
 
-#: setupserver.cpp:546
+#: setupserver.cpp:538
 #, kde-format
 msgid "Unable to connect to the server, please verify the server address."
 msgstr ""
 
-#: setupserver.cpp:558
+#: setupserver.cpp:550
 #, kde-format
 msgid "<qt><b>STARTTLS is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:561
+#: setupserver.cpp:553
 #, kde-format
 msgid "<qt><b>SSL/TLS is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:565
+#: setupserver.cpp:557
 #, kde-format
 msgid ""
 "<qt><b>No security is supported. It is not recommended to connect to this "
 "server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:568
+#: setupserver.cpp:560
 #, kde-format
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
 msgstr ""
@@ -705,20 +710,20 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (text), widget (KTitleWidget, accountInfoLabel)
 #: setupserverview_desktop.ui:39
 #, kde-format
 msgid "Account Information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: setupserverview_desktop.ui:45
+#: setupserverview_desktop.ui:46
 #, kde-format
 msgid "Account Name:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
-#: setupserverview_desktop.ui:56
+#: setupserverview_desktop.ui:57
 #, kde-format
 msgid ""
 "Indicate the IMAP server. If you want to connect to a non-standard port for "
@@ -727,80 +732,80 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: setupserverview_desktop.ui:59
+#: setupserverview_desktop.ui:60
 #, kde-format
 msgid "I&MAP Server:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
-#: setupserverview_desktop.ui:73
+#: setupserverview_desktop.ui:74
 #, kde-format
 msgid "The username."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: setupserverview_desktop.ui:76
+#: setupserverview_desktop.ui:77
 #, kde-format
 msgid "Use&rname:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
-#: setupserverview_desktop.ui:90
+#: setupserverview_desktop.ui:91
 #, kde-format
 msgid "The password."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: setupserverview_desktop.ui:93 setupserverview_desktop.ui:278
+#: setupserverview_desktop.ui:94 setupserverview_desktop.ui:270
 #, kde-format
 msgid "Password:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, checkOptions)
-#: setupserverview_desktop.ui:110
+#. i18n: ectx: property (text), widget (KTitleWidget, checkOptions)
+#: setupserverview_desktop.ui:108
 #, kde-format
 msgid "Mail Checking Options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
-#: setupserverview_desktop.ui:116
+#: setupserverview_desktop.ui:115
 #, kde-format
 msgid "&Download all messages for offline use"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableMailCheckBox)
-#: setupserverview_desktop.ui:123
+#: setupserverview_desktop.ui:122
 #, kde-format
 msgid "Enable &interval mail checking"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: setupserverview_desktop.ui:132
+#: setupserverview_desktop.ui:129
 #, kde-format
 msgid "Check mail interval:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: setupserverview_desktop.ui:168
+#: setupserverview_desktop.ui:160
 #, kde-format
 msgid "Filtering"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, managesieveCheck)
-#: setupserverview_desktop.ui:174
+#: setupserverview_desktop.ui:166
 #, kde-format
 msgid "Server supports Sieve"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameConfigCheck)
-#: setupserverview_desktop.ui:181
+#: setupserverview_desktop.ui:173
 #, kde-format
 msgid "Reuse host and login configuration"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: setupserverview_desktop.ui:188
+#: setupserverview_desktop.ui:180
 #, kde-format
 msgid ""
 "The server port changed when ManageSieve turned into a full RFC Standard. "
@@ -809,57 +814,57 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: setupserverview_desktop.ui:200
+#: setupserverview_desktop.ui:192
 #, kde-format
 msgid "Managesieve port:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: setupserverview_desktop.ui:218
+#: setupserverview_desktop.ui:210
 #, kde-format
 msgid "Alternate Server:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, authentication)
-#: setupserverview_desktop.ui:231
+#: setupserverview_desktop.ui:223
 #, kde-format
 msgid "Authentication"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, noAuthentification)
-#: setupserverview_desktop.ui:241
+#: setupserverview_desktop.ui:233
 #, kde-format
 msgid "No authentication"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, customUserPassword)
-#: setupserverview_desktop.ui:251
+#: setupserverview_desktop.ui:243
 #, kde-format
 msgid "&Username and Password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, imapUserPassword)
-#: setupserverview_desktop.ui:265
+#: setupserverview_desktop.ui:257
 #, kde-format
 msgid "I&MAP Username and Password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: setupserverview_desktop.ui:285
+#: setupserverview_desktop.ui:277
 #, kde-format
 msgid "Username:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: setupserverview_desktop.ui:294 setupserverview_desktop.ui:545
+#: setupserverview_desktop.ui:286 setupserverview_desktop.ui:509
 #, kde-format
 msgid "Authentication:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:307 setupserverview_desktop.ui:558
+#: setupserverview_desktop.ui:299 setupserverview_desktop.ui:522
 #, kde-format
 msgctxt "Authentication method"
 msgid "LOGIN"
@@ -867,7 +872,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:312 setupserverview_desktop.ui:563
+#: setupserverview_desktop.ui:304 setupserverview_desktop.ui:527
 #, kde-format
 msgctxt "Authentication method"
 msgid "PLAIN"
@@ -875,7 +880,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:317 setupserverview_desktop.ui:568
+#: setupserverview_desktop.ui:309 setupserverview_desktop.ui:532
 #, kde-format
 msgctxt "Authentication method"
 msgid "CRAM-MD5"
@@ -883,7 +888,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:322 setupserverview_desktop.ui:573
+#: setupserverview_desktop.ui:314 setupserverview_desktop.ui:537
 #, kde-format
 msgctxt "Authentication method"
 msgid "DIGEST-MD5"
@@ -891,7 +896,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:327 setupserverview_desktop.ui:578
+#: setupserverview_desktop.ui:319 setupserverview_desktop.ui:542
 #, kde-format
 msgctxt "Authentication method"
 msgid "NTLM"
@@ -899,80 +904,92 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:332 setupserverview_desktop.ui:583
+#: setupserverview_desktop.ui:324 setupserverview_desktop.ui:547
 #, kde-format
 msgctxt "Authentication method"
 msgid "GSSAPI"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: setupserverview_desktop.ui:364
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: setupserverview_desktop.ui:356
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: setupserverview_desktop.ui:370
+#. i18n: ectx: property (text), widget (KTitleWidget)
+#: setupserverview_desktop.ui:362
 #, kde-format
 msgid "IMAP Settings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
-#: setupserverview_desktop.ui:378
+#: setupserverview_desktop.ui:371
 #, kde-format
 msgid "Enable server-side subscriptions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, subscriptionButton)
-#: setupserverview_desktop.ui:388
+#: setupserverview_desktop.ui:381
 #, kde-format
 msgid "Serverside Subscription..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
-#: setupserverview_desktop.ui:397
+#: setupserverview_desktop.ui:390
 #, kde-format
 msgid "Automaticall&y compact folders (expunges deleted messages)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: setupserverview_desktop.ui:406
+#: setupserverview_desktop.ui:397
 #, kde-format
 msgid "Trash folder:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, identityBox)
-#: setupserverview_desktop.ui:418
+#. i18n: ectx: property (text), widget (KTitleWidget)
+#: setupserverview_desktop.ui:407
 #, kde-format
-msgid "Identity Settings"
+msgid "Connection Settings"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, useDefaultIdentityCheck)
-#: setupserverview_desktop.ui:424
+#. i18n: ectx: property (text), widget (QPushButton, testButton)
+#: setupserverview_desktop.ui:416
 #, kde-format
-msgid "Use the default identity for this account"
+msgid "Auto Detect"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, useDefaultIdentityCheck)
-#: setupserverview_desktop.ui:427
+#. i18n: ectx: property (text), widget (QPushButton, showServerInfo)
+#: setupserverview_desktop.ui:423
 #, kde-format
-msgid "Use &default identity"
+msgid "Server Info"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, identityLabel)
-#: setupserverview_desktop.ui:436
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: setupserverview_desktop.ui:432
 #, kde-format
-msgid "Select the KMail identity used for this account"
+msgid "Encryption:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, identityLabel)
-#: setupserverview_desktop.ui:439
+#. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
+#: setupserverview_desktop.ui:441
 #, kde-format
-msgid "Identity:"
+msgid "STARTTLS"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, safeImap)
-#: setupserverview_desktop.ui:460
+#. i18n: ectx: property (text), widget (QRadioButton, sslRadio)
+#: setupserverview_desktop.ui:451
+#, kde-format
+msgid "SSL/TLS"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, noRadio)
+#: setupserverview_desktop.ui:461
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, imapInfo)
+#: setupserverview_desktop.ui:482
 #, kde-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -998,58 +1015,16 @@ msgid ""
 "connection. This setting is not recommended.</span></p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, safeImap)
-#: setupserverview_desktop.ui:463
-#, kde-format
-msgid "Connection Settings"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, testButton)
-#: setupserverview_desktop.ui:469
-#, kde-format
-msgid "Auto Detect"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: setupserverview_desktop.ui:481
-#, kde-format
-msgid "Encryption:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, noRadio)
-#: setupserverview_desktop.ui:490
-#, kde-format
-msgid "None"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, sslRadio)
-#: setupserverview_desktop.ui:503
-#, kde-format
-msgid "SSL/TLS"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
-#: setupserverview_desktop.ui:513
-#, kde-format
-msgid "STARTTLS"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: setupserverview_desktop.ui:525
+#: setupserverview_desktop.ui:489
 #, kde-format
 msgid "Port:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, testInfo)
-#: setupserverview_desktop.ui:614
+#: setupserverview_desktop.ui:573
 #, kde-format
 msgid "Empty"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, showServerInfo)
-#: setupserverview_desktop.ui:634
-#, kde-format
-msgid "Server Info"
 msgstr ""
 
 #: subscriptiondialog.cpp:47

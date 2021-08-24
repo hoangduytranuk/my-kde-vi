@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Krita Manual 4.4\n"
+"Project-Id-Version: Krita Manual 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-19 02:02+0200\n"
+"POT-Creation-Date: 2021-08-24 00:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -330,62 +330,71 @@ msgstr ""
 msgid "Distance between the brush tip impressions."
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:147
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:149
 msgid "Brush Mode"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:149
-msgid "Alpha Mask"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:150
-msgid "For colored brushes, don't paint the actual colors, but make a grayscale brush tip that will be colored by your selected foreground/background color. Lighter areas will be interpreted as more transparent."
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:151
-msgid "Color Image"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:152
-msgid "Use the brush tip image exactly as it is.  Especially useful for image stamps."
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:154
+msgid ".. image:: images/brushes/brush_tip_modes.png\n"
+"   :alt: the different modes demonstrated."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:154
-msgid "Combines the features of Alpha Mask and Image Stamp modes. Transparency is preserved as it is in Image Stamp mode, but colors or gray tones in the brush are replaced by the foreground color.  The Lightness values of the brush tip image (if thinking in HSL mode) are preserved, so dark parts of the image are dark, and bright parts are bright.  This allows image stamps where you can choose the color, but preserve highlights and shadows, and can even create an effect of thick paint in a brush stroke by simulating the highlights and shadows caused by the texture of the paint and brush stroke (sometimes called an \"impasto\" effect)."
+msgid "Different modes shown with different brush tips."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:156
+msgid "Alpha Mask"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:157
-msgid "There are three sliders here, to control the exact feel of the current brush tip in Lightness or Gradient mode:"
+msgid "For colored brushes, don't paint the actual colors, but make a grayscale brush tip that will be colored by your selected foreground/background color. Lighter areas will be interpreted as more transparent."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:158
+msgid "Color Image"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:159
-msgid "Neutral point"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:160
-msgid "This is the lightness level that will be the same as your current foreground color. Higher values than this will be lighter versions of the current foreground color, and lower, darker versions of the current color."
+msgid "Use the brush tip image exactly as it is.  Especially useful for image stamps."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:161
-msgid "Brightness"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:162
-msgid "Makes the tip as a whole brighter or darker."
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:163
-msgid "Lightness Map"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:163
-msgid "Contrast"
+msgid "Combines the features of Alpha Mask and Image Stamp modes. Transparency is preserved as it is in Image Stamp mode, but colors or gray tones in the brush are replaced by the foreground color.  The Lightness values of the brush tip image (if thinking in HSL mode) are preserved, so dark parts of the image are dark, and bright parts are bright.  This allows image stamps where you can choose the color, but preserve highlights and shadows, and can even create an effect of thick paint in a brush stroke by simulating the highlights and shadows caused by the texture of the paint and brush stroke (sometimes called an \"impasto\" effect)."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:164
-msgid "Increase the contrast between dark and light areas in the tip."
+msgid "There are three sliders here, to control the exact feel of the current brush tip in Lightness or Gradient mode:"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:166
-msgid "Use the lightness values of the brush tip image as a map to a gradient.  Black maps to the left side of the gradient, and white to the right side of the gradient.  The gradient used is the currently selected gradient in the main window, so you can change the gradient quickly and easily while painting.  This mode allows image stamps with multiple colors that can be changed (great for flowers or other colorful vegetation), and can allow paint brushes that have multiple colors.  Image adjustment sliders for Lightness Map mode can be used for this mode too."
+msgid "Neutral point"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:167
+msgid "This is the lightness level that will be the same as your current foreground color. Higher values than this will be lighter versions of the current foreground color, and lower, darker versions of the current color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:168
+msgid "Brightness"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:169
+msgid "Makes the tip as a whole brighter or darker."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:170
+msgid "Lightness Map"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:170
+msgid "Contrast"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:171
+msgid "Increase the contrast between dark and light areas in the tip."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:173
+msgid "Use the lightness values of the brush tip image as a map to a gradient.  Black maps to the left side of the gradient, and white to the right side of the gradient.  The gradient used is the currently selected gradient in the main window, so you can change the gradient quickly and easily while painting.  This mode allows image stamps with multiple colors that can be changed (great for flowers or other colorful vegetation), and can allow paint brushes that have multiple colors.  Image adjustment sliders for Lightness Map mode can be used for this mode too. A tutorial for this mode is here: :ref:`gradient_brush_tips` ."
 msgstr ""

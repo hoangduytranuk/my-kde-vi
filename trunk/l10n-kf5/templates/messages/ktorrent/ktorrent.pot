@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-07 00:16+0000\n"
+"POT-Creation-Date: 2021-08-23 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -176,7 +176,6 @@ msgstr ""
 #: ktorrent/dialogs/addpeersdlg.ui:57 ktorrent/dialogs/torrentcreatordlg.ui:258
 #: ktorrent/pref/networkpref.ui:23 ktorrent/pref/proxypref.ui:49
 #: ktorrent/pref/proxypref.ui:130 ktupnptest/upnptestwidget.ui:65
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:61
 #, kde-format
 msgid "Port:"
 msgstr ""
@@ -992,7 +991,6 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, m_tracker_tab)
 #: ktorrent/dialogs/torrentcreatordlg.ui:182
 #: plugins/infowidget/infowidgetplugin.cpp:236
-#: plugins/scripting/scripts/tracker_groups/tracker_groups.py:59
 #, kde-format
 msgid "Trackers"
 msgstr ""
@@ -2907,7 +2905,7 @@ msgid "Username and password required"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ktorrent/pref/proxypref.ui:170 plugins/scripting/scripts/email_notifications/emailconfig.ui:25
+#: ktorrent/pref/proxypref.ui:170
 #, kde-format
 msgid "Username:"
 msgstr ""
@@ -2919,8 +2917,7 @@ msgid "Username for the SOCKS proxy server."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ktorrent/pref/proxypref.ui:184 plugins/scripting/scripts/email_notifications/emailconfig.ui:35
+#: ktorrent/pref/proxypref.ui:184
 #, kde-format
 msgid "Password:"
 msgstr ""
@@ -3643,7 +3640,7 @@ msgid "Torrent Settings"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, PropertiesDlg)
-#: ktorrent/view/propertiesdlg.ui:14 plugins/scripting/scriptmanager.cpp:99
+#: ktorrent/view/propertiesdlg.ui:14
 #, kde-format
 msgid "Properties"
 msgstr ""
@@ -4318,7 +4315,6 @@ msgid "Torrents"
 msgstr ""
 
 #: libktcore/interfaces/functions.cpp:151
-#: plugins/scripting/scriptingplugin.cpp:159
 #, kde-format
 msgid "All files"
 msgstr ""
@@ -6675,267 +6671,6 @@ msgstr ""
 msgid "Ctrl+C"
 msgstr ""
 
-#. i18n: ectx: ToolBar (ScriptingToolbar)
-#. i18n: ectx: Menu (ScriptingMenu)
-#: plugins/scripting/ktorrent_scriptingui.rc:5
-#: plugins/scripting/ktorrent_scriptingui.rc:16
-#: plugins/scripting/scriptingplugin.cpp:59
-#: plugins/scripting/scriptingplugin.cpp:80
-#, kde-format
-msgid "Scripting"
-msgstr ""
-
-#: plugins/scripting/scriptingplugin.cpp:158
-#: plugins/scripting/scriptmanager.cpp:34
-#, kde-format
-msgid "Scripts"
-msgstr ""
-
-#: plugins/scripting/scriptingplugin.cpp:158
-#, kde-format
-msgid "KTorrent Script Packages"
-msgstr ""
-
-#: plugins/scripting/scriptingplugin.cpp:205
-#, kde-format
-msgid ""
-"Removing these scripts will fully delete them from your disk. Are you sure "
-"you want to do this?"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:39
-#, kde-format
-msgid "Widget to start, stop and manage scripts"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:79
-#, kde-format
-msgid "Add Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:83
-#, kde-format
-msgid "Remove Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:87
-#, kde-format
-msgid "Run Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:91
-#, kde-format
-msgid "Stop Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:95
-#, kde-format
-msgid "Edit Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:103
-#, kde-format
-msgid "Configure"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ScriptProperties)
-#: plugins/scripting/scriptmanager.cpp:220
-#: plugins/scripting/scriptproperties.ui:13
-#, kde-format
-msgid "Script Properties"
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:90
-#, kde-format
-msgid "Cannot open archive for reading."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:94
-#, kde-format
-msgid "Invalid archive."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:117
-#, kde-format
-msgid "There is already a script package named %1 installed."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:123
-#, kde-format
-msgid ""
-"Failed to load script from archive. There is something wrong with the "
-"desktop file."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:128
-#, kde-format
-msgid "No script found in archive."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:151 plugins/syndication/feedlist.cpp:161
-#, kde-format
-msgid "<b>%1</b><br/><br/>%2"
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:154
-#, kde-format
-msgid ""
-"No interpreter for this script could be found, so it cannot be executed. "
-"Please make sure the right interpreter is installed.<br/><br/><b>Hint:</b> "
-"All standard ktorrent scripts require krosspython"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/scripting/scriptproperties.ui:51
-#, kde-format
-msgid "Description:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/scripting/scriptproperties.ui:65
-#, kde-format
-msgid "License:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/scripting/scriptproperties.ui:79
-#, kde-format
-msgid "Author:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/scripting/scriptproperties.ui:93
-#, kde-format
-msgid "E-Mail:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/scripting/scriptproperties.ui:107
-#, kde-format
-msgid "Website:"
-msgstr ""
-
-#: plugins/scripting/scripts/auto_remove/auto_remove.py:53
-msgid "Auto Remove Settings"
-msgstr ""
-
-#: plugins/scripting/scripts/auto_remove/auto_remove.py:55
-msgid "Auto Remove"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, AutoResumeConfig)
-#. i18n: ectx: property (windowTitle), widget (QWidget, AutoRemoveConfig)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:13
-#: plugins/scripting/scripts/auto_resume/auto_resume.py:53
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:13
-#, kde-format
-msgid "Auto Resume Settings"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:19
-#, kde-format
-msgid "Auto remove a torrent when:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, finish_downloading)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:26
-#, kde-format
-msgid "The torrent finishes downloading"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, finish_seeding)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:33
-#, kde-format
-msgid "The torrent finishes seeding"
-msgstr ""
-
-#: plugins/scripting/scripts/auto_resume/auto_resume.py:55
-msgid "Auto Resume"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, auto_resume)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:19
-#, kde-format
-msgid "Auto resume after:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, hours)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:41
-#, kde-format
-msgid " hours"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, minutes)
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:51
-#: plugins/syndication/feedwidget.ui:141
-#, kde-format
-msgid " minutes"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, seconds)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:61
-#, kde-format
-msgid " seconds"
-msgstr ""
-
-#: plugins/scripting/scripts/email_notifications/email_notifications.py:105
-msgid "E-Mail Script Settings"
-msgstr ""
-
-#: plugins/scripting/scripts/email_notifications/email_notifications.py:107
-msgid "E-Mail Settings"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, EMailConfigWidget)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:13
-#, kde-format
-msgid "EMail Settings"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:19
-#, kde-format
-msgid "SMTP Server"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:49
-#, kde-format
-msgid "SMTP server:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, tls)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:80
-#, kde-format
-msgid "Use SSL/TLS encryption"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:90
-#, kde-format
-msgid "Destination"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:96
-#, kde-format
-msgid "Send mails to:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, add_cc)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:106
-#, kde-format
-msgid "Add CC:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, add_bcc)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:116
-#, kde-format
-msgid "Add BCC:"
-msgstr ""
-
 #. i18n: ectx: ToolBar (SearchToolBar)
 #: plugins/search/ktorrent_searchui.rc:4
 #, kde-format
@@ -8066,6 +7801,11 @@ msgstr[1] ""
 msgid "<b>%1</b><br/><br/>Download failed: <b>%2</b>"
 msgstr ""
 
+#: plugins/syndication/feedlist.cpp:161
+#, kde-format
+msgid "<b>%1</b><br/><br/>%2"
+msgstr ""
+
 #: plugins/syndication/feedwidget.cpp:29
 #, kde-format
 msgid ""
@@ -8127,6 +7867,12 @@ msgstr ""
 #: plugins/syndication/feedwidget.ui:138
 #, kde-format
 msgid "Time between automatic refreshes of the feed."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
+#: plugins/syndication/feedwidget.ui:141
+#, kde-format
+msgid " minutes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_cookies)

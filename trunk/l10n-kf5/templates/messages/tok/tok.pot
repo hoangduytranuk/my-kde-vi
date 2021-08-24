@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-17 00:17+0000\n"
+"POT-Creation-Date: 2021-08-22 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 #: data/components/CreateNewMenuInWindow.qml:62
 #: data/components/CreateNewMenuInWindow.qml:113
 #: data/components/GlobalMenu.qml:79 data/components/GlobalMenuInWindow.qml:79
-#: data/Content.qml:303
+#: data/Content.qml:317
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -190,14 +190,14 @@ msgid "Preferences…"
 msgstr ""
 
 #: data/components/GlobalMenu.qml:21 data/components/GlobalMenuInWindow.qml:21
-#: data/Content.qml:98
+#: data/Content.qml:112
 #, kde-format
 msgctxt "menu"
 msgid "Enable Notifications"
 msgstr ""
 
 #: data/components/GlobalMenu.qml:21 data/components/GlobalMenuInWindow.qml:21
-#: data/Content.qml:98
+#: data/Content.qml:112
 #, kde-format
 msgctxt "menu"
 msgid "Disable Notifications"
@@ -210,7 +210,7 @@ msgid "Log Out"
 msgstr ""
 
 #: data/components/GlobalMenu.qml:30 data/components/GlobalMenuInWindow.qml:30
-#: data/Content.qml:102
+#: data/Content.qml:116
 #, kde-format
 msgctxt "menu"
 msgid "Quit"
@@ -503,32 +503,32 @@ msgstr ""
 msgid "Add a caption…"
 msgstr ""
 
-#: data/Content.qml:272
+#: data/Content.qml:286
 #, kde-format
 msgid "Do you want to delete this message?"
 msgstr ""
 
-#: data/Content.qml:279
+#: data/Content.qml:293
 #, kde-format
 msgid "This will delete it just for you."
 msgstr ""
 
-#: data/Content.qml:283
+#: data/Content.qml:297
 #, kde-format
 msgid "This will delete it for everyone in this chat."
 msgstr ""
 
-#: data/Content.qml:289
+#: data/Content.qml:303
 #, kde-format
 msgid "Also delete for everyone"
 msgstr ""
 
-#: data/Content.qml:289
+#: data/Content.qml:303
 #, kde-format
 msgid "Also delete for %1"
 msgstr ""
 
-#: data/Content.qml:307
+#: data/Content.qml:321
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -544,20 +544,20 @@ msgstr ""
 msgid "Search chats"
 msgstr ""
 
-#: data/routes/Chats.qml:188
+#: data/routes/Chats.qml:197
 #, kde-format
 msgctxt "button with menu"
 msgid "Create New..."
 msgstr ""
 
-#: data/routes/Chats.qml:236
+#: data/routes/Chats.qml:245
 #, kde-format
 msgid "1 unread message."
 msgid_plural "%1 unread messages."
 msgstr[0] ""
 msgstr[1] ""
 
-#: data/routes/Chats.qml:239
+#: data/routes/Chats.qml:248
 #, kde-format
 msgctxt ""
 "%1 is the message author (probably, but not necessarily a human), and %2 is "
@@ -565,13 +565,13 @@ msgctxt ""
 msgid "Latest message from %1: %2"
 msgstr ""
 
-#: data/routes/Chats.qml:241
+#: data/routes/Chats.qml:250
 #, kde-format
 msgctxt "%1 is the message contents"
 msgid "Latest message: %1"
 msgstr ""
 
-#: data/routes/Chats.qml:383
+#: data/routes/Chats.qml:392
 #, kde-format
 msgid "No chats available."
 msgstr ""
@@ -740,15 +740,21 @@ msgctxt ""
 msgid "Download"
 msgstr ""
 
-#: data/routes/messages/components/normal/GifMessage.qml:64
+#: data/routes/messages/components/normal/GifMessage.qml:66
 #: data/routes/messages/components/thin/GifMessage.qml:43
 #, kde-format
 msgid "GIF message."
 msgstr ""
 
-#: data/routes/messages/components/normal/PhotoMessage.qml:72
+#: data/routes/messages/components/normal/MessageBackground.qml:128
+#, kde-format
+msgctxt "small text displayed by timestamp when message has been edited"
+msgid "edited"
+msgstr ""
+
+#: data/routes/messages/components/normal/PhotoMessage.qml:74
 #: data/routes/messages/components/normal/Sticker.qml:19
-#: data/routes/messages/components/normal/VideoMessage.qml:50
+#: data/routes/messages/components/normal/VideoMessage.qml:52
 #: data/routes/messages/components/thin/PhotoMessage.qml:45
 #: data/routes/messages/components/thin/VideoMessage.qml:24
 #, kde-format
@@ -761,7 +767,7 @@ msgstr ""
 msgid "%1 joined the group"
 msgstr ""
 
-#: data/routes/messages/components/normal/VideoMessage.qml:146
+#: data/routes/messages/components/normal/VideoMessage.qml:148
 #, kde-format
 msgctxt "file download progress"
 msgid "%1 of %2 downloaded"
