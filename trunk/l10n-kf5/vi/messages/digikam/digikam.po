@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-23 00:16+0000\n"
+"POT-Creation-Date: 2021-08-31 00:17+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -287,7 +287,7 @@ msgstr "Đổi chữ sang:"
 
 #: core/app/dragdrop/itemdragdrop.cpp:606
 #: core/app/dragdrop/itemdragdrop.cpp:651
-#: core/app/views/preview/itempreviewview.cpp:577
+#: core/app/views/preview/itempreviewview.cpp:613
 #, kde-format
 msgid "&Cancel"
 msgstr "T&hôi"
@@ -298,7 +298,7 @@ msgid "Assign Tags to &Selected Items"
 msgstr "&Gán thẻ cho các mục đã chọn"
 
 #: core/app/dragdrop/itemdragdrop.cpp:644
-#: core/app/views/preview/itempreviewview.cpp:575
+#: core/app/views/preview/itempreviewview.cpp:611
 #, kde-format
 msgid "Assign Tags to &This Item"
 msgstr "Gán thẻ cho mục nà&y"
@@ -497,7 +497,7 @@ msgid "Show Fullscreen"
 msgstr "Thoát khỏi chế độ toàn màn hình"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:68
-#: core/app/views/preview/itempreviewview.cpp:162
+#: core/app/views/preview/itempreviewview.cpp:172
 #: core/utilities/import/items/importoverlays.cpp:444
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
@@ -505,7 +505,7 @@ msgid "Rotate Left"
 msgstr "Xoay trái"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:72
-#: core/app/views/preview/itempreviewview.cpp:163
+#: core/app/views/preview/itempreviewview.cpp:173
 #: core/utilities/import/items/importoverlays.cpp:448
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
@@ -863,6 +863,13 @@ msgid "Move to Trash"
 msgid_plural "Move %1 Files to Trash"
 msgstr[0] "Chuyển vào Rác"
 
+#: core/app/items/utils/contextmenuhelper.cpp:1265
+#, fuzzy, kde-format
+msgctxt "@action:inmenu Pluralized"
+msgid "Image Quality Sort"
+msgid_plural "Image Quality Sort"
+msgstr[0] "Bộ sửa ảnh"
+
 #: core/app/items/utils/itemcategorydrawer.cpp:268
 #: core/app/items/utils/itemcategorydrawer.cpp:276
 #: core/app/items/utils/itemcategorydrawer.cpp:283
@@ -1081,6 +1088,7 @@ msgid "Aperture/Focal:"
 msgstr "Độ mở/Tiêu :"
 
 #: core/app/items/utils/tooltipfiller.cpp:243
+#: core/dplugins/generic/tools/mjpegstream/mjpegframeosd.cpp:221
 #: core/dplugins/generic/view/slideshow/widgets/slideproperties.cpp:220
 #: core/libs/dialogs/imagedialog.cpp:209
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:212
@@ -2713,36 +2721,46 @@ msgid ""
 "Rev.: %3"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:160
+#: core/app/views/preview/itempreviewview.cpp:170
 #: core/libs/video/player/mediaplayerview.cpp:220
 #, fuzzy, kde-format
 msgctxt "go to previous image"
 msgid "Back"
 msgstr "Lùi"
 
-#: core/app/views/preview/itempreviewview.cpp:161
+#: core/app/views/preview/itempreviewview.cpp:171
 #: core/libs/video/player/mediaplayerview.cpp:222
 #, fuzzy, kde-format
 msgctxt "go to next image"
 msgid "Forward"
 msgstr "Tới"
 
-#: core/app/views/preview/itempreviewview.cpp:165
+#: core/app/views/preview/itempreviewview.cpp:175
 #, fuzzy, kde-format
 msgid "Add a Face Tag"
 msgstr "Thêm thẻ mới..."
 
-#: core/app/views/preview/itempreviewview.cpp:166
+#: core/app/views/preview/itempreviewview.cpp:177
 #, fuzzy, kde-format
 msgid "Clear all faces on this image"
 msgstr "Áp dụng mọi thay đổi cho các ảnh"
 
-#: core/app/views/preview/itempreviewview.cpp:167
+#: core/app/views/preview/itempreviewview.cpp:178
 #, fuzzy, kde-format
 msgid "Show Face Tags"
 msgstr "Hiện kiểu ảnh"
 
-#: core/app/views/preview/itempreviewview.cpp:170
+#: core/app/views/preview/itempreviewview.cpp:180
+#, kde-format
+msgid "Add a focus point"
+msgstr ""
+
+#: core/app/views/preview/itempreviewview.cpp:181
+#, fuzzy, kde-format
+msgid "Show focus points"
+msgstr "Hiện trên bảng trái"
+
+#: core/app/views/preview/itempreviewview.cpp:186
 #, fuzzy, kde-format
 msgid "Show Fullscreen"
 msgstr "Thoát khỏi chế độ toàn màn hình"
@@ -13931,7 +13949,7 @@ msgstr "Tác giả:"
 #: core/dplugins/generic/tools/calendar/calendarplugin.cpp:92
 #: core/dplugins/generic/tools/htmlgallery/htmlgalleryplugin.cpp:89
 #: core/dplugins/generic/tools/mediaserver/mediaserverplugin.cpp:102
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:100
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:105
 #: core/dplugins/generic/tools/printcreator/printcreatorplugin.cpp:93
 #, fuzzy, kde-format
 msgid "Developer and Maintainer"
@@ -15687,7 +15705,7 @@ msgid "Share Files with DLNA Media Server"
 msgstr "Khởi chạy bộ sửa ảnh"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:157
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:75
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:76
 #, fuzzy, kde-format
 #| msgid "Custom"
 msgctxt "@option"
@@ -15717,8 +15735,8 @@ msgstr ""
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:233
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:308
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:321
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:71
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:84
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:72
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:85
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Media Server Contents"
@@ -15733,14 +15751,14 @@ msgid ""
 msgstr ""
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:271
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:32
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:33
 #, kde-format
 msgctxt "@label"
 msgid "Server is running"
 msgstr ""
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:272
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:33
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:34
 #, fuzzy, kde-format
 #| msgid "No album root path supplied"
 msgctxt "@info"
@@ -15749,7 +15767,7 @@ msgid_plural "%1 albums shared"
 msgstr[0] "Chưa cung cấp đường dẫn gốc của tập ảnh"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:274
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:35
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:36
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "1 item shared"
@@ -15757,49 +15775,49 @@ msgid_plural "%1 items shared"
 msgstr[0] "16 bit"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:275
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:36
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:37
 #, fuzzy, kde-format
 msgctxt "@action: button"
 msgid "Stop"
 msgstr "Đá"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:282
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:44
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:45
 #, kde-format
 msgctxt "@label"
 msgid "Server is not running"
 msgstr ""
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:286
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:48
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:49
 #, fuzzy, kde-format
 msgctxt "@action: button"
 msgid "Start"
 msgstr "Độ mạnh:"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:309
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:72
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:73
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "There is no collection to share with the current selection..."
 msgstr "Không có ảnh nào trong thư mục này."
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:322
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:85
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:86
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "There is no item to share with the current selection..."
 msgstr "Không có ảnh nào trong thư mục này."
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:327
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:90
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:91
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Shared Items"
 msgstr "&Sắp xếp ảnh"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:347
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:112
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:113
 #, fuzzy, kde-format
 #| msgid "Start image editor"
 msgctxt "@title"
@@ -15807,7 +15825,7 @@ msgid "Starting Media Server"
 msgstr "Khởi chạy bộ sửa ảnh"
 
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:348
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:113
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_server.cpp:114
 #, kde-format
 msgctxt "@info"
 msgid "An error occurs while to start Media Server..."
@@ -15855,30 +15873,30 @@ msgstr ""
 msgid "Media Server cannot be started!"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:183
+#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:184
 #, kde-format
 msgid "MJPEG Server have been started"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:184
+#: core/dplugins/generic/tools/mjpegstream/mjpegservermngr.cpp:185
 #, kde-format
 msgid "MJPEG Server cannot be started!"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg.cpp:33
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg.cpp:34
 #, fuzzy, kde-format
 #| msgid "Start image editor"
 msgctxt "@title:window"
 msgid "Share Files with MJPEG Stream Server"
 msgstr "Khởi chạy bộ sửa ảnh"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg.cpp:102
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg.cpp:104
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "MJPEG Server Contents"
 msgstr "Trung vị:"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg.cpp:103
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg.cpp:105
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -15886,19 +15904,19 @@ msgid ""
 "server with this contents?"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:68
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:69
 #, kde-format
 msgctxt "@label"
 msgid "Server Port:"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:72
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:73
 #, kde-format
 msgctxt "@info"
 msgid "The MJPEG server IP port."
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:76
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:77
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -15906,7 +15924,7 @@ msgid ""
 "automatically"
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:87
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:88
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -15919,34 +15937,34 @@ msgid ""
 "IP, and port the server port set in this config dialog."
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:101
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:102
 #, fuzzy, kde-format
 #| msgid "Preview"
 msgctxt "@action: button"
 msgid "Preview..."
 msgstr "Xem thử"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:102
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:103
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Press this button to preview the stream on your computer with your browser."
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:118
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:119
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Server"
 msgstr "Góc chính:"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:134
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:135
 #, fuzzy, kde-format
 #| msgid "JPEG quality:"
 msgctxt "@label"
 msgid "JPEG Quality:"
 msgstr "Chất lượng JPEG:"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:138
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:139
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -15954,13 +15972,13 @@ msgid ""
 "more network bandwidth"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:147
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:148
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "JPEG Size:"
 msgstr "Tệp RAW"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:161
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:162
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -15968,25 +15986,25 @@ msgid ""
 "larger size require more network bandwidth"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:167
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:168
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "Delay in Seconds:"
 msgstr "Mili-mét"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:171
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:172
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "The delay in seconds between images."
 msgstr "<p>Trễ (theo giây) giữa hai ảnh."
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:174
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:175
 #, kde-format
 msgctxt "@label"
 msgid "Frames by Second:"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:178
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:179
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -15994,26 +16012,26 @@ msgid ""
 "require more network bandwidth"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:182
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:183
 #, kde-format
 msgctxt "@option:check"
 msgid "Stream in Loop"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:184
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:185
 #, kde-format
 msgctxt "@info"
 msgid "The MJPEG stream will be played in loop instead once."
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:198
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:199
 #, kde-format
 msgctxt "@title"
 msgid "Stream"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:222
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:268
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:223
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:269
 #: core/libs/dimg/filters/decorate/texturesettings.cpp:87
 #: core/libs/dimg/filters/fx/colorfxsettings.cpp:125
 #, fuzzy, kde-format
@@ -16022,7 +16040,7 @@ msgctxt "@label"
 msgid "Type:"
 msgstr "Kiểu :"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:240
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:241
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -16031,13 +16049,13 @@ msgid ""
 "stream."
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:256
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:257
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Transition"
 msgstr "Thời gian: %1"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:286
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:287
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -16045,23 +16063,176 @@ msgid ""
 "displayed in MJPEG stream."
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:301
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:302
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Effect"
 msgstr "Hiệu ứng che mờ"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:62
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:312
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:147
+#, fuzzy, kde-format
+msgid "Show image file name"
+msgstr "Hiện tên tệp"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:313
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:148
+#, fuzzy, kde-format
+msgid "Show the image file name at the bottom of the screen."
+msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:315
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:150
+#, fuzzy, kde-format
+msgid "Show image creation date"
+msgstr "Hiện ngà&y tạo tệp"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:316
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:151
+#, fuzzy, kde-format
+msgid "Show the image creation time/date at the bottom of the screen."
+msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:318
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:153
+#: core/showfoto/setup/showfotosetuptooltip.cpp:159
+#, fuzzy, kde-format
+msgid "Show camera aperture and focal length"
+msgstr "Hiện độ mở và tiêu cự của máy ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:319
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:154
+#, fuzzy, kde-format
+msgid "Show the camera aperture and focal length at the bottom of the screen."
+msgstr "<p>Hiển thị độ mở và tiêu cự của máy ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:321
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:156
+#: core/showfoto/setup/showfotosetuptooltip.cpp:163
+#, kde-format
+msgid "Show camera exposure and sensitivity"
+msgstr "Hiện phơi nắng và độ nhạy của máy ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:322
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:157
+#, fuzzy, kde-format
+msgid "Show the camera exposure and sensitivity at the bottom of the screen."
+msgstr "<p>Hiển thị phơi nắng và độ nhạy của máy ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:324
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:159
+#: core/showfoto/setup/showfotosetuptooltip.cpp:148
+#, kde-format
+msgid "Show camera make and model"
+msgstr "Hiển thị nhà chế tạo và mô hình của máy ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:325
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:160
+#, fuzzy, kde-format
+msgid "Show the camera make and model at the bottom of the screen."
+msgstr "<p>Hiển thị nhà chế tạo và mô hình của máy ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:327
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:162
+#, fuzzy, kde-format
+#| msgid "Show camera make and model"
+msgid "Show camera lens model"
+msgstr "Hiển thị nhà chế tạo và mô hình của máy ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:328
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:163
+#, fuzzy, kde-format
+msgid "Show the camera lens model at the bottom of the screen."
+msgstr "<p>Hiển thị nhà chế tạo và mô hình của máy ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:330
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:165
+#, fuzzy, kde-format
+msgid "Show image caption"
+msgstr "Hiện đánh giá ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:331
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:166
+#, fuzzy, kde-format
+msgid "Show the image caption at the bottom of the screen."
+msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:333
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:168
+#, fuzzy, kde-format
+msgid "Show image title"
+msgstr "Hiện kiểu ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:334
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:169
+#, fuzzy, kde-format
+msgid "Show the image title at the bottom of the screen."
+msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:336
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:171
+#, fuzzy, kde-format
+msgid "Show image caption if it has not title"
+msgstr "Hiện ngà&y tạo tệp"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:337
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:172
+#, fuzzy, kde-format
+msgid ""
+"Show the image caption at the bottom of the screen if no titles existed."
+msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:339
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:180
+#, fuzzy, kde-format
+msgid "Show image rating"
+msgstr "Hiện đánh giá ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:340
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:181
+#, fuzzy, kde-format
+msgid "Show the digiKam image rating at the bottom of the screen."
+msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:342
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:174
+#, fuzzy, kde-format
+msgid "Show image tags"
+msgstr "Hiện kiểu ảnh"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:343
+#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:175
+#, fuzzy, kde-format
+msgid "Show the digiKam image tag names at the bottom of the screen."
+msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:345
+#, fuzzy, kde-format
+msgid "On Screen Display Font:"
+msgstr "Phần trăm:"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:346
+#, fuzzy, kde-format
+msgid "Select here the font used to display text in the MJPEG."
+msgstr "<p>Ở đây đặt màu dùng để vẽ đường gạch gạch dẫn."
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamdlg_views.cpp:363
+#, kde-format
+msgctxt "@title: On Screen Display"
+msgid "OSD"
+msgstr ""
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:63
 #, kde-format
 msgid "MJPEG Stream Server"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:77
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:78
 #, fuzzy, kde-format
 msgid "A tool to export items as MJPEG Stream"
 msgstr "Lần lặp lại:"
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:83
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:84
 #, kde-format
 msgid ""
 "<p>This tool allows users to share items on the local network through a "
@@ -16077,7 +16248,24 @@ msgid ""
 "same time.</p>"
 msgstr ""
 
-#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:108
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:101
+#: core/libs/dplugins/core/dpluginauthor.cpp:39
+#: core/libs/widgets/mainview/daboutdata.cpp:120
+#: core/libs/widgets/mainview/daboutdata.cpp:135
+#: core/libs/widgets/mainview/daboutdata.cpp:141
+#: core/libs/widgets/mainview/daboutdata.cpp:284
+#: core/libs/widgets/mainview/daboutdata.cpp:301
+#: core/libs/widgets/mainview/daboutdata.cpp:307
+#: core/libs/widgets/mainview/daboutdata.cpp:313
+#: core/libs/widgets/mainview/daboutdata.cpp:323
+#: core/libs/widgets/mainview/daboutdata.cpp:351
+#: core/libs/widgets/mainview/daboutdata.cpp:357
+#: core/libs/widgets/mainview/daboutdata.cpp:368
+#, kde-format
+msgid "Developer"
+msgstr "Nhà phát triển"
+
+#: core/dplugins/generic/tools/mjpegstream/mjpegstreamplugin.cpp:113
 #, kde-format
 msgctxt "@action"
 msgid "Share as MJPEG Stream..."
@@ -18420,8 +18608,7 @@ msgstr "%1 (%2)"
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:469
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:596
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:220
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:613
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:615
 #: core/dplugins/generic/webservices/mediawiki/mediawikitalker.cpp:186
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:411
 #: core/dplugins/generic/webservices/pinterest/ptalker.cpp:455
@@ -19080,111 +19267,6 @@ msgid ""
 "Show a progress indicator with pending items to show and time progression."
 msgstr ""
 
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:147
-#, fuzzy, kde-format
-msgid "Show image file name"
-msgstr "Hiện tên tệp"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:148
-#, fuzzy, kde-format
-msgid "Show the image file name at the bottom of the screen."
-msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:150
-#, fuzzy, kde-format
-msgid "Show image creation date"
-msgstr "Hiện ngà&y tạo tệp"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:151
-#, fuzzy, kde-format
-msgid "Show the image creation time/date at the bottom of the screen."
-msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:153
-#: core/showfoto/setup/showfotosetuptooltip.cpp:159
-#, fuzzy, kde-format
-msgid "Show camera aperture and focal length"
-msgstr "Hiện độ mở và tiêu cự của máy ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:154
-#, fuzzy, kde-format
-msgid "Show the camera aperture and focal length at the bottom of the screen."
-msgstr "<p>Hiển thị độ mở và tiêu cự của máy ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:156
-#: core/showfoto/setup/showfotosetuptooltip.cpp:163
-#, kde-format
-msgid "Show camera exposure and sensitivity"
-msgstr "Hiện phơi nắng và độ nhạy của máy ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:157
-#, fuzzy, kde-format
-msgid "Show the camera exposure and sensitivity at the bottom of the screen."
-msgstr "<p>Hiển thị phơi nắng và độ nhạy của máy ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:159
-#: core/showfoto/setup/showfotosetuptooltip.cpp:148
-#, kde-format
-msgid "Show camera make and model"
-msgstr "Hiển thị nhà chế tạo và mô hình của máy ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:160
-#, fuzzy, kde-format
-msgid "Show the camera make and model at the bottom of the screen."
-msgstr "<p>Hiển thị nhà chế tạo và mô hình của máy ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:162
-#, fuzzy, kde-format
-#| msgid "Show camera make and model"
-msgid "Show camera lens model"
-msgstr "Hiển thị nhà chế tạo và mô hình của máy ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:163
-#, fuzzy, kde-format
-msgid "Show the camera lens model at the bottom of the screen."
-msgstr "<p>Hiển thị nhà chế tạo và mô hình của máy ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:165
-#, fuzzy, kde-format
-msgid "Show image caption"
-msgstr "Hiện đánh giá ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:166
-#, fuzzy, kde-format
-msgid "Show the image caption at the bottom of the screen."
-msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:168
-#, fuzzy, kde-format
-msgid "Show image title"
-msgstr "Hiện kiểu ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:169
-#, fuzzy, kde-format
-msgid "Show the image title at the bottom of the screen."
-msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:171
-#, fuzzy, kde-format
-msgid "Show image caption if it has not title"
-msgstr "Hiện ngà&y tạo tệp"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:172
-#, fuzzy, kde-format
-msgid ""
-"Show the image caption at the bottom of the screen if no titles existed."
-msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:174
-#, fuzzy, kde-format
-msgid "Show image tags"
-msgstr "Hiện kiểu ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:175
-#, fuzzy, kde-format
-msgid "Show the digiKam image tag names at the bottom of the screen."
-msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
-
 #: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:177
 #, fuzzy, kde-format
 msgid "Show image labels"
@@ -19196,16 +19278,6 @@ msgid ""
 "Show the digiKam image color label and pick label at the bottom of the "
 "screen."
 msgstr "<p>Hiển thị ngày tháng tạo ảnh ở dưới màn hình."
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:180
-#, fuzzy, kde-format
-msgid "Show image rating"
-msgstr "Hiện đánh giá ảnh"
-
-#: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:181
-#, fuzzy, kde-format
-msgid "Show the digiKam image rating at the bottom of the screen."
-msgstr "<p>Hiện tên tệp ảnh ở dưới màn hình."
 
 #: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:183
 #, fuzzy, kde-format
@@ -20501,7 +20573,7 @@ msgid "Export to %1 Web Service"
 msgstr ""
 
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:195
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:245
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:247
 #, kde-format
 msgid "Start Uploading"
 msgstr ""
@@ -21265,252 +21337,274 @@ msgstr ""
 msgid "invalid name"
 msgstr "Hồ sơ không hợp lệ"
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:521
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:576
 #, fuzzy, kde-format
 msgid "iNaturalist"
 msgstr "Tự nhiên"
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:523
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:578
 #, fuzzy, kde-format
 #| msgid "Profile Error"
 msgid "Login"
 msgstr "Lỗi hồ sơ"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:129
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1340
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1492
+#, kde-format
+msgid "ERROR while creating observation"
+msgstr ""
+
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1569
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1686
+#, fuzzy, kde-format
+msgid "ERROR while uploading photo"
+msgstr "Lỗi nạp ảnh « %1 »"
+
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1796
+#, kde-format
+msgid "ERROR while deleting observation"
+msgstr ""
+
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1901
+#, kde-format
+msgid "Timeout after exceeding %1 seconds"
+msgstr ""
+
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:127
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "kingdom"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:133
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:131
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "subkingdom"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:137
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:135
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "phylum"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:141
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:139
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "subphylum"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:145
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:143
 #, fuzzy, kde-format
 #| msgid "Add border"
 msgctxt "taxonomic rank"
 msgid "superorder"
 msgstr "Thêm viền"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:149
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:147
 #, fuzzy, kde-format
 #| msgid "Add Border"
 msgctxt "taxonomic rank"
 msgid "order"
 msgstr "Thêm viền"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:153
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:151
 #, fuzzy, kde-format
 #| msgid "Add border"
 msgctxt "taxonomic rank"
 msgid "suborder"
 msgstr "Thêm viền"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:157
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:155
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "infraorder"
 msgstr "Phim hồng ngoại"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:161
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:159
 #, fuzzy, kde-format
 #| msgid "Add Border"
 msgctxt "taxonomic rank"
 msgid "parvorder"
 msgstr "Thêm viền"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:165
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:163
 #, fuzzy, kde-format
 #| msgid "No selection"
 msgctxt "taxonomic rank"
 msgid "zoosection"
 msgstr "Chưa chọn gì"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:169
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:167
 #, fuzzy, kde-format
 #| msgid "No selection"
 msgctxt "taxonomic rank"
 msgid "zoosubsection"
 msgstr "Chưa chọn gì"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:173
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:171
 #, fuzzy, kde-format
 #| msgid "Family"
 msgctxt "taxonomic rank"
 msgid "superfamily"
 msgstr "Họ"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:177
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:175
 #, fuzzy, kde-format
 #| msgid "Family"
 msgctxt "taxonomic rank"
 msgid "epifamily"
 msgstr "Họ"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:181
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:179
 #, fuzzy, kde-format
 #| msgid "Family"
 msgctxt "taxonomic rank"
 msgid "family"
 msgstr "Họ"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:185
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:183
 #, fuzzy, kde-format
 #| msgid "Family"
 msgctxt "taxonomic rank"
 msgid "subfamily"
 msgstr "Họ"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:189
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:187
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "supertribe"
 msgstr "Độ mở/Tiêu :"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:193
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:191
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "tribe"
 msgstr "Độ mở/Tiêu :"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:197
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:195
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "subtribe"
 msgstr "Độ mở/Tiêu :"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:201
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:199
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "genus"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:205
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:203
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "genushybrid"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:209
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:207
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "subgenus"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:213
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:211
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "section"
 msgstr "Vùng chọn"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:217
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:215
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "subsection"
 msgstr "Vùng chọn"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:221
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:219
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "complex"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:225
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:223
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "species"
 msgstr "Sửa đổi:"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:229
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:227
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "hybrid"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:233
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:231
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "subspecies"
 msgstr "Sửa đổi:"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:237
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:235
 #, kde-format
 msgctxt "taxonomic rank"
 msgid "variety"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:241
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:239
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "form"
 msgstr "Chuyể&n dạng"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:245
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:243
 #, fuzzy, kde-format
 msgctxt "taxonomic rank"
 msgid "infrahybrid"
 msgstr "Phim hồng ngoại"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:289
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:287
 #, fuzzy, kde-format
 #| msgid "Millimeters"
 msgctxt "distance"
 msgid "meter"
 msgstr "Mili-mét"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:290
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:288
 #, fuzzy, kde-format
 #| msgid "Millimeters"
 msgctxt "distance"
 msgid "meters"
 msgstr "Mili-mét"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:305
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:303
 #, kde-format
 msgctxt "time"
 msgid "hour"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:306
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:304
 #, kde-format
 msgctxt "time"
 msgid "hours"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:321
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:319
 #, kde-format
 msgctxt "time"
 msgid "minute"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:322
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:320
 #, kde-format
 msgctxt "time"
 msgid "minutes"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:333
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:331
 #, fuzzy, kde-format
 msgctxt "time"
 msgid "second"
 msgstr "Thứ hai:"
 
-#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:334
+#: core/dplugins/generic/webservices/inaturalist/inatutils.cpp:332
 #, fuzzy, kde-format
 msgctxt "time"
 msgid "seconds"
@@ -21566,110 +21660,110 @@ msgstr ""
 msgid "Place:"
 msgstr "Tương đối"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:121
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:542
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:122
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:544
 #: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:487
 #, fuzzy, kde-format
 msgid "More options"
 msgstr "Tuy chọn giao diện"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:134
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:149
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:135
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:150
 #, kde-format
 msgid "Photos should be taken within"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:142
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:143
 #, kde-format
 msgid "minute(s) of observation."
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:157
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:172
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:158
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:173
 #, kde-format
 msgid "meter(s) of observation."
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:164
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:165
 #, kde-format
 msgid "Known observations should be within"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:215
+#: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:216
 #, kde-format
 msgid ""
 "<b><h2><a href=\"%1\"><font color=\"#74ac00\">iNaturalist</font></a> Export</"
 "h2></b>"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:191
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:193
 #, fuzzy, kde-format
 msgid "Export as %1 Observation"
 msgstr "Lần lặp lại:"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:536
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:538
 #, fuzzy, kde-format
 #| msgid "Free Rotation"
 msgid "Fewer options"
 msgstr "Xoay tự do"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:600
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:602
 #, kde-format
 msgid "<i>login <b>failed</b></i>"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:663
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:665
 #, fuzzy, kde-format
 #| msgid "<b>Downloaded</b>:"
 msgid "<i>login <b>canceled</b></i>"
 msgstr "<b>Tải về</b>:"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:720
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:722
 #, kde-format
 msgid "<i>no valid identification</i>"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:767
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:769
 #, fuzzy, kde-format
 #| msgid "Start Index:"
 msgid "iNaturalist Export"
 msgstr "Chỉ mục bắt đầu :"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1002
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1022
 #, fuzzy, kde-format
 #| msgid "Iteration:"
 msgid "observation"
 msgstr "Lặp lại:"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1008
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1028
 #, kde-format
 msgctxt "location"
 msgid "obscured"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1012
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1032
 #, kde-format
 msgid "Closest %1research-grade %2 reported in %3."
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1058
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1078
 #, fuzzy, kde-format
 msgid "observation time"
 msgstr "Lọc nhiễu :"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1068
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1095
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1088
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1115
 #, fuzzy, kde-format
 msgid "from observation"
 msgstr "Thông tin"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1075
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1116
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1095
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1136
 #, fuzzy, kde-format
 msgid "not available"
 msgstr "Không có sẵn tuỳ chọn"
 
-#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1107
+#: core/dplugins/generic/webservices/inaturalist/inatwindow.cpp:1127
 #, fuzzy, kde-format
 msgid "observation location"
 msgstr "Vùng chọn"
@@ -26571,7 +26665,7 @@ msgstr ""
 "vị trí khác.<p><b>%1</b></p></qt>"
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:54
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:304
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:303
 #, fuzzy, kde-format
 msgid "Database Statistics"
 msgstr "Thống kê"
@@ -31219,22 +31313,6 @@ msgstr "Hiệu ứng che mờ"
 msgctxt "@action: dplugin"
 msgid "Invalid"
 msgstr "Hồ sơ không hợp lệ"
-
-#: core/libs/dplugins/core/dpluginauthor.cpp:39
-#: core/libs/widgets/mainview/daboutdata.cpp:120
-#: core/libs/widgets/mainview/daboutdata.cpp:135
-#: core/libs/widgets/mainview/daboutdata.cpp:141
-#: core/libs/widgets/mainview/daboutdata.cpp:284
-#: core/libs/widgets/mainview/daboutdata.cpp:301
-#: core/libs/widgets/mainview/daboutdata.cpp:307
-#: core/libs/widgets/mainview/daboutdata.cpp:313
-#: core/libs/widgets/mainview/daboutdata.cpp:323
-#: core/libs/widgets/mainview/daboutdata.cpp:351
-#: core/libs/widgets/mainview/daboutdata.cpp:357
-#: core/libs/widgets/mainview/daboutdata.cpp:368
-#, kde-format
-msgid "Developer"
-msgstr "Nhà phát triển"
 
 #: core/libs/dplugins/core/dplugindimg.cpp:69
 #: core/libs/dplugins/setup/dpluginconfviewdimg.cpp:47
@@ -39186,83 +39264,83 @@ msgstr "Ralf Holzer"
 msgid "Developer (2004)"
 msgstr "Nhà phát triển"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:263
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:262
 #, fuzzy, kde-format
 msgid "Components Information"
 msgstr "Ghi chú :"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:269
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:268
 #, fuzzy, kde-format
 msgid "Supported RAW Cameras"
 msgstr "Máy ảnh được lắp"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:273
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:272
 #, kde-format
 msgid "List of Detected Hardware"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:276
 #, fuzzy, kde-format
 msgid "Donate..."
 msgstr "Tăng tiền..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:280
 #, kde-format
 msgid "Recipes Book..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:284
 #, kde-format
 msgid "Contribute..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:289
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:288
 #, fuzzy, kde-format
 msgid "Check for New Version..."
 msgstr "&Lưu dạng..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:293
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:292
 #, fuzzy, kde-format
 #| msgid "Kipi Plugins Handbook"
 msgid "Online Handbook..."
 msgstr "Sổ tay phần bổ sung Kipi"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:332
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:331
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:337
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:336
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:342
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:341
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:347
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:346
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:352
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:351
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:357
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:356
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:381
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:380
 #, fuzzy, kde-format
 msgid "Show Statusbar"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:435
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:434
 #, fuzzy, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"

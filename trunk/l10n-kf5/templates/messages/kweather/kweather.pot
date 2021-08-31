@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kweather\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 00:19+0000\n"
+"POT-Creation-Date: 2021-08-30 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,27 +27,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: main.cpp:56 qml/main.qml:16 qml/main.qml:83
+#: formatter.cpp:17 formatter.cpp:22
+#, kde-format
+msgctxt "A temperature"
+msgid "%1°"
+msgstr ""
+
+#: formatter.cpp:28
+#, kde-format
+msgid "%1 km/h"
+msgstr ""
+
+#: formatter.cpp:30
+#, kde-format
+msgid "%1 mph"
+msgstr ""
+
+#: main.cpp:57 qml/main.qml:16 qml/main.qml:83
 #, kde-format
 msgid "Weather"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:59
 #, kde-format
 msgid "A convergent weather application for Plasma"
 msgstr ""
 
-#: main.cpp:60
+#: main.cpp:61
 #, kde-format
 msgid "© 2020-2021 Plasma Development Team"
 msgstr ""
 
-#: main.cpp:61
+#: main.cpp:62
 #, kde-format
 msgid "Han Young"
 msgstr ""
 
-#: main.cpp:62
+#: main.cpp:63
 #, kde-format
 msgid "Devin Lin"
 msgstr ""
@@ -63,13 +79,13 @@ msgid "please select the location"
 msgstr ""
 
 #: plasmoid/package/contents/ui/WeatherContainer.qml:57
-#: qml/DynamicLocationForecast.qml:364 qml/FlatLocationForecast.qml:289
+#: qml/InfoCard.qml:68
 #, kde-format
 msgid "%1%"
 msgstr ""
 
 #: plasmoid/package/contents/ui/WeatherContainer.qml:71
-#: qml/WeatherHourDelegate.qml:58
+#: qml/WeatherHourDelegate.qml:57
 #, kde-format
 msgid "%1mm"
 msgstr ""
@@ -85,32 +101,32 @@ msgstr ""
 msgid "Open KWeather"
 msgstr ""
 
-#: qml/AddLocationPage.qml:14
+#: qml/AddLocationPage.qml:18
 #, kde-format
 msgid "Add location"
 msgstr ""
 
-#: qml/AddLocationPage.qml:28
+#: qml/AddLocationPage.qml:32
 #, kde-format
 msgid "Search for a place..."
 msgstr ""
 
-#: qml/AddLocationPage.qml:56
+#: qml/AddLocationPage.qml:60
 #, kde-format
 msgid "Unable to connect"
 msgstr ""
 
-#: qml/AddLocationPage.qml:68
+#: qml/AddLocationPage.qml:72
 #, kde-format
 msgid "Search for a location"
 msgstr ""
 
-#: qml/AddLocationPage.qml:73 qml/DefaultPage.qml:48
+#: qml/AddLocationPage.qml:77 qml/DefaultPage.qml:48
 #, kde-format
 msgid "Add current location"
 msgstr ""
 
-#: qml/AddLocationPage.qml:93
+#: qml/AddLocationPage.qml:97
 #, kde-format
 msgid "No results"
 msgstr ""
@@ -131,82 +147,82 @@ msgstr ""
 msgid "No locations configured"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:42 qml/FlatLocationForecast.qml:32
+#: qml/DynamicLocationForecast.qml:44 qml/FlatLocationForecast.qml:34
 #, kde-format
 msgid "Weather refreshed for %1"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:94 qml/FlatLocationForecast.qml:77
+#: qml/DynamicLocationForecast.qml:96 qml/FlatLocationForecast.qml:79
 #, kde-format
 msgid "Updated at %1"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:107 qml/FlatLocationForecast.qml:93
+#: qml/DynamicLocationForecast.qml:109 qml/FlatLocationForecast.qml:95
 #, kde-format
 msgid "Daily"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:112
+#: qml/DynamicLocationForecast.qml:114
 #, kde-format
 msgid "Local Date: "
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:222 qml/FlatLocationForecast.qml:176
+#: qml/DynamicLocationForecast.qml:180 qml/FlatLocationForecast.qml:138
 #, kde-format
 msgid "Hourly"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:227
+#: qml/DynamicLocationForecast.qml:185
 #, kde-format
 msgid "Local Time: "
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:337 qml/FlatLocationForecast.qml:262
+#: qml/InfoCard.qml:41
 #, kde-format
 msgid "Precipitation"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:360 qml/FlatLocationForecast.qml:286
+#: qml/InfoCard.qml:64
 #, kde-format
 msgid "Humidity"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:383 qml/FlatLocationForecast.qml:310
+#: qml/InfoCard.qml:87
 #, kde-format
 msgid "Pressure"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:387 qml/FlatLocationForecast.qml:313
+#: qml/InfoCard.qml:91
 #, kde-format
 msgid "%1hPa"
 msgstr ""
 
-#: qml/DynamicLocationForecast.qml:406 qml/FlatLocationForecast.qml:334
+#: qml/InfoCard.qml:110
 #, kde-format
 msgid "UV index"
 msgstr ""
 
-#: qml/LocationsPage.qml:15 qml/main.qml:108
+#: qml/LocationsPage.qml:17 qml/main.qml:108
 #, kde-format
 msgid "Locations"
 msgstr ""
 
-#: qml/LocationsPage.qml:22
+#: qml/LocationsPage.qml:24
 #, kde-format
 msgid "Add Location"
 msgstr ""
 
-#: qml/LocationsPage.qml:28
+#: qml/LocationsPage.qml:30
 #, kde-format
 msgid "Unable to fetch timezone information"
 msgstr ""
 
-#: qml/LocationsPage.qml:62
+#: qml/LocationsPage.qml:64
 #, kde-format
 msgid "Add a location"
 msgstr ""
 
-#: qml/LocationsPage.qml:79
+#: qml/LocationsPage.qml:81
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -318,7 +334,7 @@ msgstr ""
 msgid "Moon Phase"
 msgstr ""
 
-#: qml/TemperatureChartCard.qml:79
+#: qml/TemperatureChartCard.qml:85
 #, kde-format
 msgid "temperature"
 msgstr ""

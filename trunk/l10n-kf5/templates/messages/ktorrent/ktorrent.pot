@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-23 00:19+0000\n"
+"POT-Creation-Date: 2021-08-27 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -990,7 +990,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_tracker_tab)
 #: ktorrent/dialogs/torrentcreatordlg.ui:182
-#: plugins/infowidget/infowidgetplugin.cpp:236
+#: plugins/infowidget/infowidgetplugin.cpp:223
 #, kde-format
 msgid "Trackers"
 msgstr ""
@@ -1253,8 +1253,8 @@ msgid "Open a URL which points to a torrent, magnet links are supported"
 msgstr ""
 
 #: ktorrent/gui.cpp:380 plugins/ipfilter/ipblockingprefpage.cpp:19
-#: plugins/ipfilter/ipfilterplugin.cpp:45
-#: plugins/ipfilter/ipfilterplugin.cpp:58
+#: plugins/ipfilter/ipfilterplugin.cpp:44
+#: plugins/ipfilter/ipfilterplugin.cpp:57
 #, kde-format
 msgid "IP Filter"
 msgstr ""
@@ -3281,7 +3281,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: ktorrent/tools/magnetmodel.cpp:106 plugins/infowidget/infowidgetplugin.cpp:198
+#: ktorrent/tools/magnetmodel.cpp:106 plugins/infowidget/infowidgetplugin.cpp:185
 #, kde-format
 msgid "Peers"
 msgstr ""
@@ -4520,7 +4520,7 @@ msgid "Maximum seed time in hours (0 = no limit)"
 msgstr ""
 
 #: libktcore/plugin/pluginactivity.cpp:24
-#: libktcore/plugin/pluginactivity.cpp:41
+#: libktcore/plugin/pluginactivity.cpp:42
 #, kde-format
 msgid "Plugins"
 msgstr ""
@@ -4629,7 +4629,7 @@ msgstr ""
 msgid "Cannot write beyond end of the mmap buffer."
 msgstr ""
 
-#: plugins/bwscheduler/bwprefpage.cpp:12 plugins/bwscheduler/bwschedulerplugin.cpp:60
+#: plugins/bwscheduler/bwprefpage.cpp:12 plugins/bwscheduler/bwschedulerplugin.cpp:59
 #, kde-format
 msgid "Scheduler"
 msgstr ""
@@ -4714,8 +4714,8 @@ msgstr ""
 msgid "Color of each suspended item on the schedule."
 msgstr ""
 
-#: plugins/bwscheduler/bwschedulerplugin.cpp:89
-#: plugins/infowidget/infowidgetplugin.cpp:76
+#: plugins/bwscheduler/bwschedulerplugin.cpp:88
+#: plugins/infowidget/infowidgetplugin.cpp:68
 #, kde-format
 msgid "Bandwidth Scheduler"
 msgstr ""
@@ -4934,7 +4934,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DownloadOrderWidget)
 #: plugins/downloadorder/downloadorderdialog.cpp:30
-#: plugins/downloadorder/downloadorderplugin.cpp:32
+#: plugins/downloadorder/downloadorderplugin.cpp:31
 #: plugins/downloadorder/downloadorderwidget.ui:14
 #, kde-format
 msgid "File Download Order"
@@ -5056,7 +5056,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, hdr_chunks)
 #. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
 #: plugins/infowidget/chunkdownloadview.ui:13
-#: plugins/infowidget/infowidgetplugin.cpp:217
+#: plugins/infowidget/infowidgetplugin.cpp:204
 #: plugins/infowidget/statustab.ui:181
 #, kde-format
 msgid "Chunks"
@@ -5181,55 +5181,55 @@ msgid ""
 "higher priority?"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:54
+#: plugins/infowidget/infowidgetplugin.cpp:46
 #: plugins/infowidget/iwprefpage.cpp:12
 #, kde-format
 msgid "Info Widget"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:65
+#: plugins/infowidget/infowidgetplugin.cpp:57
 #, kde-format
 msgctxt "@title:tab"
 msgid "Status"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:65
+#: plugins/infowidget/infowidgetplugin.cpp:57
 #, kde-format
 msgid "Displays status information about a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:66
+#: plugins/infowidget/infowidgetplugin.cpp:58
 #, kde-format
 msgctxt "@title:tab"
 msgid "Files"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:66
+#: plugins/infowidget/infowidgetplugin.cpp:58
 #, kde-format
 msgid "Shows all the files in a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:198
+#: plugins/infowidget/infowidgetplugin.cpp:185
 #, kde-format
 msgid "Displays all the peers you are connected to for a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:217
+#: plugins/infowidget/infowidgetplugin.cpp:204
 #, kde-format
 msgid "Displays all the chunks you are downloading, of a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:236
+#: plugins/infowidget/infowidgetplugin.cpp:223
 #, kde-format
 msgid "Displays information about all the trackers of a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:252
+#: plugins/infowidget/infowidgetplugin.cpp:239
 #, kde-format
 msgid "Webseeds"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:252
+#: plugins/infowidget/infowidgetplugin.cpp:239
 #, kde-format
 msgid "Displays all the webseeds of a torrent"
 msgstr ""
@@ -6225,12 +6225,12 @@ msgstr ""
 msgid "Only enable on public torrents"
 msgstr ""
 
-#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:38
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:37
 #, kde-format
 msgid "Copy Magnet URI"
 msgstr ""
 
-#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:121
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:115
 #, kde-format
 msgid "Magnet link copied to clipboard"
 msgstr ""
@@ -6349,8 +6349,8 @@ msgstr ""
 #: plugins/mediaplayer/mediaplayeractivity.cpp:56
 #: plugins/mediaplayer/mediaplayeractivity.cpp:147
 #: plugins/mediaplayer/mediaplayeractivity.cpp:333
-#: plugins/mediaplayer/mediaplayerplugin.cpp:35
-#: plugins/mediaplayer/mediaplayerplugin.cpp:46
+#: plugins/mediaplayer/mediaplayerplugin.cpp:34
+#: plugins/mediaplayer/mediaplayerplugin.cpp:45
 #, kde-format
 msgid "Media Player"
 msgstr ""
@@ -6499,8 +6499,8 @@ msgctxt "folder name part"
 msgid "loaded"
 msgstr ""
 
-#: plugins/scanfolder/scanfolderplugin.cpp:45
-#: plugins/scanfolder/scanfolderplugin.cpp:58
+#: plugins/scanfolder/scanfolderplugin.cpp:43
+#: plugins/scanfolder/scanfolderplugin.cpp:56
 #: plugins/scanfolder/scanfolderprefpage.cpp:20
 #, kde-format
 msgctxt "plugin name"
@@ -6709,8 +6709,8 @@ msgstr ""
 msgid "Custom browser executable path"
 msgstr ""
 
-#: plugins/search/searchactivity.cpp:36 plugins/search/searchplugin.cpp:52
-#: plugins/search/searchplugin.cpp:71 plugins/search/searchprefpage.cpp:42
+#: plugins/search/searchactivity.cpp:36 plugins/search/searchplugin.cpp:49
+#: plugins/search/searchplugin.cpp:68 plugins/search/searchprefpage.cpp:42
 #, kde-format
 msgctxt "plugin name"
 msgid "Search"
@@ -6955,7 +6955,7 @@ msgstr ""
 
 #. i18n: ectx: Menu (shutdown)
 #: plugins/shutdown/ktorrent_shutdownui.rc:6
-#: plugins/shutdown/shutdowndlg.cpp:26 plugins/shutdown/shutdownplugin.cpp:132
+#: plugins/shutdown/shutdowndlg.cpp:26 plugins/shutdown/shutdownplugin.cpp:125
 #: plugins/shutdown/shutdownruleset.cpp:242
 #, kde-format
 msgid "Shutdown"
@@ -6973,19 +6973,19 @@ msgctxt "@title:window"
 msgid "Configure Shutdown"
 msgstr ""
 
-#: plugins/shutdown/shutdowndlg.cpp:27 plugins/shutdown/shutdownplugin.cpp:136
+#: plugins/shutdown/shutdowndlg.cpp:27 plugins/shutdown/shutdownplugin.cpp:129
 #: plugins/shutdown/shutdownruleset.cpp:245
 #, kde-format
 msgid "Lock"
 msgstr ""
 
-#: plugins/shutdown/shutdowndlg.cpp:37 plugins/shutdown/shutdownplugin.cpp:140
+#: plugins/shutdown/shutdowndlg.cpp:37 plugins/shutdown/shutdownplugin.cpp:133
 #: plugins/shutdown/shutdownruleset.cpp:248
 #, kde-format
 msgid "Sleep (suspend to RAM)"
 msgstr ""
 
-#: plugins/shutdown/shutdowndlg.cpp:43 plugins/shutdown/shutdownplugin.cpp:144
+#: plugins/shutdown/shutdowndlg.cpp:43 plugins/shutdown/shutdownplugin.cpp:137
 #: plugins/shutdown/shutdownruleset.cpp:251
 #, kde-format
 msgid "Hibernate (suspend to disk)"
@@ -7038,12 +7038,12 @@ msgstr ""
 msgid "All events must have happened"
 msgstr ""
 
-#: plugins/shutdown/shutdownplugin.cpp:34
+#: plugins/shutdown/shutdownplugin.cpp:32
 #, kde-format
 msgid "Shutdown Enabled"
 msgstr ""
 
-#: plugins/shutdown/shutdownplugin.cpp:38
+#: plugins/shutdown/shutdownplugin.cpp:36
 #, kde-format
 msgid "Configure Shutdown"
 msgstr ""
@@ -7765,22 +7765,22 @@ msgctxt "Name of a line on upload chart"
 msgid "Speed limit"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:33
+#: plugins/stats/StatsPlugin.cc:34
 #, kde-format
 msgid "Speed charts"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:33
+#: plugins/stats/StatsPlugin.cc:34
 #, kde-format
 msgid "Displays charts about download and upload speed"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:34
+#: plugins/stats/StatsPlugin.cc:35
 #, kde-format
 msgid "Connections charts"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:34
+#: plugins/stats/StatsPlugin.cc:35
 #, kde-format
 msgid "Displays charts about connections"
 msgstr ""
@@ -7893,7 +7893,7 @@ msgid "Date Published"
 msgstr ""
 
 #: plugins/syndication/filtereditor.cpp:38
-#: plugins/syndication/syndicationplugin.cpp:89
+#: plugins/syndication/syndicationplugin.cpp:82
 #, kde-format
 msgid "Edit Filter"
 msgstr ""
@@ -8161,7 +8161,7 @@ msgid "Could not find a valid link to a torrent on %1"
 msgstr ""
 
 #: plugins/syndication/managefiltersdlg.cpp:27
-#: plugins/syndication/syndicationplugin.cpp:77
+#: plugins/syndication/syndicationplugin.cpp:70
 #, kde-format
 msgid "Add/Remove Filters"
 msgstr ""
@@ -8209,8 +8209,8 @@ msgid "New Filter"
 msgstr ""
 
 #: plugins/syndication/syndicationactivity.cpp:39
-#: plugins/syndication/syndicationplugin.cpp:32
-#: plugins/syndication/syndicationplugin.cpp:37
+#: plugins/syndication/syndicationplugin.cpp:30
+#: plugins/syndication/syndicationplugin.cpp:35
 #, kde-format
 msgid "Syndication"
 msgstr ""
@@ -8245,27 +8245,27 @@ msgstr ""
 msgid "Add New Filter"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:71
+#: plugins/syndication/syndicationplugin.cpp:64
 #, kde-format
 msgid "Add Feed"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:74
+#: plugins/syndication/syndicationplugin.cpp:67
 #, kde-format
 msgid "Remove Feed"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:80
+#: plugins/syndication/syndicationplugin.cpp:73
 #, kde-format
 msgid "Rename"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:83
+#: plugins/syndication/syndicationplugin.cpp:76
 #, kde-format
 msgid "Add Filter"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:86
+#: plugins/syndication/syndicationplugin.cpp:79
 #, kde-format
 msgid "Remove Filter"
 msgstr ""
@@ -8294,13 +8294,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UPnPWidget)
-#: plugins/upnp/upnpplugin.cpp:41 plugins/upnp/upnpplugin.cpp:45
-#: plugins/upnp/upnpplugin.cpp:55 plugins/upnp/upnpwidget.ui:13
+#: plugins/upnp/upnpplugin.cpp:39 plugins/upnp/upnpplugin.cpp:43
+#: plugins/upnp/upnpplugin.cpp:53 plugins/upnp/upnpwidget.ui:13
 #, kde-format
 msgid "UPnP"
 msgstr ""
 
-#: plugins/upnp/upnpplugin.cpp:45
+#: plugins/upnp/upnpplugin.cpp:43
 #, kde-format
 msgid "Shows the status of the UPnP plugin"
 msgstr ""
@@ -8311,8 +8311,8 @@ msgstr ""
 msgid "Rescan"
 msgstr ""
 
-#: plugins/zeroconf/zeroconfplugin.cpp:34
-#: plugins/zeroconf/zeroconfplugin.cpp:48
+#: plugins/zeroconf/zeroconfplugin.cpp:33
+#: plugins/zeroconf/zeroconfplugin.cpp:47
 #, kde-format
 msgid "ZeroConf"
 msgstr ""

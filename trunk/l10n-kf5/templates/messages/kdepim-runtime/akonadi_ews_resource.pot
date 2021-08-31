@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-08 00:17+0000\n"
+"POT-Creation-Date: 2021-08-25 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,16 +27,16 @@ msgstr ""
 msgid "Exchange protocol information not found"
 msgstr ""
 
-#: ewsclient/auth/ewsoauth.cpp:447
-#, kde-format
+#: ewsclient/auth/ewsoauth.cpp:515
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Microsoft Exchange credentials for the account <b>%1</b> are no longer "
 "valid. You need to authenticate in order to continue using it."
 msgstr ""
 
-#: ewsclient/auth/ewsoauth.cpp:454
-#, kde-format
+#: ewsclient/auth/ewsoauth.cpp:524
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Failed to obtain credentials for Microsoft Exchange account <b>%1</b>. "
@@ -95,61 +95,61 @@ msgid ""
 "later."
 msgstr ""
 
-#: ewsconfigdialog.cpp:248
+#: ewsconfigdialog.cpp:247
 #, kde-format
 msgctxt "Exchange server autodiscovery"
 msgid "Autodiscovery failed"
 msgstr ""
 
-#: ewsconfigdialog.cpp:263
+#: ewsconfigdialog.cpp:262
 #, kde-format
 msgctxt "Exchange server connection"
 msgid "Connection failed"
 msgstr ""
 
-#: ewsconfigdialog.cpp:264 ewsconfigdialog.cpp:417
+#: ewsconfigdialog.cpp:263 ewsconfigdialog.cpp:416
 #, kde-format
 msgctxt "Exchange server status"
 msgid "Failed"
 msgstr ""
 
-#: ewsconfigdialog.cpp:265 ewsconfigdialog.cpp:418
+#: ewsconfigdialog.cpp:264 ewsconfigdialog.cpp:417
 #, kde-format
 msgctxt "Exchange server version"
 msgid "Unknown"
 msgstr ""
 
-#: ewsconfigdialog.cpp:268 ewsconfigdialog.cpp:422
+#: ewsconfigdialog.cpp:267 ewsconfigdialog.cpp:421
 #, kde-format
 msgctxt "Exchange server status"
 msgid "OK"
 msgstr ""
 
-#: ewsconfigdialog.cpp:337
+#: ewsconfigdialog.cpp:336
 #, kde-format
 msgid ""
 "Autodiscovery failed. This can be caused by incorrect parameters. Do you "
 "still want to save your settings?"
 msgstr ""
 
-#: ewsconfigdialog.cpp:338
+#: ewsconfigdialog.cpp:337
 #, kde-format
 msgid "Exchange server autodiscovery"
 msgstr ""
 
-#: ewsconfigdialog.cpp:366
+#: ewsconfigdialog.cpp:365
 #, kde-format
 msgid ""
 "Connecting to Exchange failed. This can be caused by incorrect parameters. "
 "Do you still want to save your settings?"
 msgstr ""
 
-#: ewsconfigdialog.cpp:367
+#: ewsconfigdialog.cpp:366
 #, kde-format
 msgid "Exchange server connection"
 msgstr ""
 
-#: ewsconfigdialog.cpp:419
+#: ewsconfigdialog.cpp:418
 #, kde-format
 msgid "Connection failed"
 msgstr ""
@@ -562,19 +562,56 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+#: ewsfetchitempayloadjob.cpp:64
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to process items retrieval request"
+msgstr ""
+
+#: ewsfetchitempayloadjob.cpp:72 ewsresource.cpp:338 ewsresource.cpp:343
+#: ewsresource.cpp:534
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to retrieve items"
+msgstr ""
+
+#: ewsfetchitempayloadjob.cpp:79
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to retrieve items - incorrect number of responses"
+msgstr ""
+
+#: ewsfetchitempayloadjob.cpp:92
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to retrieve items - Akonadi item not found for item %1"
+msgstr ""
+
+#: ewsfetchitempayloadjob.cpp:99
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to retrieve items - Unknown item type for item %1"
+msgstr ""
+
+#: ewsfetchitempayloadjob.cpp:105
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to fetch item payload"
+msgstr ""
+
 #: ewsfetchitemsjob.cpp:101
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving %1 item list"
 msgstr ""
 
-#: ewsfetchitemsjob.cpp:213
+#: ewsfetchitemsjob.cpp:216
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving %1 item list (%2 items)"
 msgstr ""
 
-#: ewsfetchitemsjob.cpp:382
+#: ewsfetchitemsjob.cpp:395
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving %1 items"
@@ -643,323 +680,305 @@ msgstr ""
 msgid "Connecting to Microsoft Exchange server..."
 msgstr ""
 
-#: ewsresource.cpp:142
+#: ewsresource.cpp:148
 #, kde-format
 msgctxt "@info:status"
 msgid "Connecting to Exchange server"
 msgstr ""
 
-#: ewsresource.cpp:160 ewsresource.cpp:167 ewsresource.cpp:174
-#: ewsresource.cpp:309
+#: ewsresource.cpp:166 ewsresource.cpp:173 ewsresource.cpp:180
+#: ewsresource.cpp:318
 #, kde-format
 msgctxt "@info:status"
 msgid "Unable to connect to Exchange server"
 msgstr ""
 
-#: ewsresource.cpp:251
+#: ewsresource.cpp:258
 #, kde-format
 msgctxt "@info:status"
 msgid "Root folder id not known."
 msgstr ""
 
-#: ewsresource.cpp:255
+#: ewsresource.cpp:262
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving collection tree"
 msgstr ""
 
-#: ewsresource.cpp:354
+#: ewsresource.cpp:411
 #, kde-format
 msgctxt "@info:status"
-msgid "Failed to process items retrieval request"
+msgid "Retrieving items"
 msgstr ""
 
-#: ewsresource.cpp:360 ewsresource.cpp:489
+#: ewsresource.cpp:433 ewsresource.cpp:519
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to retrieve items - internal error"
 msgstr ""
 
-#: ewsresource.cpp:375 ewsresource.cpp:502
-#, kde-format
-msgctxt "@info:status"
-msgid "Failed to retrieve items"
-msgstr ""
-
-#: ewsresource.cpp:381
-#, kde-format
-msgctxt "@info:status"
-msgid "Failed to retrieve items - incorrect number of responses"
-msgstr ""
-
-#: ewsresource.cpp:391
-#, kde-format
-msgctxt "@info:status"
-msgid "Failed to retrieve items - Akonadi item not found for item %1"
-msgstr ""
-
-#: ewsresource.cpp:397
-#, kde-format
-msgctxt "@info:status"
-msgid "Failed to retrieve items - Unknown item type for item %1"
-msgstr ""
-
-#: ewsresource.cpp:402
-#, kde-format
-msgctxt "@info:status"
-msgid "Failed to fetch item payload"
-msgstr ""
-
-#: ewsresource.cpp:437
+#: ewsresource.cpp:467
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to retrieve folders - internal error"
 msgstr ""
 
-#: ewsresource.cpp:443
+#: ewsresource.cpp:473
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process folders retrieval request"
 msgstr ""
 
-#: ewsresource.cpp:460
+#: ewsresource.cpp:490
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid incremental folders retrieval request job object"
 msgstr ""
 
-#: ewsresource.cpp:521
+#: ewsresource.cpp:553
 #, kde-format
 msgctxt "@info:status"
 msgid "Item type not supported for changing"
 msgstr ""
 
-#: ewsresource.cpp:542
+#: ewsresource.cpp:566
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating item flags"
+msgstr ""
+
+#: ewsresource.cpp:578
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item flags update request"
 msgstr ""
 
-#: ewsresource.cpp:549
+#: ewsresource.cpp:585
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to update item flags - internal error"
 msgstr ""
 
-#: ewsresource.cpp:561
+#: ewsresource.cpp:599
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item update request"
 msgstr ""
 
-#: ewsresource.cpp:568
+#: ewsresource.cpp:606
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to update item - internal error"
 msgstr ""
 
-#: ewsresource.cpp:603
+#: ewsresource.cpp:641
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item move request"
 msgstr ""
 
-#: ewsresource.cpp:610
+#: ewsresource.cpp:648
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to move item - internal error"
 msgstr ""
 
-#: ewsresource.cpp:617
+#: ewsresource.cpp:655
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to move item - invalid number of responses received from server"
 msgstr ""
 
-#: ewsresource.cpp:693
+#: ewsresource.cpp:724
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item delete request"
 msgstr ""
 
-#: ewsresource.cpp:700
+#: ewsresource.cpp:731
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to delete item - internal error"
 msgstr ""
 
-#: ewsresource.cpp:707
+#: ewsresource.cpp:738
 #, kde-format
 msgctxt "@info:status"
 msgid ""
 "Failed to delete item - invalid number of responses received from server"
 msgstr ""
 
-#: ewsresource.cpp:754 ewsresource.cpp:967
+#: ewsresource.cpp:781 ewsresource.cpp:994
 #, kde-format
 msgctxt "@info:status"
 msgid "Item type not supported for creation"
 msgstr ""
 
-#: ewsresource.cpp:765
+#: ewsresource.cpp:792
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item create request"
 msgstr ""
 
-#: ewsresource.cpp:771
+#: ewsresource.cpp:798
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to create item - internal error"
 msgstr ""
 
-#: ewsresource.cpp:792
+#: ewsresource.cpp:819
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to add collection - cannot determine EWS folder type"
 msgstr ""
 
-#: ewsresource.cpp:811
+#: ewsresource.cpp:838
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process folder create request"
 msgstr ""
 
-#: ewsresource.cpp:817
+#: ewsresource.cpp:844
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to create folder - internal error"
 msgstr ""
 
-#: ewsresource.cpp:829
+#: ewsresource.cpp:856
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to create folder"
 msgstr ""
 
-#: ewsresource.cpp:852
+#: ewsresource.cpp:879
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process folder move request"
 msgstr ""
 
-#: ewsresource.cpp:858
+#: ewsresource.cpp:885
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to move folder - internal error"
 msgstr ""
 
-#: ewsresource.cpp:864
+#: ewsresource.cpp:891
 #, kde-format
 msgctxt "@info:status"
 msgid ""
 "Failed to move folder - invalid number of responses received from server"
 msgstr ""
 
-#: ewsresource.cpp:875
+#: ewsresource.cpp:902
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to move folder"
 msgstr ""
 
-#: ewsresource.cpp:903
+#: ewsresource.cpp:930
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process folder update request"
 msgstr ""
 
-#: ewsresource.cpp:909
+#: ewsresource.cpp:936
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to update folder - internal error"
 msgstr ""
 
-#: ewsresource.cpp:915
+#: ewsresource.cpp:942
 #, kde-format
 msgctxt "@info:status"
 msgid ""
 "Failed to update folder - invalid number of responses received from server"
 msgstr ""
 
-#: ewsresource.cpp:926
+#: ewsresource.cpp:953
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to update folder"
 msgstr ""
 
-#: ewsresource.cpp:943
+#: ewsresource.cpp:970
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process folder delete request"
 msgstr ""
 
-#: ewsresource.cpp:949
+#: ewsresource.cpp:976
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to delete folder - internal error"
 msgstr ""
 
-#: ewsresource.cpp:957
+#: ewsresource.cpp:984
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to delete folder"
 msgstr ""
 
-#: ewsresource.cpp:981 ewsresource.cpp:1015
+#: ewsresource.cpp:1008 ewsresource.cpp:1042
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item send request"
 msgstr ""
 
-#: ewsresource.cpp:987 ewsresource.cpp:1021
+#: ewsresource.cpp:1014 ewsresource.cpp:1048
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to send item - internal error"
 msgstr ""
 
-#: ewsresource.cpp:1026
+#: ewsresource.cpp:1053
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid number of responses received from server"
 msgstr ""
 
-#: ewsresource.cpp:1209
+#: ewsresource.cpp:1244
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating item tags"
+msgstr ""
+
+#: ewsresource.cpp:1257
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process item tags update request"
 msgstr ""
 
-#: ewsresource.cpp:1215
+#: ewsresource.cpp:1263
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to update item tags - internal error"
 msgstr ""
 
-#: ewsresource.cpp:1252
+#: ewsresource.cpp:1300
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process global tag update request"
 msgstr ""
 
-#: ewsresource.cpp:1268
+#: ewsresource.cpp:1316
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to process global tags retrieval request"
 msgstr ""
 
-#: ewsresource.cpp:1334
+#: ewsresource.cpp:1387
 #, kde-format
 msgctxt "@action:button"
 msgid "Authenticate"
 msgstr ""
 
-#: ewsresource.cpp:1347 ewsresource.cpp:1362
+#: ewsresource.cpp:1401 ewsresource.cpp:1417
 #, kde-format
 msgctxt "@info:status"
 msgid "Authentication failed"
 msgstr ""
 
-#: ewsresource.cpp:1370
+#: ewsresource.cpp:1425
 #, kde-format
 msgctxt "@info:status Resource is ready"
 msgid "Ready"
@@ -1158,4 +1177,16 @@ msgstr ""
 #: mail/ewscreatemailjob.cpp:220
 #, kde-format
 msgid "Failed to create mail item"
+msgstr ""
+
+#: mail/ewsmodifymailjob.cpp:94
+#, kde-format
+msgctxt "@info:status"
+msgid "Item update failed: "
+msgstr ""
+
+#: mail/ewsmodifymailjob.cpp:105
+#, kde-format
+msgctxt "@info:status"
+msgid "Item out of order while processing update item response."
 msgstr ""

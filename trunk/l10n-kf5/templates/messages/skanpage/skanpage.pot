@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-12 00:20+0000\n"
+"POT-Creation-Date: 2021-08-25 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,50 +28,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: DevicesView.qml:38
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Searching for available devices."
-msgstr ""
-
-#: DevicesView.qml:82
-#, kde-format
-msgctxt ""
-"Device vendor with device model, followed by the device name identifier"
-msgid ""
-"%1 %2\n"
-"(%3)"
-msgstr ""
-
-#: DevicesView.qml:97
-#, kde-kuit-format
-msgctxt "@info"
-msgid "No devices found."
-msgstr ""
-
-#: DevicesView.qml:114
-#, kde-format
-msgid "Open selected device"
-msgstr ""
-
-#: DevicesView.qml:123
-#, kde-format
-msgid "Reload devices list"
-msgstr ""
-
-#: DocumentList.qml:155
-#, kde-format
-msgctxt "Page index"
-msgid "Page %1"
-msgstr ""
-
-#: DocumentList.qml:218
-#, kde-format
-msgid "%1 page"
-msgid_plural "%1 pages"
-msgstr[0] ""
-msgstr[1] ""
-
 #: DocumentModel.cpp:22
 #, kde-format
 msgid "New document"
@@ -80,47 +36,6 @@ msgstr ""
 #: DocumentModel.cpp:93
 #, kde-format
 msgid "Failed to save image"
-msgstr ""
-
-#: DocumentPage.qml:20
-#, kde-format
-msgid "Zoom In"
-msgstr ""
-
-#: DocumentPage.qml:29
-#, kde-format
-msgid "Zoom Out"
-msgstr ""
-
-#: DocumentPage.qml:38
-#, kde-format
-msgid "Zoom Fit"
-msgstr ""
-
-#: DocumentPage.qml:54
-#, kde-format
-msgid "Zoom 100%"
-msgstr ""
-
-#: DocumentPage.qml:62
-#, kde-format
-msgid "Rotate Left"
-msgstr ""
-
-#: DocumentPage.qml:69
-#, kde-format
-msgid "Rotate Right"
-msgstr ""
-
-#: DocumentPage.qml:76
-#, kde-format
-msgid "Delete Page"
-msgstr ""
-
-#: DocumentPage.qml:97
-#, kde-kuit-format
-msgctxt "@info"
-msgid "You do not have any images in this document.<nl/><nl/>Start scanning!"
 msgstr ""
 
 #: DocumentPrinter.cpp:33
@@ -158,17 +73,6 @@ msgstr ""
 msgid "Document saved as image."
 msgstr ""
 
-#: DocumentView.qml:22
-#, kde-format
-msgctxt "Prefix for document name indicating an unsaved document"
-msgid "* %1"
-msgstr ""
-
-#: InProgressPage.qml:21
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
 #: main.cpp:48
 #, kde-format
 msgid "Skanpage"
@@ -199,142 +103,238 @@ msgstr ""
 msgid "device"
 msgstr ""
 
-#: MainWindow.qml:23
+#: qml/DevicesView.qml:38
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Searching for available devices."
+msgstr ""
+
+#: qml/DevicesView.qml:82
+#, kde-format
+msgctxt ""
+"Device vendor with device model, followed by the device name identifier"
+msgid ""
+"%1 %2\n"
+"(%3)"
+msgstr ""
+
+#: qml/DevicesView.qml:97
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No devices found."
+msgstr ""
+
+#: qml/DevicesView.qml:114
+#, kde-format
+msgid "Open selected device"
+msgstr ""
+
+#: qml/DevicesView.qml:123
+#, kde-format
+msgid "Reload devices list"
+msgstr ""
+
+#: qml/DocumentList.qml:155
+#, kde-format
+msgctxt "Page index"
+msgid "Page %1"
+msgstr ""
+
+#: qml/DocumentList.qml:218
+#, kde-format
+msgid "%1 page"
+msgid_plural "%1 pages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/DocumentPage.qml:20
+#, kde-format
+msgid "Zoom In"
+msgstr ""
+
+#: qml/DocumentPage.qml:29
+#, kde-format
+msgid "Zoom Out"
+msgstr ""
+
+#: qml/DocumentPage.qml:38
+#, kde-format
+msgid "Zoom Fit"
+msgstr ""
+
+#: qml/DocumentPage.qml:54
+#, kde-format
+msgid "Zoom 100%"
+msgstr ""
+
+#: qml/DocumentPage.qml:62
+#, kde-format
+msgid "Rotate Left"
+msgstr ""
+
+#: qml/DocumentPage.qml:69
+#, kde-format
+msgid "Rotate Right"
+msgstr ""
+
+#: qml/DocumentPage.qml:76
+#, kde-format
+msgid "Delete Page"
+msgstr ""
+
+#: qml/DocumentPage.qml:97
+#, kde-kuit-format
+msgctxt "@info"
+msgid "You do not have any images in this document.<nl/><nl/>Start scanning!"
+msgstr ""
+
+#: qml/DocumentView.qml:22
+#, kde-format
+msgctxt "Prefix for document name indicating an unsaved document"
+msgid "* %1"
+msgstr ""
+
+#: qml/InProgressPage.qml:21
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: qml/MainWindow.qml:23
 #, kde-format
 msgctxt "document title: app title"
 msgid "%1 ― Skanpage"
 msgstr ""
 
-#: MainWindow.qml:78
+#: qml/MainWindow.qml:78
 #, kde-format
 msgid "Clear"
 msgstr ""
 
-#: MainWindow.qml:87
+#: qml/MainWindow.qml:87
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: MainWindow.qml:96
+#: qml/MainWindow.qml:96
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: MainWindow.qml:104
+#: qml/MainWindow.qml:104
 #, kde-format
 msgid "Scan"
 msgstr ""
 
-#: MainWindow.qml:113
+#: qml/MainWindow.qml:113
 #, kde-format
 msgctxt "Device vendor and device model name"
 msgid "Options for %1 %2"
 msgstr ""
 
-#: MainWindow.qml:113
+#: qml/MainWindow.qml:113
 #, kde-format
 msgid "Scanner options"
 msgstr ""
 
-#: MainWindow.qml:122
+#: qml/MainWindow.qml:122
 #, kde-format
 msgid "Print"
 msgstr ""
 
-#: MainWindow.qml:143
+#: qml/MainWindow.qml:143
 #, kde-format
 msgid "About Skanpage"
 msgstr ""
 
-#: MainWindow.qml:150
+#: qml/MainWindow.qml:150
 #, kde-format
 msgid "Reselect scanning device"
 msgstr ""
 
-#: MainWindow.qml:302
+#: qml/MainWindow.qml:302
 #, kde-format
 msgid "PDF files (*.pdf)"
 msgstr ""
 
-#: MainWindow.qml:302
+#: qml/MainWindow.qml:302
 #, kde-format
 msgid "JPEG files (*.jpg)"
 msgstr ""
 
-#: MainWindow.qml:302
+#: qml/MainWindow.qml:302
 #, kde-format
 msgid "PNG files (*.png)"
 msgstr ""
 
-#: MainWindow.qml:302
+#: qml/MainWindow.qml:302
 #, kde-format
 msgid "All files (*)"
 msgstr ""
 
-#: OptionDelegate.qml:117
+#: qml/OptionDelegate.qml:117
 #, kde-format
 msgctxt "Adding unit suffix"
 msgid "%1 %2"
 msgstr ""
 
-#: OptionDelegate.qml:140
+#: qml/OptionDelegate.qml:140
 #, kde-format
 msgctxt "Unit suffix for bit"
 msgid "bit"
 msgstr ""
 
-#: OptionDelegate.qml:143
+#: qml/OptionDelegate.qml:143
 #, kde-format
 msgctxt "Unit suffix for DPI"
 msgid "DPI"
 msgstr ""
 
-#: OptionDelegate.qml:146
+#: qml/OptionDelegate.qml:146
 #, kde-format
 msgctxt "Unit suffix for microsecond"
 msgid "µs"
 msgstr ""
 
-#: OptionDelegate.qml:149
+#: qml/OptionDelegate.qml:149
 #, kde-format
 msgctxt "Unit suffix for millimeter"
 msgid "mm"
 msgstr ""
 
-#: OptionDelegate.qml:152
+#: qml/OptionDelegate.qml:152
 #, kde-format
 msgctxt "Unit suffix for percent"
 msgid "%"
 msgstr ""
 
-#: OptionDelegate.qml:155
+#: qml/OptionDelegate.qml:155
 #, kde-format
 msgctxt "Unit suffix for pixel"
 msgid "px"
 msgstr ""
 
-#: OptionsWindow.qml:18
+#: qml/OptionsWindow.qml:18
 #, kde-format
 msgid "Scanner Options"
 msgstr ""
 
-#: OptionsWindow.qml:55
+#: qml/OptionsWindow.qml:55
 #, kde-format
 msgctxt "Separator between a title and a value"
 msgid "%1:"
 msgstr ""
 
-#: OptionsWindow.qml:73
+#: qml/OptionsWindow.qml:73
 #, kde-format
 msgid "Reset"
 msgstr ""
 
-#: OptionsWindow.qml:88
+#: qml/OptionsWindow.qml:88
 #, kde-format
 msgid "Apply"
 msgstr ""
 
-#: OptionsWindow.qml:96
+#: qml/OptionsWindow.qml:96
 #, kde-format
 msgid "Close"
 msgstr ""

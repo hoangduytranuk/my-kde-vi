@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-21 00:17+0000\n"
+"POT-Creation-Date: 2021-08-31 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -50,6 +50,60 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:23
+#, kde-format
+msgctxt "@info:title"
+msgid "Portfolio"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:24
+#, kde-format
+msgctxt "@info:title"
+msgid "Modified"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:25
+#, kde-format
+msgctxt "@info:title"
+msgid "Save"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:26
+#, kde-format
+msgctxt "@info:title"
+msgid "Internal"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:27
+#, kde-format
+msgctxt "@info:title"
+msgid "Url"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
+#: PortfolioModel.cpp:73 PortfolioModel.cpp:77
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
+#: PortfolioModel.cpp:73 PortfolioModel.cpp:77
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:83
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Documents"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, saveMain)
+#: DocumentsSaveDialog.ui:40
+#, kde-format
+msgid "Save"
 msgstr ""
 
 #: GanttView.cpp:88
@@ -187,26 +241,32 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: PortfolioModel.cpp:20
+#: PortfolioModel.cpp:21
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Portfolio"
 msgstr ""
 
-#: PortfolioModel.cpp:21
+#: PortfolioModel.cpp:22
+#, kde-kuit-format
+msgctxt "@title:column"
+msgid "Storage"
+msgstr ""
+
+#: PortfolioModel.cpp:23
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "File"
 msgstr ""
 
-#: PortfolioModel.cpp:65
+#: PortfolioModel.cpp:89 PortfolioModel.cpp:94
 #, kde-format
-msgid "Yes"
+msgid "Embedded"
 msgstr ""
 
-#: PortfolioModel.cpp:65
+#: PortfolioModel.cpp:89 PortfolioModel.cpp:94
 #, kde-format
-msgid "No"
+msgid "External"
 msgstr ""
 
 #: PortfolioView.cpp:60
@@ -347,60 +407,60 @@ msgstr ""
 msgid "Exclude"
 msgstr ""
 
-#: SchedulingModel.cpp:122
+#: SchedulingModel.cpp:126
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: SchedulingModel.cpp:126
+#: SchedulingModel.cpp:130
 #, kde-format
 msgid "Scheduling..."
 msgstr ""
 
-#: SchedulingModel.cpp:128
+#: SchedulingModel.cpp:132
 #, kde-format
 msgid "Not scheduled"
 msgstr ""
 
-#: SchedulingModel.cpp:130
+#: SchedulingModel.cpp:134
 #, kde-format
 msgid "Finished"
 msgstr ""
 
-#: SchedulingModel.cpp:132
+#: SchedulingModel.cpp:136
 #, kde-format
 msgid "Started"
 msgstr ""
 
-#: SchedulingModel.cpp:134
+#: SchedulingModel.cpp:138
 #, kde-format
 msgid "Baselined"
 msgstr ""
 
-#: SchedulingModel.cpp:136
+#: SchedulingModel.cpp:140
 #, kde-format
 msgid "Scheduled"
 msgstr ""
 
-#: SchedulingModel.cpp:157
+#: SchedulingModel.cpp:161
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Schedule this project"
 msgstr ""
 
-#: SchedulingModel.cpp:160
+#: SchedulingModel.cpp:164
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Include resource bookings from this project"
 msgstr ""
 
-#: SchedulingModel.cpp:163 SchedulingModel.cpp:166
+#: SchedulingModel.cpp:167 SchedulingModel.cpp:170
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Exclude this project"
 msgstr ""
 
-#: SchedulingModel.cpp:179
+#: SchedulingModel.cpp:183
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
