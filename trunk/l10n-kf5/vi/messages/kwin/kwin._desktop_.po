@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-07 00:32+0000\n"
-"PO-Revision-Date: 2021-08-24 11:21+0200\n"
+"PO-Revision-Date: 2021-09-07 16:00+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -319,7 +319,6 @@ msgid "Compositor Settings for Desktop Effects"
 msgstr "Các thiết lập trình kết hợp cho các hiệu ứng bàn làm việc"
 
 #: src/kcmkwin/kwincompositing/kwincompositing.desktop:107
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,"
@@ -330,10 +329,12 @@ msgid ""
 "OpenGL,XRender,video settings,graphical effects,desktop effects,graphics,"
 "latency,vsync,tearing,window thumbnails,scale method,scaling method,backend"
 msgstr ""
-"kwin,window,manager,compositing,effect,3D effects,2D effects,OpenGL,XRender,"
-"video settings,graphical effects,desktop effects,cửa sổ,trình quản lí,kết "
-"hợp,hiệu ứng,hiệu ứng 3D,hiệu ứng 2D,thiết lập phim,hiệu ứng đồ hoạ,hiệu ứng "
-"bàn làm việc"
+"kwin,window,manager,compositing,compositor,effect,3D effects,2D effects,"
+"OpenGL,XRender,video settings,graphical effects,desktop effects,graphics,"
+"latency,vsync,tearing,window thumbnails,scale method,scaling method,backend,"
+"cửa sổ,trình quản lí,kết hợp,trình kết hợp,hiệu ứng,hiệu ứng 3D,hiệu ứng 2D,"
+"thiết lập phim,hiệu ứng đồ hoạ,hiệu ứng bàn làm việc,đồ hoạ,độ trễ,rách hình,"
+"hình nhỏ của cửa sổ,phương pháp đổi cỡ,hậu phương"
 
 #: src/kcmkwin/kwindecoration/kwindecoration.desktop:15
 #: src/kcmkwin/kwindecoration/package/metadata.desktop:18
@@ -348,7 +349,6 @@ msgid "Configure window titlebars and borders"
 msgstr "Cấu hình thanh tiêu đề và viền của cửa sổ"
 
 #: src/kcmkwin/kwindecoration/kwindecoration.desktop:112
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,"
@@ -359,8 +359,9 @@ msgid ""
 "kwm,decoration,window decorations,titlebar,window buttons,window border,skin"
 msgstr ""
 "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,edge,"
-"kwm,decoration,cửa sổ,trình quản lí,viền,kiểu cách,chủ đề,nhìn,cảm,bố cục,"
-"nút,quai móc,cạnh,trang trí"
+"kwm,decoration,window decorations,titlebar,window buttons,window border,skin,"
+"cửa sổ,trình quản lí,viền,kiểu cách,chủ đề,nhìn,cảm,bố cục,nút,quai móc,cạnh,"
+"trang trí,trang trí cửa sổ,thanh tiêu đề,nút cửa sổ,viền cửa sổ,da"
 
 #: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:14
 #: src/kcmkwin/kwindesktop/package/metadata.desktop:2
@@ -375,7 +376,6 @@ msgid "Configure navigation, number and layout of virtual desktops"
 msgstr "Cáu hình điều hướng, số lượng và bố cục của các bàn làm việc ảo"
 
 #: src/kcmkwin/kwindesktop/kcm_kwin_virtualdesktops.desktop:111
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager "
@@ -386,9 +386,10 @@ msgid ""
 "pager applet,pager settings,indicator,navigation,cube,slide,workspaces"
 msgstr ""
 "desktop,desktops,number,virtual desktop,multiple desktops,pager,pager widget,"
-"pager applet,pager settings,bàn làm việc,số lượng,bàn làm việc ảo,nhiều bàn "
-"làm việc,tổng quan,phụ kiện tổng quan,tiểu ứng dụng tổng quan,thiết lập "
-"trình tổng quan"
+"pager applet,pager settings,indicator,navigation,cube,slide,workspaces,bàn "
+"làm việc,số lượng,bàn làm việc ảo,nhiều bàn làm việc,tổng quan,phụ kiện tổng "
+"quan,tiểu ứng dụng tổng quan,thiết lập trình tổng quan,trình chỉ thị,điều "
+"hướng,khối hộp,trượt,không gian làm việc"
 
 #: src/kcmkwin/kwineffects/kcm_kwin_effects.desktop:15
 #: src/kcmkwin/kwineffects/package/metadata.desktop:2
@@ -402,7 +403,6 @@ msgid "Configure compositor settings for desktop effects"
 msgstr "Cấu hình các thiết lập trình kết hợp cho các hiệu ứng bàn làm việc"
 
 #: src/kcmkwin/kwineffects/kcm_kwin_effects.desktop:99
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "kwin,window,manager,effect,3D effects,2D effects,graphical effects,"
@@ -454,24 +454,25 @@ msgstr ""
 "effect,dim screen effect,slide back effect,eye candy,candy,show FPS effect,"
 "show paint effect,cover switch effect,desktop cube effect,desktop cube "
 "animation effect,desktop grid effect,flip switch effect,present windows "
-"effect,resize window effect,background contrast effect,cửa sổ,trình quản lí,"
-"hiệu ứng,hiệu ứng 3D,hiệu ứng 2D,hiệu ứng đồ hoạ,hiệu ứng bàn làm việc,hiệu "
-"ứng động,nhiều hiệu ứng động,hiệu ứng quản lí cửa sổ,hiệu ứng chuyển cửa sổ,"
-"hiệu ứng chuyển bàn làm việc,hiệu ứng động bàn làm việc,trình điều khiển,"
-"thiết lập trình điều khiển,kết xuất,hiệu ứng đảo,hiệu ứng kính lúp,hiệu ứng "
-"phóng to,hiệu ứng trợ giúp nhanh,hiệu ứng theo dõi chuột,hiệu ứng thu phóng,"
-"hiệu ứng mờ,hiệu ứng làm mờ dần,hiệu ứng làm mờ dần bàn làm việc,hiệu ứng "
-"tan vỡ,hiệu ứng lướt,hiệu ứng tô sáng cửa sổ,hiệu ứng đăng nhập,hiệu ứng "
-"đăng xuất,hiệu ứng đèn thần,hiệu ứng động thu nhỏ,hiệu ứng vết chuột,hiệu "
-"ứng đổi cỡ,hiệu ứng ảnh chụp màn hình,hiệu ứng tấm mỏng,hiệu ứng trượt,hiệu "
-"ứng ô bật lên dạng trượt,hiệu ứng hình nhỏ ở cạnh,độ trong mờ,hiệu ứng độ "
-"trong mờ,độ trong suốt,hiệu ứng hình dạng của cửa sổ,hiệu ứng cửa sổ lắc lư,"
-"hiệu ứng phản hồi khởi động,hiệu ứng cha hộp thoại,hiệu ứng làm tối bất hoạt,"
-"hiệu ứng làm tối màn hình,hiệu ứng trượt lùi,đẹp mắt,hiệu ứng hiện FPS,hiệu "
-"ứng hiện sơn,hiệu ứng chuyển kiểu trang bìa,hiệu ứng khối hộp bàn làm việc,"
-"hiệu ứng động khối hộp bàn làm việc,hiệu ứng lưới bàn làm việc,hiệu ứng "
-"chuyển kiểu lật,hiệu ứng các cửa sổ hiện thời,hiệu ứng đổi cỡ cửa sổ,hiệu "
-"ứng tương phản nền"
+"effect,resize window effect,background contrast effect,bling,fading,movement,"
+"motion,overview windows effect,cửa sổ,trình quản lí,hiệu ứng,hiệu ứng 3D,"
+"hiệu ứng 2D,hiệu ứng đồ hoạ,hiệu ứng bàn làm việc,hiệu ứng động,nhiều hiệu "
+"ứng động,hiệu ứng quản lí cửa sổ,hiệu ứng chuyển cửa sổ,hiệu ứng chuyển bàn "
+"làm việc,hiệu ứng động bàn làm việc,trình điều khiển,thiết lập trình điều "
+"khiển,kết xuất,hiệu ứng đảo,hiệu ứng kính lúp,hiệu ứng phóng to,hiệu ứng trợ "
+"giúp nhanh,hiệu ứng theo dõi chuột,hiệu ứng thu phóng,hiệu ứng mờ,hiệu ứng "
+"làm mờ dần,hiệu ứng làm mờ dần bàn làm việc,hiệu ứng tan vỡ,hiệu ứng lướt,"
+"hiệu ứng tô sáng cửa sổ,hiệu ứng đăng nhập,hiệu ứng đăng xuất,hiệu ứng đèn "
+"thần,hiệu ứng động thu nhỏ,hiệu ứng vết chuột,hiệu ứng đổi cỡ,hiệu ứng ảnh "
+"chụp màn hình,hiệu ứng tấm mỏng,hiệu ứng trượt,hiệu ứng ô bật lên dạng trượt,"
+"hiệu ứng hình nhỏ ở cạnh,độ trong mờ,hiệu ứng độ trong mờ,độ trong suốt,hiệu "
+"ứng hình dạng của cửa sổ,hiệu ứng cửa sổ lắc lư,hiệu ứng phản hồi khởi động,"
+"hiệu ứng cha hộp thoại,hiệu ứng làm tối bất hoạt,hiệu ứng làm tối màn hình,"
+"hiệu ứng trượt lùi,đẹp mắt,hiệu ứng hiện FPS,hiệu ứng hiện sơn,hiệu ứng "
+"chuyển kiểu trang bìa,hiệu ứng khối hộp bàn làm việc,hiệu ứng động khối hộp "
+"bàn làm việc,hiệu ứng lưới bàn làm việc,hiệu ứng chuyển kiểu lật,hiệu ứng "
+"các cửa sổ hiện thời,hiệu ứng đổi cỡ cửa sổ,hiệu ứng tương phản nền,nhấp "
+"nháy,ngả màu,chuyển động,cử động,hiệu ứng tổng quan cửa sổ"
 
 #: src/kcmkwin/kwineffects/kwineffect.knsrc:2
 msgctxt "Name"
@@ -494,7 +495,6 @@ msgid "Configure window actions and behavior"
 msgstr "Cấu hình các hành động và ứng xử của cửa sổ"
 
 #: src/kcmkwin/kwinoptions/kwinoptions.desktop:135
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "focus,placement,window behavior,window actions,animation,raise,auto raise,"
@@ -506,8 +506,10 @@ msgid ""
 "unshade,unshading,activation,activate"
 msgstr ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
-"windows,frame,titlebar,doubleclick,nhắm,xếp chỗ,ứng xử của cửa sổ,hành động "
-"của cửa sổ,hiệu ứng động,nâng,nâng tự động,cửa sổ,khung,thanh tiêu đề,bấm đúp"
+"windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,"
+"unshade,unshading,activation,activate,nhắm,xếp chỗ,ứng xử của cửa sổ,hành "
+"động của cửa sổ,hiệu ứng động,nâng,nâng tự động,cửa sổ,khung,thanh tiêu đề,"
+"bấm đúp,bàn làm việc,đính,chuyển động,che,bỏ che,kích hoạt"
 
 #: src/kcmkwin/kwinrules/kcm_kwinrules.desktop:14
 #: src/kcmkwin/kwinrules/package/metadata.desktop:18
@@ -522,7 +524,6 @@ msgid "Individual Window Behavior"
 msgstr "Ứng xử của riêng từng cửa sổ"
 
 #: src/kcmkwin/kwinrules/kcm_kwinrules.desktop:126
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "size,position,state,window behavior,windows,specific,workarounds,remember,"
@@ -533,8 +534,8 @@ msgid ""
 "rules,window rules,apps,applications"
 msgstr ""
 "size,position,state,window behavior,windows,specific,workarounds,remember,"
-"rules,kích thước,vị trí,trạng thái,ứng xử của cửa sổ,theo cửa sổ,cách khắc "
-"phục,nhớ,luật"
+"rules,window rules,apps,applications,kích thước,vị trí,trạng thái,ứng xử của "
+"cửa sổ,theo cửa sổ,cách khắc phục,nhớ,luật,luật cửa sổ,ứng dụng"
 
 #: src/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:13
 msgctxt "Name"
@@ -547,7 +548,6 @@ msgid "Configure active screen corners and edges"
 msgstr "Cấu hình các góc và cạnh của màn hình hoạt động"
 
 #: src/kcmkwin/kwinscreenedges/kwinscreenedges.desktop:118
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
@@ -563,11 +563,12 @@ msgid ""
 msgstr ""
 "kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
 "screen edges,desktop edges,screen edges,maximize windows,tile windows,side "
-"of screen,screen behavior,switch desktop,virtual desktop,screen corners,cửa "
-"sổ,trình quản lí,hiệu ứng,góc,cạnh,viền,hành động,chuyển,bàn làm việc,cạnh "
-"màn hình kwin,cạnh bàn làm việc,cạnh màn hình,phóng to cửa sổ,lát cửa sổ,"
-"phía bên màn hình,ứng xử của màn hình,chuyển bàn làm việc,bàn làm việc ảo,"
-"góc màn hình"
+"of screen,screen behavior,switch desktop,virtual desktop,screen corners,"
+"borders,screen borders,desktop borders,desktop corners,corners,cửa sổ,trình "
+"quản lí,hiệu ứng,góc,cạnh,viền,hành động,chuyển,bàn làm việc,cạnh màn hình "
+"kwin,cạnh bàn làm việc,cạnh màn hình,phóng to cửa sổ,lát cửa sổ,phía bên màn "
+"hình,ứng xử của màn hình,chuyển bàn làm việc,bàn làm việc ảo,góc màn hình,"
+"viền,viền màn hình,viền bàn làm việc,góc bàn làm việc,góc"
 
 #: src/kcmkwin/kwinscreenedges/kwintouchscreen.desktop:13
 msgctxt "Name"
@@ -594,6 +595,8 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "kwin script,plugins,window manager"
 msgstr ""
+"kwin script,plugins,window manager,kịch bản kwin,phần cài cắm,trình quản lí "
+"cửa sổ"
 
 #: src/kcmkwin/kwinscripts/kwinscripts.desktop:20
 msgctxt "Name"
@@ -626,7 +629,6 @@ msgid "Navigation Through Windows"
 msgstr "Điều hướng qua các cửa sổ"
 
 #: src/kcmkwin/kwintabbox/kwintabbox.desktop:120
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "window,windows,switcher,window switcher,switching,window switching,alttab,"
@@ -638,8 +640,9 @@ msgid ""
 "task switcher"
 msgstr ""
 "window,windows,switcher,window switcher,switching,window switching,alttab,"
-"alt-tab,alt+tab,alt tab,cửa sổ,trình chuyển,trình chuyển cửa sổ,chuyển,"
-"chuyển cửa sổ"
+"alt-tab,alt+tab,alt tab,apps changer,application changer,app,task,switch,"
+"task switcher,cửa sổ,trình chuyển,trình chuyển cửa sổ,chuyển,chuyển cửa sổ,"
+"trình chuyển ứng dụng,ứng dụng,tác vụ,chuyển,trình chuyển tác vụ"
 
 #: src/kcmkwin/kwinvirtualkeyboard/kcm_virtualkeyboard.desktop:16
 #: src/kcmkwin/kwinvirtualkeyboard/package/metadata.desktop:5
@@ -658,6 +661,9 @@ msgid ""
 "software keyboard,virtual keyboard,touch keyboard,on screen keyboard,input "
 "methods"
 msgstr ""
+"software keyboard,virtual keyboard,touch keyboard,on screen keyboard,input "
+"methods,bàn phím phần mềm,bàn phím ảo,bàn phím cảm ứng,bàn phím trên màn "
+"hình,phương thức nhập"
 
 #: src/kwin.notifyrc:3
 msgctxt "Comment"
