@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-02 00:18+0000\n"
+"POT-Creation-Date: 2021-09-04 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3175,7 +3175,7 @@ msgid ""
 "or the Certificate Authority is unknown."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:514 src/crypto/decryptverifytask.cpp:536
+#: src/crypto/decryptverifytask.cpp:514 src/crypto/decryptverifytask.cpp:567
 #: src/crypto/signencrypttask.cpp:219 src/crypto/signencrypttask.cpp:236
 #: src/crypto/signencrypttask.cpp:553 src/crypto/signencrypttask.cpp:581
 #: src/crypto/signencrypttask.cpp:609
@@ -3195,7 +3195,28 @@ msgid ""
 "<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
 msgstr ""
 
+#: src/crypto/decryptverifytask.cpp:538
+#, kde-format
+msgid "One unknown recipient."
+msgid_plural "%1 unknown recipients."
+msgstr[0] ""
+msgstr[1] ""
+
 #: src/crypto/decryptverifytask.cpp:542
+#, kde-format
+msgid "Recipient:"
+msgid_plural "Recipients:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/crypto/decryptverifytask.cpp:553
+#, kde-format
+msgid "One unknown recipient"
+msgid_plural "%1 unknown recipients"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/crypto/decryptverifytask.cpp:579
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -3203,7 +3224,7 @@ msgctxt ""
 msgid "The decryption is %1."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:544
+#: src/crypto/decryptverifytask.cpp:581
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -3211,26 +3232,19 @@ msgctxt ""
 msgid "The decryption <b>is not</b> %1."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:554
+#: src/crypto/decryptverifytask.cpp:591
 #, kde-format
 msgid "Embedded file name: '%1'"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:562
+#: src/crypto/decryptverifytask.cpp:598
 #, kde-format
 msgid ""
 "<b>Note:</b> You cannot be sure who encrypted this message as it is not "
 "signed."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:568
-#, kde-format
-msgid "One unknown recipient."
-msgid_plural "%1 unknown recipients."
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/crypto/decryptverifytask.cpp:573
+#: src/crypto/decryptverifytask.cpp:604
 #, kde-format
 msgctxt "Integrity protection was missing because an old cipher was used."
 msgid ""
@@ -3239,7 +3253,7 @@ msgid ""
 "was not widely used."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:577
+#: src/crypto/decryptverifytask.cpp:608
 #, kde-format
 msgctxt ""
 "The user is offered to force decrypt a non integrity protected message. With "
@@ -3249,76 +3263,62 @@ msgid ""
 "it after you have forced the decryption."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:582
-#, kde-format
-msgid "Recipient:"
-msgid_plural "Recipients:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/crypto/decryptverifytask.cpp:592
-#, kde-format
-msgid "One unknown recipient"
-msgid_plural "%1 unknown recipients"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/crypto/decryptverifytask.cpp:849
+#: src/crypto/decryptverifytask.cpp:865
 #, kde-format
 msgctxt "label: result example: foo.sig: Verification failed. "
 msgid "%1: %2"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:981 src/crypto/decryptverifytask.cpp:1110
-#: src/crypto/decryptverifytask.cpp:1165 src/crypto/decryptverifytask.cpp:1268
-#: src/crypto/decryptverifytask.cpp:1323 src/crypto/decryptverifytask.cpp:1426
-#: src/crypto/decryptverifytask.cpp:1476 src/crypto/decryptverifytask.cpp:1581
+#: src/crypto/decryptverifytask.cpp:997 src/crypto/decryptverifytask.cpp:1126
+#: src/crypto/decryptverifytask.cpp:1181 src/crypto/decryptverifytask.cpp:1284
+#: src/crypto/decryptverifytask.cpp:1339 src/crypto/decryptverifytask.cpp:1442
+#: src/crypto/decryptverifytask.cpp:1492 src/crypto/decryptverifytask.cpp:1597
 #, kde-format
 msgid "Caught exception: %1"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:984 src/crypto/decryptverifytask.cpp:1112
-#: src/crypto/decryptverifytask.cpp:1168 src/crypto/decryptverifytask.cpp:1270
-#: src/crypto/decryptverifytask.cpp:1326 src/crypto/decryptverifytask.cpp:1428
-#: src/crypto/decryptverifytask.cpp:1478 src/crypto/decryptverifytask.cpp:1583
+#: src/crypto/decryptverifytask.cpp:1000 src/crypto/decryptverifytask.cpp:1128
+#: src/crypto/decryptverifytask.cpp:1184 src/crypto/decryptverifytask.cpp:1286
+#: src/crypto/decryptverifytask.cpp:1342 src/crypto/decryptverifytask.cpp:1444
+#: src/crypto/decryptverifytask.cpp:1494 src/crypto/decryptverifytask.cpp:1599
 #: src/uiserver/assuanserverconnection.cpp:1554
 #: src/uiserver/assuanserverconnection.cpp:1605
 #, kde-format
 msgid "Caught unknown exception"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1035
+#: src/crypto/decryptverifytask.cpp:1051
 #, kde-format
 msgid ""
 "Could not determine whether this is an S/MIME or an OpenPGP signature/"
 "ciphertext - maybe it is neither ciphertext nor a signature?"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1042 src/crypto/decryptverifytask.cpp:1227
+#: src/crypto/decryptverifytask.cpp:1058 src/crypto/decryptverifytask.cpp:1243
 #, kde-format
 msgid "Decrypting: %1..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1220
+#: src/crypto/decryptverifytask.cpp:1236
 #, kde-format
 msgid ""
 "Could not determine whether this was S/MIME- or OpenPGP-encrypted - maybe it "
 "is not ciphertext at all?"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1378 src/crypto/decryptverifytask.cpp:1517
+#: src/crypto/decryptverifytask.cpp:1394 src/crypto/decryptverifytask.cpp:1533
 #, kde-format
 msgid ""
 "Could not determine whether this is an S/MIME or an OpenPGP signature - "
 "maybe it is not a signature at all?"
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1385
+#: src/crypto/decryptverifytask.cpp:1401
 #, kde-format
 msgid "Verifying: %1..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1532
+#: src/crypto/decryptverifytask.cpp:1548
 #, kde-kuit-format
 msgctxt ""
 "Verification of a detached signature in progress. The first file contains "
@@ -3326,12 +3326,12 @@ msgctxt ""
 msgid "Verifying: <filename>%1</filename> with <filename>%2</filename>..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1537
+#: src/crypto/decryptverifytask.cpp:1553
 #, kde-format
 msgid "Verifying signature: %1..."
 msgstr ""
 
-#: src/crypto/decryptverifytask.cpp:1545
+#: src/crypto/decryptverifytask.cpp:1561
 #, kde-kuit-format
 msgctxt ""
 "Verification of a detached signature summary. The first file contains the "
@@ -3373,24 +3373,31 @@ msgid "Please enter a name or email address..."
 msgstr ""
 
 #: src/crypto/gui/certificatelineedit.cpp:204
-#: src/crypto/gui/certificatelineedit.cpp:235
+#: src/crypto/gui/certificatelineedit.cpp:237
 #, kde-format
 msgid "Open selection dialog."
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:232
+#: src/crypto/gui/certificatelineedit.cpp:233
+#: src/crypto/gui/certificatelineedit.cpp:234
 #, kde-format
-msgid "Multiple certificates"
+msgid "Multiple matching certificates found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:245
+#: src/crypto/gui/certificatelineedit.cpp:248
+#: src/crypto/gui/certificatelineedit.cpp:253
+#, kde-format
+msgid "No matching certificates found.<br/>Click to import a certificate."
+msgstr ""
+
 #: src/crypto/gui/certificatelineedit.cpp:249
+#: src/crypto/gui/certificatelineedit.cpp:254
 #, kde-format
-msgid "No matching certificates found.<br/>Click here to import a certificate."
+msgid "No matching certificates found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:259
 #: src/crypto/gui/certificatelineedit.cpp:264
+#: src/crypto/gui/certificatelineedit.cpp:269
 #, kde-format
 msgid "Click for details."
 msgstr ""
@@ -3441,7 +3448,7 @@ msgid "All operations completed."
 msgstr ""
 
 #: src/crypto/gui/decryptverifyfilesdialog.cpp:140
-#: src/crypto/gui/newresultpage.cpp:119 src/crypto/gui/resultlistwidget.cpp:199
+#: src/crypto/gui/newresultpage.cpp:119 src/crypto/gui/resultlistwidget.cpp:195
 #: src/crypto/gui/resultpage.cpp:113
 #, kde-format
 msgctxt "number, operation description"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-02 00:14+0000\n"
+"POT-Creation-Date: 2021-09-07 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2698,7 +2698,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, preview_button)
 #: dialogs/catalogcsvimport.ui:297 ekos/capture/capturecountswidget.cpp:158
-#: fitsviewer/fitsviewer.cpp:555 indi/indiccd.cpp:1724
+#: fitsviewer/fitsviewer.cpp:555 indi/indiccd.cpp:1736
 #, kde-format
 msgid "Preview"
 msgstr ""
@@ -5586,8 +5586,8 @@ msgstr ""
 msgid "Mount does not support syncing."
 msgstr ""
 
-#: ekos/align/align.cpp:991 ekos/align/align.cpp:998 ekos/guide/guide.cpp:648
-#: ekos/guide/guide.cpp:655 ekos/profileeditor.cpp:153
+#: ekos/align/align.cpp:991 ekos/align/align.cpp:998 ekos/guide/guide.cpp:657
+#: ekos/guide/guide.cpp:664 ekos/profileeditor.cpp:153
 #: ekos/profileeditor.cpp:160
 #, kde-format
 msgctxt "F-Number, Focal length, Aperture"
@@ -5789,7 +5789,7 @@ msgid "Solver aborted after %1 seconds."
 msgstr ""
 
 #: ekos/align/align.cpp:2556 ekos/capture/capture.cpp:2496
-#: ekos/focus/focus.cpp:2949 ekos/guide/guide.cpp:1121
+#: ekos/focus/focus.cpp:2949 ekos/guide/guide.cpp:1132
 #: ekos/manager.cpp:2221 ekos/mount/mount.cpp:833 ekos/observatory/observatory.cpp:943
 #: ekos/scheduler/scheduler.cpp:785
 #, kde-format
@@ -13061,7 +13061,7 @@ msgid "Cooler is off"
 msgstr ""
 
 #: ekos/capture/capture.cpp:7211 ekos/focus/focus.cpp:3728
-#: ekos/guide/guide.cpp:910
+#: ekos/guide/guide.cpp:921
 #, kde-format
 msgid "Exposure timeout. Restarting exposure..."
 msgstr ""
@@ -13933,7 +13933,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, setAngleB)
 #. i18n: ectx: property (text), widget (QPushButton, setPAB)
 #: ekos/capture/rotatorsettings.ui:229 ekos/capture/rotatorsettings.ui:391
-#: indi/indiproperty.cpp:236 indi/indiproperty.cpp:260
+#: indi/indiproperty.cpp:226 indi/indiproperty.cpp:250
 #: kstarslite/qml/indi/modules/KSINDITextField.qml:39
 #, kde-format, kde-kuit-format
 msgid "Set"
@@ -15622,190 +15622,190 @@ msgstr ""
 msgid "Connection to the guide CCD is lost."
 msgstr ""
 
-#: ekos/guide/guide.cpp:762
+#: ekos/guide/guide.cpp:771
 #, kde-format
 msgid "Error: lost connection to CCD."
 msgstr ""
 
-#: ekos/guide/guide.cpp:926
+#: ekos/guide/guide.cpp:937
 #, kde-format
 msgid "Exposure timeout. Aborting Autoguide."
 msgstr ""
 
-#: ekos/guide/guide.cpp:928
+#: ekos/guide/guide.cpp:939
 #, kde-format
 msgid "Exposure timeout. Aborting Dithering."
 msgstr ""
 
-#: ekos/guide/guide.cpp:930
+#: ekos/guide/guide.cpp:941
 #, kde-format
 msgid "Exposure timeout. Aborting Calibration."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1274
+#: ekos/guide/guide.cpp:1285
 #, kde-format
 msgid ""
 "The guide camera is identical to the primary imaging camera. Are you sure "
 "you want to continue?"
 msgstr ""
 
-#: ekos/guide/guide.cpp:1281
+#: ekos/guide/guide.cpp:1292
 #, kde-format
 msgid "The mount is parked. Unpark to start guiding."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1384
+#: ekos/guide/guide.cpp:1395
 #, kde-format
 msgid "Pier side change detected. Clearing calibration."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1398
+#: ekos/guide/guide.cpp:1409
 #, kde-format
 msgid "Mount is moving. Resetting calibration..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1414
+#: ekos/guide/guide.cpp:1425
 #, kde-format
 msgid "Mount is parking. Aborting guide..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1416
+#: ekos/guide/guide.cpp:1427
 #, kde-format
 msgid "Mount is slewing. Aborting guide..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1520
+#: ekos/guide/guide.cpp:1531
 #, kde-format
 msgid "Calibration is cleared."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1541
+#: ekos/guide/guide.cpp:1552
 #, kde-format
 msgid "External guider connected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1559
+#: ekos/guide/guide.cpp:1570
 #, kde-format
 msgid "External guider disconnected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1576
+#: ekos/guide/guide.cpp:1587
 #, kde-format
 msgid "Calibration completed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1592
+#: ekos/guide/guide.cpp:1603
 #, kde-format
 msgid "Calibration started."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1598
+#: ekos/guide/guide.cpp:1609
 #, kde-format
 msgid "Guiding resumed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1601
+#: ekos/guide/guide.cpp:1612
 #, kde-format
 msgid "Autoguiding started."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1614
+#: ekos/guide/guide.cpp:1625
 #, kde-format
 msgid "Autoguiding aborted."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1619
+#: ekos/guide/guide.cpp:1630
 #, kde-format
 msgid "Guiding suspended."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1628
+#: ekos/guide/guide.cpp:1639
 #, kde-format
 msgid "Manual dithering in progress."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1632
+#: ekos/guide/guide.cpp:1643
 #, kde-format
 msgid "Dithering in progress."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1636
+#: ekos/guide/guide.cpp:1647
 #, kde-format
 msgid "Post-dither settling for %1 second..."
 msgid_plural "Post-dither settling for %1 seconds..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ekos/guide/guide.cpp:1641
+#: ekos/guide/guide.cpp:1652
 #, kde-format
 msgid "Dithering failed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1652
+#: ekos/guide/guide.cpp:1663
 #, kde-format
 msgid "Dithering completed successfully."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1709
+#: ekos/guide/guide.cpp:1722
 #, kde-format
 msgid "Exposure failed. Restarting exposure..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1826
+#: ekos/guide/guide.cpp:1839
 #, kde-format
 msgid "Cannot change guider type while active."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1888
+#: ekos/guide/guide.cpp:1901
 #, kde-format
 msgid "Select guide camera."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1940
+#: ekos/guide/guide.cpp:1953
 #, kde-format
 msgid ""
 "Warning: Reset Guiding Calibration is enabled. It is recommended to turn "
 "this option off for PHD2."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2470
+#: ekos/guide/guide.cpp:2483
 #, kde-format
 msgid "Calibration failed to start."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2634
+#: ekos/guide/guide.cpp:2647
 #, kde-format
 msgid "Auto star selected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2638
+#: ekos/guide/guide.cpp:2651
 #, kde-format
 msgid "Failed to select an auto star."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2647
+#: ekos/guide/guide.cpp:2660
 #, kde-format
 msgid "Select a guide star to calibrate."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2932
+#: ekos/guide/guide.cpp:2945
 #, kde-format
 msgid "x (pixels)"
 msgstr ""
 
-#: ekos/guide/guide.cpp:2933
+#: ekos/guide/guide.cpp:2946
 #, kde-format
 msgid "y (pixels)"
 msgstr ""
 
-#: ekos/guide/guide.cpp:3088 ekos/guide/guide.cpp:3354
+#: ekos/guide/guide.cpp:3101 ekos/guide/guide.cpp:3367
 #, kde-format
 msgid ""
 "The PHD2 camera is not available to Ekos, so you cannot see the captured "
 "images.  But you will still see the Guide Star Image when you guide."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3092 ekos/guide/guide.cpp:3358
+#: ekos/guide/guide.cpp:3105 ekos/guide/guide.cpp:3371
 #, kde-format
 msgid ""
 "To receive PHD2 images other than the Guide Star Image, SubFrame must be "
@@ -24221,28 +24221,28 @@ msgstr ""
 msgid "Video Recording Started"
 msgstr ""
 
-#: indi/indiccd.cpp:1557
+#: indi/indiccd.cpp:1569
 #, kde-format
 msgid "%1 file saved to %2"
 msgstr ""
 
-#: indi/indiccd.cpp:1564
+#: indi/indiccd.cpp:1576
 #, kde-format
 msgid "Image file is received"
 msgstr ""
 
-#: indi/indiccd.cpp:1721
+#: indi/indiccd.cpp:1733
 #, kde-format
 msgid "%1 Preview"
 msgstr ""
 
-#: indi/indidevice.cpp:326
+#: indi/indidevice.cpp:328
 #, kde-format
 msgctxt "INDI message shown in status bar"
 msgid "%1"
 msgstr ""
 
-#: indi/indidevice.cpp:329
+#: indi/indidevice.cpp:331
 #, kde-format
 msgctxt "Message shown in INDI control panel"
 msgid "%1"
@@ -24308,17 +24308,17 @@ msgstr ""
 msgid "Modify Host"
 msgstr ""
 
-#: indi/indielement.cpp:367
+#: indi/indielement.cpp:351
 #, kde-format
 msgid "INDI DATA STREAM"
 msgstr ""
 
-#: indi/indielement.cpp:644
+#: indi/indielement.cpp:624
 #, kde-format
 msgid "Cannot open file %1 for reading"
 msgstr ""
 
-#: indi/indielement.cpp:653
+#: indi/indielement.cpp:633
 #, kde-format
 msgid "Not enough memory for file %1"
 msgstr ""
@@ -24329,18 +24329,18 @@ msgid "INDI Server Message"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/indiproperty.cpp:234 indi/opsindi.ui:280 tools/observinglist.cpp:108
+#: indi/indiproperty.cpp:224 indi/opsindi.ui:280 tools/observinglist.cpp:108
 #, kde-format
 msgid "Time"
 msgstr ""
 
-#: indi/indiproperty.cpp:303
+#: indi/indiproperty.cpp:293
 #, kde-format
 msgid ""
 "Enable binary data transfer from this property to KStars and vice-versa."
 msgstr ""
 
-#: indi/indiproperty.cpp:310
+#: indi/indiproperty.cpp:300
 #, kde-format
 msgid "Upload"
 msgstr ""
@@ -98963,25 +98963,20 @@ msgstr ""
 msgid "Could not load catalog objects in trixel: %1"
 msgstr ""
 
-#: skycomponents/catalogscomponent.cpp:320
-#, kde-format
-msgid "Move the old database (%1) to %2?"
-msgstr ""
-
-#: skycomponents/catalogscomponent.cpp:327
+#: skycomponents/catalogscomponent.cpp:325
 #, kde-format
 msgid ""
 "Import custom and internet resolved objects from the old DSO database into "
 "the new one?"
 msgstr ""
 
-#: skycomponents/catalogscomponent.cpp:338
-#: skycomponents/catalogscomponent.cpp:345
+#: skycomponents/catalogscomponent.cpp:336
+#: skycomponents/catalogscomponent.cpp:343
 #, kde-format
 msgid "Could not import the objects."
 msgstr ""
 
-#: skycomponents/catalogscomponent.cpp:350
+#: skycomponents/catalogscomponent.cpp:348
 #, kde-format
 msgid "Successfully added %1 object to the user catalog."
 msgid_plural "Successfully added %1 objects to the user catalog."

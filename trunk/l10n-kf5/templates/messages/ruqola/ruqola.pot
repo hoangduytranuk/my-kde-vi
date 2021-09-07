@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-03 00:17+0000\n"
+"POT-Creation-Date: 2021-09-07 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -419,12 +419,12 @@ msgstr ""
 msgid "Room avatar changed by %1"
 msgstr ""
 
-#: core/messages/messageattachment.cpp:251
+#: core/messages/messageattachment.cpp:254
 #, kde-format
 msgid "File Uploaded:"
 msgstr ""
 
-#: core/messages/messageattachment.cpp:372
+#: core/messages/messageattachment.cpp:375
 #, kde-format
 msgid "File Uploaded: %1"
 msgstr ""
@@ -452,7 +452,6 @@ msgstr ""
 #: core/model/directoryteamsmodel.cpp:102
 #: core/model/directoryusersmodel.cpp:107
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:55
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:51
 #, kde-format
 msgid "Name"
 msgstr ""
@@ -501,7 +500,6 @@ msgid "Expired"
 msgstr ""
 
 #: core/model/adminpermissionsmodel.cpp:50
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:57
 #, kde-format
 msgid "Roles"
 msgstr ""
@@ -541,8 +539,7 @@ msgstr ""
 msgid "UserName"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:91 widgets/administratordialog/users/administratoradduserwidget.cpp:53
-#: widgets/dialogs/configurenotificationwidget.cpp:132
+#: core/model/adminusersmodel.cpp:91 widgets/dialogs/configurenotificationwidget.cpp:132
 #, kde-format
 msgid "Email"
 msgstr ""
@@ -768,92 +765,92 @@ msgstr ""
 msgid "Modify Status..."
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:46
+#: core/model/systemmessagesmodel.cpp:47
 #, kde-format
 msgid "System Messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:49
+#: core/model/systemmessagesmodel.cpp:50
 #, kde-format
 msgid "Hide \"User Added\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:50
+#: core/model/systemmessagesmodel.cpp:51
 #, kde-format
 msgid "Hide \"Welcome\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:51
+#: core/model/systemmessagesmodel.cpp:52
 #, kde-format
 msgid "Hide \"User Joined Conversation\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:52
+#: core/model/systemmessagesmodel.cpp:53
 #, kde-format
 msgid "Hide \"User Leave\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:53
+#: core/model/systemmessagesmodel.cpp:54
 #, kde-format
 msgid "Hide \"User Join\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:54
+#: core/model/systemmessagesmodel.cpp:55
 #, kde-format
 msgid "Hide \"Role No Longer Defined\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:55
+#: core/model/systemmessagesmodel.cpp:56
 #, kde-format
 msgid "Hide \"Was Set Role\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:56
+#: core/model/systemmessagesmodel.cpp:57
 #, kde-format
 msgid "Hide \"User Removed\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:57
+#: core/model/systemmessagesmodel.cpp:58
 #, kde-format
 msgid "Hide \"Room Unarchived\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:58
+#: core/model/systemmessagesmodel.cpp:59
 #, kde-format
 msgid "Hide \"Room encryption disabled\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:59
+#: core/model/systemmessagesmodel.cpp:60
 #, kde-format
 msgid "Hide \"Room encryption enabled\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:60
+#: core/model/systemmessagesmodel.cpp:61
 #, kde-format
 msgid "Hide \"Room type changed\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:61
+#: core/model/systemmessagesmodel.cpp:62
 #, kde-format
 msgid "Hide \"Room avatar changed\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:62
+#: core/model/systemmessagesmodel.cpp:63
 #, kde-format
 msgid "Hide \"User Muted / Unmuted\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:63
+#: core/model/systemmessagesmodel.cpp:64
 #, kde-format
 msgid "Hide \"Room Name Changed\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:64
+#: core/model/systemmessagesmodel.cpp:65
 #, kde-format
 msgid "Hide \"Message Removed\" messages"
 msgstr ""
 
-#: core/model/systemmessagesmodel.cpp:65
+#: core/model/systemmessagesmodel.cpp:66
 #, kde-format
 msgid "Hide \"Room Archived\" messages"
 msgstr ""
@@ -1638,6 +1635,11 @@ msgstr ""
 msgid "Error while handling avatar setting from a URL \"%1\" for %2"
 msgstr ""
 
+#: rocketchatrestapi-qt5/users/usersupdatejob.cpp:82
+#, kde-format
+msgid "Authentication required"
+msgstr ""
+
 #: rocketchatrestapi-qt5/users/usersupdateownbasicinfojob.cpp:86
 #, kde-format
 msgid "Two Authentication Password Required"
@@ -1700,6 +1702,7 @@ msgstr ""
 #: widgets/administratordialog/customemoji/administratorcustomemojicreatewidget.cpp:47
 #: widgets/administratordialog/customsounds/administratorcustomsoundscreatewidget.cpp:36
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:40
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:51
 #: widgets/dialogs/channelinfoeditablewidget.cpp:66
 #: widgets/dialogs/channelinforeadonlywidget.cpp:51
 #: widgets/dialogs/createnewchannelwidget.cpp:47
@@ -1763,7 +1766,7 @@ msgstr ""
 #: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:159
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:126
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:145
-#: widgets/administratordialog/permissions/permissionswidget.cpp:96
+#: widgets/administratordialog/permissions/permissionswidget.cpp:95
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:67
 #: widgets/administratordialog/users/administratoruserswidget.cpp:199
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
@@ -1841,6 +1844,13 @@ msgstr ""
 #: widgets/administratordialog/invites/invitetreeview.cpp:64
 #, kde-format
 msgid "Remove Invite"
+msgstr ""
+
+#: widgets/administratordialog/permissions/permissionseditwidget.cpp:33
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:57
+#: widgets/dialogs/directchannelinfowidget.cpp:76
+#, kde-format
+msgid "Roles:"
 msgstr ""
 
 #: widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:29
@@ -2105,13 +2115,29 @@ msgid "Send Welcome Email"
 msgstr ""
 
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:52
+#: widgets/dialogs/directchannelinfowidget.cpp:60
+#: widgets/myaccount/myaccountprofileconfigurewidget.cpp:62
 #, kde-format
-msgid "Username"
+msgid "Username:"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:53
+#: widgets/dialogs/directchannelinfowidget.cpp:88
+#: widgets/misc/passwordlineeditwidget.cpp:59
+#: widgets/myaccount/myaccountprofileconfigurewidget.cpp:67
+#: widgets/registeruser/registeruserwidget.cpp:48
+#, kde-format
+msgid "Email:"
 msgstr ""
 
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:54
+#: widgets/dialogs/channelinfoeditablewidget.cpp:89
+#: widgets/dialogs/createnewchannelwidget.cpp:74
+#: widgets/dialogs/createnewserverwidget.cpp:58
+#: widgets/registeruser/registeruserwidget.cpp:53
+#: widgets/ruqolaloginwidget.cpp:87
 #, kde-format
-msgid "Password"
+msgid "Password:"
 msgstr ""
 
 #: widgets/administratordialog/users/administratoruserswidget.cpp:137
@@ -2374,15 +2400,6 @@ msgstr ""
 #: widgets/dialogs/uploadfilewidget.cpp:39
 #, kde-format
 msgid "Description:"
-msgstr ""
-
-#: widgets/dialogs/channelinfoeditablewidget.cpp:89
-#: widgets/dialogs/createnewchannelwidget.cpp:74
-#: widgets/dialogs/createnewserverwidget.cpp:58
-#: widgets/registeruser/registeruserwidget.cpp:53
-#: widgets/ruqolaloginwidget.cpp:87
-#, kde-format
-msgid "Password:"
 msgstr ""
 
 #: widgets/dialogs/channelinfoeditablewidget.cpp:92
@@ -2698,12 +2715,6 @@ msgctxt "@title:window"
 msgid "Users Info"
 msgstr ""
 
-#: widgets/dialogs/directchannelinfowidget.cpp:60
-#: widgets/myaccount/myaccountprofileconfigurewidget.cpp:62
-#, kde-format
-msgid "Username:"
-msgstr ""
-
 #: widgets/dialogs/directchannelinfowidget.cpp:68
 #, kde-format
 msgid "Timezone:"
@@ -2714,11 +2725,6 @@ msgstr ""
 msgid "Custom Status:"
 msgstr ""
 
-#: widgets/dialogs/directchannelinfowidget.cpp:76
-#, kde-format
-msgid "Roles:"
-msgstr ""
-
 #: widgets/dialogs/directchannelinfowidget.cpp:80
 #, kde-format
 msgid "Created At:"
@@ -2727,14 +2733,6 @@ msgstr ""
 #: widgets/dialogs/directchannelinfowidget.cpp:84
 #, kde-format
 msgid "Last Login:"
-msgstr ""
-
-#: widgets/dialogs/directchannelinfowidget.cpp:88
-#: widgets/misc/passwordlineeditwidget.cpp:59
-#: widgets/myaccount/myaccountprofileconfigurewidget.cpp:67
-#: widgets/registeruser/registeruserwidget.cpp:48
-#, kde-format
-msgid "Email:"
 msgstr ""
 
 #: widgets/dialogs/directchannelinfowidget.cpp:170

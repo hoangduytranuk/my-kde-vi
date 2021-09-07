@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-03 00:15+0000\n"
+"POT-Creation-Date: 2021-09-07 00:17+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hieu Duc Hoang <hieu.d.hoang@gmail.com>\n"
 "Language-Team: vietnamese <vi@i18n.kde.org>\n"
@@ -13975,8 +13975,8 @@ msgid ""
 "Wayland. Krita will close now."
 msgstr ""
 
-#: krita/main.cc:589 libs/ui/KisApplication.cpp:370
-#: libs/ui/KisApplication.cpp:638
+#: krita/main.cc:589 libs/ui/KisApplication.cpp:362
+#: libs/ui/KisApplication.cpp:627
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -14486,9 +14486,8 @@ msgid ""
 msgstr ""
 
 #: libs/flake/text/KoSvgTextShape.cpp:572
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
 #, fuzzy, kde-format
+msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "Chữ"
 
@@ -14873,7 +14872,7 @@ msgstr "Cỡ"
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
 #: libs/ui/forms/wdgrectangleconstraints.ui:184
-#: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:281
+#: libs/ui/forms/wdgrectangleconstraints.ui:226 libs/ui/kis_paintop_box.cc:282
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:75
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
@@ -14892,10 +14891,10 @@ msgstr "Cỡ"
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:41
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:43
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:53
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:59
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:66
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:71
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:76
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:82
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:21
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:68
 #: plugins/paintops/deform/kis_brush_size_option.cpp:38
@@ -15208,6 +15207,7 @@ msgstr "Chiều cao"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
 #: libs/image/kis_filter_strategy.h:72
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:120
 #: libs/ui/widgets/KoFillConfigWidget.ui:421
 #, kde-format
 msgid "Bicubic"
@@ -15221,6 +15221,7 @@ msgid ""
 msgstr ""
 
 #: libs/image/kis_filter_strategy.h:86
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:123
 #, kde-format
 msgid "Nearest Neighbor"
 msgstr ""
@@ -15234,6 +15235,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSmoothingType)
 #: libs/image/kis_filter_strategy.h:108
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:121
 #: libs/ui/canvas/kis_canvas_controller.cpp:305
 #: libs/ui/widgets/KoFillConfigWidget.ui:416
 #, fuzzy, kde-format
@@ -15259,6 +15261,7 @@ msgid "BSpline"
 msgstr "Hình sin"
 
 #: libs/image/kis_filter_strategy.h:146
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:122
 #, kde-format
 msgid "Lanczos3"
 msgstr "Lanczos3"
@@ -15288,12 +15291,12 @@ msgid "Imported Image"
 msgstr "Nhập ảnh"
 
 #: libs/image/kis_image.cc:626 libs/image/kis_layer_utils.cpp:1865
-#: libs/impex/KisExportCheckRegistry.cpp:113
+#: libs/impex/KisExportCheckRegistry.cpp:118
 #, fuzzy, kde-format
 msgid "Selection Mask"
 msgstr "Không có phần chọn"
 
-#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2324
+#: libs/image/kis_image.cc:686 libs/ui/KisDocument.cpp:2323
 #: plugins/impex/psd/psd_loader.cpp:162
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -16014,20 +16017,28 @@ msgid ""
 "The image contains <b>compositions</b>. The compositions will not be saved."
 msgstr ""
 
-#: libs/impex/ExifCheck.h:27
+#: libs/impex/ExifCheck.h:28
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "The image contains <b>Exif</b> metadata. The metadata will not be saved."
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:93 libs/ui/kis_layer_manager.cc:575
+#: libs/impex/ExifCheck.h:75
+#, kde-format
+msgctxt "image conversion warning"
+msgid ""
+"The image has <b>Exif</b> metadata and multiple layers. Only metadata <b>in "
+"the first layer</b> will be saved."
+msgstr ""
+
+#: libs/impex/KisExportCheckRegistry.cpp:98 libs/ui/kis_layer_manager.cc:575
 #, fuzzy, kde-format
 msgid "Clone Layer"
 msgstr "Lớp &lặp lại"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: libs/impex/KisExportCheckRegistry.cpp:95 libs/ui/kis_layer_manager.cc:559
+#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:559
 #: libs/ui/kis_node_manager.cpp:1499 libs/ui/KisPaletteEditor.cpp:417
 #: libs/widgets/kis_palette_view.cpp:114
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
@@ -16036,48 +16047,48 @@ msgstr "Lớp &lặp lại"
 msgid "Group"
 msgstr "Nhóm:"
 
-#: libs/impex/KisExportCheckRegistry.cpp:97 libs/ui/kis_layer_manager.cc:884
+#: libs/impex/KisExportCheckRegistry.cpp:102 libs/ui/kis_layer_manager.cc:884
 #, fuzzy, kde-format
 msgid "File Layer"
 msgstr "Lớp &lặp lại"
 
-#: libs/impex/KisExportCheckRegistry.cpp:99 libs/ui/kis_layer_manager.cc:588
+#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:588
 #: plugins/impex/svg/kis_svg_import.cc:80
 #, fuzzy, kde-format
 msgid "Vector Layer"
 msgstr "Trộn Layer"
 
-#: libs/impex/KisExportCheckRegistry.cpp:101 libs/ui/kis_layer_manager.cc:610
+#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:610
 #, fuzzy, kde-format
 msgid "Filter Layer"
 msgstr "Tạo layer mới"
 
-#: libs/impex/KisExportCheckRegistry.cpp:103
+#: libs/impex/KisExportCheckRegistry.cpp:108
 #, fuzzy, kde-format
 msgid "Generator Layer"
 msgstr "Layer &kế..."
 
-#: libs/impex/KisExportCheckRegistry.cpp:105 libs/ui/kis_mask_manager.cc:274
+#: libs/impex/KisExportCheckRegistry.cpp:110 libs/ui/kis_mask_manager.cc:274
 #, fuzzy, kde-format
 msgid "Colorize Mask"
 msgstr "Màu"
 
-#: libs/impex/KisExportCheckRegistry.cpp:107
+#: libs/impex/KisExportCheckRegistry.cpp:112
 #: libs/ui/dialogs/kis_dlg_filter.cpp:218 libs/ui/kis_mask_manager.cc:223
 #, fuzzy, kde-format
 msgid "Filter Mask"
 msgstr "Lớp &lặp lại"
 
-#: libs/impex/KisExportCheckRegistry.cpp:109 libs/ui/kis_mask_manager.cc:286
+#: libs/impex/KisExportCheckRegistry.cpp:114 libs/ui/kis_mask_manager.cc:286
 #, fuzzy, kde-format
 msgid "Transform Mask"
 msgstr "Biến hình"
 
-#: libs/impex/KisExportCheckRegistry.cpp:111 libs/ui/kis_mask_manager.cc:210
+#: libs/impex/KisExportCheckRegistry.cpp:116 libs/ui/kis_mask_manager.cc:210
 #: libs/ui/kis_node_manager.cpp:1290
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:213
 #: plugins/impex/psd/psd_loader.cpp:288
-#: plugins/impex/tiff/kis_tiff_converter.cc:1186
+#: plugins/impex/tiff/kis_tiff_converter.cc:1296
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, fuzzy, kde-format
 msgid "Transparency Mask"
@@ -17584,10 +17595,10 @@ msgstr ""
 msgid "Out"
 msgstr "Tự chọn"
 
-#: libs/pigment/resources/KoColorSet.cpp:488
-#: libs/pigment/resources/KoColorSet.cpp:769
-#: libs/pigment/resources/KoColorSet.cpp:851
-#: libs/pigment/resources/KoColorSet.cpp:1074
+#: libs/pigment/resources/KoColorSet.cpp:489
+#: libs/pigment/resources/KoColorSet.cpp:770
+#: libs/pigment/resources/KoColorSet.cpp:852
+#: libs/pigment/resources/KoColorSet.cpp:1075
 #: libs/ui/actions/KisPasteActionFactories.cpp:291
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:667
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:27
@@ -17648,12 +17659,12 @@ msgstr "Gỡ bỏ Layer"
 #: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
 #: libs/ui/kis_layer_manager.cc:303 libs/ui/kis_layer_manager.cc:892
 #: libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277
-#: libs/ui/KisApplication.cpp:886 libs/ui/KisApplication.cpp:889
-#: libs/ui/KisApplication.cpp:905 libs/ui/KisApplication.cpp:937
-#: libs/ui/KisApplication.cpp:951 libs/ui/KisApplication.cpp:979
-#: libs/ui/KisDocument.cpp:860 libs/ui/KisDocument.cpp:863
-#: libs/ui/KisDocument.cpp:1703 libs/ui/KisDocument.cpp:1746
-#: libs/ui/KisDocument.cpp:1754 libs/ui/KisMainWindow.cpp:1090
+#: libs/ui/KisApplication.cpp:875 libs/ui/KisApplication.cpp:878
+#: libs/ui/KisApplication.cpp:894 libs/ui/KisApplication.cpp:926
+#: libs/ui/KisApplication.cpp:940 libs/ui/KisApplication.cpp:968
+#: libs/ui/KisDocument.cpp:859 libs/ui/KisDocument.cpp:862
+#: libs/ui/KisDocument.cpp:1702 libs/ui/KisDocument.cpp:1745
+#: libs/ui/KisDocument.cpp:1753 libs/ui/KisMainWindow.cpp:1090
 #: libs/ui/KisMainWindow.cpp:1217 libs/ui/KisMainWindow.cpp:1315
 #: libs/ui/KisMainWindow.cpp:1920 libs/ui/KisMainWindow.cpp:1929
 #: libs/ui/KisMainWindow.cpp:2068 libs/ui/KisMainWindow.cpp:2127
@@ -18590,6 +18601,33 @@ msgstr "Chế độ Tổng hợp"
 msgid "FFMpeg not found! Please add a path to FFMpeg in the \"Advanced\" tab"
 msgstr ""
 
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:80
+#, kde-format
+msgctxt "FPS as a unit following a value, like 60 FPS"
+msgid " FPS"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:625
+#, kde-format
+msgctxt "Second as a unit following a value, like 60 s"
+msgid " s"
+msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:99
+#, fuzzy, kde-format
+#| msgid "Document"
+msgctxt "Import video to New Document"
+msgid "New Document"
+msgstr "Tài liệu"
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:102
+#, fuzzy, kde-format
+msgctxt "Import video to Current Document"
+msgid "Current Document"
+msgstr "Đổ dốc màu tự chọn"
+
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:588
 #, kde-format
@@ -18598,6 +18636,12 @@ msgid ""
 "<small>Document:\n"
 " %1 FPS</small>"
 msgstr ""
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:124
+#: plugins/assistants/Assistants/SplineAssistant.cc:222
+#, fuzzy, kde-format
+msgid "Spline"
+msgstr "Hình sin"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
 #, kde-format
@@ -18776,7 +18820,7 @@ msgstr "Cỡ Lớp"
 msgid "FFMpeg Crashed"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:516
+#: libs/ui/animation/KisFFMpegWrapper.cpp:520
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -19453,7 +19497,7 @@ msgstr "Hiển thị"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:293
+#: libs/ui/kis_paintop_box.cc:294
 #: plugins/dockers/recorder/recorder_export.ui:227
 #, fuzzy, kde-format
 #| msgid "Fax:"
@@ -20459,8 +20503,8 @@ msgstr "Tính chất Lớp"
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:263
-#: libs/ui/kis_paintop_box.cc:271 libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:264
+#: libs/ui/kis_paintop_box.cc:272 libs/ui/layerstyles/wdgInnerGlow.ui:220
 #: libs/ui/layerstyles/wdgInnerGlow.ui:322
 #: libs/ui/layerstyles/wdgInnerGlow.ui:351
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
@@ -20477,10 +20521,10 @@ msgstr "Tính chất Lớp"
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
 #: plugins/generators/pattern/wdgpatternoptions.ui:90
 #: plugins/generators/pattern/wdgpatternoptions.ui:116
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:29
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:32
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:35
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:38
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:51
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
@@ -21733,8 +21777,10 @@ msgstr "Độ phân giải Y:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResolution)
 #. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
+#. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/forms/wdg_resolution.ui:110 libs/ui/forms/wdgimageproperties.ui:94
 #: libs/ui/forms/wdgnewimage.ui:177 libs/ui/imagesize/wdg_imagesize.ui:244
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:301
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:42
 #, kde-format
 msgid "Resolution:"
@@ -22330,8 +22376,8 @@ msgstr "Bắt đầu ghi macro"
 #. i18n: ectx: property (text), widget (QLabel, opacityLbl)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: libs/ui/forms/wdgdisplaysettings.ui:391 libs/ui/kis_paintop_box.cc:248
-#: libs/ui/kis_paintop_box.cc:254
+#: libs/ui/forms/wdgdisplaysettings.ui:391 libs/ui/kis_paintop_box.cc:249
+#: libs/ui/kis_paintop_box.cc:255
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:113
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:56
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:57
@@ -23668,7 +23714,7 @@ msgstr "Màu Nền"
 #. i18n: ectx: property (text), widget (QLabel, mLabelBackground)
 #: libs/ui/forms/wdgnewimage.ui:484
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:175
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:394
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:719
 #, fuzzy, kde-format
 msgid "Background:"
 msgstr "nền"
@@ -23781,7 +23827,7 @@ msgid "path"
 msgstr "Đường"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
-#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:433
+#: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:434
 #, fuzzy, kde-format
 msgid "Brush Editor"
 msgstr "Cỡ chổi"
@@ -24710,9 +24756,9 @@ msgstr "Xoá"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:34
-#: plugins/paintops/mypaint/MyPaintBrushOption.h:34
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:29
 #, fuzzy, kde-format
+msgctxt "Draws a line around an area"
 msgid "Stroke"
 msgstr "Đá"
 
@@ -25454,37 +25500,37 @@ msgstr "Chế độ bằng tay"
 msgid "Reset Exposure and Gamma"
 msgstr "Chỉ số lộ sáng:"
 
-#: libs/ui/input/kis_pan_action.cpp:39
+#: libs/ui/input/kis_pan_action.cpp:40
 #, fuzzy, kde-format
 msgid "Pan Canvas"
 msgstr "Tải lại Canvas"
 
-#: libs/ui/input/kis_pan_action.cpp:40
+#: libs/ui/input/kis_pan_action.cpp:41
 #, kde-format
 msgid "The <i>Pan Canvas</i> action pans the canvas."
 msgstr ""
 
-#: libs/ui/input/kis_pan_action.cpp:43
+#: libs/ui/input/kis_pan_action.cpp:44
 #, fuzzy, kde-format
 msgid "Pan Mode"
 msgstr "Chế độ chân dung"
 
-#: libs/ui/input/kis_pan_action.cpp:44
+#: libs/ui/input/kis_pan_action.cpp:45
 #, fuzzy, kde-format
 msgid "Pan Left"
 msgstr "Trái:"
 
-#: libs/ui/input/kis_pan_action.cpp:45
+#: libs/ui/input/kis_pan_action.cpp:46
 #, fuzzy, kde-format
 msgid "Pan Right"
 msgstr "Phải:"
 
-#: libs/ui/input/kis_pan_action.cpp:46
+#: libs/ui/input/kis_pan_action.cpp:47
 #, kde-format
 msgid "Pan Up"
 msgstr ""
 
-#: libs/ui/input/kis_pan_action.cpp:47
+#: libs/ui/input/kis_pan_action.cpp:48
 #, fuzzy, kde-format
 msgid "Pan Down"
 msgstr "Công cụ &bút vẽ"
@@ -26428,28 +26474,28 @@ msgctxt "@info:tooltip"
 msgid "Disabled: cloning pass-through groups is not supported!"
 msgstr ""
 
-#: libs/ui/kis_paintop_box.cc:95
+#: libs/ui/kis_paintop_box.cc:96
 #, fuzzy, kde-format
 msgid "Painter's Toolchest"
 msgstr "Công cụ vẽ"
 
-#: libs/ui/kis_paintop_box.cc:107
+#: libs/ui/kis_paintop_box.cc:108
 #, fuzzy, kde-format
 msgid "Tool Settings"
 msgstr "Thiết lập Màu"
 
-#: libs/ui/kis_paintop_box.cc:115
+#: libs/ui/kis_paintop_box.cc:116
 #, fuzzy, kde-format
 msgid "Edit brush settings"
 msgstr "sửa định sẵn"
 
-#: libs/ui/kis_paintop_box.cc:122
+#: libs/ui/kis_paintop_box.cc:123
 #, fuzzy, kde-format
 msgid "Choose brush preset"
 msgstr "sửa định sẵn"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
-#: libs/ui/kis_paintop_box.cc:249 libs/ui/kis_paintop_box.cc:255
+#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1934
 #, fuzzy, kde-format
 msgid "Flow:"
@@ -26458,31 +26504,31 @@ msgstr "&Hiện"
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
-#: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:214
+#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1956
 #, fuzzy, kde-format
 msgid "Size:"
 msgstr "kết nối"
 
-#: libs/ui/kis_paintop_box.cc:251 libs/ui/kis_paintop_box.cc:257
+#: libs/ui/kis_paintop_box.cc:252 libs/ui/kis_paintop_box.cc:258
 #, fuzzy, kde-format
 msgid "Pattern Scale:"
 msgstr "Cỡ Trang"
 
-#: libs/ui/kis_paintop_box.cc:309
+#: libs/ui/kis_paintop_box.cc:310
 #, fuzzy, kde-format
 msgid "Choose workspace"
 msgstr "Không gian màu"
 
-#: libs/ui/kis_paintop_box.cc:346
+#: libs/ui/kis_paintop_box.cc:347
 #, fuzzy, kde-format
 msgid "Brush composite"
 msgstr "Cỡ chổi"
 
-#: libs/ui/kis_paintop_box.cc:1257 libs/ui/kis_paintop_box.cc:1279
-#: libs/ui/kis_paintop_box.cc:1293
+#: libs/ui/kis_paintop_box.cc:1261 libs/ui/kis_paintop_box.cc:1283
+#: libs/ui/kis_paintop_box.cc:1297
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -26760,7 +26806,7 @@ msgctxt "<color space> <image profile>"
 msgid "%1  %2"
 msgstr ""
 
-#: libs/ui/kis_zoom_manager.cc:320
+#: libs/ui/kis_zoom_manager.cc:319
 #, fuzzy, kde-format
 msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
@@ -26843,12 +26889,7 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:355
-#, fuzzy, kde-format
-msgid "Loading Plugins Exiv/IO..."
-msgstr "Các bảng màu"
-
-#: libs/ui/KisApplication.cpp:371
+#: libs/ui/KisApplication.cpp:363
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26856,51 +26897,51 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:388
+#: libs/ui/KisApplication.cpp:380
 #, fuzzy, kde-format
 msgid "Initializing Globals..."
 msgstr "&Tài nguyên"
 
-#: libs/ui/KisApplication.cpp:419
+#: libs/ui/KisApplication.cpp:411
 #, fuzzy, kde-format
 msgid "Adding resource types..."
 msgstr "&Tài nguyên"
 
-#: libs/ui/KisApplication.cpp:437
+#: libs/ui/KisApplication.cpp:426
 #, fuzzy, kde-format
 msgid "Loading Main Window..."
 msgstr "Đổ dốc màu"
 
-#: libs/ui/KisApplication.cpp:536
+#: libs/ui/KisApplication.cpp:525
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:592
+#: libs/ui/KisApplication.cpp:581
 #, fuzzy, kde-format
 msgid "Failed to render animation frames!"
 msgstr "Tạo layer mới"
 
-#: libs/ui/KisApplication.cpp:619 libs/ui/KisApplication.cpp:754
+#: libs/ui/KisApplication.cpp:608 libs/ui/KisApplication.cpp:743
 #, fuzzy, kde-format
 msgid "File layer"
 msgstr "Lớp &lặp lại"
 
-#: libs/ui/KisApplication.cpp:627 libs/ui/KisApplication.cpp:632
-#: libs/ui/KisApplication.cpp:748 libs/ui/KisApplication.cpp:762
-#: libs/ui/KisApplication.cpp:767
+#: libs/ui/KisApplication.cpp:616 libs/ui/KisApplication.cpp:621
+#: libs/ui/KisApplication.cpp:737 libs/ui/KisApplication.cpp:751
+#: libs/ui/KisApplication.cpp:756
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "Cảnh báo!"
 
-#: libs/ui/KisApplication.cpp:628 libs/ui/KisApplication.cpp:763
+#: libs/ui/KisApplication.cpp:617 libs/ui/KisApplication.cpp:752
 #, fuzzy, kde-format
 #| msgid "Cannot pick a color as the active layer is not visible."
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr "Không thể nhặt màu vì lớp đang dùng không được nhìn thấy."
 
-#: libs/ui/KisApplication.cpp:633
+#: libs/ui/KisApplication.cpp:622
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26913,7 +26954,7 @@ msgid ""
 "checkbox in the settings (Settings -> General -> Window)."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:639
+#: libs/ui/KisApplication.cpp:628
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26921,32 +26962,32 @@ msgid ""
 "open an existing file."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:749
+#: libs/ui/KisApplication.cpp:738
 #, fuzzy, kde-format
 msgid "Couldn't open file %1"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/ui/KisApplication.cpp:768
+#: libs/ui/KisApplication.cpp:757
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:887
+#: libs/ui/KisApplication.cpp:876
 #, fuzzy, kde-format
 msgid "No template found for: %1"
 msgstr "Tính chất Layer..."
 
-#: libs/ui/KisApplication.cpp:890
+#: libs/ui/KisApplication.cpp:879
 #, fuzzy, kde-format
 msgid "Too many templates found for: %1"
 msgstr "Quá nhiều mẫu cho: %1"
 
-#: libs/ui/KisApplication.cpp:906
+#: libs/ui/KisApplication.cpp:895
 #, fuzzy, kde-format
 msgid "Template %1 failed to load."
 msgstr "Chọn Tất cả"
 
-#: libs/ui/KisApplication.cpp:938
+#: libs/ui/KisApplication.cpp:927
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -26956,7 +26997,7 @@ msgid ""
 "Restart Krita for changes to take effect."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:952
+#: libs/ui/KisApplication.cpp:941
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -26964,7 +27005,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:980
+#: libs/ui/KisApplication.cpp:969
 #, fuzzy, kde-format
 #| msgid "Do you really want to overwrite the existing '%1' template?"
 msgid "Do you want to clear the settings file?"
@@ -27091,74 +27132,74 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "Chỉnh màu"
 
-#: libs/ui/KisDocument.cpp:678
+#: libs/ui/KisDocument.cpp:677
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:740
+#: libs/ui/KisDocument.cpp:739
 #, fuzzy, kde-format
 msgid "Exporting Document..."
 msgstr "Mở tài liệu"
 
-#: libs/ui/KisDocument.cpp:741
+#: libs/ui/KisDocument.cpp:740
 #, fuzzy, kde-format
 msgid "Saving Document..."
 msgstr "Lưu Tài liệu"
 
-#: libs/ui/KisDocument.cpp:853
+#: libs/ui/KisDocument.cpp:852
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "Lỗi khi đang tự động lưu! Đĩa đầy?"
 
-#: libs/ui/KisDocument.cpp:860
+#: libs/ui/KisDocument.cpp:859
 #, fuzzy, kde-format
 msgid "Could not save %1"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/ui/KisDocument.cpp:863 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:862 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, fuzzy, kde-format
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
 msgstr "Chọn véctơ"
 
-#: libs/ui/KisDocument.cpp:898
+#: libs/ui/KisDocument.cpp:897
 #, fuzzy, kde-format
 msgid "Finished saving %1"
 msgstr "Công cụ đa &Sgiác"
 
-#: libs/ui/KisDocument.cpp:1242
+#: libs/ui/KisDocument.cpp:1241
 #, fuzzy, kde-format
 #| msgid "Autosaving..."
 msgid "Autosaving... %1"
 msgstr "Đang tự động lưu..."
 
-#: libs/ui/KisDocument.cpp:1250
+#: libs/ui/KisDocument.cpp:1249
 #, kde-format
 msgid "Autosaving..."
 msgstr "Đang tự động lưu..."
 
-#: libs/ui/KisDocument.cpp:1256
+#: libs/ui/KisDocument.cpp:1255
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1361
+#: libs/ui/KisDocument.cpp:1360
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "Lỗi khi đang tự động lưu! Đĩa đầy?"
 
-#: libs/ui/KisDocument.cpp:1375
+#: libs/ui/KisDocument.cpp:1374
 #, fuzzy, kde-format
 msgid "Finished autosaving %1"
 msgstr "Công cụ đa &Sgiác"
 
-#: libs/ui/KisDocument.cpp:1606
+#: libs/ui/KisDocument.cpp:1605
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL\n"
@@ -27170,65 +27211,45 @@ msgstr ""
 "URL không hợp lệ\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1703
+#: libs/ui/KisDocument.cpp:1702
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "File %1 does not exist."
 msgstr "Tệp %1 không tồn tại."
 
-#: libs/ui/KisDocument.cpp:1732
+#: libs/ui/KisDocument.cpp:1731
 #, fuzzy, kde-format
 msgid "Opening document"
 msgstr "Mở tài liệu"
 
-#: libs/ui/KisDocument.cpp:1747
+#: libs/ui/KisDocument.cpp:1746
 #, fuzzy, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/ui/KisDocument.cpp:1755
+#: libs/ui/KisDocument.cpp:1754
 #, kde-format
 msgid "There were problems opening %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1889
+#: libs/ui/KisDocument.cpp:1888
 #, fuzzy, kde-format
 msgid "Not Saved"
 msgstr "Không được chỉ định"
 
-#: libs/ui/KisDocument.cpp:2331
+#: libs/ui/KisDocument.cpp:2330
 #, fuzzy, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "nền"
 
-#: libs/ui/KisDocument.cpp:2385
+#: libs/ui/KisDocument.cpp:2384
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
 msgid "Waiting for saving to complete..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, exif)
-#: libs/ui/kisexiv2/kis_exif_io.h:24
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
-#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
-#, kde-format
-msgid "Exif"
-msgstr ""
-
-#: libs/ui/kisexiv2/kis_iptc_io.h:24
-#, kde-format
-msgid "Iptc"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, xmp)
-#: libs/ui/kisexiv2/kis_xmp_io.h:24
-#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
-#, kde-format
-msgid "XMP"
 msgstr ""
 
 #: libs/ui/KisImportExportErrorCode.cpp:19
@@ -29217,37 +29238,37 @@ msgstr "Điền toàn bộ phần chọn"
 msgid "Transform"
 msgstr "Biến hình"
 
-#: libs/ui/tool/kis_tool.cc:572
+#: libs/ui/tool/kis_tool.cc:568
 #, fuzzy, kde-format
 msgid "No options"
 msgstr "tuỳ chọn"
 
-#: libs/ui/tool/kis_tool.cc:666
+#: libs/ui/tool/kis_tool.cc:662
 #, fuzzy, kde-format
 msgid "Layer is locked and invisible."
 msgstr "Cỡ Lớp"
 
-#: libs/ui/tool/kis_tool.cc:668
+#: libs/ui/tool/kis_tool.cc:664
 #, fuzzy, kde-format
 msgid "Layer is locked."
 msgstr "Cỡ Lớp"
 
-#: libs/ui/tool/kis_tool.cc:670
+#: libs/ui/tool/kis_tool.cc:666
 #, fuzzy, kde-format
 msgid "Layer is invisible."
 msgstr "Cỡ Lớp"
 
-#: libs/ui/tool/kis_tool.cc:672
+#: libs/ui/tool/kis_tool.cc:668
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:674
+#: libs/ui/tool/kis_tool.cc:670
 #, fuzzy, kde-format
 msgid "Group not editable."
 msgstr "Cỡ Lớp"
 
-#: libs/ui/tool/kis_tool.cc:689
+#: libs/ui/tool/kis_tool.cc:685
 #, fuzzy, kde-format
 msgid "Local selection is locked."
 msgstr "Phóng Phần chọn"
@@ -29269,12 +29290,12 @@ msgstr ""
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:380
+#: libs/ui/tool/kis_tool_paint.cc:375
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:668
+#: libs/ui/tool/kis_tool_paint.cc:663
 #, fuzzy, kde-format
 msgid "%1 %2 px"
 msgstr "%1%"
@@ -29587,8 +29608,8 @@ msgstr "Trong suốt"
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:28
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:31
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:41
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:44
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:110
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:43
 #, fuzzy, kde-format
@@ -33255,11 +33276,6 @@ msgstr "Thông thường"
 msgid "Spline assistant"
 msgstr "Khoảng cách:"
 
-#: plugins/assistants/Assistants/SplineAssistant.cc:222
-#, fuzzy, kde-format
-msgid "Spline"
-msgstr "Hình sin"
-
 #: plugins/assistants/Assistants/TwoPointAssistant.cc:27
 #, fuzzy, kde-format
 msgid "Two point assistant"
@@ -35620,7 +35636,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr "Xuất ra PDF..."
 
-#: plugins/dockers/recorder/recorder_export.cpp:99
+#: plugins/dockers/recorder/recorder_export.cpp:96
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -35628,77 +35644,77 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:100
+#: plugins/dockers/recorder/recorder_export.cpp:97
 #, kde-format
 msgid ""
 "FFMpeg executable location couldn't be detected, please install it or select "
 "its location manually"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:164
+#: plugins/dockers/recorder/recorder_export.cpp:161
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:236
+#: plugins/dockers/recorder/recorder_export.cpp:233
 #, fuzzy, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFMpeg..."
 msgstr "Thiết lập"
 
-#: plugins/dockers/recorder/recorder_export.cpp:340
+#: plugins/dockers/recorder/recorder_export.cpp:337
 #, fuzzy, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr "Chép phần chọn tới lớp mới"
 
-#: plugins/dockers/recorder/recorder_export.cpp:344
+#: plugins/dockers/recorder/recorder_export.cpp:341
 #, fuzzy, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr "Bỏ kênh alpha"
 
-#: plugins/dockers/recorder/recorder_export.cpp:347
+#: plugins/dockers/recorder/recorder_export.cpp:344
 #, fuzzy, kde-format
 #| msgid "Fax:"
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr "Fax:"
 
-#: plugins/dockers/recorder/recorder_export.cpp:349
+#: plugins/dockers/recorder/recorder_export.cpp:346
 #, fuzzy, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr "&Màu"
 
-#: plugins/dockers/recorder/recorder_export.cpp:452
+#: plugins/dockers/recorder/recorder_export.cpp:448
 #, kde-format
 msgid "Select FFMpeg Executable File"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:498
+#: plugins/dockers/recorder/recorder_export.cpp:494
 #, fuzzy, kde-format
 msgid "Export Timelapse Video As"
 msgstr "Chế độ Tổng hợp"
 
-#: plugins/dockers/recorder/recorder_export.cpp:513
+#: plugins/dockers/recorder/recorder_export.cpp:509
 #, fuzzy, kde-format
 msgid "The video file is already exists. Do you wish to overwrite?"
 msgstr ""
 "Một văn bản có tên này đã tồn tại.\n"
 "Bạn có muốn ghi đè không?"
 
-#: plugins/dockers/recorder/recorder_export.cpp:540
+#: plugins/dockers/recorder/recorder_export.cpp:536
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:553
+#: plugins/dockers/recorder/recorder_export.cpp:549
 #, kde-format
 msgid "Export failed. FFMpeg message:"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:574
+#: plugins/dockers/recorder/recorder_export.cpp:570
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -35707,7 +35723,7 @@ msgid ""
 "Do you wish to continue?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:581
+#: plugins/dockers/recorder/recorder_export.cpp:577
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:260
 #, fuzzy, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -36287,6 +36303,11 @@ msgstr ""
 msgctxt "Export storyboard dialog caption"
 msgid "Export Storyboard as SVG"
 msgstr "Xuất"
+
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:59
+#, fuzzy, kde-format
+msgid "Export Directory: "
+msgstr "Chọn một khu vực hình chữ nhật"
 
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
 #, kde-format
@@ -38136,6 +38157,14 @@ msgstr "Cảm biến liên tiếp khu vực màu"
 msgid "Dublin Core"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, exif)
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
+#: plugins/metadata/exif/kis_exif_io.h:28
+#, kde-format
+msgid "Exif"
+msgstr ""
+
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:174
 #, fuzzy, kde-format
 msgid "List"
@@ -39721,11 +39750,11 @@ msgstr "Bán kính"
 #. i18n: ectx: property (text), widget (QLabel, brushRotationLabel)
 #. i18n: ectx: property (text), widget (QLabel, axisRotationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, labelRotation)
+#. i18n: ectx: property (text), widget (QLabel, labelRotationSimple)
 #. i18n: ectx: property (title), widget (QGroupBox, gbRotation)
 #: plugins/filters/blur/wdg_lens_blur.ui:84
 #: plugins/generators/pattern/wdgpatternoptions.ui:212
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:301
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:529
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:178
 #: plugins/tools/basictools/wdgmultihandtool.ui:129
 #, fuzzy, kde-format
@@ -40399,7 +40428,7 @@ msgstr "Chung "
 #. i18n: ectx: attribute (title), widget (QWidget, tabPostprocessing)
 #. i18n: ectx: attribute (title), widget (QWidget, tabPostProcessing)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:84
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:331
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:656
 #, kde-format
 msgid "Postprocessing"
 msgstr "Hậu xử lí"
@@ -40422,7 +40451,7 @@ msgstr "Nghịch đảo"
 
 #. i18n: ectx: property (text), widget (QLabel, labelForeground)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:144
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:360
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:685
 #, fuzzy, kde-format
 msgid "Foreground:"
 msgstr "Màu Mặt"
@@ -41695,7 +41724,7 @@ msgstr "Các bảng màu"
 #. i18n: ectx: property (text), widget (QLabel, labelShear)
 #. i18n: ectx: property (title), widget (QGroupBox, gbShear)
 #: plugins/generators/pattern/wdgpatternoptions.ui:250
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:261
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:475
 #: plugins/paintops/hairy/wdgbristleoptions.ui:118
 #, fuzzy, kde-format
 msgid "Shear:"
@@ -41719,21 +41748,90 @@ msgstr "Xoay"
 msgid "Y-Rotation:"
 msgstr "Xoay"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:52
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:64
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:21
+#, fuzzy, kde-format
+msgctxt "Screentone generator resolution units - pixels/inch"
+msgid " pixels/inch"
+msgstr "điểm ảnh"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:22
+#, fuzzy, kde-format
+msgctxt "Screentone generator resolution units - pixels/cm"
+msgid " pixels/cm"
+msgstr "điểm ảnh"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:23
+#, kde-format
+msgctxt "Screentone generator line units - lines/inch"
+msgid " lines/inch"
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:24
+#, fuzzy, kde-format
+msgctxt "Screentone generator line units - lines/cm"
+msgid " lines/cm"
+msgstr "Gần tâm:"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:57
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:65
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:75
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:87
 #, fuzzy, kde-format
 #| msgid "X:"
 msgid "X: "
 msgstr "X:"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:47
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:58
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:68
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:59
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:70
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:81
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:91
 #, fuzzy, kde-format
 #| msgid "Y:"
 msgid "Y: "
 msgstr "Y:"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:94
+#, kde-format
+msgctxt "Prefix. Part of 'Every # cell/s horizontally"
+msgid "Every "
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:95
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:534
+#, fuzzy, kde-format
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cell horizontally"
+msgstr "Ngang:"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:97
+#, kde-format
+msgctxt "Prefix. Part of 'Every # cell/s vertically"
+msgid "Every "
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:98
+#, fuzzy, kde-format
+msgctxt "Suffix. Part of 'Every # cell/s vertically"
+msgid " cell vertically"
+msgstr "Phần chọn"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:536
+#, fuzzy, kde-format
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cells horizontally"
+msgstr "Ngang:"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:546
+#, fuzzy, kde-format
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cell vertically"
+msgstr "Phần chọn"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:548
+#, fuzzy, kde-format
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cells vertically"
+msgstr "Phần chọn"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreentoneType)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:49
@@ -41747,14 +41845,98 @@ msgstr ""
 msgid "Interpolation:"
 msgstr "Trình chọn &màu"
 
+#. i18n: ectx: property (text), widget (QLabel, labelEqualize)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:129
+#, fuzzy, kde-format
+msgid "Equalization:"
+msgstr "Độ phân giải:"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationNone)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:144
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "Screentone equalization mode"
+msgid "None"
+msgstr "Không"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationFunctionBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:157
+#, fuzzy, kde-format
+msgctxt "Screentone equalization mode"
+msgid "Function Based"
+msgstr "Chức năng"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationTemplateBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:173
+#, fuzzy, kde-format
+msgctxt "Screentone equalization mode"
+msgid "Template Based"
+msgstr "Tạo"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tabTransformation)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:145
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:204
 #, fuzzy, kde-format
 msgid "Transformation"
 msgstr "Công cụ &xoá"
 
-#. i18n: ectx: property (text), widget (QLabel, labelTranslation)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:174
+#. i18n: ectx: property (text), widget (QLabel, labelSizeMode)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:245
+#, fuzzy, kde-format
+msgid "Size Mode:"
+msgstr "Chế độ chân dung"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonSizeModeResolutionBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:257
+#, fuzzy, kde-format
+#| msgid "Resolution:"
+msgid "Resolution based"
+msgstr "Độ phân giải:"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonSizeModePixelBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:273
+#, fuzzy, kde-format
+#| msgid "Pixel width"
+msgid "Pixel based"
+msgstr "Chiều rộng điểm ảnh"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxUnits)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:337
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:26
+#, fuzzy, kde-format
+#| msgid "Inches (in)"
+msgid "Inches"
+msgstr "Inch (in)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxUnits)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:342
+#, fuzzy, kde-format
+#| msgid "Centimeters (cm)"
+msgid "Centimeters"
+msgstr "Centimét (mm)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonResolutionFromImage)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:353
+#, fuzzy, kde-format
+msgid "Get From Image"
+msgstr "Cắt ảnh"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency)
+#. i18n: ectx: property (text), widget (QLabel, labelFrequency)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:363
+#: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:53
+#, kde-format
+msgid "Frequency:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:563
+#, fuzzy, kde-format
+#| msgid "Pixel width"
+msgid "Align to Pixel Grid:"
+msgstr "Chiều rộng điểm ảnh"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPosition)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:586
 #, fuzzy, kde-format
 #| msgid "Position:"
 msgctxt "Geometric Position"
@@ -41762,7 +41944,7 @@ msgid "Position:"
 msgstr "Vị trí:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelInvert)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:428
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:753
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgctxt "Swapping FG and BG color in the screentone pattern"
@@ -41773,7 +41955,7 @@ msgstr "Nghịch đảo"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, labelBrightness)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:442
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:767
 #: plugins/impex/heif/DlgHeifImport.ui:57
 #: plugins/impex/heif/WdgHeifExport.ui:106
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:128
@@ -41783,108 +41965,115 @@ msgstr "Độ sáng:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAngle)
 #. i18n: ectx: property (text), widget (QLabel, labelContrast)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:462
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:787
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:102
 #, kde-format
 msgid "Contrast:"
 msgstr "Độ tương phản:"
 
-#: plugins/generators/screentone/KisScreentoneGenerator.cpp:42
+#: plugins/generators/screentone/KisScreentoneGenerator.cpp:29
 #, fuzzy, kde-format
 msgid "&Screentone..."
 msgstr "Màn hình"
 
-#: plugins/generators/screentone/KisScreentoneGenerator.h:53
+#: plugins/generators/screentone/KisScreentoneGenerator.h:52
 #, fuzzy, kde-format
 #| msgid "Screen"
 msgid "Screentone"
 msgstr "Màn hình"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:19
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:21
 #, fuzzy, kde-format
 #| msgid "Dots"
 msgctxt "Screentone Pattern Type - Dots"
 msgid "Dots"
 msgstr "Chấm"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:20
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:22
 #, fuzzy, kde-format
 #| msgid "Lines"
 msgctxt "Screentone Pattern Type - Lines"
 msgid "Lines"
 msgstr "Đường"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:27
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:29
 #, fuzzy, kde-format
 #| msgid "Round Corners"
 msgctxt "Screentone Pattern - Round Dots"
 msgid "Round"
 msgstr "Góc tròn"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:28
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:30
+#, fuzzy, kde-format
+#| msgid "Ellipse Shape"
+msgctxt "Screentone Pattern - Ellipse Dots (Krita 4 legacy version)"
+msgid "Ellipse (Legacy)"
+msgstr "Hình êlíp"
+
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:31
 #, fuzzy, kde-format
 #| msgid "Ellipse"
 msgctxt "Screentone Pattern - Ellipse Dots"
 msgid "Ellipse"
 msgstr "Hình êlíp"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:29
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:32
 #, kde-format
 msgctxt "Screentone Pattern - Diamond Dots"
 msgid "Diamond"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:30
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:33
 #, fuzzy, kde-format
 #| msgid "Square"
 msgctxt "Screentone Pattern - Square Dots"
 msgid "Square"
 msgstr "Hình vuông"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:33
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:36
 #, fuzzy, kde-format
 #| msgid "Straight"
 msgctxt "Screentone Pattern - Straight Lines"
 msgid "Straight"
 msgstr "Thẳng"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:34
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:37
 #, fuzzy, kde-format
 #| msgid "Sine"
 msgctxt "Screentone Pattern - Sine Wave Lines"
 msgid "Sine Wave"
 msgstr "Hình sin"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:35
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:38
 #, fuzzy, kde-format
 #| msgid "Triangle"
 msgctxt "Screentone Pattern - Trianular Wave Lines"
 msgid "Triangular Wave"
 msgstr "Hình tam giác"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:36
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:39
 #, fuzzy, kde-format
 #| msgid "Smoothness:"
 msgctxt "Screentone Pattern - Sawtooth Wave Lines"
 msgid "Sawtooth Wave"
 msgstr "Độ mượt:"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:37
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:40
 #, kde-format
 msgctxt "Screentone Pattern - Curtains Lines"
 msgid "Curtains"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:48
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:53
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:53
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:58
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "Screentone Interpolation Method - Linear"
 msgid "Linear"
 msgstr "Tuyến tính"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:49
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:54
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:54
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:59
 #, fuzzy, kde-format
 msgctxt "Screentone Interpolation Method - Sinusoidal"
 msgid "Sinusoidal"
@@ -41997,12 +42186,6 @@ msgstr "Nhiễu &ngẫu nhiên..."
 #, fuzzy, kde-format
 msgid "Simplex Noise"
 msgstr "Tạo layer mới"
-
-#. i18n: ectx: property (text), widget (QLabel, label_frequency)
-#: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:53
-#, kde-format
-msgid "Frequency:"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_looping)
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:78
@@ -42745,6 +42928,13 @@ msgstr "&Trắng"
 msgid "IPTC"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, xmp)
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
+#: plugins/metadata/xmp/kis_xmp_io.h:26
+#, kde-format
+msgid "XMP"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMetaData)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:333
 #, kde-format
@@ -42781,12 +42971,12 @@ msgstr ""
 msgid "Sign with Author Profile Data"
 msgstr "Khoảng màu"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:140
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:139
 #, fuzzy, kde-format
 msgid "Could not load embedded reference image %1 "
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:145
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:144
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42797,7 +42987,7 @@ msgid ""
 "Do you want to select another location?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:150
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
 #: plugins/impex/libkra/kis_kra_loader.cpp:1018
 #: plugins/impex/libkra/kis_kra_loader.cpp:1388
 #, fuzzy, kde-format
@@ -42806,7 +42996,7 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr "Không tìm thấy tệp"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:262
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:261
 #, kde-format
 msgctxt "Warning during loading a kra file with a filter layer"
 msgid ""
@@ -42814,7 +43004,7 @@ msgid ""
 "selection."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:325
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:324
 #, kde-format
 msgctxt "Loading a .kra file"
 msgid ""
@@ -42822,67 +43012,67 @@ msgid ""
 "layer will be converted into a paint layer."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:393
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:392
 #, fuzzy, kde-format
 msgid "Could not load \"id\" of the transform mask"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:407
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:406
 #, fuzzy, kde-format
 msgid "Could not create transform mask params"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:560
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:559
 #, fuzzy, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:567
 #, fuzzy, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:597
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:596
 #, fuzzy, kde-format
 msgid "Could not read pixel data: %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:603
 #, fuzzy, kde-format
 msgid "Could not load pixel data: %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:620
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:619
 #, fuzzy, kde-format
 msgid "Could not load profile: %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:675
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:674
 #, fuzzy, kde-format
 msgid "Could not filter configuration %1."
 msgstr "Cấu hình mới %1"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:716
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:715
 #, fuzzy, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:759
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:758
 #, fuzzy, kde-format
 msgid "Could not load vector selection %1."
 msgstr "Chọn véctơ"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:775
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:774
 #, fuzzy, kde-format
 msgid "Could not load raster selection %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:805
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:804
 #, fuzzy, kde-format
 msgid "Could not load keyframes from %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:819
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:818
 #, fuzzy, kde-format
 #| msgid ""
 #| "Parsing error in %1 at line %2, column %3\n"
@@ -42894,7 +43084,7 @@ msgstr ""
 "Lỗi đọc trong %1 trên dòng %2, cột %3\n"
 "Thông báo lỗi: %4"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:832
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:831
 #, fuzzy, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "Không thể thêm lớp vào ảnh."
@@ -45059,6 +45249,11 @@ msgid ""
 "or newer."
 msgstr ""
 
+#: plugins/metadata/iptc/kis_iptc_io.h:26
+#, kde-format
+msgid "Iptc"
+msgstr ""
+
 #: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:30
 #, fuzzy, kde-format
 msgid "Color Smudge"
@@ -46762,14 +46957,22 @@ msgstr "Để cách"
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:45
 #, fuzzy, kde-format
 #| msgid "Auto"
-msgctxt "Autobrush Label"
+msgctxt "Autobrush Brush tip mode"
 msgid "Auto"
 msgstr "Tự động"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:49
 #, fuzzy, kde-format
+msgctxt "Predefined Brush tip mode"
 msgid "Predefined"
 msgstr "Các chổi có sẵn"
+
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:51
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
+#, fuzzy, kde-format
+msgctxt "Text Brush tip mode"
+msgid "Text"
+msgstr "Chữ"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:142
 #, kde-format
@@ -47522,6 +47725,12 @@ msgstr "Tốc độ"
 msgid "Gross Speed"
 msgstr "&Hình con trỏ:"
 
+#: plugins/paintops/mypaint/MyPaintBrushOption.h:34
+#, fuzzy, kde-format
+msgctxt "The duration of a brush stroke"
+msgid "Stroke"
+msgstr "Đá"
+
 #. i18n: ectx: property (text), widget (QRadioButton, optionDirection)
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:35
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:243
@@ -47531,11 +47740,13 @@ msgstr "Trình chọn &màu"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:36
 #, fuzzy, kde-format
+msgctxt "Pen tilt declination"
 msgid "Declination"
 msgstr "Độ phân giải:"
 
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:37
 #, fuzzy, kde-format
+msgctxt "Pen tilt ascension"
 msgid "Ascension"
 msgstr "&Kích thước bằng điểm ảnh"
 
@@ -49644,12 +49855,6 @@ msgstr "Chọn một khu vực hình chữ nhật"
 #| msgid "Pixel width"
 msgid "Pixels"
 msgstr "Chiều rộng điểm ảnh"
-
-#: plugins/python/comics_project_management_tools/comics_template_dialog.py:26
-#, fuzzy
-#| msgid "Inches (in)"
-msgid "Inches"
-msgstr "Inch (in)"
 
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:27
 #, fuzzy
@@ -54196,6 +54401,16 @@ msgstr "Công cụ &Zoom"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "Ảnh tham chiếu:"
+
+#, fuzzy
+#~| msgid "Auto"
+#~ msgctxt "Autobrush Label"
+#~ msgid "Auto"
+#~ msgstr "Tự động"
+
+#, fuzzy
+#~ msgid "Loading Plugins Exiv/IO..."
+#~ msgstr "Các bảng màu"
 
 #, fuzzy
 #~| msgid "Image"

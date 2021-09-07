@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-23 01:52+0000\n"
+"POT-Creation-Date: 2021-09-06 01:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -121,8 +121,8 @@ msgid "Error creating security record: %1"
 msgstr ""
 
 #: kmymoney/converter/mymoneystatementreader.cpp:636
-#: kmymoney/plugins/kbanking/kbanking.cpp:583
-#: kmymoney/plugins/kbanking/kbanking.cpp:605
+#: kmymoney/plugins/kbanking/kbanking.cpp:587
+#: kmymoney/plugins/kbanking/kbanking.cpp:609
 #: kmymoney/plugins/views/onlinejoboutbox/onlinejobmessagesmodel.cpp:60
 #, kde-format
 msgid "Error"
@@ -1337,7 +1337,7 @@ msgstr ""
 msgid "Set all further occurrences &in this schedule to be these values."
 msgstr ""
 
-#: kmymoney/dialogs/kcurrencycalculator.cpp:344
+#: kmymoney/dialogs/kcurrencycalculator.cpp:342
 #: kmymoney/wizards/newaccountwizard/knewaccountwizard.cpp:362
 #: kmymoney/wizards/newaccountwizard/knewaccountwizard.cpp:367
 #, kde-format
@@ -2027,7 +2027,7 @@ msgstr ""
 #: kmymoney/dialogs/stdtransactioneditor.cpp:177
 #: kmymoney/dialogs/stdtransactioneditor.cpp:244
 #: kmymoney/models/accountsmodel.cpp:778 kmymoney/plugins/csv/export/csvwriter.cpp:103
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:366
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:376
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:234
 #: kmymoney/plugins/views/reports/reporttabrowcolquery.ui:230
 #: kmymoney/views/newspliteditor.ui:137 kmymoney/views/newtransactioneditor.ui:124
@@ -2557,7 +2557,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: kmymoney/dialogs/kmymoneyfileinfodlg.ui:148
 #: kmymoney/dialogs/settings/ksettingsgeneral.ui:469
-#: kmymoney/plugins/views/reports/kreportsview.cpp:744
+#: kmymoney/plugins/views/reports/kreportsview.cpp:742
 #: kmymoney/plugins/views/reports/kreportsview_p.h:959
 #: kmymoney/views/kpayeesview.ui:135 kmymoney/views/ktagsview.ui:130
 #: kmymoney/views/ktagsview.ui:136
@@ -2595,7 +2595,7 @@ msgstr ""
 #: kmymoney/dialogs/knewaccountdlg.ui:477
 #: kmymoney/models/accountsmodel.cpp:764 kmymoney/models/securitiesmodel.cpp:265
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:51
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:371
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:381
 #: kmymoney/plugins/views/reports/core/listtable.cpp:677
 #: kmymoney/widgets/ktransactionfilter.ui:574
 #: kmymoney/widgets/transactionsortoption.cpp:36
@@ -4466,7 +4466,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_4)
 #: kmymoney/dialogs/settings/ksettingsonlinequotes.ui:102
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:126
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:136
 #, kde-format
 msgid "URL"
 msgstr ""
@@ -6184,7 +6184,7 @@ msgid ""
 "error: %3"
 msgstr ""
 
-#: kmymoney/kmymoney.cpp:3183 kmymoney/plugins/ofx/import/ofximporter.cpp:969
+#: kmymoney/kmymoney.cpp:3183 kmymoney/plugins/ofx/import/ofximporter.cpp:973
 #, kde-format
 msgid "Importing error"
 msgstr ""
@@ -6577,7 +6577,7 @@ msgctxt "Flag for unknown reconciliation state"
 msgid "?"
 msgstr ""
 
-#: kmymoney/kmymoneyutils.cpp:462 kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:113
+#: kmymoney/kmymoneyutils.cpp:462 kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:115
 #: kmymoney/wizards/kmymoneywizard_p.h:80
 #, kde-format
 msgctxt "Go to next page of the wizard"
@@ -11606,57 +11606,57 @@ msgstr ""
 msgid "Pick &date"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:286
+#: kmymoney/plugins/kbanking/kbanking.cpp:290
 #: kmymoney/plugins/ofx/import/ofximporter.cpp:821
 #, kde-format
 msgid "Online settings"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:292
+#: kmymoney/plugins/kbanking/kbanking.cpp:296
 #, kde-format
 msgid "KBanking module not correctly initialized"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:312
+#: kmymoney/plugins/kbanking/kbanking.cpp:316
 #, kde-format
 msgid "Configure Aq&Banking..."
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:317
+#: kmymoney/plugins/kbanking/kbanking.cpp:321
 #, kde-format
 msgid "AqBanking importer..."
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:502
-#: kmymoney/plugins/kbanking/kbanking.cpp:750
+#: kmymoney/plugins/kbanking/kbanking.cpp:506
+#: kmymoney/plugins/kbanking/kbanking.cpp:755
 #, kde-format
 msgid ""
 "<qt>The given application account <b>%1</b> has not been mapped to an online "
 "account.</qt>"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:508
+#: kmymoney/plugins/kbanking/kbanking.cpp:512
 #, kde-format
 msgid "Account Not Mapped"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:580
-#: kmymoney/plugins/kbanking/kbanking.cpp:602
+#: kmymoney/plugins/kbanking/kbanking.cpp:584
+#: kmymoney/plugins/kbanking/kbanking.cpp:606
 #, kde-format
 msgid ""
 "<qt>Could not enqueue the job.\n"
 "</qt>"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:1515
+#: kmymoney/plugins/kbanking/kbanking.cpp:1518
 #, kde-format
 msgid "Error importing statement. Do you want to continue?"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:1516
-#: kmymoney/plugins/views/reports/kreportsview.cpp:325
-#: kmymoney/plugins/views/reports/kreportsview.cpp:382
-#: kmymoney/plugins/views/reports/kreportsview.cpp:401
+#: kmymoney/plugins/kbanking/kbanking.cpp:1519
+#: kmymoney/plugins/views/reports/kreportsview.cpp:323
+#: kmymoney/plugins/views/reports/kreportsview.cpp:380
+#: kmymoney/plugins/views/reports/kreportsview.cpp:399
 #, kde-format
 msgid "Critical Error"
 msgstr ""
@@ -11732,7 +11732,7 @@ msgstr ""
 msgid "Jobs"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/widgets/chiptandialog.cpp:150
+#: kmymoney/plugins/kbanking/widgets/chiptandialog.cpp:154
 #: kmymoney/plugins/kbanking/widgets/phototandialog.cpp:90
 #, kde-format
 msgid "A valid tan is required to proceed."
@@ -11971,14 +11971,14 @@ msgstr ""
 msgid "To confirm this order enter the tan displayed by your &generator"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/kofxdirectconnectdlg.cpp:190
-#: kmymoney/plugins/ofx/import/ofxpartner.cpp:400
+#: kmymoney/plugins/ofx/import/dialogs/kofxdirectconnectdlg.cpp:203
+#: kmymoney/plugins/ofx/import/ofxpartner.cpp:403
 #, kde-format
 msgid "The HTTP request failed."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/kofxdirectconnectdlg.cpp:190
-#: kmymoney/plugins/ofx/import/ofxpartner.cpp:400
+#: kmymoney/plugins/ofx/import/dialogs/kofxdirectconnectdlg.cpp:203
+#: kmymoney/plugins/ofx/import/ofxpartner.cpp:403
 #, kde-format
 msgctxt "The HTTP request failed"
 msgid "Failed"
@@ -11996,100 +11996,100 @@ msgstr ""
 msgid "Contacting bank..."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:72
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:74
 #, kde-format
 msgid "Loading banklist"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:73
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:75
 #, kde-format
 msgid ""
 "Getting list of banks from https://www.ofxhome.com/\n"
 "This may take some time depending on the available bandwidth."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:258
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:312
-#, kde-format
-msgid "Supports online statements<br/>"
-msgstr ""
-
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:260
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:314
 #, kde-format
-msgid "Supports investments<br/>"
+msgid "Supports online statements<br/>"
 msgstr ""
 
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:262
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:316
 #, kde-format
+msgid "Supports investments<br/>"
+msgstr ""
+
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:264
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:318
+#, kde-format
 msgid "Supports bill payment (but not supported by KMyMoney yet)<br/>"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:266
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:268
 #, kde-format
 msgid "OFX host failed. Last successful access was on '%1'. "
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:268
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:270
 #, kde-format
 msgid ""
 "Certificate verification of OFX host failed. Last successful verification "
 "was on '%1'."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:276
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:278
 #, kde-format
 msgid "Does not support online banking"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:286
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:288
 #, kde-format
 msgid "Please choose a bank."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:292
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:294
 #, kde-format
 msgid "Please fill all fields with values."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:296
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:298
 #, kde-format
 msgid "<p>Details for %1:</p>"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:395
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:410
 #, kde-format
 msgid "No suitable accounts were found at this bank."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:411
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:426
 #, kde-format
 msgid "Please choose an account"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:514
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:531
 #, kde-format
 msgid "Server message: %1\n"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:522
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:539
 #, kde-format
 msgid "Your bank returned warnings when signing on"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:522
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:539
 #, kde-format
 msgctxt "Warning 'message'"
 msgid "WARNING %1"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:525
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:542
 #, kde-format
 msgid "Error signing onto your bank"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:525
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.cpp:542
 #, kde-format
 msgid "ERROR %1"
 msgstr ""
@@ -12126,26 +12126,32 @@ msgctxt "@title type of online banking connection"
 msgid "Manual"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:100
-#, kde-format
-msgid "Org"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:110
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:97
 #, kde-format
 msgid "FID"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:107
+#, kde-format
+msgid "Org"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:123
+#, kde-format
+msgid "UserAgent"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QWizardPage, LoginPage)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:161
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:171
 #, kde-format
 msgid "Enter Login Details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, qLabel1)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:182
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:192
 #, kde-format
 msgid ""
 "Please enter the username and password you use to log into this bank for "
@@ -12154,7 +12160,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:192
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:202
 #, kde-format
 msgctxt "@label account username"
 msgid "Username"
@@ -12162,7 +12168,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:205
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:215
 #: kmymoney/plugins/sql/kgeneratesqldlg.ui:107
 #: kmymoney/plugins/sql/mymoneystoragesql.cpp:122
 #, kde-format
@@ -12170,7 +12176,7 @@ msgid "Password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_storePassword)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:218
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:228
 #: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:146
 #, kde-format
 msgid "Store password"
@@ -12178,14 +12184,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:225
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:222
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:235
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:193
 #, kde-format
 msgid "Identify as"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_applicationEdit)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:240
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:250
 #, kde-format
 msgid ""
 "Expert option to enter the four digit version information of the application"
@@ -12193,35 +12199,35 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:265
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:190
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:275
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:222
 #, kde-format
 msgid "Header Version"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_clientUidLabel)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:308
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:248
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:318
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:238
 #, kde-format
 msgid "Client UID"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:318
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:328
 #, kde-format
 msgid "Connection Details"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QWizardPage, pageAccounts)
 #. i18n: ectx: property (title), widget (QWizardPage, AccountPage)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:332
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:342
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.ui:53
 #, kde-format
 msgid "Select Account"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:352
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:362
 #, kde-format
 msgid ""
 "Please select the account from your financial institution from the list "
@@ -12229,32 +12235,32 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_listAccount)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:376
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:386
 #, kde-format
 msgid "Bank"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_listAccount)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:381
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:391
 #, kde-format
 msgid "Branch"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QWizardPage, WizardPage)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:392
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:402
 #, kde-format
 msgid "Finish"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_labelFinal)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:400
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingsetupwizard.ui:410
 #, kde-format
 msgid ""
 "Congratulations: you have successfully set up your bank for online banking "
 "via OFX."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatus.cpp:52
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatus.cpp:53
 #, kde-format
 msgid "Enabled & configured"
 msgstr ""
@@ -12303,52 +12309,58 @@ msgstr ""
 msgid "OFX Details"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:245
+#, kde-format
+msgid "User Agent"
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, m_clientUidEdit)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:241
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:255
 #, kde-format
 msgid "OFX <CLIENTUID> for institutions that require it"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, importTab)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:271
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:281
 #, kde-format
 msgid "Import Details"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox2)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:277
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:287
 #, kde-format
 msgid "Start date of import"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_lastUpdateRB)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:298
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:308
 #, kde-format
 msgid "Last &update"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_todayRB)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:318
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:328
 #, kde-format
 msgid "To&day minus"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:338
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:348
 #, kde-format
 msgctxt "@action number of days"
 msgid "days"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_pickDateRB)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:348
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:358
 #, kde-format
 msgid "Pi&ck date"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox1)
 #. i18n: ectx: property (title), widget (QGroupBox, m_optionGroupBox)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:384
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:394
 #: kmymoney/plugins/ofx/import/importoption.ui:29
 #: kmymoney/plugins/qif/import/kimportdlgdecl.ui:76
 #, kde-format
@@ -12356,7 +12368,7 @@ msgid "Import options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:409
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:419
 #: kmymoney/plugins/ofx/import/importoption.ui:70
 #, kde-format
 msgid "Method to detect duplicate transactions during import"
@@ -12364,7 +12376,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_uniqueTransactionId)
 #. i18n: ectx: property (text), item, widget (QComboBox, m_uniqueIdSource)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:417
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:427
 #: kmymoney/plugins/ofx/import/importoption.ui:78
 #, kde-format
 msgid "OFX FITID"
@@ -12372,21 +12384,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_uniqueTransactionId)
 #. i18n: ectx: property (text), item, widget (QComboBox, m_uniqueIdSource)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:422
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:432
 #: kmymoney/plugins/ofx/import/importoption.ui:83
 #, kde-format
 msgid "KMyMoney Hash"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:436
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:446
 #: kmymoney/plugins/ofx/import/importoption.ui:41
 #, kde-format
 msgid "Payee's name is based on contents of the OFX tag"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:446
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:456
 #: kmymoney/plugins/ofx/import/importoption.ui:91
 #, kde-format
 msgid "Timezone offset"
@@ -12395,7 +12407,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel21_1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), item, widget (KComboBox, m_timestampOffsetSign)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:456
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:466
 #: kmymoney/plugins/ofx/import/importoption.ui:101
 #: kmymoney/wizards/newaccountwizard/kloanpaymentpage.ui:81
 #: kmymoney/wizards/newloanwizard/additionalfeeswizardpage.ui:126
@@ -12404,21 +12416,21 @@ msgid "+"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_timestampOffsetSign)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:461
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:471
 #: kmymoney/plugins/ofx/import/importoption.ui:106
 #, kde-format
 msgid "-"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:474
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:484
 #: kmymoney/plugins/ofx/import/importoption.ui:119
 #, kde-format
 msgid "Invert sign of transaction amount"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_invertAmount)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:481
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:491
 #: kmymoney/plugins/ofx/import/importoption.ui:126
 #, kde-format
 msgid ""
@@ -12428,14 +12440,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:491
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:501
 #: kmymoney/plugins/ofx/import/importoption.ui:136
 #, kde-format
 msgid "Fix sign of the investment transaction amount and quantity"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_fixBuySellSignage)
-#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:498
+#: kmymoney/plugins/ofx/import/dialogs/konlinebankingstatusdecl.ui:508
 #: kmymoney/plugins/ofx/import/importoption.ui:143
 #, kde-format
 msgid ""
@@ -12445,129 +12457,134 @@ msgid ""
 "amount or quantity value.</p></body></html>"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:69
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:73
 #, kde-format
 msgid "Quicken Windows 2003"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:70
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:74
 #, kde-format
 msgid "Quicken Windows 2004"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:71
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:75
 #, kde-format
 msgid "Quicken Windows 2005"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:72
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:76
 #, kde-format
 msgid "Quicken Windows 2006"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:73
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:77
 #, kde-format
 msgid "Quicken Windows 2007"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:74
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:135
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:139
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:78
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:143
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:147
 #, kde-format
 msgid "Quicken Windows 2008"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:77
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:81
 #, kde-format
 msgid "Quicken Windows 2010"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:78
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:82
 #, kde-format
 msgid "Quicken Windows 2011"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:79
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:83
 #, kde-format
 msgid "Quicken Windows 2012"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:80
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:84
 #, kde-format
 msgid "Quicken Windows 2013"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:81
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:85
 #, kde-format
 msgid "Quicken Windows 2014"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:83
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:87
 #, kde-format
 msgid "Quicken Windows 2015"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:84
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:88
 #, kde-format
 msgid "Quicken Windows 2016"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:86
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:90
 #, kde-format
 msgid "Quicken Windows 2017"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:87
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:91
 #, kde-format
 msgid "Quicken Windows 2018"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:88
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:92
 #, kde-format
 msgid "Quicken Windows 2019"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:90
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:94
 #, kde-format
 msgid "Quicken Windows (Expert)"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:93
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:97
+#, kde-format
+msgid "Quicken Mac (Expert)"
+msgstr ""
+
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:100
 #, kde-format
 msgid "MS-Money 2003"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:94
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:101
 #, kde-format
 msgid "MS-Money 2004"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:95
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:102
 #, kde-format
 msgid "MS-Money 2005"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:96
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:103
 #, kde-format
 msgid "MS-Money 2006"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:97
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:104
 #, kde-format
 msgid "MS-Money 2007"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:98
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:105
 #, kde-format
 msgid "MS-Money Plus"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:99
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:106
 #, kde-format
 msgid "MS-Money (Expert)"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:221
+#: kmymoney/plugins/ofx/import/dialogs/mymoneyofxconnector.cpp:229
 #, kde-format
 msgid "Enter your password for account <b>%1</b>"
 msgstr ""
@@ -12609,24 +12626,24 @@ msgstr ""
 msgid "No accounts found."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:959
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:963
 #, kde-format
 msgid "Error connecting to bank: %1"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:969
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:973
 #, kde-format
 msgid ""
 "<p>Unable to import <b>'%1'</b> using the OFX importer plugin.  The plugin "
 "returned the following error:</p><p>%2</p>"
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:1003
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:1007
 #, kde-format
 msgid "Importing process terminated unexpectedly."
 msgstr ""
 
-#: kmymoney/plugins/ofx/import/ofximporter.cpp:1003
+#: kmymoney/plugins/ofx/import/ofximporter.cpp:1007
 #, kde-format
 msgid "Failed to import all statements."
 msgstr ""
@@ -14031,7 +14048,7 @@ msgid "Unable to remove budget."
 msgstr ""
 
 #: kmymoney/plugins/views/budget/kbudgetview.cpp:161
-#: kmymoney/plugins/views/reports/kreportsview.cpp:358
+#: kmymoney/plugins/views/reports/kreportsview.cpp:356
 #, kde-format
 msgid "Copy of %1"
 msgstr ""
@@ -14289,7 +14306,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_forecastButton)
 #: kmymoney/plugins/views/forecast/forecastview.cpp:42
 #: kmymoney/plugins/views/forecast/kforecastview.ui:263
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1351
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1349
 #, kde-format
 msgid "Forecast"
 msgstr ""
@@ -15328,8 +15345,8 @@ msgid "%1 Balance History"
 msgstr ""
 
 #: kmymoney/plugins/views/reports/kbalancechartdlg.cpp:81
-#: kmymoney/plugins/views/reports/kreportsview.cpp:290
-#: kmymoney/plugins/views/reports/kreportsview.cpp:742
+#: kmymoney/plugins/views/reports/kreportsview.cpp:288
+#: kmymoney/plugins/views/reports/kreportsview.cpp:740
 #: kmymoney/plugins/views/reports/reportsview.cpp:83
 #: kmymoney/plugins/views/reports/reportsview.cpp:119
 #: kmymoney/plugins/views/reports/reportsview.cpp:172
@@ -15543,13 +15560,13 @@ msgstr ""
 msgid "Unknown view '%1' in KReportsView::slotOpenUrl()"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:270
+#: kmymoney/plugins/views/reports/kreportsview.cpp:268
 #, kde-format
 msgid "Failed to save: %1"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:290
-#: kmymoney/plugins/views/reports/kreportsview.cpp:359
+#: kmymoney/plugins/views/reports/kreportsview.cpp:288
+#: kmymoney/plugins/views/reports/kreportsview.cpp:357
 #: kmymoney/plugins/views/reports/kreportsview_p.h:829
 #: kmymoney/plugins/views/reports/kreportsview_p.h:837
 #: kmymoney/plugins/views/reports/kreportsview_p.h:845
@@ -15571,112 +15588,112 @@ msgstr ""
 #: kmymoney/plugins/views/reports/kreportsview_p.h:1008
 #: kmymoney/plugins/views/reports/kreportsview_p.h:1016
 #: kmymoney/plugins/views/reports/kreportsview_p.h:1025
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1037
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1050
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1060
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1070
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1080
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1090
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1100
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1110
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1120
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1134
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1149
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1171
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1193
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1210
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1232
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1241
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1250
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1259
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1273
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1284
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1299
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1309
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1320
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1330
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1340
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1359
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1369
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1380
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1390
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1409
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1418
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1427
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1436
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1036
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1048
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1058
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1068
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1078
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1088
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1098
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1108
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1118
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1132
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1147
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1169
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1191
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1208
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1230
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1239
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1248
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1257
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1271
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1282
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1297
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1307
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1318
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1328
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1338
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1357
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1367
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1378
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1388
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1407
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1416
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1425
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1434
 #, kde-format
 msgid "Default Report"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:291
-#: kmymoney/plugins/views/reports/kreportsview.cpp:360
+#: kmymoney/plugins/views/reports/kreportsview.cpp:289
+#: kmymoney/plugins/views/reports/kreportsview.cpp:358
 #, kde-format
 msgid "Custom Report"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:292
+#: kmymoney/plugins/views/reports/kreportsview.cpp:290
 #, kde-format
 msgid "%1 (Customized)"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:319
-#: kmymoney/plugins/views/reports/kreportsview.cpp:376
+#: kmymoney/plugins/views/reports/kreportsview.cpp:317
+#: kmymoney/plugins/views/reports/kreportsview.cpp:374
 #, kde-format
 msgid ""
 "Could not find reportgroup \"%1\" for report \"%2\".\n"
 "Please report this error to the developer's list: kmymoney-devel@kde.org"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:339
+#: kmymoney/plugins/views/reports/kreportsview.cpp:337
 #, kde-format
 msgid "Failed to configure report: %1"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:395
+#: kmymoney/plugins/views/reports/kreportsview.cpp:393
 #, kde-format
 msgid "Cannot add report, reason: \"%1\""
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:430
+#: kmymoney/plugins/views/reports/kreportsview.cpp:428
 #, kde-format
 msgid "<b>%1</b> is a default report, so it cannot be deleted."
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:431
+#: kmymoney/plugins/views/reports/kreportsview.cpp:429
 #: kmymoney/plugins/views/reports/kreportsview_p.h:554
 #, kde-format
 msgid "Delete Report?"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:606
+#: kmymoney/plugins/views/reports/kreportsview.cpp:604
 #, kde-format
 msgctxt "To open a new report"
 msgid "&Open"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:609
+#: kmymoney/plugins/views/reports/kreportsview.cpp:607
 #, kde-format
 msgctxt "To print a report"
 msgid "&Print"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:613
+#: kmymoney/plugins/views/reports/kreportsview.cpp:611
 #, kde-format
 msgctxt "Configure a report"
 msgid "&Configure"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:616
+#: kmymoney/plugins/views/reports/kreportsview.cpp:614
 #, kde-format
 msgid "&New report"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:626
+#: kmymoney/plugins/views/reports/kreportsview.cpp:624
 #, kde-format
 msgid "&Delete"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview.cpp:741
+#: kmymoney/plugins/views/reports/kreportsview.cpp:739
 #, kde-format
 msgid "%1 YTD Account Transactions"
 msgstr ""
@@ -15852,193 +15869,193 @@ msgstr ""
 msgid "Cash Flow"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1036
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1035
 #, kde-format
 msgid "Cash Flow Transactions This Month"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1042
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1040
 #: kmymoney/views/kmymoneyview.cpp:147
 #, kde-format
 msgid "Investments"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1049
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1047
 #, kde-format
 msgid "Investment Transactions"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1059
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1057
 #, kde-format
 msgid "Investment Holdings by Account"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1069
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1067
 #, kde-format
 msgid "Investment Holdings by Type"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1079
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1077
 #, kde-format
 msgid "Investment Performance by Account"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1089
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1087
 #, kde-format
 msgid "Investment Performance by Type"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1099
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1097
 #, kde-format
 msgid "Investment Capital Gains by Account"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1109
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1107
 #, kde-format
 msgid "Investment Capital Gains by Type"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1119
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1117
 #, kde-format
 msgid "Investment Holdings Pie"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1133
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1131
 #, kde-format
 msgid "Investment Worth Graph"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1148
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1146
 #, kde-format
 msgid "Investment Price Graph"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1170
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1168
 #, kde-format
 msgid "Investment Moving Average Price Graph"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1192
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1190
 #, kde-format
 msgid "Investment Moving Average"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1209
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1207
 #, kde-format
 msgid "Investment Moving Average vs Actual"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1224
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1222
 #, kde-format
 msgid "Taxes"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1231
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1229
 #, kde-format
 msgid "Tax Transactions by Category"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1240
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1238
 #, kde-format
 msgid "Tax Transactions by Payee"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1249
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1247
 #, kde-format
 msgid "Tax Transactions by Category Last Fiscal Year"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1258
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1256
 #, kde-format
 msgid "Tax Transactions by Payee Last Fiscal Year"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1265
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1263
 #, kde-format
 msgid "Budgeting"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1272
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1270
 #, kde-format
 msgid "Budgeted vs. Actual This Year"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1283
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1281
 #, kde-format
 msgid "Budgeted vs. Actual This Year (YTM)"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1298
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1296
 #: kmymoney/plugins/views/reports/reportsview.cpp:171
 #, kde-format
 msgid "Monthly Budgeted vs. Actual"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1308
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1306
 #, kde-format
 msgid "Yearly Budgeted vs. Actual"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1319
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1317
 #, kde-format
 msgid "Monthly Budget"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1329
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1327
 #, kde-format
 msgid "Yearly Budget"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1339
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1337
 #, kde-format
 msgid "Yearly Budgeted vs Actual Graph"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1358
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1356
 #, kde-format
 msgid "Forecast By Month"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1368
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1366
 #, kde-format
 msgid "Forecast Next Quarter"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1379
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1377
 #, kde-format
 msgid "Income and Expenses Forecast This Year"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1389
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1387
 #, kde-format
 msgid "Net Worth Forecast Graph"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWizardPage, NewGeneralInfoWizardPage)
 #. i18n: ectx: attribute (title), widget (QWizardPage, CheckingStartWizardPage)
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1401
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1399
 #: kmymoney/wizards/endingbalancedlg/checkingstartwizardpage.ui:14
 #: kmymoney/wizards/newloanwizard/newgeneralinfowizardpage.ui:6
 #, kde-format
 msgid "General Information"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1408
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1406
 #, kde-format
 msgid "Schedule Information"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1417
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1415
 #, kde-format
 msgid "Schedule Summary Information"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1426
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1424
 #, kde-format
 msgid "Account Information"
 msgstr ""
 
-#: kmymoney/plugins/views/reports/kreportsview_p.h:1435
+#: kmymoney/plugins/views/reports/kreportsview_p.h:1433
 #, kde-format
 msgid "Loan Information"
 msgstr ""
