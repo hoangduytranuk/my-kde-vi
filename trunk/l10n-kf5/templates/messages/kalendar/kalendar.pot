@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalendar\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-07 00:20+0000\n"
+"POT-Creation-Date: 2021-09-11 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -75,12 +75,12 @@ msgstr ""
 msgid "Years"
 msgstr ""
 
-#: contents/ui/DayMouseArea.qml:47 contents/ui/main.qml:136
+#: contents/ui/DayMouseArea.qml:47
 #, kde-format
 msgid "New event"
 msgstr ""
 
-#: contents/ui/DayMouseArea.qml:52 contents/ui/main.qml:142
+#: contents/ui/DayMouseArea.qml:52
 #, kde-format
 msgid "New todo"
 msgstr ""
@@ -102,7 +102,7 @@ msgid "Also delete future"
 msgstr ""
 
 #: contents/ui/DeleteIncidenceSheet.qml:53
-#: contents/ui/IncidenceInfo.qml:108 contents/ui/IncidenceMouseArea.qml:63
+#: contents/ui/IncidenceInfo.qml:108 contents/ui/IncidenceMouseArea.qml:66
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -232,19 +232,19 @@ msgctxt "@action:menu"
 msgid "Enter Full Screen"
 msgstr ""
 
-#: contents/ui/GlobalMenu.qml:117 contents/ui/WindowMenu.qml:192
+#: contents/ui/GlobalMenu.qml:118 contents/ui/WindowMenu.qml:193
 #, kde-format
 msgctxt "@action:menu"
 msgid "Settings"
 msgstr ""
 
-#: contents/ui/GlobalMenu.qml:126 contents/ui/WindowMenu.qml:198
+#: contents/ui/GlobalMenu.qml:127 contents/ui/WindowMenu.qml:199
 #, kde-format
 msgctxt "@action:menu"
 msgid "Help"
 msgstr ""
 
-#: contents/ui/GlobalMenu.qml:129 contents/ui/WindowMenu.qml:201
+#: contents/ui/GlobalMenu.qml:130 contents/ui/WindowMenu.qml:202
 #, kde-format
 msgctxt "@action:menu"
 msgid "Kalendar Handbook"
@@ -576,7 +576,7 @@ msgstr ""
 msgid "Add attachment"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:83 contents/ui/IncidenceMouseArea.qml:79
+#: contents/ui/IncidenceInfo.qml:83 contents/ui/IncidenceMouseArea.qml:82
 #, kde-format
 msgid "Add sub-todo"
 msgstr ""
@@ -591,7 +591,7 @@ msgstr ""
 msgid "Mark complete"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:102 contents/ui/IncidenceMouseArea.qml:57
+#: contents/ui/IncidenceInfo.qml:102 contents/ui/IncidenceMouseArea.qml:60
 #: contents/ui/Settings/SourceSettingsPage.qml:95
 #, kde-format
 msgid "Edit"
@@ -685,17 +685,17 @@ msgstr ""
 msgid "<b>Guests:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:52
+#: contents/ui/IncidenceMouseArea.qml:55
 #, kde-format
 msgid "View"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:72
+#: contents/ui/IncidenceMouseArea.qml:75
 #, kde-format
 msgid "Mark Todo as Incomplete"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:72
+#: contents/ui/IncidenceMouseArea.qml:75
 #, kde-format
 msgid "Mark Todo as Complete"
 msgstr ""
@@ -916,22 +916,33 @@ msgstr ""
 msgid "Return to location"
 msgstr ""
 
-#: contents/ui/main.qml:114 contents/ui/Sidebar.qml:168
+#: contents/ui/main.qml:114 contents/ui/Sidebar.qml:169
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: contents/ui/main.qml:131 contents/ui/TodoPage.qml:47
+#: contents/ui/main.qml:131 contents/ui/TodoPage.qml:46
+#: contents/ui/TodoTreeView.qml:57
 #, kde-format
 msgid "Create"
 msgstr ""
 
-#: contents/ui/main.qml:151 kalendarapplication.cpp:58
+#: contents/ui/main.qml:136 kalendarapplication.cpp:69
+#, kde-format
+msgid "New Event"
+msgstr ""
+
+#: contents/ui/main.qml:142 kalendarapplication.cpp:75
+#, kde-format
+msgid "New Todo"
+msgstr ""
+
+#: contents/ui/main.qml:151 kalendarapplication.cpp:60
 #, kde-format
 msgid "Month View"
 msgstr ""
 
-#: contents/ui/main.qml:154 kalendarapplication.cpp:50
+#: contents/ui/main.qml:154 kalendarapplication.cpp:51
 #, kde-format
 msgid "Schedule View"
 msgstr ""
@@ -1013,7 +1024,7 @@ msgid "Ends at %1"
 msgstr ""
 
 #: contents/ui/Settings/CalendarSettingsPage.qml:15
-#: contents/ui/SettingsPage.qml:27 contents/ui/Sidebar.qml:208
+#: contents/ui/SettingsPage.qml:27 contents/ui/Sidebar.qml:209
 #, kde-format
 msgid "Calendars"
 msgstr ""
@@ -1171,22 +1182,22 @@ msgstr ""
 msgid "About Kalendar"
 msgstr ""
 
-#: contents/ui/Sidebar.qml:67
+#: contents/ui/Sidebar.qml:68
 #, kde-format
 msgid "Kalendar"
 msgstr ""
 
-#: contents/ui/Sidebar.qml:80
+#: contents/ui/Sidebar.qml:81
 #, kde-format
 msgid "Undo: "
 msgstr ""
 
-#: contents/ui/Sidebar.qml:89
+#: contents/ui/Sidebar.qml:90
 #, kde-format
 msgid "Redo: "
 msgstr ""
 
-#: contents/ui/Sidebar.qml:285
+#: contents/ui/Sidebar.qml:289
 #, kde-format
 msgid "View all todos"
 msgstr ""
@@ -1201,39 +1212,59 @@ msgstr ""
 msgid "Todos"
 msgstr ""
 
-#: contents/ui/TodoPage.qml:52
+#: contents/ui/TodoPage.qml:51
 #, kde-format
 msgid "Sort"
 msgstr ""
 
-#: contents/ui/TodoPage.qml:94
+#: contents/ui/TodoPage.qml:93
 #, kde-format
 msgid "Completed todos in %1"
 msgstr ""
 
-#: contents/ui/TodoPage.qml:94
+#: contents/ui/TodoPage.qml:93
 #, kde-format
 msgid "Completed todos"
 msgstr ""
 
-#: contents/ui/TodoPage.qml:159
+#: contents/ui/TodoPage.qml:163
 #, kde-format
 msgid "All todos"
 msgstr ""
 
-#: contents/ui/TodoPage.qml:192
+#: contents/ui/TodoPage.qml:198
 #, kde-format
 msgid "Choose a todo calendar"
 msgstr ""
 
-#: contents/ui/TodoPage.qml:232
+#: contents/ui/TodoPage.qml:238
 #, kde-format
 msgid "Create a new todo..."
 msgstr ""
 
-#: contents/ui/TodoPage.qml:253
+#: contents/ui/TodoPage.qml:259
 #, kde-format
 msgid "Quickly add a new todo."
+msgstr ""
+
+#: contents/ui/TodoTreeView.qml:42
+#, kde-format
+msgid "Calendar is not enabled"
+msgstr ""
+
+#: contents/ui/TodoTreeView.qml:45
+#, kde-format
+msgid "Enable"
+msgstr ""
+
+#: contents/ui/TodoTreeView.qml:55
+#, kde-format
+msgid "No todos completed"
+msgstr ""
+
+#: contents/ui/TodoTreeView.qml:55
+#, kde-format
+msgid "No todos left to complete"
 msgstr ""
 
 #: contents/ui/WindowMenu.qml:58
@@ -1253,42 +1284,47 @@ msgstr ""
 msgid "Sort todos"
 msgstr ""
 
-#: kalendarapplication.cpp:67
+#: kalendarapplication.cpp:46
 #, kde-format
-msgid "New Event"
+msgid "Ctrl+3"
 msgstr ""
 
-#: kalendarapplication.cpp:73
+#: kalendarapplication.cpp:55
 #, kde-format
-msgid "New Todo"
+msgid "Ctrl+2"
 msgstr ""
 
-#: kalendarapplication.cpp:106
+#: kalendarapplication.cpp:64
+#, kde-format
+msgid "Ctrl+1"
+msgstr ""
+
+#: kalendarapplication.cpp:108
 #, kde-format
 msgid "Alphabetically"
 msgstr ""
 
-#: kalendarapplication.cpp:115
+#: kalendarapplication.cpp:117
 #, kde-format
 msgid "By due date"
 msgstr ""
 
-#: kalendarapplication.cpp:124
+#: kalendarapplication.cpp:126
 #, kde-format
 msgid "By priority level"
 msgstr ""
 
-#: kalendarapplication.cpp:133
+#: kalendarapplication.cpp:135
 #, kde-format
 msgid "Ascending order"
 msgstr ""
 
-#: kalendarapplication.cpp:142
+#: kalendarapplication.cpp:144
 #, kde-format
 msgid "Descending order"
 msgstr ""
 
-#: kalendarapplication.cpp:151
+#: kalendarapplication.cpp:153
 #, kde-format
 msgid "Show completed todos"
 msgstr ""

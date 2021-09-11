@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-09 00:16+0000\n"
+"POT-Creation-Date: 2021-09-11 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -811,23 +811,7 @@ msgstr ""
 msgid "In"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: data/effects/fade_from_black.xml:13 data/effects/fade_to_black.xml:13
-#: src/ui/wipeval_ui.ui:22
-#, kde-format
-msgid "Start"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, duration_label)
-#: data/effects/fade_from_black.xml:16 data/effects/fade_to_black.xml:16
-#: src/dialogs/renderwidget.cpp:517 src/ui/editsub_ui.ui:88
-#: src/ui/wipeval_ui.ui:167
-#, kde-format
-msgid "End"
-msgstr ""
-
-#: data/effects/fade_from_black.xml:19
+#: data/effects/fade_from_black.xml:13
 #, kde-format
 msgid "Fade from Black"
 msgstr ""
@@ -849,7 +833,7 @@ msgstr ""
 msgid "Out"
 msgstr ""
 
-#: data/effects/fade_to_black.xml:19
+#: data/effects/fade_to_black.xml:13
 #, kde-format
 msgid "Fade to Black"
 msgstr ""
@@ -6402,23 +6386,23 @@ msgid "Keyframe value copied"
 msgstr ""
 
 #: src/assets/model/assetcommand.cpp:39 src/assets/model/assetcommand.cpp:41
-#: src/assets/model/assetcommand.cpp:85 src/assets/model/assetcommand.cpp:87
+#: src/assets/model/assetcommand.cpp:114 src/assets/model/assetcommand.cpp:116
 #, kde-format
 msgid "Edit %1"
 msgstr ""
 
-#: src/assets/model/assetcommand.cpp:145 src/assets/model/assetcommand.cpp:147
+#: src/assets/model/assetcommand.cpp:174 src/assets/model/assetcommand.cpp:176
 #, kde-format
 msgid "Edit %1 keyframe"
 msgstr ""
 
-#: src/assets/model/assetcommand.cpp:187 src/assets/model/assetcommand.cpp:189
+#: src/assets/model/assetcommand.cpp:216 src/assets/model/assetcommand.cpp:218
 #, kde-format
 msgid "Update %1"
 msgstr ""
 
-#: src/assets/model/assetparametermodel.cpp:1014
-#: src/assets/model/assetparametermodel.cpp:1061
+#: src/assets/model/assetparametermodel.cpp:1073
+#: src/assets/model/assetparametermodel.cpp:1120
 #, kde-format
 msgid "Cannot open preset file %1"
 msgstr ""
@@ -7197,8 +7181,8 @@ msgstr ""
 msgid "Cannot apply effects on folders"
 msgstr ""
 
-#: src/bin/bin.cpp:3179 src/effects/effectstack/model/effectstackmodel.cpp:492
-#: src/effects/effectstack/model/effectstackmodel.cpp:497
+#: src/bin/bin.cpp:3179 src/effects/effectstack/model/effectstackmodel.cpp:508
+#: src/effects/effectstack/model/effectstackmodel.cpp:513
 #: src/mainwindow.cpp:3084
 #, kde-format
 msgid "Cannot add effect to clip"
@@ -7623,7 +7607,7 @@ msgstr ""
 msgid "Loading project clips..."
 msgstr ""
 
-#: src/bin/projectsubclip.cpp:56 src/doc/documentvalidator.cpp:2041
+#: src/bin/projectsubclip.cpp:56 src/doc/documentvalidator.cpp:2073
 #, kde-format
 msgid "Zone %1"
 msgstr ""
@@ -7970,7 +7954,7 @@ msgstr ""
 #: src/dialogs/clipcreationdialog.cpp:368
 #: src/dialogs/clipcreationdialog.cpp:465
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:302
-#: src/mainwindow.cpp:3781 src/onlineresources/resourcewidget.cpp:548
+#: src/mainwindow.cpp:3783 src/onlineresources/resourcewidget.cpp:548
 #, kde-format
 msgid "All Files"
 msgstr ""
@@ -8060,7 +8044,7 @@ msgid "Proxy Clips"
 msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:187
-#: src/mainwindow.cpp:3742
+#: src/mainwindow.cpp:3744
 #, kde-format
 msgid "Timeline"
 msgstr ""
@@ -8609,6 +8593,14 @@ msgstr ""
 #: src/dialogs/renderwidget.cpp:509
 #, kde-format
 msgid "Beginning"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, duration_label)
+#: src/dialogs/renderwidget.cpp:517 src/ui/editsub_ui.ui:88
+#: src/ui/wipeval_ui.ui:167
+#, kde-format
+msgid "End"
 msgstr ""
 
 #: src/dialogs/renderwidget.cpp:594 src/dialogs/renderwidget.cpp:612
@@ -9527,7 +9519,7 @@ msgstr ""
 msgid "extra audio"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2142
+#: src/doc/documentvalidator.cpp:2174
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -9536,12 +9528,12 @@ msgid ""
 "This might result in data loss."
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2234
+#: src/doc/documentvalidator.cpp:2266
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2237
+#: src/doc/documentvalidator.cpp:2269
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr ""
@@ -9854,7 +9846,7 @@ msgstr ""
 msgid "Disable %1"
 msgstr ""
 
-#: src/effects/effectstack/model/effectitemmodel.cpp:287
+#: src/effects/effectstack/model/effectitemmodel.cpp:298
 #, kde-format
 msgid "Update zone for %1"
 msgstr ""
@@ -9870,24 +9862,24 @@ msgid "Copy effect"
 msgstr ""
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:338
-#: src/effects/effectstack/model/effectstackmodel.cpp:424
-#: src/effects/effectstack/model/effectstackmodel.cpp:478
-#: src/effects/effectstack/model/effectstackmodel.cpp:999
+#: src/effects/effectstack/model/effectstackmodel.cpp:440
+#: src/effects/effectstack/model/effectstackmodel.cpp:494
+#: src/effects/effectstack/model/effectstackmodel.cpp:1027
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr ""
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:468
+#: src/effects/effectstack/model/effectstackmodel.cpp:484
 #, kde-format
 msgid "Paste effect"
 msgstr ""
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:559
+#: src/effects/effectstack/model/effectstackmodel.cpp:575
 #, kde-format
 msgid "Add effect %1"
 msgstr ""
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:855
+#: src/effects/effectstack/model/effectstackmodel.cpp:883
 #, kde-format
 msgid "Move effect %1"
 msgstr ""
@@ -10254,13 +10246,13 @@ msgid "Markers"
 msgstr ""
 
 #. i18n: ectx: Menu (extract_audio)
-#: src/kdenliveui.rc:73 src/mainwindow.cpp:3701
+#: src/kdenliveui.rc:73 src/mainwindow.cpp:3703
 #, kde-format
 msgid "Extract Audio"
 msgstr ""
 
 #. i18n: ectx: Menu (clip_actions)
-#: src/kdenliveui.rc:76 src/mainwindow.cpp:3650
+#: src/kdenliveui.rc:76 src/mainwindow.cpp:3652
 #, kde-format
 msgid "Clip Jobs"
 msgstr ""
@@ -11184,7 +11176,7 @@ msgstr ""
 msgid "Experimental GPU processing enabled - not for production"
 msgstr ""
 
-#: src/mainwindow.cpp:1363 src/mainwindow.cpp:3288
+#: src/mainwindow.cpp:1363 src/mainwindow.cpp:3290
 #, kde-format
 msgid "Multicam"
 msgstr ""
@@ -11926,7 +11918,7 @@ msgstr ""
 msgid "Zoom Level: %1/%2"
 msgstr ""
 
-#: src/mainwindow.cpp:3276
+#: src/mainwindow.cpp:3277
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -11936,17 +11928,22 @@ msgid ""
 msgstr ""
 
 #: src/mainwindow.cpp:3278
+#, kde-format
+msgid "Select"
+msgstr ""
+
+#: src/mainwindow.cpp:3280
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<shortcut>Shift</shortcut> to preview cut frame"
 msgstr ""
 
-#: src/mainwindow.cpp:3279
+#: src/mainwindow.cpp:3281
 #, kde-format
 msgid "Razor"
 msgstr ""
 
-#: src/mainwindow.cpp:3281
+#: src/mainwindow.cpp:3283
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -11954,12 +11951,12 @@ msgid ""
 "shortcut> to also move guides. You can combine both modifiers."
 msgstr ""
 
-#: src/mainwindow.cpp:3282
+#: src/mainwindow.cpp:3284
 #, kde-format
 msgid "Spacer"
 msgstr ""
 
-#: src/mainwindow.cpp:3284
+#: src/mainwindow.cpp:3286
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -11967,12 +11964,12 @@ msgid ""
 "shortcut> for multiple selection"
 msgstr ""
 
-#: src/mainwindow.cpp:3285
+#: src/mainwindow.cpp:3287
 #, kde-format
 msgid "Slip"
 msgstr ""
 
-#: src/mainwindow.cpp:3287
+#: src/mainwindow.cpp:3289
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -11981,121 +11978,121 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/mainwindow.cpp:3296 src/ui/addtrack_ui.ui:71
+#: src/mainwindow.cpp:3298 src/ui/addtrack_ui.ui:71
 #, kde-format
 msgid "Insert"
 msgstr ""
 
-#: src/mainwindow.cpp:3299
+#: src/mainwindow.cpp:3301
 #, kde-format
 msgid "Overwrite"
 msgstr ""
 
-#: src/mainwindow.cpp:3655
+#: src/mainwindow.cpp:3657
 #, kde-format
 msgid "Stabilize"
 msgstr ""
 
-#: src/mainwindow.cpp:3662
+#: src/mainwindow.cpp:3664
 #, kde-format
 msgid "Automatic scene split"
 msgstr ""
 
-#: src/mainwindow.cpp:3669
+#: src/mainwindow.cpp:3671
 #, kde-format
 msgid "Duplicate clip with speed change"
 msgstr ""
 
-#: src/mainwindow.cpp:3676
+#: src/mainwindow.cpp:3678
 #, kde-format
 msgid "Duplicate clip with time remap"
 msgstr ""
 
-#: src/mainwindow.cpp:3700
+#: src/mainwindow.cpp:3702
 #, kde-format
 msgid "Transcoders"
 msgstr ""
 
-#: src/mainwindow.cpp:3741
+#: src/mainwindow.cpp:3743
 #, kde-format
 msgid "Interface"
 msgstr ""
 
-#: src/mainwindow.cpp:3783
+#: src/mainwindow.cpp:3785
 #, kde-format
 msgid "Files to transcode"
 msgstr ""
 
-#: src/mainwindow.cpp:3932
+#: src/mainwindow.cpp:3934
 #, kde-format
 msgid "Project file could not be saved for archiving."
 msgstr ""
 
-#: src/mainwindow.cpp:3937
+#: src/mainwindow.cpp:3939
 #, kde-format
 msgid "Archiving project"
 msgstr ""
 
-#: src/mainwindow.cpp:4009
+#: src/mainwindow.cpp:4011
 #, kde-format
 msgid "Raise %1"
 msgstr ""
 
-#: src/mainwindow.cpp:4181
+#: src/mainwindow.cpp:4183
 #, kde-format
 msgid "Icon Size"
 msgstr ""
 
-#: src/mainwindow.cpp:4185
+#: src/mainwindow.cpp:4187
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr ""
 
-#: src/mainwindow.cpp:4206 src/mainwindow.cpp:4234
+#: src/mainwindow.cpp:4208 src/mainwindow.cpp:4236
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:4208 src/mainwindow.cpp:4236
+#: src/mainwindow.cpp:4210 src/mainwindow.cpp:4238
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:4210 src/mainwindow.cpp:4238
+#: src/mainwindow.cpp:4212 src/mainwindow.cpp:4240
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:4212 src/mainwindow.cpp:4240
+#: src/mainwindow.cpp:4214 src/mainwindow.cpp:4242
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:4287 src/mainwindow.cpp:4302
+#: src/mainwindow.cpp:4289 src/mainwindow.cpp:4304
 #, kde-format
 msgid "Rendering using low quality track compositing"
 msgstr ""
 
-#: src/mainwindow.cpp:4309
+#: src/mainwindow.cpp:4311
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
 msgstr ""
 
-#: src/mainwindow.cpp:4309
+#: src/mainwindow.cpp:4311
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: src/mainwindow.cpp:4324
+#: src/mainwindow.cpp:4326
 #, kde-format
 msgid ""
 "Kdenlive needs to be restarted to apply the icon theme change. Restart now?"
 msgstr ""
 
-#: src/mainwindow.cpp:4520 src/timeline2/view/timelinecontroller.cpp:4552
+#: src/mainwindow.cpp:4522 src/timeline2/view/timelinecontroller.cpp:4552
 #, kde-format
 msgid "No subtitles in current project"
 msgstr ""
@@ -19263,6 +19260,12 @@ msgstr ""
 #: src/ui/unicodewidget_ui.ui:263
 #, kde-format
 msgid "Additional Information"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/ui/wipeval_ui.ui:22
+#, kde-format
+msgid "Start"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button_reload)

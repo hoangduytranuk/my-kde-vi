@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-vault\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"POT-Creation-Date: 2021-09-10 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: kded/engine/backends/cryfs/cryfsbackend.cpp:92
 #: kded/engine/backends/encfs/encfsbackend.cpp:51
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:76
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:77
 #, kde-format
 msgid "Failed to create directories, check your permissions"
 msgstr ""
@@ -83,25 +83,54 @@ msgid "The installed version of cryfs is too old to open this vault."
 msgstr ""
 
 #: kded/engine/backends/cryfs/cryfsbackend.cpp:168
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:116
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:117
 #, kde-format
 msgid "Unable to perform the operation (error code %1)."
 msgstr ""
 
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:106
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:107
 #, kde-format
 msgid "The cipher directory is not empty, cannot initialise the vault."
 msgstr ""
 
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:109
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:110
 #, kde-format
 msgid "The password is empty, cannot initialise the vault."
 msgstr ""
 
-#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:112
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:113
 #, kde-format
 msgid ""
 "Cannot write gocryptfs.conf inside cipher directory, check your permissions."
+msgstr ""
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:141
+#: kded/engine/fusebackend_p.cpp:157
+#, kde-format
+msgid "Failed to execute"
+msgstr ""
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:151
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:166
+#: kded/engine/fusebackend_p.cpp:169
+#, kde-format
+msgid "Unable to detect the version"
+msgstr ""
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:160
+#, kde-format
+msgid "Unable to detect the version, the version string is invalid"
+msgstr ""
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:174
+#, kde-format
+msgid "Wrong version installed. The required version is %1.%2"
+msgstr ""
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:177
+#: kded/engine/fusebackend_p.cpp:183
+#, kde-format
+msgid "Correct version found"
 msgstr ""
 
 #: kded/engine/fusebackend_p.cpp:51
@@ -141,24 +170,9 @@ msgstr ""
 msgid "Device is not open"
 msgstr ""
 
-#: kded/engine/fusebackend_p.cpp:157
-#, kde-format
-msgid "Failed to execute"
-msgstr ""
-
-#: kded/engine/fusebackend_p.cpp:169
-#, kde-format
-msgid "Unable to detect the version"
-msgstr ""
-
 #: kded/engine/fusebackend_p.cpp:177
 #, kde-format
 msgid "Wrong version installed. The required version is %1.%2.%3"
-msgstr ""
-
-#: kded/engine/fusebackend_p.cpp:183
-#, kde-format
-msgid "Correct version found"
 msgstr ""
 
 #: kded/engine/vault.cpp:238
