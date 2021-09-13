@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-11 00:15+0000\n"
+"POT-Creation-Date: 2021-09-13 00:16+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -545,7 +545,7 @@ msgid "Open..."
 msgstr "Mở bằng"
 
 #: core/app/items/utils/contextmenuhelper.cpp:282
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:111
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:121
 #, fuzzy, kde-format
 #| msgid "Open folder"
 msgctxt "@action: context menu"
@@ -1091,7 +1091,7 @@ msgstr "Độ mở/Tiêu :"
 #: core/app/items/utils/tooltipfiller.cpp:243
 #: core/dplugins/generic/tools/mjpegstream/mjpegframeosd.cpp:222
 #: core/dplugins/generic/view/slideshow/widgets/slideproperties.cpp:220
-#: core/libs/dialogs/imagedialog.cpp:209
+#: core/libs/dialogs/imagedialog.cpp:210
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:212
 #: core/utilities/import/items/importtooltipfiller.cpp:193
 #, kde-format
@@ -2578,7 +2578,7 @@ msgstr "Trợ g&iúp"
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
 
-#: core/app/main/main.cpp:155 core/app/views/stack/welcomepageview.cpp:264
+#: core/app/main/main.cpp:155 core/app/views/stack/welcomepageview.cpp:268
 #: core/libs/album/manager/albummanager_album.cpp:137
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:75
@@ -2723,14 +2723,14 @@ msgid ""
 msgstr ""
 
 #: core/app/views/preview/itempreviewview.cpp:170
-#: core/libs/video/player/mediaplayerview.cpp:220
+#: core/libs/video/player/mediaplayerview.cpp:219
 #, fuzzy, kde-format
 msgctxt "go to previous image"
 msgid "Back"
 msgstr "Lùi"
 
 #: core/app/views/preview/itempreviewview.cpp:171
-#: core/libs/video/player/mediaplayerview.cpp:222
+#: core/libs/video/player/mediaplayerview.cpp:221
 #, fuzzy, kde-format
 msgctxt "go to next image"
 msgid "Forward"
@@ -3233,11 +3233,32 @@ msgstr ""
 #: core/app/views/stack/welcomepageview.cpp:175
 #, kde-format
 msgid ""
-"Update internal RAW engine to last Libraw 0.20.2 release including Canon CR3 "
-"and Sony A7R4 support."
+"Integration of  Google Summer of Code project 2021 <a href=\"https://"
+"community.kde.org/GSoC/2021/StatusReports/PhuocKhanhLE\">Image Quality "
+"Sorter</a>."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:176
+#: core/app/views/stack/welcomepageview.cpp:177
+#, fuzzy, kde-format
+msgid ""
+"New tool to share items on the network with a Motion JPEG stream server."
+msgstr "Lần lặp lại:"
+
+#: core/app/views/stack/welcomepageview.cpp:178
+#, kde-format
+msgid ""
+"Showfoto has a new left sidebar hosting a folder-view to quickly explore "
+"images from local file system."
+msgstr ""
+
+#: core/app/views/stack/welcomepageview.cpp:179
+#, kde-format
+msgid ""
+"Update internal RAW engine to last Libraw 0.20.2 (snapshot 20210827) "
+"including Canon CR3 and Sony A7R4 support."
+msgstr ""
+
+#: core/app/views/stack/welcomepageview.cpp:180
 #, kde-format
 msgid ""
 "New camera supported: Canon CR3, PowerShot G5 X Mark II, G7 X Mark III, SX70 "
@@ -3253,44 +3274,44 @@ msgid ""
 "multiple modern smartphones."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:195
+#: core/app/views/stack/welcomepageview.cpp:199
 #, kde-format
 msgid "...and much more."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:201
+#: core/app/views/stack/welcomepageview.cpp:205
 #, kde-format
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: core/app/views/stack/welcomepageview.cpp:204
+#: core/app/views/stack/welcomepageview.cpp:208
 #, fuzzy, kde-format
 msgid "New Features"
 msgstr "Tự nhiên"
 
-#: core/app/views/stack/welcomepageview.cpp:206
+#: core/app/views/stack/welcomepageview.cpp:210
 #, kde-format
 msgid "<h3>%1</h3><ul>%2</ul>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:207
+#: core/app/views/stack/welcomepageview.cpp:211
 #, kde-format
 msgid ""
 "Some of the new features in this release of digiKam include (compared to "
 "digiKam 6.x):"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:215
+#: core/app/views/stack/welcomepageview.cpp:219
 #, fuzzy, kde-format
 msgid "About"
 msgstr "Giới thiệu"
 
-#: core/app/views/stack/welcomepageview.cpp:217
+#: core/app/views/stack/welcomepageview.cpp:221
 #, kde-format
 msgid "<h3>%1</h3><h3>%2</h3><ul>%3</ul>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:218
+#: core/app/views/stack/welcomepageview.cpp:222
 #, kde-format
 msgid ""
 "digiKam is an open source photo management program designed to import, "
@@ -3298,7 +3319,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:219
+#: core/app/views/stack/welcomepageview.cpp:223
 #, kde-format
 msgid ""
 "Currently, you are in the Album view mode of digiKam. Albums are the places "
@@ -3306,32 +3327,32 @@ msgid ""
 "disk."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:220
+#: core/app/views/stack/welcomepageview.cpp:224
 #, fuzzy, kde-format
 msgid "<li>%1</li><li>%2</li>"
 msgstr "<li>%1</li>\n"
 
-#: core/app/views/stack/welcomepageview.cpp:221
+#: core/app/views/stack/welcomepageview.cpp:225
 #, kde-format
 msgid ""
 "digiKam has many powerful features which are described in the <a href="
 "\"https://docs.kde.org/?application=digikam&branch=trunk5\">documentation</a>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:222
+#: core/app/views/stack/welcomepageview.cpp:226
 #, kde-format
 msgid ""
 "The <a href=\"https://www.digikam.org\">digiKam homepage</a> provides "
 "information about new versions of digiKam."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:270
+#: core/app/views/stack/welcomepageview.cpp:274
 #: core/utilities/firstrun/welcomepage.cpp:43
 #, kde-format
 msgid "Welcome to digiKam %1"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:273
+#: core/app/views/stack/welcomepageview.cpp:277
 #, fuzzy, kde-format
 msgid "Background Image Credits"
 msgstr "Màu &nền:"
@@ -14117,7 +14138,7 @@ msgstr "Vị trí ảnh:"
 
 #. i18n: ectx: property (text), widget (QLabel, fontLabel)
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:192
-#: core/showfoto/setup/showfotosetuptooltip.cpp:112
+#: core/showfoto/setup/showfotosetuptooltip.cpp:114
 #, kde-format
 msgid "Font:"
 msgstr "Phông:"
@@ -19290,7 +19311,7 @@ msgid "Show the image creation time/date at the bottom of the screen."
 msgstr "<p>Hiển thị chú thích về ảnh ở dưới màn hình."
 
 #: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:153
-#: core/showfoto/setup/showfotosetuptooltip.cpp:159
+#: core/showfoto/setup/showfotosetuptooltip.cpp:161
 #, fuzzy, kde-format
 msgid "Show camera aperture and focal length"
 msgstr "Hiện độ mở và tiêu cự của máy ảnh"
@@ -19301,7 +19322,7 @@ msgid "Show the camera aperture and focal length at the bottom of the screen."
 msgstr "<p>Hiển thị độ mở và tiêu cự của máy ảnh ở dưới màn hình."
 
 #: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:156
-#: core/showfoto/setup/showfotosetuptooltip.cpp:163
+#: core/showfoto/setup/showfotosetuptooltip.cpp:165
 #, kde-format
 msgid "Show camera exposure and sensitivity"
 msgstr "Hiện phơi nắng và độ nhạy của máy ảnh"
@@ -19312,7 +19333,7 @@ msgid "Show the camera exposure and sensitivity at the bottom of the screen."
 msgstr "<p>Hiển thị phơi nắng và độ nhạy của máy ảnh ở dưới màn hình."
 
 #: core/dplugins/generic/view/slideshow/dialogs/setupslideshow_dialog.cpp:159
-#: core/showfoto/setup/showfotosetuptooltip.cpp:148
+#: core/showfoto/setup/showfotosetuptooltip.cpp:150
 #, kde-format
 msgid "Show camera make and model"
 msgstr "Hiển thị nhà chế tạo và mô hình của máy ảnh"
@@ -27075,82 +27096,82 @@ msgstr "Thiết lập tệp ảnh lưu trong bộ sửa ảnh"
 msgid "Color Profile Info - %1"
 msgstr "Thông tin hồ sơ màu"
 
-#: core/libs/dialogs/imagedialog.cpp:276
+#: core/libs/dialogs/imagedialog.cpp:277
 #, fuzzy, kde-format
 msgid "<i>Make:</i>"
 msgstr "<b>Hãng chế tạo</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:277
+#: core/libs/dialogs/imagedialog.cpp:278
 #, fuzzy, kde-format
 msgid "<i>Model:</i>"
 msgstr "<b>Mô hình</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:278
+#: core/libs/dialogs/imagedialog.cpp:279
 #, fuzzy, kde-format
 msgid "<i>Created:</i>"
 msgstr "<b>Tạo</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:279
+#: core/libs/dialogs/imagedialog.cpp:280
 #, fuzzy, kde-format
 msgid "<i>Aperture:</i>"
 msgstr "<b>Độ mở</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:280
+#: core/libs/dialogs/imagedialog.cpp:281
 #, fuzzy, kde-format
 msgid "<i>Focal:</i>"
 msgstr "<b>Tiêu</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:281
+#: core/libs/dialogs/imagedialog.cpp:282
 #, fuzzy, kde-format
 msgid "<i>Exposure:</i>"
 msgstr "<b>Phơi năng</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:282
+#: core/libs/dialogs/imagedialog.cpp:283
 #, fuzzy, kde-format
 msgid "<i>Sensitivity:</i>"
 msgstr "<b>Độ nhạy</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:286
+#: core/libs/dialogs/imagedialog.cpp:287
 #, fuzzy, kde-format
 msgid "<i>AspectRatio:</i>"
 msgstr "Tỉ lệ hình thể:"
 
-#: core/libs/dialogs/imagedialog.cpp:287
+#: core/libs/dialogs/imagedialog.cpp:288
 #, fuzzy, kde-format
 msgid "<i>AudioBitRate:</i>"
 msgstr "<b>Tạo</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:288
+#: core/libs/dialogs/imagedialog.cpp:289
 #, fuzzy, kde-format
 msgid "<i>AudioChannelType:</i>"
 msgstr "<i>chưa đổi</i>"
 
-#: core/libs/dialogs/imagedialog.cpp:289
+#: core/libs/dialogs/imagedialog.cpp:290
 #, fuzzy, kde-format
 msgid "<i>AudioCodec:</i>"
 msgstr "<b>Mô hình</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:290
+#: core/libs/dialogs/imagedialog.cpp:291
 #, fuzzy, kde-format
 msgid "<i>Duration:</i>"
 msgstr "<li>đánh giá</li>"
 
-#: core/libs/dialogs/imagedialog.cpp:291
+#: core/libs/dialogs/imagedialog.cpp:292
 #, fuzzy, kde-format
 msgid "<i>FrameRate:</i>"
 msgstr "<b>Tạo</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:292
+#: core/libs/dialogs/imagedialog.cpp:293
 #, fuzzy, kde-format
 msgid "<i>VideoCodec:</i>"
 msgstr "<b>Mô hình</b>:"
 
-#: core/libs/dialogs/imagedialog.cpp:467
+#: core/libs/dialogs/imagedialog.cpp:491
 #, fuzzy, kde-format
 msgid "Select an Item"
 msgstr "Chọ&n mục mới"
 
-#: core/libs/dialogs/imagedialog.cpp:481
+#: core/libs/dialogs/imagedialog.cpp:505
 #, fuzzy, kde-format
 msgid "Select Items"
 msgstr "Chọ&n mục mới"
@@ -37921,24 +37942,24 @@ msgstr ""
 msgid "Output video is %1"
 msgstr "Lỗi thay đổi tên của tập ảnh"
 
-#: core/libs/video/player/mediaplayerview.cpp:224
+#: core/libs/video/player/mediaplayerview.cpp:223
 #, kde-format
 msgctxt "pause/play video"
 msgid "Pause/Play"
 msgstr ""
 
-#: core/libs/video/player/mediaplayerview.cpp:226
+#: core/libs/video/player/mediaplayerview.cpp:225
 #, fuzzy, kde-format
 msgctxt "capture video frame"
 msgid "Capture"
 msgstr "Tự nhiên"
 
-#: core/libs/video/player/mediaplayerview.cpp:229
+#: core/libs/video/player/mediaplayerview.cpp:228
 #, kde-format
 msgid "An error has occurred with the media player..."
 msgstr ""
 
-#: core/libs/video/player/mediaplayerview.cpp:257
+#: core/libs/video/player/mediaplayerview.cpp:260
 #, fuzzy, kde-format
 #| msgid "Display in loop"
 msgid "Toggle playing in a loop"
@@ -40369,7 +40390,7 @@ msgid "Image Information"
 msgstr "Thông tin ảnh"
 
 #: core/libs/widgets/metadata/exiv2/mdkeylistviewitem.cpp:64
-#: core/showfoto/setup/showfotosetuptooltip.cpp:145
+#: core/showfoto/setup/showfotosetuptooltip.cpp:147
 #: core/utilities/searchwindow/searchgroup.cpp:186
 #: core/utilities/setup/setuptooltip.cpp:240
 #, kde-format
@@ -43246,92 +43267,141 @@ msgctxt "@info: search text bar"
 msgid "Case sensitive"
 msgstr "Độ nhạy:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:87
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:105
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Go to Previous"
 msgstr "Ảnh trước"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:88
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:106
 #, kde-format
 msgctxt "@info"
 msgid "Go to previous place in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:104
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:122
 #, kde-format
 msgctxt "action"
 msgid "Go to Next"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:105
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:123
 #, kde-format
 msgctxt "@info"
 msgid "Go to next place in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:121
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:139
 #, kde-format
 msgctxt "action"
 msgid "Go Up"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:122
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:140
 #, kde-format
 msgctxt "@info"
 msgid "Go up in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:138
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:156
 #, kde-format
 msgctxt "action"
 msgid "Go Home"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:139
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:157
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Go to home directory"
 msgstr "Tên tệp ảnh mới"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:169
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:185
+#, fuzzy, kde-format
+msgctxt "@info: folder-view"
+msgid "Folder-View Options"
+msgstr "Tuy chọn giao diện"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:188
+#, kde-format
+msgctxt "@info: folder-view"
+msgid "Selection options to render folder-view."
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:193
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Short View"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:196
+#, kde-format
+msgctxt "@info"
+msgid "Switch Folder-View to Short Mode"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:202
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Detailed View"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "Switch Folder-View to Detailed Mode"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:213
+#, fuzzy, kde-format
+#| msgid "Settings..."
+msgctxt "@action:inmenu"
+msgid "More Settings..."
+msgstr "Thiết lập..."
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:216
+#, kde-format
+msgctxt "@info"
+msgid "Open configure dialog with more settings options"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:230
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Load Contents"
 msgstr "Độ tương phản:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:170
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:231
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Load Contents to Editor"
 msgstr "Độ tương phản:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:188
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:250
+#, fuzzy, kde-format
+#| msgid "Custom ratio:"
+msgctxt "@info"
+msgid "Enter the customized folder-view path or select from history"
+msgstr "Tỉ lệ tự chọn:"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:251
 #, fuzzy, kde-format
 msgctxt "@info: folder-view path edit"
 msgid "Enter local path here..."
 msgstr "Hãy nhập đoạn vào đây !"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:189
-#, fuzzy, kde-format
-#| msgid "Custom ratio:"
-msgctxt "@info"
-msgid "Enter the customized folder-view path"
-msgstr "Tỉ lệ tự chọn:"
-
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:247
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:348
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Icon Size: %1"
 msgstr "Cỡ :"
 
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:102
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:108
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Folder-View Options"
 msgstr "Tuy chọn giao diện"
 
-#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:314
+#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:327
 #, fuzzy, kde-format
 msgctxt "@title: file system tree"
 msgid "Folders"
@@ -43529,8 +43599,8 @@ msgstr "Mẹo công cụ"
 #: core/showfoto/setup/showfotosetup.cpp:127
 #, kde-format
 msgid ""
-"<qt>Thumbbar Items Tool-Tip Settings<br/><i>Customize information in tool-"
-"tips</i></qt>"
+"<qt>Thumbbar and Folder-View Items Tool-Tip Settings<br/><i>Customize "
+"information in tool-tips</i></qt>"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetup.cpp:132
@@ -43590,26 +43660,26 @@ msgid ""
 "Showfoto</i></qt>"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:96
+#: core/showfoto/setup/showfotosetupmetadata.cpp:98
 #: core/utilities/setup/metadata/setupmetadata_rotation.cpp:111
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "Rotate actions"
 msgstr "Độ xoay:"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:101
+#: core/showfoto/setup/showfotosetupmetadata.cpp:103
 #, fuzzy, kde-format
 msgctxt "@option:check"
 msgid "Show images/thumbnails &rotated according to orientation tag."
 msgstr "Hiện ảnh/ảnh mẫu được &xoay tuỳ theo thẻ hướng"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:103
+#: core/showfoto/setup/showfotosetupmetadata.cpp:105
 #, fuzzy, kde-format
 msgctxt "@option:check"
 msgid "Set orientation tag to normal after rotate/flip."
 msgstr "Đặt thẻ hướng thành chuẩn sau khi xoay/lật"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:122
+#: core/showfoto/setup/showfotosetupmetadata.cpp:124
 #: core/utilities/setup/metadata/setupmetadata_behavior.cpp:186
 #, fuzzy, kde-format
 #| msgid "Visit Exiv2 project website"
@@ -43617,7 +43687,7 @@ msgctxt "@info:whatsthis"
 msgid "Visit Exiv2 project website"
 msgstr "Thăm nơi Mạng của dự án Exiv2"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:130
+#: core/showfoto/setup/showfotosetupmetadata.cpp:132
 #: core/utilities/setup/metadata/setupmetadata_behavior.cpp:194
 #, fuzzy, kde-format
 msgctxt "@info"
@@ -43633,7 +43703,7 @@ msgstr ""
 "tìm thông tin thêm về IPTC tại <a href='http://www.iptc.org/IIM'>www.iptc."
 "org</a>.</p>"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:134
+#: core/showfoto/setup/showfotosetupmetadata.cpp:136
 #: core/utilities/setup/metadata/setupmetadata_behavior.cpp:198
 #, fuzzy, kde-format
 msgctxt "@info"
@@ -43649,7 +43719,7 @@ msgstr ""
 "tìm thông tin thêm về IPTC tại <a href='http://www.iptc.org/IIM'>www.iptc."
 "org</a>.</p>"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:140
+#: core/showfoto/setup/showfotosetupmetadata.cpp:142
 #: core/utilities/setup/metadata/setupmetadata_behavior.cpp:204
 #, fuzzy, kde-format
 msgctxt "@info"
@@ -43663,14 +43733,14 @@ msgstr ""
 "tìm thông tin thêm về IPTC tại <a href='http://www.iptc.org/IIM'>www.iptc."
 "org</a>.</p>"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:161
+#: core/showfoto/setup/showfotosetupmetadata.cpp:163
 #: core/utilities/setup/metadata/setupmetadata_behavior.cpp:223
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Behavior"
 msgstr "Ứng xử"
 
-#: core/showfoto/setup/showfotosetupmetadata.cpp:170
+#: core/showfoto/setup/showfotosetupmetadata.cpp:172
 #: core/utilities/setup/metadata/setupmetadata.cpp:59
 #, fuzzy, kde-format
 msgctxt "@title:tab"
@@ -43678,9 +43748,9 @@ msgid "ExifTool"
 msgstr "&Công cụ"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:139
-#, fuzzy, kde-format
-msgid "Images Sort Order"
-msgstr "Thiết lập ảnh"
+#, kde-format
+msgid "Thumbbar and Folder-View Items Sort Order"
+msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:143
 #, fuzzy, kde-format
@@ -43728,8 +43798,8 @@ msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:161
 #, fuzzy, kde-format
-msgid "Thumbnails"
-msgstr "Hiện các ảnh mẫu"
+msgid "Thumbbar Items"
+msgstr "&Sắp xếp ảnh"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:164
 #, fuzzy, kde-format
@@ -43876,101 +43946,101 @@ msgstr ""
 msgid "Set this option to choose the default window decoration and looks."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:262
+#: core/showfoto/setup/showfotosetupmisc.cpp:263
 #: core/utilities/setup/setupmisc.cpp:331
 #, kde-format
 msgid "Icon theme (changes after restart):"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:264
+#: core/showfoto/setup/showfotosetupmisc.cpp:265
 #: core/utilities/setup/setupmisc.cpp:333
 #, fuzzy, kde-format
 msgid "Set this option to choose the default icon theme."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:268
+#: core/showfoto/setup/showfotosetupmisc.cpp:269
 #: core/utilities/setup/setupmisc.cpp:337
 #, kde-format
 msgctxt "icon theme"
 msgid "Adwaita"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:269
+#: core/showfoto/setup/showfotosetupmisc.cpp:270
 #: core/utilities/setup/setupmisc.cpp:338
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:270
+#: core/showfoto/setup/showfotosetupmisc.cpp:271
 #: core/utilities/setup/setupmisc.cpp:339
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze Dark"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:271
+#: core/showfoto/setup/showfotosetupmisc.cpp:272
 #: core/utilities/setup/setupmisc.cpp:340
 #, kde-format
 msgctxt "icon theme"
 msgid "Faenza"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:272
+#: core/showfoto/setup/showfotosetupmisc.cpp:273
 #: core/utilities/setup/setupmisc.cpp:341
 #, fuzzy, kde-format
 msgctxt "icon theme"
 msgid "Ambiance"
 msgstr "Độ trưng:"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:273
+#: core/showfoto/setup/showfotosetupmisc.cpp:274
 #: core/utilities/setup/setupmisc.cpp:342
 #, kde-format
 msgctxt "icon theme"
 msgid "Humanity"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:274
+#: core/showfoto/setup/showfotosetupmisc.cpp:275
 #: core/utilities/setup/setupmisc.cpp:343
 #, kde-format
 msgctxt "icon theme"
 msgid "Oxygen"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:297
+#: core/showfoto/setup/showfotosetupmisc.cpp:298
 #: core/utilities/setup/setupmisc.cpp:366
 #, kde-format
 msgid "Use Icon Theme From System"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:304
+#: core/showfoto/setup/showfotosetupmisc.cpp:305
 #: core/utilities/setup/setupmisc.cpp:373
 #, fuzzy, kde-format
 #| msgid "Selection"
 msgid "Application font:"
 msgstr "Vùng chọn"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:305
+#: core/showfoto/setup/showfotosetupmisc.cpp:306
 #: core/utilities/setup/setupmisc.cpp:374
 #, fuzzy, kde-format
 msgid "Select here the font used to display text in whole application."
 msgstr "<p>Ở đây hãy đặt màu dùng để vẽ nét dẫn cấu tạo."
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:319
+#: core/showfoto/setup/showfotosetupmisc.cpp:320
 #: core/utilities/setup/setupmisc.cpp:389
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Appearance"
 msgstr "T&hôi"
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:325
+#: core/showfoto/setup/showfotosetupmisc.cpp:326
 #: core/utilities/setup/setupmisc.cpp:458
 #, kde-format
 msgctxt "@title:tab"
 msgid "System"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupmisc.cpp:347
+#: core/showfoto/setup/showfotosetupmisc.cpp:348
 #: core/utilities/setup/setupmisc.cpp:481
 #, kde-format
 msgid ""
@@ -43981,106 +44051,106 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: core/showfoto/setup/showfotosetupplugins.cpp:75
+#: core/showfoto/setup/showfotosetupplugins.cpp:77
 #, fuzzy, kde-format
 msgctxt "@title:tab generic plugins list"
 msgid "Generic"
 msgstr "Giống loài"
 
-#: core/showfoto/setup/showfotosetupplugins.cpp:81
+#: core/showfoto/setup/showfotosetupplugins.cpp:83
 #, fuzzy, kde-format
 #| msgid "Image Editor"
 msgctxt "@title:tab editor plugins list"
 msgid "Image Editor"
 msgstr "Bộ sửa ảnh"
 
-#: core/showfoto/setup/showfotosetupplugins.cpp:87
+#: core/showfoto/setup/showfotosetupplugins.cpp:89
 #, fuzzy, kde-format
 #| msgid "Image Files"
 msgctxt "@title:tab loader plugins list"
 msgid "Image Loaders"
 msgstr "Tệp ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:108
-#, fuzzy, kde-format
-msgid "Show Thumbbar items' toolti&ps"
-msgstr "Hiện mẹo công cụ của mục thanh trượt"
+#: core/showfoto/setup/showfotosetuptooltip.cpp:110
+#, kde-format
+msgid "Show Items' Toolti&ps With Thumbbar and Folder-View"
+msgstr ""
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:109
+#: core/showfoto/setup/showfotosetuptooltip.cpp:111
 #, fuzzy, kde-format
 msgid ""
 "Set this option to display the image information when the mouse hovers over "
-"a thumbbar item."
+"a thumbbar or folder-view item."
 msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị thông tin về ảnh khi con chuột ở trên mục "
 "của thanh trượt."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:113
+#: core/showfoto/setup/showfotosetuptooltip.cpp:115
 #, fuzzy, kde-format
 msgid "Select here the font used to display text in tooltips."
 msgstr "<p>Ở đây hãy đặt màu dùng để vẽ nét dẫn cấu tạo."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:117
+#: core/showfoto/setup/showfotosetuptooltip.cpp:119
 #, kde-format
 msgid "File/Image Information"
 msgstr "Thông tin ảnh/tệp"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:120
+#: core/showfoto/setup/showfotosetuptooltip.cpp:122
 #, kde-format
 msgid "Show file name"
 msgstr "Hiện tên tệp"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:121
+#: core/showfoto/setup/showfotosetuptooltip.cpp:123
 #: core/utilities/setup/setuptooltip.cpp:212
 #, fuzzy, kde-format
 msgid "Set this option to display the image file name."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tệp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:123
+#: core/showfoto/setup/showfotosetuptooltip.cpp:125
 #, kde-format
 msgid "Show file date"
 msgstr "Hiện ngày tệp"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:124
+#: core/showfoto/setup/showfotosetuptooltip.cpp:126
 #: core/utilities/setup/setuptooltip.cpp:215
 #, fuzzy, kde-format
 msgid "Set this option to display the image file date."
 msgstr "<p>Bật tuỳ chọn này để hiển thị ngày tháng của tệp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:126
+#: core/showfoto/setup/showfotosetuptooltip.cpp:128
 #, kde-format
 msgid "Show file size"
 msgstr "Hiện cỡ tệp"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:127
+#: core/showfoto/setup/showfotosetuptooltip.cpp:129
 #: core/utilities/setup/setuptooltip.cpp:218
 #, fuzzy, kde-format
 msgid "Set this option to display the image file size."
 msgstr "<p>Bật tuỳ chọn này để hiển thị kích cỡ của tệp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:129
+#: core/showfoto/setup/showfotosetuptooltip.cpp:131
 #, kde-format
 msgid "Show image type"
 msgstr "Hiện kiểu ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:130
+#: core/showfoto/setup/showfotosetuptooltip.cpp:132
 #: core/utilities/setup/setuptooltip.cpp:221
 #, fuzzy, kde-format
 msgid "Set this option to display the image type."
 msgstr "<p>Bật tuỳ chọn này để hiển thị kiểu của tệp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:132
+#: core/showfoto/setup/showfotosetuptooltip.cpp:134
 #, kde-format
 msgid "Show image dimensions"
 msgstr "Hiện các chiếu ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:133
+#: core/showfoto/setup/showfotosetuptooltip.cpp:135
 #: core/utilities/setup/setuptooltip.cpp:224
 #, fuzzy, kde-format
 msgid "Set this option to display the image dimensions in pixels."
 msgstr "<p>Bật tuỳ chọn này để hiển thị các chiều của tệp ảnh, theo điểm ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:149
+#: core/showfoto/setup/showfotosetuptooltip.cpp:151
 #: core/utilities/setup/setuptooltip.cpp:244
 #: core/utilities/setup/setuptooltip.cpp:424
 #, fuzzy, kde-format
@@ -44091,14 +44161,14 @@ msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị nhà chế tạo và mô hình của máy ảnh đã chụp "
 "ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:152
+#: core/showfoto/setup/showfotosetuptooltip.cpp:154
 #: core/utilities/setup/setuptooltip.cpp:247
 #: core/utilities/setup/setuptooltip.cpp:427
 #, fuzzy, kde-format
 msgid "Camera lens model"
 msgstr "Thêm tên máy ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:153
+#: core/showfoto/setup/showfotosetuptooltip.cpp:155
 #: core/utilities/setup/setuptooltip.cpp:248
 #: core/utilities/setup/setuptooltip.cpp:428
 #, fuzzy, kde-format
@@ -44106,18 +44176,18 @@ msgid ""
 "Set this option to display the lens model with which the image was taken."
 msgstr "<p>Bật tuỳ chọn này để hiển thị ngày tháng chụp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:156
+#: core/showfoto/setup/showfotosetuptooltip.cpp:158
 #, kde-format
 msgid "Show camera date"
 msgstr "Hiện ngày máy ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:157
+#: core/showfoto/setup/showfotosetuptooltip.cpp:159
 #: core/utilities/setup/setuptooltip.cpp:252
 #, fuzzy, kde-format
 msgid "Set this option to display the date when the image was taken."
 msgstr "<p>Bật tuỳ chọn này để hiển thị ngày tháng chụp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:160
+#: core/showfoto/setup/showfotosetuptooltip.cpp:162
 #: core/utilities/setup/setuptooltip.cpp:255
 #: core/utilities/setup/setuptooltip.cpp:432
 #, fuzzy, kde-format
@@ -44126,7 +44196,7 @@ msgid ""
 "take the image."
 msgstr "<p>Bật tuỳ chọn này để hiển thị độ mở và tiêu cự của máy ảnh chụp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:164
+#: core/showfoto/setup/showfotosetuptooltip.cpp:166
 #: core/utilities/setup/setuptooltip.cpp:259
 #: core/utilities/setup/setuptooltip.cpp:436
 #, fuzzy, kde-format
@@ -44136,12 +44206,12 @@ msgid ""
 msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị phơi nắng và độ nhạy của máy ảnh chụp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:167
+#: core/showfoto/setup/showfotosetuptooltip.cpp:169
 #, kde-format
 msgid "Show camera mode and program"
 msgstr "Hiện chế độ và chương trình của máy ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:168
+#: core/showfoto/setup/showfotosetuptooltip.cpp:170
 #: core/utilities/setup/setuptooltip.cpp:263
 #, fuzzy, kde-format
 msgid ""
@@ -44150,12 +44220,12 @@ msgid ""
 msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị chế độ và chương trình của máy ảnh chụp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:171
+#: core/showfoto/setup/showfotosetuptooltip.cpp:173
 #, kde-format
 msgid "Show camera flash settings"
 msgstr "Hiện thiết lập đèn nháy của máy ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:172
+#: core/showfoto/setup/showfotosetuptooltip.cpp:174
 #: core/utilities/setup/setuptooltip.cpp:267
 #: core/utilities/setup/setuptooltip.cpp:440
 #, fuzzy, kde-format
@@ -44164,12 +44234,12 @@ msgid ""
 msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị thiết lập đèn nháy của máy ảnh chụp ảnh."
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:175
+#: core/showfoto/setup/showfotosetuptooltip.cpp:177
 #, kde-format
 msgid "Show camera white balance settings"
 msgstr "Hiện thiết lập cán cân trắng của máy ảnh"
 
-#: core/showfoto/setup/showfotosetuptooltip.cpp:176
+#: core/showfoto/setup/showfotosetuptooltip.cpp:178
 #: core/utilities/setup/setuptooltip.cpp:271
 #: core/utilities/setup/setuptooltip.cpp:444
 #, fuzzy, kde-format
@@ -55810,6 +55880,22 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Images Sort Order"
+#~ msgstr "Thiết lập ảnh"
+
+#, fuzzy
+#~ msgid "Thumbnails"
+#~ msgstr "Hiện các ảnh mẫu"
+
+#, fuzzy
+#~ msgid "Show items' toolti&ps"
+#~ msgstr "Hiện mẹo công cụ về mục tậ&p ảnh"
+
+#, fuzzy
+#~ msgid "Show Thumbbar items' toolti&ps"
+#~ msgstr "Hiện mẹo công cụ của mục thanh trượt"
 
 #, fuzzy
 #~ msgid "Could not get mysql server version."

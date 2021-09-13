@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:14+0000\n"
+"POT-Creation-Date: 2021-09-13 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,32 +18,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: kaboutapplicationdialog.cpp:59 kaboutplugindialog.cpp:65
+#: kaboutapplicationcomponentlistdelegate_p.cpp:52
+#, kde-format
+msgid "Visit component's homepage"
+msgstr ""
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:100
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Visit components's homepage\n"
+"%1"
+msgstr ""
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:141
+#, kde-format
+msgctxt "@item Component name in about dialog."
+msgid "%1"
+msgstr ""
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:144
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:153
+#: kabstractaboutdialog_p.cpp:85
+#, kde-format
+msgid "License: %1"
+msgstr ""
+
+#: kaboutapplicationdialog.cpp:60 kaboutplugindialog.cpp:65
 #, kde-format
 msgctxt "@title:window"
 msgid "About %1"
 msgstr ""
 
-#: kaboutapplicationdialog.cpp:97 kaboutplugindialog.cpp:83
+#: kaboutapplicationdialog.cpp:98 kaboutplugindialog.cpp:91
 #, kde-format
 msgctxt "@title:tab"
 msgid "About"
 msgstr ""
 
-#: kaboutapplicationdialog.cpp:103
-#, kde-format
-msgid ""
-"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
-"%4</em> windowing system</li></ul>"
-msgstr ""
-
-#: kaboutapplicationdialog.cpp:111
+#: kaboutapplicationdialog.cpp:104
 #, kde-format
 msgctxt "@title:tab"
-msgid "Libraries"
+msgid "Components"
 msgstr ""
 
-#: kaboutapplicationdialog.cpp:123 kaboutplugindialog.cpp:91
+#: kaboutapplicationdialog.cpp:117 kaboutplugindialog.cpp:99
 #, kde-format
 msgctxt "@title:tab"
 msgid "Author"
@@ -51,13 +74,13 @@ msgid_plural "Authors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kaboutapplicationdialog.cpp:130 kaboutplugindialog.cpp:98
+#: kaboutapplicationdialog.cpp:124 kaboutplugindialog.cpp:106
 #, kde-format
 msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr ""
 
-#: kaboutapplicationdialog.cpp:137 kaboutplugindialog.cpp:104
+#: kaboutapplicationdialog.cpp:131 kaboutplugindialog.cpp:112
 #, kde-format
 msgctxt "@title:tab"
 msgid "Translation"
@@ -195,34 +218,49 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:38
+#: kabstractaboutdialog_p.cpp:42
 #, kde-format
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:81
+#: kabstractaboutdialog_p.cpp:107
 #, kde-format
-msgid "License: %1"
+msgid "The <em>%1</em> windowing system"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:101
+#: kabstractaboutdialog_p.cpp:108
+#, kde-format
+msgid "Qt"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:108
+#, kde-format
+msgid "%1 (built against %2)"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:109
+#, kde-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:130
 #, kde-format
 msgid "Show author photos"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:102
+#: kabstractaboutdialog_p.cpp:131
 #, kde-format
 msgid "Enabling this will fetch images from an online location"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:141
+#: kabstractaboutdialog_p.cpp:170
 #, kde-format
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:149
+#: kabstractaboutdialog_p.cpp:178
 #, kde-format
 msgctxt "Reference to email address"
 msgid "Please report bugs to %1.\n"

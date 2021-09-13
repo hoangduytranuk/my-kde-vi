@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koko\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-10 00:16+0000\n"
+"POT-Creation-Date: 2021-09-12 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -201,73 +201,128 @@ msgstr ""
 msgid "No Media Found"
 msgstr ""
 
-#: qml/EditorView.qml:24
+#: qml/EditorView.qml:25
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: qml/EditorView.qml:40
+#: qml/EditorView.qml:43
 #, kde-format
-msgctxt "@action:button Undo modification"
-msgid "Undo"
+msgctxt "@action:button Save image modification"
+msgid "Save"
 msgstr ""
 
-#: qml/EditorView.qml:51
-#, kde-format
-msgctxt "@action:button Accept image modification"
-msgid "Accept"
-msgstr ""
-
-#: qml/EditorView.qml:56 qml/EditorView.qml:79
+#: qml/EditorView.qml:48 qml/EditorView.qml:223
 #, kde-format
 msgid ""
 "Unable to save file. Check if you have the correct permission to edit this "
 "file."
 msgstr ""
 
-#: qml/EditorView.qml:67
+#: qml/EditorView.qml:57
 #, kde-format
-msgid "Save As"
+msgctxt "@action:button Undo modification"
+msgid "Undo"
 msgstr ""
 
-#: qml/EditorView.qml:75
+#: qml/EditorView.qml:70
 #, kde-format
-msgid "You are now editing a new file."
+msgctxt "@action:button Accept crop for an image"
+msgid "Accept"
 msgstr ""
 
-#: qml/EditorView.qml:156
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
-#: qml/EditorView.qml:156 qml/EditorView.qml:162
+#: qml/EditorView.qml:71
 #, kde-format
 msgctxt "@action:button Crop an image"
 msgid "Crop"
 msgstr ""
 
-#: qml/EditorView.qml:167
+#: qml/EditorView.qml:77
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: qml/EditorView.qml:82
 #, kde-format
 msgctxt "@action:button Rotate an image to the left"
 msgid "Rotate left"
 msgstr ""
 
-#: qml/EditorView.qml:173
+#: qml/EditorView.qml:88
 #, kde-format
 msgctxt "@action:button Rotate an image to the right"
 msgid "Rotate right"
 msgstr ""
 
-#: qml/EditorView.qml:179
+#: qml/EditorView.qml:94
 #, kde-format
 msgctxt "@action:button Mirror an image vertically"
 msgid "Flip"
 msgstr ""
 
-#: qml/EditorView.qml:185
+#: qml/EditorView.qml:100
 #, kde-format
 msgctxt "@action:button Mirror an image horizontally"
 msgid "Mirror"
+msgstr ""
+
+#: qml/EditorView.qml:114
+#, kde-format
+msgctxt "@title:group for crop area size spinboxes"
+msgid "Size:"
+msgstr ""
+
+#: qml/EditorView.qml:146
+#, kde-format
+msgctxt "@title:group for crop area position spinboxes"
+msgid "Position:"
+msgstr ""
+
+#: qml/EditorView.qml:211
+#, kde-format
+msgid "Save As"
+msgstr ""
+
+#: qml/EditorView.qml:219
+#, kde-format
+msgid "You are now editing a new file."
+msgstr ""
+
+#: qml/GeneralSettingsPage.qml:13 qml/SettingsPage.qml:15
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: qml/GeneralSettingsPage.qml:16
+#, kde-format
+msgid "General:"
+msgstr ""
+
+#: qml/GeneralSettingsPage.qml:17
+#, kde-format
+msgid "Show preview carousel in image view"
+msgstr ""
+
+#: qml/GeneralSettingsPage.qml:25
+#, kde-format
+msgid "Slideshow interval:"
+msgstr ""
+
+#: qml/GeneralSettingsPage.qml:32
+#, kde-format
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/GeneralSettingsPage.qml:35
+#, kde-format
+msgid "Loop"
+msgstr ""
+
+#: qml/GeneralSettingsPage.qml:42
+#, kde-format
+msgid "Random"
 msgstr ""
 
 #: qml/ImageViewPage.qml:84
@@ -488,46 +543,14 @@ msgstr ""
 msgid "Folders"
 msgstr ""
 
-#: qml/Main.qml:213 qml/SettingsPage.qml:15
+#: qml/Main.qml:213 qml/Main.qml:217
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: qml/Main.qml:218
+#: qml/SettingsPage.qml:20
 #, kde-format
-msgid "About"
-msgstr ""
-
-#: qml/SettingsPage.qml:18
-#, kde-format
-msgid "General:"
-msgstr ""
-
-#: qml/SettingsPage.qml:19
-#, kde-format
-msgid "Show preview carousel in image view"
-msgstr ""
-
-#: qml/SettingsPage.qml:27
-#, kde-format
-msgid "Slideshow interval:"
-msgstr ""
-
-#: qml/SettingsPage.qml:34
-#, kde-format
-msgid "1 second"
-msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qml/SettingsPage.qml:37
-#, kde-format
-msgid "Loop"
-msgstr ""
-
-#: qml/SettingsPage.qml:44
-#, kde-format
-msgid "Random"
+msgid "About Koko"
 msgstr ""
 
 #: qml/Sidebar.qml:49
