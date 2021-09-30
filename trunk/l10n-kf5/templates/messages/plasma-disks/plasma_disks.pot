@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-disks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-22 00:18+0000\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -67,17 +67,17 @@ msgctxt "@info:credit"
 msgid "Copyright 2020 Harald Sitter"
 msgstr ""
 
-#: kcm/package/contents/main.qml:40
+#: kcm/package/contents/main.qml:41
 msgctxt "@info/status"
 msgid "Unable to obtain data. KDED is not running."
 msgstr ""
 
-#: kcm/package/contents/main.qml:51
+#: kcm/package/contents/main.qml:52
 msgctxt "@info/status"
 msgid "No S.M.A.R.T. devices found."
 msgstr ""
 
-#: kcm/package/contents/main.qml:72
+#: kcm/package/contents/main.qml:73
 msgctxt "@info"
 msgid ""
 "The SMART system of this device is reporting problems. This may be a sign of "
@@ -85,7 +85,7 @@ msgid ""
 "data and replace this drive as soon as possible to avoid losing any data."
 msgstr ""
 
-#: kcm/package/contents/main.qml:78
+#: kcm/package/contents/main.qml:79
 msgctxt "@info %1 is a bunch of <li> with the strings from instabilities.cpp"
 msgid ""
 "<p>The SMART firmware is not reporting a failure, but there are early signs "
@@ -94,29 +94,34 @@ msgid ""
 "disk, or replace it preemptively just to be safe.</p><ul>%1</ul>"
 msgstr ""
 
-#: kcm/package/contents/main.qml:84
+#: kcm/package/contents/main.qml:85
 msgctxt "@info"
 msgid "This device appears to be working as expected."
 msgstr ""
 
-#: kcm/package/contents/main.qml:91
+#: kcm/package/contents/main.qml:92
 msgctxt "@action/button action button to start partition manager"
 msgid "Partition Manager"
 msgstr ""
 
-#: kcm/package/contents/main.qml:97
+#: kcm/package/contents/main.qml:98
 msgctxt "@action/button action button to start backup program"
 msgid "Backup"
 msgstr ""
 
-#: kcm/package/contents/main.qml:103
+#: kcm/package/contents/main.qml:104
 msgctxt "@action/button action button to monitor a device for smart failure"
 msgid "Monitor"
 msgstr ""
 
-#: kcm/package/contents/main.qml:104
+#: kcm/package/contents/main.qml:105
 msgctxt "@action/button action button to ignore smart failures for a device"
 msgid "Ignore"
+msgstr ""
+
+#: kcm/package/contents/main.qml:113
+msgctxt "@action/button show detailed smart report"
+msgid "Detailed Information"
 msgstr ""
 
 #: smartctl.cpp:32

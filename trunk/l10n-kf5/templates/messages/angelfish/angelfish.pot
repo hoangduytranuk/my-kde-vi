@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-09 00:19+0000\n"
+"POT-Creation-Date: 2021-09-30 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -123,7 +123,7 @@ msgstr ""
 #: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
 #: lib/contents/ui/JavaScriptDialogSheet.qml:43
 #: lib/contents/ui/JavaScriptDialogSheet.qml:66
-#: src/contents/ui/Downloads.qml:32
+#: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -133,14 +133,35 @@ msgstr ""
 msgid "Do you want to download this file?"
 msgstr ""
 
-#: lib/contents/ui/ErrorHandler.qml:37
+#: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
 msgid "Error loading the page"
 msgstr ""
 
-#: lib/contents/ui/ErrorHandler.qml:48
+#: lib/contents/ui/ErrorHandler.qml:58
 #, kde-format
 msgid "Retry"
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
 msgstr ""
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:21
@@ -221,7 +242,7 @@ msgstr ""
 msgid "Open in new Tab"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:189
+#: lib/contents/ui/WebView.qml:226
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr ""
@@ -252,39 +273,45 @@ msgstr ""
 msgid "No running downloads"
 msgstr ""
 
-#: src/contents/ui/Downloads.qml:38
+#: src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: src/contents/ui/Downloads.qml:44
+#: src/contents/ui/Downloads.qml:53
 #, kde-format
 msgid "Continue"
 msgstr ""
 
-#: src/contents/ui/Downloads.qml:82
+#: src/contents/ui/Downloads.qml:91
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
 msgstr ""
 
-#: src/contents/ui/Downloads.qml:84
+#: src/contents/ui/Downloads.qml:93
 #, kde-format
 msgid "Completed"
 msgstr ""
 
-#: src/contents/ui/Downloads.qml:86
+#: src/contents/ui/Downloads.qml:95
 #, kde-format
 msgid "Cancelled"
 msgstr ""
 
-#: src/contents/ui/Downloads.qml:88
+#: src/contents/ui/Downloads.qml:97
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
 msgstr ""
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr ""
+
+#: src/contents/ui/FindInPageBar.qml:46
 #, kde-format
 msgid "Search..."
 msgstr ""
@@ -385,7 +412,7 @@ msgid "Go back"
 msgstr ""
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:107
-#: src/contents/ui/webbrowser.qml:311
+#: src/contents/ui/webbrowser.qml:323
 #, kde-format
 msgid "Go forward"
 msgstr ""
@@ -441,7 +468,7 @@ msgstr ""
 msgid "Remove app"
 msgstr ""
 
-#: src/contents/ui/ShareSheet.qml:18 src/contents/ui/webbrowser.qml:274
+#: src/contents/ui/ShareSheet.qml:18 src/contents/ui/webbrowser.qml:286
 #, kde-format
 msgid "Share page"
 msgstr ""
@@ -481,67 +508,67 @@ msgstr ""
 msgid "Enable Adblock"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:270
+#: src/contents/ui/webbrowser.qml:282
 #, kde-format
 msgid "Find in page"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:285
+#: src/contents/ui/webbrowser.qml:297
 #, kde-format
 msgid "Add to homescreen"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:295
+#: src/contents/ui/webbrowser.qml:307
 #, kde-format
 msgid "Open in app"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:303
+#: src/contents/ui/webbrowser.qml:315
 #, kde-format
 msgid "Go previous"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:318
+#: src/contents/ui/webbrowser.qml:330
 #, kde-format
 msgid "Stop loading"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:318
+#: src/contents/ui/webbrowser.qml:330
 #, kde-format
 msgid "Refresh"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:328
+#: src/contents/ui/webbrowser.qml:340
 #, kde-format
 msgid "Bookmarked"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:328
+#: src/contents/ui/webbrowser.qml:340
 #, kde-format
 msgid "Bookmark"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:344
+#: src/contents/ui/webbrowser.qml:356
 #, kde-format
 msgid "Show desktop site"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:353
+#: src/contents/ui/webbrowser.qml:365
 #, kde-format
 msgid "Hide navigation bar"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:353
+#: src/contents/ui/webbrowser.qml:365
 #, kde-format
 msgid "Show navigation bar"
 msgstr ""
 
-#: src/contents/ui/webbrowser.qml:362
+#: src/contents/ui/webbrowser.qml:374
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:68
 #, kde-format
 msgid "URL to open"
 msgstr ""

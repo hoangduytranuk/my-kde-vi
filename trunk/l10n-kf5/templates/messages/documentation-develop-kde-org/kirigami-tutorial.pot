@@ -85,20 +85,20 @@ msgstr ""
 #: content/docs/kirigami/advanced-add_about_page.md:7
 msgid ""
 "First, we are going to create two files in the `src/` directory called "
-"`controller.cpp` and `controller.h`."
+"`about.cpp` and `about.h`."
 msgstr ""
 
 #: content/docs/kirigami/advanced-add_about_page.md:9
-msgid "controller.h"
+msgid "about.h"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:29
+#: content/docs/kirigami/advanced-add_about_page.md:28
 msgid ""
-"In the `.h` file we create this class `Controller` which is inherited from "
+"In the `.h` file we create this class `AboutType` which is inherited from "
 "[QObject](https://doc.qt.io/qt-5/qobject.html)."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:32
+#: content/docs/kirigami/advanced-add_about_page.md:31
 msgid ""
 "The `Q_OBJECT` macro tells the compiler that this class uses own signals and"
 " slots, the `Q_PROPERTY` macro behaves like a class data member, but it has "
@@ -106,56 +106,49 @@ msgid ""
 "class."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:35
+#: content/docs/kirigami/advanced-add_about_page.md:34
 msgid ""
-"The `instance` method will return an instance of `Controller`, and the "
-"`aboutData` method will return the application data from `KAboutData`."
+"The `aboutData` method will return the application data from `KAboutData`."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:37
-msgid "controller.cpp"
+#: content/docs/kirigami/advanced-add_about_page.md:36
+msgid "about.cpp"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:54
-msgid "In the `.cpp` file we have two methods, `instance` and `aboutData`."
+#: content/docs/kirigami/advanced-add_about_page.md:42
+msgid "In the `.cpp` file we just include the `.h` file."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:56
-msgid ""
-"`instance` just returns a `Controller` object and `aboutData` returns our "
-"application data."
-msgstr ""
-
-#: content/docs/kirigami/advanced-add_about_page.md:58
+#: content/docs/kirigami/advanced-add_about_page.md:44
 #: content/docs/kirigami/introduction-getting_started.md:86
 msgid "main.cpp"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:72
+#: content/docs/kirigami/advanced-add_about_page.md:58
 msgid "The program name used internally."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:74
+#: content/docs/kirigami/advanced-add_about_page.md:60
 msgid "A displayable program name string."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:76
+#: content/docs/kirigami/advanced-add_about_page.md:62
 msgid "The program version string."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:78
+#: content/docs/kirigami/advanced-add_about_page.md:64
 msgid "Short description of what the app does."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:80
+#: content/docs/kirigami/advanced-add_about_page.md:66
 msgid "The license this code is released under."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:82
+#: content/docs/kirigami/advanced-add_about_page.md:68
 msgid "Copyright Statement."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:95
+#: content/docs/kirigami/advanced-add_about_page.md:85
 msgid ""
 "In the cpp file we include `KAboutData` and the `.h` file we just created, "
 "[KAboutData](docs:kcoreaddons;KAboutData) is a core KDE Frameworks component"
@@ -165,35 +158,40 @@ msgid ""
 "information."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:98
+#: content/docs/kirigami/advanced-add_about_page.md:88
 msgid ""
 "We also include this `config-helloworld.h` file which gives us this "
 "`HELLOWORLD_VERSION_STRING` variable that we'll set later in this tutorial."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:100
+#: content/docs/kirigami/advanced-add_about_page.md:90
 msgid ""
 "After all the required information has been set, we call "
 "`KAboutData::setApplicationData` to initialize the properties of the "
 "[QApplication ](https://doc.qt.io/qt-5/qapplication.html) object."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:103
+#: content/docs/kirigami/advanced-add_about_page.md:93
 msgid ""
-"Before the QML Engine definition, we create a "
-"[qmlRegisterSingletonInstance](https://doc.qt.io/qt-5/qqmlengine.html#qmlRegisterSingletonInstance),"
+"After the QML Engine definition, we create a "
+"[qmlRegisterSingletonType](https://doc.qt.io/qt-5/qqmlengine.html#qmlRegisterSingletonType),"
 " the first argument is a URI, basically a package name, the second and third"
 " arguments are major and minor versions respectively, the fourth is the type"
-" name, the name that we will call when accessing the `Controller` methods, "
-"and the last one is a cpp object."
+" name, the name that we will call when accessing the `AboutType` methods."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:106
+#: content/docs/kirigami/advanced-add_about_page.md:95
+msgid ""
+"In the `qmlRegisterSingletonType` lambda we just return a new `AboutType` "
+"object;"
+msgstr ""
+
+#: content/docs/kirigami/advanced-add_about_page.md:98
 #: content/docs/kirigami/introduction-getting_started.md:52
 msgid "main.qml"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:138
+#: content/docs/kirigami/advanced-add_about_page.md:130
 msgid ""
 "First, we import the package we defined in the `main.cpp` file, add a "
 "`Kirigami.Action` to our global drawer that will send us to the about page "
@@ -202,11 +200,11 @@ msgid ""
 "it."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:141
+#: content/docs/kirigami/advanced-add_about_page.md:133
 msgid "CMakeLists"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:164
+#: content/docs/kirigami/advanced-add_about_page.md:156
 msgid ""
 "In the CMakeLists.txt file in our top-level folder, add `CoreAddons` to the "
 "`find_package` module. You'll also want to add these three `ECM` includes "
@@ -215,24 +213,24 @@ msgid ""
 "change one variable when bumping up versions."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:172
+#: content/docs/kirigami/advanced-add_about_page.md:164
 msgid ""
 "In the CMakeLists.txt file in the ‘src’ directory, add `controller.cpp` to "
 "the `add_executable` module and `KF5::CoreAddons` to the "
 "`target_link_libraries` module."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:174
+#: content/docs/kirigami/advanced-add_about_page.md:166
 msgid "Running the application"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:176
+#: content/docs/kirigami/advanced-add_about_page.md:168
 msgid ""
 "Now if you run your application and trigger the \"About\" action in the "
 "global drawer you should see our about page."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:178
+#: content/docs/kirigami/advanced-add_about_page.md:170
 msgid "![Screenshot of the Kirigami About Page](about-page.png)"
 msgstr ""
 

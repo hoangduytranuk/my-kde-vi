@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-29 02:32+0100\n"
+"POT-Creation-Date: 2021-09-03 00:18+0000\n"
 "PO-Revision-Date: 2021-08-31 13:29+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -27,37 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net"
 
-#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:266
+#: chartWidget.cpp:51 chartWidget.cpp:52 memory.cpp:240
 #, kde-format
 msgid "Not available."
 msgstr "Không khả dụng."
 
-#: chartWidget.cpp:106
+#: chartWidget.cpp:105
 #, kde-format
 msgid "%1 free"
 msgstr "%1 trống"
 
-#: memory.cpp:62
+#: memory.cpp:43
 #, kde-format
 msgid "kcm_memory"
 msgstr "kcm_memory"
 
-#: memory.cpp:63
+#: memory.cpp:44
 #, kde-format
 msgid "KDE Panel Memory Information Control Module"
 msgstr "Khối điều khiển thông tin bộ nhớ bảng KDE"
 
-#: memory.cpp:65
+#: memory.cpp:48
 #, kde-format
 msgid "(c) 1998 - 2002 Helge Deller"
 msgstr "(c) 1998 - 2002 Helge Deller"
 
-#: memory.cpp:67
+#: memory.cpp:50
 #, kde-format
 msgid "Helge Deller"
 msgstr "Helge Deller"
 
-#: memory.cpp:99
+#: memory.cpp:83
 #, kde-format
 msgid ""
 "This display shows you the current memory usage of your system. The values "
@@ -68,67 +68,57 @@ msgstr ""
 "giá trị được cập nhật thường xuyên và cho bạn một cái nhìn tổng thể về bộ "
 "nhớ vật lí và ảo đang được dùng."
 
-#: memory.cpp:105
+#: memory.cpp:90
 #, kde-format
 msgid "Memory"
 msgstr "Bộ nhớ"
 
-#: memory.cpp:123
+#: memory.cpp:108
 #, kde-format
 msgid "Total physical memory:"
 msgstr "Tổng bộ nhớ vật lí:"
 
-#: memory.cpp:126
+#: memory.cpp:111
 #, kde-format
 msgid "Free physical memory:"
 msgstr "Bộ nhớ vật lí trống:"
 
-#: memory.cpp:130
+#: memory.cpp:114
 #, kde-format
 msgid "Shared memory:"
 msgstr "Bộ nhớ dùng chung"
 
-#: memory.cpp:133
+#: memory.cpp:117
 #, kde-format
 msgid "Disk buffers:"
 msgstr "Các bộ nhớ đệm cho đĩa:"
 
-#: memory.cpp:137
-#, kde-format
-msgid "Active memory:"
-msgstr "Bộ nhớ hoạt động:"
-
-#: memory.cpp:140
-#, kde-format
-msgid "Inactive memory:"
-msgstr "Bộ nhớ bất hoạt:"
-
-#: memory.cpp:144
+#: memory.cpp:120
 #, kde-format
 msgid "Disk cache:"
 msgstr "Bộ nhớ sẵn cho đĩa:"
 
-#: memory.cpp:148
+#: memory.cpp:124
 #, kde-format
 msgid "Total swap memory:"
 msgstr "Tổng bộ nhớ hoán đổi:"
 
-#: memory.cpp:151
+#: memory.cpp:127
 #, kde-format
 msgid "Free swap memory:"
 msgstr "Bộ nhớ hoán đổi trống:"
 
-#: memory.cpp:192
+#: memory.cpp:167
 #, kde-format
 msgid "Charts"
 msgstr "Biểu đồ"
 
-#: memory.cpp:202
+#: memory.cpp:175
 #, kde-format
 msgid "Total Memory"
 msgstr "Tổng bộ nhớ"
 
-#: memory.cpp:203
+#: memory.cpp:176
 #, kde-format
 msgid ""
 "This graph gives you an overview of the <b>total sum of physical and virtual "
@@ -137,12 +127,12 @@ msgstr ""
 "Đồ thị này cho bạn tổng quan về <b>tổng bộ nhớ vật lí và ảo</b> trong hệ "
 "thống."
 
-#: memory.cpp:212
+#: memory.cpp:185
 #, kde-format
 msgid "Physical Memory"
 msgstr "Bộ nhớ vật lí"
 
-#: memory.cpp:213
+#: memory.cpp:186
 #, kde-format
 msgid ""
 "This graph gives you an overview of the <b>usage of physical memory</b> in "
@@ -158,12 +148,12 @@ msgstr ""
 "p><p>Điều này có nghĩa là nếu bạn có ít <b>bộ nhớ vật lí trống</b> và nhiều "
 "<b>bộ nhớ sẵn cho đĩa</b>, hệ thống của bạn đã được cấu hình tốt.</p>"
 
-#: memory.cpp:228
+#: memory.cpp:202
 #, kde-format
 msgid "Swap Space"
 msgstr "Vùng hoán đổi"
 
-#: memory.cpp:229
+#: memory.cpp:203
 #, kde-format
 msgid ""
 "<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
@@ -174,48 +164,54 @@ msgstr ""
 "dùng khi có yêu cầu và được cung cấp bởi một hoặc nhiều hơn các phân vùng "
 "hoán đổi và/hoặc tệp hoán đổi.</p>"
 
-#: memory.cpp:260
+#: memory.cpp:234
 #, kde-format
 msgid "1 byte ="
 msgid_plural "%1 bytes ="
 msgstr[0] "%1 byte ="
 
-#: physicalMemoryChart.cpp:48
+#: physicalMemoryChart.cpp:40
 #, kde-format
 msgid "Free Physical Memory"
 msgstr "Bộ nhớ vật lí trống"
 
-#: physicalMemoryChart.cpp:50
+#: physicalMemoryChart.cpp:42
 #, kde-format
 msgid "Disk Cache"
 msgstr "Bộ nhớ sẵn cho đĩa"
 
-#: physicalMemoryChart.cpp:52
+#: physicalMemoryChart.cpp:44
 #, kde-format
 msgid "Disk Buffers"
 msgstr "Các bộ nhớ đệm cho đĩa"
 
-#: physicalMemoryChart.cpp:54
+#: physicalMemoryChart.cpp:46
 #, kde-format
 msgid "Application Data"
 msgstr "Dữ liệu ứng dụng"
 
-#: swapMemoryChart.cpp:47
+#: swapMemoryChart.cpp:40
 #, kde-format
 msgid "Free Swap"
 msgstr "Hoán đổi trống"
 
-#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#: swapMemoryChart.cpp:42 totalMemoryChart.cpp:37
 #, kde-format
 msgid "Used Swap"
 msgstr "Hoán đổi đã dùng"
 
-#: totalMemoryChart.cpp:41
+#: totalMemoryChart.cpp:35
 #, kde-format
 msgid "Total Free Memory"
 msgstr "Tổng bộ nhớ trống"
 
-#: totalMemoryChart.cpp:45
+#: totalMemoryChart.cpp:39
 #, kde-format
 msgid "Used Physical Memory"
 msgstr "Bộ nhớ vật lí đã dùng"
+
+#~ msgid "Active memory:"
+#~ msgstr "Bộ nhớ hoạt động:"
+
+#~ msgid "Inactive memory:"
+#~ msgstr "Bộ nhớ bất hoạt:"

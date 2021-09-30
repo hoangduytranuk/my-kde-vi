@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-07 00:20+0000\n"
+"POT-Creation-Date: 2021-09-21 01:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,163 +57,156 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr ""
 
-#: kcm/package/contents/ui/Advanced.qml:18
-#, kde-format
-msgid "Configure"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:25
-#, kde-format
-msgid "Device Profiles"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:42
-#, kde-format
-msgid "Advanced Output Configuration"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:56
-#, kde-format
-msgid ""
-"Add virtual output device for simultaneous output on all local sound cards"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:67
-#, kde-format
-msgid ""
-"Automatically switch all running streams when a new output becomes available"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:78
-#, kde-format
-msgid "Requires %1 PulseAudio module"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:84
-#, kde-format
-msgid "Speaker Placement and Testing"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:93
-#, kde-format
-msgctxt "@label"
-msgid "Output:"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:136
-#, kde-format
-msgid "Front Left"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:147
-#, kde-format
-msgid "Front Center"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:158
-#, kde-format
-msgid "Front Right"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:169
-#, kde-format
-msgid "Side Left"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:195
-#, kde-format
-msgid "Side Right"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:205
-#, kde-format
-msgid "Rear Left"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:215
-#, kde-format
-msgid "Subwoofer"
-msgstr ""
-
-#: kcm/package/contents/ui/Advanced.qml:226
-#, kde-format
-msgid "Rear Right"
-msgstr ""
-
 #: kcm/package/contents/ui/CardListItem.qml:37
+#: kcm/package/contents/ui/DeviceListItem.qml:136
 #, kde-format
 msgctxt "@label"
 msgid "Profile:"
 msgstr ""
 
-#: kcm/package/contents/ui/DeviceListItem.qml:39
+#: kcm/package/contents/ui/DeviceListItem.qml:41
 #, kde-format
 msgctxt "label of device items"
 msgid "%1 (%2)"
 msgstr ""
 
-#: kcm/package/contents/ui/DeviceListItem.qml:53
+#: kcm/package/contents/ui/DeviceListItem.qml:54
 #, kde-format
-msgid "Port:"
+msgctxt "Perform an audio test of the device"
+msgid "Test"
 msgstr ""
 
-#: kcm/package/contents/ui/DeviceListItem.qml:71
-#, kde-format
-msgctxt "Port is unavailable"
-msgid " (unavailable)"
-msgstr ""
-
-#: kcm/package/contents/ui/DeviceListItem.qml:73
-#, kde-format
-msgctxt "Port is unplugged"
-msgid " (unplugged)"
-msgstr ""
-
-#: kcm/package/contents/ui/DeviceListItem.qml:84
+#: kcm/package/contents/ui/DeviceListItem.qml:62
 #, kde-format
 msgctxt "Audio balance (e.g. control left/right volume individually"
 msgid "Balance"
 msgstr ""
 
-#: kcm/package/contents/ui/DeviceListItem.qml:152
+#: kcm/package/contents/ui/DeviceListItem.qml:101
+#, kde-format
+msgid "Port:"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:120
+#: qml/listitemmenu.cpp:382
+#, kde-format
+msgctxt "Port is unavailable"
+msgid "%1 (unavailable)"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:122
+#: qml/listitemmenu.cpp:384
+#, kde-format
+msgctxt "Port is unplugged"
+msgid "%1 (unplugged)"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:193
 #, kde-format
 msgctxt "Placeholder is channel name"
 msgid "%1:"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:21
+#: kcm/package/contents/ui/main.qml:24
 #, kde-format
 msgid "This module allows configuring the Pulseaudio sound subsystem."
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:66
+#: kcm/package/contents/ui/main.qml:86
 #, kde-format
 msgid "Playback Devices"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:86
+#: kcm/package/contents/ui/main.qml:106
 #, kde-format
 msgid "Recording Devices"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:106
+#: kcm/package/contents/ui/main.qml:126
+#, kde-format
+msgid "Inactive Cards"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:155
 #, kde-format
 msgid "Playback Streams"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:148
+#: kcm/package/contents/ui/main.qml:197
 #, kde-format
 msgid "Recording Streams"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:177
+#: kcm/package/contents/ui/main.qml:229
 #, kde-format
 msgid "Show Inactive Devices"
 msgstr ""
 
-#: kcm/package/contents/ui/main.qml:185
+#: kcm/package/contents/ui/main.qml:240
 #, kde-format
-msgid "Configure..."
+msgid "Configure…"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:244
+#, kde-format
+msgid "Requires %1 PulseAudio module"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:253
+#, kde-format
+msgid ""
+"Add virtual output device for simultaneous output on all local sound cards"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:259
+#, kde-format
+msgid ""
+"Automatically switch all running streams when a new output becomes available"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:299
+#, kde-format
+msgid "Front Left"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:300
+#, kde-format
+msgid "Front Center"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:301
+#, kde-format
+msgid "Front Right"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:302
+#, kde-format
+msgid "Side Left"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:303
+#, kde-format
+msgid "Side Right"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:304
+#, kde-format
+msgid "Rear Left"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:305
+#, kde-format
+msgid "Subwoofer"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:306
+#, kde-format
+msgid "Rear Right"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:307
+#, kde-format
+msgid "Mono"
 msgstr ""
 
 #: kcm/package/contents/ui/MuteButton.qml:22
@@ -266,18 +259,6 @@ msgctxt ""
 "Heading for a list of ports of a device (for example built-in laptop "
 "speakers or a plug for headphones)"
 msgid "Ports"
-msgstr ""
-
-#: qml/listitemmenu.cpp:382
-#, kde-format
-msgctxt "Port is unavailable"
-msgid "%1 (unavailable)"
-msgstr ""
-
-#: qml/listitemmenu.cpp:384
-#, kde-format
-msgctxt "Port is unplugged"
-msgid "%1 (unplugged)"
 msgstr ""
 
 #: qml/listitemmenu.cpp:440

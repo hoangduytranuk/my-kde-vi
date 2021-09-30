@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-01 00:20+0000\n"
+"POT-Creation-Date: 2021-06-26 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,593 +27,522 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: backends/kwin_wayland/kwinwaylandbackend.cpp:75
+#: actions.cpp:19
+#, kde-format
+msgid "Touchpad"
+msgstr ""
+
+#: actions.cpp:22
+#, kde-format
+msgid "Enable Touchpad"
+msgstr ""
+
+#: actions.cpp:30
+#, kde-format
+msgid "Disable Touchpad"
+msgstr ""
+
+#: actions.cpp:38
+#, kde-format
+msgid "Toggle Touchpad"
+msgstr ""
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:63
 #, kde-format
 msgid "Querying input devices failed. Please reopen this settings module."
 msgstr ""
 
-#: backends/kwin_wayland/kwinwaylandbackend.cpp:90
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:78
 #, kde-format
 msgid "Critical error on reading fundamental device infos for touchpad %1."
 msgstr ""
 
-#: backends/x11/xlibbackend.cpp:86
+#: backends/x11/xlibbackend.cpp:74
 #, kde-format
 msgid "Cannot connect to X server"
 msgstr ""
 
-#: backends/x11/xlibbackend.cpp:102
+#: backends/x11/xlibbackend.cpp:90 kcm/libinput/touchpad.qml:101
 #, kde-format
 msgid "No touchpad found"
 msgstr ""
 
-#: backends/x11/xlibbackend.cpp:147 backends/x11/xlibbackend.cpp:161
+#: backends/x11/xlibbackend.cpp:135 backends/x11/xlibbackend.cpp:149
 #, kde-format
 msgid "Cannot apply touchpad configuration"
 msgstr ""
 
-#: backends/x11/xlibbackend.cpp:175 backends/x11/xlibbackend.cpp:188
+#: backends/x11/xlibbackend.cpp:163 backends/x11/xlibbackend.cpp:176
 #, kde-format
 msgid "Cannot read touchpad configuration"
 msgstr ""
 
-#: backends/x11/xlibbackend.cpp:201
+#: backends/x11/xlibbackend.cpp:189
 #, kde-format
 msgid "Cannot read default touchpad configuration"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:94
+#: kcm/libinput/touchpad.qml:115
 #, kde-format
 msgid "Device:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:121
+#: kcm/libinput/touchpad.qml:142
 #, kde-format
 msgid "General:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:123
+#: kcm/libinput/touchpad.qml:144
 #, kde-format
 msgid "Device enabled"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:127
+#: kcm/libinput/touchpad.qml:148
 #, kde-format
 msgid "Accept input through this device."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:151
+#: kcm/libinput/touchpad.qml:172
 #, kde-format
 msgid "Disable while typing"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:155
+#: kcm/libinput/touchpad.qml:176
 #, kde-format
 msgid "Disable touchpad while typing to prevent accidental inputs."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:179
+#: kcm/libinput/touchpad.qml:200
 #, kde-format
 msgid "Left handed mode"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:183
+#: kcm/libinput/touchpad.qml:204
 #, kde-format
 msgid "Swap left and right buttons."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:207
+#: kcm/libinput/touchpad.qml:228
 #, kde-format
 msgid "Press left and right buttons for middle click"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:211 kcm/libinput/touchpad.qml:840
+#: kcm/libinput/touchpad.qml:232 kcm/libinput/touchpad.qml:861
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:242
+#: kcm/libinput/touchpad.qml:263
 #, kde-format
 msgid "Pointer acceleration:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:337
+#: kcm/libinput/touchpad.qml:358
 #, kde-format
 msgid "Acceleration profile:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:369
+#: kcm/libinput/touchpad.qml:390
 #, kde-format
 msgid "Flat"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:373
+#: kcm/libinput/touchpad.qml:394
 #, kde-format
 msgid "Cursor moves the same distance as finger."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:382
+#: kcm/libinput/touchpad.qml:403
 #, kde-format
 msgid "Adaptive"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:386
+#: kcm/libinput/touchpad.qml:407
 #, kde-format
 msgid "Cursor travel distance depends on movement speed of finger."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:400
+#: kcm/libinput/touchpad.qml:421
 #, kde-format
 msgid "Tapping:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:402
+#: kcm/libinput/touchpad.qml:423
 #, kde-format
 msgid "Tap-to-click"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:406
+#: kcm/libinput/touchpad.qml:427
 #, kde-format
 msgid "Single tap is left button click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:435
+#: kcm/libinput/touchpad.qml:456
 #, kde-format
 msgid "Tap-and-drag"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:439
+#: kcm/libinput/touchpad.qml:460
 #, kde-format
 msgid "Sliding over touchpad directly after tap drags."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:466
+#: kcm/libinput/touchpad.qml:487
 #, kde-format
 msgid "Tap-and-drag lock"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:470
+#: kcm/libinput/touchpad.qml:491
 #, kde-format
 msgid "Dragging continues after a short finger lift."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:489
+#: kcm/libinput/touchpad.qml:510
 #, kde-format
 msgid "Two-finger tap:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:498
+#: kcm/libinput/touchpad.qml:519
 #, kde-format
 msgid "Right-click (three-finger tap to middle-click)"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:499
+#: kcm/libinput/touchpad.qml:520
 #, kde-format
 msgid ""
 "Tap with two fingers to right-click, tap with three fingers to middle-click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:501
+#: kcm/libinput/touchpad.qml:522
 #, kde-format
 msgid "Middle-click (three-finger tap right-click)"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:502
+#: kcm/libinput/touchpad.qml:523
 #, kde-format
 msgid ""
 "Tap with two fingers to middle-click, tap with three fingers to right-click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:504
+#: kcm/libinput/touchpad.qml:525
 #, kde-format
 msgid "Right-click"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:505
+#: kcm/libinput/touchpad.qml:526
 #, kde-format
 msgid "Tap with two fingers to right-click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:507
+#: kcm/libinput/touchpad.qml:528
 #, kde-format
 msgid "Middle-click"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:508
+#: kcm/libinput/touchpad.qml:529
 #, kde-format
 msgid "Tap with two fingers to middle-click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:566
+#: kcm/libinput/touchpad.qml:587
 #, kde-format
 msgid "Scrolling:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:596
+#: kcm/libinput/touchpad.qml:617
 #, kde-format
 msgid "Two fingers"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:600
+#: kcm/libinput/touchpad.qml:621
 #, kde-format
 msgid "Slide with two fingers scrolls."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:608
+#: kcm/libinput/touchpad.qml:629
 #, kde-format
 msgid "Touchpad edges"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:612
+#: kcm/libinput/touchpad.qml:633
 #, kde-format
 msgid "Slide on the touchpad edges scrolls."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:622
+#: kcm/libinput/touchpad.qml:643
 #, kde-format
 msgid "Invert scroll direction (Natural scrolling)"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:638
+#: kcm/libinput/touchpad.qml:659
 #, kde-format
 msgid "Touchscreen like scrolling."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:646 kcm/libinput/touchpad.qml:663
+#: kcm/libinput/touchpad.qml:667 kcm/libinput/touchpad.qml:684
 #, kde-format
 msgid "Disable horizontal scrolling"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:671
+#: kcm/libinput/touchpad.qml:692
 #, kde-format
 msgid "Scrolling speed:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:720
+#: kcm/libinput/touchpad.qml:741
 #, kde-format
 msgctxt "Slower Scroll"
 msgid "Slower"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:726
+#: kcm/libinput/touchpad.qml:747
 #, kde-format
 msgctxt "Faster Scroll Speed"
 msgid "Faster"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:735
+#: kcm/libinput/touchpad.qml:756
 #, kde-format
 msgid "Right-click:"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:767
+#: kcm/libinput/touchpad.qml:788
 #, kde-format
 msgid "Press bottom-right corner"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:771
+#: kcm/libinput/touchpad.qml:792
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:779
+#: kcm/libinput/touchpad.qml:800
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:783
+#: kcm/libinput/touchpad.qml:804
 #, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:796
+#: kcm/libinput/touchpad.qml:817
 #, kde-format
 msgid "Middle-click: "
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:824
+#: kcm/libinput/touchpad.qml:845
 #, kde-format
 msgid "Press bottom-middle"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:828
+#: kcm/libinput/touchpad.qml:849
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
 "touchpad."
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:836
+#: kcm/libinput/touchpad.qml:857
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:849
+#: kcm/libinput/touchpad.qml:870
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr ""
 
-#: kcm/libinput/touchpad.qml:855
+#: kcm/libinput/touchpad.qml:876
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:42
-#: kcm/xlib/touchpadconfigxlib.cpp:106
+#: kcm/libinput/touchpadconfiglibinput.cpp:29
+#: kcm/xlib/touchpadconfigxlib.cpp:82
 #, kde-format
 msgid "Touchpad KCM"
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:44
+#: kcm/libinput/touchpadconfiglibinput.cpp:31
 #, kde-format
 msgid "System Settings module for managing your touchpad"
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:46
+#: kcm/libinput/touchpadconfiglibinput.cpp:33
 #, kde-format
 msgid "Copyright © 2016 Roman Gilg"
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:49
-#: kcm/xlib/touchpadconfigxlib.cpp:116
+#: kcm/libinput/touchpadconfiglibinput.cpp:36
+#: kcm/xlib/touchpadconfigxlib.cpp:92
 #, kde-format
 msgid "Developer"
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:49
+#: kcm/libinput/touchpadconfiglibinput.cpp:36
 #, kde-format
 msgid "Roman Gilg"
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:112
+#: kcm/libinput/touchpadconfiglibinput.cpp:92
 #, kde-format
 msgid ""
 "Error while loading values. See logs for more information. Please restart "
 "this configuration module."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:117
+#: kcm/libinput/touchpadconfiglibinput.cpp:95
 #, kde-format
 msgid "No touchpad found. Connect touchpad now."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:128
+#: kcm/libinput/touchpadconfiglibinput.cpp:104
 #, kde-format
 msgid ""
 "Not able to save all changes. See logs for more information. Please restart "
 "this configuration module and try again."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:148
+#: kcm/libinput/touchpadconfiglibinput.cpp:123
 #, kde-format
 msgid ""
 "Error while loading default values. Failed to set some options to their "
 "default values."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:170
+#: kcm/libinput/touchpadconfiglibinput.cpp:143
 #, kde-format
 msgid ""
 "Error while adding newly connected device. Please reconnect it and restart "
 "this configuration module."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:194
+#: kcm/libinput/touchpadconfiglibinput.cpp:166
 #, kde-format
 msgid "Touchpad disconnected. Closed its setting dialog."
 msgstr ""
 
-#: kcm/libinput/touchpadconfiglibinput.cpp:196
+#: kcm/libinput/touchpadconfiglibinput.cpp:168
 #, kde-format
 msgid "Touchpad disconnected. No other touchpads found."
 msgstr ""
 
-#: kcm/xlib/testarea.cpp:32
+#: kcm/xlib/testarea.cpp:20
 #, kde-format
 msgid "Drag me"
 msgstr ""
 
-#: kcm/xlib/testbutton.cpp:41
+#: kcm/xlib/testbutton.cpp:29
 #, kde-format
 msgctxt "Mouse button"
 msgid "Left button"
 msgstr ""
 
-#: kcm/xlib/testbutton.cpp:44
+#: kcm/xlib/testbutton.cpp:32
 #, kde-format
 msgctxt "Mouse button"
 msgid "Right button"
 msgstr ""
 
-#: kcm/xlib/testbutton.cpp:47
+#: kcm/xlib/testbutton.cpp:35
 #, kde-format
 msgctxt "Mouse button"
 msgid "Middle button"
 msgstr ""
 
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:27
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "No action"
-msgstr ""
-
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:30
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "Left button"
-msgstr ""
-
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:33
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "Middle button"
-msgstr ""
-
-#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
-#: kcm/xlib/touchpad.kcfg:36
-#, kde-format
-msgctxt "Emulated mouse button"
-msgid "Right button"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:285
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "All edges"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:288
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Top edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:291
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Top right corner"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:294
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Right edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:297
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Bottom right corner"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:300
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Bottom edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:303
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Bottom left corner"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:306
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Left edge"
-msgstr ""
-
-#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
-#: kcm/xlib/touchpad.kcfg:309
-#, kde-format
-msgctxt "Touchpad Edge"
-msgid "Top left corner"
-msgstr ""
-
-#: kcm/xlib/touchpadconfigxlib.cpp:108
+#: kcm/xlib/touchpadconfigxlib.cpp:84
 #, kde-format
 msgid ""
 "System Settings module, daemon and Plasma applet for managing your touchpad"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:110
+#: kcm/xlib/touchpadconfigxlib.cpp:86
 #, kde-format
 msgid "Copyright © 2013 Alexander Mezin"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:111
+#: kcm/xlib/touchpadconfigxlib.cpp:87
 #, kde-format
 msgid ""
 "This program incorporates work covered by this copyright notice:\n"
 "Copyright © 2002-2005,2007 Peter Osterlund"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:116
+#: kcm/xlib/touchpadconfigxlib.cpp:92
 #, kde-format
 msgid "Alexander Mezin"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:117
+#: kcm/xlib/touchpadconfigxlib.cpp:93
 #, kde-format
 msgid "Thomas Pfeiffer"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:117
+#: kcm/xlib/touchpadconfigxlib.cpp:93
 #, kde-format
 msgctxt "Credits"
 msgid "Usability, testing"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:118
+#: kcm/xlib/touchpadconfigxlib.cpp:94
 #, kde-format
 msgid "Alex Fiestas"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:118
+#: kcm/xlib/touchpadconfigxlib.cpp:94
 #, kde-format
 msgctxt "Credits"
 msgid "Helped a bit"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:119
+#: kcm/xlib/touchpadconfigxlib.cpp:95
 #, kde-format
 msgid "Peter Osterlund"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:119
+#: kcm/xlib/touchpadconfigxlib.cpp:95
 #, kde-format
 msgctxt "Credits"
 msgid "Developer of synclient"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:120
+#: kcm/xlib/touchpadconfigxlib.cpp:96
 #, kde-format
 msgid "Vadim Zaytsev"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:120 kcm/xlib/touchpadconfigxlib.cpp:121
+#: kcm/xlib/touchpadconfigxlib.cpp:96 kcm/xlib/touchpadconfigxlib.cpp:97
 #, kde-format
 msgctxt "Credits"
 msgid "Testing"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:121
+#: kcm/xlib/touchpadconfigxlib.cpp:97
 #, kde-format
 msgid "Violetta Raspryagayeva"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:140
+#: kcm/xlib/touchpadconfigxlib.cpp:116
 #, kde-format
 msgid ""
 "Active settings don't match saved settings.\n"
 "You currently see saved settings."
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:146
+#: kcm/xlib/touchpadconfigxlib.cpp:122
 #, kde-format
 msgid "Show active settings"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:184
+#: kcm/xlib/touchpadconfigxlib.cpp:160
 #, kde-format
 msgid "These settings won't take effect in the testing area"
 msgstr ""
 
-#: kcm/xlib/touchpadconfigxlib.cpp:189
+#: kcm/xlib/touchpadconfigxlib.cpp:165
 #, kde-format
 msgid "Enable/Disable Touchpad"
 msgstr ""
@@ -629,7 +558,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, configureNotificationsButton)
 #: kcm/xlib/ui/kded.ui:35 kcm/xlib/ui/kded.ui:146
 #, kde-format
-msgid "Configure..."
+msgid "Configure…"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1417,32 +1346,103 @@ msgstr ""
 msgid "Click me"
 msgstr ""
 
-#: kded/kded.cpp:211
+#: kded/kded.cpp:201
 #, kde-format
 msgid "Touchpad was disabled because a mouse was plugged in"
 msgstr ""
 
-#: kded/kded.cpp:214
+#: kded/kded.cpp:204
 #, kde-format
 msgid "Touchpad was enabled because the mouse was unplugged"
 msgstr ""
 
-#: kded/kdedactions.cpp:33
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:27
 #, kde-format
-msgid "Touchpad"
+msgctxt "Emulated mouse button"
+msgid "No action"
 msgstr ""
 
-#: kded/kdedactions.cpp:36
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:30
 #, kde-format
-msgid "Enable Touchpad"
+msgctxt "Emulated mouse button"
+msgid "Left button"
 msgstr ""
 
-#: kded/kdedactions.cpp:44
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:33
 #, kde-format
-msgid "Disable Touchpad"
+msgctxt "Emulated mouse button"
+msgid "Middle button"
 msgstr ""
 
-#: kded/kdedactions.cpp:52
+#. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
+#: touchpadparameters.kcfg:36
 #, kde-format
-msgid "Toggle Touchpad"
+msgctxt "Emulated mouse button"
+msgid "Right button"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:285
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "All edges"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:288
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Top edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:291
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Top right corner"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:294
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Right edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:297
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Bottom right corner"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:300
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Bottom edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:303
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Bottom left corner"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:306
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Left edge"
+msgstr ""
+
+#. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
+#: touchpadparameters.kcfg:309
+#, kde-format
+msgctxt "Touchpad Edge"
+msgid "Top left corner"
 msgstr ""

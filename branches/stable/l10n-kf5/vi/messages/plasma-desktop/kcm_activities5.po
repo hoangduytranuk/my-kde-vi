@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-01 00:20+0000\n"
+"POT-Creation-Date: 2021-09-21 01:41+0000\n"
 "PO-Revision-Date: 2021-08-03 11:28+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 20.12.2\n"
 
-#: ExtraActivitiesInterface.cpp:48 MainConfigurationWidget.cpp:48
+#: ExtraActivitiesInterface.cpp:34 MainConfigurationWidget.cpp:34
 #, kde-format
 msgid "Activities"
 msgstr "Hoạt động"
 
-#: imports/activitysettings.cpp:66
+#: imports/activitysettings.cpp:52
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Activity"
 msgstr "Xoá Hoạt động"
 
-#: imports/activitysettings.cpp:66
+#: imports/activitysettings.cpp:52
 #, kde-format
 msgid "Are you sure you want to delete '%1'?"
 msgstr "Bạn có chắc chắn muốn xoá '%1'?"
 
-#: imports/dialog.cpp:94
+#: imports/dialog.cpp:82
 #, kde-format
 msgid ""
 "Error loading the QML files. Check your installation.\n"
@@ -42,55 +42,55 @@ msgstr ""
 "Lỗi khi tải tệp QML. Hãy kiểm tra bản cài đặt của bạn.\n"
 "Thiếu %1"
 
-#: imports/dialog.cpp:158
+#: imports/dialog.cpp:146
 #, kde-format
 msgid "General"
 msgstr "Chung"
 
-#: imports/dialog.cpp:172
+#: imports/dialog.cpp:160
 #, kde-format
 msgctxt "@title:window"
 msgid "Create a New Activity"
 msgstr "Tạo một Hoạt động mới"
 
-#: imports/dialog.cpp:173
+#: imports/dialog.cpp:161
 #, kde-format
 msgctxt "@title:window"
 msgid "Activity Settings"
 msgstr "Thiết lập Hoạt động"
 
-#: imports/dialog.cpp:175
+#: imports/dialog.cpp:163
 #, kde-format
 msgctxt "@action:button"
 msgid "Create"
 msgstr "Tạo"
 
-#: imports/qml/activityDialog/GeneralTab.qml:54
+#: imports/qml/activityDialog/GeneralTab.qml:41
 #, kde-format
 msgid "Icon:"
 msgstr "Biểu tượng:"
 
-#: imports/qml/activityDialog/GeneralTab.qml:68
+#: imports/qml/activityDialog/GeneralTab.qml:55
 #, kde-format
 msgid "Name:"
 msgstr "Tên:"
 
-#: imports/qml/activityDialog/GeneralTab.qml:73
+#: imports/qml/activityDialog/GeneralTab.qml:60
 #, kde-format
 msgid "Description:"
 msgstr "Mô tả:"
 
-#: imports/qml/activityDialog/GeneralTab.qml:82
+#: imports/qml/activityDialog/GeneralTab.qml:69
 #, kde-format
 msgid "Privacy:"
 msgstr "Tính riêng tư:"
 
-#: imports/qml/activityDialog/GeneralTab.qml:83
+#: imports/qml/activityDialog/GeneralTab.qml:70
 #, kde-format
 msgid "Do not track usage for this activity"
 msgstr "Không theo dõi việc sử dụng với Hoạt động này"
 
-#: imports/qml/activityDialog/GeneralTab.qml:88
+#: imports/qml/activityDialog/GeneralTab.qml:75
 #, kde-format
 msgid "Shortcut for switching:"
 msgstr "Phím tắt để chuyển:"
@@ -119,84 +119,84 @@ msgstr "Danh sách các ứng dụng được lưu trong lịch sử Hoạt đ�
 msgid "List of Applications whose activity history not to save"
 msgstr "Danh sách sách các ứng dụng không được lưu trong lịch sử Hoạt động"
 
-#: MainConfigurationWidget.cpp:49
+#: MainConfigurationWidget.cpp:35
 #, kde-format
 msgid "Switching"
 msgstr "Chuyển"
 
-#: MainConfigurationWidget.cpp:50
+#: MainConfigurationWidget.cpp:36
 #, kde-format
 msgid "Privacy"
 msgstr "Tính riêng tư"
 
-#: PrivacyTab.cpp:78
+#: PrivacyTab.cpp:64
 #, kde-format
 msgctxt "unlimited number of months"
 msgid "Forever"
 msgstr "Mãi mãi"
 
-#: PrivacyTab.cpp:87
+#: PrivacyTab.cpp:73
 #, kde-format
 msgid "Forget the last hour"
 msgstr "Quên một giờ qua"
 
-#: PrivacyTab.cpp:88
+#: PrivacyTab.cpp:74
 #, kde-format
 msgid "Forget the last two hours"
 msgstr "Quên hai giờ qua"
 
-#: PrivacyTab.cpp:89
+#: PrivacyTab.cpp:75
 #, kde-format
 msgid "Forget a day"
 msgstr "Quên một ngày"
 
-#: PrivacyTab.cpp:90
+#: PrivacyTab.cpp:76
 #, kde-format
 msgid "Forget everything"
 msgstr "Quên tất cả"
 
-#: PrivacyTab.cpp:171
+#: PrivacyTab.cpp:157
 #, kde-format
 msgctxt "unit of time. months to keep the history"
 msgid " month"
 msgid_plural " months"
 msgstr[0] " tháng"
 
-#: PrivacyTab.cpp:174
+#: PrivacyTab.cpp:160
 #, kde-format
 msgctxt "for in 'keep history for 5 months'"
 msgid "For "
 msgstr "Trong "
 
-#: qml/activitiesTab/ActivitiesView.qml:68
+#: qml/activitiesTab/ActivitiesView.qml:55
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure %1 activity"
 msgstr "Cấu hình Hoạt động %1"
 
-#: qml/activitiesTab/ActivitiesView.qml:75
+#: qml/activitiesTab/ActivitiesView.qml:62
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete %1 activity"
 msgstr "Xoá Hoạt động %1"
 
-#: qml/activitiesTab/ActivitiesView.qml:86
+#: qml/activitiesTab/ActivitiesView.qml:73
 #, kde-format
-msgid "Create New..."
-msgstr "Tạo mới..."
+msgid "Create New…"
+msgstr "Tạo mới…"
 
-#: SwitchingTab.cpp:66
+#: SwitchingTab.cpp:52
 #, kde-format
 msgid "Activity switching"
 msgstr "Chuyển Hoạt động"
 
-#: SwitchingTab.cpp:69
+#: SwitchingTab.cpp:55
 #, kde-format
 msgctxt "@action"
 msgid "Walk through activities"
 msgstr "Đi qua các Hoạt động"
 
-#: SwitchingTab.cpp:70
+#: SwitchingTab.cpp:56
 #, kde-format
 msgctxt "@action"
 msgid "Walk through activities (Reverse)"

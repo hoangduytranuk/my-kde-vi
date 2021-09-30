@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: heaptrack\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-20 00:23+0000\n"
+"POT-Creation-Date: 2021-09-25 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -157,13 +157,13 @@ msgstr ""
 msgid "Peak"
 msgstr ""
 
-#: gui/callercalleemodel.h:170 gui/flamegraph.cpp:441 gui/treemodel.cpp:83
+#: gui/callercalleemodel.h:170 gui/flamegraph.cpp:444 gui/treemodel.cpp:83
 #: gui/util.cpp:125 gui/util.cpp:154 gui/util.cpp:183
 #, kde-format
 msgid "Leaked"
 msgstr ""
 
-#: gui/callercalleemodel.h:172 gui/flamegraph.cpp:446 gui/mainwindow.cpp:466
+#: gui/callercalleemodel.h:172 gui/flamegraph.cpp:449 gui/mainwindow.cpp:466
 #: gui/treemodel.cpp:77 gui/util.cpp:126 gui/util.cpp:155 gui/util.cpp:184
 #, kde-format
 msgid "Allocations"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Memory Consumed"
 msgstr ""
 
-#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:451 gui/mainwindow.cpp:468
+#: gui/chartmodel.cpp:74 gui/flamegraph.cpp:454 gui/mainwindow.cpp:468
 #: gui/util.cpp:127 gui/util.cpp:156 gui/util.cpp:185
 #, kde-format
 msgid "Temporary Allocations"
@@ -344,79 +344,79 @@ msgid ""
 "filtering."
 msgstr ""
 
-#: gui/flamegraph.cpp:184 gui/histogrammodel.cpp:75
+#: gui/flamegraph.cpp:187 gui/histogrammodel.cpp:75
 #, kde-format
 msgid "%1 allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:186
+#: gui/flamegraph.cpp:189
 #, kde-format
 msgid "%1 temporary allocations in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:188
+#: gui/flamegraph.cpp:191
 #, kde-format
 msgid "%1 peak memory consumption"
 msgstr ""
 
-#: gui/flamegraph.cpp:190
+#: gui/flamegraph.cpp:193
 #, kde-format
 msgid "%1 leaked in total"
 msgstr ""
 
-#: gui/flamegraph.cpp:243
+#: gui/flamegraph.cpp:246
 #, kde-format
 msgctxt "%1: number of allocations, %2: relative number, %3: function label"
 msgid "%1 (%2%) allocations in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:248
+#: gui/flamegraph.cpp:251
 #, kde-format
 msgctxt ""
 "%1: number of temporary allocations, %2: relative number, %3 function label"
 msgid "%1 (%2%) temporary allocations in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:253
+#: gui/flamegraph.cpp:256
 #, kde-format
 msgctxt ""
 "%1: peak consumption in bytes, %2: relative number, %3: function label"
 msgid "%1 (%2%) contribution to peak consumption in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:257
+#: gui/flamegraph.cpp:260
 #, kde-format
 msgctxt "%1: leaked bytes, %2: relative number, %3: function label"
 msgid "%1 (%2%) leaked in %3 and below."
 msgstr ""
 
-#: gui/flamegraph.cpp:436
+#: gui/flamegraph.cpp:439
 #, kde-format
 msgid "Memory Peak"
 msgstr ""
 
-#: gui/flamegraph.cpp:438
+#: gui/flamegraph.cpp:441
 #, kde-format
 msgid ""
 "Show a flame graph over the contributions to the peak heap memory "
 "consumption of your application."
 msgstr ""
 
-#: gui/flamegraph.cpp:443
+#: gui/flamegraph.cpp:446
 #, kde-format
 msgid ""
 "Show a flame graph over the leaked heap memory of your application. Memory "
 "is considered to be leaked when it never got deallocated. "
 msgstr ""
 
-#: gui/flamegraph.cpp:448
+#: gui/flamegraph.cpp:451
 #, kde-format
 msgid ""
 "Show a flame graph over the number of allocations triggered by functions in "
 "your code."
 msgstr ""
 
-#: gui/flamegraph.cpp:453
+#: gui/flamegraph.cpp:456
 #, kde-format
 msgid ""
 "Show a flame graph over the number of temporary allocations triggered by "
@@ -424,41 +424,41 @@ msgid ""
 "immediately followed by their deallocation."
 msgstr ""
 
-#: gui/flamegraph.cpp:460
+#: gui/flamegraph.cpp:463
 #, kde-format
 msgid "Select the data source that should be visualized in the flame graph."
 msgstr ""
 
-#: gui/flamegraph.cpp:468
+#: gui/flamegraph.cpp:478
 #, kde-format
 msgid "Bottom-Up View"
 msgstr ""
 
-#: gui/flamegraph.cpp:469
+#: gui/flamegraph.cpp:479
 #, kde-format
 msgid ""
 "Enable the bottom-up flame graph view. When this is unchecked, the top-down "
 "view is enabled by default."
 msgstr ""
 
-#: gui/flamegraph.cpp:477
+#: gui/flamegraph.cpp:487
 #, kde-format
 msgid "Collapse Recursion"
 msgstr ""
 
-#: gui/flamegraph.cpp:479
+#: gui/flamegraph.cpp:489
 #, kde-format
 msgid ""
 "Collapse stack frames for functions calling themselves. When this is "
 "unchecked, recursive frames will be visualized separately."
 msgstr ""
 
-#: gui/flamegraph.cpp:491
+#: gui/flamegraph.cpp:501
 #, kde-format
 msgid "Cost Threshold: "
 msgstr ""
 
-#: gui/flamegraph.cpp:495
+#: gui/flamegraph.cpp:505
 #, kde-format
 msgid ""
 "<qt>The cost threshold defines a fractional cut-off value. Items with a "
@@ -468,37 +468,37 @@ msgid ""
 "or set it to zero.</qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:507
+#: gui/flamegraph.cpp:517
 #, kde-format
 msgid "Search..."
 msgstr ""
 
-#: gui/flamegraph.cpp:508
+#: gui/flamegraph.cpp:518
 #, kde-format
 msgid "<qt>Search the flame graph for a symbol.</qt>"
 msgstr ""
 
-#: gui/flamegraph.cpp:538
+#: gui/flamegraph.cpp:554
 #, kde-format
 msgid "Reset View"
 msgstr ""
 
-#: gui/flamegraph.cpp:548 gui/mainwindow.cpp:131
+#: gui/flamegraph.cpp:564 gui/mainwindow.cpp:131
 #, kde-format
 msgid "View Caller/Callee"
 msgstr ""
 
-#: gui/flamegraph.cpp:685
+#: gui/flamegraph.cpp:705
 #, kde-format
 msgid "generating flame graph..."
 msgstr ""
 
-#: gui/flamegraph.cpp:761
+#: gui/flamegraph.cpp:781
 #, kde-format
 msgid "%1 (%2% of total of %3) allocations matched by search."
 msgstr ""
 
-#: gui/flamegraph.cpp:766
+#: gui/flamegraph.cpp:786
 #, kde-format
 msgid "%1 (%2% of total of %3) matched by search."
 msgstr ""
@@ -551,12 +551,19 @@ msgid ""
 "this feature is explicitly disabled using this command line option."
 msgstr ""
 
-#: gui/gui.cpp:111
+#: gui/gui.cpp:114
+#, kde-format
+msgid ""
+"Ignore suppression definitions that are built into heaptrack. By default, "
+"heaptrack will suppress certain known leaks in common system libraries."
+msgstr ""
+
+#: gui/gui.cpp:117
 #, kde-format
 msgid "Files to load"
 msgstr ""
 
-#: gui/gui.cpp:111
+#: gui/gui.cpp:117
 #, kde-format
 msgid "[FILE...]"
 msgstr ""
@@ -718,54 +725,66 @@ msgstr ""
 msgid "Disable Embedded Suppressions"
 msgstr ""
 
-#: gui/mainwindow.cpp:651
+#: gui/mainwindow.cpp:631
+#, kde-format
+msgid "Disable Builtin Suppressions"
+msgstr ""
+
+#: gui/mainwindow.cpp:633
+#, kde-format
+msgid ""
+"Ignore suppression definitions that are built into heaptrack. By default, "
+"heaptrack will suppress certain known leaks from common system libraries."
+msgstr ""
+
+#: gui/mainwindow.cpp:661
 #, kde-format
 msgid "Loading file %1, please wait..."
 msgstr ""
 
-#: gui/mainwindow.cpp:653
+#: gui/mainwindow.cpp:663
 #, kde-format
 msgctxt "%1: file name that is open"
 msgid "Heaptrack - %1"
 msgstr ""
 
-#: gui/mainwindow.cpp:656
+#: gui/mainwindow.cpp:666
 #, kde-format
 msgctxt "%1, %2: file names that are open"
 msgid "Heaptrack - %1 compared to %2"
 msgstr ""
 
-#: gui/mainwindow.cpp:672
+#: gui/mainwindow.cpp:682
 #, kde-format
 msgid "Reparsing file, please wait..."
 msgstr ""
 
-#: gui/mainwindow.cpp:715
+#: gui/mainwindow.cpp:725
 #, kde-format
 msgid " / %1"
 msgstr ""
 
-#: gui/mainwindow.cpp:756
+#: gui/mainwindow.cpp:766
 #, kde-format
 msgid "Code Navigation"
 msgstr ""
 
-#: gui/mainwindow.cpp:784
+#: gui/mainwindow.cpp:794
 #, kde-format
 msgid "Custom..."
 msgstr ""
 
-#: gui/mainwindow.cpp:796
+#: gui/mainwindow.cpp:806
 #, kde-format
 msgid "Automatic (No Line numbers)"
 msgstr ""
 
-#: gui/mainwindow.cpp:816
+#: gui/mainwindow.cpp:826
 #, kde-format
 msgid "Custom Code Navigation"
 msgstr ""
 
-#: gui/mainwindow.cpp:817
+#: gui/mainwindow.cpp:827
 #, kde-format
 msgid ""
 "Specify command to use for code navigation, '%f' will be replaced by the "
@@ -991,87 +1010,87 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: gui/parser.cpp:397
+#: gui/parser.cpp:399
 #, kde-format
 msgid "merging allocations... %1%"
 msgstr ""
 
-#: gui/parser.cpp:566
+#: gui/parser.cpp:568
 #, kde-format
 msgid "total"
 msgstr ""
 
-#: gui/parser.cpp:568
+#: gui/parser.cpp:570
 #, kde-format
 msgid "0B to 8B"
 msgstr ""
 
-#: gui/parser.cpp:569
+#: gui/parser.cpp:571
 #, kde-format
 msgid "9B to 16B"
 msgstr ""
 
-#: gui/parser.cpp:570
+#: gui/parser.cpp:572
 #, kde-format
 msgid "17B to 32B"
 msgstr ""
 
-#: gui/parser.cpp:571
+#: gui/parser.cpp:573
 #, kde-format
 msgid "33B to 64B"
 msgstr ""
 
-#: gui/parser.cpp:572
+#: gui/parser.cpp:574
 #, kde-format
 msgid "65B to 128B"
 msgstr ""
 
-#: gui/parser.cpp:573
+#: gui/parser.cpp:575
 #, kde-format
 msgid "129B to 256B"
 msgstr ""
 
-#: gui/parser.cpp:574
+#: gui/parser.cpp:576
 #, kde-format
 msgid "257B to 512B"
 msgstr ""
 
-#: gui/parser.cpp:575
+#: gui/parser.cpp:577
 #, kde-format
 msgid "512B to 1KB"
 msgstr ""
 
-#: gui/parser.cpp:576
+#: gui/parser.cpp:578
 #, kde-format
 msgid "more than 1KB"
 msgstr ""
 
-#: gui/parser.cpp:651
+#: gui/parser.cpp:653
 #, kde-format
 msgid "reparsing data"
 msgstr ""
 
-#: gui/parser.cpp:651
+#: gui/parser.cpp:653
 #, kde-format
 msgid "parsing data"
 msgstr ""
 
-#: gui/parser.cpp:665
+#: gui/parser.cpp:667
 #, kde-format
 msgid "%1 pass: %2/%3  spent: %4  remaining: %5"
 msgstr ""
 
-#: gui/parser.cpp:721
+#: gui/parser.cpp:723
 #, kde-format
 msgid "merging allocations..."
 msgstr ""
 
-#: gui/parser.cpp:732
+#: gui/parser.cpp:734
 #, kde-format
 msgid "building size histogram..."
 msgstr ""
 
-#: gui/parser.cpp:745
+#: gui/parser.cpp:747
 #, kde-format
 msgid "building charts..."
 msgstr ""

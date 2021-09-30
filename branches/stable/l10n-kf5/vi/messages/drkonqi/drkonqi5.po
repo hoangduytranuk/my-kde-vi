@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-03 01:52+0000\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
 "PO-Revision-Date: 2012-01-16 16:50+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 "tiếng Anh  (nếu có thể, vì KDE được hình thành trên toàn cầu)."
 
 #: aboutbugreportingdialog.cpp:62 aboutbugreportingdialog.cpp:190
-#: bugzillaintegration/reportassistantdialog.cpp:72
+#: bugzillaintegration/reportassistantdialog.cpp:78
 #, kde-format
 msgctxt "@title"
 msgid "What do you know about the crash?"
@@ -429,7 +429,7 @@ msgid ""
 msgstr "<note>Bạn nên viết bằng tiếng Anh.</note>"
 
 #: aboutbugreportingdialog.cpp:199
-#: bugzillaintegration/reportassistantdialog.cpp:139
+#: bugzillaintegration/reportassistantdialog.cpp:147
 #, kde-format
 msgctxt "@title"
 msgid "Sending the Crash Report"
@@ -632,7 +632,7 @@ msgstr ""
 "gặp lỗi.</p>"
 
 #: backtracewidget.cpp:135
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:661
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:88
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading..."
@@ -800,7 +800,27 @@ msgctxt "messagebox title"
 msgid "Missing debug information packages"
 msgstr "Thiếu gói thông tin gỡ lỗi"
 
-#: bugzillaintegration/assistantpage_bugzilla_version.cpp:40
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:41
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately <resource>%1</"
+"resource> is no longer supported. We may have alternative supported software "
+"on offer on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+
+#: bugzillaintegration/assistantpage_bugzilla_supported_entities.cpp:50
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Thanks for wanting to help improve our software! Unfortunately version "
+"<resource>%1</resource> of <resource>%2</resource> is no longer supported. "
+"Please upgrade to a newer version if possible. If your distribution does not "
+"provide a newer version you may be able to find alternative installation "
+"options on <link url='https://apps.kde.org/'>KDE.org</link>."
+msgstr ""
+
+#: bugzillaintegration/assistantpage_bugzilla_version.cpp:46
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:status"
 #| msgid "Error sending the crash report:  <message>%1.</message>"
@@ -808,86 +828,585 @@ msgctxt "@info %1 is an error message from the backend"
 msgid "Failed to contact bugs.kde.org: <message>%1</message>"
 msgstr "Lỗi khi đang gửi báo cáo: <message>%1.</message>"
 
-#: bugzillaintegration/reportassistantdialog.cpp:33
+#: bugzillaintegration/assistantpage_conclusion.cpp:34
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Sho&w Contents of the Report"
+msgctxt "@action:button"
+msgid "&Show Contents of the Report"
+msgstr "Hiệ&n nội dung báo cáo"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:37
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:713
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to show the generated report information about this crash."
+msgstr "Dùng nút này để hiện nội dung báo cáo đã tạo về lỗi này."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:91
+#, kde-format
+msgctxt "@info"
+msgid ""
+"It appears that this crash is actually the result of an earlier crash in the "
+"compositor and cannot be submitted as it lacks the required information to "
+"resolve the problem."
+msgstr ""
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:95
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"KDE developers would appreciate if you could find and attach the crash log "
+"for the compositor. You may be able to retrieve it using the coredumpctl "
+"utility. For more information, see <link url='https://community.kde.org/"
+"Guidelines_and_HOWTOs/Debugging/"
+"How_to_create_useful_crash_reports#Retrieving_a_backtrace_using_coredumpctl'>the "
+"KDE Community Wiki</link>."
+msgstr ""
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:119
+#, kde-format
+msgctxt "@info"
+msgid "The automatically generated crash information is useful."
+msgstr "Thông tin lỗi đã tạo tự động có hữu ích."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks some details but may be "
+"still be useful."
+msgstr ""
+"Thông tin lỗi đã tạo tự động thiếu một vài chi tiết nhưng vẫn có thể hữu ích."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:135
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks important details and it "
+"is probably not helpful."
+msgstr ""
+"Thông tin lỗi đã tạo tự động thiếu các thông tin quan trọng và nó có thể "
+"không hữu ích."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:147
+#, kde-format
+msgctxt "@info"
+msgid "The crash information was not generated because it was not needed."
+msgstr "Thông tin lỗi không được tạo vì không cần thiết."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:152
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information does not contain enough "
+"information to be helpful."
+msgstr "Thông tin lỗi đã tạo tự động không chứa đủ thông tin hữu ích."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<note>You can improve it by installing debugging packages and reloading the "
+"crash on the Crash Information page. You can get help with the Bug Reporting "
+"Guide by clicking on the <interface>Help</interface> button.</note>"
+msgstr ""
+"<note>Bạn có thể cải thiện nó bằng cách cài đặt các gói gỡ lỗi và tải lại "
+"lỗi trên trang Thông tin lỗi. Bạn có thể nhận trợ giúp với Hướng dẫn báo cáo "
+"lỗi bằng cách nhấn <interface>Trợ giúp</interface>.</note>"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "The information you can provide could be considered helpful."
+msgstr "Thông tin bạn đã cung cấp có thể được cho là có ích."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:177
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The information you can provide is not considered helpful enough in this "
+"case."
+msgstr ""
+"Thông tin bạn đã cung cấp được cho là không đủ hữu ích trong trường hợp này."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:184
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid "Your problem has already been reported as bug <numid>%1</numid>."
+msgctxt "@info"
+msgid "Your problem has already been reported as bug %1."
+msgstr "Vấn đề của bạn đã được báo cáo qua lỗi <numid>%1</numid>."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:199
+#, kde-format
+msgctxt "@info"
+msgid "This report is considered helpful."
+msgstr "Báo cáo này được cho là hữu ích."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:205
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application's bugs are reported to the KDE bug tracking system: click "
+"<interface>Next</interface> to start the reporting process. You can manually "
+"report at <link>%1</link>"
+msgstr ""
+"Các lỗi của ứng dụng này đã được gửi tới hệ thống theo dõi lỗi KDE: nhấn "
+"<interface> Tiếp</interface> để bắt đầu quá trình báo cáo. Bạn có thể báo "
+"cáo bằng tay tại <link>%1</link>"
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:217
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application is not supported in the KDE bug tracking system. Click "
+"<interface>Finish</interface> to report this bug to the application "
+"maintainer. Also, you can manually report at <link>%1</link>."
+msgstr ""
+"Ứng dụng này không được hỗ trợ trong hệ thống theo dõi lỗi KDE. Nhấn "
+"<interface>Kết thúc</interface> để báo cáo lỗi này tới người duy trì ứng "
+"dụng. Ngoài ra, bạn có thể tự báo cáo tại <link>%1</link>."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:234
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This report does not contain enough information for the developers, so the "
+"automated bug reporting process is not enabled for this crash."
+msgstr ""
+"Báo cáo này không chứa đủ thông tin cho các nhà phát triển nên tiến trình "
+"báo cáo lỗi tự động không được bật cho lỗi này."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid "If you wish, you can go back and change your answers. "
+msgstr ""
+"Nếu bạn muốn, bạn có thể quay trở lại và thay đổi câu trả lời của mình."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:248
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"Bạn có thể tự báo cáo lỗi này tại <link>%1</link>. Nhấn <interface> Kết "
+"thúc</interface> để đóng trợ tá."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:255
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug to its maintainer at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"Bạn có thể tự báo cáo lỗi này cho người duy trì của nó tại <link>%1</link>. "
+"Nhấn <interface> Kết thúc</interface> để đóng trợ tá."
+
+#: bugzillaintegration/assistantpage_conclusion.cpp:275
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to url/mail address"
+msgid "Report to %1"
+msgstr "Báo cáo cho %1"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Related Bug Report"
+msgstr "Báo cáo lỗi liên quan"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel (Go back to the report)"
+msgstr "Huỷ bỏ (Quay trở lại báo cáo)"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:40
+#, kde-format
+msgctxt "@action:button continue with the selected option and close the dialog"
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:47
+#, fuzzy, kde-format
+#| msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
+msgid "You are going to mark your crash as related to bug %1"
+msgstr ""
+"Bạn đang định đánh dấu lỗi của bạn có liên quan đến lỗi <numid>%1</numid>"
+
+#: bugzillaintegration/bugzillareportconfirmationdialog.cpp:59
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The report is closed because %1. <i>If the crash is the same, adding further "
+"information will be useless and will consume developers' time.</i>"
+msgstr ""
+"Báo cáo bị đóng vì %1. <i>Nếu lỗi giống hệt, việc thêm thông tin sẽ trở nên "
+"vô ích và tiêu tốn thì giờ của các nhà phát triển.</i>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Bug Description"
+msgstr "Mô tả lỗi"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:35
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:703
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry..."
+msgstr "Thử lại..."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:38
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this button to retry loading the bug report."
+msgstr "Dùng nút này để thử tải lại báo cáo lỗi."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Suggest this crash is related"
+msgstr "Gợi ý rằng lỗi này có liên quan"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to suggest that the crash you experienced is related to this "
+"bug report"
+msgstr ""
+"Dùng nút này để gợi ý rằng lỗi bạn gặp phải có liên quan tới báo cáo lỗi này"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:91
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<link url='%1'>Report's webpage</link>"
+msgstr "<link url='%1'>Trang web báo cáo</link>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:94
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Loading information about bug <numid>%1</numid> from %2...."
+msgctxt "@info:status"
+msgid "Loading information about bug %1 from %2...."
+msgstr "Đang tải thông tin về lỗi <numid>%1</numid> từ %2...."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:99
+#, fuzzy, kde-format
+#| msgctxt "@info/plain"
+#| msgid ""
+#| "Backtrace of the crash I experienced:\n"
+#| "\n"
+msgctxt "@info"
+msgid ""
+"Backtrace of the crash I experienced:\n"
+"\n"
+msgstr ""
+"Backtrace của lỗi tôi đã gặp: \n"
+"\n"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:121
+#, kde-format
+msgctxt "@info bug status"
+msgid "Opened (Unconfirmed)"
+msgstr "Đã mở (chưa xác nhận)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:125
+#, kde-format
+msgctxt "@info bug status"
+msgid "Opened (Unfixed)"
+msgstr "Đã mở (chưa sửa)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:134
+#, kde-format
+msgctxt "@info bug resolution, fixed in version"
+msgid "Fixed in version \"%1\""
+msgstr "Đã sửa trong phiên bản \"%1\""
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:135
+#, kde-format
+msgctxt "@info bug resolution, fixed by kde devs in version"
+msgid "the bug was fixed by KDE developers in version \"%1\""
+msgstr "lỗi đã được sửa bởi các nhà phát triển KDE trong phiên bản \"%1\""
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:137
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Fixed"
+msgstr "Đã sửa"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:137
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "the bug was fixed by KDE developers"
+msgstr "lỗi đã được sửa bởi nhà phát triển KDE"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:141
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Non-reproducible"
+msgstr "Không tái hiện được"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:143
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Duplicate report (Already reported before)"
+msgstr "Báo cáo trùng (đã được báo cáo trước đây)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:145
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Not a valid report/crash"
+msgstr "Không phải một lỗi/báo cáo hợp lệ"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:149
+#, kde-format
+msgctxt "@info bug resolution"
+msgid "Not caused by a problem in the KDE's Applications or libraries"
+msgstr "Không được gây ra bởi một lỗi trong Ứng dụng hay thư viện KDE"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:150
+#, kde-format
+msgctxt "@info bug resolution"
+msgid ""
+"the bug is caused by a problem in an external application or library, or by "
+"a distribution or packaging issue"
+msgstr ""
+"lỗi được gây ra bởi một vấn đề trong thư viện hay ứng dụng ngoài, hoặc bởi "
+"vấn đề đóng gói hay của bản phân phối."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:166
+#, kde-format
+msgctxt "@info bug status"
+msgid "Temporarily closed, because of a lack of information"
+msgstr "Tạm thời đóng bởi vì thiếu thông tin"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:182
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid report information (malformed data). This could mean that the bug "
+"report does not exist, or the bug tracking site is experiencing a problem."
+msgstr ""
+"Thông tin báo cáo không hợp lệ (dữ liệu sai dạng thức). Điều này có thể tức "
+"là báo cáo không tồn tại hay trang theo dõi lỗi đang gặp vấn đề."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:199
+#, kde-format
+msgctxt "@action:button let the user to choose to read the main report"
+msgid "Yes, read the main report"
+msgstr "Có, đọc báo cáo chính"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:205
+#, kde-format
+msgctxt "@action:button let the user choose to read the original report"
+msgid "No, let me read the report I selected"
+msgstr "Không, hãy để tôi đọc thông báo mình chọn"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:209
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "The report you selected (bug <numid>%1</numid>) is already marked as "
+#| "duplicate of bug <numid>%2</numid>. Do you want to read that report "
+#| "instead? (recommended)"
+msgctxt "@info"
+msgid ""
+"The report you selected (bug %1) is already marked as duplicate of bug %2. "
+"Do you want to read that report instead? (recommended)"
+msgstr ""
+"Báo cáo bạn đã chọn (lỗi <numid>%1</numid>) đã được đánh dấu là bản trùng "
+"của lỗi <numid>%2</numid>. Bạn có muốn đọc báo cáo đó không? (khuyến nghị)"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:214
+#, kde-format
+msgctxt "@title:window"
+msgid "Nested duplicate detected"
+msgstr "Đã phát hiện bản trùng lồng"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:255
+#, kde-format
+msgctxt "comment $number to use as subtitle"
+msgid "<h4>Comment %1:</h4>"
+msgstr "<h4>Lỗi %1:</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:274
+#, kde-kuit-format
+msgid ""
+"<p><note>The bug report's title is often written by its reporter and may not "
+"reflect the bug's nature, root cause or other visible symptoms you could use "
+"to compare to your crash. Please read the complete report and all the "
+"comments below.</note></p>"
+msgstr ""
+"<p><note>Tiêu đề báo cáo lỗi thường được viết bởi người báo cáo của nó và có "
+"thể không phản ánh tính chất, nguyên nhân gốc và các triệu chứng khác của "
+"lỗi mà bạn có thể dùng để so sánh với lỗi của mình. Hãy đọc toàn bộ báo cáo "
+"và tất cả các bình luận bên dưới.</note></p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:281
+#, kde-kuit-format
+msgid ""
+"<p><note>This bug report has %1 duplicate report. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgid_plural ""
+"<p><note>This bug report has %1 duplicate reports. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgstr[0] ""
+"<p><note>Báo cáo lỗi này có %1 báo cáo trùng. Điều này có thể hiểu rằng đây "
+"là một <strong>lỗi thường gặp</strong>. <i>Hãy lưu ý chỉ thêm bình luận hoặc "
+"ghi chú nếu bạn có thể cung cấp thêm thông tin giá trị mới mà chưa từng được "
+"đề cập</i></note></p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:293
+#, kde-format
+msgctxt "@info bug report title (quoted)"
+msgid "<h3>\"%1\"</h3>"
+msgstr "<h3>\"%1\"</h3>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:294
+#, kde-format
+msgctxt "@info bug report status"
+msgid "<h4>Bug Report Status: %1</h4>"
+msgstr "<h4>Trạng thái báo cáo lỗi: %1</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:295
+#, kde-format
+msgctxt "@info bug report product and component"
+msgid "<h4>Affected Component: %1 (%2)</h4>"
+msgstr "<h4>Thành phần bị ảnh hưởng: %1 (%2)</h4>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:296
+#, kde-format
+msgctxt "@info bug report description"
+msgid "<h3>Description of the bug</h3><p>%1</p>"
+msgstr "<h3>Mô tả lỗi</h3><p>%1</p>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:299
+#, kde-format
+msgctxt "@label:textbox bug report comments (already formatted)"
+msgid "<h2>Additional Comments</h2>%1"
+msgstr "<h2>Bình luận thêm</h2>%1"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:308
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Showing bug <numid>%1</numid>"
+msgctxt "@info:status"
+msgid "Showing bug %1"
+msgstr "Đang hiển thị lỗi <numid>%1</numid>"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:340
+#, kde-kuit-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
+"some time and try again."
+msgstr ""
+"Lỗi khi lấy báo cáo lỗi <nl/><message>%1.</message><nl/>Hãy đợi một lát và "
+"thử lại."
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:345
+#, kde-format
+msgctxt "@info"
+msgid "Error fetching the bug report"
+msgstr "Lỗi lấy báo cáo lỗi"
+
+#: bugzillaintegration/bugzillareportinformationdialog.cpp:346
+#, kde-format
+msgctxt "@info:status"
+msgid "Error fetching the bug report"
+msgstr "Lỗi lấy báo cáo lỗi"
+
+#: bugzillaintegration/reportassistantdialog.cpp:35
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Login into the KDE Bugtracking System"
 msgid "the KDE Bug Tracking System"
 msgstr "Đăng nhập vào hệ thống theo dõi lỗi KDE"
 
-#: bugzillaintegration/reportassistantdialog.cpp:44
+#: bugzillaintegration/reportassistantdialog.cpp:46
 #, kde-format
 msgctxt "@title:window"
 msgid "Crash Reporting Assistant"
 msgstr "Trợ tá báo cáo lỗi"
 
-#: bugzillaintegration/reportassistantdialog.cpp:61
+#: bugzillaintegration/reportassistantdialog.cpp:62
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to the Reporting Assistant"
 msgstr "Chào mừng đến với trợ tá báo cáo"
 
-#: bugzillaintegration/reportassistantdialog.cpp:81
+#: bugzillaintegration/reportassistantdialog.cpp:86
 #, kde-format
 msgctxt "@title"
 msgid "Fetching the Backtrace (Automatic Crash Information)"
 msgstr "Lấy backtrace (thông tin lỗi tự động)"
 
-#: bugzillaintegration/reportassistantdialog.cpp:90
+#: bugzillaintegration/reportassistantdialog.cpp:93
 #, kde-format
 msgctxt "@title"
 msgid "Results of the Analyzed Crash Details"
 msgstr "Kết quả chi tiết lỗi đã phân tích"
 
-#: bugzillaintegration/reportassistantdialog.cpp:104
+#: bugzillaintegration/reportassistantdialog.cpp:116
 #, kde-format
 msgctxt "@title"
 msgid "Login into %1"
 msgstr ""
 
-#: bugzillaintegration/reportassistantdialog.cpp:114
+#: bugzillaintegration/reportassistantdialog.cpp:125
 #, kde-format
 msgctxt "@title"
 msgid "Look for Possible Duplicate Reports"
 msgstr "Tìm kiếm các báo cáo có khả năng trùng"
 
-#: bugzillaintegration/reportassistantdialog.cpp:123
+#: bugzillaintegration/reportassistantdialog.cpp:133
 #, kde-format
 msgctxt "@title"
 msgid "Enter the Details about the Crash"
 msgstr "Nhập chi tiết về lỗi"
 
-#: bugzillaintegration/reportassistantdialog.cpp:131
+#: bugzillaintegration/reportassistantdialog.cpp:140
 #, kde-format
 msgctxt "@title"
 msgid "Preview the Report"
 msgstr "Xem trước báo cáo"
 
-#: bugzillaintegration/reportassistantdialog.cpp:173
+#: bugzillaintegration/reportassistantdialog.cpp:184
 #, kde-format
 msgctxt "@action button to submit report"
 msgid "Submit"
 msgstr ""
 
-#: bugzillaintegration/reportassistantdialog.cpp:402
+#: bugzillaintegration/reportassistantdialog.cpp:318
 #, kde-format
 msgctxt "@action:button"
 msgid "Close the assistant"
 msgstr "Đóng trợ tá"
 
-#: bugzillaintegration/reportassistantdialog.cpp:405
+#: bugzillaintegration/reportassistantdialog.cpp:321
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Huỷ bỏ"
 
-#: bugzillaintegration/reportassistantdialog.cpp:411
+#: bugzillaintegration/reportassistantdialog.cpp:327
 #, kde-format
 msgctxt "@action:button"
 msgid "Save information and close"
 msgstr "Lưu thông tin và đóng"
 
-#: bugzillaintegration/reportassistantdialog.cpp:415
+#: bugzillaintegration/reportassistantdialog.cpp:331
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -898,14 +1417,14 @@ msgstr ""
 "Bạn có thực sự muốn đóng trợ tá báo cáo lỗi? <note>Thông tin lỗi vẫn hợp lệ, "
 "vì vậy bạn có thể lưu báo cáo trước khi đóng nếu bạn muốn.</note>"
 
-#: bugzillaintegration/reportassistantdialog.cpp:418
-#: bugzillaintegration/reportassistantdialog.cpp:438
+#: bugzillaintegration/reportassistantdialog.cpp:334
+#: bugzillaintegration/reportassistantdialog.cpp:354
 #, kde-format
 msgctxt "@title:window"
 msgid "Close the Assistant"
 msgstr "Đóng trợ tá"
 
-#: bugzillaintegration/reportassistantdialog.cpp:436
+#: bugzillaintegration/reportassistantdialog.cpp:352
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to close the bug reporting assistant?"
@@ -927,7 +1446,7 @@ msgctxt "@title:window"
 msgid "Crash Information is not useful enough"
 msgstr "Thông tin lỗi không đủ hữu ích"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:135
+#: bugzillaintegration/reportassistantpages_base.cpp:130
 #, kde-format
 msgctxt ""
 "@option:check kind of information the user can provide about the crash, %1 "
@@ -935,221 +1454,13 @@ msgctxt ""
 msgid "What I was doing when the application \"%1\" crashed"
 msgstr "Tôi đã làm gì khi ứng dụng \"%1\" gặp lỗi"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:144
+#: bugzillaintegration/reportassistantpages_base.cpp:139
 #, kde-format
 msgctxt "@label examples about information the user can provide"
 msgid "Examples: %1"
 msgstr "Ví dụ: %1"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:199
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Sho&w Contents of the Report"
-msgctxt "@action:button"
-msgid "&Show Contents of the Report"
-msgstr "Hiệ&n nội dung báo cáo"
-
-#: bugzillaintegration/reportassistantpages_base.cpp:202
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:680
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Use this button to show the generated report information about this crash."
-msgstr "Dùng nút này để hiện nội dung báo cáo đã tạo về lỗi này."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:256
-#, kde-format
-msgctxt "@info"
-msgid ""
-"It appears that this crash is actually the result of an earlier crash in the "
-"compositor and cannot be submitted as it lacks the required information to "
-"resolve the problem."
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_base.cpp:260
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"KDE developers would appreciate if you could find and attach the crash log "
-"for the compositor. You may be able to retrieve it using the coredumpctl "
-"utility. For more information, see <link url='https://community.kde.org/"
-"Guidelines_and_HOWTOs/Debugging/"
-"How_to_create_useful_crash_reports#Retrieving_a_backtrace_using_coredumpctl'>the "
-"KDE Community Wiki</link>."
-msgstr ""
-
-#: bugzillaintegration/reportassistantpages_base.cpp:284
-#, kde-format
-msgctxt "@info"
-msgid "The automatically generated crash information is useful."
-msgstr "Thông tin lỗi đã tạo tự động có hữu ích."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:291
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The automatically generated crash information lacks some details but may be "
-"still be useful."
-msgstr ""
-"Thông tin lỗi đã tạo tự động thiếu một vài chi tiết nhưng vẫn có thể hữu ích."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:300
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The automatically generated crash information lacks important details and it "
-"is probably not helpful."
-msgstr ""
-"Thông tin lỗi đã tạo tự động thiếu các thông tin quan trọng và nó có thể "
-"không hữu ích."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:312
-#, kde-format
-msgctxt "@info"
-msgid "The crash information was not generated because it was not needed."
-msgstr "Thông tin lỗi không được tạo vì không cần thiết."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:317
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The automatically generated crash information does not contain enough "
-"information to be helpful."
-msgstr "Thông tin lỗi đã tạo tự động không chứa đủ thông tin hữu ích."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:321
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<note>You can improve it by installing debugging packages and reloading the "
-"crash on the Crash Information page. You can get help with the Bug Reporting "
-"Guide by clicking on the <interface>Help</interface> button.</note>"
-msgstr ""
-"<note>Bạn có thể cải thiện nó bằng cách cài đặt các gói gỡ lỗi và tải lại "
-"lỗi trên trang Thông tin lỗi. Bạn có thể nhận trợ giúp với Hướng dẫn báo cáo "
-"lỗi bằng cách nhấn <interface>Trợ giúp</interface>.</note>"
-
-#: bugzillaintegration/reportassistantpages_base.cpp:337
-#, kde-format
-msgctxt "@info"
-msgid "The information you can provide could be considered helpful."
-msgstr "Thông tin bạn đã cung cấp có thể được cho là có ích."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:342
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The information you can provide is not considered helpful enough in this "
-"case."
-msgstr ""
-"Thông tin bạn đã cung cấp được cho là không đủ hữu ích trong trường hợp này."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:349
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "Your problem has already been reported as bug <numid>%1</numid>."
-msgctxt "@info"
-msgid "Your problem has already been reported as bug %1."
-msgstr "Vấn đề của bạn đã được báo cáo qua lỗi <numid>%1</numid>."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:364
-#, kde-format
-msgctxt "@info"
-msgid "This report is considered helpful."
-msgstr "Báo cáo này được cho là hữu ích."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:370
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"This application's bugs are reported to the KDE bug tracking system: click "
-"<interface>Next</interface> to start the reporting process. You can manually "
-"report at <link>%1</link>"
-msgstr ""
-"Các lỗi của ứng dụng này đã được gửi tới hệ thống theo dõi lỗi KDE: nhấn "
-"<interface> Tiếp</interface> để bắt đầu quá trình báo cáo. Bạn có thể báo "
-"cáo bằng tay tại <link>%1</link>"
-
-#: bugzillaintegration/reportassistantpages_base.cpp:382
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"This application is not supported in the KDE bug tracking system. Click "
-"<interface>Finish</interface> to report this bug to the application "
-"maintainer. Also, you can manually report at <link>%1</link>."
-msgstr ""
-"Ứng dụng này không được hỗ trợ trong hệ thống theo dõi lỗi KDE. Nhấn "
-"<interface>Kết thúc</interface> để báo cáo lỗi này tới người duy trì ứng "
-"dụng. Ngoài ra, bạn có thể tự báo cáo tại <link>%1</link>."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:399
-#, kde-format
-msgctxt "@info"
-msgid ""
-"This report does not contain enough information for the developers, so the "
-"automated bug reporting process is not enabled for this crash."
-msgstr ""
-"Báo cáo này không chứa đủ thông tin cho các nhà phát triển nên tiến trình "
-"báo cáo lỗi tự động không được bật cho lỗi này."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:403
-#, kde-format
-msgctxt "@info"
-msgid "If you wish, you can go back and change your answers. "
-msgstr ""
-"Nếu bạn muốn, bạn có thể quay trở lại và thay đổi câu trả lời của mình."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:413
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"You can manually report this bug at <link>%1</link>. Click "
-"<interface>Finish</interface> to close the assistant."
-msgstr ""
-"Bạn có thể tự báo cáo lỗi này tại <link>%1</link>. Nhấn <interface> Kết "
-"thúc</interface> để đóng trợ tá."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:420
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"You can manually report this bug to its maintainer at <link>%1</link>. Click "
-"<interface>Finish</interface> to close the assistant."
-msgstr ""
-"Bạn có thể tự báo cáo lỗi này cho người duy trì của nó tại <link>%1</link>. "
-"Nhấn <interface> Kết thúc</interface> để đóng trợ tá."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:440
-#, fuzzy, kde-format
-#| msgctxt "@info/plain report to url/mail address"
-#| msgid "Report to %1"
-msgctxt "@info report to url/mail address"
-msgid "Report to %1"
-msgstr "Báo cáo cho %1"
-
-#: bugzillaintegration/reportassistantpages_base.cpp:462
-#, kde-format
-msgctxt "@title:window"
-msgid "Contents of the Report"
-msgstr "Nội dung báo cáo"
-
-#: bugzillaintegration/reportassistantpages_base.cpp:469
-#, kde-format
-msgctxt "@action:button"
-msgid "&Save to File..."
-msgstr "&Lưu thành tệp..."
-
-#: bugzillaintegration/reportassistantpages_base.cpp:472
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Use this button to save the generated crash report information to a file. "
-"You can use this option to report the bug later."
-msgstr ""
-"Dùng nút này để lưu thông tin báo cáo lỗi đã tạo vào một tệp. Bạn có thể "
-"dùng tuỳ chọn này để báo cáo lỗi sau."
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:70
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:71
 #, fuzzy, kde-format
 #| msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
 #| msgid "You need to login with your %1 account in order to proceed."
@@ -1157,13 +1468,13 @@ msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
 msgid "You need to login with your %1 account in order to proceed."
 msgstr "Bạn cần đăng nhập với danh khoản %1 của bạn để tiếp tục."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:74
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:75
 #, kde-format
 msgctxt "@action:button"
 msgid "Login"
 msgstr "Đăng nhập"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:77
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:78
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid ""
@@ -1177,7 +1488,7 @@ msgstr ""
 "Dùng nút này để đăng nhập vào hệ thống theo dõi lỗi KDE sử dụng tên đăng "
 "nhập và mật khẩu đã tạo."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:95
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:96
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -1193,7 +1504,7 @@ msgstr ""
 "bạn có thể tạo <link url='%2'>tại đây</link>. Đừng dùng các danh khoản thư "
 "điện tử có thể bỏ đi của bạn.</note>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:126
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:127
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:status"
 #| msgid "Error when trying to login: <message>%1.</message>"
@@ -1201,13 +1512,13 @@ msgctxt "@info:status"
 msgid "Error when trying to login: <message>%1</message>"
 msgstr "Lỗi khi đang cố gắng đăng nhập: <message>%1.</message>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:154
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:155
 #, kde-format
 msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
 msgid "Logged in at the KDE bug tracking system (%1) as: %2."
 msgstr "Đã đăng nhập vào hệ thống theo dõi lỗi KDE (%1) bằng: %2."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:289
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:290
 #, fuzzy, kde-format
 #| msgctxt "@info:status '1' is a url, '2' the username"
 #| msgid "Performing login at %1 as %2..."
@@ -1215,7 +1526,7 @@ msgctxt "@info:status '1' is a url, '2' the e-mail address"
 msgid "Performing login at %1 as %2..."
 msgstr "Đang thực hiện đăng nhập tại %1 bằng %2..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:322
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:323
 #, fuzzy, kde-format
 #| msgctxt "@info:status/rich"
 #| msgid "<b>Error: Invalid username or password</b>"
@@ -1223,7 +1534,7 @@ msgctxt "@info:status"
 msgid "<b>Error: Invalid e-mail address or password</b>"
 msgstr "<b>Lỗi: tên người dùng hay mật khẩu không hợp lệ</b>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:363
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:364
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Retry..."
@@ -1231,31 +1542,31 @@ msgctxt "@action/button retry button in error widget"
 msgid "Retry"
 msgstr "Thử lại..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:435
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:467
 #, kde-format
 msgctxt "the minimum required length of a text was reached"
 msgid "Minimum length reached"
 msgstr "Đã đạt độ dài tối thiểu"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:437
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:469
 #, kde-format
 msgctxt "the minimum required length of a text wasn't reached yet"
 msgid "Provide more information"
 msgstr "Cung cấp thêm thông tin"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:462
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:494
 #, kde-format
 msgctxt "@info/status error"
 msgid "Failed to get platform list"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:512
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:545
 #, kde-format
 msgctxt "@info error when talking to the bugzilla API"
 msgid "An error occurred when talking to bugs.kde.org: %1"
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:529
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:562
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1263,7 +1574,7 @@ msgid ""
 "yet.<br /><br />"
 msgstr "Mô tả về chi tiết lỗi chưa cung cấp đủ thông tin.<br /><br />"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:534
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:567
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1273,7 +1584,7 @@ msgstr ""
 "Lượng thông tin cần thiết tỉ lệ thuận với chất lượng của các thông tin khác "
 "như backtrace hay khả năng tái hiện lại lỗi.<br /><br />"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:543
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:576
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1285,7 +1596,7 @@ msgstr ""
 "tin tình huống. Hãy thử viết thêm chi tiết về tình huống của bạn. (thậm chí "
 "chỉ một chút thôi cũng có thể giúp chúng tôi.)<br /><br />"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:550
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:583
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1295,23 +1606,23 @@ msgstr ""
 "Nếu bạn không thể cung cấp thêm thông tin, báo cáo của bạn có thể chỉ làm "
 "tốn thời gian của các nhà phát triển thôi. Bạn có thể nói thêm chứ?"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:554
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:587
 #, kde-format
 msgid "Yes, let me add more information"
 msgstr "Vâng, hãy để tôi thêm thông tin"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:557
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:590
 #, kde-format
 msgid "No, I cannot add any other information"
 msgstr "Không, tôi không thể thêm thông tin nào"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:559
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:592
 #, kde-format
 msgctxt "@title:window"
 msgid "We need more information"
 msgstr "Chúng tôi cần thêm thông tin"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:597
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:630
 #, kde-kuit-format
 msgctxt "@info:tooltip examples of good bug report titles"
 msgid ""
@@ -1327,13 +1638,13 @@ msgstr ""
 "resuming the computer and talking to a MSN buddy\"<nl />\"Kate closed while "
 "editing a log file and pressing the Delete key a couple of times\""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:608
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:641
 #, kde-format
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "Describe in as much detail as possible the crash circumstances:"
 msgstr "Mô tả càng nhiều càng tốt về các tình huống gây lỗi:"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:612
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:645
 #, kde-format
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid ""
@@ -1343,7 +1654,7 @@ msgstr ""
 "- Chi tiết về hành động bạn đang làm bên trong và bên ngoài ứng dụng ngay "
 "trước khi gặp lỗi."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:618
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:651
 #, kde-format
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid ""
@@ -1353,13 +1664,13 @@ msgstr ""
 "- Chú ý bạn đã thấy về hành vi bất thường trong ứng dụng hay trong toàn bộ "
 "môi trường."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:623
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:656
 #, kde-format
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "- Note any non-default configuration in the application."
 msgstr "- Chú ý về các cấu hình khác mặc định trong ứng dụng."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:628
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:661
 #, kde-format
 msgctxt ""
 "@info:tooltip examples of configuration details. the examples are already "
@@ -1367,32 +1678,25 @@ msgctxt ""
 msgid "Examples: %1"
 msgstr "Ví dụ: %1"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:670
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:608
-#, kde-format
-msgctxt "@action:button"
-msgid "Retry..."
-msgstr "Thử lại..."
-
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:673
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:706
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to retry sending the crash report if it failed before."
 msgstr "Dùng nút này để thử gửi lại báo cáo lỗi nếu trước đó thất bại."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:677
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:710
 #, kde-format
 msgctxt "@action:button"
 msgid "Sho&w Contents of the Report"
 msgstr "Hiệ&n nội dung báo cáo"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:701
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:734
 #, kde-format
 msgctxt "@info:status"
 msgid "Sending crash report... (please wait)"
 msgstr "Đang gửi báo cáo lỗi... (vui lòng đợi)"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:734
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:767
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -1402,13 +1706,13 @@ msgstr ""
 "Đã gửi báo cáo lỗi.<nl />URL: <link>%1</link><nl />Cám ơn bạn vì đã tham gia "
 "đóng góp cho KDE. Giờ bạn có thể đóng cửa sổ này."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:746
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:779
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Error sending the crash report:  <message>%1.</message>"
 msgstr "Lỗi khi đang gửi báo cáo: <message>%1.</message>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:768
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:801
 #, fuzzy, kde-format
 #| msgctxt "@info/plain report to url/mail address"
 #| msgid "Report to %1"
@@ -1416,31 +1720,13 @@ msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "Báo cáo cho %1"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:47
-#, kde-format
-msgctxt "@item:intable custom/manaul bug report number"
-msgid "Manual"
-msgstr "Bằng tay"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:48
-#, kde-format
-msgctxt "@item:intable custom bug report number description"
-msgid "Manually enter a bug report ID"
-msgstr "Tự nhập một ID báo cáo lỗi"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:52
-#, kde-format
-msgctxt "@info:tooltip / whatsthis"
-msgid "Select this option to manually load a specific bug report"
-msgstr "Chọn tuỳ chọn này để tự tải một báo cáo lỗi cụ thể"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:60
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Search for more reports"
 msgstr "Tìm thêm báo cáo lỗi"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:63
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:45
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid ""
@@ -1449,60 +1735,60 @@ msgctxt "@info:tooltip"
 msgid "Use this button to search for more similar bug reports"
 msgstr "Dùng nút này để tìm thêm các lỗi tương tự trong các ngày tháng cũ hơn."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:68
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:50
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry search"
 msgstr "Thử lại tìm kiếm"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:71
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to retry the search that previously failed."
 msgstr "Dùng nút này để thử lại việc tìm kiếm đã thất bại trước đó."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:76
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:58
 #, kde-format
 msgctxt "@action:button"
 msgid "Open selected report"
 msgstr "Mở báo cáo đã chọn"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:79
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:61
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to view the information of the selected bug report."
 msgstr "Dùng nút này để xem thông tin của báo cáo đã chọn."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:84
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:66
 #, kde-format
 msgctxt "@action:button"
 msgid "Stop searching"
 msgstr "Dừng tìm kiếm"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:87
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:69
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to stop the current search."
 msgstr "Dùng nút này để dừng tìm kiếm hiện tại."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:99
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:81
 #, kde-format
 msgctxt "@action:button remove the selected item from a list"
 msgid "Remove"
 msgstr "Gỡ bỏ"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:101
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:83
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to remove a selected possible duplicate"
 msgstr "Dùng nút này để gỡ bỏ một khả năng trùng đã chọn"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:160
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:140
 #, kde-format
 msgid "There are no real duplicates"
 msgstr "Không có báo cáo trùng thực sự nào"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:162
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:142
 #, kde-format
 msgid ""
 "Press this button to declare that, in your opinion and according to your "
@@ -1515,12 +1801,12 @@ msgstr ""
 "tin rằng sẽ ít có khả năng tìm thấy một báo cáo khác khớp hơn sau khi đã xem "
 "lại kĩ càng."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:170
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:150
 #, kde-format
 msgid "Let me check more reports"
 msgstr "Hãy để tôi xem thêm báo các khác"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:172
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:152
 #, kde-format
 msgid ""
 "Press this button if you would rather review more reports in order to find a "
@@ -1529,7 +1815,7 @@ msgstr ""
 "Nhấn nút này nếu bạn muốn xem thêm nhiều báo cáo hơn để tìm thấy một bản "
 "khớp với lỗi bạn đã gặp."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:179
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:159
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1541,13 +1827,13 @@ msgstr ""
 "của bạn. Bạn đã đọc tất cả báo cáo chưa, và bạn có thể xác nhận rằng không "
 "có khả năng trùng nào không?"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:182
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:162
 #, kde-format
 msgctxt "@title:window"
 msgid "No selected possible duplicates"
 msgstr "Không có khả năng trùng đã chọn nào"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:209
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:188
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Searching for duplicates (from %1 to %2)..."
@@ -1555,13 +1841,13 @@ msgctxt "@info:status"
 msgid "Searching for duplicates..."
 msgstr "Đang tìm các bản trùng (từ %1 tới %2)..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:228
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:207
 #, kde-format
 msgctxt "@info:status"
 msgid "Search stopped."
 msgstr "Đã dừng tìm kiếm."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:230
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:209
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Search stopped. Showing results from %1 to %2"
@@ -1569,7 +1855,7 @@ msgctxt "@info:status"
 msgid "Search stopped. Showing results."
 msgstr "Đã dừng tìm kiếm. Đang hiển thị kết quả từ %1 đến %2"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:272
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:251
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug status"
 #| msgid "[Open]"
@@ -1577,7 +1863,7 @@ msgctxt "@info bug status"
 msgid "[Open]"
 msgstr "[Mở]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:279
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:258
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Fixed]"
@@ -1585,7 +1871,7 @@ msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "[Đã sửa]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:281
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:260
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Non-reproducible]"
@@ -1593,7 +1879,7 @@ msgctxt "@info bug resolution"
 msgid "[Non-reproducible]"
 msgstr "[Không tái hiện được]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:283
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:262
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Duplicate report]"
@@ -1601,7 +1887,7 @@ msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "[Báo cáo trùng]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:285
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:264
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Invalid]"
@@ -1609,7 +1895,7 @@ msgctxt "@info bug resolution"
 msgid "[Invalid]"
 msgstr "[Không hợp lệ]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:288
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:267
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[External problem]"
@@ -1617,7 +1903,7 @@ msgctxt "@info bug resolution"
 msgid "[External problem]"
 msgstr "[Vấn đề ở bên ngoài]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:303
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:282
 #, fuzzy, kde-format
 #| msgctxt "@info/plain bug status"
 #| msgid "[Incomplete]"
@@ -1625,7 +1911,7 @@ msgctxt "@info bug status"
 msgid "[Incomplete]"
 msgstr "[Chưa hoàn thiện]"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:322
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:301
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Showing results from %1 to %2"
@@ -1633,13 +1919,13 @@ msgctxt "@info:status"
 msgid "Showing results."
 msgstr "Đang hiện kết quả từ %1 tới %2"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:363
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:342
 #, kde-format
 msgctxt "@info:status"
 msgid "Search Finished. No reports found."
 msgstr "Đã hoàn tất tìm kiếm. Không tìm thấy báo cáo nào."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:426
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:405
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1649,7 +1935,7 @@ msgstr ""
 "Lỗi của bạn là một <strong>bản trùng</strong> và đã được báo cáo là <a href="
 "\"%1\">Lỗi %1</a>."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:429
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:408
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1659,7 +1945,7 @@ msgstr ""
 "Lỗi của bạn đã được báo cáo là <a href=\"%1\">lỗi %1</a> - là <strong>bản "
 "trùng</strong> của <a href=\"%2\">lỗi %2</a>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:435
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:414
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1669,7 +1955,7 @@ msgstr ""
 "Chỉ <strong><a href=\"%1\">đính kèm</a></strong> nếu bạn có thể thêm thông "
 "tin cần thiết vào báo cáo lỗi."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:440
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:419
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1679,7 +1965,7 @@ msgstr ""
 "Lỗi của bạn đã được báo cáo là <a href=\"%1\">lỗi %1</a> - lỗi này đã "
 "<strong>đóng</strong>."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:443
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:422
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1689,13 +1975,13 @@ msgstr ""
 "Lỗi này đã được báo cáo là <a href=\"%1\">lỗi %1</a> - là bản trùng của <a "
 "href=\"%2\">lỗi %2</a> đã đóng."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:469
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:448
 #, kde-format
 msgctxt "@info:status"
 msgid "Error fetching the bug report list"
 msgstr "Lỗi khi đang lấy danh sách báo cáo lỗi"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:473
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:452
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -1705,19 +1991,7 @@ msgstr ""
 "Lỗi khi đang lấy danh sách báo cáo lỗi<nl /><message>%1.</message><nl/>Vui "
 "lòng đợi một lát và thử lại."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:498
-#, kde-format
-msgctxt "@title:window"
-msgid "Enter a custom bug report number"
-msgstr "Nhập một số hiệu báo cáo lỗi"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:499
-#, kde-format
-msgctxt "@label"
-msgid "Enter the number of the bug report you want to check"
-msgstr "Nhập số hiệu báo cáo lỗi mà bạn muốn kiểm tra"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:575
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:532
 #, fuzzy, kde-kuit-format
 #| msgctxt "@label"
 #| msgid ""
@@ -1731,320 +2005,29 @@ msgstr ""
 "Báo cáo sẽ được <strong>đính kèm</strong> vào lỗi <numid>%1</numid>. <a href="
 "\"#\">Huỷ bỏ</a>"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:603
+#: bugzillaintegration/reportinformationdialog.cpp:22
 #, kde-format
 msgctxt "@title:window"
-msgid "Bug Description"
-msgstr "Mô tả lỗi"
+msgid "Contents of the Report"
+msgstr "Nội dung báo cáo"
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:611
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Use this button to retry loading the bug report."
-msgstr "Dùng nút này để thử tải lại báo cáo lỗi."
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:618
+#: bugzillaintegration/reportinformationdialog.cpp:29
 #, kde-format
 msgctxt "@action:button"
-msgid "Suggest this crash is related"
-msgstr "Gợi ý rằng lỗi này có liên quan"
+msgid "&Save to File..."
+msgstr "&Lưu thành tệp..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:621
+#: bugzillaintegration/reportinformationdialog.cpp:32
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Use this button to suggest that the crash you experienced is related to this "
-"bug report"
+"Use this button to save the generated crash report information to a file. "
+"You can use this option to report the bug later."
 msgstr ""
-"Dùng nút này để gợi ý rằng lỗi bạn gặp phải có liên quan tới báo cáo lỗi này"
+"Dùng nút này để lưu thông tin báo cáo lỗi đã tạo vào một tệp. Bạn có thể "
+"dùng tuỳ chọn này để báo cáo lỗi sau."
 
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:664
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<link url='%1'>Report's webpage</link>"
-msgstr "<link url='%1'>Trang web báo cáo</link>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:667
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Loading information about bug <numid>%1</numid> from %2...."
-msgctxt "@info:status"
-msgid "Loading information about bug %1 from %2...."
-msgstr "Đang tải thông tin về lỗi <numid>%1</numid> từ %2...."
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:672
-#, fuzzy, kde-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Backtrace of the crash I experienced:\n"
-#| "\n"
-msgctxt "@info"
-msgid ""
-"Backtrace of the crash I experienced:\n"
-"\n"
-msgstr ""
-"Backtrace của lỗi tôi đã gặp: \n"
-"\n"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:694
-#, kde-format
-msgctxt "@info bug status"
-msgid "Opened (Unconfirmed)"
-msgstr "Đã mở (chưa xác nhận)"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:698
-#, kde-format
-msgctxt "@info bug status"
-msgid "Opened (Unfixed)"
-msgstr "Đã mở (chưa sửa)"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:707
-#, kde-format
-msgctxt "@info bug resolution, fixed in version"
-msgid "Fixed in version \"%1\""
-msgstr "Đã sửa trong phiên bản \"%1\""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:708
-#, kde-format
-msgctxt "@info bug resolution, fixed by kde devs in version"
-msgid "the bug was fixed by KDE developers in version \"%1\""
-msgstr "lỗi đã được sửa bởi các nhà phát triển KDE trong phiên bản \"%1\""
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:710
-#, kde-format
-msgctxt "@info bug resolution"
-msgid "Fixed"
-msgstr "Đã sửa"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:710
-#, kde-format
-msgctxt "@info bug resolution"
-msgid "the bug was fixed by KDE developers"
-msgstr "lỗi đã được sửa bởi nhà phát triển KDE"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:714
-#, kde-format
-msgctxt "@info bug resolution"
-msgid "Non-reproducible"
-msgstr "Không tái hiện được"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:716
-#, kde-format
-msgctxt "@info bug resolution"
-msgid "Duplicate report (Already reported before)"
-msgstr "Báo cáo trùng (đã được báo cáo trước đây)"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:718
-#, kde-format
-msgctxt "@info bug resolution"
-msgid "Not a valid report/crash"
-msgstr "Không phải một lỗi/báo cáo hợp lệ"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:722
-#, kde-format
-msgctxt "@info bug resolution"
-msgid "Not caused by a problem in the KDE's Applications or libraries"
-msgstr "Không được gây ra bởi một lỗi trong Ứng dụng hay thư viện KDE"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:723
-#, kde-format
-msgctxt "@info bug resolution"
-msgid ""
-"the bug is caused by a problem in an external application or library, or by "
-"a distribution or packaging issue"
-msgstr ""
-"lỗi được gây ra bởi một vấn đề trong thư viện hay ứng dụng ngoài, hoặc bởi "
-"vấn đề đóng gói hay của bản phân phối."
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:739
-#, kde-format
-msgctxt "@info bug status"
-msgid "Temporarily closed, because of a lack of information"
-msgstr "Tạm thời đóng bởi vì thiếu thông tin"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:755
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Invalid report information (malformed data). This could mean that the bug "
-"report does not exist, or the bug tracking site is experiencing a problem."
-msgstr ""
-"Thông tin báo cáo không hợp lệ (dữ liệu sai dạng thức). Điều này có thể tức "
-"là báo cáo không tồn tại hay trang theo dõi lỗi đang gặp vấn đề."
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:772
-#, kde-format
-msgctxt "@action:button let the user to choose to read the main report"
-msgid "Yes, read the main report"
-msgstr "Có, đọc báo cáo chính"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:778
-#, kde-format
-msgctxt "@action:button let the user choose to read the original report"
-msgid "No, let me read the report I selected"
-msgstr "Không, hãy để tôi đọc thông báo mình chọn"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:782
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "The report you selected (bug <numid>%1</numid>) is already marked as "
-#| "duplicate of bug <numid>%2</numid>. Do you want to read that report "
-#| "instead? (recommended)"
-msgctxt "@info"
-msgid ""
-"The report you selected (bug %1) is already marked as duplicate of bug %2. "
-"Do you want to read that report instead? (recommended)"
-msgstr ""
-"Báo cáo bạn đã chọn (lỗi <numid>%1</numid>) đã được đánh dấu là bản trùng "
-"của lỗi <numid>%2</numid>. Bạn có muốn đọc báo cáo đó không? (khuyến nghị)"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:787
-#, kde-format
-msgctxt "@title:window"
-msgid "Nested duplicate detected"
-msgstr "Đã phát hiện bản trùng lồng"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:828
-#, kde-format
-msgctxt "comment $number to use as subtitle"
-msgid "<h4>Comment %1:</h4>"
-msgstr "<h4>Lỗi %1:</h4>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:847
-#, kde-kuit-format
-msgid ""
-"<p><note>The bug report's title is often written by its reporter and may not "
-"reflect the bug's nature, root cause or other visible symptoms you could use "
-"to compare to your crash. Please read the complete report and all the "
-"comments below.</note></p>"
-msgstr ""
-"<p><note>Tiêu đề báo cáo lỗi thường được viết bởi người báo cáo của nó và có "
-"thể không phản ánh tính chất, nguyên nhân gốc và các triệu chứng khác của "
-"lỗi mà bạn có thể dùng để so sánh với lỗi của mình. Hãy đọc toàn bộ báo cáo "
-"và tất cả các bình luận bên dưới.</note></p>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:854
-#, kde-kuit-format
-msgid ""
-"<p><note>This bug report has %1 duplicate report. That means this is "
-"probably a <strong>common crash</strong>. <i>Please consider only adding a "
-"comment or a note if you can provide new valuable information which was not "
-"already mentioned.</i></note></p>"
-msgid_plural ""
-"<p><note>This bug report has %1 duplicate reports. That means this is "
-"probably a <strong>common crash</strong>. <i>Please consider only adding a "
-"comment or a note if you can provide new valuable information which was not "
-"already mentioned.</i></note></p>"
-msgstr[0] ""
-"<p><note>Báo cáo lỗi này có %1 báo cáo trùng. Điều này có thể hiểu rằng đây "
-"là một <strong>lỗi thường gặp</strong>. <i>Hãy lưu ý chỉ thêm bình luận hoặc "
-"ghi chú nếu bạn có thể cung cấp thêm thông tin giá trị mới mà chưa từng được "
-"đề cập</i></note></p>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:869
-#, kde-kuit-format
-msgid ""
-"<p><note>This bug report is not about a crash or about any other critical "
-"bug.</note></p>"
-msgstr "<p><note>Báo cáo lỗi này không phải về một lỗi nào cả.</note></p>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:874
-#, kde-format
-msgctxt "@info bug report title (quoted)"
-msgid "<h3>\"%1\"</h3>"
-msgstr "<h3>\"%1\"</h3>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:875
-#, kde-format
-msgctxt "@info bug report status"
-msgid "<h4>Bug Report Status: %1</h4>"
-msgstr "<h4>Trạng thái báo cáo lỗi: %1</h4>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:876
-#, kde-format
-msgctxt "@info bug report product and component"
-msgid "<h4>Affected Component: %1 (%2)</h4>"
-msgstr "<h4>Thành phần bị ảnh hưởng: %1 (%2)</h4>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:877
-#, kde-format
-msgctxt "@info bug report description"
-msgid "<h3>Description of the bug</h3><p>%1</p>"
-msgstr "<h3>Mô tả lỗi</h3><p>%1</p>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:880
-#, kde-format
-msgctxt "@label:textbox bug report comments (already formatted)"
-msgid "<h2>Additional Comments</h2>%1"
-msgstr "<h2>Bình luận thêm</h2>%1"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:889
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Showing bug <numid>%1</numid>"
-msgctxt "@info:status"
-msgid "Showing bug %1"
-msgstr "Đang hiển thị lỗi <numid>%1</numid>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:921
-#, kde-kuit-format
-msgctxt "@info/rich"
-msgid ""
-"Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
-"some time and try again."
-msgstr ""
-"Lỗi khi lấy báo cáo lỗi <nl/><message>%1.</message><nl/>Hãy đợi một lát và "
-"thử lại."
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:926
-#, kde-format
-msgctxt "@info"
-msgid "Error fetching the bug report"
-msgstr "Lỗi lấy báo cáo lỗi"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:927
-#, kde-format
-msgctxt "@info:status"
-msgid "Error fetching the bug report"
-msgstr "Lỗi lấy báo cáo lỗi"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:967
-#, kde-format
-msgctxt "@title:window"
-msgid "Related Bug Report"
-msgstr "Báo cáo lỗi liên quan"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:970
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel (Go back to the report)"
-msgstr "Huỷ bỏ (Quay trở lại báo cáo)"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:974
-#, kde-format
-msgctxt "@action:button continue with the selected option and close the dialog"
-msgid "Continue"
-msgstr "Tiếp tục"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:981
-#, fuzzy, kde-format
-#| msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
-msgid "You are going to mark your crash as related to bug %1"
-msgstr ""
-"Bạn đang định đánh dấu lỗi của bạn có liên quan đến lỗi <numid>%1</numid>"
-
-#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:993
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The report is closed because %1. <i>If the crash is the same, adding further "
-"information will be useless and will consume developers' time.</i>"
-msgstr ""
-"Báo cáo bị đóng vì %1. <i>Nếu lỗi giống hệt, việc thêm thông tin sẽ trở nên "
-"vô ích và tiêu tốn thì giờ của các nhà phát triển.</i>"
-
-#: bugzillaintegration/reportinterface.cpp:169
+#: bugzillaintegration/reportinterface.cpp:170
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid ""
@@ -2474,6 +2457,13 @@ msgctxt "@option:check"
 msgid "Restart the application when clicking the Finish button"
 msgstr "Khởi động lại ứng dụng khi nhấn nút Kết thúc"
 
+#. i18n: status message while waiting for bugzilla
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bugzillaintegration/ui/assistantpage_bugzilla_supported_entities.ui:47
+#, kde-format
+msgid "Resolving Bugzilla Product"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: bugzillaintegration/ui/assistantpage_bugzilla_version.ui:47
 #, kde-format
@@ -2560,25 +2550,25 @@ msgid ""
 "packages."
 msgstr "Gặp lỗi khi đang cài đặt các gói biểu tượng gỡ lỗi."
 
-#: drkonqi.cpp:126
+#: drkonqi.cpp:147
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "Đã lưu báo cáo vào <filename>%1</filename>."
 
-#: drkonqi.cpp:128
+#: drkonqi.cpp:149
 #, kde-format
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
 msgstr "Không thể tạo tệp để lưu báo cáo."
 
-#: drkonqi.cpp:135
+#: drkonqi.cpp:156
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "Chọn tên tệp"
 
-#: drkonqi.cpp:163
+#: drkonqi.cpp:184
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
@@ -2767,47 +2757,47 @@ msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
 msgstr "Trình xử lí lỗi KDE phản hồi với người dùng khi một ứng dụng gặp lỗi."
 
-#: main.cpp:104
+#: main.cpp:113
 #, kde-format
 msgid "The KDE Crash Handler"
 msgstr "Trình xử lí lỗi KDE"
 
-#: main.cpp:108
+#: main.cpp:117
 #, fuzzy, kde-format
 #| msgid "(C) 2000-2009, The DrKonqi Authors"
 msgid "(C) 2000-2018, The DrKonqi Authors"
 msgstr "(C) 2000-2009, Các tác giả DrKonqi"
 
-#: main.cpp:109
+#: main.cpp:118
 #, kde-format
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "Hans Petter Bieker"
 
-#: main.cpp:110
+#: main.cpp:119
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dario Andres Rodriguez"
 msgstr "Dario Andres Rodriguez"
 
-#: main.cpp:111
+#: main.cpp:120
 #, kde-format
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: main.cpp:112
+#: main.cpp:121
 #, kde-format
 msgctxt "@info:credit"
 msgid "A. L. Spehr"
 msgstr "A. L. Spehr"
 
-#: main.cpp:119
+#: main.cpp:128
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The signal number that was caught"
@@ -2815,7 +2805,7 @@ msgctxt "@info:shell"
 msgid "The signal <number> that was caught"
 msgstr "Số hiệu tín hiệu bắt được"
 
-#: main.cpp:120
+#: main.cpp:129
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Name of the program"
@@ -2823,7 +2813,7 @@ msgctxt "@info:shell"
 msgid "<Name> of the program"
 msgstr "Tên của chương trình"
 
-#: main.cpp:121
+#: main.cpp:130
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Path to the executable"
@@ -2831,7 +2821,7 @@ msgctxt "@info:shell"
 msgid "<Path> to the executable"
 msgstr "Đường dẫn tới tệp thực thi"
 
-#: main.cpp:122
+#: main.cpp:131
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The version of the program"
@@ -2839,7 +2829,7 @@ msgctxt "@info:shell"
 msgid "The <version> of the program"
 msgstr "Phiên bản của chương trình"
 
-#: main.cpp:123
+#: main.cpp:132
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The bug address to use"
@@ -2847,7 +2837,7 @@ msgctxt "@info:shell"
 msgid "The bug <address> to use"
 msgstr "Địa chỉ thông báo lỗi"
 
-#: main.cpp:124
+#: main.cpp:133
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Translated name of the program"
@@ -2855,13 +2845,13 @@ msgctxt "@info:shell"
 msgid "Translated <name> of the program"
 msgstr "Tên đã dịch của chương trình"
 
-#: main.cpp:125
+#: main.cpp:134
 #, kde-format
 msgctxt "@info:shell"
 msgid "Bugzilla product name"
 msgstr ""
 
-#: main.cpp:126
+#: main.cpp:135
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The PID of the program"
@@ -2869,7 +2859,7 @@ msgctxt "@info:shell"
 msgid "The <PID> of the program"
 msgstr "PID của chương trình"
 
-#: main.cpp:127
+#: main.cpp:136
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Startup ID of the program"
@@ -2877,31 +2867,31 @@ msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
 msgstr "ID khởi chạy của chương trình"
 
-#: main.cpp:128
+#: main.cpp:137
 #, kde-format
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "Chuơng trình được kdeinit khởi chạy"
 
-#: main.cpp:129
+#: main.cpp:138
 #, kde-format
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "Tắt bỏ truy cập đĩa tuỳ ý"
 
-#: main.cpp:130
+#: main.cpp:139
 #, kde-format
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr "Chương trình đã được khởi động lại"
 
-#: main.cpp:133
+#: main.cpp:142
 #, kde-format
 msgctxt "@info:shell"
 msgid "Keep the program running and generate the backtrace at startup"
 msgstr "Giữ chương trình chạy tiếp và tạo backtrace khi khởi động"
 
-#: main.cpp:135
+#: main.cpp:144
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The thread id of the failing thread"
@@ -2909,50 +2899,50 @@ msgctxt "@info:shell"
 msgid "The <thread id> of the failing thread"
 msgstr "ID luồng của luồng lỗi"
 
-#: main.cpp:136
+#: main.cpp:145
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not show a notification but launch the debug dialog directly"
 msgstr ""
 
-#: statusnotifier.cpp:36
+#: statusnotifier.cpp:35
 #, kde-format
 msgctxt "Placeholder is an application name; it crashed"
 msgid "%1 Closed Unexpectedly"
 msgstr ""
 
-#: statusnotifier.cpp:66
+#: statusnotifier.cpp:65
 #, kde-format
 msgid "Please report this error to help improve this software."
 msgstr ""
 
-#: statusnotifier.cpp:73
+#: statusnotifier.cpp:72
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
 msgid "Report &Bug"
 msgstr "Báo cáo lỗi"
 
-#: statusnotifier.cpp:79
+#: statusnotifier.cpp:78
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
 msgid "&Restart Application"
 msgstr "Khởi động lại ứng dụng"
 
-#: statusnotifier.cpp:90
+#: statusnotifier.cpp:89
 #, kde-format
 msgctxt "Allows the user to hide this notifier item"
 msgid "Hide"
 msgstr ""
 
-#: statusnotifier.cpp:133
+#: statusnotifier.cpp:132
 #, kde-format
 msgctxt "Notification text"
 msgid "Please report this error to help improve this software."
 msgstr ""
 
-#: statusnotifier.cpp:134
+#: statusnotifier.cpp:133
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -2964,7 +2954,7 @@ msgstr ""
 "<para>Chúng tôi rất tiếc, <application>%1</application> đã thoát không mong "
 "đợi.</para>"
 
-#: statusnotifier.cpp:145
+#: statusnotifier.cpp:144
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
@@ -2972,7 +2962,7 @@ msgctxt "Notification action button, keep short"
 msgid "Report Bug"
 msgstr "Báo cáo lỗi"
 
-#: statusnotifier.cpp:148
+#: statusnotifier.cpp:147
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
@@ -2985,3 +2975,28 @@ msgstr "Khởi động lại ứng dụng"
 #, kde-format
 msgid "Show backtrace content (advanced)"
 msgstr "Hiện nội dung backtrace (nâng cao)"
+
+#~ msgctxt "@item:intable custom/manaul bug report number"
+#~ msgid "Manual"
+#~ msgstr "Bằng tay"
+
+#~ msgctxt "@item:intable custom bug report number description"
+#~ msgid "Manually enter a bug report ID"
+#~ msgstr "Tự nhập một ID báo cáo lỗi"
+
+#~ msgctxt "@info:tooltip / whatsthis"
+#~ msgid "Select this option to manually load a specific bug report"
+#~ msgstr "Chọn tuỳ chọn này để tự tải một báo cáo lỗi cụ thể"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enter a custom bug report number"
+#~ msgstr "Nhập một số hiệu báo cáo lỗi"
+
+#~ msgctxt "@label"
+#~ msgid "Enter the number of the bug report you want to check"
+#~ msgstr "Nhập số hiệu báo cáo lỗi mà bạn muốn kiểm tra"
+
+#~ msgid ""
+#~ "<p><note>This bug report is not about a crash or about any other critical "
+#~ "bug.</note></p>"
+#~ msgstr "<p><note>Báo cáo lỗi này không phải về một lỗi nào cả.</note></p>"

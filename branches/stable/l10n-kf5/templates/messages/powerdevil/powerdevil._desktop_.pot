@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-26 01:48+0000\n"
+"POT-Creation-Date: 2021-09-08 00:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -61,12 +61,22 @@ msgctxt "Comment"
 msgid "Basic Controls for the keyboard backlight brightness"
 msgstr ""
 
+#: daemon/actions/bundled/powerdevilpowerprofileaction.desktop:5
+msgctxt "Name"
+msgid "Power management profile"
+msgstr ""
+
+#: daemon/actions/bundled/powerdevilpowerprofileaction.desktop:34
+msgctxt "Comment"
+msgid "Apply a power management profile"
+msgstr ""
+
 #: daemon/actions/bundled/powerdevilrunscriptaction.desktop:6
 msgctxt "Name"
 msgid "Run script"
 msgstr ""
 
-#: daemon/actions/bundled/powerdevilrunscriptaction.desktop:55
+#: daemon/actions/bundled/powerdevilrunscriptaction.desktop:56
 msgctxt "Comment"
 msgid "Runs a custom script"
 msgstr ""
@@ -86,7 +96,7 @@ msgctxt "Name"
 msgid "Wireless"
 msgstr ""
 
-#: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:51
+#: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:52
 msgctxt "Comment"
 msgid "Turns off signal-transmitting devices"
 msgstr ""
@@ -108,33 +118,33 @@ msgctxt "Name"
 msgid "Get maximum brightness value"
 msgstr ""
 
-#: daemon/backends/upower/backlight_helper_actions.actions:103
-#: daemon/backends/upower/backlight_helper_actions.actions:204
+#: daemon/backends/upower/backlight_helper_actions.actions:104
+#: daemon/backends/upower/backlight_helper_actions.actions:205
 msgctxt "Description"
 msgid "System policies prevent you from getting the brightness level."
 msgstr ""
 
-#: daemon/backends/upower/backlight_helper_actions.actions:155
+#: daemon/backends/upower/backlight_helper_actions.actions:156
 msgctxt "Name"
 msgid "Get brightness"
 msgstr ""
 
-#: daemon/backends/upower/backlight_helper_actions.actions:256
+#: daemon/backends/upower/backlight_helper_actions.actions:257
 msgctxt "Name"
 msgid "Set brightness"
 msgstr ""
 
-#: daemon/backends/upower/backlight_helper_actions.actions:305
+#: daemon/backends/upower/backlight_helper_actions.actions:306
 msgctxt "Description"
 msgid "System policies prevent you from setting the brightness level."
 msgstr ""
 
-#: daemon/backends/upower/backlight_helper_actions.actions:356
+#: daemon/backends/upower/backlight_helper_actions.actions:357
 msgctxt "Name"
 msgid "Get syspath"
 msgstr ""
 
-#: daemon/backends/upower/backlight_helper_actions.actions:402
+#: daemon/backends/upower/backlight_helper_actions.actions:403
 msgctxt "Description"
 msgid "System policies prevent you from getting the syspath"
 msgstr ""
@@ -144,7 +154,7 @@ msgctxt "Name"
 msgid "Check existence of discrete gpu"
 msgstr ""
 
-#: daemon/backends/upower/discretegpu_helper_actions.actions:98
+#: daemon/backends/upower/discretegpu_helper_actions.actions:99
 msgctxt "Description"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
@@ -155,7 +165,7 @@ msgctxt "Name"
 msgid "UPower PowerDevil Backend"
 msgstr ""
 
-#: daemon/backends/upower/powerdevilupowerbackend.desktop:52
+#: daemon/backends/upower/powerdevilupowerbackend.desktop:53
 msgctxt "Comment"
 msgid "Use KDE Power Management system through freedesktop.org upower daemon"
 msgstr ""
@@ -165,18 +175,18 @@ msgctxt "Name"
 msgid "Get current battery charge limit"
 msgstr ""
 
-#: daemon/chargethreshold_helper_actions.actions:86
+#: daemon/chargethreshold_helper_actions.actions:87
 msgctxt "Description"
 msgid ""
 "System policies prevent you from getting the current battery charge limit."
 msgstr ""
 
-#: daemon/chargethreshold_helper_actions.actions:122
+#: daemon/chargethreshold_helper_actions.actions:124
 msgctxt "Name"
 msgid "Set battery charge limit"
 msgstr ""
 
-#: daemon/chargethreshold_helper_actions.actions:154
+#: daemon/chargethreshold_helper_actions.actions:157
 msgctxt "Description"
 msgid "System policies prevent you from setting a battery charge limit."
 msgstr ""
@@ -196,16 +206,19 @@ msgctxt "Name"
 msgid "Activity Power Settings"
 msgstr ""
 
-#: kcmodule/activities/powerdevilactivitiesconfig.desktop:44
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:45
 msgctxt "Comment"
 msgid "Per-Activity Power Management"
 msgstr ""
 
-#: kcmodule/activities/powerdevilactivitiesconfig.desktop:92
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:93
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
-"hibernate,brightness,performance,lid,activity,activities"
+"suspending,hibernating,hibernate,brightness,performance,lid,power saving,"
+"charging,charge,discharge,discharging,dim screen,sleep,lock screen,"
+"lockscreen,turn screen off,turn off,power button,power buttons,low battery,"
+"plug,unplug,activity,activities,workspaces,workspace,special behavior"
 msgstr ""
 
 #: kcmodule/global/powerdevilglobalconfig.desktop:13
@@ -213,17 +226,18 @@ msgctxt "Name"
 msgid "Advanced Power Settings"
 msgstr ""
 
-#: kcmodule/global/powerdevilglobalconfig.desktop:44
+#: kcmodule/global/powerdevilglobalconfig.desktop:45
 msgctxt "Comment"
 msgid "Advanced Power Management Settings"
 msgstr ""
 
-#: kcmodule/global/powerdevilglobalconfig.desktop:93
+#: kcmodule/global/powerdevilglobalconfig.desktop:94
 msgctxt "X-KDE-Keywords"
 msgid ""
-"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
-"hibernate,brightness,performance,lid,levels,critical,charge,charging,limit, "
-"charge limit, charging limit"
+"system,power,power management,advanced,energy,laptop,battery,suspension,AC,"
+"suspend,hibernate,lid,charge,charging,limit,charge limit,charging limit,"
+"suspending,hibernating,discharge,discharging,turn off,battery levels,low "
+"battery,low level,critical level,power notifications"
 msgstr ""
 
 #: kcmodule/profiles/powerdevilprofilesconfig.desktop:13
@@ -240,7 +254,10 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
-"hibernate,brightness,performance,lid,screen"
+"suspending,hibernating,hibernate,brightness,performance,lid,power saving,"
+"charging,charge,discharge,discharging,dim screen,sleep,lock screen,"
+"lockscreen,turn screen off,turn off,power button,power buttons,low battery,"
+"plug,unplug"
 msgstr ""
 
 #: powerdevil.notifyrc:52
@@ -316,27 +333,27 @@ msgctxt "Name"
 msgid "Peripheral Battery Low"
 msgstr ""
 
-#: powerdevil.notifyrc:749
+#: powerdevil.notifyrc:750
 msgctxt "Comment"
 msgid "The battery in a connected device, such as mouse or keyboard, is low"
 msgstr ""
 
-#: powerdevil.notifyrc:799
+#: powerdevil.notifyrc:801
 msgctxt "Name"
 msgid "Power source connected"
 msgstr ""
 
-#: powerdevil.notifyrc:831
+#: powerdevil.notifyrc:834
 msgctxt "Comment"
 msgid "The power source has been connected"
 msgstr ""
 
-#: powerdevil.notifyrc:869
+#: powerdevil.notifyrc:873
 msgctxt "Name"
 msgid "Power source disconnected"
 msgstr ""
 
-#: powerdevil.notifyrc:901
+#: powerdevil.notifyrc:906
 msgctxt "Comment"
 msgid "The power source has been disconnected"
 msgstr ""

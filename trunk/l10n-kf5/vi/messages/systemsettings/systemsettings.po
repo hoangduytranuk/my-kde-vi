@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-13 00:20+0000\n"
+"POT-Creation-Date: 2021-09-28 00:19+0000\n"
 "PO-Revision-Date: 2021-07-30 09:51+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -28,136 +28,111 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net,herophuong93@gmail.com"
 
-#. i18n: ectx: property (title), widget (QGroupBox, GbViewStyle)
-#: app/configDialog.ui:9
-#, kde-format
-msgid "View Style"
-msgstr "Kiểu cách xem"
-
-#. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
-#: app/configDialog.ui:16
-#, kde-format
-msgid "Show detailed tooltips"
-msgstr "Hiện chú giải chi tiết"
-
-#: app/main.cpp:82 app/SettingsBase.cpp:63
+#: app/main.cpp:86 app/SettingsBase.cpp:63
 #, kde-format
 msgid "Info Center"
 msgstr "Trung tâm thông tin"
 
-#: app/main.cpp:84
+#: app/main.cpp:88
 #, kde-format
 msgid "Centralized and convenient overview of system information."
 msgstr "Phần tổng quan tập trung và tiện lợi về thông tin hệ thống."
 
-#: app/main.cpp:86 app/main.cpp:97 icons/IconMode.cpp:60
+#: app/main.cpp:90 app/main.cpp:101 icons/IconMode.cpp:60
 #, kde-format
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) 2009, Ben Cooksley"
 
-#: app/main.cpp:93 app/SettingsBase.cpp:66 runner/systemsettingsrunner.cpp:187
+#: app/main.cpp:97 app/SettingsBase.cpp:66 runner/systemsettingsrunner.cpp:187
 #: sidebar/package/contents/ui/introPage.qml:63
 #, kde-format
 msgid "System Settings"
 msgstr "Thiết lập hệ thống"
 
-#: app/main.cpp:95
+#: app/main.cpp:99
 #, kde-format
 msgid "Central configuration center by KDE."
 msgstr "Trung tâm cấu hình trung ương, do KDE."
 
-#: app/main.cpp:108 icons/IconMode.cpp:61 sidebar/SidebarMode.cpp:287
+#: app/main.cpp:112 icons/IconMode.cpp:61 sidebar/SidebarMode.cpp:287
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "Ben Cooksley"
 
-#: app/main.cpp:108
+#: app/main.cpp:112
 #, kde-format
 msgid "Maintainer"
 msgstr "Bảo trì viên"
 
-#: app/main.cpp:109 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
+#: app/main.cpp:113 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "Mathias Soeken"
 
-#: app/main.cpp:109 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
+#: app/main.cpp:113 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:288
 #, kde-format
 msgid "Developer"
 msgstr "Nhà phát triển"
 
-#: app/main.cpp:110
+#: app/main.cpp:114
 #, kde-format
 msgid "Will Stephenson"
 msgstr "Will Stephenson"
 
-#: app/main.cpp:110
+#: app/main.cpp:114
 #, kde-format
 msgid "Internal module representation, internal module model"
 msgstr "Biểu diễn khối nội bộ, mẫu khối nội bộ"
 
-#: app/main.cpp:118
+#: app/main.cpp:122
 #, kde-format
 msgid "List all possible modules"
 msgstr "Liệt kê tất cả các khối có thể"
 
-#: app/main.cpp:119 app/main.cpp:182
+#: app/main.cpp:123 app/main.cpp:186
 #, kde-format
 msgid "Configuration module to open"
 msgstr "Khối cấu hình để mở"
 
-#: app/main.cpp:120 app/main.cpp:183
+#: app/main.cpp:124 app/main.cpp:187
 #, kde-format
 msgid "Arguments for the module"
 msgstr "Đối số cho khối"
 
-#: app/main.cpp:128
+#: app/main.cpp:132
 #, kde-format
 msgid "The following modules are available:"
 msgstr "Hiện có các khối sau:"
 
-#: app/main.cpp:145
+#: app/main.cpp:149
 #, kde-format
 msgid "No description available"
 msgstr "Không có mô tả"
 
-#: app/SettingsBase.cpp:55
+#: app/SettingsBase.cpp:57
 #, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: app/SettingsBase.cpp:164
-#, kde-format
-msgid "Configure…"
-msgstr "Cấu hình…"
+#: app/SettingsBase.cpp:168
+#, fuzzy, kde-format
+#| msgid "Icon View"
+msgid "Switch to Icon View"
+msgstr "Kiểu xem biểu tượng"
 
-#: app/SettingsBase.cpp:195
+#: app/SettingsBase.cpp:175
+#, fuzzy, kde-format
+#| msgid "Sidebar View"
+msgid "Switch to Sidebar View"
+msgstr "Kiểu xem thanh bên"
+
+#: app/SettingsBase.cpp:203
 #, kde-format
 msgid "Help"
 msgstr "Trợ giúp"
 
-#: app/SettingsBase.cpp:212
-#, kde-format
-msgctxt "General config for System Settings"
-msgid "General"
-msgstr "Chung"
-
-#: app/SettingsBase.cpp:339
-#, kde-format
-msgid ""
-"System Settings was unable to find any views, and hence nothing is available "
-"to configure."
-msgstr ""
-"Thiết lập hệ thống không thể tìm thấy bất kì khung xem nào, và thế nên không "
-"có gì để cấu hình cả."
-
-#: app/SettingsBase.cpp:339 app/SettingsBase.cpp:400
-#, kde-format
-msgid "No views found"
-msgstr "Không tìm thấy khung xem nào."
-
-#: app/SettingsBase.cpp:400
+#: app/SettingsBase.cpp:341
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
@@ -166,24 +141,23 @@ msgstr ""
 "Thiết lập hệ thống không thể tìm thấy bất kì khung xem nào, và thế nên không "
 "có gì để hiển thị cả."
 
-#: app/SettingsBase.cpp:434
+#: app/SettingsBase.cpp:341
+#, kde-format
+msgid "No views found"
+msgstr "Không tìm thấy khung xem nào."
+
+#: app/SettingsBase.cpp:372
 #, kde-format
 msgid "About Active View"
 msgstr "Về kiểu xem đang dùng"
 
-#: app/SettingsBase.cpp:503
+#: app/SettingsBase.cpp:438
 #, kde-format
 msgid "About %1"
 msgstr "Về %1"
 
-#. i18n: ectx: label, entry (ShowToolTips), group (Main)
-#: app/systemsettings.kcfg:9
-#, kde-format
-msgid "Determines whether detailed tooltips should be used"
-msgstr "Xác định việc có nên dùng chú giải chi tiết không"
-
 #. i18n: ectx: label, entry (ActiveView), group (Main)
-#: app/systemsettings.kcfg:13
+#: app/systemsettings.kcfg:9
 #, kde-format
 msgid "Internal name for the view used"
 msgstr "Tên nội bộ cho kiểu xem được dùng"
@@ -216,12 +190,12 @@ msgstr "Khởi chạy lại %1"
 msgid "Dialog"
 msgstr "Hộp thoại"
 
-#: core/ModuleView.cpp:167
+#: core/ModuleView.cpp:168
 #, kde-format
 msgid "Reset all current changes to previous values"
 msgstr "Đặt lại tất cả các thay đổi hiện tại về giá trị trước"
 
-#: core/ModuleView.cpp:319
+#: core/ModuleView.cpp:321
 #, kde-format
 msgid ""
 "The settings of the current module have changed.\n"
@@ -230,7 +204,7 @@ msgstr ""
 "Thiết lập cho khối hiện tại đã thay đổi.\n"
 "Bạn muốn áp dụng hay loại bỏ các thay đổi?"
 
-#: core/ModuleView.cpp:321
+#: core/ModuleView.cpp:323
 #, kde-format
 msgid "Apply Settings"
 msgstr "Áp dụng thiết lập"
@@ -274,22 +248,22 @@ msgstr "Tìm các khối thiết lập hệ thống mà tên hoặc mô tả kh�
 
 #: sidebar/package/contents/ui/CategoriesPage.qml:57
 #, kde-format
-msgid "Show menu"
-msgstr "Hiện trình đơn"
-
-#: sidebar/package/contents/ui/CategoriesPage.qml:83
-#, kde-format
 msgid "Show intro page"
 msgstr "Hiện trang giới thiệu"
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:94
+#: sidebar/package/contents/ui/CategoriesPage.qml:84
+#, kde-format
+msgid "Show menu"
+msgstr "Hiện trình đơn"
+
+#: sidebar/package/contents/ui/CategoriesPage.qml:97
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
 msgstr "Không mục nào khớp với tìm kiếm"
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:193
-#: sidebar/package/contents/ui/SubCategoryPage.qml:182
+#: sidebar/package/contents/ui/CategoriesPage.qml:206
+#: sidebar/package/contents/ui/SubCategoryPage.qml:199
 #, kde-format
 msgctxt ""
 "Action to show indicators for settings with custom data. Use as short a "
@@ -352,6 +326,29 @@ msgstr "Dùng nhiều nhất"
 msgid "<i>Contains 1 item</i>"
 msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] "<i>Chứa %1 mục</i>"
+
+#~ msgid "View Style"
+#~ msgstr "Kiểu cách xem"
+
+#~ msgid "Show detailed tooltips"
+#~ msgstr "Hiện chú giải chi tiết"
+
+#~ msgid "Configure…"
+#~ msgstr "Cấu hình…"
+
+#~ msgctxt "General config for System Settings"
+#~ msgid "General"
+#~ msgstr "Chung"
+
+#~ msgid ""
+#~ "System Settings was unable to find any views, and hence nothing is "
+#~ "available to configure."
+#~ msgstr ""
+#~ "Thiết lập hệ thống không thể tìm thấy bất kì khung xem nào, và thế nên "
+#~ "không có gì để cấu hình cả."
+
+#~ msgid "Determines whether detailed tooltips should be used"
+#~ msgstr "Xác định việc có nên dùng chú giải chi tiết không"
 
 #~ msgctxt "Action to show indicators for settings with custom data"
 #~ msgid "Highlight Changed Settings"

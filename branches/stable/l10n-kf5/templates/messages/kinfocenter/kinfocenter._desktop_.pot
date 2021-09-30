@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 01:45+0000\n"
+"POT-Creation-Date: 2021-09-17 01:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,13 +57,30 @@ msgid "about,info,information,distribution,distro,system,kernel,qt,kde"
 msgstr ""
 
 #: Modules/about-distro/src/about-distro.desktop:53
+#: Modules/about-distro/src/package/metadata.desktop:14
 msgctxt "Name"
-msgid "System Information"
+msgid "About this System"
 msgstr ""
 
-#: Modules/about-distro/src/about-distro.desktop:90
+#: Modules/about-distro/src/about-distro.desktop:80
+#: Modules/about-distro/src/package/metadata.desktop:42
 msgctxt "Comment"
 msgid "Information About This System"
+msgstr ""
+
+#: Modules/cpu/kcm_cpu.desktop:15 Modules/cpu/package/metadata.desktop:14
+msgctxt "Name"
+msgid "CPU"
+msgstr ""
+
+#: Modules/cpu/kcm_cpu.desktop:39 Modules/cpu/package/metadata.desktop:38
+msgctxt "Comment"
+msgid "Advanced CPU Information"
+msgstr ""
+
+#: Modules/cpu/kcm_cpu.desktop:63 Modules/cpu/package/metadata.desktop:62
+msgctxt "X-KDE-Keywords"
+msgid "cpu,amd,intel,arm,instructions,cores,architecture,byte order"
 msgstr ""
 
 #: Modules/devinfo/devinfo.desktop:13
@@ -121,21 +138,6 @@ msgctxt "X-KDE-Keywords"
 msgid "dma,DMA-Channels,System Information"
 msgstr ""
 
-#: Modules/info/interrupts.desktop:14
-msgctxt "Name"
-msgid "Interrupts"
-msgstr ""
-
-#: Modules/info/interrupts.desktop:107
-msgctxt "Comment"
-msgid "Interrupt information"
-msgstr ""
-
-#: Modules/info/interrupts.desktop:200
-msgctxt "X-KDE-Keywords"
-msgid "Interrupts,IRQ,System Information"
-msgstr ""
-
 #: Modules/info/ioports.desktop:14
 msgctxt "Name"
 msgid "IO-Ports"
@@ -151,21 +153,6 @@ msgctxt "X-KDE-Keywords"
 msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
 msgstr ""
 
-#: Modules/info/wayland.desktop:12
-msgctxt "Name"
-msgid "Wayland"
-msgstr ""
-
-#: Modules/info/wayland.desktop:61
-msgctxt "Comment"
-msgid "Information about the Wayland Compositor"
-msgstr ""
-
-#: Modules/info/wayland.desktop:110
-msgctxt "X-KDE-Keywords"
-msgid "Wayland,Compositor,Display,System Information"
-msgstr ""
-
 #: Modules/info/xserver.desktop:13
 msgctxt "Name"
 msgid "X-Server"
@@ -179,6 +166,24 @@ msgstr ""
 #: Modules/info/xserver.desktop:200
 msgctxt "X-KDE-Keywords"
 msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgstr ""
+
+#: Modules/interrupts/kcm_interrupts.desktop:14
+#: Modules/interrupts/package/metadata.desktop:14
+msgctxt "Name"
+msgid "Interrupts"
+msgstr ""
+
+#: Modules/interrupts/kcm_interrupts.desktop:107
+#: Modules/interrupts/package/metadata.desktop:107
+msgctxt "Comment"
+msgid "Interrupt information"
+msgstr ""
+
+#: Modules/interrupts/kcm_interrupts.desktop:200
+#: Modules/interrupts/package/metadata.desktop:200
+msgctxt "X-KDE-Keywords"
+msgid "Interrupts,IRQ,System Information"
 msgstr ""
 
 #: Modules/memory/kcm_memory.desktop:13
@@ -245,7 +250,7 @@ msgctxt "X-KDE-Keywords"
 msgid "PCI,PCI-Devices,PCI-Bus,System Information"
 msgstr ""
 
-#: Modules/samba/package/metadata.desktop:2 Modules/samba/smbstatus.desktop:12
+#: Modules/samba/package/metadata.desktop:4 Modules/samba/smbstatus.desktop:12
 msgctxt "Name"
 msgid "Samba Status"
 msgstr ""
@@ -288,6 +293,42 @@ msgstr ""
 #: Modules/view1394/kcmview1394.desktop:191
 msgctxt "X-KDE-Keywords"
 msgid "1394,Firewire,devices,viewer,control"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.desktop:15
+#: Modules/vulkan/package/metadata.desktop:18
+msgctxt "Name"
+msgid "Vulkan"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.desktop:39
+#: Modules/vulkan/package/metadata.desktop:42
+msgctxt "Comment"
+msgid "Vulkan graphics API information"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.desktop:63
+#: Modules/vulkan/package/metadata.desktop:66
+msgctxt "X-KDE-Keywords"
+msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
+msgstr ""
+
+#: Modules/wayland/kcm_wayland.desktop:15
+#: Modules/wayland/package/metadata.desktop:14
+msgctxt "Name"
+msgid "Wayland"
+msgstr ""
+
+#: Modules/wayland/kcm_wayland.desktop:64
+#: Modules/wayland/package/metadata.desktop:63
+msgctxt "Comment"
+msgid "Information about the Wayland Compositor"
+msgstr ""
+
+#: Modules/wayland/kcm_wayland.desktop:113
+#: Modules/wayland/package/metadata.desktop:112
+msgctxt "X-KDE-Keywords"
+msgid "Wayland,Compositor,Display,System Information"
 msgstr ""
 
 #: org.kde.kinfocenter.desktop:9

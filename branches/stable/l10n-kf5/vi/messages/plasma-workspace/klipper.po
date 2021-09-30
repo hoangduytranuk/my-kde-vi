@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-07 00:20+0000\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
 "PO-Revision-Date: 2021-07-30 09:58+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -53,7 +53,7 @@ msgid "Regular Expression"
 msgstr "Biểu thức chính quy"
 
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:54 editactiondialog.cpp:225
+#: actionsconfig.ui:54 editactiondialog.cpp:211
 #, kde-format
 msgid "Description"
 msgstr "Mô tả"
@@ -62,13 +62,13 @@ msgstr "Mô tả"
 #: actionsconfig.ui:64
 #, kde-format
 msgid "Add Action..."
-msgstr "Thêm hành động..."
+msgstr "Thêm hành động…"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
 #: actionsconfig.ui:71
 #, kde-format
 msgid "Edit Action..."
-msgstr "Sửa hành động..."
+msgstr "Sửa hành động…"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
 #: actionsconfig.ui:78
@@ -80,7 +80,7 @@ msgstr "Xoá hành động"
 #: actionsconfig.ui:85
 #, kde-format
 msgid "Advanced..."
-msgstr "Nâng cao..."
+msgstr "Nâng cao…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: actionsconfig.ui:94
@@ -96,62 +96,62 @@ msgstr ""
 "quy, bạn có thể xem <a href=\"https://en.wikipedia.org/wiki/"
 "Regular_expression\">bài này trên Wikipedia</a>."
 
-#: configdialog.cpp:37
+#: configdialog.cpp:24
 #, kde-format
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " giây"
 
-#: configdialog.cpp:38
+#: configdialog.cpp:25
 #, kde-format
 msgid " entry"
 msgid_plural " entries"
 msgstr[0] " mục"
 
-#: configdialog.cpp:248
+#: configdialog.cpp:235
 #, kde-format
 msgid "Advanced Settings"
 msgstr "Thiết lập nâng cao"
 
-#: configdialog.cpp:272
+#: configdialog.cpp:259
 #, kde-format
 msgctxt "General Config"
 msgid "General"
 msgstr "Chung"
 
-#: configdialog.cpp:272
+#: configdialog.cpp:259
 #, kde-format
 msgid "General Configuration"
 msgstr "Cấu hình chung"
 
-#: configdialog.cpp:273
+#: configdialog.cpp:260
 #, kde-format
 msgctxt "Actions Config"
 msgid "Actions"
 msgstr "Hành động"
 
-#: configdialog.cpp:273
+#: configdialog.cpp:260
 #, kde-format
 msgid "Actions Configuration"
 msgstr "Cấu hình hành động"
 
-#: configdialog.cpp:276
+#: configdialog.cpp:263
 #, kde-format
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr "Phím tắt"
 
-#: configdialog.cpp:276
+#: configdialog.cpp:263
 #, kde-format
 msgid "Shortcuts Configuration"
 msgstr "Cấu hình phím tắt"
 
-#: configdialog.cpp:334
+#: configdialog.cpp:321
 #, kde-format
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr "&Vô hiệu hoá hành động cho các cửa sổ thuộc kiểu WM_CLASS"
 
-#: configdialog.cpp:343
+#: configdialog.cpp:330
 #, kde-format
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
@@ -166,42 +166,42 @@ msgstr ""
 "đó. Tiếp theo, bấm vào cửa sổ mà bạn muốn kiểm tra. Chuỗi đầu tiên được đưa "
 "ra sau dấu bằng là cái bạn cần nhập vào đây.</qt>"
 
-#: editactiondialog.cpp:41
+#: editactiondialog.cpp:27
 #, kde-format
 msgid "Ignore"
 msgstr "Bỏ qua"
 
-#: editactiondialog.cpp:43
+#: editactiondialog.cpp:29
 #, kde-format
 msgid "Replace Clipboard"
 msgstr "Thay trong bảng nháp"
 
-#: editactiondialog.cpp:45
+#: editactiondialog.cpp:31
 #, kde-format
 msgid "Add to Clipboard"
 msgstr "Thêm vào bảng nháp"
 
-#: editactiondialog.cpp:221
+#: editactiondialog.cpp:207
 #, kde-format
 msgid "Command"
 msgstr "Lệnh"
 
-#: editactiondialog.cpp:223
+#: editactiondialog.cpp:209
 #, kde-format
 msgid "Output Handling"
 msgstr "Xử lí đầu ra"
 
-#: editactiondialog.cpp:265
+#: editactiondialog.cpp:251
 #, kde-format
 msgid "Action Properties"
 msgstr "Các thuộc tính của hành động"
 
-#: editactiondialog.cpp:370
+#: editactiondialog.cpp:356
 #, kde-format
 msgid "new command"
 msgstr "lệnh mới"
 
-#: editactiondialog.cpp:370
+#: editactiondialog.cpp:356
 #, kde-format
 msgid "Command Description"
 msgstr "Mô tả lệnh"
@@ -310,63 +310,63 @@ msgstr "Thời gian hiện ô bật lên cho các hành động:"
 msgid "Clipboard history size:"
 msgstr "Kích thước lịch sử bảng nháp:"
 
-#: historyimageitem.cpp:51
+#: historyimageitem.cpp:38
 #, kde-format
 msgid "%1x%2 %3bpp"
 msgstr "%1x%2 %3bpp"
 
-#: klipper.cpp:130
+#: klipper.cpp:117
 #, kde-format
 msgid "Enable Clipboard Actions"
 msgstr "Bật hành động bảng nháp"
 
-#: klipper.cpp:153
+#: klipper.cpp:140
 #, kde-format
 msgid "C&lear Clipboard History"
 msgstr "&Xoá lịch sử bảng nháp"
 
-#: klipper.cpp:160
+#: klipper.cpp:147
 #, kde-format
-msgid "&Configure Klipper..."
-msgstr "&Cấu hình Klipper..."
+msgid "&Configure Klipper…"
+msgstr "&Cấu hình Klipper…"
 
-#: klipper.cpp:166
+#: klipper.cpp:153
 #, kde-format
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "Th&oát"
 
-#: klipper.cpp:171
+#: klipper.cpp:158
 #, kde-format
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Gọi hành động trên bảng nháp hiện thời một cách thủ công"
 
-#: klipper.cpp:178
+#: klipper.cpp:165
 #, kde-format
-msgid "&Edit Contents..."
-msgstr "&Sửa nội dung..."
+msgid "&Edit Contents…"
+msgstr "&Sửa nội dung…"
 
-#: klipper.cpp:186
+#: klipper.cpp:173
 #, kde-format
-msgid "&Show Barcode..."
-msgstr "Hiện mã &vạch..."
+msgid "&Show Barcode…"
+msgstr "Hiện mã &vạch…"
 
-#: klipper.cpp:194
+#: klipper.cpp:181
 #, kde-format
 msgid "Next History Item"
 msgstr "Mục lịch sử sau"
 
-#: klipper.cpp:198
+#: klipper.cpp:185
 #, kde-format
 msgid "Previous History Item"
 msgstr "Mục lịch sử trước"
 
-#: klipper.cpp:204
+#: klipper.cpp:191
 #, kde-format
 msgid "Open Klipper at Mouse Position"
 msgstr "Mở Klipper tại vị trí con trỏ chuột"
 
-#: klipper.cpp:488
+#: klipper.cpp:475
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -376,62 +376,62 @@ msgstr ""
 "Bạn có thể bật các hành động cho URL về sau ở trong trang <interface>Hành "
 "động</interface> của cửa sổ cấu hình tiểu ứng dụng bảng nháp"
 
-#: klipper.cpp:523
+#: klipper.cpp:510
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "Klipper tự động chạy khi bạn đăng nhập?"
 
-#: klipper.cpp:524
+#: klipper.cpp:511
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "Tự động chạy Klipper?"
 
-#: klipper.cpp:525
+#: klipper.cpp:512
 #, kde-format
 msgid "Start"
 msgstr "Chạy"
 
-#: klipper.cpp:526
+#: klipper.cpp:513
 #, kde-format
 msgid "Do Not Start"
 msgstr "Không chạy"
 
-#: klipper.cpp:873
+#: klipper.cpp:860
 #, kde-format
 msgid "Edit Contents"
 msgstr "Sửa nội dung"
 
-#: klipper.cpp:940
+#: klipper.cpp:927
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "Mã vạch điện thoại"
 
-#: klipper.cpp:987
+#: klipper.cpp:974
 #, kde-format
 msgid "Really delete entire clipboard history?"
 msgstr "Thực sự xoá toàn bộ lịch sử bảng nháp?"
 
-#: klipper.cpp:988
+#: klipper.cpp:975
 #, kde-format
 msgid "Delete clipboard history?"
 msgstr "Xoá lịch sử bảng nháp?"
 
-#: klipper.cpp:1004 klipper.cpp:1013
+#: klipper.cpp:991 klipper.cpp:1000
 #, kde-format
 msgid "Clipboard history"
 msgstr "Lịch sử bảng nháp"
 
-#: klipper.cpp:1030
+#: klipper.cpp:1017
 #, kde-format
 msgid "up"
 msgstr "lên"
 
-#: klipper.cpp:1037
+#: klipper.cpp:1024
 #, kde-format
 msgid "current"
 msgstr "hiện tại"
 
-#: klipper.cpp:1044
+#: klipper.cpp:1031
 #, kde-format
 msgid "down"
 msgstr "xuống"
@@ -593,37 +593,37 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "Lặp lại hành động trong lịch sử"
 
-#: klipperpopup.cpp:73 tray.cpp:38 tray.cpp:54
+#: klipperpopup.cpp:60 tray.cpp:25 tray.cpp:41
 #, kde-format
 msgid "Clipboard is empty"
 msgstr "Bảng nháp trống"
 
-#: klipperpopup.cpp:74
+#: klipperpopup.cpp:61
 #, kde-format
 msgid "No matches"
 msgstr "Không có mục khớp"
 
-#: klipperpopup.cpp:125
+#: klipperpopup.cpp:112
 #, kde-format
 msgid "Klipper - Clipboard Tool"
 msgstr "Klipper - công cụ bảng nháp"
 
-#: klipperpopup.cpp:129
+#: klipperpopup.cpp:116
 #, kde-format
-msgid "Search..."
-msgstr "Tìm kiếm..."
+msgid "Search…"
+msgstr "Tìm kiếm…"
 
-#: klipperpopup.cpp:138 main.cpp:43
+#: klipperpopup.cpp:125 main.cpp:30
 #, kde-format
 msgid "KDE cut & paste history utility"
 msgstr "Tiện ích lịch sử cắt & dán của KDE"
 
-#: main.cpp:41 tray.cpp:35
+#: main.cpp:28 tray.cpp:22
 #, kde-format
 msgid "Klipper"
 msgstr "Klipper"
 
-#: main.cpp:45
+#: main.cpp:32
 #, kde-format
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
@@ -634,102 +634,105 @@ msgstr ""
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 
-#: main.cpp:48
+#: main.cpp:35
 #, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: main.cpp:48
+#: main.cpp:35
 #, kde-format
 msgid "Author"
 msgstr "Tác giả"
 
-#: main.cpp:50
+#: main.cpp:37
 #, kde-format
 msgid "Andrew Stanley-Jones"
 msgstr "Andrew Stanley-Jones"
 
-#: main.cpp:50
+#: main.cpp:37
 #, kde-format
 msgid "Original Author"
 msgstr "Tác giả gốc"
 
-#: main.cpp:52
+#: main.cpp:39
 #, kde-format
 msgid "Patrick Dubroy"
 msgstr "Patrick Dubroy"
 
-#: main.cpp:52
+#: main.cpp:39
 #, kde-format
 msgid "Contributor"
 msgstr "Người đóng góp"
 
-#: main.cpp:54
+#: main.cpp:41
 #, kde-format
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: main.cpp:54
+#: main.cpp:41
 #, kde-format
 msgid "Bugfixes and optimizations"
 msgstr "Sửa lỗi và tối ưu hoá"
 
-#: main.cpp:56
+#: main.cpp:43
 #, kde-format
 msgid "Esben Mose Hansen"
 msgstr "Esben Mose Hansen"
 
-#: main.cpp:56
+#: main.cpp:43
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "Bảo trì viên trước đây"
 
-#: main.cpp:58
+#: main.cpp:45
 #, kde-format
 msgid "Martin Gräßlin"
 msgstr "Martin Gräßlin"
 
-#: main.cpp:58
+#: main.cpp:45
 #, kde-format
 msgid "Maintainer"
 msgstr "Bảo trì viên"
 
-#: main.cpp:60
+#: main.cpp:47
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Nguyễn Hùng Phú,Phan Vĩnh Thịnh"
 
-#: main.cpp:60
+#: main.cpp:47
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net,teppi82@gmail.com"
 
-#: popupproxy.cpp:157
+#: popupproxy.cpp:144
 #, kde-format
 msgid "&More"
 msgstr "Thê&m"
 
-#: tray.cpp:38
+#: tray.cpp:25
 #, kde-format
 msgid "Clipboard Contents"
 msgstr "Nội dung bảng nháp"
 
-#: urlgrabber.cpp:185
+#: urlgrabber.cpp:172
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - Hành động cho: %2"
 
-#: urlgrabber.cpp:212
+#: urlgrabber.cpp:199
 #, kde-format
 msgid "Disable This Popup"
 msgstr "Tắt ô bật lên này"
 
-#: urlgrabber.cpp:218
+#: urlgrabber.cpp:205
 #, kde-format
 msgid "&Cancel"
 msgstr "H&uỷ"
+
+#~ msgid "&Edit Contents..."
+#~ msgstr "&Sửa nội dung…"
 
 #~ msgid "<empty clipboard>"
 #~ msgstr "<bảng nháp trống>"

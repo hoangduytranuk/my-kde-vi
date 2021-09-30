@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-12 00:27+0000\n"
+"POT-Creation-Date: 2021-09-30 00:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,11 +57,13 @@ msgid "about,info,information,distribution,distro,system,kernel,qt,kde"
 msgstr ""
 
 #: Modules/about-distro/src/about-distro.desktop:53
+#: Modules/about-distro/src/package/metadata.desktop:14
 msgctxt "Name"
 msgid "About this System"
 msgstr ""
 
 #: Modules/about-distro/src/about-distro.desktop:80
+#: Modules/about-distro/src/package/metadata.desktop:42
 msgctxt "Comment"
 msgid "Information About This System"
 msgstr ""
@@ -96,6 +98,21 @@ msgctxt "X-KDE-Keywords"
 msgid "device,devices,disk,drive,processor,cpu"
 msgstr ""
 
+#: Modules/egl/kcm_egl.desktop:14 Modules/egl/package/metadata.desktop:14
+msgctxt "Name"
+msgid "OpenGL (EGL)"
+msgstr ""
+
+#: Modules/egl/kcm_egl.desktop:23 Modules/egl/package/metadata.desktop:23
+msgctxt "Comment"
+msgid "EGL information"
+msgstr ""
+
+#: Modules/egl/kcm_egl.desktop:32 Modules/egl/package/metadata.desktop:32
+msgctxt "X-KDE-Keywords"
+msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
+msgstr ""
+
 #: Modules/energy/kcm_energyinfo.desktop:10
 msgctxt "Name"
 msgid "Energy"
@@ -119,6 +136,23 @@ msgstr ""
 #: Modules/energy/package/metadata.desktop:48
 msgctxt "Comment"
 msgid "Statistics about energy consumption"
+msgstr ""
+
+#: Modules/glx/kcm_glx.desktop:14 Modules/glx/package/metadata.desktop:14
+msgctxt "Name"
+msgid "OpenGL (GLX)"
+msgstr ""
+
+#: Modules/glx/kcm_glx.desktop:23 Modules/glx/package/metadata.desktop:23
+msgctxt "Comment"
+msgid "GLX information"
+msgstr ""
+
+#: Modules/glx/kcm_glx.desktop:32 Modules/glx/package/metadata.desktop:32
+msgctxt "X-KDE-Keywords"
+msgid ""
+"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
+"Server,XFree86,Display"
 msgstr ""
 
 #: Modules/info/dma.desktop:14
@@ -149,21 +183,6 @@ msgstr ""
 #: Modules/info/ioports.desktop:201
 msgctxt "X-KDE-Keywords"
 msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
-msgstr ""
-
-#: Modules/info/xserver.desktop:13
-msgctxt "Name"
-msgid "X-Server"
-msgstr ""
-
-#: Modules/info/xserver.desktop:107
-msgctxt "Comment"
-msgid "X-Server information"
-msgstr ""
-
-#: Modules/info/xserver.desktop:200
-msgctxt "X-KDE-Keywords"
-msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 msgstr ""
 
 #: Modules/interrupts/kcm_interrupts.desktop:14
@@ -214,23 +233,6 @@ msgstr ""
 #: Modules/nics/package/metadata.desktop:4
 msgctxt "Name"
 msgid "NIC"
-msgstr ""
-
-#: Modules/opengl/opengl.desktop:12
-msgctxt "Name"
-msgid "OpenGL"
-msgstr ""
-
-#: Modules/opengl/opengl.desktop:104
-msgctxt "Comment"
-msgid "OpenGL information"
-msgstr ""
-
-#: Modules/opengl/opengl.desktop:197
-msgctxt "X-KDE-Keywords"
-msgid ""
-"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
-"Server,XFree86,Display"
 msgstr ""
 
 #: Modules/pci/kcm_pci.desktop:12
@@ -327,6 +329,24 @@ msgstr ""
 #: Modules/wayland/package/metadata.desktop:112
 msgctxt "X-KDE-Keywords"
 msgid "Wayland,Compositor,Display,System Information"
+msgstr ""
+
+#: Modules/xserver/kcm_xserver.desktop:15
+#: Modules/xserver/package/metadata.desktop:14
+msgctxt "Name"
+msgid "X-Server"
+msgstr ""
+
+#: Modules/xserver/kcm_xserver.desktop:109
+#: Modules/xserver/package/metadata.desktop:108
+msgctxt "Comment"
+msgid "X-Server information"
+msgstr ""
+
+#: Modules/xserver/kcm_xserver.desktop:202
+#: Modules/xserver/package/metadata.desktop:201
+msgctxt "X-KDE-Keywords"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 msgstr ""
 
 #: org.kde.kinfocenter.desktop:9

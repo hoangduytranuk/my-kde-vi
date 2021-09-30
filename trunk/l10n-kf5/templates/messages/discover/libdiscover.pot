@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-30 00:18+0000\n"
+"POT-Creation-Date: 2021-09-29 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,23 +28,23 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: libdiscover/appstream/AppStreamUtils.cpp:101
+#: libdiscover/appstream/AppStreamUtils.cpp:100
 #: libdiscover/resources/AbstractResource.cpp:283
 #, kde-format
 msgid "%1, released on %2"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:140
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:143
 #, kde-format
 msgid "Error while fetching reviews: %1"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:186
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:189
 #, kde-format
 msgid "Error while submitting usefulness: %1"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:243
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:246
 #, kde-format
 msgid "Error while submitting review: %1"
 msgstr ""
@@ -476,13 +476,13 @@ msgctxt "Category"
 msgid "System Settings"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:554
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:571
 #, kde-format
 msgid "Local bundle"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1360
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:581
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1415
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:582
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr ""
@@ -609,26 +609,26 @@ msgstr ""
 msgid "Application Addons"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:386
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:389
 #, kde-format
 msgid "Network error in backend %1: %2"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:393
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:396
 #, kde-format
 msgid ""
 "Too many requests sent to the server for backend %1. Please try again in a "
 "few minutes."
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:396
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:402
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:407
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:399
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:405
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:410
 #, kde-format
 msgid "Invalid %1 backend, contact your distributor."
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:426
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:429
 #, kde-format
 msgid ""
 "Unable to complete the update of %1. You can try and perform this action "
@@ -637,22 +637,22 @@ msgid ""
 "%2"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:436
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:439
 #, kde-format
 msgid "Could not fetch screenshot for the entry %1 in backend %2"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:440
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:443
 #, kde-format
 msgid "Unhandled error in %1 backend. Contact your distributor."
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:450
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:453
 #, kde-format
 msgid "%1: %2"
 msgstr ""
 
-#: libdiscover/backends/KNSBackend/KNSBackend.cpp:659
+#: libdiscover/backends/KNSBackend/KNSBackend.cpp:662
 #, kde-format
 msgid "Wrong KNewStuff URI: %1"
 msgstr ""
@@ -685,12 +685,12 @@ msgctxt "Category"
 msgid "Fonts"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:209
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:210
 #, kde-format
 msgid "Please make sure that Appstream is properly set up on your system"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:673
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:674
 #, kde-format
 msgid "Cannot remove '%1'"
 msgstr ""
@@ -1425,9 +1425,8 @@ msgid "Unavailable"
 msgstr ""
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:108
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:141
 #, kde-format
-msgid "Offline Updates"
+msgid "Failed Offline Update"
 msgstr ""
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:109
@@ -1463,6 +1462,11 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>Please report this error to your distribution."
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:141
+#, kde-format
+msgid "Offline Updates"
 msgstr ""
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:142
@@ -1625,29 +1629,40 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:129
+#: libdiscover/backends/RpmOstreeBackend/rpm-ostree-backend-categories.xml:4
 #, kde-format
-msgid "Version: "
+msgctxt "Category"
+msgid "Operating System"
 msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:129
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:245
 #, kde-format
-msgid "BaseCommit: "
+msgid "GPL and other licenses"
 msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:130
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:251
 #, kde-format
-msgid "GPGSignature: Valid signature by "
+msgid "Remote: "
 msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:130
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:296
 #, kde-format
-msgid "Origin: "
+msgid "The currently running version of %1."
 msgstr ""
 
-#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:167
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:298
 #, kde-format
-msgid "The currently active deployment."
+msgid "Installed but not currently running version of %1."
+msgstr ""
+
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeSourcesBackend.cpp:73
+#, kde-format
+msgid "ostree remotes"
+msgstr ""
+
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:119
+#, kde-format
+msgid "Current rpm-ostree transaction in progress:"
 msgstr ""
 
 #: libdiscover/backends/SnapBackend/SnapBackend.cpp:43
@@ -1660,7 +1675,7 @@ msgstr ""
 msgid "%1 - %2"
 msgstr ""
 
-#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:49
+#: libdiscover/backends/SnapBackend/SnapTransaction.cpp:51
 #, kde-format
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
@@ -1710,7 +1725,7 @@ msgctxt "Do not translate or alter \\u009C"
 msgid "%1 → %2%1 → %2%2"
 msgstr ""
 
-#: libdiscover/resources/ResourcesModel.cpp:99
+#: libdiscover/resources/ResourcesModel.cpp:100
 #, kde-format
 msgctxt "@action Checks the Internet for updates"
 msgid "Check for Updates"

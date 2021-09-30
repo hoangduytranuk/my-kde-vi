@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: index-fm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-08 00:19+0000\n"
+"POT-Creation-Date: 2021-09-30 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,226 +18,295 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 #, kde-format
 msgid "Index"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:66
 #, kde-format
 msgid "Browse, organize and preview your files."
 msgstr ""
 
-#: src/main.cpp:66
+#: src/main.cpp:67
 #, kde-format
-msgid "© 2019-%1 Nitrux Development Team"
-msgstr ""
-
-#: src/main.cpp:68
-#, kde-format
-msgid "Camilo Higuita"
-msgstr ""
-
-#: src/main.cpp:68 src/main.cpp:69
-#, kde-format
-msgid "Developer"
+msgid "© 2019-%1 Maui Development Team"
 msgstr ""
 
 #: src/main.cpp:69
 #, kde-format
+msgid "Camilo Higuita"
+msgstr ""
+
+#: src/main.cpp:69 src/main.cpp:70
+#, kde-format
+msgid "Developer"
+msgstr ""
+
+#: src/main.cpp:70
+#, kde-format
 msgid "Gabriel Dominguez"
 msgstr ""
 
-#: src/main.qml:147 src/widgets/previewer/CompressedPreview.qml:15
-#: src/widgets/views/FileMenu.qml:205
+#: src/main.qml:155 src/widgets/previewer/CompressedPreview.qml:15
+#: src/widgets/views/FileMenu.qml:206
 #, kde-format
 msgid "Extract"
 msgstr ""
 
-#: src/main.qml:148
+#: src/main.qml:156
 #, kde-format
 msgid ""
 "Extract the content of the compressed file into a new or existing "
 "subdirectory or inside the current directory."
 msgstr ""
 
-#: src/main.qml:171
+#: src/main.qml:179
 #, kde-format
 msgid "Compress %1 file"
 msgid_plural "Compress %1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/main.qml:172
+#: src/main.qml:180
 #, kde-format
 msgid "Compress selected files into a new file."
 msgstr ""
 
-#: src/main.qml:174
+#: src/main.qml:182
 #, kde-format
 msgid "Archive name..."
 msgstr ""
 
-#: src/main.qml:252 src/widgets/views/HomeView.qml:53
+#: src/main.qml:260 src/widgets/views/HomeView.qml:53
 #, kde-format
 msgid "Open folder"
 msgstr ""
 
-#: src/main.qml:261
+#: src/main.qml:269
 #, kde-format
 msgid "Extracted"
 msgstr ""
 
-#: src/main.qml:262
+#: src/main.qml:270
 #, kde-format
 msgid "File was extracted"
 msgstr ""
 
-#: src/main.qml:300
-#, kde-format
-msgid "Hidden Files"
-msgstr ""
-
 #: src/main.qml:308
 #, kde-format
-msgid "Split View"
+msgid "Hidden"
 msgstr ""
 
-#: src/main.qml:317
+#: src/main.qml:316 src/widgets/views/ShortcutsDialog.qml:99
 #, kde-format
-msgid "Embedded Terminal"
+msgid "Split"
 msgstr ""
 
-#: src/main.qml:331
+#: src/main.qml:325 src/widgets/views/ShortcutsDialog.qml:84
+#, kde-format
+msgid "Terminal"
+msgstr ""
+
+#: src/main.qml:339
 #, kde-format
 msgid "View type"
 msgstr ""
 
-#: src/main.qml:336
+#: src/main.qml:344
 #, kde-format
 msgid "List"
 msgstr ""
 
-#: src/main.qml:354
+#: src/main.qml:362
 #, kde-format
 msgid "Grid"
 msgstr ""
 
-#: src/main.qml:377
+#: src/main.qml:385
 #, kde-format
 msgid "Sort by"
 msgstr ""
 
-#: src/main.qml:382
+#: src/main.qml:390
 #, kde-format
 msgid "Type"
 msgstr ""
 
-#: src/main.qml:395
+#: src/main.qml:403
 #, kde-format
 msgid "Date"
 msgstr ""
 
-#: src/main.qml:407
+#: src/main.qml:415
 #, kde-format
 msgid "Modified"
 msgstr ""
 
-#: src/main.qml:419
+#: src/main.qml:427
 #, kde-format
 msgid "Size"
 msgstr ""
 
-#: src/main.qml:431
+#: src/main.qml:439
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: src/main.qml:445
+#: src/main.qml:453
 #, kde-format
 msgid "Show Folders First"
 msgstr ""
 
-#: src/main.qml:459
+#: src/main.qml:467 src/widgets/previewer/FileProperties.qml:82
+#: src/widgets/previewer/FileProperties.qml:161
 #, kde-format
 msgid "Group"
 msgstr ""
 
-#: src/main.qml:479
+#: src/main.qml:487
 #, kde-format
 msgid "Toogle SideBar"
 msgstr ""
 
-#: src/main.qml:534
+#: src/main.qml:542 src/widgets/views/FileMenu.qml:174
 #, kde-format
 msgid "Bookmark"
 msgstr ""
 
-#: src/main.qml:541 src/widgets/views/FileMenu.qml:187
-#: src/widgets/views/PlacesSideBar.qml:225
+#: src/main.qml:549 src/widgets/views/FileMenu.qml:188
+#: src/widgets/views/PlacesSideBar.qml:222
 #, kde-format
 msgid "Open in new tab"
 msgstr ""
 
-#: src/main.qml:549 src/widgets/views/FileMenu.qml:195
-#: src/widgets/views/PlacesSideBar.qml:233
+#: src/main.qml:557 src/widgets/views/FileMenu.qml:196
+#: src/widgets/views/PlacesSideBar.qml:230
 #, kde-format
 msgid "Open in split view"
 msgstr ""
 
-#: src/main.qml:573
+#: src/main.qml:581
 #, kde-format
 msgid "Search"
 msgstr ""
 
-#: src/main.qml:582
+#: src/main.qml:590
 #, kde-format
-msgid "New..."
+msgid "New"
 msgstr ""
 
-#: src/main.qml:591
+#: src/main.qml:599
 #, kde-format
 msgid "Paste"
 msgstr ""
 
-#: src/main.qml:601
+#: src/main.qml:609
 #, kde-format
 msgid "Select all"
 msgstr ""
 
-#: src/main.qml:610
+#: src/main.qml:618
 #, kde-format
 msgid "Go to"
 msgstr ""
 
-#: src/main.qml:618
+#: src/main.qml:626
 #, kde-format
 msgid "Open terminal here"
 msgstr ""
 
-#: src/main.qml:631 src/widgets/views/ShortcutsDialog.qml:12
+#: src/main.qml:639 src/widgets/views/ShortcutsDialog.qml:12
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
 
-#: src/main.qml:642
+#: src/main.qml:650
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/main.qml:649
+#: src/main.qml:657
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: src/widgets/previewer/FilePreviewer.qml:257
+#: src/widgets/previewer/FilePreviewer.qml:134
+#, kde-format
+msgid "Details"
+msgstr ""
+
+#: src/widgets/previewer/FilePreviewer.qml:135
+#, kde-format
+msgid "File information"
+msgstr ""
+
+#: src/widgets/previewer/FilePreviewer.qml:253
 #, kde-format
 msgid "Previous"
 msgstr ""
 
-#: src/widgets/previewer/FilePreviewer.qml:264
+#: src/widgets/previewer/FilePreviewer.qml:260
 #, kde-format
 msgid "Next"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:46
+#, kde-format
+msgid "Permissions"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:47
+#: src/widgets/previewer/FileProperties.qml:150
+#, kde-format
+msgid "Set file permissions to access this file"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:51
+#: src/widgets/previewer/FileProperties.qml:154
+#, kde-format
+msgid "Owner"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:60
+#: src/widgets/previewer/FileProperties.qml:92
+#: src/widgets/previewer/FileProperties.qml:124
+#, kde-format
+msgid "Read"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:67
+#: src/widgets/previewer/FileProperties.qml:99
+#: src/widgets/previewer/FileProperties.qml:130
+#, kde-format
+msgid "Write"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:74
+#: src/widgets/previewer/FileProperties.qml:107
+#: src/widgets/previewer/FileProperties.qml:136
+#, kde-format
+msgid "Execute"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:115
+#, kde-format
+msgid "Everyone"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:149
+#, kde-format
+msgid "Ownership"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:167
+#, kde-format
+msgid "Users"
+msgstr ""
+
+#: src/widgets/previewer/FileProperties.qml:176
+#, kde-format
+msgid "Groups"
 msgstr ""
 
 #: src/widgets/previewer/FontPreviewer.qml:32
@@ -245,40 +314,40 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:87 src/widgets/views/FileMenu.qml:46
+#: src/widgets/views/BrowserView.qml:88 src/widgets/views/FileMenu.qml:46
 #, kde-format
 msgid "Copy"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:98 src/widgets/views/FileMenu.qml:57
+#: src/widgets/views/BrowserView.qml:99 src/widgets/views/FileMenu.qml:57
 #, kde-format
 msgid "Cut"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:109 src/widgets/views/FileMenu.qml:162
+#: src/widgets/views/BrowserView.qml:110 src/widgets/views/FileMenu.qml:163
 #: src/widgets/views/HomeView.qml:47
 #, kde-format
 msgid "Share"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:120 src/widgets/views/HomeView.qml:35
+#: src/widgets/views/BrowserView.qml:121 src/widgets/views/HomeView.qml:35
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:131 src/widgets/views/FileMenu.qml:217
+#: src/widgets/views/BrowserView.qml:132 src/widgets/views/FileMenu.qml:218
 #, kde-format
 msgid "Compress"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:143 src/widgets/views/FileMenu.qml:149
+#: src/widgets/views/BrowserView.qml:144 src/widgets/views/FileMenu.qml:150
 #: src/widgets/views/TagsSection.qml:22
 #, kde-format
 msgid "Tags"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:153 src/widgets/views/FileMenu.qml:78
-#: src/widgets/views/PlacesSideBar.qml:242
+#: src/widgets/views/BrowserView.qml:154 src/widgets/views/FileMenu.qml:78
+#: src/widgets/views/PlacesSideBar.qml:239
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -318,24 +387,19 @@ msgstr ""
 msgid "Open with"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:120 src/widgets/views/ShortcutsDialog.qml:134
+#: src/widgets/views/FileMenu.qml:120
 #, kde-format
-msgid "Preview"
+msgid "Preview and info"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:133
+#: src/widgets/views/FileMenu.qml:134
 #, kde-format
-msgid "Remove from Favorites"
+msgid "UnFav"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:133
+#: src/widgets/views/FileMenu.qml:134
 #, kde-format
-msgid "Add to Favorites"
-msgstr ""
-
-#: src/widgets/views/FileMenu.qml:173
-#, kde-format
-msgid "Add to Bookmarks"
+msgid "Fav"
 msgstr ""
 
 #: src/widgets/views/home/QuickCommonSection.qml:25
@@ -383,7 +447,7 @@ msgstr ""
 msgid "Overview"
 msgstr ""
 
-#: src/widgets/views/PlacesSideBar.qml:182
+#: src/widgets/views/PlacesSideBar.qml:179
 #, kde-format
 msgid ""
 "This device needs to be mounted before accessing it. Do you want to set up "
@@ -536,19 +600,14 @@ msgstr ""
 msgid "Path Edit"
 msgstr ""
 
-#: src/widgets/views/ShortcutsDialog.qml:84
-#, kde-format
-msgid "Terminal"
-msgstr ""
-
-#: src/widgets/views/ShortcutsDialog.qml:99
-#, kde-format
-msgid "Split"
-msgstr ""
-
 #: src/widgets/views/ShortcutsDialog.qml:114
 #, kde-format
 msgid "New File"
+msgstr ""
+
+#: src/widgets/views/ShortcutsDialog.qml:134
+#, kde-format
+msgid "Preview"
 msgstr ""
 
 #: src/widgets/views/ShortcutsDialog.qml:149

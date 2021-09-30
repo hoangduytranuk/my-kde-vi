@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksystemstats\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-24 01:39+0000\n"
+"POT-Creation-Date: 2021-09-04 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -149,91 +149,151 @@ msgstr ""
 msgid "CPUs"
 msgstr ""
 
-#: cpu/freebsdcpuplugin.cpp:114
+#: cpu/freebsdcpuplugin.cpp:151
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1"
 msgstr ""
 
-#: cpu/linuxcpuplugin.cpp:72
+#: cpu/linuxcpuplugin.cpp:73
 #, kde-format
 msgctxt "@title"
 msgid "CPU %1 Core %2"
 msgstr ""
 
-#: cpu/linuxcpuplugin.cpp:73
+#: cpu/linuxcpuplugin.cpp:74
 #, kde-format
 msgctxt "@title"
 msgid "Core %1"
 msgstr ""
 
-#: disks/disks.cpp:72 disks/disks.cpp:223
+#: cpu/loadaverages.cpp:12
+#, kde-format
+msgctxt "@title"
+msgid "Load Averages"
+msgstr ""
+
+#: cpu/loadaverages.cpp:13
+#, kde-format
+msgctxt "@title"
+msgid "Load average (1 minute)"
+msgstr ""
+
+#: cpu/loadaverages.cpp:14
+#, kde-format
+msgctxt "@title"
+msgid "Load average (5 minutes)"
+msgstr ""
+
+#: cpu/loadaverages.cpp:15
+#, kde-format
+msgctxt "@title"
+msgid "Load average (15 minute)"
+msgstr ""
+
+#: cpu/loadaverages.cpp:17
+#, kde-format
+msgctxt "@title,  Short for 'Load average (1 minute)"
+msgid "Load average (1m)"
+msgstr ""
+
+#: cpu/loadaverages.cpp:18
+#, kde-format
+msgctxt "@title,  Short for 'Load average (5 minutes)"
+msgid "Load average (5m)"
+msgstr ""
+
+#: cpu/loadaverages.cpp:19
+#, kde-format
+msgctxt "@title,  Short for 'Load average (15 minutes)"
+msgid "Load average (15m)"
+msgstr ""
+
+#: cpu/loadaverages.cpp:21
+#, kde-format
+msgctxt "@info"
+msgid "Number of jobs in the run queue averaged over 1 minute"
+msgstr ""
+
+#: cpu/loadaverages.cpp:22
+#, kde-format
+msgctxt "@info"
+msgid "Number of jobs in the run queue averaged over 5 minutes"
+msgstr ""
+
+#: cpu/loadaverages.cpp:23
+#, kde-format
+msgctxt "@info"
+msgid "Number of jobs in the run queue averaged over 15 minutes"
+msgstr ""
+
+#: disks/disks.cpp:72 disks/disks.cpp:235
 #, kde-format
 msgctxt "@title"
 msgid "Total Space"
 msgstr ""
 
-#: disks/disks.cpp:74 disks/disks.cpp:224
+#: disks/disks.cpp:74 disks/disks.cpp:236
 #, kde-format
 msgctxt "@title Short for 'Total Space'"
 msgid "Total"
 msgstr ""
 
-#: disks/disks.cpp:78 disks/disks.cpp:236
+#: disks/disks.cpp:78 disks/disks.cpp:248
 #, kde-format
 msgctxt "@title"
 msgid "Used Space"
 msgstr ""
 
-#: disks/disks.cpp:80 disks/disks.cpp:237
+#: disks/disks.cpp:80 disks/disks.cpp:249
 #, kde-format
 msgctxt "@title Short for 'Used Space'"
 msgid "Used"
 msgstr ""
 
-#: disks/disks.cpp:85 disks/disks.cpp:229
+#: disks/disks.cpp:85 disks/disks.cpp:241
 #, kde-format
 msgctxt "@title"
 msgid "Free Space"
 msgstr ""
 
-#: disks/disks.cpp:87 disks/disks.cpp:230
+#: disks/disks.cpp:87 disks/disks.cpp:242
 #, kde-format
 msgctxt "@title Short for 'Free Space'"
 msgid "Free"
 msgstr ""
 
-#: disks/disks.cpp:92 disks/disks.cpp:243
+#: disks/disks.cpp:92 disks/disks.cpp:255
 #, kde-format
 msgctxt "@title"
 msgid "Read Rate"
 msgstr ""
 
-#: disks/disks.cpp:94 disks/disks.cpp:244
+#: disks/disks.cpp:94 disks/disks.cpp:256
 #, kde-format
 msgctxt "@title Short for 'Read Rate'"
 msgid "Read"
 msgstr ""
 
-#: disks/disks.cpp:98 disks/disks.cpp:249
+#: disks/disks.cpp:98 disks/disks.cpp:261
 #, kde-format
 msgctxt "@title"
 msgid "Write Rate"
 msgstr ""
 
-#: disks/disks.cpp:100 disks/disks.cpp:250
+#: disks/disks.cpp:100 disks/disks.cpp:262
 #, kde-format
 msgctxt "@title Short for 'Write Rate'"
 msgid "Write"
 msgstr ""
 
-#: disks/disks.cpp:104 disks/disks.cpp:259
+#: disks/disks.cpp:104 disks/disks.cpp:271
 #, kde-format
 msgctxt "@title"
 msgid "Percentage Used"
 msgstr ""
 
-#: disks/disks.cpp:108 disks/disks.cpp:255
+#: disks/disks.cpp:108 disks/disks.cpp:267
 #, kde-format
 msgctxt "@title"
 msgid "Percentage Free"
@@ -244,19 +304,19 @@ msgstr ""
 msgid "Disks"
 msgstr ""
 
-#: disks/disks.cpp:221
+#: disks/disks.cpp:233
 #, kde-format
 msgctxt "@title"
 msgid "All Disks"
 msgstr ""
 
-#: disks/disks.cpp:256
+#: disks/disks.cpp:268
 #, kde-format
 msgctxt "@title, Short for `Percentage Free"
 msgid "Free"
 msgstr ""
 
-#: disks/disks.cpp:260
+#: disks/disks.cpp:272
 #, kde-format
 msgctxt "@title, Short for `Percentage Used"
 msgid "Used"
@@ -280,25 +340,25 @@ msgctxt "@title Short for 'All GPUs Usage'"
 msgid "Usage"
 msgstr ""
 
-#: gpu/AllGpus.cpp:25
+#: gpu/AllGpus.cpp:26
 #, kde-format
 msgctxt "@title"
 msgid "All GPUs Total Memory"
 msgstr ""
 
-#: gpu/AllGpus.cpp:26
+#: gpu/AllGpus.cpp:27
 #, kde-format
 msgctxt "@title Short for 'All GPUs Total Memory'"
 msgid "Total"
 msgstr ""
 
-#: gpu/AllGpus.cpp:30
+#: gpu/AllGpus.cpp:31
 #, kde-format
 msgctxt "@title"
 msgid "All GPUs Used Memory"
 msgstr ""
 
-#: gpu/AllGpus.cpp:31
+#: gpu/AllGpus.cpp:32
 #, kde-format
 msgctxt "@title Short for 'All GPUs Used Memory'"
 msgid "Used"
@@ -364,27 +424,9 @@ msgctxt "@title %1 is GPU number"
 msgid "GPU %1"
 msgstr ""
 
-#: lmsensors/lmsensors.cpp:22
+#: lmsensors/lmsensors.cpp:21
 #, kde-format
 msgid "Hardware Sensors"
-msgstr ""
-
-#: lmsensors/SensorsFeatureSensor.cpp:27
-#, kde-format
-msgctxt "@title %1 is a number"
-msgid "Voltage %1"
-msgstr ""
-
-#: lmsensors/SensorsFeatureSensor.cpp:36
-#, kde-format
-msgctxt "@title %1 is a number"
-msgid "Fan %1"
-msgstr ""
-
-#: lmsensors/SensorsFeatureSensor.cpp:45
-#, kde-format
-msgctxt "@title %1 is a number"
-msgid "Temperature %1"
 msgstr ""
 
 #: memory/backend.cpp:17

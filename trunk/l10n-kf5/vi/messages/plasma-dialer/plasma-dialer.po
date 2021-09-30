@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-dialer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-07 00:21+0000\n"
+"POT-Creation-Date: 2021-09-26 00:19+0000\n"
 "PO-Revision-Date: 2021-09-07 16:00+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -92,21 +92,6 @@ msgstr "Điện thoại"
 msgid "Plasma phone dialer"
 msgstr "Trình quay số điện thoại Plasma"
 
-#: src/qml/BottomToolbar.qml:38
-#, kde-format
-msgid "History"
-msgstr "Lịch sử"
-
-#: src/qml/BottomToolbar.qml:39 src/qml/ContactsPage.qml:16
-#, kde-format
-msgid "Contacts"
-msgstr "Liên hệ"
-
-#: src/qml/BottomToolbar.qml:40 src/qml/DialerPage.qml:21
-#, kde-format
-msgid "Dialer"
-msgstr "Trình quay số"
-
 #: src/qml/Call/CallPage.qml:22
 #, kde-format
 msgid "Calling %1"
@@ -132,10 +117,20 @@ msgstr "Loa"
 msgid "Mute"
 msgstr "Tắt tiếng"
 
+#: src/qml/ContactsPage.qml:16 src/qml/main.qml:57
+#, kde-format
+msgid "Contacts"
+msgstr "Liên hệ"
+
 #: src/qml/ContactsPage.qml:72
 #, kde-format
 msgid "No contacts have a phone number set"
 msgstr "Không có liên hệ nào đã đặt số điện thoại"
+
+#: src/qml/DialerPage.qml:21 src/qml/main.qml:68
+#, kde-format
+msgid "Dialer"
+msgstr "Trình quay số"
 
 #: src/qml/DialerPage.qml:38
 #, kde-format
@@ -187,6 +182,11 @@ msgstr "Trong cuộc gọi với %1."
 #, kde-format
 msgid "View"
 msgstr "Xem"
+
+#: src/qml/main.qml:46
+#, kde-format
+msgid "History"
+msgstr "Lịch sử"
 
 #: src/qml/USSDSheet.qml:32
 #, kde-format

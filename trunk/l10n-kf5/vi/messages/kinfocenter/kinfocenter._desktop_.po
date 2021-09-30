@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-12 00:27+0000\n"
+"POT-Creation-Date: 2021-09-30 00:24+0000\n"
 "PO-Revision-Date: 2021-08-18 21:44+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -69,11 +69,13 @@ msgstr ""
 "bản phân phối,hệ thống,nhân"
 
 #: Modules/about-distro/src/about-distro.desktop:53
+#: Modules/about-distro/src/package/metadata.desktop:14
 msgctxt "Name"
 msgid "About this System"
 msgstr "Về hệ thống này"
 
 #: Modules/about-distro/src/about-distro.desktop:80
+#: Modules/about-distro/src/package/metadata.desktop:42
 msgctxt "Comment"
 msgid "Information About This System"
 msgstr "Thông tin về hệ thống này"
@@ -110,6 +112,32 @@ msgctxt "X-KDE-Keywords"
 msgid "device,devices,disk,drive,processor,cpu"
 msgstr "device,devices,disk,drive,processor,cpu,thiết bị,đĩa,ổ,bộ xử lí"
 
+#: Modules/egl/kcm_egl.desktop:14 Modules/egl/package/metadata.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "OpenGL"
+msgctxt "Name"
+msgid "OpenGL (EGL)"
+msgstr "OpenGL"
+
+#: Modules/egl/kcm_egl.desktop:23 Modules/egl/package/metadata.desktop:23
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenGL information"
+msgctxt "Comment"
+msgid "EGL information"
+msgstr "Thông tin về OpenGL"
+
+#: Modules/egl/kcm_egl.desktop:32 Modules/egl/package/metadata.desktop:32
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
+msgctxt "X-KDE-Keywords"
+msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
+msgstr ""
+"Vulkan,VideoCard,Hardware Acceleration,Graphics,Bo mạch đồ hoạ,Tăng tốc phần "
+"cứng,Đồ hoạ"
+
 #: Modules/energy/kcm_energyinfo.desktop:10
 msgctxt "Name"
 msgid "Energy"
@@ -136,6 +164,32 @@ msgstr "Thông tin năng lượng"
 msgctxt "Comment"
 msgid "Statistics about energy consumption"
 msgstr "Thống kê về việc tiêu thụ năng lượng"
+
+#: Modules/glx/kcm_glx.desktop:14 Modules/glx/package/metadata.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "OpenGL"
+msgctxt "Name"
+msgid "OpenGL (GLX)"
+msgstr "OpenGL"
+
+#: Modules/glx/kcm_glx.desktop:23 Modules/glx/package/metadata.desktop:23
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenGL information"
+msgctxt "Comment"
+msgid "GLX information"
+msgstr "Thông tin về OpenGL"
+
+#: Modules/glx/kcm_glx.desktop:32 Modules/glx/package/metadata.desktop:32
+msgctxt "X-KDE-Keywords"
+msgid ""
+"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
+"Server,XFree86,Display"
+msgstr ""
+"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
+"Server,XFree86,Display,Bo mạch đồ hoạ,Tăng tốc phần cứng,Đồ hoạ,Máy chủ X,"
+"Hiển thị"
 
 #: Modules/info/dma.desktop:14
 msgctxt "Name"
@@ -168,23 +222,6 @@ msgid "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
 msgstr ""
 "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information,vào/ra,"
 "vào ra,Cổng vào/ra,Cổng vào ra,Khoảng vào/ra,Khoảng vào ra,Thông tin hệ thống"
-
-#: Modules/info/xserver.desktop:13
-msgctxt "Name"
-msgid "X-Server"
-msgstr "Máy chủ X"
-
-#: Modules/info/xserver.desktop:107
-msgctxt "Comment"
-msgid "X-Server information"
-msgstr "Thông tin về máy chủ X"
-
-#: Modules/info/xserver.desktop:200
-msgctxt "X-KDE-Keywords"
-msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
-msgstr ""
-"X,X-Server,XServer,XFree86,Display,VideoCard,System Information,Máy chủ X,"
-"Hiển thị,Bo mạch đồ hoạ,Thông tin hệ thống"
 
 #: Modules/interrupts/kcm_interrupts.desktop:14
 #: Modules/interrupts/package/metadata.desktop:14
@@ -238,26 +275,6 @@ msgstr "Thông tin giao diện mạng"
 msgctxt "Name"
 msgid "NIC"
 msgstr "NIC"
-
-#: Modules/opengl/opengl.desktop:12
-msgctxt "Name"
-msgid "OpenGL"
-msgstr "OpenGL"
-
-#: Modules/opengl/opengl.desktop:104
-msgctxt "Comment"
-msgid "OpenGL information"
-msgstr "Thông tin về OpenGL"
-
-#: Modules/opengl/opengl.desktop:197
-msgctxt "X-KDE-Keywords"
-msgid ""
-"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
-"Server,XFree86,Display"
-msgstr ""
-"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
-"Server,XFree86,Display,Bo mạch đồ hoạ,Tăng tốc phần cứng,Đồ hoạ,Máy chủ X,"
-"Hiển thị"
 
 #: Modules/pci/kcm_pci.desktop:12
 msgctxt "Name"
@@ -362,6 +379,26 @@ msgid "Wayland,Compositor,Display,System Information"
 msgstr ""
 "Wayland,Compositor,Display,System Information,Trình kết hợp,Hiển thị,Thông "
 "tin hệ thống"
+
+#: Modules/xserver/kcm_xserver.desktop:15
+#: Modules/xserver/package/metadata.desktop:14
+msgctxt "Name"
+msgid "X-Server"
+msgstr "Máy chủ X"
+
+#: Modules/xserver/kcm_xserver.desktop:109
+#: Modules/xserver/package/metadata.desktop:108
+msgctxt "Comment"
+msgid "X-Server information"
+msgstr "Thông tin về máy chủ X"
+
+#: Modules/xserver/kcm_xserver.desktop:202
+#: Modules/xserver/package/metadata.desktop:201
+msgctxt "X-KDE-Keywords"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgstr ""
+"X,X-Server,XServer,XFree86,Display,VideoCard,System Information,Máy chủ X,"
+"Hiển thị,Bo mạch đồ hoạ,Thông tin hệ thống"
 
 #: org.kde.kinfocenter.desktop:9
 msgctxt "Name"

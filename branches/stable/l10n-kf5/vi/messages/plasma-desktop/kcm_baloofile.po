@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:20+0000\n"
-"PO-Revision-Date: 2021-04-25 10:09+0200\n"
+"POT-Creation-Date: 2021-06-26 00:19+0000\n"
+"PO-Revision-Date: 2021-05-26 21:20+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -27,39 +27,48 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net"
 
-#: kcm.cpp:67
+#: kcm.cpp:56
 #, kde-format
 msgid "File Search"
 msgstr "Tìm kiếm tệp"
 
-#: kcm.cpp:71
+#: kcm.cpp:60
 #, kde-format
 msgid "Copyright 2007-2010 Sebastian Trüg"
 msgstr "Bản quyền 2007-2010 Sebastian Trüg"
 
-#: kcm.cpp:73
+#: kcm.cpp:62
 #, kde-format
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
-#: kcm.cpp:74
+#: kcm.cpp:63
 #, kde-format
 msgid "Vishesh Handa"
 msgstr "Vishesh Handa"
 
-#: kcm.cpp:75
+#: kcm.cpp:64
 #, kde-format
 msgid "Tomaz Canabrava"
 msgstr "Tomaz Canabrava"
 
-#: package/contents/ui/main.qml:35
+#: package/contents/ui/main.qml:21
 #, kde-format
 msgid ""
 "This module lets you configure the file indexer and search functionality."
 msgstr ""
 "Khối này cho phép bạn cấu hình trình lập chỉ mục tệp và chức năng tìm kiếm."
 
-#: package/contents/ui/main.qml:68
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid ""
+"This will disable file searching in KRunner and launcher menus, and remove "
+"extended metadata display from all KDE applications."
+msgstr ""
+"Việc này sẽ tắt tính năng tìm kiếm tệp trong KRunner và các trình đơn khởi "
+"chạy, và xoá bộ hiển thị siêu dữ liệu mở rộng khỏi tất cả các ứng dụng KDE."
+
+#: package/contents/ui/main.qml:61
 #, kde-format
 msgid ""
 "Do you want to delete the saved index data? %1 of space will be freed, but "
@@ -71,12 +80,12 @@ msgstr ""
 "được tạo lại từ đầu. Việc này có thể mất thời gian, tuỳ thuộc vào số lượng "
 "tệp bạn có."
 
-#: package/contents/ui/main.qml:71
+#: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Delete Index Data"
 msgstr "Xoá dữ liệu chỉ mục"
 
-#: package/contents/ui/main.qml:82
+#: package/contents/ui/main.qml:75
 #, kde-format
 msgid ""
 "File Search helps you quickly locate all your files based on their content."
@@ -84,82 +93,82 @@ msgstr ""
 "\"Tìm kiếm tệp\" giúp bạn nhanh chóng định vị tất cả các tệp dựa trên nội "
 "dung."
 
-#: package/contents/ui/main.qml:87
+#: package/contents/ui/main.qml:80
 #, kde-format
 msgid "Enable File Search"
 msgstr "Bật \"Tìm kiếm tệp\""
 
-#: package/contents/ui/main.qml:109
+#: package/contents/ui/main.qml:102
 #, kde-format
 msgid "Also index file content"
 msgstr "Lập chỉ mục cả nội dung tệp"
 
-#: package/contents/ui/main.qml:121
+#: package/contents/ui/main.qml:114
 #, kde-format
 msgid "Index hidden files and folders"
 msgstr "Lập chỉ mục tệp và thư mục ẩn"
 
-#: package/contents/ui/main.qml:148
+#: package/contents/ui/main.qml:141
 #, kde-format
 msgid "Status: %1, %2% complete"
 msgstr "Tình trạng: %1, hoàn thành %2%"
 
-#: package/contents/ui/main.qml:152
+#: package/contents/ui/main.qml:145
 #, kde-format
 msgid "Pause Indexer"
 msgstr "Tạm dừng lập chỉ mục"
 
-#: package/contents/ui/main.qml:152
+#: package/contents/ui/main.qml:145
 #, kde-format
 msgid "Resume Indexer"
 msgstr "Tiếp tục lập chỉ mục"
 
-#: package/contents/ui/main.qml:165
+#: package/contents/ui/main.qml:158
 #, kde-format
 msgid "Currently indexing: %1"
 msgstr "Đang lập chỉ mục: %1"
 
-#: package/contents/ui/main.qml:170
+#: package/contents/ui/main.qml:163
 #, kde-format
 msgid "Folder specific configuration:"
 msgstr "Cấu hình từng thư mục:"
 
-#: package/contents/ui/main.qml:199
+#: package/contents/ui/main.qml:192
 #, kde-format
-msgid "Add folder configuration..."
-msgstr "Thêm cấu hình thư mục..."
+msgid "Add folder configuration…"
+msgstr "Thêm cấu hình thư mục…"
 
-#: package/contents/ui/main.qml:224
+#: package/contents/ui/main.qml:217
 #, kde-format
-msgid "Start indexing a folder..."
-msgstr "Bắt đầu lập chỉ mục một thư mục..."
+msgid "Start indexing a folder…"
+msgstr "Bắt đầu lập chỉ mục một thư mục…"
 
-#: package/contents/ui/main.qml:233
+#: package/contents/ui/main.qml:226
 #, kde-format
-msgid "Stop indexing a folder..."
-msgstr "Dừng lập chỉ mục một thư mục..."
+msgid "Stop indexing a folder…"
+msgstr "Dừng lập chỉ mục một thư mục…"
 
-#: package/contents/ui/main.qml:284
+#: package/contents/ui/main.qml:277
 #, kde-format
 msgid "Not indexed"
 msgstr "Không lập chỉ mục"
 
-#: package/contents/ui/main.qml:285
+#: package/contents/ui/main.qml:278
 #, kde-format
 msgid "Indexed"
 msgstr "Lập chỉ mục"
 
-#: package/contents/ui/main.qml:315
+#: package/contents/ui/main.qml:308
 #, kde-format
 msgid "Delete entry"
 msgstr "Xoá mục"
 
-#: package/contents/ui/main.qml:330
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Select a folder to include"
 msgstr "Chọn một thư mục để thêm vào"
 
-#: package/contents/ui/main.qml:330
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Select a folder to exclude"
 msgstr "Chọn một thư mục để bỏ đi"

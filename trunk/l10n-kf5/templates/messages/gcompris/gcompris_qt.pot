@@ -1785,7 +1785,8 @@ msgstr ""
 #: activities/erase/ActivityInfo.qml:22 activities/erase_2clic/ActivityInfo.qml:22
 #: activities/erase_clic/ActivityInfo.qml:22
 #: activities/hanoi/ActivityInfo.qml:22 activities/memory-tux/ActivityInfo.qml:22
-#: activities/memory/ActivityInfo.qml:22 activities/tangram/ActivityInfo.qml:29
+#: activities/memory/ActivityInfo.qml:22 activities/mouse_control_action/ActivityInfo.qml:21
+#: activities/tangram/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Mouse-manipulation."
 msgstr ""
@@ -5669,7 +5670,7 @@ msgid "Group 4 types of fruit and enumerate each group (8 fruit max)."
 msgstr ""
 
 #. Activity title
-#: activities/erase/ActivityInfo.qml:15
+#: activities/erase/ActivityInfo.qml:15 activities/mouse_control_action/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Move the mouse or touch the screen"
 msgstr ""
@@ -16333,6 +16334,54 @@ msgctxt "Data|"
 msgid "Up to 24 items, on multiple lines."
 msgstr ""
 
+#. Help title
+#: activities/mouse_control_action/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Move the mouse or touch the screen and observe the result."
+msgstr ""
+
+#. Help goal
+#: activities/mouse_control_action/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid ""
+"Providing audio-visual feedback when using the mouse to help in discovering "
+"its usage for a young kid."
+msgstr ""
+
+#. Help manual
+#: activities/mouse_control_action/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "The screen has 3 sections:"
+msgstr ""
+
+#: activities/mouse_control_action/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid ""
+"the leftmost column contains 4 ducks, clicking on one of them produces a "
+"sound and an animation."
+msgstr ""
+
+#: activities/mouse_control_action/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid ""
+"the central area contains a blue duck, moving the mouse cursor or doing a "
+"drag gesture on a touchscreen makes the blue duck move."
+msgstr ""
+
+#: activities/mouse_control_action/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid ""
+"the arrows area, clicking on one of them makes the blue duck move in the "
+"corresponding direction."
+msgstr ""
+
+#: activities/mouse_control_action/ActivityInfo.qml:27
+msgctxt "ActivityInfo|"
+msgid ""
+"Doing a simple click in the central area shows a marker at the click "
+"position."
+msgstr ""
+
 #. Activity title
 #: activities/nine_men_morris/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
@@ -16936,6 +16985,77 @@ msgctxt "Data|"
 msgid ""
 "The|sun|is|shining|in|the|sky.\n"
 "Kids|enjoy|playing|outside|in|the|evening."
+msgstr ""
+
+#. Activity title
+#: activities/oware/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Play oware against Tux"
+msgstr ""
+
+#. Help title
+#: activities/oware/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Play the Oware strategy game against Tux."
+msgstr ""
+
+#. Help goal
+#: activities/oware/ActivityInfo.qml:19 activities/oware_2players/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid ""
+"The game starts with four seeds in each house. The objective of the game is "
+"to capture more seeds than one's opponent. Since the game has only 48 seeds, "
+"capturing 25 is sufficient to win the game. Since there is an even number of "
+"seeds, it is possible for the game to end in a draw, where each player has "
+"captured 24."
+msgstr ""
+
+#. Help manual
+#: activities/oware/ActivityInfo.qml:23 activities/oware_2players/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"Players take turns moving the seeds. On a turn, a player chooses one of the "
+"six houses under their control. The player removes all seeds from that "
+"house, and distributes them, dropping one in each house counter-clockwise "
+"from this house, in a process called sowing. Seeds are not distributed into "
+"the end scoring houses, nor into the house drawn from. The starting house is "
+"always left empty; if it contained 12 (or more) seeds, it is skipped, and "
+"the twelfth seed is placed in the next house."
+msgstr ""
+
+#: activities/oware/ActivityInfo.qml:24 activities/oware_2players/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid ""
+"Capturing occurs only when a player brings the count of an opponent's house "
+"to exactly two or three with the final seed he sowed in that turn. This "
+"always captures the seeds in the corresponding house, and possibly more: if "
+"the previous-to-last seed also brought an opponent's house to two or three, "
+"these are captured as well, and so on until a house is reached which does "
+"not contain two or three seeds or does not belong to the opponent. The "
+"captured seeds are placed in the player's scoring house. However, if a move "
+"would capture all of an opponent's seeds, the capture is forfeited since "
+"this would prevent the opponent from continuing the game, and the seeds are "
+"instead left on the board."
+msgstr ""
+
+#: activities/oware/ActivityInfo.qml:25 activities/oware_2players/ActivityInfo.qml:25
+msgctxt "ActivityInfo|"
+msgid ""
+"If an opponent's houses are all empty, the current player must make a move "
+"that gives the opponent seeds. If no such move is possible, the current "
+"player captures all seeds in their own territory, ending the game."
+msgstr ""
+
+#. Activity title
+#: activities/oware_2players/ActivityInfo.qml:14
+msgctxt "ActivityInfo|"
+msgid "Play oware with a friend"
+msgstr ""
+
+#. Help title
+#: activities/oware_2players/ActivityInfo.qml:16
+msgctxt "ActivityInfo|"
+msgid "Play the Oware strategy game with a friend."
 msgstr ""
 
 #. Activity title
@@ -22481,47 +22601,47 @@ msgid ""
 "depending on your graphical card)."
 msgstr ""
 
-#: core/main.qml:229
+#: core/main.qml:233
 msgctxt "main|"
 msgid "Voices for your language"
 msgstr ""
 
-#: core/main.qml:230
+#: core/main.qml:234
 msgctxt "main|"
 msgid "Full word image set"
 msgstr ""
 
-#: core/main.qml:231
+#: core/main.qml:235
 msgctxt "main|"
 msgid "Background music"
 msgstr ""
 
-#: core/main.qml:236
+#: core/main.qml:240
 msgctxt "main|"
 msgid "Do you want to download the following external assets?"
 msgstr ""
 
-#: core/main.qml:241
+#: core/main.qml:245
 msgctxt "main|"
 msgid "Yes"
 msgstr ""
 
-#: core/main.qml:251
+#: core/main.qml:255
 msgctxt "main|"
 msgid "No"
 msgstr ""
 
-#: core/main.qml:276
+#: core/main.qml:280
 msgctxt "main|"
 msgid "Welcome to GCompris!"
 msgstr ""
 
-#: core/main.qml:277
+#: core/main.qml:281
 msgctxt "main|"
 msgid "You are running GCompris for the first time."
 msgstr ""
 
-#: core/main.qml:278
+#: core/main.qml:282
 msgctxt "main|"
 msgid ""
 "You should verify that your application settings especially your language is "
@@ -22529,18 +22649,18 @@ msgid ""
 "can do this in the Preferences Dialog."
 msgstr ""
 
-#: core/main.qml:280
+#: core/main.qml:284
 msgctxt "main|"
 msgid "Have Fun!"
 msgstr ""
 
-#: core/main.qml:282
+#: core/main.qml:286
 #, qt-format
 msgctxt "main|"
 msgid "Your current language is %1 (%2)."
 msgstr ""
 
-#: core/main.qml:307
+#: core/main.qml:311
 msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-phone-components\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-10 00:20+0000\n"
+"POT-Creation-Date: 2021-09-30 01:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -22,92 +22,189 @@ msgstr ""
 msgid "%1%"
 msgstr ""
 
-#: package/contents/ui/indicators/providers/SignalStrengthProvider.qml:25
+#: package/contents/ui/indicators/providers/SignalStrengthProvider.qml:18
 #, kde-format
-msgid "Sim locked"
+msgid "Sim Locked"
 msgstr ""
 
-#: package/contents/ui/indicators/providers/VolumeProvider.qml:128
+#: package/contents/ui/indicators/providers/VolumeProvider.qml:158
 #, kde-format
 msgid "Audio"
 msgstr ""
 
-#: package/contents/ui/indicators/providers/VolumeProvider.qml:132
+#: package/contents/ui/indicators/providers/VolumeProvider.qml:162
 #, kde-format
 msgid "Increase Volume"
 msgstr ""
 
-#: package/contents/ui/indicators/providers/VolumeProvider.qml:139
+#: package/contents/ui/indicators/providers/VolumeProvider.qml:169
 #, kde-format
 msgid "Decrease Volume"
 msgstr ""
 
-#: package/contents/ui/indicators/providers/VolumeProvider.qml:146
+#: package/contents/ui/indicators/providers/VolumeProvider.qml:176
+#: package/contents/ui/volumeosd/VolumeOsd.qml:106
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:113
-#, kde-format
-msgid "Settings"
-msgstr ""
-
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:120
-#, kde-format
-msgid "Wifi"
-msgstr ""
-
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:127
-#, kde-format
-msgid "Bluetooth"
-msgstr ""
-
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:135
-#, kde-format
-msgid "Mobile Data"
-msgstr ""
-
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:142
+#: package/contents/ui/main.qml:142
 #, kde-format
 msgid "Battery"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:149
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgid "Sound"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:156
+#: package/contents/ui/quicksettings/SettingsModel.qml:36
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: package/contents/ui/quicksettings/SettingsModel.qml:50
+#, kde-format
+msgid "Wi-Fi"
+msgstr ""
+
+#: package/contents/ui/quicksettings/SettingsModel.qml:59
+#, kde-format
+msgid "Bluetooth"
+msgstr ""
+
+#: package/contents/ui/quicksettings/SettingsModel.qml:74
+#, kde-format
+msgid "Mobile Data"
+msgstr ""
+
+#: package/contents/ui/quicksettings/SettingsModel.qml:83
 #, kde-format
 msgid "Flashlight"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:163
+#: package/contents/ui/quicksettings/SettingsModel.qml:91
 #, kde-format
 msgid "Location"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:169
+#: package/contents/ui/quicksettings/SettingsModel.qml:96
 #, kde-format
 msgid "Screenshot"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:176
+#: package/contents/ui/quicksettings/SettingsModel.qml:105
 #, kde-format
 msgid "Auto-rotate"
 msgstr ""
 
-#: package/contents/ui/quicksettings/QuickSettingsModel.qml:183
+#: package/contents/ui/volumeosd/AudioApplet.qml:74
 #, kde-format
-msgid "Night Color"
+msgid "Outputs"
 msgstr ""
 
-#: phonepanel.cpp:186
+#: package/contents/ui/volumeosd/AudioApplet.qml:102
+#, kde-format
+msgid "Inputs"
+msgstr ""
+
+#: package/contents/ui/volumeosd/AudioApplet.qml:131
+#, kde-format
+msgid "Playback Streams"
+msgstr ""
+
+#: package/contents/ui/volumeosd/AudioApplet.qml:181
+#, kde-format
+msgid "Recording Streams"
+msgstr ""
+
+#: package/contents/ui/volumeosd/DeviceListItem.qml:25
+#, kde-format
+msgctxt "label of device items"
+msgid "%1 (%2)"
+msgstr ""
+
+#: package/contents/ui/volumeosd/DeviceListItem.qml:34
+#, kde-format
+msgid "Device name not found"
+msgstr ""
+
+#: package/contents/ui/volumeosd/ListItemBase.qml:109
+#, kde-format
+msgid "Show additional options for %1"
+msgstr ""
+
+#: package/contents/ui/volumeosd/ListItemBase.qml:165
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr ""
+
+#: package/contents/ui/volumeosd/ListItemBase.qml:247
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr ""
+
+#: package/contents/ui/volumeosd/ListItemBase.qml:262
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr ""
+
+#: package/contents/ui/volumeosd/StreamListItem.qml:21
+#, kde-format
+msgid "Notification Sounds"
+msgstr ""
+
+#: package/contents/ui/volumeosd/StreamListItem.qml:24
+#, kde-format
+msgctxt "label of stream items"
+msgid "%1: %2"
+msgstr ""
+
+#: package/contents/ui/volumeosd/StreamListItem.qml:29
+#, kde-format
+msgid "Stream name not found"
+msgstr ""
+
+#: package/contents/ui/volumeosd/VolumeOsd.qml:106
+#, kde-format
+msgid "Unmute"
+msgstr ""
+
+#: package/contents/ui/volumeosd/VolumeOsd.qml:130
+#, kde-format
+msgid "100%"
+msgstr ""
+
+#: package/contents/ui/volumeosd/VolumeOsd.qml:140
+#, kde-format
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr ""
+
+#: package/contents/ui/volumeosd/VolumeOsd.qml:160
+#, kde-format
+msgid "Open audio settings"
+msgstr ""
+
+#: package/contents/ui/volumeosd/VolumeOsd.qml:173
+#, kde-format
+msgid "Audio Settings"
+msgstr ""
+
+#: package/contents/ui/volumeosd/VolumeOsd.qml:180
+#, kde-format
+msgid "Toggle showing audio streams"
+msgstr ""
+
+#: phonepanel.cpp:180
 #, kde-format
 msgid "New Screenshot"
 msgstr ""
 
-#: phonepanel.cpp:188
+#: phonepanel.cpp:182
 #, kde-format
 msgid "New screenshot saved to %1"
 msgstr ""

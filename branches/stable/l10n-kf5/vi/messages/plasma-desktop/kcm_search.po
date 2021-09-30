@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-01 00:20+0000\n"
-"PO-Revision-Date: 2021-02-23 21:29+0100\n"
+"POT-Creation-Date: 2021-07-13 00:19+0000\n"
+"PO-Revision-Date: 2021-07-14 09:00+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -27,109 +27,109 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net"
 
-#: kcm.cpp:58
+#: kcm.cpp:47
 #, kde-format
 msgctxt "kcm name for About dialog"
 msgid "Configure Search Bar"
 msgstr "Cấu hình thanh tìm kiếm"
 
-#: kcm.cpp:62
+#: kcm.cpp:51
 #, kde-format
 msgid "Vishesh Handa"
 msgstr "Vishesh Handa"
 
-#: kcm.cpp:79
+#: kcm.cpp:68
 #, kde-format
 msgid "Enable or disable plugins (used in KRunner and Application Launcher)"
 msgstr ""
 "Bật hoặc tắt các phần cài cắm (dùng trong KRunner và Trình khởi chạy ứng "
 "dụng)"
 
-#: kcm.cpp:93
+#: kcm.cpp:82
 #, kde-format
 msgid "Top"
 msgstr "Trên"
 
-#: kcm.cpp:95
+#: kcm.cpp:84
 #, kde-format
 msgid "Center"
 msgstr "Giữa"
 
-#: kcm.cpp:99
+#: kcm.cpp:88
 #, kde-format
 msgid "Position on screen:"
 msgstr "Vị trí trên màn hình:"
 
-#: kcm.cpp:101
+#: kcm.cpp:90
 #, kde-format
 msgid "Enable"
 msgstr "Bật"
 
-#: kcm.cpp:104
+#: kcm.cpp:93
 #, kde-format
 msgid "History:"
 msgstr "Lịch sử:"
 
-#: kcm.cpp:106
+#: kcm.cpp:95
 #, kde-format
 msgid "Retain previous search"
 msgstr "Giữ lại tìm kiếm trước"
 
-#: kcm.cpp:109
+#: kcm.cpp:98
 #, kde-format
 msgid "Activity aware (previous search and history)"
 msgstr "Đi theo Hoạt động (tìm kiếm trước và lịch sử)"
 
-#: kcm.cpp:145
+#: kcm.cpp:134
 #, kde-format
-msgid "Get New Plugins..."
-msgstr "Lấy phần cài cắm mới..."
+msgid "Get New Plugins…"
+msgstr "Lấy phần cài cắm mới…"
 
-#: kcm.cpp:151 kcm.cpp:182
+#: kcm.cpp:140 kcm.cpp:171
 #, kde-format
 msgid "Available Plugins"
 msgstr "Phần cài cắm khả dụng"
 
-#: kcm.cpp:240
+#: kcm.cpp:229
 #, kde-format
 msgctxt "delete history for all activities"
 msgid "For all activities"
 msgstr "Cho tất cả các Hoạt động"
 
-#: kcm.cpp:254
+#: kcm.cpp:243
 #, kde-format
 msgctxt "delete history for this activity"
 msgid "For activity \"%1\""
 msgstr "Cho Hoạt động \"%1\""
 
-#: kcm.cpp:260
+#: kcm.cpp:249
 #, kde-format
-msgid "Clear History..."
-msgstr "Xoá lịch sử..."
+msgid "Clear History…"
+msgstr "Xoá lịch sử…"
 
-#: kcm.cpp:264
+#: kcm.cpp:253
 #, kde-format
 msgid "Clear History"
 msgstr "Xoá lịch sử"
 
-#: plugininstaller/AbstractJob.cpp:46
+#: plugininstaller/AbstractJob.cpp:18
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Failed to run install script in terminal <message>%1</message>"
+msgstr "Chạy kịch bản cài đặt trong dòng lệnh thất bại: <message>%1</message>"
+
+#: plugininstaller/AbstractJob.cpp:29
 #, kde-format
 msgctxt "@info"
 msgid "Installation executed successfully, you may now close this window"
 msgstr "Việc cài đặt được thực thi thành công, giờ bạn có thể đóng cửa sổ này"
 
-#: plugininstaller/AbstractJob.cpp:48
+#: plugininstaller/AbstractJob.cpp:31
 #, kde-format
 msgctxt "@info"
 msgid "Uninstallation executed successfully, you may now close this window"
 msgstr ""
 "Việc gỡ cài đặt được thực thi thành công, giờ bạn có thể đóng cửa sổ này"
-
-#: plugininstaller/AbstractJob.cpp:61
-#, kde-format
-msgctxt "@info"
-msgid "Failed to run install script in terminal \"%1\""
-msgstr "Chạy kịch bản cài đặt trong dòng lệnh \"%1\" thất bại"
 
 #: plugininstaller/main.cpp:31
 #, kde-format
@@ -309,3 +309,12 @@ msgstr "Xem %1"
 msgctxt "@info"
 msgid "Could not resolve package name of %1"
 msgstr "Không phân giải được tên gói của %1"
+
+#: plugininstaller/ZypperRPMJob.cpp:37
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to run install command: <message>%1</message>"
+msgstr "Chạy lệnh cài đặt thất bại: <message>%1</message>"
+
+#~ msgid "Clear History..."
+#~ msgstr "Xoá lịch sử…"

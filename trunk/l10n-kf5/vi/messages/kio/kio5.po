@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-13 00:15+0000\n"
+"POT-Creation-Date: 2021-09-29 00:14+0000\n"
 "PO-Revision-Date: 2021-09-09 16:20+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -265,12 +265,12 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Bỏ gắn kết"
 
-#: core/job.cpp:266
+#: core/job.cpp:264
 #, kde-format
 msgid "Change Attribute"
 msgstr "Thay đổi thuộc tính"
 
-#: core/job.cpp:268
+#: core/job.cpp:266
 #, kde-format
 msgid ""
 "Root privileges are required to change file attributes. Do you want to "
@@ -278,12 +278,12 @@ msgid ""
 msgstr ""
 "Cần có đặc quyền gốc để thay đổi thuộc tính tệp. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:272
+#: core/job.cpp:270
 #, kde-format
 msgid "Copy Files"
 msgstr "Chép tệp"
 
-#: core/job.cpp:274
+#: core/job.cpp:272
 #, kde-format
 msgid ""
 "Root privileges are required to complete the copy operation. Do you want to "
@@ -291,12 +291,12 @@ msgid ""
 msgstr ""
 "Cần có đặc quyền gốc để hoàn tất thao tác chép. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:278
+#: core/job.cpp:276
 #, kde-format
 msgid "Delete Files"
 msgstr "Xoá tệp"
 
-#: core/job.cpp:280
+#: core/job.cpp:278
 #, kde-format
 msgid ""
 "Root privileges are required to complete the delete operation. However, "
@@ -305,23 +305,23 @@ msgstr ""
 "Cần có đặc quyền gốc để hoàn tất thao tác xoá. Tuy nhiên, làm vậy có thể gây "
 "tổn hại cho hệ thống của bạn. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:284
+#: core/job.cpp:282
 #, kde-format
 msgid "Create Folder"
 msgstr "Tạo thư mục"
 
-#: core/job.cpp:286
+#: core/job.cpp:284
 #, kde-format
 msgid ""
 "Root privileges are required to create this folder. Do you want to continue?"
 msgstr "Cần có đặc quyền gốc để tạo thư mục này. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:290
+#: core/job.cpp:288
 #, kde-format
 msgid "Move Items"
 msgstr "Chuyển các thứ"
 
-#: core/job.cpp:292
+#: core/job.cpp:290
 #, kde-format
 msgid ""
 "Root privileges are required to complete the move operation. Do you want to "
@@ -329,25 +329,25 @@ msgid ""
 msgstr ""
 "Cần có đặc quyền gốc để hoàn tất thao tác chuyển. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:296 ioslaves/file/file_unix.cpp:112
+#: core/job.cpp:294 ioslaves/file/file_unix.cpp:122
 #, kde-format
 msgid "Rename"
 msgstr "Đổi tên"
 
-#: core/job.cpp:298
+#: core/job.cpp:296
 #, kde-format
 msgid ""
 "Root privileges are required to complete renaming. Do you want to continue?"
 msgstr ""
 "Cần có đặc quyền gốc để hoàn tất việc đổi tên. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:302 filewidgets/knewfilemenu.cpp:607
-#: ioslaves/file/file_unix.cpp:116
+#: core/job.cpp:300 filewidgets/knewfilemenu.cpp:597
+#: ioslaves/file/file_unix.cpp:126
 #, kde-format
 msgid "Create Symlink"
 msgstr "Tạo liên kết tượng trưng"
 
-#: core/job.cpp:304
+#: core/job.cpp:302
 #, kde-format
 msgid ""
 "Root privileges are required to create a symlink. Do you want to continue?"
@@ -355,12 +355,12 @@ msgstr ""
 "Cần có đặc quyền gốc để tạo được một liên kết tượng trưng. Bạn có muốn tiếp "
 "tục không?"
 
-#: core/job.cpp:308
+#: core/job.cpp:306
 #, kde-format
 msgid "Transfer data"
 msgstr "Truyền dữ liệu"
 
-#: core/job.cpp:310
+#: core/job.cpp:308
 #, kde-format
 msgid ""
 "Root privileges are required to complete transferring data. Do you want to "
@@ -2332,17 +2332,17 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Lỗi chưa được lập tài liệu"
 
-#: core/kfileitem.cpp:1325
+#: core/kfileitem.cpp:1349
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Liên kết tượng trưng đến %1)"
 
-#: core/kfileitem.cpp:1327
+#: core/kfileitem.cpp:1351
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, liên kết đến %2)"
 
-#: core/kfileitem.cpp:1330
+#: core/kfileitem.cpp:1354
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (Trỏ đến %1)"
@@ -2590,79 +2590,79 @@ msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr "Bạn có muốn chấp nhận chứng chỉ này mãi mãi và không bị hỏi?"
 
-#: filewidgets/kdiroperator.cpp:734
+#: filewidgets/kdiroperator.cpp:740
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "Một tệp hay thư mục tên là %1 đã tồn tại."
 
-#: filewidgets/kdiroperator.cpp:737
+#: filewidgets/kdiroperator.cpp:743
 #, kde-format
 msgid "You do not have permission to create that folder."
 msgstr "Bạn không có quyền truy cập để tạo thư mục đó."
 
-#: filewidgets/kdiroperator.cpp:750 filewidgets/kdiroperator.cpp:799
+#: filewidgets/kdiroperator.cpp:756 filewidgets/kdiroperator.cpp:805
 #, kde-format
 msgid "You did not select a file to delete."
 msgstr "Bạn chưa chọn tệp nào để xoá."
 
-#: filewidgets/kdiroperator.cpp:750 filewidgets/kdiroperator.cpp:799
+#: filewidgets/kdiroperator.cpp:756 filewidgets/kdiroperator.cpp:805
 #, kde-format
 msgid "Nothing to Delete"
 msgstr "Không có gì để xoá"
 
-#: filewidgets/kdiroperator.cpp:809 filewidgets/kdiroperator.cpp:904
+#: filewidgets/kdiroperator.cpp:815 filewidgets/kdiroperator.cpp:910
 #, kde-format
 msgid "You did not select a file to trash."
 msgstr "Bạn chưa chọn tệp nào để đổ rác."
 
-#: filewidgets/kdiroperator.cpp:809 filewidgets/kdiroperator.cpp:904
+#: filewidgets/kdiroperator.cpp:815 filewidgets/kdiroperator.cpp:910
 #, kde-format
 msgid "Nothing to Trash"
 msgstr "Không có gì để vứt"
 
-#: filewidgets/kdiroperator.cpp:1016 filewidgets/kdiroperator.cpp:1157
+#: filewidgets/kdiroperator.cpp:1022 filewidgets/kdiroperator.cpp:1163
 #, kde-format
 msgid "The specified folder does not exist or was not readable."
 msgstr "Thư mục được chỉ định không tồn tại hoặc không đọc được."
 
-#: filewidgets/kdiroperator.cpp:2011
+#: filewidgets/kdiroperator.cpp:2057
 #, kde-format
 msgid "Menu"
 msgstr "Trình đơn"
 
-#: filewidgets/kdiroperator.cpp:2015
+#: filewidgets/kdiroperator.cpp:2061
 #, kde-format
 msgid "Parent Folder"
 msgstr "Thư mục cha"
 
-#: filewidgets/kdiroperator.cpp:2019
+#: filewidgets/kdiroperator.cpp:2065
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
 msgstr "Đi lùi"
 
-#: filewidgets/kdiroperator.cpp:2022
+#: filewidgets/kdiroperator.cpp:2068
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
 msgstr "Đi tiến"
 
-#: filewidgets/kdiroperator.cpp:2025
+#: filewidgets/kdiroperator.cpp:2071
 #, kde-format
 msgid "Home Folder"
 msgstr "Thư mục Nhà"
 
-#: filewidgets/kdiroperator.cpp:2028
+#: filewidgets/kdiroperator.cpp:2074
 #, kde-format
 msgid "Reload"
 msgstr "Tải lại"
 
-#: filewidgets/kdiroperator.cpp:2031
+#: filewidgets/kdiroperator.cpp:2077
 #, kde-format
 msgid "New Folder..."
 msgstr "Thư mục mới..."
 
-#: filewidgets/kdiroperator.cpp:2041 widgets/jobuidelegate.cpp:280
+#: filewidgets/kdiroperator.cpp:2087 widgets/jobuidelegate.cpp:280
 #: widgets/jobuidelegate.cpp:281 widgets/jobuidelegate.cpp:290
 #: widgets/jobuidelegate.cpp:291 widgets/widgetsaskuseractionhandler.cpp:173
 #: widgets/widgetsaskuseractionhandler.cpp:174
@@ -2670,167 +2670,167 @@ msgstr "Thư mục mới..."
 msgid "Move to Trash"
 msgstr "Chuyển vào thùng rác"
 
-#: filewidgets/kdiroperator.cpp:2047
+#: filewidgets/kdiroperator.cpp:2093
 #, kde-format
 msgid "Delete"
 msgstr "Xoá"
 
-#: filewidgets/kdiroperator.cpp:2054
+#: filewidgets/kdiroperator.cpp:2100
 #, kde-format
 msgid "Sorting"
 msgstr "Sắp xếp"
 
-#: filewidgets/kdiroperator.cpp:2059
+#: filewidgets/kdiroperator.cpp:2105
 #, kde-format
 msgid "Sort by Name"
 msgstr "Sắp xếp theo tên"
 
-#: filewidgets/kdiroperator.cpp:2065
+#: filewidgets/kdiroperator.cpp:2111
 #, kde-format
 msgid "Sort by Size"
 msgstr "Sắp xếp theo kích thước"
 
-#: filewidgets/kdiroperator.cpp:2071
+#: filewidgets/kdiroperator.cpp:2117
 #, kde-format
 msgid "Sort by Date"
 msgstr "Sắp xếp theo ngày"
 
-#: filewidgets/kdiroperator.cpp:2077
+#: filewidgets/kdiroperator.cpp:2123
 #, kde-format
 msgid "Sort by Type"
 msgstr "Sắp xếp theo kiểu"
 
-#: filewidgets/kdiroperator.cpp:2086
+#: filewidgets/kdiroperator.cpp:2132
 #, kde-format
 msgid "Ascending"
 msgstr "Tăng dần"
 
-#: filewidgets/kdiroperator.cpp:2093
+#: filewidgets/kdiroperator.cpp:2139
 #, kde-format
 msgid "Descending"
 msgstr "Giảm dần"
 
-#: filewidgets/kdiroperator.cpp:2100
+#: filewidgets/kdiroperator.cpp:2146
 #, kde-format
 msgid "Folders First"
 msgstr "Thư mục lên đầu"
 
-#: filewidgets/kdiroperator.cpp:2107
+#: filewidgets/kdiroperator.cpp:2153
 #, kde-format
 msgid "Icons View"
 msgstr "Khung xem biểu tượng"
 
-#: filewidgets/kdiroperator.cpp:2114
+#: filewidgets/kdiroperator.cpp:2160
 #, kde-format
 msgid "Compact View"
 msgstr "Khung xem gọn"
 
-#: filewidgets/kdiroperator.cpp:2121
+#: filewidgets/kdiroperator.cpp:2167
 #, kde-format
 msgid "Details View"
 msgstr "Khung xem chi tiết"
 
-#: filewidgets/kdiroperator.cpp:2140
+#: filewidgets/kdiroperator.cpp:2186
 #, kde-format
 msgid "Icon Position"
 msgstr "Vị trí biểu tượng"
 
-#: filewidgets/kdiroperator.cpp:2143
+#: filewidgets/kdiroperator.cpp:2189
 #, kde-format
 msgid "Next to File Name"
 msgstr "Cạnh tên tệp"
 
-#: filewidgets/kdiroperator.cpp:2149
+#: filewidgets/kdiroperator.cpp:2195
 #, kde-format
 msgid "Above File Name"
 msgstr "Trên tên tệp"
 
-#: filewidgets/kdiroperator.cpp:2163
+#: filewidgets/kdiroperator.cpp:2209
 #, kde-format
 msgid "Short View"
 msgstr "Khung xem ngắn"
 
-#: filewidgets/kdiroperator.cpp:2170
+#: filewidgets/kdiroperator.cpp:2216
 #, kde-format
 msgid "Detailed View"
 msgstr "Khung xem chi tiết"
 
-#: filewidgets/kdiroperator.cpp:2177
+#: filewidgets/kdiroperator.cpp:2223
 #, kde-format
 msgid "Tree View"
 msgstr "Khung xem cây"
 
-#: filewidgets/kdiroperator.cpp:2184
+#: filewidgets/kdiroperator.cpp:2230
 #, kde-format
 msgid "Detailed Tree View"
 msgstr "Khung xem cây chi tiết"
 
-#: filewidgets/kdiroperator.cpp:2197
+#: filewidgets/kdiroperator.cpp:2243
 #, kde-format
 msgid "Allow Expansion in Details View"
 msgstr "Cho phép mở rộng trong khung xem chi tiết"
 
-#: filewidgets/kdiroperator.cpp:2203
+#: filewidgets/kdiroperator.cpp:2249
 #, kde-format
 msgid "Show Hidden Files"
 msgstr "Hiện tệp ẩn"
 
-#: filewidgets/kdiroperator.cpp:2210
+#: filewidgets/kdiroperator.cpp:2256
 #, kde-format
 msgid "Show Preview Panel"
 msgstr "Hiện bảng xem thử"
 
-#: filewidgets/kdiroperator.cpp:2217
+#: filewidgets/kdiroperator.cpp:2263
 #, kde-format
 msgid "Show Preview"
 msgstr "Hiện xem thử"
 
-#: filewidgets/kdiroperator.cpp:2224
+#: filewidgets/kdiroperator.cpp:2270
 #, kde-format
 msgid "Open Containing Folder"
 msgstr "Mở thư mục chứa"
 
-#: filewidgets/kdiroperator.cpp:2231 filewidgets/kfileplacesview.cpp:891
+#: filewidgets/kdiroperator.cpp:2277 filewidgets/kfileplacesview.cpp:891
 #, kde-format
 msgid "Properties"
 msgstr "Thuộc tính"
 
-#: filewidgets/kdiroperator.cpp:2240
+#: filewidgets/kdiroperator.cpp:2286
 #, kde-format
 msgid "&View"
 msgstr "&Xem"
 
-#: filewidgets/kdiroperator.cpp:2338 filewidgets/kdiroperator.cpp:2350
+#: filewidgets/kdiroperator.cpp:2386 filewidgets/kdiroperator.cpp:2398
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr "Z-A"
 
-#: filewidgets/kdiroperator.cpp:2339 filewidgets/kdiroperator.cpp:2351
+#: filewidgets/kdiroperator.cpp:2387 filewidgets/kdiroperator.cpp:2399
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr "A-Z"
 
-#: filewidgets/kdiroperator.cpp:2342
+#: filewidgets/kdiroperator.cpp:2390
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr "Mới nhất trước"
 
-#: filewidgets/kdiroperator.cpp:2343
+#: filewidgets/kdiroperator.cpp:2391
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr "Cũ nhất trước"
 
-#: filewidgets/kdiroperator.cpp:2346
+#: filewidgets/kdiroperator.cpp:2394
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr "Lớn nhất trước"
 
-#: filewidgets/kdiroperator.cpp:2347
+#: filewidgets/kdiroperator.cpp:2395
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
@@ -3196,7 +3196,7 @@ msgid "Empty Trash"
 msgstr "Đổ rác"
 
 #: filewidgets/kfileplacesview.cpp:854 filewidgets/kfileplacesview.cpp:888
-#: filewidgets/kfileplacesview.cpp:904 widgets/kacleditwidget.cpp:70
+#: filewidgets/kfileplacesview.cpp:904 widgets/kacleditwidget.cpp:71
 #, kde-format
 msgid "Add Entry..."
 msgstr "Thêm mục..."
@@ -3277,7 +3277,7 @@ msgstr ""
 "Tính năng này có thể được điều khiển bằng cách bấm nút chuột phải và chọn "
 "chế độ mong muốn ở trình đơn <b>Hoàn tất văn bản</b>.</qt>"
 
-#: filewidgets/kfilewidget.cpp:410
+#: filewidgets/kfilewidget.cpp:411
 #, kde-format
 msgid ""
 "<qt>Click this button to enter the parent folder.<br /><br />For instance, "
@@ -3287,42 +3287,42 @@ msgstr ""
 "<qt>Bấm nút này để vào thư mục cha.<br /><br />Ví dụ, nếu địa điểm hiện tại "
 "là file:/home/konqi, bấm nút này sẽ đưa bạn đến file:/home.</qt>"
 
-#: filewidgets/kfilewidget.cpp:414
+#: filewidgets/kfilewidget.cpp:415
 #, kde-format
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "Bấm nút này để di chuyển lùi một bước trong lịch sử duyệt."
 
-#: filewidgets/kfilewidget.cpp:415
+#: filewidgets/kfilewidget.cpp:416
 #, kde-format
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "Bấm nút này để di chuyển tiến một bước trong lịch sử duyệt."
 
-#: filewidgets/kfilewidget.cpp:417
+#: filewidgets/kfilewidget.cpp:418
 #, kde-format
 msgid "Click this button to reload the contents of the current location."
 msgstr "Bấm nút này để tải lại nội dung của địa điểm hiện tại."
 
-#: filewidgets/kfilewidget.cpp:419
+#: filewidgets/kfilewidget.cpp:420
 #, kde-format
 msgid "Click this button to create a new folder."
 msgstr "Bấm nút này để tạo một thư mục mới."
 
-#: filewidgets/kfilewidget.cpp:426
+#: filewidgets/kfilewidget.cpp:427
 #, kde-format
 msgid "Show Places Panel"
 msgstr "Hiện bảng địa điểm"
 
-#: filewidgets/kfilewidget.cpp:433
+#: filewidgets/kfilewidget.cpp:434
 #, kde-format
 msgid "Show Bookmarks Button"
 msgstr "Hiện nút Dấu nhớ"
 
-#: filewidgets/kfilewidget.cpp:440
+#: filewidgets/kfilewidget.cpp:441
 #, kde-format
 msgid "Options"
 msgstr "Lựa chọn"
 
-#: filewidgets/kfilewidget.cpp:443
+#: filewidgets/kfilewidget.cpp:444
 #, kde-format
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
@@ -3337,22 +3337,22 @@ msgstr ""
 "và kiểu danh sách</li><li>việc hiện các tệp ẩn</li><li>bảng Địa điểm</li> "
 "<li>phần xem thử tệp</li><li>việc tách thư mục khỏi tệp</li></ul></qt>"
 
-#: filewidgets/kfilewidget.cpp:484
+#: filewidgets/kfilewidget.cpp:485
 #, kde-format
 msgid "Zoom out"
 msgstr "Thu nhỏ"
 
-#: filewidgets/kfilewidget.cpp:489
+#: filewidgets/kfilewidget.cpp:490
 #, kde-format
 msgid "Zoom in"
 msgstr "Phóng to"
 
-#: filewidgets/kfilewidget.cpp:494
+#: filewidgets/kfilewidget.cpp:495
 #, kde-format
 msgid "Bookmarks"
 msgstr "Dấu nhớ"
 
-#: filewidgets/kfilewidget.cpp:498
+#: filewidgets/kfilewidget.cpp:499
 #, kde-format
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -3366,32 +3366,32 @@ msgstr ""
 "thì chúng hoạt động như các dấu nhớ ở các chỗ khác trong KDE.</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:543 widgets/kpropertiesdesktopbase.ui:17
+#: filewidgets/kfilewidget.cpp:544 widgets/kpropertiesdesktopbase.ui:17
 #, kde-format
 msgid "&Name:"
 msgstr "&Tên:"
 
-#: filewidgets/kfilewidget.cpp:832
+#: filewidgets/kfilewidget.cpp:833
 #, kde-format
 msgid "You can only select one file"
 msgstr "Bạn chỉ có thể chọn một tệp"
 
-#: filewidgets/kfilewidget.cpp:832
+#: filewidgets/kfilewidget.cpp:833
 #, kde-format
 msgid "More than one file provided"
 msgstr "Đang có được nhiều hơn một tệp"
 
-#: filewidgets/kfilewidget.cpp:1005
+#: filewidgets/kfilewidget.cpp:1006
 #, kde-format
 msgid "You can only select local files"
 msgstr "Bạn chỉ có thể chọn tệp cục bộ"
 
-#: filewidgets/kfilewidget.cpp:1005
+#: filewidgets/kfilewidget.cpp:1006
 #, kde-format
 msgid "Remote files not accepted"
 msgstr "Không chấp nhận tệp ở xa"
 
-#: filewidgets/kfilewidget.cpp:1012
+#: filewidgets/kfilewidget.cpp:1013
 #, kde-format
 msgid ""
 "The selected URL uses an unsupported scheme. Please use the following "
@@ -3403,12 +3403,12 @@ msgstr[0] ""
 "URL được chọn sử dụng một quy hoạch không được hỗ trợ. Vui lòng sử dụng một "
 "trong các quy hoạch sau: %2"
 
-#: filewidgets/kfilewidget.cpp:1018
+#: filewidgets/kfilewidget.cpp:1019
 #, kde-format
 msgid "Unsupported URL scheme"
 msgstr "Quy hoạch URL không được hỗ trợ"
 
-#: filewidgets/kfilewidget.cpp:1034
+#: filewidgets/kfilewidget.cpp:1035
 #, kde-format
 msgid ""
 "More than one folder has been selected and this dialog does not accept "
@@ -3419,12 +3419,12 @@ msgstr ""
 "không thể quyết định đi vào cái nào. Vui lòng chọn chỉ một thư mục để liệt "
 "kê."
 
-#: filewidgets/kfilewidget.cpp:1036
+#: filewidgets/kfilewidget.cpp:1037
 #, kde-format
 msgid "More than one folder provided"
 msgstr "Đang có được nhiều hơn một thư mục"
 
-#: filewidgets/kfilewidget.cpp:1046
+#: filewidgets/kfilewidget.cpp:1047
 #, kde-format
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
@@ -3433,27 +3433,27 @@ msgstr ""
 "Ít nhất một thư mục và một tệp đã được chọn. Các tệp được chọn sẽ bị bỏ qua "
 "và thư mục được chọn sẽ được liệt kê"
 
-#: filewidgets/kfilewidget.cpp:1047
+#: filewidgets/kfilewidget.cpp:1048
 #, kde-format
 msgid "Files and folders selected"
 msgstr "Các tệp và thư mục được chọn"
 
-#: filewidgets/kfilewidget.cpp:1065
+#: filewidgets/kfilewidget.cpp:1066
 #, kde-format
 msgid "The file \"%1\" could not be found"
 msgstr "Không tìm được tệp \"%1\""
 
-#: filewidgets/kfilewidget.cpp:1065
+#: filewidgets/kfilewidget.cpp:1066
 #, kde-format
 msgid "Cannot open file"
 msgstr "Không thể mở tệp"
 
-#: filewidgets/kfilewidget.cpp:1353
+#: filewidgets/kfilewidget.cpp:1355
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "Đây là tên để lưu tệp."
 
-#: filewidgets/kfilewidget.cpp:1356
+#: filewidgets/kfilewidget.cpp:1358
 #, kde-format
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
@@ -3462,33 +3462,33 @@ msgstr ""
 "Đây là danh sách các tệp để mở. Có thể chỉ định nhiều hơn một tệp bằng cách "
 "liệt kê nhiều tệp, phân cách bởi dấu cách."
 
-#: filewidgets/kfilewidget.cpp:1361
+#: filewidgets/kfilewidget.cpp:1363
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "Đây là tên của tệp để mở."
 
-#: filewidgets/kfilewidget.cpp:1374
+#: filewidgets/kfilewidget.cpp:1376
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Địa điểm"
 
-#: filewidgets/kfilewidget.cpp:1587
+#: filewidgets/kfilewidget.cpp:1589
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "Tệp \"%1\" đã tồn tại. Bạn có muốn ghi đè lên nó?"
 
-#: filewidgets/kfilewidget.cpp:1588
+#: filewidgets/kfilewidget.cpp:1590
 #, kde-format
 msgid "Overwrite File?"
 msgstr "Ghi đè tệp?"
 
-#: filewidgets/kfilewidget.cpp:1813
+#: filewidgets/kfilewidget.cpp:1815
 #, kde-format
 msgid "You can only select local files."
 msgstr "Bạn chỉ có thể chọn tệp cục bộ."
 
-#: filewidgets/kfilewidget.cpp:1813
+#: filewidgets/kfilewidget.cpp:1815
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "Không chấp nhận tệp ở xa"
@@ -3597,44 +3597,44 @@ msgstr ""
 "trong trình đơn thả xuống, hoặc nhập thẳng một bộ lọc tự chọn vào khu văn "
 "bản.</p><p>Các thế tự như * và ? được cho phép.</p></qt>"
 
-#: filewidgets/knewfilemenu.cpp:475
+#: filewidgets/knewfilemenu.cpp:466
 #, kde-format
 msgid "Sorry"
 msgstr "Rất tiếc"
 
-#: filewidgets/knewfilemenu.cpp:486
+#: filewidgets/knewfilemenu.cpp:477
 #, kde-format
 msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
 msgstr "<qt>Tệp bản mẫu <b>%1</b> không tồn tại.</qt>"
 
-#: filewidgets/knewfilemenu.cpp:604 filewidgets/knewfilemenu.cpp:688
+#: filewidgets/knewfilemenu.cpp:594 filewidgets/knewfilemenu.cpp:676
 #, kde-format
 msgid "Name for new link:"
 msgstr "Tên cho liên kết mới:"
 
-#: filewidgets/knewfilemenu.cpp:692
+#: filewidgets/knewfilemenu.cpp:680
 #, kde-format
 msgid "Create link to URL"
 msgstr "Tạo liên kết đến URL"
 
-#: filewidgets/knewfilemenu.cpp:736 filewidgets/knewfilemenu.cpp:792
+#: filewidgets/knewfilemenu.cpp:722 filewidgets/knewfilemenu.cpp:778
 #, kde-format
 msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr "%1"
 
-#: filewidgets/knewfilemenu.cpp:923
+#: filewidgets/knewfilemenu.cpp:909
 #, kde-format
 msgctxt "@action:button"
 msgid "Enter a Different Name"
 msgstr "Nhập một tên khác"
 
-#: filewidgets/knewfilemenu.cpp:927
+#: filewidgets/knewfilemenu.cpp:913
 #, kde-format
 msgid "Invalid Directory Name"
 msgstr "Tên thư mục không hợp lệ"
 
-#: filewidgets/knewfilemenu.cpp:940
+#: filewidgets/knewfilemenu.cpp:926
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3644,7 +3644,7 @@ msgstr ""
 "Không tạo được thư mục với tên <filename>%1</filename><nl/>vì nó đã được đặt "
 "trước để dùng bởi hệ điều hành."
 
-#: filewidgets/knewfilemenu.cpp:1155
+#: filewidgets/knewfilemenu.cpp:1165
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3654,7 +3654,7 @@ msgstr ""
 "Không thể dùng tên <filename>%1</filename> vì nó đã được đặt trước để dùng "
 "bởi hệ điều hành."
 
-#: filewidgets/knewfilemenu.cpp:1163
+#: filewidgets/knewfilemenu.cpp:1173
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3664,7 +3664,7 @@ msgstr ""
 "Cái tên <filename>%1</filename> bắt đầu bằng một dấu chấm, nên mặc định nó "
 "sẽ được ẩn đi."
 
-#: filewidgets/knewfilemenu.cpp:1171
+#: filewidgets/knewfilemenu.cpp:1181
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3676,28 +3676,28 @@ msgstr ""
 "đến việc nó được hiển thị trước các thứ khác khi sắp xếp theo bảng chữ cái, "
 "và những sự bất thường có thể khác nữa."
 
-#: filewidgets/knewfilemenu.cpp:1189
+#: filewidgets/knewfilemenu.cpp:1199
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders, like so:"
 msgstr ""
 "Dùng dấu gạch chéo trong tên thư mục sẽ tạo ra các thư mục con, như thế này:"
 
-#: filewidgets/knewfilemenu.cpp:1199
+#: filewidgets/knewfilemenu.cpp:1209
 #, kde-format
 msgid "Using slashes in folder names will create sub-folders."
 msgstr "Dùng dấu gạch chéo trong tên thư mục sẽ tạo ra các thư mục con."
 
-#: filewidgets/knewfilemenu.cpp:1211
+#: filewidgets/knewfilemenu.cpp:1221
 #, kde-format
 msgid "Slashes cannot be used in file and folder names."
 msgstr "Không thể dùng dấu gạch chéo trong tên tệp và thư mục."
 
-#: filewidgets/knewfilemenu.cpp:1216
+#: filewidgets/knewfilemenu.cpp:1226
 #, kde-format
 msgid "Backslashes cannot be used in file and folder names."
 msgstr "Không thể dùng dấu gạch chéo ngược trong tên tệp và thư mục."
 
-#: filewidgets/knewfilemenu.cpp:1226
+#: filewidgets/knewfilemenu.cpp:1236
 #, kde-format
 msgid ""
 "Starting a file or folder name with a tilde is not recommended because it "
@@ -3706,41 +3706,41 @@ msgstr ""
 "Không nên bắt đầu tên tệp hoặc thư mục bằng một dấu sóng vì nó có thể gây "
 "khó hiểu hoặc nguy hiểm khi dùng dòng lệnh để xoá các thứ."
 
-#: filewidgets/knewfilemenu.cpp:1294
+#: filewidgets/knewfilemenu.cpp:1304
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A directory with name <filename>%1</filename> already exists."
 msgstr "Một thư mục với tên <filename>%1</filename> đã tồn tại."
 
-#: filewidgets/knewfilemenu.cpp:1296
+#: filewidgets/knewfilemenu.cpp:1306
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A file with name <filename>%1</filename> already exists."
 msgstr "Một tệp với tên <filename>%1</filename> đã tồn tại."
 
-#: filewidgets/knewfilemenu.cpp:1377
+#: filewidgets/knewfilemenu.cpp:1387
 #, kde-format
 msgid "Create New"
 msgstr "Tạo mới"
 
-#: filewidgets/knewfilemenu.cpp:1393
+#: filewidgets/knewfilemenu.cpp:1403
 #, kde-format
 msgid "Link to Device"
 msgstr "Liên kết đến thiết bị"
 
-#: filewidgets/knewfilemenu.cpp:1437
+#: filewidgets/knewfilemenu.cpp:1443
 #, kde-format
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Thư mục mới"
 
-#: filewidgets/knewfilemenu.cpp:1456
+#: filewidgets/knewfilemenu.cpp:1462
 #, kde-format
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Thư mục mới"
 
-#: filewidgets/knewfilemenu.cpp:1458
+#: filewidgets/knewfilemenu.cpp:1464
 #, kde-format
 msgid "Create new folder in %1:"
 msgstr "Tạo thư mục mới ở %1:"
@@ -3754,7 +3754,7 @@ msgstr "Máy tính đang ngoại tuyến"
 #. i18n: ectx: property (text), widget (QPushButton, sha1CopyButton)
 #. i18n: ectx: property (text), widget (QPushButton, sha256CopyButton)
 #. i18n: ectx: property (text), widget (QPushButton, sha512CopyButton)
-#: filewidgets/kurlnavigator.cpp:469 widgets/checksumswidget.ui:118
+#: filewidgets/kurlnavigator.cpp:474 widgets/checksumswidget.ui:118
 #: widgets/checksumswidget.ui:156 widgets/checksumswidget.ui:194
 #: widgets/checksumswidget.ui:232
 #, kde-format
@@ -3762,37 +3762,37 @@ msgid "Copy"
 msgstr "Chép"
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteButton)
-#: filewidgets/kurlnavigator.cpp:473 widgets/checksumswidget.ui:39
+#: filewidgets/kurlnavigator.cpp:478 widgets/checksumswidget.ui:39
 #, kde-format
 msgid "Paste"
 msgstr "Dán"
 
-#: filewidgets/kurlnavigator.cpp:485
+#: filewidgets/kurlnavigator.cpp:490
 #, kde-format
 msgid "Open %1 in tab"
 msgstr "Mở %1 trong thẻ"
 
-#: filewidgets/kurlnavigator.cpp:495
+#: filewidgets/kurlnavigator.cpp:500
 #, kde-format
 msgid "Edit"
 msgstr "Sửa"
 
-#: filewidgets/kurlnavigator.cpp:498
+#: filewidgets/kurlnavigator.cpp:503
 #, kde-format
 msgid "Navigate"
 msgstr "Điều hướng"
 
-#: filewidgets/kurlnavigator.cpp:513
+#: filewidgets/kurlnavigator.cpp:518
 #, kde-format
 msgid "Show Full Path"
 msgstr "Hiện đường dẫn đầy đủ"
 
-#: filewidgets/kurlnavigator.cpp:769
+#: filewidgets/kurlnavigator.cpp:770
 #, kde-format
 msgid "Custom Path"
 msgstr "Đường dẫn riêng"
 
-#: filewidgets/kurlnavigatorbutton.cpp:681
+#: filewidgets/kurlnavigatorbutton.cpp:698
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "More"
@@ -3877,6 +3877,12 @@ msgstr "Lỗi lưu ảnh vào %1"
 #, kde-format
 msgid "Icon file too big, download aborted"
 msgstr "Tệp biểu tượng quá lớn, việc tải về bị huỷ bỏ"
+
+#: gui/kemailclientlauncherjob.cpp:86
+#, fuzzy, kde-format
+#| msgid "No terminal emulator found"
+msgid "No mail client found"
+msgstr "Không tìm thấy trình giả lập thiết bị đầu cuối nào"
 
 #: gui/kprocessrunner.cpp:76
 #, kde-format
@@ -3998,77 +4004,77 @@ msgstr "Việc bỏ gắn kết không được Windows CE hỗ trợ."
 msgid "Could not find program \"umount\""
 msgstr "Không tìm được chương trình \"unmount\""
 
-#: ioslaves/file/file_unix.cpp:88
+#: ioslaves/file/file_unix.cpp:98
 #, kde-format
 msgid "Change File Permissions"
 msgstr "Thay đổi quyền truy cập tệp"
 
-#: ioslaves/file/file_unix.cpp:89
+#: ioslaves/file/file_unix.cpp:99
 #, kde-format
 msgid "New Permissions: %1"
 msgstr "Quyền truy cập mới: %1"
 
-#: ioslaves/file/file_unix.cpp:92
+#: ioslaves/file/file_unix.cpp:102
 #, kde-format
 msgid "Change File Owner"
 msgstr "Thay đổi chủ sở hữu tệp"
 
-#: ioslaves/file/file_unix.cpp:93
+#: ioslaves/file/file_unix.cpp:103
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr "Chủ sở hữu mới: UID=%1, GID=%2"
 
-#: ioslaves/file/file_unix.cpp:96
+#: ioslaves/file/file_unix.cpp:106
 #, kde-format
 msgid "Remove File"
 msgstr "Xoá tệp"
 
-#: ioslaves/file/file_unix.cpp:99
+#: ioslaves/file/file_unix.cpp:109
 #, kde-format
 msgid "Remove Directory"
 msgstr "Xoá thư mục"
 
-#: ioslaves/file/file_unix.cpp:102
+#: ioslaves/file/file_unix.cpp:112
 #, kde-format
 msgid "Create Directory"
 msgstr "Tạo thư mục"
 
-#: ioslaves/file/file_unix.cpp:103
+#: ioslaves/file/file_unix.cpp:113
 #, kde-format
 msgid "Directory Permissions: %1"
 msgstr "Quyền truy cập thư mục: %1"
 
-#: ioslaves/file/file_unix.cpp:106
+#: ioslaves/file/file_unix.cpp:116
 #, kde-format
 msgid "Open File"
 msgstr "Mở tệp"
 
-#: ioslaves/file/file_unix.cpp:109
+#: ioslaves/file/file_unix.cpp:119
 #, kde-format
 msgid "Open Directory"
 msgstr "Mở thư mục"
 
-#: ioslaves/file/file_unix.cpp:113
+#: ioslaves/file/file_unix.cpp:123
 #, kde-format
 msgid "New Filename: %1"
 msgstr "Tên tệp mới: %1"
 
-#: ioslaves/file/file_unix.cpp:117
+#: ioslaves/file/file_unix.cpp:127
 #, kde-format
 msgid "Target: %1"
 msgstr "Đích: %1"
 
-#: ioslaves/file/file_unix.cpp:120
+#: ioslaves/file/file_unix.cpp:130
 #, kde-format
 msgid "Change Timestamp"
 msgstr "Đổi mốc thời gian"
 
-#: ioslaves/file/file_unix.cpp:123
+#: ioslaves/file/file_unix.cpp:133
 #, kde-format
 msgid "Unknown Action"
 msgstr "Hành động không rõ"
 
-#: ioslaves/file/file_unix.cpp:128
+#: ioslaves/file/file_unix.cpp:138
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -4079,17 +4085,17 @@ msgstr ""
 "Nguồn: %2\n"
 "%3"
 
-#: ioslaves/file/file_unix.cpp:885
+#: ioslaves/file/file_unix.cpp:849
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Không thể chép tệp từ %1 đến %2. (Lỗi: %3)"
 
-#: ioslaves/file/file_unix.cpp:1127
+#: ioslaves/file/file_unix.cpp:1072
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Không có phương tiện trong thiết bị cho %1"
 
-#: ioslaves/file/file_unix.cpp:1353
+#: ioslaves/file/file_unix.cpp:1298
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -4101,12 +4107,12 @@ msgstr ""
 "Không tạo được liên kết tượng trưng \"%1\".\n"
 "Hệ thống tệp đích (%2) không hỗ trợ liên kết tượng trưng."
 
-#: ioslaves/file/file_unix.cpp:1438
+#: ioslaves/file/file_unix.cpp:1383
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "Không lấy được mã định danh người dùng cho tên người dùng đã cho %1"
 
-#: ioslaves/file/file_unix.cpp:1450
+#: ioslaves/file/file_unix.cpp:1395
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Không lấy được mã định danh nhóm cho tên nhóm đã cho %1"
@@ -4159,7 +4165,7 @@ msgstr ""
 msgid "Site:"
 msgstr "Địa điểm:"
 
-#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2522
+#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2518
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
@@ -4174,7 +4180,7 @@ msgstr "Đăng nhập OK"
 msgid "Could not login to %1."
 msgstr "Không đăng nhập được vào %1."
 
-#: ioslaves/ftp/ftp.cpp:1062
+#: ioslaves/ftp/ftp.cpp:1058
 #, kde-format
 msgid ""
 "\n"
@@ -4183,7 +4189,7 @@ msgstr ""
 "\n"
 "Máy chủ nói: \"%1\""
 
-#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5174
+#: ioslaves/ftp/ftp.cpp:2513 ioslaves/http/http.cpp:5174
 #: ioslaves/http/http.cpp:5308
 #, kde-format
 msgid ""
@@ -4193,13 +4199,13 @@ msgstr ""
 "Bạn cần đưa ra một tên người dùng và một mật khẩu cho máy chủ uỷ nhiệm được "
 "liệt kê bên dưới trước khi bạn được phép truy cập bất kì địa điểm nào."
 
-#: ioslaves/ftp/ftp.cpp:2521 ioslaves/http/http.cpp:5178
+#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5178
 #: ioslaves/http/http.cpp:5311
 #, kde-format
 msgid "Proxy:"
 msgstr "Uỷ nhiệm:"
 
-#: ioslaves/ftp/ftp.cpp:2524 ioslaves/http/http.cpp:5181
+#: ioslaves/ftp/ftp.cpp:2520 ioslaves/http/http.cpp:5181
 #: ioslaves/http/http.cpp:5326
 #, kde-format
 msgid "Proxy Authentication Failed."
@@ -4752,7 +4758,7 @@ msgstr "Bạn không có quyền truy cập giao thức %1."
 msgid " days"
 msgstr " ngày"
 
-#: ioslaves/trash/kcmtrash.cpp:196
+#: ioslaves/trash/kcmtrash.cpp:197
 #, kde-format
 msgid ""
 "<para>KDE's wastebin is configured to use the <b>Finder</b>'s Trash.<br></"
@@ -4761,7 +4767,7 @@ msgstr ""
 "<para>Thùng rác của KDE được cấu hình để dùng \"Thùng rác\" của <b>Finder</"
 "b>.< br></para>"
 
-#: ioslaves/trash/kcmtrash.cpp:198
+#: ioslaves/trash/kcmtrash.cpp:199
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4775,12 +4781,12 @@ msgstr ""
 "para><para>Các thứ rác của KDE sẽ xuất hiện trong một thư mục tên là KDE."
 "trash, trong \"Thùng rác\".</para>"
 
-#: ioslaves/trash/kcmtrash.cpp:233
+#: ioslaves/trash/kcmtrash.cpp:234
 #, kde-format
 msgid "Delete files older than"
 msgstr "Xoá các tệp cũ hơn"
 
-#: ioslaves/trash/kcmtrash.cpp:236
+#: ioslaves/trash/kcmtrash.cpp:237
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4794,13 +4800,13 @@ msgstr ""
 "strong='true'>không</emphasis> tự động xoá bất kì thứ nào sau một khoảng "
 "thời gian nhất định</para>"
 
-#: ioslaves/trash/kcmtrash.cpp:243
+#: ioslaves/trash/kcmtrash.cpp:244
 #, kde-format
 msgid " day"
 msgid_plural " days"
 msgstr[0] " ngày"
 
-#: ioslaves/trash/kcmtrash.cpp:245
+#: ioslaves/trash/kcmtrash.cpp:246
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4810,17 +4816,17 @@ msgstr ""
 "<para>Đặt số ngày mà các tệp có thể ở trong thùng rác. Tệp nào cũ hơn giá "
 "trị này sẽ tự động bị xoá.</para>"
 
-#: ioslaves/trash/kcmtrash.cpp:249
+#: ioslaves/trash/kcmtrash.cpp:250
 #, kde-format
 msgid "Cleanup:"
 msgstr "Dọn dẹp:"
 
-#: ioslaves/trash/kcmtrash.cpp:252
+#: ioslaves/trash/kcmtrash.cpp:253
 #, kde-format
 msgid "Limit to"
 msgstr "Giới hạn trong"
 
-#: ioslaves/trash/kcmtrash.cpp:254
+#: ioslaves/trash/kcmtrash.cpp:255
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4831,12 +4837,12 @@ msgstr ""
 "mà bạn chỉ ra bên dưới. Nếu không, nó sẽ là vô hạn.</para>"
 
 #. i18n: ectx: property (text), widget (QLabel, sizeLabelLeft)
-#: ioslaves/trash/kcmtrash.cpp:257 widgets/kfilepropspluginwidget.ui:350
+#: ioslaves/trash/kcmtrash.cpp:258 widgets/kfilepropspluginwidget.ui:350
 #, kde-format
 msgid "Size:"
 msgstr "Kích thước:"
 
-#: ioslaves/trash/kcmtrash.cpp:264
+#: ioslaves/trash/kcmtrash.cpp:265
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4846,7 +4852,7 @@ msgstr ""
 "<para>Đây là số phần trăm không gian đĩa tối đa sẽ được dùng cho thùng rác.</"
 "para>"
 
-#: ioslaves/trash/kcmtrash.cpp:269
+#: ioslaves/trash/kcmtrash.cpp:270
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4856,22 +4862,22 @@ msgstr ""
 "<para>Đây là lượng không gian đĩa tối đa được tính ra, mà có thể được dùng "
 "cho thùng rác.</para>"
 
-#: ioslaves/trash/kcmtrash.cpp:273
+#: ioslaves/trash/kcmtrash.cpp:274
 #, kde-format
 msgid "Show a Warning"
 msgstr "Hiện một cảnh báo"
 
-#: ioslaves/trash/kcmtrash.cpp:274
+#: ioslaves/trash/kcmtrash.cpp:275
 #, kde-format
 msgid "Delete Oldest Files From Trash"
 msgstr "Xoá các tệp cũ nhất khỏi thùng rác"
 
-#: ioslaves/trash/kcmtrash.cpp:275
+#: ioslaves/trash/kcmtrash.cpp:276
 #, kde-format
 msgid "Delete Biggest Files From Trash"
 msgstr "Xoá các tệp lớn nhất khỏi thùng rác"
 
-#: ioslaves/trash/kcmtrash.cpp:277
+#: ioslaves/trash/kcmtrash.cpp:278
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4883,7 +4889,7 @@ msgstr ""
 "chỉ ra, trước. Nếu được đặt là cảnh báo cho bạn biết, nó sẽ làm vậy thay vì "
 "tự động xoá các tệp.</para>"
 
-#: ioslaves/trash/kcmtrash.cpp:279
+#: ioslaves/trash/kcmtrash.cpp:280
 #, kde-format
 msgid "Full Trash:"
 msgstr "Thùng rác đầy:"
@@ -6367,7 +6373,7 @@ msgstr "Lệnh để thực thi"
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr "(Các) URL hoặc tệp cục bộ dùng cho 'command'"
 
-#: kpac/discovery.cpp:97
+#: kpac/discovery.cpp:96
 #, kde-format
 msgid "Could not find a usable proxy configuration script"
 msgstr "Không tìm được một kịch bản cấu hình uỷ nhiệm khả dụng nào"
@@ -7180,135 +7186,135 @@ msgstr "Chuỗi chứng chỉ SSL ngang hàng có vẻ đã bị hỏng."
 msgid "SSL"
 msgstr "SSL"
 
-#: widgets/kacleditwidget.cpp:74
+#: widgets/kacleditwidget.cpp:75
 #, kde-format
 msgid "Edit Entry..."
 msgstr "Sửa mục..."
 
-#: widgets/kacleditwidget.cpp:78
+#: widgets/kacleditwidget.cpp:79
 #, kde-format
 msgid "Delete Entry"
 msgstr "Xoá mục"
 
-#: widgets/kacleditwidget.cpp:229
+#: widgets/kacleditwidget.cpp:230
 #, kde-format
 msgctxt "Unix permissions"
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
-#: widgets/kacleditwidget.cpp:233
+#: widgets/kacleditwidget.cpp:234
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Owning Group"
 msgstr "Nhóm sở hữu"
 
-#: widgets/kacleditwidget.cpp:237 widgets/kacleditwidget.cpp:249
+#: widgets/kacleditwidget.cpp:238 widgets/kacleditwidget.cpp:250
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Others"
 msgstr "Khác"
 
-#: widgets/kacleditwidget.cpp:241
+#: widgets/kacleditwidget.cpp:242
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Mask"
 msgstr "Mặt nạ"
 
-#: widgets/kacleditwidget.cpp:245
+#: widgets/kacleditwidget.cpp:246
 #, kde-format
 msgctxt "UNIX permissions"
 msgid "Named User"
 msgstr "Người dùng có tên"
 
-#: widgets/kacleditwidget.cpp:256
+#: widgets/kacleditwidget.cpp:257
 #, kde-format
 msgid "Owner (Default)"
 msgstr "Chủ sở hữu (mặc định)"
 
-#: widgets/kacleditwidget.cpp:386
+#: widgets/kacleditwidget.cpp:387
 #, kde-format
 msgid "Edit ACL Entry"
 msgstr "Sửa mục ACL"
 
-#: widgets/kacleditwidget.cpp:389
+#: widgets/kacleditwidget.cpp:390
 #, kde-format
 msgid "Entry Type"
 msgstr "Kiểu mục"
 
-#: widgets/kacleditwidget.cpp:395
+#: widgets/kacleditwidget.cpp:396
 #, kde-format
 msgid "Default for new files in this folder"
 msgstr "Mặc định cho các tệp mới trong thư mục này"
 
-#: widgets/kacleditwidget.cpp:402
+#: widgets/kacleditwidget.cpp:403
 #, kde-format
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
-#: widgets/kacleditwidget.cpp:407
+#: widgets/kacleditwidget.cpp:408
 #, kde-format
 msgid "Owning Group"
 msgstr "Nhóm sở hữu"
 
-#: widgets/kacleditwidget.cpp:412 widgets/kpropertiesdialog.cpp:2045
+#: widgets/kacleditwidget.cpp:413 widgets/kpropertiesdialog.cpp:2060
 #, kde-format
 msgid "Others"
 msgstr "Khác"
 
-#: widgets/kacleditwidget.cpp:417
+#: widgets/kacleditwidget.cpp:418
 #, kde-format
 msgid "Mask"
 msgstr "Mặt nạ"
 
-#: widgets/kacleditwidget.cpp:422
+#: widgets/kacleditwidget.cpp:423
 #, kde-format
 msgid "Named user"
 msgstr "Người dùng có tên"
 
-#: widgets/kacleditwidget.cpp:427
+#: widgets/kacleditwidget.cpp:428
 #, kde-format
 msgid "Named group"
 msgstr "Nhóm có tên"
 
-#: widgets/kacleditwidget.cpp:445
+#: widgets/kacleditwidget.cpp:446
 #, kde-format
 msgid "User: "
 msgstr "Người dùng: "
 
-#: widgets/kacleditwidget.cpp:459
+#: widgets/kacleditwidget.cpp:460
 #, kde-format
 msgid "Group: "
 msgstr "Nhóm: "
 
-#: widgets/kacleditwidget.cpp:597
+#: widgets/kacleditwidget.cpp:598
 #, kde-format
 msgid "Type"
 msgstr "Kiểu"
 
-#: widgets/kacleditwidget.cpp:598
+#: widgets/kacleditwidget.cpp:599
 #, kde-format
 msgid "Name"
 msgstr "Tên"
 
-#: widgets/kacleditwidget.cpp:599
+#: widgets/kacleditwidget.cpp:600
 #, kde-format
 msgctxt "read permission"
 msgid "r"
 msgstr "r"
 
-#: widgets/kacleditwidget.cpp:600
+#: widgets/kacleditwidget.cpp:601
 #, kde-format
 msgctxt "write permission"
 msgid "w"
 msgstr "w"
 
-#: widgets/kacleditwidget.cpp:601
+#: widgets/kacleditwidget.cpp:602
 #, kde-format
 msgctxt "execute permission"
 msgid "x"
 msgstr "x"
 
-#: widgets/kacleditwidget.cpp:602
+#: widgets/kacleditwidget.cpp:603
 #, kde-format
 msgid "Effective"
 msgstr "Thực tế"
@@ -7356,43 +7362,43 @@ msgstr "Gắn kết"
 msgid "Unmount"
 msgstr "Bỏ gắn kết"
 
-#: widgets/kdirmodel.cpp:1181
+#: widgets/kdirmodel.cpp:1179
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Tên"
 
-#: widgets/kdirmodel.cpp:1183
+#: widgets/kdirmodel.cpp:1181
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Kích thước"
 
-#: widgets/kdirmodel.cpp:1185
+#: widgets/kdirmodel.cpp:1183
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Ngày"
 
-#: widgets/kdirmodel.cpp:1187
+#: widgets/kdirmodel.cpp:1185
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Quyền"
 
-#: widgets/kdirmodel.cpp:1189
+#: widgets/kdirmodel.cpp:1187
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
-#: widgets/kdirmodel.cpp:1191
+#: widgets/kdirmodel.cpp:1189
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Nhóm"
 
-#: widgets/kdirmodel.cpp:1193
+#: widgets/kdirmodel.cpp:1191
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
@@ -8064,7 +8070,7 @@ msgstr ""
 msgid "Ad&vanced Options"
 msgstr "Các lự&a chọn nâng cao"
 
-#: widgets/kpropertiesdialog.cpp:160
+#: widgets/kpropertiesdialog.cpp:170
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -8074,64 +8080,64 @@ msgstr ""
 "Không lưu được thuộc tính vì không đủ quyền truy cập để ghi vào:<nl/"
 "><filename>%1</filename>."
 
-#: widgets/kpropertiesdialog.cpp:217 widgets/kpropertiesdialog.cpp:232
-#: widgets/kpropertiesdialog.cpp:244 widgets/kpropertiesdialog.cpp:262
-#: widgets/kpropertiesdialog.cpp:280 widgets/kpropertiesdialog.cpp:304
+#: widgets/kpropertiesdialog.cpp:227 widgets/kpropertiesdialog.cpp:242
+#: widgets/kpropertiesdialog.cpp:254 widgets/kpropertiesdialog.cpp:272
+#: widgets/kpropertiesdialog.cpp:290 widgets/kpropertiesdialog.cpp:314
 #, kde-format
 msgid "Properties for %1"
 msgstr "Thuộc tính cho %1"
 
-#: widgets/kpropertiesdialog.cpp:242 widgets/kpropertiesdialog.cpp:278
+#: widgets/kpropertiesdialog.cpp:252 widgets/kpropertiesdialog.cpp:288
 #, kde-format
 msgid "Properties for 1 item"
 msgid_plural "Properties for %1 Selected Items"
 msgstr[0] "Thuộc tính cho %1 mục được chọn"
 
-#: widgets/kpropertiesdialog.cpp:434
+#: widgets/kpropertiesdialog.cpp:444
 #, kde-format
 msgctxt "@title:tab"
 msgid "Share"
 msgstr "Chia sẻ"
 
-#: widgets/kpropertiesdialog.cpp:883
+#: widgets/kpropertiesdialog.cpp:893
 #, kde-format
 msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "Ch&ung"
 
-#: widgets/kpropertiesdialog.cpp:1031
+#: widgets/kpropertiesdialog.cpp:1041
 #, kde-format
 msgid "Create New File Type"
 msgstr "Tạo kiểu tệp mới"
 
-#: widgets/kpropertiesdialog.cpp:1031
+#: widgets/kpropertiesdialog.cpp:1041
 #, kde-format
 msgid "File Type Options"
 msgstr "Các lựa chọn kiểu tệp"
 
-#: widgets/kpropertiesdialog.cpp:1083 widgets/kpropertiesdialog.cpp:1332
+#: widgets/kpropertiesdialog.cpp:1093 widgets/kpropertiesdialog.cpp:1344
 #, kde-format
 msgid "Refresh"
 msgstr "Cập nhật"
 
-#: widgets/kpropertiesdialog.cpp:1185
+#: widgets/kpropertiesdialog.cpp:1195
 #, kde-format
 msgid "%1:"
 msgstr "%1:"
 
-#: widgets/kpropertiesdialog.cpp:1292
+#: widgets/kpropertiesdialog.cpp:1304
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr "%1 trống trong %2 (%3% đã dùng)"
 
-#: widgets/kpropertiesdialog.cpp:1299
+#: widgets/kpropertiesdialog.cpp:1311
 #, kde-format
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Kích thước không rõ"
 
-#: widgets/kpropertiesdialog.cpp:1309
+#: widgets/kpropertiesdialog.cpp:1321
 #, kde-format
 msgid ""
 "Calculating... %1 (%2)\n"
@@ -8140,116 +8146,116 @@ msgstr ""
 "Đang tính... %1 (%2)\n"
 "%3, %4"
 
-#: widgets/kpropertiesdialog.cpp:1312 widgets/kpropertiesdialog.cpp:1327
+#: widgets/kpropertiesdialog.cpp:1324 widgets/kpropertiesdialog.cpp:1339
 #, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 tệp"
 
-#: widgets/kpropertiesdialog.cpp:1313 widgets/kpropertiesdialog.cpp:1328
+#: widgets/kpropertiesdialog.cpp:1325 widgets/kpropertiesdialog.cpp:1340
 #, kde-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
 msgstr[0] "%1 thư mục con"
 
-#: widgets/kpropertiesdialog.cpp:1341
+#: widgets/kpropertiesdialog.cpp:1353
 #, kde-format
 msgid "Calculating...\n"
 msgstr "Đang tính...\n"
 
-#: widgets/kpropertiesdialog.cpp:1364
+#: widgets/kpropertiesdialog.cpp:1376
 #, kde-format
 msgid "At least %1"
 msgstr "Ít nhất %1"
 
-#: widgets/kpropertiesdialog.cpp:1410
+#: widgets/kpropertiesdialog.cpp:1422
 #, kde-format
 msgid "The new file name is empty."
 msgstr "Tên tệp mới đang trống."
 
-#: widgets/kpropertiesdialog.cpp:1665 widgets/kpropertiesdialog.cpp:1666
-#: widgets/kpropertiesdialog.cpp:1668
+#: widgets/kpropertiesdialog.cpp:1677 widgets/kpropertiesdialog.cpp:1678
+#: widgets/kpropertiesdialog.cpp:1680
 #, kde-format
 msgid "No Access"
 msgstr "Không có truy cập"
 
-#: widgets/kpropertiesdialog.cpp:1665
+#: widgets/kpropertiesdialog.cpp:1677
 #, kde-format
 msgid "Can Only View"
 msgstr "Chỉ có thể xem"
 
-#: widgets/kpropertiesdialog.cpp:1665
+#: widgets/kpropertiesdialog.cpp:1677
 #, kde-format
 msgid "Can View & Modify"
 msgstr "Có thể xem & chỉnh sửa"
 
-#: widgets/kpropertiesdialog.cpp:1666
+#: widgets/kpropertiesdialog.cpp:1678
 #, kde-format
 msgid "Can Only View Content"
 msgstr "Chỉ có thể xem nội dung"
 
-#: widgets/kpropertiesdialog.cpp:1666
+#: widgets/kpropertiesdialog.cpp:1678
 #, kde-format
 msgid "Can View & Modify Content"
 msgstr "Có thể xem & chỉnh sửa nội dung"
 
-#: widgets/kpropertiesdialog.cpp:1668
+#: widgets/kpropertiesdialog.cpp:1680
 #, kde-format
 msgid "Can Only View/Read Content"
 msgstr "Chỉ có thể xem/đọc nội dung"
 
-#: widgets/kpropertiesdialog.cpp:1668
+#: widgets/kpropertiesdialog.cpp:1680
 #, kde-format
 msgid "Can View/Read & Modify/Write"
 msgstr "Có thể xem/đọc & chỉnh sửa/ghi"
 
-#: widgets/kpropertiesdialog.cpp:1767
+#: widgets/kpropertiesdialog.cpp:1779
 #, kde-format
 msgid "&Permissions"
 msgstr "&Quyền"
 
-#: widgets/kpropertiesdialog.cpp:1779 widgets/kpropertiesdialog.cpp:1974
+#: widgets/kpropertiesdialog.cpp:1791 widgets/kpropertiesdialog.cpp:1989
 #, kde-format
 msgid "Access Permissions"
 msgstr "Các quyền truy cập"
 
-#: widgets/kpropertiesdialog.cpp:1788
+#: widgets/kpropertiesdialog.cpp:1800
 #, kde-format
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] "Tệp là liên kết và không có quyền nào."
 
-#: widgets/kpropertiesdialog.cpp:1790
+#: widgets/kpropertiesdialog.cpp:1802
 #, kde-format
 msgid "Only the owner can change permissions."
 msgstr "Chỉ chủ sở hữu mới có thể thay đổi các quyền."
 
-#: widgets/kpropertiesdialog.cpp:1794
+#: widgets/kpropertiesdialog.cpp:1806
 #, kde-format
 msgid "O&wner:"
 msgstr "&Chủ sở hữu:"
 
-#: widgets/kpropertiesdialog.cpp:1800
+#: widgets/kpropertiesdialog.cpp:1812
 #, kde-format
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "Chỉ định các hành động mà chủ sở hữu được phép làm."
 
-#: widgets/kpropertiesdialog.cpp:1802
+#: widgets/kpropertiesdialog.cpp:1814
 #, kde-format
 msgid "Gro&up:"
 msgstr "&Nhóm:"
 
-#: widgets/kpropertiesdialog.cpp:1808
+#: widgets/kpropertiesdialog.cpp:1820
 #, kde-format
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "Chỉ định các hành động mà thành viên của nhóm được phép làm."
 
-#: widgets/kpropertiesdialog.cpp:1810
+#: widgets/kpropertiesdialog.cpp:1822
 #, kde-format
 msgid "O&thers:"
 msgstr "&Khác:"
 
-#: widgets/kpropertiesdialog.cpp:1817
+#: widgets/kpropertiesdialog.cpp:1829
 #, kde-format
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
@@ -8258,17 +8264,17 @@ msgstr ""
 "Chỉ định các hành động mà tất cả những người dùng, mà không phải là chủ sở "
 "hữu hay ở trong nhóm, được phép làm."
 
-#: widgets/kpropertiesdialog.cpp:1821
+#: widgets/kpropertiesdialog.cpp:1833
 #, kde-format
 msgid "Only own&er can rename and delete folder content"
 msgstr "Chỉ chủ &sở hữu mới có thể đổi tên và xoá nội dung thư mục"
 
-#: widgets/kpropertiesdialog.cpp:1821
+#: widgets/kpropertiesdialog.cpp:1833
 #, kde-format
 msgid "Is &executable"
 msgstr "&Thực thi được"
 
-#: widgets/kpropertiesdialog.cpp:1824
+#: widgets/kpropertiesdialog.cpp:1836
 #, kde-format
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
@@ -8279,7 +8285,7 @@ msgstr ""
 "tên các tệp và thư mục bên trong. Những người dùng khác chỉ có thể thêm các "
 "tệp mới, việc này đòi hỏi quyền 'Chỉnh sửa nội dung'."
 
-#: widgets/kpropertiesdialog.cpp:1828
+#: widgets/kpropertiesdialog.cpp:1840
 #, kde-format
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
@@ -8289,42 +8295,42 @@ msgstr ""
 "với các chương trình và các kịch bản. Bạn cần làm việc này khi muốn thực thi "
 "chúng."
 
-#: widgets/kpropertiesdialog.cpp:1835
+#: widgets/kpropertiesdialog.cpp:1847
 #, kde-format
 msgid "A&dvanced Permissions"
 msgstr "Qu&yền nâng cao"
 
-#: widgets/kpropertiesdialog.cpp:1843
+#: widgets/kpropertiesdialog.cpp:1855
 #, kde-format
 msgid "Ownership"
 msgstr "Quyền sở hữu"
 
-#: widgets/kpropertiesdialog.cpp:1850
+#: widgets/kpropertiesdialog.cpp:1862
 #, kde-format
 msgid "User:"
 msgstr "Người dùng:"
 
-#: widgets/kpropertiesdialog.cpp:1891
+#: widgets/kpropertiesdialog.cpp:1903
 #, kde-format
 msgid "Group:"
 msgstr "Nhóm:"
 
-#: widgets/kpropertiesdialog.cpp:1926
+#: widgets/kpropertiesdialog.cpp:1938
 #, kde-format
 msgid "Apply changes to all subfolders and their contents"
 msgstr "Áp dụng các thay đổi cho tất cả các thư mục con và nội dung của chúng"
 
-#: widgets/kpropertiesdialog.cpp:1965
+#: widgets/kpropertiesdialog.cpp:1980
 #, kde-format
 msgid "Advanced Permissions"
 msgstr "Quyền nâng cao"
 
-#: widgets/kpropertiesdialog.cpp:1982
+#: widgets/kpropertiesdialog.cpp:1997
 #, kde-format
 msgid "Class"
 msgstr "Lớp"
 
-#: widgets/kpropertiesdialog.cpp:1989
+#: widgets/kpropertiesdialog.cpp:2004
 #, kde-format
 msgid ""
 "Show\n"
@@ -8333,22 +8339,22 @@ msgstr ""
 "Hiện\n"
 "Các mục"
 
-#: widgets/kpropertiesdialog.cpp:1990
+#: widgets/kpropertiesdialog.cpp:2005
 #, kde-format
 msgid "This flag allows viewing the content of the folder."
 msgstr "Cờ này cho phép xem nội dung của thư mục."
 
-#: widgets/kpropertiesdialog.cpp:1992
+#: widgets/kpropertiesdialog.cpp:2007
 #, kde-format
 msgid "Read"
 msgstr "Đọc"
 
-#: widgets/kpropertiesdialog.cpp:1993
+#: widgets/kpropertiesdialog.cpp:2008
 #, kde-format
 msgid "The Read flag allows viewing the content of the file."
 msgstr "Cờ \"Đọc\" cho phép xem nội dung của tệp."
 
-#: widgets/kpropertiesdialog.cpp:1999
+#: widgets/kpropertiesdialog.cpp:2014
 #, kde-format
 msgid ""
 "Write\n"
@@ -8357,7 +8363,7 @@ msgstr ""
 "Ghi\n"
 "Các mục"
 
-#: widgets/kpropertiesdialog.cpp:2001
+#: widgets/kpropertiesdialog.cpp:2016
 #, kde-format
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
@@ -8366,43 +8372,43 @@ msgstr ""
 "Cờ này cho phép thêm, đổi tên và xoá các tệp. Lưu ý rằng việc xoá và đổi tên "
 "có thể bị giới hạn bằng cờ Dính."
 
-#: widgets/kpropertiesdialog.cpp:2004
+#: widgets/kpropertiesdialog.cpp:2019
 #, kde-format
 msgid "Write"
 msgstr "Ghi"
 
-#: widgets/kpropertiesdialog.cpp:2005
+#: widgets/kpropertiesdialog.cpp:2020
 #, kde-format
 msgid "The Write flag allows modifying the content of the file."
 msgstr "Cờ Ghi cho phép chỉnh sửa nội dung của tệp."
 
-#: widgets/kpropertiesdialog.cpp:2011
+#: widgets/kpropertiesdialog.cpp:2026
 #, kde-format
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "Vào"
 
-#: widgets/kpropertiesdialog.cpp:2012
+#: widgets/kpropertiesdialog.cpp:2027
 #, kde-format
 msgid "Enable this flag to allow entering the folder."
 msgstr "Bật cờ này để cho phép đi vào thư mục."
 
-#: widgets/kpropertiesdialog.cpp:2014
+#: widgets/kpropertiesdialog.cpp:2029
 #, kde-format
 msgid "Exec"
 msgstr "Chạy"
 
-#: widgets/kpropertiesdialog.cpp:2015
+#: widgets/kpropertiesdialog.cpp:2030
 #, kde-format
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "Bật cờ này để cho phép thực thi tệp như một chương trình."
 
-#: widgets/kpropertiesdialog.cpp:2023
+#: widgets/kpropertiesdialog.cpp:2038
 #, kde-format
 msgid "Special"
 msgstr "Đặc biệt"
 
-#: widgets/kpropertiesdialog.cpp:2028
+#: widgets/kpropertiesdialog.cpp:2043
 #, kde-format
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
@@ -8411,7 +8417,7 @@ msgstr ""
 "Cờ đặc biệt. Có hiệu lực cho toàn bộ thư mục, có thể xem ý nghĩa chính xác "
 "của cờ này ở cột bên tay phải."
 
-#: widgets/kpropertiesdialog.cpp:2032
+#: widgets/kpropertiesdialog.cpp:2047
 #, kde-format
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
@@ -8419,17 +8425,17 @@ msgid ""
 msgstr ""
 "Cờ đặc biệt. Có thể xem ý nghĩa chính xác của cờ này ở cột bên tay phải."
 
-#: widgets/kpropertiesdialog.cpp:2037
+#: widgets/kpropertiesdialog.cpp:2052
 #, kde-format
 msgid "User"
 msgstr "Người dùng"
 
-#: widgets/kpropertiesdialog.cpp:2041
+#: widgets/kpropertiesdialog.cpp:2056
 #, kde-format
 msgid "Group"
 msgstr "Nhóm"
 
-#: widgets/kpropertiesdialog.cpp:2052
+#: widgets/kpropertiesdialog.cpp:2067
 #, kde-format
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
@@ -8438,7 +8444,7 @@ msgstr ""
 "Nếu cờ này được đặt, chủ sở hữu của thư mục này sẽ là chủ sở hữu của tất cả "
 "các tệp mới."
 
-#: widgets/kpropertiesdialog.cpp:2056
+#: widgets/kpropertiesdialog.cpp:2071
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8447,14 +8453,14 @@ msgstr ""
 "Nếu tệp này là một tệp thực thi và cờ này được đặt, nó sẽ được thực thi với "
 "quyền của chủ sở hữu."
 
-#: widgets/kpropertiesdialog.cpp:2063
+#: widgets/kpropertiesdialog.cpp:2078
 #, kde-format
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 "Nếu cờ này được đặt, nhóm của thư mục này sẽ được đặt cho tất cả các tệp mới."
 
-#: widgets/kpropertiesdialog.cpp:2067
+#: widgets/kpropertiesdialog.cpp:2082
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8463,7 +8469,7 @@ msgstr ""
 "Nếu tệp này là một tệp thực thi và cờ này được đặt, nó sẽ được thực thi với "
 "quyền của nhóm."
 
-#: widgets/kpropertiesdialog.cpp:2074
+#: widgets/kpropertiesdialog.cpp:2089
 #, kde-format
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
@@ -8473,7 +8479,7 @@ msgstr ""
 "có thể xoá hoặc đổi tên các tệp. Nếu không thì mọi người với quyền ghi đều "
 "có thể làm việc này."
 
-#: widgets/kpropertiesdialog.cpp:2079
+#: widgets/kpropertiesdialog.cpp:2094
 #, kde-format
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
@@ -8482,68 +8488,68 @@ msgstr ""
 "Cờ Dính của một tệp thì bị bỏ qua trên Linux, nhưng có thể được dùng ở một "
 "số hệ thống."
 
-#: widgets/kpropertiesdialog.cpp:2140
+#: widgets/kpropertiesdialog.cpp:2155
 #, kde-format
 msgid "Set UID"
 msgstr "Đặt UID"
 
-#: widgets/kpropertiesdialog.cpp:2144
+#: widgets/kpropertiesdialog.cpp:2159
 #, kde-format
 msgid "Set GID"
 msgstr "Đặt GID"
 
-#: widgets/kpropertiesdialog.cpp:2148
+#: widgets/kpropertiesdialog.cpp:2163
 #, kde-format
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "Dính"
 
-#: widgets/kpropertiesdialog.cpp:2259
+#: widgets/kpropertiesdialog.cpp:2268
 #, kde-format
 msgid "Link"
 msgstr "Liên kết"
 
-#: widgets/kpropertiesdialog.cpp:2279
+#: widgets/kpropertiesdialog.cpp:2288
 #, kde-format
 msgid "Varying (No Change)"
 msgstr "Khác nhau (không thay đổi)"
 
-#: widgets/kpropertiesdialog.cpp:2390
+#: widgets/kpropertiesdialog.cpp:2399
 #, kde-format
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] "(Các) tệp này dùng các quyền nâng cao."
 
-#: widgets/kpropertiesdialog.cpp:2412
+#: widgets/kpropertiesdialog.cpp:2421
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] "(Các) thư mục này dùng các quyền nâng cao."
 
-#: widgets/kpropertiesdialog.cpp:2426
+#: widgets/kpropertiesdialog.cpp:2435
 #, kde-format
 msgid "These files use advanced permissions."
 msgstr "Các tệp này dùng các quyền nâng cao."
 
-#: widgets/kpropertiesdialog.cpp:2672
+#: widgets/kpropertiesdialog.cpp:2681
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
 msgstr "Tổng kiể&m"
 
-#: widgets/kpropertiesdialog.cpp:2737 widgets/kpropertiesdialog.cpp:2748
-#: widgets/kpropertiesdialog.cpp:2759 widgets/kpropertiesdialog.cpp:2770
+#: widgets/kpropertiesdialog.cpp:2746 widgets/kpropertiesdialog.cpp:2757
+#: widgets/kpropertiesdialog.cpp:2768 widgets/kpropertiesdialog.cpp:2779
 #, kde-format
 msgctxt "@action:button"
 msgid "Calculating..."
 msgstr "Đang tính..."
 
-#: widgets/kpropertiesdialog.cpp:2926
+#: widgets/kpropertiesdialog.cpp:2935
 #, kde-format
 msgid "Invalid checksum."
 msgstr "Giá trị tổng kiểm không hợp lệ."
 
-#: widgets/kpropertiesdialog.cpp:2929
+#: widgets/kpropertiesdialog.cpp:2938
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
@@ -8551,19 +8557,19 @@ msgstr ""
 "Đầu vào đã cho không phải là một giá trị tổng kiểm MD5, SHA1 hay SHA256 hợp "
 "lệ."
 
-#: widgets/kpropertiesdialog.cpp:2940
+#: widgets/kpropertiesdialog.cpp:2949
 #, kde-format
 msgid "Checksums match."
 msgstr "Giá trị tổng kiểm khớp."
 
-#: widgets/kpropertiesdialog.cpp:2943
+#: widgets/kpropertiesdialog.cpp:2952
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr ""
 "Giá trị tổng kiểm tính toán và giá trị tổng kiểm được mong đợi đã khớp nhau."
 
-#: widgets/kpropertiesdialog.cpp:2955
+#: widgets/kpropertiesdialog.cpp:2964
 #, kde-format
 msgid ""
 "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
@@ -8574,57 +8580,57 @@ msgstr ""
 "lỗi. Hãy thử tải tệp về lại.<br/>Nếu việc xác minh vẫn thất bại, hãy liên hệ "
 "với nguồn của tệp đó."
 
-#: widgets/kpropertiesdialog.cpp:2960
+#: widgets/kpropertiesdialog.cpp:2969
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr ""
 "Giá trị tổng kiểm tính toán và giá trị tổng kiểm được mong đợi đã lệch nhau."
 
-#: widgets/kpropertiesdialog.cpp:2968
+#: widgets/kpropertiesdialog.cpp:2977
 #, kde-format
 msgctxt "notify the user about a computation in the background"
 msgid "Verifying checksum..."
 msgstr "Đang xác minh giá trị tổng kiểm..."
 
-#: widgets/kpropertiesdialog.cpp:3057
+#: widgets/kpropertiesdialog.cpp:3066
 #, kde-format
 msgid "U&RL"
 msgstr "U&RL"
 
-#: widgets/kpropertiesdialog.cpp:3064
+#: widgets/kpropertiesdialog.cpp:3073
 #, kde-format
 msgid "URL:"
 msgstr "URL:"
 
-#: widgets/kpropertiesdialog.cpp:3134 widgets/kpropertiesdialog.cpp:3411
+#: widgets/kpropertiesdialog.cpp:3143 widgets/kpropertiesdialog.cpp:3420
 #, kde-format
 msgid ""
 "Could not save properties. Only entries on local file systems are supported."
 msgstr ""
 "Không lưu được thuộc tính. Chỉ hỗ trợ các mục trên các hệ thống tệp cục bộ."
 
-#: widgets/kpropertiesdialog.cpp:3207
+#: widgets/kpropertiesdialog.cpp:3216
 #, kde-format
 msgid "&Application"
 msgstr "Ứ&ng dụng"
 
-#: widgets/kpropertiesdialog.cpp:3349
+#: widgets/kpropertiesdialog.cpp:3358
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Thêm kiểu tệp cho %1"
 
-#: widgets/kpropertiesdialog.cpp:3350
+#: widgets/kpropertiesdialog.cpp:3359
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Chọn một hoặc nhiều kiểu tệp để thêm:"
 
-#: widgets/kpropertiesdialog.cpp:3496
+#: widgets/kpropertiesdialog.cpp:3505
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "Chỉ tệp thực thi trên các hệ thống tệp cục bộ mới được hỗ trợ."
 
-#: widgets/kpropertiesdialog.cpp:3510
+#: widgets/kpropertiesdialog.cpp:3519
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Các lựa chọn nâng cao cho %1"
