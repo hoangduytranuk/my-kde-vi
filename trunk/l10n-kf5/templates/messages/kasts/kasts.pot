@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-30 00:17+0000\n"
+"POT-Creation-Date: 2021-10-03 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -73,11 +73,6 @@ msgstr ""
 msgid "Error moving storage path"
 msgstr ""
 
-#: fetcher.cpp:93
-#, kde-format
-msgid "Podcast updates not allowed due to user setting"
-msgstr ""
-
 #: main.cpp:95
 #, kde-format
 msgid "Podcast Application"
@@ -88,7 +83,7 @@ msgstr ""
 msgid "Adds a new podcast to subscriptions."
 msgstr ""
 
-#: main.cpp:98
+#: main.cpp:98 qml/FeedDetailsPage.qml:69
 #, kde-format
 msgid "Podcast URL"
 msgstr ""
@@ -169,7 +164,7 @@ msgstr ""
 msgid "Add Podcast"
 msgstr ""
 
-#: qml/ChapterListDelegate.qml:34 qml/EntryPage.qml:111 qml/GenericEntryDelegate.qml:306
+#: qml/ChapterListDelegate.qml:34 qml/EntryPage.qml:113 qml/GenericEntryDelegate.qml:306
 #: qml/HeaderBar.qml:115
 #, kde-format
 msgid "Play"
@@ -180,17 +175,17 @@ msgstr ""
 msgid "Podcast updates are currently not allowed on metered connections"
 msgstr ""
 
-#: qml/ConnectionCheckAction.qml:71
+#: qml/ConnectionCheckAction.qml:69
 #, kde-format
 msgid "Don't Allow"
 msgstr ""
 
-#: qml/ConnectionCheckAction.qml:83
+#: qml/ConnectionCheckAction.qml:81
 #, kde-format
 msgid "Allow Once"
 msgstr ""
 
-#: qml/ConnectionCheckAction.qml:95
+#: qml/ConnectionCheckAction.qml:93
 #, kde-format
 msgid "Always Allow"
 msgstr ""
@@ -288,69 +283,66 @@ msgstr ""
 msgid "Episode Details"
 msgstr ""
 
-#: qml/EntryPage.qml:106
+#: qml/EntryPage.qml:108
 #, kde-format
 msgid "Open in Browser"
 msgstr ""
 
-#: qml/EntryPage.qml:107 qml/GenericEntryDelegate.qml:279
+#: qml/EntryPage.qml:109 qml/GenericEntryDelegate.qml:279
 #: qml/GenericEntryListView.qml:197
 #, kde-format
 msgid "Download"
 msgstr ""
 
-#: qml/EntryPage.qml:108 qml/GenericEntryDelegate.qml:288
+#: qml/EntryPage.qml:110 qml/GenericEntryDelegate.qml:288
 #, kde-format
 msgid "Cancel Download"
 msgstr ""
 
-#: qml/EntryPage.qml:109 qml/EntryPage.qml:157 qml/GenericEntryDelegate.qml:294
-#: qml/GenericEntryListView.qml:207
+#: qml/EntryPage.qml:111 qml/EntryPage.qml:159 qml/GenericEntryDelegate.qml:294
 #, kde-format
 msgid "Delete Download"
-msgid_plural "Delete Downloads"
-msgstr[0] ""
-msgstr[1] ""
+msgstr ""
 
-#: qml/EntryPage.qml:110 qml/GenericEntryDelegate.qml:315
+#: qml/EntryPage.qml:112 qml/GenericEntryDelegate.qml:315
 #: qml/HeaderBar.qml:115
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: qml/EntryPage.qml:140 qml/GenericEntryDelegate.qml:271
+#: qml/EntryPage.qml:142 qml/GenericEntryDelegate.qml:271
 #: qml/GenericEntryListView.qml:155
 #, kde-format
 msgid "Remove from Queue"
 msgstr ""
 
-#: qml/EntryPage.qml:140 qml/GenericEntryDelegate.qml:300
+#: qml/EntryPage.qml:142 qml/GenericEntryDelegate.qml:300
 #: qml/GenericEntryListView.qml:145
 #, kde-format
 msgid "Add to Queue"
 msgstr ""
 
-#: qml/EntryPage.qml:165 qml/SettingsPage.qml:98
+#: qml/EntryPage.qml:167 qml/SettingsPage.qml:98
 #, kde-format
 msgid "Reset Play Position"
 msgstr ""
 
-#: qml/EntryPage.qml:170 qml/GenericEntryListView.qml:173
+#: qml/EntryPage.qml:172 qml/GenericEntryListView.qml:173
 #, kde-format
 msgid "Mark as Unplayed"
 msgstr ""
 
-#: qml/EntryPage.qml:170 qml/GenericEntryListView.qml:165
+#: qml/EntryPage.qml:172 qml/GenericEntryListView.qml:165
 #, kde-format
 msgid "Mark as Played"
 msgstr ""
 
-#: qml/EntryPage.qml:176 qml/GenericEntryListView.qml:189
+#: qml/EntryPage.qml:178 qml/GenericEntryListView.qml:189
 #, kde-format
 msgid "Remove \"New\" Label"
 msgstr ""
 
-#: qml/EntryPage.qml:176 qml/GenericEntryListView.qml:181
+#: qml/EntryPage.qml:178 qml/GenericEntryListView.qml:181
 #, kde-format
 msgid "Label as \"New\""
 msgstr ""
@@ -395,42 +387,45 @@ msgstr ""
 msgid "Error Code: "
 msgstr ""
 
-#: qml/FeedDetailsPage.qml:30 qml/FeedDetailsPage.qml:54
+#: qml/FeedDetailsPage.qml:30 qml/FeedDetailsPage.qml:60
 #, kde-format
 msgctxt "by <Author(s)>"
 msgid "by %1"
 msgstr ""
 
-#: qml/FeedDetailsPage.qml:66
+#: qml/FeedDetailsPage.qml:77
+#, kde-format
+msgid "Weblink"
+msgstr ""
+
+#: qml/FeedDetailsPage.qml:86
 #, kde-format
 msgid "Subscribed since: %1"
 msgstr ""
 
-#: qml/FeedDetailsPage.qml:72
+#: qml/FeedDetailsPage.qml:95
 #, kde-format
 msgid "Last Updated: %1"
 msgstr ""
 
-#: qml/FeedDetailsPage.qml:78 qml/QueuePage.qml:69
+#: qml/FeedDetailsPage.qml:104 qml/QueuePage.qml:69
 #, kde-format
 msgid "1 Episode"
 msgid_plural "%1 Episodes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/FeedDetailsPage.qml:78
+#: qml/FeedDetailsPage.qml:104
 #, kde-format
 msgid "1 Unplayed"
 msgid_plural "%1 Unplayed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/FeedListDelegate.qml:279 qml/FeedListPage.qml:249
+#: qml/FeedListDelegate.qml:279
 #, kde-format
 msgid "Remove Podcast"
-msgid_plural "Remove Podcasts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr ""
 
 #: qml/FeedListPage.qml:20 qml/main.qml:121
 #, kde-format
@@ -492,6 +487,14 @@ msgstr ""
 msgid "Deselect All"
 msgstr ""
 
+#: qml/FeedListPage.qml:249
+#, kde-format
+msgctxt "context menu action"
+msgid "Remove Podcast"
+msgid_plural "Remove Podcasts"
+msgstr[0] ""
+msgstr[1] ""
+
 #: qml/GenericEntryDelegate.qml:152
 #, kde-format
 msgid "Played"
@@ -506,6 +509,14 @@ msgstr ""
 #, kde-format
 msgid "New"
 msgstr ""
+
+#: qml/GenericEntryListView.qml:207
+#, kde-format
+msgctxt "context menu action"
+msgid "Delete Download"
+msgid_plural "Delete Downloads"
+msgstr[0] ""
+msgstr[1] ""
 
 #: qml/HeaderBar.qml:46 qml/PlayerControls.qml:94
 #, kde-format
@@ -560,7 +571,7 @@ msgid_plural "Updated %2 of %1 Podcasts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/main.qml:253
+#: qml/main.qml:259
 #, kde-format
 msgctxt "Number of Moved Files"
 msgid "Moved %2 of %1 File"
@@ -568,7 +579,7 @@ msgid_plural "Moved %2 of %1 Files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/main.qml:294
+#: qml/main.qml:300
 #, kde-format
 msgid "Podcast downloads are currently not allowed on metered connections"
 msgstr ""
@@ -769,12 +780,12 @@ msgstr ""
 msgid "Abort"
 msgstr ""
 
-#: storagemanager.cpp:81
+#: storagemanager.cpp:83
 #, kde-format
 msgid "Old location:"
 msgstr ""
 
-#: storagemanager.cpp:81
+#: storagemanager.cpp:83
 #, kde-format
 msgid "New location:"
 msgstr ""

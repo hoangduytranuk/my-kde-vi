@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-30 00:13+0000\n"
+"POT-Creation-Date: 2021-10-04 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -597,7 +597,7 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/Histogram.cpp:128
 #: src/backend/worksheet/plots/cartesian/ReferenceLine.cpp:72
 #: src/backend/worksheet/plots/cartesian/XYCurve.cpp:138
-#: src/backend/worksheet/TextLabel.cpp:218
+#: src/backend/worksheet/TextLabel.cpp:239
 #: src/kdefrontend/ui/datapickercurvewidget.ui:186
 #: src/kdefrontend/ui/datapickerimagewidget.ui:636
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:90
@@ -788,7 +788,7 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/XYInterpolationCurve.cpp:467
 #: src/backend/worksheet/plots/cartesian/XYSmoothCurve.cpp:311
 #: src/backend/worksheet/plots/PlotArea.cpp:472
-#: src/backend/worksheet/TextLabel.cpp:1274
+#: src/backend/worksheet/TextLabel.cpp:1294
 #: src/backend/worksheet/Worksheet.cpp:1621
 #: src/commonfrontend/ProjectExplorer.cpp:932
 #, kde-format
@@ -812,7 +812,7 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/CustomPoint.cpp:442
 #: src/backend/worksheet/plots/cartesian/ReferenceLine.cpp:525
 #: src/backend/worksheet/plots/PlotArea.cpp:575
-#: src/backend/worksheet/TextLabel.cpp:1405
+#: src/backend/worksheet/TextLabel.cpp:1425
 #: src/backend/worksheet/Worksheet.cpp:1758
 #, kde-format
 msgid "unknown element '%1'"
@@ -873,23 +873,23 @@ msgid "Down"
 msgstr ""
 
 #: src/backend/core/AbstractAspect.cpp:447
-#: src/backend/core/aspectcommands.h:73 src/backend/datapicker/Datapicker.cpp:221
+#: src/backend/core/aspectcommands.h:74 src/backend/datapicker/Datapicker.cpp:221
 #, kde-format
 msgid "%1: add %2"
 msgstr ""
 
 #: src/backend/core/AbstractAspect.cpp:449
-#: src/backend/core/AbstractAspect.cpp:477
+#: src/backend/core/AbstractAspect.cpp:476
 #, kde-format
 msgid "Renaming \"%1\" to \"%2\" in order to avoid name collision."
 msgstr ""
 
-#: src/backend/core/AbstractAspect.cpp:475
+#: src/backend/core/AbstractAspect.cpp:474
 #, kde-format
 msgid "%1: insert %2 before %3"
 msgstr ""
 
-#: src/backend/core/AbstractAspect.cpp:475
+#: src/backend/core/AbstractAspect.cpp:474
 #, kde-format
 msgid "%1: insert %2 before end"
 msgstr ""
@@ -1055,7 +1055,7 @@ msgstr ""
 msgid "incompatible filter type"
 msgstr ""
 
-#: src/backend/core/aspectcommands.h:92
+#: src/backend/core/aspectcommands.h:93
 #, kde-format
 msgid "%1: move %2 to %3."
 msgstr ""
@@ -1526,7 +1526,7 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/ReferenceLine.cpp:202
 #: src/backend/worksheet/plots/cartesian/XYCurve.cpp:198
 #: src/backend/worksheet/plots/PlotArea.cpp:93
-#: src/backend/worksheet/TextLabel.cpp:374
+#: src/backend/worksheet/TextLabel.cpp:395
 #: src/backend/worksheet/WorksheetElementContainer.cpp:69
 #: src/backend/worksheet/WorksheetElementContainer.cpp:70
 #, kde-format
@@ -1543,8 +1543,8 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/ReferenceLine.cpp:202
 #: src/backend/worksheet/plots/cartesian/XYCurve.cpp:198
 #: src/backend/worksheet/plots/PlotArea.cpp:93
-#: src/backend/worksheet/TextLabel.cpp:308
-#: src/backend/worksheet/TextLabel.cpp:374
+#: src/backend/worksheet/TextLabel.cpp:329
+#: src/backend/worksheet/TextLabel.cpp:395
 #: src/backend/worksheet/WorksheetElementContainer.cpp:72
 #: src/backend/worksheet/WorksheetElementContainer.cpp:91
 #, kde-format
@@ -1569,7 +1569,7 @@ msgstr ""
 
 #: src/backend/datapicker/DatapickerImage.cpp:245
 #: src/backend/worksheet/Image.cpp:206 src/backend/worksheet/plots/cartesian/CartesianPlotLegend.cpp:263
-#: src/backend/worksheet/TextLabel.cpp:345
+#: src/backend/worksheet/TextLabel.cpp:366
 #, kde-format
 msgid "%1: set rotation angle"
 msgstr ""
@@ -1599,7 +1599,7 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/CartesianPlotLegend.cpp:256
 #: src/backend/worksheet/plots/cartesian/CustomPoint.cpp:131
 #: src/backend/worksheet/plots/cartesian/ReferenceLine.cpp:182
-#: src/backend/worksheet/TextLabel.cpp:287
+#: src/backend/worksheet/TextLabel.cpp:308
 #, kde-format
 msgid "%1: set position"
 msgstr ""
@@ -6529,7 +6529,7 @@ msgstr ""
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1213
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:751
 #: src/kdefrontend/ui/dockwidgets/xycurvedock.ui:413
-#: src/kdefrontend/widgets/LabelWidget.cpp:136
+#: src/kdefrontend/widgets/LabelWidget.cpp:137
 #, kde-format
 msgid "Text"
 msgstr ""
@@ -6548,8 +6548,8 @@ msgstr ""
 
 #: src/backend/spreadsheet/SpreadsheetModel.cpp:458
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:309
-#: src/kdefrontend/widgets/LabelWidget.cpp:827
-#: src/kdefrontend/widgets/LabelWidget.cpp:853
+#: src/kdefrontend/widgets/LabelWidget.cpp:821
+#: src/kdefrontend/widgets/LabelWidget.cpp:847
 #, kde-format
 msgid "Date and Time"
 msgstr ""
@@ -6562,7 +6562,7 @@ msgstr ""
 #: src/backend/worksheet/Image.cpp:160 src/backend/worksheet/Image.cpp:235
 #: src/backend/worksheet/plots/cartesian/BoxPlot.cpp:455
 #: src/backend/worksheet/plots/cartesian/CartesianPlotLegend.cpp:344
-#: src/backend/worksheet/TextLabel.cpp:367
+#: src/backend/worksheet/TextLabel.cpp:388
 #, kde-format
 msgid "%1: set border opacity"
 msgstr ""
@@ -6582,17 +6582,17 @@ msgstr ""
 msgid "%1: change keep ratio"
 msgstr ""
 
-#: src/backend/worksheet/Image.cpp:213 src/backend/worksheet/TextLabel.cpp:294
+#: src/backend/worksheet/Image.cpp:213 src/backend/worksheet/TextLabel.cpp:315
 #, kde-format
 msgid "%1: set horizontal alignment"
 msgstr ""
 
-#: src/backend/worksheet/Image.cpp:220 src/backend/worksheet/TextLabel.cpp:301
+#: src/backend/worksheet/Image.cpp:220 src/backend/worksheet/TextLabel.cpp:322
 #, kde-format
 msgid "%1: set vertical alignment"
 msgstr ""
 
-#: src/backend/worksheet/Image.cpp:228 src/backend/worksheet/TextLabel.cpp:360
+#: src/backend/worksheet/Image.cpp:228 src/backend/worksheet/TextLabel.cpp:381
 #, kde-format
 msgid "%1: set border"
 msgstr ""
@@ -7726,7 +7726,7 @@ msgid "%1: set font"
 msgstr ""
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlotLegend.cpp:233
-#: src/backend/worksheet/TextLabel.cpp:273
+#: src/backend/worksheet/TextLabel.cpp:294
 #, kde-format
 msgid "%1: set font color"
 msgstr ""
@@ -8445,37 +8445,37 @@ msgstr ""
 msgid "%1: set plot area border opacity"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:252
+#: src/backend/worksheet/TextLabel.cpp:273
 #, kde-format
 msgid "%1: set label text"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:259
+#: src/backend/worksheet/TextLabel.cpp:280
 #, kde-format
 msgid "%1: set label placeholdertext"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:266
+#: src/backend/worksheet/TextLabel.cpp:287
 #, kde-format
 msgid "%1: set TeX main font"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:280
+#: src/backend/worksheet/TextLabel.cpp:301
 #, kde-format
 msgid "%1: set background color"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:308
+#: src/backend/worksheet/TextLabel.cpp:329
 #, kde-format
 msgid "%1: use logical coordinates"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:315
+#: src/backend/worksheet/TextLabel.cpp:336
 #, kde-format
 msgid "%1: set logical position"
 msgstr ""
 
-#: src/backend/worksheet/TextLabel.cpp:353
+#: src/backend/worksheet/TextLabel.cpp:374
 #, kde-format
 msgid "%1: set border shape"
 msgstr ""
@@ -11164,8 +11164,8 @@ msgstr ""
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:50
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:59
 #: src/kdefrontend/SettingsGeneralPage.cpp:177
-#: src/kdefrontend/widgets/LabelWidget.cpp:87
-#: src/kdefrontend/widgets/LabelWidget.cpp:104
+#: src/kdefrontend/widgets/LabelWidget.cpp:88
+#: src/kdefrontend/widgets/LabelWidget.cpp:105
 #, kde-format
 msgid "Top"
 msgstr ""
@@ -11179,8 +11179,8 @@ msgstr ""
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:52
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:61
 #: src/kdefrontend/SettingsGeneralPage.cpp:178
-#: src/kdefrontend/widgets/LabelWidget.cpp:89
-#: src/kdefrontend/widgets/LabelWidget.cpp:106
+#: src/kdefrontend/widgets/LabelWidget.cpp:90
+#: src/kdefrontend/widgets/LabelWidget.cpp:107
 #, kde-format
 msgid "Bottom"
 msgstr ""
@@ -11301,8 +11301,8 @@ msgstr ""
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:392
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:401
 #: src/kdefrontend/SettingsGeneralPage.cpp:179
-#: src/kdefrontend/widgets/LabelWidget.cpp:83
-#: src/kdefrontend/widgets/LabelWidget.cpp:100
+#: src/kdefrontend/widgets/LabelWidget.cpp:84
+#: src/kdefrontend/widgets/LabelWidget.cpp:101
 #, kde-format
 msgid "Left"
 msgstr ""
@@ -11319,8 +11319,8 @@ msgstr ""
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:393
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:402
 #: src/kdefrontend/SettingsGeneralPage.cpp:180
-#: src/kdefrontend/widgets/LabelWidget.cpp:85
-#: src/kdefrontend/widgets/LabelWidget.cpp:102
+#: src/kdefrontend/widgets/LabelWidget.cpp:86
+#: src/kdefrontend/widgets/LabelWidget.cpp:103
 #, kde-format
 msgid "Right"
 msgstr ""
@@ -11844,10 +11844,10 @@ msgstr ""
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:51
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:56
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:60
-#: src/kdefrontend/widgets/LabelWidget.cpp:84
-#: src/kdefrontend/widgets/LabelWidget.cpp:88
-#: src/kdefrontend/widgets/LabelWidget.cpp:101
-#: src/kdefrontend/widgets/LabelWidget.cpp:105
+#: src/kdefrontend/widgets/LabelWidget.cpp:85
+#: src/kdefrontend/widgets/LabelWidget.cpp:89
+#: src/kdefrontend/widgets/LabelWidget.cpp:102
+#: src/kdefrontend/widgets/LabelWidget.cpp:106
 #, kde-format
 msgid "Center"
 msgstr ""
@@ -12102,37 +12102,37 @@ msgid "No Errors"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:75
-#: src/kdefrontend/widgets/LabelWidget.cpp:121
+#: src/kdefrontend/widgets/LabelWidget.cpp:122
 #, kde-format
 msgid "No line"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:76
-#: src/kdefrontend/widgets/LabelWidget.cpp:122
+#: src/kdefrontend/widgets/LabelWidget.cpp:123
 #, kde-format
 msgid "Solid line"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:77
-#: src/kdefrontend/widgets/LabelWidget.cpp:123
+#: src/kdefrontend/widgets/LabelWidget.cpp:124
 #, kde-format
 msgid "Dash line"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:78
-#: src/kdefrontend/widgets/LabelWidget.cpp:124
+#: src/kdefrontend/widgets/LabelWidget.cpp:125
 #, kde-format
 msgid "Dot line"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:79
-#: src/kdefrontend/widgets/LabelWidget.cpp:125
+#: src/kdefrontend/widgets/LabelWidget.cpp:126
 #, kde-format
 msgid "Dash dot line"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/ImageDock.cpp:80
-#: src/kdefrontend/widgets/LabelWidget.cpp:126
+#: src/kdefrontend/widgets/LabelWidget.cpp:127
 #, kde-format
 msgid "Dash dot dot line"
 msgstr ""
@@ -18864,7 +18864,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lTex)
 #: src/kdefrontend/ui/settingsworksheetpage.ui:147
-#: src/kdefrontend/widgets/LabelWidget.cpp:137
+#: src/kdefrontend/widgets/LabelWidget.cpp:138
 #, kde-format
 msgid "LaTeX"
 msgstr ""
@@ -19448,119 +19448,119 @@ msgstr ""
 msgid "Removing Keyword"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:59
+#: src/kdefrontend/widgets/LabelWidget.cpp:60
 #, kde-format
 msgid ""
 "Use logical instead of absolute coordinates to specify the position on the "
 "plot"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:73
+#: src/kdefrontend/widgets/LabelWidget.cpp:74
 #, kde-format
 msgid "Bold"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:74
+#: src/kdefrontend/widgets/LabelWidget.cpp:75
 #, kde-format
 msgid "Italic"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:75
+#: src/kdefrontend/widgets/LabelWidget.cpp:76
 #, kde-format
 msgid "Underline"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:76
+#: src/kdefrontend/widgets/LabelWidget.cpp:77
 #, kde-format
 msgid "Strike Out"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:77
+#: src/kdefrontend/widgets/LabelWidget.cpp:78
 #, kde-format
 msgid "Super Script"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:78
+#: src/kdefrontend/widgets/LabelWidget.cpp:79
 #, kde-format
 msgid "Sub-Script"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:79
+#: src/kdefrontend/widgets/LabelWidget.cpp:80
 #, kde-format
 msgid "Insert Symbol"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:80
+#: src/kdefrontend/widgets/LabelWidget.cpp:81
 #, kde-format
 msgid "Insert Date/Time"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:108
+#: src/kdefrontend/widgets/LabelWidget.cpp:109
 #, kde-format
 msgid "No Border"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:109
+#: src/kdefrontend/widgets/LabelWidget.cpp:110
 #, kde-format
 msgid "Rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:110
+#: src/kdefrontend/widgets/LabelWidget.cpp:111
 #, kde-format
 msgid "Ellipse"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:111
+#: src/kdefrontend/widgets/LabelWidget.cpp:112
 #, kde-format
 msgid "Round sided rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:112
+#: src/kdefrontend/widgets/LabelWidget.cpp:113
 #, kde-format
 msgid "Round corner rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:113
+#: src/kdefrontend/widgets/LabelWidget.cpp:114
 #, kde-format
 msgid "Inwards round corner rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:114
+#: src/kdefrontend/widgets/LabelWidget.cpp:115
 #, kde-format
 msgid "Dented border rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:115
+#: src/kdefrontend/widgets/LabelWidget.cpp:116
 #, kde-format
 msgid "Cuboid"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:116
+#: src/kdefrontend/widgets/LabelWidget.cpp:117
 #, kde-format
 msgid "Up Pointing rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:117
+#: src/kdefrontend/widgets/LabelWidget.cpp:118
 #, kde-format
 msgid "Down Pointing rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:118
+#: src/kdefrontend/widgets/LabelWidget.cpp:119
 #, kde-format
 msgid "Left Pointing rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:119
+#: src/kdefrontend/widgets/LabelWidget.cpp:120
 #, kde-format
 msgid "Right Pointing rectangle"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:139
+#: src/kdefrontend/widgets/LabelWidget.cpp:140
 #, kde-format
 msgid "Markdown"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:142
+#: src/kdefrontend/widgets/LabelWidget.cpp:143
 #, kde-format
 msgid ""
 "Text setting mode:<ul><li>Text - text setting using rich-text formatting</"
@@ -19568,8 +19568,8 @@ msgid ""
 "li><li>Markdown - text setting using Markdown markup language</li></ul>"
 msgstr ""
 
-#: src/kdefrontend/widgets/LabelWidget.cpp:819
-#: src/kdefrontend/widgets/LabelWidget.cpp:845
+#: src/kdefrontend/widgets/LabelWidget.cpp:813
+#: src/kdefrontend/widgets/LabelWidget.cpp:839
 #, kde-format
 msgid "Date"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-26 00:19+0000\n"
+"POT-Creation-Date: 2021-10-02 00:18+0000\n"
 "PO-Revision-Date: 2021-05-26 21:15+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -108,17 +108,17 @@ msgstr "Giới hạn lựa chọn bằng ngôn ngữ:"
 msgid "Preview"
 msgstr "Xem thử"
 
-#: kcm_keyboard.cpp:33
+#: kcm_keyboard.cpp:32
 #, kde-format
 msgid "KDE Keyboard Control Module"
 msgstr "Khối điều khiển bàn phím KDE"
 
-#: kcm_keyboard.cpp:37
+#: kcm_keyboard.cpp:36
 #, kde-format
 msgid "(c) 2010 Andriy Rysin"
 msgstr "(c) 2010 Andriy Rysin"
 
-#: kcm_keyboard.cpp:41
+#: kcm_keyboard.cpp:40
 #, kde-format
 msgid ""
 "<h1>Keyboard</h1> This control module can be used to configure keyboard "
@@ -273,7 +273,7 @@ msgstr ""
 "phím bổ trợ, và có thể cũng không hoạt động trong một vài tình huống (vd. "
 "nếu đang có ô bật lên hoặc ở trình bảo vệ màn hình)."
 
-#. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_configureLayouts)
 #: kcm_keyboard.ui:261
 #, kde-format
 msgid "Configure layouts"
@@ -321,37 +321,37 @@ msgstr "Số lượng bố cục chính:"
 msgid "Advanced"
 msgstr "Nâng cao"
 
-#. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_resetOldXkbOptions)
 #: kcm_keyboard.ui:418
 #, kde-format
 msgid "&Configure keyboard options"
 msgstr "Cấu hình các &lựa chọn bàn phím"
 
-#: kcm_keyboard_widget.cpp:184
+#: kcm_keyboard_widget.cpp:208
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: kcm_keyboard_widget.cpp:186
+#: kcm_keyboard_widget.cpp:210
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
 msgstr "%1 | %2"
 
-#: kcm_keyboard_widget.cpp:197
+#: kcm_keyboard_widget.cpp:222
 #, kde-format
 msgid "Only up to %1 keyboard layout is supported"
 msgid_plural "Only up to %1 keyboard layouts are supported"
 msgstr[0] "Chỉ hỗ trợ tối đa %1 bố cục bàn phím"
 
-#: kcm_keyboard_widget.cpp:572
+#: kcm_keyboard_widget.cpp:640
 #, kde-format
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Không"
 
-#: kcm_keyboard_widget.cpp:586
+#: kcm_keyboard_widget.cpp:654
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
@@ -466,7 +466,7 @@ msgid "&Rate:"
 msgstr "&Tốc độ:"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_repeatDelay)
 #: kcmmiscwidget.ui:164 kcmmiscwidget.ui:202
 #, kde-format
 msgid ""
@@ -478,7 +478,7 @@ msgstr ""
 "được ấn sẽ bắt đầu sinh mã phím. Lựa chọn 'Tốc độ lặp lại' điều khiển tần "
 "suất của những mã phím này."
 
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_repeatRate)
 #. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
 #: kcmmiscwidget.ui:192 kcmmiscwidget.ui:212
 #, kde-format
@@ -489,13 +489,13 @@ msgstr ""
 "Nếu được hỗ trợ, lựa chọn này cho phép bạn đặt tốc độ sinh mã phím khi một "
 "phím được ấn."
 
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_repeatRate)
 #: kcmmiscwidget.ui:195
 #, kde-format
 msgid " repeats/s"
 msgstr " lần/gy"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_repeatDelay)
 #: kcmmiscwidget.ui:205
 #, kde-format
 msgid " ms"

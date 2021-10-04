@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-27 00:17+0000\n"
+"POT-Creation-Date: 2021-10-03 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -300,13 +300,13 @@ msgid "Departures"
 msgstr ""
 
 #: app/DepartureQueryPage.qml:23 app/JourneyQueryPage.qml:23
-#: app/TransferPage.qml:54
+#: app/TransferPage.qml:55
 #, kde-format
 msgid "Earlier"
 msgstr ""
 
 #: app/DepartureQueryPage.qml:29 app/JourneyQueryPage.qml:29
-#: app/TransferPage.qml:60
+#: app/TransferPage.qml:61
 #, kde-format
 msgid "Later"
 msgstr ""
@@ -324,7 +324,7 @@ msgid "To:"
 msgstr ""
 
 #: app/DepartureQueryPage.qml:161 app/JourneyQueryPage.qml:144
-#: app/TransferPage.qml:181
+#: app/TransferPage.qml:192
 #, kde-format
 msgid "Data providers: %1"
 msgstr ""
@@ -496,7 +496,7 @@ msgid "End Time:"
 msgstr ""
 
 #: app/favoritelocationmodel.cpp:129 app/favoritelocationmodel.cpp:149
-#: app/SettingsPage.qml:41 app/transfermanager.cpp:318
+#: app/SettingsPage.qml:41 app/transfermanager.cpp:327
 #, kde-format
 msgid "Home"
 msgstr ""
@@ -1815,32 +1815,42 @@ msgstr ""
 msgid "Select transfer..."
 msgstr ""
 
-#: app/TransferPage.qml:18
+#: app/TransferPage.qml:19
 #, kde-format
 msgid "Select Transfer"
 msgstr ""
 
-#: app/TransferPage.qml:36
+#: app/TransferPage.qml:37
 #, kde-format
 msgid "Depart Now"
 msgstr ""
 
-#: app/TransferPage.qml:46
+#: app/TransferPage.qml:47
 #, kde-format
 msgid "Discard"
 msgstr ""
 
-#: app/TransferPage.qml:106
+#: app/TransferPage.qml:107
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: app/TransferPage.qml:126
+#: app/TransferPage.qml:129
+#, kde-format
+msgid "%1 ends at %2"
+msgstr ""
+
+#: app/TransferPage.qml:131
 #, kde-format
 msgid "Preceding arrival %1 at %2"
 msgstr ""
 
-#: app/TransferPage.qml:134
+#: app/TransferPage.qml:142
+#, kde-format
+msgid "%1 starts at %2"
+msgstr ""
+
+#: app/TransferPage.qml:144
 #, kde-format
 msgid "Following departure %1 from %2"
 msgstr ""
@@ -1987,7 +1997,7 @@ msgstr ""
 msgid "How to import data?"
 msgstr ""
 
-#: app/WelcomePage.qml:25
+#: app/WelcomePage.qml:27
 #, kde-format
 msgid ""
 "<p>There's a number of ways to import data into KDE Itinerary:"
@@ -1998,12 +2008,12 @@ msgid ""
 "barcodes and pasting their content.</li></p>"
 msgstr ""
 
-#: app/WelcomePage.qml:30
+#: app/WelcomePage.qml:32
 #, kde-format
 msgid "Check the settings!"
 msgstr ""
 
-#: app/WelcomePage.qml:34
+#: app/WelcomePage.qml:38
 #, kde-format
 msgid ""
 "KDE Itinerary has all features disabled by default that require online "
@@ -2013,19 +2023,19 @@ msgid ""
 "to automatically suggests ways to your next departure station or airport."
 msgstr ""
 
-#: app/WelcomePage.qml:39
+#: app/WelcomePage.qml:43
 #, kde-format
 msgid "More information"
 msgstr ""
 
-#: app/WelcomePage.qml:43
+#: app/WelcomePage.qml:49
 #, kde-format
 msgid ""
 "For more information about KDE Itinerary check out the <a href=\"https://"
 "community.kde.org/KDE_PIM/KDE_Itinerary\">wiki page</a>."
 msgstr ""
 
-#: app/WelcomePage.qml:50
+#: app/WelcomePage.qml:56
 #, kde-format
 msgid "Got it!"
 msgstr ""
