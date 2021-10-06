@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_pop3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-25 00:17+0000\n"
+"POT-Creation-Date: 2021-10-06 00:18+0000\n"
 "PO-Revision-Date: 2007-06-23 21:58+0930\n"
 "Last-Translator: Phan Vĩnh Thịnh <teppi82@gmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: KBabel 1.10\n"
 
-#: pop3.cpp:214
+#: pop3.cpp:213
 #, kde-format
 msgid "The server said: \"%1\""
 msgstr "Máy chủ nói: \"%1\""
 
-#: pop3.cpp:236
+#: pop3.cpp:235
 #, kde-format
 msgid "The server terminated the connection."
 msgstr "Máy chủ ngắt kết nối."
 
-#: pop3.cpp:238
+#: pop3.cpp:237
 #, kde-format
 msgid ""
 "Invalid response from server:\n"
@@ -37,17 +37,17 @@ msgstr ""
 "Hồi âm sai từ máy chủ:\n"
 "\"%1\""
 
-#: pop3.cpp:276
+#: pop3.cpp:275
 #, kde-format
 msgid "Could not send to server.\n"
 msgstr "Không thể gửi tới máy chủ.\n"
 
-#: pop3.cpp:329 pop3.cpp:384 pop3.cpp:561
+#: pop3.cpp:328 pop3.cpp:383 pop3.cpp:560
 #, kde-format
 msgid "No authentication details supplied."
 msgstr "Chưa cung cấp thông tin đăng nhập."
 
-#: pop3.cpp:364
+#: pop3.cpp:363
 #, kde-format
 msgid ""
 "Login via APOP failed. The server %1 may not support APOP, although it "
@@ -60,12 +60,12 @@ msgstr ""
 "\n"
 "%2"
 
-#: pop3.cpp:421
+#: pop3.cpp:420
 #, kde-format
 msgid "An error occurred during authentication: %1"
 msgstr "Gặp lỗi trong khi xác thực: %1"
 
-#: pop3.cpp:534
+#: pop3.cpp:533
 #, kde-format
 msgid ""
 "Login via SASL (%1) failed. The server may not support %2, or the password "
@@ -78,7 +78,7 @@ msgstr ""
 "\n"
 "%3"
 
-#: pop3.cpp:545
+#: pop3.cpp:544
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your POP3 server does not support SASL.\n"
@@ -90,7 +90,7 @@ msgstr ""
 "Máy chủ POP3 của bạn không hỗ trợ SASL.\n"
 "Hãy chọn phương pháp xác thực khác."
 
-#: pop3.cpp:578 pop3.cpp:635
+#: pop3.cpp:577 pop3.cpp:634
 #, kde-format
 msgid ""
 "Could not login to %1.\n"
@@ -99,7 +99,7 @@ msgstr ""
 "Không thể đăng nhập vào %1.\n"
 "\n"
 
-#: pop3.cpp:590
+#: pop3.cpp:589
 #, kde-format
 msgid ""
 "Could not login to %1. The password may be wrong.\n"
@@ -110,12 +110,12 @@ msgstr ""
 "\n"
 "%2"
 
-#: pop3.cpp:636
+#: pop3.cpp:635
 #, kde-format
 msgid "The server terminated the connection immediately."
 msgstr "Máy chủ cắt kết nối ngay lập tức."
 
-#: pop3.cpp:637
+#: pop3.cpp:636
 #, kde-format
 msgid ""
 "Server does not respond properly:\n"
@@ -124,7 +124,7 @@ msgstr ""
 "Máy chủ không trả lời đúng:\n"
 "%1\n"
 
-#: pop3.cpp:665
+#: pop3.cpp:664
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your POP3 server does not support APOP.\n"
@@ -136,7 +136,7 @@ msgstr ""
 "Máy chủ POP3 của bạn không hỗ trợ APOP.\n"
 "Hãy chọn một phương pháp xác thực khác."
 
-#: pop3.cpp:684
+#: pop3.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your POP3 server claims to support TLS but negotiation was unsuccessful. "
@@ -148,7 +148,7 @@ msgstr ""
 "Máy chủ POP3 của bạn đòi hỏi hỗ trợ TLS nhưng đàm phán không thành công. Bạn "
 "có thể tắt bỏ TLS trong KDE bằng khối thiết lập mã hoá."
 
-#: pop3.cpp:693
+#: pop3.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your POP3 server does not support TLS. Disable TLS, if you want to "
@@ -160,40 +160,40 @@ msgstr ""
 "Máy chủ POP3 của bạn không hỗ trợ TLS. Hãy tắt bỏ TLS nếu bạn muốn kết nối "
 "không mã hoá."
 
-#: pop3.cpp:703
+#: pop3.cpp:702
 #, kde-format
 msgid "Username and password for your POP3 account:"
 msgstr "Tên người dùng và mật khẩu cho danh khoản POP3:"
 
-#: pop3.cpp:880 pop3.cpp:888 pop3.cpp:1033
+#: pop3.cpp:879 pop3.cpp:887 pop3.cpp:1032
 #, kde-format
 msgid "Unexpected response from POP3 server."
 msgstr "Hồi âm không ngờ tời từ máy chủ POP3."
 
-#: pop3.cpp:894
+#: pop3.cpp:893
 #, kde-format
 msgid ""
 "Error during communication with the POP3 server while trying to list mail: %1"
 msgstr ""
 
-#: pop3.cpp:997
+#: pop3.cpp:996
 #, kde-format
 msgid ""
 "Error during communication with the POP3 server while trying to download "
 "mail: %1"
 msgstr ""
 
-#: pop3.cpp:1062
+#: pop3.cpp:1061
 #, kde-format
 msgid "The POP3 command 'STAT' failed"
 msgstr ""
 
-#: pop3.cpp:1067
+#: pop3.cpp:1066
 #, kde-format
 msgid "Invalid POP3 response, should have at least one space."
 msgstr ""
 
-#: pop3.cpp:1075
+#: pop3.cpp:1074
 #, kde-format
 msgid "Invalid POP3 STAT response."
 msgstr ""
