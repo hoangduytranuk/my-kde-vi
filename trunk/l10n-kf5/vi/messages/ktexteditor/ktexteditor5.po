@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-06 00:15+0000\n"
-"PO-Revision-Date: 2021-08-05 22:05+0200\n"
+"PO-Revision-Date: 2021-10-06 21:16+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -456,10 +456,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/editconfigwidget.ui:22
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Word Wrap"
 msgid "Word wrap:"
-msgstr "Bọc từ"
+msgstr "Bọc từ:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkStaticWordWrap)
 #: dialogs/editconfigwidget.ui:29
@@ -483,7 +483,7 @@ msgstr ""
 #: dialogs/editconfigwidget.ui:32
 #, kde-format
 msgid "Wrap &words at a fixed column"
-msgstr ""
+msgstr "Bọc &từ ở một cột cố định"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowStaticWordWrapMarker)
 #: dialogs/editconfigwidget.ui:39
@@ -499,7 +499,7 @@ msgstr ""
 #: dialogs/editconfigwidget.ui:42
 #, kde-format
 msgid "&Draw vertical line at the word wrap column"
-msgstr ""
+msgstr "&Vẽ đường kẻ dọc ở cột bọc từ"
 
 #. i18n: ectx: property (text), widget (QLabel, lblWordWrap)
 #: dialogs/editconfigwidget.ui:49
@@ -880,6 +880,14 @@ msgid ""
 "<b>Tab</b> a shortcut to the action <b>Align</b>.\"><span>More ...</span></"
 "a></p></body></html>"
 msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body>\n"
+"<p>Hành động của phím Tab (nếu đang không chọn gì) <a href=\"Nếu bạn muốn "
+"phím <b>Tab</b> căn lề cho dòng hiện tại trong khối mã hiện tại như trong "
+"Emacs, hãy đặt <b>Tab</b> làm phím tắt cho hành động <b>Căn lề</b>.\"><span>"
+"Thêm ...</span></a></p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbTabAdvances)
 #: dialogs/indentationconfigwidget.ui:225
@@ -965,12 +973,12 @@ msgid "Text Navigation"
 msgstr "Cấu hình"
 
 #: dialogs/katedialogs.cpp:520
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Character"
 msgctxt "Wrap words at (value is at 20 or larger)"
 msgid " character"
 msgid_plural " characters"
-msgstr[0] "Kí tự"
+msgstr[0] " kí tự"
 
 #: dialogs/katedialogs.cpp:525
 #, kde-format
@@ -1786,17 +1794,17 @@ msgstr "&Kết thúc dòng"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAtStaticMarker)
 #: dialogs/textareaappearanceconfigwidget.ui:299
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wrap dynamic at static word wrap marker"
 msgid "Wrap dynamically at static word wrap marker"
 msgstr "Bọc động ở chỉ dấu bọc từ tĩnh"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbxWordWrap)
 #: dialogs/textareaappearanceconfigwidget.ui:306
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Dynamic Word Wrap"
 msgid "Dynamic Word Wrap:"
-msgstr "Bọc từ độn&g"
+msgstr "Bọc từ động:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAnywhere)
 #: dialogs/textareaappearanceconfigwidget.ui:313
@@ -1812,9 +1820,9 @@ msgstr "Chọn khi nào thì hiển thị chỉ dấu bọc từ động."
 
 #. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
 #: dialogs/textareaappearanceconfigwidget.ui:327
-#, fuzzy, kde-format
+#, kde-format
 msgid "D&ynamic word wrap indicators:"
-msgstr "Chỉ dấu ngắt từ động"
+msgstr "Chỉ dấu bọc từ độn&g:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbDynamicWordWrapDepth)
 #: dialogs/textareaappearanceconfigwidget.ui:343
@@ -1828,6 +1836,13 @@ msgid ""
 "indentation levels are deeper than 50% of the width of the screen will not "
 "have vertical alignment applied to subsequent wrapped lines.</p>"
 msgstr ""
+"<p>Cho phép phần đầu các dòng bọc động được căn lề dọc với mức thụt lề của "
+"dòng đầu tiên. Việc này có thể giúp cho mã và văn bản đánh dấu dễ đọc hơn."
+"</p><p>Thêm nữa, việc này cho phép bạn đặt một độ rộng tối đa của màn hình, "
+"bằng một giá trị phần trăm, mà sau đó các dòng bọc động sẽ không còn được "
+"căn lề dọc nữa. Ví dụ, ở 50%, với các dòng mà mức thụt lề sâu hơn 50% chiều "
+"rộng màn hình thì các dòng bọc sau đó sẽ không được áp dụng căn lề dọc nữa.<"
+"/p>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbDynamicWordWrapDepth)
 #: dialogs/textareaappearanceconfigwidget.ui:346
@@ -1843,10 +1858,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: dialogs/textareaappearanceconfigwidget.ui:372
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Indentation"
 msgid "Indent wrapped lines:"
-msgstr "Canh lề"
+msgstr "Thụt lề các dòng được bọc:"
 
 #: document/katebuffer.cpp:151
 #, fuzzy, kde-format
@@ -6374,7 +6389,7 @@ msgstr ""
 #: view/kateview.cpp:504
 #, kde-format
 msgid "&Align"
-msgstr "C&anh lề"
+msgstr "&Căn lề"
 
 #: view/kateview.cpp:505
 #, kde-format
