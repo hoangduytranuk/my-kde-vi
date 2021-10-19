@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-17 00:16+0000\n"
+"POT-Creation-Date: 2021-10-09 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -268,21 +268,21 @@ msgctxt "Image address for radio metadata view"
 msgid "Image Address"
 msgstr ""
 
-#: models/viewsmodel.cpp:109 qml/SettingsForm.qml:159 viewslistdata.cpp:56
+#: models/viewsmodel.cpp:109 qml/SettingsForm.qml:188 viewslistdata.cpp:56
 #: viewslistdata.cpp:558
 #, kde-format
 msgctxt "Title of the view of all albums"
 msgid "Albums"
 msgstr ""
 
-#: models/viewsmodel.cpp:112 qml/SettingsForm.qml:162 viewslistdata.cpp:105
+#: models/viewsmodel.cpp:112 qml/SettingsForm.qml:191 viewslistdata.cpp:105
 #: viewslistdata.cpp:596
 #, kde-format
 msgctxt "Title of the view of all genres"
 msgid "Genres"
 msgstr ""
 
-#: models/viewsmodel.cpp:115 qml/SettingsForm.qml:160 viewslistdata.cpp:71
+#: models/viewsmodel.cpp:115 qml/SettingsForm.qml:189 viewslistdata.cpp:71
 #: viewslistdata.cpp:577
 #, kde-format
 msgctxt "Title of the view of all artists"
@@ -309,7 +309,7 @@ msgctxt "Refresh Music Collection application menu entry"
 msgid "Refresh Music Collection"
 msgstr ""
 
-#: qml/ApplicationMenu.qml:34 qml/SettingsForm.qml:71 qml/SettingsForm.qml:76
+#: qml/ApplicationMenu.qml:34 qml/SettingsForm.qml:100 qml/SettingsForm.qml:105
 #, kde-format
 msgid "Color Scheme"
 msgstr ""
@@ -392,7 +392,7 @@ msgid "Warning"
 msgstr ""
 
 #: qml/GridBrowserDelegate.qml:203 qml/GridBrowserDelegate.qml:418
-#: qml/ListBrowserDelegate.qml:265 qml/ListBrowserDelegate.qml:372
+#: qml/ListBrowserDelegate.qml:265 qml/ListBrowserDelegate.qml:404
 #: qml/mobile/MobilePlayListDelegate.qml:204
 #: qml/PlayListEntry.qml:182
 #, kde-format
@@ -460,31 +460,49 @@ msgctxt "%1: track title. %2: artist name"
 msgid "%1 - %2"
 msgstr ""
 
-#: qml/ListBrowserDelegate.qml:287
+#: qml/ListBrowserDelegate.qml:285 qml/MediaTrackMetadataDelegate.qml:136
+#: qml/PlayListEntry.qml:230
+#, kde-format
+msgid "Un-mark this song as a favorite"
+msgstr ""
+
+#: qml/ListBrowserDelegate.qml:285 qml/ListBrowserDelegate.qml:428
+#: qml/MediaTrackMetadataDelegate.qml:136
+#: qml/PlayListEntry.qml:230
+#, kde-format
+msgid "Mark this song as a favorite"
+msgstr ""
+
+#: qml/ListBrowserDelegate.qml:308
 #, kde-format
 msgctxt "Enqueue current track"
 msgid "Add to Playlist"
 msgstr ""
 
-#: qml/ListBrowserDelegate.qml:298
+#: qml/ListBrowserDelegate.qml:319
 #, kde-format
 msgctxt "Clear play list and enqueue current track"
 msgid "Play Now and Replace Play List"
 msgstr ""
 
-#: qml/ListBrowserDelegate.qml:344
+#: qml/ListBrowserDelegate.qml:376
 #, kde-format
 msgctxt "Song options"
 msgid "Song Options"
 msgstr ""
 
-#: qml/ListBrowserDelegate.qml:381 qml/mobile/MobilePlayListDelegate.qml:220
+#: qml/ListBrowserDelegate.qml:413 qml/mobile/MobilePlayListDelegate.qml:220
 #, kde-format
 msgctxt "Show track metadata"
 msgid "View details"
 msgstr ""
 
-#: qml/ListBrowserDelegate.qml:390
+#: qml/ListBrowserDelegate.qml:428
+#, kde-format
+msgid "Mark this song as no longer being a favorite"
+msgstr ""
+
+#: qml/ListBrowserDelegate.qml:437
 #, kde-format
 msgctxt "Enqueue current track"
 msgid "Add to queue"
@@ -909,31 +927,36 @@ msgstr ""
 msgid "Filter by rating: "
 msgstr ""
 
-#: qml/PlayListEntry.qml:214
+#: qml/NavigationActionBar.qml:387
+#, kde-format
+msgid "Limit to Favorited Songs"
+msgstr ""
+
+#: qml/PlayListEntry.qml:215
 #, kde-format
 msgctxt "Show track rating"
 msgid "Set track rating"
 msgstr ""
 
-#: qml/PlayListEntry.qml:230
+#: qml/PlayListEntry.qml:257
 #, kde-format
 msgctxt "Pause current track from play list"
 msgid "Pause"
 msgstr ""
 
-#: qml/PlayListEntry.qml:230
+#: qml/PlayListEntry.qml:257
 #, kde-format
 msgctxt "Play this track from play list"
 msgid "Play"
 msgstr ""
 
-#: qml/PlayListEntry.qml:246
+#: qml/PlayListEntry.qml:273
 #, kde-format
 msgctxt "Remove current track from play list"
 msgid "Remove"
 msgstr ""
 
-#: qml/PlayListEntry.qml:256
+#: qml/PlayListEntry.qml:283
 #, kde-format
 msgctxt "Cancel rating this track"
 msgid "Cancel rating this track"
@@ -964,99 +987,114 @@ msgstr ""
 msgid "Start playing on startup"
 msgstr ""
 
-#: qml/SettingsForm.qml:97
+#: qml/SettingsForm.qml:75
+#, kde-format
+msgid "Song rating style:"
+msgstr ""
+
+#: qml/SettingsForm.qml:76
+#, kde-format
+msgid "0-5 stars"
+msgstr ""
+
+#: qml/SettingsForm.qml:86
+#, kde-format
+msgid "Favorite/not favorite"
+msgstr ""
+
+#: qml/SettingsForm.qml:126
 #, kde-format
 msgid "Refresh Music Collection"
 msgstr ""
 
-#: qml/SettingsForm.qml:115
+#: qml/SettingsForm.qml:144
 #, kde-format
 msgid "Embed category in sidebar:"
 msgstr ""
 
-#: qml/SettingsForm.qml:117
+#: qml/SettingsForm.qml:146
 #, kde-format
 msgctxt "Configure dialog, embed no category in views navigation list"
 msgid "Nothing"
 msgstr ""
 
-#: qml/SettingsForm.qml:118
+#: qml/SettingsForm.qml:147
 #, kde-format
 msgctxt "Configure dialog, embed all albums in views navigation list"
 msgid "Albums"
 msgstr ""
 
-#: qml/SettingsForm.qml:119
+#: qml/SettingsForm.qml:148
 #, kde-format
 msgctxt "Configure dialog, embed all artists in views navigation list"
 msgid "Artists"
 msgstr ""
 
-#: qml/SettingsForm.qml:120
+#: qml/SettingsForm.qml:149
 #, kde-format
 msgctxt "Configure dialog, embed all genres in views navigation list"
 msgid "Genres"
 msgstr ""
 
-#: qml/SettingsForm.qml:154
+#: qml/SettingsForm.qml:183
 #, kde-format
 msgid "Initial view on startup:"
 msgstr ""
 
-#: qml/SettingsForm.qml:156 viewslistdata.cpp:23
+#: qml/SettingsForm.qml:185 viewslistdata.cpp:23
 #, kde-format
 msgctxt "Title of the view of the playlist"
 msgid "Now Playing"
 msgstr ""
 
-#: qml/SettingsForm.qml:157 viewslistdata.cpp:26
+#: qml/SettingsForm.qml:186 viewslistdata.cpp:26
 #, kde-format
 msgctxt "Title of the view of recently played tracks"
 msgid "Recently Played"
 msgstr ""
 
-#: qml/SettingsForm.qml:158 viewslistdata.cpp:41
+#: qml/SettingsForm.qml:187 viewslistdata.cpp:41
 #, kde-format
 msgctxt "Title of the view of frequently played tracks"
 msgid "Frequently Played"
 msgstr ""
 
-#: qml/SettingsForm.qml:161 viewslistdata.cpp:86
+#: qml/SettingsForm.qml:190 viewslistdata.cpp:86
 #, kde-format
 msgctxt "Title of the view of all tracks"
 msgid "Tracks"
 msgstr ""
 
-#: qml/SettingsForm.qml:163 viewslistdata.cpp:120
+#: qml/SettingsForm.qml:192 viewslistdata.cpp:120
 #, kde-format
 msgctxt "Title of the file browser view"
 msgid "Files"
 msgstr ""
 
-#: qml/SettingsForm.qml:164 viewslistdata.cpp:132
+#: qml/SettingsForm.qml:193 viewslistdata.cpp:132
 #, kde-format
 msgctxt "Title of the file radios browser view"
 msgid "Radio Stations"
 msgstr ""
 
-#: qml/SettingsForm.qml:189
+#: qml/SettingsForm.qml:218
 #, kde-format
 msgid "Music indexing:"
 msgstr ""
 
-#: qml/SettingsForm.qml:196
+#: qml/SettingsForm.qml:225
 #, kde-format
 msgctxt "Configure dialog, indexing type"
 msgid "Use fast native indexer"
 msgstr ""
 
-#: qml/SettingsForm.qml:197
+#: qml/SettingsForm.qml:226
 #, kde-format
 msgctxt "Configure dialog, indexing type"
 msgid "Scan the filesystem directly"
 msgstr ""
 
-#: qml/SettingsForm.qml:212
+#: qml/SettingsForm.qml:241
 #, kde-kuit-format
 msgid ""
 "This is slower than the fast indexer. Please activate it only if Elisa "
@@ -1064,28 +1102,28 @@ msgid ""
 "using your file manager also does not work. Please report this as a bug."
 msgstr ""
 
-#: qml/SettingsForm.qml:216
+#: qml/SettingsForm.qml:245
 #, kde-format
 msgid "Report Bug"
 msgstr ""
 
-#: qml/SettingsForm.qml:232
+#: qml/SettingsForm.qml:261
 #, kde-format
 msgctxt "The configured folders where the user's music collection can be found"
 msgid "Music folders:"
 msgstr ""
 
-#: qml/SettingsForm.qml:265
+#: qml/SettingsForm.qml:294
 #, kde-format
 msgid "Stop looking for music here"
 msgstr ""
 
-#: qml/SettingsForm.qml:276
+#: qml/SettingsForm.qml:305
 #, kde-format
 msgid "Add New Location"
 msgstr ""
 
-#: qml/SettingsForm.qml:286
+#: qml/SettingsForm.qml:315
 #, kde-format
 msgid "Choose a Folder"
 msgstr ""

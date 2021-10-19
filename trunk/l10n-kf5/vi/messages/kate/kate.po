@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-04 00:19+0000\n"
+"POT-Creation-Date: 2021-10-10 00:20+0000\n"
 "PO-Revision-Date: 2021-08-24 11:19+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -1131,6 +1131,11 @@ msgstr ""
 msgid "Opening Large File"
 msgstr "Đang mở tệp lớn"
 
+#: kateviewmanager.cpp:919
+#, kde-format
+msgid "This view may have unsaved work. Do you really want to close it?"
+msgstr ""
+
 #: kateviewspace.cpp:54
 #, kde-format
 msgid "Go Back"
@@ -1169,27 +1174,33 @@ msgstr[0] ""
 "Hiện có %1 tài liệu nữa đang mở. Để thấy tất cả các tài liệu đang mở, chuyển "
 "sang khung xem \"Mở nhanh\" bằng cách bấm vào đây."
 
-#: kateviewspace.cpp:574
+#: kateviewspace.cpp:630
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close Tab"
+msgstr "Đóng"
+
+#: kateviewspace.cpp:644
 #, kde-format
 msgid "&Close Document"
 msgstr "Đón&g tài liệu"
 
-#: kateviewspace.cpp:575
+#: kateviewspace.cpp:645
 #, kde-format
 msgid "Close Other &Documents"
 msgstr "Đóng các tài liệu &khác"
 
-#: kateviewspace.cpp:584
+#: kateviewspace.cpp:654
 #, kde-format
 msgid "Compare with active document"
 msgstr "So sánh với tài liệu hoạt động"
 
-#: kateviewspace.cpp:640
+#: kateviewspace.cpp:710
 #, kde-format
 msgid "Could not start program"
 msgstr "Không khởi động được chương trình"
 
-#: kateviewspace.cpp:641
+#: kateviewspace.cpp:711
 #, kde-format
 msgid "The selected program could not be started. Maybe it is not installed."
 msgstr ""

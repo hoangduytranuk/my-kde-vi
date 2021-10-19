@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:16+0000\n"
+"POT-Creation-Date: 2021-10-19 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -533,9 +533,9 @@ msgstr ""
 
 #: core/app/items/utils/contextmenuhelper.cpp:282
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:144
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:170
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:141
-#: core/showfoto/stackview/showfotostackviewlist.cpp:407
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:171
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:143
+#: core/showfoto/stackview/showfotostackviewlist.cpp:416
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Open in File Manager"
@@ -2588,47 +2588,47 @@ msgid ""
 "written to.</p>"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:150
+#: core/app/utils/digikam_globals.cpp:152
 #, kde-format
 msgid "%1 Image (%2)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:154
+#: core/app/utils/digikam_globals.cpp:156
 #, kde-format
 msgid "TIFF Image (*.tiff *.tif)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:156
+#: core/app/utils/digikam_globals.cpp:158
 #, kde-format
 msgid "JPEG Image (*.jpg *.jpeg *.jpe)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:161
+#: core/app/utils/digikam_globals.cpp:163
 #, kde-format
 msgid "JPEG2000 Image (*.jp2 *.j2k *.jpx *.pgx)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:166
+#: core/app/utils/digikam_globals.cpp:168
 #, kde-format
 msgid "Progressive Graphics file (*.pgf)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:171
+#: core/app/utils/digikam_globals.cpp:173
 #, kde-format
 msgid "High Efficiency Image Coding (*.heic *.heif)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:178
+#: core/app/utils/digikam_globals.cpp:180
 #, kde-format
 msgid "Flexible Image Transport System (*.fts *.fit *.fits)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:185
+#: core/app/utils/digikam_globals.cpp:187
 #, kde-format
 msgid "Raw Images (%1)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:187
+#: core/app/utils/digikam_globals.cpp:189
 #, kde-format
 msgid "All supported files (%1)"
 msgstr ""
@@ -3509,6 +3509,7 @@ msgstr ""
 #: core/app/views/tableview/tableview_column_file.cpp:64
 #: core/app/views/tableview/tableview_column_file.cpp:93
 #: core/libs/dialogs/deletedialog.cpp:184
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
 #, kde-format
 msgid "Path"
 msgstr ""
@@ -3516,6 +3517,7 @@ msgstr ""
 #: core/app/views/tableview/tableview_column_file.cpp:65
 #: core/app/views/tableview/tableview_column_file.cpp:98
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:78
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:208
 #, kde-format
 msgid "Size"
 msgstr ""
@@ -3637,6 +3639,7 @@ msgstr ""
 
 #: core/app/views/tableview/tableview_column_item.cpp:89
 #: core/app/views/tableview/tableview_column_item.cpp:134
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
 #, kde-format
 msgid "Type"
 msgstr ""
@@ -17941,7 +17944,7 @@ msgid "%1 - %2"
 msgstr ""
 
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:170
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:384
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:385
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:394
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:558
@@ -18135,44 +18138,45 @@ msgstr ""
 msgid "Outlined Text"
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:281
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:282
 #, kde-format
 msgid "%1 image [%2]"
 msgid_plural "%1 images [%2]"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:285
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:286
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:304
 #, kde-format
 msgid "%1 image"
 msgid_plural "%1 images"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:384
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:385
 #, kde-format
 msgid "Cannot access file %1. Please check the path is correct."
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:422
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:423
 #, kde-format
 msgctxt "Image number %1"
 msgid "Image #%1"
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:456
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:457
 #: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:687
 #, kde-format
 msgid "Ken Burns"
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:483
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:484
 #, kde-format
 msgid "Delay between images (ms):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_delayLabel)
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:490
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:491
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.ui:210
 #, kde-format
 msgid "Delay between images (s):"
@@ -20961,6 +20965,7 @@ msgid "This is the list of images to upload to an iNaturalist observation."
 msgstr ""
 
 #: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:74
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
 #: core/utilities/searchwindow/searchfields.cpp:212
 #, kde-format
 msgid "Date"
@@ -30552,114 +30557,114 @@ msgstr ""
 msgid "Cancel current operation"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:297
+#: core/libs/dplugins/widgets/ditemslist.cpp:113
+#, kde-format
+msgctxt "@info"
+msgid "Add new images to the list"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:114
+#, kde-format
+msgctxt "@info"
+msgid "Remove selected images from the list"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:115
+#, kde-format
+msgctxt "@info"
+msgid "Move current selected image up in the list"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:116
+#, kde-format
+msgctxt "@info"
+msgid "Move current selected image down in the list"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:117
+#, kde-format
+msgctxt "@info"
+msgid "Clear the list."
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:118
+#, kde-format
+msgctxt "@info"
+msgid "Load a saved list."
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:119
+#, kde-format
+msgctxt "@info"
+msgid "Save the list."
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:572
+#, kde-format
+msgctxt "@info"
+msgid "Select the image file list to load"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:573
+#: core/libs/dplugins/widgets/ditemslist.cpp:655
+#, kde-format
+msgctxt "@option"
+msgid "All Files (*)"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist.cpp:653
+#, kde-format
+msgctxt "@info"
+msgid "Select the image file list to save"
+msgstr ""
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:47
 #, kde-format
 msgctxt "@title"
 msgid "Thumbnail"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:298
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:48
 #: core/utilities/import/dialogs/cameramessagebox.cpp:147
 #, kde-format
 msgctxt "@title"
 msgid "File Name"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:299
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "User1"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:300
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "User2"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:301
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:51
 #, kde-format
 msgctxt "@title"
 msgid "User3"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:302
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "User4"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:303
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:53
 #, kde-format
 msgctxt "@title"
 msgid "User5"
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:304
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:54
 #, kde-format
 msgctxt "@title"
 msgid "User6"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:553
-#, kde-format
-msgctxt "@info"
-msgid "Add new images to the list"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:554
-#, kde-format
-msgctxt "@info"
-msgid "Remove selected images from the list"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:555
-#, kde-format
-msgctxt "@info"
-msgid "Move current selected image up in the list"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:556
-#, kde-format
-msgctxt "@info"
-msgid "Move current selected image down in the list"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:557
-#, kde-format
-msgctxt "@info"
-msgid "Clear the list."
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:558
-#, kde-format
-msgctxt "@info"
-msgid "Load a saved list."
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:559
-#, kde-format
-msgctxt "@info"
-msgid "Save the list."
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:1010
-#, kde-format
-msgctxt "@info"
-msgid "Select the image file list to load"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:1011
-#: core/libs/dplugins/widgets/ditemslist.cpp:1093
-#, kde-format
-msgctxt "@option"
-msgid "All Files (*)"
-msgstr ""
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:1091
-#, kde-format
-msgctxt "@info"
-msgid "Select the image file list to save"
 msgstr ""
 
 #: core/libs/dplugins/widgets/dplugindialog.cpp:75
@@ -33428,7 +33433,8 @@ msgid "Map"
 msgstr ""
 
 #: core/libs/properties/itempropertiessidebar.cpp:254
-#: core/showfoto/stackview/showfotostackviewitem.cpp:78
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:424
+#: core/showfoto/stackview/showfotostackviewitem.cpp:80
 #, kde-format
 msgctxt "@info: item properties"
 msgid "RAW Image"
@@ -37231,7 +37237,7 @@ msgid "Mod.: %1"
 msgstr ""
 
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:427
-#: core/showfoto/main/showfoto.cpp:597 core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:316
+#: core/showfoto/main/showfoto.cpp:231 core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:321
 #: core/utilities/import/items/itemviewimportdelegate.cpp:368
 #, kde-format
 msgctxt "%1 width, %2 height, %3 mpixels"
@@ -37240,7 +37246,7 @@ msgstr ""
 
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:432
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:452
-#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:321
+#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:326
 #: core/utilities/import/items/itemviewimportdelegate.cpp:373
 #, kde-format
 msgctxt "unknown image resolution"
@@ -41629,211 +41635,229 @@ msgctxt "@info: search text bar"
 msgid "Case sensitive"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:116
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:115
 #, kde-format
 msgctxt "@action"
 msgid "Go to Previous"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:117
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:116
 #, kde-format
 msgctxt "@info"
 msgid "Go to previous place in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:133
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:132
 #, kde-format
 msgctxt "@action"
 msgid "Go to Next"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:134
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:133
 #, kde-format
 msgctxt "@info"
 msgid "Go to next place in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:150
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:149
 #, kde-format
 msgctxt "@action"
 msgid "Go Up"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:151
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:150
 #, kde-format
 msgctxt "@info"
 msgid "Go up in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:167
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:166
 #, kde-format
 msgctxt "@action"
 msgid "Go Home"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:168
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:167
 #, kde-format
 msgctxt "@info"
 msgid "Go to home directory"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:196
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:195
 #, kde-format
 msgctxt "@info: folder-view"
-msgid "Folder-View Options"
+msgid "View Options"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:199
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:198
 #, kde-format
 msgctxt "@info: folder-view"
 msgid "Selection options to render folder-view."
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:204
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:203
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Short View"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:207
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:206
 #, kde-format
 msgctxt "@info"
 msgid "Switch Folder-View to Short Mode"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:213
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Detailed View"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:216
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:215
 #, kde-format
 msgctxt "@info"
 msgid "Switch Folder-View to Detailed Mode"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:224
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:223
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Bookmarks"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:227
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:226
 #, kde-format
 msgctxt "@info"
 msgid "Show or Hide the Bookmarked places"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:232
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:231
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "More Settings..."
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:235
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:234
 #, kde-format
 msgctxt "@info"
 msgid "Open configure dialog with more settings options"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:247
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:246
 #, kde-format
 msgctxt "@info: folder-view"
-msgid "Folder-View Run Actions"
+msgid "Stack Options"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:250
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:249
 #, kde-format
 msgctxt "@info: folder-view"
-msgid "Run actions to handle folder-view contents."
+msgid "Stack options to handle folder-view contents."
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:254
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:253
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load Contents"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:257
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:256
 #, kde-format
 msgctxt "@action"
 msgid "Load Contents"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:258
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:257
 #, kde-format
 msgctxt "@info"
-msgid "Load Contents to Editor"
+msgid "Load contents to editor stack"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:272
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:264
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Append Contents"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:267
+#, kde-format
+msgctxt "@action"
+msgid "Append Contents"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:268
+#, kde-format
+msgctxt "@info"
+msgid "Append contents to editor stack"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:282
 #, kde-format
 msgctxt "@info"
 msgid "Enter the customized folder-view path or select from history"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:273
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:283
 #, kde-format
 msgctxt "@info: folder-view path edit"
 msgid "Enter local path here..."
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:285
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:295
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "JPEG images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:286
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:296
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "TIFF images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:287
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:297
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "PNG images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:288
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:298
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "PGF images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:289
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:299
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "HEIF images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:290
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:300
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "DNG images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:291
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:301
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "RAW images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:300
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:310
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "No RAW images"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:307
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:317
 #, kde-format
 msgctxt "@item: filter type mime"
 msgid "All supported files"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:447
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:457
 #, kde-format
 msgctxt "@info"
 msgid "Icon Size: %1"
@@ -41870,14 +41894,14 @@ msgid "The bookmark title which must be unique and not empty"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:151
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:173
 #, kde-format
 msgctxt "@label"
 msgid "&Icon:"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:145
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:159
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:181
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset"
@@ -41902,14 +41926,13 @@ msgid "You can add or remove bookmarked places here."
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:128
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:125
 #, kde-format
 msgctxt "@title"
 msgid "Bookmarks"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:134
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:136
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Load Contents"
@@ -41928,7 +41951,7 @@ msgid "Add Bookmark"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:115
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:119
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:105
 #, kde-format
 msgctxt "@info"
 msgid "Add new bookmark to the list"
@@ -41941,7 +41964,7 @@ msgid "Del Bookmark"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:132
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:137
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:123
 #, kde-format
 msgctxt "@info"
 msgid "Remove selected bookmark from the list"
@@ -41954,7 +41977,7 @@ msgid "Edit Bookmark"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:150
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:155
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:141
 #, kde-format
 msgctxt "@info"
 msgid "Edit current bookmark from the list"
@@ -41996,64 +42019,28 @@ msgstr ""
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:397
 #, kde-format
 msgctxt "@title"
-msgid "Usual"
+msgid "Usual Places"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:401
-#, kde-format
-msgctxt "@item"
-msgid "Home"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:406
-#, kde-format
-msgctxt "@item"
-msgid "Pictures"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:411
-#, kde-format
-msgctxt "@item"
-msgid "Documents"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:416
-#, kde-format
-msgctxt "@item"
-msgid "Downloads"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:421
-#, kde-format
-msgctxt "@item"
-msgid "Desktop"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:426
-#, kde-format
-msgctxt "@item"
-msgid "Music"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:431
-#, kde-format
-msgctxt "@item"
-msgid "Videos"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:147
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:146
 #, kde-format
 msgctxt "@title"
-msgid "Folder-View Options"
+msgid "Folder-View"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:163
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:157
+#, kde-format
+msgctxt "@title"
+msgid "Stack"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:164
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Add Bookmark"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:375
+#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:393
 #, kde-format
 msgctxt "@title: file system tree"
 msgid "Folders"
@@ -42085,76 +42072,77 @@ msgid ""
 "Management\" feature will be disabled until you solve this issue</p>"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:260
-#, kde-format
-msgid "Open Images From Folder"
-msgstr ""
-
-#: core/showfoto/main/showfoto.cpp:533
-#, kde-format
-msgid "There is no item to process."
-msgstr ""
-
-#: core/showfoto/main/showfoto.cpp:555
-#, kde-format
-msgid "Error Loading File"
-msgstr ""
-
-#: core/showfoto/main/showfoto.cpp:556
-#, kde-format
-msgid ""
-"Failed to load file: %1\n"
-"Remote file handling is not supported"
-msgstr ""
-
-#: core/showfoto/main/showfoto.cpp:596
+#: core/showfoto/main/showfoto.cpp:230
 #, kde-format
 msgctxt "unknown image dimensions"
 msgid "Unknown"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:635 core/utilities/imageeditor/main/imagewindow.cpp:500
+#: core/showfoto/main/showfoto.cpp:255 core/utilities/imageeditor/main/imagewindow.cpp:500
 #, kde-format
 msgctxt "<Image file name> (<Image number> of <Images in album>)"
 msgid "%1 (%2 of %3)"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:765
+#: core/showfoto/main/showfoto_config.cpp:125
+#, kde-format
+msgid "Delete File"
+msgstr ""
+
+#: core/showfoto/main/showfoto_iofiles.cpp:87
 #, kde-format
 msgid "Error Saving File"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:766
+#: core/showfoto/main/showfoto_iofiles.cpp:88
 #, kde-format
 msgid "Failed to save file: %1"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:767
+#: core/showfoto/main/showfoto_iofiles.cpp:89
 #, kde-format
 msgid "Remote file handling is not supported"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:789 core/utilities/imageeditor/main/imagewindow.cpp:583
+#: core/showfoto/main/showfoto_iofiles.cpp:111
+#: core/utilities/imageeditor/main/imagewindow.cpp:583
 #: core/utilities/imageeditor/main/imagewindow.cpp:698
 #, kde-format
 msgid "Image saved successfully"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:872
+#: core/showfoto/main/showfoto_iofiles.cpp:194
 #, kde-format
 msgid ""
 "About to delete file \"%1\"\n"
 "Are you sure?"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:888
+#: core/showfoto/main/showfoto_iofiles.cpp:210
 #, kde-format
 msgid "Cannot delete \"%1\""
 msgstr ""
 
-#: core/showfoto/main/showfoto_config.cpp:125
+#: core/showfoto/main/showfoto_open.cpp:67
 #, kde-format
-msgid "Delete File"
+msgid "Open Images From Folder"
+msgstr ""
+
+#: core/showfoto/main/showfoto_open.cpp:308
+#, kde-format
+msgid "There is no item to process."
+msgstr ""
+
+#: core/showfoto/main/showfoto_open.cpp:330
+#, kde-format
+msgid "Error Loading File"
+msgstr ""
+
+#: core/showfoto/main/showfoto_open.cpp:331
+#, kde-format
+msgid ""
+"Failed to load file: %1\n"
+"Remote file handling is not supported"
 msgstr ""
 
 #: core/showfoto/main/showfoto_setup.cpp:31
@@ -42851,177 +42839,241 @@ msgid ""
 "the image."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:112
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:122
 #, kde-format
 msgctxt "@title"
 msgid "New Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:116
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:126
 #, kde-format
 msgctxt "@title"
 msgid "Edit Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:132
-#, kde-format
-msgctxt "@label: favorite properties"
-msgid "&Name:"
-msgstr ""
-
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:135
-#, kde-format
-msgctxt "#info"
-msgid "Enter favorite name here..."
-msgstr ""
-
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:136
-#, kde-format
-msgctxt "#info"
-msgid "The favorite name which must be unique and not empty"
-msgstr ""
-
 #: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:142
 #, kde-format
-msgctxt "@label: favorite properties"
-msgid "&Description:"
+msgctxt "@label: favorite title properties"
+msgid "&Name:"
 msgstr ""
 
 #: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:145
 #, kde-format
 msgctxt "#info"
+msgid "Enter favorite name here..."
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:146
+#, kde-format
+msgctxt "@info"
+msgid "The favorite name which must be unique and not empty"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:152
+#, kde-format
+msgctxt "@label: favorite caption properties"
+msgid "&Description:"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:155
+#, kde-format
+msgctxt "@info"
 msgid "Enter favorite description here..."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:172
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:161
+#, kde-format
+msgctxt "@label: favorite date properties"
+msgid "&Created:"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:194
 #, kde-format
 msgctxt "@label: favorites properties"
 msgid "&Items:"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:72
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:207
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:213
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the list of items hosted by this favorite.\n"
+"The current selected item from this list will be automatically\n"
+"shown in editor when favorite is open. If none is selected,\n"
+"first one from the list will be displayed."
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:138
+#, kde-format
+msgctxt "@title"
+msgid "Favorite Properties"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:140
+#, kde-format
+msgctxt "@info: item title property"
+msgid "Name:"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:143
+#, kde-format
+msgctxt "@info: item date property"
+msgid "Created:"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:146
+#, kde-format
+msgctxt "@info; item count elements property"
+msgid "Items:"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:149
+#, kde-format
+msgctxt "@info: item caption property"
+msgid "Description:"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:74
 #, kde-format
 msgctxt "@info"
 msgid "You can add or remove favorite stacks here."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:109
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:127
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:95
 #, kde-format
 msgctxt "@title"
 msgid "Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:118
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Add Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:136
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Del Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:154
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:140
 #, kde-format
 msgctxt "@action"
 msgid "Edit Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:255
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:260
 #, kde-format
 msgctxt "@title: window"
 msgid "Confirm Favorite Deletion"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:256
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:261
 #, kde-format
 msgctxt "@info"
 msgid "Are you sure you want to remove the favorite \"%1\"?"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:393
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:417
 #, kde-format
 msgctxt "@title"
 msgid "My Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:451
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:475
 #, kde-format
 msgctxt "@title"
 msgid "Unnamed"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:99
+#: core/showfoto/stackview/showfotostackviewlist.cpp:98
 #, kde-format
 msgctxt "@title: item file name"
 msgid "Name"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:100
+#: core/showfoto/stackview/showfotostackviewlist.cpp:99
 #, kde-format
 msgctxt "@title: item file size"
 msgid "Size"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:101
+#: core/showfoto/stackview/showfotostackviewlist.cpp:100
 #, kde-format
 msgctxt "@title: item file type"
 msgid "Type"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:102
+#: core/showfoto/stackview/showfotostackviewlist.cpp:101
 #, kde-format
 msgctxt "@title: item date from metadata"
 msgid "Date"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:344
+#: core/showfoto/stackview/showfotostackviewlist.cpp:353
 #, kde-format
 msgctxt "@title"
-msgid "Stack-View Options"
+msgid "Stack-View"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:346
+#: core/showfoto/stackview/showfotostackviewlist.cpp:355
 #, kde-format
 msgctxt "@title:menu"
 msgid "Thumbnail Size"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:349
+#: core/showfoto/stackview/showfotostackviewlist.cpp:358
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:353
+#: core/showfoto/stackview/showfotostackviewlist.cpp:362
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:357
+#: core/showfoto/stackview/showfotostackviewlist.cpp:366
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:361
+#: core/showfoto/stackview/showfotostackviewlist.cpp:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:400
+#: core/showfoto/stackview/showfotostackviewlist.cpp:409
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Add as Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewsidebar.cpp:203
+#: core/showfoto/stackview/showfotostackviewlist.cpp:423
 #, kde-format
-msgctxt "@title: file system tree"
+msgctxt "@action: context menu"
+msgid "Clear All Items"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewlist.cpp:431
+#, kde-format
+msgctxt "@action: context menu"
+msgid "Remove Items"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewsidebar.cpp:229
+#, kde-format
+msgctxt "@title: stack-view list on items"
 msgid "Stack"
 msgstr ""
 
@@ -43031,7 +43083,7 @@ msgctxt "@action"
 msgid "C&ancel"
 msgstr ""
 
-#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:258
+#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:263
 #: core/utilities/import/items/itemviewimportdelegate.cpp:321
 #, kde-format
 msgctxt "date of image creation"
