@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-19 00:15+0000\n"
+"POT-Creation-Date: 2021-10-20 00:16+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -1308,7 +1308,13 @@ msgstr "Đang nạp các phần bổ sung Kipi"
 msgid "Checking ICC repository..."
 msgstr "Đang kiểm tra kho lưu ICC"
 
-#: core/app/main/digikamapp.cpp:317
+#: core/app/main/digikamapp.cpp:172
+#, fuzzy, kde-format
+#| msgid "Parsing all albums"
+msgid "Loading albums..."
+msgstr "Đang phân tách mọi tập ảnh"
+
+#: core/app/main/digikamapp.cpp:322
 #, fuzzy, kde-format
 msgid ""
 "<p>The ICC profiles folder seems to be invalid.</p><p>If you want to try "
@@ -1320,77 +1326,77 @@ msgstr ""
 "hợp này, tính năng « Quản lí màu » bị tắt đến khi bạn giải quyết vấn đề này."
 "</p></qt>"
 
-#: core/app/main/digikamapp.cpp:594 core/app/views/stack/trashview.cpp:435
+#: core/app/main/digikamapp.cpp:599 core/app/views/stack/trashview.cpp:435
 #, fuzzy, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:600
+#: core/app/main/digikamapp.cpp:605
 #, fuzzy, kde-format
 msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:604
+#: core/app/main/digikamapp.cpp:609
 #, fuzzy, kde-format
 msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:614
+#: core/app/main/digikamapp.cpp:619
 #, fuzzy, kde-format
 msgid "%1/%2 items selected (%3/%4)"
 msgstr "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:626
+#: core/app/main/digikamapp.cpp:631
 #, fuzzy, kde-format
 msgid "%1/%2 [%3] items selected (%4/%5)"
 msgstr "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:631
+#: core/app/main/digikamapp.cpp:636
 #, kde-format
 msgid "%1/%2 items selected. Total with grouped items: %3"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:638
+#: core/app/main/digikamapp.cpp:643
 #, fuzzy, kde-format
 msgid "%1/%2 [%3/%4] items selected (%5/%6)"
 msgstr "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:644
+#: core/app/main/digikamapp.cpp:649
 #, kde-format
 msgid "%1/%2 items selected. With grouped items: %3/%4"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:672
+#: core/app/main/digikamapp.cpp:677
 #, fuzzy, kde-format
 msgid " (%1 of %2)"
 msgstr " (%1 of %2)"
 
-#: core/app/main/digikamapp.cpp:686
+#: core/app/main/digikamapp.cpp:691
 #, fuzzy, kde-format
 msgid " (%1 of %2 [%3] )"
 msgstr " (%1 of %2)"
 
-#: core/app/main/digikamapp.cpp:690
+#: core/app/main/digikamapp.cpp:695
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:701
+#: core/app/main/digikamapp.cpp:706
 #, fuzzy, kde-format
 msgid "%1 item hidden"
 msgid_plural "%1 items hidden"
 msgstr[0] "16 bit"
 
-#: core/app/main/digikamapp.cpp:751
+#: core/app/main/digikamapp.cpp:756
 #, fuzzy, kde-format
 msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/app/main/digikamapp.cpp:753
+#: core/app/main/digikamapp.cpp:758
 #, fuzzy, kde-format
 msgid "Reread Metadata From File"
 msgid_plural "Reread Metadata From Selected Files"
@@ -3609,7 +3615,7 @@ msgstr "Tên tệp ảnh mới"
 #: core/app/views/tableview/tableview_column_file.cpp:64
 #: core/app/views/tableview/tableview_column_file.cpp:93
 #: core/libs/dialogs/deletedialog.cpp:184
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:212
 #, kde-format
 msgid "Path"
 msgstr "Đường dẫn"
@@ -3617,7 +3623,7 @@ msgstr "Đường dẫn"
 #: core/app/views/tableview/tableview_column_file.cpp:65
 #: core/app/views/tableview/tableview_column_file.cpp:98
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:78
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:208
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
 #, kde-format
 msgid "Size"
 msgstr "Cỡ"
@@ -3741,7 +3747,7 @@ msgstr "Độ sâu màu :"
 
 #: core/app/views/tableview/tableview_column_item.cpp:89
 #: core/app/views/tableview/tableview_column_item.cpp:134
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
 #, fuzzy, kde-format
 msgid "Type"
 msgstr "Kiểu :"
@@ -18832,7 +18838,7 @@ msgid_plural "%1 images [%2]"
 msgstr[0] "Ản&h"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:286
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:304
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:305
 #, fuzzy, kde-format
 msgid "%1 image"
 msgid_plural "%1 images"
@@ -21761,7 +21767,7 @@ msgid "This is the list of images to upload to an iNaturalist observation."
 msgstr "Đây là danh sách các mục sắp bị xoá."
 
 #: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:74
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
 #: core/utilities/searchwindow/searchfields.cpp:212
 #, fuzzy, kde-format
 msgid "Date"
@@ -24225,7 +24231,7 @@ msgstr ""
 "Thẻ « %1 » có một thẻ phụ. Xoá thẻ này thì cũng xoá thẻ phụ đó. Bạn có chắc "
 "muốn tiếp tục không?"
 
-#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:257
+#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:258
 #, kde-format
 msgid ""
 "Error to import RAW image with DarkTable\n"
@@ -24416,14 +24422,14 @@ msgstr "Mặc định"
 msgid "Use general Raw decoding settings to load this image in editor."
 msgstr ""
 
-#: core/dplugins/rawimport/rawtherapee/rawimportrawtherapeeplugin.cpp:202
+#: core/dplugins/rawimport/rawtherapee/rawimportrawtherapeeplugin.cpp:203
 #, kde-format
 msgid ""
 "Error to import RAW image with RawTherapee\n"
 "Close this dialog to load RAW image with native import tool"
 msgstr ""
 
-#: core/dplugins/rawimport/ufraw/rawimportufrawplugin.cpp:195
+#: core/dplugins/rawimport/ufraw/rawimportufrawplugin.cpp:196
 #, kde-format
 msgid ""
 "Error to import RAW image with UFRaw\n"
@@ -31958,64 +31964,64 @@ msgstr "Bộ sửa ảnh"
 msgid "Cancel current operation"
 msgstr "Thông tin máy ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:113
+#: core/libs/dplugins/widgets/ditemslist.cpp:115
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Add new images to the list"
 msgstr "Thêm mục mới vào tập ảnh hiện thời."
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:114
+#: core/libs/dplugins/widgets/ditemslist.cpp:116
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Remove selected images from the list"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:115
+#: core/libs/dplugins/widgets/ditemslist.cpp:117
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Move current selected image up in the list"
 msgstr "Xoá các điều chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:116
+#: core/libs/dplugins/widgets/ditemslist.cpp:118
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Move current selected image down in the list"
 msgstr "Xoá các điều chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:117
+#: core/libs/dplugins/widgets/ditemslist.cpp:119
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Clear the list."
 msgstr "Danh sách máy ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:118
+#: core/libs/dplugins/widgets/ditemslist.cpp:120
 #, fuzzy, kde-format
 #| msgid "%1 items selected"
 msgctxt "@info"
 msgid "Load a saved list."
 msgstr "%1 mục đã chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:119
+#: core/libs/dplugins/widgets/ditemslist.cpp:121
 #, fuzzy, kde-format
 #| msgid "Save Images"
 msgctxt "@info"
 msgid "Save the list."
 msgstr "Lưu ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:572
+#: core/libs/dplugins/widgets/ditemslist.cpp:574
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Select the image file list to load"
 msgstr "Chọn ảnh cần tải lên"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:573
-#: core/libs/dplugins/widgets/ditemslist.cpp:655
+#: core/libs/dplugins/widgets/ditemslist.cpp:575
+#: core/libs/dplugins/widgets/ditemslist.cpp:657
 #, fuzzy, kde-format
 msgctxt "@option"
 msgid "All Files (*)"
 msgstr "Tệp RAW"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:653
+#: core/libs/dplugins/widgets/ditemslist.cpp:655
 #, fuzzy, kde-format
 #| msgid "Selects the date of the oldest image"
 msgctxt "@info"
@@ -34878,7 +34884,7 @@ msgid "Map"
 msgstr ""
 
 #: core/libs/properties/itempropertiessidebar.cpp:254
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:424
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:437
 #: core/showfoto/stackview/showfotostackviewitem.cpp:80
 #, fuzzy, kde-format
 #| msgid "RAW Image"
@@ -37094,7 +37100,6 @@ msgid "DigiKam"
 msgstr "digiKam"
 
 #: core/libs/timeadjust/timeadjustsettings.cpp:170
-#: core/showfoto/main/main.cpp:124
 #, kde-format
 msgid "Showfoto"
 msgstr ""
@@ -43702,13 +43707,22 @@ msgctxt "@title: file system tree"
 msgid "Folders"
 msgstr "Theo thư mục"
 
-#: core/showfoto/main/main.cpp:141
+#: core/showfoto/main/main.cpp:124
 #, kde-format
+msgctxt "@title"
+msgid "Showfoto"
+msgstr ""
+
+#: core/showfoto/main/main.cpp:141
+#, fuzzy, kde-format
+#| msgid "File(s) or folder(s) to open"
+msgctxt "command line option"
 msgid "File(s) or folder(s) to open"
 msgstr "Các tệp/thư mục cần mở"
 
 #: core/showfoto/main/main.cpp:221
 #, kde-format
+msgctxt "#info"
 msgid ""
 "<p>You are running Showfoto as a 32-bit version on a 64-bit Windows.</"
 "p><p>Please install the 64-bit version of Showfoto to get a better "
@@ -44599,13 +44613,13 @@ msgctxt "@label: favorites properties"
 msgid "&Items:"
 msgstr "16 bit"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:207
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:208
 #, fuzzy, kde-format
 #| msgid "Name"
 msgid "Name"
 msgstr "Tên"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:213
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:214
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -44677,25 +44691,25 @@ msgctxt "@action"
 msgid "Edit Favorite"
 msgstr "Tệp ảnh"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:260
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:264
 #, fuzzy, kde-format
 msgctxt "@title: window"
 msgid "Confirm Favorite Deletion"
 msgstr "Độ tương quan:"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:261
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:265
 #, kde-format
 msgctxt "@info"
 msgid "Are you sure you want to remove the favorite \"%1\"?"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:417
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:424
 #, kde-format
 msgctxt "@title"
 msgid "My Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:475
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:482
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Unnamed"
