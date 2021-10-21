@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-20 00:16+0000\n"
+"POT-Creation-Date: 2021-10-21 00:15+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -3615,7 +3615,6 @@ msgstr "Tên tệp ảnh mới"
 #: core/app/views/tableview/tableview_column_file.cpp:64
 #: core/app/views/tableview/tableview_column_file.cpp:93
 #: core/libs/dialogs/deletedialog.cpp:184
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:212
 #, kde-format
 msgid "Path"
 msgstr "Đường dẫn"
@@ -3623,7 +3622,6 @@ msgstr "Đường dẫn"
 #: core/app/views/tableview/tableview_column_file.cpp:65
 #: core/app/views/tableview/tableview_column_file.cpp:98
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:78
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
 #, kde-format
 msgid "Size"
 msgstr "Cỡ"
@@ -3747,7 +3745,6 @@ msgstr "Độ sâu màu :"
 
 #: core/app/views/tableview/tableview_column_item.cpp:89
 #: core/app/views/tableview/tableview_column_item.cpp:134
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
 #, fuzzy, kde-format
 msgid "Type"
 msgstr "Kiểu :"
@@ -18838,7 +18835,6 @@ msgid_plural "%1 images [%2]"
 msgstr[0] "Ản&h"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:286
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:305
 #, fuzzy, kde-format
 msgid "%1 image"
 msgid_plural "%1 images"
@@ -21767,7 +21763,6 @@ msgid "This is the list of images to upload to an iNaturalist observation."
 msgstr "Đây là danh sách các mục sắp bị xoá."
 
 #: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:74
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
 #: core/utilities/searchwindow/searchfields.cpp:212
 #, fuzzy, kde-format
 msgid "Date"
@@ -24525,7 +24520,16 @@ msgid ""
 "the next dialog."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:145
+#: core/libs/album/manager/albummanager_database.cpp:139
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"If you want to start with a new configuration and with a first run wizard, "
+"delete the file %1"
+msgstr ""
+
+#: core/libs/album/manager/albummanager_database.cpp:152
 #, fuzzy, kde-format
 msgid ""
 "An error occurred during the internal server start.\n"
@@ -24536,7 +24540,7 @@ msgstr ""
 "Gặp lỗi khi mở hậu phương cơ sở dữ liệu.\n"
 " "
 
-#: core/libs/album/manager/albummanager_database.cpp:161
+#: core/libs/album/manager/albummanager_database.cpp:168
 #, fuzzy, kde-format
 msgid ""
 "Failed to open the database.\n"
@@ -24548,14 +24552,14 @@ msgstr ""
 "p><p>Không có cơ sở dữ liệu hoạt động được thì không thể sử dụng digiKam. "
 "Hãy kiểm tra lại thiết lập cơ sở dữ liệu trong trình đơn cấu hình.</p></qt>"
 
-#: core/libs/album/manager/albummanager_database.cpp:170
+#: core/libs/album/manager/albummanager_database.cpp:177
 #, kde-format
 msgid ""
 "<p>digiKam will attempt to start now, but it will <b>not</b> be functional.</"
 "p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:210
+#: core/libs/album/manager/albummanager_database.cpp:217
 #, fuzzy, kde-format
 msgid ""
 "<p>Failed to open the database.</p><p>You cannot use digiKam without a "
@@ -24567,7 +24571,7 @@ msgstr ""
 "p><p>Không có cơ sở dữ liệu hoạt động được thì không thể sử dụng digiKam. "
 "Hãy kiểm tra lại thiết lập cơ sở dữ liệu trong trình đơn cấu hình.</p></qt>"
 
-#: core/libs/album/manager/albummanager_database.cpp:219
+#: core/libs/album/manager/albummanager_database.cpp:226
 #, fuzzy, kde-format
 msgid ""
 "<p>Failed to open the database. Error message from database:</p><p><b>%1</"
@@ -24579,7 +24583,7 @@ msgstr ""
 "p><p>Không có cơ sở dữ liệu hoạt động được thì không thể sử dụng digiKam. "
 "Hãy kiểm tra lại thiết lập cơ sở dữ liệu trong trình đơn cấu hình.</p></qt>"
 
-#: core/libs/album/manager/albummanager_database.cpp:296
+#: core/libs/album/manager/albummanager_database.cpp:303
 #, fuzzy, kde-format
 msgid ""
 "Your locale has changed since this album was last opened.\n"
@@ -24597,7 +24601,7 @@ msgstr ""
 "nhấn vào « Có » để làm việc với tập ảnh này. Không thì nhấn vào « Không » và "
 "sửa chữa thiết lập miền địa phương trước khi khởi chạy lại trình digiKam."
 
-#: core/libs/album/manager/albummanager_database.cpp:338
+#: core/libs/album/manager/albummanager_database.cpp:345
 #, kde-format
 msgid ""
 "<p>The collection </p><p><b>%1</b><br/>(%2)</p><p> is currently not found on "
@@ -24605,7 +24609,7 @@ msgid ""
 "situation:</p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:357
+#: core/libs/album/manager/albummanager_database.cpp:364
 #, kde-format
 msgid ""
 "<p>The collection is still available, but the identifier changed.<br/>This "
@@ -24613,31 +24617,31 @@ msgid ""
 "file system settings.<br/>The collection is now located at this place:</p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:376
+#: core/libs/album/manager/albummanager_database.cpp:383
 #, kde-format
 msgid ""
 "The collection is located on a storage device which is not always attached. "
 "Mark the collection as a removable collection."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:383
+#: core/libs/album/manager/albummanager_database.cpp:390
 #, kde-format
 msgid ""
 "Take no action now. I would like to solve the problem later using the setup "
 "dialog"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:397
+#: core/libs/album/manager/albummanager_database.cpp:404
 #, fuzzy, kde-format
 msgid "Collection not found"
 msgstr "Tập hợp"
 
-#: core/libs/album/manager/albummanager_database.cpp:499
+#: core/libs/album/manager/albummanager_database.cpp:506
 #, fuzzy, kde-format
 msgid "Database Folder"
 msgstr "Tạo thư mục ?"
 
-#: core/libs/album/manager/albummanager_database.cpp:500
+#: core/libs/album/manager/albummanager_database.cpp:507
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the place to store the database. A "
@@ -24647,30 +24651,30 @@ msgid ""
 "\"%2\" - or ignore the old file and start with a new database?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:510
-#: core/libs/album/manager/albummanager_database.cpp:575
-#: core/libs/album/manager/albummanager_database.cpp:597
+#: core/libs/album/manager/albummanager_database.cpp:517
+#: core/libs/album/manager/albummanager_database.cpp:582
+#: core/libs/album/manager/albummanager_database.cpp:604
 #, fuzzy, kde-format
 msgid "Upgrade Database"
 msgstr "Tạo tập ảnh mới"
 
-#: core/libs/album/manager/albummanager_database.cpp:512
-#: core/libs/album/manager/albummanager_database.cpp:577
-#: core/libs/album/manager/albummanager_database.cpp:599
-#: core/libs/album/manager/albummanager_database.cpp:647
+#: core/libs/album/manager/albummanager_database.cpp:519
+#: core/libs/album/manager/albummanager_database.cpp:584
+#: core/libs/album/manager/albummanager_database.cpp:606
+#: core/libs/album/manager/albummanager_database.cpp:654
 #, fuzzy, kde-format
 msgid "Create New Database"
 msgstr "Tạo tập ảnh mới"
 
-#: core/libs/album/manager/albummanager_database.cpp:566
-#: core/libs/album/manager/albummanager_database.cpp:589
-#: core/libs/album/manager/albummanager_database.cpp:639
-#: core/libs/album/manager/albummanager_database.cpp:671
+#: core/libs/album/manager/albummanager_database.cpp:573
+#: core/libs/album/manager/albummanager_database.cpp:596
+#: core/libs/album/manager/albummanager_database.cpp:646
+#: core/libs/album/manager/albummanager_database.cpp:678
 #, fuzzy, kde-format
 msgid "New database folder"
 msgstr "Đang đọc cơ sở dữ liệu..."
 
-#: core/libs/album/manager/albummanager_database.cpp:567
+#: core/libs/album/manager/albummanager_database.cpp:574
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -24680,14 +24684,14 @@ msgid ""
 "it?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:579
-#: core/libs/album/manager/albummanager_database.cpp:649
-#: core/libs/album/manager/albummanager_database.cpp:680
+#: core/libs/album/manager/albummanager_database.cpp:586
+#: core/libs/album/manager/albummanager_database.cpp:656
+#: core/libs/album/manager/albummanager_database.cpp:687
 #, fuzzy, kde-format
 msgid "Copy Current Database"
 msgstr "Đang đọc cơ sở dữ liệu..."
 
-#: core/libs/album/manager/albummanager_database.cpp:590
+#: core/libs/album/manager/albummanager_database.cpp:597
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -24696,7 +24700,7 @@ msgid ""
 "database?</p>"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:625
+#: core/libs/album/manager/albummanager_database.cpp:632
 #, fuzzy, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -24705,7 +24709,7 @@ msgstr ""
 "Lỗi sao chép tệp cơ sở dữ liệu cũ (« %1 ») vào vị trí mới (« %2 »). Hãy kiểm "
 "tra lại tệp này có khả năng được sao chép."
 
-#: core/libs/album/manager/albummanager_database.cpp:640
+#: core/libs/album/manager/albummanager_database.cpp:647
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database."
@@ -24713,7 +24717,7 @@ msgid ""
 "continue using it, or start with a new database?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:672
+#: core/libs/album/manager/albummanager_database.cpp:679
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -24722,19 +24726,19 @@ msgid ""
 "current database to this place?</p> "
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:682
+#: core/libs/album/manager/albummanager_database.cpp:689
 #, fuzzy, kde-format
 msgid "Use Existing File"
 msgstr "Dùng hồ sơ sRGB có sẵn"
 
-#: core/libs/album/manager/albummanager_database.cpp:755
+#: core/libs/album/manager/albummanager_database.cpp:762
 #, kde-format
 msgid ""
 "Failed to backup the existing database file (\"%1\"). Refusing to replace "
 "file without backup, using the existing file."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_database.cpp:773
+#: core/libs/album/manager/albummanager_database.cpp:780
 #, fuzzy, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -31964,64 +31968,64 @@ msgstr "Bộ sửa ảnh"
 msgid "Cancel current operation"
 msgstr "Thông tin máy ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:115
+#: core/libs/dplugins/widgets/ditemslist.cpp:99
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Add new images to the list"
 msgstr "Thêm mục mới vào tập ảnh hiện thời."
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:116
+#: core/libs/dplugins/widgets/ditemslist.cpp:100
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Remove selected images from the list"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:117
+#: core/libs/dplugins/widgets/ditemslist.cpp:101
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Move current selected image up in the list"
 msgstr "Xoá các điều chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:118
+#: core/libs/dplugins/widgets/ditemslist.cpp:102
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Move current selected image down in the list"
 msgstr "Xoá các điều chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:119
+#: core/libs/dplugins/widgets/ditemslist.cpp:103
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Clear the list."
 msgstr "Danh sách máy ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:120
+#: core/libs/dplugins/widgets/ditemslist.cpp:104
 #, fuzzy, kde-format
 #| msgid "%1 items selected"
 msgctxt "@info"
 msgid "Load a saved list."
 msgstr "%1 mục đã chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:121
+#: core/libs/dplugins/widgets/ditemslist.cpp:105
 #, fuzzy, kde-format
 #| msgid "Save Images"
 msgctxt "@info"
 msgid "Save the list."
 msgstr "Lưu ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:574
+#: core/libs/dplugins/widgets/ditemslist.cpp:558
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Select the image file list to load"
 msgstr "Chọn ảnh cần tải lên"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:575
-#: core/libs/dplugins/widgets/ditemslist.cpp:657
+#: core/libs/dplugins/widgets/ditemslist.cpp:559
+#: core/libs/dplugins/widgets/ditemslist.cpp:641
 #, fuzzy, kde-format
 msgctxt "@option"
 msgid "All Files (*)"
 msgstr "Tệp RAW"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:655
+#: core/libs/dplugins/widgets/ditemslist.cpp:639
 #, fuzzy, kde-format
 #| msgid "Selects the date of the oldest image"
 msgctxt "@info"
@@ -43541,13 +43545,13 @@ msgstr "&Tựa:"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:130
 #, fuzzy, kde-format
-msgctxt "#info"
+msgctxt "@info"
 msgid "Enter bookmark title here..."
 msgstr "Hãy nhập vào tên tập ảnh mới:"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:131
 #, kde-format
-msgctxt "#info"
+msgctxt "@info"
 msgid "The bookmark title which must be unique and not empty"
 msgstr ""
 
@@ -44579,7 +44583,7 @@ msgstr "Tên:"
 
 #: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:145
 #, fuzzy, kde-format
-msgctxt "#info"
+msgctxt "@info"
 msgid "Enter favorite name here..."
 msgstr "Hãy nhập vào tên tập ảnh mới:"
 
@@ -44616,8 +44620,35 @@ msgstr "16 bit"
 #: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:208
 #, fuzzy, kde-format
 #| msgid "Name"
+msgctxt "@title"
 msgid "Name"
 msgstr "Tên"
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
+#, fuzzy, kde-format
+#| msgid "Size"
+msgctxt "@title"
+msgid "Size"
+msgstr "Cỡ"
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "Type"
+msgstr "Kiểu :"
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "Date"
+msgstr "Ngày:"
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:212
+#, fuzzy, kde-format
+#| msgid "Path"
+msgctxt "@title"
+msgid "Path"
+msgstr "Đường dẫn"
 
 #: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:214
 #, kde-format
@@ -44629,32 +44660,46 @@ msgid ""
 "first one from the list will be displayed."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:138
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:305
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "%1 image"
+msgid_plural "%1 images"
+msgstr[0] "Ản&h"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:169
 #, fuzzy, kde-format
 #| msgid "File Properties"
 msgctxt "@title"
 msgid "Favorite Properties"
 msgstr "Thuộc tính tệp"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:140
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:171
 #, fuzzy, kde-format
 msgctxt "@info: item title property"
 msgid "Name:"
 msgstr "Tên:"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:143
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:174
 #, fuzzy, kde-format
 msgctxt "@info: item date property"
 msgid "Created:"
 msgstr "Tạo :"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:146
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:177
+#, fuzzy, kde-format
+#| msgid "Search:"
+msgctxt "@info: item hierarchy property"
+msgid "Hierarchy:"
+msgstr "Tìm kiếm:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:180
 #, fuzzy, kde-format
 msgctxt "@info; item count elements property"
 msgid "Items:"
 msgstr "16 bit"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:149
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:183
 #, fuzzy, kde-format
 msgctxt "@info: item caption property"
 msgid "Description:"
@@ -44703,13 +44748,13 @@ msgctxt "@info"
 msgid "Are you sure you want to remove the favorite \"%1\"?"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:424
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:428
 #, kde-format
 msgctxt "@title"
 msgid "My Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:482
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:488
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Unnamed"

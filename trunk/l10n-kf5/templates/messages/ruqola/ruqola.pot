@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-20 00:18+0000\n"
+"POT-Creation-Date: 2021-10-21 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -512,8 +512,8 @@ msgstr ""
 #: core/model/admincustomemojimodel.cpp:46
 #: core/model/admincustomsoundmodel.cpp:46
 #: core/model/adminpermissionsmodel.cpp:46
-#: core/model/adminroomsmodel.cpp:46 core/model/adminusersmodel.cpp:87
-#: core/model/directoryroomsmodel.cpp:130
+#: core/model/adminrolesmodel.cpp:48 core/model/adminroomsmodel.cpp:46
+#: core/model/adminusersmodel.cpp:87 core/model/directoryroomsmodel.cpp:130
 #: core/model/directoryteamsmodel.cpp:104
 #: core/model/directoryusersmodel.cpp:109
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:55
@@ -524,7 +524,8 @@ msgstr ""
 #: core/model/admincustomemojimodel.cpp:48
 #: core/model/admincustomemojimodel.cpp:50
 #: core/model/admincustomsoundmodel.cpp:48
-#: core/model/adminroomsmodel.cpp:54 core/model/directoryroomsmodel.cpp:136
+#: core/model/adminrolesmodel.cpp:46 core/model/adminroomsmodel.cpp:54
+#: core/model/directoryroomsmodel.cpp:136
 #: core/model/directoryteamsmodel.cpp:108
 #, kde-format
 msgid "Identifier"
@@ -566,8 +567,14 @@ msgid "Expired"
 msgstr ""
 
 #: core/model/adminpermissionsmodel.cpp:49
+#: widgets/administratordialog/administratorwidget.cpp:88
 #, kde-format
 msgid "Roles"
+msgstr ""
+
+#: core/model/adminrolesmodel.cpp:50
+#, kde-format
+msgid "Scope"
 msgstr ""
 
 #: core/model/adminroomsmodel.cpp:48
@@ -648,7 +655,7 @@ msgid "Channel Type"
 msgstr ""
 
 #: core/model/directoryteamsmodel.cpp:106
-#: core/model/roommodel.cpp:624 widgets/administratordialog/administratorwidget.cpp:62
+#: core/model/roommodel.cpp:624 widgets/administratordialog/administratorwidget.cpp:64
 #: widgets/directory/directorytabwidget.cpp:32
 #, kde-format
 msgid "Rooms"
@@ -1786,44 +1793,44 @@ msgctxt "@title:window"
 msgid "Administrator"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:59
+#: widgets/administratordialog/administratorwidget.cpp:61
 #: widgets/administratordialog/serverinfo/administratorserverinfowidget.cpp:323
 #, kde-format
 msgid "Server Info"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:65
+#: widgets/administratordialog/administratorwidget.cpp:67
 #, kde-format
 msgid "Custom User Status"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:68
+#: widgets/administratordialog/administratorwidget.cpp:70
 #, kde-format
 msgid "Custom Sounds"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:71
+#: widgets/administratordialog/administratorwidget.cpp:73
 #, kde-format
 msgid "Custom Emojis"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:74
+#: widgets/administratordialog/administratorwidget.cpp:76
 #: widgets/directory/directorytabwidget.cpp:33
 #, kde-format
 msgid "Users"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:77
+#: widgets/administratordialog/administratorwidget.cpp:79
 #, kde-format
 msgid "Invites"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:80
+#: widgets/administratordialog/administratorwidget.cpp:82
 #, kde-format
 msgid "View Log"
 msgstr ""
 
-#: widgets/administratordialog/administratorwidget.cpp:83
+#: widgets/administratordialog/administratorwidget.cpp:85
 #, kde-format
 msgid "Permissions"
 msgstr ""
@@ -1903,6 +1910,7 @@ msgstr ""
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:147
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:145
 #: widgets/administratordialog/permissions/permissionswidget.cpp:130
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:77
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:67
 #: widgets/administratordialog/users/administratoruserswidget.cpp:208
 #: widgets/configuredialog/configureaccountserverwidget.ui:32
@@ -2014,6 +2022,11 @@ msgstr ""
 #: widgets/administratordialog/permissions/permissionswidget.cpp:56
 #, kde-format
 msgid "Search Permissions..."
+msgstr ""
+
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:46
+#, kde-format
+msgid "Search Roles..."
 msgstr ""
 
 #: widgets/administratordialog/rooms/administratorroomsselectroomtypewidget.cpp:29
