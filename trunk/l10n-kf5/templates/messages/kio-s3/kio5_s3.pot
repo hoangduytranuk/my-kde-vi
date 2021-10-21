@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This file is copyright:
-# This file is distributed under the same license as the plasmate package.
+# This file is distributed under the same license as the kio-s3 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: plasmate\n"
+"Project-Id-Version: kio-s3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:20+0200\n"
+"POT-Creation-Date: 2021-10-08 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,14 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. i18n: ectx: Menu (package)
-#: kdevsavesystemview.rc:5
-#, kde-format
-msgctxt "@title:menu"
-msgid "Package"
+#: s3backend.cpp:30
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Invalid S3 URI, bucket name is missing from the host.<nl/>A valid S3 URI "
+"must be written in the form: <link>%1</link>"
 msgstr ""
 
-#: savesystemviewplugin.cpp:64
-#, kde-format
-msgid "Save System"
+#: s3backend.cpp:309
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not copy <link>%1</link> to <link>%2</link>"
 msgstr ""

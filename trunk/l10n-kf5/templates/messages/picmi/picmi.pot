@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: picmi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-12 03:25+0200\n"
+"POT-Creation-Date: 2021-10-09 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -521,9 +521,9 @@ msgctxt "board solved"
 msgid "Solved"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, LevelSelectUi)
-#: src/gui/selectboardwindow.cpp:165 src/gui/selectboardwindow.ui:23
+#: src/gui/selectboardwindow.cpp:165
 #, kde-format
+msgctxt "@title:window"
 msgid "Level Selection"
 msgstr ""
 
@@ -597,6 +597,12 @@ msgstr ""
 #, kde-format
 msgctxt "board not solved yet"
 msgid "Solved: -"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, LevelSelectUi)
+#: src/gui/selectboardwindow.ui:23
+#, kde-format
+msgid "Level Selection"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelAuthor)
@@ -686,13 +692,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, fontColorSolvedLabel)
 #: src/gui/settingswindow.ui:94
 #, kde-format
-msgid "Solved Streaks"
+msgid "Solved streaks:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fontColorUnsolvedLabel)
 #: src/gui/settingswindow.ui:110
 #, kde-format
-msgid "Unsolved Streaks"
+msgid "Unsolved streaks:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, fontColorSolvedPushButton)
@@ -729,7 +735,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/gui/settingswindow.ui:241
 #, kde-format
-msgid "Prevent Mistakes:"
+msgid "Prevent mistakes:"
 msgstr ""
 
 #: src/main.cpp:50

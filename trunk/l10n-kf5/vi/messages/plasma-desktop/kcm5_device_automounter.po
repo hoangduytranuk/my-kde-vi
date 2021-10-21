@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-21 00:18+0000\n"
-"PO-Revision-Date: 2021-09-30 22:31+0200\n"
+"POT-Creation-Date: 2021-10-17 00:18+0000\n"
+"PO-Revision-Date: 2021-10-19 14:43+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -27,72 +27,74 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net"
 
-#: DeviceAutomounterKCM.cpp:36
+#: DeviceAutomounterKCM.cpp:37
 #, kde-format
 msgid "Device Automounter"
 msgstr "Trình gắn kết tự động thiết bị"
 
-#: DeviceAutomounterKCM.cpp:40
+#: DeviceAutomounterKCM.cpp:41
 #, kde-format
 msgid "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
 msgstr "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
 
-#: DeviceAutomounterKCM.cpp:41
+#: DeviceAutomounterKCM.cpp:42
 #, kde-format
 msgid "Trever Fischer"
 msgstr "Trever Fischer"
 
-#: DeviceAutomounterKCM.cpp:41
+#: DeviceAutomounterKCM.cpp:42
 #, kde-format
 msgid "Original Author"
 msgstr "Tác giả gốc"
 
-#: DeviceAutomounterKCM.cpp:42
+#: DeviceAutomounterKCM.cpp:43
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: DeviceAutomounterKCM.cpp:42
+#: DeviceAutomounterKCM.cpp:43
 #, kde-format
 msgid "Plasma 5 Port"
 msgstr "Bản chuyển sang Plasma 5"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountOnLogin)
-#: DeviceAutomounterKCM.ui:19
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:17
 #, kde-format
 msgid ""
-"If any removable storage devices are connected to your system when you login "
-"to your desktop, their contents will automatically be made available to your "
-"system for other programs to read."
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, the device will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\"."
 msgstr ""
-"Nếu có bất kì thiết bị lưu trữ gắn ngoài nào được kết nối với hệ thống khi "
-"bạn đăng nhập vào bàn làm việc, nội dung của chúng sẽ tự động được cung ứng "
-"cho hệ thống để các chương trình khác đọc được."
+"Danh sách này chứa các thiết bị lưu trữ mà hệ thống đã biết. Nếu \"Gắn kết "
+"tự động khi đăng nhập\" được chọn, thiết bị sẽ được tự động gắn kết kể cả "
+"khi \"Gắn kết tất cả phương tiện gắn ngoài khi đăng nhập\" không được chọn. "
+"\"Gắn kết tự động khi kết nối\" cũng như vậy."
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountOnLogin)
-#: DeviceAutomounterKCM.ui:22
-#, kde-format
-msgid "Automatically mount removable medias at login"
-msgstr "Tự động gắn kết các phương tiện gắn ngoài khi đăng nhập"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountOnPlugin)
-#: DeviceAutomounterKCM.ui:29
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:54
 #, kde-format
 msgid ""
-"When this is checked, the contents of any storage device will automatically "
-"be made available to the system when it is plugged in or attached."
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
 msgstr ""
-"Khi ô này được chọn, nội dung của bất kì thiết bị lưu trữ nào cũng sẽ được "
-"tự động cung ứng cho hệ thống khi nó được cắm vào hoặc kết nối."
+"Bấm nút này sẽ khiến các thiết bị được chọn bị 'quên đi'. Việc này chỉ có "
+"ích nếu \"Chỉ tự động gắn kết các phương tiện gắn ngoài mà đã từng được gắn "
+"kết thủ công trước đây\" được chọn. Khi một thiết bị bị quên đi và hệ thống "
+"được đặt là chỉ tự động gắn kết các thiết bị đã biết, thiết bị đó sẽ không "
+"được tự động gắn kết."
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountOnPlugin)
-#: DeviceAutomounterKCM.ui:32
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:57
 #, kde-format
-msgid "Automatically mount removable medias when attached"
-msgstr "Tự động gắn kết các phương tiện gắn ngoài khi kết nối"
+msgid "Forget Device"
+msgstr "Quên thiết bị đi"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountUnknownDevices)
-#: DeviceAutomounterKCM.ui:39
+#: DeviceAutomounterKCM.ui:67
 #, kde-format
 msgid ""
 "When this is not checked, only remembered devices will be automatically "
@@ -110,65 +112,16 @@ msgstr ""
 "thiết bị sẽ tự động được cung ứng cho hệ thống."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountUnknownDevices)
-#: DeviceAutomounterKCM.ui:42
+#: DeviceAutomounterKCM.ui:70
 #, kde-format
 msgid "Automatically mount removable media that have never been mounted before"
 msgstr ""
 "Tự động gắn kết các phương tiện gắn ngoài mà chưa từng được gắn kết trước đây"
 
-#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
-#: DeviceAutomounterKCM.ui:80
-#, kde-format
-msgid "Automatic mount"
-msgstr "Gắn kết tự động"
-
-#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
-#: DeviceAutomounterKCM.ui:88
-#, kde-format
-msgid ""
-"This list contains the storage devices known to the system. If \"Automount "
-"on Login\" is checked, the device will be automatically mounted even though "
-"\"Mount all removable media at login\" is unchecked. The same applies for "
-"\"Automount on Attach\".\n"
-"\n"
-"If \"Enable automatic mounting of removable media\" is unchecked, the "
-"overrides do not apply and no devices will be automatically mounted."
-msgstr ""
-"Danh sách này chứa các thiết bị lưu trữ mà hệ thống đã biết. Nếu \"Gắn kết "
-"tự động khi đăng nhập\" được chọn, thiết bị sẽ được tự động gắn kết kể cả "
-"khi \"Gắn kết tất cả phương tiện gắn ngoài khi đăng nhập\" không được chọn. "
-"\"Gắn kết tự động khi kết nối\" cũng như vậy.\n"
-"\n"
-"Nếu \"Bật tính năng gắn kết tự động các phương tiện gắn ngoài\" không được "
-"chọn, các lựa chọn ở đây sẽ không được áp dụng và không thiết bị nào được tự "
-"động gắn kết."
-
-#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
-#: DeviceAutomounterKCM.ui:130
-#, kde-format
-msgid ""
-"Clicking this button causes the selected devices to be 'forgotten'. This is "
-"only useful if \"Only automatically mount removable media that has been "
-"manually mounted before\" is checked. Once a device is forgotten and the "
-"system is set to only automatically mount familiar devices, the device will "
-"not be automatically mounted."
-msgstr ""
-"Bấm nút này sẽ khiến các thiết bị được chọn bị 'quên đi'. Việc này chỉ có "
-"ích nếu \"Chỉ tự động gắn kết các phương tiện gắn ngoài mà đã từng được gắn "
-"kết thủ công trước đây\" được chọn. Khi một thiết bị bị quên đi và hệ thống "
-"được đặt là chỉ tự động gắn kết các thiết bị đã biết, thiết bị đó sẽ không "
-"được tự động gắn kết."
-
-#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
-#: DeviceAutomounterKCM.ui:133
-#, kde-format
-msgid "Forget Device"
-msgstr "Quên thiết bị đi"
-
 #: DeviceModel.cpp:52
 #, kde-format
-msgid "Device"
-msgstr "Thiết bị"
+msgid "Automount Device"
+msgstr "Tự động gắn kết thiết bị"
 
 #: DeviceModel.cpp:54
 #, kde-format
@@ -182,40 +135,76 @@ msgctxt "As in automount on attach"
 msgid "On Attach"
 msgstr "Khi kết nối"
 
-#: DeviceModel.cpp:268 DeviceModel.cpp:307
+#: DeviceModel.cpp:258
 #, kde-format
-msgid "UDI: %1"
-msgstr "UDI: %1"
+msgid "All Devices"
+msgstr "Tất cả thiết bị"
 
-#: DeviceModel.cpp:278 DeviceModel.cpp:317
+#: DeviceModel.cpp:258
 #, kde-format
-msgid "This device will be automatically mounted at login."
-msgstr "Thiết bị này sẽ tự động được gắn kết khi đăng nhập."
+msgid "All Known Devices"
+msgstr "Tất cả thiết bị đã biết"
 
-#: DeviceModel.cpp:279 DeviceModel.cpp:318
-#, kde-format
-msgid "This device will not be automatically mounted at login."
-msgstr "Thiết bị này sẽ không tự động được gắn kết khi đăng nhập."
-
-#: DeviceModel.cpp:287 DeviceModel.cpp:326
-#, kde-format
-msgid "This device will be automatically mounted when attached."
-msgstr "Thiết bị này sẽ tự động được gắn kết khi kết nối."
-
-#: DeviceModel.cpp:288 DeviceModel.cpp:327
-#, kde-format
-msgid "This device will not be automatically mounted when attached."
-msgstr "Thiết bị này sẽ không tự động được gắn kết khi kết nối."
-
-#: DeviceModel.cpp:334
+#: DeviceModel.cpp:260
 #, kde-format
 msgid "Attached Devices"
 msgstr "Thiết bị đã kết nối"
 
-#: DeviceModel.cpp:336
+#: DeviceModel.cpp:262
 #, kde-format
 msgid "Disconnected Devices"
 msgstr "Thiết bị không kết nối"
+
+#: DeviceModel.cpp:298 DeviceModel.cpp:307
+#, kde-format
+msgid "UDI: %1"
+msgstr "UDI: %1"
+
+#: DeviceModel.cpp:318
+#, kde-format
+msgid "This device will be automatically mounted at login."
+msgstr "Thiết bị này sẽ tự động được gắn kết khi đăng nhập."
+
+#: DeviceModel.cpp:318
+#, kde-format
+msgid "This device will not be automatically mounted at login."
+msgstr "Thiết bị này sẽ không tự động được gắn kết khi đăng nhập."
+
+#: DeviceModel.cpp:326
+#, kde-format
+msgid "This device will be automatically mounted when attached."
+msgstr "Thiết bị này sẽ tự động được gắn kết khi kết nối."
+
+#: DeviceModel.cpp:327
+#, kde-format
+msgid "This device will not be automatically mounted when attached."
+msgstr "Thiết bị này sẽ không tự động được gắn kết khi kết nối."
+
+#~ msgid ""
+#~ "If any removable storage devices are connected to your system when you "
+#~ "login to your desktop, their contents will automatically be made "
+#~ "available to your system for other programs to read."
+#~ msgstr ""
+#~ "Nếu có bất kì thiết bị lưu trữ gắn ngoài nào được kết nối với hệ thống "
+#~ "khi bạn đăng nhập vào bàn làm việc, nội dung của chúng sẽ tự động được "
+#~ "cung ứng cho hệ thống để các chương trình khác đọc được."
+
+#~ msgid "Automatically mount removable medias at login"
+#~ msgstr "Tự động gắn kết các phương tiện gắn ngoài khi đăng nhập"
+
+#~ msgid ""
+#~ "When this is checked, the contents of any storage device will "
+#~ "automatically be made available to the system when it is plugged in or "
+#~ "attached."
+#~ msgstr ""
+#~ "Khi ô này được chọn, nội dung của bất kì thiết bị lưu trữ nào cũng sẽ "
+#~ "được tự động cung ứng cho hệ thống khi nó được cắm vào hoặc kết nối."
+
+#~ msgid "Automatically mount removable medias when attached"
+#~ msgstr "Tự động gắn kết các phương tiện gắn ngoài khi kết nối"
+
+#~ msgid "Automatic mount"
+#~ msgstr "Gắn kết tự động"
 
 #~ msgid ""
 #~ "When this is unchecked, no device automounting of any kind will happen, "

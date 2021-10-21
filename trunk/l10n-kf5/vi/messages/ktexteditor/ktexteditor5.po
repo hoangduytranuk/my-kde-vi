@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:15+0000\n"
+"POT-Creation-Date: 2021-10-17 00:14+0000\n"
 "PO-Revision-Date: 2021-10-06 21:16+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -133,10 +133,8 @@ msgstr "Thu phóng"
 msgid "Word Wrap"
 msgstr "Bọc từ"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
-#: data/katepart5ui.rc:75 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:679
+#: data/katepart5ui.rc:75 dialogs/katedialogs.cpp:679
 #, kde-format
 msgid "Borders"
 msgstr "Viền"
@@ -177,8 +175,15 @@ msgstr "Thiết &lập"
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/bordersappearanceconfigwidget.ui:25
+#, fuzzy, kde-format
+#| msgid "&Code Folding"
+msgid "Code block folding:"
+msgstr "&Gấp lại mã"
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingMarkers)
-#: dialogs/bordersappearanceconfigwidget.ui:23
+#: dialogs/bordersappearanceconfigwidget.ui:32
 #, kde-format
 msgid ""
 "If this option is checked, every new view will display marks for folding."
@@ -186,13 +191,13 @@ msgstr ""
 "Nếu lựa chọn này được chọn, mọi khung xem mới sẽ hiển thị các chỉ dấu để gập."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingMarkers)
-#: dialogs/bordersappearanceconfigwidget.ui:26
+#: dialogs/bordersappearanceconfigwidget.ui:35
 #, kde-format
-msgid "Show &folding markers"
-msgstr "Hiện chỉ dấu &gập"
+msgid "Show arrows to collapse code blocks"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:51
+#: dialogs/bordersappearanceconfigwidget.ui:42
 #, kde-format
 msgid ""
 "If checked, hovering over a folded region shows a preview of the folded text "
@@ -202,13 +207,20 @@ msgstr ""
 "phần văn bản bị gập trong một ô bật lên."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:54
-#, kde-format
-msgid "Show preview of folded code"
+#: dialogs/bordersappearanceconfigwidget.ui:45
+#, fuzzy, kde-format
+#| msgid "Show preview of folded code"
+msgid "Show preview of folded blocks on hover"
 msgstr "Hiện xem thử phần mã bị gập"
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/bordersappearanceconfigwidget.ui:68
+#, kde-format
+msgid "Left side:"
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkIconBorder)
-#: dialogs/bordersappearanceconfigwidget.ui:63
+#: dialogs/bordersappearanceconfigwidget.ui:75
 #, kde-format
 msgid ""
 "<p>If this option is checked, every new view will display an icon border on "
@@ -220,13 +232,16 @@ msgstr ""
 "chẳng hạn.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIconBorder)
-#: dialogs/bordersappearanceconfigwidget.ui:66
-#, kde-format
-msgid "Show &icon border"
-msgstr "Hiện viền &biểu tượng"
+#. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
+#: dialogs/bordersappearanceconfigwidget.ui:78
+#: dialogs/bordersappearanceconfigwidget.ui:131
+#, fuzzy, kde-format
+#| msgid "Show &scrollbar marks"
+msgid "Show marks"
+msgstr "Hiện chỉ dấu thanh &cuộn"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkLineNumbers)
-#: dialogs/bordersappearanceconfigwidget.ui:73
+#: dialogs/bordersappearanceconfigwidget.ui:85
 #, kde-format
 msgid ""
 "If this option is checked, every new view will display line numbers on the "
@@ -236,13 +251,13 @@ msgstr ""
 "trái."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLineNumbers)
-#: dialogs/bordersappearanceconfigwidget.ui:76
+#: dialogs/bordersappearanceconfigwidget.ui:88
 #, kde-format
 msgid "Show &line numbers"
 msgstr "Hiện &số dòng"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowLineModification)
-#: dialogs/bordersappearanceconfigwidget.ui:83
+#: dialogs/bordersappearanceconfigwidget.ui:95
 #, kde-format
 msgid ""
 "If this option is checked, a small indicator for modified and saved lines is "
@@ -252,13 +267,20 @@ msgstr ""
 "lưu sẽ xuất hiện ở bên tay trái."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineModification)
-#: dialogs/bordersappearanceconfigwidget.ui:86
+#: dialogs/bordersappearanceconfigwidget.ui:98
 #, kde-format
-msgid "Show line modification markers"
-msgstr "Hiện chỉ dấu chỉnh sửa dòng"
+msgid "Highlight changed and unsaved lines"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/bordersappearanceconfigwidget.ui:121
+#, fuzzy, kde-format
+#| msgid "Show &scrollbar marks"
+msgid "Scrollbars"
+msgstr "Hiện chỉ dấu thanh &cuộn"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMarks)
-#: dialogs/bordersappearanceconfigwidget.ui:93
+#: dialogs/bordersappearanceconfigwidget.ui:128
 #, kde-format
 msgid ""
 "<p>If this option is checked, every new view will show marks on the vertical "
@@ -267,14 +289,8 @@ msgstr ""
 "<p>Nếu lựa chọn này được chọn, mọi khung xem mới sẽ hiện các chỉ dấu ở trên "
 "thanh cuộn dọc.</p><p>Các chỉ dấu này bao gồm dấu nhớ chẳng hạn.</p>"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
-#: dialogs/bordersappearanceconfigwidget.ui:96
-#, kde-format
-msgid "Show &scrollbar marks"
-msgstr "Hiện chỉ dấu thanh &cuộn"
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:103
+#: dialogs/bordersappearanceconfigwidget.ui:138
 #, kde-format
 msgid ""
 "<p>If this option is checked, hovering over the vertical scrollbar will show "
@@ -284,13 +300,21 @@ msgstr ""
 "phần xem thử của văn bản.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:106
-#, kde-format
-msgid "Show text &preview on scrollbar"
+#: dialogs/bordersappearanceconfigwidget.ui:141
+#, fuzzy, kde-format
+#| msgid "Show text &preview on scrollbar"
+msgid "Show preview when hovering over scrollbar"
 msgstr "Hiện &xem thử văn bản trên thanh cuộn"
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/bordersappearanceconfigwidget.ui:164
+#, fuzzy, kde-format
+#| msgid "Minim&ap width:"
+msgid "Minimap:"
+msgstr "Độ &rộng bản đồ:"
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMap)
-#: dialogs/bordersappearanceconfigwidget.ui:113
+#: dialogs/bordersappearanceconfigwidget.ui:171
 #, kde-format
 msgid ""
 "If this option is checked, every new view will show a mini map on the "
@@ -300,13 +324,14 @@ msgstr ""
 "trên thanh cuộn dọc."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMap)
-#: dialogs/bordersappearanceconfigwidget.ui:116
-#, kde-format
-msgid "Show scrollbar mini-map"
+#: dialogs/bordersappearanceconfigwidget.ui:174
+#, fuzzy, kde-format
+#| msgid "Show scrollbar mini-map"
+msgid "Show minimap"
 msgstr "Hiện bản đồ nhỏ trên thanh cuộn"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMapAll)
-#: dialogs/bordersappearanceconfigwidget.ui:132
+#: dialogs/bordersappearanceconfigwidget.ui:184
 #, kde-format
 msgid ""
 "If this option is checked, every new view will show a mini map of the whole "
@@ -316,56 +341,43 @@ msgstr ""
 "toàn bộ văn bản trên thanh cuộn dọc."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMapAll)
-#: dialogs/bordersappearanceconfigwidget.ui:135
+#: dialogs/bordersappearanceconfigwidget.ui:187
 #, kde-format
 msgid "Map the whole document"
 msgstr "Lập bản đồ toàn bộ văn bản"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMiniMapWidth)
-#: dialogs/bordersappearanceconfigwidget.ui:145
+#: dialogs/bordersappearanceconfigwidget.ui:213
 #, kde-format
 msgid "Minim&ap width:"
 msgstr "Độ &rộng bản đồ:"
 
-#. i18n: ectx: property (text), widget (QLabel, lblShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:205
-#, kde-format
-msgid "Scro&llbars visibility:"
-msgstr "Hiển thị thanh c&uộn:"
-
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:683
+#: dialogs/bordersappearanceconfigwidget.ui:224 dialogs/katedialogs.cpp:683
 #, kde-format
 msgid "Always On"
 msgstr "Luôn hiện"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:221
+#: dialogs/bordersappearanceconfigwidget.ui:229
 #, kde-format
 msgid "Show When Needed"
 msgstr "Hiện khi cần"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:226
+#: dialogs/bordersappearanceconfigwidget.ui:234
 #, kde-format
 msgid "Always Off"
 msgstr "Luôn ẩn"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, gbSortBookmarks)
-#: dialogs/bordersappearanceconfigwidget.ui:246
+#. i18n: ectx: property (text), widget (QLabel, lblShowScrollbars)
+#: dialogs/bordersappearanceconfigwidget.ui:242
 #, kde-format
-msgid ""
-"Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
-msgstr "Chọn cách các dấu nhớ được sắp xếp trong trình đơn <b>Dấu nhớ</b>."
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbSortBookmarks)
-#: dialogs/bordersappearanceconfigwidget.ui:249
-#, kde-format
-msgid "Sort Bookmarks Menu"
-msgstr "Sắp xếp trình đơn \"Dấu nhớ\""
+msgid "Scro&llbars visibility:"
+msgstr "Hiển thị thanh c&uộn:"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByCreation)
-#: dialogs/bordersappearanceconfigwidget.ui:255
+#: dialogs/bordersappearanceconfigwidget.ui:252
 #, kde-format
 msgid ""
 "Each new bookmark will be added to the bottom, independently from where it "
@@ -375,22 +387,30 @@ msgstr ""
 "bản."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByCreation)
-#: dialogs/bordersappearanceconfigwidget.ui:258
+#: dialogs/bordersappearanceconfigwidget.ui:255
 #, kde-format
-msgid "B&y creation"
-msgstr "Th&eo thứ tự tạo"
+msgid "By date created"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByPosition)
-#: dialogs/bordersappearanceconfigwidget.ui:265
+#: dialogs/bordersappearanceconfigwidget.ui:262
 #, kde-format
 msgid "The bookmarks will be ordered by the line numbers they are placed at."
 msgstr "Các dấu nhớ sẽ được sắp xếp theo số dòng tại đó chúng được đặt."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByPosition)
-#: dialogs/bordersappearanceconfigwidget.ui:268
-#, kde-format
-msgid "By posi&tion"
-msgstr "Theo &vị trí"
+#: dialogs/bordersappearanceconfigwidget.ui:265
+#, fuzzy, kde-format
+#| msgid "Show &line numbers"
+msgid "By line number"
+msgstr "Hiện &số dòng"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/bordersappearanceconfigwidget.ui:272
+#, fuzzy, kde-format
+#| msgid "Sort Bookmarks Menu"
+msgid "Sort bookmarks menu:"
+msgstr "Sắp xếp trình đơn \"Dấu nhớ\""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
@@ -457,7 +477,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/editconfigwidget.ui:22
 #, kde-format
-#| msgid "Word Wrap"
 msgid "Word wrap:"
 msgstr "Bọc từ:"
 
@@ -886,8 +905,8 @@ msgstr ""
 "</style></head><body>\n"
 "<p>Hành động của phím Tab (nếu đang không chọn gì) <a href=\"Nếu bạn muốn "
 "phím <b>Tab</b> căn lề cho dòng hiện tại trong khối mã hiện tại như trong "
-"Emacs, hãy đặt <b>Tab</b> làm phím tắt cho hành động <b>Căn lề</b>.\"><span>"
-"Thêm ...</span></a></p></body></html>"
+"Emacs, hãy đặt <b>Tab</b> làm phím tắt cho hành động <b>Căn lề</b>."
+"\"><span>Thêm ...</span></a></p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbTabAdvances)
 #: dialogs/indentationconfigwidget.ui:225
@@ -974,7 +993,6 @@ msgstr "Cấu hình"
 
 #: dialogs/katedialogs.cpp:520
 #, kde-format
-#| msgid "Character"
 msgctxt "Wrap words at (value is at 20 or larger)"
 msgid " character"
 msgid_plural " characters"
@@ -1795,14 +1813,12 @@ msgstr "&Kết thúc dòng"
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAtStaticMarker)
 #: dialogs/textareaappearanceconfigwidget.ui:299
 #, kde-format
-#| msgid "Wrap dynamic at static word wrap marker"
 msgid "Wrap dynamically at static word wrap marker"
 msgstr "Bọc động ở chỉ dấu bọc từ tĩnh"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbxWordWrap)
 #: dialogs/textareaappearanceconfigwidget.ui:306
 #, kde-format
-#| msgid "&Dynamic Word Wrap"
 msgid "Dynamic Word Wrap:"
 msgstr "Bọc từ động:"
 
@@ -1837,12 +1853,12 @@ msgid ""
 "have vertical alignment applied to subsequent wrapped lines.</p>"
 msgstr ""
 "<p>Cho phép phần đầu các dòng bọc động được căn lề dọc với mức thụt lề của "
-"dòng đầu tiên. Việc này có thể giúp cho mã và văn bản đánh dấu dễ đọc hơn."
-"</p><p>Thêm nữa, việc này cho phép bạn đặt một độ rộng tối đa của màn hình, "
+"dòng đầu tiên. Việc này có thể giúp cho mã và văn bản đánh dấu dễ đọc hơn.</"
+"p><p>Thêm nữa, việc này cho phép bạn đặt một độ rộng tối đa của màn hình, "
 "bằng một giá trị phần trăm, mà sau đó các dòng bọc động sẽ không còn được "
 "căn lề dọc nữa. Ví dụ, ở 50%, với các dòng mà mức thụt lề sâu hơn 50% chiều "
-"rộng màn hình thì các dòng bọc sau đó sẽ không được áp dụng căn lề dọc nữa.<"
-"/p>"
+"rộng màn hình thì các dòng bọc sau đó sẽ không được áp dụng căn lề dọc nữa.</"
+"p>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbDynamicWordWrapDepth)
 #: dialogs/textareaappearanceconfigwidget.ui:346
@@ -1859,7 +1875,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: dialogs/textareaappearanceconfigwidget.ui:372
 #, kde-format
-#| msgid "Indentation"
 msgid "Indent wrapped lines:"
 msgstr "Thụt lề các dòng được bọc:"
 
@@ -3253,7 +3268,7 @@ msgstr "Lỗi: %1"
 msgid "Error loading script %1"
 msgstr ""
 
-#: script/katescriptmanager.cpp:307
+#: script/katescriptmanager.cpp:315
 #, kde-format
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr ""
@@ -7751,6 +7766,25 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "Kiểu dấu %1"
+
+#~ msgid "Show &folding markers"
+#~ msgstr "Hiện chỉ dấu &gập"
+
+#~ msgid "Show &icon border"
+#~ msgstr "Hiện viền &biểu tượng"
+
+#~ msgid "Show line modification markers"
+#~ msgstr "Hiện chỉ dấu chỉnh sửa dòng"
+
+#~ msgid ""
+#~ "Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
+#~ msgstr "Chọn cách các dấu nhớ được sắp xếp trong trình đơn <b>Dấu nhớ</b>."
+
+#~ msgid "B&y creation"
+#~ msgstr "Th&eo thứ tự tạo"
+
+#~ msgid "By posi&tion"
+#~ msgstr "Theo &vị trí"
 
 #, fuzzy
 #~| msgid "Backspace"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:19+0000\n"
+"POT-Creation-Date: 2021-10-20 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -202,7 +202,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: discover/qml/AddSourceDialog.qml:67 discover/qml/DiscoverWindow.qml:233
+#: discover/qml/AddSourceDialog.qml:67 discover/qml/DiscoverWindow.qml:244
 #: discover/qml/InstallApplicationButton.qml:54
 #: discover/qml/ProgressView.qml:104 discover/qml/SourcesPage.qml:134
 #: discover/qml/UpdatesPage.qml:153
@@ -367,12 +367,41 @@ msgstr ""
 msgid "Release Date"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:143
+#: discover/qml/ApplicationsListPage.qml:147
 #, kde-format
 msgid "Nothing found"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:158
+#: discover/qml/ApplicationsListPage.qml:159
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "\"%1\" was not found in the available sources"
+msgstr ""
+
+#: discover/qml/ApplicationsListPage.qml:160
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid ""
+"\"%1\" may be available on the web. Software acquired from the web has not "
+"been reviewed by your distributor for functionality or stability. Use with "
+"caution."
+msgstr ""
+
+#: discover/qml/ApplicationsListPage.qml:162
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Search the web for \"%1\""
+msgstr ""
+
+#: discover/qml/ApplicationsListPage.qml:166
+#, kde-format
+msgctxt ""
+"If appropriate, localize this URL to be something more relevant to the "
+"language. %1 is the text that will be searched for."
+msgid "https://duckduckgo.com/?q=%1"
+msgstr ""
+
+#: discover/qml/ApplicationsListPage.qml:184
 #, kde-format
 msgid "Still looking…"
 msgstr ""
@@ -382,109 +411,109 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:43 discover/qml/LoadingPage.qml:7
+#: discover/qml/BrowsingPage.qml:39 discover/qml/LoadingPage.qml:8
 #, kde-format
 msgid "Loading…"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:60
+#: discover/qml/BrowsingPage.qml:56
 #, kde-format
 msgid "Unable to load applications"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:61
+#: discover/qml/BrowsingPage.qml:57
 #, kde-format
 msgid "Please verify Internet connectivity"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:82
+#: discover/qml/BrowsingPage.qml:78
 #, kde-format
 msgid "Updates are available"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:86
+#: discover/qml/BrowsingPage.qml:82
 #, kde-format
 msgctxt "Short for 'show updates'"
 msgid "Show"
 msgstr ""
 
-#: discover/qml/DiscoverDrawer.qml:71
+#: discover/qml/DiscoverDrawer.qml:72
 #, kde-format
 msgid "Return to the Featured page"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:39
+#: discover/qml/DiscoverWindow.qml:40
 #, kde-format
 msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:51
+#: discover/qml/DiscoverWindow.qml:52
 #, kde-format
 msgid "&Home"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:62
+#: discover/qml/DiscoverWindow.qml:63
 #, kde-format
 msgid "&Search"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:70
+#: discover/qml/DiscoverWindow.qml:71
 #, kde-format
 msgid "&Installed"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:77
+#: discover/qml/DiscoverWindow.qml:78
 #, kde-format
 msgid "Fetching &updates…"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:77
+#: discover/qml/DiscoverWindow.qml:78
 #, kde-format
 msgid "&Up to date"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:77
+#: discover/qml/DiscoverWindow.qml:78
 #, kde-format
 msgctxt "Update section name"
 msgid "&Update (%1)"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:84
+#: discover/qml/DiscoverWindow.qml:85
 #, kde-format
 msgid "&About"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:92
+#: discover/qml/DiscoverWindow.qml:93
 #, kde-format
 msgid "S&ettings"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:142
+#: discover/qml/DiscoverWindow.qml:143
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:146
+#: discover/qml/DiscoverWindow.qml:147
 #, kde-format
 msgid "Could not close Discover, there are tasks that need to be done."
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:146
+#: discover/qml/DiscoverWindow.qml:147
 #, kde-format
 msgid "Quit Anyway"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:149
+#: discover/qml/DiscoverWindow.qml:150
 #, kde-format
 msgid "Unable to find resource: %1"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:181 discover/qml/UpdatesPage.qml:57
+#: discover/qml/DiscoverWindow.qml:192 discover/qml/UpdatesPage.qml:57
 #, kde-format
 msgid "Report this issue"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:220 discover/qml/SourcesPage.qml:124
+#: discover/qml/DiscoverWindow.qml:231 discover/qml/SourcesPage.qml:124
 #, kde-format
 msgid "Proceed"
 msgstr ""
@@ -545,7 +574,7 @@ msgid "Loading…"
 msgstr ""
 
 #: discover/qml/InstallApplicationButton.qml:32
-#: discover/qml/InstallApplicationButton.qml:126
+#: discover/qml/InstallApplicationButton.qml:131
 #, kde-format
 msgctxt "Install the version of an app that comes from Snap, Flatpak, etc"
 msgid "Install from %1"
@@ -853,13 +882,7 @@ msgstr ""
 #: discover/qml/UpdatesPage.qml:383
 #, kde-format
 msgctxt "@info"
-msgid "The updates will be installed the next time the system is restarted"
-msgstr ""
-
-#: discover/qml/UpdatesPage.qml:383
-#, kde-format
-msgctxt "@info"
-msgid "The system must be restarted to fully apply the installed updates"
+msgid "Restart the system to complete the update process"
 msgstr ""
 
 #: discover/qml/UpdatesPage.qml:389 discover/qml/UpdatesPage.qml:395

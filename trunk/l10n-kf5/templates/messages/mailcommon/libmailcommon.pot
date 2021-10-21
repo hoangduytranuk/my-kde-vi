@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mailcommon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-28 00:18+0000\n"
+"POT-Creation-Date: 2021-10-18 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -287,7 +287,7 @@ msgid "The following folders can be used for this filter:"
 msgstr ""
 
 #: filter/dialog/filteractionmissingfolderdialog.cpp:64
-#: folder/folderrequester.cpp:126 folder/folderrequester.cpp:144
+#: folder/folderrequester.cpp:123 folder/folderrequester.cpp:141
 #, kde-format
 msgid "Please select a folder"
 msgstr ""
@@ -893,57 +893,57 @@ msgstr ""
 msgid "Procmail filter %1"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:115
+#: filter/filterimporterexporter.cpp:113
 #, kde-format
 msgid ""
 "The following filters have not been saved because they were invalid (e.g. "
 "containing no actions or no search rules)."
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:144
+#: filter/filterimporterexporter.cpp:139
 #, kde-format
 msgid "Import KMail Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:152
+#: filter/filterimporterexporter.cpp:147
 #, kde-format
 msgid "Import Evolution Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:156
+#: filter/filterimporterexporter.cpp:151
 #, kde-format
 msgid "Import Sylpheed Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:160
+#: filter/filterimporterexporter.cpp:155
 #, kde-format
 msgid "Import Procmail Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:164
+#: filter/filterimporterexporter.cpp:159
 #, kde-format
 msgid "Import Balsa Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:168
+#: filter/filterimporterexporter.cpp:163
 #, kde-format
 msgid "Import Claws Mail Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:172
+#: filter/filterimporterexporter.cpp:167
 #, kde-format
 msgid "Import Gmail Filters"
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:186 filter/filterimporterexporter.cpp:222
-#: filter/filterimporterexporter.cpp:242
+#: filter/filterimporterexporter.cpp:181 filter/filterimporterexporter.cpp:217
+#: filter/filterimporterexporter.cpp:237
 #, kde-format
 msgid ""
 "The selected file is not readable. Your file access permissions might be "
 "insufficient."
 msgstr ""
 
-#: filter/filterimporterexporter.cpp:322
+#: filter/filterimporterexporter.cpp:317
 #, kde-format
 msgid "Export Filters"
 msgstr ""
@@ -955,7 +955,7 @@ msgid "Select Filters"
 msgstr ""
 
 #: filter/filterselectiondialog.cpp:38 filter/kmfilterlistbox.cpp:115
-#: folder/foldertreewidget.cpp:84
+#: folder/foldertreewidget.cpp:85
 #, kde-format
 msgctxt "@info Displayed grayed-out inside the textbox, verb to search"
 msgid "Search"
@@ -1590,39 +1590,39 @@ msgstr ""
 msgid "Select Folder"
 msgstr ""
 
-#: folder/folderrequester.cpp:116
+#: folder/folderrequester.cpp:113
 #, kde-format
 msgid "Local Folders"
 msgstr ""
 
-#: folder/folderselectiondialog.cpp:65 folder/folderselectiondialog.cpp:128
+#: folder/folderselectiondialog.cpp:64 folder/folderselectiondialog.cpp:126
 #, kde-format
 msgid "&New Subfolder..."
 msgstr ""
 
-#: folder/folderselectiondialog.cpp:65
+#: folder/folderselectiondialog.cpp:64
 #, kde-format
 msgid "Create a new subfolder under the currently selected folder"
 msgstr ""
 
-#: folder/folderselectiondialog.cpp:181
+#: folder/folderselectiondialog.cpp:179
 #, kde-format
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr ""
 
-#: folder/folderselectiondialog.cpp:181
+#: folder/folderselectiondialog.cpp:179
 #, kde-format
 msgctxt "@label:textbox, name of a thing"
 msgid "Name"
 msgstr ""
 
-#: folder/folderselectiondialog.cpp:198
+#: folder/folderselectiondialog.cpp:196
 #, kde-format
 msgid "Could not create folder: %1"
 msgstr ""
 
-#: folder/folderselectiondialog.cpp:198
+#: folder/folderselectiondialog.cpp:196
 #, kde-format
 msgid "Folder creation failed"
 msgstr ""
@@ -1692,7 +1692,7 @@ msgstr ""
 msgid "Do Not Go To"
 msgstr ""
 
-#: folder/foldertreewidget.cpp:78 folder/foldertreewidget.cpp:313
+#: folder/foldertreewidget.cpp:79 folder/foldertreewidget.cpp:313
 #, kde-format
 msgid "You can start typing to filter the list of folders."
 msgstr ""
@@ -1702,12 +1702,12 @@ msgstr ""
 msgid "Path: (%1)"
 msgstr ""
 
-#: folder/foldertreewidgetproxymodel.cpp:237
+#: folder/foldertreewidgetproxymodel.cpp:233
 #, kde-format
 msgid "%1 (Offline)"
 msgstr ""
 
-#: folder/foldertreewidgetproxymodel.cpp:241
+#: folder/foldertreewidgetproxymodel.cpp:237
 #, kde-format
 msgid "%1 (Reached %2% quota)"
 msgstr ""
@@ -1918,23 +1918,23 @@ msgid ""
 "or normal response."
 msgstr ""
 
-#: search/searchpattern.cpp:246
+#: search/searchpattern.cpp:244
 #, kde-format
 msgctxt "name used for a virgin filter"
 msgid "unknown"
 msgstr ""
 
-#: search/searchpattern.cpp:254
+#: search/searchpattern.cpp:252
 #, kde-format
 msgid "(match any of the following)"
 msgstr ""
 
-#: search/searchpattern.cpp:257
+#: search/searchpattern.cpp:255
 #, kde-format
 msgid "(match all of the following)"
 msgstr ""
 
-#: search/searchpattern.cpp:260
+#: search/searchpattern.cpp:258
 #, kde-format
 msgid "(match all messages)"
 msgstr ""
@@ -2739,7 +2739,7 @@ msgctxt "@title:window"
 msgid "Add Tag"
 msgstr ""
 
-#: tag/addtagdialog.cpp:81
+#: tag/addtagdialog.cpp:78
 #, kde-format
 msgid "Tag %1 already exists"
 msgstr ""
@@ -2790,27 +2790,27 @@ msgstr ""
 msgid "Enable &toolbar button"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:87
+#: widgets/favoritecollectionwidget.cpp:84
 #, kde-format
 msgid "Icon size"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:106
+#: widgets/favoritecollectionwidget.cpp:103
 #, kde-format
 msgid "Mode"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:110
+#: widgets/favoritecollectionwidget.cpp:107
 #, kde-format
 msgid "List Mode"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:120
+#: widgets/favoritecollectionwidget.cpp:117
 #, kde-format
 msgid "Icon Mode"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:231
+#: widgets/favoritecollectionwidget.cpp:228
 #, kde-format
 msgid "Drop your favorite folders here..."
 msgstr ""
@@ -2861,12 +2861,12 @@ msgstr ""
 msgid "Send &Later"
 msgstr ""
 
-#: widgets/redirectdialog.cpp:207
+#: widgets/redirectdialog.cpp:204
 #, kde-format
 msgid "You cannot redirect the message without an address."
 msgstr ""
 
-#: widgets/redirectdialog.cpp:207
+#: widgets/redirectdialog.cpp:204
 #, kde-format
 msgid "Empty Redirection Address"
 msgstr ""

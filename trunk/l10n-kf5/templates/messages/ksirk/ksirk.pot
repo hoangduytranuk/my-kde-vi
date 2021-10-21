@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksirk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 16:07+0000\n"
+"POT-Creation-Date: 2021-10-17 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1120,6 +1120,7 @@ msgstr ""
 
 #: Dialogs/InvasionSlider.cpp:139
 #, kde-format
+msgctxt "@title:window"
 msgid "Invasion"
 msgstr ""
 
@@ -1137,6 +1138,7 @@ msgstr ""
 
 #: Dialogs/InvasionSlider.cpp:145
 #, kde-format
+msgctxt "@title:window"
 msgid "Moving"
 msgstr ""
 
@@ -1261,7 +1263,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, loadsavedgamebutton)
 #: Dialogs/jabbergameui.ui:265
 #, kde-format
-msgid "Load a Saved Game"
+msgid "Load a Saved Game..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
@@ -1326,7 +1328,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, NewGameDialog)
 #: Dialogs/newGameDialog.ui:16
 #, kde-format
-msgid "Ksirk - New game properties"
+msgid "KsirK - New game properties"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -1381,13 +1383,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, ghnsbutton)
 #: Dialogs/newGameDialog.ui:126
 #, kde-format
-msgid "Download New Skins"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, skinDescLabel)
-#: Dialogs/newGameDialog.ui:135
-#, kde-format
-msgid "skinDescLabel"
+msgid "Download New Skins..."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, goalGroup)
@@ -1814,9 +1810,12 @@ msgstr ""
 msgid "Problem : no one destroyed"
 msgstr ""
 
-#: GameLogic/gameautomaton.cpp:2368
+#: GameLogic/gameautomaton.cpp:2368 gestionSprites.cpp:927
+#: gestionSprites.cpp:947 gestionSprites.cpp:1048 gestionSprites.cpp:1085
+#: gestionSprites.cpp:1120 gestionSprites.cpp:1174 gestionSprites.cpp:1211
+#: gestionSprites.cpp:1245
 #, kde-format
-msgid "Ksirk - Error!"
+msgid "KsirK - Error!"
 msgstr ""
 
 #: GameLogic/gameautomaton.cpp:2417
@@ -1987,13 +1986,6 @@ msgstr ""
 msgid ""
 "Sound crash not found - Verify your installation\n"
 "Program cannot continue"
-msgstr ""
-
-#: gestionSprites.cpp:927 gestionSprites.cpp:947 gestionSprites.cpp:1048
-#: gestionSprites.cpp:1085 gestionSprites.cpp:1120 gestionSprites.cpp:1174
-#: gestionSprites.cpp:1211 gestionSprites.cpp:1245
-#, kde-format
-msgid "KsirK - Error!"
 msgstr ""
 
 #: gestionSprites.cpp:1289
@@ -2897,6 +2889,7 @@ msgstr ""
 
 #: kgamewin.cpp:1091
 #, kde-format
+msgctxt "@title:window"
 msgid "KsirK - Load Game"
 msgstr ""
 
@@ -3071,6 +3064,7 @@ msgstr ""
 
 #: kgamewinslots.cpp:454
 #, kde-format
+msgctxt "@title:window"
 msgid "KsirK - Save Game"
 msgstr ""
 
@@ -3319,7 +3313,7 @@ msgstr ""
 
 #: main.cpp:50
 #, kde-format
-msgid "Gael de Chalendar aka Kleag"
+msgid "Gaël de Chalendar aka Kleag"
 msgstr ""
 
 #: main.cpp:51
@@ -3361,22 +3355,10 @@ msgid ""
 "&nbsp;Nicolas Linard<br/>&nbsp;&nbsp;Vincent Sac"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lImage1)
-#: mainMenu.ui:31
-#, kde-format
-msgid "LeftImg"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, lTitle)
 #: mainMenu.ui:38
 #, kde-format
 msgid "<h1>KsirK</h1>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lImage2)
-#: mainMenu.ui:45
-#, kde-format
-msgid "RightImg"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pbNewGame)
@@ -3400,7 +3382,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbLoad)
 #: mainMenu.ui:125
 #, kde-format
-msgid "Load"
+msgid "Load..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pbQuit)
@@ -3424,7 +3406,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: preferences.ui:51
 #, kde-format
-msgid "Sprites speed (slow, normal, rapid, immediate)"
+msgid "Sprites speed (slow, normal, rapid, immediate):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_helpEnabled)

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-03 00:18+0000\n"
-"PO-Revision-Date: 2021-09-03 14:48+0200\n"
+"POT-Creation-Date: 2021-10-12 00:18+0000\n"
+"PO-Revision-Date: 2021-10-19 14:46+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -27,2131 +27,1297 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net"
 
-#: kcm_pci.cpp:25
+#: main.cpp:23
 #, kde-format
-msgid "kcm_pci"
-msgstr "kcm_pci"
+msgctxt "@label kcm name"
+msgid "PCI"
+msgstr "PCI"
 
-#: kcm_pci.cpp:26
+#: main.cpp:24
 #, kde-format
-msgid "PCI Devices"
-msgstr "Thiết bị PCI"
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
 
-#: kcm_pci.cpp:30
-#, kde-format
-msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
-msgstr "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+#: package/contents/main.qml:14
+msgctxt "@info:whatsthis"
+msgid "PCI Information"
+msgstr "Thông tin về PCI"
 
-#: kcm_pci.cpp:33
-#, kde-format
-msgid "Nicolas Ternisien"
-msgstr "Nicolas Ternisien"
+#~ msgid "kcm_pci"
+#~ msgstr "kcm_pci"
 
-#: kcm_pci.cpp:34
-#, kde-format
-msgid "Helge Deller"
-msgstr "Helge Deller"
+#~ msgid "PCI Devices"
+#~ msgstr "Thiết bị PCI"
 
-#: kcm_pci.cpp:46
-#, kde-format
-msgid "This list displays PCI information."
-msgstr "Danh sách này hiển thị thông tin PCI."
+#~ msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+#~ msgstr "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
 
-#: kcm_pci.cpp:66
-#, kde-format
-msgid ""
-"This display shows information about your computer's PCI slots and the "
-"related connected devices."
-msgstr ""
-"Bộ hiển thị này hiện thông tin về các khe cắm PCI trong máy tính của bạn và "
-"các thiết bị được kết nối liên quan."
-
-#: kpci.cpp:71
-#, kde-format
-msgid "Device Class"
-msgstr "Lớp thiết bị"
+#~ msgid "Nicolas Ternisien"
+#~ msgstr "Nicolas Ternisien"
 
-#: kpci.cpp:73
-#, kde-format
-msgid "Device Subclass"
-msgstr "Lớp con thiết bị"
+#~ msgid "Helge Deller"
+#~ msgstr "Helge Deller"
 
-#: kpci.cpp:76
-#, kde-format
-msgid "Device Programming Interface"
-msgstr "Giao diện lập trình thiết bị"
+#~ msgid "This list displays PCI information."
+#~ msgstr "Danh sách này hiển thị thông tin PCI."
 
-#: kpci.cpp:81
-#, kde-format
-msgid "Master IDE Device"
-msgstr "Thiết bị IDE chính"
+#~ msgid ""
+#~ "This display shows information about your computer's PCI slots and the "
+#~ "related connected devices."
+#~ msgstr ""
+#~ "Bộ hiển thị này hiện thông tin về các khe cắm PCI trong máy tính của bạn "
+#~ "và các thiết bị được kết nối liên quan."
 
-#: kpci.cpp:84
-#, kde-format
-msgid "Secondary programmable indicator"
-msgstr "Trình chỉ thị lập trình được phụ"
+#~ msgid "Device Class"
+#~ msgstr "Lớp thiết bị"
 
-#: kpci.cpp:87
-#, kde-format
-msgid "Secondary operating mode"
-msgstr "Chế độ vận hành phụ"
+#~ msgid "Device Subclass"
+#~ msgstr "Lớp con thiết bị"
 
-#: kpci.cpp:90
-#, kde-format
-msgid "Primary programmable indicator"
-msgstr "Trình chỉ thị lập trình được chính"
+#~ msgid "Device Programming Interface"
+#~ msgstr "Giao diện lập trình thiết bị"
 
-#: kpci.cpp:93
-#, kde-format
-msgid "Primary operating mode"
-msgstr "Chế độ vận hành chính"
+#~ msgid "Master IDE Device"
+#~ msgstr "Thiết bị IDE chính"
 
-#: kpci.cpp:123 kpci.cpp:163
-#, kde-format
-msgid "Vendor"
-msgstr "Nhà cung cấp"
+#~ msgid "Secondary programmable indicator"
+#~ msgstr "Trình chỉ thị lập trình được phụ"
 
-#: kpci.cpp:131 kpci.cpp:165
-#, kde-format
-msgid "Device"
-msgstr "Thiết bị"
+#~ msgid "Secondary operating mode"
+#~ msgstr "Chế độ vận hành phụ"
 
-#: kpci.cpp:155 kpci.cpp:176 kpci.cpp:180 kpci.cpp:184
-#, kde-format
-msgid "Subsystem"
-msgstr "Hệ thống con"
+#~ msgid "Primary programmable indicator"
+#~ msgstr "Trình chỉ thị lập trình được chính"
 
-#: kpci.cpp:177
-#, kde-format
-msgid " - device:"
-msgstr " - thiết bị:"
+#~ msgid "Primary operating mode"
+#~ msgstr "Chế độ vận hành chính"
 
-#: kpci.cpp:195 kpci.cpp:229
-#, kde-format
-msgid "Interrupt"
-msgstr "Ngắt"
+#~ msgid "Vendor"
+#~ msgstr "Nhà cung cấp"
 
-#: kpci.cpp:196
-#, kde-format
-msgid "IRQ"
-msgstr "IRQ"
+#~ msgid "Device"
+#~ msgstr "Thiết bị"
 
-#: kpci.cpp:197
-#, kde-format
-msgid "Pin"
-msgstr "Chân"
+#~ msgid "Subsystem"
+#~ msgstr "Hệ thống con"
 
-#: kpci.cpp:205
-#, kde-format
-msgid "Control"
-msgstr "Điều khiển"
+#~ msgid " - device:"
+#~ msgstr " - thiết bị:"
 
-#: kpci.cpp:207
-#, kde-format
-msgid "Response in I/O space"
-msgstr "Response in I/O space"
+#~ msgid "Interrupt"
+#~ msgstr "Ngắt"
 
-#: kpci.cpp:209
-#, kde-format
-msgid "Response in memory space"
-msgstr "Response in memory space"
+#~ msgid "IRQ"
+#~ msgstr "IRQ"
 
-#: kpci.cpp:211
-#, kde-format
-msgid "Bus mastering"
-msgstr "Bus mastering"
+#~ msgid "Pin"
+#~ msgstr "Chân"
 
-#: kpci.cpp:213
-#, kde-format
-msgid "Response to special cycles"
-msgstr "Response to special cycles"
+#~ msgid "Control"
+#~ msgstr "Điều khiển"
 
-#: kpci.cpp:216
-#, kde-format
-msgid "Memory write and invalidate"
-msgstr "Memory write and invalidate"
+#~ msgid "Response in I/O space"
+#~ msgstr "Response in I/O space"
 
-#: kpci.cpp:219
-#, kde-format
-msgid "Palette snooping"
-msgstr "Palette snooping"
+#~ msgid "Response in memory space"
+#~ msgstr "Response in memory space"
 
-#: kpci.cpp:221
-#, kde-format
-msgid "Parity checking"
-msgstr "Kiểm tra chẵn lẻ"
+#~ msgid "Bus mastering"
+#~ msgstr "Bus mastering"
 
-#: kpci.cpp:223
-#, kde-format
-msgid "Address/data stepping"
-msgstr "Chia bước địa chỉ / dữ liệu"
+#~ msgid "Response to special cycles"
+#~ msgstr "Response to special cycles"
 
-#: kpci.cpp:224
-#, kde-format
-msgid "System error"
-msgstr "Lỗi hệ thống"
+#~ msgid "Memory write and invalidate"
+#~ msgstr "Memory write and invalidate"
 
-#: kpci.cpp:226
-#, kde-format
-msgid "Back-to-back writes"
-msgstr "Back-to-back writes"
+#~ msgid "Palette snooping"
+#~ msgstr "Palette snooping"
 
-#: kpci.cpp:237 kpci.cpp:627 kpci.cpp:761 kpci.cpp:794
-#, kde-format
-msgid "Status"
-msgstr "Trạng thái"
+#~ msgid "Parity checking"
+#~ msgstr "Kiểm tra chẵn lẻ"
 
-#: kpci.cpp:239 kpci.cpp:440 kpci.cpp:478
-#, kde-format
-msgid "Interrupt status"
-msgstr "Trạng thái ngắt"
+#~ msgid "Address/data stepping"
+#~ msgstr "Chia bước địa chỉ / dữ liệu"
 
-#: kpci.cpp:240 kpci.cpp:443 kpci.cpp:481
-#, kde-format
-msgid "Capability list"
-msgstr "Danh sách khả năng"
+#~ msgid "System error"
+#~ msgstr "Lỗi hệ thống"
 
-#: kpci.cpp:241 kpci.cpp:446 kpci.cpp:484
-#, kde-format
-msgid "66 MHz PCI 2.1 bus"
-msgstr "Buýt PCI 2.1 66 MHz"
+#~ msgid "Back-to-back writes"
+#~ msgstr "Back-to-back writes"
 
-#: kpci.cpp:242 kpci.cpp:449 kpci.cpp:487
-#, kde-format
-msgid "User-definable features"
-msgstr "Tính năng có thể được người dùng chỉ định"
+#~ msgid "Status"
+#~ msgstr "Trạng thái"
 
-#: kpci.cpp:244 kpci.cpp:452 kpci.cpp:490
-#, kde-format
-msgid "Accept fast back-to-back"
-msgstr "Accept fast back-to-back"
+#~ msgid "Interrupt status"
+#~ msgstr "Trạng thái ngắt"
 
-#: kpci.cpp:245 kpci.cpp:455 kpci.cpp:493
-#, kde-format
-msgid "Data parity error"
-msgstr "Lỗi chẵn lẻ dữ liệu"
+#~ msgid "Capability list"
+#~ msgstr "Danh sách khả năng"
 
-#: kpci.cpp:246 kpci.cpp:457 kpci.cpp:496
-#, kde-format
-msgid "Device selection timing"
-msgstr "Device selection timing"
+#~ msgid "66 MHz PCI 2.1 bus"
+#~ msgstr "Buýt PCI 2.1 66 MHz"
 
-#: kpci.cpp:248 kpci.cpp:459 kpci.cpp:499
-#, kde-format
-msgid "Signaled target abort"
-msgstr "Signaled target abort"
+#~ msgid "User-definable features"
+#~ msgstr "Tính năng có thể được người dùng chỉ định"
 
-#: kpci.cpp:250 kpci.cpp:462 kpci.cpp:503
-#, kde-format
-msgid "Received target abort"
-msgstr "Received target abort"
+#~ msgid "Accept fast back-to-back"
+#~ msgstr "Accept fast back-to-back"
 
-#: kpci.cpp:252 kpci.cpp:465 kpci.cpp:507
-#, kde-format
-msgid "Received master abort"
-msgstr "Received master abort"
+#~ msgid "Data parity error"
+#~ msgstr "Lỗi chẵn lẻ dữ liệu"
 
-#: kpci.cpp:254 kpci.cpp:468 kpci.cpp:511
-#, kde-format
-msgid "Signaled system error"
-msgstr "Signaled system error"
+#~ msgid "Device selection timing"
+#~ msgstr "Device selection timing"
 
-#: kpci.cpp:255 kpci.cpp:471 kpci.cpp:515
-#, kde-format
-msgid "Parity error"
-msgstr "Lỗi chẵn lẻ"
+#~ msgid "Signaled target abort"
+#~ msgstr "Signaled target abort"
 
-#: kpci.cpp:262
-#, kde-format
-msgid "Latency"
-msgstr "Độ trễ"
+#~ msgid "Received target abort"
+#~ msgstr "Received target abort"
 
-#: kpci.cpp:265 kpci.cpp:269
-#, kde-format
-msgid "MIN_GNT"
-msgstr "MIN_GNT"
+#~ msgid "Received master abort"
+#~ msgstr "Received master abort"
 
-#: kpci.cpp:265 kpci.cpp:273
-#, kde-format
-msgid "No major requirements (0x00)"
-msgstr "No major requirements (0x00)"
+#~ msgid "Signaled system error"
+#~ msgstr "Signaled system error"
 
-#: kpci.cpp:273 kpci.cpp:277
-#, kde-format
-msgid "MAX_LAT"
-msgstr "MAX_LAT"
+#~ msgid "Parity error"
+#~ msgstr "Lỗi chẵn lẻ"
 
-#: kpci.cpp:287
-#, kde-format
-msgid "Header"
-msgstr "Đầu tải"
+#~ msgid "Latency"
+#~ msgstr "Độ trễ"
 
-#: kpci.cpp:289 kpci.cpp:359 kpci.cpp:660
-#, kde-format
-msgid "Type"
-msgstr "Kiểu"
+#~ msgid "MIN_GNT"
+#~ msgstr "MIN_GNT"
 
-#: kpci.cpp:293
-#, kde-format
-msgid "Multifunctional"
-msgstr "Đa chức năng"
+#~ msgid "No major requirements (0x00)"
+#~ msgstr "No major requirements (0x00)"
 
-#: kpci.cpp:300
-#, kde-format
-msgid "Build-in self test"
-msgstr "Tự kiểm thử tích hợp"
+#~ msgid "MAX_LAT"
+#~ msgstr "MAX_LAT"
 
-#: kpci.cpp:301
-#, kde-format
-msgid "BIST Capable"
-msgstr "BIST Capable"
+#~ msgid "Header"
+#~ msgstr "Đầu tải"
 
-#: kpci.cpp:303
-#, kde-format
-msgid "BIST Start"
-msgstr "BIST Start"
+#~ msgid "Type"
+#~ msgstr "Kiểu"
 
-#: kpci.cpp:304
-#, kde-format
-msgid "Completion code"
-msgstr "Mã hoàn tất"
-
-#: kpci.cpp:312 kpci.cpp:315 kpci.cpp:318 kpci.cpp:323 kpci.cpp:326
-#: kpci.cpp:329 kpci.cpp:334 kpci.cpp:373 kpci.cpp:399 kpci.cpp:631
-#, kde-format
-msgid "Size"
-msgstr "Cỡ"
+#~ msgid "Multifunctional"
+#~ msgstr "Đa chức năng"
 
-#: kpci.cpp:346
-#, kde-format
-msgid "Address mappings"
-msgstr "Ánh xạ địa chỉ"
+#~ msgid "Build-in self test"
+#~ msgstr "Tự kiểm thử tích hợp"
 
-#: kpci.cpp:355
-#, kde-format
-msgid "Mapping %1"
-msgstr "Ánh xạ %1"
+#~ msgid "BIST Capable"
+#~ msgstr "BIST Capable"
 
-#: kpci.cpp:357
-#, kde-format
-msgid "Space"
-msgstr "Space"
+#~ msgid "BIST Start"
+#~ msgstr "BIST Start"
 
-#: kpci.cpp:357
-#, kde-format
-msgid "I/O"
-msgstr "Vào/ra"
+#~ msgid "Completion code"
+#~ msgstr "Mã hoàn tất"
 
-#: kpci.cpp:357
-#, kde-format
-msgid "Memory"
-msgstr "Bộ nhớ"
+#~ msgid "Size"
+#~ msgstr "Cỡ"
 
-#: kpci.cpp:361 kpci.cpp:652
-#, kde-format
-msgid "Prefetchable"
-msgstr "Tìm nạp được trước"
-
-#: kpci.cpp:372 kpci.cpp:377 kpci.cpp:386 kpci.cpp:398 kpci.cpp:403
-#: kpci.cpp:630 kpci.cpp:634 kpci.cpp:902 kpci.cpp:910
-#, kde-format
-msgid "Address"
-msgstr "Địa chỉ"
+#~ msgid "Address mappings"
+#~ msgstr "Ánh xạ địa chỉ"
 
-#: kpci.cpp:372 kpci.cpp:398 kpci.cpp:630
-#, kde-format
-msgctxt "unassigned address"
-msgid "Unassigned"
-msgstr "Chưa ấn định"
-
-#: kpci.cpp:373 kpci.cpp:399 kpci.cpp:631
-#, kde-format
-msgctxt "unassigned size"
-msgid "Unassigned"
-msgstr "Chưa ấn định"
-
-#: kpci.cpp:418 kpci.cpp:425
-#, kde-format
-msgid "Bus"
-msgstr "Buýt"
+#~ msgid "Mapping %1"
+#~ msgstr "Ánh xạ %1"
 
-#: kpci.cpp:419 kpci.cpp:426
-#, kde-format
-msgid "Primary bus number"
-msgstr "Số buýt chính"
+#~ msgid "Space"
+#~ msgstr "Space"
 
-#: kpci.cpp:420
-#, kde-format
-msgid "Secondary bus number"
-msgstr "Số buýt phụ"
+#~ msgid "I/O"
+#~ msgstr "Vào/ra"
 
-#: kpci.cpp:421 kpci.cpp:428
-#, kde-format
-msgid "Subordinate bus number"
-msgstr "Số buýt thứ cấp"
+#~ msgid "Memory"
+#~ msgstr "Bộ nhớ"
 
-#: kpci.cpp:422
-#, kde-format
-msgid "Secondary latency timer"
-msgstr "Bộ đo độ trễ phụ"
+#~ msgid "Prefetchable"
+#~ msgstr "Tìm nạp được trước"
 
-#: kpci.cpp:427
-#, kde-format
-msgid "CardBus number"
-msgstr "Số CardBus"
+#~ msgid "Address"
+#~ msgstr "Địa chỉ"
 
-#: kpci.cpp:429
-#, kde-format
-msgid "CardBus latency timer"
-msgstr "Bộ đo độ trễ CardBus"
+#~ msgctxt "unassigned address"
+#~ msgid "Unassigned"
+#~ msgstr "Chưa ấn định"
 
-#: kpci.cpp:438 kpci.cpp:475
-#, kde-format
-msgid "Secondary status"
-msgstr "Trạng thái phụ"
+#~ msgctxt "unassigned size"
+#~ msgid "Unassigned"
+#~ msgstr "Chưa ấn định"
 
-#: kpci.cpp:525
-#, kde-format
-msgid "I/O behind bridge"
-msgstr "I/O behind bridge"
+#~ msgid "Bus"
+#~ msgstr "Buýt"
 
-#: kpci.cpp:527 kpci.cpp:661
-#, kde-format
-msgid "32-bit"
-msgstr "32-bit"
-
-#: kpci.cpp:529 kpci.cpp:534 kpci.cpp:541 kpci.cpp:548 kpci.cpp:553
-#: kpci.cpp:653 kpci.cpp:664 kpci.cpp:668
-#, kde-format
-msgid "Base"
-msgstr "Cơ sở"
-
-#: kpci.cpp:530 kpci.cpp:537 kpci.cpp:542 kpci.cpp:549 kpci.cpp:559
-#: kpci.cpp:654 kpci.cpp:665 kpci.cpp:669
-#, kde-format
-msgid "Limit"
-msgstr "Giới hạn"
+#~ msgid "Primary bus number"
+#~ msgstr "Số buýt chính"
 
-#: kpci.cpp:540
-#, kde-format
-msgid "Memory behind bridge"
-msgstr "Memory behind bridge"
+#~ msgid "Secondary bus number"
+#~ msgstr "Số buýt phụ"
 
-#: kpci.cpp:543
-#, kde-format
-msgid "Prefetchable memory behind bridge"
-msgstr "Prefetchable memory behind bridge"
+#~ msgid "Subordinate bus number"
+#~ msgstr "Số buýt thứ cấp"
 
-#: kpci.cpp:545
-#, kde-format
-msgid "64-bit"
-msgstr "64-bit"
+#~ msgid "Secondary latency timer"
+#~ msgstr "Bộ đo độ trễ phụ"
 
-#: kpci.cpp:570
-#, kde-format
-msgid "Bridge control"
-msgstr "Bridge control"
+#~ msgid "CardBus number"
+#~ msgstr "Số CardBus"
 
-#: kpci.cpp:573 kpci.cpp:683
-#, kde-format
-msgid "Secondary parity checking"
-msgstr "Kiểm tra chẵn lẻ phụ"
+#~ msgid "CardBus latency timer"
+#~ msgstr "Bộ đo độ trễ CardBus"
 
-#: kpci.cpp:577 kpci.cpp:686
-#, kde-format
-msgid "Secondary system error"
-msgstr "Lỗi hệ thống phụ"
+#~ msgid "Secondary status"
+#~ msgstr "Trạng thái phụ"
 
-#: kpci.cpp:580 kpci.cpp:689
-#, kde-format
-msgid "ISA ports forwarding"
-msgstr "Chuyển tiếp cổng ISA"
+#~ msgid "I/O behind bridge"
+#~ msgstr "I/O behind bridge"
 
-#: kpci.cpp:586 kpci.cpp:693
-#, kde-format
-msgid "VGA forwarding"
-msgstr "Chuyển tiếp VGA"
+#~ msgid "32-bit"
+#~ msgstr "32-bit"
 
-#: kpci.cpp:590 kpci.cpp:697
-#, kde-format
-msgid "Master abort"
-msgstr "Master abort"
+#~ msgid "Base"
+#~ msgstr "Cơ sở"
 
-#: kpci.cpp:594
-#, kde-format
-msgid "Secondary bus reset"
-msgstr "Đặt lại buýt phụ"
+#~ msgid "Limit"
+#~ msgstr "Giới hạn"
 
-#: kpci.cpp:598
-#, kde-format
-msgid "Secondary back-to-back writes"
-msgstr "Secondary back-to-back writes"
+#~ msgid "Memory behind bridge"
+#~ msgstr "Memory behind bridge"
 
-#: kpci.cpp:602
-#, kde-format
-msgid "Primary discard timer counts"
-msgstr "Primary discard timer counts"
+#~ msgid "Prefetchable memory behind bridge"
+#~ msgstr "Prefetchable memory behind bridge"
 
-#: kpci.cpp:603 kpci.cpp:607
-#, kde-format
-msgid "2e10 PCI clocks"
-msgstr "Đồng hồ PCI 2e10"
+#~ msgid "64-bit"
+#~ msgstr "64-bit"
 
-#: kpci.cpp:603 kpci.cpp:607
-#, kde-format
-msgid "2e15 PCI clocks"
-msgstr "Đồng hồ PCI 2e15"
+#~ msgid "Bridge control"
+#~ msgstr "Bridge control"
 
-#: kpci.cpp:606
-#, kde-format
-msgid "Secondary discard timer counts"
-msgstr "Secondary discard timer counts"
+#~ msgid "Secondary parity checking"
+#~ msgstr "Kiểm tra chẵn lẻ phụ"
 
-#: kpci.cpp:610
-#, kde-format
-msgid "Discard timer error"
-msgstr "Discard timer error"
+#~ msgid "Secondary system error"
+#~ msgstr "Lỗi hệ thống phụ"
 
-#: kpci.cpp:614
-#, kde-format
-msgid "Discard timer system error"
-msgstr "Discard timer system error"
+#~ msgid "ISA ports forwarding"
+#~ msgstr "Chuyển tiếp cổng ISA"
 
-#: kpci.cpp:625
-#, kde-format
-msgid "Expansion ROM"
-msgstr "ROM mở rộng"
+#~ msgid "VGA forwarding"
+#~ msgstr "Chuyển tiếp VGA"
 
-#: kpci.cpp:647
-#, kde-format
-msgid "Memory windows"
-msgstr "Cửa sổ bộ nhớ"
+#~ msgid "Master abort"
+#~ msgstr "Master abort"
 
-#: kpci.cpp:651 kpci.cpp:658
-#, kde-format
-msgid "Window %1"
-msgstr "Cửa sổ %1"
+#~ msgid "Secondary bus reset"
+#~ msgstr "Đặt lại buýt phụ"
 
-#: kpci.cpp:656
-#, kde-format
-msgid "I/O windows"
-msgstr "Cửa sổ vào/ra"
+#~ msgid "Secondary back-to-back writes"
+#~ msgstr "Secondary back-to-back writes"
 
-#: kpci.cpp:661
-#, kde-format
-msgid "16-bit"
-msgstr "16-bit"
+#~ msgid "Primary discard timer counts"
+#~ msgstr "Primary discard timer counts"
 
-#: kpci.cpp:672
-#, kde-format
-msgid "16-bit legacy interface ports"
-msgstr "Cổng giao diện đời cũ 16-bit"
+#~ msgid "2e10 PCI clocks"
+#~ msgstr "Đồng hồ PCI 2e10"
 
-#: kpci.cpp:681
-#, kde-format
-msgid "CardBus control"
-msgstr "Điều khiển CardBus"
+#~ msgid "2e15 PCI clocks"
+#~ msgstr "Đồng hồ PCI 2e15"
 
-#: kpci.cpp:700
-#, kde-format
-msgid "Interrupts for 16-bit cards"
-msgstr "Ngắt cho bo mạch 16-bit"
+#~ msgid "Secondary discard timer counts"
+#~ msgstr "Secondary discard timer counts"
 
-#: kpci.cpp:703
-#, kde-format
-msgid "Window 0 prefetchable memory"
-msgstr "Bộ nhớ tìm nạp trước được cửa sổ 0"
+#~ msgid "Discard timer error"
+#~ msgstr "Discard timer error"
 
-#: kpci.cpp:706
-#, kde-format
-msgid "Window 1 prefetchable memory"
-msgstr "Bộ nhớ tìm nạp trước được cửa sổ 1"
+#~ msgid "Discard timer system error"
+#~ msgstr "Discard timer system error"
 
-#: kpci.cpp:710
-#, kde-format
-msgid "Post writes"
-msgstr "Post writes"
+#~ msgid "Expansion ROM"
+#~ msgstr "ROM mở rộng"
 
-#: kpci.cpp:720
-#, kde-format
-msgid "Raw PCI config space"
-msgstr "Không gian cấu hình PCI thô"
+#~ msgid "Memory windows"
+#~ msgstr "Cửa sổ bộ nhớ"
 
-#: kpci.cpp:742 kpci.cpp:955 kpci.cpp:988
-#, kde-format
-msgid "Capabilities"
-msgstr "Khả năng"
+#~ msgid "Window %1"
+#~ msgstr "Cửa sổ %1"
 
-#: kpci.cpp:743
-#, kde-format
-msgid "Version"
-msgstr "Phiên bản"
+#~ msgid "I/O windows"
+#~ msgstr "Cửa sổ vào/ra"
 
-#: kpci.cpp:745
-#, kde-format
-msgid "Clock required for PME generation"
-msgstr "Cần có đồng hồ cho việc sinh PME"
+#~ msgid "16-bit"
+#~ msgstr "16-bit"
 
-#: kpci.cpp:747
-#, kde-format
-msgid "Device-specific initialization required"
-msgstr "Cần sự khởi tạo theo thiết bị"
+#~ msgid "16-bit legacy interface ports"
+#~ msgstr "Cổng giao diện đời cũ 16-bit"
 
-#: kpci.cpp:749
-#, kde-format
-msgid "Maximum auxiliary current required in D3 cold"
-msgstr "Dòng bổ trợ tối đa cần có ở D3 lạnh"
+#~ msgid "CardBus control"
+#~ msgstr "Điều khiển CardBus"
 
-#: kpci.cpp:750
-#, kde-format
-msgid "D1 support"
-msgstr "Hỗ trợ D1"
+#~ msgid "Interrupts for 16-bit cards"
+#~ msgstr "Ngắt cho bo mạch 16-bit"
 
-#: kpci.cpp:751
-#, kde-format
-msgid "D2 support"
-msgstr "Hỗ trợ D2"
+#~ msgid "Window 0 prefetchable memory"
+#~ msgstr "Bộ nhớ tìm nạp trước được cửa sổ 0"
 
-#: kpci.cpp:752
-#, kde-format
-msgid "Power management events"
-msgstr "Các sự kiện quản lí nguồn điện"
+#~ msgid "Window 1 prefetchable memory"
+#~ msgstr "Bộ nhớ tìm nạp trước được cửa sổ 1"
 
-#: kpci.cpp:753 kpci_private.h:786
-#, kde-format
-msgid "D0"
-msgstr "D0"
+#~ msgid "Post writes"
+#~ msgstr "Post writes"
 
-#: kpci.cpp:754 kpci_private.h:786
-#, kde-format
-msgid "D1"
-msgstr "D1"
+#~ msgid "Raw PCI config space"
+#~ msgstr "Không gian cấu hình PCI thô"
 
-#: kpci.cpp:755 kpci_private.h:786
-#, kde-format
-msgid "D2"
-msgstr "D2"
+#~ msgid "Capabilities"
+#~ msgstr "Khả năng"
 
-#: kpci.cpp:757 kpci_private.h:786
-#, kde-format
-msgid "D3 hot"
-msgstr "D3 nóng"
+#~ msgid "Version"
+#~ msgstr "Phiên bản"
 
-#: kpci.cpp:759
-#, kde-format
-msgid "D3 cold"
-msgstr "D3 lạnh"
+#~ msgid "Clock required for PME generation"
+#~ msgstr "Cần có đồng hồ cho việc sinh PME"
 
-#: kpci.cpp:762
-#, kde-format
-msgid "Power state"
-msgstr "Trạng thái nguồn điện"
+#~ msgid "Device-specific initialization required"
+#~ msgstr "Cần sự khởi tạo theo thiết bị"
 
-#: kpci.cpp:764 kpci_private.h:722
-#, kde-format
-msgid "Power management"
-msgstr "Quản lí nguồn điện"
+#~ msgid "Maximum auxiliary current required in D3 cold"
+#~ msgstr "Dòng bổ trợ tối đa cần có ở D3 lạnh"
 
-#: kpci.cpp:765
-#, kde-format
-msgid "Data select"
-msgstr "Data select"
+#~ msgid "D1 support"
+#~ msgstr "Hỗ trợ D1"
 
-#: kpci.cpp:766
-#, kde-format
-msgid "Data scale"
-msgstr "Data scale"
+#~ msgid "D2 support"
+#~ msgstr "Hỗ trợ D2"
 
-#: kpci.cpp:768
-#, kde-format
-msgid "Power management status"
-msgstr "Trạng thái quản lí nguồn điện"
+#~ msgid "Power management events"
+#~ msgstr "Các sự kiện quản lí nguồn điện"
 
-#: kpci.cpp:772
-#, kde-format
-msgid "Bridge status"
-msgstr "Trạng thái cầu"
+#~ msgid "D0"
+#~ msgstr "D0"
 
-#: kpci.cpp:774
-#, kde-format
-msgid "Secondary bus state in D3 hot"
-msgstr "Trạng thái buýt phụ ở D3 nóng"
+#~ msgid "D1"
+#~ msgstr "D1"
 
-#: kpci.cpp:775
-#, kde-format
-msgid "B2"
-msgstr "B2"
+#~ msgid "D2"
+#~ msgstr "D2"
 
-#: kpci.cpp:775
-#, kde-format
-msgid "B3"
-msgstr "B3"
+#~ msgid "D3 hot"
+#~ msgstr "D3 nóng"
 
-#: kpci.cpp:777
-#, kde-format
-msgid "Secondary bus power & clock control"
-msgstr "Điều khiển nguồn & đồng hồ buýt phụ"
-
-#: kpci.cpp:781 kpci.cpp:873 kpci.cpp:903 kpci.cpp:911 kpci.cpp:928
-#: kpci.cpp:940
-#, kde-format
-msgid "Data"
-msgstr "Dữ liệu"
-
-#. i18n("Revision"),QString::asprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
-#: kpci.cpp:793 kpci.cpp:1058
-#, kde-format
-msgid "Revision"
-msgstr "Phiên bản"
+#~ msgid "D3 cold"
+#~ msgstr "D3 lạnh"
 
-#: kpci.cpp:795 kpci.cpp:835
-#, kde-format
-msgid "Rate"
-msgstr "Tốc độ"
+#~ msgid "Power state"
+#~ msgstr "Trạng thái nguồn điện"
 
-#: kpci.cpp:797
-#, kde-format
-msgid "AGP 3.0 mode"
-msgstr "Chế độ AGP 3.0"
+#~ msgid "Power management"
+#~ msgstr "Quản lí nguồn điện"
 
-#: kpci.cpp:799 kpci.cpp:837
-#, kde-format
-msgid "Fast Writes"
-msgstr "Ghi nhanh"
+#~ msgid "Data select"
+#~ msgstr "Data select"
 
-#: kpci.cpp:801 kpci.cpp:840
-#, kde-format
-msgid "Address over 4 GiB"
-msgstr "Địa chỉ trên 4 GiB"
+#~ msgid "Data scale"
+#~ msgstr "Data scale"
 
-#: kpci.cpp:806
-#, kde-format
-msgid "Translation of host processor access"
-msgstr "Biên dịch truy cập của bộ xử lí"
+#~ msgid "Power management status"
+#~ msgstr "Trạng thái quản lí nguồn điện"
 
-#: kpci.cpp:809 kpci.cpp:843
-#, kde-format
-msgid "64-bit GART"
-msgstr "GART 64 bit"
+#~ msgid "Bridge status"
+#~ msgstr "Trạng thái cầu"
 
-#: kpci.cpp:812
-#, kde-format
-msgid "Cache Coherency"
-msgstr "Tính cố kết của bộ nhớ sẵn"
+#~ msgid "Secondary bus state in D3 hot"
+#~ msgstr "Trạng thái buýt phụ ở D3 nóng"
 
-#: kpci.cpp:816 kpci.cpp:848
-#, kde-format
-msgid "Side-band addressing"
-msgstr "Định địa chỉ dải bên"
+#~ msgid "B2"
+#~ msgstr "B2"
 
-#: kpci.cpp:819 kpci.cpp:851
-#, kde-format
-msgid "Calibrating cycle"
-msgstr "Chu kì hiệu chỉnh"
+#~ msgid "B3"
+#~ msgstr "B3"
 
-#: kpci.cpp:824 kpci.cpp:856
-#, kde-format
-msgid "Optimum asynchronous request size"
-msgstr "Kích thước yêu cầu bất đồng bộ tối ưu"
+#~ msgid "Secondary bus power & clock control"
+#~ msgstr "Điều khiển nguồn & đồng hồ buýt phụ"
 
-#: kpci.cpp:827
-#, kde-format
-msgid "Isochronous transactions"
-msgstr "Giao dịch đẳng thời"
+#~ msgid "Data"
+#~ msgstr "Dữ liệu"
 
-#: kpci.cpp:831 kpci.cpp:860
-#, kde-format
-msgid "Maximum number of AGP command"
-msgstr "Số lệnh AGP tối đa"
+#~ msgid "Revision"
+#~ msgstr "Phiên bản"
 
-#: kpci.cpp:834
-#, kde-format
-msgid "Configuration"
-msgstr "Cấu hình"
+#~ msgid "Rate"
+#~ msgstr "Tốc độ"
 
-#: kpci.cpp:846 kpci_private.h:723
-#, kde-format
-msgid "AGP"
-msgstr "AGP"
+#~ msgid "AGP 3.0 mode"
+#~ msgstr "Chế độ AGP 3.0"
 
-#: kpci.cpp:871
-#, kde-format
-msgid "Data address"
-msgstr "Địa chỉ dữ liệu"
+#~ msgid "Fast Writes"
+#~ msgstr "Ghi nhanh"
 
-#: kpci.cpp:872
-#, kde-format
-msgid "Transfer completed"
-msgstr "Việc truyền hoàn tất"
+#~ msgid "Address over 4 GiB"
+#~ msgstr "Địa chỉ trên 4 GiB"
 
-#: kpci.cpp:885
-#, kde-format
-msgid "Message control"
-msgstr "Điều khiển thông điệp"
+#~ msgid "Translation of host processor access"
+#~ msgstr "Biên dịch truy cập của bộ xử lí"
 
-#: kpci.cpp:887 kpci_private.h:726
-#, kde-format
-msgid "Message signaled interrupts"
-msgstr "Ngắt được gửi tín hiệu bằng thông điệp"
+#~ msgid "64-bit GART"
+#~ msgstr "GART 64 bit"
 
-#: kpci.cpp:889
-#, kde-format
-msgid "Multiple message capable"
-msgstr "Multiple message capable"
+#~ msgid "Cache Coherency"
+#~ msgstr "Tính cố kết của bộ nhớ sẵn"
 
-#: kpci.cpp:890
-#, kde-format
-msgid "Multiple message enable"
-msgstr "Multiple message enable"
+#~ msgid "Side-band addressing"
+#~ msgstr "Định địa chỉ dải bên"
 
-#: kpci.cpp:892
-#, kde-format
-msgid "64-bit address"
-msgstr "Địa chỉ 64 bit"
+#~ msgid "Calibrating cycle"
+#~ msgstr "Chu kì hiệu chỉnh"
 
-#: kpci.cpp:895
-#, kde-format
-msgid "Per vector masking"
-msgstr "Dùng mặt nạ cho từng véc-tơ"
+#~ msgid "Optimum asynchronous request size"
+#~ msgstr "Kích thước yêu cầu bất đồng bộ tối ưu"
 
-#: kpci.cpp:905 kpci.cpp:913
-#, kde-format
-msgid "Mask"
-msgstr "Mặt nạ"
+#~ msgid "Isochronous transactions"
+#~ msgstr "Giao dịch đẳng thời"
 
-#: kpci.cpp:906 kpci.cpp:914
-#, kde-format
-msgid "Pending"
-msgstr "Chờ"
+#~ msgid "Maximum number of AGP command"
+#~ msgstr "Số lệnh AGP tối đa"
 
-#: kpci.cpp:925
-#, kde-format
-msgid "Length"
-msgstr "Độ dài"
+#~ msgid "Configuration"
+#~ msgstr "Cấu hình"
 
-#: kpci.cpp:928
-#, kde-format
-msgctxt "no data"
-msgid "None"
-msgstr "Không"
-
-#: kpci.cpp:960
-#, kde-format
-msgid "Next"
-msgstr "Sau"
+#~ msgid "AGP"
+#~ msgstr "AGP"
 
-#: kpci.cpp:961 kpci.cpp:988
-#, kde-format
-msgid "0x00 (None)"
-msgstr "0x00 (Không)"
+#~ msgid "Data address"
+#~ msgstr "Địa chỉ dữ liệu"
 
-#: kpci.cpp:984
-#, kde-format
-msgid "Root only"
-msgstr "Chỉ Gốc"
+#~ msgid "Transfer completed"
+#~ msgstr "Việc truyền hoàn tất"
 
-#: kpci.cpp:1011
-#, kde-format
-msgid "Information"
-msgstr "Thông tin"
+#~ msgid "Message control"
+#~ msgstr "Điều khiển thông điệp"
 
-#: kpci.cpp:1011
-#, kde-format
-msgid "Value"
-msgstr "Giá trị"
+#~ msgid "Message signaled interrupts"
+#~ msgstr "Ngắt được gửi tín hiệu bằng thông điệp"
 
-#: kpci.cpp:1067
-#, kde-format
-msgid "Cache line size"
-msgstr "Kích thước dòng bộ nhớ sẵn"
+#~ msgid "Multiple message capable"
+#~ msgstr "Multiple message capable"
 
-#: kpci_private.h:27
-#, kde-format
-msgctxt "state of PCI item"
-msgid "Enabled"
-msgstr "Bật"
-
-#: kpci_private.h:28
-#, kde-format
-msgctxt "state of PCI item"
-msgid "Disabled"
-msgstr "Tắt"
-
-#: kpci_private.h:29
-#, kde-format
-msgctxt "state of PCI item"
-msgid "Yes"
-msgstr "Có"
-
-#: kpci_private.h:30
-#, kde-format
-msgctxt "state of PCI item"
-msgid "No"
-msgstr "Không"
-
-#: kpci_private.h:31
-#, kde-format
-msgctxt "state of PCI item"
-msgid "Unknown"
-msgstr "Không rõ"
-
-#: kpci_private.h:450
-#, kde-format
-msgid "Unclassified device"
-msgstr "Thiết bị chưa phân loại"
+#~ msgid "Multiple message enable"
+#~ msgstr "Multiple message enable"
 
-#: kpci_private.h:451 kpci_private.h:490
-#, kde-format
-msgid "Mass storage controller"
-msgstr "Trình điều khiển lưu trữ hàng loạt"
+#~ msgid "64-bit address"
+#~ msgstr "Địa chỉ 64 bit"
 
-#: kpci_private.h:452 kpci_private.h:502
-#, kde-format
-msgid "Network controller"
-msgstr "Trình điều khiển mạng"
+#~ msgid "Per vector masking"
+#~ msgstr "Dùng mặt nạ cho từng véc-tơ"
 
-#: kpci_private.h:453 kpci_private.h:508
-#, kde-format
-msgid "Display controller"
-msgstr "Trình điều khiển hiển thị"
+#~ msgid "Mask"
+#~ msgstr "Mặt nạ"
 
-#: kpci_private.h:454 kpci_private.h:515
-#, kde-format
-msgid "Multimedia controller"
-msgstr "Trình điều khiển đa phương tiện"
+#~ msgid "Pending"
+#~ msgstr "Chờ"
 
-#: kpci_private.h:455 kpci_private.h:520
-#, kde-format
-msgid "Memory controller"
-msgstr "Trình điều khiển bộ nhớ"
+#~ msgid "Length"
+#~ msgstr "Độ dài"
 
-#: kpci_private.h:456 kpci_private.h:534 kpci_private.h:751
-#, kde-format
-msgid "Bridge"
-msgstr "Cầu"
+#~ msgctxt "no data"
+#~ msgid "None"
+#~ msgstr "Không"
 
-#: kpci_private.h:457 kpci_private.h:543
-#, kde-format
-msgid "Communication controller"
-msgstr "Trình điều khiển liên lạc"
+#~ msgid "Next"
+#~ msgstr "Sau"
 
-#: kpci_private.h:458
-#, kde-format
-msgid "Generic system peripheral"
-msgstr "Thiết bị ngoại vi hệ thống chung"
+#~ msgid "0x00 (None)"
+#~ msgstr "0x00 (Không)"
 
-#: kpci_private.h:459 kpci_private.h:561
-#, kde-format
-msgid "Input device controller"
-msgstr "Trình điều khiển thiết bị nhập"
+#~ msgid "Root only"
+#~ msgstr "Chỉ Gốc"
 
-#: kpci_private.h:460 kpci_private.h:565
-#, kde-format
-msgid "Docking station"
-msgstr "Trạm nối"
+#~ msgid "Value"
+#~ msgstr "Giá trị"
 
-#: kpci_private.h:461
-#, kde-format
-msgid "Processor"
-msgstr "Bộ xử lí"
+#~ msgid "Cache line size"
+#~ msgstr "Kích thước dòng bộ nhớ sẵn"
 
-#: kpci_private.h:462
-#, kde-format
-msgid "Serial bus controller"
-msgstr "Trình điều khiển buýt nối tiếp"
+#~ msgctxt "state of PCI item"
+#~ msgid "Enabled"
+#~ msgstr "Bật"
 
-#: kpci_private.h:463 kpci_private.h:596
-#, kde-format
-msgid "Wireless controller"
-msgstr "Trình điều khiển không dây"
+#~ msgctxt "state of PCI item"
+#~ msgid "Disabled"
+#~ msgstr "Tắt"
 
-#: kpci_private.h:464
-#, kde-format
-msgid "Intelligent controller"
-msgstr "Trình điều khiển thông minh"
+#~ msgctxt "state of PCI item"
+#~ msgid "Yes"
+#~ msgstr "Có"
 
-#: kpci_private.h:465
-#, kde-format
-msgid "Satellite communications controller"
-msgstr "Trình điều khiển liên lạc vệ tinh"
+#~ msgctxt "state of PCI item"
+#~ msgid "No"
+#~ msgstr "Không"
 
-#: kpci_private.h:466 kpci_private.h:610
-#, kde-format
-msgid "Encryption controller"
-msgstr "Trình điều khiển mật mã hoá"
+#~ msgctxt "state of PCI item"
+#~ msgid "Unknown"
+#~ msgstr "Không rõ"
 
-#: kpci_private.h:467 kpci_private.h:617
-#, kde-format
-msgid "Signal processing controller"
-msgstr "Trình điều khiển xử lí tín hiệu"
+#~ msgid "Unclassified device"
+#~ msgstr "Thiết bị chưa phân loại"
 
-#: kpci_private.h:468 kpci_private.h:620
-#, kde-format
-msgid "Processing accelerators"
-msgstr "Bộ tăng tốc xử lí"
+#~ msgid "Mass storage controller"
+#~ msgstr "Trình điều khiển lưu trữ hàng loạt"
 
-#: kpci_private.h:469
-#, kde-format
-msgid "Non-Essential Instrumentation"
-msgstr "Trang thiết bị không thiết yếu"
+#~ msgid "Network controller"
+#~ msgstr "Trình điều khiển mạng"
 
-#: kpci_private.h:470
-#, kde-format
-msgid "Coprocessor"
-msgstr "Bộ đồng xử lí"
+#~ msgid "Display controller"
+#~ msgstr "Trình điều khiển hiển thị"
 
-#: kpci_private.h:471
-#, kde-format
-msgid "Unassigned class"
-msgstr "Lớp chưa ấn định"
+#~ msgid "Multimedia controller"
+#~ msgstr "Trình điều khiển đa phương tiện"
 
-#: kpci_private.h:472
-#, kde-format
-msgid "Unknown device class"
-msgstr "Lớp thiết bị không rõ"
+#~ msgid "Memory controller"
+#~ msgstr "Trình điều khiển bộ nhớ"
 
-#: kpci_private.h:477
-#, kde-format
-msgid "Non-VGA unclassified device"
-msgstr "Thiết bị chưa phân loại phi VGA"
+#~ msgid "Bridge"
+#~ msgstr "Cầu"
 
-#: kpci_private.h:478
-#, kde-format
-msgid "VGA unclassified device"
-msgstr "Thiết bị chưa phân loại VGA"
+#~ msgid "Communication controller"
+#~ msgstr "Trình điều khiển liên lạc"
 
-#: kpci_private.h:479
-#, kde-format
-msgid "Unknown unclassified device"
-msgstr "Thiết bị chưa phân loại không rõ"
+#~ msgid "Generic system peripheral"
+#~ msgstr "Thiết bị ngoại vi hệ thống chung"
 
-#: kpci_private.h:481
-#, kde-format
-msgid "SCSI storage controller"
-msgstr "Trình điều khiển lưu trữ SCSI"
+#~ msgid "Input device controller"
+#~ msgstr "Trình điều khiển thiết bị nhập"
 
-#: kpci_private.h:482
-#, kde-format
-msgid "IDE controller"
-msgstr "Trình điều khiển IDE"
+#~ msgid "Docking station"
+#~ msgstr "Trạm nối"
 
-#: kpci_private.h:483
-#, kde-format
-msgid "Floppy disk controller"
-msgstr "Trình điều khiển đĩa mềm"
+#~ msgid "Processor"
+#~ msgstr "Bộ xử lí"
 
-#: kpci_private.h:484
-#, kde-format
-msgid "IPI bus controller"
-msgstr "Trình điều khiển buýt IPI"
+#~ msgid "Serial bus controller"
+#~ msgstr "Trình điều khiển buýt nối tiếp"
 
-#: kpci_private.h:485
-#, kde-format
-msgid "RAID bus controller"
-msgstr "Trình điều khiển buýt RAID"
+#~ msgid "Wireless controller"
+#~ msgstr "Trình điều khiển không dây"
 
-#: kpci_private.h:486
-#, kde-format
-msgid "ATA controller"
-msgstr "Trình điều khiển ATA"
+#~ msgid "Intelligent controller"
+#~ msgstr "Trình điều khiển thông minh"
 
-#: kpci_private.h:487
-#, kde-format
-msgid "SATA controller"
-msgstr "Trình điều khiển SATA"
+#~ msgid "Satellite communications controller"
+#~ msgstr "Trình điều khiển liên lạc vệ tinh"
 
-#: kpci_private.h:488
-#, kde-format
-msgid "Serial Attached SCSI controller"
-msgstr "Trình điều khiển SCSI Gia cố Nối tiếp"
+#~ msgid "Encryption controller"
+#~ msgstr "Trình điều khiển mật mã hoá"
 
-#: kpci_private.h:489
-#, kde-format
-msgid "Non-Volatile memory controller"
-msgstr "Trình điều khiển bộ nhớ bất biến"
+#~ msgid "Signal processing controller"
+#~ msgstr "Trình điều khiển xử lí tín hiệu"
 
-#: kpci_private.h:491
-#, kde-format
-msgid "Unknown storage controller"
-msgstr "Trình điều khiển lưu trữ không rõ"
+#~ msgid "Processing accelerators"
+#~ msgstr "Bộ tăng tốc xử lí"
 
-#: kpci_private.h:493
-#, kde-format
-msgid "Ethernet controller"
-msgstr "Trình điều khiển Ethernet"
+#~ msgid "Non-Essential Instrumentation"
+#~ msgstr "Trang thiết bị không thiết yếu"
 
-#: kpci_private.h:494
-#, kde-format
-msgid "Token ring network controller"
-msgstr "Trình điều khiển mạng vòng hiệu bài"
+#~ msgid "Coprocessor"
+#~ msgstr "Bộ đồng xử lí"
 
-#: kpci_private.h:495
-#, kde-format
-msgid "FDDI network controller"
-msgstr "Trình điều khiển mạng FDDI"
+#~ msgid "Unassigned class"
+#~ msgstr "Lớp chưa ấn định"
 
-#: kpci_private.h:496
-#, kde-format
-msgid "ATM network controller"
-msgstr "Trình điều khiển mạng ATM"
+#~ msgid "Unknown device class"
+#~ msgstr "Lớp thiết bị không rõ"
 
-#: kpci_private.h:497
-#, kde-format
-msgid "ISDN controller"
-msgstr "Trình điều khiển ISDN"
+#~ msgid "Non-VGA unclassified device"
+#~ msgstr "Thiết bị chưa phân loại phi VGA"
 
-#: kpci_private.h:498
-#, kde-format
-msgid "WorldFip controller"
-msgstr "Trình điều khiển WorldFip"
+#~ msgid "VGA unclassified device"
+#~ msgstr "Thiết bị chưa phân loại VGA"
 
-#: kpci_private.h:499
-#, kde-format
-msgid "PICMG controller"
-msgstr "Trình điều khiển PICMG"
+#~ msgid "Unknown unclassified device"
+#~ msgstr "Thiết bị chưa phân loại không rõ"
 
-#: kpci_private.h:500
-#, kde-format
-msgid "Infiniband controller"
-msgstr "Trình điều khiển InfiniBand"
+#~ msgid "SCSI storage controller"
+#~ msgstr "Trình điều khiển lưu trữ SCSI"
 
-#: kpci_private.h:501
-#, kde-format
-msgid "Fabric controller"
-msgstr "Trình điều khiển lưới"
+#~ msgid "IDE controller"
+#~ msgstr "Trình điều khiển IDE"
 
-#: kpci_private.h:503
-#, kde-format
-msgid "Unknown network controller"
-msgstr "Trình điều khiển mạng không rõ"
+#~ msgid "Floppy disk controller"
+#~ msgstr "Trình điều khiển đĩa mềm"
 
-#: kpci_private.h:505
-#, kde-format
-msgid "VGA compatible controller"
-msgstr "Trình điều khiển tương thích VGA"
+#~ msgid "IPI bus controller"
+#~ msgstr "Trình điều khiển buýt IPI"
 
-#: kpci_private.h:506
-#, kde-format
-msgid "XGA compatible controller"
-msgstr "Trình điều khiển tương thích XGA"
+#~ msgid "RAID bus controller"
+#~ msgstr "Trình điều khiển buýt RAID"
 
-#: kpci_private.h:507
-#, kde-format
-msgid "3D controller"
-msgstr "Trình điều khiển 3D"
+#~ msgid "ATA controller"
+#~ msgstr "Trình điều khiển ATA"
 
-#: kpci_private.h:509
-#, kde-format
-msgid "Unknown display controller"
-msgstr "Trình điều khiển hiển thị không rõ"
+#~ msgid "SATA controller"
+#~ msgstr "Trình điều khiển SATA"
 
-#: kpci_private.h:511
-#, kde-format
-msgid "Multimedia video controller"
-msgstr "Trình điều khiển phần hình đa phương tiện"
+#~ msgid "Serial Attached SCSI controller"
+#~ msgstr "Trình điều khiển SCSI Gia cố Nối tiếp"
 
-#: kpci_private.h:512
-#, kde-format
-msgid "Multimedia audio controller"
-msgstr "Trình điều khiển phần tiếng đa phương tiện"
+#~ msgid "Non-Volatile memory controller"
+#~ msgstr "Trình điều khiển bộ nhớ bất biến"
 
-#: kpci_private.h:513
-#, kde-format
-msgid "Computer telephony device"
-msgstr "Thiết bị điện thoại máy tính"
+#~ msgid "Unknown storage controller"
+#~ msgstr "Trình điều khiển lưu trữ không rõ"
 
-#: kpci_private.h:514
-#, kde-format
-msgid "Audio device"
-msgstr "Thiết bị âm thanh"
+#~ msgid "Ethernet controller"
+#~ msgstr "Trình điều khiển Ethernet"
 
-#: kpci_private.h:516
-#, kde-format
-msgid "Unknown multimedia controller"
-msgstr "Trình điều khiển đa phương tiện không rõ"
+#~ msgid "Token ring network controller"
+#~ msgstr "Trình điều khiển mạng vòng hiệu bài"
 
-#: kpci_private.h:518
-#, kde-format
-msgid "RAM memory"
-msgstr "Bộ nhớ RAM"
+#~ msgid "FDDI network controller"
+#~ msgstr "Trình điều khiển mạng FDDI"
 
-#: kpci_private.h:519
-#, kde-format
-msgid "FLASH memory"
-msgstr "Bộ nhớ FLASH"
+#~ msgid "ATM network controller"
+#~ msgstr "Trình điều khiển mạng ATM"
 
-#: kpci_private.h:521
-#, kde-format
-msgid "Unknown memory controller"
-msgstr "Trình điều khiển bộ nhớ không rõ"
+#~ msgid "ISDN controller"
+#~ msgstr "Trình điều khiển ISDN"
 
-#: kpci_private.h:523
-#, kde-format
-msgid "Host bridge"
-msgstr "Cầu máy"
+#~ msgid "WorldFip controller"
+#~ msgstr "Trình điều khiển WorldFip"
 
-#: kpci_private.h:524
-#, kde-format
-msgid "ISA bridge"
-msgstr "Cầu ISA"
+#~ msgid "PICMG controller"
+#~ msgstr "Trình điều khiển PICMG"
 
-#: kpci_private.h:525
-#, kde-format
-msgid "EISA bridge"
-msgstr "Cầu EISA"
+#~ msgid "Infiniband controller"
+#~ msgstr "Trình điều khiển InfiniBand"
 
-#: kpci_private.h:526
-#, kde-format
-msgid "MicroChannel bridge"
-msgstr "Cầu MicroChannel"
+#~ msgid "Fabric controller"
+#~ msgstr "Trình điều khiển lưới"
 
-#: kpci_private.h:527
-#, kde-format
-msgid "PCI bridge"
-msgstr "Cầu PCI"
+#~ msgid "Unknown network controller"
+#~ msgstr "Trình điều khiển mạng không rõ"
 
-#: kpci_private.h:528
-#, kde-format
-msgid "PCMCIA bridge"
-msgstr "Cầu PCMCIA"
+#~ msgid "VGA compatible controller"
+#~ msgstr "Trình điều khiển tương thích VGA"
 
-#: kpci_private.h:529
-#, kde-format
-msgid "NuBus bridge"
-msgstr "Cầu NuBus"
+#~ msgid "XGA compatible controller"
+#~ msgstr "Trình điều khiển tương thích XGA"
 
-#: kpci_private.h:530
-#, kde-format
-msgid "CardBus bridge"
-msgstr "Cầu CardBus"
+#~ msgid "3D controller"
+#~ msgstr "Trình điều khiển 3D"
 
-#: kpci_private.h:531
-#, kde-format
-msgid "RACEway bridge"
-msgstr "Cầu RACEway"
+#~ msgid "Unknown display controller"
+#~ msgstr "Trình điều khiển hiển thị không rõ"
 
-#: kpci_private.h:532
-#, kde-format
-msgid "Semi-transparent PCI-to-PCI bridge"
-msgstr "Cầu PCI-PCI bán trong suốt"
+#~ msgid "Multimedia video controller"
+#~ msgstr "Trình điều khiển phần hình đa phương tiện"
 
-#: kpci_private.h:533
-#, kde-format
-msgid "InfiniBand to PCI host bridge"
-msgstr "Cầu máy InfiniBand-PCI"
+#~ msgid "Multimedia audio controller"
+#~ msgstr "Trình điều khiển phần tiếng đa phương tiện"
 
-#: kpci_private.h:535
-#, kde-format
-msgid "Unknown bridge"
-msgstr "Cầu không rõ"
+#~ msgid "Computer telephony device"
+#~ msgstr "Thiết bị điện thoại máy tính"
 
-#: kpci_private.h:537
-#, kde-format
-msgid "Serial controller"
-msgstr "Trình điều khiển nối tiếp"
+#~ msgid "Audio device"
+#~ msgstr "Thiết bị âm thanh"
 
-#: kpci_private.h:538
-#, kde-format
-msgid "Parallel controller"
-msgstr "Trình điều khiển song song"
+#~ msgid "Unknown multimedia controller"
+#~ msgstr "Trình điều khiển đa phương tiện không rõ"
 
-#: kpci_private.h:539
-#, kde-format
-msgid "Multiport serial controller"
-msgstr "Trình điều khiển nối tiếp đa cổng"
+#~ msgid "RAM memory"
+#~ msgstr "Bộ nhớ RAM"
 
-#: kpci_private.h:540
-#, kde-format
-msgid "Modem"
-msgstr "Bộ điều giải"
+#~ msgid "FLASH memory"
+#~ msgstr "Bộ nhớ FLASH"
 
-#: kpci_private.h:541
-#, kde-format
-msgid "GPIB controller"
-msgstr "Trình điều khiển GPIB"
+#~ msgid "Unknown memory controller"
+#~ msgstr "Trình điều khiển bộ nhớ không rõ"
 
-#: kpci_private.h:542
-#, kde-format
-msgid "Smart card controller"
-msgstr "Trình điều khiển thẻ thông minh"
+#~ msgid "Host bridge"
+#~ msgstr "Cầu máy"
 
-#: kpci_private.h:544
-#, kde-format
-msgid "Unknown communication controller"
-msgstr "Trình điều khiển liên lạc không rõ"
+#~ msgid "ISA bridge"
+#~ msgstr "Cầu ISA"
 
-#: kpci_private.h:546
-#, kde-format
-msgid "PIC"
-msgstr "PIC"
+#~ msgid "EISA bridge"
+#~ msgstr "Cầu EISA"
 
-#: kpci_private.h:547
-#, kde-format
-msgid "DMA controller"
-msgstr "Trình điều khiển DMA"
+#~ msgid "MicroChannel bridge"
+#~ msgstr "Cầu MicroChannel"
 
-#: kpci_private.h:548
-#, kde-format
-msgid "Timer"
-msgstr "Hẹn giờ"
+#~ msgid "PCI bridge"
+#~ msgstr "Cầu PCI"
 
-#: kpci_private.h:549
-#, kde-format
-msgid "RTC"
-msgstr "RTC"
+#~ msgid "PCMCIA bridge"
+#~ msgstr "Cầu PCMCIA"
 
-#: kpci_private.h:550
-#, kde-format
-msgid "PCI Hot-plug controller"
-msgstr "Trình điều khiển cắm nóng PCI"
+#~ msgid "NuBus bridge"
+#~ msgstr "Cầu NuBus"
 
-#: kpci_private.h:551 kpci_private.h:552
-#, kde-format
-msgid "SD Host controller"
-msgstr "Trình điều khiển máy SD"
+#~ msgid "CardBus bridge"
+#~ msgstr "Cầu CardBus"
 
-#: kpci_private.h:553
-#, kde-format
-msgid "IOMMU"
-msgstr "IOMMU"
+#~ msgid "RACEway bridge"
+#~ msgstr "Cầu RACEway"
 
-#: kpci_private.h:554
-#, kde-format
-msgid "Unknown system peripheral"
-msgstr "Thiết bị ngoại vi hệ thống không rõ"
+#~ msgid "Semi-transparent PCI-to-PCI bridge"
+#~ msgstr "Cầu PCI-PCI bán trong suốt"
 
-#: kpci_private.h:556
-#, kde-format
-msgid "Keyboard controller"
-msgstr "Trình điều khiển bàn phím"
+#~ msgid "InfiniBand to PCI host bridge"
+#~ msgstr "Cầu máy InfiniBand-PCI"
 
-#: kpci_private.h:557
-#, kde-format
-msgid "Digitizer Pen"
-msgstr "Bút số hoá"
+#~ msgid "Unknown bridge"
+#~ msgstr "Cầu không rõ"
 
-#: kpci_private.h:558
-#, kde-format
-msgid "Mouse controller"
-msgstr "Trình điều khiển chuột"
+#~ msgid "Serial controller"
+#~ msgstr "Trình điều khiển nối tiếp"
 
-#: kpci_private.h:559
-#, kde-format
-msgid "Scanner controller"
-msgstr "Trình điều khiển máy quét"
+#~ msgid "Parallel controller"
+#~ msgstr "Trình điều khiển song song"
 
-#: kpci_private.h:560
-#, kde-format
-msgid "Gameport controller"
-msgstr "Trình điều khiển cổng trò chơi"
+#~ msgid "Multiport serial controller"
+#~ msgstr "Trình điều khiển nối tiếp đa cổng"
 
-#: kpci_private.h:562
-#, kde-format
-msgid "Unknown input device controller"
-msgstr "Trình điều khiển thiết bị nhập không rõ"
+#~ msgid "Modem"
+#~ msgstr "Bộ điều giải"
 
-#: kpci_private.h:564
-#, kde-format
-msgid "Generic docking station"
-msgstr "Trạm nối chung"
+#~ msgid "GPIB controller"
+#~ msgstr "Trình điều khiển GPIB"
 
-#: kpci_private.h:566
-#, kde-format
-msgid "Unknown docking station"
-msgstr "Trạm nối không rõ"
+#~ msgid "Smart card controller"
+#~ msgstr "Trình điều khiển thẻ thông minh"
 
-#: kpci_private.h:568
-#, kde-format
-msgid "386"
-msgstr "386"
+#~ msgid "Unknown communication controller"
+#~ msgstr "Trình điều khiển liên lạc không rõ"
 
-#: kpci_private.h:569
-#, kde-format
-msgid "486"
-msgstr "486"
+#~ msgid "PIC"
+#~ msgstr "PIC"
 
-#: kpci_private.h:570
-#, kde-format
-msgid "Pentium"
-msgstr "Pentium"
+#~ msgid "DMA controller"
+#~ msgstr "Trình điều khiển DMA"
 
-#: kpci_private.h:571
-#, kde-format
-msgid "Alpha"
-msgstr "Alpha"
+#~ msgid "Timer"
+#~ msgstr "Hẹn giờ"
 
-#: kpci_private.h:572
-#, kde-format
-msgid "Power PC"
-msgstr "Power PC"
+#~ msgid "RTC"
+#~ msgstr "RTC"
 
-#: kpci_private.h:573
-#, kde-format
-msgid "MIPS"
-msgstr "MIPS"
+#~ msgid "PCI Hot-plug controller"
+#~ msgstr "Trình điều khiển cắm nóng PCI"
 
-#: kpci_private.h:574
-#, kde-format
-msgid "Co-processor"
-msgstr "Bộ đồng xử lí"
+#~ msgid "SD Host controller"
+#~ msgstr "Trình điều khiển máy SD"
 
-#: kpci_private.h:575
-#, kde-format
-msgid "Unknown processor"
-msgstr "Bộ xử lí không rõ"
+#~ msgid "IOMMU"
+#~ msgstr "IOMMU"
 
-#: kpci_private.h:577
-#, kde-format
-msgid "FireWire (IEEE 1394)"
-msgstr "FireWire (IEEE 1394)"
+#~ msgid "Unknown system peripheral"
+#~ msgstr "Thiết bị ngoại vi hệ thống không rõ"
 
-#: kpci_private.h:578
-#, kde-format
-msgid "ACCESS bus"
-msgstr "Buýt ACCESS"
+#~ msgid "Keyboard controller"
+#~ msgstr "Trình điều khiển bàn phím"
 
-#: kpci_private.h:579
-#, kde-format
-msgid "SSA"
-msgstr "SSA"
+#~ msgid "Digitizer Pen"
+#~ msgstr "Bút số hoá"
 
-#: kpci_private.h:580
-#, kde-format
-msgid "USB controller"
-msgstr "Trình điều khiển USB"
+#~ msgid "Mouse controller"
+#~ msgstr "Trình điều khiển chuột"
 
-#: kpci_private.h:581
-#, kde-format
-msgid "Fibre channel"
-msgstr "Kênh Fibre"
+#~ msgid "Scanner controller"
+#~ msgstr "Trình điều khiển máy quét"
 
-#: kpci_private.h:582
-#, kde-format
-msgid "SMBus"
-msgstr "SMBus"
+#~ msgid "Gameport controller"
+#~ msgstr "Trình điều khiển cổng trò chơi"
 
-#: kpci_private.h:583
-#, kde-format
-msgid "InfiniBand"
-msgstr "InfiniBand"
+#~ msgid "Unknown input device controller"
+#~ msgstr "Trình điều khiển thiết bị nhập không rõ"
 
-#: kpci_private.h:584
-#, kde-format
-msgid "IPMI interface"
-msgstr "Giao diện IPMI"
+#~ msgid "Generic docking station"
+#~ msgstr "Trạm nối chung"
 
-#: kpci_private.h:585
-#, kde-format
-msgid "SERCOS interface"
-msgstr "Giao diện SERCOS"
+#~ msgid "Unknown docking station"
+#~ msgstr "Trạm nối không rõ"
 
-#: kpci_private.h:586
-#, kde-format
-msgid "CANbus"
-msgstr "CANbus"
+#~ msgid "386"
+#~ msgstr "386"
 
-#: kpci_private.h:587
-#, kde-format
-msgid "Unknown serial bus controller"
-msgstr "Trình điều khiển buýt nối tiếp không rõ"
+#~ msgid "486"
+#~ msgstr "486"
 
-#: kpci_private.h:589
-#, kde-format
-msgid "IRDA controller"
-msgstr "Trình điều khiển IRDA"
+#~ msgid "Pentium"
+#~ msgstr "Pentium"
 
-#: kpci_private.h:590
-#, kde-format
-msgid "Consumer IR controller"
-msgstr "Trình điều khiển IR người tiêu dùng"
+#~ msgid "Alpha"
+#~ msgstr "Alpha"
 
-#: kpci_private.h:591
-#, kde-format
-msgid "RF controller"
-msgstr "Trình điều khiển RF"
+#~ msgid "Power PC"
+#~ msgstr "Power PC"
 
-#: kpci_private.h:592
-#, kde-format
-msgid "Bluetooth"
-msgstr "Bluetooth"
+#~ msgid "MIPS"
+#~ msgstr "MIPS"
 
-#: kpci_private.h:593
-#, kde-format
-msgid "Broadband"
-msgstr "Băng rộng"
+#~ msgid "Co-processor"
+#~ msgstr "Bộ đồng xử lí"
 
-#: kpci_private.h:594
-#, kde-format
-msgid "Ethernet (802.11a - 5 GHz)"
-msgstr "Ethernet (802.11a - 5 GHz)"
+#~ msgid "Unknown processor"
+#~ msgstr "Bộ xử lí không rõ"
 
-#: kpci_private.h:595
-#, kde-format
-msgid "Ethernet (802.11b - 2.4 GHz)"
-msgstr "Ethernet (802.11b - 2.4 GHz)"
+#~ msgid "FireWire (IEEE 1394)"
+#~ msgstr "FireWire (IEEE 1394)"
 
-#: kpci_private.h:597
-#, kde-format
-msgid "Unknown wireless controller"
-msgstr "Trình điều khiển không dây không rõ"
+#~ msgid "ACCESS bus"
+#~ msgstr "Buýt ACCESS"
 
-#: kpci_private.h:599
-#, kde-format
-msgid "I2O"
-msgstr "I2O"
+#~ msgid "SSA"
+#~ msgstr "SSA"
 
-#: kpci_private.h:600
-#, kde-format
-msgid "Unknown intelligent controller"
-msgstr "Trình điều khiển thông minh không rõ"
+#~ msgid "USB controller"
+#~ msgstr "Trình điều khiển USB"
 
-#: kpci_private.h:602
-#, kde-format
-msgid "Satellite TV controller"
-msgstr "Trình điều khiển ti-vi vệ tinh"
+#~ msgid "Fibre channel"
+#~ msgstr "Kênh Fibre"
 
-#: kpci_private.h:603
-#, kde-format
-msgid "Satellite audio communication controller"
-msgstr "Trình điều khiển liên lạc âm thanh vệ tinh"
+#~ msgid "SMBus"
+#~ msgstr "SMBus"
 
-#: kpci_private.h:604
-#, kde-format
-msgid "Satellite voice communication controller"
-msgstr "Trình điều khiển liên lạc tiếng nói vệ tinh"
+#~ msgid "InfiniBand"
+#~ msgstr "InfiniBand"
 
-#: kpci_private.h:605
-#, kde-format
-msgid "Satellite data communication controller"
-msgstr "Trình điều khiển liên lạc dữ liệu vệ tinh"
+#~ msgid "IPMI interface"
+#~ msgstr "Giao diện IPMI"
 
-#: kpci_private.h:606
-#, kde-format
-msgid "Unknown satellite communications controller"
-msgstr "Trình điều khiển liên lạc vệ tinh không rõ"
+#~ msgid "SERCOS interface"
+#~ msgstr "Giao diện SERCOS"
 
-#: kpci_private.h:608
-#, kde-format
-msgid "Network and computing encryption device"
-msgstr "Thiết bị mật mã hoá mạng và điện toán"
+#~ msgid "CANbus"
+#~ msgstr "CANbus"
 
-#: kpci_private.h:609
-#, kde-format
-msgid "Entertainment encryption device"
-msgstr "Thiết bị mật mã hoá giải trí"
+#~ msgid "Unknown serial bus controller"
+#~ msgstr "Trình điều khiển buýt nối tiếp không rõ"
 
-#: kpci_private.h:611
-#, kde-format
-msgid "Unknown encryption controller"
-msgstr "Trình điều khiển mật mã hoá không rõ"
+#~ msgid "IRDA controller"
+#~ msgstr "Trình điều khiển IRDA"
 
-#: kpci_private.h:613
-#, kde-format
-msgid "DPIO module"
-msgstr "Khối DPIO"
+#~ msgid "Consumer IR controller"
+#~ msgstr "Trình điều khiển IR người tiêu dùng"
 
-#: kpci_private.h:614
-#, kde-format
-msgid "Performance counters"
-msgstr "Bộ tính hiệu năng"
+#~ msgid "RF controller"
+#~ msgstr "Trình điều khiển RF"
 
-#: kpci_private.h:615
-#, kde-format
-msgid "Communication synchronizer"
-msgstr "Trình đồng bộ liên lạc"
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
 
-#: kpci_private.h:616
-#, kde-format
-msgid "Signal processing management"
-msgstr "Quản lí xử lí tín hiệu"
+#~ msgid "Broadband"
+#~ msgstr "Băng rộng"
 
-#: kpci_private.h:618
-#, kde-format
-msgid "Unknown signal processing controller"
-msgstr "Trình điều khiển xử lí tín hiệu không rõ"
+#~ msgid "Ethernet (802.11a - 5 GHz)"
+#~ msgstr "Ethernet (802.11a - 5 GHz)"
 
-#: kpci_private.h:621
-#, kde-format
-msgid "Unknown processing accelerator"
-msgstr "Bộ tăng tốc xử lí không rõ"
+#~ msgid "Ethernet (802.11b - 2.4 GHz)"
+#~ msgstr "Ethernet (802.11b - 2.4 GHz)"
 
-#: kpci_private.h:623
-#, kde-format
-msgid "Unknown subdevice class"
-msgstr "Lớp thiết bị con không rõ"
+#~ msgid "Unknown wireless controller"
+#~ msgstr "Trình điều khiển không dây không rõ"
 
-#: kpci_private.h:630
-#, kde-format
-msgid "ISA Compatibility mode-only controller"
-msgstr "Trình điều khiển chỉ có chế độ tương thích ISA"
+#~ msgid "I2O"
+#~ msgstr "I2O"
 
-#: kpci_private.h:631
-#, kde-format
-msgid "PCI native mode-only controller"
-msgstr "Trình điều khiển chỉ có chế độ bản địa PCI"
+#~ msgid "Unknown intelligent controller"
+#~ msgstr "Trình điều khiển thông minh không rõ"
 
-#: kpci_private.h:632
-#, kde-format
-msgid ""
-"ISA Compatibility mode controller, supports both channels switched to PCI "
-"native mode"
-msgstr ""
-"Trình điều khiển chế độ tương thích ISA, hỗ trợ cả hai kênh được chuyển sang "
-"chế độ bản địa PCI"
-
-#: kpci_private.h:633
-#, kde-format
-msgid ""
-"PCI native mode controller, supports both channels switched to ISA "
-"compatibility mode"
-msgstr ""
-"Trình điều khiển chế độ bản địa PCI, hỗ trợ cả hai kênh được chuyển sang chế "
-"độ tương thích ISA"
-
-#: kpci_private.h:634
-#, kde-format
-msgid "ISA Compatibility mode-only controller, supports bus mastering"
-msgstr "Trình điều khiển chỉ có chế độ tương thích ISA, hỗ trợ làm chủ buýt"
+#~ msgid "Satellite TV controller"
+#~ msgstr "Trình điều khiển ti-vi vệ tinh"
 
-#: kpci_private.h:635
-#, kde-format
-msgid "PCI native mode-only controller, supports bus mastering"
-msgstr "Trình điều khiển chỉ có chế độ bản địa PCI, hỗ trợ làm chủ buýt"
+#~ msgid "Satellite audio communication controller"
+#~ msgstr "Trình điều khiển liên lạc âm thanh vệ tinh"
 
-#: kpci_private.h:636
-#, kde-format
-msgid ""
-"ISA Compatibility mode controller, supports both channels switched to PCI "
-"native mode, supports bus mastering"
-msgstr ""
-"Trình điều khiển chế độ tương thích ISA, hỗ trợ cả hai kênh được chuyển sang "
-"chế độ bản địa PCI, hỗ trợ làm chủ buýt"
-
-#: kpci_private.h:637
-#, kde-format
-msgid ""
-"PCI native mode controller, supports both channels switched to ISA "
-"compatibility mode, supports bus mastering"
-msgstr ""
-"Trình điều khiển chế độ bản địa PCI, hỗ trợ cả hai kênh được chuyển sang chế "
-"độ tương thích ISA, hỗ trợ làm chủ buýt"
-
-#: kpci_private.h:639
-#, kde-format
-msgid "ADMA single stepping"
-msgstr "ADMA chia bước đơn"
+#~ msgid "Satellite voice communication controller"
+#~ msgstr "Trình điều khiển liên lạc tiếng nói vệ tinh"
 
-#: kpci_private.h:640
-#, kde-format
-msgid "ADMA continuous operation"
-msgstr "ADMA thao tác liên tục"
+#~ msgid "Satellite data communication controller"
+#~ msgstr "Trình điều khiển liên lạc dữ liệu vệ tinh"
 
-#: kpci_private.h:642 kpci_private.h:730
-#, kde-format
-msgid "Vendor specific"
-msgstr "Riêng của nhà cung cấp"
+#~ msgid "Unknown satellite communications controller"
+#~ msgstr "Trình điều khiển liên lạc vệ tinh không rõ"
 
-#: kpci_private.h:643
-#, kde-format
-msgid "AHCI 1.0"
-msgstr "AHCI 1.0"
+#~ msgid "Network and computing encryption device"
+#~ msgstr "Thiết bị mật mã hoá mạng và điện toán"
 
-#: kpci_private.h:644 kpci_private.h:646
-#, kde-format
-msgid "Serial Storage Bus"
-msgstr "Buýt lưu trữ nối tiếp"
+#~ msgid "Entertainment encryption device"
+#~ msgstr "Thiết bị mật mã hoá giải trí"
 
-#: kpci_private.h:648
-#, kde-format
-msgid "NVMHCI"
-msgstr "NVMHCI"
+#~ msgid "Unknown encryption controller"
+#~ msgstr "Trình điều khiển mật mã hoá không rõ"
 
-#: kpci_private.h:649
-#, kde-format
-msgid "NVM Express"
-msgstr "NVM Express"
+#~ msgid "DPIO module"
+#~ msgstr "Khối DPIO"
 
-#: kpci_private.h:651
-#, kde-format
-msgid "VGA controller"
-msgstr "Trình điều khiển VGA"
+#~ msgid "Performance counters"
+#~ msgstr "Bộ tính hiệu năng"
 
-#: kpci_private.h:652
-#, kde-format
-msgid "8514 controller"
-msgstr "Trình điều khiển 8514"
+#~ msgid "Communication synchronizer"
+#~ msgstr "Trình đồng bộ liên lạc"
 
-#: kpci_private.h:654
-#, kde-format
-msgid "Normal decode"
-msgstr "Giải mã thường"
+#~ msgid "Signal processing management"
+#~ msgstr "Quản lí xử lí tín hiệu"
 
-#: kpci_private.h:655
-#, kde-format
-msgid "Subtractive decode"
-msgstr "Giải mã trừ"
+#~ msgid "Unknown signal processing controller"
+#~ msgstr "Trình điều khiển xử lí tín hiệu không rõ"
 
-#: kpci_private.h:657
-#, kde-format
-msgid "Transparent mode"
-msgstr "Chế độ trong suốt"
+#~ msgid "Unknown processing accelerator"
+#~ msgstr "Bộ tăng tốc xử lí không rõ"
 
-#: kpci_private.h:658
-#, kde-format
-msgid "Endpoint mode"
-msgstr "Chế độ điểm cuối"
+#~ msgid "Unknown subdevice class"
+#~ msgstr "Lớp thiết bị con không rõ"
 
-#: kpci_private.h:660
-#, kde-format
-msgid "Primary bus towards host CPU"
-msgstr "Buýt chính hướng đến CPU máy"
+#~ msgid "ISA Compatibility mode-only controller"
+#~ msgstr "Trình điều khiển chỉ có chế độ tương thích ISA"
 
-#: kpci_private.h:661
-#, kde-format
-msgid "Secondary bus towards host CPU"
-msgstr "Buýt phụ hướng đến CPU máy"
+#~ msgid "PCI native mode-only controller"
+#~ msgstr "Trình điều khiển chỉ có chế độ bản địa PCI"
 
-#: kpci_private.h:663
-#, kde-format
-msgid "8250"
-msgstr "8250"
+#~ msgid ""
+#~ "ISA Compatibility mode controller, supports both channels switched to PCI "
+#~ "native mode"
+#~ msgstr ""
+#~ "Trình điều khiển chế độ tương thích ISA, hỗ trợ cả hai kênh được chuyển "
+#~ "sang chế độ bản địa PCI"
 
-#: kpci_private.h:664
-#, kde-format
-msgid "16450"
-msgstr "16450"
+#~ msgid ""
+#~ "PCI native mode controller, supports both channels switched to ISA "
+#~ "compatibility mode"
+#~ msgstr ""
+#~ "Trình điều khiển chế độ bản địa PCI, hỗ trợ cả hai kênh được chuyển sang "
+#~ "chế độ tương thích ISA"
 
-#: kpci_private.h:665
-#, kde-format
-msgid "16550"
-msgstr "16550"
+#~ msgid "ISA Compatibility mode-only controller, supports bus mastering"
+#~ msgstr "Trình điều khiển chỉ có chế độ tương thích ISA, hỗ trợ làm chủ buýt"
 
-#: kpci_private.h:666
-#, kde-format
-msgid "16650"
-msgstr "16650"
+#~ msgid "PCI native mode-only controller, supports bus mastering"
+#~ msgstr "Trình điều khiển chỉ có chế độ bản địa PCI, hỗ trợ làm chủ buýt"
 
-#: kpci_private.h:667
-#, kde-format
-msgid "16750"
-msgstr "16750"
+#~ msgid ""
+#~ "ISA Compatibility mode controller, supports both channels switched to PCI "
+#~ "native mode, supports bus mastering"
+#~ msgstr ""
+#~ "Trình điều khiển chế độ tương thích ISA, hỗ trợ cả hai kênh được chuyển "
+#~ "sang chế độ bản địa PCI, hỗ trợ làm chủ buýt"
 
-#: kpci_private.h:668
-#, kde-format
-msgid "16850"
-msgstr "16850"
+#~ msgid ""
+#~ "PCI native mode controller, supports both channels switched to ISA "
+#~ "compatibility mode, supports bus mastering"
+#~ msgstr ""
+#~ "Trình điều khiển chế độ bản địa PCI, hỗ trợ cả hai kênh được chuyển sang "
+#~ "chế độ tương thích ISA, hỗ trợ làm chủ buýt"
 
-#: kpci_private.h:669
-#, kde-format
-msgid "16950"
-msgstr "16950"
+#~ msgid "ADMA single stepping"
+#~ msgstr "ADMA chia bước đơn"
 
-#: kpci_private.h:671
-#, kde-format
-msgid "SPP"
-msgstr "SPP"
+#~ msgid "ADMA continuous operation"
+#~ msgstr "ADMA thao tác liên tục"
 
-#: kpci_private.h:672
-#, kde-format
-msgid "BiDir"
-msgstr "BiDir"
+#~ msgid "Vendor specific"
+#~ msgstr "Riêng của nhà cung cấp"
 
-#: kpci_private.h:673
-#, kde-format
-msgid "ECP"
-msgstr "ECP"
+#~ msgid "AHCI 1.0"
+#~ msgstr "AHCI 1.0"
 
-#: kpci_private.h:674
-#, kde-format
-msgid "IEEE1284"
-msgstr "IEEE1284"
+#~ msgid "Serial Storage Bus"
+#~ msgstr "Buýt lưu trữ nối tiếp"
 
-#: kpci_private.h:675
-#, kde-format
-msgid "IEEE1284 Target"
-msgstr "Đích IEEE1284"
+#~ msgid "NVMHCI"
+#~ msgstr "NVMHCI"
 
-#: kpci_private.h:677 kpci_private.h:698 kpci_private.h:701 kpci_private.h:704
-#, kde-format
-msgid "Generic"
-msgstr "Chung"
+#~ msgid "NVM Express"
+#~ msgstr "NVM Express"
 
-#: kpci_private.h:678
-#, kde-format
-msgid "Hayes/16450"
-msgstr "Hayes/16450"
+#~ msgid "VGA controller"
+#~ msgstr "Trình điều khiển VGA"
 
-#: kpci_private.h:679
-#, kde-format
-msgid "Hayes/16550"
-msgstr "Hayes/16550"
+#~ msgid "8514 controller"
+#~ msgstr "Trình điều khiển 8514"
 
-#: kpci_private.h:680
-#, kde-format
-msgid "Hayes/16650"
-msgstr "Hayes/16650"
+#~ msgid "Normal decode"
+#~ msgstr "Giải mã thường"
 
-#: kpci_private.h:681
-#, kde-format
-msgid "Hayes/16750"
-msgstr "Hayes/16750"
+#~ msgid "Subtractive decode"
+#~ msgstr "Giải mã trừ"
 
-#: kpci_private.h:683
-#, kde-format
-msgid "8259"
-msgstr "8259"
+#~ msgid "Transparent mode"
+#~ msgstr "Chế độ trong suốt"
 
-#: kpci_private.h:684
-#, kde-format
-msgid "ISA PIC"
-msgstr "ISA PIC"
+#~ msgid "Endpoint mode"
+#~ msgstr "Chế độ điểm cuối"
 
-#: kpci_private.h:685
-#, kde-format
-msgid "EISA PIC"
-msgstr "EISA PIC"
+#~ msgid "Primary bus towards host CPU"
+#~ msgstr "Buýt chính hướng đến CPU máy"
 
-#: kpci_private.h:686
-#, kde-format
-msgid "IO-APIC"
-msgstr "IO-APIC"
+#~ msgid "Secondary bus towards host CPU"
+#~ msgstr "Buýt phụ hướng đến CPU máy"
 
-#: kpci_private.h:687
-#, kde-format
-msgid "IO(X)-APIC"
-msgstr "IO(X)-APIC"
+#~ msgid "8250"
+#~ msgstr "8250"
 
-#: kpci_private.h:689
-#, kde-format
-msgid "8237"
-msgstr "8237"
+#~ msgid "16450"
+#~ msgstr "16450"
 
-#: kpci_private.h:690
-#, kde-format
-msgid "ISA DMA"
-msgstr "ISA DMA"
+#~ msgid "16550"
+#~ msgstr "16550"
 
-#: kpci_private.h:691
-#, kde-format
-msgid "EISA DMA"
-msgstr "EISA DMA"
+#~ msgid "16650"
+#~ msgstr "16650"
 
-#: kpci_private.h:693
-#, kde-format
-msgid "8254"
-msgstr "8254"
+#~ msgid "16750"
+#~ msgstr "16750"
 
-#: kpci_private.h:694
-#, kde-format
-msgid "ISA timer"
-msgstr "Hẹn giờ ISA"
+#~ msgid "16850"
+#~ msgstr "16850"
 
-#: kpci_private.h:695
-#, kde-format
-msgid "EISA timers"
-msgstr "Hẹn giờ EISA"
+#~ msgid "16950"
+#~ msgstr "16950"
 
-#: kpci_private.h:696
-#, kde-format
-msgid "HPET"
-msgstr "HPET"
+#~ msgid "SPP"
+#~ msgstr "SPP"
 
-#: kpci_private.h:699
-#, kde-format
-msgid "ISA RTC"
-msgstr "ISA RTC"
+#~ msgid "BiDir"
+#~ msgstr "BiDir"
 
-#: kpci_private.h:702
-#, kde-format
-msgid "Extended"
-msgstr "Mở rộng"
+#~ msgid "ECP"
+#~ msgstr "ECP"
 
-#: kpci_private.h:705 kpci_private.h:708
-#, kde-format
-msgid "OHCI"
-msgstr "OHCI"
+#~ msgid "IEEE1284"
+#~ msgstr "IEEE1284"
 
-#: kpci_private.h:707
-#, kde-format
-msgid "UHCI"
-msgstr "UHCI"
+#~ msgid "IEEE1284 Target"
+#~ msgstr "Đích IEEE1284"
 
-#: kpci_private.h:709
-#, kde-format
-msgid "EHCI"
-msgstr "EHCI"
+#~ msgid "Generic"
+#~ msgstr "Chung"
 
-#: kpci_private.h:710
-#, kde-format
-msgid "XHCI"
-msgstr "XHCI"
+#~ msgid "Hayes/16450"
+#~ msgstr "Hayes/16450"
 
-#: kpci_private.h:711
-#, kde-format
-msgid "Unspecified"
-msgstr "Không xác định"
+#~ msgid "Hayes/16550"
+#~ msgstr "Hayes/16550"
 
-#: kpci_private.h:712
-#, kde-format
-msgid "USB Device"
-msgstr "Thiết bị USB"
+#~ msgid "Hayes/16650"
+#~ msgstr "Hayes/16650"
 
-#: kpci_private.h:714
-#, kde-format
-msgid "SMIC"
-msgstr "SMIC"
+#~ msgid "Hayes/16750"
+#~ msgstr "Hayes/16750"
 
-#: kpci_private.h:715
-#, kde-format
-msgid "Keyboard controller style"
-msgstr "Kiểu cách trình điều khiển bàn phím"
+#~ msgid "8259"
+#~ msgstr "8259"
 
-#: kpci_private.h:716
-#, kde-format
-msgid "Block transfer"
-msgstr "Truyền khối"
+#~ msgid "ISA PIC"
+#~ msgstr "ISA PIC"
 
-#: kpci_private.h:724
-#, kde-format
-msgid "Vital product data"
-msgstr "Dữ liệu sản phẩm quan trọng"
+#~ msgid "EISA PIC"
+#~ msgstr "EISA PIC"
 
-#: kpci_private.h:725
-#, kde-format
-msgid "Slot identification"
-msgstr "Định danh khe cắm"
+#~ msgid "IO-APIC"
+#~ msgstr "IO-APIC"
 
-#: kpci_private.h:727
-#, kde-format
-msgid "CompactPCI hot swap"
-msgstr "Hoán đổi nóng CompactPCI"
+#~ msgid "IO(X)-APIC"
+#~ msgstr "IO(X)-APIC"
 
-#: kpci_private.h:728
-#, kde-format
-msgid "PCI-X"
-msgstr "PCI-X"
+#~ msgid "8237"
+#~ msgstr "8237"
 
-#: kpci_private.h:729
-#, kde-format
-msgid "HyperTransport"
-msgstr "HyperTransport"
+#~ msgid "ISA DMA"
+#~ msgstr "ISA DMA"
 
-#: kpci_private.h:731
-#, kde-format
-msgid "Debug port"
-msgstr "Cổng gỡ lỗi"
+#~ msgid "EISA DMA"
+#~ msgstr "EISA DMA"
 
-#: kpci_private.h:732
-#, kde-format
-msgid "CompactPCI central resource control"
-msgstr "Điều khiển tài nguyên trung tâm CompactPCI"
+#~ msgid "8254"
+#~ msgstr "8254"
 
-#: kpci_private.h:733
-#, kde-format
-msgid "PCI hot-plug"
-msgstr "Cắm nóng PCI"
+#~ msgid "ISA timer"
+#~ msgstr "Hẹn giờ ISA"
 
-#: kpci_private.h:734
-#, kde-format
-msgid "AGP x8"
-msgstr "AGP x8"
+#~ msgid "EISA timers"
+#~ msgstr "Hẹn giờ EISA"
 
-#: kpci_private.h:735
-#, kde-format
-msgid "Secure device"
-msgstr "Thiết bị an toàn"
+#~ msgid "HPET"
+#~ msgstr "HPET"
 
-#: kpci_private.h:736
-#, kde-format
-msgid "PCI express"
-msgstr "PCI express"
+#~ msgid "ISA RTC"
+#~ msgstr "ISA RTC"
 
-#: kpci_private.h:737
-#, kde-format
-msgid "MSI-X"
-msgstr "MSI-X"
+#~ msgid "Extended"
+#~ msgstr "Mở rộng"
 
-#: kpci_private.h:738
-#, kde-format
-msgid "PCI Advanced Features"
-msgstr "Tính năng nâng cao PCI"
+#~ msgid "OHCI"
+#~ msgstr "OHCI"
 
-#: kpci_private.h:743
-#, kde-format
-msgid "Fast"
-msgstr "Nhanh"
+#~ msgid "UHCI"
+#~ msgstr "UHCI"
 
-#: kpci_private.h:743
-#, kde-format
-msgid "Medium"
-msgstr "Vừa"
+#~ msgid "EHCI"
+#~ msgstr "EHCI"
 
-#: kpci_private.h:743
-#, kde-format
-msgid "Slow"
-msgstr "Chậm"
+#~ msgid "XHCI"
+#~ msgstr "XHCI"
 
-#: kpci_private.h:747
-#, kde-format
-msgid "32 bit"
-msgstr "32 bit"
+#~ msgid "Unspecified"
+#~ msgstr "Không xác định"
 
-#: kpci_private.h:747
-#, kde-format
-msgid "Below 1M"
-msgstr "Dưới 1M"
+#~ msgid "USB Device"
+#~ msgstr "Thiết bị USB"
 
-#: kpci_private.h:747
-#, kde-format
-msgid "64 bit"
-msgstr "64 bit"
+#~ msgid "SMIC"
+#~ msgstr "SMIC"
 
-#: kpci_private.h:751
-#, kde-format
-msgid "Standard"
-msgstr "Tiêu chuẩn"
+#~ msgid "Keyboard controller style"
+#~ msgstr "Kiểu cách trình điều khiển bàn phím"
 
-#: kpci_private.h:751
-#, kde-format
-msgid "CardBus"
-msgstr "CardBus"
+#~ msgid "Block transfer"
+#~ msgstr "Truyền khối"
 
-#: kpci_private.h:755
-#, kde-format
-msgid "1X"
-msgstr "1X"
+#~ msgid "Vital product data"
+#~ msgstr "Dữ liệu sản phẩm quan trọng"
 
-#: kpci_private.h:756
-#, kde-format
-msgid "2X"
-msgstr "2X"
+#~ msgid "Slot identification"
+#~ msgstr "Định danh khe cắm"
 
-#: kpci_private.h:757
-#, kde-format
-msgid "1X & 2X"
-msgstr "1X & 2X"
+#~ msgid "CompactPCI hot swap"
+#~ msgstr "Hoán đổi nóng CompactPCI"
 
-#: kpci_private.h:758 kpci_private.h:762
-#, kde-format
-msgid "4X"
-msgstr "4X"
+#~ msgid "HyperTransport"
+#~ msgstr "HyperTransport"
 
-#: kpci_private.h:759
-#, kde-format
-msgid "1X & 4X"
-msgstr "1X & 4X"
+#~ msgid "Debug port"
+#~ msgstr "Cổng gỡ lỗi"
 
-#: kpci_private.h:760
-#, kde-format
-msgid "2X & 4X"
-msgstr "2X & 4X"
+#~ msgid "CompactPCI central resource control"
+#~ msgstr "Điều khiển tài nguyên trung tâm CompactPCI"
 
-#: kpci_private.h:761
-#, kde-format
-msgid "1X & 2X & 4X"
-msgstr "1X & 2X & 4X"
+#~ msgid "PCI hot-plug"
+#~ msgstr "Cắm nóng PCI"
 
-#: kpci_private.h:763
-#, kde-format
-msgid "8X"
-msgstr "8X"
+#~ msgid "AGP x8"
+#~ msgstr "AGP x8"
 
-#: kpci_private.h:764
-#, kde-format
-msgid "4X & 8X"
-msgstr "4X & 8X"
+#~ msgid "Secure device"
+#~ msgstr "Thiết bị an toàn"
 
-#: kpci_private.h:770
-#, kde-format
-msgid "4 ms"
-msgstr "4 ms"
+#~ msgid "PCI express"
+#~ msgstr "PCI express"
 
-#: kpci_private.h:770
-#, kde-format
-msgid "16 ms"
-msgstr "16 ms"
+#~ msgid "MSI-X"
+#~ msgstr "MSI-X"
 
-#: kpci_private.h:770
-#, kde-format
-msgid "64 ms"
-msgstr "64 ms"
+#~ msgid "PCI Advanced Features"
+#~ msgstr "Tính năng nâng cao PCI"
 
-#: kpci_private.h:770
-#, kde-format
-msgid "256 ms"
-msgstr "256 ms"
+#~ msgid "Fast"
+#~ msgstr "Nhanh"
 
-#: kpci_private.h:770
-#, kde-format
-msgid "Not needed"
-msgstr "Không cần thiết"
+#~ msgid "Medium"
+#~ msgstr "Vừa"
 
-#: kpci_private.h:774
-#, kde-format
-msgid "0 (self powered)"
-msgstr "0 (tự cấp nguồn)"
+#~ msgid "Slow"
+#~ msgstr "Chậm"
 
-#: kpci_private.h:775
-#, kde-format
-msgid "55 mA"
-msgstr "55 mA"
+#~ msgid "32 bit"
+#~ msgstr "32 bit"
 
-#: kpci_private.h:776
-#, kde-format
-msgid "100 mA"
-msgstr "100 mA"
+#~ msgid "Below 1M"
+#~ msgstr "Dưới 1M"
 
-#: kpci_private.h:777
-#, kde-format
-msgid "160 mA"
-msgstr "160 mA"
+#~ msgid "64 bit"
+#~ msgstr "64 bit"
 
-#: kpci_private.h:778
-#, kde-format
-msgid "220 mA"
-msgstr "220 mA"
+#~ msgid "Standard"
+#~ msgstr "Tiêu chuẩn"
 
-#: kpci_private.h:779
-#, kde-format
-msgid "270 mA"
-msgstr "270 mA"
+#~ msgid "CardBus"
+#~ msgstr "CardBus"
 
-#: kpci_private.h:780
-#, kde-format
-msgid "320 mA"
-msgstr "320 mA"
+#~ msgid "1X"
+#~ msgstr "1X"
 
-#: kpci_private.h:781
-#, kde-format
-msgid "375 mA"
-msgstr "375 mA"
+#~ msgid "2X"
+#~ msgstr "2X"
 
-#: kpci_private.h:790
-#, kde-format
-msgid "1 vector"
-msgstr "1 véc-tơ"
+#~ msgid "1X & 2X"
+#~ msgstr "1X & 2X"
 
-#: kpci_private.h:791
-#, kde-format
-msgid "2 vectors"
-msgstr "2 véc-tơ"
+#~ msgid "4X"
+#~ msgstr "4X"
 
-#: kpci_private.h:792
-#, kde-format
-msgid "4 vectors"
-msgstr "4 véc-tơ"
+#~ msgid "1X & 4X"
+#~ msgstr "1X & 4X"
 
-#: kpci_private.h:793
-#, kde-format
-msgid "8 vectors"
-msgstr "8 véc-tơ"
+#~ msgid "2X & 4X"
+#~ msgstr "2X & 4X"
 
-#: kpci_private.h:794
-#, kde-format
-msgid "16 vectors"
-msgstr "16 véc-tơ"
+#~ msgid "1X & 2X & 4X"
+#~ msgstr "1X & 2X & 4X"
 
-#: kpci_private.h:795
-#, kde-format
-msgid "32 vectors"
-msgstr "32 véc-tơ"
+#~ msgid "8X"
+#~ msgstr "8X"
+
+#~ msgid "4X & 8X"
+#~ msgstr "4X & 8X"
+
+#~ msgid "4 ms"
+#~ msgstr "4 ms"
+
+#~ msgid "16 ms"
+#~ msgstr "16 ms"
+
+#~ msgid "64 ms"
+#~ msgstr "64 ms"
+
+#~ msgid "256 ms"
+#~ msgstr "256 ms"
+
+#~ msgid "Not needed"
+#~ msgstr "Không cần thiết"
+
+#~ msgid "0 (self powered)"
+#~ msgstr "0 (tự cấp nguồn)"
+
+#~ msgid "55 mA"
+#~ msgstr "55 mA"
+
+#~ msgid "100 mA"
+#~ msgstr "100 mA"
+
+#~ msgid "160 mA"
+#~ msgstr "160 mA"
+
+#~ msgid "220 mA"
+#~ msgstr "220 mA"
+
+#~ msgid "270 mA"
+#~ msgstr "270 mA"
+
+#~ msgid "320 mA"
+#~ msgstr "320 mA"
+
+#~ msgid "375 mA"
+#~ msgstr "375 mA"
+
+#~ msgid "1 vector"
+#~ msgstr "1 véc-tơ"
+
+#~ msgid "2 vectors"
+#~ msgstr "2 véc-tơ"
+
+#~ msgid "4 vectors"
+#~ msgstr "4 véc-tơ"
+
+#~ msgid "8 vectors"
+#~ msgstr "8 véc-tơ"
+
+#~ msgid "16 vectors"
+#~ msgstr "16 véc-tơ"
+
+#~ msgid "32 vectors"
+#~ msgstr "32 véc-tơ"

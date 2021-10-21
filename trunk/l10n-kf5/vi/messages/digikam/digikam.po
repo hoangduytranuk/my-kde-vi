@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:16+0000\n"
+"POT-Creation-Date: 2021-10-20 00:16+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -546,9 +546,9 @@ msgstr "Mở bằng"
 
 #: core/app/items/utils/contextmenuhelper.cpp:282
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:144
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:170
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:141
-#: core/showfoto/stackview/showfotostackviewlist.cpp:407
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:171
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:143
+#: core/showfoto/stackview/showfotostackviewlist.cpp:416
 #, fuzzy, kde-format
 #| msgid "Open folder"
 msgctxt "@action: context menu"
@@ -1308,7 +1308,13 @@ msgstr "Đang nạp các phần bổ sung Kipi"
 msgid "Checking ICC repository..."
 msgstr "Đang kiểm tra kho lưu ICC"
 
-#: core/app/main/digikamapp.cpp:317
+#: core/app/main/digikamapp.cpp:172
+#, fuzzy, kde-format
+#| msgid "Parsing all albums"
+msgid "Loading albums..."
+msgstr "Đang phân tách mọi tập ảnh"
+
+#: core/app/main/digikamapp.cpp:322
 #, fuzzy, kde-format
 msgid ""
 "<p>The ICC profiles folder seems to be invalid.</p><p>If you want to try "
@@ -1320,77 +1326,77 @@ msgstr ""
 "hợp này, tính năng « Quản lí màu » bị tắt đến khi bạn giải quyết vấn đề này."
 "</p></qt>"
 
-#: core/app/main/digikamapp.cpp:594 core/app/views/stack/trashview.cpp:435
+#: core/app/main/digikamapp.cpp:599 core/app/views/stack/trashview.cpp:435
 #, fuzzy, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:600
+#: core/app/main/digikamapp.cpp:605
 #, fuzzy, kde-format
 msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:604
+#: core/app/main/digikamapp.cpp:609
 #, fuzzy, kde-format
 msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:614
+#: core/app/main/digikamapp.cpp:619
 #, fuzzy, kde-format
 msgid "%1/%2 items selected (%3/%4)"
 msgstr "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:626
+#: core/app/main/digikamapp.cpp:631
 #, fuzzy, kde-format
 msgid "%1/%2 [%3] items selected (%4/%5)"
 msgstr "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:631
+#: core/app/main/digikamapp.cpp:636
 #, kde-format
 msgid "%1/%2 items selected. Total with grouped items: %3"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:638
+#: core/app/main/digikamapp.cpp:643
 #, fuzzy, kde-format
 msgid "%1/%2 [%3/%4] items selected (%5/%6)"
 msgstr "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:644
+#: core/app/main/digikamapp.cpp:649
 #, kde-format
 msgid "%1/%2 items selected. With grouped items: %3/%4"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:672
+#: core/app/main/digikamapp.cpp:677
 #, fuzzy, kde-format
 msgid " (%1 of %2)"
 msgstr " (%1 of %2)"
 
-#: core/app/main/digikamapp.cpp:686
+#: core/app/main/digikamapp.cpp:691
 #, fuzzy, kde-format
 msgid " (%1 of %2 [%3] )"
 msgstr " (%1 of %2)"
 
-#: core/app/main/digikamapp.cpp:690
+#: core/app/main/digikamapp.cpp:695
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:701
+#: core/app/main/digikamapp.cpp:706
 #, fuzzy, kde-format
 msgid "%1 item hidden"
 msgid_plural "%1 items hidden"
 msgstr[0] "16 bit"
 
-#: core/app/main/digikamapp.cpp:751
+#: core/app/main/digikamapp.cpp:756
 #, fuzzy, kde-format
 msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/app/main/digikamapp.cpp:753
+#: core/app/main/digikamapp.cpp:758
 #, fuzzy, kde-format
 msgid "Reread Metadata From File"
 msgid_plural "Reread Metadata From Selected Files"
@@ -2661,47 +2667,47 @@ msgid ""
 "written to.</p>"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:150
+#: core/app/utils/digikam_globals.cpp:152
 #, fuzzy, kde-format
 msgid "%1 Image (%2)"
 msgstr "Ản&h"
 
-#: core/app/utils/digikam_globals.cpp:154
+#: core/app/utils/digikam_globals.cpp:156
 #, kde-format
 msgid "TIFF Image (*.tiff *.tif)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:156
+#: core/app/utils/digikam_globals.cpp:158
 #, kde-format
 msgid "JPEG Image (*.jpg *.jpeg *.jpe)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:161
+#: core/app/utils/digikam_globals.cpp:163
 #, kde-format
 msgid "JPEG2000 Image (*.jp2 *.j2k *.jpx *.pgx)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:166
+#: core/app/utils/digikam_globals.cpp:168
 #, kde-format
 msgid "Progressive Graphics file (*.pgf)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:171
+#: core/app/utils/digikam_globals.cpp:173
 #, kde-format
 msgid "High Efficiency Image Coding (*.heic *.heif)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:178
+#: core/app/utils/digikam_globals.cpp:180
 #, kde-format
 msgid "Flexible Image Transport System (*.fts *.fit *.fits)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:185
+#: core/app/utils/digikam_globals.cpp:187
 #, fuzzy, kde-format
 msgid "Raw Images (%1)"
 msgstr "Lưu ảnh"
 
-#: core/app/utils/digikam_globals.cpp:187
+#: core/app/utils/digikam_globals.cpp:189
 #, fuzzy, kde-format
 msgid "All supported files (%1)"
 msgstr "Đã bỏ qua tệp %1"
@@ -3609,6 +3615,7 @@ msgstr "Tên tệp ảnh mới"
 #: core/app/views/tableview/tableview_column_file.cpp:64
 #: core/app/views/tableview/tableview_column_file.cpp:93
 #: core/libs/dialogs/deletedialog.cpp:184
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:212
 #, kde-format
 msgid "Path"
 msgstr "Đường dẫn"
@@ -3616,6 +3623,7 @@ msgstr "Đường dẫn"
 #: core/app/views/tableview/tableview_column_file.cpp:65
 #: core/app/views/tableview/tableview_column_file.cpp:98
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:78
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
 #, kde-format
 msgid "Size"
 msgstr "Cỡ"
@@ -3739,6 +3747,7 @@ msgstr "Độ sâu màu :"
 
 #: core/app/views/tableview/tableview_column_item.cpp:89
 #: core/app/views/tableview/tableview_column_item.cpp:134
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
 #, fuzzy, kde-format
 msgid "Type"
 msgstr "Kiểu :"
@@ -18624,7 +18633,7 @@ msgid "%1 - %2"
 msgstr "%1 (%2)"
 
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:170
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:384
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:385
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:394
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:558
@@ -18822,43 +18831,44 @@ msgstr "Màu sắc"
 msgid "Outlined Text"
 msgstr "Văn bản đầy đủ"
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:281
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:282
 #, fuzzy, kde-format
 msgid "%1 image [%2]"
 msgid_plural "%1 images [%2]"
 msgstr[0] "Ản&h"
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:285
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:286
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:305
 #, fuzzy, kde-format
 msgid "%1 image"
 msgid_plural "%1 images"
 msgstr[0] "Ản&h"
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:384
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:385
 #, kde-format
 msgid "Cannot access file %1. Please check the path is correct."
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:422
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:423
 #, fuzzy, kde-format
 msgctxt "Image number %1"
 msgid "Image #%1"
 msgstr "Ảnh được tìm trong %1"
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:456
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:457
 #: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:687
 #, kde-format
 msgid "Ken Burns"
 msgstr ""
 
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:483
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:484
 #, fuzzy, kde-format
 #| msgid "&Delay between images:"
 msgid "Delay between images (ms):"
 msgstr "&Hoãn giữa hai ảnh:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_delayLabel)
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:490
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:491
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.ui:210
 #, fuzzy, kde-format
 #| msgid "&Delay between images:"
@@ -21757,6 +21767,7 @@ msgid "This is the list of images to upload to an iNaturalist observation."
 msgstr "Đây là danh sách các mục sắp bị xoá."
 
 #: core/dplugins/generic/webservices/inaturalist/inatwidget.cpp:74
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
 #: core/utilities/searchwindow/searchfields.cpp:212
 #, fuzzy, kde-format
 msgid "Date"
@@ -24220,7 +24231,7 @@ msgstr ""
 "Thẻ « %1 » có một thẻ phụ. Xoá thẻ này thì cũng xoá thẻ phụ đó. Bạn có chắc "
 "muốn tiếp tục không?"
 
-#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:257
+#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:258
 #, kde-format
 msgid ""
 "Error to import RAW image with DarkTable\n"
@@ -24411,14 +24422,14 @@ msgstr "Mặc định"
 msgid "Use general Raw decoding settings to load this image in editor."
 msgstr ""
 
-#: core/dplugins/rawimport/rawtherapee/rawimportrawtherapeeplugin.cpp:202
+#: core/dplugins/rawimport/rawtherapee/rawimportrawtherapeeplugin.cpp:203
 #, kde-format
 msgid ""
 "Error to import RAW image with RawTherapee\n"
 "Close this dialog to load RAW image with native import tool"
 msgstr ""
 
-#: core/dplugins/rawimport/ufraw/rawimportufrawplugin.cpp:195
+#: core/dplugins/rawimport/ufraw/rawimportufrawplugin.cpp:196
 #, kde-format
 msgid ""
 "Error to import RAW image with UFRaw\n"
@@ -31953,118 +31964,118 @@ msgstr "Bộ sửa ảnh"
 msgid "Cancel current operation"
 msgstr "Thông tin máy ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:297
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "Thumbnail"
-msgstr "Hiện các ảnh mẫu"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:298
-#: core/utilities/import/dialogs/cameramessagebox.cpp:147
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "File Name"
-msgstr "Tên tệp ảnh mới"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:299
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "User1"
-msgstr "Trên"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:300
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "User2"
-msgstr "Trên"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:301
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "User3"
-msgstr "Trên"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:302
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "User4"
-msgstr "Trên"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:303
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "User5"
-msgstr "Trên"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:304
-#, fuzzy, kde-format
-msgctxt "@title"
-msgid "User6"
-msgstr "Trên"
-
-#: core/libs/dplugins/widgets/ditemslist.cpp:553
+#: core/libs/dplugins/widgets/ditemslist.cpp:115
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Add new images to the list"
 msgstr "Thêm mục mới vào tập ảnh hiện thời."
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:554
+#: core/libs/dplugins/widgets/ditemslist.cpp:116
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Remove selected images from the list"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:555
+#: core/libs/dplugins/widgets/ditemslist.cpp:117
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Move current selected image up in the list"
 msgstr "Xoá các điều chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:556
+#: core/libs/dplugins/widgets/ditemslist.cpp:118
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Move current selected image down in the list"
 msgstr "Xoá các điều chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:557
+#: core/libs/dplugins/widgets/ditemslist.cpp:119
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Clear the list."
 msgstr "Danh sách máy ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:558
+#: core/libs/dplugins/widgets/ditemslist.cpp:120
 #, fuzzy, kde-format
 #| msgid "%1 items selected"
 msgctxt "@info"
 msgid "Load a saved list."
 msgstr "%1 mục đã chọn"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:559
+#: core/libs/dplugins/widgets/ditemslist.cpp:121
 #, fuzzy, kde-format
 #| msgid "Save Images"
 msgctxt "@info"
 msgid "Save the list."
 msgstr "Lưu ảnh"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:1010
+#: core/libs/dplugins/widgets/ditemslist.cpp:574
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Select the image file list to load"
 msgstr "Chọn ảnh cần tải lên"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:1011
-#: core/libs/dplugins/widgets/ditemslist.cpp:1093
+#: core/libs/dplugins/widgets/ditemslist.cpp:575
+#: core/libs/dplugins/widgets/ditemslist.cpp:657
 #, fuzzy, kde-format
 msgctxt "@option"
 msgid "All Files (*)"
 msgstr "Tệp RAW"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:1091
+#: core/libs/dplugins/widgets/ditemslist.cpp:655
 #, fuzzy, kde-format
 #| msgid "Selects the date of the oldest image"
 msgctxt "@info"
 msgid "Select the image file list to save"
 msgstr "Chọn ngày tháng của ảnh cũ nhất"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:47
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "Thumbnail"
+msgstr "Hiện các ảnh mẫu"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:48
+#: core/utilities/import/dialogs/cameramessagebox.cpp:147
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "File Name"
+msgstr "Tên tệp ảnh mới"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:49
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "User1"
+msgstr "Trên"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:50
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "User2"
+msgstr "Trên"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:51
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "User3"
+msgstr "Trên"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:52
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "User4"
+msgstr "Trên"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:53
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "User5"
+msgstr "Trên"
+
+#: core/libs/dplugins/widgets/ditemslist_view.cpp:54
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "User6"
+msgstr "Trên"
 
 #: core/libs/dplugins/widgets/dplugindialog.cpp:75
 #: core/libs/dplugins/widgets/dwizarddlg.cpp:67
@@ -34873,7 +34884,8 @@ msgid "Map"
 msgstr ""
 
 #: core/libs/properties/itempropertiessidebar.cpp:254
-#: core/showfoto/stackview/showfotostackviewitem.cpp:78
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:437
+#: core/showfoto/stackview/showfotostackviewitem.cpp:80
 #, fuzzy, kde-format
 #| msgid "RAW Image"
 msgctxt "@info: item properties"
@@ -37088,7 +37100,6 @@ msgid "DigiKam"
 msgstr "digiKam"
 
 #: core/libs/timeadjust/timeadjustsettings.cpp:170
-#: core/showfoto/main/main.cpp:124
 #, kde-format
 msgid "Showfoto"
 msgstr ""
@@ -38841,8 +38852,8 @@ msgid "Mod.: %1"
 msgstr "Mô hình:"
 
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:427
-#: core/showfoto/main/showfoto.cpp:597
-#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:316
+#: core/showfoto/main/showfoto.cpp:231
+#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:321
 #: core/utilities/import/items/itemviewimportdelegate.cpp:368
 #, fuzzy, kde-format
 msgctxt "%1 width, %2 height, %3 mpixels"
@@ -38851,7 +38862,7 @@ msgstr "%1x%2 (%3Mpx)"
 
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:432
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:452
-#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:321
+#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:326
 #: core/utilities/import/items/itemviewimportdelegate.cpp:373
 #, fuzzy, kde-format
 msgctxt "unknown image resolution"
@@ -43276,216 +43287,234 @@ msgctxt "@info: search text bar"
 msgid "Case sensitive"
 msgstr "Độ nhạy:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:116
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:115
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Go to Previous"
 msgstr "Ảnh trước"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:117
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:116
 #, kde-format
 msgctxt "@info"
 msgid "Go to previous place in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:133
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:132
 #, kde-format
 msgctxt "@action"
 msgid "Go to Next"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:134
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:133
 #, kde-format
 msgctxt "@info"
 msgid "Go to next place in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:150
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:149
 #, kde-format
 msgctxt "@action"
 msgid "Go Up"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:151
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:150
 #, kde-format
 msgctxt "@info"
 msgid "Go up in folder-view hierarchy"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:167
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:166
 #, kde-format
 msgctxt "@action"
 msgid "Go Home"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:168
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:167
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Go to home directory"
 msgstr "Tên tệp ảnh mới"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:196
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:195
 #, fuzzy, kde-format
 msgctxt "@info: folder-view"
-msgid "Folder-View Options"
+msgid "View Options"
 msgstr "Tuy chọn giao diện"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:199
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:198
 #, kde-format
 msgctxt "@info: folder-view"
 msgid "Selection options to render folder-view."
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:204
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:203
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Short View"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:207
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:206
 #, kde-format
 msgctxt "@info"
 msgid "Switch Folder-View to Short Mode"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:213
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Detailed View"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:216
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:215
 #, kde-format
 msgctxt "@info"
 msgid "Switch Folder-View to Detailed Mode"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:224
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:223
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Bookmarks"
 msgstr "Thêm máy ảnh.."
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:227
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:226
 #, kde-format
 msgctxt "@info"
 msgid "Show or Hide the Bookmarked places"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:232
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:231
 #, fuzzy, kde-format
 #| msgid "Settings..."
 msgctxt "@action:inmenu"
 msgid "More Settings..."
 msgstr "Thiết lập..."
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:235
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:234
 #, kde-format
 msgctxt "@info"
 msgid "Open configure dialog with more settings options"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:247
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:246
 #, fuzzy, kde-format
 msgctxt "@info: folder-view"
-msgid "Folder-View Run Actions"
+msgid "Stack Options"
 msgstr "Tuy chọn giao diện"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:250
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:249
 #, kde-format
 msgctxt "@info: folder-view"
-msgid "Run actions to handle folder-view contents."
+msgid "Stack options to handle folder-view contents."
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:254
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:253
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Load Contents"
 msgstr "Độ tương phản:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:257
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:256
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Load Contents"
 msgstr "Độ tương phản:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:258
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:257
 #, fuzzy, kde-format
 msgctxt "@info"
-msgid "Load Contents to Editor"
+msgid "Load contents to editor stack"
 msgstr "Độ tương phản:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:272
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:264
+#, fuzzy, kde-format
+msgctxt "@action:inmenu"
+msgid "Append Contents"
+msgstr "Độ tương phản:"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:267
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Append Contents"
+msgstr "Độ tương phản:"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:268
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Append contents to editor stack"
+msgstr "Độ tương phản:"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:282
 #, fuzzy, kde-format
 #| msgid "Custom ratio:"
 msgctxt "@info"
 msgid "Enter the customized folder-view path or select from history"
 msgstr "Tỉ lệ tự chọn:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:273
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:283
 #, fuzzy, kde-format
 msgctxt "@info: folder-view path edit"
 msgid "Enter local path here..."
 msgstr "Hãy nhập đoạn vào đây !"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:285
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:295
 #, fuzzy, kde-format
 #| msgid "JPEG 2000 quality:"
 msgctxt "@item: filter type mime"
 msgid "JPEG images"
 msgstr "Chất lượng JPEG 2000:"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:286
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:296
 #, fuzzy, kde-format
 msgctxt "@item: filter type mime"
 msgid "TIFF images"
 msgstr "Nén tệp TIFF"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:287
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:297
 #, fuzzy, kde-format
 msgctxt "@item: filter type mime"
 msgid "PNG images"
 msgstr "Tệp RAW"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:288
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:298
 #, fuzzy, kde-format
 msgctxt "@item: filter type mime"
 msgid "PGF images"
 msgstr "Tệp RAW"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:289
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:299
 #, fuzzy, kde-format
 msgctxt "@item: filter type mime"
 msgid "HEIF images"
 msgstr "Nén tệp TIFF"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:290
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:300
 #, fuzzy, kde-format
 msgctxt "@item: filter type mime"
 msgid "DNG images"
 msgstr "Tệp RAW"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:291
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:301
 #, fuzzy, kde-format
 #| msgid "RAW Image"
 msgctxt "@item: filter type mime"
 msgid "RAW images"
 msgstr "Ảnh RAW"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:300
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:310
 #, fuzzy, kde-format
 #| msgid "RAW Image"
 msgctxt "@item: filter type mime"
 msgid "No RAW images"
 msgstr "Ảnh RAW"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:307
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:317
 #, fuzzy, kde-format
 msgctxt "@item: filter type mime"
 msgid "All supported files"
 msgstr "Đã bỏ qua tệp %1"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:447
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:457
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Icon Size: %1"
@@ -43523,7 +43552,7 @@ msgid "The bookmark title which must be unique and not empty"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:151
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:173
 #, fuzzy, kde-format
 #| msgid "&Icon:"
 msgctxt "@label"
@@ -43531,7 +43560,7 @@ msgid "&Icon:"
 msgstr "B&iểu tượng"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:145
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:159
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:181
 #, fuzzy, kde-format
 #| msgid "Reset"
 msgctxt "@action:button"
@@ -43558,14 +43587,13 @@ msgid "You can add or remove bookmarked places here."
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:128
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:125
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Bookmarks"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:134
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:136
 #, fuzzy, kde-format
 msgctxt "@action: context menu"
 msgid "Load Contents"
@@ -43584,7 +43612,7 @@ msgid "Add Bookmark"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:115
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:119
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:105
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Add new bookmark to the list"
@@ -43597,7 +43625,7 @@ msgid "Del Bookmark"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:132
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:137
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:123
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Remove selected bookmark from the list"
@@ -43610,7 +43638,7 @@ msgid "Edit Bookmark"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:150
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:155
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:141
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Edit current bookmark from the list"
@@ -43650,79 +43678,51 @@ msgid "My Bookmarks"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:397
-#, kde-format
-msgctxt "@title"
-msgid "Usual"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:401
-#, kde-format
-msgctxt "@item"
-msgid "Home"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:406
-#, fuzzy, kde-format
-msgctxt "@item"
-msgid "Pictures"
-msgstr "Vẽ biếm hoạ"
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:411
-#, fuzzy, kde-format
-msgctxt "@item"
-msgid "Documents"
-msgstr "Tài liệu cần mở."
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:416
-#, fuzzy, kde-format
-msgctxt "@item"
-msgid "Downloads"
-msgstr "Tải về"
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:421
-#, fuzzy, kde-format
-#| msgid "Open folder"
-msgctxt "@item"
-msgid "Desktop"
-msgstr "Mở thư mục"
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:426
-#, kde-format
-msgctxt "@item"
-msgid "Music"
-msgstr ""
-
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:431
-#, fuzzy, kde-format
-msgctxt "@item"
-msgid "Videos"
-msgstr "&Xem"
-
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:147
 #, fuzzy, kde-format
 msgctxt "@title"
-msgid "Folder-View Options"
+msgid "Usual Places"
+msgstr "Tương đối"
+
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:146
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "Folder-View"
 msgstr "Tuy chọn giao diện"
 
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:163
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:157
+#, kde-format
+msgctxt "@title"
+msgid "Stack"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:164
 #, fuzzy, kde-format
 msgctxt "@action: context menu"
 msgid "Add Bookmark"
 msgstr "Thêm máy ảnh.."
 
-#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:375
+#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:393
 #, fuzzy, kde-format
 msgctxt "@title: file system tree"
 msgid "Folders"
 msgstr "Theo thư mục"
 
-#: core/showfoto/main/main.cpp:141
+#: core/showfoto/main/main.cpp:124
 #, kde-format
+msgctxt "@title"
+msgid "Showfoto"
+msgstr ""
+
+#: core/showfoto/main/main.cpp:141
+#, fuzzy, kde-format
+#| msgid "File(s) or folder(s) to open"
+msgctxt "command line option"
 msgid "File(s) or folder(s) to open"
 msgstr "Các tệp/thư mục cần mở"
 
 #: core/showfoto/main/main.cpp:221
 #, kde-format
+msgctxt "#info"
 msgid ""
 "<p>You are running Showfoto as a 32-bit version on a 64-bit Windows.</"
 "p><p>Please install the 64-bit version of Showfoto to get a better "
@@ -43746,65 +43746,47 @@ msgstr ""
 "hợp này, tính năng « Quản lí màu » bị tắt đến khi bạn giải quyết vấn đề này."
 "</p></qt>"
 
-#: core/showfoto/main/showfoto.cpp:260
-#, kde-format
-msgid "Open Images From Folder"
-msgstr "Mở ảnh từ thư mục"
-
-#: core/showfoto/main/showfoto.cpp:533
-#, fuzzy, kde-format
-msgid "There is no item to process."
-msgstr "Không có ảnh nào trong thư mục này."
-
-#: core/showfoto/main/showfoto.cpp:555
-#, fuzzy, kde-format
-#| msgid "Error Saving File"
-msgid "Error Loading File"
-msgstr "Gặp lỗi khi lưu tệp"
-
-#: core/showfoto/main/showfoto.cpp:556
-#, fuzzy, kde-format
-msgid ""
-"Failed to load file: %1\n"
-"Remote file handling is not supported"
-msgstr "Định dạng tệp ảnh đích « %1 » không được hỗ trợ."
-
-#: core/showfoto/main/showfoto.cpp:596
+#: core/showfoto/main/showfoto.cpp:230
 #, fuzzy, kde-format
 msgctxt "unknown image dimensions"
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: core/showfoto/main/showfoto.cpp:635
+#: core/showfoto/main/showfoto.cpp:255
 #: core/utilities/imageeditor/main/imagewindow.cpp:500
 #, fuzzy, kde-format
 msgctxt "<Image file name> (<Image number> of <Images in album>)"
 msgid "%1 (%2 of %3)"
 msgstr " (%2 trên %3)"
 
-#: core/showfoto/main/showfoto.cpp:765
+#: core/showfoto/main/showfoto_config.cpp:125
+#, kde-format
+msgid "Delete File"
+msgstr "Xoá tệp"
+
+#: core/showfoto/main/showfoto_iofiles.cpp:87
 #, kde-format
 msgid "Error Saving File"
 msgstr "Gặp lỗi khi lưu tệp"
 
-#: core/showfoto/main/showfoto.cpp:766
+#: core/showfoto/main/showfoto_iofiles.cpp:88
 #, fuzzy, kde-format
 msgid "Failed to save file: %1"
 msgstr "Lỗi in tệp: « %1 »"
 
-#: core/showfoto/main/showfoto.cpp:767
+#: core/showfoto/main/showfoto_iofiles.cpp:89
 #, fuzzy, kde-format
 msgid "Remote file handling is not supported"
 msgstr "Định dạng tệp ảnh đích « %1 » không được hỗ trợ."
 
-#: core/showfoto/main/showfoto.cpp:789
+#: core/showfoto/main/showfoto_iofiles.cpp:111
 #: core/utilities/imageeditor/main/imagewindow.cpp:583
 #: core/utilities/imageeditor/main/imagewindow.cpp:698
 #, fuzzy, kde-format
 msgid "Image saved successfully"
 msgstr "Đang tải về tệp %1..."
 
-#: core/showfoto/main/showfoto.cpp:872
+#: core/showfoto/main/showfoto_iofiles.cpp:194
 #, kde-format
 msgid ""
 "About to delete file \"%1\"\n"
@@ -43813,16 +43795,34 @@ msgstr ""
 "Sắp xoá tệp « %1 »\n"
 "Bạn có chắc chưa?"
 
-#: core/showfoto/main/showfoto.cpp:888
+#: core/showfoto/main/showfoto_iofiles.cpp:210
 #, fuzzy, kde-format
 #| msgid "Cannot delete Root Tag"
 msgid "Cannot delete \"%1\""
 msgstr "Không thể xoá thẻ gốc"
 
-#: core/showfoto/main/showfoto_config.cpp:125
+#: core/showfoto/main/showfoto_open.cpp:67
 #, kde-format
-msgid "Delete File"
-msgstr "Xoá tệp"
+msgid "Open Images From Folder"
+msgstr "Mở ảnh từ thư mục"
+
+#: core/showfoto/main/showfoto_open.cpp:308
+#, fuzzy, kde-format
+msgid "There is no item to process."
+msgstr "Không có ảnh nào trong thư mục này."
+
+#: core/showfoto/main/showfoto_open.cpp:330
+#, fuzzy, kde-format
+#| msgid "Error Saving File"
+msgid "Error Loading File"
+msgstr "Gặp lỗi khi lưu tệp"
+
+#: core/showfoto/main/showfoto_open.cpp:331
+#, fuzzy, kde-format
+msgid ""
+"Failed to load file: %1\n"
+"Remote file handling is not supported"
+msgstr "Định dạng tệp ảnh đích « %1 » không được hỗ trợ."
 
 #: core/showfoto/main/showfoto_setup.cpp:31
 #, kde-format
@@ -44559,179 +44559,245 @@ msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị thiết lập cán cân màu trắng của máy ảnh chụp "
 "ảnh."
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:112
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:122
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "New Favorite"
 msgstr "Tự nhiên"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:116
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:126
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Edit Favorite"
 msgstr "Tệp ảnh"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:132
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:142
 #, fuzzy, kde-format
-msgctxt "@label: favorite properties"
+msgctxt "@label: favorite title properties"
 msgid "&Name:"
 msgstr "Tên:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:135
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:145
 #, fuzzy, kde-format
 msgctxt "#info"
 msgid "Enter favorite name here..."
 msgstr "Hãy nhập vào tên tập ảnh mới:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:136
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:146
 #, kde-format
-msgctxt "#info"
+msgctxt "@info"
 msgid "The favorite name which must be unique and not empty"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:142
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:152
 #, fuzzy, kde-format
-msgctxt "@label: favorite properties"
+msgctxt "@label: favorite caption properties"
 msgid "&Description:"
 msgstr "Mô tả"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:145
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:155
 #, fuzzy, kde-format
-msgctxt "#info"
+msgctxt "@info"
 msgid "Enter favorite description here..."
 msgstr "Hãy nhập vào tên tập ảnh mới:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:172
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:161
+#, fuzzy, kde-format
+msgctxt "@label: favorite date properties"
+msgid "&Created:"
+msgstr "Tạo :"
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:194
 #, fuzzy, kde-format
 msgctxt "@label: favorites properties"
 msgid "&Items:"
 msgstr "16 bit"
 
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:72
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:208
+#, fuzzy, kde-format
+#| msgid "Name"
+msgid "Name"
+msgstr "Tên"
+
+#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:214
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This is the list of items hosted by this favorite.\n"
+"The current selected item from this list will be automatically\n"
+"shown in editor when favorite is open. If none is selected,\n"
+"first one from the list will be displayed."
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:138
+#, fuzzy, kde-format
+#| msgid "File Properties"
+msgctxt "@title"
+msgid "Favorite Properties"
+msgstr "Thuộc tính tệp"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:140
+#, fuzzy, kde-format
+msgctxt "@info: item title property"
+msgid "Name:"
+msgstr "Tên:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:143
+#, fuzzy, kde-format
+msgctxt "@info: item date property"
+msgid "Created:"
+msgstr "Tạo :"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:146
+#, fuzzy, kde-format
+msgctxt "@info; item count elements property"
+msgid "Items:"
+msgstr "16 bit"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:149
+#, fuzzy, kde-format
+msgctxt "@info: item caption property"
+msgid "Description:"
+msgstr "Mô tả"
+
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:74
 #, kde-format
 msgctxt "@info"
 msgid "You can add or remove favorite stacks here."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:109
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:127
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:95
 #, kde-format
 msgctxt "@title"
 msgid "Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:118
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:104
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Add Favorite"
 msgstr "Thêm viền..."
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:136
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Del Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:154
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:140
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Edit Favorite"
 msgstr "Tệp ảnh"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:255
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:264
 #, fuzzy, kde-format
 msgctxt "@title: window"
 msgid "Confirm Favorite Deletion"
 msgstr "Độ tương quan:"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:256
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:265
 #, kde-format
 msgctxt "@info"
 msgid "Are you sure you want to remove the favorite \"%1\"?"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:393
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:424
 #, kde-format
 msgctxt "@title"
 msgid "My Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:451
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:482
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Unnamed"
 msgstr "Thay tên..."
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:99
+#: core/showfoto/stackview/showfotostackviewlist.cpp:98
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "@title: item file name"
 msgid "Name"
 msgstr "Tên"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:100
+#: core/showfoto/stackview/showfotostackviewlist.cpp:99
 #, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "@title: item file size"
 msgid "Size"
 msgstr "Cỡ"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:101
+#: core/showfoto/stackview/showfotostackviewlist.cpp:100
 #, fuzzy, kde-format
 msgctxt "@title: item file type"
 msgid "Type"
 msgstr "Kiểu :"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:102
+#: core/showfoto/stackview/showfotostackviewlist.cpp:101
 #, fuzzy, kde-format
 msgctxt "@title: item date from metadata"
 msgid "Date"
 msgstr "Ngày:"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:344
+#: core/showfoto/stackview/showfotostackviewlist.cpp:353
 #, fuzzy, kde-format
 msgctxt "@title"
-msgid "Stack-View Options"
+msgid "Stack-View"
 msgstr "Tuy chọn giao diện"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:346
+#: core/showfoto/stackview/showfotostackviewlist.cpp:355
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "Thumbnail Size"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:349
+#: core/showfoto/stackview/showfotostackviewlist.cpp:358
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Small (%1x%2)"
 msgstr "Rộng (điểm ảnh):"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:353
+#: core/showfoto/stackview/showfotostackviewlist.cpp:362
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Medium (%1x%2)"
 msgstr "Rộng (điểm ảnh):"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:357
+#: core/showfoto/stackview/showfotostackviewlist.cpp:366
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Large (%1x%2)"
 msgstr "Rộng (điểm ảnh):"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:361
+#: core/showfoto/stackview/showfotostackviewlist.cpp:370
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Huge (%1x%2)"
 msgstr "Rộng (điểm ảnh):"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:400
+#: core/showfoto/stackview/showfotostackviewlist.cpp:409
 #, fuzzy, kde-format
 msgctxt "@action: context menu"
 msgid "Add as Favorite"
 msgstr "Thêm thẻ mới..."
 
-#: core/showfoto/stackview/showfotostackviewsidebar.cpp:203
+#: core/showfoto/stackview/showfotostackviewlist.cpp:423
+#, fuzzy, kde-format
+msgctxt "@action: context menu"
+msgid "Clear All Items"
+msgstr "Xoá hết"
+
+#: core/showfoto/stackview/showfotostackviewlist.cpp:431
+#, fuzzy, kde-format
+msgctxt "@action: context menu"
+msgid "Remove Items"
+msgstr "Gỡ bỏ mục"
+
+#: core/showfoto/stackview/showfotostackviewsidebar.cpp:229
 #, kde-format
-msgctxt "@title: file system tree"
+msgctxt "@title: stack-view list on items"
 msgid "Stack"
 msgstr ""
 
@@ -44742,7 +44808,7 @@ msgctxt "@action"
 msgid "C&ancel"
 msgstr "T&hôi"
 
-#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:258
+#: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:263
 #: core/utilities/import/items/itemviewimportdelegate.cpp:321
 #, fuzzy, kde-format
 msgctxt "date of image creation"
@@ -56365,6 +56431,47 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "@item"
+#~ msgid "Pictures"
+#~ msgstr "Vẽ biếm hoạ"
+
+#, fuzzy
+#~ msgctxt "@item"
+#~ msgid "Documents"
+#~ msgstr "Tài liệu cần mở."
+
+#, fuzzy
+#~ msgctxt "@item"
+#~ msgid "Downloads"
+#~ msgstr "Tải về"
+
+#, fuzzy
+#~| msgid "Open folder"
+#~ msgctxt "@item"
+#~ msgid "Desktop"
+#~ msgstr "Mở thư mục"
+
+#, fuzzy
+#~ msgctxt "@item"
+#~ msgid "Videos"
+#~ msgstr "&Xem"
+
+#, fuzzy
+#~ msgctxt "@info: folder-view"
+#~ msgid "Folder-View Options"
+#~ msgstr "Tuy chọn giao diện"
+
+#, fuzzy
+#~ msgctxt "@info: folder-view"
+#~ msgid "Folder-View Run Actions"
+#~ msgstr "Tuy chọn giao diện"
+
+#, fuzzy
+#~ msgctxt "@info: item properties"
+#~ msgid "Description:"
+#~ msgstr "Mô tả"
 
 #, fuzzy
 #~ msgctxt "@title: window"

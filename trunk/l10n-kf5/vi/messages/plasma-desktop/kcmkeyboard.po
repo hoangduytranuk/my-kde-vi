@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-02 00:18+0000\n"
-"PO-Revision-Date: 2021-05-26 21:15+0200\n"
+"POT-Creation-Date: 2021-10-14 00:18+0000\n"
+"PO-Revision-Date: 2021-10-19 14:38+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -54,56 +54,33 @@ msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: kcm_add_layout_dialog.cpp:45
-#, kde-format
-msgid "Any language"
-msgstr "Bất kì"
-
-#: kcm_add_layout_dialog.cpp:124 kcm_view_models.cpp:273
-#, kde-format
-msgctxt "variant"
-msgid "Default"
-msgstr "Mặc định"
-
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, kde-format
 msgid "Add Layout"
 msgstr "Thêm bố cục"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcm_add_layout_dialog.ui:30
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, layoutSearchField)
+#: kcm_add_layout_dialog.ui:20
 #, kde-format
-msgid "Layout:"
-msgstr "Bố cục:"
+msgid "Search…"
+msgstr "Tìm kiếm…"
 
-#. i18n: ectx: property (text), widget (QLabel, labelLabel_2)
-#: kcm_add_layout_dialog.ui:47
+#. i18n: ectx: property (text), widget (QLabel, shortcutLabel)
+#: kcm_add_layout_dialog.ui:45
 #, kde-format
 msgid "Shortcut:"
 msgstr "Phím tắt:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcm_add_layout_dialog.ui:54
-#, kde-format
-msgid "Variant:"
-msgstr "Biến thế:"
-
 #. i18n: ectx: property (text), widget (QLabel, labelLabel)
-#: kcm_add_layout_dialog.ui:64
+#: kcm_add_layout_dialog.ui:55
 #, kde-format
 msgid "Label:"
 msgstr "Nhãn:"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kcm_add_layout_dialog.ui:71
-#, kde-format
-msgid "Limit selection by language:"
-msgstr "Giới hạn lựa chọn bằng ngôn ngữ:"
-
 #. i18n: ectx: property (text), widget (QPushButton, prevbutton)
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:315
+#: kcm_add_layout_dialog.ui:76 kcm_keyboard.ui:315
 #, kde-format
 msgid "Preview"
 msgstr "Xem thử"
@@ -383,6 +360,12 @@ msgstr "Nhãn"
 msgid "Shortcut"
 msgstr "Phím tắt"
 
+#: kcm_view_models.cpp:273
+#, kde-format
+msgctxt "variant"
+msgid "Default"
+msgstr "Mặc định"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcmmiscwidget.ui:31
 #, kde-format
@@ -532,6 +515,18 @@ msgstr ""
 "được chọn không hỗ trợ một bố cục hoặc biến thể bố cục nhất định. Vấn đề này "
 "cũng sẽ có thể xuất hiện khi bạn thử dùng mẫu mã, bố cục và biến thể này đi "
 "kèm với nhau."
+
+#~ msgid "Any language"
+#~ msgstr "Bất kì"
+
+#~ msgid "Layout:"
+#~ msgstr "Bố cục:"
+
+#~ msgid "Variant:"
+#~ msgstr "Biến thế:"
+
+#~ msgid "Limit selection by language:"
+#~ msgstr "Giới hạn lựa chọn bằng ngôn ngữ:"
 
 #~ msgid "..."
 #~ msgstr "…"

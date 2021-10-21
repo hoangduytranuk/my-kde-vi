@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koko\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-05 00:15+0000\n"
+"POT-Creation-Date: 2021-10-08 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -314,130 +314,177 @@ msgstr ""
 msgid "You are now editing a new file."
 msgstr ""
 
-#: qml/ImageViewPage.qml:85
+#: qml/imagedelegate/VideoPlayer.qml:159
+#, kde-format
+msgid "Seek slider"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:201 qml/imagedelegate/VideoPlayer.qml:223
+#, kde-format
+msgid "Skip backward 1 second"
+msgid_plural "Skip backward %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/imagedelegate/VideoPlayer.qml:211
+#, kde-format
+msgid "Pause playback"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:211
+#, kde-format
+msgid "Continue playback"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:233
+#, kde-format
+msgid "Unmute audio"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:233
+#, kde-format
+msgid "Mute audio"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:245
+#, kde-format
+msgid "Volume slider"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:265
+#, kde-format
+msgid "Repeat current video"
+msgstr ""
+
+#: qml/imagedelegate/VideoPlayer.qml:265
+#, kde-format
+msgid "Don't repeat current video"
+msgstr ""
+
+#: qml/ImageViewPage.qml:72
 #, kde-format
 msgid "Edit image"
 msgstr ""
 
-#: qml/ImageViewPage.qml:93
+#: qml/ImageViewPage.qml:80
 #, kde-format
 msgid "Info"
 msgstr ""
 
-#: qml/ImageViewPage.qml:95
+#: qml/ImageViewPage.qml:82
 #, kde-format
 msgid "See information about video"
 msgstr ""
 
-#: qml/ImageViewPage.qml:96
+#: qml/ImageViewPage.qml:83
 #, kde-format
 msgid "See information about image"
 msgstr ""
 
-#: qml/ImageViewPage.qml:106
+#: qml/ImageViewPage.qml:92
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: qml/ImageViewPage.qml:106
+#: qml/ImageViewPage.qml:92
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#: qml/ImageViewPage.qml:107
+#: qml/ImageViewPage.qml:93
 #, kde-format
 msgid "Remove from favorites"
 msgstr ""
 
-#: qml/ImageViewPage.qml:107
+#: qml/ImageViewPage.qml:93
 #, kde-format
 msgid "Add to favorites"
 msgstr ""
 
-#: qml/ImageViewPage.qml:118
+#: qml/ImageViewPage.qml:104
 #, kde-format
 msgctxt "verb, edit an image"
 msgid "Edit"
 msgstr ""
 
-#: qml/ImageViewPage.qml:138
+#: qml/ImageViewPage.qml:119
 #, kde-format
 msgid "Share Video"
 msgstr ""
 
-#: qml/ImageViewPage.qml:138
+#: qml/ImageViewPage.qml:119
 #, kde-format
 msgid "Share Image"
 msgstr ""
 
-#: qml/ImageViewPage.qml:140
+#: qml/ImageViewPage.qml:120
 #, kde-format
 msgctxt "verb, share an image/video"
 msgid "Share"
 msgstr ""
 
-#: qml/ImageViewPage.qml:151
+#: qml/ImageViewPage.qml:131
 #, kde-format
 msgid "Start Slideshow"
 msgstr ""
 
-#: qml/ImageViewPage.qml:152
+#: qml/ImageViewPage.qml:132
 #, kde-format
 msgid "Slideshow"
 msgstr ""
 
-#: qml/ImageViewPage.qml:159
+#: qml/ImageViewPage.qml:139
 #, kde-format
 msgid "Thumbnail Bar"
 msgstr ""
 
-#: qml/ImageViewPage.qml:160
+#: qml/ImageViewPage.qml:140
 #, kde-format
 msgid "Hide Thumbnail Bar"
 msgstr ""
 
-#: qml/ImageViewPage.qml:160
+#: qml/ImageViewPage.qml:140
 #, kde-format
 msgid "Show Thumbnail Bar"
 msgstr ""
 
-#: qml/ImageViewPage.qml:161
+#: qml/ImageViewPage.qml:141
 #, kde-format
 msgid "Toggle Thumbnail Bar"
 msgstr ""
 
-#: qml/ImageViewPage.qml:176
+#: qml/ImageViewPage.qml:156
 #, kde-format
 msgid "Fullscreen"
 msgstr ""
 
-#: qml/ImageViewPage.qml:176 qml/ImageViewPage.qml:177
+#: qml/ImageViewPage.qml:156 qml/ImageViewPage.qml:157
 #, kde-format
 msgid "Exit Fullscreen"
 msgstr ""
 
-#: qml/ImageViewPage.qml:177
+#: qml/ImageViewPage.qml:157
 #, kde-format
 msgid "Enter Fullscreen"
 msgstr ""
 
-#: qml/ImageViewPage.qml:365
+#: qml/ImageViewPage.qml:430
 #, kde-format
 msgid "Previous image"
 msgstr ""
 
-#: qml/ImageViewPage.qml:395
+#: qml/ImageViewPage.qml:460
 #, kde-format
 msgid "Next image"
 msgstr ""
 
-#: qml/ImageViewPage.qml:610 qml/SettingsPage.qml:54
+#: qml/ImageViewPage.qml:675 qml/SettingsPage.qml:54
 #, kde-format
 msgctxt "@label:spinbox Slideshow image changing interval"
 msgid "Slideshow interval:"
 msgstr ""
 
-#: qml/ImageViewPage.qml:627 qml/SettingsPage.qml:62
+#: qml/ImageViewPage.qml:692 qml/SettingsPage.qml:62
 #, kde-format
 msgctxt "Slideshow image changing interval"
 msgid "1 second"
@@ -445,24 +492,24 @@ msgid_plural "%1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/ImageViewPage.qml:680 qml/SettingsPage.qml:41
+#: qml/ImageViewPage.qml:745 qml/SettingsPage.qml:41
 #, kde-format
 msgctxt "@option:check"
 msgid "Loop"
 msgstr ""
 
-#: qml/ImageViewPage.qml:686 qml/SettingsPage.qml:48
+#: qml/ImageViewPage.qml:751 qml/SettingsPage.qml:48
 #, kde-format
 msgctxt "@option:check"
 msgid "Randomize"
 msgstr ""
 
-#: qml/ImageViewPage.qml:695
+#: qml/ImageViewPage.qml:760
 #, kde-format
 msgid "Stop Slideshow"
 msgstr ""
 
-#: qml/ImageViewPage.qml:709
+#: qml/ImageViewPage.qml:774
 #, kde-format
 msgid "Show All Controls"
 msgstr ""
@@ -679,51 +726,4 @@ msgstr ""
 #: qml/TagInput.qml:60
 #, kde-format
 msgid "Add new tag…"
-msgstr ""
-
-#: qml/VideoPlayer.qml:151
-#, kde-format
-msgid "Seek slider"
-msgstr ""
-
-#: qml/VideoPlayer.qml:193 qml/VideoPlayer.qml:215
-#, kde-format
-msgid "Skip backward 1 second"
-msgid_plural "Skip backward %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qml/VideoPlayer.qml:203
-#, kde-format
-msgid "Pause playback"
-msgstr ""
-
-#: qml/VideoPlayer.qml:203
-#, kde-format
-msgid "Continue playback"
-msgstr ""
-
-#: qml/VideoPlayer.qml:225
-#, kde-format
-msgid "Unmute audio"
-msgstr ""
-
-#: qml/VideoPlayer.qml:225
-#, kde-format
-msgid "Mute audio"
-msgstr ""
-
-#: qml/VideoPlayer.qml:237
-#, kde-format
-msgid "Volume slider"
-msgstr ""
-
-#: qml/VideoPlayer.qml:257
-#, kde-format
-msgid "Repeat current video"
-msgstr ""
-
-#: qml/VideoPlayer.qml:257
-#, kde-format
-msgid "Don't repeat current video"
 msgstr ""

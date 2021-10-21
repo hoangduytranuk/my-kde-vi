@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: subtitlecomposer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-05 00:17+0000\n"
+"POT-Creation-Date: 2021-10-16 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -126,33 +126,33 @@ msgstr ""
 msgid "Pause"
 msgstr ""
 
-#: src/application.cpp:1119 src/application.cpp:1131 src/application_actions.cpp:570
+#: src/application.cpp:1119 src/application_actions.cpp:570
 #, kde-format
 msgid "Play"
 msgstr ""
 
-#: src/application.cpp:1186
+#: src/application.cpp:1180
 #, kde-format
 msgid "Seek backwards 1 second"
 msgid_plural "Seek backwards %1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/application.cpp:1187
+#: src/application.cpp:1181
 #, kde-format
 msgid "Seek forwards 1 second"
 msgid_plural "Seek forwards %1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/application.cpp:1190 src/application.cpp:1194
+#: src/application.cpp:1184 src/application.cpp:1188
 #, kde-format
 msgid "Shift %2%1 millisecond"
 msgid_plural "Shift %2%1 milliseconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/application.cpp:1191 src/application.cpp:1195
+#: src/application.cpp:1185 src/application.cpp:1189
 #, kde-format
 msgid "Shift selected lines %2%1 millisecond"
 msgid_plural "Shift selected lines %2%1 milliseconds"
@@ -343,7 +343,7 @@ msgid "Insert empty line after current one"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: src/application_actions.cpp:204 src/scripting/scriptsmanager.ui:62
+#: src/application_actions.cpp:204 src/scripting/scriptsmanager.ui:60
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -1269,7 +1269,7 @@ msgid "%1 backend settings"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_grpGeneral)
-#: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:401
+#: src/configs/errorsconfigwidget.ui:17 src/gui/treeview/lineswidget.cpp:394
 #, kde-format
 msgid "Texts"
 msgstr ""
@@ -2692,22 +2692,22 @@ msgstr ""
 msgid "<b>Duration</b>"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:264 src/gui/currentlinewidget.cpp:267
+#: src/gui/currentlinewidget.cpp:261 src/gui/currentlinewidget.cpp:264
 #, kde-format
 msgid "No current line"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:340
+#: src/gui/currentlinewidget.cpp:336
 #, kde-format
 msgid "chars"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:348
+#: src/gui/currentlinewidget.cpp:344
 #, kde-format
 msgid "ms/char"
 msgstr ""
 
-#: src/gui/currentlinewidget.cpp:350
+#: src/gui/currentlinewidget.cpp:346
 #, kde-format
 msgid "chars/sec"
 msgstr ""
@@ -2802,17 +2802,17 @@ msgctxt "@title:column Subtitle line translation text"
 msgid "Translation"
 msgstr ""
 
-#: src/gui/treeview/lineswidget.cpp:412
+#: src/gui/treeview/lineswidget.cpp:405
 #, kde-format
 msgid "Styles"
 msgstr ""
 
-#: src/gui/treeview/lineswidget.cpp:421
+#: src/gui/treeview/lineswidget.cpp:414
 #, kde-format
 msgid "Times"
 msgstr ""
 
-#: src/gui/treeview/lineswidget.cpp:432
+#: src/gui/treeview/lineswidget.cpp:425
 #, kde-format
 msgid "Errors"
 msgstr ""
@@ -2921,54 +2921,54 @@ msgid ""
 "for side-by-side translation."
 msgstr ""
 
-#: src/main.cpp:207
+#: src/main.cpp:210
 #, kde-format
 msgid "Subtitle Composer"
 msgstr ""
 
-#: src/main.cpp:209
+#: src/main.cpp:212
 #, kde-format
 msgid "A KDE subtitle editor."
 msgstr ""
 
-#: src/main.cpp:216
+#: src/main.cpp:219
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: src/main.cpp:217
+#: src/main.cpp:220
 #, kde-format
 msgid "Former Maintainer"
 msgstr ""
 
-#: src/main.cpp:218
+#: src/main.cpp:221
 #, kde-format
 msgid "Patches and Website"
 msgstr ""
 
-#: src/main.cpp:220
+#: src/main.cpp:223
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: src/main.cpp:220
+#: src/main.cpp:223
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: src/main.cpp:222
+#: src/main.cpp:225
 #, kde-format
 msgid "code contributions"
 msgstr ""
 
-#: src/main.cpp:223
+#: src/main.cpp:226
 #, kde-format
 msgid "code contributions, Arch Linux packaging"
 msgstr ""
 
-#: src/main.cpp:225
+#: src/main.cpp:228
 #, kde-format
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr ""
@@ -3262,99 +3262,141 @@ msgstr ""
 msgid "Outline Width"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:59
+#: src/scripting/scriptsmanager.cpp:75
 #, kde-format
-msgid "Installed Scripts"
+msgid "Non-Script Files"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:80
+#: src/scripting/scriptsmanager.cpp:157
+#, kde-format
+msgid "Title"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:158
+#, kde-format
+msgid "Version"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:159
+#, kde-format
+msgid "Author"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:160
+#, kde-format
+msgid "Path"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:354
 #, kde-format
 msgid "Information"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:87
+#: src/scripting/scriptsmanager.cpp:360
 #, kde-format
 msgid "Warning"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:94
+#: src/scripting/scriptsmanager.cpp:366
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:157 src/scripting/scriptsmanager.cpp:234
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
+#: src/scripting/scriptsmanager.cpp:393 src/scripting/scriptsmanager.ui:74
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:396
+#, kde-format
+msgid "View"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:461 src/scripting/scriptsmanager.cpp:526
 #, kde-format
 msgid ""
 "You must enter an unused name to continue.\n"
 "Would you like to enter another name?"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:158 src/scripting/scriptsmanager.cpp:235
+#: src/scripting/scriptsmanager.cpp:462 src/scripting/scriptsmanager.cpp:527
 #, kde-format
 msgid "Name Already Used"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:161
+#: src/scripting/scriptsmanager.cpp:466
 #, kde-format
 msgid "Create New Script"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:161 src/scripting/scriptsmanager.cpp:238
+#: src/scripting/scriptsmanager.cpp:466 src/scripting/scriptsmanager.cpp:530
 #, kde-format
 msgid "Script name:"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:174
+#: src/scripting/scriptsmanager.cpp:474
 #, kde-format
 msgid "There was an error creating the file <b>%1</b>."
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:217
+#: src/scripting/scriptsmanager.cpp:509
 #, kde-format
 msgid "Select Existing Script"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:238
+#: src/scripting/scriptsmanager.cpp:530
 #, kde-format
 msgid "Rename Script"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:252
+#: src/scripting/scriptsmanager.cpp:539
 #, kde-format
 msgid "There was an error opening the file <b>%1</b>."
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:260
+#: src/scripting/scriptsmanager.cpp:547
 #, kde-format
 msgid "There was an error copying the file to <b>%1</b>."
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:276
+#: src/scripting/scriptsmanager.cpp:562
 #, kde-format
 msgid "Do you really want to send file <b>%1</b> to the trash?"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:276
+#: src/scripting/scriptsmanager.cpp:562
 #, kde-format
 msgid "Move to Trash"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:280
+#: src/scripting/scriptsmanager.cpp:566
 #, kde-format
 msgid "There was an error removing the file <b>%1</b>."
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:309
+#: src/scripting/scriptsmanager.cpp:595
 #, kde-format
 msgid "Could not launch external editor.\n"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:370 src/scripting/scriptsmanager.cpp:372
+#: src/scripting/scriptsmanager.cpp:616
+#, kde-format
+msgid "Error opening script %1."
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:616 src/scripting/scriptsmanager.cpp:631
+#: src/scripting/scriptsmanager.cpp:633
 #, kde-format
 msgid "Error Running Script"
 msgstr ""
 
-#: src/scripting/scriptsmanager.cpp:384
+#: src/scripting/scriptsmanager.cpp:629
+#, kde-format
+msgid "Path: %1"
+msgstr ""
+
+#: src/scripting/scriptsmanager.cpp:646
 #, kde-format
 msgid "Tools"
 msgstr ""
@@ -3378,55 +3420,49 @@ msgid "Create..."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:44
+#: src/scripting/scriptsmanager.ui:43
 #, kde-format
 msgid "Copies an existing script from a specified location."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: src/scripting/scriptsmanager.ui:47
+#: src/scripting/scriptsmanager.ui:46
 #, kde-format
 msgid "Add..."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemove)
-#: src/scripting/scriptsmanager.ui:59
+#: src/scripting/scriptsmanager.ui:57
 #, kde-format
 msgid "Sends the selected script to the trash."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.ui:74
+#: src/scripting/scriptsmanager.ui:71
 #, kde-format
 msgid "Opens the selected script with an external editor."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
-#: src/scripting/scriptsmanager.ui:77
-#, kde-format
-msgid "Edit"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:105
+#: src/scripting/scriptsmanager.ui:101
 #, kde-format
 msgid "Executes the selected script."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRun)
-#: src/scripting/scriptsmanager.ui:108
+#: src/scripting/scriptsmanager.ui:104
 #, kde-format
 msgid "Run"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:136
+#: src/scripting/scriptsmanager.ui:131
 #, kde-format
 msgid "Reloads the installed scripts list."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRefresh)
-#: src/scripting/scriptsmanager.ui:139
+#: src/scripting/scriptsmanager.ui:134
 #, kde-format
 msgid "Refresh"
 msgstr ""
