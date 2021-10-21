@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-23 00:18+0000\n"
+"POT-Creation-Date: 2021-10-21 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -396,7 +396,7 @@ msgctxt "@info:status %1 is preset name"
 msgid "Saved settings as preset %1."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:169
+#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:234
 #, kde-format
 msgctxt "@action"
 msgid "Add Chart as Desktop Widget"
@@ -432,24 +432,24 @@ msgctxt "@label:textbox"
 msgid "Display Style"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:156
+#: src/page/FaceConfigurationPage.qml:155
 #, kde-format
 msgctxt "@label"
 msgid "Minimum time between updates:"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:173
+#: src/page/FaceConfigurationPage.qml:172
 #, kde-format
 msgid "No Limit"
 msgstr ""
 
 #. i18ndp doesn't handle floats :(
-#: src/page/FaceConfigurationPage.qml:177
+#: src/page/FaceConfigurationPage.qml:176
 #, kde-format
 msgid "1 second"
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:179
+#: src/page/FaceConfigurationPage.qml:178
 #, kde-format
 msgid "%1 seconds"
 msgstr ""
@@ -545,7 +545,7 @@ msgctxt "@label:listbox"
 msgid "Use Actions From:"
 msgstr ""
 
-#: src/page/PageEditor.qml:108
+#: src/page/PageEditor.qml:137
 #, kde-format
 msgid "New Title"
 msgstr ""
@@ -609,10 +609,52 @@ msgstr ""
 msgid "Last Visited Page"
 msgstr ""
 
-#: src/page/RowControl.qml:105
+#: src/page/RowControl.qml:120
 #, kde-format
 msgctxt "@action"
 msgid "Add Column"
+msgstr ""
+
+#: src/page/RowControl.qml:129
+#, kde-format
+msgctxt "@action"
+msgid "Height"
+msgstr ""
+
+#: src/page/RowControl.qml:133
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Balanced"
+msgstr ""
+
+#: src/page/RowControl.qml:134
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Try and use the same height across different rows."
+msgstr ""
+
+#: src/page/RowControl.qml:142
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Minimum"
+msgstr ""
+
+#: src/page/RowControl.qml:143
+#, kde-format
+msgctxt "@info:tooltop"
+msgid "Use the minimum amount of height needed to display contents correctly."
+msgstr ""
+
+#: src/page/RowControl.qml:151
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Maximum"
+msgstr ""
+
+#: src/page/RowControl.qml:152
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Try to use as much height as possible."
 msgstr ""
 
 #: src/table/ColumnConfigurationDialog.qml:26
