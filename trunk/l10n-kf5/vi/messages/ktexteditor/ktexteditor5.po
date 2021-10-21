@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-10-17 00:14+0000\n"
-"PO-Revision-Date: 2021-10-06 21:16+0200\n"
+"PO-Revision-Date: 2021-10-21 15:38+0200\n"
 "Last-Translator: Phu Hung Nguyen <phuhnguyen@disroot.org>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -177,10 +177,10 @@ msgstr "Thanh công cụ chính"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/bordersappearanceconfigwidget.ui:25
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Code Folding"
 msgid "Code block folding:"
-msgstr "&Gấp lại mã"
+msgstr "Gập khối mã:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingMarkers)
 #: dialogs/bordersappearanceconfigwidget.ui:32
@@ -194,7 +194,7 @@ msgstr ""
 #: dialogs/bordersappearanceconfigwidget.ui:35
 #, kde-format
 msgid "Show arrows to collapse code blocks"
-msgstr ""
+msgstr "Hiện mũi tên để thu gọn khối mã"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingPreview)
 #: dialogs/bordersappearanceconfigwidget.ui:42
@@ -208,16 +208,16 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingPreview)
 #: dialogs/bordersappearanceconfigwidget.ui:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show preview of folded code"
 msgid "Show preview of folded blocks on hover"
-msgstr "Hiện xem thử phần mã bị gập"
+msgstr "Hiện xem thử cho khối bị gập khi đảo chuột"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/bordersappearanceconfigwidget.ui:68
 #, kde-format
 msgid "Left side:"
-msgstr ""
+msgstr "Cạnh trái:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkIconBorder)
 #: dialogs/bordersappearanceconfigwidget.ui:75
@@ -235,10 +235,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
 #: dialogs/bordersappearanceconfigwidget.ui:78
 #: dialogs/bordersappearanceconfigwidget.ui:131
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &scrollbar marks"
 msgid "Show marks"
-msgstr "Hiện chỉ dấu thanh &cuộn"
+msgstr "Hiện chỉ dấu"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkLineNumbers)
 #: dialogs/bordersappearanceconfigwidget.ui:85
@@ -270,14 +270,14 @@ msgstr ""
 #: dialogs/bordersappearanceconfigwidget.ui:98
 #, kde-format
 msgid "Highlight changed and unsaved lines"
-msgstr ""
+msgstr "Tô sáng các dòng bị thay đổi và chưa lưu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/bordersappearanceconfigwidget.ui:121
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &scrollbar marks"
 msgid "Scrollbars"
-msgstr "Hiện chỉ dấu thanh &cuộn"
+msgstr "Thanh cuộn"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMarks)
 #: dialogs/bordersappearanceconfigwidget.ui:128
@@ -301,17 +301,17 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarPreview)
 #: dialogs/bordersappearanceconfigwidget.ui:141
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show text &preview on scrollbar"
 msgid "Show preview when hovering over scrollbar"
-msgstr "Hiện &xem thử văn bản trên thanh cuộn"
+msgstr "Hiện xem thử khi đảo chuột trên thanh cuộn"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/bordersappearanceconfigwidget.ui:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Minim&ap width:"
 msgid "Minimap:"
-msgstr "Độ &rộng bản đồ:"
+msgstr "Bản đồ nhỏ:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMap)
 #: dialogs/bordersappearanceconfigwidget.ui:171
@@ -325,10 +325,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMap)
 #: dialogs/bordersappearanceconfigwidget.ui:174
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show scrollbar mini-map"
 msgid "Show minimap"
-msgstr "Hiện bản đồ nhỏ trên thanh cuộn"
+msgstr "Hiện bản đồ nhỏ"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMapAll)
 #: dialogs/bordersappearanceconfigwidget.ui:184
@@ -390,7 +390,7 @@ msgstr ""
 #: dialogs/bordersappearanceconfigwidget.ui:255
 #, kde-format
 msgid "By date created"
-msgstr ""
+msgstr "Theo ngày tạo"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByPosition)
 #: dialogs/bordersappearanceconfigwidget.ui:262
@@ -400,17 +400,17 @@ msgstr "Các dấu nhớ sẽ được sắp xếp theo số dòng tại đó ch
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByPosition)
 #: dialogs/bordersappearanceconfigwidget.ui:265
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &line numbers"
 msgid "By line number"
-msgstr "Hiện &số dòng"
+msgstr "Theo số dòng"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: dialogs/bordersappearanceconfigwidget.ui:272
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sort Bookmarks Menu"
 msgid "Sort bookmarks menu:"
-msgstr "Sắp xếp trình đơn \"Dấu nhớ\""
+msgstr "Sắp xếp trình đơn \"Dấu nhớ\":"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
@@ -544,16 +544,16 @@ msgstr "Chế độ nhập mặc định:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/editconfigwidget.ui:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Move to Matching Bracket"
 msgid "Brackets:"
-msgstr "Tới dấu ngoặc khớp"
+msgstr "Dấu ngoặc:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoBrackets)
 #: dialogs/editconfigwidget.ui:124
 #, kde-format
 msgid "Automatically close brackets when opening bracket is typed"
-msgstr ""
+msgstr "Tự động đóng ngoặc khi gõ ngoặc mở"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbEncloseSelection)
 #: dialogs/editconfigwidget.ui:137
@@ -562,38 +562,40 @@ msgid ""
 "When some text is selected these chars will be added on both its sides in a "
 "way \"Auto Bracket\" do"
 msgstr ""
+"Khi một đoạn chữ được chọn, các kí tự này sẽ được thêm vào hai phía của đoạn "
+"đó theo cách giống như \"Ngoặc tự động\""
 
 #. i18n: ectx: property (text), widget (QLabel, lbEncloseSelection)
 #: dialogs/editconfigwidget.ui:140
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Character"
 msgid "Enclosing characters:"
-msgstr "Kí tự"
+msgstr "Kí tự bao quanh:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/editconfigwidget.ui:160
 #, kde-format
 msgid "Copy and paste:"
-msgstr ""
+msgstr "Chép và dán:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTextDragAndDrop)
 #: dialogs/editconfigwidget.ui:167
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Selected"
 msgid "Move selected text when dragged"
-msgstr "Đã chọn"
+msgstr "Khi kéo, di chuyển đoạn đã chọn "
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSmartCopyCut)
 #: dialogs/editconfigwidget.ui:174
 #, kde-format
 msgid "Copy/cut the current line if invoked without any text selected"
-msgstr ""
+msgstr "Chép/cắt dòng hiện tại nếu được gọi mà đang không chọn gì"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMousePasteAtCursorPosition)
 #: dialogs/editconfigwidget.ui:181
 #, kde-format
 msgid "Don't move the text cursor when pasting by mouse"
-msgstr ""
+msgstr "Không di chuyển con trỏ văn bản khi dán bằng chuột"
 
 #. i18n: ectx: property (text), widget (QLabel, lblBracketHelp)
 #: dialogs/editconfigwidget.ui:194
@@ -602,40 +604,42 @@ msgid ""
 "When you type these characters while text is selected, they will surround "
 "the selected text instead of replacing it."
 msgstr ""
+"Khi bạn gõ những kí tự này mà có phần chữ đang được chọn, chúng sẽ bao quanh "
+"thay vì thay thế phần chữ được chọn."
 
 #. i18n: ectx: property (text), widget (QLabel, lblFiletype)
 #: dialogs/filetypeconfigwidget.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "New Filetype"
 msgid "&Filetype:"
-msgstr "Kiểu tệp mới"
+msgstr "&Kiểu tệp:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbFiletypes)
 #: dialogs/filetypeconfigwidget.ui:24
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select the syntax highlighting files you want to update:"
 msgid "Select the filetype you want to change."
-msgstr "Chọn những tệp tô sáng cú pháp cần cập nhật:"
+msgstr "Chọn kiểu tệp bạn muốn thay đổi."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnNew)
 #: dialogs/filetypeconfigwidget.ui:31
 #, kde-format
 msgid "Create a new file type."
-msgstr ""
+msgstr "Tạo một kiểu tệp mới."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnNew)
 #: dialogs/filetypeconfigwidget.ui:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&New..."
 msgid "&New"
-msgstr "&Mới..."
+msgstr "&Mới"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btnDelete)
 #: dialogs/filetypeconfigwidget.ui:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print the current document."
 msgid "Delete the current file type."
-msgstr "In tài liệu hiện thời."
+msgstr "Xoá kiểu tệp hiện tại."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
 #: dialogs/filetypeconfigwidget.ui:44 syntax/katethemeconfig.cpp:1014
@@ -651,37 +655,37 @@ msgstr "Thuộc tính"
 
 #. i18n: ectx: property (text), widget (QLabel, lblName)
 #: dialogs/filetypeconfigwidget.ui:72
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Name:"
 msgid "&Name:"
-msgstr "Tên:"
+msgstr "&Tên:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtName)
 #: dialogs/filetypeconfigwidget.ui:82
 #, kde-format
 msgid ""
 "The name of the filetype will be the text of the corresponding menu item."
-msgstr ""
+msgstr "Tên kiểu tệp sẽ là phần chữ của mục trình đơn tương ứng."
 
 #. i18n: ectx: property (text), widget (QLabel, lblSection)
 #: dialogs/filetypeconfigwidget.ui:89
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Execution"
 msgid "&Section:"
-msgstr "Thực hiện"
+msgstr "Khu &vực:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtSection)
 #: dialogs/filetypeconfigwidget.ui:99
 #, kde-format
 msgid "The section name is used to organize the file types in menus."
-msgstr ""
+msgstr "Tên khu vực được dùng để tổ chức các kiểu tệp trong trình đơn."
 
 #. i18n: ectx: property (text), widget (QLabel, lblVariables)
 #: dialogs/filetypeconfigwidget.ui:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Variables"
 msgid "&Variables:"
-msgstr "Biến"
+msgstr "&Biến:"
 
 #. i18n: ectx: property (whatsThis), widget (VariableLineEdit, edtVariables)
 #: dialogs/filetypeconfigwidget.ui:116
@@ -692,29 +696,33 @@ msgid ""
 "set, such as highlight, indent-mode, encoding, etc.</p><p>For a full list of "
 "known variables, see the manual.</p>"
 msgstr ""
+"<p>Chuỗi này cho phép cấu hình các thiết lập của Kate cho các tệp được chọn "
+"ra bởi kiểu MIME này bằng các biến Kate. Hầu như bất kì lựa chọn cấu hình "
+"nào cũng có thể đặt được, chẳng hạn tô sáng, chế độ thụt lề, mã hoá, v.v.</p>"
+"<p>Xem danh sách đầy đủ các biến đã có trong sổ tay.</p>"
 
 # msgid "Highlighting"
 #. i18n: ectx: property (text), widget (QLabel, lblHl)
 #: dialogs/filetypeconfigwidget.ui:123
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Highlighting"
 msgid "&Highlighting:"
-msgstr "Tô &sáng"
+msgstr "Tô &sáng:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblIndenter)
 #: dialogs/filetypeconfigwidget.ui:136
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Indentation"
 msgid "&Indentation mode:"
-msgstr "Thụt &lề"
+msgstr "Chế độ thụt &lề:"
 
 # msgid "File e&xtensions:"
 #. i18n: ectx: property (text), widget (QLabel, lblExtensions)
 #: dialogs/filetypeconfigwidget.ui:149
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Extensions"
 msgid "File e&xtensions:"
-msgstr "Phần mở rộng"
+msgstr "Phần mở &rộng tệp:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtFileExtensions)
 #: dialogs/filetypeconfigwidget.ui:159
@@ -724,12 +732,15 @@ msgid ""
 "an asterisk and the file extension, for example <code>*.txt; *.text</code>. "
 "The string is a semicolon-separated list of masks."
 msgstr ""
+"Mặt nạ thế tự cho phép chọn các tệp bằng tên tệp. Một mặt nạ điển hình sử "
+"dụng một dấu sao và phần mở rộng tệp, ví dụ <code>*.txt; *.text</code>. "
+"Chuỗi này là một danh sách phân cách bởi dấu chấm phẩy các mặt nạ."
 
 #. i18n: ectx: property (text), widget (QLabel, lblMimeTypes)
 #: dialogs/filetypeconfigwidget.ui:166
 #, kde-format
 msgid "MIME &types:"
-msgstr "&Kiểu MIME:"
+msgstr "Kiểu &MIME:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtMimeTypes)
 #: dialogs/filetypeconfigwidget.ui:181
@@ -739,18 +750,21 @@ msgid ""
 "semicolon-separated list of mimetypes, for example <code>text/plain; text/"
 "english</code>."
 msgstr ""
+"Mặt nạ kiểu MIME này cho phép chọn các tệp bằng kiểu MIME. Chuỗi này là một "
+"danh sách phân cách bởi dấu chấm phẩy các kiểu MIME, ví dụ <code>text/plain; "
+"text/english</code>."
 
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnMimeTypes)
 #: dialogs/filetypeconfigwidget.ui:188
 #, kde-format
 msgid "Displays a wizard that helps you easily select mimetypes."
-msgstr ""
+msgstr "Hiển thị một trình hướng dẫn giúp đỡ bạn dễ dàng chọn các kiểu MIME."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPriority)
 #: dialogs/filetypeconfigwidget.ui:197
 #, kde-format
 msgid "P&riority:"
-msgstr ""
+msgstr "Độ ư&u tiên:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbPriority)
 #: dialogs/filetypeconfigwidget.ui:207
@@ -759,13 +773,15 @@ msgid ""
 "Sets priority for this file type. If more than one file type selects the "
 "same file, the one with the highest priority will be used."
 msgstr ""
+"Đặt độ ưu tiên cho kiểu tệp này. Nếu nhiều hơn một kiểu tệp chọn ra cùng một "
+"tệp, kiểu tệp có độ ưu tiên cao nhất sẽ được dùng."
 
 #. i18n: ectx: property (text), widget (QLabel, lblMode)
 #: dialogs/indentationconfigwidget.ui:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Clean Indentation"
 msgid "Default indentation mode:"
-msgstr "Thụt lề &sạch"
+msgstr "Chế độ thụt lề mặc định:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbMode)
 #: dialogs/indentationconfigwidget.ui:27
@@ -776,13 +792,16 @@ msgid ""
 "to set the indentation mode with document variables, modes or a .kateconfig "
 "file."
 msgstr ""
+"Đây là một danh sách các chế độ thụt lề hiện có. Chế độ thụt lề được chỉ "
+"định sẽ được dùng cho tất cả các tài liệu mới. Chú ý rằng cũng có thể đặt "
+"chế độ thụt lề bằng các biến tài liệu, các chế độ hoặc một tệp .kateconfig."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbIndentationMode)
 #: dialogs/indentationconfigwidget.ui:49
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Indentation"
 msgid "Indent using"
-msgstr "Canh lề"
+msgstr "Thụt lề bằng"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbIndentWithTabs)
 #: dialogs/indentationconfigwidget.ui:55
