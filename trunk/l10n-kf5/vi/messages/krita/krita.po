@@ -298,7 +298,7 @@ msgstr ""
 #, kde-format
 msgctxt "./krita/data/patterns/fractal_pattern.pat"
 msgid "Fractal Pattern"
-msgstr "Họa Tiết Phân Dạng"
+msgstr "Họa Tiết Kiểu Mẫu Phân Dạng"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #, kde-format
@@ -7359,10 +7359,10 @@ msgstr "Điền với màu nền"
 #. i18n: context: Action (fill_selection_pattern_opacity), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_pattern_opacity), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:755 krita/krita.action:757 krita/kritamenu.action:522 krita/kritamenu.action:524
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Fill with Pattern (Opacity)"
-msgstr "&Trắng"
+msgstr "Tô Phủ Kín bằng Họa Tiết Kiểu Mẫu (Đục)"
 
 #. i18n: context: Action (convert_selection_to_shape), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:767
@@ -10972,17 +10972,17 @@ msgstr "Điền với màu nền"
 
 #. i18n: context: Action (fill_selection_pattern), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:484
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "F&ill with Pattern"
-msgstr "&Trắng"
+msgstr "Tô Phủ Kín bằng Họa Tiết Kiểu Mẫu"
 
 #. i18n: context: Action (fill_selection_pattern), Actions (Edit), ActionCollection (Menu)
 #: krita/kritamenu.action:486
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Fill with Pattern"
-msgstr "&Trắng"
+msgstr "Tô Phủ Kín bằng Họa Tiết Kiểu Mẫu"
 
 #. i18n: context: Actions (EditFill), ActionCollection (Menu)
 #: krita/kritamenu.action:495
@@ -23271,9 +23271,9 @@ msgid "Favorites"
 msgstr "&Trắng"
 
 #: libs/ui/kis_control_frame.cpp:68
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fill Patterns"
-msgstr "&Trắng"
+msgstr "Họa Tiết Kiểu Mẫu Để Tô Phủ"
 
 #: libs/ui/kis_control_frame.cpp:72
 #, fuzzy, kde-format
@@ -23281,9 +23281,9 @@ msgid "Fill Gradients"
 msgstr "Đổ dốc màu"
 
 #: libs/ui/kis_control_frame.cpp:82
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Patterns"
-msgstr "Các bảng màu"
+msgstr "Họa Tiết Kiểu Mẫu"
 
 #: libs/ui/kis_control_frame.cpp:87
 #, fuzzy, kde-format
@@ -23311,14 +23311,14 @@ msgid "&Open Background color selector"
 msgstr "Màu Nền"
 
 #: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:307 plugins/dockers/patterndocker/patterndocker_dock.cpp:20 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65 plugins/extensions/resourcemanager/wdgtagselection.cpp:241
-#, fuzzy, kde-format
+#, kde-format
 msgid "Patterns"
-msgstr "Các bảng màu"
+msgstr "Họa Tiết Kiểu Mẫu"
 
 #: libs/ui/kis_control_frame.cpp:189 libs/ui/kis_control_frame.cpp:190
-#, fuzzy, kde-format
+#, kde-format
 msgid "Custom Pattern"
-msgstr "Đổ dốc màu tự chọn"
+msgstr "Họa Tiết Kiểu Mẫu Tự Đặt"
 
 #: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:292 libs/ui/KisApplication.cpp:293 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63 plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, fuzzy, kde-format
@@ -23326,16 +23326,16 @@ msgid "Gradients"
 msgstr "Các đổ dốc màu"
 
 #: libs/ui/kis_custom_pattern.cc:108
-#, fuzzy, kde-format
+#, kde-format
 msgid "Add to Predefined Patterns"
-msgstr "Thêm vào Các chổi được định sẵn"
+msgstr "Thêm vào các Họa Tiết Kiểu Mẫu Định Trước"
 
 #: libs/ui/kis_custom_pattern.cc:131
-#, fuzzy, kde-format
+#, kde-format
 msgid "This pattern already exists. Do you want to overwrite it?"
 msgstr ""
-"Một văn bản có tên này đã tồn tại.\n"
-"Bạn có muốn ghi đè không?"
+"Họa tiết kiểu mẫu này đã tồn tại.\n"
+"Bạn có muốn ghi đè nó không?"
 
 #: libs/ui/kis_filter_manager.cc:189
 #, kde-format
@@ -23759,9 +23759,9 @@ msgid "Size:"
 msgstr "kết nối"
 
 #: libs/ui/kis_paintop_box.cc:255 libs/ui/kis_paintop_box.cc:261
-#, fuzzy, kde-format
+#, kde-format
 msgid "Pattern Scale:"
-msgstr "Cỡ Trang"
+msgstr "Tỷ Lệ Kiểu Mẫu:"
 
 #: libs/ui/kis_paintop_box.cc:313
 #, fuzzy, kde-format
@@ -46195,179 +46195,172 @@ msgstr "Không thể nhặt màu vì lớp đang dùng không được nhìn th�
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:225
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
-msgstr "Không thể ghi tệp bảng màu %1. Có thể nó chỉ được đọc."
+msgstr "Không thể viết tập tin bảng màu %1 này được. Có thể nó chỉ là một tập tin dùng để đọc mà thôi."
 
 #: plugins/tools/basictools/kis_tool_colorsampler.h:137
-#, fuzzy, kde-format
+#, kde-format
 msgid "Color Sampler Tool"
-msgstr "Trình chọn màu nhỏ"
+msgstr "Công Cụ Lấy Mẫu Màu"
 
 #: plugins/tools/basictools/kis_tool_ellipse.cc:52
-#, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Ellipse"
-msgstr "Vẽ một hình êlíp"
+msgstr "Vẽ Hình Trứng"
 
 #: plugins/tools/basictools/kis_tool_ellipse.h:45
-#, fuzzy, kde-format
+#, kde-format
 msgid "Ellipse Tool"
-msgstr "Elliptical"
+msgstr "Công Cụ Hình Trứng"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:118
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
-msgstr ""
+msgstr "Bạn không thể sử dụng công cụ này với thể loại tầng lớp đã chọn"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:161
-#, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
-msgstr "Không được chỉ định"
+msgstr "Tô Phủ Tràn Kín"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:221
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fast mode: "
-msgstr "Chế độ lộ sáng:"
+msgstr "Chế độ nhanh chóng: "
 
 #: plugins/tools/basictools/kis_tool_fill.cc:224
 #, kde-format
 msgid "Fills area faster, but does not take composition mode into account. Selections and other extended features will also be disabled."
-msgstr ""
+msgstr "tô phủ kín vùng nhanh hơn song không quan tâm đến chế độ  "
 
 #: plugins/tools/basictools/kis_tool_fill.cc:229
-#, fuzzy, kde-format
-#| msgid "Threshold: "
+#, kde-format
 msgctxt "The Threshold label in Fill tool options"
 msgid "Threshold: "
-msgstr "Ngưỡng:"
+msgstr "Ngưỡng: "
 
 #: plugins/tools/basictools/kis_tool_fill.cc:236
-#, fuzzy, kde-format
+#, kde-format
 msgid "Grow selection: "
-msgstr "Phóng phần được chọn bằng"
+msgstr "Tăng vùng lựa chọn: "
 
 #: plugins/tools/basictools/kis_tool_fill.cc:243 plugins/tools/selectiontools/kis_tool_select_contiguous.cc:251
-#, fuzzy, kde-format
+#, kde-format
 msgid "Feathering radius: "
-msgstr "Trình chọn &màu"
+msgstr "Bán kính nhòe mờ mép: "
 
 #: plugins/tools/basictools/kis_tool_fill.cc:250
-#, fuzzy, kde-format
+#, kde-format
 msgid "Use pattern:"
-msgstr "Cho layer hiện tại xuống dưới"
+msgstr "Sử dụng họa tiết kiểu mẫu:"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:252
-#, fuzzy, kde-format
+#, kde-format
 msgid "When checked do not use the foreground color, but the pattern selected to fill with"
-msgstr "Khi được chọn thì không điền bằng màu mặt mà dùng đổ dốc màu được chọn"
+msgstr "Khi được đánh dấu kiểm thì không sử dụng màu nền trước, song sử dụng họa tiết kiểu mẫu đã chọn để tô phủ kín"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:270
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "This is a label before a combobox with different choices regarding which layers to take into considerationg when calculating the area to fill. Options together with the label are: /Sample current layer/ /Sample all layers/ /Sample color labeled layers/. Sample is a verb here and means something akin to 'take into account'."
 msgid "Sample:"
-msgstr "Độ sắc:"
+msgstr "Lấy Mẫu:"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:279
 #, kde-format
 msgctxt "This is a string in tool options for Fill Tool to describe a combobox about a choice of color labels that a layer can be marked with. Those color labels will be used for calculating the area to fill."
 msgid "Labels used:"
-msgstr ""
+msgstr "Các nhãn đã sử dụng:"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:283
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fill entire selection:"
-msgstr "Điền toàn bộ phần chọn"
+msgstr "Tô phủ kín toàn thể vùng lựa chọn:"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:285
-#, fuzzy, kde-format
+#, kde-format
 msgid "When checked do not look at the current layer colors, but just fill all of the selected area"
-msgstr "Khi được chọn thì không điền bằng màu mặt mà dùng đổ dốc màu được chọn"
+msgstr "Khi được đánh dấu kiểm thì không quan tâm đến màu sắc của tầng lớp hiện tại, song chỉ đơn thuần tô phủ kín toàn bộ khu vực đã chọn mà thôi"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:287
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Description for a checkbox in a Fill Tool to use selection borders as boundary when filling"
 msgid "Use selection as boundary:"
-msgstr "Viền quanh phần được chọn bằng"
+msgstr "Sử dụng vùng chọn làm đường biên:"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:289
 #, kde-format
 msgctxt "Tooltip for 'Use selection as boundary' checkbox"
 msgid "When checked, use selection borders as boundary when filling"
-msgstr ""
+msgstr "Khi được đánh dấu kiểm thì sử dụng biên giới của vùng chọn làm đường biên khi tô phủ kín"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:391
-#, fuzzy, kde-format
-#| msgid "Current Layer"
+#, kde-format
 msgctxt "Option in fill tool: take only the current layer into account when calculating the area to fill"
 msgid "Current Layer"
-msgstr "Lớp hiện tại"
+msgstr "Tầng Lớp Hiện Tại"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:395
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Option in fill tool: take all layers (merged) into account when calculating the area to fill"
 msgid "All Layers"
-msgstr "Lớp &lặp lại"
+msgstr "Toàn Bộ Các Tầng Lớp"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:398
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Option in fill tool: take all layers that were labeled with a color label (more precisely: all those layers merged) into account when calculating the area to fill"
 msgid "Color Labeled Layers"
-msgstr "Khoảng màu"
+msgstr "Các Tầng Lớp Đánh Nhãn Bằng Màu"
 
 #: plugins/tools/basictools/kis_tool_fill.h:129
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fill Tool"
-msgstr "Elliptical"
+msgstr "Công Cụ Tô Phủ Kín"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:163
-#, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Gradient"
-msgstr "Đổ dốc màu"
+msgstr "Dốc Màu"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:269
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
-msgstr "Lật ngược"
+msgstr "Đảo Ngược"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
-#, fuzzy, kde-format
-#| msgid "Other"
+#, kde-format
 msgctxt "the gradient will be dithered"
 msgid "Dither"
-msgstr "Khác"
+msgstr "Điểm Ảnh Nhiễu Hóa"
 
 #: plugins/tools/basictools/kis_tool_gradient.h:106
-#, fuzzy, kde-format
+#, kde-format
 msgid "Gradient Tool"
-msgstr "Gradients"
+msgstr "Công Cụ Dốc Màu"
 
 #: plugins/tools/basictools/kis_tool_line.cc:52
-#, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Line"
-msgstr "Đường gạch"
+msgstr "Vẽ Đường Thẳng"
 
 #: plugins/tools/basictools/kis_tool_line.cc:91
-#, fuzzy, kde-format
+#, kde-format
 msgid "Use sensors"
-msgstr "Màu"
+msgstr "Sử Dụng Bộ Cảm Biến"
 
 #: plugins/tools/basictools/kis_tool_line.cc:94
 #, kde-format
 msgid "Show Preview"
-msgstr "Hiện xem thử"
+msgstr "Hiển Thị Duyệt Thảo"
 
 #: plugins/tools/basictools/kis_tool_line.cc:97
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show Guideline"
-msgstr "Hiện &Lưới"
+msgstr "Hiển Thị Đường Hướng Dẫn"
 
 #: plugins/tools/basictools/kis_tool_line.cc:365
-#, fuzzy, kde-format
+#, kde-format
 msgid "Length: %1 px"
-msgstr "Chiều dài:"
+msgstr "Chiều dài: %1 px"
 
 #: plugins/tools/basictools/kis_tool_line.cc:383
 #, kde-format
@@ -46375,27 +46368,27 @@ msgid "Alt+Drag will move the origin of the currently displayed line around, Shi
 msgstr "Alt+Kéo Rê sẽ di chuyển tọa độ gốc của đường đang được hiển thị, Shift+Kéo Rê sẽ buộc bạn phải vẽ đường thẳng"
 
 #: plugins/tools/basictools/kis_tool_line.h:105
-#, fuzzy, kde-format
+#, kde-format
 msgid "Line Tool"
-msgstr "Công cụ đườn&g"
+msgstr "Công Cụ Đường Thẳng"
 
 #: plugins/tools/basictools/kis_tool_measure.cc:71
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "angle value in degrees"
 msgid "%1°"
-msgstr "°"
+msgstr ""
 
 #: plugins/tools/basictools/kis_tool_measure.cc:130
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "%1 %2\n"
 "%3°"
-msgstr "%1%"
+msgstr ""
 
 #: plugins/tools/basictools/kis_tool_measure.h:101
-#, fuzzy, kde-format
+#, kde-format
 msgid "Measure Tool"
-msgstr "Đo"
+msgstr "Công Cụ Đo Lường"
 
 #: plugins/tools/basictools/kis_tool_move.cc:279
 #, kde-format
@@ -46407,7 +46400,7 @@ msgstr ""
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "Selected area has no pixels"
-msgstr ""
+msgstr "Khu vực lựa chọn không có điểm ảnh nào ở đó cả"
 
 #: plugins/tools/basictools/kis_tool_move.h:183
 #, kde-format
@@ -46640,7 +46633,7 @@ msgstr "Di chuyển tầng lớp đầu tiên có chứa nội dung hiện đang
 #: plugins/tools/basictools/wdgmovetool.ui:49
 #, kde-format
 msgid "Mo&ve layer with content"
-msgstr "Di chuyển tầng lớp có nội dung"
+msgstr "Di chuyển tầng lớp với nội dung"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioGroup)
 #: plugins/tools/basictools/wdgmovetool.ui:59
@@ -48125,10 +48118,9 @@ msgstr "Vị Trí Chiều Dọc"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vertiPos)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:79
-#, fuzzy, kde-format
-#| msgid "Y:"
+#, kde-format
 msgid "&Y:"
-msgstr "Y:"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_horizPos)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intX)
@@ -48139,10 +48131,9 @@ msgstr "Vị Trí Chiều Ngang"
 
 #. i18n: ectx: property (text), widget (QLabel, label_horizPos)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:92
-#, fuzzy, kde-format
-#| msgid "X:"
+#, kde-format
 msgid "&X:"
-msgstr "X:"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolGrow)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:152
@@ -49183,1134 +49174,3 @@ msgstr "Công Cụ Thu-Phóng"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "Công Cụ về Ảnh Tham Chiếu"
-
-#, fuzzy
-#~| msgid "Add Group"
-#~ msgctxt "action"
-#~ msgid "Add a new &Group Layer"
-#~ msgstr "Thêm Nhóm"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add a new &Clone Layer"
-#~ msgstr "Đổi bộ lọc"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add a new &Transparency Mask"
-#~ msgstr "Kiểm tra trong suốt"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add a new &Filter Mask..."
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add a new &Colorize Mask"
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add a new &Transform Mask"
-#~ msgstr "Kiểm tra trong suốt"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add a new &Paint Layer"
-#~ msgstr "Layer"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "to &Paint Layer"
-#~ msgstr "Layer"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "to &Selection Mask"
-#~ msgstr "Không có phần chọn"
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "Cannot add the resource"
-#~ msgstr "&Tài nguyên"
-
-#, fuzzy
-#~| msgid "Group:"
-#~ msgctxt "action"
-#~ msgid "Group"
-#~ msgstr "Nhóm:"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Group Layer"
-#~ msgstr "Layer &trước..."
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Clone Layer"
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Filter Layer"
-#~ msgstr "Tạo layer mới"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Fill Layer"
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "File Layer"
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "&Transparency Mask"
-#~ msgstr "Kiểm tra trong suốt"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Transparency Mask"
-#~ msgstr "Kiểm tra trong suốt"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Filter Mask"
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "&Colorize Mask"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Colorize Mask"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "&Transform Mask"
-#~ msgstr "Biến hình"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Transform Mask"
-#~ msgstr "Biến hình"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Paint Layer"
-#~ msgstr "Layer"
-
-#, fuzzy
-#~| msgid "Add Group"
-#~ msgid "Add a group"
-#~ msgstr "Thêm Nhóm"
-
-#, fuzzy
-#~ msgid "Delete this group"
-#~ msgstr "Xoá Trang"
-
-#, fuzzy
-#~| msgid "Color Settings"
-#~ msgid "Group settings"
-#~ msgstr "Thiết lập Màu"
-
-#, fuzzy
-#~ msgid "Column count"
-#~ msgstr "nền"
-
-#, fuzzy
-#~ msgid "Row count"
-#~ msgstr "nền"
-
-#, fuzzy
-#~| msgid "Name:"
-#~ msgctxt "Label for line edit to set a palette name."
-#~ msgid "Name"
-#~ msgstr "Tên:"
-
-#, fuzzy
-#~ msgctxt "Renaming swatch group"
-#~ msgid "New name"
-#~ msgstr "Tên:"
-
-#, fuzzy
-#~ msgctxt "@title:dialog"
-#~ msgid "Add a Color"
-#~ msgstr "Thêm Màu Mới..."
-
-#, fuzzy
-#~ msgctxt "Spot color"
-#~ msgid "Spot"
-#~ msgstr "Điểm"
-
-#~ msgctxt "Name for default group"
-#~ msgid "Default"
-#~ msgstr "Mặc định"
-
-#, fuzzy
-#~| msgid "Color"
-#~ msgctxt "Part of a default name for a color"
-#~ msgid "Color"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgid "Add a color"
-#~ msgstr "Thêm Màu Mới..."
-
-#, fuzzy
-#~ msgid "Delete color"
-#~ msgstr "Xoá"
-
-#, fuzzy
-#~ msgid "Modify this spot"
-#~ msgstr "Nhiều điểm"
-
-#, fuzzy
-#~| msgid "Add to palette:"
-#~ msgid "Edit this palette"
-#~ msgstr "Thêm vào bảng màu:"
-
-#, fuzzy
-#~| msgid "Add to palette:"
-#~ msgid "Save this palette"
-#~ msgstr "Thêm vào bảng màu:"
-
-#, fuzzy
-#~ msgid "Could not save preset under name %1, it already exists."
-#~ msgstr "Chọn véctơ"
-
-#, fuzzy
-#~ msgid "Could not update preset %1."
-#~ msgstr "Chọn véctơ"
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "Couldn't add the session"
-#~ msgstr "Không thể thêm lớp vào ảnh."
-
-#, fuzzy
-#~ msgctxt "Warning about not being able to rename a session"
-#~ msgid "Renaming the session failed."
-#~ msgstr "Tạo mẫu"
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "New Workspace..."
-#~ msgstr "Không gian màu"
-
-#, fuzzy
-#~ msgid "Clean Up"
-#~ msgstr "Di chuyển layer"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Filters"
-#~ msgstr "Các bộ lọc:"
-
-#, fuzzy
-#~ msgid "Export Directory: "
-#~ msgstr "Chọn một khu vực hình chữ nhật"
-
-#, fuzzy
-#~| msgid "Page"
-#~ msgid "Rows per page :"
-#~ msgstr "Trang"
-
-#, fuzzy
-#~| msgid "Page"
-#~ msgid "Columns per page :"
-#~ msgstr "Trang"
-
-#, fuzzy
-#~ msgid "Export File Name : "
-#~ msgstr "Nhập ảnh"
-
-#, fuzzy
-#~ msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#~ msgid " cells horizontally"
-#~ msgstr "Ngang:"
-
-#, fuzzy
-#~ msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#~ msgid " cell vertically"
-#~ msgstr "Phần chọn"
-
-#, fuzzy
-#~ msgctxt "Suffix. Part of 'Every # cell/s horizontally"
-#~ msgid " cells vertically"
-#~ msgstr "Phần chọn"
-
-#, fuzzy
-#~| msgid "Auto"
-#~ msgctxt "Autobrush Label"
-#~ msgid "Auto"
-#~ msgstr "Tự động"
-
-#, fuzzy
-#~ msgid "Loading Plugins Exiv/IO..."
-#~ msgstr "Các bảng màu"
-
-#, fuzzy
-#~| msgid "Image"
-#~ msgctxt "description of a file type"
-#~ msgid "JP2 Image"
-#~ msgstr "Ảnh"
-
-#, fuzzy
-#~ msgid "No store backend"
-#~ msgstr "Không có hậu phương lưu"
-
-#, fuzzy
-#~| msgid "Import Image"
-#~ msgid "lblThumbnail"
-#~ msgstr "Nhập ảnh"
-
-#, fuzzy
-#~ msgid "KSqueezedTextLabel"
-#~ msgstr "Chữ"
-
-#, fuzzy
-#~ msgctxt "Error message when saving a .kra file"
-#~ msgid "Could not save palettes."
-#~ msgstr "Chọn véctơ"
-
-#, fuzzy
-#~ msgid "Destination Atop"
-#~ msgstr "Địa điểm"
-
-#, fuzzy
-#~ msgid "Destination In"
-#~ msgstr "Địa điểm"
-
-#, fuzzy
-#~ msgid "Erase"
-#~ msgstr "Xoá điểm ảnh"
-
-#, fuzzy
-#~ msgid "Greater"
-#~ msgstr "Tạo"
-
-#, fuzzy
-#~ msgid "Grain Merge"
-#~ msgstr "&Sóng..."
-
-#, fuzzy
-#~ msgid "Hard Mix"
-#~ msgstr "Chiều cao:"
-
-#, fuzzy
-#~ msgid "Hard Mix (Photoshop)"
-#~ msgstr "Thẳng"
-
-#, fuzzy
-#~ msgid "Hard Mix Softer (Photoshop)"
-#~ msgstr "Thẳng"
-
-#, fuzzy
-#~ msgid "Geometric Mean"
-#~ msgstr "Tuỳ chọn Hình học"
-
-#, fuzzy
-#~ msgid "Parallel"
-#~ msgstr "Biến số"
-
-#, fuzzy
-#~ msgid "Hard Overlay"
-#~ msgstr "Công cụ vẽ"
-
-#, fuzzy
-#~ msgid "Interpolation"
-#~ msgstr "Trình chọn &màu"
-
-#, fuzzy
-#~ msgid "Interpolation - 2X"
-#~ msgstr "Độ phân giải:"
-
-#~ msgid "Screen"
-#~ msgstr "Màn hình"
-
-#, fuzzy
-#~ msgid "Color Dodge"
-#~ msgstr "Chọn Màu"
-
-#, fuzzy
-#~ msgid "Linear Dodge"
-#~ msgstr "Viền Đường thẳng"
-
-#~ msgid "Lighten"
-#~ msgstr "Làm sáng"
-
-#, fuzzy
-#~ msgid "Hard Light"
-#~ msgstr "Chiều cao:"
-
-#, fuzzy
-#~ msgid "Soft Light (IFS Illusions)"
-#~ msgstr "Thẳng"
-
-#, fuzzy
-#~ msgid "Soft Light (Pegtop-Delphi)"
-#~ msgstr "Thẳng"
-
-#, fuzzy
-#~ msgid "Soft Light (SVG)"
-#~ msgstr "Thẳng"
-
-#, fuzzy
-#~ msgid "Soft Light (Photoshop)"
-#~ msgstr "Thẳng"
-
-#, fuzzy
-#~ msgid "Gamma Light"
-#~ msgstr "Làm sáng"
-
-#, fuzzy
-#~| msgid "Orientation"
-#~ msgid "Gamma Illumination"
-#~ msgstr "Định hướng"
-
-#, fuzzy
-#~ msgid "Vivid Light"
-#~ msgstr "Làm sáng"
-
-#, fuzzy
-#~ msgid "Pin Light"
-#~ msgstr "Làm sáng"
-
-#, fuzzy
-#~ msgid "Linear Light"
-#~ msgstr "Bề rộng:"
-
-#, fuzzy
-#~ msgid "Super Light"
-#~ msgstr "Bề rộng:"
-
-#, fuzzy
-#~ msgid "Easy Dodge"
-#~ msgstr "Phương thức"
-
-#, fuzzy
-#~ msgid "Color Burn"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgid "Linear Burn"
-#~ msgstr "Viền Đường thẳng"
-
-#, fuzzy
-#~ msgid "Gamma Dark"
-#~ msgstr "Chế độ bằng tay"
-
-#, fuzzy
-#~ msgid "Easy Burn"
-#~ msgstr "Xanh nước biển"
-
-#, fuzzy
-#~ msgid "Addition"
-#~ msgstr "Thêm phân số"
-
-#, fuzzy
-#~ msgid "Inversed-Subtract"
-#~ msgstr "Trừ"
-
-#, fuzzy
-#~ msgid "Divide"
-#~ msgstr "Chia nhỏ:"
-
-#, fuzzy
-#~ msgid "Modulo"
-#~ msgstr "Phương thức"
-
-#, fuzzy
-#~ msgid "Divisive Modulo"
-#~ msgstr "Dissolve"
-
-#, fuzzy
-#~ msgid "Modulo Shift"
-#~ msgstr "Phương thức"
-
-#, fuzzy
-#~ msgid "Arcus Tangent"
-#~ msgstr "Phương thức màu"
-
-#, fuzzy
-#~ msgid "Difference"
-#~ msgstr "Tuỳ chọn"
-
-#, fuzzy
-#~ msgid "Exclusion"
-#~ msgstr "&Kích thước bằng điểm ảnh"
-
-#, fuzzy
-#~ msgid "Additive-Subtractive"
-#~ msgstr "Trừ"
-
-#, fuzzy
-#~ msgid "XOR"
-#~ msgstr "R"
-
-#, fuzzy
-#~ msgid "OR"
-#~ msgstr "R"
-
-#, fuzzy
-#~ msgid "NOR"
-#~ msgstr "R"
-
-#, fuzzy
-#~ msgid "Reflect-Freeze"
-#~ msgstr "Chọn"
-
-#, fuzzy
-#~ msgid "Freeze-Reflect"
-#~ msgstr "Chọn"
-
-#, fuzzy
-#~ msgid "Copy Red"
-#~ msgstr "Chép Trang"
-
-#, fuzzy
-#~ msgid "Copy Green"
-#~ msgstr "Xanh lá cây"
-
-#, fuzzy
-#~ msgid "Copy Blue"
-#~ msgstr "xanh da trời"
-
-#, fuzzy
-#~ msgid "Tangent Normalmap"
-#~ msgstr "Bình thường "
-
-#, fuzzy
-#~ msgid "Combine Normal Maps"
-#~ msgstr "Tổng hợp các đường"
-
-#, fuzzy
-#~| msgid "Color"
-#~ msgctxt "HSY Color"
-#~ msgid "Color"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgctxt "HSY Hue"
-#~ msgid "Hue"
-#~ msgstr "Sắc"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgctxt "HSY Saturation"
-#~ msgid "Saturation"
-#~ msgstr "Bão hoà"
-
-#, fuzzy
-#~ msgctxt "HSY Incease Saturation"
-#~ msgid "Increase Saturation"
-#~ msgstr "Trừ"
-
-#, fuzzy
-#~ msgctxt "HSY Decrease Saturation"
-#~ msgid "Decrease Saturation"
-#~ msgstr ""
-#~ "\n"
-#~ " Định hướng:"
-
-#, fuzzy
-#~ msgctxt "HSY Luminosity"
-#~ msgid "Luminosity"
-#~ msgstr "Độ dính"
-
-#, fuzzy
-#~ msgctxt "HSY Increase Luminosity"
-#~ msgid "Increase Luminosity"
-#~ msgstr "Tăng cỡ chữ"
-
-#, fuzzy
-#~ msgctxt "HSY Decrease Luminosity"
-#~ msgid "Decrease Luminosity"
-#~ msgstr "Giảm cỡ chữ"
-
-#, fuzzy
-#~ msgctxt "HSY PSD Darker Color"
-#~ msgid "Darker Color"
-#~ msgstr "Đặt nền"
-
-#, fuzzy
-#~ msgctxt "HSY PSD Lighter Color"
-#~ msgid "Lighter Color"
-#~ msgstr "Màu dòng khác ..."
-
-#, fuzzy
-#~ msgctxt "HSI Hue"
-#~ msgid "Hue HSI"
-#~ msgstr "Bước thời gian:"
-
-#, fuzzy
-#~ msgctxt "HSI Saturation"
-#~ msgid "Saturation HSI"
-#~ msgstr "Bão hoà:"
-
-#, fuzzy
-#~ msgctxt "HSI Increase Saturation"
-#~ msgid "Increase Saturation HSI"
-#~ msgstr "Trừ"
-
-#, fuzzy
-#~ msgctxt "HSI Decrease Saturation"
-#~ msgid "Decrease Saturation HSI"
-#~ msgstr ""
-#~ "\n"
-#~ " Định hướng:"
-
-#, fuzzy
-#~ msgctxt "HSI Intensity"
-#~ msgid "Intensity"
-#~ msgstr "Mô tả:"
-
-#, fuzzy
-#~ msgctxt "HSI Increase Intensity"
-#~ msgid "Increase Intensity"
-#~ msgstr "Thụt vào"
-
-#, fuzzy
-#~ msgctxt "HSI Decrease Intensity"
-#~ msgid "Decrease Intensity"
-#~ msgstr "Lùi ra"
-
-#, fuzzy
-#~ msgctxt "HSL Color"
-#~ msgid "Color HSL"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgctxt "HSL HSL"
-#~ msgid "Hue HSL"
-#~ msgstr "Bước thời gian:"
-
-#, fuzzy
-#~ msgctxt "HSL Saturation"
-#~ msgid "Saturation HSL"
-#~ msgstr "Bão hoà:"
-
-#, fuzzy
-#~ msgctxt "HSL Increase Saturation"
-#~ msgid "Increase Saturation HSL"
-#~ msgstr "Trừ"
-
-#, fuzzy
-#~ msgctxt "HSL Decrease Saturation"
-#~ msgid "Decrease Saturation HSL"
-#~ msgstr ""
-#~ "\n"
-#~ " Định hướng:"
-
-#, fuzzy
-#~ msgctxt "HSL Lightness"
-#~ msgid "Lightness"
-#~ msgstr "Chỉ làm sáng"
-
-#, fuzzy
-#~ msgctxt "HSL Increase Lightness"
-#~ msgid "Increase Lightness"
-#~ msgstr "Thụt vào"
-
-#, fuzzy
-#~ msgctxt "HSL Decrease Lightness"
-#~ msgid "Decrease Lightness"
-#~ msgstr "Lùi ra"
-
-#, fuzzy
-#~ msgctxt "HSV Color"
-#~ msgid "Color HSV"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgctxt "HSV Hue"
-#~ msgid "Hue HSV"
-#~ msgstr "Bước thời gian:"
-
-#, fuzzy
-#~ msgctxt "HSV Saturation"
-#~ msgid "Saturation HSV"
-#~ msgstr "Bão hoà:"
-
-#, fuzzy
-#~ msgctxt "HSV Increase Saturation"
-#~ msgid "Increase Saturation HSV"
-#~ msgstr "Trừ"
-
-#, fuzzy
-#~ msgctxt "HSV Decrease Saturation"
-#~ msgid "Decrease Saturation HSV"
-#~ msgstr ""
-#~ "\n"
-#~ " Định hướng:"
-
-#, fuzzy
-#~| msgid "Value"
-#~ msgctxt "HSV Value"
-#~ msgid "Value"
-#~ msgstr "Giá trị"
-
-#, fuzzy
-#~ msgctxt "HSV Increase Value"
-#~ msgid "Increase Value"
-#~ msgstr "Thụt vào"
-
-#, fuzzy
-#~ msgctxt "HSV Decrease Value"
-#~ msgid "Decrease Value"
-#~ msgstr "Lùi ra"
-
-#, fuzzy
-#~ msgid "Luminosity/Shine (SAI)"
-#~ msgstr "Độ dính"
-
-#, fuzzy
-#~ msgid "Arithmetic"
-#~ msgstr "&Lôgarít"
-
-#, fuzzy
-#~ msgid "Binary"
-#~ msgstr "Tuyến tính"
-
-#, fuzzy
-#~ msgid "Negative"
-#~ msgstr "Thay thế bằng"
-
-#, fuzzy
-#~ msgid "HSY"
-#~ msgstr "HSV"
-
-#~ msgid "Misc"
-#~ msgstr "Linh tinh"
-
-#, fuzzy
-#~ msgid "Clear the colors of the popup palette"
-#~ msgstr "Màu Nền"
-
-#, fuzzy
-#~ msgid "percent (%)"
-#~ msgstr "&Phần trăm:"
-
-#, fuzzy
-#~ msgid "Delete Backup Files"
-#~ msgstr "Xoá hình"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Move selection to previous frame"
-#~ msgstr "Bỏ chọn"
-
-#, fuzzy
-#~ msgid "Number of Palette Presets:"
-#~ msgstr "Tập kí tự"
-
-#, fuzzy
-#~ msgctxt "Autofocus metering mode"
-#~ msgid "Spot"
-#~ msgstr "Điểm"
-
-#, fuzzy
-#~| msgid "Landscape"
-#~ msgctxt "Photos of landscapes"
-#~ msgid "Landscape"
-#~ msgstr "Nằm ngang"
-
-#, fuzzy
-#~| msgid "Portrait"
-#~ msgctxt "Photos of people"
-#~ msgid "Portrait"
-#~ msgstr "Chân dung"
-
-#, fuzzy
-#~| msgid "Depth:"
-#~ msgid "Depth:"
-#~ msgstr "Độ sâu:"
-
-#, fuzzy
-#~ msgid "Profile:"
-#~ msgstr "Phần trăm:"
-
-#, fuzzy
-#~ msgid "Attach to Toolbar"
-#~ msgstr "Gradients"
-
-#, fuzzy
-#~ msgid "Detach from Toolbar"
-#~ msgstr "Gradients"
-
-#, fuzzy
-#~| msgid "Triangle"
-#~ msgid "Spinning Triangle"
-#~ msgstr "Hình tam giác"
-
-#, fuzzy
-#~ msgid "Reverse Values"
-#~ msgstr "Đảo ngược các đường"
-
-#, fuzzy
-#~| msgid "Crop Image"
-#~ msgid "Mirror Segment"
-#~ msgstr "Cắt ảnh"
-
-#, fuzzy
-#~ msgid "Remove Segment"
-#~ msgstr "Xoá đoạn"
-
-#, fuzzy
-#~ msgid "File details..."
-#~ msgstr "Lớp &lặp lại"
-
-#, fuzzy
-#~ msgid "Export Options"
-#~ msgstr "Tuỳ chọn Hình học"
-
-#, fuzzy
-#~ msgid "Multiply Alpha"
-#~ msgstr "Nhiều điểm"
-
-#, fuzzy
-#~ msgid "Subtract Alpha"
-#~ msgstr "Chổi nhoè"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "paintoppresets"
-#~ msgstr "sửa định sẵn"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "gradients"
-#~ msgstr "Đổ dốc màu"
-
-#, fuzzy
-#~| msgid "Palettes"
-#~ msgctxt "resource type"
-#~ msgid "palettes"
-#~ msgstr "Các bảng màu"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "workspaces"
-#~ msgstr "Không gian màu"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "windowlayouts"
-#~ msgstr "ảnh "
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "sessions"
-#~ msgstr "&Kích thước bằng điểm ảnh"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "gamutmasks"
-#~ msgstr "Xoay ảnh"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "seexpr_scripts"
-#~ msgstr "Công cụ &bút vẽ"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "ko_effects"
-#~ msgstr "Hiệu ứng lớp"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "tasksets"
-#~ msgstr "Nguồn"
-
-#, fuzzy
-#~ msgctxt "resource type"
-#~ msgid "layerstyles"
-#~ msgstr "Cỡ Lớp"
-
-#, fuzzy
-#~ msgid "Fetching palette..."
-#~ msgstr "Palettes"
-
-#, fuzzy
-#~| msgid "Export Layer"
-#~ msgid "Encoding frames..."
-#~ msgstr "Xuất Lớp"
-
-#, fuzzy
-#~ msgid "Import a Bundle"
-#~ msgstr "Gỡ bỏ Layer"
-
-#, fuzzy
-#~ msgctxt "In bundle manager; press button to import a bundle"
-#~ msgid "Import"
-#~ msgstr "Nhập ảnh"
-
-#, fuzzy
-#~ msgctxt "In bundle manager; press button to create a new bundle"
-#~ msgid "Create"
-#~ msgstr "Tạo"
-
-#, fuzzy
-#~ msgid "Bundle Name"
-#~ msgstr "Tên lớp:"
-
-#, fuzzy
-#~| msgid "The file %1 does not exist."
-#~ msgid ""
-#~ "The old filename %1 is taken.\n"
-#~ "New name:"
-#~ msgstr "Tệp %1 không tồn tại."
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Reset Krita Configurations"
-#~ msgstr "Công cụ &xoá"
-
-#, fuzzy
-#~ msgid "Resource Folder"
-#~ msgstr "Gỡ bỏ Layer"
-
-#, fuzzy
-#~ msgid "&Color"
-#~ msgstr "Màu"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Hello"
-#~ msgstr "vàng"
-
-#, fuzzy
-#~ msgid "Hello"
-#~ msgstr "vàng"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "&Manage Resources..."
-#~ msgstr "&Tài nguyên"
-
-#~ msgid "background"
-#~ msgstr "nền"
-
-#, fuzzy
-#~ msgctxt "floating message in layer manager"
-#~ msgid "Layer is locked "
-#~ msgid_plural "Layers are locked"
-#~ msgstr[0] "Cỡ Lớp"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Add opacity keyframe"
-#~ msgstr "Tên lớp:"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Remove opacity keyframe"
-#~ msgstr "Tên lớp:"
-
-#, fuzzy
-#~ msgid "Krita cannot find any brush presets! Krita will quit now."
-#~ msgstr "Krita không tìm thấy đầu bút vẽ cài đặt sẵn nào cả! Krita sẽ thoát ngay lập tức."
-
-#, fuzzy
-#~ msgid "Add to Toolbar"
-#~ msgstr "Ẩn thanh công cụ %1"
-
-#, fuzzy
-#~ msgid "Configure Shortcut..."
-#~ msgstr "Gắn vào Lưới"
-
-#, fuzzy
-#~ msgid "G'Mic-Qt Integration"
-#~ msgstr "Trình chọn &màu"
-
-#, fuzzy
-#~ msgid "Sinusoidale"
-#~ msgstr "Hình sin"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Color Picker"
-#~ msgstr "Nhặt màu"
-
-#, fuzzy
-#~ msgid "Color Picker"
-#~ msgstr "Nhặt màu"
-
-#, fuzzy
-#~| msgid "Value"
-#~ msgctxt "The value number each channel of picked color listed in a table"
-#~ msgid "Value"
-#~ msgstr "Giá trị"
-
-#, fuzzy
-#~ msgid "Pick a Color"
-#~ msgstr "Thêm Màu Mới..."
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Create object"
-#~ msgstr "Tạo"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Review"
-#~ msgstr "Xem Trước"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Vector Image Tool"
-#~ msgstr "Công cụ hình chữ &nhật"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Vector Image (EMF/WMF/SVM/SVG) tool"
-#~ msgstr "Công cụ hình chữ &nhật"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Gradient Editing Tool"
-#~ msgstr "Các đổ dốc màu"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Gradient editing"
-#~ msgstr "Các đổ dốc màu"
-
-#, fuzzy
-#~ msgid "Set the angle of the light source"
-#~ msgstr "Chọn một khu vực của ảnh với các đường cong"
-
-#, fuzzy
-#~ msgid "Rotation: "
-#~ msgstr "Xoay"
-
-#, fuzzy
-#~| msgid "Angle:"
-#~ msgctxt "Angle for the gradient"
-#~ msgid "Angle: "
-#~ msgstr "Góc:"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Ras&terize Layer"
-#~ msgstr "Xoay Lớp"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Rasterize Layer"
-#~ msgstr "Xoay Lớp"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rasterize Layer"
-#~ msgstr "Xoay Lớp"
-
-#, fuzzy
-#~| msgid "&Autoupdate"
-#~ msgid "Check for updates"
-#~ msgstr "&Tự động cập nhật"
-
-#, fuzzy
-#~ msgid "Gradient:"
-#~ msgstr "Đổ dốc màu"
-
-#, fuzzy
-#~ msgid "Color Mode:"
-#~ msgstr "Chọn Màu"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid "Collapse Docker"
-#~ msgstr "Đá"
-
-#, fuzzy
-#~ msgid "Zoom time"
-#~ msgstr "Thu Nhỏ"
-
-#, fuzzy
-#~| msgid "Color Range"
-#~ msgid "Zoom values"
-#~ msgstr "Khoảng màu"
-
-#, fuzzy
-#~| msgid "Color Range"
-#~ msgid "Hold value"
-#~ msgstr "Khoảng màu"
-
-#, fuzzy
-#~ msgid "Custom interpolation"
-#~ msgstr "Độ phân giải:"
-
-#, fuzzy
-#~ msgid "Sharp node"
-#~ msgstr "Độ sắc:"
-
-#, fuzzy
-#~| msgid "Smoothness:"
-#~ msgid "Smooth node"
-#~ msgstr "Độ mượt:"
-
-#, fuzzy
-#~ msgid "Show control points"
-#~ msgstr "Di chuyển điểm điều khiển"
-
-#, fuzzy
-#~ msgid "Outline Selection"
-#~ msgstr "Chọn"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select by Outline"
-#~ msgstr "Công cụ chọn"
-
-#, fuzzy
-#~ msgid "Outline Selection Tool"
-#~ msgstr "Chọn"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Outline Selection Tool"
-#~ msgstr "Chọn"
-
-#, fuzzy
-#~ msgid "Macros"
-#~ msgstr "Phóng Lớp"
-
-#, fuzzy
-#~ msgid "Import successful"
-#~ msgstr "Chế độ lộ sáng:"
-
-#, fuzzy
-#~ msgid "Action file"
-#~ msgstr "Chương trình hành động"
-
-#, fuzzy
-#~ msgctxt "A folder where recordings are stored"
-#~ msgid "Snapshots directory:"
-#~ msgstr "Chọn một khu vực hình chữ nhật"
-
-#, fuzzy
-#~ msgctxt "It appears in the checkbox next to the filter box in resources dockers; must be short."
-#~ msgid "filter by tag"
-#~ msgstr "Tạo layer mới"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid "%1"
-#~ msgstr "%1%"
-
-#, fuzzy
-#~ msgid "Compiler:"
-#~ msgstr "Tính chất:"
-
-#, fuzzy
-#~ msgid "JPEG 2000 Export Options"
-#~ msgstr "Tuỳ chọn Hình học"
