@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-21 00:15+0000\n"
+"POT-Creation-Date: 2021-10-22 00:15+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Hoang Duy Tran <hoangduytran1960@googlemail.com>\n"
 "Language-Team: vietnamese <vi@i18n.kde.org>\n"
@@ -7396,7 +7396,32 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
-#: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142 plugins/filters/threshold/threshold.action:4
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
+#: plugins/filters/asccdl/asccdl.action:4
+#: plugins/filters/colorsfilters/colorsfilters.action:4
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:4
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:4
+#: plugins/filters/gradientmap/gradientmap.action:4
+#: plugins/filters/halftone/halftone.action:4
+#: plugins/filters/normalize/normalize.action:4
+#: plugins/filters/palettize/palettize.action:4
+#: plugins/filters/threshold/threshold.action:4
 #, fuzzy, kde-format
 msgctxt "Filter as an effect"
 msgid "Filters"
@@ -13587,7 +13612,7 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr "Bộ lọc"
 
-#: libs/image/kis_asl_layer_style_serializer.cpp:1260
+#: libs/image/kis_asl_layer_style_serializer.cpp:1264
 #, kde-format
 msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
@@ -14013,7 +14038,10 @@ msgstr "Chuyển đổi lớp hiện tại từ"
 msgid "Processing"
 msgstr "Hậu xử lí"
 
-#: libs/image/kis_psd_layer_style.cpp:102 libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1406 libs/ui/KisMainWindow.cpp:1677 libs/ui/KisMainWindow.cpp:1696 plugins/impex/libkra/kis_kra_saver.cpp:86
+#: libs/image/kis_psd_layer_style.cpp:101
+#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1405
+#: libs/ui/KisMainWindow.cpp:1676 libs/ui/KisMainWindow.cpp:1695
+#: plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr "Không có tên"
@@ -14384,7 +14412,8 @@ msgstr ""
 msgid "Clone Layer"
 msgstr "Lớp &lặp lại"
 
-#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628 libs/ui/kis_node_manager.cpp:1501
+#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628
+#: libs/ui/kis_node_manager.cpp:1510
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgctxt "A group of layers"
@@ -14667,7 +14696,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "Chương trình hành động"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2045 libs/ui/KisMainWindow.cpp:2127
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044
+#: libs/ui/KisMainWindow.cpp:2126
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Nhập ảnh"
@@ -15864,8 +15894,85 @@ msgstr "&Tài nguyên"
 msgid "Local Resources"
 msgstr "Gỡ bỏ Layer"
 
-#: libs/resources/KisResourceCacheDb.cpp:136 libs/resourcewidgets/KisStorageChooserWidget.cpp:144 libs/ui/animation/KisAnimationRender.cpp:49 libs/ui/animation/KisAnimationRender.cpp:101 libs/ui/animation/KisDlgAnimationRenderer.cpp:524 libs/ui/animation/KisDlgAnimationRenderer.cpp:528 libs/ui/animation/KisDlgAnimationRenderer.cpp:536 libs/ui/animation/KisDlgAnimationRenderer.cpp:540 libs/ui/animation/KisDlgAnimationRenderer.cpp:546 libs/ui/animation/KisDlgAnimationRenderer.cpp:549 libs/ui/animation/KisDlgAnimationRenderer.cpp:556 libs/ui/animation/KisDlgImportVideoAnimation.cpp:65 libs/ui/animation/KisDlgImportVideoAnimation.cpp:170 libs/ui/animation/KisDlgImportVideoAnimation.cpp:236 libs/ui/animation/KisDlgImportVideoAnimation.cpp:540 libs/ui/animation/KisDlgImportVideoAnimation.cpp:561 libs/ui/animation/KisDlgImportVideoAnimation.cpp:568 libs/ui/animation/KisDlgImportVideoAnimation.cpp:669 libs/ui/animation/KisDlgImportVideoAnimation.cpp:727 libs/ui/animation/KisDlgImportVideoAnimation.cpp:752 libs/ui/dialogs/kis_dlg_preferences.cc:552 libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961 libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875 libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923 libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965 libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884 libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751 libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1079 libs/ui/KisMainWindow.cpp:1206 libs/ui/KisMainWindow.cpp:1304 libs/ui/KisMainWindow.cpp:1905 libs/ui/KisMainWindow.cpp:1914 libs/ui/KisMainWindow.cpp:2053 libs/ui/KisMainWindow.cpp:2112 libs/ui/KisMainWindow.cpp:2136 libs/ui/KisPart.cpp:554 libs/ui/KisPart.cpp:557 libs/ui/KisReferenceImage.cpp:178 libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669 libs/ui/KisWelcomePageWidget.cpp:702 libs/ui/opengl/kis_opengl_canvas2.cpp:388 libs/ui/utils/KisClipboardUtil.cpp:131 libs/ui/utils/KisClipboardUtil.cpp:236 libs/ui/widgets/gradient/KisGradientChooser.cpp:535 libs/ui/widgets/kis_custom_image_widget.cc:299 plugins/assistants/Assistants/kis_assistant_tool.cc:1080 plugins/assistants/Assistants/kis_assistant_tool.cc:1083
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:302 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219 plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426 plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436 plugins/extensions/imagesplit/imagesplit.cpp:74 plugins/extensions/imagesplit/imagesplit.cpp:76 plugins/extensions/qmic/kis_qmic_interface.cpp:137 plugins/extensions/qmic/kis_qmic_interface.cpp:208 plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273 plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326 plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333 plugins/extensions/resourcemanager/resourcemanager.cpp:221 plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351 plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163 plugins/tools/basictools/kis_tool_colorsampler.cc:162 plugins/tools/basictools/kis_tool_colorsampler.cc:167 plugins/tools/basictools/kis_tool_colorsampler.cc:225 plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:95 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:125 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:160 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:182 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223 plugins/tools/svgtexttool/SvgTextEditor.cpp:1115 plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
+#: libs/resources/KisResourceCacheDb.cpp:136
+#: libs/resourcewidgets/KisStorageChooserWidget.cpp:144
+#: libs/ui/animation/KisAnimationRender.cpp:49
+#: libs/ui/animation/KisAnimationRender.cpp:101
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:546
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:540
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:561
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:568
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
+#: libs/ui/dialogs/kis_dlg_preferences.cc:552
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
+#: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
+#: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
+#: libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277
+#: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
+#: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
+#: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
+#: libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884
+#: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
+#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1078
+#: libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303
+#: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913
+#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111
+#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:556
+#: libs/ui/KisPart.cpp:559 libs/ui/KisReferenceImage.cpp:178
+#: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
+#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
+#: libs/ui/KisWelcomePageWidget.cpp:702
+#: libs/ui/opengl/kis_opengl_canvas2.cpp:388
+#: libs/ui/utils/KisClipboardUtil.cpp:131
+#: libs/ui/utils/KisClipboardUtil.cpp:236
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
+#: libs/ui/widgets/kis_custom_image_widget.cc:299
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:302
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
+#: plugins/extensions/imagesplit/imagesplit.cpp:74
+#: plugins/extensions/imagesplit/imagesplit.cpp:76
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:137
+#: plugins/extensions/qmic/kis_qmic_interface.cpp:208
+#: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:221
+#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:162
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:167
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:225
+#: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:95
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:125
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:160
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:182
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1115
+#: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita"
@@ -16298,7 +16405,9 @@ msgstr "Xoá"
 msgid "Storage Resources"
 msgstr "&Tài nguyên"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:229 libs/ui/KisMainWindow.cpp:2549 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:229
+#: libs/ui/KisMainWindow.cpp:2548
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -16686,7 +16795,8 @@ msgstr "Ý định vẽ"
 msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "Tạo layer mới"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:52 libs/ui/KisMainWindow.cpp:2156
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
+#: libs/ui/KisMainWindow.cpp:2155
 #, fuzzy, kde-format
 msgid "Render Animation"
 msgstr "Định hướng"
@@ -18387,7 +18497,8 @@ msgstr "Hình &cầu"
 msgid "Numerical"
 msgstr "Dọc"
 
-#: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137 libs/ui/KisMainWindow.cpp:1174
+#: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
+#: libs/ui/KisMainWindow.cpp:1173
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "Nhập ảnh"
@@ -18417,8 +18528,69 @@ msgstr "Tính chất Lớp"
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qMax)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
-#: libs/ui/dialogs/kis_dlg_layer_properties.cc:97 libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220 libs/ui/layerstyles/wdgInnerGlow.ui:322 libs/ui/layerstyles/wdgInnerGlow.ui:351 libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93 libs/ui/widgets/gradient/KisGradientColorEditor.cpp:100 libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159 libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162 libs/ui/widgets/kis_custom_image_widget.cc:101 libs/ui/widgets/KisAutoLevelsWidget.cpp:16 libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189 plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230 plugins/dockers/animation/KisOnionSkinsDocker.cpp:46 plugins/dockers/layerdocker/LayerBox.cpp:200 plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47 plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51 plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54 plugins/generators/pattern/wdgpatternoptions.ui:90 plugins/generators/pattern/wdgpatternoptions.ui:116 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48 plugins/impex/jpeg/kis_jpeg_export.cc:217 plugins/impex/jpeg/kis_jpeg_export.cc:219 plugins/impex/tiff/kis_wdg_options_tiff.ui:314 plugins/impex/webp/dlg_webp_export.ui:79 plugins/impex/webp/dlg_webp_export.ui:317 plugins/impex/webp/dlg_webp_export.ui:340 plugins/impex/webp/dlg_webp_export.ui:478 plugins/impex/webp/dlg_webp_export.ui:608 plugins/impex/webp/dlg_webp_export.ui:696 plugins/impex/webp/dlg_webp_export.ui:762 plugins/impex/webp/dlg_webp_export.ui:785 plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:130 plugins/paintops/deform/kis_brush_size_option.cpp:60 plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:84 plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:159 plugins/paintops/gridbrush/kis_gridop_option.cpp:49 plugins/paintops/gridbrush/kis_gridop_option.cpp:54 plugins/paintops/hairy/kis_hairy_ink_option.cpp:33 plugins/paintops/hairy/kis_hairy_ink_option.cpp:37 plugins/paintops/hairy/kis_hairy_ink_option.cpp:41 plugins/paintops/hairy/kis_hairy_ink_option.cpp:45 plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:92 plugins/paintops/libpaintop/kis_curve_option.cpp:165
-#: plugins/paintops/libpaintop/kis_curve_option_widget.cpp:77 plugins/paintops/libpaintop/kis_dynamic_sensor.cc:260 plugins/paintops/libpaintop/kis_dynamic_sensor.cc:275 plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:39 plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:160 plugins/paintops/mypaint/MyPaintBrushOption.cpp:104 plugins/paintops/sketch/kis_sketchop_option.cpp:38 plugins/paintops/sketch/kis_sketchop_option.cpp:42 plugins/paintops/spray/kis_spray_paintop_settings.cpp:168 plugins/paintops/spray/kis_spray_shape_option.cpp:128 plugins/paintops/spray/kis_spray_shape_option.cpp:130 plugins/paintops/spray/kis_sprayop_option.cpp:51 plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39 plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43 plugins/tools/basictools/kis_tool_colorsampler.cc:398 plugins/tools/svgtexttool/SvgTextEditor.cpp:1446
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
+#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:267
+#: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
+#: libs/ui/layerstyles/wdgInnerGlow.ui:322
+#: libs/ui/layerstyles/wdgInnerGlow.ui:351
+#: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
+#: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:100
+#: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159
+#: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
+#: libs/ui/widgets/kis_custom_image_widget.cc:101
+#: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
+#: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230
+#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:46
+#: plugins/dockers/layerdocker/LayerBox.cpp:200
+#: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
+#: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
+#: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
+#: plugins/generators/pattern/wdgpatternoptions.ui:90
+#: plugins/generators/pattern/wdgpatternoptions.ui:116
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
+#: plugins/impex/jpeg/kis_jpeg_export.cc:217
+#: plugins/impex/jpeg/kis_jpeg_export.cc:219
+#: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
+#: plugins/impex/webp/dlg_webp_export.ui:79
+#: plugins/impex/webp/dlg_webp_export.ui:317
+#: plugins/impex/webp/dlg_webp_export.ui:340
+#: plugins/impex/webp/dlg_webp_export.ui:478
+#: plugins/impex/webp/dlg_webp_export.ui:608
+#: plugins/impex/webp/dlg_webp_export.ui:696
+#: plugins/impex/webp/dlg_webp_export.ui:762
+#: plugins/impex/webp/dlg_webp_export.ui:785
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:130
+#: plugins/paintops/deform/kis_brush_size_option.cpp:60
+#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:84
+#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:159
+#: plugins/paintops/gridbrush/kis_gridop_option.cpp:49
+#: plugins/paintops/gridbrush/kis_gridop_option.cpp:54
+#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:33
+#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:37
+#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:41
+#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:45
+#: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:92
+#: plugins/paintops/libpaintop/kis_curve_option.cpp:165
+#: plugins/paintops/libpaintop/kis_curve_option_widget.cpp:77
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:260
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:275
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:39
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:160
+#: plugins/paintops/mypaint/MyPaintBrushOption.cpp:104
+#: plugins/paintops/sketch/kis_sketchop_option.cpp:38
+#: plugins/paintops/sketch/kis_sketchop_option.cpp:42
+#: plugins/paintops/spray/kis_spray_paintop_settings.cpp:168
+#: plugins/paintops/spray/kis_spray_shape_option.cpp:128
+#: plugins/paintops/spray/kis_spray_shape_option.cpp:130
+#: plugins/paintops/spray/kis_sprayop_option.cpp:51
+#: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
+#: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
+#: plugins/tools/basictools/kis_tool_colorsampler.cc:398
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1446
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -18429,7 +18601,9 @@ msgctxt "layer dimensions"
 msgid "(%1, %2), (%3, %4)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_properties.cc:164 libs/ui/dialogs/kis_dlg_layer_properties.cc:165 libs/ui/dialogs/kis_dlg_layer_properties.cc:166
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:164
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:165
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:166
 #, kde-format
 msgid "*varies*"
 msgstr ""
@@ -21311,7 +21485,14 @@ msgstr "sửa định sẵn"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1058 libs/ui/widgets/kis_workspace_chooser.cpp:109 libs/ui/widgets/kis_workspace_chooser.cpp:176 plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232 plugins/generators/seexpr/wdgseexpr.ui:172 plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164 plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139 plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
+#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1057
+#: libs/ui/widgets/kis_workspace_chooser.cpp:109
+#: libs/ui/widgets/kis_workspace_chooser.cpp:176
+#: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
+#: plugins/generators/seexpr/wdgseexpr.ui:172
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139
+#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, fuzzy, kde-format
 msgid "Save"
 msgstr "Phương thức"
@@ -21319,6 +21500,7 @@ msgstr "Phương thức"
 #. i18n: ectx: property (text), widget (QLabel, currentBrushEngineLabel)
 #: libs/ui/forms/wdgpaintopsettings.ui:234
 #, fuzzy, kde-format
+#| msgid "Smeary Brush"
 msgid "Current Brush Engine"
 msgstr "Chổi nhoè"
 
@@ -21642,6 +21824,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: libs/ui/forms/wdgperformancesettings.ui:472
 #, fuzzy, kde-format
+#| msgid "Alpha Options"
 msgid "Cache Generation Options"
 msgstr "Cấu hình Alpha"
 
@@ -23676,37 +23859,37 @@ msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "Tạo Lớp Toàn cảnh"
 
-#: libs/ui/kis_node_manager.cpp:1449
+#: libs/ui/kis_node_manager.cpp:1458
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr "Lặp lại"
 
-#: libs/ui/kis_node_manager.cpp:1531
+#: libs/ui/kis_node_manager.cpp:1540
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr "Công cụ &trình lọc"
 
-#: libs/ui/kis_node_manager.cpp:1542
+#: libs/ui/kis_node_manager.cpp:1551
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr "Công cụ &trình lọc"
 
-#: libs/ui/kis_node_manager.cpp:1549
+#: libs/ui/kis_node_manager.cpp:1558
 #, fuzzy, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr "Xoá Lớp"
 
-#: libs/ui/kis_node_manager.cpp:1550
+#: libs/ui/kis_node_manager.cpp:1559
 #, fuzzy, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "Layer"
 
-#: libs/ui/kis_node_manager.cpp:1567
+#: libs/ui/kis_node_manager.cpp:1576
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
@@ -24746,32 +24929,32 @@ msgstr "Hiện lớp gốc"
 msgid "Hide %1 Toolbar"
 msgstr "&Công cụ"
 
-#: libs/ui/KisMainWindow.cpp:1027
+#: libs/ui/KisMainWindow.cpp:1026
 #, fuzzy, kde-format
 msgid "Write Protected"
 msgstr "(bảo vệ khỏi ghi)"
 
-#: libs/ui/KisMainWindow.cpp:1031
+#: libs/ui/KisMainWindow.cpp:1030
 #, fuzzy, kde-format
 msgid "Recovered"
 msgstr "Trung bình"
 
-#: libs/ui/KisMainWindow.cpp:1055
+#: libs/ui/KisMainWindow.cpp:1054
 #, fuzzy, kde-format
 msgid "Save as %1"
 msgstr "Phóng Lớp"
 
-#: libs/ui/KisMainWindow.cpp:1079
+#: libs/ui/KisMainWindow.cpp:1078
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "Tệp %1 không tồn tại."
 
-#: libs/ui/KisMainWindow.cpp:1174
+#: libs/ui/KisMainWindow.cpp:1173
 #, fuzzy, kde-format
 msgid "Open Images"
 msgstr "Ảnh"
 
-#: libs/ui/KisMainWindow.cpp:1305
+#: libs/ui/KisMainWindow.cpp:1304
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may be incomplete or corrupted.\n"
@@ -24779,56 +24962,61 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1361
+#: libs/ui/KisMainWindow.cpp:1360
 #, fuzzy, kde-format
 msgid "Exporting"
 msgstr "Xuất"
 
-#: libs/ui/KisMainWindow.cpp:1361
+#: libs/ui/KisMainWindow.cpp:1360
 #, fuzzy, kde-format
 msgid "Saving As"
 msgstr "Định dạng trang"
 
-#: libs/ui/KisMainWindow.cpp:1656 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1655
+#: libs/widgetutils/config/kstandardaction_p.h:29
 #, fuzzy, kde-format
 msgid "Create new document"
 msgstr "Bắt đầu với tài liệu &rỗng"
 
-#: libs/ui/KisMainWindow.cpp:1680
+#: libs/ui/KisMainWindow.cpp:1679
 #, fuzzy, kde-format
 msgid "Custom Document"
 msgstr "Đổ dốc màu tự chọn"
 
-#: libs/ui/KisMainWindow.cpp:1698
+#: libs/ui/KisMainWindow.cpp:1697
 #, fuzzy, kde-format
 msgid "Create from Clipboard"
 msgstr "Lớp đầu tiên trong bảng nháp"
 
-#: libs/ui/KisMainWindow.cpp:1874
+#: libs/ui/KisMainWindow.cpp:1873
 #, fuzzy, kde-format
 msgid "Layers/Masks"
 msgstr "Lưu lớp thành ảnh..."
 
-#: libs/ui/KisMainWindow.cpp:1900 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
+#: libs/ui/KisMainWindow.cpp:1899
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1904
+#: libs/ui/KisMainWindow.cpp:1903
 #, kde-format
 msgid ""
 "\n"
 "There are no brush presets available. Please enable a bundle that has presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1914 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
+#: libs/ui/KisMainWindow.cpp:1913
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
 msgid ""
 "\n"
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2053 libs/ui/KisMainWindow.cpp:2136
+#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2135
 #, fuzzy, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -24837,51 +25025,51 @@ msgstr ""
 "Không thể mở\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2112
+#: libs/ui/KisMainWindow.cpp:2111
 #, fuzzy, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "Tạo layer mới"
 
-#: libs/ui/KisMainWindow.cpp:2540
+#: libs/ui/KisMainWindow.cpp:2539
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "Không gian màu"
 
-#: libs/ui/KisMainWindow.cpp:2555
+#: libs/ui/KisMainWindow.cpp:2554
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "Không gian màu"
 
-#: libs/ui/KisMainWindow.cpp:2599
+#: libs/ui/KisMainWindow.cpp:2598
 #, fuzzy, kde-format
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2602
+#: libs/ui/KisMainWindow.cpp:2601
 #, fuzzy, kde-format
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2763
+#: libs/ui/KisMainWindow.cpp:2762
 #, kde-format
 msgid "The Krita LittleCMS color management plugin is not installed. Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2779
+#: libs/ui/KisMainWindow.cpp:2778
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Lỗi khi tạo lớp"
 
-#: libs/ui/KisMainWindow.cpp:2891
+#: libs/ui/KisMainWindow.cpp:2890
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2945
+#: libs/ui/KisMainWindow.cpp:2944
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -24993,14 +25181,14 @@ msgctxt "Default new group name"
 msgid "New Group %1"
 msgstr "Chương trình mới %1"
 
-#: libs/ui/KisPart.cpp:554
+#: libs/ui/KisPart.cpp:556
 #, fuzzy, kde-format
 msgid ""
 "Could not create document from template\n"
 "%1"
 msgstr "Không thể tạo tệp để lưu"
 
-#: libs/ui/KisPart.cpp:557
+#: libs/ui/KisPart.cpp:559
 #, fuzzy, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -35612,6 +35800,17 @@ msgstr "Bước sóng:"
 msgid "Wavelet scales:"
 msgstr "Bước sóng:"
 
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/asccdl/asccdl.action:7
+#: plugins/filters/asccdl/asccdl.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Slope, Offset, Power Filter"
+msgstr "&Thêm Layer..."
+
 #: plugins/filters/asccdl/kis_asccdl_filter.cpp:31
 #, fuzzy, kde-format
 msgid "&Slope, Offset, Power..."
@@ -35850,6 +36049,18 @@ msgstr "Ngưỡng:"
 #, fuzzy, kde-format
 msgid "Color Sampler:"
 msgstr "Không gian màu:"
+
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/colorsfilters/colorsfilters.action:7
+#: plugins/filters/colorsfilters/colorsfilters.action:9
+#, fuzzy, kde-format
+#| msgid "&Color Adjustment curves..."
+msgctxt "action"
+msgid "Cross-channel adjustment Filter"
+msgstr "Các đường cong &chỉnh màu..."
 
 #: plugins/filters/colorsfilters/colorsfilters.cpp:77
 #, kde-format
@@ -36110,6 +36321,17 @@ msgstr "Kênh:"
 msgid "Driver channel"
 msgstr "Kênh"
 
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Height to Normal Map Filter"
+msgstr "Bình thường "
+
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:29
 #, fuzzy, kde-format
 msgid "&Height to Normal Map..."
@@ -36324,6 +36546,17 @@ msgstr "Khoảng màu"
 msgid "Reference image:"
 msgstr "Ảnh tham chiếu:"
 
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:7
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Gaussian High Pass Filter"
+msgstr "Áp lực"
+
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.cpp:38
 #, fuzzy, kde-format
 msgid "&Gaussian High Pass..."
@@ -36333,6 +36566,20 @@ msgstr "Làm mờ kiểu &Gauss"
 #, fuzzy, kde-format
 msgid "Gaussian High Pass"
 msgstr "Áp lực"
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:7
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "gradientmap Filter"
+msgstr "Gradients"
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Gradient Map Filter"
+msgstr "Đổ dốc màu"
 
 #: plugins/filters/gradientmap/KisGradientMapFilter.cpp:32
 #, fuzzy, kde-format
@@ -36383,6 +36630,17 @@ msgstr "Méo X:"
 #, fuzzy, kde-format
 msgid "Dither"
 msgstr "Khác"
+
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/halftone/halftone.action:7
+#: plugins/filters/halftone/halftone.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Halftone Filter"
+msgstr "Đổi bộ lọc"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:49
@@ -36703,6 +36961,17 @@ msgstr "Bình thường "
 msgid "&Normalize"
 msgstr "Bình thường "
 
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/normalize/normalize.action:7
+#: plugins/filters/normalize/normalize.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Normalize Filter"
+msgstr "Bình thường "
+
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:44
 #, kde-format
 msgid "&Oilpaint..."
@@ -36723,6 +36992,18 @@ msgstr "Mượt"
 #, kde-format
 msgid "Oilpaint"
 msgstr "Sơn dầu"
+
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/palettize/palettize.action:7
+#: plugins/filters/palettize/palettize.action:9
+#, fuzzy, kde-format
+#| msgid "Palette name:"
+msgctxt "action"
+msgid "Palettize Filter"
+msgstr "Tên bảng màu:"
 
 #: plugins/filters/palettize/palettize.cpp:114
 #, fuzzy, kde-format
