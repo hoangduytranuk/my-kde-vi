@@ -7412,16 +7412,7 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
-#: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
-#: plugins/filters/asccdl/asccdl.action:4
-#: plugins/filters/colorsfilters/colorsfilters.action:4
-#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:4
-#: plugins/filters/gaussianhighpass/gaussianhighpass.action:4
-#: plugins/filters/gradientmap/gradientmap.action:4
-#: plugins/filters/halftone/halftone.action:4
-#: plugins/filters/normalize/normalize.action:4
-#: plugins/filters/palettize/palettize.action:4
-#: plugins/filters/threshold/threshold.action:4
+#: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142 plugins/filters/asccdl/asccdl.action:4 plugins/filters/colorsfilters/colorsfilters.action:4 plugins/filters/convertheightnormalmap/convertheightnormalmap.action:4 plugins/filters/gaussianhighpass/gaussianhighpass.action:4 plugins/filters/gradientmap/gradientmap.action:4 plugins/filters/halftone/halftone.action:4 plugins/filters/normalize/normalize.action:4 plugins/filters/palettize/palettize.action:4 plugins/filters/threshold/threshold.action:4
 #, fuzzy, kde-format
 msgctxt "Filter as an effect"
 msgid "Filters"
@@ -14038,10 +14029,7 @@ msgstr "Chuyển đổi lớp hiện tại từ"
 msgid "Processing"
 msgstr "Hậu xử lí"
 
-#: libs/image/kis_psd_layer_style.cpp:101
-#: libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1405
-#: libs/ui/KisMainWindow.cpp:1676 libs/ui/KisMainWindow.cpp:1695
-#: plugins/impex/libkra/kis_kra_saver.cpp:86
+#: libs/image/kis_psd_layer_style.cpp:101 libs/ui/KisApplicationArguments.cpp:375 libs/ui/KisMainWindow.cpp:1405 libs/ui/KisMainWindow.cpp:1676 libs/ui/KisMainWindow.cpp:1695 plugins/impex/libkra/kis_kra_saver.cpp:86
 #, kde-format
 msgid "Unnamed"
 msgstr "Không có tên"
@@ -14412,8 +14400,7 @@ msgstr ""
 msgid "Clone Layer"
 msgstr "Lớp &lặp lại"
 
-#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628
-#: libs/ui/kis_node_manager.cpp:1510
+#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:628 libs/ui/kis_node_manager.cpp:1510
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgctxt "A group of layers"
@@ -14696,8 +14683,7 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "Chương trình hành động"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044
-#: libs/ui/KisMainWindow.cpp:2126
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2044 libs/ui/KisMainWindow.cpp:2126
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Nhập ảnh"
@@ -15894,85 +15880,8 @@ msgstr "&Tài nguyên"
 msgid "Local Resources"
 msgstr "Gỡ bỏ Layer"
 
-#: libs/resources/KisResourceCacheDb.cpp:136
-#: libs/resourcewidgets/KisStorageChooserWidget.cpp:144
-#: libs/ui/animation/KisAnimationRender.cpp:49
-#: libs/ui/animation/KisAnimationRender.cpp:101
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:528
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:536
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:540
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:546
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:549
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:556
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:65
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:170
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:236
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:540
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:561
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:568
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:669
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
-#: libs/ui/dialogs/kis_dlg_preferences.cc:552
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131
-#: libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242
-#: libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961
-#: libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277
-#: libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875
-#: libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923
-#: libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965
-#: libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884
-#: libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751
-#: libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1078
-#: libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303
-#: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913
-#: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111
-#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:556
-#: libs/ui/KisPart.cpp:559 libs/ui/KisReferenceImage.cpp:178
-#: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
-#: libs/ui/KisWelcomePageWidget.cpp:702
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:388
-#: libs/ui/utils/KisClipboardUtil.cpp:131
-#: libs/ui/utils/KisClipboardUtil.cpp:236
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
-#: libs/ui/widgets/kis_custom_image_widget.cc:299
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1080
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1083
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:302
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436
-#: plugins/extensions/imagesplit/imagesplit.cpp:74
-#: plugins/extensions/imagesplit/imagesplit.cpp:76
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:137
-#: plugins/extensions/qmic/kis_qmic_interface.cpp:208
-#: plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:221
-#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
-#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:162
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:167
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:225
-#: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:95
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:125
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:160
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:182
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1115
-#: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
+#: libs/resources/KisResourceCacheDb.cpp:136 libs/resourcewidgets/KisStorageChooserWidget.cpp:144 libs/ui/animation/KisAnimationRender.cpp:49 libs/ui/animation/KisAnimationRender.cpp:101 libs/ui/animation/KisDlgAnimationRenderer.cpp:524 libs/ui/animation/KisDlgAnimationRenderer.cpp:528 libs/ui/animation/KisDlgAnimationRenderer.cpp:536 libs/ui/animation/KisDlgAnimationRenderer.cpp:540 libs/ui/animation/KisDlgAnimationRenderer.cpp:546 libs/ui/animation/KisDlgAnimationRenderer.cpp:549 libs/ui/animation/KisDlgAnimationRenderer.cpp:556 libs/ui/animation/KisDlgImportVideoAnimation.cpp:65 libs/ui/animation/KisDlgImportVideoAnimation.cpp:170 libs/ui/animation/KisDlgImportVideoAnimation.cpp:236 libs/ui/animation/KisDlgImportVideoAnimation.cpp:540 libs/ui/animation/KisDlgImportVideoAnimation.cpp:561 libs/ui/animation/KisDlgImportVideoAnimation.cpp:568 libs/ui/animation/KisDlgImportVideoAnimation.cpp:669 libs/ui/animation/KisDlgImportVideoAnimation.cpp:727 libs/ui/animation/KisDlgImportVideoAnimation.cpp:752 libs/ui/dialogs/kis_dlg_preferences.cc:552 libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:233 libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:313 libs/ui/kis_layer_manager.cc:961 libs/ui/kis_node_manager.cpp:1214 libs/ui/kis_node_manager.cpp:1277 libs/ui/KisApplication.cpp:872 libs/ui/KisApplication.cpp:875 libs/ui/KisApplication.cpp:891 libs/ui/KisApplication.cpp:923 libs/ui/KisApplication.cpp:937 libs/ui/KisApplication.cpp:965 libs/ui/KisDocument.cpp:881 libs/ui/KisDocument.cpp:884 libs/ui/KisDocument.cpp:1708 libs/ui/KisDocument.cpp:1751 libs/ui/KisDocument.cpp:1759 libs/ui/KisMainWindow.cpp:1078 libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303 libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913 libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111 libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:556 libs/ui/KisPart.cpp:559 libs/ui/KisReferenceImage.cpp:178 libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669 libs/ui/KisWelcomePageWidget.cpp:702 libs/ui/opengl/kis_opengl_canvas2.cpp:388 libs/ui/utils/KisClipboardUtil.cpp:131 libs/ui/utils/KisClipboardUtil.cpp:236 libs/ui/widgets/gradient/KisGradientChooser.cpp:535 libs/ui/widgets/kis_custom_image_widget.cc:299 plugins/assistants/Assistants/kis_assistant_tool.cc:1080 plugins/assistants/Assistants/kis_assistant_tool.cc:1083
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:302 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:175 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:178 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:187 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:214 plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:219 plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:426 plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:436 plugins/extensions/imagesplit/imagesplit.cpp:74 plugins/extensions/imagesplit/imagesplit.cpp:76 plugins/extensions/qmic/kis_qmic_interface.cpp:137 plugins/extensions/qmic/kis_qmic_interface.cpp:208 plugins/extensions/qmic/QMic.cpp:54 plugins/extensions/qmic/QMic.cpp:80 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:184 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273 plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326 plugins/extensions/resourcemanager/dlg_create_bundle.cpp:333 plugins/extensions/resourcemanager/resourcemanager.cpp:221 plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351 plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163 plugins/tools/basictools/kis_tool_colorsampler.cc:162 plugins/tools/basictools/kis_tool_colorsampler.cc:167 plugins/tools/basictools/kis_tool_colorsampler.cc:225 plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:95 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:125 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:160 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:182 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:214 plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:223 plugins/tools/svgtexttool/SvgTextEditor.cpp:1115 plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:436
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita"
@@ -16405,9 +16314,7 @@ msgstr "Xoá"
 msgid "Storage Resources"
 msgstr "&Tài nguyên"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2548
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:229 libs/ui/KisMainWindow.cpp:2548 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:570
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -16795,8 +16702,7 @@ msgstr "Ý định vẽ"
 msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "Tạo layer mới"
 
-#: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2155
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:52 libs/ui/KisMainWindow.cpp:2155
 #, fuzzy, kde-format
 msgid "Render Animation"
 msgstr "Định hướng"
@@ -18497,8 +18403,7 @@ msgstr "Hình &cầu"
 msgid "Numerical"
 msgstr "Dọc"
 
-#: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1173
+#: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137 libs/ui/KisMainWindow.cpp:1173
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "Nhập ảnh"
@@ -18528,69 +18433,8 @@ msgstr "Tính chất Lớp"
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qMax)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
-#: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
-#: libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:267
-#: libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220
-#: libs/ui/layerstyles/wdgInnerGlow.ui:322
-#: libs/ui/layerstyles/wdgInnerGlow.ui:351
-#: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93
-#: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:100
-#: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159
-#: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
-#: libs/ui/widgets/kis_custom_image_widget.cc:101
-#: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
-#: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230
-#: plugins/dockers/animation/KisOnionSkinsDocker.cpp:46
-#: plugins/dockers/layerdocker/LayerBox.cpp:200
-#: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
-#: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51
-#: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
-#: plugins/generators/pattern/wdgpatternoptions.ui:90
-#: plugins/generators/pattern/wdgpatternoptions.ui:116
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
-#: plugins/impex/jpeg/kis_jpeg_export.cc:217
-#: plugins/impex/jpeg/kis_jpeg_export.cc:219
-#: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
-#: plugins/impex/webp/dlg_webp_export.ui:79
-#: plugins/impex/webp/dlg_webp_export.ui:317
-#: plugins/impex/webp/dlg_webp_export.ui:340
-#: plugins/impex/webp/dlg_webp_export.ui:478
-#: plugins/impex/webp/dlg_webp_export.ui:608
-#: plugins/impex/webp/dlg_webp_export.ui:696
-#: plugins/impex/webp/dlg_webp_export.ui:762
-#: plugins/impex/webp/dlg_webp_export.ui:785
-#: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:130
-#: plugins/paintops/deform/kis_brush_size_option.cpp:60
-#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:84
-#: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:159
-#: plugins/paintops/gridbrush/kis_gridop_option.cpp:49
-#: plugins/paintops/gridbrush/kis_gridop_option.cpp:54
-#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:33
-#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:37
-#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:41
-#: plugins/paintops/hairy/kis_hairy_ink_option.cpp:45
-#: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:92
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:165
-#: plugins/paintops/libpaintop/kis_curve_option_widget.cpp:77
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:260
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:275
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:39
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:160
-#: plugins/paintops/mypaint/MyPaintBrushOption.cpp:104
-#: plugins/paintops/sketch/kis_sketchop_option.cpp:38
-#: plugins/paintops/sketch/kis_sketchop_option.cpp:42
-#: plugins/paintops/spray/kis_spray_paintop_settings.cpp:168
-#: plugins/paintops/spray/kis_spray_shape_option.cpp:128
-#: plugins/paintops/spray/kis_spray_shape_option.cpp:130
-#: plugins/paintops/spray/kis_sprayop_option.cpp:51
-#: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
-#: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
-#: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1446
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:97 libs/ui/forms/wdgdisplaysettings.ui:364 libs/ui/kis_paintop_box.cc:267 libs/ui/kis_paintop_box.cc:275 libs/ui/layerstyles/wdgInnerGlow.ui:220 libs/ui/layerstyles/wdgInnerGlow.ui:322 libs/ui/layerstyles/wdgInnerGlow.ui:351 libs/ui/widgets/gradient/KisGradientColorEditor.cpp:93 libs/ui/widgets/gradient/KisGradientColorEditor.cpp:100 libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159 libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162 libs/ui/widgets/kis_custom_image_widget.cc:101 libs/ui/widgets/KisAutoLevelsWidget.cpp:16 libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189 plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230 plugins/dockers/animation/KisOnionSkinsDocker.cpp:46 plugins/dockers/layerdocker/LayerBox.cpp:200 plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47 plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:51 plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54 plugins/generators/pattern/wdgpatternoptions.ui:90 plugins/generators/pattern/wdgpatternoptions.ui:116 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:39 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45 plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48 plugins/impex/jpeg/kis_jpeg_export.cc:217 plugins/impex/jpeg/kis_jpeg_export.cc:219 plugins/impex/tiff/kis_wdg_options_tiff.ui:314 plugins/impex/webp/dlg_webp_export.ui:79 plugins/impex/webp/dlg_webp_export.ui:317 plugins/impex/webp/dlg_webp_export.ui:340 plugins/impex/webp/dlg_webp_export.ui:478 plugins/impex/webp/dlg_webp_export.ui:608 plugins/impex/webp/dlg_webp_export.ui:696 plugins/impex/webp/dlg_webp_export.ui:762 plugins/impex/webp/dlg_webp_export.ui:785 plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:130 plugins/paintops/deform/kis_brush_size_option.cpp:60 plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:84 plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:159 plugins/paintops/gridbrush/kis_gridop_option.cpp:49 plugins/paintops/gridbrush/kis_gridop_option.cpp:54 plugins/paintops/hairy/kis_hairy_ink_option.cpp:33 plugins/paintops/hairy/kis_hairy_ink_option.cpp:37 plugins/paintops/hairy/kis_hairy_ink_option.cpp:41 plugins/paintops/hairy/kis_hairy_ink_option.cpp:45 plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:92 plugins/paintops/libpaintop/kis_curve_option.cpp:165
+#: plugins/paintops/libpaintop/kis_curve_option_widget.cpp:77 plugins/paintops/libpaintop/kis_dynamic_sensor.cc:260 plugins/paintops/libpaintop/kis_dynamic_sensor.cc:275 plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:39 plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:160 plugins/paintops/mypaint/MyPaintBrushOption.cpp:104 plugins/paintops/sketch/kis_sketchop_option.cpp:38 plugins/paintops/sketch/kis_sketchop_option.cpp:42 plugins/paintops/spray/kis_spray_paintop_settings.cpp:168 plugins/paintops/spray/kis_spray_shape_option.cpp:128 plugins/paintops/spray/kis_spray_shape_option.cpp:130 plugins/paintops/spray/kis_sprayop_option.cpp:51 plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39 plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43 plugins/tools/basictools/kis_tool_colorsampler.cc:398 plugins/tools/svgtexttool/SvgTextEditor.cpp:1446
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -18601,9 +18445,7 @@ msgctxt "layer dimensions"
 msgid "(%1, %2), (%3, %4)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_properties.cc:164
-#: libs/ui/dialogs/kis_dlg_layer_properties.cc:165
-#: libs/ui/dialogs/kis_dlg_layer_properties.cc:166
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:164 libs/ui/dialogs/kis_dlg_layer_properties.cc:165 libs/ui/dialogs/kis_dlg_layer_properties.cc:166
 #, kde-format
 msgid "*varies*"
 msgstr ""
@@ -21485,14 +21327,7 @@ msgstr "sửa định sẵn"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1057
-#: libs/ui/widgets/kis_workspace_chooser.cpp:109
-#: libs/ui/widgets/kis_workspace_chooser.cpp:176
-#: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
-#: plugins/generators/seexpr/wdgseexpr.ui:172
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139
-#: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
+#: libs/ui/forms/wdgpaintopsettings.ui:188 libs/ui/KisMainWindow.cpp:1057 libs/ui/widgets/kis_workspace_chooser.cpp:109 libs/ui/widgets/kis_workspace_chooser.cpp:176 plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232 plugins/generators/seexpr/wdgseexpr.ui:172 plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:164 plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:139 plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:21
 #, fuzzy, kde-format
 msgid "Save"
 msgstr "Phương thức"
@@ -24972,8 +24807,7 @@ msgstr "Xuất"
 msgid "Saving As"
 msgstr "Định dạng trang"
 
-#: libs/ui/KisMainWindow.cpp:1655
-#: libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1655 libs/widgetutils/config/kstandardaction_p.h:29
 #, fuzzy, kde-format
 msgid "Create new document"
 msgstr "Bắt đầu với tài liệu &rỗng"
@@ -24993,9 +24827,7 @@ msgstr "Lớp đầu tiên trong bảng nháp"
 msgid "Layers/Masks"
 msgstr "Lưu lớp thành ảnh..."
 
-#: libs/ui/KisMainWindow.cpp:1899
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
+#: libs/ui/KisMainWindow.cpp:1899 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:179 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:261
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
@@ -25007,9 +24839,7 @@ msgid ""
 "There are no brush presets available. Please enable a bundle that has presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1913
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
+#: libs/ui/KisMainWindow.cpp:1913 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:189 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #, kde-format
 msgid ""
 "\n"
@@ -35804,8 +35634,7 @@ msgstr "Bước sóng:"
 #. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/asccdl/asccdl.action:7
-#: plugins/filters/asccdl/asccdl.action:9
+#: plugins/filters/asccdl/asccdl.action:7 plugins/filters/asccdl/asccdl.action:9
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Slope, Offset, Power Filter"
@@ -36054,8 +35883,7 @@ msgstr "Không gian màu:"
 #. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/colorsfilters/colorsfilters.action:7
-#: plugins/filters/colorsfilters/colorsfilters.action:9
+#: plugins/filters/colorsfilters/colorsfilters.action:7 plugins/filters/colorsfilters/colorsfilters.action:9
 #, fuzzy, kde-format
 #| msgid "&Color Adjustment curves..."
 msgctxt "action"
@@ -36325,8 +36153,7 @@ msgstr "Kênh"
 #. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
-#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7 plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Height to Normal Map Filter"
@@ -36550,8 +36377,7 @@ msgstr "Ảnh tham chiếu:"
 #. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/gaussianhighpass/gaussianhighpass.action:7
-#: plugins/filters/gaussianhighpass/gaussianhighpass.action:9
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:7 plugins/filters/gaussianhighpass/gaussianhighpass.action:9
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Gaussian High Pass Filter"
@@ -36635,8 +36461,7 @@ msgstr "Khác"
 #. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/halftone/halftone.action:7
-#: plugins/filters/halftone/halftone.action:9
+#: plugins/filters/halftone/halftone.action:7 plugins/filters/halftone/halftone.action:9
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Halftone Filter"
@@ -36965,8 +36790,7 @@ msgstr "Bình thường "
 #. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/normalize/normalize.action:7
-#: plugins/filters/normalize/normalize.action:9
+#: plugins/filters/normalize/normalize.action:7 plugins/filters/normalize/normalize.action:9
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Normalize Filter"
@@ -36997,8 +36821,7 @@ msgstr "Sơn dầu"
 #. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
-#: plugins/filters/palettize/palettize.action:7
-#: plugins/filters/palettize/palettize.action:9
+#: plugins/filters/palettize/palettize.action:7 plugins/filters/palettize/palettize.action:9
 #, fuzzy, kde-format
 #| msgid "Palette name:"
 msgctxt "action"
@@ -45222,157 +45045,136 @@ msgid ""
 msgstr ""
 
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:161
-#, fuzzy
 msgid "Select background color"
-msgstr "Đặt nền"
+msgstr "Chọn lựa màu nền"
 
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:219
 msgid "Margins"
-msgstr "Các lề"
+msgstr "Lề"
 
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:249
 msgid "Bleeds"
-msgstr ""
+msgstr "Mép Tràn Lề"
 
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:320
-#, fuzzy
 msgid "Creating template"
-msgstr "Tạo"
+msgstr "Tạo bản mẫu"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Abridger"
-msgstr ""
+msgstr "Tóm tắt viên"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Art copyist"
-msgstr ""
+msgstr "Sao chép mỹ thuật"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Actor"
-msgstr ""
+msgstr "Diễn viên"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Art director"
-msgstr "Chọn một khu vực hình chữ nhật"
+msgstr "Đạo diễn mỹ thuật"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Annotator"
-msgstr "Xoay"
+msgstr "Người chú thích"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Bibliographic antecedent"
-msgstr "Chèn Xuống dòng"
+msgstr "Tiền đề tiểu sử"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Architect"
+msgstr "Kiến trúc sư"
+
+#: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
+msgid "Artistic director"
+msgstr "Đạo diễn nghệ thuật"
+
+#: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
+msgid "Associated name"
+msgstr "Tên liên hệ"
+
+#: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
+msgid "Autographer"
 msgstr ""
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
-msgid "Artistic director"
-msgstr "Trình chọn màu nhỏ"
-
-#: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
-msgid "Associated name"
-msgstr "Chương trình hành động"
-
-#: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
-msgid "Autographer"
-msgstr "Độ tương phản tự động"
-
-#: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Attributed name"
-msgstr "Phân phối các hình"
+msgstr "Tên thuộc tính"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Author of dialog"
-msgstr "Tác giả "
+msgstr "Tác giả lời thoại"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Binding designer"
-msgstr "Đã in xong"
+msgstr "Người thiết kế đóng sách"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Bookjacket designer"
-msgstr ""
+msgstr "Người thiết kế vỏ bọc ngoài"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Book designer"
-msgstr "Khoảng cách:"
+msgstr "Người thiết kế sách"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Book producer"
-msgstr ""
+msgstr "Nhà sản xuất sách"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Blurb writer"
-msgstr ""
+msgstr "Người viết lời giới thiệu"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Binder"
-msgstr "Sắp xếp lại các đường"
+msgstr "Người đóng sách"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Bookplate designer"
-msgstr ""
+msgstr "Người thiết kế bản khắc"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Bookseller"
-msgstr "Ghi nhớ hiện tại"
+msgstr "Người quảng cáo sách bán"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Calligrapher"
-msgstr "Chèn Xuống dòng"
+msgstr "Thư pháp viên"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Censor"
-msgstr "Cảm biến:"
+msgstr "Người kiểm duyệt"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Cover designer"
-msgstr "Trang"
+msgstr "Người thiết kế bao bì"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Copyright holder"
-msgstr "Phải:"
+msgstr "Người giữ bản quyền"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Creator"
-msgstr "Tạo"
+msgstr "Người sáng tạo"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Contributor"
-msgstr "Độ tương phản"
+msgstr "Người cộng tác"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Curator"
-msgstr "Tạo"
+msgstr "Quản trị viên"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Commentator for written text"
-msgstr ""
+msgstr "Thuyết minh viên"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Draftsman"
-msgstr ""
+msgstr "Người phác họa"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Dubious author"
@@ -45380,201 +45182,176 @@ msgstr ""
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Etcher"
-msgstr ""
+msgstr "Thợ khắc axit"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Expert"
-msgstr ""
+msgstr "Chuyên gia"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Funder"
-msgstr "Sắp xếp lại các đường"
+msgstr "Người gây quỹ"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Illustrator"
-msgstr "Định hướng"
+msgstr "Người minh họa"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Illuminator"
-msgstr "Định hướng"
+msgstr "Phụ trách ánh sáng"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Inscriber"
-msgstr ""
+msgstr "Người viết"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Licensee"
-msgstr "Chiều cao điểm ảnh"
+msgstr "Người sở hữu giấy phép"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Licensor"
-msgstr "Chiều cao điểm ảnh"
+msgstr "Người cấp giấy phép"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Lithographer"
-msgstr "Chèn Xuống dòng"
+msgstr "Thợ in thạch bản"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Metadata contact"
-msgstr "&Sửa siêu dữ liệu..."
+msgstr "Liên lạc siêu dữ liệu"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Owner"
-msgstr ""
+msgstr "Chủ sở hữu"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Patron"
-msgstr "Đá"
+msgstr "Người bảo trợ"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Publishing director"
-msgstr "Chọn một khu vực hình chữ nhật"
+msgstr "Giám đốc xuất bản"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Printer"
-msgstr "Gradient"
+msgstr "Người In Ấn"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Scenarist"
-msgstr ""
+msgstr "Người soạn kịch bản"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Scribe"
-msgstr "Công cụ &bút vẽ"
+msgstr "Sao chép bản thảo"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Sponsor"
-msgstr "Cảm biến:"
+msgstr "Người tài trợ"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Storyteller"
-msgstr ""
+msgstr "Người thuật chuyện"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Transcriber"
-msgstr "Trong suốt"
+msgstr "Người chuyển biên"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Type designer"
-msgstr "Khoảng cách:"
+msgstr "Người thiết kế phông chữ"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Typographer"
-msgstr "Chèn Xuống dòng"
+msgstr "Người bố trí phông chữ"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Writer of added commentary"
-msgstr ""
+msgstr "Tác giả của lời bình bổ sung"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Writer of added lyrics"
-msgstr ""
+msgstr "Tác giả của lời bài hát bổ sung"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Writer of accompanying material"
-msgstr ""
+msgstr "Tác giả của nguyên vật liệu kèm theo"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Writer of added text"
-msgstr ""
+msgstr "Tác giả của văn bản bổ sung"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Writer of introduction"
-msgstr "Độ phân giải:"
+msgstr "Tác giả của phần giới thiệu"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
-#, fuzzy
 msgid "Writer of preface"
-msgstr "(bảo vệ khỏi ghi)"
+msgstr "Tác giả của lời tựa"
 
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 msgid "Writer of supplementary textual content"
-msgstr ""
+msgstr "Tác giả của nội dung văn bản bổ sung"
 
 #: plugins/python/documenttools/documenttools.py:16 plugins/python/documenttools/uidocumenttools.py:56
-#, fuzzy
 msgid "Document Tools"
-msgstr "Thông tin về tài liệu"
+msgstr "Công Cụ Tài Liệu"
 
 #: plugins/python/documenttools/documenttools.py:18
 msgid "Plugin to manipulate properties of selected documents."
-msgstr ""
+msgstr "Trình cắm để thao tác các tính chất của những bản tài liệu lựa chọn."
 
 #. i18n: ectx: property (text), widget (QToolButton, liquifyRotate)
 #: plugins/python/documenttools/tools/rotatetool/rotatetool.py:12 plugins/tools/tool_transform2/wdg_tool_transform.ui:1846
-#, fuzzy, kde-format
+#, kde-format
 msgid "Rotate"
-msgstr "&Xoay"
+msgstr "Xoay Chiều"
 
 #: plugins/python/documenttools/tools/rotatetool/rotatetool.py:24
 msgid "Negative degrees will rotate the image to the left"
-msgstr ""
+msgstr "Các góc độ âm sẽ xoay chiều hình ảnh sang bên trái"
 
 #: plugins/python/documenttools/tools/rotatetool/rotatetool.py:26
-#, fuzzy
 msgid "Degrees:"
-msgstr "Xoá"
+msgstr "Góc Độ:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, scaleGroup)
 #. i18n: ectx: property (text), widget (QToolButton, liquifyScale)
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:12 plugins/tools/tool_transform2/wdg_tool_transform.ui:912 plugins/tools/tool_transform2/wdg_tool_transform.ui:1824
-#, fuzzy, kde-format
+#, kde-format
 msgid "Scale"
-msgstr "&Phóng"
+msgstr "Đồi Tỷ Lệ"
 
 #: plugins/python/documenttools/uidocumenttools.py:104
-#, fuzzy
 msgid "The selected documents has been modified."
-msgstr "Mở một tài liệu mới với mẫu"
+msgstr "Tài liệu lựa chọn đã bị chỉnh sửa rồi."
 
 #: plugins/python/exportlayers/exportlayers.py:16 plugins/python/exportlayers/uiexportlayers.py:108
-#, fuzzy
 msgid "Export Layers"
-msgstr "Xuất Lớp"
+msgstr "Xuất các Tầng Lớp"
 
 #: plugins/python/exportlayers/exportlayers.py:17
 msgid "Plugin to export layers from a document."
-msgstr ""
+msgstr "Trình cắm để xuất các tầng lớp trong một tài liệu."
 
 #: plugins/python/exportlayers/uiexportlayers.py:31
-#, fuzzy
 msgid "Export filter layers"
-msgstr "Nhập ảnh"
+msgstr "Xuất các tầng lớp thanh lọc"
 
 #: plugins/python/exportlayers/uiexportlayers.py:32
-#, fuzzy
 msgid "Export in batchmode"
-msgstr "Xuất ra PDF..."
+msgstr "Xuất trong chế độ hàng loạt"
 
 #: plugins/python/exportlayers/uiexportlayers.py:33
-#, fuzzy
 msgid "Group as layer"
-msgstr "Layer &trước..."
+msgstr "Nhóm thành tầng lớp"
 
 #: plugins/python/exportlayers/uiexportlayers.py:35
-#, fuzzy
 msgid "Ignore invisible layers"
-msgstr "Lớp &lặp lại"
+msgstr "Bỏ qua các tầng lớp không nhìn thấy được (phi hữu hình)"
 
 #: plugins/python/exportlayers/uiexportlayers.py:37
 msgid "Adjust export size to layer content"
-msgstr ""
+msgstr "Điều chỉnh cỡ xuất khẩu cho bằng nội dung của tầng lớp"
 
 #: plugins/python/exportlayers/uiexportlayers.py:70
 msgid "JPEG"
