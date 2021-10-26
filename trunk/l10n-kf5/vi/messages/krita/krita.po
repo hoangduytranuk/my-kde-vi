@@ -14331,7 +14331,6 @@ msgstr "Sắp xếp lại các đường"
 
 #: libs/flake/commands/KoShapeResizeCommand.cpp:36
 #: plugins/tools/defaulttool/defaulttool/DefaultToolWidget.cpp:226
-#, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Resize"
 msgstr "Đổi cỡ"
@@ -19749,9 +19748,9 @@ msgstr "Nhập ảnh"
 #: libs/ui/forms/wdgperformancesettings.ui:269
 #: plugins/impex/webp/dlg_webp_export.ui:145
 #: plugins/impex/webp/dlg_webp_import.ui:304
-#, fuzzy, kde-format
+#, kde-format
 msgid "Advanced"
-msgstr "Chế độ chân dung"
+msgstr "Cấp Tiến"
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsDocumentGroup)
 #: libs/ui/animation/VideoImportDialog.ui:475
@@ -27519,7 +27518,7 @@ msgstr "Tuỳ chọn"
 #. i18n: ectx: property (title), widget (QGroupBox, scale)
 #: libs/ui/KisImportExportManager.cpp:611
 #: plugins/impex/webp/dlg_webp_import.ui:173
-#, fuzzy, kde-format
+#, kde-format
 msgid "Resize"
 msgstr "Đổi cỡ"
 
@@ -44560,9 +44559,9 @@ msgstr "Miếng nhỏ"
 #. i18n: ectx: property (text), widget (QLabel, lblBest)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:298
 #: plugins/impex/webp/dlg_webp_export.ui:443
-#, fuzzy, kde-format
+#, kde-format
 msgid "Best"
-msgstr "Xanh nước biển"
+msgstr "Tốt nhất"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qualityLevel)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:311
@@ -44727,9 +44726,9 @@ msgstr "Tính chất:"
 #: plugins/impex/webp/dlg_webp_export.ui:676
 #: plugins/impex/webp/dlg_webp_export.ui:722
 #: plugins/impex/webp/dlg_webp_export.ui:742
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enabled"
-msgstr "Kích hoạt"
+msgstr "Bật"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQuality)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, quality)
@@ -44777,12 +44776,14 @@ msgid ""
 "If non-zero, sets the desired target size in bytes. Takes precedence over "
 "the compression parameters."
 msgstr ""
+"Nếu khác 0 thì đặt kích thước mục tiêu mong muốn theo số byte. Giá trị này "
+"sẽ chiếm quyền ưu tiên hơn các thông số nén khác."
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetSize)
 #: plugins/impex/webp/dlg_webp_export.ui:217
-#, fuzzy, kde-format
+#, kde-format
 msgid "Target Size"
-msgstr "Cỡ Ảnh "
+msgstr "Kích Thước Mục Tiêu"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, targetSize)
 #: plugins/impex/webp/dlg_webp_export.ui:233
@@ -44799,26 +44800,28 @@ msgid ""
 "If non-zero, specifies the minimal distortion to try to achieve. Takes "
 "precedence over Target Size."
 msgstr ""
+"Nếu khác 0 thì là giá trị xác định sự biến dạng tối thiểu cố gắng đạt được. "
+"Kích Thước Mục Tiêu sẽ chiếm quyền ưu tiên ở đây."
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
 #: plugins/impex/webp/dlg_webp_export.ui:246
 #, kde-format
 msgid "Target PSNR"
-msgstr ""
+msgstr "PSNR Mục Tiêu"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSegments)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, segments)
 #: plugins/impex/webp/dlg_webp_export.ui:272
 #: plugins/impex/webp/dlg_webp_export.ui:288
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum number of segments (1 to 4)."
-msgstr "Tập kí tự"
+msgstr "Số phân đoạn tối đa (1 đến 4)."
 
 #. i18n: ectx: property (text), widget (QLabel, lblSegments)
 #: plugins/impex/webp/dlg_webp_export.ui:275
-#, fuzzy, kde-format
+#, kde-format
 msgid "Segments"
-msgstr "&Phần trăm:"
+msgstr "Số Phân Đoạn"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
@@ -44827,12 +44830,13 @@ msgstr "&Phần trăm:"
 #, kde-format
 msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
 msgstr ""
+"Định Hình Nhiễu Không Gian (Spatial Noise Shaping): 0 = tắt, 100 = tối đa."
 
 #. i18n: ectx: property (text), widget (QLabel, lblSNSStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:307
-#, fuzzy, kde-format
+#, kde-format
 msgid "SNS Strength"
-msgstr "Cho layer hiện tại lên trên"
+msgstr "Cường Độ SNS"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
@@ -44840,14 +44844,14 @@ msgstr "Cho layer hiện tại lên trên"
 #: plugins/impex/webp/dlg_webp_export.ui:337
 #, kde-format
 msgid "Filter strength: 0 = off, 100 = strongest."
-msgstr ""
+msgstr "Cường độ thanh lọc: 0 = tắt, 100 = mạnh nhất."
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
 #: plugins/impex/webp/dlg_webp_export.ui:330
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Strength"
-msgstr "Thiết lập Màu"
+msgstr "Cường Độ Bộ Lọc"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterSharpness)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterSharpness)
@@ -44855,14 +44859,14 @@ msgstr "Thiết lập Màu"
 #: plugins/impex/webp/dlg_webp_export.ui:360
 #, kde-format
 msgid "Filter sharpness: 0 = off, 7 = least sharp."
-msgstr ""
+msgstr "Độ sắc nét của bộ lọc: 0 = tắt, 7 = ít sắc nét nhất."
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterSharpness)
 #: plugins/impex/webp/dlg_webp_export.ui:353
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
-msgstr "Thiết lập Màu"
+msgstr "Lọc Độ Sắc Nét"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
 #. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
@@ -44873,19 +44877,21 @@ msgid ""
 "0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
 "Auto Adjust Filter is enabled."
 msgstr ""
+"0 = Đơn giản, 1 = Mạnh Mẽ. Chỉ nên sử dụng nếu Cường Độ Bộ Lọc là cao hơn 0, "
+"hoặc Bộ Lọc Tự Động Điều Chỉnh đã được bật lên mà thôi."
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
 #: plugins/impex/webp/dlg_webp_export.ui:376
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Type"
-msgstr "Một phần"
+msgstr "Kiểu Thanh Lọc"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAutofilter)
 #: plugins/impex/webp/dlg_webp_export.ui:390
 #, kde-format
 msgid "Auto Adjust Filter Strength"
-msgstr ""
+msgstr "Tự Động Điều Chỉnh Cường Độ Bộ Lọc"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblAlphaCompression)
 #: plugins/impex/webp/dlg_webp_export.ui:404
@@ -44894,27 +44900,29 @@ msgid ""
 "Algorithm for encoding the alpha plane (0 = None, 1 = compressed with WebP "
 "lossless). Default is 1."
 msgstr ""
+"Thuật toán để mã hóa mặt phẳng alpha (0 = Không sử dụng, 1 = nén với kỹ "
+"thuật không mất mát WebP). Mặc định là 1."
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaCompression)
 #: plugins/impex/webp/dlg_webp_export.ui:407
-#, fuzzy, kde-format
+#, kde-format
 msgid "Alpha Plane Compression"
-msgstr "Tính chất:"
+msgstr "Mức Nén Mặt Phẳng Alpha"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaFiltering)
 #: plugins/impex/webp/dlg_webp_export.ui:417
 #, kde-format
 msgid "Predictive Filtering for Alpha Plane"
-msgstr ""
+msgstr "Bộ Lọc Dự Đoán cho Mặt Phẳng Alpha"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #. i18n: ectx: property (text), widget (QLabel, lblFast)
 #: plugins/impex/webp/dlg_webp_export.ui:426
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:156
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:74
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fast"
-msgstr "Chớp"
+msgstr "Nhanh"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblAlphaQuality)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, alphaQuality)
@@ -44922,13 +44930,13 @@ msgstr "Chớp"
 #: plugins/impex/webp/dlg_webp_export.ui:475
 #, kde-format
 msgid "0 = smallest size, 100 = lossless. Default is 100."
-msgstr ""
+msgstr "0 = kích thước nhỏ nhất, 100 = không mất mát. Mặc định là 100."
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaQuality)
 #: plugins/impex/webp/dlg_webp_export.ui:468
-#, fuzzy, kde-format
+#, kde-format
 msgid "Alpha Plane Quality"
-msgstr "Chế độ chân dung"
+msgstr "Chất Lượng Mặt Phẳng Alpha"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPass)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, pass)
@@ -44936,13 +44944,13 @@ msgstr "Chế độ chân dung"
 #: plugins/impex/webp/dlg_webp_export.ui:507
 #, kde-format
 msgid "Number of entropy-analysis passes (1 to 10)."
-msgstr ""
+msgstr "Số lượt phân tích entropy (1 đến 10)."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPass)
 #: plugins/impex/webp/dlg_webp_export.ui:494
 #, kde-format
 msgid "Entropy Passes"
-msgstr ""
+msgstr "Số Lượt Entropy"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
@@ -44953,19 +44961,21 @@ msgid ""
 "If enabled, export the compressed picture back. In-loop filtering is not "
 "applied."
 msgstr ""
+"Nếu được bật thì hiển thị bức ảnh nén đã xuất. Thanh lọc nội vòng lặp sẽ "
+"không được áp dụng."
 
 #. i18n: ectx: property (text), widget (QLabel, lblShowCompressed)
 #: plugins/impex/webp/dlg_webp_export.ui:529
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show Compressed"
-msgstr "Tính chất:"
+msgstr "Hiển Thị Bản Đã Nén"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreprocessing)
 #: plugins/impex/webp/dlg_webp_export.ui:546
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Preprocessing Filter"
-msgstr "Hậu xử lí"
+msgstr "Bộ Lọc Tiền Xử Lý"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPartitions)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitions)
@@ -44976,12 +44986,14 @@ msgid ""
 "log2(number of token partitions) between 0 and 3. Default is 0 for easier "
 "progressive decoding."
 msgstr ""
+"log2 (số phân vùng biển hiệu) từ 0 đến 3. Mặc định là 0 để giải mã lũy tiến "
+"dễ dàng hơn."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitions)
 #: plugins/impex/webp/dlg_webp_export.ui:559
-#, fuzzy, kde-format
+#, kde-format
 msgid "Partitions"
-msgstr "Chổi nhoè"
+msgstr "Số Phân Vùng"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
@@ -44992,24 +45004,26 @@ msgid ""
 "Quality degradation allowed to fit the 512KB limit on prediction modes "
 "coding (0 = no degradation, 100 = maximum possible degradation)."
 msgstr ""
+"Đối với chế độ mã hóa dự đoán thì mức suy giảm chất lượng cho phép khít giới "
+"hạn 512KB (0 = không xuống cấp, 100 = xuống cấp tối đa có thể)."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitionLimit)
 #: plugins/impex/webp/dlg_webp_export.ui:579
 #, kde-format
 msgid "Partition Limit"
-msgstr ""
+msgstr "Giới Hạn Phân Vùng"
 
 #. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
 #: plugins/impex/webp/dlg_webp_export.ui:588
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum degradation"
-msgstr "Làm sáng"
+msgstr "Xuống cấp chất lượng tối đa"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
 #: plugins/impex/webp/dlg_webp_export.ui:598
-#, fuzzy, kde-format
+#, kde-format
 msgid "No degradation"
-msgstr "Di chuyển"
+msgstr "Không xuống cấp chất lượng"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblEmulateJPEGSize)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, emulateJPEGSize)
@@ -45021,12 +45035,16 @@ msgid ""
 "expected output size from JPEG compression. Generally, the output size will "
 "be similar but the degradation will be lower."
 msgstr ""
+"Nếu được bật thì các thông số nén sẽ được tinh chỉnh lại để phù hợp hơn với "
+"kích thước đầu ra như dự kiến trong phương pháp nén JPEG. Chung chung mà nói "
+"thì kích thước đầu ra sẽ khá tương tự với dự kiến song mức xuống cấp chất "
+"lượng của kết quả sẽ thấp hơn."
 
 #. i18n: ectx: property (text), widget (QLabel, lblEmulateJPEGSize)
 #: plugins/impex/webp/dlg_webp_export.ui:626
 #, kde-format
 msgid "Emulate JPEG Size"
-msgstr ""
+msgstr "Mô Phỏng Kích Thước JPEG"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblThreadLevel)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, threadLevel)
@@ -45034,13 +45052,13 @@ msgstr ""
 #: plugins/impex/webp/dlg_webp_export.ui:653
 #, kde-format
 msgid "If enabled, try and use multithreaded encoding."
-msgstr ""
+msgstr "Nếu được bật thì sẽ cố gắng sử dụng phương pháp mã hóa đa luồng."
 
 #. i18n: ectx: property (text), widget (QLabel, lblThreadLevel)
 #: plugins/impex/webp/dlg_webp_export.ui:646
-#, fuzzy, kde-format
+#, kde-format
 msgid "Multithreaded Encoding"
-msgstr "Nhiều điểm"
+msgstr "Mã Hóa Đa Luồng"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblLowMemory)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, lowMemory)
@@ -45048,13 +45066,13 @@ msgstr "Nhiều điểm"
 #: plugins/impex/webp/dlg_webp_export.ui:673
 #, kde-format
 msgid "If enabled, reduce memory usage (but increase CPU use)."
-msgstr ""
+msgstr "Nếu được bật thì giảm sự sử dụng bộ nhớ (song sử dụng CPU nhiều hơn)."
 
 #. i18n: ectx: property (text), widget (QLabel, lblLowMemory)
 #: plugins/impex/webp/dlg_webp_export.ui:666
 #, kde-format
 msgid "Reduce Memory Usage"
-msgstr ""
+msgstr "Giảm Thiểu sự Sử Dụng Bộ Nhớ"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblNearLossless)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, nearLossless)
@@ -45063,12 +45081,13 @@ msgstr ""
 #, kde-format
 msgid "Near lossless encoding: 0 = max loss, 100 = off. Default is 100."
 msgstr ""
+"Gần mức mã hóa không mất mát: 0 = mất mát tối đa, 100 = tắt. Mặc định là 100."
 
 #. i18n: ectx: property (text), widget (QLabel, lblNearLossless)
 #: plugins/impex/webp/dlg_webp_export.ui:686
-#, fuzzy, kde-format
+#, kde-format
 msgid "Near Lossless"
-msgstr "Méo X:"
+msgstr "Gần Mức Không Mất Mát"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblExact)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, exact)
@@ -45080,12 +45099,15 @@ msgid ""
 "Otherwise, discard this invisible RGB information for better compression. "
 "The default is disabled."
 msgstr ""
+"Nếu được bật thì bảo tồn các giá trị RGB, ở các khu vực trong suốt, một cách "
+"chính xác. Nếu không (tắt) thì loại bỏ thông tin RGB không nhìn thấy được "
+"này đi để đạt được mức độ nén tốt hơn. Mặc định sắp đặt là tắt."
 
 #. i18n: ectx: property (text), widget (QLabel, lblExact)
 #: plugins/impex/webp/dlg_webp_export.ui:712
-#, fuzzy, kde-format
+#, kde-format
 msgid "Exact"
-msgstr "Độ dày của dòng:"
+msgstr "Chính Xác"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblUseSharpYUV)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useSharpYUV)
@@ -45093,13 +45115,13 @@ msgstr "Độ dày của dòng:"
 #: plugins/impex/webp/dlg_webp_export.ui:739
 #, kde-format
 msgid "If enabled, allows use of the sharp (and slow) RGB to YUV conversion."
-msgstr ""
+msgstr "Nếu bật thì cho phép chuyển đổi RGB sang YUV sắc nét (song chậm)."
 
 #. i18n: ectx: property (text), widget (QLabel, lblUseSharpYUV)
 #: plugins/impex/webp/dlg_webp_export.ui:732
 #, kde-format
 msgid "Use Sharp YUV"
-msgstr ""
+msgstr "Sử Dụng YUV Sắc Nét"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQMin)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qMin)
@@ -45107,13 +45129,13 @@ msgstr ""
 #: plugins/impex/webp/dlg_webp_export.ui:759
 #, kde-format
 msgid "Minimum permissible quality factor. Default is 0."
-msgstr ""
+msgstr "Hệ số chất lượng tối thiểu cho phép. Mặc định là 0."
 
 #. i18n: ectx: property (text), widget (QLabel, lblQMin)
 #: plugins/impex/webp/dlg_webp_export.ui:752
-#, fuzzy, kde-format
+#, kde-format
 msgid "Minimum Quality"
-msgstr "Độ đậm đặc:"
+msgstr "Chất Lượng Tối Thiểu"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQMax)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qMax)
@@ -45121,13 +45143,13 @@ msgstr "Độ đậm đặc:"
 #: plugins/impex/webp/dlg_webp_export.ui:782
 #, kde-format
 msgid "Maximum permissible quality factor. Default is 100."
-msgstr ""
+msgstr "Hệ số chất lượng tối đa cho phép. Mặc định là 100."
 
 #. i18n: ectx: property (text), widget (QLabel, lblQMax)
 #: plugins/impex/webp/dlg_webp_export.ui:775
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum Quality"
-msgstr "Chiều rộng điểm ảnh"
+msgstr "Chất Lượng Tối Đa"
 
 #: plugins/impex/webp/dlg_webp_import.cpp:114
 #: plugins/impex/webp/dlg_webp_import.cpp:115
@@ -45140,15 +45162,15 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgWebPImport)
 #: plugins/impex/webp/dlg_webp_import.ui:24
 #: plugins/impex/webp/kis_webp_import.cpp:180
-#, fuzzy, kde-format
+#, kde-format
 msgid "WebP Image"
-msgstr "Ảnh Mới"
+msgstr "Hình Ảnh WebP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, original)
 #: plugins/impex/webp/dlg_webp_import.ui:40
-#, fuzzy, kde-format
+#, kde-format
 msgid "Information"
-msgstr "Công cụ &xoá"
+msgstr "Thông Tin"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
 #. i18n: ectx: property (title), widget (QGroupBox, crop)
@@ -45157,43 +45179,43 @@ msgstr "Công cụ &xoá"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:18
 #, kde-format
 msgid "Crop"
-msgstr "Cắt"
+msgstr "Cắt Xén"
 
 #. i18n: ectx: property (text), widget (QCheckBox, flip)
 #: plugins/impex/webp/dlg_webp_import.ui:283
-#, fuzzy, kde-format
+#, kde-format
 msgid "Flip vertically"
-msgstr "Phần chọn"
+msgstr "Đảo ngược theo chiều dựng đứng"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bypassFiltering)
 #: plugins/impex/webp/dlg_webp_import.ui:312
-#, fuzzy, kde-format
+#, kde-format
 msgid "Bypass filtering"
-msgstr "Độ phân giải:"
+msgstr "Bỏ qua thanh lọc"
 
 #. i18n: ectx: property (text), widget (QCheckBox, noFancyUpsampling)
 #: plugins/impex/webp/dlg_webp_import.ui:319
 #, kde-format
 msgid "Use faster pointwise upsampling"
-msgstr ""
+msgstr "Sử dụng phương pháp tăng tần số lấy mẫu nền điểm chấm nhanh hơn"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useThreads)
 #: plugins/impex/webp/dlg_webp_import.ui:326
-#, fuzzy, kde-format
+#, kde-format
 msgid "Use multithreaded decoding"
-msgstr "Nhiều điểm"
+msgstr "Sử dụng phương pháp giải mã đa luồng"
 
 #. i18n: ectx: property (prefix), widget (KisSliderSpinBox, ditheringStrength)
 #: plugins/impex/webp/dlg_webp_import.ui:359
-#, fuzzy, kde-format
+#, kde-format
 msgid "Colour planes: "
-msgstr "Không gian màu:"
+msgstr "Mặt phẳng màu: "
 
 #. i18n: ectx: property (prefix), widget (KisSliderSpinBox, alphaDitheringStrength)
 #: plugins/impex/webp/dlg_webp_import.ui:372
-#, fuzzy, kde-format
+#, kde-format
 msgid "Alpha plane: "
-msgstr "Alpha"
+msgstr "Mặt phẳng alpha: "
 
 #: plugins/impex/xcf/kis_xcf_import.cpp:156
 #, kde-format
@@ -45201,6 +45223,8 @@ msgid ""
 "This XCF file is too new; Krita cannot support XCF files written by GIMP 2.9 "
 "or newer."
 msgstr ""
+"Tập tin XCF này là tập tin quá mới cho Krita; Krita không thể hỗ trợ các tập "
+"tin XCF được viết bởi GIMP 2.9 hoặc mới hơn được."
 
 #: plugins/metadata/iptc/kis_iptc_io.h:26
 #, kde-format
@@ -45208,43 +45232,43 @@ msgid "Iptc"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:30
-#, fuzzy, kde-format
+#, kde-format
 msgid "Color Smudge"
-msgstr "Chổi nhoè"
+msgstr "Làm Nhoè Bẩn Màu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxSmudgeMode)
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:44
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:47
-#, fuzzy, kde-format
+#, kde-format
 msgid "Smudge Mode"
-msgstr "Chổi nhoè"
+msgstr "Chế Độ Làm Nhoè Bẩn"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:48
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:27
-#, fuzzy, kde-format
+#, kde-format
 msgid "Smearing"
-msgstr "Sự phân tán"
+msgstr "Bôi Nhòe"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:49
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:90
 #, kde-format
 msgid "Dulling"
-msgstr ""
+msgstr "Làm Mờ Đục"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 msgid "Smear Alpha"
-msgstr "Từ màu sang độ trong suốt"
+msgstr "Bôi Nhọ Apha"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:152
-#, fuzzy, kde-format
+#, kde-format
 msgid "Paint Thickness Mode"
-msgstr "Chế độ chân dung"
+msgstr "Chế Độ Độ Dày Sơn"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:157
-#, fuzzy, kde-format
+#, kde-format
 msgid "Paint over"
-msgstr "Layer"
+msgstr "Sơn đè lên"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:23
@@ -45260,7 +45284,7 @@ msgstr "Layer"
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:40
 #, kde-format
 msgid "Opaque"
-msgstr "Đậm đặc"
+msgstr "Đục"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:47
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
@@ -45296,16 +45320,16 @@ msgstr "Đậm đặc"
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:41
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:42
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:54
-#, fuzzy, kde-format
+#, kde-format
 msgid "0%"
-msgstr "%"
+msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:54
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:126
-#, fuzzy, kde-format
+#, kde-format
 msgid "Ratio"
-msgstr "Tỉ lệ:"
+msgstr "Tỷ Lệ"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:56
@@ -45314,31 +45338,31 @@ msgstr "Tỉ lệ:"
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:40
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:49
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:47
-#, fuzzy, kde-format
+#, kde-format
 msgid "Mirror"
-msgstr "Cắt ảnh"
+msgstr "Phản Chiếu Đối Xứng"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:64
-#, fuzzy, kde-format
+#, kde-format
 msgid "Smudge Length"
-msgstr "Chổi nhoè"
+msgstr "Độ Dài Làm Nhòe Bẩn"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:57
-#, fuzzy, kde-format
+#, kde-format
 msgid "Smudge Radius"
-msgstr "Chổi nhoè"
+msgstr "Bán Kính Làm Nhòe Bẩn"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Color rate of active Foreground color"
 msgid "Color Rate"
-msgstr "Khoảng màu"
+msgstr "Tỷ Lệ Màu"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
-#, fuzzy, kde-format
+#, kde-format
 msgid "Paint Thickness"
-msgstr "Độ sắc:"
+msgstr "Độ Dày của Sơn"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
@@ -45395,15 +45419,15 @@ msgid "Scatter"
 msgstr "Phân tán"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
-#, fuzzy, kde-format
+#, kde-format
 msgid "Overlay Mode"
-msgstr "Phủ"
+msgstr "Chế Độ Lồng Đè"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Label of Brightness value in Color Smudge brush engine options"
 msgid "Value"
-msgstr "Giá trị"
+msgstr "Giá Trị"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
@@ -45413,9 +45437,9 @@ msgstr "Giá trị"
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:41
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:41
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:53
-#, fuzzy, kde-format
+#, kde-format
 msgid "Airbrush"
-msgstr "Chổi nhoè"
+msgstr "Đầu Bơm Sơn"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:74
@@ -45424,7 +45448,7 @@ msgstr "Chổi nhoè"
 #: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:42
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:42
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:54
-#, fuzzy, kde-format
+#, kde-format
 msgid "Rate"
 msgstr "Tỷ Lệ"
 
@@ -46965,6 +46989,7 @@ msgstr "Tự Động"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:49
 #, kde-format
+msgctxt "Predefined Brush tip mode"
 msgid "Predefined"
 msgstr "Định Trước"
 
@@ -51321,7 +51346,7 @@ msgstr "Đối Xứng"
 #, kde-format
 msgctxt "Label of Mirror in Multihand brush tool options"
 msgid "Mirror"
-msgstr "Phản Quang Đối Xứng"
+msgstr "Phản Chiếu Đối Xứng"
 
 #: plugins/tools/basictools/kis_tool_multihand.cpp:421
 #, kde-format
@@ -51780,12 +51805,12 @@ msgstr "Xoay Chiều Vật Thể 180º"
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1312
 msgctxt "(qtundo-format)"
 msgid "Mirror Object Horizontally"
-msgstr "Phản Quang Đối Xứng Vật Thể theo Chiều Ngang"
+msgstr "Phản Chiếu Đối Xứng Vật Thể theo Chiều Ngang"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1316
 msgctxt "(qtundo-format)"
 msgid "Mirror Object Vertically"
-msgstr "Phản Quang Đối Xứng Vật Thể theo Chiều Dọc"
+msgstr "Phản Chiếu Đối Xứng Vật Thể theo Chiều Dọc"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1320
 msgctxt "(qtundo-format)"
@@ -53507,12 +53532,12 @@ msgstr "Phối cảnh xa gần"
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:131
 #, kde-format
 msgid "Mirror Horizontal"
-msgstr "Phản Quang Đối Xứng Theo Chiều Ngang"
+msgstr "Phản Chiếu Đối Xứng Theo Chiều Ngang"
 
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:132
 #, kde-format
 msgid "Mirror Vertical"
-msgstr "Phản Quang Đối Xứng Theo Chiều Dọc"
+msgstr "Phản Chiếu Đối Xứng Theo Chiều Dọc"
 
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:133
 #, kde-format
