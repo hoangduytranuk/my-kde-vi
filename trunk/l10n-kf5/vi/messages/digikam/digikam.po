@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-22 00:15+0000\n"
+"POT-Creation-Date: 2021-10-26 00:15+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -547,7 +547,7 @@ msgstr "Mở bằng"
 #: core/app/items/utils/contextmenuhelper.cpp:282
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:144
 #: core/showfoto/folderview/showfotofolderviewlist.cpp:171
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:143
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:155
 #: core/showfoto/stackview/showfotostackviewlist.cpp:416
 #, fuzzy, kde-format
 #| msgid "Open folder"
@@ -34888,7 +34888,7 @@ msgid "Map"
 msgstr ""
 
 #: core/libs/properties/itempropertiessidebar.cpp:254
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:437
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:482
 #: core/showfoto/stackview/showfotostackviewitem.cpp:80
 #, fuzzy, kde-format
 #| msgid "RAW Image"
@@ -43556,7 +43556,7 @@ msgid "The bookmark title which must be unique and not empty"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:173
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:183
 #, fuzzy, kde-format
 #| msgid "&Icon:"
 msgctxt "@label"
@@ -43564,7 +43564,7 @@ msgid "&Icon:"
 msgstr "B&iểu tượng"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:145
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:181
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:191
 #, fuzzy, kde-format
 #| msgid "Reset"
 msgctxt "@action:button"
@@ -43597,7 +43597,7 @@ msgid "Bookmarks"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:136
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:148
 #, fuzzy, kde-format
 msgctxt "@action: context menu"
 msgid "Load Contents"
@@ -43616,7 +43616,7 @@ msgid "Add Bookmark"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:115
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:105
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:108
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Add new bookmark to the list"
@@ -43629,7 +43629,6 @@ msgid "Del Bookmark"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:132
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:123
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Remove selected bookmark from the list"
@@ -43642,7 +43641,6 @@ msgid "Edit Bookmark"
 msgstr "Thêm máy ảnh.."
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:150
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:141
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Edit current bookmark from the list"
@@ -44563,198 +44561,333 @@ msgstr ""
 "<p>Bật tuỳ chọn này để hiển thị thiết lập cán cân màu trắng của máy ảnh chụp "
 "ảnh."
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:122
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:102
 #, fuzzy, kde-format
 msgctxt "@title"
-msgid "New Favorite"
+msgid "New Favorite Folder"
 msgstr "Tự nhiên"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:126
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:106
 #, fuzzy, kde-format
 msgctxt "@title"
-msgid "Edit Favorite"
+msgid "Edit Favorite Folder"
 msgstr "Tệp ảnh"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:142
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:115
 #, fuzzy, kde-format
-msgctxt "@label: favorite title properties"
+msgctxt "@label: favorite folder title properties"
 msgid "&Name:"
 msgstr "Tên:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:145
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:119
 #, fuzzy, kde-format
 msgctxt "@info"
-msgid "Enter favorite name here..."
+msgid "Enter favorite folder name here..."
 msgstr "Hãy nhập vào tên tập ảnh mới:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:146
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:120
 #, kde-format
 msgctxt "@info"
-msgid "The favorite name which must be unique and not empty"
+msgid "The favorite folder name which must be unique and not empty"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:152
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:126
 #, fuzzy, kde-format
-msgctxt "@label: favorite caption properties"
+#| msgid "Search:"
+msgctxt "@label: favorite folder hierarchy properties"
+msgid "Hierarchy:"
+msgstr "Tìm kiếm:"
+
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:129
+#, kde-format
+msgctxt "@info"
+msgid "The favorite folder hierarchy which must be unique in tree-view"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:198
+#, fuzzy, kde-format
+#| msgid "Tag name cannot be empty"
+msgctxt "@label"
+msgid "Note: name cannot be empty!"
+msgstr "Không cho phép tên thẻ rỗng."
+
+#: core/showfoto/stackview/showfotostackviewfavoritefolderdlg.cpp:202
+#, fuzzy, kde-format
+msgctxt "@label"
+msgid "Note: name already exists in favorites list!"
+msgstr "Một tệp hay thư mục cùng tên đã có."
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:102
+#, kde-format
+msgctxt "@title"
+msgid "My Favorites"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:132
+#, fuzzy, kde-format
+#| msgid "File Properties"
+msgctxt "@title"
+msgid "Favorite Folder Properties"
+msgstr "Thuộc tính tệp"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:134
+#, fuzzy, kde-format
+msgctxt "@info: favorite folder title property"
+msgid "Name:"
+msgstr "Tên:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:137
+#, fuzzy, kde-format
+#| msgid "Search:"
+msgctxt "@info: favorite folder hierarchy property"
+msgid "Hierarchy:"
+msgstr "Tìm kiếm:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:231
+#, fuzzy, kde-format
+#| msgid "File Properties"
+msgctxt "@title"
+msgid "Favorite Item Properties"
+msgstr "Thuộc tính tệp"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:233
+#, fuzzy, kde-format
+msgctxt "@info: favorite item title property"
+msgid "Name:"
+msgstr "Tên:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:236
+#, fuzzy, kde-format
+msgctxt "@info: favorite item date property"
+msgid "Created:"
+msgstr "Tạo :"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:239
+#, fuzzy, kde-format
+#| msgid "Search:"
+msgctxt "@info: favorite item hierarchy property"
+msgid "Hierarchy:"
+msgstr "Tìm kiếm:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:242
+#, fuzzy, kde-format
+msgctxt "@info; favorite item count elements property"
+msgid "Items:"
+msgstr "16 bit"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:245
+#, fuzzy, kde-format
+msgctxt "@info: favorite item caption property"
+msgid "Description:"
+msgstr "Mô tả"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:129
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "New Favorite Item"
+msgstr "Tự nhiên"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:133
+#, fuzzy, kde-format
+msgctxt "@title"
+msgid "Edit Favorite Item"
+msgstr "Tệp ảnh"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:142
+#, fuzzy, kde-format
+msgctxt "@label: favorite item title properties"
+msgid "&Name:"
+msgstr "Tên:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:146
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Enter favorite item name here..."
+msgstr "Hãy nhập vào tên tập ảnh mới:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:147
+#, kde-format
+msgctxt "@info"
+msgid "The favorite item name which must be unique and not empty"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:153
+#, fuzzy, kde-format
+#| msgid "Search:"
+msgctxt "@label: favorite item hierarchy properties"
+msgid "Hierarchy:"
+msgstr "Tìm kiếm:"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:156
+#, kde-format
+msgctxt "@info"
+msgid "The favorite item hierarchy which must be unique in tree-view"
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:161
+#, fuzzy, kde-format
+msgctxt "@label: favorite item caption properties"
 msgid "&Description:"
 msgstr "Mô tả"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:155
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:165
 #, fuzzy, kde-format
 msgctxt "@info"
-msgid "Enter favorite description here..."
+msgid "Enter favorite item description here..."
 msgstr "Hãy nhập vào tên tập ảnh mới:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:161
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:171
 #, fuzzy, kde-format
-msgctxt "@label: favorite date properties"
+msgctxt "@label: favorite item date properties"
 msgid "&Created:"
 msgstr "Tạo :"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:194
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:204
 #, fuzzy, kde-format
-msgctxt "@label: favorites properties"
+msgctxt "@label: favorites item file properties"
 msgid "&Items:"
 msgstr "16 bit"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:208
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:218
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "@title"
 msgid "Name"
 msgstr "Tên"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:209
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:219
 #, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "@title"
 msgid "Size"
 msgstr "Cỡ"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:210
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:220
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Type"
 msgstr "Kiểu :"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:211
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:221
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Date"
 msgstr "Ngày:"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:212
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:222
 #, fuzzy, kde-format
 #| msgid "Path"
 msgctxt "@title"
 msgid "Path"
 msgstr "Đường dẫn"
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:214
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:224
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This is the list of items hosted by this favorite.\n"
-"The current selected item from this list will be automatically\n"
+"This is the list of files hosted by this favorite item.\n"
+"The current selected file from this list will be automatically\n"
 "shown in editor when favorite is open. If none is selected,\n"
 "first one from the list will be displayed."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritedlg.cpp:305
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:320
+#, fuzzy, kde-format
+#| msgid "Tag name cannot be empty"
+msgctxt "@label"
+msgid "Note: item name cannot be empty!"
+msgstr "Không cho phép tên thẻ rỗng."
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:324
+#, fuzzy, kde-format
+#| msgid "Tag name cannot be empty"
+msgctxt "@label"
+msgid "Note: files list cannot be empty!"
+msgstr "Không cho phép tên thẻ rỗng."
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:328
+#, fuzzy, kde-format
+msgctxt "@label"
+msgid "Note: item name already exists in favorites list!"
+msgstr "Một tệp hay thư mục cùng tên đã có."
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:344
 #, fuzzy, kde-format
 msgctxt "@info"
-msgid "%1 image"
-msgid_plural "%1 images"
-msgstr[0] "Ản&h"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "Lọc nhiễu :"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:181
-#, fuzzy, kde-format
-#| msgid "File Properties"
-msgctxt "@title"
-msgid "Favorite Properties"
-msgstr "Thuộc tính tệp"
-
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:183
-#, fuzzy, kde-format
-msgctxt "@info: item title property"
-msgid "Name:"
-msgstr "Tên:"
-
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:186
-#, fuzzy, kde-format
-msgctxt "@info: item date property"
-msgid "Created:"
-msgstr "Tạo :"
-
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:189
-#, fuzzy, kde-format
-#| msgid "Search:"
-msgctxt "@info: item hierarchy property"
-msgid "Hierarchy:"
-msgstr "Tìm kiếm:"
-
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:192
-#, fuzzy, kde-format
-msgctxt "@info; item count elements property"
-msgid "Items:"
-msgstr "16 bit"
-
-#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:195
-#, fuzzy, kde-format
-msgctxt "@info: item caption property"
-msgid "Description:"
-msgstr "Mô tả"
-
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:74
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:75
 #, kde-format
 msgctxt "@info"
 msgid "You can add or remove favorite stacks here."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:127
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:95
+#: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:126
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:98
 #, kde-format
 msgctxt "@title"
 msgid "Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:104
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:107
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Add Favorite"
 msgstr "Thêm viền..."
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:122
-#, kde-format
-msgctxt "@action"
-msgid "Del Favorite"
-msgstr ""
-
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:140
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:125
 #, fuzzy, kde-format
 msgctxt "@action"
-msgid "Edit Favorite"
+msgid "Add Sub-Folder"
+msgstr "Thêm viền..."
+
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:126
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Add new sub-folder to the list"
+msgstr "Thêm mục mới vào tập ảnh hiện thời."
+
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:143
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Delete Item"
+msgstr "Bỏ chọn"
+
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:144
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Remove selected item from the list"
+msgstr "Canh lề đoạn bên phải"
+
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:161
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Edit Item"
 msgstr "Tệp ảnh"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:264
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:162
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Edit current item from the list"
+msgstr "Xoá các điều chọn"
+
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:309
 #, fuzzy, kde-format
 msgctxt "@title: window"
-msgid "Confirm Favorite Deletion"
+msgid "Confirm Item Deletion"
 msgstr "Độ tương quan:"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:265
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:310
 #, kde-format
 msgctxt "@info"
-msgid "Are you sure you want to remove the favorite \"%1\"?"
+msgid ""
+"Are you sure you want to remove the item \"%1\"\n"
+"and all nested items if any?"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:464
-#, kde-format
-msgctxt "@title"
-msgid "My Favorites"
-msgstr ""
-
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:584
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:657
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Unnamed"
@@ -51579,7 +51712,7 @@ msgstr "Gốc"
 #: core/utilities/queuemanager/views/queuelist.cpp:319
 #, fuzzy, kde-format
 #| msgid "Target"
-msgctxt "@title: targey item name"
+msgctxt "@title: target item name"
 msgid "Target"
 msgstr "Đích"
 
@@ -56478,6 +56611,71 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~ msgctxt "@info: item title property"
+#~ msgid "Name:"
+#~ msgstr "Tên:"
+
+#, fuzzy
+#~ msgctxt "@info: item date property"
+#~ msgid "Created:"
+#~ msgstr "Tạo :"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgctxt "@info: item hierarchy property"
+#~ msgid "Hierarchy:"
+#~ msgstr "Tìm kiếm:"
+
+#, fuzzy
+#~ msgctxt "@info: item caption property"
+#~ msgid "Description:"
+#~ msgstr "Mô tả"
+
+#, fuzzy
+#~| msgid "Target"
+#~ msgctxt "@title: targey item name"
+#~ msgid "Target"
+#~ msgstr "Đích"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgctxt "@label: favorite hierarchy properties"
+#~ msgid "&Hierarchy:"
+#~ msgstr "Tìm kiếm:"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "%1 image"
+#~ msgid_plural "%1 images"
+#~ msgstr[0] "Ản&h"
+
+#, fuzzy
+#~| msgid "By Folder"
+#~ msgctxt "@title"
+#~ msgid "New Sub-Folder"
+#~ msgstr "Theo thư mục"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Sub-Folder Name:"
+#~ msgstr "Tên tệp ảnh mới"
+
+#, fuzzy
+#~ msgctxt "@title"
+#~ msgid "Edit Sub-Folder"
+#~ msgstr "Thêm viền..."
+
+#, fuzzy
+#~ msgctxt "@action"
+#~ msgid "Edit Favorite"
+#~ msgstr "Tệp ảnh"
+
+#, fuzzy
+#~ msgctxt "@title: window"
+#~ msgid "Confirm Favorite Deletion"
+#~ msgstr "Độ tương quan:"
+
+#, fuzzy
 #~ msgctxt "@item"
 #~ msgid "Pictures"
 #~ msgstr "Vẽ biếm hoạ"
@@ -56532,14 +56730,6 @@ msgstr ""
 #~ msgctxt "@title: window"
 #~ msgid "Add New Favorite"
 #~ msgstr "Thêm máy ảnh.."
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The favorite named\n"
-#~ "%1\n"
-#~ "already exists in the list."
-#~ msgstr "Một tệp hay thư mục cùng tên đã có."
 
 #, fuzzy
 #~ msgctxt "@title: window"
