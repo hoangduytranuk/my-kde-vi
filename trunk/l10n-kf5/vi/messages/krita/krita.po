@@ -43376,28 +43376,28 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/impex/png/kis_wdg_options_png.ui:151
-#, fuzzy, kde-format
+#, kde-format
 msgid "Compression (Lossless): "
-msgstr "Tính chất:"
+msgstr "Nén (Lossless): "
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/impex/png/kis_wdg_options_png.ui:161
-#, fuzzy, kde-format
+#, kde-format
 msgid "Transparent color: "
-msgstr "Trong suốt"
+msgstr "Màu trong suốt: "
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: plugins/impex/png/kis_wdg_options_png.ui:175
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "The file will save fast but will not be compressed a lot"
 msgid "Large file size"
-msgstr "Cỡ miếng"
+msgstr "Kích thước tập tin lớn"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, interlacing)
 #: plugins/impex/png/kis_wdg_options_png.ui:193
 #, kde-format
 msgid "Use interlacing when publishing on the Internet."
-msgstr ""
+msgstr "Sử dụng kỹ thuật xen kẽ khi xuất bản cho Internet."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, interlacing)
 #: plugins/impex/png/kis_wdg_options_png.ui:197
@@ -43408,18 +43408,21 @@ msgid ""
 "Enabling interlacing will cause the image to be displayed by the browser even "
 "while downloading.</p>"
 msgstr ""
+"<p>Xen kẽ là kỹ thuật rất hữu ích nếu bạn có ý định xuất bản hình ảnh của mình "
+"trên Internet.<br>Bật tính năng xen kẽ sẽ khiến cho hình ảnh được trình duyệt "
+"mạng hiển thị ngay cả khi đang tải xuống nữa.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, interlacing)
 #: plugins/impex/png/kis_wdg_options_png.ui:200
-#, fuzzy, kde-format
+#, kde-format
 msgid "Interlacing"
-msgstr "Độ phân giải:"
+msgstr "Kỹ Thuật Xen Kẽ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveAsHDR)
 #: plugins/impex/png/kis_wdg_options_png.ui:207
 #, kde-format
 msgid "Save as HDR image (Rec. 2020 PQ)"
-msgstr ""
+msgstr "Lưu dưới dạng ảnh HDR (Rec. 2020 Perceptual Quantizer)"
 
 #: plugins/impex/psd/psd_export.cc:55
 #, kde-format
@@ -43428,31 +43431,33 @@ msgid ""
 "Your image contains one or more layers with a color model that is different "
 "from the image."
 msgstr ""
+"Hình ảnh của bạn có chứa một hoặc nhiều tầng lớp với mô hình màu sắc khác với "
+"hình ảnh."
 
 #: plugins/impex/psd/psd_loader.cpp:149
 #, kde-format
 msgid "Duotone Colormode Block"
-msgstr ""
+msgstr "Khối Chế Độ Màu Nhị Sắc"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsQImageIO)
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:18
-#, fuzzy, kde-format
+#, kde-format
 msgid "WebP Options"
-msgstr "Tuỳ chọn"
+msgstr "Tùy Chọn về WebP"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:45
 #, kde-format
 msgctxt "The compression will take a long time; saving the file will be slow."
 msgid "Highest quality"
-msgstr ""
+msgstr "Chất lượng cao nhất"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: plugins/impex/qimageio/kis_wdg_options_qimageio.ui:65
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "The file will save fast but will not be compressed a lot"
 msgid "Lowest quality"
-msgstr "Chế độ chân dung"
+msgstr "Chất lượng thấp nhất"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, imageQuality)
@@ -43461,6 +43466,8 @@ msgstr "Chế độ chân dung"
 #, kde-format
 msgid "Note:  100 uses lossless compression, everything below is lossy."
 msgstr ""
+"Lưu ý: 100 sử dụng nén không mất mát (lossless compression), mọi thứ dưới nó "
+"đều sẽ gây ra sự mất mát về chất lượng."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
 #. i18n: ectx: property (whatsThis), widget (KisDoubleSliderSpinBox, imageQuality)
@@ -43472,12 +43479,16 @@ msgid ""
 "get introduced. <br/>Note: A quality of 100 switches to lossless compression "
 "similar to (but often more efficient than) PNG.</p>"
 msgstr ""
+"<p>Điều chỉnh chất lượng hình ảnh. Chất lượng càng thấp thì các giả tượng nén "
+"càng xuất hiện nhiều. <br/>Lưu ý: Chất lượng 100 sẽ làm cho phần mềm chuyển "
+"sang nén không mất mát (lossless compression), tương tự như PNG (song thường "
+"là có hiệu suất cao hơn).</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:224
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check"
 msgid "16 bits color depth"
-msgstr "16 Bit dấu phẩy động (HDR)"
+msgstr "Độ sâu màu 16 bit"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:225
 #, kde-format
@@ -43489,12 +43500,19 @@ msgid ""
 "files will be decoded in 8-bit color depth with a BT.709 gamma curve and a "
 "99th-percentile white point. This mode is faster than 16-bit decoding.</p>"
 msgstr ""
+"<p>Nếu được bật thì tất cả các tập tin RAW sẽ được giải mã ở độ sâu màu 16 "
+"bit, bằng phương pháp sử dụng đường cong gamma tuyến tính. Để ngăn chặn quá "
+"trình kết xuất cho kết quả hình ảnh quá tối trong trình chỉnh sửa thì bạn nên "
+"sử dụng trình Quản Lý Màu (Color Management ) trong chế độ này.</p><p>Nếu bị "
+"tắt đi thì tất cả các tập tin RAW sẽ được giải mã ở độ sâu màu 8 bit, với "
+"đường cong gamma BT.709, và 1% điểm trắng. Chế độ này nhanh hơn là phương pháp "
+"giải mã 16 bit.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:244
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check"
 msgid "Interpolate RGB as four colors"
-msgstr "Lớp đầu tiên trong bảng nháp"
+msgstr "Nội suy RGB dưới dạng bốn màu sắc"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:245
 #, kde-format
@@ -43507,18 +43525,27 @@ msgid ""
 "p><p>To resume, this option blurs the image a little, but it eliminates false "
 "2x2 mesh patterns with VNG quality method or mazes with AHD quality method.</p>"
 msgstr ""
+"<title>Nội suy RGB dưới dạng bốn màu sắc</title><p> Bố trí mặc định là giả "
+"định rằng tất cả các điểm ảnh màu xanh lục (green) là đều giống nhau cả. Nếu "
+"các điểm ảnh màu xanh lục ở các hàng chẵn (0, 2, 4..) là các điểm ảnh nhạy cảm "
+"hơn với ánh sáng cực tím (ultraviolet light) so với hàng lẻ (1, 3, 5..), thì "
+"sự khác biệt này sẽ gây ra một mô hình khung lưới ở đầu ra; Bạn có thể sử dụng "
+"tùy chọn này để giải quyết vấn đề này với tổn thất ít nhất về chi tiết.</p><p> "
+"Để tiếp tục quá trình thì tùy chọn này sẽ làm mờ hình ảnh đi một chút, nhưng "
+"nó sẽ loại bỏ các mẫu khung lưới 2x2 giả, với chất lượng VNG, hoặc các mê "
+"cung, với chất lượng AHD.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:259
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Visit LibRaw project website"
-msgstr ""
+msgstr "Truy cập trang web của dự án LibRaw"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:269
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not stretch or rotate pixels"
-msgstr ""
+msgstr "Không kéo giãn hoặc xoay chiều các điểm ảnh"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:271
 #, kde-format
@@ -43529,24 +43556,30 @@ msgid ""
 "stretch the image to its correct aspect ratio. In any case, this option "
 "guarantees that each output pixel corresponds to one RAW pixel.</p>"
 msgstr ""
+"<title>Không kéo giãn hoặc xoay chiều các điểm ảnh</title><p> Đối với máy ảnh "
+"Fuji Super CCD, cái này sẽ hiển thị hình ảnh nghiêng 45 độ. Đối với máy ảnh có "
+"các điểm ảnh không vuông (non-square pixels) thì không kéo giãn hình ảnh cho "
+"khớp với tỷ lệ tương quan dài rộng của khung hình chính xác của nó. Trong bất "
+"cứ trường hợp nào đi nữa thì tùy chọn này sẽ đảm bảo rằng: mỗi điểm ảnh ở đầu "
+"ra sẽ tương ứng với một điểm ảnh thô (RAW).</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:279
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:listbox"
 msgid "Quality:"
-msgstr "Độ đậm đặc:"
+msgstr "Chất Lượng:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:283
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Quality"
 msgid "Bilinear"
-msgstr "Tuyến tính"
+msgstr "Nhị Tuyến Tính"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:284
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Quality"
 msgid "VNG"
-msgstr "HSV"
+msgstr ""
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:285
 #, kde-format
@@ -43642,12 +43675,58 @@ msgid ""
 "ul></p><p>Note: some methods can be unavailable if RAW decoder have been built "
 "without extension packs.</p>"
 msgstr ""
+"<title>Chất Lượng (nội suy)</title><p>Chọn phương pháp tái dựng màu sắc để sử "
+"dụng khi giải mã hình ảnh RAW (thô) ở đây. Thuật toán tái dựng màu sắc "
+"(demosaicing) là một quá trình ảnh kỹ thuật số được sử dụng để nội suy một "
+"hình ảnh hoàn chỉnh từ dữ liệu thô không hoàn chỉnh, lấy ra từ bộ cảm biến "
+"hình ảnh, tức cái đã được thanh lọc màu, nội bên trong máy ảnh kỹ thuật số, "
+"dưới dạng là một ma trận của các điểm ảnh màu. Phương pháp này còn được gọi là "
+"nội suy CFA, hoặc tái tạo màu sắc, cái mà một từ phổ biến khác người ta dùng "
+"để gọi nó là demosaicing (tạm dịch là tái dựng màu sắc). Những phương pháp "
+"liệt kê sau đây là những phương pháp sẵn có để demosaicing hình ảnh RAW (thô):"
+"</p><p><ul><li><emphasis strong='true'>Nhị Tuyến Tính (Bilinear):</emphasis> "
+"sử dụng phương pháp nội suy Nhị Tuyến Tính có tốc độ cao, nhưng chất lượng "
+"thấp (là phương pháp mặc định - dùng cho các máy tính chậm). Trong phương pháp "
+"này, giá trị màu đỏ của một điểm ảnh nào đó không phải là màu đỏ sẽ được tính "
+"với giá trị trung bình của các điểm ảnh màu đỏ kề bên, và cái này cũng được áp "
+"dụng tương tự cho các điểm ảnh màu xanh lam và xanh lục nữa.</li><li><emphasis "
+"strong='true'>VNG:</emphasis> sử dụng Nội Suy Số Graddien Biến Thiên (Variable "
+"Number of Gradients interpolation). Phương pháp này tính toán graddien gần "
+"điểm ảnh đang quan tâm và sử dụng các graddien thấp hơn (đại diện cho các phần "
+"mượt mà hơn và tương tự hơn của hình ảnh) để ước tính.</li><li><emphasis "
+"strong='true'>PPG:</emphasis> sử dụng nội suy Phân Nhóm Điểm Ảnh Mẫu Hóa "
+"(Patterned-Pixel-Grouping). Quá trình Phân Nhóm Điểm Ảnh (Pixel Grouping) sử "
+"dụng các giả định về cảnh quan thiên nhiên trong việc đưa ra các ước tính. Đối "
+"với các hình ảnh chụp cảnh thiên nhiên thì phương pháp này gây ra ít màu giả "
+"tượng hơn là phương pháp Nội Suy Số Graddien Biến Thiên.</li><li><emphasis "
+"strong='true'>AHD:</emphasis> sử dụng nội suy Định Hướng Đồng Thể Thích Ứng "
+"(Adaptive Homogeneity-Directed). Phương pháp này chọn hướng nội suy để tối đa "
+"hóa số liệu đo lường về tính đồng thể, và do đó mà giảm thiểu các giả tượng "
+"màu.</li><li><emphasis strong='true'>DCB</emphasis>: Nội suy DCB từ dự án "
+"linuxphoto.org.</li><li><emphasis strong='true'>AHD v2:</emphasis> Nội suy AHD "
+"Nâng Cấp làm việc bằng cách sử dụng phương pháp tính Biến Thể của sự Chênh "
+"Lệch Màu Sắc (Variance of Color Differences method).</li><li><emphasis "
+"strong='true'>AFD:</emphasis> Nội suy Tái Dựng Màu Sắc Thanh Lọc Thích Ứng "
+"(Adaptive Filtered Demosaicing interpolation) thông qua bộ lọc trung gian 5 "
+"lượt, lấy ra từ dự án Thô Hoàn Hảo (PerfectRaw).</li><li><emphasis "
+"strong='true'>VCD:</emphasis> Nội suy Biến Thể của sự Chênh Lệch Màu Sắc "
+"(Variance of Color Differences interpolation).</li><li><emphasis "
+"strong='true'>VCD & AHD:</emphasis> Tái dựng màu sắc bằng sự phối hợp giữa hai "
+"phương pháp VCD và AHD (Mixed demosaicing between VCD and AHD).</"
+"li><li><emphasis strong='true'>LMMSE:</emphasis> tái dựng màu sắc thông qua "
+"phương pháp ước tính Sai Số Trung Bình Phương Tối Thiểu Tuyến Tính (Linear "
+"Minimum Mean-Square Error) hữu hướng từ Thô Hoàn Hảo (PerfectRaw).</"
+"li><li><emphasis strong='true'>AMaZE:</emphasis> nội suy Tối Ưu Giả Hình "
+"(Aliasing Minimization) và Loại Bỏ Zipper (Zipper Elimination) hòng áp dụng sự "
+"loại bỏ quang sai màu, lấy ra từ dự án RawTherapee.</li></ul></p><p>Lưu ý: một "
+"số phương pháp có thể phi khả dụng nếu bộ giải mã RAW đã được xây dựng với "
+"tình trạng không có gói mở rộng trong đó (built without extension packs).</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:382
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider"
 msgid "Pass:"
-msgstr "Chính:"
+msgstr "Lượt:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:383
 #, kde-format
@@ -43661,12 +43740,20 @@ msgid ""
 "emphasis>, <emphasis strong='true'>DCB</emphasis>, and <emphasis "
 "strong='true'>VCD & AHD</emphasis>.</p>"
 msgstr ""
+"<title>Lượt (Pass)</title><p> Đặt số lượt sử dụng bởi bộ lọc trung bình áp "
+"dụng sau khi nội suy các kênh Đỏ-Xanh Lục (Red-Green) và Lam-Xanh Lục (Blue-"
+"Green) ở đây.</p><p>Cài đặt này chỉ tồn tại với các tùy chọn Chất Lượng "
+"(Quality) cụ thể mà thôi: <emphasis strong='true'>Nhị Tuyến Tính (Bilinear),</"
+"emphasis> <emphasis strong='true'>VNG,</emphasis> <emphasis strong='true'>PPG,"
+"</emphasis> <emphasis strong='true'>AHD,</emphasis> <emphasis "
+"strong='true'>DCB</emphasis>và <emphasis strong='true'>VCD & AHD.</emphasis></"
+"p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:395
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check"
 msgid "Refine interpolation"
-msgstr "Độ phân giải:"
+msgstr "Tinh chỉnh nội suy"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:396
 #, kde-format
@@ -43678,12 +43765,17 @@ msgid ""
 "AHD</emphasis>: turn on the enhanced effective color interpolation (EECI) "
 "refine to improve sharpness.</li></ul></p>"
 msgstr ""
+"<title>Tinh chỉnh nội suy</title><p> Sắp đặt này chỉ khả dụng cho một vài tùy "
+"chọn về Chất Lượng mà thôi:</p><p><ul><li><emphasis strong='true'>DCB:</"
+"emphasis> Bật bộ lọc màu nội suy nâng cao lên.</li><li><emphasis "
+"strong='true'>VCD & AHD:</emphasis> Bật tinh chỉnh nội suy màu hiệu quả nâng "
+"cao (EECI) để cải thiện độ sắc nét.</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:413
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Demosaicing"
-msgstr "Để cách"
+msgstr "Tái Dựng Màu"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:421
 #, kde-format
@@ -44094,10 +44186,10 @@ msgid ""
 msgstr ""
 "<title>Hiệu Chỉnh Quang Sai Màu Tự Động</title><p> Nếu tùy chọn này được bật "
 "lên thì nó sẽ gắng sức mình thay đổi các kênh hình ảnh một chút và đánh giá sự "
-"thay đổi Quang Sai Màu là bao nhiêu. Lưu ý rằng, nếu bạn chụp mẫu lam-đỏ (blue-"
-"red pattern) thì phương pháp này có thể sẽ thất bại. Nếu rơi vào trường hợp "
-"này thì bạn cho tắt tùy chọn này đi và điều chỉnh các yếu tố màu một cách thủ "
-"công.</p>"
+"thay đổi Quang Sai Màu (Chromatic Aberration) là bao nhiêu. Lưu ý rằng, nếu "
+"bạn chụp mẫu lam-đỏ (blue-red pattern) thì phương pháp này có thể sẽ thất bại. "
+"Nếu rơi vào trường hợp này thì bạn cho tắt tùy chọn này đi và điều chỉnh các "
+"yếu tố màu một cách thủ công.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:638
 #, kde-format
@@ -44113,7 +44205,7 @@ msgid ""
 "green axis</p>"
 msgstr ""
 "<title>Hệ số nhân Đỏ-Xanh Lục</title><p> Đặt lượng điều chỉnh trục đỏ-xanh lục "
-"ở đây</p>"
+"(Red-Green)  ở đây</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:646
 #, kde-format
@@ -44128,8 +44220,8 @@ msgid ""
 "<title>Blue-Yellow multiplier</title><p>Set here the amount of correction on "
 "blue-yellow axis</p>"
 msgstr ""
-"<title>Hệ số nhân cho Lam-Vàng</title><p> Đặt lượng điều chỉnh trục lam-vàng ở "
-"đây</p>"
+"<title>Hệ số nhân cho Lam-Vàng</title><p> Đặt lượng điều chỉnh trục lam-vàng "
+"(Blue-Yellow) ở đây</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:670
 #, kde-format
@@ -44172,12 +44264,13 @@ msgid ""
 "if it exists.</li><li><emphasis strong='true'>Custom</emphasis>: use a custom "
 "input color space profile.</li></ul></p>"
 msgstr ""
-"<title>Hồ Sơ Máy Ảnh</title><p> Chọn không gian màu đầu vào sử dụng để giải mã "
-"dữ liệu RAW ở đây.</p><p><ul><li><emphasis strong='true'>Không có</emphasis>: "
-"không có hồ sơ màu đầu vào nào được sử dụng trong quá trình giải mã RAW cả.</"
-"li><li><emphasis strong='true'>Nhúng:</emphasis>sử dụng hồ sơ màu đã nhúng "
-"trong tập tin RAW, nếu nó tồn tại.</li><li><emphasis strong='true'>Tùy chỉnh</"
-"emphasis>: sử dụng hồ sơ không gian màu tự cung cấp.</li></ul></p>"
+"<title>Hồ Sơ Máy Ảnh</title><p> Chọn không gian màu sử dụng để giải mã dữ liệu "
+"RAW ở đây.</p><p><ul><li><emphasis strong='true'>Không có</emphasis>: Không có "
+"hồ sơ màu đầu vào nào được sử dụng trong quá trình giải mã RAW cả.</"
+"li><li><emphasis strong='true'>Nhúng:</emphasis> Sử dụng hồ sơ màu đã nhúng "
+"(embedded) trong tập tin RAW, nếu nó tồn tại.</li><li><emphasis "
+"strong='true'>Tùy chỉnh</emphasis>: Sử dụng hồ sơ không gian màu tự cung cấp.</"
+"li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:695
 #, kde-format
