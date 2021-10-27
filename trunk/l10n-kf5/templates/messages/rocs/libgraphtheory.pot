@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rocs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-04 00:14+0000\n"
+"POT-Creation-Date: 2021-10-24 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -33,8 +33,7 @@ msgctxt "@title:window"
 msgid "Edge Properties"
 msgstr ""
 
-#: dialogs/edgeproperties.cpp:80 dialogs/edgetypeproperties.cpp:48
-#: dialogs/nodeproperties.cpp:90 dialogs/nodetypeproperties.cpp:47
+#: dialogs/edgeproperties.cpp:80 dialogs/nodeproperties.cpp:90
 #, kde-format
 msgid "Name"
 msgstr ""
@@ -62,15 +61,14 @@ msgstr ""
 msgid "Dynamic Properties"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelConnection)
-#: dialogs/edgetypeproperties.cpp:37 editorplugins/assignvalues/assignvalueswidget.ui:460
+#: dialogs/edgetypeproperties.cpp:37
 #, kde-format
 msgid "Edges"
 msgstr ""
 
 #: dialogs/edgetypeproperties.cpp:38 dialogs/nodetypeproperties.cpp:36
 #, kde-format
-msgid "Property Names"
+msgid "Property names"
 msgstr ""
 
 #: dialogs/edgetypeproperties.cpp:43
@@ -79,36 +77,44 @@ msgctxt "@title:window"
 msgid "Edge Type Properties"
 msgstr ""
 
+#: dialogs/edgetypeproperties.cpp:48 dialogs/nodetypeproperties.cpp:47
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelId)
 #. i18n: ectx: property (text), widget (QLabel, labelIdentifier)
-#: dialogs/edgetypeproperties.cpp:49 dialogs/nodetypeproperties.cpp:49
-#: editorplugins/generategraph/generategraphwidget.ui:129
+#: dialogs/edgetypeproperties.cpp:49 dialogs/nodeproperties.ui:119
+#: dialogs/nodetypeproperties.cpp:49 editorplugins/generategraph/generategraphwidget.ui:129
 #, kde-format
-msgid "Identifier"
+msgid "Identifier:"
 msgstr ""
 
-#: dialogs/edgetypeproperties.cpp:51 dialogs/nodetypeproperties.cpp:52
+#. i18n: ectx: property (text), widget (QLabel, labelColor)
+#: dialogs/edgetypeproperties.cpp:51 dialogs/nodeproperties.ui:102
+#: dialogs/nodetypeproperties.cpp:52
 #, kde-format
-msgid "Color"
+msgid "Color:"
 msgstr ""
 
-#: dialogs/edgetypeproperties.cpp:52
+#: dialogs/edgetypeproperties.cpp:52 graphdocument.cpp:120
 #, kde-format
 msgid "Unidirectional"
 msgstr ""
 
-#: dialogs/edgetypeproperties.cpp:53
+#: dialogs/edgetypeproperties.cpp:53 graphdocument.cpp:125
 #, kde-format
 msgid "Bidirectional"
 msgstr ""
 
 #: dialogs/edgetypeproperties.cpp:54
 #, kde-format
-msgid "Direction"
+msgid "Direction:"
 msgstr ""
 
 #: dialogs/edgetypeproperties.cpp:61 dialogs/nodetypeproperties.cpp:59
 #, kde-format
-msgid "Visibility"
+msgid "Visibility:"
 msgstr ""
 
 #: dialogs/edgetypeproperties.cpp:141
@@ -158,20 +164,7 @@ msgstr ""
 msgid "Node color"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelColor)
-#: dialogs/nodeproperties.ui:102
-#, kde-format
-msgid "Color:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelId)
-#: dialogs/nodeproperties.ui:119
-#, kde-format
-msgid "Identifier:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelData)
-#: dialogs/nodetypeproperties.cpp:35 editorplugins/assignvalues/assignvalueswidget.ui:434
+#: dialogs/nodetypeproperties.cpp:35
 #, kde-format
 msgid "Nodes"
 msgstr ""
@@ -288,11 +281,9 @@ msgid "Assign Constant Value"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, IDlabelStartValue)
-#. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericID)
 #: editorplugins/assignvalues/assignvalueswidget.ui:132
-#: editorplugins/assignvalues/assignvalueswidget.ui:192
 #, kde-format
-msgid "Start ID"
+msgid "Start ID:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, LabelInitialString)
@@ -305,6 +296,12 @@ msgstr ""
 #: editorplugins/assignvalues/assignvalueswidget.ui:174
 #, kde-format
 msgid "a"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericID)
+#: editorplugins/assignvalues/assignvalueswidget.ui:192
+#, kde-format
+msgid "Start ID"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericPrefix)
@@ -351,10 +348,28 @@ msgstr ""
 msgid "Overwrite existing values"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_randomNodes)
+#. i18n: ectx: property (text), widget (QLabel, label_randomTreeNodes)
+#. i18n: ectx: property (text), widget (QLabel, labelData)
+#: editorplugins/assignvalues/assignvalueswidget.ui:434
+#: editorplugins/generategraph/generategraphwidget.ui:252
+#: editorplugins/generategraph/generategraphwidget.ui:404
+#, kde-format
+msgid "Nodes:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelProperty)
 #: editorplugins/assignvalues/assignvalueswidget.ui:447
 #, kde-format
-msgid "Property Name"
+msgid "Property name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomEdges)
+#. i18n: ectx: property (text), widget (QLabel, labelConnection)
+#: editorplugins/assignvalues/assignvalueswidget.ui:460
+#: editorplugins/generategraph/generategraphwidget.ui:272
+#, kde-format
+msgid "Edges:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, applyToEdges)
@@ -452,10 +467,8 @@ msgstr ""
 msgid "Path Graph"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeComplete)
 #. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
 #: editorplugins/generategraph/generategraphwidget.ui:66
-#: editorplugins/transformedges/transformedgeswidget.ui:25
 #, kde-format
 msgid "Complete Graph"
 msgstr ""
@@ -493,7 +506,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelNodeType)
 #: editorplugins/generategraph/generategraphwidget.ui:119
 #, kde-format
-msgid "Node type"
+msgid "Node type:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelIdentifier)
@@ -530,20 +543,6 @@ msgstr ""
 msgid "Number of Nodes:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_randomNodes)
-#. i18n: ectx: property (text), widget (QLabel, label_randomTreeNodes)
-#: editorplugins/generategraph/generategraphwidget.ui:252
-#: editorplugins/generategraph/generategraphwidget.ui:404
-#, kde-format
-msgid "Nodes:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_randomEdges)
-#: editorplugins/generategraph/generategraphwidget.ui:272
-#, kde-format
-msgid "Edges:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_randomSelfEdges)
 #. i18n: ectx: property (text), widget (QLabel, label_GNPSelfEdges)
 #: editorplugins/generategraph/generategraphwidget.ui:286
@@ -553,13 +552,9 @@ msgid "Allow self-edges:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_randomGeneratorSeed)
-#. i18n: ectx: property (text), widget (QLabel, label_GNPGeneratorSeed)
-#. i18n: ectx: property (text), widget (QLabel, label_randomTreeGeneratorSeed)
 #: editorplugins/generategraph/generategraphwidget.ui:293
-#: editorplugins/generategraph/generategraphwidget.ui:356
-#: editorplugins/generategraph/generategraphwidget.ui:421
 #, kde-format
-msgid "Generator Seed:"
+msgid "Generator seed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_GNPNodes)
@@ -572,6 +567,14 @@ msgstr ""
 #: editorplugins/generategraph/generategraphwidget.ui:349
 #, kde-format
 msgid "Edge Probability (p):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_GNPGeneratorSeed)
+#. i18n: ectx: property (text), widget (QLabel, label_randomTreeGeneratorSeed)
+#: editorplugins/generategraph/generategraphwidget.ui:356
+#: editorplugins/generategraph/generategraphwidget.ui:421
+#, kde-format
+msgid "Generator Seed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_numberNodes)
@@ -613,13 +616,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelEdgeType)
 #: editorplugins/generategraph/generategraphwidget.ui:607
 #, kde-format
-msgid "Edge type"
+msgid "Edge type:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelGenerator)
 #: editorplugins/generategraph/generategraphwidget.ui:614
 #, kde-format
-msgid "Graph Generator"
+msgid "Graph generator:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, nodeTypeSelector)
@@ -720,6 +723,12 @@ msgid ""
 "any preset weights."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeComplete)
+#: editorplugins/transformedges/transformedgeswidget.ui:25
+#, kde-format
+msgid "Complete graph"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonEraseEdges)
 #: editorplugins/transformedges/transformedgeswidget.ui:35
 #, kde-format
@@ -729,7 +738,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEraseEdges)
 #: editorplugins/transformedges/transformedgeswidget.ui:38
 #, kde-format
-msgid "Remove all Edges"
+msgid "Remove all edges"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonReverseEdges)
@@ -743,7 +752,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonReverseEdges)
 #: editorplugins/transformedges/transformedgeswidget.ui:48
 #, kde-format
-msgid "Reverse all Edges"
+msgid "Reverse all edges"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonMakeSpanningtree)
@@ -768,13 +777,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeSpanningtree)
 #: editorplugins/transformedges/transformedgeswidget.ui:62
 #, kde-format
-msgid "Spanning Tree Transformation"
+msgid "Spanning tree transformation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEraseSelfEdges)
 #: editorplugins/transformedges/transformedgeswidget.ui:69
 #, kde-format
-msgid "Remove all Self Edges"
+msgid "Remove all self edges"
 msgstr ""
 
 #: fileformats/dot/dotfileformat.cpp:48
@@ -802,6 +811,7 @@ msgstr ""
 
 #: fileformats/fileformatmanager.cpp:111
 #, kde-format
+msgctxt "@title:window"
 msgid "Plugin Error"
 msgstr ""
 
@@ -869,19 +879,9 @@ msgstr ""
 msgid "TikZ (PGF) Format (%1)"
 msgstr ""
 
-#: graphdocument.cpp:120
-#, kde-format
-msgid "unidirectional"
-msgstr ""
-
-#: graphdocument.cpp:125
-#, kde-format
-msgid "bidirectional"
-msgstr ""
-
 #: graphdocument.cpp:129
 #, kde-format
-msgid "default"
+msgid "Default"
 msgstr ""
 
 #: graphdocument.cpp:315
