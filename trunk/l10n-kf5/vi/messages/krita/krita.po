@@ -15979,6 +15979,9 @@ msgid ""
 "The image has <b>more than one layer or a mask or an active selection</b>. "
 "Only the flattened image will be saved."
 msgstr ""
+"Hình ảnh có <b>nhiều tầng lớp, màn chắn lọc hay một vùng lựa chọn nào đó đang "
+"hoạt động</b>. Chỉ có hình ảnh đã làm phẳng bẹt (không có tầng lớp) thì mới "
+"được lưu mà thôi."
 
 #: libs/impex/MultiTransparencyMaskCheck.h:25
 #, kde-format
@@ -15988,6 +15991,9 @@ msgid ""
 "layers that have multiple transparency masks, only the rendered result will be "
 "saved."
 msgstr ""
+"Hình ảnh có <b>nhiều màn chắn lọc trong suốt trên một tầng lớp</b> nào đó. Đối "
+"với tất cả các tầng lớp có nhiều màn chắn lọc trong suốt thì phần mềm chỉ lưu "
+"kết quả đã được kết xuất mà thôi."
 
 #: libs/impex/NodeTypeCheck.h:25
 #, kde-format
@@ -15996,6 +16002,8 @@ msgid ""
 "The image contains layers of unsupported type <b>%1</b>. Only the rendered "
 "result will be saved."
 msgstr ""
+"Hình ảnh có chứa nhiều tầng lớp thuộc thể loại <b>%1</b> hiện không được hỗ "
+"trợ. Chỉ có kết quả đã được kết xuất sẽ được lưu mà thôi."
 
 #: libs/impex/PSDLayerStylesCheck.h:104
 #, kde-format
@@ -16003,6 +16011,8 @@ msgctxt "image conversion warning"
 msgid ""
 "The image contains <b>layer styles</b>. The layer styles will not be saved."
 msgstr ""
+"Hình ảnh có chứa nhiều <b>phong cách tầng lớp</b>. Các phong cách tầng lớp này "
+"sẽ không được lưu lại đâu."
 
 #: libs/impex/sRGBProfileCheck.h:28
 #, kde-format
@@ -16011,6 +16021,8 @@ msgid ""
 "The image is not tagged as <b>non-linear gamma sRGB</b>. The image will be "
 "converted to sRGB."
 msgstr ""
+"Hình ảnh không được đánh dấu (tagged) là <b>gamma sRGB phi tuyến tính</b>, cho "
+"nên hình ảnh sẽ được chuyển đổi thành sRGB."
 
 #: libs/koplugin/KisMimeDatabase.cpp:169
 #, fuzzy, kde-format
@@ -17526,11 +17538,10 @@ msgstr "Gỡ bỏ Layer"
 #: libs/ui/KisMainWindow.cpp:1205 libs/ui/KisMainWindow.cpp:1303
 #: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1913
 #: libs/ui/KisMainWindow.cpp:2052 libs/ui/KisMainWindow.cpp:2111
-#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:558
-#: libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
-#: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
-#: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:669
-#: libs/ui/KisWelcomePageWidget.cpp:702
+#: libs/ui/KisMainWindow.cpp:2135 libs/ui/KisPart.cpp:558 libs/ui/KisPart.cpp:561
+#: libs/ui/KisReferenceImage.cpp:178 libs/ui/KisRemoteFileFetcher.cpp:42
+#: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
+#: libs/ui/KisView.cpp:669 libs/ui/KisWelcomePageWidget.cpp:702
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131 libs/ui/utils/KisClipboardUtil.cpp:236
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:535
@@ -18186,8 +18197,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "\n"
-"There are no resources of type %1 available. Please enable at least one "
-"bundle."
+"There are no resources of type %1 available. Please enable at least one bundle."
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:66
@@ -18290,7 +18300,7 @@ msgstr ""
 #: plugins/python/krita_script_starter/bbdkss.ui:203
 #, kde-format
 msgid "Cancel"
-msgstr "Thôi"
+msgstr "Hủy"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:225
 #, fuzzy, kde-format
@@ -21235,9 +21245,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btOk)
 #: libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:53
-#, fuzzy, kde-format
+#, kde-format
 msgid "OK"
-msgstr "Đượ&c"
+msgstr "Chấp Thuận"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:70
 #, fuzzy, kde-format
@@ -27033,11 +27043,13 @@ msgid "Opening document"
 msgstr "Mở tài liệu"
 
 #: libs/ui/KisDocument.cpp:1752
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
-msgstr "Không thể thêm lớp vào ảnh."
+msgstr ""
+"Không thể mở bản %2.\n"
+"Lý do: %1"
 
 #: libs/ui/KisDocument.cpp:1760
 #, kde-format
@@ -27151,74 +27163,74 @@ msgstr "Không thể tạo tệp để lưu"
 #: libs/ui/KisImportExportErrorCode.cpp:119
 #, kde-format
 msgid "Unexpected error. Please contact developers."
-msgstr ""
+msgstr "Lỗi bất ngờ xảy ra. Xin vui lòng liên hệ với nhà phát triển."
 
 #: libs/ui/KisImportExportErrorCode.cpp:128
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file doesn't exist."
-msgstr "Tệp %1 không tồn tại."
+msgstr "Tập tin không tồn tại."
 
 #: libs/ui/KisImportExportErrorCode.cpp:130
 #, kde-format
 msgid "Permission denied: Krita is not allowed to read the file."
-msgstr ""
+msgstr "Sự cho phép đã bị từ chối: Krita không được phép đọc tập tin."
 
 #: libs/ui/KisImportExportErrorCode.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file format cannot be parsed."
-msgstr "Tệp %1 không tồn tại."
+msgstr "Định dạng tập tin này không thể phân tích được."
 
 #: libs/ui/KisImportExportErrorCode.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file format contains unsupported features."
-msgstr "Tệp %1 không tồn tại."
+msgstr "Định dạng tập tin này có chứa các tính năng chưa được phần mềm hỗ trợ."
 
 #: libs/ui/KisImportExportErrorCode.cpp:136
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file format contains unsupported color space."
-msgstr "Cỡ Lớp"
+msgstr "Định dạng tập tin có chứa không gian màu chưa được phần mềm hỗ trợ."
 
 #: libs/ui/KisImportExportErrorCode.cpp:138
-#, fuzzy, kde-format
+#, kde-format
 msgid "Error occurred while reading from the file."
-msgstr "Không thể đọc được phần đầu của tệp."
+msgstr "Lỗi xảy ra trong khi đọc tập tin."
 
 #: libs/ui/KisImportExportErrorCode.cpp:142
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file cannot be created."
-msgstr "Tệp %1 không tồn tại."
+msgstr "Không thể tạo tập tin được."
 
 #: libs/ui/KisImportExportErrorCode.cpp:144
 #, kde-format
 msgid "Permission denied: Krita is not allowed to write to the file."
-msgstr ""
+msgstr "Sự cho phép đã bị từ chối: Krita không được phép viết vào tập tin này."
 
 #: libs/ui/KisImportExportErrorCode.cpp:146
 #, kde-format
 msgid "There is not enough disk space left to save the file."
-msgstr ""
+msgstr "Không còn đủ chỗ ở trên đĩa để lưu tập tin được."
 
 #: libs/ui/KisImportExportErrorCode.cpp:148
-#, fuzzy, kde-format
+#, kde-format
 msgid "Error occurred while writing to the file."
-msgstr "Không thể đọc được phần đầu của tệp."
+msgstr "Lỗi đã xảy ra trong khi viết tập tin."
 
 #: libs/ui/KisImportExportErrorCode.cpp:150
-#, fuzzy, kde-format
+#, kde-format
 msgid "Krita does not support this file format."
-msgstr "Cỡ Lớp"
+msgstr "Krita hiện chưa hỗ trợ định dạng tập tin này."
 
 #: libs/ui/KisImportExportErrorCode.cpp:154
 #, kde-format
 msgid "The action was cancelled by the user."
-msgstr ""
+msgstr "Hành động đã bị người dùng hủy bỏ."
 
 #: libs/ui/KisImportExportErrorCode.cpp:158
 #: plugins/impex/libkra/kra_converter.cpp:377
 #: plugins/impex/libkra/kra_converter.cpp:406
-#, fuzzy, kde-format
+#, kde-format
 msgid "Unknown error."
-msgstr "Không rõ"
+msgstr "Lỗi chưa xác định được."
 
 #: libs/ui/KisImportExportFilter.cpp:151
 #, kde-format
@@ -27226,11 +27238,13 @@ msgid ""
 "%1 does not exist after writing. Try saving again under a different name, in "
 "another location."
 msgstr ""
+"Không thấy %1 tồn tại sau khi viết. Hãy thử lưu lại dưới một tên khác, ở một "
+"vị trí khác nhé."
 
 #: libs/ui/KisImportExportFilter.cpp:155
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 is not readable"
-msgstr "Cỡ Lớp"
+msgstr "%1 không thể đọc được"
 
 #: libs/ui/KisImportExportFilter.cpp:159
 #, kde-format
@@ -27342,31 +27356,35 @@ msgid "Error: cannot save this image as a %1."
 msgstr "Không thể thêm lớp vào ảnh."
 
 #: libs/ui/KisImportExportManager.cpp:539 libs/ui/KisImportExportManager.cpp:588
-#, fuzzy, kde-format
+#, kde-format
 msgid "Reasons:"
-msgstr "&Kích thước bằng điểm ảnh"
+msgstr "Lý Do:"
 
 #: libs/ui/KisImportExportManager.cpp:547
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
-msgstr "Sóng Dọc"
+msgstr "Krita: Lỗi xảy ra trong khi Xuất Khẩu"
 
 #: libs/ui/KisImportExportManager.cpp:570
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as a %1 will lose information from your image.    "
 msgstr ""
+"Cảnh báo: lưu dưới định dạng %1 sẽ gây ra sự mất mát thông tin trong hình ảnh "
+"của bạn.    "
 
 #: libs/ui/KisImportExportManager.cpp:582
-#, fuzzy, kde-format
+#, kde-format
 msgid "You will lose information when saving this image as a %1."
-msgstr "Không thể thêm lớp vào ảnh."
+msgstr ""
+"Bạn sẽ bị mất thông tin trong hình ảnh đi khi lưu hình ảnh này dưới định dạng "
+"%1."
 
 #: libs/ui/KisImportExportManager.cpp:585
-#, fuzzy, kde-format
+#, kde-format
 msgid "Reason:"
-msgstr "Khoảng cách:"
+msgstr "Lý Do:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #: libs/ui/KisImportExportManager.cpp:603
@@ -27385,7 +27403,7 @@ msgstr "Đổi cỡ"
 #: libs/ui/KisImportExportManager.cpp:617
 #, kde-format
 msgid "Also save your image as a Krita file."
-msgstr ""
+msgstr "Đồng thời lưu hình ảnh của bạn dưới dạng tập tin Krita."
 
 #: libs/ui/KisMainWindow.cpp:183
 #, fuzzy, kde-format
@@ -29146,11 +29164,13 @@ msgid "Insert as Reference Images"
 msgstr "Ảnh tham chiếu:"
 
 #: libs/ui/utils/KisClipboardUtil.cpp:132 libs/ui/utils/KisClipboardUtil.cpp:237
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1."
-msgstr "Không thể thêm lớp vào ảnh."
+msgstr ""
+"Không thể mở bản %2.\n"
+"Lý do: %1."
 
 #. i18n: ectx: property (text), widget (QLabel, lblLinks)
 #: libs/ui/wdgsplash.ui:439
@@ -42616,7 +42636,7 @@ msgstr "Áp lực"
 #: plugins/impex/png/kis_wdg_options_png.ui:100
 #, kde-format
 msgid "Force convert to sRGB"
-msgstr ""
+msgstr "Buộc phải chuyển đổi sang thành sRGB"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:88
@@ -43158,63 +43178,63 @@ msgstr "Cỡ Lớp"
 #: plugins/impex/libkra/kra_converter.cpp:354
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
-msgstr ""
+msgstr "Tập tin này quá mới so với phiên bản Krita (%1) này."
 
 #: plugins/impex/libkra/kra_converter.cpp:360
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file has no layers."
-msgstr "Tệp %1 không tồn tại."
+msgstr "Tập tin không có tầng lớp nào cả."
 
 #: plugins/impex/libkra/kra_converter.cpp:393
-#, fuzzy, kde-format
+#, kde-format
 msgid "The file does not contain an image."
-msgstr "Tệp %1 không tồn tại."
+msgstr "Tập tin không có chứa hình ảnh nào cả."
 
 #: plugins/impex/pdf/kis_pdf_import.cpp:69
 #: plugins/impex/pdf/kis_pdf_import.cpp:70
 #, kde-format
 msgid "A password is required to read that pdf"
-msgstr ""
+msgstr "Cần phải có mật khẩu thì mới đọc được bản pdf ấy"
 
 #: plugins/impex/pdf/kis_pdf_import.cpp:79
-#, fuzzy, kde-format
+#, kde-format
 msgid "PDF Import Options"
-msgstr "Tuỳ chọn Hình học"
+msgstr "Tùy Chọn Nhập PDF"
 
 #: plugins/impex/pdf/kis_pdf_import.cpp:102
-#, fuzzy, kde-format
+#, kde-format
 msgid "Page %1"
-msgstr "ảnh %1"
+msgstr "Trang %1"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PDFImportWidgetBase)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:18
-#, fuzzy, kde-format
+#, kde-format
 msgid "PDFImportWidget"
-msgstr "Nhập ảnh"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:24
-#, fuzzy, kde-format
+#, kde-format
 msgid "Pages"
-msgstr "Các màu đỏ tươi"
+msgstr "Các trang"
 
 #. i18n: ectx: property (text), widget (QRadioButton, boolAllPages)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:30
-#, fuzzy, kde-format
+#, kde-format
 msgid "All pa&ges"
-msgstr "Ảnh GLSL"
+msgstr "Toàn bộ các trang"
 
 #. i18n: ectx: property (text), widget (QRadioButton, boolFirstPage)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:37
-#, fuzzy, kde-format
+#, kde-format
 msgid "&First page"
-msgstr "Vừa Trang"
+msgstr "Trang đầu tiên"
 
 #. i18n: ectx: property (text), widget (QRadioButton, boolSelectionPage)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:47
-#, fuzzy, kde-format
+#, kde-format
 msgid "Selec&tion of page"
-msgstr "Chế độ chọn:"
+msgstr "Lựa chọn trang"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intResolution)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:304
@@ -43224,16 +43244,16 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:320
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "horizontal resolution"
 msgid "Resolution:"
 msgstr "Độ phân giải:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsPNG)
 #: plugins/impex/png/kis_wdg_options_png.ui:18
-#, fuzzy, kde-format
+#, kde-format
 msgid "PNG Options"
-msgstr "Tuỳ chọn"
+msgstr "Tùy Chọn PNG"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkSRGB)
 #: plugins/impex/png/kis_wdg_options_png.ui:44
@@ -43246,12 +43266,20 @@ msgid ""
 "\">disable</span> this option. For interchange with other applications, <span "
 "style=\" font-style:italic;\">enable</span> this option.</p></body></html>"
 msgstr ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Các</span> tập tin PNG "
+"có <span style=\" font-style:italic;\">hai</span> tùy chọn để lưu thông tin "
+"<span style=\" font-weight:600;\">sRGB:</span> dưới dạng thẻ đánh dấu (tag) "
+"hoặc dưới dạng hồ sơ cụ thể (explicit profile). Nếu chỉ muốn sử dụng hình ảnh "
+"trong các trang web không thôi thì xin <span style=\" font-style:italic;\">hãy "
+"tắt</span> tùy chọn này đi. Nếu muốn trao đổi hình ảnh với các ứng dụng khác "
+"thì xin <span style=\" font-style:italic;\">hãy bật</span> tùy chọn này lên.</"
+"p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSRGB)
 #: plugins/impex/png/kis_wdg_options_png.ui:47
-#, fuzzy, kde-format
+#, kde-format
 msgid "Embed sRGB profile"
-msgstr "Xoá điểm"
+msgstr "Nhúng hồ sơ sRGB"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:73
@@ -43259,6 +43287,8 @@ msgstr "Xoá điểm"
 #, kde-format
 msgid "Disable to get smaller files if your image has no transparency"
 msgstr ""
+"Tắt đi để cỡ tập tin nhỏ hơn, nhất là nếu hình ảnh của bạn không có độ trong "
+"suốt"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:77
@@ -43271,12 +43301,18 @@ msgid ""
 "the resulting file smaller .<br>Always saving the alpha channel is recommended."
 "</p>"
 msgstr ""
+"<p>Định dạng tập tin Đồ Họa Mạng Di Động (Portable Network Graphics - PNG) cho "
+"phép độ trong suốt của hình ảnh của bạn được lưu trữ lại bằng cách lưu trữ "
+"kênh alpha.\n"
+"Bạn có thể bỏ dấu kiểm, không chọn hộp này nếu bạn không sử dụng độ trong suốt "
+"của hình ảnh và bạn muốn kích thước tập tin kết quả nhỏ hơn dự định.<br>Việc "
+"lưu kênh alpha lại là việc luôn luôn được khuyến khích.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:80
-#, fuzzy, kde-format
+#, kde-format
 msgid "Store alpha channel (transparency)"
-msgstr "Đen Trắng (không có độ trong suốt)"
+msgstr "Lưu trữ kênh alpha (độ trong suốt)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkAuthor)
 #: plugins/impex/png/kis_wdg_options_png.ui:90
@@ -43285,12 +43321,14 @@ msgid ""
 "<html><head/><body><p>Save author nickname and the first contact information "
 "of the author profile into the png, if possible.</p></body></html>"
 msgstr ""
+"<html><head/><body><p>Lưu bí danh của tác giả và các thông tin liên hệ trước "
+"tiên trong hồ sơ tác giả vào bản png, nếu có thể.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAuthor)
 #: plugins/impex/png/kis_wdg_options_png.ui:93
-#, fuzzy, kde-format
+#, kde-format
 msgid "Sign with author data"
-msgstr "Khoảng màu"
+msgstr "Ký tên hình ảnh dùng dữ liệu về tác giả"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblFast)
@@ -43324,13 +43362,15 @@ msgid ""
 "<p>Adjust the compression time. Better compression takes longer.\n"
 "<br>Note: the compression level does not change the quality of the result.</p>"
 msgstr ""
+"<p>Điều chỉnh thời gian nén. Mức nén tốt hơn sẽ mất nhiều thời gian hơn.\n"
+"<br>Lưu ý: mức nén sẽ không làm thay đổi chất lượng của kết quả.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
 #: plugins/impex/png/kis_wdg_options_png.ui:111
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "The compression will take a long time; saving the file will be slow."
 msgid "Small File Size"
-msgstr "Miếng nhỏ"
+msgstr "Kích thước tập tin nhỏ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMetaData)
 #: plugins/impex/png/kis_wdg_options_png.ui:121
@@ -43339,12 +43379,14 @@ msgid ""
 "<html><head/><body><p>Store information like keywords, title and subject and "
 "license, if possible.</p></body></html>"
 msgstr ""
+"<html><head/><body><p>Lưu trữ các thông tin như các từ khóa, tiêu đề, chủ đề "
+"và giấy phép, nếu có thể.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/png/kis_wdg_options_png.ui:124
-#, fuzzy, kde-format
+#, kde-format
 msgid "Store Metadata"
-msgstr "&Sửa siêu dữ liệu..."
+msgstr "Lưu trữ siêu dữ liệu"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, tryToSaveAsIndexed)
 #: plugins/impex/png/kis_wdg_options_png.ui:131
@@ -43353,12 +43395,15 @@ msgid ""
 "Indexed PNG images are smaller. If you enabled this option, your image will be "
 "analyzed to see whether it is possible to save as an indexed PNG."
 msgstr ""
+"Hình ảnh PNG có chỉ số (indexed PNG) là các hình ảnh có cỡ văn bản nhỏ hơn. "
+"Nếu bạn bật tùy chọn này lên thì hình ảnh của bạn sẽ được phân tích để xem "
+"liệu có thể lưu nó dưới dạng PNG có chỉ số hay không."
 
 #. i18n: ectx: property (text), widget (QCheckBox, tryToSaveAsIndexed)
 #: plugins/impex/png/kis_wdg_options_png.ui:134
 #, kde-format
 msgid "Save as indexed PNG, if possible"
-msgstr ""
+msgstr "Lưu dưới dạng PNG có chỉ số (indexed PNG), nếu có thể"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, compressionLevelDeflate)
@@ -43374,19 +43419,19 @@ msgstr ""
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:537
 #, kde-format
 msgid "Note: the compression level does not change the quality of the result"
-msgstr ""
+msgstr "Lưu ý: mức nén sẽ không làm thay đổi chất lượng của kết quả"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/impex/png/kis_wdg_options_png.ui:151
 #, kde-format
 msgid "Compression (Lossless): "
-msgstr "Nén (Lossless): "
+msgstr "Nén (Không mất mát): "
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/impex/png/kis_wdg_options_png.ui:161
 #, kde-format
 msgid "Transparent color: "
-msgstr "Màu trong suốt: "
+msgstr "Màu biểu thị tính trong suốt: "
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: plugins/impex/png/kis_wdg_options_png.ui:175
@@ -43418,7 +43463,7 @@ msgstr ""
 #: plugins/impex/png/kis_wdg_options_png.ui:200
 #, kde-format
 msgid "Interlacing"
-msgstr "Kỹ Thuật Xen Kẽ"
+msgstr "Kỹ thuật xen kẽ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveAsHDR)
 #: plugins/impex/png/kis_wdg_options_png.ui:207
