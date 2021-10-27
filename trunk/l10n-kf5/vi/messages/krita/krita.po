@@ -19632,13 +19632,13 @@ msgstr "Nhập ảnh"
 #: plugins/impex/webp/dlg_webp_import.ui:304
 #, kde-format
 msgid "Advanced"
-msgstr "Cấp Tiến"
+msgstr "Cao Cấp"
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsDocumentGroup)
 #: libs/ui/animation/VideoImportDialog.ui:475
-#, fuzzy, kde-format
+#, kde-format
 msgid "Document"
-msgstr "Tài liệu"
+msgstr "Tài Liệu"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPixelWidth)
 #. i18n: ectx: property (text), widget (QLabel, lblNewWidth)
@@ -19681,7 +19681,7 @@ msgstr "Tài liệu"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:946
 #, kde-format
 msgid "Width:"
-msgstr "Chiều rộng:"
+msgstr "Chiều Rộng:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPixelHeight)
 #. i18n: ectx: property (text), widget (QLabel, lblNewHeight)
@@ -19722,13 +19722,13 @@ msgstr "Chiều rộng:"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1006
 #, kde-format
 msgid "Height:"
-msgstr "Chiều cao:"
+msgstr "Chiều Cao:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsImportVideoScaleGroup)
 #: libs/ui/animation/VideoImportDialog.ui:510
-#, fuzzy, kde-format
+#, kde-format
 msgid "Import Video Scale"
-msgstr "Nhập Tài liệu"
+msgstr "Nhập Tỷ lệ của Video"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilter)
 #. i18n: ectx: property (text), widget (QLabel, videoScaleFilterLabel)
@@ -19737,10 +19737,10 @@ msgstr "Nhập Tài liệu"
 #: libs/ui/animation/wdg_animationrenderer.ui:206
 #: libs/ui/imagesize/wdg_layersize.ui:119
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:43
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Resize intepolation method list label"
 msgid "Filter:"
-msgstr "Bộ lọc:"
+msgstr "Bộ Lọc:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsFFMpegGroup)
 #: libs/ui/animation/VideoImportDialog.ui:571
@@ -43686,34 +43686,34 @@ msgid "Demosaicing"
 msgstr "Để cách"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:421
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:listbox"
 msgid "Method:"
-msgstr "Phương pháp"
+msgstr "Phương Pháp:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:423
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Default D65"
-msgstr "D65 mặc định"
+msgstr "Mặc Định D65"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:424
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Camera"
-msgstr "Nhóm Việt hoá KDE"
+msgstr "Máy Ảnh"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:425
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox set while balance automatically"
 msgid "Automatic"
-msgstr "Chế độ tự động"
+msgstr "Tự Động"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:426
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox set white balance manually"
 msgid "Manual"
-msgstr "Bằng tay"
+msgstr "Thủ Công"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:428
 #, kde-format
@@ -43728,22 +43728,31 @@ msgid ""
 "li><li><emphasis strong='true'>Manual</emphasis>: Set a custom temperature and "
 "green level values.</li></ul></p>"
 msgstr ""
+"<title>Cân Bằng Trắng</title><p> Cấu hình cân bằng trắng cơ bản:</"
+"p><p><ul><li><emphasis strong='true'>Mặc Định D65:</emphasis> Sử dụng cân bằng "
+"trắng D65 ban ngày tiêu chuẩn.</li><li><emphasis strong='true'>Máy Ảnh</"
+"emphasis>: Sử dụng cân bằng trắng chỉ định bởi máy ảnh. Nếu không có sẵn thì "
+"quay trở lại cân bằng trắng trung tính mặc định.</li><li><emphasis "
+"strong='true'>Tự Động:</emphasis> Tính toán cân bằng trắng tự động một cách "
+"trung bình trên toàn bộ hình ảnh.</li><li><emphasis strong='true'>Thủ Công:</"
+"emphasis> Đặt giá trị nhiệt độ và mức màu xanh lục một cách tùy ý.</li></ul></"
+"p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:443
 #, kde-format
 msgctxt "@label:slider"
 msgid "T(K):"
-msgstr ""
+msgstr "Nhiệt Độ (K):"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:444
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<title>Temperature</title><p>Set here the color temperature in Kelvin.</p>"
-msgstr ""
+msgstr "<title>Nhiệt Độ</title><p>Đặt nhiệt độ màu trong độ Kelvin ở đây.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:451
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider Green component"
 msgid "Green:"
 msgstr "Xanh Lục:"
@@ -43754,36 +43763,38 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<p>Set here the green component to set magenta color cast removal level.</p>"
 msgstr ""
+"<p>Đặt thành phần màu xanh lục ở đây để đặt mức loại bỏ hơi hướng của màu hồng "
+"điều.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:455
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:listbox"
 msgid "Highlights:"
-msgstr "Tô sáng"
+msgstr "Chi Tiết Nổi Bật:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:457
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Solid white"
-msgstr "Nhiễu"
+msgstr "Màu Trắng Trơn"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:458
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Unclip"
-msgstr "Hình êlíp"
+msgstr "Không Cắt Xén"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:459
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Blend"
-msgstr "Chế độ chân dung"
+msgstr "Hòa Trộn"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:460
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Rebuild"
-msgstr ""
+msgstr "Tái Dựng"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:462
 #, kde-format
@@ -43797,12 +43808,21 @@ msgid ""
 "a gradual fade to white</li><li><emphasis strong='true'>Rebuild</emphasis>: "
 "reconstruct highlights using a level value</li></ul></p>"
 msgstr ""
+"<title>Điểm/Vùng Nổi Bật</title><p> Chọn phương pháp cắt xén các chi tiết nổi "
+"bật ở đây:</p><p><ul><li><emphasis strong='true'>Màu Trắng Trơn:</emphasis> Sẽ "
+"chuyển tất cả các chi tiết nổi bật sang màu trắng trơn</li><li><emphasis "
+"strong='true'>Không Cắt Xén:</emphasis> Để nguyên các chi tiết nổi bật chưa "
+"cắt xén trong các sắc thái màu hồng khác nhau</li><li><emphasis "
+"strong='true'>Hòa Trộn</emphasis>: Hòa trộn các giá trị cắt xén và chưa cắt "
+"xén với nhau để phai dần sang màu trắng</li><li><emphasis strong='true'>Tái "
+"Dựng</emphasis>: Xây dựng lại các chi tiết nổi bật bằng cách sử dụng một giá "
+"trị Mức (level) cung cấp</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:473
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider Highlight reconstruct level"
 msgid "Level:"
-msgstr "Mức độ:"
+msgstr "Mức:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:477
 #, kde-format
@@ -43811,24 +43831,27 @@ msgid ""
 "<title>Level</title><p>Specify the reconstruct highlight level. Low values "
 "favor whites and high values favor colors.</p>"
 msgstr ""
+"<title>Mức</title><p> Xác định mức tái tạo các chi tiết nổi bật. Giá trị thấp "
+"sẽ thiên hướng về trắng hơn, trong khi giá trị cao sẽ thiên hướng về màu sắc "
+"hơn.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:481
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check"
 msgid "Exposure Correction (E.V)"
-msgstr "Chọn đường"
+msgstr "Hiệu Chỉnh Mức Phơi Sáng (EV)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:482
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "<p>Turn on the exposure correction before interpolation.</p>"
-msgstr ""
+msgstr "<p>Bật hiệu chỉnh mức phơi sáng lên trước khi nội suy.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:485
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider"
 msgid "Linear Shift:"
-msgstr "Chiều rộng điểm ảnh"
+msgstr "Dịch Chuyển Tuyến Tính:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:490
 #, kde-format
@@ -43837,12 +43860,15 @@ msgid ""
 "<title>Shift</title><p>Linear Shift of exposure correction before "
 "interpolation in E.V</p>"
 msgstr ""
+"<title>Dịch Chuyển</title><p> Dịch Chuyển Tuyến Tính (Linear Shift) trong quá "
+"trình sửa lỗi phơi sáng trước khi nội suy EV (Exposure Value: Giá Trị Phơi "
+"Sáng)</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:493
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider"
 msgid "Highlight:"
-msgstr "Tô sáng"
+msgstr "Vùng Nổi Bật:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:498
 #, kde-format
@@ -43852,12 +43878,16 @@ msgid ""
 "correction before interpolation in E.V. Only take effect if Shift Correction "
 "is > 1.0 E.V</p>"
 msgstr ""
+"<title>Điểm/Vùng Nổi bật</title><p> Lượng bảo tồn các chi tiết nổi bật để "
+"chỉnh sửa mức phơi sáng trước khi nội suy trong EV (Exposure Value: giá trị "
+"phơi sáng). Cái này chỉ có hiệu lực nếu mức Sửa Dịch Chuyển (Shift Correction) "
+"là lớn hơn 1.0 EV mà thôi</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:502
 #, kde-format
 msgctxt "@option:check"
 msgid "Correct false colors in highlights"
-msgstr ""
+msgstr "Chỉnh sửa màu giả tạo ở các điểm nổi bật"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:503
 #, kde-format
@@ -43867,12 +43897,15 @@ msgid ""
 "accurately, without 'pink clouds' (and blue highlights under tungsten lamps).</"
 "p>"
 msgstr ""
+"<p>Nếu được bật lên thì hình ảnh với các kênh bị thổi phồng quá mức sẽ được xử "
+"lý một cách chính xác hơn nhiều, và không có 'đám mây hồng' (pink clouds) (và "
+"đồng thời cũng không có các điểm nêu bật màu lam như dưới đèn vonfram).</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:507
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check"
 msgid "Auto Brightness"
-msgstr "Độ sáng"
+msgstr "Độ Sáng Tự Động"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:508
 #, kde-format
@@ -43881,12 +43914,14 @@ msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
 msgstr ""
+"<p>Nếu tắt đi thì sử dụng mức màu trắng cố định và bỏ qua Biểu Đồ Tần Xuất "
+"(histogram) của hình ảnh để điều chỉnh độ sáng.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider"
 msgid "Brightness:"
-msgstr "Độ sáng:"
+msgstr "Độ Sáng:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:516
 #, kde-format
@@ -43895,12 +43930,14 @@ msgid ""
 "<title>Brightness</title><p>Specify the brightness level of output image. The "
 "default value is 1.0 (works in 8-bit mode only).</p>"
 msgstr ""
+"<title>Độ sáng</title><p> Xác định mức độ sáng của hình ảnh đầu ra. Giá trị "
+"mặc định là 1.0 (chỉ hoạt động ở chế độ 8 bit mà thôi).</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:526
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check Black point"
 msgid "Black:"
-msgstr "xanh da trời"
+msgstr "Đen:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:527
 #, kde-format
@@ -43910,6 +43947,9 @@ msgid ""
 "pictures. If you set this option to off, the Black Point value will be "
 "automatically computed.</p>"
 msgstr ""
+"<title>Điểm đen</title><p> Sử dụng một giá trị điểm đen cụ thể để giải mã các "
+"hình ảnh RAW. Nếu bạn tắt tùy chọn này đi thì giá trị Điểm Đen sẽ được tự động "
+"tính toán.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:534
 #, kde-format
@@ -43918,12 +43958,14 @@ msgid ""
 "<title>Black point value</title><p>Specify specific black point value of the "
 "output image.</p>"
 msgstr ""
+"<title>Giá trị điểm đen</title><p> Xác định giá trị điểm đen cụ thể của hình "
+"ảnh đầu ra.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:537
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check White point"
 msgid "White:"
-msgstr "Cân bằng trắng:"
+msgstr "Trắng:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:538
 #, kde-format
@@ -43933,6 +43975,9 @@ msgid ""
 "pictures. If you set this option to off, the White Point value will be "
 "automatically computed.</p>"
 msgstr ""
+"<title>Điểm trắng</title><p> Sử dụng giá trị điểm trắng cụ thể để giải mã các "
+"hình ảnh RAW. Nếu bạn tắt tùy chọn này đi thì giá trị Điểm Trắng sẽ được tự "
+"động tính toán.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:545
 #, kde-format
@@ -43941,48 +43986,52 @@ msgid ""
 "<title>White point value</title><p>Specify specific white point value of the "
 "output image.</p>"
 msgstr ""
+"<title>Giá trị điểm trắng</title><p> Xác định giá trị điểm trắng cụ thể của "
+"hình ảnh đầu ra.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:582
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "White Balance"
-msgstr "Cân bằng trắng:"
+msgstr "Cân Bằng Trắng"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:590
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:listbox"
 msgid "Noise reduction:"
-msgstr "Trình chọn &màu"
+msgstr "Giảm Nhiễu:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:592
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Noise Reduction"
 msgid "None"
-msgstr "Không"
+msgstr "Không Làm"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:593
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Noise Reduction"
 msgid "Wavelets"
-msgstr "Bước sóng:"
+msgstr "Sóng Nhỏ (Wavelets)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:594
 #, kde-format
 msgctxt "@item:inlistbox Noise Reduction"
 msgid "FBDD"
 msgstr ""
+"FBDD (Fake Before demosaicking De-noising: Khử Nhiễu Làm Giả Trước Khi Tái Tạo "
+"Màu)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:595
 #, kde-format
 msgctxt "@item:inlistbox Noise Reduction"
 msgid "CFA Line Denoise"
-msgstr ""
+msgstr "Khử Nhiễu Dòng CFA (Color Filtering Array Line Denoise)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:596
 #, kde-format
 msgctxt "@item:inlistbox Noise Reduction"
 msgid "Impulse Denoise"
-msgstr ""
+msgstr "Khử Nhiễu Xung (Impulse Denoise)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:598
 #, kde-format
@@ -43999,12 +44048,24 @@ msgid ""
 "li><li><emphasis strong='true'>Impulse Denoise</emphasis>: Impulse noise "
 "suppression. It's applied after interpolation.</li></ul></p>"
 msgstr ""
+"<title>Giảm Nhiễu</title><p> Chọn phương pháp khử nhiễu để áp dụng trong quá "
+"trình giải mã RAW ở đây.</p><p><ul><li><emphasis strong='true'>Không Làm</"
+"emphasis>: không giảm nhiễu.</li><li><emphasis strong='true'>Sóng Con:</"
+"emphasis> Khử nhiễu Sóng Con (Wavelets) trong khi vẫn giữ chi tiết thực. Nó "
+"được áp dụng sau khi nội suy.</li><li><emphasis strong='true'>FBDD:</emphasis> "
+"Khử nhiễu bằng phương pháp Làm Giả Trước Khi Tái Tạo Màu (Fake Before "
+"demosaicking De-noising). Nó được áp dụng trước khi nội suy.</li><li><emphasis "
+"strong='true'>CFA Line Denoise:</emphasis> Khử nhiễu Dòng CFA (Color Filtering "
+"Array Line Denoise: Khử Nhiễu Dòng Mảng Lọc Màu). Nó được áp dụng sau khi nội "
+"suy.</li><li><emphasis strong='true'>Khử Nhiễu Xung:</emphasis> Ức chế nhiễu "
+"xung (Impulse noise suppression). Nó được áp dụng sau khi nội suy.</li></ul></"
+"p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:624
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Chromatic Aberration correction"
-msgstr ""
+msgstr "Bật Chỉnh Quang Sai Màu"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:625
 #, kde-format
@@ -44013,12 +44074,14 @@ msgid ""
 "<title>Enable Chromatic Aberration correction</title><p>Enlarge the raw red-"
 "green and blue-yellow axis by the given factors (automatic by default).</p>"
 msgstr ""
+"<title>Bật Chỉnh Quang Sai Màu</title><p> Phóng to trục đỏ-xanh lục và lam-"
+"vàng cơ bản lên, theo các hệ số đã cho (mặc định là tự động).</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:630
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@option:check"
 msgid "Automatic color axis adjustments"
-msgstr "Chỉnh màu"
+msgstr "Điều chỉnh trục màu tự động"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:631
 #, kde-format
@@ -44029,12 +44092,18 @@ msgid ""
 "Aberration change. Note that if you shot blue-red pattern, the method may "
 "fail. In this case, disable this option and tune manually color factors.</p>"
 msgstr ""
+"<title>Hiệu Chỉnh Quang Sai Màu Tự Động</title><p> Nếu tùy chọn này được bật "
+"lên thì nó sẽ gắng sức mình thay đổi các kênh hình ảnh một chút và đánh giá sự "
+"thay đổi Quang Sai Màu là bao nhiêu. Lưu ý rằng, nếu bạn chụp mẫu lam-đỏ (blue-"
+"red pattern) thì phương pháp này có thể sẽ thất bại. Nếu rơi vào trường hợp "
+"này thì bạn cho tắt tùy chọn này đi và điều chỉnh các yếu tố màu một cách thủ "
+"công.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:638
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider"
 msgid "Red-Green:"
-msgstr "Xanh lá cây:"
+msgstr "Đỏ-Xanh Lục:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:643
 #, kde-format
@@ -44043,12 +44112,14 @@ msgid ""
 "<title>Red-Green multiplier</title><p>Set here the amount of correction on red-"
 "green axis</p>"
 msgstr ""
+"<title>Hệ số nhân Đỏ-Xanh Lục</title><p> Đặt lượng điều chỉnh trục đỏ-xanh lục "
+"ở đây</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:646
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:slider"
 msgid "Blue-Yellow:"
-msgstr "vàng"
+msgstr "Lam-Vàng:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:651
 #, kde-format
@@ -44057,36 +44128,38 @@ msgid ""
 "<title>Blue-Yellow multiplier</title><p>Set here the amount of correction on "
 "blue-yellow axis</p>"
 msgstr ""
+"<title>Hệ số nhân cho Lam-Vàng</title><p> Đặt lượng điều chỉnh trục lam-vàng ở "
+"đây</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:670
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Corrections"
-msgstr "Chọn đường"
+msgstr "Chỉnh Sửa"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:678
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:listbox"
 msgid "Camera Profile:"
-msgstr "Trả lời của máy ảnh:"
+msgstr "Hồ Sơ Máy Ảnh:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:680
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Camera Profile"
 msgid "None"
-msgstr "Không"
+msgstr "Không có"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:681
 #, kde-format
 msgctxt "@item:inlistbox Camera Profile"
 msgid "Embedded"
-msgstr ""
+msgstr "Nhúng"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:682
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Camera Profile"
 msgid "Custom"
-msgstr "Tự đặt"
+msgstr "Tùy Chỉnh"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:684
 #, kde-format
@@ -44099,23 +44172,29 @@ msgid ""
 "if it exists.</li><li><emphasis strong='true'>Custom</emphasis>: use a custom "
 "input color space profile.</li></ul></p>"
 msgstr ""
+"<title>Hồ Sơ Máy Ảnh</title><p> Chọn không gian màu đầu vào sử dụng để giải mã "
+"dữ liệu RAW ở đây.</p><p><ul><li><emphasis strong='true'>Không có</emphasis>: "
+"không có hồ sơ màu đầu vào nào được sử dụng trong quá trình giải mã RAW cả.</"
+"li><li><emphasis strong='true'>Nhúng:</emphasis>sử dụng hồ sơ màu đã nhúng "
+"trong tập tin RAW, nếu nó tồn tại.</li><li><emphasis strong='true'>Tùy chỉnh</"
+"emphasis>: sử dụng hồ sơ không gian màu tự cung cấp.</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:695
 #, kde-format
 msgid "ICC Files (*.icc; *.icm)"
-msgstr ""
+msgstr "Tập Tin ICC (*.icc *.icm)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:697
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label:listbox"
 msgid "Workspace:"
-msgstr "Không gian màu"
+msgstr "Không Gian Màu:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:699
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Workspace"
 msgid "Raw (no profile)"
-msgstr "Xoá điểm"
+msgstr "Raw (không có hồ sơ định dạng)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:700
 #, kde-format
@@ -44124,10 +44203,10 @@ msgid "sRGB"
 msgstr ""
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:701
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Workspace"
 msgid "Adobe RGB"
-msgstr "Ngẫu nhiên"
+msgstr "RGB của Adobe"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:702
 #, kde-format
@@ -44142,10 +44221,10 @@ msgid "Pro-Photo"
 msgstr ""
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:704
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item:inlistbox Workspace"
 msgid "Custom"
-msgstr "Tự đặt"
+msgstr "Tùy Chỉnh"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:706
 #, kde-format
@@ -44167,20 +44246,37 @@ msgid ""
 "strong='true'>Custom</emphasis>: use a custom output color space profile.</"
 "li></ul></p>"
 msgstr ""
+"<title>Không Gian Làm Việc</title><p> Chọn không gian màu đầu ra sử dụng để "
+"giải mã dữ liệu RAW (thô sơ) ở đây.</p><p><ul><li><emphasis strong='true'>Raw "
+"(thô sơ, không có hồ sơ định dạng):</emphasis>chế độ này không sử dụng không "
+"gian màu đầu ra trong quá trình giải mã RAW.</li><li><emphasis "
+"strong='true'>sRGB:</emphasis>đây là một không gian màu RGB, được tạo ra bởi "
+"sự hợp tác giữa Hewlett-Packard và Microsoft. Có thể nói, cái này là sự lựa "
+"chọn tốt nhất đối với các hình ảnh dành cho web và ảnh chụp chân dung.</"
+"li><li><emphasis strong='true'>Adobe RGB:</emphasis>không gian màu này là một "
+"không gian màu RGB mở rộng, được phát triển bởi Adobe. Nó được sử dụng cho các "
+"ứng dụng nhiếp ảnh như quảng cáo và mỹ thuật.</li><li><emphasis "
+"strong='true'>Gamut Rộng:</emphasis>không gian màu này là một phiên bản mở "
+"rộng của không gian màu RGB của Adobe.</li><li><emphasis strong='true'>Pro-"
+"Photo:</emphasis>không gian màu này là một không gian màu RGB, được phát triển "
+"bởi Kodak, cung cấp một gam màu đặc biệt lớn, và nó được thiết kế để sử dụng "
+"với ý tưởng dành cho các sản phẩm kết quả của nhiếp ảnh.</li><li><emphasis "
+"strong='true'>Tùy chỉnh</emphasis>: sử dụng hồ sơ không gian màu đầu ra tùy "
+"chỉnh.</li></ul></p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:729
 #, kde-format
 msgid "ICC Files (*.icc *.icm)"
-msgstr ""
+msgstr "Tập Tin ICC (*.icc *.icm)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:741
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Color Management"
-msgstr "Quản lí màu"
+msgstr "Quản Lý Màu Sắc"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:947
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Threshold:"
 msgstr "Ngưỡng:"
@@ -44192,12 +44288,13 @@ msgid ""
 "<title>Threshold</title><p>Set here the noise reduction threshold value to use."
 "</p>"
 msgstr ""
+"<title>Ngưỡng</title><p> Đặt giá trị ngưỡng giảm nhiễu ở đây để sử dụng.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:961
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Luminance:"
-msgstr "Khoảng cách:"
+msgstr "Độ Sáng:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:962
 #, kde-format
@@ -44205,12 +44302,13 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<title>Luminance</title><p>Amount of Luminance impulse noise reduction.</p>"
 msgstr ""
+"<title>Độ sáng</title><p> Lượng giảm nhiễu xung bất chợt trong Độ Sáng.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:964
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Chrominance:"
-msgstr "Sắc:"
+msgstr "Độ Màu:"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:965
 #, kde-format
@@ -44218,6 +44316,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<title>Chrominance</title><p>Amount of Chrominance impulse noise reduction.</p>"
 msgstr ""
+"<title>Độ Màu</title><p> Lượng giảm nhiễu xung bất chợt trong màu sắc.</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/rcombobox.cpp:74
 #: plugins/impex/raw/3rdparty/libkdcraw/src/rnuminput.cpp:84
@@ -48470,11 +48569,11 @@ msgstr "Tài Liệu:"
 
 #: plugins/python/colorspace/uicolorspace.py:61
 msgid "Color depth:"
-msgstr "Độ sâu của màu sắc:"
+msgstr "Độ sâu màu sắc:"
 
 #: plugins/python/colorspace/uicolorspace.py:62
 msgid "Color profile:"
-msgstr "Hồ sơ về màu sắc:"
+msgstr "Hồ sơ màu sắc:"
 
 #: plugins/python/colorspace/uicolorspace.py:129
 msgid "The selected documents has been converted."
